@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-24 20:49 UTC"
+date: "2026-04-24 21:22 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-24 20:49 UTC
+Generated 2026-04-24 21:22 UTC
 
-- Cycles recorded: **42**
-- Time span: 23.2h (~1.81 cycles/h)
+- Cycles recorded: **44**
+- Time span: 23.7h (~1.86 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 32 |
+| INCONCLUSIVE | 34 |
 | FALSIFIED | 7 |
 | SUPPORTED | 3 |
 
@@ -66,8 +66,6 @@ Generated 2026-04-24 20:49 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-24 09:35 UTC | `INCONCLUSIVE` | Bass Nilpotency Class of Augmented SAT Group Ring Bounded by Reso |
-| 2026-04-24 10:44 UTC | `INCONCLUSIVE` | Selmer Group 2-Rank of Pythagorean Triple CNF Formula Equals Reso |
 | 2026-04-24 10:50 UTC | `INCONCLUSIVE` | Toric Degeneration Polytope Volume Bounds Resolution Proof Size |
 | 2026-04-24 11:21 UTC | `INCONCLUSIVE` | Clifford Algebroid Rank of SAT Dependency Graph Equals Resolution |
 | 2026-04-24 11:55 UTC | `INCONCLUSIVE` | K-theory and SAT |
@@ -81,6 +79,8 @@ Generated 2026-04-24 20:49 UTC
 | 2026-04-24 19:18 UTC | `INCONCLUSIVE` | Hilbert Function of Ideal Bounds Communication Complexity |
 | 2026-04-24 19:54 UTC | `INCONCLUSIVE` | Matrix Rigidity Bounds Communication Complexity of 3-SAT Instance |
 | 2026-04-24 20:34 UTC | `INCONCLUSIVE` | Ideal Generator Count and Bounded Arithmetic Proof Size |
+| 2026-04-24 21:05 UTC | `INCONCLUSIVE` | Orbit Signature Decay Implies Communication Entropy Barrier Growt |
+| 2026-04-24 21:22 UTC | `INCONCLUSIVE` | ACC^0 Circuit Size Bounded by Finite Field Equation Solution Coun |
 
 ## How to read the reports
 

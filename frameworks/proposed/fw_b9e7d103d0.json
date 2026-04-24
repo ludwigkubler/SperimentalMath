@@ -1,6 +1,6 @@
 {
   "framework_id": "fw_b9e7d103d0",
-  "ts": 1777049864.264585,
+  "ts": 1777064743.027101,
   "generation": 0,
   "parent_framework_id": "",
   "mutation_from_parent": "",
@@ -56,7 +56,9 @@
     "A3: If a family of circuits computes a function with high cross_correlation_flow norm, then its communication complexity is Ω(n^δ) for some δ > 0."
   ],
   "status": "ELABORATING",
-  "sub_conjecture_entry_ids": [],
+  "sub_conjecture_entry_ids": [
+    "12710ad6f725"
+  ],
   "fitness_components": {},
   "fitness": 0.0,
   "paper_path": "",
