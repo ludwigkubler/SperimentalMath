@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-24 22:27 UTC"
+date: "2026-04-24 23:33 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-24 22:27 UTC
+Generated 2026-04-24 23:33 UTC
 
-- Cycles recorded: **46**
-- Time span: 24.8h (~1.86 cycles/h)
+- Cycles recorded: **48**
+- Time span: 25.9h (~1.85 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 35 |
+| INCONCLUSIVE | 37 |
 | FALSIFIED | 8 |
 | SUPPORTED | 3 |
 
@@ -66,8 +66,6 @@ Generated 2026-04-24 22:27 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-24 11:55 UTC | `INCONCLUSIVE` | K-theory and SAT |
-| 2026-04-24 13:08 UTC | `FALSIFIED` | Convex Hull Facet Count and Resolution Proof Size |
 | 2026-04-24 13:38 UTC | `INCONCLUSIVE` | Quantum Dimension of Clause Algebra Bounds Communication Complexi |
 | 2026-04-24 16:16 UTC | `INCONCLUSIVE` | Minimal Ideal Generators and Resolution Proof Size |
 | 2026-04-24 16:30 UTC | `INCONCLUSIVE` | Vandermonde Rank of Clause-Variable Incidence Matrix Predicts Res |
@@ -81,6 +79,8 @@ Generated 2026-04-24 22:27 UTC
 | 2026-04-24 21:22 UTC | `INCONCLUSIVE` | ACC^0 Circuit Size Bounded by Finite Field Equation Solution Coun |
 | 2026-04-24 22:09 UTC | `FALSIFIED` | Average-Case SAT Hardness Linked to Finite Field Solution Counts |
 | 2026-04-24 22:27 UTC | `INCONCLUSIVE` | Specht Module Dimensions Bound ABP Size for Permutation Polynomia |
+| 2026-04-24 23:06 UTC | `INCONCLUSIVE` | Seed Length of Nisan-Wigderson PRG from Finite Semifields |
+| 2026-04-24 23:33 UTC | `INCONCLUSIVE` | Tseitin Resolution Width and Expander Eigenvalues |
 
 ## How to read the reports
 
