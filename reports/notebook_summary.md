@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-24 19:18 UTC"
+date: "2026-04-24 20:34 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-24 19:18 UTC
+Generated 2026-04-24 20:34 UTC
 
-- Cycles recorded: **40**
-- Time span: 21.6h (~1.85 cycles/h)
+- Cycles recorded: **42**
+- Time span: 22.9h (~1.83 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 30 |
+| INCONCLUSIVE | 32 |
 | FALSIFIED | 7 |
 | SUPPORTED | 3 |
 
@@ -66,8 +66,6 @@ Generated 2026-04-24 19:18 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-24 08:30 UTC | `FALSIFIED` | Clifford Algebra Signature of 2-Clause Ideal Bounds Resolution Wi |
-| 2026-04-24 09:03 UTC | `INCONCLUSIVE` | Castelnuovo-Mumford Regularity of Clause-Variable Ideal Equals Re |
 | 2026-04-24 09:35 UTC | `INCONCLUSIVE` | Bass Nilpotency Class of Augmented SAT Group Ring Bounded by Reso |
 | 2026-04-24 10:44 UTC | `INCONCLUSIVE` | Selmer Group 2-Rank of Pythagorean Triple CNF Formula Equals Reso |
 | 2026-04-24 10:50 UTC | `INCONCLUSIVE` | Toric Degeneration Polytope Volume Bounds Resolution Proof Size |
@@ -81,6 +79,8 @@ Generated 2026-04-24 19:18 UTC
 | 2026-04-24 18:09 UTC | `INCONCLUSIVE` | Minimal ABP Size and Permutation Polynomial Degree |
 | 2026-04-24 18:43 UTC | `INCONCLUSIVE` | Hypergraph Discrepancy and Communication Complexity of 3-SAT |
 | 2026-04-24 19:18 UTC | `INCONCLUSIVE` | Hilbert Function of Ideal Bounds Communication Complexity |
+| 2026-04-24 19:54 UTC | `INCONCLUSIVE` | Matrix Rigidity Bounds Communication Complexity of 3-SAT Instance |
+| 2026-04-24 20:34 UTC | `INCONCLUSIVE` | Ideal Generator Count and Bounded Arithmetic Proof Size |
 
 ## How to read the reports
 
