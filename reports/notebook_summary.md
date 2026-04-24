@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-24 17:19 UTC"
+date: "2026-04-24 18:43 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-24 17:19 UTC
+Generated 2026-04-24 18:43 UTC
 
-- Cycles recorded: **37**
-- Time span: 19.7h (~1.88 cycles/h)
+- Cycles recorded: **39**
+- Time span: 21.0h (~1.85 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 27 |
+| INCONCLUSIVE | 29 |
 | FALSIFIED | 7 |
 | SUPPORTED | 3 |
 
@@ -66,8 +66,6 @@ Generated 2026-04-24 17:19 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-24 06:55 UTC | `INCONCLUSIVE` | Galois Group Orbit Size of Symmetrized SAT Polynomial Equals Reso |
-| 2026-04-24 07:27 UTC | `INCONCLUSIVE` | 2-Cohomotopy Class Count of Clause-Link Complex Equals 3-SAT Reso |
 | 2026-04-24 08:00 UTC | `INCONCLUSIVE` | Kazhdan Constant of Clause-Variable Group Action Bounds Resolutio |
 | 2026-04-24 08:30 UTC | `FALSIFIED` | Clifford Algebra Signature of 2-Clause Ideal Bounds Resolution Wi |
 | 2026-04-24 09:03 UTC | `INCONCLUSIVE` | Castelnuovo-Mumford Regularity of Clause-Variable Ideal Equals Re |
@@ -81,6 +79,8 @@ Generated 2026-04-24 17:19 UTC
 | 2026-04-24 16:16 UTC | `INCONCLUSIVE` | Minimal Ideal Generators and Resolution Proof Size |
 | 2026-04-24 16:30 UTC | `INCONCLUSIVE` | Vandermonde Rank of Clause-Variable Incidence Matrix Predicts Res |
 | 2026-04-24 17:19 UTC | `INCONCLUSIVE` | Average Sensitivity of Clause-Indicator Function Bounds Resolutio |
+| 2026-04-24 18:09 UTC | `INCONCLUSIVE` | Minimal ABP Size and Permutation Polynomial Degree |
+| 2026-04-24 18:43 UTC | `INCONCLUSIVE` | Hypergraph Discrepancy and Communication Complexity of 3-SAT |
 
 ## How to read the reports
 
