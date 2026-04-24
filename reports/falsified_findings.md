@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — FALSIFIED conjectures"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-24 21:22 UTC"
+date: "2026-04-24 22:27 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,7 +13,7 @@ colorlinks: true
 
 # SEC P vs NP — FALSIFIED conjectures (negative results)
 
-Compiled 2026-04-24 21:22 UTC. 7 conjectures falsified with counterexample.
+Compiled 2026-04-24 22:27 UTC. 8 conjectures falsified with counterexample.
 
 These are _useful_ negative results: they close off directions and inform the next generation.
 
@@ -396,3 +396,41 @@ KeyError: 'seed'
 ### Judge reasoning
 
 Multiple counterexamples show actual facet counts (e.g., 7, 2, 3) vastly below conjectured Θ(2^{n/2}) values (e.g., 128, 6, 16). | next: Analyze specific 3-SAT instances where convex hull facet counts deviate from Θ(2^{n/2}), verifying resolution proof size scaling.
+
+---
+
+## Average-Case SAT Hardness Linked to Finite Field Solution Counts
+
+- **Verdict**: `FALSIFIED`
+- **Bridge**: Algebraic geometry (solution counts of systems over finite fields) × Average-case hardness of 3-SAT
+- **Recorded**: 2026-04-24 22:09 UTC
+- **Entry ID**: `385e517e003a`
+
+### Statement
+
+For a random 3-SAT instance with n variables and m clauses, the number of solutions over GF(2) is Θ(2^{n - c * log n}) if and only if the instance is hard on average for polynomial-time algorithms.
+
+### Rationale
+
+Solution counts over finite fields encode combinatorial structure that may correlate with algorithmic difficulty. By linking solution density to average-case hardness, we could uncover algebraic barriers to efficient SAT solving.
+
+### Novelty
+
+- Judge: `NOVEL` over 0 arXiv hits
+
+### Empirical Test
+
+- exit code: `0`, elapsed: `0.10s`
+
+```
+TRIAL: {'metric_name': 'Average Solution Count Exponent', 'metric_value': 2.4626649019789176e-05, 'instances_tested': 108, 'conjecture_holds': False, 'counterexample': 'Exponent out of expected range'}
+TRIAL: {'metric_name': 'Average Solution Count Exponent', 'metric_value': 2.581689555482044e-05, 'instances_tested': 86, 'conjecture_holds': False, 'counterexample': 'Exponent out of expected range'}
+TRIAL: {'metric_name': 'Average Solution Count Exponent', 'metric_value': 2.5054938567959417e-05, 'instances_tested': 108, 'conjecture_holds': False, 'counterexample': 'Exponent out of expected range'}
+TRIAL: {'metric_name': 'Average Solution Count Exponent', 'metric_value': 2.441250424570405e-05, 'instances_tested': 90, 'conjecture_holds': False, 'counterexample': 'Exponent out of expected range'}
+TRIAL: {'metric_name': 'Average Solution Count Exponent', 'metric_value': 2.4025796207064894e-05, 'instances_tested': 103, 'conjecture_holds': False, 'counterexample': 'Exponent out of expected range'}
+RESULT: FALSIFIED counterexample="Exponent out of expected range" first_failing_seed=11
+```
+
+### Judge reasoning
+
+The metric values (~2.5e-5) are orders of magnitude smaller than the conjectured Θ(2^{n - c log n}) exponent, directly contradicting the conjecture's equivalence claim. | next: Audit the metric's definition to verify if it correctly measures solution count exponents for GF(2) instances

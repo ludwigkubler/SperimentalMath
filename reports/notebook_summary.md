@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-24 21:22 UTC"
+date: "2026-04-24 22:27 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,18 +13,18 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-24 21:22 UTC
+Generated 2026-04-24 22:27 UTC
 
-- Cycles recorded: **44**
-- Time span: 23.7h (~1.86 cycles/h)
+- Cycles recorded: **46**
+- Time span: 24.8h (~1.86 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 34 |
-| FALSIFIED | 7 |
+| INCONCLUSIVE | 35 |
+| FALSIFIED | 8 |
 | SUPPORTED | 3 |
 
 ## Mathematical fields explored (field_A)
@@ -66,8 +66,6 @@ Generated 2026-04-24 21:22 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-24 10:50 UTC | `INCONCLUSIVE` | Toric Degeneration Polytope Volume Bounds Resolution Proof Size |
-| 2026-04-24 11:21 UTC | `INCONCLUSIVE` | Clifford Algebroid Rank of SAT Dependency Graph Equals Resolution |
 | 2026-04-24 11:55 UTC | `INCONCLUSIVE` | K-theory and SAT |
 | 2026-04-24 13:08 UTC | `FALSIFIED` | Convex Hull Facet Count and Resolution Proof Size |
 | 2026-04-24 13:38 UTC | `INCONCLUSIVE` | Quantum Dimension of Clause Algebra Bounds Communication Complexi |
@@ -81,6 +79,8 @@ Generated 2026-04-24 21:22 UTC
 | 2026-04-24 20:34 UTC | `INCONCLUSIVE` | Ideal Generator Count and Bounded Arithmetic Proof Size |
 | 2026-04-24 21:05 UTC | `INCONCLUSIVE` | Orbit Signature Decay Implies Communication Entropy Barrier Growt |
 | 2026-04-24 21:22 UTC | `INCONCLUSIVE` | ACC^0 Circuit Size Bounded by Finite Field Equation Solution Coun |
+| 2026-04-24 22:09 UTC | `FALSIFIED` | Average-Case SAT Hardness Linked to Finite Field Solution Counts |
+| 2026-04-24 22:27 UTC | `INCONCLUSIVE` | Specht Module Dimensions Bound ABP Size for Permutation Polynomia |
 
 ## How to read the reports
 

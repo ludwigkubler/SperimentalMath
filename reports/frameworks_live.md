@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — Frameworks (live)"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-24 21:22 UTC"
+date: "2026-04-24 22:27 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,7 +13,7 @@ colorlinks: true
 
 # SEC P vs NP — Frameworks (live)
 
-Compiled 2026-04-24 21:22 UTC. Tracking 1 active + 0 dead frameworks.
+Compiled 2026-04-24 22:27 UTC. Tracking 1 active + 0 dead frameworks.
 
 ## Summary table
 
