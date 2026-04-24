@@ -1,0 +1,12 @@
+# SperimentalMath gitignore
+# Large artifacts auto-generated locally — keep lean source, skip build outputs
+*.log
+*.aux
+*.out
+*.toc
+*.bbl
+*.blg
+.lake/
+lake-manifest.json
+*.olean
+
