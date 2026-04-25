@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-25 00:39 UTC"
+date: "2026-04-25 01:12 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-25 00:39 UTC
+Generated 2026-04-25 01:12 UTC
 
-- Cycles recorded: **50**
-- Time span: 27.0h (~1.85 cycles/h)
+- Cycles recorded: **52**
+- Time span: 27.5h (~1.89 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 39 |
+| INCONCLUSIVE | 41 |
 | FALSIFIED | 8 |
 | SUPPORTED | 3 |
 
@@ -66,8 +66,6 @@ Generated 2026-04-25 00:39 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-24 16:30 UTC | `INCONCLUSIVE` | Vandermonde Rank of Clause-Variable Incidence Matrix Predicts Res |
-| 2026-04-24 17:19 UTC | `INCONCLUSIVE` | Average Sensitivity of Clause-Indicator Function Bounds Resolutio |
 | 2026-04-24 18:09 UTC | `INCONCLUSIVE` | Minimal ABP Size and Permutation Polynomial Degree |
 | 2026-04-24 18:43 UTC | `INCONCLUSIVE` | Hypergraph Discrepancy and Communication Complexity of 3-SAT |
 | 2026-04-24 19:18 UTC | `INCONCLUSIVE` | Hilbert Function of Ideal Bounds Communication Complexity |
@@ -81,6 +79,8 @@ Generated 2026-04-25 00:39 UTC
 | 2026-04-24 23:33 UTC | `INCONCLUSIVE` | Tseitin Resolution Width and Expander Eigenvalues |
 | 2026-04-25 00:09 UTC | `INCONCLUSIVE` | Finite Geometry Line Count Bounds EF Proof Size |
 | 2026-04-25 00:39 UTC | `INCONCLUSIVE` | Dimension of Variety from Tautology Ideal Bounds EF Proof Size |
+| 2026-04-25 01:12 UTC | `INCONCLUSIVE` | [RETROACTIVE INVALIDATION] Frobenius-Schur Indicator of Clause-Sy |
+| 2026-04-25 01:12 UTC | `INCONCLUSIVE` | [RETROACTIVE INVALIDATION] Ideal Generators Count Bounds Communic |
 
 ## How to read the reports
 
