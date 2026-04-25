@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-24 23:33 UTC"
+date: "2026-04-25 00:39 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-24 23:33 UTC
+Generated 2026-04-25 00:39 UTC
 
-- Cycles recorded: **48**
-- Time span: 25.9h (~1.85 cycles/h)
+- Cycles recorded: **50**
+- Time span: 27.0h (~1.85 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 37 |
+| INCONCLUSIVE | 39 |
 | FALSIFIED | 8 |
 | SUPPORTED | 3 |
 
@@ -66,8 +66,6 @@ Generated 2026-04-24 23:33 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-24 13:38 UTC | `INCONCLUSIVE` | Quantum Dimension of Clause Algebra Bounds Communication Complexi |
-| 2026-04-24 16:16 UTC | `INCONCLUSIVE` | Minimal Ideal Generators and Resolution Proof Size |
 | 2026-04-24 16:30 UTC | `INCONCLUSIVE` | Vandermonde Rank of Clause-Variable Incidence Matrix Predicts Res |
 | 2026-04-24 17:19 UTC | `INCONCLUSIVE` | Average Sensitivity of Clause-Indicator Function Bounds Resolutio |
 | 2026-04-24 18:09 UTC | `INCONCLUSIVE` | Minimal ABP Size and Permutation Polynomial Degree |
@@ -81,6 +79,8 @@ Generated 2026-04-24 23:33 UTC
 | 2026-04-24 22:27 UTC | `INCONCLUSIVE` | Specht Module Dimensions Bound ABP Size for Permutation Polynomia |
 | 2026-04-24 23:06 UTC | `INCONCLUSIVE` | Seed Length of Nisan-Wigderson PRG from Finite Semifields |
 | 2026-04-24 23:33 UTC | `INCONCLUSIVE` | Tseitin Resolution Width and Expander Eigenvalues |
+| 2026-04-25 00:09 UTC | `INCONCLUSIVE` | Finite Geometry Line Count Bounds EF Proof Size |
+| 2026-04-25 00:39 UTC | `INCONCLUSIVE` | Dimension of Variety from Tautology Ideal Bounds EF Proof Size |
 
 ## How to read the reports
 
