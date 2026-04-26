@@ -149,6 +149,12 @@ if [ -d "$SRC/replay" ]; then
     rsync -a --include='*.tar.gz' --exclude='*' "$SRC/replay/" replay/
 fi
 
+# --- 11a. Weekly replay reports (drift detection — Fase F)
+if [ -d "$SRC/replay_reports" ]; then
+    mkdir -p replay_reports
+    rsync -a --include='*.json' --include='*.md' --exclude='*' "$SRC/replay_reports/" replay_reports/
+fi
+
 # --- 11b. Lean counterexample formalizations (Fase B)
 if [ -d "$SRC/lean_counterexamples" ]; then
     mkdir -p lean_counterexamples

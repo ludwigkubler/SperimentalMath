@@ -1,0 +1,50 @@
+{
+  "ts": 1777244072.3541777,
+  "picked": 5,
+  "since_days": 30,
+  "image": "sec-pvsnp-replay",
+  "summary_counts": {
+    "crash": 3,
+    "timeout": 1,
+    "match": 1
+  },
+  "results": [
+    {
+      "tarball": "1382ec2d1b2a.tar.gz",
+      "rc": 1,
+      "elapsed_s": 0.0,
+      "result": "crash",
+      "first_line": "",
+      "stderr_tail": "2a/run.py\", line 96, in <module>\n    result = run_trial(seed)\n             ^^^^^^^^^^^^^^^\n  File \"/tmp/sec_replay.N038bi/replay_1382ec2d1b2a/run.py\", line 77, in run_trial\n    lambda_2 = eigenvalues(A)[1]\n               ^^^^^^^^^^^^^^\n  File \"/tmp/sec_replay.N038bi/replay_1382ec2d1b2a/run.py\", line 37, in eigenvalues\n    lambda_max = max(abs(eigenvalue) for eigenvalue in numpy.linalg.eigvals(A))\n                                                       ^^^^^\nNameError: name 'numpy' is not defined\n"
+    },
+    {
+      "tarball": "393deeb01c84.tar.gz",
+      "rc": 1,
+      "elapsed_s": 0.0,
+      "result": "crash",
+      "first_line": "",
+      "stderr_tail": "3deeb01c84/run.py\", line 88, in <module>\n    result = run_trial(seed)\n             ^^^^^^^^^^^^^^^\n  File \"/tmp/sec_replay.41BWfT/replay_393deeb01c84/run.py\", line 61, in run_trial\n    solution_count = count_solutions(equations)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/sec_replay.41BWfT/replay_393deeb01c84/run.py\", line 18, in count_solutions\n    rows, cols = len(matrix), len(matrix[0])\n                              ^^^^^^^^^^^^^^\nTypeError: object of type 'int' has no len()\n"
+    },
+    {
+      "tarball": "29b1dc30e5d7.tar.gz",
+      "result": "timeout",
+      "elapsed_s": 180.10017466545105
+    },
+    {
+      "tarball": "3f240ab15f54.tar.gz",
+      "rc": 1,
+      "elapsed_s": 0.2,
+      "result": "crash",
+      "first_line": "",
+      "stderr_tail": "jw636/replay_3f240ab15f54/run.py\", line 119, in <module>\n    result = run_trial(seed)\n             ^^^^^^^^^^^^^^^\n  File \"/tmp/sec_replay.bjw636/replay_3f240ab15f54/run.py\", line 101, in run_trial\n    polynomials = CNF_to_polynomials(CNF)\n                  ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/sec_replay.bjw636/replay_3f240ab15f54/run.py\", line 83, in CNF_to_polynomials\n    bit_position = variables.index(v)\n                   ^^^^^^^^^^^^^^^\nAttributeError: 'set' object has no attribute 'index'\n"
+    },
+    {
+      "tarball": "025337d8bbcc.tar.gz",
+      "rc": 0,
+      "elapsed_s": 0.0,
+      "result": "match",
+      "first_line": "MATCH",
+      "stderr_tail": ""
+    }
+  ]
+}

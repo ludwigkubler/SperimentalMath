@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-26 22:22 UTC"
+date: "2026-04-26 22:55 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-26 22:22 UTC
+Generated 2026-04-26 22:55 UTC
 
-- Cycles recorded: **119**
-- Time span: 72.7h (~1.64 cycles/h)
+- Cycles recorded: **120**
+- Time span: 73.2h (~1.64 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 100 |
+| INCONCLUSIVE | 101 |
 | FALSIFIED | 14 |
 | SUPPORTED | 4 |
 | BARRIER_HIT | 1 |
@@ -67,7 +67,6 @@ Generated 2026-04-26 22:22 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-26 17:10 UTC | `INCONCLUSIVE` | Nisan-Wigderson Seed Length Bounded by Finite Geometry Line Count |
 | 2026-04-26 17:44 UTC | `INCONCLUSIVE` | Persistent Homology Bottleneck Distance Lower-Bounds Set-Disjoint |
 | 2026-04-26 18:14 UTC | `INCONCLUSIVE` | Antichain Cover Number of KW Relation Lower-Bounds Monotone Formu |
 | 2026-04-26 18:40 UTC | `INCONCLUSIVE` | Tropical Lipschitz Stability of Discrepancy under Fourier Coeffic |
@@ -82,6 +81,7 @@ Generated 2026-04-26 22:22 UTC
 | 2026-04-26 21:46 UTC | `INCONCLUSIVE` | Combinatorial Discrepancy of NW Designs Predicts Generator Bias o |
 | 2026-04-26 22:20 UTC | `FALSIFIED` | Tropical Max-Aggregation Monotonicity of MinimalFourierCoefficien |
 | 2026-04-26 22:22 UTC | `BARRIER_HIT` | Schur-Horn Majorization Gap Lower-Bounds Sign-Rank Discrepancy |
+| 2026-04-26 22:55 UTC | `INCONCLUSIVE` | Pseudoexpectation Spectral Gap Lower-Bounds SoS Refutation Degree |
 
 ## How to read the reports
 
