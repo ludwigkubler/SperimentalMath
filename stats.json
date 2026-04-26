@@ -1,15 +1,43 @@
 {
-  "last_update_utc": "2026-04-25T01:13:05Z",
-  "total_cycles": 52,
+  "last_update_utc": "2026-04-26T21:23:07Z",
+  "total_cycles": 113,
   "verdict_counts": {
-    "INCONCLUSIVE": 41,
-    "SUPPORTED": 3,
-    "FALSIFIED": 8
+    "INCONCLUSIVE": 96,
+    "SUPPORTED": 4,
+    "FALSIFIED": 13
   },
-  "unique_field_A": 51,
+  "unique_field_A": 100,
   "top_fields_A": [
     [
+      "Ergodic Circuit Framework (communication complexity via dynamical systems)",
+      4
+    ],
+    [
+      "{'framework_name': 'Ergodic Circuit Framework', 'math_branch': 'COMM_COMPLEXITY'}",
+      4
+    ],
+    [
+      "Fourier analysis of boolean functions",
+      3
+    ],
+    [
       "Noncommutative geometry",
+      2
+    ],
+    [
+      "Representation theory of symmetric groups",
+      2
+    ],
+    [
+      "Ergodic Circuit Framework (COMM_COMPLEXITY)",
+      2
+    ],
+    [
+      "Matroid Theory",
+      2
+    ],
+    [
+      "Tropical geometry",
       2
     ],
     [
@@ -38,34 +66,6 @@
     ],
     [
       "Toric geometry (via Gröbner degenerations)",
-      1
-    ],
-    [
-      "Arithmetic geometry (Tate-Shafarevich groups)",
-      1
-    ],
-    [
-      "Geometric Langlands correspondence",
-      1
-    ],
-    [
-      "Algebraic graph theory (chromatic polynomials)",
-      1
-    ],
-    [
-      "Clifford algebras over real vector spaces",
-      1
-    ],
-    [
-      "Algebraic cycles (Chow groups over finite fields)",
-      1
-    ],
-    [
-      "Algebraic lattice theory (Möbius functions of flow lattices)",
-      1
-    ],
-    [
-      "Directed algebraic topology (d-space homology)",
       1
     ]
   ]

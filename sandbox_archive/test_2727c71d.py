@@ -1,0 +1,250 @@
+import random
+import itertools
+from collections import deque
+import sys
+
+# We are working over GF(2), and need to compute resolution width and quadratic form signature
+# Since we cannot use numpy, we implement basic linear algebra and resolution simulation
+
+random.seed(42)
+
+def resolve_clause(c1, c2):
+    """Perform resolution on two clauses (as sets of literals)."""
+    for lit in c1:
+        if -lit in c2:
+            resolvent = (c1 | c2) - {lit, -lit}
+            return resolvent
+    return None
+
+def resolution_width(clauses, n):
+    """Compute minimal resolution width using bounded DPLL-style search with width tracking."""
+    # We simulate resolution refutation and track the maximum clause width (number of literals)
+    # If the formula is unsatisfiable, we try to derive the empty clause and record max width seen
+    # We use a simple BFS over derived clauses, bounded by width and total clauses
+    
+    # Normalize clauses: sort and make immutable
+    clause_set = set(frozenset(c) for c in clauses)
+    derived = set(clause_set)
+    queue = deque(clause_set)
+    max_width = max(len(c) for c in clauses) if clauses else 0
+    
+    # We limit search to avoid explosion: bound on number of derived clauses
+    MAX_CLAUSES = 10000
+    while queue and len(derived) < MAX_CLAUSES:
+        c1 = queue.popleft()
+        for c2 in list(derived):
+            resolvent = resolve_clause(c1, c2)
+            if resolvent is None:
+                continue
+            if len(resolvent) == 0:
+                # Empty clause derived
+                return max(max_width, max(len(c) for c in [c1, c2]))
+            if len(resolvent) > n + 1:  # Sanity bound
+                continue
+            f_res = frozenset(resolvent)
+            if f_res not in derived:
+                derived.add(f_res)
+                queue.append(f_res)
+                max_width = max(max_width, len(resolvent))
+    
+    # If we didn't derive empty clause, assume satisfiable -> no refutation
+    # But we are only testing on unsatisfiable instances? Actually, width is defined for refutation
+    # So for satisfiable formulas, resolution width is infinity, but we skip those
+    # Instead, we return None for satisfiable (cannot refute)
+    return max_width if frozenset() in derived else None
+
+def clause_to_vector(clause, n):
+    """Convert a 2-clause to a vector index in the space of all possible 2-clauses."""
+    # Represent 2-clauses as (sign, var1, var2) with var1 < var2
+    # There are 2 * C(n,2) + n = 2*(n*(n-1)//2) + n = n*(n-1) + n = n^2 possible 2-clauses
+    # But we only care about unordered pairs with signs
+    lits = sorted(list(clause))
+    if len(lits) != 2:
+        return None
+    a, b = lits
+    va, sa = abs(a), (0 if a > 0 else 1)
+    vb, sb = abs(b), (0 if b > 0 else 1)
+    if va > vb:
+        va, vb, sa, sb = vb, va, sb, sa
+    if va == vb:
+        return None  # tautology or invalid
+    # Index: (va-1, vb-1, sa, sb)
+    idx = sa * 2 * n * n + sb * n * n + (va-1) * n + (vb-1)
+    return idx
+
+def generate_all_2clauses(n):
+    """Generate all possible 2-clauses over n variables."""
+    clauses = []
+    for i in range(1, n+1):
+        for j in range(i+1, n+1):
+            for si in [1, -1]:
+                for sj in [1, -1]:
+                    clauses.append(frozenset([si*i, sj*j]))
+    return clauses
+
+def compute_ideal_2clauses(clauses, n):
+    """Compute the ideal of implied 2-clauses via iterative multiplication and reduction mod 2."""
+    # Start with all 2-clauses from original clauses (if any) and generate implied ones
+    # In GF(2), the ideal is closed under addition (XOR) and multiplication by variables
+    # But we work with logical implication: we derive new 2-clauses via resolution and subsumption
+    
+    # First, extract all 2-clauses from the formula
+    two_clauses = set()
+    for clause in clauses:
+        if len(clause) == 2:
+            two_clauses.add(frozenset(clause))
+    
+    # Also, we can derive 2-clauses via resolution of 3-clauses
+    # We do iterative resolution until no new 2-clauses
+    new_derived = True
+    all_clauses = [frozenset(c) for c in clauses]
+    while new_derived:
+        new_derived = False
+        next_two = set(two_clauses)
+        for c1 in all_clauses:
+            for c2 in all_clauses:
+                res = resolve_clause(c1, c2)
+                if res is not None and len(res) == 2:
+                    f_res = frozenset(res)
+                    if f_res not in next_two:
+                        next_two.add(f_res)
+                        new_derived = True
+        two_clauses = next_two
+    
+    return two_clauses
+
+def build_quadratic_form_matrix(two_clauses, n):
+    """Build the symmetric GF(2) matrix of pairwise products of 2-clause indicators."""
+    # We consider the vector space of all possible 2-clauses (size ~ n^2)
+    all_twos = generate_all_2clauses(n)
+    size = len(all_twos)
+    idx_map = {clause: i for i, clause in enumerate(all_twos)}
+    
+    # Initialize adjacency matrix over GF(2): A[i][j] = 1 if clause_i and clause_j "interact"
+    # How to define pairwise product? The conjecture says "pairwise products of 2-clause indicators"
+    # We interpret: the matrix entry (i,j) is 1 if the two 2-clauses share a variable (logical overlap)
+    mat = [[0]*size for _ in range(size)]
+    for i, c1 in enumerate(all_twos):
+        for j, c2 in enumerate(all_twos):
+            if i == j:
+                # Diagonal: always 1? Or based on self?
+                # Let's set diagonal to 1 if clause is in ideal, else 0
+                mat[i][j] = 1 if c1 in two_clauses else 0
+            else:
+                # Off-diagonal: 1 if they share a variable
+                vars1 = {abs(l) for l in c1}
+                vars2 = {abs(l) for l in c2}
+                if vars1 & vars2:
+                    mat[i][j] = 1
+    return mat
+
+def symmetric_eigenvalues_2x2(a, b, c):
+    """Compute eigenvalues of 2x2 symmetric matrix [[a,b],[b,c]]"""
+    import math
+    trace = a + c
+    det = a*c - b*b
+    disc = trace*trace - 4*det
+    if disc < 0:
+        return ()
+    sqrt_disc = math.sqrt(disc)
+    lam1 = (trace + sqrt_disc) / 2.0
+    lam2 = (trace - sqrt_disc) / 2.0
+    return (lam1, lam2)
+
+def count_signature(mat):
+    """Count signature (diff between +1 and -1 eigenvalues) by naive diagonalization attempt."""
+    # Since we cannot use numpy, we implement naive Jacobi-like method for small matrices
+    # But note: matrix size is up to 6^2 = 36 -> 36x36. We need a simple method.
+    # However, we only care about sign of eigenvalues, not exact values.
+    # We use the fact that signature is the number of positive eigenvalues minus negative ones.
+    # We use naive power iteration? No, too hard.
+    # Instead, we use the fact that for symmetric matrices, signature can be computed via
+    # Gaussian elimination with sign tracking (Sylvester's law) — but over reals.
+    # We do LDLT decomposition approximately.
+    
+    # Make a copy as floats
+    n = len(mat)
+    if n == 0:
+        return 0
+    A = [[float(mat[i][j]) for j in range(n)] for i in range(n)]
+    
+    # We do LDLT: A = L D L^T, D diagonal
+    # Then signature is number of positive D_ii minus number of negative D_ii
+    D = [0.0] * n
+    for k in range(n):
+        # Compute D[k]
+        sum_val = A[k][k]
+        for i in range(k):
+            sum_val -= A[k][i] * A[k][i] * D[i]
+        D[k] = sum_val
+    
+    pos = sum(1 for d in D if d > 1e-10)
+    neg = sum(1 for d in D if d < -1e-10)
+    return pos - neg
+
+def generate_3cnf(n, m):
+    """Generate a random 3-CNF formula with n variables and m clauses."""
+    clauses = []
+    for _ in range(m):
+        vars = random.sample(range(1, n+1), 3)
+        clause = [v if random.randint(0,1) else -v for v in vars]
+        clauses.append(clause)
+    return clauses
+
+def test_conjecture():
+    """Test the conjecture for small n and m."""
+    MAX_N = 6
+    results = []
+    violations = []
+    
+    print("Starting test: n from 3 to {}, m up to 2n".format(MAX_N))
+    
+    for n in range(3, MAX_N+1):
+        for m in range(1, 2*n + 1):
+            print("Testing n={}, m={}".format(n, m))
+            # Generate all possible 3-CNFs? Too many.
+            # Instead, sample a fixed number per (n,m)
+            num_samples = 5 if n <= 5 else 2
+            for _ in range(num_samples):
+                clauses = generate_3cnf(n, m)
+                # Compute resolution width
+                w = resolution_width(clauses, n)
+                if w is None:
+                    # Satisfiable formula, skip
+                    continue
+                
+                # Compute ideal of 2-clauses
+                two_clauses = compute_ideal_2clauses(clauses, n)
+                if not two_clauses:
+                    # No 2-clauses in ideal
+                    sig = 0
+                else:
+                    # Build quadratic form matrix
+                    mat = build_quadratic_form_matrix(two_clauses, n)
+                    sig = count_signature(mat)
+                
+                diff = abs(w - abs(sig))
+                results.append((n, m, w, sig, diff))
+                print("n={}, m={}, w={}, sig={}, |w-|sig||={}".format(n, m, w, sig, diff))
+                
+                if diff > 2:
+                    violations.append((n, m, clauses, w, sig))
+    
+    if violations:
+        n, m, clauses, w, sig = violations[0]
+        RESULT = "RESULT: FALSIFIED n={} m={} w={} sig={}".format(n, m, w, sig)
+        print(RESULT)
+        return
+    
+    if not results:
+        print("RESULT: INCONCLUSIVE no_unsatisfiable_instances_found")
+        return
+    
+    max_diff = max(r[-1] for r in results)
+    if max_diff <= 2:
+        print("RESULT: SUPPORTED max_diff={:.2f}".format(max_diff))
+    else:
+        print("RESULT: FALSIFIED max_diff_exceeds_2")
+
+if __name__ == "__main__":
+    test_conjecture()

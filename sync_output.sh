@@ -117,7 +117,10 @@ if src.exists():
             continue
 from collections import Counter
 verdicts = Counter(e.get("final_verdict") or e.get("phase") or "unknown" for e in entries)
-fields_A = Counter(e.get("field_A", "unknown") for e in entries)
+def _fa(e):
+    v = e.get("field_A", "unknown")
+    return v if isinstance(v, str) else str(v)[:120]
+fields_A = Counter(_fa(e) for e in entries)
 stats = {
     "last_update_utc": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
     "total_cycles": len(entries),
@@ -128,7 +131,39 @@ stats = {
 (repo / "stats.json").write_text(json.dumps(stats, indent=2, ensure_ascii=False))
 PY
 
-# --- 9. Commit & push if changes
+# --- 9. Audit logs (every LLM call per entry — full prompts + responses)
+if [ -d "$SRC/audit" ]; then
+    mkdir -p audit
+    rsync -a --include='*.jsonl' --exclude='*' "$SRC/audit/" audit/
+fi
+
+# --- 10. Reviewer packs (PDF + MD per entry — Royal Society defensible)
+if [ -d "$SRC/reviewer_packs" ]; then
+    mkdir -p reviewer_packs
+    rsync -a --include='*.md' --include='*.pdf' --exclude='*' "$SRC/reviewer_packs/" reviewer_packs/
+fi
+
+# --- 11. Replay tarballs (everything needed to reproduce a cycle)
+if [ -d "$SRC/replay" ]; then
+    mkdir -p replay
+    rsync -a --include='*.tar.gz' --exclude='*' "$SRC/replay/" replay/
+fi
+
+# --- 12. Sandbox test sources (the actual Python that ran)
+if [ -d "$SRC/pvsnp_sandbox" ]; then
+    mkdir -p sandbox_archive
+    rsync -a --include='test_*.py' --exclude='*' "$SRC/pvsnp_sandbox/" sandbox_archive/
+fi
+
+# --- 13. Operational logs (Claude Max budget + monitor alerts)
+if [ -f "$SRC/claude_max_call_log.jsonl" ]; then
+    cp "$SRC/claude_max_call_log.jsonl" claude_max_call_log.jsonl
+fi
+if [ -f "$SRC/monitor_alerts.jsonl" ]; then
+    cp "$SRC/monitor_alerts.jsonl" monitor_alerts.jsonl
+fi
+
+# --- 14. Commit & push if changes
 if [ -n "$(git status --porcelain)" ]; then
     git add -A
     TS=$(date '+%Y-%m-%d %H:%M')

@@ -1,0 +1,65 @@
+{
+  "framework_id": "fw_28b4bfb95f",
+  "ts": 1777236601.1448684,
+  "generation": 0,
+  "parent_framework_id": "",
+  "mutation_from_parent": "",
+  "name": "TROPICAL_FOURIER_ANALYSIS",
+  "taxonomy_category": "FOURIER_ANALYTIC",
+  "primitives": [
+    {
+      "name": "TropicalPolynomial",
+      "type": "Function",
+      "description": "A function defined over a tropical semiring (max-plus or min-plus) with computable coefficients."
+    },
+    {
+      "name": "TropicalFourierTransform",
+      "type": "Transformation",
+      "description": "A mapping from tropical polynomials to their Fourier coefficients over a tropical semiring."
+    },
+    {
+      "name": "DiscrepancyMeasure",
+      "type": "Metric",
+      "description": "A function quantifying the deviation of a tropical polynomial from uniformity."
+    }
+  ],
+  "operations": [
+    {
+      "name": "TropicalConvolution",
+      "signature": "TropicalPolynomial × TropicalPolynomial → TropicalPolynomial",
+      "description": "Combines two tropical polynomials via tropical addition and multiplication."
+    },
+    {
+      "name": "FourierTransform",
+      "signature": "TropicalPolynomial → TropicalFourierCoefficients",
+      "description": "Computes the Fourier coefficients of a tropical polynomial."
+    },
+    {
+      "name": "DiscrepancyCalculation",
+      "signature": "TropicalPolynomial → RealNumber",
+      "description": "Evaluates the discrepancy measure for a given tropical polynomial."
+    }
+  ],
+  "target_invariant": {
+    "name": "MinimalFourierCoefficient",
+    "type": "RealNumber",
+    "what_it_should_bound": "The discrepancy of a function under tropical Fourier analysis."
+  },
+  "axioms_tentative": [
+    "A1: TropicalConvolution preserves the tropical semiring structure under composition.",
+    "A2: TropicalFourierTransform is invertible when restricted to certain tropical polynomials.",
+    "A3: DiscrepancyMeasure is bounded by the maximum absolute value of Fourier coefficients."
+  ],
+  "status": "ELABORATING",
+  "sub_conjecture_entry_ids": [
+    "32a1e966ed26",
+    "7bbefa60fc65",
+    "db06744cc815",
+    "e14f176e4ef1",
+    "44f82c29ed79"
+  ],
+  "fitness_components": {},
+  "fitness": 0.0,
+  "paper_path": "",
+  "lean_module_path": ""
+}

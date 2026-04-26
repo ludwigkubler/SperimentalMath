@@ -1,0 +1,281 @@
+import random
+import math
+import sys
+import json
+
+def run_trial(seed: int) -> dict:
+    random.seed(seed)
+    
+    def gaussian_elimination(A, b):
+        n = len(b)
+        for i in range(n):
+            max_row = i
+            for j in range(i+1, n):
+                if abs(A[j][i]) > abs(A[max_row][i]):
+                    max_row = j
+            A[i], A[max_row] = A[max_row], A[i]
+            b[i], b[max_row] = b[max_row], b[i]
+            for j in range(i+1, n):
+                factor = A[j][i] / A[i][i]
+                for k in range(i, n):
+                    A[j][k] -= factor * A[i][k]
+                b[j] -= factor * b[i]
+        x = [0.0] * n
+        for i in range(n-1, -1, -1):
+            x[i] = (b[i] - sum(A[i][j] * x[j] for j in range(i+1, n))) / A[i][i]
+        return x
+    
+    def matrix_multiply(A, B):
+        m, n, p = len(A), len(B), len(B[0])
+        C = [[0.0] * p for _ in range(m)]
+        for i in range(m):
+            for j in range(p):
+                for k in range(n):
+                    C[i][j] += A[i][k] * B[k][j]
+        return C
+    
+    def determinant(A):
+        n = len(A)
+        if n == 1:
+            return A[0][0]
+        det = 0
+        for j in range(n):
+            submatrix = [row[:j] + row[j+1:] for row in A[1:]]
+            det += (-1) ** j * A[0][j] * determinant(submatrix)
+        return det
+    
+    def is_invertible(A):
+        return determinant(A) != 0
+    
+    def gaussian_elimination_with_pivoting(A, b):
+        n = len(b)
+        for i in range(n):
+            max_row = i
+            for j in range(i+1, n):
+                if abs(A[j][i]) > abs(A[max_row][i]):
+                    max_row = j
+            A[i], A[max_row] = A[max_row], A[i]
+            b[i], b[max_row] = b[max_row], b[i]
+            for j in range(i+1, n):
+                factor = A[j][i] / A[i][i]
+                for k in range(i, n):
+                    A[j][k] -= factor * A[i][k]
+                b[j] -= factor * b[i]
+        x = [0.0] * n
+        for i in range(n-1, -1, -1):
+            x[i] = (b[i] - sum(A[i][j] * x[j] for j in range(i+1, n))) / A[i][i]
+        return x
+    
+    def matrix_inverse(A):
+        n = len(A)
+        I = [[0.0 if i != j else 1.0 for j in range(n)] for i in range(n)]
+        A_augmented = [row + col for row, col in zip(A, I)]
+        gaussian_elimination_with_pivoting(A_augmented, [0] * n)
+        return [row[n:] for row in A_augmented]
+    
+    def matrix_power(A, k):
+        n = len(A)
+        result = [[0.0 if i != j else 1.0 for j in range(n)] for i in range(n)]
+        while k > 0:
+            if k % 2 == 1:
+                result = matrix_multiply(result, A)
+            A = matrix_multiply(A, A)
+            k //= 2
+        return result
+    
+    def is_connected(G):
+        n = len(G)
+        visited = [False] * n
+        stack = [0]
+        while stack:
+            u = stack.pop()
+            if not visited[u]:
+                visited[u] = True
+                for v in range(n):
+                    if G[u][v] and not visited[v]:
+                        stack.append(v)
+        return all(visited)
+    
+    def find_cycle(G, start):
+        n = len(G)
+        visited = [False] * n
+        parent = [-1] * n
+        stack = [(start, -1)]
+        while stack:
+            u, p = stack.pop()
+            if not visited[u]:
+                visited[u] = True
+                for v in range(n):
+                    if G[u][v] and v != p:
+                        if visited[v]:
+                            cycle = []
+                            x = u
+                            while x != v:
+                                cycle.append(x)
+                                x = parent[x]
+                            cycle.append(v)
+                            return cycle
+                        stack.append((v, u))
+                        parent[v] = u
+        return None
+    
+    def find_all_cycles(G):
+        n = len(G)
+        cycles = []
+        for i in range(n):
+            cycle = find_cycle(G, i)
+            if cycle:
+                cycles.append(cycle)
+        return cycles
+    
+    def is_planar(G):
+        n = len(G)
+        if n <= 4:
+            return True
+        if sum(sum(row) for row in G) % 2 != 0:
+            return False
+        for u in range(n):
+            for v in range(u+1, n):
+                if G[u][v]:
+                    G[u][v] = G[v][u] = 0
+                    if not is_planar(G):
+                        G[u][v] = G[v][u] = 1
+                        return False
+        return True
+    
+    def genus(G):
+        n = len(G)
+        if n <= 4:
+            return 0
+        if sum(sum(row) for row in G) % 2 != 0:
+            return -1
+        for u in range(n):
+            for v in range(u+1, n):
+                if G[u][v]:
+                    G[u][v] = G[v][u] = 0
+                    if not is_planar(G):
+                        G[u][v] = G[v][u] = 1
+                        return -1
+        return (n**2 - 6*n + 12) // 8
+    
+    def tseitin_formula(G, start=0):
+        n = len(G)
+        literals = [f"x{i}" for i in range(n)]
+        neg_literals = [f"~x{i}" for i in range(n)]
+        clauses = []
+        for u in range(n):
+            if u != start:
+                clauses.append([neg_literals[u]] + [literals[v] for v in range(n) if G[u][v]])
+        for u in range(n):
+            for v in range(u+1, n):
+                if G[u][v]:
+                    clauses.append([neg_literals[u], neg_literals[v]])
+                    clauses.append([literals[u], literals[v]])
+        return literals + neg_literals, clauses
+    
+    def dpll(clauses, assignment):
+        if not clauses:
+            return True
+        unit_clause = next((c for c in clauses if len(c) == 1), None)
+        if unit_clause:
+            literal = unit_clause[0]
+            new_assignment = assignment.copy()
+            new_assignment[literal] = True
+            if dpll([c for c in clauses if literal not in c and ~literal not in c], new_assignment):
+                return True
+            new_assignment[literal] = False
+            if dpll([c for c in clauses if literal not in c and ~literal not in c], new_assignment):
+                return True
+            return False
+        pure_literal = next((l for l in literals if all(l not in c or ~l in c for c in clauses)), None)
+        if pure_literal:
+            new_assignment = assignment.copy()
+            new_assignment[pure_literal] = True
+            if dpll([c for c in clauses if pure_literal not in c and ~pure_literal not in c], new_assignment):
+                return True
+            new_assignment[pure_literal] = False
+            if dpll([c for c in clauses if pure_literal not in c and ~pure_literal not in c], new_assignment):
+                return True
+            return False
+        literal = literals[0]
+        new_assignment_true = assignment.copy()
+        new_assignment_true[literal] = True
+        if dpll(clauses, new_assignment_true):
+            return True
+        new_assignment_false = assignment.copy()
+        new_assignment_false[literal] = False
+        if dpll(clauses, new_assignment_false):
+            return True
+        return False
+    
+    def resolution_width(clauses):
+        n = len(literals)
+        clauses_set = set(tuple(sorted(c)) for c in clauses)
+        queue = list(clauses_set)
+        while queue:
+            clause1 = queue.pop(0)
+            for clause2 in queue:
+                resolvents = []
+                for literal in clause1:
+                    if ~literal in clause2:
+                        resolvent = sorted(set(clause1 + clause2) - {literal, ~literal})
+                        if len(resolvent) == 0:
+                            return float('inf')
+                        resolvents.append(tuple(sorted(resolvent)))
+                queue.extend(resolvents)
+        return max(len(c) for c in clauses_set)
+    
+    def generate_random_graph(n):
+        G = [[0] * n for _ in range(n)]
+        edges = set()
+        while len(edges) < n * (n - 1) // 2:
+            u, v = random.sample(range(n), 2)
+            if u != v and (u, v) not in edges and (v, u) not in edges:
+                G[u][v] = G[v][u] = 1
+                edges.add((u, v))
+        return G
+    
+    def generate_tseitin_formula(G):
+        literals, clauses = tseitin_formula(G)
+        return literals, clauses
+    
+    def test_resolution_width_and_genus(n):
+        G = generate_random_graph(n)
+        g_G = genus(G)
+        if g_G == -1:
+            return {"metric_name": "resolution_width", "metric_value": float('inf'), "instances_tested": 1, "conjecture_holds": False, "counterexample": "mapping_undefined"}
+        literals, clauses = generate_tseitin_formula(G)
+        width = resolution_width(clauses)
+        if width < g_G:
+            return {"metric_name": "resolution_width", "metric_value": width, "instances_tested": 1, "conjecture_holds": False, "counterexample": f"Graph with genus {g_G} has resolution width {width}"}
+        return {"metric_name": "resolution_width", "metric_value": width, "instances_tested": 1, "conjecture_holds": True, "counterexample": ""}
+    
+    n = random.choice([5, 8, 11, 14])
+    result = test_resolution_width_and_genus(n)
+    return result
+
+if __name__ == "__main__":
+    seeds = [int(s) for s in sys.argv[1:]] if len(sys.argv) > 1 else [11, 23, 37, 53, 71]
+    results = []
+    total_metric_value = 0
+    support_count = 0
+    
+    for seed in seeds:
+        trial_result = run_trial(seed)
+        print(f"TRIAL: {json.dumps(trial_result)}")
+        total_metric_value += trial_result["metric_value"]
+        if trial_result["conjecture_holds"]:
+            support_count += 1
+    
+    mean_metric_value = total_metric_value / len(seeds)
+    support_fraction = support_count / len(seeds)
+    
+    if support_fraction >= 0.8:
+        result = f"SUPPORTED mean={mean_metric_value} std=0 support_fraction={support_fraction}"
+    elif any(not trial_result["conjecture_holds"] for trial_result in results):
+        first_failing_seed = next(seed for seed, trial_result in zip(seeds, results) if not trial_result["conjecture_holds"])
+        result = f"FALSIFIED counterexample=\"First failing seed\" first_failing_seed={first_failing_seed}"
+    else:
+        result = "INCONCLUSIVE insufficient data"
+    
+    print(result)

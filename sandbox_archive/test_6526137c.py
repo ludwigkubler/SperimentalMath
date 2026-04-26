@@ -1,0 +1,289 @@
+import random
+import itertools
+from collections import defaultdict, deque
+import math
+
+# Set seed for reproducibility
+rng = random.Random(42)
+
+def generate_random_3cnf(n, m):
+    """Generate a random 3-CNF formula with n variables and m clauses."""
+    clauses = []
+    for _ in range(m):
+        clause = set()
+        while len(clause) < 3:
+            var = rng.randint(1, n)
+            sign = rng.choice([True, False])
+            literal = var if sign else -var
+            if literal not in clause:
+                clause.add(literal)
+        clauses.append(tuple(clause))
+    return clauses
+
+def is_satisfiable_dpll(clauses, n):
+    """Simple DPLL-based satisfiability check with basic backtracking."""
+    def unit_propagate(literals, clauses):
+        changed = True
+        while changed:
+            changed = False
+            units = [c for c in clauses if len(c) == 1]
+            for unit in units:
+                lit = unit[0]
+                if lit in literals or -lit in literals:
+                    continue
+                literals.add(lit)
+                clauses = [c for c in clauses if lit not in c]
+                clauses = [tuple(l for l in c if l != -lit) for c in clauses]
+                if any(len(c) == 0 for c in clauses):
+                    return None, None
+                changed = True
+        return literals, clauses
+
+    def backtrack(literals, clauses):
+        literals, clauses = unit_propagate(literals, clauses)
+        if clauses is None:
+            return False
+        if not clauses:
+            return True
+        if any(len(c) == 0 for c in clauses):
+            return False
+
+        # Choose the literal that appears most frequently
+        counts = defaultdict(int)
+        for c in clauses:
+            for l in c:
+                counts[l] += 1
+        if not counts:
+            return True
+        lit = max(counts, key=counts.get)
+
+        # Try lit = True
+        if backtrack(literals | {lit}, [c for c in clauses if lit not in c] +
+                     [tuple(l for l in c if l != -lit) for c in clauses]):
+            return True
+        return backtrack(literals | {-lit}, [c for c in clauses if -lit not in c] +
+                         [tuple(l for l in c if l != lit) for c in clauses])
+
+    literals = set()
+    clauses = [tuple(c) for c in clauses]
+    return not backtrack(literals, clauses)
+
+def compute_resolution_width(clauses, n):
+    """Compute minimal resolution width using bounded DPLL with width tracking."""
+    best_width = float('inf')
+
+    def resolve_clause_set(clauses, current_width, depth=0, max_depth=20):
+        nonlocal best_width
+        if depth > max_depth:
+            return float('inf')
+        if not clauses:
+            best_width = min(best_width, current_width)
+            return current_width
+        if any(len(c) == 0 for c in clauses):
+            return float('inf')
+
+        # Try unit propagation
+        units = [c[0] for c in clauses if len(c) == 1]
+        if units:
+            unit = units[0]
+            new_clauses = [c for c in clauses if unit not in c]
+            new_clauses = [tuple(l for l in c if l != -unit) for c in new_clauses]
+            return resolve_clause_set(new_clauses, max(current_width, 1), depth + 1, max_depth)
+
+        # Try resolving two clauses
+        min_w = float('inf')
+        for i, c1 in enumerate(clauses):
+            for j, c2 in enumerate(clauses):
+                if i >= j:
+                    continue
+                for l1 in c1:
+                    if -l1 in c2:
+                        resolvent = tuple(sorted(set(c1) | set(c2) - {l1, -l1}))
+                        new_clauses = [c for k, c in enumerate(clauses) if k not in (i, j)] + [resolvent]
+                        w = resolve_clause_set(new_clauses, max(current_width, len(resolvent)), depth + 1, max_depth)
+                        min_w = min(min_w, w)
+        return min_w
+
+    # Start with input clauses
+    initial_clauses = [tuple(sorted(c)) for c in clauses]
+    w = resolve_clause_set(initial_clauses, 0)
+    return min(w, best_width) if best_width != float('inf') else len(initial_clauses) + 1
+
+def build_schreier_graph(clauses, n):
+    """Build Schreier graph on literals {±1,...,±n} with generators from clauses."""
+    nodes = list(range(-n, 0)) + list(range(1, n+1))
+    neighbors = {v: [] for v in nodes}
+    
+    for clause in clauses:
+        lits = list(clause)
+        # Add transpositions between all pairs in the clause
+        for i in range(len(lits)):
+            for j in range(i+1, len(lits)):
+                a, b = lits[i], lits[j]
+                # Each transposition (a b) acts on all literals
+                # But we only care about edges in the Schreier graph: v --g--> g(v)
+                # For generator g = (a b), we have g(a)=b, g(b)=a, g(v)=v otherwise
+                # So we add edge a <-> b for this generator
+                neighbors[a].append(b)
+                neighbors[b].append(a)
+    return nodes, neighbors
+
+def compute_laplacian_spectrum(nodes, neighbors):
+    """Compute eigenvalues of Laplacian using simple power iteration + deflation (approximate)."""
+    # Map nodes to indices
+    idx_map = {v: i for i, v in enumerate(nodes)}
+    size = len(nodes)
+    if size == 0:
+        return []
+
+    # Build adjacency matrix (sparse representation)
+    adj = [[0]*size for _ in range(size)]
+    degree = [0]*size
+    for v in neighbors:
+        i = idx_map[v]
+        for nb in neighbors[v]:
+            if nb in idx_map:
+                j = idx_map[nb]
+                adj[i][j] += 1
+                degree[i] += 1
+
+    # Build Laplacian: L = D - A
+    lap = [[0.0]*size for _ in range(size)]
+    for i in range(size):
+        lap[i][i] = float(degree[i])
+        for j in range(size):
+            lap[i][j] -= adj[i][j]
+
+    # Very crude eigenvalue estimation for smallest non-zero (first few)
+    # Using power iteration for dominant eigenvalue of inverse (shifted)
+    # But we only need the smallest positive eigenvalue gap
+
+    # Instead, use simple Jacobi rotation for small matrices (n <= 40 nodes)
+    if size > 40:
+        # Fall back to crude estimation
+        # Trace is sum of eigenvalues
+        trace = sum(lap[i][i] for i in range(size))
+        # Frobenius norm
+        norm = math.sqrt(sum(lap[i][j]**2 for i in range(size) for j in range(size)))
+        # Approximate min non-zero eigenvalue as trace / (size - 1) if connected?
+        # This is very rough.
+        return [0.0, trace / max(1, size-1)]
+
+    # Exact diagonalization for small matrices using Jacobi (simplified)
+    # Make a copy
+    mat = [row[:] for row in lap]
+    # Jacobi eigenvalue algorithm (for symmetric matrices)
+    def max_off_diag(mat, n):
+        m = 0.0
+        p, q = 0, 0
+        for i in range(n):
+            for j in range(i+1, n):
+                if abs(mat[i][j]) > m:
+                    m = abs(mat[i][j])
+                    p, q = i, j
+        return m, p, q
+
+    def rotate(mat, p, q, n):
+        if mat[p][p] == mat[q][q]:
+            theta = math.pi / 4
+        else:
+            theta = 0.5 * math.atan(2 * mat[p][q] / (mat[p][p] - mat[q][q]))
+        c = math.cos(theta)
+        s = math.sin(theta)
+        # Rotation
+        for i in range(n):
+            if i != p and i != q:
+                t1 = mat[i][p]
+                t2 = mat[i][q]
+                mat[i][p] = c * t1 - s * t2
+                mat[i][q] = s * t1 + c * t2
+                mat[p][i] = mat[i][p]
+                mat[q][i] = mat[i][q]
+        # Diagonal updates
+        t1 = mat[p][p]
+        t2 = mat[q][q]
+        mat[p][p] = c*c*t1 - 2*s*c*mat[p][q] + s*s*t2
+        mat[q][q] = s*s*t1 + 2*s*c*mat[p][q] + c*c*t2
+        mat[p][q] = 0
+        mat[q][p] = 0
+
+    # Run Jacobi
+    eps = 1e-8
+    max_iter = 1000
+    iter_count = 0
+    while True:
+        max_off, p, q = max_off_diag(mat, size)
+        if max_off < eps or iter_count >= max_iter:
+            break
+        rotate(mat, p, q, size)
+        iter_count += 1
+
+    eigenvals = sorted([mat[i][i] for i in range(size)])
+    return eigenvals
+
+def compute_kazhdan_constant(clauses, n):
+    """Compute Kazhdan constant via spectral gap of Schreier graph Laplacian."""
+    nodes, neighbors = build_schreier_graph(clauses, n)
+    if len(nodes) == 0:
+        return 0.0
+    eigenvals = compute_laplacian_spectrum(nodes, neighbors)
+    if len(eigenvals) < 2:
+        return 0.0
+    # Remove zero eigenvalue (assume connected component)
+    non_zero = [ev for ev in eigenvals if ev > 1e-6]
+    if not non_zero:
+        return 0.0
+    lambda_1 = min(non_zero)
+    # Kazhdan constant lower bound: kappa >= sqrt(2 * lambda_1) / (2 * |S|^{1/2})?
+    # But we use lambda_1 as proxy for spectral gap (common in literature)
+    # For our purpose, use lambda_1 as a measure of expansion
+    return lambda_1
+
+def test_conjecture():
+    n_vals = [5, 8, 11, 14]
+    results = []
+    c_candidate = 0.5  # fixed c > 0 to test
+
+    for n in n_vals:
+        # m = 4.5n is around satisfiability threshold for 3-SAT
+        m = int(4.5 * n)
+        found_unsat = 0
+        print(f"Testing n={n}, m={m}")
+        for _ in range(3):  # 3 instances per n
+            while True:
+                clauses = generate_random_3cnf(n, m)
+                if not is_satisfiable_dpll(clauses, n):
+                    break
+            found_unsat += 1
+            if found_unsat > 2:
+                break  # Avoid infinite loop if too hard
+
+            w = compute_resolution_width(clauses, n)
+            kappa = compute_kazhdan_constant(clauses, n)
+            if kappa < 1e-8:
+                # Avoid division by zero; treat as no expansion
+                kappa = 1e-8
+            threshold = c_candidate / math.sqrt(kappa)
+            results.append((n, w, kappa, threshold, w >= threshold))
+            print(f"  n={n}, w={w}, kappa={kappa:.6f}, threshold={threshold:.6f}, holds={w >= threshold}")
+
+    # Check if all instances satisfy w >= c / sqrt(kappa)
+    valid = all(res[-1] for res in results)
+    if valid:
+        # Try to estimate actual c from data
+        c_estimates = []
+        for _, w, kappa, _, _ in results:
+            c_est = w * math.sqrt(kappa)
+            c_estimates.append(c_est)
+        avg_c = sum(c_estimates) / len(c_estimates) if c_estimates else 0
+        print(f"RESULT: SUPPORTED c_est={avg_c:.4f}")
+    else:
+        # Find first counterexample
+        for n, w, kappa, threshold, holds in results:
+            if not holds:
+                print(f"RESULT: FALSIFIED n={n},w={w},kappa={kappa:.6f}")
+                return
+        print("RESULT: INCONCLUSIVE no_data")
+
+if __name__ == "__main__":
+    test_conjecture()

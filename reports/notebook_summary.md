@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-25 01:12 UTC"
+date: "2026-04-26 20:54 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,25 +13,32 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-25 01:12 UTC
+Generated 2026-04-26 20:54 UTC
 
-- Cycles recorded: **52**
-- Time span: 27.5h (~1.89 cycles/h)
+- Cycles recorded: **113**
+- Time span: 71.2h (~1.59 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 41 |
-| FALSIFIED | 8 |
-| SUPPORTED | 3 |
+| INCONCLUSIVE | 96 |
+| FALSIFIED | 13 |
+| SUPPORTED | 4 |
 
 ## Mathematical fields explored (field_A)
 
 | Field | Cycles |
 |---|---|
+| Ergodic Circuit Framework (communication complexity via dynamical systems) | 4 |
+| {"framework_name": "Ergodic Circuit Framework", "math_branch": "COMM_COMPLEXITY"} | 4 |
+| Fourier analysis of boolean functions | 3 |
 | Noncommutative geometry | 2 |
+| Representation theory of symmetric groups | 2 |
+| Ergodic Circuit Framework (COMM_COMPLEXITY) | 2 |
+| Matroid Theory | 2 |
+| Tropical geometry | 2 |
 | Combinatorial homotopy theory | 1 |
 | Kazhdan-Lusztig theory of Hecke algebras | 1 |
 | Combinatorial algebraic topology | 1 |
@@ -54,33 +61,26 @@ Generated 2026-04-25 01:12 UTC
 | Algebraic geometry (ideals in polynomial rings) | 1 |
 | Hypergraph Tutte polynomials | 1 |
 | Galois theory of finite field extensions | 1 |
-| Combinatorial homotopy theory (unstable 2-cohomotopy) | 1 |
-| Geometric group theory (Kazhdan's property T) | 1 |
-| Quadratic forms over GF(2) | 1 |
-| Commutative algebra (Castelnuovo-Mumford regularity) | 1 |
-| Algebraic K-theory (Bass Nil-groups) | 1 |
-| Arithmetic geometry (Selmer groups of elliptic curves) | 1 |
-| Toric geometry (via initial ideals and monomial degenerations) | 1 |
 
 ## Last 15 cycles (chronological)
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-24 18:09 UTC | `INCONCLUSIVE` | Minimal ABP Size and Permutation Polynomial Degree |
-| 2026-04-24 18:43 UTC | `INCONCLUSIVE` | Hypergraph Discrepancy and Communication Complexity of 3-SAT |
-| 2026-04-24 19:18 UTC | `INCONCLUSIVE` | Hilbert Function of Ideal Bounds Communication Complexity |
-| 2026-04-24 19:54 UTC | `INCONCLUSIVE` | Matrix Rigidity Bounds Communication Complexity of 3-SAT Instance |
-| 2026-04-24 20:34 UTC | `INCONCLUSIVE` | Ideal Generator Count and Bounded Arithmetic Proof Size |
-| 2026-04-24 21:05 UTC | `INCONCLUSIVE` | Orbit Signature Decay Implies Communication Entropy Barrier Growt |
-| 2026-04-24 21:22 UTC | `INCONCLUSIVE` | ACC^0 Circuit Size Bounded by Finite Field Equation Solution Coun |
-| 2026-04-24 22:09 UTC | `FALSIFIED` | Average-Case SAT Hardness Linked to Finite Field Solution Counts |
-| 2026-04-24 22:27 UTC | `INCONCLUSIVE` | Specht Module Dimensions Bound ABP Size for Permutation Polynomia |
-| 2026-04-24 23:06 UTC | `INCONCLUSIVE` | Seed Length of Nisan-Wigderson PRG from Finite Semifields |
-| 2026-04-24 23:33 UTC | `INCONCLUSIVE` | Tseitin Resolution Width and Expander Eigenvalues |
-| 2026-04-25 00:09 UTC | `INCONCLUSIVE` | Finite Geometry Line Count Bounds EF Proof Size |
-| 2026-04-25 00:39 UTC | `INCONCLUSIVE` | Dimension of Variety from Tautology Ideal Bounds EF Proof Size |
-| 2026-04-25 01:12 UTC | `INCONCLUSIVE` | [RETROACTIVE INVALIDATION] Frobenius-Schur Indicator of Clause-Sy |
-| 2026-04-25 01:12 UTC | `INCONCLUSIVE` | [RETROACTIVE INVALIDATION] Ideal Generators Count Bounds Communic |
+| 2026-04-26 13:51 UTC | `INCONCLUSIVE` | Tropical Convolution Subadditivity of MinimalFourierCoefficient a |
+| 2026-04-26 14:14 UTC | `INCONCLUSIVE` | Newton Polytope Lattice Width Lower-Bounds SoS Refutation Degree  |
+| 2026-04-26 14:44 UTC | `INCONCLUSIVE` | Newton Polytope Vertex Count Bounds ACC^0[m] Size for Symmetric C |
+| 2026-04-26 15:16 UTC | `INCONCLUSIVE` | Total Influence of Clause-XOR Aggregate Bounds DPLL Tree Leaves |
+| 2026-04-26 15:37 UTC | `INCONCLUSIVE` | LZ78 Compression Ratio Lower-Bounds MCSP Truth-Table Circuit Size |
+| 2026-04-26 16:19 UTC | `INCONCLUSIVE` | Newton Polytope Edge Count Lower-Bounds Average-Case DPLL Runtime |
+| 2026-04-26 17:10 UTC | `INCONCLUSIVE` | Nisan-Wigderson Seed Length Bounded by Finite Geometry Line Count |
+| 2026-04-26 17:44 UTC | `INCONCLUSIVE` | Persistent Homology Bottleneck Distance Lower-Bounds Set-Disjoint |
+| 2026-04-26 18:14 UTC | `INCONCLUSIVE` | Antichain Cover Number of KW Relation Lower-Bounds Monotone Formu |
+| 2026-04-26 18:40 UTC | `INCONCLUSIVE` | Tropical Lipschitz Stability of Discrepancy under Fourier Coeffic |
+| 2026-04-26 19:10 UTC | `INCONCLUSIVE` | Young-Tableau Cell Count Bounds Border-Rank of 3x3 Permanent Slic |
+| 2026-04-26 19:40 UTC | `INCONCLUSIVE` | Lehmer Pair Density of Communication Matrix Lower-Bounds Discrepa |
+| 2026-04-26 20:32 UTC | `FALSIFIED` | Tropical Self-Convolution Doubling Law for MinimalFourierCoeffici |
+| 2026-04-26 20:50 UTC | `FALSIFIED` | Tropical Shift-Invariance of MinimalFourierCoefficient under Addi |
+| 2026-04-26 20:54 UTC | `INCONCLUSIVE` | Hypercontractive (4,2)-Norm of Clause-Count Polynomial Bounds Res |
 
 ## How to read the reports
 

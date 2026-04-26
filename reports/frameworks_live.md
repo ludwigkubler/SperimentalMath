@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — Frameworks (live)"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-25 01:12 UTC"
+date: "2026-04-26 20:54 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,13 +13,14 @@ colorlinks: true
 
 # SEC P vs NP — Frameworks (live)
 
-Compiled 2026-04-25 01:12 UTC. Tracking 1 active + 0 dead frameworks.
+Compiled 2026-04-26 20:54 UTC. Tracking 2 active + 0 dead frameworks.
 
 ## Summary table
 
 | Framework ID | Status | Fitness | Generation | Parent | Name |
 |--------------|--------|---------|-----------:|--------|------|
 | `fw_b9e7d103d0` | ELABORATING | 0.000 | 0 | `-` | Ergodic Circuit Framework |
+| `fw_28b4bfb95f` | ELABORATING | 0.000 | 0 | `-` | TROPICAL_FOURIER_ANALYSIS |
 
 ## Details
 
@@ -41,3 +42,22 @@ Compiled 2026-04-25 01:12 UTC. Tracking 1 active + 0 dead frameworks.
 - A1: Any circuit with o(n) communication complexity induces a dynamical system with sublinear Kolmogorov-Sinai entropy growth.
 - A2: Measure-preserving transformations corresponding to AC⁰ circuits have bounded mixing time, while those for PSPACE-complete computations exhibit super-polynomial mixer-profile decay.
 - A3: If a family of circuits computes a function with high cross_correlation_flow norm, then its communication complexity is Ω(n^δ) for some δ > 0.
+
+---
+
+### TROPICAL_FOURIER_ANALYSIS (`fw_28b4bfb95f`)
+
+- **Status**: `ELABORATING`
+- **Fitness**: 0.000
+- **Taxonomy**: FOURIER_ANALYTIC
+- **Target invariant**: MinimalFourierCoefficient (RealNumber) → bounds The discrepancy of a function under tropical Fourier analysis.
+
+**Primitives**:
+- `TropicalPolynomial` (Function): A function defined over a tropical semiring (max-plus or min-plus) with computable coefficients.
+- `TropicalFourierTransform` (Transformation): A mapping from tropical polynomials to their Fourier coefficients over a tropical semiring.
+- `DiscrepancyMeasure` (Metric): A function quantifying the deviation of a tropical polynomial from uniformity.
+
+**Tentative axioms**:
+- A1: TropicalConvolution preserves the tropical semiring structure under composition.
+- A2: TropicalFourierTransform is invertible when restricted to certain tropical polynomials.
+- A3: DiscrepancyMeasure is bounded by the maximum absolute value of Fourier coefficients.

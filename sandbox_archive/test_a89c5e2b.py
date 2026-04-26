@@ -1,0 +1,85 @@
+import sys
+import random
+from itertools import combinations
+
+def run_trial(seed: int) -> dict:
+    random.seed(seed)
+    
+    def generate_3sat_instance(n):
+        clauses = []
+        for _ in range(2 * n):
+            clause = [random.choice([1, -1]) * random.randint(1, n) for _ in range(3)]
+            clauses.append(clause)
+        return clauses
+    
+    def hypergraph_discrepancy(clauses):
+        n = max(abs(x) for clause in clauses for x in clause)
+        A = [[0] * (2 * n + 1) for _ in range(len(clauses))]
+        for i, clause in enumerate(clauses):
+            for x in clause:
+                if x > 0:
+                    A[i][x - 1] += 1
+                else:
+                    A[i][-x - 1] -= 1
+        
+        def linear_program(A):
+            from pulp import LpProblem, lpSum, LpMinimize, LpVariable
+            
+            problem = LpProblem("Discrepancy", LpMinimize)
+            x = [LpVariable(f"x_{i}", lowBound=0) for i in range(2 * n + 1)]
+            
+            objective = lpSum([x[i] for i in range(2 * n + 1)])
+            problem += objective
+            
+            for i in range(len(clauses)):
+                problem += lpSum([A[i][j] * x[j] for j in range(2 * n + 1)]) >= -1
+                problem += lpSum([A[i][j] * x[j] for j in range(2 * n + 1)]) <= 1
+            
+            problem.solve()
+            return value(problem.objective)
+        
+        return linear_program(A)
+    
+    def communication_complexity(n):
+        # Simplified bound for demonstration
+        return n
+    
+    n = random.choice([5, 8, 11, 14])
+    instance = generate_3sat_instance(n)
+    discrepancy = hypergraph_discrepancy(instance)
+    cc = communication_complexity(n)
+    
+    metric_name = "discrepancy_over_cc"
+    metric_value = discrepancy / cc
+    instances_tested = 1
+    conjecture_holds = abs(metric_value - 1) < 0.1
+    counterexample = "" if conjecture_holds else f"n={n}, discrepancy={discrepancy}, cc={cc}"
+    
+    return {
+        "metric_name": metric_name,
+        "metric_value": metric_value,
+        "instances_tested": instances_tested,
+        "conjecture_holds": conjecture_holds,
+        "counterexample": counterexample
+    }
+
+if __name__ == "__main__":
+    seeds = [int(x) for x in sys.argv[1:]] or [11, 23, 37, 53, 71]
+    
+    results = []
+    for seed in seeds:
+        result = run_trial(seed)
+        print(f"TRIAL: {result}")
+        results.append(result)
+    
+    mean_metric_value = sum(r["metric_value"] for r in results) / len(results)
+    std_metric_value = (sum((r["metric_value"] - mean_metric_value) ** 2 for r in results) / len(results)) ** 0.5
+    support_fraction = sum(1 for r in results if r["conjecture_holds"]) / len(results)
+    
+    if all(r["conjecture_holds"] for r in results):
+        print(f"RESULT: SUPPORTED mean={mean_metric_value} std={std_metric_value} support_fraction={support_fraction}")
+    elif any(not r["conjecture_holds"] for r in results):
+        first_failing_seed = next(seed for seed, result in zip(seeds, results) if not result["conjecture_holds"])
+        print(f"RESULT: FALSIFIED counterexample=\"{result['counterexample']}\" first_failing_seed={first_failing_seed}")
+    else:
+        print(f"RESULT: INCONCLUSIVE support_fraction={support_fraction}")

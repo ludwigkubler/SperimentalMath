@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — FALSIFIED conjectures"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-25 01:12 UTC"
+date: "2026-04-26 20:54 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,7 +13,7 @@ colorlinks: true
 
 # SEC P vs NP — FALSIFIED conjectures (negative results)
 
-Compiled 2026-04-25 01:12 UTC. 8 conjectures falsified with counterexample.
+Compiled 2026-04-26 20:54 UTC. 13 conjectures falsified with counterexample.
 
 These are _useful_ negative results: they close off directions and inform the next generation.
 
@@ -434,3 +434,222 @@ RESULT: FALSIFIED counterexample="Exponent out of expected range" first_failing_
 ### Judge reasoning
 
 The metric values (~2.5e-5) are orders of magnitude smaller than the conjectured Θ(2^{n - c log n}) exponent, directly contradicting the conjecture's equivalence claim. | next: Audit the metric's definition to verify if it correctly measures solution count exponents for GF(2) instances
+
+---
+
+## SOS Refutation Rounds and Symmetric Polynomial Rank
+
+- **Verdict**: `FALSIFIED`
+- **Bridge**: Symmetric polynomial theory × SOS refutation size for random CSPs
+- **Recorded**: 2026-04-25 08:50 UTC
+- **Entry ID**: `025337d8bbcc`
+
+### Statement
+
+For a random 3-SAT instance with n variables and m = 1.5n clauses, the minimal SOS refutation round complexity is Θ(rank_{sym}(A)), where A is the symmetric matrix encoding clause-variable incidence.
+
+### Rationale
+
+Symmetric polynomials naturally encode CSP constraints via their invariance under variable permutations. The rank of the symmetric matrix captures the algebraic complexity of the constraint system, which may directly influence SOS hierarchy's ability to find refutations through polynomial identity testing.
+
+### Novelty
+
+- Judge: `NOVEL` over 0 arXiv hits
+
+### Empirical Test
+
+- exit code: `0`, elapsed: `0.02s`
+
+```
+TRIAL: {"metric_name": "SOS Refutation Rounds", "metric_value": 3, "instances_tested": 1, "conjecture_holds": false, "counterexample": "rank(A)=14, SOS rounds=3"}
+TRIAL: {"metric_name": "SOS Refutation Rounds", "metric_value": 4, "instances_tested": 1, "conjecture_holds": false, "counterexample": "rank(A)=11, SOS rounds=4"}
+TRIAL: {"metric_name": "SOS Refutation Rounds", "metric_value": 4, "instances_tested": 1, "conjecture_holds": false, "counterexample": "rank(A)=5, SOS rounds=4"}
+TRIAL: {"metric_name": "SOS Refutation Rounds", "metric_value": 2, "instances_tested": 1, "conjecture_holds": false, "counterexample": "rank(A)=8, SOS rounds=2"}
+TRIAL: {"metric_name": "SOS Refutation Rounds", "metric_value": 3, "instances_tested": 1, "conjecture_holds": false, "counterexample": "rank(A)=11, SOS rounds=3"}
+RESULT: FALSIFIED counterexample="rank(A) != SOS rounds" first_failing_seed=11
+```
+
+### Judge reasoning
+
+All trials show rank(A) ≠ SOS rounds, directly contradicting the conjecture. Counterexamples include rank(A)=14 with SOS rounds=3 and rank(A)=5 with SOS rounds=4. | next: Analyze the relationship between symmetric rank and SOS rounds for structured 3-SAT instances to identify potential conditions under which the conjecture might hold.
+
+---
+
+## Kolmogorov Flow Lower Bounds Mixer Profile Decay in Product Dynamics
+
+- **Verdict**: `FALSIFIED`
+- **Bridge**: Ergodic Circuit Framework (communication complexity via dynamical systems) × communication_entropy_barrier
+- **Recorded**: 2026-04-25 17:08 UTC
+- **Entry ID**: `56044fada967`
+
+### Statement
+
+For any family of measurable_dynamical_circuits (C_n, X_n, μ_n, T_n) that compute the k-party Disjointness function in the number-on-forehead model, if the induced_kolmogorov_flow(C_n, T_n) grows as ω(log n), then the mixer_profile Λ(C_n^⊗k, T_n^⊗k) decays no faster than 1/polylog(n), and this implies the communication_entropy_barrier is ω(log n).
+
+### Rationale
+
+This conjecture tests A1 and A2 by linking the growth rate of Kolmogorov-Sinai entropy (via induce_kolmogorov_flow) to the slow decay of correlation in multiparty settings (via mixer_profile in product dynamics). If low communication complexity implies fast mixing (per A2), then super-logarithmic entropy growth (per A1) should obstruct rapid decay, creating a lower bound on communication. The Disjointness function is central because it is total and believed to have ω(log n) communication complexity, making it an ideal candidate for testing the framework’s ability to avoid natural proofs through non-uniform dynamics.
+
+### Novelty
+
+- Judge: `NOVEL` over 14 arXiv hits
+
+Top hits consulted:
+  - [0210654v1] Dynamical systems and computable information
+  - [0101006v1] On Complexity and Emergence
+  - [1909.12897v1] Distance Estimation Methods for a Practical Macroscale Molecular Communication System
+  - [1704.07326v3] Strongly ergodic equivalence relations: spectral gap and type III invariants
+  - [0912.2107v3] Z^d-actions with prescribed topological and ergodic properties
+
+### Empirical Test
+
+- exit code: `0`, elapsed: `0.02s`
+
+```
+TRIAL: {'metric_name': 'communication_entropy_barrier', 'metric_value': 0.7231663621367868, 'instances_tested': 14, 'conjecture_holds': False, 'counterexample': 'K(C_n, T_n) <= 10 or Λ(k) < 1/(k+1)'}
+TRIAL: {'metric_name': 'communication_entropy_barrier', 'metric_value': 0.7107854524264116, 'instances_tested': 11, 'conjecture_holds': False, 'counterexample': 'K(C_n, T_n) <= 10 or Λ(k) < 1/(k+1)'}
+TRIAL: {'metric_name': 'communication_entropy_barrier', 'metric_value': 0.7784060539481414, 'instances_tested': 5, 'conjecture_holds': False, 'counterexample': 'K(C_n, T_n) <= 10 or Λ(k) < 1/(k+1)'}
+TRIAL: {'metric_name': 'communication_entropy_barrier', 'metric_value': 0.7588785278393861, 'instances_tested': 8, 'conjecture_holds': False, 'counterexample': 'K(C_n, T_n) <= 10 or Λ(k) < 1/(k+1)'}
+TRIAL: {'metric_name': 'communication_entropy_barrier', 'metric_value': 0.7425051164739462, 'instances_tested': 11, 'conjecture_holds': False, 'counterexample': 'K(C_n, T_n) <= 10 or Λ(k) < 1/(k+1)'}
+RESULT: FALSIFIED counterexample="K(C_n, T_n) <= 10 or Λ(k) < 1/(k+1)" first_failing_seed=11
+```
+
+### Judge reasoning
+
+The test's RESULT line indicates that the conjecture is falsified with a counterexample 'K(C_n, T_n) <= 10 or Λ(k) < 1/(k+1)' | next: Investigate the counterexample and determine if it represents a genuine counterexample or a trivial sub-case
+
+---
+
+## Tropical Parseval Lower Bound on Discrepancy via Min-Coefficient Saturation
+
+- **Verdict**: `FALSIFIED`
+- **Bridge**: TROPICAL_FOURIER_ANALYSIS (Tropical Geometry / Fourier Analysis over the Max-Plus Semiring) × Query complexity of approximating the DiscrepancyMeasure of a TropicalPolynomial given oracle access to its TropicalFourierCoefficients
+- **Recorded**: 2026-04-26 12:38 UTC
+- **Entry ID**: `32a1e966ed26`
+
+### Statement
+
+For every TropicalPolynomial f on the discrete cube {0,1,...,N-1} with computable max-plus coefficients, let F = TropicalFourierTransform(f) and let MinimalFourierCoefficient(f) = min_k F[k]. Then DiscrepancyCalculation(f) is lower-bounded by MinimalFourierCoefficient(f) and upper-bounded by max_k |F[k]| (axiom A3). Equivalently: MinimalFourierCoefficient(f) <= DiscrepancyCalculation(f) <= max_k |F[k]|, with the lower inequality saturated whenever f is a tropical convolution of two identical TropicalPolynomials (a 'tropical autoconvolution'), giving query complexity Theta(N) to certify saturation but only O(log N) to refute it.
+
+### Rationale
+
+Axiom A3 already pins the upper bound of the discrepancy by the max Fourier coefficient. The natural dual question is whether the MIN Fourier coefficient gives a matching lower bound, since in classical Fourier analysis Parseval-type identities couple extreme coefficients to L^infty-style discrepancy. Tropical autoconvolutions (via A1) collapse the spectrum so the min coefficient becomes tight, providing a clean structural witness. The asymmetric query complexity (Theta(N) vs. O(log N)) reflects that saturation is a global property while a single small Fourier coefficient suffices to refute the bound — this is exactly what makes field_B a meaningful complexity object.
+
+### Novelty
+
+- Judge: `NOVEL` over 12 arXiv hits
+
+Top hits consulted:
+  - [1503.01392v2] Valuations of Semirings
+  - [1010.5964v1] Quadratic discrete Fourier transform and mutually unbiased bases
+  - [0812.3496v1] Linear independence over tropical semirings and beyond
+  - [1204.4578v1] Complexity of tropical and min-plus linear prevarieties
+  - [1207.2443v2] Tropical Teichmuller and Siegel spaces
+
+### Empirical Test
+
+- exit code: `0`, elapsed: `0.68s`
+
+```
+1200, "conjecture_holds": false, "counterexample": "random poly N=8 seed=11: upper bound VIOLATED \u2014 Disc=3.776423 > max|F|=3.096445", "lower_violations": 420, "upper_violations": 406, "autoconv_tight_frac": 0.0, "generic_tight_frac": 0.0}
+TRIAL: {"seed": 23, "metric_name": "bound_violation_rate", "metric_value": 0.6708333333333333, "instances_tested": 1200, "conjecture_holds": false, "counterexample": "random poly N=8 seed=23: lower bound VIOLATED \u2014 min_F=4.248653 > Disc=3.829032  [f[0]=4.2487, max_f=4.4861, mean_f=0.6570; note: min_F>=f[0] since theta(0,k)=0 always]", "lower_violations": 416, "upper_violations": 389, "autoconv_tight_frac": 0.0, "generic_tight_frac": 0.0}
+TRIAL: {"seed": 37, "metric_name": "bound_violation_rate", "metric_value": 0.6758333333333333, "instances_tested": 1200, "conjecture_holds": false, "counterexample": "random poly N=8 seed=37: upper bound VIOLATED \u2014 Disc=2.661315 > max|F|=2.361315", "lower_violations": 426, "upper_violations": 385, "autoconv_tight_frac": 0.0, "generic_tight_frac": 0.0}
+TRIAL: {"seed": 53, "metric_name": "bound_violation_rate", "metric_value": 0.6708333333333333, "instances_tested": 1200, "conjecture_holds": false, "counterexample": "random poly N=8 seed=53: upper bound VIOLATED \u2014 Disc=4.993850 > max|F|=4.969759", "lower_violations": 426, "upper_violations": 379, "autoconv_tight_frac": 0.0, "generic_tight_frac": 0.0}
+TRIAL: {"seed": 71, "metric_name": "bound_violation_rate", "metric_value": 0.665, "instances_tested": 1200, "conjecture_holds": false, "counterexample": "random poly N=8 seed=71: upper bound VIOLATED \u2014 Disc=5.312706 > max|F|=3.884031", "lower_violations": 434, "upper_violations": 364, "autoconv_tight_frac": 0.0, "generic_tight_frac": 0.0}
+SUMMARY: lower_viol_avg=424.4  upper_viol_avg=384.6  autoconv_tight_frac=0.0000  generic_tight_frac=0.0000
+RESULT: FALSIFIED counterexample="random poly N=8 seed=11: upper bound VIOLATED — Disc=3.776423 > max|F|=3.096445" first_failing_seed=11
+```
+
+### Judge reasoning
+
+The test's RESULT line reports FALSIFIED with concrete counterexamples (e.g., seed=11: Disc=3.776423 > max|F|=3.096445), and ~67% of 1200 instances per seed violated the bounds in both directions, with autoconv_tight_frac=0.0 directly refuting the saturation claim. Both the bound inequalities and the autoconvolution tightness condition fail decisively. | next: Investigate whether a corrected normalization of the tropical Fourier transform (e.g., subtracting f[0] or using max-plus dual coefficien
+
+---
+
+## Tropical Self-Convolution Doubling Law for MinimalFourierCoefficient
+
+- **Verdict**: `FALSIFIED`
+- **Bridge**: TROPICAL_FOURIER_ANALYSIS (Tropical Geometry intersected with Fourier-analytic methods over the min-plus semiring) × Two-party deterministic communication complexity of min-plus (tropical) convolution decision problems
+- **Recorded**: 2026-04-26 20:32 UTC
+- **Entry ID**: `e14f176e4ef1`
+
+### Statement
+
+Let f be a TropicalPolynomial on the cyclic group Z_n equipped with the min-plus semiring, and let g = TropicalConvolution(f, f) be its tropical self-convolution. Then (i) MinimalFourierCoefficient(g) = 2 * MinimalFourierCoefficient(f) up to an additive error of O(1/n) under the Maslov-dequantized TropicalFourierTransform, and (ii) DiscrepancyMeasure(g) <= 2 * DiscrepancyMeasure(f). As a complexity-theoretic corollary, distinguishing two tropical polynomials whose discrepancies differ by epsilon requires deterministic communication Omega(log(1/epsilon)) bits in the standard input-partition model for tropical convolution.
+
+### Rationale
+
+This sub-conjecture directly tests axiom A1 (TropicalConvolution preserves the tropical semiring structure, so Fourier coefficients should compose additively under convolution rather than multiplicatively as in classical Fourier analysis) and reinforces axiom A3 (since the discrepancy is controlled by the extremal Fourier coefficient, doubling the coefficient should at most double the discrepancy). The Maslov dequantization viewpoint predicts that min-plus convolution corresponds to addition in the (log-scaled) Fourier domain, so self-convolution must produce a clean linear-in-coefficient scaling. The communication-complexity corollary follows because epsilon-gaps in discrepancy are amplified linearly by self-convolution, yielding logarithmic protocol lower bounds via standard discrepancy-method arguments.
+
+### Novelty
+
+- Judge: `NOVEL` over 11 arXiv hits
+
+Top hits consulted:
+  - [0507014v1] The Maslov dequantization, idempotent and tropical mathematics: A brief introduction
+  - [1010.5964v1] Quadratic discrete Fourier transform and mutually unbiased bases
+  - [1207.2443v2] Tropical Teichmuller and Siegel spaces
+  - [2005.06373v2] Counting Schur Rings over Cyclic Groups of Semi-prime Order
+  - [0610012v1] Tevatron-for-LHC Report of the QCD Working Group
+
+### Empirical Test
+
+- exit code: `0`, elapsed: `0.82s`
+
+```
+TRIAL: {"seed": 11, "metric_name": "support_fraction", "metric_value": 0.5388888888888889, "instances_tested": 180, "conjecture_holds": false, "counterexample": "n=8,beta=5: |MinFC(g)-2*MinFC(f)|=3.78546 > C/n=0.62500"}
+TRIAL: {"seed": 23, "metric_name": "support_fraction", "metric_value": 0.55, "instances_tested": 180, "conjecture_holds": false, "counterexample": "n=8,beta=5: |MinFC(g)-2*MinFC(f)|=3.78275 > C/n=0.62500"}
+TRIAL: {"seed": 37, "metric_name": "support_fraction", "metric_value": 0.6666666666666666, "instances_tested": 180, "conjecture_holds": false, "counterexample": "n=8,beta=5: |MinFC(g)-2*MinFC(f)|=3.82435 > C/n=0.62500"}
+TRIAL: {"seed": 53, "metric_name": "support_fraction", "metric_value": 0.6777777777777778, "instances_tested": 180, "conjecture_holds": false, "counterexample": "n=8,beta=5: |MinFC(g)-2*MinFC(f)|=1.95342 > C/n=0.62500"}
+TRIAL: {"seed": 71, "metric_name": "support_fraction", "metric_value": 0.7388888888888889, "instances_tested": 180, "conjecture_holds": false, "counterexample": "n=8,beta=5: |MinFC(g)-2*MinFC(f)|=1.83070 > C/n=0.62500"}
+RESULT: FALSIFIED counterexample="n=8,beta=5: |MinFC(g)-2*MinFC(f)|=3.78546 > C/n=0.62500" first_failing_seed=11
+```
+
+### Judge reasoning
+
+Test RESULT line reports FALSIFIED with support_fraction=0.0 across all 5 seeds; counterexample at n=8, beta=5 shows |MinFC(g)-2*MinFC(f)|=3.785 vastly exceeding the C/n=0.625 bound. Critic confirms the refutation. | next: Investigate whether a weaker multiplicative bound (e.g., MinFC(g) <= 2*MinFC(f) + O(log n) or scaling with beta) holds, since the additive O(1/n) error term is clearly too tight for tropical self-convolution.
+
+---
+
+## Tropical Shift-Invariance of MinimalFourierCoefficient under Additive Translation of TropicalPolynomials
+
+- **Verdict**: `FALSIFIED`
+- **Bridge**: TROPICAL_FOURIER_ANALYSIS (Fourier-analytic combinatorics over the max-plus semiring; tropical geometry) × Circuit lower bounds for tropical (max,+) arithmetic circuits computing translated polynomial families — specifically the BSS-style real-arithmetic complexity class associated with constant-depth max-plus circuits
+- **Recorded**: 2026-04-26 20:50 UTC
+- **Entry ID**: `44f82c29ed79`
+
+### Statement
+
+Let f: {0,...,N-1} -> R be a TropicalPolynomial in the max-plus semiring, let TFT denote the TropicalFourierTransform, and let MFC(f) := min_{k != 0} |TFT(f)[k]| be the MinimalFourierCoefficient (excluding the DC mode k=0). For every constant c in R, define the additively-translated polynomial f_c(x) := f(x) + c (which corresponds to tropical scalar multiplication by c in the max-plus semiring). Then MFC(f_c) = MFC(f) and DiscrepancyCalculation(f_c) = DiscrepancyCalculation(f). Equivalently: the target invariant MinimalFourierCoefficient is invariant under the additive (tropical-multiplicative) translation group action, and only the DC Fourier coefficient TFT(f)[0] absorbs the shift c.
+
+### Rationale
+
+This sub-conjecture directly stress-tests Axiom A2 (invertibility/structure of TropicalFourierTransform on the relevant subspace) together with A3 (DiscrepancyMeasure is controlled by the magnitude of Fourier coefficients). If A2 holds in the standard sense — that TFT decomposes a tropical polynomial into a DC component plus oscillatory modes — then a uniform additive shift c (which is multiplication by c^{trop} in the semiring) must be entirely absorbed by the DC mode k=0, leaving every other coefficient unchanged. Consequently, both MFC and the discrepancy must be shift-invariant. A failure of this invariance would indicate that TFT mixes the DC mode with non-zero modes, contradicting A2. The complexity-theoretic object — constant-depth max-plus circuits — is natural here because additive shifts are computed by a single tropical-multiplication gate, so shift-invariance of MFC implies that any tropical circuit lower bound proved via MFC is automatically robust to such trivial gates.
+
+### Novelty
+
+- Judge: `NOVEL` over 13 arXiv hits
+
+Top hits consulted:
+  - [1503.01392v2] Valuations of Semirings
+  - [1010.5964v1] Quadratic discrete Fourier transform and mutually unbiased bases
+  - [0812.3496v1] Linear independence over tropical semirings and beyond
+  - [1406.3065v2] Lower Bounds for Tropical Circuits and Dynamic Programs
+  - [2504.19966v3] Quantum circuit lower bounds in the magic hierarchy
+
+### Empirical Test
+
+- exit code: `0`, elapsed: `0.03s`
+
+```
+TRIAL: {"metric_name": "MFC/Discrepancy Invariance", "metric_value": null, "instances_tested": 20, "conjecture_holds": false, "counterexample": "Failed MFC or Discrepancy invariance for N=16"}
+TRIAL: {"metric_name": "MFC/Discrepancy Invariance", "metric_value": null, "instances_tested": 20, "conjecture_holds": false, "counterexample": "Failed MFC or Discrepancy invariance for N=16"}
+TRIAL: {"metric_name": "MFC/Discrepancy Invariance", "metric_value": null, "instances_tested": 20, "conjecture_holds": false, "counterexample": "Failed MFC or Discrepancy invariance for N=16"}
+TRIAL: {"metric_name": "MFC/Discrepancy Invariance", "metric_value": null, "instances_tested": 20, "conjecture_holds": false, "counterexample": "Failed MFC or Discrepancy invariance for N=16"}
+TRIAL: {"metric_name": "MFC/Discrepancy Invariance", "metric_value": null, "instances_tested": 20, "conjecture_holds": false, "counterexample": "Failed MFC or Discrepancy invariance for N=16"}
+RESULT: FALSIFIED counterexample="MFC/Discrepancy Invariance failed" first_failing_seed=11
+```
+
+### Judge reasoning
+
+All 5 seeds reported conjecture_holds=false with support_fraction 0.0, and the test's RESULT line explicitly declares FALSIFIED at first_failing_seed=11. The critic confirms this is mathematically sound: in the max-plus semiring every tropical Fourier mode absorbs the additive shift c, so MFC is not shift-invariant. | next: Reformulate the invariant as MFC(f_c) - c = MFC(f) (or test invariance of differences TFT(f)[k]-TFT(f)[j] for k,j != 0), since the additive shift propagates uniformly across

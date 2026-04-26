@@ -1,0 +1,348 @@
+import random
+import math
+import itertools
+from typing import List, Tuple, Dict, Set, Generator
+
+# We'll use a symbolic approach with sparse representation due to exponential size.
+# For n <= 10, the Clifford algebra Cl_{n,n}(R) has dimension 2^(2n), which for n=10 is 2^20 ≈ 1e6 — borderline.
+# But full matrix representation is too heavy. Instead, we use power iteration with implicit matrix-vector products.
+# However, even that is challenging. We restrict to very small n (<= 6) and use exact arithmetic.
+
+# We use random seed for reproducibility
+rng = random.Random(42)
+
+# Clifford algebra Cl_{n,n}: we have 2n generators: e_i for var i, f_i for negated var i.
+# They satisfy: e_i^2 = 1, f_i^2 = 1, e_i e_j = -e_j e_i (i≠j), f_i f_j = -f_j f_i (i≠j), e_i f_j = -f_j e_i (i≠j), and e_i f_i = -f_i e_i.
+# But we can simplify: for variable x_i, we assign e_i for x_i, and f_i for ¬x_i, with e_i f_i = -f_i e_i, and all square to 1.
+
+# However, to encode a clause (l1 ∨ l2 ∨ l3), we map to multivector: 1 - g1*g2*g3, where gj is the generator for literal lj.
+# Then Q_phi = sum_{clauses} (1 - g1*g2*g3)
+
+# The spectral norm in Clifford algebra is defined via the regular representation (left multiplication) as a real matrix.
+# We'll build the algebra symbolically for small n.
+
+# We represent a multivector as a dict: tuple -> coefficient, where tuple is a sorted (with sign) list of generator indices.
+# Generators: 0 to n-1: e_i (for x_i), n to 2n-1: f_i (for ¬x_i)
+# But we must track anticommutation: each generator anticommutes with all others except itself.
+
+# We need multiplication of two basis elements: given two index tuples, compute product with sign.
+
+def multiply_basis(a: Tuple[int], b: Tuple[int], n: int) -> Tuple[Tuple[int], int]:
+    # Multiply two basis vectors: returns (result_indices, sign)
+    # a and b are tuples of generator indices in increasing order (canonical form)
+    # We use anticommutation: if i < j, then g_i g_j = - g_j g_i
+    # So we need to sort the combined list, counting swaps.
+    combined = list(a + b)
+    if not combined:
+        return tuple(), 1
+    # Bubble sort and count inversions
+    arr = combined[:]
+    sign = 1
+    # We'll sort and count swaps
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]
+                sign *= -1
+    # Now remove pairs: if same generator appears twice, they cancel (since g^2 = 1)
+    # But only consecutive? Actually, we can sweep and remove duplicates.
+    # Since sorted, same indices are adjacent.
+    i = 0
+    result = []
+    while i < len(arr):
+        if i+1 < len(arr) and arr[i] == arr[i+1]:
+            i += 2
+        else:
+            result.append(arr[i])
+            i += 1
+    return tuple(result), sign
+
+def negate_literal(lit: int, n_vars: int) -> int:
+    # lit: 0 to n_vars-1 for x_i, n_vars to 2*n_vars-1 for ¬x_i
+    # returns the negation: if lit < n_vars, return lit + n_vars, else lit - n_vars
+    if lit < n_vars:
+        return lit + n_vars
+    else:
+        return lit - n_vars
+
+def literal_to_generator(lit: int, n_vars: int) -> int:
+    # lit: positive for positive literal (1-indexed), negative for negative
+    # We map variable i (1-indexed) to e_{i-1} for +i, f_{i-1} for -i
+    var = abs(lit) - 1
+    if lit > 0:
+        return var
+    else:
+        return var + n_vars
+
+def clause_to_multivector(clause: List[int], n_vars: int):
+    # Returns a multivector (dict: tuple -> coeff) for 1 - g1*g2*g3
+    # First, get the three generators
+    gens = [literal_to_generator(lit, n_vars) for lit in clause]
+    # Compute g1*g2*g3 as a basis element
+    basis = tuple(sorted(gens))  # but we need to account for anticommutation in ordering
+    # We'll compute the product step by step: start with ((),1) then multiply by each generator in order
+    current_basis = ()
+    current_sign = 1
+    for g in gens:
+        new_basis, new_sign = multiply_basis(current_basis, (g,), n_vars)
+        current_basis = new_basis
+        current_sign *= new_sign
+    # So g1*g2*g3 = current_sign * basis_element(current_basis)
+    # Then 1 - g1*g2*g3: the "1" is the empty tuple
+    mv = {}
+    mv[tuple()] = 1.0
+    mv[current_basis] = mv.get(current_basis, 0.0) - current_sign
+    return mv
+
+def add_multivectors(a: dict, b: dict) -> dict:
+    result = a.copy()
+    for k, v in b.items():
+        result[k] = result.get(k, 0.0) + v
+    return result
+
+def multivector_to_matrix(mv: dict, n_vars: int) -> Tuple[List[List[float]], int]:
+    # Build the regular representation (left multiplication) of the multivector as a real matrix.
+    # The basis of the Clifford algebra is all subsets of {0,1,...,2*n_vars-1}, in lexicographic order.
+    dim = 2 * n_vars
+    size = 1 << dim  # 2^(2*n_vars)
+    if size > 2**12:  # Only allow up to n_vars=6 -> 2^12 = 4096
+        raise ValueError(f"Too large: n_vars={n_vars} -> matrix size {size}x{size}")
+    # Basis elements: tuples of indices, but we map each subset to an integer: bit i set if generator i is present.
+    # But we must represent each basis element as a sorted tuple (canonical form).
+    # Precompute: index_to_basis[i] = tuple of generators in increasing order for bit representation i.
+    index_to_basis = []
+    for i in range(size):
+        basis = tuple(j for j in range(dim) if i & (1 << j))
+        index_to_basis.append(basis)
+    
+    # Matrix M: M[i,j] = coefficient of basis_i in mv * basis_j
+    M = [[0.0] * size for _ in range(size)]
+    for j in range(size):
+        basis_j = index_to_basis[j]
+        # Multiply mv (as operator) with basis_j
+        result_part = {}
+        for basis_k, coeff in mv.items():
+            prod_basis, sign = multiply_basis(basis_k, basis_j, n_vars)
+            result_part[prod_basis] = result_part.get(prod_basis, 0.0) + coeff * sign
+        # Now map result_part to indices
+        for basis, coeff in result_part.items():
+            if abs(coeff) > 1e-10:
+                # Find index of basis
+                idx = 0
+                for g in basis:
+                    idx |= (1 << g)
+                M[idx][j] += coeff
+    return M, size
+
+def power_iteration(matrix: List[List[float]], size: int, max_iter: int = 1000, tol: float = 1e-6) -> float:
+    # Compute spectral norm via power iteration
+    rng = random.Random(42)
+    # Start with random vector
+    v = [rng.gauss(0, 1) for _ in range(size)]
+    # Normalize
+    norm = math.sqrt(sum(x*x for x in v))
+    v = [x/norm for x in v]
+    
+    for _ in range(max_iter):
+        # Multiply matrix * v
+        w = [0.0] * size
+        for i in range(size):
+            for j in range(size):
+                w[i] += matrix[i][j] * v[j]
+        # Compute norm
+        w_norm = math.sqrt(sum(x*x for x in w))
+        if w_norm < 1e-10:
+            return 0.0
+        # Normalize
+        w = [x/w_norm for x in w]
+        # Check convergence: |v·w| ≈ 1
+        dot = sum(v[i]*w[i] for i in range(size))
+        if abs(abs(dot) - 1) < tol:
+            break
+        v = w
+    # Now w is approximate eigenvector, w_norm is approximate eigenvalue magnitude
+    return w_norm
+
+def generate_pigeonhole_clauses(n: int) -> List[List[int]]:
+    # Pigeonhole principle: n+1 pigeons, n holes
+    # Variables: x_{p,h} for pigeon p in hole h
+    # We use variable index: (p-1)*n + h, for p in 1..n+1, h in 1..n
+    clauses = []
+    # Each pigeon in at least one hole
+    for p in range(1, n+2):
+        clause = [((p-1)*n + h) for h in range(1, n+1)]
+        clauses.append(clause)
+    # Each hole has at most one pigeon
+    for h in range(1, n+1):
+        for p1 in range(1, n+2):
+            for p2 in range(p1+1, n+2):
+                clause = [-((p1-1)*n + h), -((p2-1)*n + h)]
+                clauses.append(clause)
+    return clauses
+
+def is_tautology(clause: List[int]) -> bool:
+    lits = set(clause)
+    for lit in clause:
+        if -lit in lits:
+            return True
+    return False
+
+def simplify_clauses(clauses: List[List[int]]) -> List[List[int]]:
+    # Remove tautologies and duplicate clauses
+    seen = set()
+    result = []
+    for clause in clauses:
+        if is_tautology(clause):
+            continue
+        # Normalize clause: sort and make tuple
+        norm_clause = tuple(sorted(clause))
+        if norm_clause not in seen:
+            seen.add(norm_clause)
+            result.append(clause)
+    return result
+
+def resolve(c1: List[int], c2: List[int]) -> Generator[List[int], None, None]:
+    # Generate all resolvents of c1 and c2
+    lits1 = set(c1)
+    lits2 = set(c2)
+    for lit in c1:
+        if -lit in lits2:
+            resolvent = sorted(list((lits1 - {lit}) | (lits2 - {-lit})))
+            yield resolvent
+
+def resolution_size_dpll(clauses: List[List[int]], n_vars: int) -> int:
+    # Simple DPLL-based enumerator for resolution proof size (tree-like only, for small instances)
+    # We count the number of clauses in the smallest resolution refutation (tree-like).
+    # This is exponential, so only for very small instances.
+    # We use recursive backtracking with memoization (by frozenset of clauses).
+    from collections import deque
+    # We'll do BFS for shortest refutation
+    initial = frozenset(tuple(sorted(clause)) for clause in simplify_clauses(clauses))
+    if any(len(clause)==0 for clause in initial):
+        return 1  # already have empty clause
+    if not initial:
+        return 1
+    # Check if already contains empty clause
+    if any(len(cl)==0 for cl in initial):
+        return 1
+    # BFS: each state is a set of clauses (frozenset of tuples)
+    queue = deque()
+    visited = set()
+    queue.append((initial, len(initial)))  # (clauses, proof_size_so_far) — proof size = number of clauses generated
+    visited.add(initial)
+    
+    best = float('inf')
+    step = 0
+    while queue and step < 10000:
+        state, size = queue.popleft()
+        clauses_list = [list(cl) for cl in state]
+        # Try all pairs for resolution
+        n = len(clauses_list)
+        for i in range(n):
+            for j in range(i+1, n):
+                for resolvent in resolve(clauses_list[i], clauses_list[j]):
+                    if len(resolvent) == 0:
+                        best = min(best, size + 1)
+                        continue
+                    new_clause = tuple(sorted(resolvent))
+                    new_state = state | {new_clause}
+                    if new_state not in visited:
+                        visited.add(new_state)
+                        queue.append((new_state, size + 1))
+        step += 1
+        if best != float('inf'):
+            break
+    return best if best != float('inf') else -1  # -1 means not found
+
+def compute_clifford_norm(clauses: List[List[int]], n_vars: int) -> float:
+    # Build Q_phi = sum_{clause in clauses} (1 - g1*g2*g3)
+    Q_phi = {}
+    for clause in clauses:
+        mv = clause_to_multivector(clause, n_vars)
+        Q_phi = add_multivectors(Q_phi, mv)
+    # Convert to matrix
+    try:
+        matrix, size = multivector_to_matrix(Q_phi, n_vars)
+    except ValueError as e:
+        print(f"Matrix too large: {e}")
+        return 0.0
+    # Compute spectral norm
+    norm = power_iteration(matrix, size)
+    return norm
+
+# Test on small unsatisfiable instances: pigeonhole principle for n=2,3,4,5
+# n=2: 3 pigeons, 2 holes -> 6 variables
+# But for n_vars=6, matrix size is 2^12 = 4096 -> feasible
+# But resolution_size_dpll will be too slow for n=3 (4 pigeons, 3 holes -> 12 variables) -> 12 vars -> too many clauses
+# So we try only n=2 for pigeonhole.
+
+# Instead, we use smaller contradictions.
+
+def generate_small_contradiction(n_vars: int) -> List[List[int]]:
+    # Simple: x1, ¬x1, and some dummy clauses to make 3-CNF
+    clauses = []
+    # Unit clauses: but we need 3-CNF -> pad with dummy literals
+    dummy_literals = [2, -2] if n_vars >= 2 else []
+    clauses.append([1] + dummy_literals)
+    clauses.append([-1] + dummy_literals)
+    # Add more clauses to make it non-trivial? But it's already unsat.
+    # Make all clauses 3-literal
+    while len(clauses) < 3:
+        clauses.append([1,2,3] if len(clauses)%2==0 else [-1,-2,-3])
+    return clauses
+
+# We test for n from 3 to 6 (n_vars)
+results = []
+# We'll try small n_vars: 3, 4, 5, 6
+n_vals = [3, 4, 5, 6]
+for n_vars in n_vals:
+    print(f"Testing n_vars={n_vars}")
+    # Use small contradiction
+    clauses = generate_small_contradiction(n_vars)
+    clauses = simplify_clauses(clauses)
+    print(f"  clauses: {clauses}")
+    # Compute Clifford norm
+    norm = compute_clifford_norm(clauses, n_vars)
+    norm_squared = norm * norm
+    log_n = math.log(n_vars) if n_vars > 1 else 1
+    ratio = norm_squared / log_n
+    print(f"  ||Q||_Cl = {norm:.4f}, ||Q||_Cl^2 = {norm_squared:.4f}, log n = {log_n:.4f}, ratio = {ratio:.4f}")
+    # Compute resolution size
+    # But our DPLL enumerator is for tree-like and may be slow.
+    # For this small contradiction, we know resolution size is small.
+    # We try to compute it.
+    try:
+        r_size = resolution_size_dpll(clauses, n_vars)
+        print(f"  resolution size R(φ) = {r_size}")
+        if r_size > 0:
+            results.append((n_vars, norm_squared, r_size, ratio))
+    except RecursionError:
+        print("  recursion error in resolution enumerator")
+        continue
+    except MemoryError:
+        print("  memory error in resolution enumerator")
+        continue
+
+# Now check the conjecture: R(φ) = Ω(||Q||_Cl^2 / log n)
+# That is, R(φ) >= c * (||Q||_Cl^2 / log n) for some c>0
+if results:
+    # Compute the ratio R(φ) / (||Q||_Cl^2 / log n) = R(φ) * log n / ||Q||_Cl^2
+    ratios = []
+    for n_vars, norm_sq, r_size, ratio_val in results:
+        if norm_sq > 1e-10:
+            r = r_size * math.log(n_vars) / norm_sq
+            ratios.append(r)
+            print(f"  n={n_vars}: R*log n / ||Q||^2 = {r:.4f}")
+    if ratios:
+        min_ratio = min(ratios)
+        avg_ratio = sum(ratios) / len(ratios)
+        print(f"Minimum ratio (c) = {min_ratio:.4f}, average = {avg_ratio:.4f}")
+        # If min_ratio is bounded below by a positive constant, supported.
+        if min_ratio > 0.1:
+            print(f"RESULT: SUPPORTED c_min={min_ratio:.4f}")
+        else:
+            print(f"RESULT: FALSIFIED min_ratio_too_small={min_ratio:.4f}")
+    else:
+        print("RESULT: INCONCLUSIVE no_valid_ratios")
+else:
+    print("RESULT: INCONCLUSIVE no_successful_instances")
