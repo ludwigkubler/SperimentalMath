@@ -158,6 +158,12 @@ if [ -f "$SRC/pvsnp_lean_counterexample_log.jsonl" ]; then
     cp "$SRC/pvsnp_lean_counterexample_log.jsonl" lean_counterexamples/_build_log.jsonl
 fi
 
+# --- 11c. Citation rigor verdicts (Fase C — per-entry independent judge)
+if [ -d "$SRC/citations" ]; then
+    mkdir -p citations
+    rsync -a --include='*.json' --exclude='*' "$SRC/citations/" citations/
+fi
+
 # --- 12. Sandbox test sources (the actual Python that ran)
 if [ -d "$SRC/pvsnp_sandbox" ]; then
     mkdir -p sandbox_archive
