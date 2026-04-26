@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-26 20:54 UTC"
+date: "2026-04-26 21:46 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-26 20:54 UTC
+Generated 2026-04-26 21:46 UTC
 
-- Cycles recorded: **113**
-- Time span: 71.2h (~1.59 cycles/h)
+- Cycles recorded: **117**
+- Time span: 72.1h (~1.62 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 96 |
+| INCONCLUSIVE | 100 |
 | FALSIFIED | 13 |
 | SUPPORTED | 4 |
 
@@ -66,10 +66,6 @@ Generated 2026-04-26 20:54 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-26 13:51 UTC | `INCONCLUSIVE` | Tropical Convolution Subadditivity of MinimalFourierCoefficient a |
-| 2026-04-26 14:14 UTC | `INCONCLUSIVE` | Newton Polytope Lattice Width Lower-Bounds SoS Refutation Degree  |
-| 2026-04-26 14:44 UTC | `INCONCLUSIVE` | Newton Polytope Vertex Count Bounds ACC^0[m] Size for Symmetric C |
-| 2026-04-26 15:16 UTC | `INCONCLUSIVE` | Total Influence of Clause-XOR Aggregate Bounds DPLL Tree Leaves |
 | 2026-04-26 15:37 UTC | `INCONCLUSIVE` | LZ78 Compression Ratio Lower-Bounds MCSP Truth-Table Circuit Size |
 | 2026-04-26 16:19 UTC | `INCONCLUSIVE` | Newton Polytope Edge Count Lower-Bounds Average-Case DPLL Runtime |
 | 2026-04-26 17:10 UTC | `INCONCLUSIVE` | Nisan-Wigderson Seed Length Bounded by Finite Geometry Line Count |
@@ -81,6 +77,10 @@ Generated 2026-04-26 20:54 UTC
 | 2026-04-26 20:32 UTC | `FALSIFIED` | Tropical Self-Convolution Doubling Law for MinimalFourierCoeffici |
 | 2026-04-26 20:50 UTC | `FALSIFIED` | Tropical Shift-Invariance of MinimalFourierCoefficient under Addi |
 | 2026-04-26 20:54 UTC | `INCONCLUSIVE` | Hypercontractive (4,2)-Norm of Clause-Count Polynomial Bounds Res |
+| 2026-04-26 21:31 UTC | `INCONCLUSIVE` | Tropical Tensor-Product Factorization of MinimalFourierCoefficien |
+| 2026-04-26 21:34 UTC | `INCONCLUSIVE` | Dyadic Martingale Quadratic Variation Lower-Bounds Sign-Rank Disc |
+| 2026-04-26 21:43 UTC | `INCONCLUSIVE` | Legendre-Fenchel Involution Conjecture: Discrepancy Invariance un |
+| 2026-04-26 21:46 UTC | `INCONCLUSIVE` | Combinatorial Discrepancy of NW Designs Predicts Generator Bias o |
 
 ## How to read the reports
 

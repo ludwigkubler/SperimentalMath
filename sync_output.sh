@@ -149,6 +149,15 @@ if [ -d "$SRC/replay" ]; then
     rsync -a --include='*.tar.gz' --exclude='*' "$SRC/replay/" replay/
 fi
 
+# --- 11b. Lean counterexample formalizations (Fase B)
+if [ -d "$SRC/lean_counterexamples" ]; then
+    mkdir -p lean_counterexamples
+    rsync -a --include='*.lean' --exclude='*' "$SRC/lean_counterexamples/" lean_counterexamples/
+fi
+if [ -f "$SRC/pvsnp_lean_counterexample_log.jsonl" ]; then
+    cp "$SRC/pvsnp_lean_counterexample_log.jsonl" lean_counterexamples/_build_log.jsonl
+fi
+
 # --- 12. Sandbox test sources (the actual Python that ran)
 if [ -d "$SRC/pvsnp_sandbox" ]; then
     mkdir -p sandbox_archive
