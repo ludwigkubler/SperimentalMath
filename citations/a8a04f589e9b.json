@@ -1,0 +1,85 @@
+{
+  "entry_id": "a8a04f589e9b",
+  "ts": 1777246041.2282171,
+  "hits_evaluated": 8,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1806.00355",
+      "title": "Mahler's work on Diophantine equations and subsequent developments",
+      "abstract_excerpt": "We discuss Mahler's work on Diophantine approximation and its applications to Diophantine equations, in particular Thue-Mahler equations, S-unit equations and S-integral points on elliptic curves, and go into later developments concerning the number of solutions to Thue-Mahler equations and effective finiteness results for Thue-Mahler equations. For the latter we need estimates for p-adic logarithmic forms, which may be viewed as an outgrowth of Mahler's work on the p-adic Gel'fond-Schneider the",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Mahler's work on Diophantine equations (Thue-Mahler, S-unit, p-adic logarithmic forms), with no mention of Mahler measure of polynomials, Boolean circuit complexity, or ACC^0[6]. It shares the name 'Mahler' but does not interact with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1806.00356",
+      "title": "Mahler's work on the geometry of numbers",
+      "abstract_excerpt": "Mahler has written many papers on the geometry of numbers. Arguably, his most influential achievements in this area are his compactness theorem for lattices, his work on star bodies and their critical lattices, and his estimates for the successive minima of reciprocal convex bodies and compound convex bodies. We give a, by far not complete, overview of Mahler's work on these topics and their impact.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes Mahler's work on geometry of numbers (compactness theorem, star bodies, successive minima), which shares the name 'Mahler' but does not address Mahler measure of polynomials nor ACC^0[6] circuit complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1701.06097",
+      "title": "Graph complexity and Mahler measure",
+      "abstract_excerpt": "The (torsion) complexity of a finite edge-weighted graph is defined to be the order of the torsion subgroup of the abelian group presented by its Laplacian matrix. When G is d-periodic (i.e., G has a free action of the rank-d free abelian group by graph automorphisms, with finite quotient) the Mahler measure of its Laplacian determinant polynomial is the growth rate of the complexity of finite quotients of G. Lehmer's question, an open question about the roots of monic integral polynomials, is e",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Mahler measure as a growth rate of torsion complexity of periodic graph Laplacians and its connection to Lehmer's question; it says nothing about Boolean circuit complexity, ACC^0[6], or CNF-derived signed-degree polynomials.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2504.19966",
+      "title": "Quantum circuit lower bounds in the magic hierarchy",
+      "abstract_excerpt": "We introduce the magic hierarchy, a quantum circuit model that alternates between arbitrary-sized Clifford circuits and constant-depth circuits with two-qubit gates ($\\textsf{QNC}^0$). This model unifies existing circuit models, such as $\\textsf{QAC}^0_f$ and models with adaptive intermediate measurements. Despite its generality, we are able to prove nontrivial lower bounds.\n  We prove new lower bounds in the first level of the hierarchy, showing that certain explicit quantum states cannot be ap",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses quantum circuit lower bounds in a 'magic hierarchy' involving Clifford and QNC^0 circuits, with no mention of Mahler measure, signed-degree polynomials, or ACC^0[6] size bounds for CNF functions.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2311.04204",
+      "title": "Sharp Thresholds Imply Circuit Lower Bounds: from random 2-SAT to Planted Clique",
+      "abstract_excerpt": "We show that sharp thresholds for Boolean functions directly imply average-case circuit lower bounds. More formally we show that any Boolean function exhibiting a sharp enough threshold at \\emph{arbitrary} critical density cannot be computed by Boolean circuits of bounded depth and polynomial size. We also prove a partial converse: if a monotone graph invariant Boolean function does not have a sharp threshold then it can be computed on average by a Boolean circuit of bounded depth and polynomial",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract derives bounded-depth circuit lower bounds from sharp thresholds of Boolean functions, with no mention of Mahler measure, signed-degree polynomials, or ACC^0[6] size bounds tied to algebraic heights of CNF-derived polynomials.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2502.03039",
+      "title": "Lower bounds for heights on some algebraic dynamical systems",
+      "abstract_excerpt": "Let $v$ be a finite place of a number field $K$ and write $K^{nr,v}$ for the maximal field extension of $K$ in which $v$ is unramified. The purpose of this paper is split up into two parts. The first one generalizes a theorem of Pottmeyer: If $E$ is an elliptic curve defined over $K$ with split multiplicative reduction at $v$, then the Néron-Tate height of a non-torsion point $P\\in E(\\bar{K})$ is bounded from below by $C / e_v(P)^{2 e_v(P)+1}$, where $C&gt;0$ is an absolute constant and $e_v(P)$",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Néron-Tate/canonical height lower bounds on abelian varieties and polynomial dynamical systems with applications to Lehmer's conjecture; it makes no connection to Boolean circuit complexity, ACC^0[6], or CNF-derived polynomials.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1904.05483",
+      "title": "Parallels Between Phase Transitions and Circuit Complexity?",
+      "abstract_excerpt": "In many natural average-case problems, there are or there are believed to be critical values in the parameter space where the structure of the space of solutions changes in a fundamental way. These phase transitions are often believed to coincide with drastic changes in the computational complexity of the associated problem.\n  In this work, we study the circuit complexity of inference in the broadcast tree model, which has important applications in phylogenetic reconstruction and close connectio",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses TC^0/NC^1 circuit complexity in broadcast tree models and phase transitions, with no mention of Mahler measure, ACC^0[6], or CNF signed-degree polynomials relevant to the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0410111v2",
+      "title": "Integer Polynomial Optimization in Fixed Dimension",
+      "abstract_excerpt": "We classify, according to their computational complexity, integer optimization problems whose constraints and objective functions are polynomials with integer coefficients and the number of variables is fixed. For the optimization of an integer polynomial over the lattice points of a convex polytope",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns computational complexity of integer polynomial optimization over lattice points in fixed dimension, which shares the 'integer polynomial' vocabulary but does not address Mahler measure or ACC^0[6] circuit lower bounds for CNFs.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 8,
+    "INSUFFICIENT": 0
+  }
+}

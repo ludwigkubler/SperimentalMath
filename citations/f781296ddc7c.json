@@ -1,0 +1,85 @@
+{
+  "entry_id": "f781296ddc7c",
+  "ts": 1777244152.6155803,
+  "hits_evaluated": 8,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1605.00058",
+      "title": "Strongly Refuting Random CSPs Below the Spectral Threshold",
+      "abstract_excerpt": "Random constraint satisfaction problems (CSPs) are known to exhibit threshold phenomena: given a uniformly random instance of a CSP with $n$ variables and $m$ clauses, there is a value of $m = Ω(n)$ beyond which the CSP will be unsatisfiable with high probability. Strong refutation is the problem of certifying that no variable assignment satisfies more than a constant fraction of clauses; this is the natural algorithmic problem in the unsatisfiable regime (when $m/n = ω(1)$).\n  Intuitively, stro",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes upper bounds on SoS refutation rounds as a function of clause density (m/n ≥ Õ(n^((k/2-1)(1-δ)))), not a lower bound on SoS degree expressed via the normalized spectral gap of a centered second-moment matrix M(F). It shares the SoS/k-XOR framework but does not address the specific spectral-gap-to-degree inequality d_SoS(F) ≥ ⌈2/g(F)⌉ + 2.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1208.6015",
+      "title": "The spectral function of a first order elliptic system",
+      "abstract_excerpt": "We consider an elliptic self-adjoint first order pseudodifferential operator acting on columns of complex-valued half-densities over a connected compact manifold without boundary. The eigenvalues of the principal symbol are assumed to be simple but no assumptions are made on their sign, so the operator is not necessarily semi-bounded. We study the following objects: the propagator (time-dependent operator which solves the Cauchy problem for the dynamic equation), the spectral function (sum of sq",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns spectral asymptotics of elliptic pseudodifferential operators on manifolds ('explicit two-term asymptotic formulae' for propagator, spectral, and counting functions), which has no interaction with Sum-of-Squares refutation degree or 3-XOR CSP spectral gaps.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1009.0997",
+      "title": "Spectral asymptotics for Robin problems with a discontinuous coefficient",
+      "abstract_excerpt": "The spectral behavior of the difference between the resolvents of two realizations $\\tilde A_1$ and $\\tilde A_2$ of a second-order strongly elliptic symmetric differential operator $A$, defined by different Robin conditions $νu=b_1γ_0u$ and $νu=b_2γ_0u$, can in the case where all coefficients are $C^\\infty$ be determined by use of a general result by the author in 1984 on singular Green operators. We here treat the problem for nonsmooth $b_i$. Using a Krein resolvent formula, we show that if $b_",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns spectral asymptotics of resolvent differences for elliptic operators with Robin boundary conditions, with no connection to Sum-of-Squares hierarchies, 3-XOR CSPs, or refutation degree.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2101.05167",
+      "title": "A Sublevel Moment-SOS Hierarchy for Polynomial Optimization",
+      "abstract_excerpt": "We introduce a sublevel Moment-SOS hierarchy where each SDP relaxation can be viewed as an intermediate (or interpolation) between the d-th and (d+1)-th order SDP relaxations of the Moment-SOS hierarchy (dense or sparse version). With the flexible choice of determining the size (level) and number (depth) of subsets in the SDP relaxation, one is able to obtain different improvements compared to the d-th order relaxation, based on the machine memory capacity. In particular, we provide numerical ex",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a 'sublevel Moment-SOS hierarchy' for polynomial optimization with numerical experiments on Max-Cut, MIP, and neural network certification, never addressing 3-XOR refutation degree or spectral gap lower bounds on pseudoexpectation moment matrices.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1209.3049",
+      "title": "Lower bounds on the global minimum of a polynomial",
+      "abstract_excerpt": "We extend the method of Ghasemi and Marshall [SIAM. J. Opt. 22(2) (2012), pp 460-473], to obtain a lower bound $f_{{\\rm gp},M}$ for a multivariate polynomial $f(x) \\in \\mathbb{R}[x]$ of degree $ \\le 2d$ in $n$ variables $x = (x_1,...,x_n)$ on the closed ball ${x \\in \\mathbb{R}^n : \\sum x_i^{2d} \\le M}$, computable by geometric programming, for any real $M$. We compare this bound with the (global) lower bound $f_{\\rm gp}$ obtained by Ghasemi and Marshall, and also with the hierarchy of lower boun",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns geometric-programming lower bounds for the global minimum of polynomials on a ball, compared to Lasserre SDP bounds; it does not address SoS refutation degree, 3-XOR CSPs, or pseudoexpectation spectral gaps.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1602.05409",
+      "title": "Lasserre Lower Bounds and Definability of Semidefinite Programming",
+      "abstract_excerpt": "For a large class of optimization problems, namely those that can be expressed as finite-valued constraint satisfaction problems (VCSPs), we establish a dichotomy on the number of levels of the Lasserre hierarchy of semi-definite programs (SDPs) that are required to solve the problem exactly. In particular, we show that if a finite-valued constraint problem is not solved exactly by its basic linear programming relaxation, it is also not solved exactly by any sub-linear number of levels of the La",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses a dichotomy theorem for Lasserre levels on VCSPs via logical undefinability ('lower bounds on the number of variables required in counting logic'), not a quantitative spectral-gap bound on SoS refutation degree for 3-XOR instances. It shares the Lasserre/SoS framework but does not interact with the specific spectral-gap inequality being conjectured.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1701.04521",
+      "title": "Sum of squares lower bounds for refuting any CSP",
+      "abstract_excerpt": "Let $P:\\{0,1\\}^k \\to \\{0,1\\}$ be a nontrivial $k$-ary predicate. Consider a random instance of the constraint satisfaction problem $\\mathrm{CSP}(P)$ on $n$ variables with $Δn$ constraints, each being $P$ applied to $k$ randomly chosen literals. Provided the constraint density satisfies $Δ\\gg 1$, such an instance is unsatisfiable with high probability. The \\emph{refutation} problem is to efficiently find a proof of unsatisfiability.\n  We show that whenever the predicate $P$ supports a $t$-\\emph{w",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper proves SoS degree lower bounds for refuting random CSPs in terms of constraint density and t-wise uniformity (e.g., degree Θ(n/Δ^{2/(t-1)} log Δ)), but says nothing about a spectral-gap quantity g(F) of a centered second-moment matrix or the specific bound d_SoS(F) ≥ ⌈2/g(F)⌉ + 2 with O(log n) slack. The frameworks overlap in vocabulary (SoS, CSP refutation) but do not interact with the conjecture's specific spectral-gap claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1911.02911",
+      "title": "Extended Formulation Lower Bounds for Refuting Random CSPs",
+      "abstract_excerpt": "Random constraint satisfaction problems (CSPs) such as random $3$-SAT are conjectured to be computationally intractable. The average case hardness of random $3$-SAT and other CSPs has broad and far-reaching implications on problems in approximation, learning theory and cryptography.\n  In this work, we show subexponential lower bounds on the size of linear programming relaxations for refuting random instances of constraint satisfaction problems. Formally, suppose $P : \\{0,1\\}^k \\to \\{0,1\\}$ is a ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns subexponential size lower bounds on linear programming extended formulations for refuting random CSPs via pseudocalibration, not a spectral-gap-based degree lower bound for SoS refutation of 3-XOR. It does not address the claimed inequality d_SoS(F) ≥ ⌈2/g(F)⌉ + 2 or the second-moment matrix M(F).",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 8,
+    "INSUFFICIENT": 0
+  }
+}
