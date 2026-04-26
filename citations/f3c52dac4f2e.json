@@ -1,0 +1,85 @@
+{
+  "entry_id": "f3c52dac4f2e",
+  "ts": 1777241957.270631,
+  "hits_evaluated": 8,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1408.4708",
+      "title": "Motivic zeta function via dlt modification",
+      "abstract_excerpt": "Given a smooth variety $X$ and a regular function $f$ on it, by considering the dlt modification, we define the dlt motivic zeta function $Z^{\\rm dlt}_{\\rm mot}(s)$ which does not depend on the choice of the dlt modification.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract defines a 'dlt motivic zeta function' via dlt modification of a smooth variety with a regular function, with no mention of CNF formulas, resolution width, or any complexity-theoretic connection that would interact with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0508315v2",
+      "title": "The Zeta Function of the Laplacian on Certain Fractals",
+      "abstract_excerpt": "We prove that the zeta-function $ζ_Δ$ of the Laplacian $Δ$ on a self-similar fractals with spectral decimation admits a meromorphic continuation to the whole complex plane. We characterise the poles, compute their residues, and give expressions for some special values of the zeta-function. Furthermo",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the zeta-function of the Laplacian on self-similar fractals with spectral decimation, which shares the vocabulary 'zeta function' and 'poles' but has no connection to motivic zeta functions of clause-indicator varieties or resolution width of 3-CNF formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0903.1238",
+      "title": "Motivic Zeta Functions for Curve Singularities",
+      "abstract_excerpt": "Let X be a complete, geometrically irreducible, singular, algebraic curve defined over a field of characteristic p big enough. Given a local ring O_{P,X} at a rational singular point P of X, we attached a universal zeta function which is a rational function and admits a functional equation if O_{P,X} is Gorenstein. This universal zeta function specializes to other known zeta functions and Poincare series attached to singular points of algebraic curves. In particular, for the local ring attached ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns universal zeta functions for singular points of algebraic curves and their specializations to Poincaré series, with no mention of CNF formulas, resolution width, or pole-counting bounds related to proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0309425v2",
+      "title": "Algebraic Aspects of Multiple Zeta Values",
+      "abstract_excerpt": "Multiple zeta values have been studied by a wide variety of methods. In this article we summarize some of the results about them that can be obtained by an algebraic approach. This involves \"coding\" the multiple zeta values by monomials in two noncommuting variables x and y. Multiple zeta values can",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns algebraic/combinatorial structure of multiple zeta values via noncommuting monomials, with no mention of motivic zeta functions, resolution width, CNF formulas, or Denef-Loeser theory.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0311029v1",
+      "title": "Zeta functions over zeros of general zeta and $L$-functions",
+      "abstract_excerpt": "We describe in detail three distinct families of generalized zeta functions built over the (nontrivial) zeros of a rather general arithmetic zeta or L-function, extending the scope of two earlier works that treated the Riemann zeros only. Explicit properties are also displayed more clearly than befo",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'generalized zeta functions built over the (nontrivial) zeros of a rather general arithmetic zeta or L-function,' which is unrelated to motivic zeta functions of clause-indicator varieties or resolution width in proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1012.4969",
+      "title": "Motivic zeta functions for degenerations of abelian varieties and Calabi-Yau varieties",
+      "abstract_excerpt": "This is a survey on motivic zeta functions associated to abelian varieties and Calabi-Yau varieties over a discretely valued field. We explain how they are related to Denef and Loeser's motivic zeta function associated to a complex hypersurface singularity and we investigate the relation between the poles of the zeta function and the eigenvalues of the monodromy action on the tame $\\ell$-adic cohomology of the variety. The motivic zeta function allows to generalize many interesting arithmetic in",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns motivic zeta functions of abelian and Calabi-Yau varieties and their relation to monodromy eigenvalues, with no mention of 3-CNF formulas, clause-indicator varieties, or resolution proof width. It shares the 'motivic zeta function' vocabulary but does not interact with the specific complexity-theoretic claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2208.03921",
+      "title": "Motivic integration on special rigid varieties and the motivic integral identity conjecture",
+      "abstract_excerpt": "We prove in this paper the original version of Kontsevich and Soibelman's motivic integral identity conjecture for formal functions by developing a novel framework for equivariant motivic integration on special rigid varieties. This theory is built upon our recent research on equivariant motivic integration within the realm of special formal schemes. The central element of our approach lies in demonstrating that two formal models of a given smooth rigid variety can be dominated by a third formal",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Kontsevich-Soibelman's motivic integral identity conjecture and equivariant motivic integration on rigid varieties, with no mention of zeta function poles, 3-CNF formulas, or resolution width. It shares the 'motivic integration' vocabulary but does not interact with the specific claim about resolution width bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1711.07883",
+      "title": "Note on the motivic DT/PT correspondence and the motivic Flop formula",
+      "abstract_excerpt": "We prove the motivic version of the DT/PT-correspondence in \\cite{PT} and the motivic flop formula of the curve counting invariants in the derived category of smooth Calabi-Yau threefold DM stacks. The main method we use is Bridgeland's Hall algebra identities and the motivic integration map of Bridgeland and Joyce from the motivic Hall algebra of the abelian category of coherent sheaves on a Calabi-Yau threefold DM stack $Y$ to the motivic quantum torus, which is a Poisson algebra homomorphism.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns motivic DT/PT correspondence and flop formulas for Calabi-Yau threefold DM stacks, with no mention of Denef-Loeser zeta functions, 3-CNF formulas, or resolution width. It shares only the broad 'motivic' vocabulary.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 8,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "entry_id": "a66ec462c425",
+  "ts": 1777241876.5801134,
+  "hits_evaluated": 7,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0002194v2",
+      "title": "On q-Deformations of Clifford Algebras",
+      "abstract_excerpt": "Several Clifford algebras that are covariant under the action of a Lie algebra $g$ can be deformed in a way consistent with the deformation of $Ug$ into a quantum group (or into a triangular Hopf algebra) $U_qg$, i.e. so as to remain covariant under the action of $U_qg$. In this report, after recall",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns q-deformations of Clifford algebras under quantum group actions ('deformed in a way consistent with the deformation of Ug into a quantum group'), which shares only the 'Clifford algebra' vocabulary with the conjecture and does not address SAT formulas, resolution proof size, or spectral norm bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math-ph/0603050v1",
+      "title": "Extended Grassmann and Clifford algebras",
+      "abstract_excerpt": "This paper is intended to investigate Grassmann and Clifford algebras over Peano spaces, introducing their respective associated extended algebras, and to explore these concepts also from the counterspace viewpoint. The exterior (regressive) algebra is shown to share the exterior (progressive) algeb",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Grassmann and Clifford algebras over Peano spaces and counterspace viewpoints, with no mention of SAT formulas, resolution proofs, or complexity bounds. It shares only the 'Clifford algebra' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2011.05171",
+      "title": "Subgroups of Clifford algebras",
+      "abstract_excerpt": "Clifford algebras are used for constructing spin groups, and are therefore of particular importance in the theory of quantum mechanics. But the spin group is not the only subgroup of the Clifford algebra. An algebraist's perspective on these groups and algebras may suggest ways in which they might be applied more widely to describe the fundamental properties of matter. I do not claim to build a physical theory on top of the fundamental algebra, and my suggestions for possible physical interpreta",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns subgroups of Clifford algebras and their potential applications to quantum mechanics and fermion generations ('used for constructing spin groups...describe the fundamental properties of matter'), with no connection to SAT formulas, resolution proof complexity, or spectral norm bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2104.14417",
+      "title": "Constraints from LIGO O3 data on gravitational-wave emission due to r-modes in the glitching pulsar PSR J0537-6910",
+      "abstract_excerpt": "We present a search for continuous gravitational-wave emission due to r-modes in the pulsar PSR J0537-6910 using data from the LIGO-Virgo Collaboration observing run O3. PSR J0537-6910 is a young energetic X-ray pulsar and is the most frequent glitcher known. The inter-glitch braking index of the pulsar suggests that gravitational-wave emission due to r-mode oscillations may play an important role in the spin evolution of this pulsar. Theoretical models confirm this possibility and predict emiss",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns gravitational-wave searches for r-mode emission from pulsar PSR J0537-6910 using LIGO O3 data, with no connection to Clifford algebras, SAT formulas, or resolution proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2603.25808",
+      "title": "Searches for Continuous Gravitational Waves from Supernova Remnants in the first part of the LIGO-Virgo-KAGRA Fourth Observing run",
+      "abstract_excerpt": "We present results from directed searches for continuous gravitational waves from a sample of 15 nearby supernova remnants, likely hosting young neutron star candidates, using data from the first eight months of the fourth observing run (O4) of the LIGO-Virgo-KAGRA Collaboration. The analysis employs five pipelines: four semi-coherent methods -- the Band-Sampled-Data directed pipeline, Weave and two Viterbi pipelines (single- and dual-harmonic) -- and PyStoch, a cross-correlation-based pipeline.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns LIGO-Virgo-KAGRA searches for continuous gravitational waves from supernova remnants, with no connection to Clifford algebras, SAT formulas, or resolution proof size.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2204.04523",
+      "title": "Search for continuous gravitational wave emission from the Milky Way center in O3 LIGO--Virgo data",
+      "abstract_excerpt": "We present a directed search for continuous gravitational wave (CW) signals emitted by spinning neutron stars located in the inner parsecs of the Galactic Center (GC). Compelling evidence for the presence of a numerous population of neutron stars has been reported in the literature, turning this region into a very interesting place to look for CWs. In this search, data from the full O3 LIGO--Virgo run in the detector frequency band $[10,2000]\\rm~Hz$ have been used. No significant detection was f",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a LIGO-Virgo search for continuous gravitational waves from the Galactic Center, with no connection to Clifford algebras, SAT formulas, or resolution proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1606.05050",
+      "title": "Proof Complexity Lower Bounds from Algebraic Circuit Complexity",
+      "abstract_excerpt": "We give upper and lower bounds on the power of subsystems of the Ideal Proof System (IPS), the algebraic proof system recently proposed by Grochow and Pitassi, where the circuits comprising the proof come from various restricted algebraic circuit classes. This mimics an established research direction in the boolean setting for subsystems of Extended Frege proofs, where proof-lines are circuits from restricted boolean circuit classes. Except one, all of the subsystems considered in this paper can",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns lower bounds for the Ideal Proof System via algebraic circuit complexity (sparse polynomials, depth-3 powering, ROABPs, multilinear formulas), not resolution proof size bounded by Clifford algebra spectral norms. It shares the broad theme of algebra-to-proof-complexity reductions but does not address the specific Clifford spectral norm bound on resolution size.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 7,
+    "INSUFFICIENT": 0
+  }
+}

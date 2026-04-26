@@ -1,0 +1,85 @@
+{
+  "entry_id": "a8b5663ca867",
+  "ts": 1777242061.0066757,
+  "hits_evaluated": 8,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2510.14760",
+      "title": "An Extension of Khovanov Homology to Immersed Surface Cobordisms",
+      "abstract_excerpt": "We show that an oriented surface in $\\mathbb{R}^4$ containing double point singularities induces a map between the Khovanov homology groups of its boundary links in a functorial way. As part of this work, the movie moves of Carter and Saito are extended to surfaces with double points.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns extending Khovanov homology to immersed surface cobordisms with double points in R^4, which shares only the 'Khovanov homology' vocabulary but says nothing about SAT instances, clause-variable graphs, or resolution proof size.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2509.03785",
+      "title": "Symmetries of equivariant Khovanov homology",
+      "abstract_excerpt": "We study symmetries in equivariant versions of Khovanov homology, which include (i) the construction of an involution $\\widehatσ$ for the $U(2)$-equivariant theory, (ii) an integral lifting $\\widehatν$ of the Shumakovitch operation $ν$, and (iii) splitting of the $U(1)$- and $U(1)\\times U(1)$-equivariant theories generalizing earlier work over $\\mathbb{F}_2$. Finally, we relate these structures to the Rasmussen $s$-invariant over an arbitrary field $F$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns symmetries and equivariant structures in Khovanov homology related to the Rasmussen s-invariant ('symmetries in equivariant versions of Khovanov homology'), with no mention of SAT instances, resolution proofs, or clause-variable graphs.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0808.1686",
+      "title": "Bundles of coloured posets and a Leray-Serre spectral sequence for Khovanov homology",
+      "abstract_excerpt": "The decorated hypercube found in the construction of Khovanov homology for links is an example of a Boolean lattice equipped with a presheaf of modules. One can place this in a wider setting as an example of a coloured poset, that is to say a poset with a unique maximal element equipped with a presheaf of modules. In this paper we initiate the study of a bundle theory for coloured posets, producing for a certain class of base posets a Leray-Serre type spectral sequence. We then show how this the",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a Leray-Serre spectral sequence for Khovanov homology of links via coloured posets, with no mention of SAT instances, clause-variable graphs, or resolution proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1602.05992",
+      "title": "Geometry and categorification",
+      "abstract_excerpt": "We describe a number of geometric contexts where categorification appears naturally: coherent sheaves, constructible sheaves and sheaves of modules over quantizations. In each case, we discuss how \"index formulas\" allow us to easily perform categorical calculations, and readily relate classical constructions of geometric representation theory to categorical ones.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses categorification in geometric contexts (coherent/constructible sheaves, quantizations) and 'index formulas' for categorical calculations, with no mention of Khovanov homology, SAT instances, or resolution proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1505.03340",
+      "title": "HordeSat: A Massively Parallel Portfolio SAT Solver",
+      "abstract_excerpt": "A simple yet successful approach to parallel satisfiability (SAT) solving is to run several different (a portfolio of) SAT solvers on the input problem at the same time until one solver finds a solution. The SAT solvers in the portfolio can be instances of a single solver with different configuration settings. Additionally the solvers can exchange information usually in the form of clauses. In this paper we investigate whether this approach is applicable in the case of massively parallel SAT sol",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes HordeSat, a massively parallel portfolio SAT solver, with no mention of Khovanov homology, clause-variable graphs, or resolution proof size bounds. It shares only the SAT solving domain but does not interact with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1908.01624",
+      "title": "Learned Clause Minimization in Parallel SAT Solvers",
+      "abstract_excerpt": "Learned clauses minimization (LCM) let to performance improvements of modern SAT solvers especially in solving hard SAT instances. Despite the success of LCM approaches in sequential solvers, they are not widely incorporated in parallel SAT solvers. In this paper we explore the potential of LCM for parallel SAT solvers by defining multiple LCM approaches based on clause vivification, comparing their runtime in different SAT solvers and discussing reasons for performance gains and losses. Results",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'Learned clauses minimization (LCM)' for parallel SAT solver performance, with no mention of Khovanov homology, clause-variable graphs, or theoretical bounds on resolution proof size.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2307.03297",
+      "title": "Patterns in Knot Floer Homology",
+      "abstract_excerpt": "Based on the data of 12-17-crossing knots, we establish three new conjectures about the hyperbolic volume and knot cohomology:\n  (1) There exists a constant $a \\in R_{&gt;0}$ such that the percentage of knots for which the following inequality holds converges to 1 as the crossing number $c \\to \\infty$:\n  $\\log r(K) &lt; a \\cdot Vol(K)$ for a knot $K$ where $r(K)$ is the total rank of knot Floer homology (KFH) of $K$ and $Vol(K)$ is the hyperbolic volume of $K$.\n  (2) There exist constants $a,b\\i",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns conjectures relating knot Floer homology rank and hyperbolic volume/determinant of knots, with no mention of SAT instances, clause-variable graphs, Khovanov homology, or resolution proof size.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0603445v3",
+      "title": "Knot Floer homology detects genus-one fibred knots",
+      "abstract_excerpt": "Ozsvath and Szabo conjectured that knot Floer homology detects fibred knots. We propose a strategy to approach this conjecture based on Gabai's theory of sutured manifold decomposition and contact topology. We implement this strategy for genus-one knots, obtaining as a corollary that, if rational su",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns knot Floer homology detecting genus-one fibred knots via sutured manifold decomposition, with no mention of Khovanov homology, SAT instances, or resolution proof size.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 8,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "entry_id": "01eca2524980",
+  "ts": 1777242095.9687145,
+  "hits_evaluated": 8,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1806.05207",
+      "title": "Interpolated sequences and critical $L$-values of modular forms",
+      "abstract_excerpt": "Recently, Zagier expressed an interpolated version of the Apéry numbers for $ζ(3)$ in terms of a critical $L$-value of a modular form of weight 4. We extend this evaluation in two directions. We first prove that interpolations of Zagier's six sporadic sequences are essentially critical $L$-values of modular forms of weight 3. We then establish an infinite family of evaluations between interpolations of leading coefficients of Brown's cellular integrals and critical $L$-values of modular forms of",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses interpolations of Apéry-like sequences and critical L-values of modular forms of weights 3 and 4, with no mention of dimensions of S2(Γ0(2n+1)), SAT instances, or DPLL search trees. It shares the 'modular forms' vocabulary but does not interact with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0909.4460",
+      "title": "Vertex Operators and Modular Forms",
+      "abstract_excerpt": "The leitmotif of these Notes is the idea of a vertex operator algebra (VOA) and the relationship between VOAs and elliptic functions and modular forms. This is to some extent analogous to the relationship between a finite group and its irreducible characters; the algebraic structure determines a set of numerical invariants, and arithmetic properties of the invariants provides feedback in the form of restrictions on the algebraic structure. One of the main points of these Notes is to explain how ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses vertex operator algebras and their relationship to modular forms via numerical invariants, with no mention of SAT, DPLL, or computational complexity. It shares only the 'modular forms' vocabulary but does not interact with the conjecture's specific claim about Γ0(2n+1) dimensions and SAT search trees.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2407.01476",
+      "title": "Tree Search for Language Model Agents",
+      "abstract_excerpt": "Autonomous agents powered by language models (LMs) have demonstrated promise in their ability to perform decision-making tasks such as web automation. However, a key limitation remains: LMs, primarily optimized for natural language understanding and generation, struggle with multi-step reasoning, planning, and using environmental feedback when attempting to solve realistic computer tasks. Towards addressing this, we propose an inference-time search algorithm for LM agents to explicitly perform e",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a 'best-first tree search' algorithm for language model agents on web tasks, with no mention of modular forms, congruence subgroups, 3-SAT, or DPLL. It shares only the generic vocabulary of 'tree search' and does not interact with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1505.03340",
+      "title": "HordeSat: A Massively Parallel Portfolio SAT Solver",
+      "abstract_excerpt": "A simple yet successful approach to parallel satisfiability (SAT) solving is to run several different (a portfolio of) SAT solvers on the input problem at the same time until one solver finds a solution. The SAT solvers in the portfolio can be instances of a single solver with different configuration settings. Additionally the solvers can exchange information usually in the form of clauses. In this paper we investigate whether this approach is applicable in the case of massively parallel SAT sol",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a parallel portfolio SAT solver (HordeSat) and makes no mention of modular forms, congruence subgroups, or dimension bounds, so it does not interact with the specific claim relating dim(S2(Γ0(2n+1))) to DPLL tree size.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1004.0653",
+      "title": "Exact Ramsey Theory: Green-Tao numbers and SAT",
+      "abstract_excerpt": "We consider the links between Ramsey theory in the integers, based on van der Waerden's theorem, and (boolean, CNF) SAT solving. We aim at using the problems from exact Ramsey theory, concerned with computing Ramsey-type numbers, as a rich source of test problems, where especially methods for solving hard problems can be developed. In order to control the growth of the problem instances, we introduce \"transversal extensions\" as a natural way of constructing mixed parameter tuples (k_1, ..., k_m)",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Ramsey-theoretic SAT benchmarks (van der Waerden / Green-Tao numbers) and SAT solver performance, with no mention of modular forms, congruence subgroups, or DPLL search tree size bounds, so it neither supports nor refutes the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1308.0761",
+      "title": "On estimating total time to solve SAT in distributed computing environments: Application to the SAT@home project",
+      "abstract_excerpt": "This paper proposes a method to estimate the total time required to solve SAT in distributed environments via partitioning approach. It is based on the observation that for some simple forms of problem partitioning one can use the Monte Carlo approach to estimate the time required to solve an original problem. The method proposed is based on an algorithm for searching for partitioning with an optimal solving time estimation. We applied this method to estimate the time required to perform logical",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Monte Carlo estimation of SAT solving time via partitioning for distributed computing (SAT@home, A5/1 cryptanalysis), with no mention of modular forms, congruence subgroups, or dimension bounds relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2210.08082",
+      "title": "On higher scissors congruence",
+      "abstract_excerpt": "We solve the higher version of Hilbert's Third Problem for one-dimensional geometries, and in higher dimensions we reduce the problem to a computation in group homology. Our central result concerns the scissors congruence $K$-theory spectrum of Zakharevich, whose homotopy groups are the correct higher version of the classical scissors congruence groups. We prove that this spectrum is a Thom spectrum, whose base space is the homotopy orbit space of a Tits complex. The relevant computations quickl",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns scissors congruence K-theory and Hilbert's Third Problem via Thom spectra and Tits complexes, with no mention of modular forms, congruence subgroups Γ0(N), 3-SAT, or DPLL search trees.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1410.7120",
+      "title": "Scissors Congruence with Mixed Dimensions",
+      "abstract_excerpt": "We introduce a Grothendieck group $E_n$ for bounded polytopes in $\\mathbb R^n$. It differs from the usual Euclidean scissors congruence group in that lower-dimensional polytopes are not ignored. We also define an analogous group $L_n$ using germs of polytopes at a point, which is related to spherical scissors congruence. This provides a setting for a generalization of the Dehn invariant.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Grothendieck groups for polytopes and scissors congruence with the Dehn invariant, which has no connection to modular forms, congruence subgroups, or 3-SAT/DPLL complexity claimed in the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 8,
+    "INSUFFICIENT": 0
+  }
+}

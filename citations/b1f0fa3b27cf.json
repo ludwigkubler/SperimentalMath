@@ -1,0 +1,76 @@
+{
+  "entry_id": "b1f0fa3b27cf",
+  "ts": 1777242438.941685,
+  "hits_evaluated": 7,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2502.18759",
+      "title": "Some permutation polynomials via linear translators",
+      "abstract_excerpt": "Permutation polynomials with explicit constructions over finite fields have long been a topic of great interest in number theory. In recent years, by applying linear translators of functions from $\\mathbb{F}_{q^n}$ to $\\mathbb{F}_q$, many scholars constructed some classes of permutation polynomials. Motivated by previous works, we first naturally extend the notion of linear translators and then construct some permutation polynomials.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract focuses on constructing permutation polynomials over finite fields using linear translators, with no mention of Specht modules, ABP complexity, or Young diagrams. It shares only the 'permutation polynomial' vocabulary without addressing the conjecture's complexity-theoretic claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2506.15133",
+      "title": "A Specht Filtration of Permutation Modules Over KLR Algebras",
+      "abstract_excerpt": "In type A, Kleshchev-Ram-Mathas realize Specht modules as quotient of Permutation modules, in this paper, we construct a Specht filtration of Permutation modules indexed by hook partition in affine type A; and construct a generalized Specht filtration of Permutation modules indexed by any partition in linear quiver case.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes Specht filtrations of permutation modules over KLR algebras in affine type A, which shares vocabulary (Specht modules, permutations) but does not address ABP complexity bounds for permutation polynomials over GF(2).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1203.5751",
+      "title": "Permutation resolutions for Specht modules of Hecke algebras",
+      "abstract_excerpt": "In [Boltje,Hartmann: Permutation resolutions for Specht modules, J. Algebraic Combin. 34 (2011), 141-162], a chain complex was constructed in a combinatorial way which conjecturally is a resolution of the (dual of the) integral Specht module for the symmetric group in terms of permutation modules. In this paper we extend the definition of the chain complex to the integral Iwahori Hecke algebra and prove the same partial exactness results that were proved in the symmetric group case. A complete p",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a chain complex resolving Specht modules in terms of permutation modules for Hecke algebras, with no mention of algebraic branching programs, circuit complexity, or permutation polynomials over GF(2). It shares only the vocabulary 'Specht module' and 'permutation' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1101.2456",
+      "title": "Polynomial representations and categorifications of Fock Space",
+      "abstract_excerpt": "The rings of symmetric polynomials form an inverse system whose limit, the ring of symmetric functions, is the model for the bosonic Fock space representation of the affine Lie algebra. We categorify this construction by considering an inverse limit of categories of polynomial representation of general linear groups. We show that this limit naturally carries an action of the affine Lie algebra (in the sense of Rouquier), thereby obtaining a famiy of categorifications of the bosonic Fock space re",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses categorification of Fock space via inverse limits of polynomial representations of general linear groups, with no mention of Specht module dimensions, ABP complexity, or permutation polynomials over GF(2). It shares the broad framework of symmetric function/representation theory but does not interact with the specific complexity claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/hep-ph/0610012v1",
+      "title": "Tevatron-for-LHC Report of the QCD Working Group",
+      "abstract_excerpt": "The experiments at Run 2 of the Tevatron have each accumulated over 1 inverse femtobarn of high-transverse momentum data. Such a dataset allows for the first precision (i.e. comparisons between theory and experiment at the few percent level) tests of QCD at a hadron collider. While the Large Hadron ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns QCD precision tests at the Tevatron and LHC ('precision... tests of QCD at a hadron collider'), which has no bearing on Specht modules, ABP complexity, or permutation polynomials over GF(2).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1511.00322",
+      "title": "Five Constructions of Permutation Polynomials over $\\gf(q^2)$",
+      "abstract_excerpt": "Four recursive constructions of permutation polynomials over $\\gf(q^2)$ with those over $\\gf(q)$ are developed and applied to a few famous classes of permutation polynomials. They produce infinitely many new permutation polynomials over $\\gf(q^{2^\\ell})$ for any positive integer $\\ell$ with any given permutation polynomial over $\\gf(q)$. A generic construction of permutation polynomials over $\\gf(2^{2m})$ with o-polynomials over $\\gf(2^m)$ is also presented, and a number of new classes of permut",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract focuses on 'recursive constructions of permutation polynomials over GF(q^2)' and finite field constructions, with no mention of ABPs, Specht modules, or complexity bounds relevant to the conjecture's claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/9902088v1",
+      "title": "Specht Modules and Branching Rules for Ariki-Koike Algebras",
+      "abstract_excerpt": "Specht modules for an Ariki-Koike algebra have been investigated recently in the context of cellular algebras. Thus, these modules are defined as quotient modules of certain ``permutation'' modules, that is, defined as ``cell modules'' via cellular bases. We shall introduce in this paper Specht modu",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Specht modules for Ariki-Koike algebras defined via cellular bases and branching rules, with no mention of algebraic branching programs, circuit complexity, or permutation polynomials over GF(2). The shared term 'branching' refers to representation-theoretic branching rules, not ABPs.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 7,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "entry_id": "62562465e776",
+  "ts": 1777242336.5281057,
+  "hits_evaluated": 8,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2403.17736",
+      "title": "A Family of Monomial Gröbner Degenerations of Determinantal Ideals with Minimal Cellular Resolutions",
+      "abstract_excerpt": "We explore a family of monomial ideals derived as Gröbner degenerations of determinantal ideals. These ideals, previously examined as block diagonal matching field ideals within the realm of toric degenerations of Grassmannians, are identified as monomial initial ideals of determinantal ideals. We establish their linear quotient property and calculate their Betti numbers, demonstrating that their minimal free resolution is supported on a regular CW complex, equivalently, they have a cellular res",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Gröbner degenerations of determinantal ideals and their minimal cellular (free) resolutions with Betti numbers — a commutative-algebra notion of resolution unrelated to the propositional resolution proof system or 3-CNF unsatisfiability invoked by the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2201.04220",
+      "title": "A semigroup defining the Gröbner degeneration of a toric ideal",
+      "abstract_excerpt": "We give an explicit set of generators for the semigroup of the Gröbner degeneration of a toric ideal. This set of generators is used to study algebraic properties of the semigroup it generates: approximation of semigroups, non-preservation of saturation, Betti elements, uniqueness of presentations, and Möbius functions.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns generators of a semigroup arising from the Gröbner degeneration of a toric ideal and its algebraic properties (saturation, Betti elements, Möbius functions), with no mention of SAT, resolution proofs, or polytope volumes of satisfying-assignment hulls.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2010.07104",
+      "title": "Quadratic Gröbner bases of block diagonal matching field ideals and toric degenerations of Grassmannians",
+      "abstract_excerpt": "In the present paper, we prove that the toric ideals of certain $s$-block diagonal matching fields have quadratic Gröbner bases. Thus, in particular, those are quadratically generated. By using this result, we provide a new family of toric degenerations of Grassmannians.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'quadratic Gröbner bases' and 'toric degenerations of Grassmannians,' which shares vocabulary (Gröbner, toric degeneration) with the conjecture but does not address SAT polytopes, resolution proof size, or volumes of initial ideals.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1504.05013",
+      "title": "Extremal Transition and Quantum Cohomology: Examples of Toric Degeneration",
+      "abstract_excerpt": "When a singular projective variety X_sing admits a projective crepant resolution X_res and a smoothing X_sm, we say that X_res and X_sm are related by extremal transition. In this paper, we study a relationship between the quantum cohomology of X_res and X_sm in some examples. For three dimensional conifold transition, a result of Li and Ruan implies that the quantum cohomology of a smoothing X_sm is isomorphic to a certain subquotient of the quantum cohomology of a resolution X_res with the qua",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quantum cohomology relationships under extremal transitions and toric degenerations of flag/Grassmannian varieties (Fl(1,2,3), Gr(2,4), Gr(2,5)), with no mention of SAT, resolution proofs, or polytope volume bounds for CNF formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2210.13137",
+      "title": "Maps to toric varieties, toric degenerations and integrable systems à la Harada--Kaveh",
+      "abstract_excerpt": "Given a toric degeneration (a degeneration to a toric variety), over the complex numbers, we construct a surjective continuous map from a general fiber to the special fiber of the degeneration in the classical topology. The construction is a variant of one due to Goresky and MacPherson based on the Thom--Mather theory of stratified spaces.\n  As an application, we recover and extend the construction of integrable systems à la Harada--Kaveh in \"Integrable systems, toric degenerations and okounkov ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns constructing continuous maps from general to special fibers of toric degenerations and integrable systems à la Harada–Kaveh, with no mention of SAT, resolution proof complexity, or polytope volumes of satisfying-assignment hulls.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2110.12731",
+      "title": "Semi-toric degenerations of Richardson varieties arising from cluster structures on flag varieties",
+      "abstract_excerpt": "A toric degeneration of an irreducible variety is a flat degeneration to an irreducible toric variety. In the case of a flag variety, its toric degeneration with desirable properties induces degenerations of Richardson varieties to unions of irreducible closed toric subvarieties, called semi-toric degenerations. For instance, Morier-Genoud proved that Caldero's toric degenerations arising from string polytopes have this property. Semi-toric degenerations are closely related to Schubert calculus.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'semi-toric degenerations of Richardson varieties arising from cluster structures on flag varieties' — a pure algebraic geometry topic with no mention of 3-CNF, resolution proofs, or proof complexity, so it shares only the toric-degeneration vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2309.05266",
+      "title": "Self-normalized Cramér type moderate deviations for martingales and applications",
+      "abstract_excerpt": "Cramér's moderate deviations give a quantitative estimate for the relative error of the normal approximation and provide theoretical justifications for many estimator used in statistics. In this paper, we establish self-normalized Cramér type moderate deviations for martingales under some mile conditions. The result extends an earlier work of Fan, Grama, Liu and Shao [Bernoulli, 2019]. Moreover, applications of our result to Student's statistic, stationary martingale difference sequences and bra",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'self-normalized Cramér type moderate deviations for martingales' with applications to Student's t-statistic and branching processes, which has no interaction with toric degenerations, Gröbner bases, or resolution proof size.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1106.4918",
+      "title": "A Generalized Criterion for Signature-based Algorithms to Compute Gröbner Bases",
+      "abstract_excerpt": "A generalized criterion for signature-based algorithms to compute Gröbner bases is proposed in this paper. This criterion is named by \"generalized criterion\", because it can be specialized to almost all existing criteria for signature-based algorithms which include the famous F5 algorithm, F5C, extended F5, G$^2$V and the GVW algorithm. The main purpose of current paper is to study in theory which kind of criteria is correct in signature-based algorithms and provide a generalized method to devel",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a generalized criterion for signature-based Gröbner basis algorithms (F5, GVW, etc.), with no mention of resolution proof complexity, SAT, or polytope volumes of satisfying assignments. It shares only the 'Gröbner' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 8,
+    "INSUFFICIENT": 0
+  }
+}

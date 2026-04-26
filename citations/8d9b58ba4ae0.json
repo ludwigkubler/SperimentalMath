@@ -1,0 +1,85 @@
+{
+  "entry_id": "8d9b58ba4ae0",
+  "ts": 1777241773.658591,
+  "hits_evaluated": 8,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1912.12928",
+      "title": "Relating Tate-Shafarevich group of an elliptic curve with class group",
+      "abstract_excerpt": "The paper formulates a precise relationship between the Tate-Shafarevich group of an elliptic curve $E$ over ${\\mathbb Q}$ with a quotient of the classgroup of ${\\mathbb Q}(E[p])$ on which $Gal({\\mathbb Q}(E[p]/{\\mathbb Q}) = GL_2({\\mathbb Z}/p)$ operates by its standard 2 dimensional representation over ${\\mathbb Z}/p$. We establish such a relationship in most cases.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract relates Ш(E) to a quotient of the class group of Q(E[p]) via Galois representations, with no mention of 3-SAT, satisfiability thresholds, or any combinatorial instance density. It shares the Tate-Shafarevich vocabulary but does not interact with the specific conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0303143v2",
+      "title": "The p-part of Tate-Shafarevich groups of elliptic curves can be arbitrarily large",
+      "abstract_excerpt": "In this paper it is shown that for every prime p&gt;5 the dimension of the p-torsion in the Tate-Shafarevich group of E/K can be arbitrarily large, where E is an elliptic curve defined over a number field K, with [K:Q] bounded by a constant depending only on p. From this we deduce that the dimension",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses unbounded growth of p-torsion in Sha for p>5 over number fields with bounded degree, which is unrelated to any 3-SAT instance density formula. It shares the Tate-Shafarevich vocabulary but does not interact with the specific Θ((m/n - 4.26)^2 * n) claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1602.02932",
+      "title": "Structure of Tate-Shafarevich groups of elliptic curves over global function fields",
+      "abstract_excerpt": "The structure of the Tate-Shafarevich groups of a class of elliptic curves over global function fields is determined. These are known to be finite abelian groups from the monograph [1] and hence they are direct sums of finite cyclic groups where the orders of these cyclic components are invariants of the Tate-Shafarevich group. This decomposition of the Tate-Shafarevich groups into direct sums of finite cyclic groups depends on the behaviour of Drinfeld-Heegner points on these elliptic curves. T",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the cyclic decomposition of Tate-Shafarevich groups of elliptic curves over global function fields via Drinfeld-Heegner points, with no mention of 3-SAT, satisfiability thresholds, or any quantitative scaling tied to clause-to-variable ratios.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2505.01628",
+      "title": "The Satisfiability Threshold for K-XOR Games",
+      "abstract_excerpt": "A $K$-XORGAME system corresponds to a $K$-XORSAT system with the additional restriction that the variables divide uniformly into $K$ blocks. This forms a system of $m$ equations with $K n$ unknowns over $\\mathbb{Z}_2$, and a perfect strategy corresponds to a solution to these equations. Equivalently, such equations correspond to colorings of a $K$-uniform $K$-partite hypergraph. This paper proves that the satisfiability threshold of $m/n$ for $K$-XORGAME problems exists and equals the satisfiabi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses the satisfiability threshold for K-XOR games equating it with K-XORSAT, with no mention of elliptic curves, Tate-Shafarevich groups, or 3-SAT-to-elliptic-curve mappings. It shares the SAT/threshold vocabulary but does not interact with the specific arithmetic-geometric claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1307.7691",
+      "title": "On the class numbers of the fields of the p^n-torsion points of certain elliptic curves over Q",
+      "abstract_excerpt": "Let E be an elliptic curve over Q with prime conductor p. For each non-negative integer n we put K_n:=Q(E[p^n]). The aim of this paper is to estimate the order of the p-Sylow group of the ideal class group of K_n. We give a lower bounds in terms of the Mordell-Weil rank of $E(\\Q)$. As an application of our result, we give an example such that p^{2n} divides the class number of the field $K_n$ in the case of $p=5077$ for each positive integer n.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns lower bounds on p-Sylow class groups of torsion fields K_n=Q(E[p^n]) in terms of Mordell-Weil rank, with no mention of Tate-Shafarevich groups, 3-SAT, or satisfiability thresholds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1202.0042",
+      "title": "The Satisfiability Threshold for a Seemingly Intractable Random Constraint Satisfaction Problem",
+      "abstract_excerpt": "We determine the exact threshold of satisfiability for random instances of a particular NP-complete constraint satisfaction problem (CSP). This is the first random CSP model for which we have determined a precise linear satisfiability threshold, and for which random instances with density near that threshold appear to be computationally difficult. More formally, it is the first random CSP model for which the satisfiability threshold is known and which shares the following characteristics with ra",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns determining a satisfiability threshold for a particular NP-complete CSP and its resolution complexity, with no mention of elliptic curves, Tate-Shafarevich groups, or any arithmetic-geometric mapping relevant to the conjecture's specific |Ш(E)[3]| scaling claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2507.22703",
+      "title": "The Tate-Shafarevich group of a polarised K3 surface",
+      "abstract_excerpt": "In an earlier paper we generalised the notion of the Tate-Shafarevich group of an elliptic K3 surface to the Tate-Shafarevich group of a polarised K3 surface. In the present note, we complement the result by proving that the Tate-Shafarevich group of a polarised K3 surface (S,h) with h primitive parametrises bijectively all torsors for the Jacobian of the generic curve in the linear system |h| that admit a good hyperkähler compactification. The result is seen as the analogue of the classical fac",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Tate-Shafarevich groups of polarised K3 surfaces and their parametrisation of torsors with hyperkähler compactifications, with no mention of elliptic curves over Q, 3-SAT, or any density/phase-transition relation. It shares only the 'Tate-Shafarevich' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0711.4436",
+      "title": "Tate-Shafarevich groups and K3 surfaces",
+      "abstract_excerpt": "Following (and elaborating on) a method of Logan and van Luijk, we exhibit explicit genus-2 curves whose Jacobians have nontrivial 2-torsion in their Tate-Shafarevich groups.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns explicit constructions of genus-2 Jacobians with nontrivial 2-torsion in Ш via K3 surface methods, with no mention of 3-SAT, satisfiability thresholds, or the scaling law (m/n - 4.26)^2 * n proposed in the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 8,
+    "INSUFFICIENT": 0
+  }
+}

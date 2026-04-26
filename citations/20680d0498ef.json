@@ -1,0 +1,85 @@
+{
+  "entry_id": "20680d0498ef",
+  "ts": 1777241592.3371944,
+  "hits_evaluated": 8,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0810.5165",
+      "title": "Some computations about Kazhdan-Lusztig cells in affine Weyl groups of rank 2",
+      "abstract_excerpt": "In the last section of the paper \"Generalized induction of Kazhdan-Lusztig cells\" and in \"Kazhdan-Lusztig cells in affine Weyl groups of rank 2\" the author described the partition into Kazhdan-Lusztig cells of the affine Weyl groups of rank 2 for all choices of parameters. The proof of these results relies on some explicit computations with GAP. In these notes we give some details of these computations.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes computational details for Kazhdan-Lusztig cell partitions in rank-2 affine Weyl groups, with no mention of resolution width, CNF formulas, or coefficient bounds. It shares only the Kazhdan-Lusztig vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1309.7265",
+      "title": "Computing individual Kazhdan-Lusztig basis elements",
+      "abstract_excerpt": "In well-known work, Kazhdan and Lusztig (1979) defined a new set of Hecke algebra basis elements (actually two such sets) associated to elements in any Coxeter group. Often these basis elements are computed by a standard recursive algorithm which, for Coxeter group elements of long length, generally involves computing most basis elements corresponding to Coxeter group elements of smaller length. Thus, many calculations simply compute all basis elements associated to a given length or less, even ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a memory-efficient algorithm for computing individual Kazhdan-Lusztig basis elements; it makes no claim relating KL polynomial coefficients to resolution width or any proof-complexity measure.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2007.15349",
+      "title": "The inverse Kazhdan-Lusztig polynomial of a matroid",
+      "abstract_excerpt": "In analogy with the classical Kazhdan-Lusztig polynomials for Coxeter groups, Elias, Proudfoot and Wakefield introduced the concept of Kazhdan-Lusztig polynomials for matroids. It is known that both the classical Kazhdan-Lusztig polynomials and the matroid Kazhdan-Lusztig polynomials can be considered as special cases of the Kazhdan-Lusztig-Stanley polynomials for locally finite posets. In the framework of Kazhdan-Lusztig-Stanley polynomials, we study the inverse of Kazhdan-Lusztig-Stanley funct",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns inverse Kazhdan-Lusztig polynomials for matroids and conjectures about nonnegativity/log-concavity of their coefficients, with no mention of resolution width, 3-CNF formulas, or proof complexity. It shares only the 'Kazhdan-Lusztig polynomial' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1406.5202",
+      "title": "Bruhat Interval Polytopes",
+      "abstract_excerpt": "Let u and v be permutations on n letters, with u &lt;= v in Bruhat order. A Bruhat interval polytope Q_{u,v} is the convex hull of all permutation vectors z = (z(1), z(2),...,z(n)) with u &lt;= z &lt;= v. Note that when u=e and v=w_0 are the shortest and longest elements of the symmetric group, Q_{e,w_0} is the classical permutohedron. Bruhat interval polytopes were studied recently by Kodama and the second author, in the context of the Toda lattice and the moment map on the flag variety.\n  In t",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses combinatorial and geometric properties of Bruhat interval polytopes (faces, dimension, R-polynomial recurrences), with no mention of Kazhdan-Lusztig polynomial coefficients, resolution width, or 3-CNF formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2307.15726",
+      "title": "Subexpressions and the Bruhat order for double cosets",
+      "abstract_excerpt": "The Bruhat order on a Coxeter group is often described by examining subexpressions of a reduced expression. We prove that an analogous description applies to the Bruhat order on double cosets. This establishes the compatibility of the Bruhat order on double cosets with concatenation, leading to compatibility between the monoidal structure and the ideal of lower terms in the singular Hecke 2-category. We also prove other fundamental properties of this ideal of lower terms.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the Bruhat order on double cosets and properties of the singular Hecke 2-category, with no mention of Kazhdan-Lusztig polynomial coefficients, resolution width, or CNF formulas. It shares the Coxeter/Hecke vocabulary but does not interact with the specific bound claimed.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1905.00047",
+      "title": "Padded Schubert polynomials and weighted enumeration of Bruhat chains",
+      "abstract_excerpt": "We prove a common generalization of the fact that the weighted number of maximal chains in the strong Bruhat order on the symmetric group is ${n \\choose 2}!$ for both the code weights and the Chevalley weights. We also define weights which give a one-parameter family of strong order analogues of Macdonald's reduced word identity for Schubert polynomials.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns weighted enumeration of maximal chains in strong Bruhat order and Schubert polynomial identities, with no mention of Kazhdan-Lusztig polynomials, resolution width, or CNF formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0403066v2",
+      "title": "On the Kazhdan-Lusztig basis of a spherical Hecke algebra",
+      "abstract_excerpt": "Lusztig proved that the Kazhdan-Lusztig basis of a spherical Hecke algebra can be essentially identified with the Weyl characters of the Langlands dual group. We generalize this result to the unequal parameter case. The new proof is pretty simple and quite different from Lusztig's.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns identifying the Kazhdan-Lusztig basis of a spherical Hecke algebra with Weyl characters of the Langlands dual group, with no mention of resolution width, CNF formulas, or coefficient bounds tied to proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2604.11744",
+      "title": "KL Divergence Between Gaussians: A Step-by-Step Derivation for the Variational Autoencoder Objective",
+      "abstract_excerpt": "Kullback-Leibler (KL) divergence is a fundamental concept in information theory that quantifies the discrepancy between two probability distributions. In the context of Variational Autoencoders (VAEs), it serves as a central regularization term, imposing structure on the latent space and thereby enabling the model to exhibit generative capabilities. In this work, we present a detailed derivation of the closed-form expression for the KL divergence between Gaussian distributions, a case of particu",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Kullback-Leibler divergence between Gaussian distributions for variational autoencoders, which shares only the 'KL' acronym with Kazhdan-Lusztig polynomials and has no connection to Hecke algebras or resolution proof width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 8,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "entry_id": "42b4641f1b4c",
+  "ts": 1777241990.91311,
+  "hits_evaluated": 8,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2602.07232",
+      "title": "The Prym-canonical Clifford index",
+      "abstract_excerpt": "We introduce two new invariants of Prym curves, the Prym-canonical Clifford index and the Prym-canonical Clifford dimension. The former is a nonnegative integer (according to Prym-Clifford's theorem), while the latter is a pair of nonnegative ordered integers. We classify Prym curves with Prym-canonical Clifford index equal to 0,1,2. By specialization to hyperelliptic curves, we compute the Prym-canonical Clifford index of a general Prym curve and show that its Prym-canonical Clifford dimension ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the Prym-canonical Clifford index of Prym curves in algebraic geometry, with no mention of binary matroids, SAT formulas, conflict graphs, or resolution width. It shares only the term 'Clifford index' but does not interact with the conjecture's claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1805.10805",
+      "title": "Clifford index for reduced curves",
+      "abstract_excerpt": "We extend the notion of Clifford index to reduced curves with planar singularities by considering rank 1 torsion free sheaves. We investigate the behaviour of the Clifford index with respect to the combinatorial properties of the curve and we show that Green's conjecture holds for certain classes of curves given by the union of two irreducible components.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses extending Clifford index to 'reduced curves with planar singularities' via 'rank 1 torsion free sheaves' and Green's conjecture, with no mention of binary matroids, SAT formulas, or resolution width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1612.02084",
+      "title": "Minors of a random binary matroid",
+      "abstract_excerpt": "Let ${\\bf A}={\\bf A}_{n,m,k}$ be a random $n\\times m$ matrix over $\\mathbf{GF}_2$ wher each column consists of $k$ randomly chosen ones. Let $M$ be an arbirary fixed binary matroid. We show that if $m/n$ and $k$ are sufficiently large then as $n\\to\\infty$ the binary matroid induced by {\\bf A} contains $M$ as a minor.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns minor containment in random binary matroids ('the binary matroid induced by A contains M as a minor'), with no mention of Clifford index, resolution width, SAT, or conflict graphs.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1211.6710",
+      "title": "Bundles of rank 3 on curves of Clifford index 3",
+      "abstract_excerpt": "Two definitions of the Clifford index for vector bundles on a smooth projective curve $C$ of genus $g\\ge4$ were introduced in a previous paper by the authors. In another paper the authors obtained results on one of these indices for bundles of rank 3. In this paper we extend these results in the case where $C$ has classical Clifford index 3. In particular we prove Mercat's conjecture for bundles of rank 3 for $g \\leq 8$ and $g \\geq 13$ when $C$ has classical Clifford index 3. We obtain complete ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Clifford index of vector bundles on smooth projective curves and Mercat's conjecture, not binary matroids, SAT conflict graphs, or resolution width. The shared term 'Clifford index' refers to algebraic geometry of curves, not matroid theory.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2404.01677",
+      "title": "Towards Generalizable and Faithful Logic Reasoning over Natural Language via Resolution Refutation",
+      "abstract_excerpt": "Large language models (LLMs) have achieved significant performance in various natural language reasoning tasks. However, they still struggle with performing first-order logic reasoning over formal logical theories expressed in natural language. This is because the previous LLMs-based reasoning systems have the theoretical incompleteness issue. As a result, it can only address a limited set of simple reasoning problems, which significantly decreases their generalization ability. To address this i",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes an LLM framework using resolution refutation for natural language reasoning ('we propose a novel framework, named Generalizable and Faithful Reasoner (GFaiR), which introduces the paradigm of resolution refutation'), with no claims about resolution width, matroid Clifford index, or their relationship.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1512.01507",
+      "title": "Matroid invariants and counting graph homomorphisms",
+      "abstract_excerpt": "The number of homomorphisms from a finite graph $F$ to the complete graph $K_n$ is the evaluation of the chromatic polynomial of $F$ at $n$. Suitably scaled, this is the Tutte polynomial evaluation $T(F;1-n,0)$ and an invariant of the cycle matroid of $F$. De la Harpe and Jaeger \\cite{dlHJ95} asked more generally when is it the case that a graph parameter obtained from counting homomorphisms from $F$ to a fixed graph $G$ depends only on the cycle matroid of $F$. They showed that this is true whe",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns characterizing graphs G for which counting homomorphisms yields a cycle-matroid invariant (via Tutte polynomial evaluations), with no mention of Clifford index, binary matroids from SAT conflict graphs, or resolution width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2307.10539",
+      "title": "Induced log-concavity of equivariant matroid invariants",
+      "abstract_excerpt": "Inspired by the notion of equivariant log-concavity, we introduce the concept of induced log-concavity for a sequence of representations of a finite group. For an equivariant matroid equipped with a symmetric group action or a finite general linear group action, we transform the problem of proving the induced log-concavity of matroid invariants to that of proving the Schur positivity of symmetric functions. We prove the induced log-concavity of the equivariant Kazhdan-Lusztig polynomials of $q$-",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns induced log-concavity of equivariant Kazhdan-Lusztig and characteristic polynomials of q-niform/uniform matroids, with no mention of Clifford index, binary matroids, SAT conflict graphs, or resolution width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0603551v1",
+      "title": "A matroid invariant via the K-theory of the Grassmannian",
+      "abstract_excerpt": "Let G(d,n) denote the Grassmannian of d-planes in C^n and let T be the torus (C^*)^n/diag(C^*) which acts on G(d,n). Let x be a point of G(d,n) and let \\bar{Tx} be the closure of the T-orbit through x. Then the class of the structure sheaf of \\bar{Tx} in the K-theory of G(d,n) depends only on which ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a K-theoretic matroid invariant via Grassmannian torus orbits, with no mention of Clifford index, binary matroids, SAT, resolution width, or proof complexity. It shares only the general 'matroid invariant' vocabulary but does not interact with the specific conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 8,
+    "INSUFFICIENT": 0
+  }
+}

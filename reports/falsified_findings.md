@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — FALSIFIED conjectures"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-26 21:46 UTC"
+date: "2026-04-26 22:22 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,7 +13,7 @@ colorlinks: true
 
 # SEC P vs NP — FALSIFIED conjectures (negative results)
 
-Compiled 2026-04-26 21:46 UTC. 13 conjectures falsified with counterexample.
+Compiled 2026-04-26 22:22 UTC. 14 conjectures falsified with counterexample.
 
 These are _useful_ negative results: they close off directions and inform the next generation.
 
@@ -653,3 +653,48 @@ RESULT: FALSIFIED counterexample="MFC/Discrepancy Invariance failed" first_faili
 ### Judge reasoning
 
 All 5 seeds reported conjecture_holds=false with support_fraction 0.0, and the test's RESULT line explicitly declares FALSIFIED at first_failing_seed=11. The critic confirms this is mathematically sound: in the max-plus semiring every tropical Fourier mode absorbs the additive shift c, so MFC is not shift-invariant. | next: Reformulate the invariant as MFC(f_c) - c = MFC(f) (or test invariance of differences TFT(f)[k]-TFT(f)[j] for k,j != 0), since the additive shift propagates uniformly across
+
+---
+
+## Tropical Max-Aggregation Monotonicity of MinimalFourierCoefficient under Pointwise Tropical Sum
+
+- **Verdict**: `FALSIFIED`
+- **Bridge**: TROPICAL_FOURIER_ANALYSIS (Fourier-analytic / tropical algebraic geometry over the max-plus semiring) × Communication-complexity discrepancy lower bounds for sign-rank / pointwise-max aggregations of Boolean functions
+- **Recorded**: 2026-04-26 22:20 UTC
+- **Entry ID**: `cca077d3c64c`
+
+### Statement
+
+Let f, g be TropicalPolynomials over the max-plus semiring on a finite abelian group G of size N, and let (f ⊕ g)(x) := max(f(x), g(x)) denote their pointwise tropical sum. Let MFC(·) := MinimalFourierCoefficient(FourierTransform(·)) be the framework's target invariant. Then: (i) MFC(f ⊕ g) ≥ min(MFC(f), MFC(g)) - C_N, where C_N = log_2(N) is a dimension-dependent slack, and (ii) DiscrepancyCalculation(f ⊕ g) ≤ max(DiscrepancyCalculation(f), DiscrepancyCalculation(g)) + C_N. In particular, taking the tropical maximum of two polynomials cannot drive the MinimalFourierCoefficient arbitrarily far below the minimum of the two inputs, nor inflate discrepancy beyond the worst input plus a logarithmic correction.
+
+### Rationale
+
+This conjecture stress-tests axiom A3 (DiscrepancyMeasure bounded by the max absolute Fourier coefficient) jointly with the lattice structure implicit in A1 (TropicalConvolution preserves the semiring): pointwise tropical max is the additive operation of max-plus, so monotonicity of the MinimalFourierCoefficient under this operation is the natural dual of the convolution subadditivity already conjectured. If A3 holds and the TropicalFourierTransform is well-behaved (A2 invertibility on a dense subset), then aggregating two functions via max should not create new low-frequency cancellation beyond a log(N) entropy correction coming from the Boolean lattice indexing the spectrum. The conjecture should hold because the MinimalFourierCoefficient is a 1-Lipschitz functional of the spectral profile, and the spectrum of f ⊕ g is dominated coordinatewise by max(spec(f), spec(g)) up to a band-limited error term of size log_2(N).
+
+### Novelty
+
+- Judge: `NOVEL` over 9 arXiv hits
+
+Top hits consulted:
+  - [1503.01392v2] Valuations of Semirings
+  - [1912.07071v3] Fourier transforms on the basic affine space of a quasi-split group
+  - [1010.5964v1] Quadratic discrete Fourier transform and mutually unbiased bases
+  - [1503.07648v2] Sign rank versus VC dimension
+  - [2511.07739v3] A Lower Bound for the Fourier Entropy of Boolean Functions on the Biased Hypercube
+
+### Empirical Test
+
+- exit code: `0`, elapsed: `1.34s`
+
+```
+TRIAL: {"metric_name": "slack", "metric_value": 10.253131696704154, "instances_tested": 200, "conjecture_holds": false, "counterexample": "Slack exceeded 6.5 after 189 violations"}
+TRIAL: {"metric_name": "slack", "metric_value": 10.895945394755783, "instances_tested": 200, "conjecture_holds": false, "counterexample": "Slack exceeded 6.5 after 191 violations"}
+TRIAL: {"metric_name": "slack", "metric_value": 10.948871042205115, "instances_tested": 200, "conjecture_holds": false, "counterexample": "Slack exceeded 6.5 after 188 violations"}
+TRIAL: {"metric_name": "slack", "metric_value": 10.635091020602449, "instances_tested": 200, "conjecture_holds": false, "counterexample": "Slack exceeded 6.5 after 186 violations"}
+TRIAL: {"metric_name": "slack", "metric_value": 10.40827118654932, "instances_tested": 200, "conjecture_holds": false, "counterexample": "Slack exceeded 6.5 after 193 violations"}
+RESULT: FALSIFIED counterexample="Slack exceeded 6.5 after 189 violations" first_failing_seed=11
+```
+
+### Judge reasoning
+
+The test's RESULT line reports FALSIFIED with all 5 seeds yielding slack ~10.6 (well above the pre-registered threshold log2(N)+0.5) and a 0.0 support fraction across 189+ violations per seed; the failure is overwhelming and consistent regardless of the critic's definitional concerns. | next: Pin down a precise definition of FourierTransform and MinimalFourierCoefficient for tropical polynomials (e.g., interpret f as a real-valued function on G, use min over nontrivial characters of |F̂|), and r

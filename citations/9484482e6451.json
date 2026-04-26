@@ -1,0 +1,76 @@
+{
+  "entry_id": "9484482e6451",
+  "ts": 1777242197.6083987,
+  "hits_evaluated": 7,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/hep-ph/0610012v1",
+      "title": "Tevatron-for-LHC Report of the QCD Working Group",
+      "abstract_excerpt": "The experiments at Run 2 of the Tevatron have each accumulated over 1 inverse femtobarn of high-transverse momentum data. Such a dataset allows for the first precision (i.e. comparisons between theory and experiment at the few percent level) tests of QCD at a hadron collider. While the Large Hadron ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns QCD experiments at the Tevatron and LHC particle colliders, which has no relation to Kazhdan constants, resolution proof width, or 3-CNF formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0902.3152",
+      "title": "Kazhdan constants of group extensions",
+      "abstract_excerpt": "We give bounds on Kazhdan constants of abelian extensions of (finite) groups. As a corollary, we improved known results of Kazhdan constants for some meta-abelian groups and for the relatively free group in the variety of $p$-groups of lower $p$-series of class 2. Furthermore, we calculate Kazhdan constants of the tame automorphism groups of the free nilpotent groups.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses bounds on Kazhdan constants for abelian extensions, meta-abelian groups, and tame automorphism groups of free nilpotent groups, with no mention of resolution width, 3-CNF formulas, or proof complexity. It shares only the 'Kazhdan constant' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1301.0379",
+      "title": "The Parameterized Complexity of some Permutation Group Problems",
+      "abstract_excerpt": "In this paper we study the parameterized complexity of two well-known permutation group problems which are NP-complete. 1. Given a permutation group G=&lt;S&gt;, subgroup of $S_n$, and a parameter $k$, find a permutation $π$ in G such that $|{i\\in [n]\\mid π(i)\\ne i}|$ is at least $k$. This generalizes the well-known NP-complete problem of finding a fixed-point free permutation in G. (this is the case when $k=n$). We show that this problem with parameter $k$ is fixed parameter tractable. In the p",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses parameterized complexity of permutation group problems (fixed-point free permutations, base computation), with no mention of Kazhdan constants, CNF formulas, or resolution width. It shares only the vague vocabulary of 'permutation groups' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1406.6311",
+      "title": "The Physics of the B Factories",
+      "abstract_excerpt": "This work is on the Physics of the B Factories. Part A of this book contains a brief description of the SLAC and KEK B Factories as well as their detectors, BaBar and Belle, and data taking related issues. Part B discusses tools and methods used by the experiments in order to obtain results. The results themselves can be found in Part C.\n  Please note that version 3 on the archive is the auxiliary version of the Physics of the B Factories book. This uses the notation alpha, beta, gamma for the a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a particle physics book about B Factories, BaBar, and Belle detectors, which has no connection to Kazhdan constants, group actions on CNF formulas, or resolution proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0901.0512",
+      "title": "Expected Performance of the ATLAS Experiment - Detector, Trigger and Physics",
+      "abstract_excerpt": "A detailed study is presented of the expected performance of the ATLAS detector. The reconstruction of tracks, leptons, photons, missing energy and jets is investigated, together with the performance of b-tagging and the trigger. The physics potential for a variety of interesting physics processes, within the Standard Model and beyond, is examined. The study comprises a series of notes based on simulations of the detector and physics processes, with particular emphasis given to the data expected",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes the ATLAS detector at the LHC and its physics performance ('a detailed study is presented of the expected performance of the ATLAS detector'), which has no connection to Kazhdan constants, group actions on CNF clauses, or resolution proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1411.4413",
+      "title": "Observation of the rare $B^0_s\\toμ^+μ^-$ decay from the combined analysis of CMS and LHCb data",
+      "abstract_excerpt": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence f",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a particle physics measurement of B-meson decay branching fractions at CMS/LHCb, which has no relation to Kazhdan constants, group actions on CNF formulas, or resolution proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2309.16111",
+      "title": "The relational complexity of linear groups acting on subspaces",
+      "abstract_excerpt": "The relational complexity of a subgroup $G$ of $\\mathrm{Sym}(Ω)$ is a measure of the way in which the orbits of $G$ on $Ω^k$ for various $k$ determine the original action of $G$. Very few precise values of relational complexity are known. This paper determines the exact relational complexity of all groups lying between $\\mathrm{PSL}_{n}(\\mathbb{F})$ and $\\mathrm{PGL}_{n}(\\mathbb{F})$, for an arbitrary field $\\mathbb{F}$, acting on the set of $1$-dimensional subspaces of $\\mathbb{F}^n$. We also b",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the 'relational complexity' of linear groups PSL_n/PGL_n acting on subspaces, with no mention of Kazhdan constants, resolution width, CNF formulas, or clause-variable group actions. It shares only the general 'group action' framework but does not interact with the specific conjectured inequality.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 7,
+    "INSUFFICIENT": 0
+  }
+}

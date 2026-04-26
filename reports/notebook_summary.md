@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-26 21:46 UTC"
+date: "2026-04-26 22:22 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,10 +13,10 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-26 21:46 UTC
+Generated 2026-04-26 22:22 UTC
 
-- Cycles recorded: **117**
-- Time span: 72.1h (~1.62 cycles/h)
+- Cycles recorded: **119**
+- Time span: 72.7h (~1.64 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
@@ -24,8 +24,9 @@ Generated 2026-04-26 21:46 UTC
 | Verdict | Count |
 |---|---|
 | INCONCLUSIVE | 100 |
-| FALSIFIED | 13 |
+| FALSIFIED | 14 |
 | SUPPORTED | 4 |
+| BARRIER_HIT | 1 |
 
 ## Mathematical fields explored (field_A)
 
@@ -66,8 +67,6 @@ Generated 2026-04-26 21:46 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-26 15:37 UTC | `INCONCLUSIVE` | LZ78 Compression Ratio Lower-Bounds MCSP Truth-Table Circuit Size |
-| 2026-04-26 16:19 UTC | `INCONCLUSIVE` | Newton Polytope Edge Count Lower-Bounds Average-Case DPLL Runtime |
 | 2026-04-26 17:10 UTC | `INCONCLUSIVE` | Nisan-Wigderson Seed Length Bounded by Finite Geometry Line Count |
 | 2026-04-26 17:44 UTC | `INCONCLUSIVE` | Persistent Homology Bottleneck Distance Lower-Bounds Set-Disjoint |
 | 2026-04-26 18:14 UTC | `INCONCLUSIVE` | Antichain Cover Number of KW Relation Lower-Bounds Monotone Formu |
@@ -81,6 +80,8 @@ Generated 2026-04-26 21:46 UTC
 | 2026-04-26 21:34 UTC | `INCONCLUSIVE` | Dyadic Martingale Quadratic Variation Lower-Bounds Sign-Rank Disc |
 | 2026-04-26 21:43 UTC | `INCONCLUSIVE` | Legendre-Fenchel Involution Conjecture: Discrepancy Invariance un |
 | 2026-04-26 21:46 UTC | `INCONCLUSIVE` | Combinatorial Discrepancy of NW Designs Predicts Generator Bias o |
+| 2026-04-26 22:20 UTC | `FALSIFIED` | Tropical Max-Aggregation Monotonicity of MinimalFourierCoefficien |
+| 2026-04-26 22:22 UTC | `BARRIER_HIT` | Schur-Horn Majorization Gap Lower-Bounds Sign-Rank Discrepancy |
 
 ## How to read the reports
 

@@ -1,0 +1,85 @@
+{
+  "entry_id": "dee15f635212",
+  "ts": 1777242371.5675733,
+  "hits_evaluated": 8,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math-ph/0603050v1",
+      "title": "Extended Grassmann and Clifford algebras",
+      "abstract_excerpt": "This paper is intended to investigate Grassmann and Clifford algebras over Peano spaces, introducing their respective associated extended algebras, and to explore these concepts also from the counterspace viewpoint. The exterior (regressive) algebra is shown to share the exterior (progressive) algeb",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes Grassmann and Clifford algebras over Peano spaces and counterspaces, with no mention of SAT, resolution proof width, or dependency graphs. It shares only the 'Clifford algebra' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1604.06967",
+      "title": "Sparse Representations of Clifford and Tensor algebras in Maxima",
+      "abstract_excerpt": "Clifford algebras have broad applications in science and engineering. The use of Clifford algebras can be further promoted in these fields by availability of computational tools that automate tedious routine calculations. We offer an extensive demonstration of the applications of Clifford algebras in electromagnetism using the geometric algebra G3 = Cl(3,0) as a computational model in the Maxima computer algebra system. We compare the geometric algebra-based approach with conventional symbolic t",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes computational tools (Maxima packages) for Clifford algebra calculations in electromagnetism, with no mention of SAT, resolution width, dependency graphs, or algebroid rank. It shares only the 'Clifford' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2011.05171",
+      "title": "Subgroups of Clifford algebras",
+      "abstract_excerpt": "Clifford algebras are used for constructing spin groups, and are therefore of particular importance in the theory of quantum mechanics. But the spin group is not the only subgroup of the Clifford algebra. An algebraist's perspective on these groups and algebras may suggest ways in which they might be applied more widely to describe the fundamental properties of matter. I do not claim to build a physical theory on top of the fundamental algebra, and my suggestions for possible physical interpreta",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Clifford algebras in the context of spin groups, fermions, and the weak interaction in quantum mechanics, with no mention of SAT, resolution width, dependency graphs, or algebroid rank. It shares only the 'Clifford' vocabulary but does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/quant-ph/0308151v2",
+      "title": "Graphical description of the action of local Clifford transformations on graph states",
+      "abstract_excerpt": "We translate the action of local Clifford operations on graph states into transformations on their associated graphs - i.e. we provide transformation rules, stated in purely graph theoretical terms, which completely characterize the evolution of graph states under local Clifford operations. As we wi",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes graph-theoretic transformation rules for local Clifford operations on graph states in quantum information, with no mention of SAT formulas, resolution proof width, or Clifford algebroid rank. It shares only the 'Clifford' vocabulary and does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2110.01665",
+      "title": "Adinkras: Graphs of Clifford Algebra Representations, Supersymmetry, and Codes",
+      "abstract_excerpt": "An Adinkra is a graph from the study of supersymmetry in particle physics, but it can be adapted to study Clifford algebra representations. The graph in this context is called a Cliffordinkra, and puts some standard ideas in Clifford algebra representations in a geometric and visual context.\n  In the past few years there have been developments in Adinkras that have shown how they are connected to error correcting codes, algebraic topology, algebraic geometry, and combinatorics. These connections",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes Cliffordinkras as visual/geometric tools for Clifford algebra representations connected to error-correcting codes and topology, with no mention of SAT, resolution width, or 3-CNF formulas. It shares only the 'Clifford algebra' vocabulary without addressing the specific rank-equals-resolution-width claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1906.01696",
+      "title": "Detecting coalitions by optimally partitioning signed networks of political collaboration",
+      "abstract_excerpt": "We propose new mathematical programming models for optimal partitioning of a signed graph into cohesive groups. To demonstrate the approach's utility, we apply it to identify coalitions in US Congress since 1979 and examine the impact of polarized coalitions on the effectiveness of passing bills. Our models produce a globally optimal solution to the NP-hard problem of minimizing the total number of intra-group negative and inter-group positive edges. We tackle the intensive computations of dense",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns mathematical programming for partitioning signed networks of political collaboration ('optimal partitioning of a signed graph into cohesive groups'), which shares only the loose vocabulary of 'signed graphs' with the conjecture and says nothing about Clifford algebroids, resolution width, or 3-CNF formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2405.03576",
+      "title": "Tropical vector bundles and matroids",
+      "abstract_excerpt": "We introduce a notion of tropical vector bundle on a tropical toric variety which is a tropical analogue of a torus equivariant vector bundle on a toric variety. Alternatively it can be called a toric matroid bundle. We define equivariant $K$-theory and characteristic classes of these bundles. As a particular case, we show that any matroid comes with tautological tropical toric vector bundles over the permutahedral toric variety and the corresponding equivariant $K$-classes and Chern classes rec",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns tropical vector bundles, matroids, and equivariant K-theory on toric varieties, with no mention of Clifford algebroids, SAT formulas, or resolution proof width. It shares only the broad notion of 'vector bundles' but does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1603.07248",
+      "title": "Flat vector bundles and open coverings",
+      "abstract_excerpt": "We establish a generic counting formula for the Euler number of a flat vector bundle of rank $2n$ over a $2n$ dimensional closed manifold, in terms of vertices of transversal open coverings of the underlying manifold. We use the Mathai-Quillen formalism to prove our result.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a counting formula for the Euler number of flat vector bundles via Mathai-Quillen formalism, which shares only the 'vector bundle' vocabulary but does not address Clifford algebroids, SAT formulas, or resolution width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 8,
+    "INSUFFICIENT": 0
+  }
+}

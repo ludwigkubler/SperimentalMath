@@ -1,0 +1,85 @@
+{
+  "entry_id": "9c3bc7d2f5cf",
+  "ts": 1777241625.9684825,
+  "hits_evaluated": 8,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1101.4831",
+      "title": "The $f$--vector of the clique complex of chordal graphs and Betti numbers of edge ideals of uniform hypergraphs",
+      "abstract_excerpt": "We describe the Betti numbers of the edge ideals $I(G)$ of uniform hypergraphs $G$ such that $I(G)$ has linear graded free resolution. We give an algebraic equation system and some inequalities for the components of the $f$--vector of the clique complex of an arbitrary chordal graph. Finally we present an explicit formula for the multiplicity of the Stanley-Reisner ring of the edge ideals of any chordal graph.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses Betti numbers of edge ideals of uniform hypergraphs and f-vectors of clique complexes of chordal graphs, with no mention of resolution proof width, CNF formulas, or independence complexes of incidence graphs. It shares the 'Betti numbers' vocabulary but does not interact with the specific claim about bounding resolution width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2111.02551",
+      "title": "Bigraded Betti numbers and Generalized Persistence Diagrams",
+      "abstract_excerpt": "Commutative diagrams of vector spaces and linear maps over $\\mathbb{Z}^2$ are objects of interest in topological data analysis (TDA) where this type of diagrams are called 2-parameter persistence modules. Given that quiver representation theory tells us that such diagrams are of wild type, studying informative invariants of a 2-parameter persistence module $M$ is of central importance in TDA. One of such invariants is the generalized rank invariant, recently introduced by Kim and Mémoli. Via the",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns bigraded Betti numbers of 2-parameter persistence modules in topological data analysis ('2-parameter persistence modules', 'generalized rank invariant'), with no connection to independence complexes of incidence graphs or resolution width of CNF formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0001101v4",
+      "title": "Integrality of L2-Betti numbers",
+      "abstract_excerpt": "The Atiyah conjecture predicts that the L2-Betti numbers of a finite CW-complex with torsion-free fundamental group are integers. We show that the Atiyah conjecture holds (with an additional technical condition) for direct and inverse limits of directed systems of groups for which it is true. As a c",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the Atiyah conjecture on integrality of L2-Betti numbers for CW-complexes with torsion-free fundamental groups, which has no interaction with independence complexes of incidence graphs or resolution refutation width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2208.13438",
+      "title": "Intermediate Ricci curvatures and Gromov's Betti number bound",
+      "abstract_excerpt": "We consider intermediate Ricci curvatures $Ric_k$ on a closed Riemannian manifold $M^n$. These interpolate between the Ricci curvature when $k=n-1$ and the sectional curvature when $k=1$. By establishing a surgery result for Riemannian metrics with $Ric_k&gt;0$, we show that Gromov's upper Betti number bound for sectional curvature bounded below fails to hold for $Ric_k&gt;0$ when $\\lfloor n/2 \\rfloor+2 \\le k \\le n-1$. This was previously known only in the case of positive Ricci curvature.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns intermediate Ricci curvatures on Riemannian manifolds and Gromov's Betti number bound, sharing only the word 'Betti' with the conjecture about independence complexes and resolution width in propositional proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2501.12623",
+      "title": "Betti number bounds for varieties and exponential sums",
+      "abstract_excerpt": "Using basic properties of perverse sheaves, we give new upper bounds for compactly supported Betti numbers for arbitrary affine varieties in $\\mathbb{A}^n$ defined by $r$ polynomial equations of degrees at most $d$. As arithmetic applications, new total degree bounds are obtained for zeta functions of varieties and L-functions of exponential sums over finite fields, improving the classical results of Bombieri, Katz, and Adolphson--Sperber. In the complete intersection case, our total Betti numbe",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Betti number bounds for affine algebraic varieties and applications to zeta/L-functions, not independence complexes of incidence graphs or resolution proof width. Despite the shared 'Betti number' vocabulary, it does not interact with the specific combinatorial/proof-complexity claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2004.13281",
+      "title": "Independence complexes of hypergraphs and bounded degree complexes",
+      "abstract_excerpt": "The bounded degree complex $BD(G,λ)$ is a generalization of the matching complexes of a graph. In this paper, we show that the bounded degree complex of a forest is shellable, by using independence complexes of hypergraphs. We obtain a wedge decomposition result of bounded degree complexes when a graph $G$ has a leaf",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses shellability and wedge decomposition of bounded degree complexes of forests via independence complexes of hypergraphs, with no mention of Betti numbers, resolution refutations, CNF formulas, or proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2411.14268",
+      "title": "Supercritical Tradeoffs for Monotone Circuits",
+      "abstract_excerpt": "We exhibit a monotone function computable by a monotone circuit of quasipolynomial size such that any monotone circuit of polynomial depth requires exponential size. This is the first size-depth tradeoff result for monotone circuits in the so-called supercritical regime. Our proof is based on an analogous result in proof complexity: We introduce a new family of unsatisfiable 3-CNF formulas (called bracket formulas) that admit resolution refutations of quasipolynomial size while any refutation of",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses size-depth tradeoffs for monotone circuits and resolution refutations of 'bracket formulas', with no mention of Betti numbers, independence complexes, or resolution width bounds. It shares the resolution proof complexity framework but does not interact with the specific topological inequality claimed.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2601.12503",
+      "title": "Hard Clique Formulas for Resolution",
+      "abstract_excerpt": "We show how to convert any unsatisfiable 3-CNF formula which is sparse and exponentially hard to refute in Resolution into a negative instance of the $k$-clique problem whose corresponding natural encoding as a CNF formula is $n^{Ω(k)}$-hard to refute in Resolution. This applies to any function $k = k(n)$ of the number $n$ of vertices, provided $k_0 \\leq k \\leq n^{1/c_0}$, where $k_0$ and $c_0$ are small constants. We establish this by demonstrating that Resolution can simulate the correctness p",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns reductions from 3-SAT to k-clique formulas and Resolution size lower bounds (n^Ω(k)-hard to refute), with no mention of resolution width, Betti numbers, or independence complexes. It shares the general framework of Resolution complexity but does not interact with the specific width-vs-topology inequality.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 8,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "entry_id": "c191ebc0d8e0",
+  "ts": 1777242404.8310971,
+  "hits_evaluated": 8,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1311.1421",
+      "title": "Multiplicative differential algebraic K-theory and applications",
+      "abstract_excerpt": "We construct a version of Beilinson's regulator as a map of sheaves of commutative ring spectra and use it to define a multiplicative variant of differential algebraic K-theory. We use this theory to give an interpretation of Bloch's construction of K_3-classes and the relation with dilogarithms. Furthermore, we provide a relation to Arakelov theory via the arithmetic degree of metrized line bundles, and we give a proof of the formality of the algebraic K-theory of number rings.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'multiplicative differential algebraic K-theory,' Beilinson's regulator, dilogarithms, and Arakelov theory of number rings — it has no engagement with SAT instances, clause-variable incidence graphs, or resolution width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2104.04021",
+      "title": "A universal characterization of noncommutative motives and secondary algebraic K-theory",
+      "abstract_excerpt": "We provide a universal characterization of the construction taking a scheme $X$ to its stable $\\infty$-category $\\text{Mot}(X)$ of noncommutative motives, patterned after the universal characterization of algebraic K-theory due to Blumberg--Gepner--Tabuada. As a consequence, we obtain a corepresentability theorem for secondary K-theory. We envision this as a fundamental tool for the construction of trace maps from secondary K-theory.\n  Towards these main goals, we introduce a preliminary formali",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns noncommutative motives and secondary K-theory of schemes, with no mention of SAT, resolution width, or clause-variable incidence graphs. It shares only the broad term 'K-theory' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1811.09564",
+      "title": "Dévissage for Waldhausen K-theory",
+      "abstract_excerpt": "A dévissage-type theorem in algebraic $K$-theory is a statement that identifies the $K$-theory of a Waldhausen category $\\mathscr{C}$ in terms of the $K$-theories of a collection of Waldhausen subcategories of $\\mathscr{C}$ when a dévissage condition about the existence of appropriate finite filtrations is satisfied. We distinguish between dévissage theorems of single type and of multiple type, depending on the number of Waldhausen subcategories and their properties. The main representative exam",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns dévissage theorems in Waldhausen K-theory for abelian/Waldhausen categories, with no mention of SAT, resolution width, or clause-variable incidence graphs. It shares only the general K-theory vocabulary but does not interact with the specific conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0806.0198",
+      "title": "The Grothendieck and Picard groups of a complete toric DM stack",
+      "abstract_excerpt": "We compute the Grothendieck and Picard groups of a complete smooth toric Deligne-Mumford stack by using a suitable category of graded modules over a polynomial ring.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns computing Grothendieck and Picard groups of toric Deligne-Mumford stacks via graded modules, which shares only the K-theory vocabulary but does not address SAT instances, clause-variable graphs, or resolution width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/hep-ph/0610012v1",
+      "title": "Tevatron-for-LHC Report of the QCD Working Group",
+      "abstract_excerpt": "The experiments at Run 2 of the Tevatron have each accumulated over 1 inverse femtobarn of high-transverse momentum data. Such a dataset allows for the first precision (i.e. comparisons between theory and experiment at the few percent level) tests of QCD at a hadron collider. While the Large Hadron ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns precision QCD tests at the Tevatron and LHC hadron colliders, which has no interaction with algebraic K-theory or resolution proof width of 3-SAT instances.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1710.07476",
+      "title": "Planar 3-SAT with a Clause/Variable Cycle",
+      "abstract_excerpt": "In the Planar 3-SAT problem, we are given a 3-SAT formula together with its incidence graph, which is planar, and are asked whether this formula is satisfiable. Since Lichtenstein's proof that this problem is NP-complete, it has been used as a starting point for a large number of reductions. In the course of this research, different restrictions on the incidence graph of the formula have been devised, for which the problem also remains hard.\n  In this paper, we investigate the restriction in whi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns NP-completeness of Planar 3-SAT variants with Hamiltonian cycle restrictions on the incidence graph; it makes no mention of algebraic K-theory, Grothendieck groups, or resolution width, so it does not interact with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2001.01608",
+      "title": "The plethory of operations in complex topological K-theory",
+      "abstract_excerpt": "We provide a concrete introduction to the topologised, graded analogue of an algebraic structure known as a plethory, originally due to Tall and Wraith. Stacey and Whitehouse showed this structure is present on the cohomology operations for a suitable generalised cohomology theory. We compute an explicit expression for the plethory of operations for complex topological K-theory. This is formulated in terms of a plethory enhanced with structure corresponding to the looping of operations. In this ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the plethory of cohomology operations in complex topological K-theory and lambda operations, with no mention of SAT, resolution width, or Grothendieck groups of clause-variable incidence graph representations.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1603.02493",
+      "title": "Clifford theory for glider representations",
+      "abstract_excerpt": "Classical Clifford theory studies the decomposition of simple $G$-modules into simple $H$-modules for some normal subgroup $H \\triangleleft G$. In this paper we deal with chains of normal subgroups $1 \\triangleleft G_1 \\triangleleft \\cdots \\triangleleft G_d =G$, which allow to consider fragments and in particular glider representations. These are given by a descending chain of vector spaces over some field $K$ and relate different representations of the groups appearing in the chain. Picking som",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Clifford theory for glider representations of groups with normal subgroup chains, with no mention of SAT instances, resolution width, clause-variable graphs, or Grothendieck group ranks of incidence-graph representations.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 8,
+    "INSUFFICIENT": 0
+  }
+}

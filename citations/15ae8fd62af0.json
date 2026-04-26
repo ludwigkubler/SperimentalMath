@@ -1,0 +1,85 @@
+{
+  "entry_id": "15ae8fd62af0",
+  "ts": 1777241699.3422134,
+  "hits_evaluated": 8,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2201.00728",
+      "title": "Grothendieck--Witt Groups of Henselian Valuation Rings",
+      "abstract_excerpt": "We show that functors like algebraic $K$-theory (such as unitary or symplectic $K$-functors), as well as the higher Grothendieck--Witt groups, possess the local constancy condition for Henselian valuation rings. Namely, taken with finite coefficients, these functors send canonical residue maps into isomorphisms. This statement holds in cases of both equal and mixed characteristics. The proof is based on a slight modification of Suslin's methods. In particular, we use his notion of universal homo",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns local constancy of K-theory and Grothendieck-Witt groups for Henselian valuation rings via Suslin's methods, which shares only the 'Grothendieck-Witt' vocabulary but does not address quadratic forms over 𝔽_2 associated to CNF formulas or resolution width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1405.2700",
+      "title": "Zero Excess and Minimal Length in Finite Coxeter Groups",
+      "abstract_excerpt": "Let $\\mathcal{W}$ be the set of strongly real elements of $W$, a Coxeter group. Then for $w \\in \\mathcal{W}$, $e(w)$, the excess of $w$, is defined by $e(w) = \\min\\{\\ell(x) + \\ell(y) - \\ell(w) \\; | \\; w=xy, x^2 = y^2 = 1\\}$. When $W$ is finite we may also define $E(w)$, the reflection excess of $w$. The main result established here is that if $W$ is finite and $X$ is a $W$-conjugacy class, then there exists $w \\in X$ such that $w$ has minimal length in $X$ and $e(w) = 0 = E(w)$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns excess and minimal length in finite Coxeter groups, with no mention of quadratic forms over 𝔽_2, CNF formulas, or resolution width — it shares no substantive content with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/hep-ph/0610012v1",
+      "title": "Tevatron-for-LHC Report of the QCD Working Group",
+      "abstract_excerpt": "The experiments at Run 2 of the Tevatron have each accumulated over 1 inverse femtobarn of high-transverse momentum data. Such a dataset allows for the first precision (i.e. comparisons between theory and experiment at the few percent level) tests of QCD at a hadron collider. While the Large Hadron ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited abstract concerns precision QCD tests at the Tevatron hadron collider, which has no interaction with quadratic forms over 𝔽_2 or resolution proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0710.5926",
+      "title": "Mod 2 cohomology of 2-local finite groups of low rank",
+      "abstract_excerpt": "We determine the mod $2$ cohomology over the Steenrod algebra of the classifying spaces of the free loop groups $LG$ for compact groups $G=Spin(7)$, $Spin(8)$, $Spin(9)$, and $F_4$. Then, we show that they are isomorphic as algebras over the Steenrod algebra to the mod $2$ cohomology of the corresponding Chevalley groups of type $G(q)$, where $q$ is an odd prime power. In a similar manner, we compute the cohomology of the free loop space over $BDI(4)$ and show that it is isomorphic to that of $B",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns mod 2 cohomology of classifying spaces of free loop groups and Chevalley groups, sharing only the 'mod 2' vocabulary with the conjecture; it says nothing about quadratic forms on CNF formulas or resolution width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2405.02292",
+      "title": "ALOHA 2: An Enhanced Low-Cost Hardware for Bimanual Teleoperation",
+      "abstract_excerpt": "Diverse demonstration datasets have powered significant advances in robot learning, but the dexterity and scale of such data can be limited by the hardware cost, the hardware robustness, and the ease of teleoperation. We introduce ALOHA 2, an enhanced version of ALOHA that has greater performance, ergonomics, and robustness compared to the original design. To accelerate research in large-scale bimanual manipulation, we open source all hardware designs of ALOHA 2 with a detailed tutorial, togethe",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes ALOHA 2, a hardware platform for bimanual robot teleoperation, which has no relation to quadratic forms, Grothendieck-Witt groups, or resolution proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1303.4033",
+      "title": "Two-dimensional magnetic interactions in LaFeAsO",
+      "abstract_excerpt": "Inelastic neutron scattering measurements demonstrate that the magnetic interactions in antiferromagnetic LaFeAsO are two-dimensional. Spin wave velocities within the Fe layer and the magnitude of the spin gap are similar to the \\textit{A}Fe$_2$As$_2$ based materials. However, the ratio of interlayer and intralayer exchange is found to be less than $\\sim 10^{-4}$ in LaFeAsO, very similar to the cuprates, and $\\sim$ 100 times smaller than that found in \\textit{A}Fe$_2$As$_2$ compounds. The result",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'two-dimensional magnetic interactions in LaFeAsO' and superconducting T_c in iron arsenides—condensed matter physics with no connection to quadratic forms, Grothendieck-Witt groups, or resolution proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1004.3702",
+      "title": "A Polynomial time Algorithm for 3SAT",
+      "abstract_excerpt": "By creating some new concepts and methods: checking tree, long unit path, direct contradiction unit pair, indirect contradiction unit pair, additional contradiction unit pair, 2-unit layer and 3-unit layer, redundant units, and destroying parallel pairs , we successfully transform solving a 3SAT problem to solving 2SAT problems in polynomial time. Thus we proved that NP=P.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract claims a polynomial-time algorithm for 3SAT via ad hoc combinatorial constructs ('checking tree', 'unit layers'), with no mention of resolution width, quadratic forms, or Grothendieck-Witt invariants. It does not interact with the specific claim linking rank₂(B) to minimum resolution width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1704.07634",
+      "title": "A dimension bound for subspaces of symmetric bilinear forms in terms of the number of different ranks",
+      "abstract_excerpt": "Let K be a field of characteristic different from 2 and let V be a vector space of dimension n over K. Let M be a non-zero subspace of symmetric bilinear forms defined on V x V and let r=rank(M) denote the set of different positive integers that occur as the ranks of the non-zero elements of M. The main result of this paper is the inequality that dim M is at most rn-r(r-1)/2 provided that |K| is at least n.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper bounds the dimension of subspaces of symmetric bilinear forms over fields of characteristic ≠ 2 in terms of the number of distinct ranks, which has no bearing on connecting 𝔽_2 quadratic forms of clause indicators to resolution width. The abstract explicitly excludes characteristic 2 ('characteristic different from 2'), the very setting of the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 8,
+    "INSUFFICIENT": 0
+  }
+}

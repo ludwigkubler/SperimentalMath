@@ -1,0 +1,85 @@
+{
+  "entry_id": "cca077d3c64c",
+  "ts": 1777242098.5725834,
+  "hits_evaluated": 8,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1503.01392",
+      "title": "Valuations of Semirings",
+      "abstract_excerpt": "We develop notions of valuations on a semiring, with a view toward extending the classical theory of abstract nonsingular curves and discrete valuation rings to this general algebraic setting; the novelty of our approach lies in the implementation of hyperrings to yield a new definition (\\emph{hyperfield valuation}). In particular, we classify valuations on the semifield $\\mathbb{Q}_{max}$ (the max-plus semifield of rational numbers) and also valuations on the `function field' $\\mathbb{Q}_{max}(",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns valuations on semirings, hyperfield valuations, and abstract curves over Q_max, with connections to tropical curves and Berkovich spaces — it does not address Fourier coefficients, discrepancy, or pointwise tropical sums of polynomials on finite abelian groups.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1912.07071",
+      "title": "Fourier transforms on the basic affine space of a quasi-split group",
+      "abstract_excerpt": "We extend the Gelfand and Graev construction of generalized Fourier transforms on basic affine space from split groups to quasi-split groups over a local non-archimedean field $F$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'generalized Fourier transforms on basic affine space' for quasi-split groups over local non-archimedean fields—a representation-theoretic setting unrelated to tropical max-plus polynomials, minimal Fourier coefficients on finite abelian groups, or discrepancy bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1010.5964",
+      "title": "Quadratic discrete Fourier transform and mutually unbiased bases",
+      "abstract_excerpt": "The present chapter [submitted for publication in \"Fourier Transforms, Theory and Applications\", G. Nikolic (Ed.), InTech (Open Access Publisher), Vienna, 2011] is concerned with the introduction and study of a quadratic discrete Fourier transform. This Fourier transform can be considered as a two-parameter extension, with a quadratic term, of the usual discrete Fourier transform. In the case where the two parameters are taken to be equal to zero, the quadratic discrete Fourier transform is noth",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a quadratic two-parameter extension of the discrete Fourier transform applied to mutually unbiased bases in quantum information, with no mention of tropical/max-plus semirings, minimal Fourier coefficients, pointwise max aggregation, or discrepancy bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1503.07648",
+      "title": "Sign rank versus VC dimension",
+      "abstract_excerpt": "This work studies the maximum possible sign rank of $N \\times N$ sign matrices with a given VC dimension $d$. For $d=1$, this maximum is {three}. For $d=2$, this maximum is $\\tildeΘ(N^{1/2})$. For $d &gt;2$, similar but slightly less accurate statements hold. {The lower bounds improve over previous ones by Ben-David et al., and the upper bounds are novel.}\n  The lower bounds are obtained by probabilistic constructions, using a theorem of Warren in real algebraic topology. The upper bounds are ob",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns sign rank versus VC dimension with bounds via Warren's theorem, spectral gaps, and Forster's argument; it does not address tropical/max-plus polynomials, Fourier coefficients under pointwise tropical sum, or the specific monotonicity inequality conjectured.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2511.07739",
+      "title": "A Lower Bound for the Fourier Entropy of Boolean Functions on the Biased Hypercube",
+      "abstract_excerpt": "We study Boolean functions on the $p$-biased hypercube $(\\{0,1\\}^n,μ_p^n)$ through the lens of Fourier (spectral) entropy, i.e. the Shannon entropy of the squared $p$-biased Fourier coefficients. Motivated by recent restriction-based advances on upper bounds toward the Fourier-Entropy-Influence (FEI) conjecture, we prove a complementary, sharp lower bound that decomposes the entropy into coordinate-wise contributions. Let $q:=4p(1-p)$ and define $Ψ:[0,\\tfrac12]\\to[0,\\ln 2]$ by $Ψ(t):=h\\left(\\fra",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a lower bound on Fourier (Shannon) entropy of Boolean functions on the biased hypercube via coordinate-wise influences, with no mention of tropical/max-plus polynomials, pointwise tropical sums, minimal Fourier coefficients, or discrepancy under aggregation. It shares 'Fourier' vocabulary but does not interact with the conjecture's specific monotonicity claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2406.18700",
+      "title": "Structure of sparse Boolean functions over Abelian groups, and its application to testing",
+      "abstract_excerpt": "We study Fourier-sparse Boolean functions over general finite Abelian groups. A Boolean function $f : G \\to \\{-1,+1\\}$ is $s$-sparse if it has at most $s$ non-zero Fourier coefficients. We introduce a general notion of granularity of Fourier coefficients and prove that every non-zero coefficient of an $s$-sparse Boolean function has magnitude at least \\begin{equation*} \\frac{1}{2^{\\varphi(Δ)/2} \\, s^{\\varphi(Δ)/2}}, \\end{equation*} where $Δ$ denotes the exponent of the group $G$ (that is, the ma",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns granularity lower bounds on non-zero Fourier coefficients of sparse Boolean functions over Abelian groups and sparsity testing — it does not address tropical/max-plus polynomials, pointwise tropical sums, or discrepancy under such aggregation, as stated by 'every non-zero coefficient of an s-sparse Boolean function has magnitude at least...'.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2107.07540",
+      "title": "Fast First-Order Algorithm for Large-Scale Max-Min Fair Multi-Group Multicast Beamforming",
+      "abstract_excerpt": "We propose a first-order fast algorithm for the weighted max-min fair (MMF) multi-group multicast beamforming problem in large-scale systems. Utilizing the optimal multicast beamforming structure obtained recently, we convert the nonconvex MMF problem into a min-max weight minimization problem and show that it is a weakly convex problem. We propose using the projected subgradient algorithm (PSA) to solve the problem directly, instead of the conventional method that requires iteratively solving i",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a 'first-order fast algorithm for the weighted max-min fair (MMF) multi-group multicast beamforming problem' in signal processing, sharing only the superficial 'max-min' vocabulary with the conjecture but having no interaction with tropical Fourier coefficients or discrepancy bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1207.2443",
+      "title": "Tropical Teichmuller and Siegel spaces",
+      "abstract_excerpt": "In this paper, we present a unified study of the moduli space of tropical curves and Outer space which we link via period maps to the moduli space of tropical abelian varieties and the space of positive definite quadratic forms. Our work is a first step towards exhibiting Outer space and the space of positive definite quadratic forms as analogues of Teichmüller space and Siegel space, respectively, in tropical geometry. All these spaces and the maps among them are described within the category o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns moduli spaces of tropical curves, Outer space, and tropical abelian varieties via period maps—pure tropical geometry/moduli theory. It says nothing about Fourier coefficients, pointwise tropical sums, or communication-complexity discrepancy.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 8,
+    "INSUFFICIENT": 0
+  }
+}

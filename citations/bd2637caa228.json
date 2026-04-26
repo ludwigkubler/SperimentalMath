@@ -1,0 +1,85 @@
+{
+  "entry_id": "bd2637caa228",
+  "ts": 1777242303.2285185,
+  "hits_evaluated": 8,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1108.3364",
+      "title": "Explicit Selmer groups for cyclic covers of P^1",
+      "abstract_excerpt": "For any abelian variety J over a global field k and an isogeny phi: J -&gt; J, the Selmer group Sel^phi(J,k) is a subgroup of the Galois cohomology group H^1(Gal(ksep/k), J[phi]), defined in terms of local data. When J is the Jacobian of a cyclic cover of P^1 of prime degree p, the Selmer group has a quotient by a subgroup of order at most p that is isomorphic to the `fake Selmer group', whose definition is more amenable to explicit computations. In this paper we define in the same setting the `",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns explicit computation of Selmer groups for Jacobians of cyclic covers of P^1, with no mention of Boolean satisfiability, Pythagorean triples, or resolution proof width. It shares only the general 'Selmer group' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/hep-ph/0610012v1",
+      "title": "Tevatron-for-LHC Report of the QCD Working Group",
+      "abstract_excerpt": "The experiments at Run 2 of the Tevatron have each accumulated over 1 inverse femtobarn of high-transverse momentum data. Such a dataset allows for the first precision (i.e. comparisons between theory and experiment at the few percent level) tests of QCD at a hadron collider. While the Large Hadron ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns QCD precision tests at the Tevatron and LHC, which has no relation to Selmer groups, elliptic curves, or resolution proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2304.00499",
+      "title": "On the Pseudonullity of Fine Selmer groups over function fields",
+      "abstract_excerpt": "The $p^\\infty$-fine Selmer group of an elliptic curve $E$ over a global field is a subgroup of the classical $p^\\infty$-Selmer group. Coates and Sujatha discovered that the structure of the fine Selmer group of $E$ over certain $p$-adic Lie extensions of a number field is intricately related to some deep questions in classical Iwasawa theory. Inspired by a conjecture of Greenberg, they made prediction about the structure of the fine Selmer group over certain $p$-adic Lie extensions of a number f",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses pseudonullity of fine Selmer groups over p-adic Lie extensions of function fields (Conjecture B of Coates-Sujatha), which shares the 'Selmer group' vocabulary but does not address 2-Selmer ranks, Pythagorean triple CNF formulas, or resolution width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2410.22714",
+      "title": "A graph-theoretic approach to computing Selmer groups of elliptic curves $y^2 = x^3 + bx$ over $\\mathbb{Q}(i)$",
+      "abstract_excerpt": "We develop a graph-theoretic algorithm to compute the $\\varphi$-Selmer group of the elliptic curve $E_b: y^2 = x^3 + bx$ over $\\mathbb{Q}(i)$, where $b \\in \\mathbb{Z}[i]$ and $\\varphi$ is a degree 2 isogeny of $E_b$. We associate to $E_b$ a weighted graph $G_b$, whose vertices are the odd Gaussian primes dividing $b$, and whose edge weights are determined by the quartic residue symbol between pairs of these primes. By applying our algorithm, we explicitly compute the $\\varphi$-Selmer group of $E",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a graph-theoretic algorithm for computing φ-Selmer groups of curves y^2 = x^3 + bx over Q(i), with no mention of CNF formulas, Boolean Pythagorean triples, or resolution proof width. It shares only the 'Selmer group' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1501.03809",
+      "title": "A Family of Elliptic Curves With Rank $\\geq5$",
+      "abstract_excerpt": "In this paper, we construct a family of elliptic curves with rank $\\geq 5$. To do this, we use the Heron formula for a triple $(A^2, B^2, C^2)$ which are not necessarily the three sides of a triangle. It turns out that as parameters of a family of elliptic curves, these three positive integers $A$, $B$, and $C$, along with the extra parameter $D$ satisfy the quartic Diophantine equation $A^4+D^4=2(B^4+D^4)$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes constructing a family of elliptic curves with rank ≥5 using the Heron formula and a quartic Diophantine equation, with no mention of Selmer groups, Boolean satisfiability, Pythagorean triple CNF formulas, or resolution width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1511.08578",
+      "title": "Elliptic Curves with abelian division fields",
+      "abstract_excerpt": "Let E be an elliptic curve over Q, and let n=&gt;1. The central object of study of this article is the division field Q(E[n]) that results by adjoining to Q the coordinates of all n-torsion points on E(Q). In particular, we classify all curves E/Q such that Q(E[n]) is as small as possible, that is, when Q(E[n])=Q(zeta_n), and we prove that this is only possible for n=2,3,4, or 5. More generally, we classify all curves such that Q(E[n]) is contained in a cyclotomic extension of Q or, equivalently",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns classification of elliptic curves whose n-division fields Q(E[n]) are abelian/cyclotomic, with no mention of Selmer ranks, CNF formulas, or resolution width. It shares only the general 'elliptic curves' vocabulary and does not interact with the specific Selmer-rank/resolution-width equivalence claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2308.00625",
+      "title": "Elliptic curves associated with Heron triangles with high $2$-Selmer rank",
+      "abstract_excerpt": "Rank computation of elliptic curves has deep relations with various unsolved questions in number theory, most notably in the congruent number problem for right-angled triangles. Similar relations between elliptic curves and Heron triangles were established later. In this work, we explicitly compute the 2-Selmer rank of the elliptic curves associated with Heron triangles of even area, which eventually sheds light on the Mordell-Weil rank of those curves.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 2-Selmer ranks of elliptic curves associated with Heron triangles and the congruent number problem, with no mention of Boolean Pythagorean triples, CNF formulas, or resolution proof width. It shares the '2-Selmer rank' vocabulary but does not interact with the specific claim linking Selmer rank to resolution width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1501.01344",
+      "title": "Level raising mod 2 and arbitrary 2-Selmer ranks",
+      "abstract_excerpt": "We prove a level raising mod $\\ell=2$ theorem for elliptic curves over $\\mathbb{Q}$. It generalizes theorems of Ribet and Diamond-Taylor and also explains different sign phenomena compared to odd $\\ell$. We use it to study the 2-Selmer groups of modular abelian varieties with common mod 2 Galois representation. As an application, we show that the 2-Selmer rank can be arbitrary in level raising families.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a level raising mod 2 theorem and shows '2-Selmer rank can be arbitrary in level raising families' — purely arithmetic geometry with no mention of CNF formulas, resolution width, or Boolean Pythagorean triples.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 8,
+    "INSUFFICIENT": 0
+  }
+}

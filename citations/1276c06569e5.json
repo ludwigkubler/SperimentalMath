@@ -1,0 +1,85 @@
+{
+  "entry_id": "1276c06569e5",
+  "ts": 1777242268.3246481,
+  "hits_evaluated": 8,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2502.09751",
+      "title": "Interview with Hyman Bass",
+      "abstract_excerpt": "Interview with Hyman Bass, whose mathematical life has spanned seven decades.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes an interview with Hyman Bass spanning his mathematical career, with no technical content about Bass Nil-groups, group rings, or resolution width. It shares only the name 'Bass' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1308.2715",
+      "title": "Adjoint groups of $p$-nil rings and $p$-group automorphisms",
+      "abstract_excerpt": "We introduce a class of rings, namely the class of left or right $p$-nil rings, for which the adjoint groups behave regularly. Every $p$-ring is close to being left or right $p$-nil in the sense that it contains a large ideal belonging to this class. Also their adjoint groups occur naturally as groups of automorphisms of $p$-groups. These facts and some of their applications are investigated in this paper.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns adjoint groups of p-nil rings and p-group automorphisms, sharing only the loose vocabulary of 'nil' rings; it makes no statement about Bass Nil-groups, group rings of SAT-derived groups, or resolution width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/hep-ph/0610012v1",
+      "title": "Tevatron-for-LHC Report of the QCD Working Group",
+      "abstract_excerpt": "The experiments at Run 2 of the Tevatron have each accumulated over 1 inverse femtobarn of high-transverse momentum data. Such a dataset allows for the first precision (i.e. comparisons between theory and experiment at the few percent level) tests of QCD at a hadron collider. While the Large Hadron ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes QCD precision tests at the Tevatron and LHC, which has no connection to Bass Nil-groups, group rings, or resolution proof complexity ('precision...tests of QCD at a hadron collider').",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1311.1421",
+      "title": "Multiplicative differential algebraic K-theory and applications",
+      "abstract_excerpt": "We construct a version of Beilinson's regulator as a map of sheaves of commutative ring spectra and use it to define a multiplicative variant of differential algebraic K-theory. We use this theory to give an interpretation of Bloch's construction of K_3-classes and the relation with dilogarithms. Furthermore, we provide a relation to Arakelov theory via the arithmetic degree of metrized line bundles, and we give a proof of the formality of the algebraic K-theory of number rings.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns multiplicative differential algebraic K-theory, Beilinson's regulator, and K-theory of number rings — it shares the 'algebraic K-theory' vocabulary but says nothing about Bass Nil-groups, group rings of SAT-derived groups, or resolution width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2104.04021",
+      "title": "A universal characterization of noncommutative motives and secondary algebraic K-theory",
+      "abstract_excerpt": "We provide a universal characterization of the construction taking a scheme $X$ to its stable $\\infty$-category $\\text{Mot}(X)$ of noncommutative motives, patterned after the universal characterization of algebraic K-theory due to Blumberg--Gepner--Tabuada. As a consequence, we obtain a corepresentability theorem for secondary K-theory. We envision this as a fundamental tool for the construction of trace maps from secondary K-theory.\n  Towards these main goals, we introduce a preliminary formali",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns universal characterizations of noncommutative motives and secondary K-theory via stable (∞,2)-categories, with no mention of Bass Nil-groups, group rings of SAT-derived groups, or resolution width. It shares only the broad K-theory framework but does not address the specific nilpotency-vs-width bound.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1811.09564",
+      "title": "Dévissage for Waldhausen K-theory",
+      "abstract_excerpt": "A dévissage-type theorem in algebraic $K$-theory is a statement that identifies the $K$-theory of a Waldhausen category $\\mathscr{C}$ in terms of the $K$-theories of a collection of Waldhausen subcategories of $\\mathscr{C}$ when a dévissage condition about the existence of appropriate finite filtrations is satisfied. We distinguish between dévissage theorems of single type and of multiple type, depending on the number of Waldhausen subcategories and their properties. The main representative exam",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns dévissage theorems for Waldhausen K-theory and identifying K-theory via filtrations of Waldhausen subcategories, which shares the broad K-theory framework but says nothing about Bass Nil-groups, group rings of SAT-derived groups, or resolution width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2005.06373",
+      "title": "Counting Schur Rings over Cyclic Groups of Semi-prime Order",
+      "abstract_excerpt": "In this paper, we continue the enumeration of Schur rings over cyclic groups. Cyclic groups of semiprime order $pq$, where $p$ and $q$ are distinct primes, are considered. Additionally, cyclic groups of order $4p$ are considered.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns enumeration of Schur rings over cyclic groups of order pq and 4p, which shares only the loose vocabulary of group rings but does not address Bass Nil-groups, SAT formulas, or resolution width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2309.16111",
+      "title": "The relational complexity of linear groups acting on subspaces",
+      "abstract_excerpt": "The relational complexity of a subgroup $G$ of $\\mathrm{Sym}(Ω)$ is a measure of the way in which the orbits of $G$ on $Ω^k$ for various $k$ determine the original action of $G$. Very few precise values of relational complexity are known. This paper determines the exact relational complexity of all groups lying between $\\mathrm{PSL}_{n}(\\mathbb{F})$ and $\\mathrm{PGL}_{n}(\\mathbb{F})$, for an arbitrary field $\\mathbb{F}$, acting on the set of $1$-dimensional subspaces of $\\mathbb{F}^n$. We also b",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'relational complexity' of linear groups like PSL_n(F) acting on subspaces, with no mention of Bass Nil-groups, group rings of free products, resolution width, or SAT formulas. It shares no specific claim with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 8,
+    "INSUFFICIENT": 0
+  }
+}

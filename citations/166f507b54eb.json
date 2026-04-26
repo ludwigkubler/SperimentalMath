@@ -1,0 +1,85 @@
+{
+  "entry_id": "166f507b54eb",
+  "ts": 1777241847.9262493,
+  "hits_evaluated": 8,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1608.04883",
+      "title": "Approximating the Chromatic Polynomial",
+      "abstract_excerpt": "Chromatic polynomials are important objects in graph theory and statistical physics, but as a result of computational difficulties, their study is limited to graphs that are small, highly structured, or very sparse. We have devised and implemented two algorithms that approximate the coefficients of the chromatic polynomial $P(G,x)$, where $P(G,k)$ is the number of proper $k$-colorings of a graph $G$ for $k\\in\\mathbb{N}$. Our algorithm is based on a method of Knuth that estimates the order of a s",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes algorithms for approximating coefficients of the chromatic polynomial P(G,x), with no claim about evaluating χ at -1 or any connection to #SAT/satisfying assignments of 3-CNF formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2105.03304",
+      "title": "Improved bounds for zeros of the chromatic polynomial on bounded degree graphs",
+      "abstract_excerpt": "We prove that for any graph $G$ of maximum degree at most $Δ$, the zeros of its chromatic polynomial $χ_G(z)$ (in $\\mathbb{C}$) lie outside the disk of radius $5.02 Δ$ centered at $0$. This improves on the previously best known bound of approximately $6.91Δ$.\n  In the case of graphs of high girth we can improve this. We prove that for every $g$ there is a constant $K_g$ such that for any graph $G$ of maximum degree at most $Δ$ and girth at least $g$, the zeros of its chromatic polynomial $χ_G(z)",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the location of complex zeros of chromatic polynomials on bounded-degree graphs ('zeros... lie outside the disk of radius 5.02Δ'), which neither addresses #SAT nor evaluates χ_G at -1 in the manner the conjecture proposes.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1901.00899",
+      "title": "Recursion relations for chromatic coefficients for graphs and hypergraphs",
+      "abstract_excerpt": "We establish a set of recursion relations for the coefficients in the chromatic polynomial of a graph or a hypergraph. As an application we provide a generalization of Whitney's broken cycle theorem for hypergraphs, as well as deriving an explicit formula for the linear coefficient of the chromatic polynomial of the $r$-complete hypergraph in terms of roots of the Taylor polynomials for the exponential function.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns recursion relations for chromatic polynomial coefficients and a Whitney broken cycle generalization for hypergraphs, with no mention of #SAT, satisfying assignments, or evaluation of χ at -1 for conflict graphs.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1901.05839",
+      "title": "Hamiltonian chromatic number of block graphs",
+      "abstract_excerpt": "Let $G$ be a simple connected graph of order $n$. A hamiltonian coloring $c$ of a graph $G$ is an assignment of colors (non-negative integers) to the vertices of $G$ such that $D(u, v)$ + $|c(u) - c(v)|$ $\\geq$ $n - 1$ for every two distinct vertices $u$ and $v$ of $G$, where $D(u, v)$ denotes the detour distance between $u$ and $v$ in $G$ which is the length of the longest path between $u$ and $v$. The value \\emph{hc(c)} of a hamiltonian coloring $c$ is the maximum color assigned to a vertex of",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'hamiltonian chromatic number' of block graphs, an assignment problem involving detour distance, with no mention of chromatic polynomials, evaluations at -1, or #SAT/satisfying assignments.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1004.3702",
+      "title": "A Polynomial time Algorithm for 3SAT",
+      "abstract_excerpt": "By creating some new concepts and methods: checking tree, long unit path, direct contradiction unit pair, indirect contradiction unit pair, additional contradiction unit pair, 2-unit layer and 3-unit layer, redundant units, and destroying parallel pairs , we successfully transform solving a 3SAT problem to solving 2SAT problems in polynomial time. Thus we proved that NP=P.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a purported polynomial-time 3SAT algorithm via 'checking tree' and unit-path constructions, with no mention of chromatic polynomials, conflict graphs, or counting satisfying assignments via χ(-1).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0911.4199",
+      "title": "Upper bounds for the 2-hued chromatic number of graphs in terms of the independence number",
+      "abstract_excerpt": "A 2-hued coloring of a graph $G$ (also known as conditional $(k, 2)$-coloring and dynamic coloring) is a coloring such that for every vertex $v\\in V(G)$ of degree at least $2$, the neighbors of $v$ receive at least $2$ colors. The smallest integer $k$ such that $G$ has a 2-hued coloring with $ k $ colors, is called the {\\it 2-hued chromatic number} of $G$ and denoted by $χ_2(G)$. In this paper, we will show that if $G$ is a regular graph, then $ χ_{2}(G)- χ(G) \\leq 2 \\log _{2}(α(G)) +\\mathcal{O}",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns bounds on the 2-hued (dynamic) chromatic number versus the ordinary chromatic number, with no mention of chromatic polynomials, evaluations at -1, SAT counting, or CNF formulas. It shares only the general 'graph coloring' vocabulary.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2410.00042",
+      "title": "The exact quantum chromatic number of Hadamard graphs",
+      "abstract_excerpt": "We compute the exact value of the quantum chromatic numbers of Hadamard graphs of order $n=2^N$ for $N$ a multiple of $4$ using the upper bound derived by Avis, Hasegawa, Kikuchi, and Sasaki, as well as an application of the Hoffman-like lower bound of Elphick and Wocjan that was generalized by Ganesan for quantum graphs. As opposed to prior computations for the lower bound, our approach uses Ito's results on conjugacy class graphs allowing us to also find bounds on the quantum chromatic numbers",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quantum chromatic numbers of Hadamard graphs via Hoffman-like bounds, not chromatic polynomials evaluated at -1 nor #SAT counting. It shares only the general 'chromatic' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2409.07035",
+      "title": "Approximately counting maximal independent set is equivalent to #SAT",
+      "abstract_excerpt": "A maximal independent set is an independent set that is not a subset of any other independent set. It is also the key problem of mathematics, computer science, and other fields. A counting problem is a type of computational problem that associated with the number of solutions. Besides, counting problems help us better understand several fields such as algorithm analysis, complexity theory, artificial intelligence, etc. The problem of counting maximal independent sets is #P-complete. So it is nat",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns AP-interreducibility between approximately counting maximal independent sets and #SAT, not chromatic polynomials evaluated at -1 or conflict graphs of 3-CNF formulas. It shares the #SAT vocabulary but does not address the specific algebraic identity in the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 8,
+    "INSUFFICIENT": 0
+  }
+}

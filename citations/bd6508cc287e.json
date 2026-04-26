@@ -1,0 +1,85 @@
+{
+  "entry_id": "bd6508cc287e",
+  "ts": 1777242130.3560643,
+  "hits_evaluated": 8,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/hep-ph/0610012v1",
+      "title": "Tevatron-for-LHC Report of the QCD Working Group",
+      "abstract_excerpt": "The experiments at Run 2 of the Tevatron have each accumulated over 1 inverse femtobarn of high-transverse momentum data. Such a dataset allows for the first precision (i.e. comparisons between theory and experiment at the few percent level) tests of QCD at a hadron collider. While the Large Hadron ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns precision QCD tests at the Tevatron and LHC ('precision...tests of QCD at a hadron collider'), which has no interaction with Galois theory, SAT polynomials, or resolution proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1611.05956",
+      "title": "Galois and Cartan Cohomology of Real Groups",
+      "abstract_excerpt": "Real forms of a complex reductive group are classified by Galois cohomology H^1(Gamma,G_ad) where G_ad is the adjoint group. Cartan's classification of real forms in terms of maximal compact subgroups can be stated in terms of H^(Z/2Z,G_ad) where the action is by a (holomorphic) Cartan involution. The main result is that for any complex reductive group, possibly disconnected, there is a canonical isomorphism between H^1(Gamma,G) and H^1(Z/2Z,G). As applications we give short proofs of some well ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Galois cohomology of real reductive groups and Cartan involutions, with no mention of finite fields, SAT formulas, splitting fields of clause polynomials, or resolution width. It shares only the word 'Galois' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1407.5802",
+      "title": "Galois representations and Galois groups over Q",
+      "abstract_excerpt": "In this paper we generalize results of P. Le Duff to genus n hyperelliptic curves. More precisely, let C/Q be a hyperelliptic genus n curve and let J(C) be the associated Jacobian variety. Assume that there exists a prime p such that J(C) has semistable reduction with toric dimension 1 at p. We provide an algorithm to compute a list of primes l (if they exist) such that the Galois representation attached to the l-torsion of J(C) is surjective onto the group GSp(2n, l). In particular we realize G",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Galois representations on l-torsion of Jacobians of hyperelliptic curves over Q and realizing GSp(6,l) as Galois groups, with no connection to SAT formulas, resolution width, or splitting fields over 𝔽_2(y_1,...,y_n).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1409.5893",
+      "title": "Fast evaluation of far-field signals for time-domain wave propagation",
+      "abstract_excerpt": "Time-domain simulation of wave phenomena on a finite computational domain often requires a fictitious outer boundary. An important practical issue is the specification of appropriate boundary conditions on this boundary, often conditions of complete transparency. Attention to this issue has been paid elsewhere, and here we consider a different, although related, issue: far-field signal recovery. Namely, from smooth data recorded on the outer boundary we wish to recover the far-field signal which",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns time-domain wave propagation, far-field signal recovery, and sum-of-exponentials kernel compression — it does not mention Galois groups, splitting fields over 𝔽_2, SAT formulas, or resolution width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0708.1529",
+      "title": "Resolution over Linear Equations and Multilinear Proofs",
+      "abstract_excerpt": "We develop and study the complexity of propositional proof systems of varying strength extending resolution by allowing it to operate with disjunctions of linear equations instead of clauses. We demonstrate polynomial-size refutations for hard tautologies like the pigeonhole principle, Tseitin graph tautologies and the clique-coloring tautologies in these proof systems. Using the (monotone) interpolation by a communication game technique we establish an exponential-size lower bound on refutation",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses resolution extended with linear equations and multilinear proofs over characteristic 0 fields, with no mention of Galois groups, splitting fields, 𝔽_2 extensions, or resolution width. It shares the 'multilinear' and 'resolution' vocabulary but does not address the specific Galois-orbit-equals-width claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:cs/0604089",
+      "title": "Evolutionary Socioeconomics: a Schumpeterian Computer Simulation",
+      "abstract_excerpt": "The following note contains a computer simulation concerning the struggle between two companies: the first one is \"the biggest zaibatsu of all\", while the second one is \"small, fast, ruthless\". The model is based on a neo-Schumpeterian framework operating in a Darwinian evolutionary environment. After running the program a large number of times, two characteristics stand out: -- There is always a winner which takes it all, while the loser disappears. -- The key to success is the ability to emplo",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a 'computer simulation concerning the struggle between two companies' in a 'neo-Schumpeterian framework,' which has no connection to Galois theory, SAT polynomials, or resolution width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0704.1574",
+      "title": "Retarded electric and magnetic fields of a moving charge: Feynman's derivation of Liénard-Wiechert potentials revisited",
+      "abstract_excerpt": "Retarded electromagnetic potentials are derived from Maxwell's equations and the Lorenz condition. The difference found between these potentials and the conventional Liénard-Wiechert ones is explained by neglect, for the latter, of the motion-dependence of the effective charge density. The corresponding retarded fields of a point-like charge in arbitary motion are compared with those given by the formulae of Heaviside, Feynman, Jefimenko and other authors. The fields of an accelerated charge giv",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns retarded electromagnetic potentials and Liénard-Wiechert fields in classical electrodynamics, with no connection to Galois theory, SAT formulas, or resolution proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1512.07347",
+      "title": "Galois Self-Dual Constacyclic Codes",
+      "abstract_excerpt": "Generalizing Euclidean inner product and Hermitian inner product, we introduce Galois inner products, and study the Galois self-dual constacyclic codes in a very general setting by a uniform method. The conditions for existence of Galois self-dual and isometrically Galois self-dual constacyclic codes are obtained. As consequences, the results on self-dual, iso-dual and Hermitian self-dual constacyclic codes are derived.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'Galois self-dual constacyclic codes' and Galois inner products in coding theory, with no mention of SAT formulas, resolution width, or Galois group orbit sizes on splitting fields of clause polynomials.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 8,
+    "INSUFFICIENT": 0
+  }
+}

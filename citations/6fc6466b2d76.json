@@ -1,0 +1,85 @@
+{
+  "entry_id": "6fc6466b2d76",
+  "ts": 1777241734.67701,
+  "hits_evaluated": 8,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0002194v2",
+      "title": "On q-Deformations of Clifford Algebras",
+      "abstract_excerpt": "Several Clifford algebras that are covariant under the action of a Lie algebra $g$ can be deformed in a way consistent with the deformation of $Ug$ into a quantum group (or into a triangular Hopf algebra) $U_qg$, i.e. so as to remain covariant under the action of $U_qg$. In this report, after recall",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns q-deformations of Clifford algebras covariant under quantum group actions, with no mention of Boolean functions, finite fields 𝔽_2, circuit depth, or matrix ranks. It shares only the 'Clifford algebra' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math-ph/0603050v1",
+      "title": "Extended Grassmann and Clifford algebras",
+      "abstract_excerpt": "This paper is intended to investigate Grassmann and Clifford algebras over Peano spaces, introducing their respective associated extended algebras, and to explore these concepts also from the counterspace viewpoint. The exterior (regressive) algebra is shown to share the exterior (progressive) algeb",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Grassmann/Clifford algebras over Peano spaces and counterspace viewpoints—pure mathematical physics with no mention of Boolean functions, circuit depth, or finite fields. Shares only the 'Clifford algebra' vocabulary.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1604.06967",
+      "title": "Sparse Representations of Clifford and Tensor algebras in Maxima",
+      "abstract_excerpt": "Clifford algebras have broad applications in science and engineering. The use of Clifford algebras can be further promoted in these fields by availability of computational tools that automate tedious routine calculations. We offer an extensive demonstration of the applications of Clifford algebras in electromagnetism using the geometric algebra G3 = Cl(3,0) as a computational model in the Maxima computer algebra system. We compare the geometric algebra-based approach with conventional symbolic t",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a Maxima computer algebra package for Clifford algebra computations applied to electromagnetism (Cl(3,0)), with no mention of boolean functions, circuit depth, or rank bounds over finite fields.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2011.05171",
+      "title": "Subgroups of Clifford algebras",
+      "abstract_excerpt": "Clifford algebras are used for constructing spin groups, and are therefore of particular importance in the theory of quantum mechanics. But the spin group is not the only subgroup of the Clifford algebra. An algebraist's perspective on these groups and algebras may suggest ways in which they might be applied more widely to describe the fundamental properties of matter. I do not claim to build a physical theory on top of the fundamental algebra, and my suggestions for possible physical interpreta",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses subgroups of Clifford algebras in the context of quantum mechanics and particle physics (spin groups, Dirac algebra, fermion generations), with no mention of Boolean functions, circuit depth, or finite-field ranks relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1712.05384",
+      "title": "Simulation of low-depth quantum circuits as complex undirected graphical models",
+      "abstract_excerpt": "Near term quantum computers with a high quantity (around 50) and quality (around 0.995 fidelity for two-qubit gates) of qubits will approximately sample from certain probability distributions beyond the capabilities of known classical algorithms on state-of-the-art computers, achieving the first milestone of so-called quantum supremacy. This has stimulated recent progress in classical algorithms to simulate quantum circuits. Classical simulations are also necessary to approximate the fidelity of",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns classical simulation of low-depth quantum circuits via graphical models and treewidth, with no mention of Clifford algebras over 𝔽_2, Boolean function ranks, or bounds on Boolean circuit depth. It shares only the loose vocabulary of 'depth' but does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2304.02770",
+      "title": "Tight Correlation Bounds for Circuits Between AC0 and TC0",
+      "abstract_excerpt": "We initiate the study of generalized AC0 circuits comprised of negations and arbitrary unbounded fan-in gates that only need to be constant over inputs of Hamming weight $\\ge k$, which we denote GC0$(k)$. The gate set of this class includes biased LTFs like the $k$-$OR$ (output $1$ iff $\\ge k$ bits are 1) and $k$-$AND$ (output $0$ iff $\\ge k$ bits are 0), and thus can be seen as an interpolation between AC0 and TC0. We establish a tight multi-switching lemma for GC0$(k)$ circuits, which bounds t",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns correlation bounds, switching lemmas, and pseudorandom generators for GC0(k) circuits between AC0 and TC0, with no mention of Clifford algebras, truth-table matrices, or characterizations of circuit depth via algebraic rank.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2311.04204",
+      "title": "Sharp Thresholds Imply Circuit Lower Bounds: from random 2-SAT to Planted Clique",
+      "abstract_excerpt": "We show that sharp thresholds for Boolean functions directly imply average-case circuit lower bounds. More formally we show that any Boolean function exhibiting a sharp enough threshold at \\emph{arbitrary} critical density cannot be computed by Boolean circuits of bounded depth and polynomial size. We also prove a partial converse: if a monotone graph invariant Boolean function does not have a sharp threshold then it can be computed on average by a Boolean circuit of bounded depth and polynomial",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses circuit lower bounds via sharp thresholds for Boolean functions, with no mention of Clifford algebras, the specific matrix C_f, or rank-vs-depth characterizations. It shares the 'Boolean circuits' vocabulary but does not interact with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2103.09767",
+      "title": "On the bundle of Clifford algebras over the space of quadratic forms",
+      "abstract_excerpt": "For each quadratic form Q in Quad(V) over a given vector space over a field R we have the Clifford algebra Cl(V,Q) defined as the quotient T(V)/I(Q) of the tensor algebra T(V) over the two-sided ideal generated by expressions of the form $x x-Q(x),x in V. In the present paper we consider the whole family Cl(V,Q) in a geometric way as a Z2-graded vector bundle over the base manifold Quad(V). Bilinear forms F from Bil(V) act on this bundle providing natural bijective linear mappings lambda_F betwe",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns geometric/bundle structure of Clifford algebras over quadratic forms and 'gauge transformations' via bilinear forms, with no mention of Boolean functions, circuit depth, or rank bounds — only shared vocabulary ('Clifford algebra').",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 8,
+    "INSUFFICIENT": 0
+  }
+}

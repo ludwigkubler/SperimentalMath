@@ -1,0 +1,85 @@
+{
+  "entry_id": "b958d93ec75c",
+  "ts": 1777242164.25116,
+  "hits_evaluated": 8,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1908.05361",
+      "title": "Placing quantified variants of 3-SAT and Not-All-Equal 3-SAT in the polynomial hierarchy",
+      "abstract_excerpt": "The complexity of variants of 3-SAT and Not-All-Equal 3-SAT is well studied. However, in contrast, very little is known about the complexity of the problems' quantified counterparts. In the first part of this paper, we show that $\\forall \\exists$ 3-SAT is $Π_2^P$-complete even if (1) each variable appears exactly twice unnegated and exactly twice negated, (2) each clause is a disjunction of exactly three distinct variables, and (3) the number of universal variables is equal to the number of exis",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the polynomial hierarchy classification of quantified 3-SAT and NAE-3-SAT variants ($\\Pi_2^P$-completeness), with no mention of resolution width, simplicial complexes, or homotopy classes into S^2.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1307.5776",
+      "title": "An exact algorithm for 1-in-3 SAT",
+      "abstract_excerpt": "1-in-3 SAT is an NP-complete variant of 3-SAT\\ where a \"clause\" is satisfied iff exactly one of its three literal is satisfied. We present here an exact algorithm solving \\oit\\ in time $O^*(1.260^n)$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes an 'exact algorithm solving' 1-in-3 SAT in time O*(1.260^n), which concerns algorithmic complexity of a SAT variant and says nothing about cohomotopy classes, simplicial complexes, or resolution width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1908.04198",
+      "title": "On simplified NP-complete variants of Not-All-Equal 3-Sat and 3-Sat",
+      "abstract_excerpt": "We consider simplified, monotone versions of Not-All-Equal 3-Sat and 3-Sat, variants of the famous Satisfiability Problem where each clause is made up of exactly three distinct literals. We show that Not-All-Equal 3-Sat remains NP-complete even if (1) each variable appears exactly four times, (2) there are no negations in the formula, and (3) the formula is linear, i.e., each pair of distinct clauses shares at most one variable.\n  Concerning 3-Sat we prove several hardness results for monotone f",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns NP-completeness of restricted 3-SAT variants (variable appearance restrictions, monotonicity, linearity), with no mention of cohomotopy, simplicial complexes, or resolution width. It shares only the '3-SAT' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0806.1148",
+      "title": "Unsatisfiable CNF Formulas need many Conflicts",
+      "abstract_excerpt": "A pair of clauses in a CNF formula constitutes a conflict if there is a variable that occurs positively in one clause and negatively in the other. A CNF formula without any conflicts is satisfiable. The Lovasz Local Lemma implies that a k-CNF formula is satisfiable if each clause conflicts with at most 2^k/e-1 clauses. It does not, however, give any good bound on how many conflicts an unsatisfiable formula has globally. We show here that every unsatisfiable k-CNF formula requires 2.69^k conflict",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns lower/upper bounds on the number of conflicts (2.69^k to 3.51^k) in unsatisfiable k-CNF formulas, not resolution width nor cohomotopy classes of any simplicial complex. It shares the CNF/SAT framework but does not interact with the specific claim equating |[Z_φ, S^2]_*| with resolution width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2201.00968",
+      "title": "Erdős-Selfridge Theorem for Nonmonotone CNFs",
+      "abstract_excerpt": "In an influential paper, Erdős and Selfridge introduced the Maker-Breaker game played on a hypergraph, or equivalently, on a monotone CNF. The players take turns assigning values to variables of their choosing, and Breaker's goal is to satisfy the CNF, while Maker's goal is to falsify it. The Erdős-Selfridge Theorem says that the least number of clauses in any monotone CNF with $k$ literals per clause where Maker has a winning strategy is $Θ(2^k)$.\n  We study the analogous question when the CNF ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Maker-Breaker games on CNFs and bounds on clause counts for winning strategies, with no mention of cohomotopy, simplicial complexes, or resolution width. It shares only the general CNF vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1711.07474",
+      "title": "XSAT of Linear CNF Formulas",
+      "abstract_excerpt": "Open questions with respect to the computational complexity of linear CNF formulas in connection with regularity and uniformity are addressed. In particular it is proven that any l-regular monotone CNF formula is XSAT-unsatisfiable if its number of clauses m is not a multiple of l. For exact linear formulas one finds surprisingly that l-regularity implies k-uniformity, with m = 1 + k(l-1)) and allowed k-values obey k(k-1) = 0 (mod l). Then the computational complexity of the class of monotone ex",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses XSAT complexity of linear/regular CNF formulas via combinatorial regularity arguments ('l-regular monotone CNF formula is XSAT-unsatisfiable'), with no mention of cohomotopy, simplicial complexes, or resolution width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0912.2227",
+      "title": "Algebraic homotopy classes of rational functions",
+      "abstract_excerpt": "We compute the set of naive pointed homotopy classes of endomorphisms of the projective line P^1 over the spectrum of a field. Our computation compares well with Fabien Morel's one of the motivic pointed homotopy classes of endomorphisms of P^1: there is an a priori monoid structure on the set of naive homotopy classes such that canonical map from this monoid to group of motivic homotopy classes is a group completion.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns naive homotopy classes of endomorphisms of P^1 over a field and their comparison to Morel's motivic homotopy classes — it says nothing about clause-link complexes, 3-SAT, or resolution width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1405.1700",
+      "title": "Comment on Consensus formation on a simplicial complex of opinions (arXiv:1212.1940, Physica A, Vol. 397 (1), pp. 111-120, 2014)",
+      "abstract_excerpt": "In the commented paper, the authors declare an analogy with the quantum mechanical pure states established through the application of the high-dimensional combinatorial Laplacian considering that the simplicial complex is in the pure state when it is formed by collection of the pure states. In their work, besides giving a completely erroneous analogy for the pure quantum mechanical state, which contradicts to very basic postulates of quantum mechanic, the authors clearly fail to provide and expl",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns combinatorial Laplacian spectra of simplicial complexes in the context of quantum density matrices and consensus formation, with no mention of cohomotopy classes, 3-SAT, or resolution width. It shares only the vocabulary of 'simplicial complex' but does not interact with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 8,
+    "INSUFFICIENT": 0
+  }
+}

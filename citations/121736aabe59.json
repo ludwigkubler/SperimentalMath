@@ -1,0 +1,85 @@
+{
+  "entry_id": "121736aabe59",
+  "ts": 1777241814.1714864,
+  "hits_evaluated": 8,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2311.03743",
+      "title": "A general framework for the analytic Langlands correspondence",
+      "abstract_excerpt": "We discuss a general framework for the analytic Langlands correspondence over an arbitrary local field F introduced and studied in our works arXiv:1908.09677, arXiv:2103.01509 and arXiv:2106.05243, in particular including non-split and twisted settings. Then we specialize to the archimedean cases (F=C and F=R) and give a (mostly conjectural) description of the spectrum of the Hecke operators in various cases in terms of opers satisfying suitable reality conditions, as predicted in part in arXiv:",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a framework for analytic Langlands correspondence over local fields, Hecke operator spectra, and Gaudin models, with no mention of boolean functions, communication matrices, monochromatic rectangles, or Poincare series poles. It shares Langlands vocabulary but does not interact with the specific communication-complexity claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2008.02998",
+      "title": "Coherent sheaves on the stack of Langlands parameters",
+      "abstract_excerpt": "We formulate a few conjectures on some hypothetical coherent sheaves on the stacks of arithmetic local Langlands parameters, including their roles played in the local-global compatibility in the Langlands program. We survey some known results as evidences of these conjectures.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'coherent sheaves on the stacks of arithmetic local Langlands parameters' in the context of the Langlands program, with no mention of Poincare series, boolean functions, communication matrices, or monochromatic rectangles. It shares only the Langlands vocabulary and does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2302.00039",
+      "title": "Between Coherent and Constructible Local Langlands Correspondences",
+      "abstract_excerpt": "Refined forms of the local Langlands correspondence seek to relate representations of reductive groups over local fields with sheaves on stacks of Langlands parameters. But what kind of sheaves? Conjectures in the spirit of Kazhdan-Lusztig theory (due to Vogan and Soergel) describe representations of a group and its pure inner forms with fixed central character in terms of constructible sheaves. Conjectures in the spirit of geometric Langlands (due to Fargues, Zhu and Hellmann) describe represen",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses interpolation between coherent and constructible local Langlands correspondences via cyclic homology and circle actions, with no mention of Poincare series, boolean functions, communication matrices, or monochromatic rectangles.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1512.07347",
+      "title": "Galois Self-Dual Constacyclic Codes",
+      "abstract_excerpt": "Generalizing Euclidean inner product and Hermitian inner product, we introduce Galois inner products, and study the Galois self-dual constacyclic codes in a very general setting by a uniform method. The conditions for existence of Galois self-dual and isometrically Galois self-dual constacyclic codes are obtained. As consequences, the results on self-dual, iso-dual and Hermitian self-dual constacyclic codes are derived.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Galois self-dual constacyclic codes and Galois inner products in coding theory, with no mention of Poincare series, Langlands duality, communication matrices, or monochromatic rectangles. It shares only the word 'Galois' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1004.4962",
+      "title": "Galois lines for normal elliptic space curves, II",
+      "abstract_excerpt": "For each linearly normal elliptic curve $C$ in $\\mathbb P^3$, we determine Galois lines and their arrangement. The results are as follows: the curve $C$ has just six $V_4$-lines and in case $j(C)=1$, it has eight $Z_4$-lines in addition. The $V_4$-lines form the edges of a tetrahedron, in case $j(C)=1$, for each vertex of the tetrahedron, there exist just two $Z_4$-lines passing through it. We obtain as a corollary that each plane quartic curve of genus one does not have more than one Galois poi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Galois lines for elliptic curves in projective 3-space and tetrahedral arrangements, with no mention of Poincare series, Langlands duality, communication matrices, or monochromatic rectangles.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0804.0209",
+      "title": "Bent Rectangles",
+      "abstract_excerpt": "We study generalized regular bent functions using a representation by bent rectangles, that is, special matrices with restrictions on rows and columns. We describe affine transformations of bent rectangles, propose new biaffine and bilinear constructions, study partitions of a vector space into affine planes of the same dimension and use such partitions to build bent rectangles. We illustrate the concept of bent rectangles by examples for the Boolean case.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'bent rectangles' as matrix representations of bent Boolean functions, with no mention of Poincaré series, Langlands duality, Galois representations, or monochromatic rectangles in communication complexity. The shared vocabulary ('rectangles', 'Boolean') is superficial and does not engage the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2403.13102",
+      "title": "Geometric methods in quantum information and entanglement variational principle",
+      "abstract_excerpt": "Geometrical methods in quantum information are very promising for both providing technical tools and intuition into difficult control or optimization problems. Moreover, they are of fundamental importance in connecting pure geometrical theories, like GR, to quantum mechanics, like in the AdS/CFT correspondence. In this paper, we first make a survey of the most important settings in which geometrical methods have proven useful to quantum information theory. Then, we lay down a general framework f",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses geometric methods in quantum information, entanglement, and an action principle for quantum resources, with no mention of Poincare series, Langlands duality, Galois representations, or boolean function communication matrices/monochromatic rectangles.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2005.11899",
+      "title": "Geometric triangulations and highly twisted links",
+      "abstract_excerpt": "It is conjectured that every cusped hyperbolic 3-manifold admits a geometric triangulation, i.e. it is decomposed into positive volume ideal hyperbolic tetrahedra. Here, we show that sufficiently highly twisted knots admit a geometric triangulation. In addition, by extending work of Gueritaud and Schleimer, we also give quantified versions of this result for infinite families of examples.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns geometric triangulations of cusped hyperbolic 3-manifolds and highly twisted knots, with no mention of Poincaré series, Galois representations, communication complexity, or boolean functions.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 8,
+    "INSUFFICIENT": 0
+  }
+}
