@@ -1,0 +1,85 @@
+{
+  "entry_id": "52be4733a1c4",
+  "ts": 1777301500.9024622,
+  "hits_evaluated": 8,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2512.11833",
+      "title": "Soft Decision Tree classifier: explainable and extendable PyTorch implementation",
+      "abstract_excerpt": "We implemented a Soft Decision Tree (SDT) and a Short-term Memory Soft Decision Tree (SM-SDT) using PyTorch. The methods were extensively tested on simulated and clinical datasets. The SDT was visualized to demonstrate the potential for its explainability. SDT, SM-SDT, and XGBoost demonstrated similar area under the curve (AUC) values. These methods were better than Random Forest, Logistic Regression, and Decision Tree. The results on clinical datasets suggest that, aside from a decision tree, a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a PyTorch implementation of Soft Decision Tree classifiers benchmarked on clinical datasets via AUC, with no connection to decision-tree depth lower bounds, certificate posets, or communication complexity lifting.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2211.17214",
+      "title": "Lifting to Parity Decision Trees Via Stifling",
+      "abstract_excerpt": "We show that the deterministic decision tree complexity of a (partial) function or relation $f$ lifts to the deterministic parity decision tree (PDT) size complexity of the composed function/relation $f \\circ g$ as long as the gadget $g$ satisfies a property that we call stifling. We observe that several simple gadgets of constant size, like Indexing on 3 input bits, Inner Product on 4 input bits, Majority on 3 input bits and random functions, satisfy this property. It can be shown that existing",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns lifting deterministic decision tree complexity to parity decision tree SIZE via 'stifling' gadgets, not the antichain-width of a certificate poset bounding decision tree depth or IND-lifted communication complexity. It shares the lifting framework vocabulary but does not address Dilworth antichain-width of minimal certificates.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1302.4207",
+      "title": "A composition theorem for decision tree complexity",
+      "abstract_excerpt": "We completely characterise the complexity in the decision tree model of computing composite relations of the form h = g(f^1,...,f^n), where each relation f^i is boolean-valued. Immediate corollaries include a direct sum theorem for decision tree complexity and a tight characterisation of the decision tree complexity of iterated boolean functions.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses decision tree complexity of composite relations h = g(f^1,...,f^n) and a direct sum theorem, but says nothing about Dilworth antichain-width of certificate posets or IND-gadget communication lifting. It shares the decision-tree framework but does not interact with the specific w(f)-based lower bound claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1306.1593",
+      "title": "The root posets and their rich antichains",
+      "abstract_excerpt": "Let $Δ$ be a (connected) Dynkin diagram of rank $n\\ge 2$ and $Φ_+ = Φ_+(Δ)$ the corresponding root poset (it consists of all positive roots with respect to a fixed root basis). The width of $Φ_+$ is $n$. We will show that $Φ_+$ is \"conical\": it is the disjoint union of $n$ solid chains.\n  The rich antichains in $Φ_+$ are the antichains of cardinality $n-1$. It is well known that the number of rich antichains is equal to the cardinality of $Φ_+$. The set $\\mathcal R(Δ)$ of rich antichains in $Φ_+",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns antichains in Dynkin root posets (positive roots of a Lie-theoretic diagram), not Boolean function certificate posets or communication/decision-tree complexity. It shares only the generic vocabulary 'antichain/poset/width' and does not interact with the lifting-theorem claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2511.07739",
+      "title": "A Lower Bound for the Fourier Entropy of Boolean Functions on the Biased Hypercube",
+      "abstract_excerpt": "We study Boolean functions on the $p$-biased hypercube $(\\{0,1\\}^n,μ_p^n)$ through the lens of Fourier (spectral) entropy, i.e. the Shannon entropy of the squared $p$-biased Fourier coefficients. Motivated by recent restriction-based advances on upper bounds toward the Fourier-Entropy-Influence (FEI) conjecture, we prove a complementary, sharp lower bound that decomposes the entropy into coordinate-wise contributions. Let $q:=4p(1-p)$ and define $Ψ:[0,\\tfrac12]\\to[0,\\ln 2]$ by $Ψ(t):=h\\left(\\fra",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Fourier entropy lower bounds on the biased hypercube (FEI conjecture), which shares no interaction with deterministic decision-tree depth, certificate-poset antichain width, or IND-gadget communication lifting.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2208.02526",
+      "title": "Nearly Optimal Communication and Query Complexity of Bipartite Matching",
+      "abstract_excerpt": "We settle the complexities of the maximum-cardinality bipartite matching problem (BMM) up to poly-logarithmic factors in five models of computation: the two-party communication, AND query, OR query, XOR query, and quantum edge query models. Our results answer open problems that have been raised repeatedly since at least three decades ago [Hajnal, Maass, and Turan STOC'88; Ivanyos, Klauck, Lee, Santha, and de Wolf FSTTCS'12; Dobzinski, Nisan, and Oren STOC'14; Nisan SODA'21] and tighten the lower",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns communication and query complexity of the bipartite matching problem itself, not lifting theorems for IND-gadgets or Dilworth antichain-width bounds on certificate posets. Shared vocabulary (bipartite matching, communication complexity) does not engage the specific conjecture about Q^dt(f) >= ceil(log_2(w(f)+1)).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1512.01210",
+      "title": "Nearly optimal separations between communication (or query) complexity and partitions",
+      "abstract_excerpt": "We show a nearly quadratic separation between deterministic communication complexity and the logarithm of the partition number, which is essentially optimal. This improves upon a recent power 1.5 separation of Göös, Pitassi, and Watson (FOCS 2015). In query complexity, we establish a nearly quadratic separation between deterministic (and even randomized) query complexity and subcube partition complexity, which is also essentially optimal. We also establish a nearly power 1.5 separation between q",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses separations between deterministic/quantum query or communication complexity and (subcube) partition number via cheat-sheet constructions, not Dilworth antichain-width of a certificate poset bounding query depth or IND-lifted communication complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2110.11439",
+      "title": "(Optimal) Online Bipartite Matching with Degree Information",
+      "abstract_excerpt": "We propose a model for online graph problems where algorithms are given access to an oracle that predicts (e.g., based on modeling assumptions or on past data) the degrees of nodes in the graph. Within this model, we study the classic problem of online bipartite matching, and a natural greedy matching algorithm called MinPredictedDegree, which uses predictions of the degrees of offline nodes. For the bipartite version of a stochastic graph model due to Chung, Lu, and Vu where the expected values",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns online bipartite matching with degree-prediction oracles and competitive ratios, not certificate posets, decision-tree depth, or communication-complexity lifting theorems. It shares only the surface vocabulary of 'matching/bipartite' with the conjecture's Koenig-style framing.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 8,
+    "INSUFFICIENT": 0
+  }
+}

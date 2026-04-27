@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-27 14:43 UTC"
+date: "2026-04-27 15:25 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-27 14:43 UTC
+Generated 2026-04-27 15:25 UTC
 
-- Cycles recorded: **153**
-- Time span: 89.0h (~1.72 cycles/h)
+- Cycles recorded: **155**
+- Time span: 89.7h (~1.73 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 134 |
+| INCONCLUSIVE | 136 |
 | FALSIFIED | 14 |
 | SUPPORTED | 4 |
 | BARRIER_HIT | 1 |
@@ -67,8 +67,6 @@ Generated 2026-04-27 14:43 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-27 08:47 UTC | `INCONCLUSIVE` | Möbius Function of Minterm Lattice Bounds Indexing-Lifted Communi |
-| 2026-04-27 09:18 UTC | `INCONCLUSIVE` | Noise-Stability Plateau at rho=1/3 Bounds DPLL Leaves on 3-CNF |
 | 2026-04-27 09:53 UTC | `INCONCLUSIVE` | Brooks Quasimorphism Magnitude Lower-Bounds Formula Depth via Bar |
 | 2026-04-27 10:22 UTC | `INCONCLUSIVE` | Hadamard-Code Distance Defect Predicts NW-PRG Distinguisher Advan |
 | 2026-04-27 10:37 UTC | `INCONCLUSIVE` | Asymptotic-dimension lower bound for the indexing function via co |
@@ -82,6 +80,8 @@ Generated 2026-04-27 14:43 UTC
 | 2026-04-27 13:49 UTC | `INCONCLUSIVE` | Sturmian Factor-Complexity Lower-Bounds DNF-MCSP Term Count |
 | 2026-04-27 14:18 UTC | `INCONCLUSIVE` | Haar-Wavelet Star-Discrepancy of Sign Matrix Lower-Bounds Rigidit |
 | 2026-04-27 14:43 UTC | `INCONCLUSIVE` | Roe-cohomological concentration: HX^1(X_f) vanishes for random f, |
+| 2026-04-27 14:50 UTC | `INCONCLUSIVE` | Antichain-Width of Query Certificate Poset Bounds Lifted IND CC |
+| 2026-04-27 15:25 UTC | `INCONCLUSIVE` | Apolar Span of Clause-Product Polynomial Bounds DPLL Leaves |
 
 ## How to read the reports
 

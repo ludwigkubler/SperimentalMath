@@ -1,0 +1,85 @@
+{
+  "entry_id": "fe0af6ae6d43",
+  "ts": 1777303566.606648,
+  "hits_evaluated": 8,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0906.0693",
+      "title": "An improved lower bound on the counterfeit coins problem",
+      "abstract_excerpt": "In this paper, we will give an improvement on the lower bound for the counterfeit coins problem in the case that the number of false coins is unknown in advance",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns lower bounds for the counterfeit coins problem with an unknown number of false coins, which has no connection to apolarity, clause-product polynomials, or DPLL leaf counts on 3-CNF formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1007.1875",
+      "title": "Lower Bounds for Quantum Oblivious Transfer",
+      "abstract_excerpt": "Oblivious transfer is a fundamental primitive in cryptography. While perfect information theoretic security is impossible, quantum oblivious transfer protocols can limit the dishonest players' cheating. Finding the optimal security parameters in such protocols is an important open question. In this paper we show that every 1-out-of-2 oblivious transfer protocol allows a dishonest party to cheat with probability bounded below by a constant strictly larger than 1/2. Alice's cheating is defined as ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quantum oblivious transfer cheating probabilities and Kitaev's semidefinite programming bounds, which has no interaction with apolarity, DPLL leaf counts, or 3-CNF unsatisfiability.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1801.08709",
+      "title": "Adaptive Lower Bound for Testing Monotonicity on the Line",
+      "abstract_excerpt": "In the property testing model, the task is to distinguish objects possessing some property from the objects that are far from it. One of such properties is monotonicity, when the objects are functions from one poset to another. This is an active area of research. In this paper we study query complexity of $ε$-testing monotonicity of a function $f\\colon [n]\\to[r]$. All our lower bounds are for adaptive two-sided testers.\n  * We prove a nearly tight lower bound for this problem in terms of $r$. Th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns query complexity lower bounds for property testing of monotonicity on posets/hypergrids, with no connection to apolarity, clause-product polynomials, or DPLL leaf counts mentioned in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2405.16149",
+      "title": "Small unsatisfiable $k$-CNFs with bounded literal occurrence",
+      "abstract_excerpt": "We obtain the smallest unsatisfiable formulas in subclasses of $k$-CNF (exactly $k$ distinct literals per clause) with bounded variable or literal occurrences. Smaller unsatisfiable formulas of this type translate into stronger inapproximability results for MaxSAT in the considered formula class. Our results cover subclasses of 3-CNF and 4-CNF; in all subclasses of 3-CNF we considered we were able to determine the smallest size of an unsatisfiable formula; in the case of 4-CNF with at most 5 occ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns finding the smallest unsatisfiable k-CNF formulas with bounded literal occurrences via SAT Modulo Symmetries, with no mention of apolarity, partial-derivative span, or DPLL leaf counts. It shares the 'unsatisfiable 3-CNF' vocabulary but does not address the conjectured inequality μ(F) ≥ ⌈log_2 D_F⌉.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1203.3706",
+      "title": "On the Complexity of Computing Minimal Unsatisfiable LTL formulas",
+      "abstract_excerpt": "We show that (1) the Minimal False QCNF search-problem (MF-search) and the Minimal Unsatisfiable LTL formula search problem (MU-search) are FPSPACE complete because of the very expressive power of QBF/LTL, (2) we extend the PSPACE-hardness of the MF decision problem to the MU decision problem. As a consequence, we deduce a positive answer to the open question of PSPACE hardness of the inherent Vacuity Checking problem. We even show that the Inherent Non Vacuous formula search problem is also FPS",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns FPSPACE/PSPACE complexity of minimal unsatisfiable LTL/QCNF formula search problems, which shares no interaction with apolarity-based dimension bounds on DPLL leaf counts for 3-CNF formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2412.05017",
+      "title": "Reduction from the partition problem: Dynamic lot sizing problem with polynomial complexity",
+      "abstract_excerpt": "In this note, we polynomially reduce an instance of the partition problem to a dynamic lot sizing problem, and show that solving the latter problem solves the former problem. By solving the dynamic program formulation of the dynamic lot sizing problem, we show that the instance of the partition problem can be solved with pseudo-polynomial time complexity. Numerical results on solving instances of the partition problem are also provided using an implementation of the algorithm that solves the dyn",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns reducing the partition problem to dynamic lot sizing via dynamic programming, with no mention of apolarity, DPLL, 3-CNF, or partial-derivative spans relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0007142v2",
+      "title": "An excursion from enumerative goemetry to solving systems of polynomial equations with Macaulay 2",
+      "abstract_excerpt": "Solving a system of polynomial equations is a ubiquitous problem in the applications of mathematics. Until recently, it has been hopeless to find explicit solutions to such systems, and mathematics has instead developed deep and powerful theories about the solutions to polynomial equations. Enumerat",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes an expository excursion on solving polynomial systems via Macaulay 2 and enumerative geometry, with no mention of apolarity bounds, DPLL search trees, or 3-CNF leaf counts. It shares only generic polynomial-algebra vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1906.07508",
+      "title": "Subsumption-driven clause learning with DPLL+restarts",
+      "abstract_excerpt": "We propose to use a DPLL+restart to solve SAT instances by successive simplifications based on the production of clauses that subsume the initial clauses. We show that this approach allows the refutation of pebbling formulae in polynomial time and linear space, as effectively as with a CDCL solver.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a DPLL+restart algorithmic technique using subsumption-driven clause learning to refute pebbling formulae in polynomial time, with no mention of apolarity, partial-derivative spans, or lower bounds on DPLL leaf counts via algebraic invariants.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 8,
+    "INSUFFICIENT": 0
+  }
+}
