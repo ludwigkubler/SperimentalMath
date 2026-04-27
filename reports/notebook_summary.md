@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-27 19:45 UTC"
+date: "2026-04-27 20:42 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,20 +13,20 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-27 19:45 UTC
+Generated 2026-04-27 20:42 UTC
 
-- Cycles recorded: **167**
-- Time span: 94.1h (~1.77 cycles/h)
+- Cycles recorded: **169**
+- Time span: 95.0h (~1.78 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 148 |
+| INCONCLUSIVE | 149 |
 | FALSIFIED | 14 |
 | SUPPORTED | 4 |
-| BARRIER_HIT | 1 |
+| BARRIER_HIT | 2 |
 
 ## Mathematical fields explored (field_A)
 
@@ -67,8 +67,6 @@ Generated 2026-04-27 19:45 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-27 14:43 UTC | `INCONCLUSIVE` | Roe-cohomological concentration: HX^1(X_f) vanishes for random f, |
-| 2026-04-27 14:50 UTC | `INCONCLUSIVE` | Antichain-Width of Query Certificate Poset Bounds Lifted IND CC |
 | 2026-04-27 15:25 UTC | `INCONCLUSIVE` | Apolar Span of Clause-Product Polynomial Bounds DPLL Leaves |
 | 2026-04-27 15:55 UTC | `INCONCLUSIVE` | Cheeger Constant of Quotient Multigraph Bounds Tseitin Resolution |
 | 2026-04-27 16:27 UTC | `INCONCLUSIVE` | RSK Second-Row Length of f-Sorted Permutation Bounds Lifted IND C |
@@ -82,6 +80,8 @@ Generated 2026-04-27 19:45 UTC
 | 2026-04-27 19:11 UTC | `INCONCLUSIVE` | Hamming-Weight Spectrum Slope Bounds ACC^0[2] Subcircuit Count |
 | 2026-04-27 19:34 UTC | `INCONCLUSIVE` | Pullback monotonicity of coarse depth under coarse-Lipschitz redu |
 | 2026-04-27 19:45 UTC | `INCONCLUSIVE` | Ihara Zeta Entropy Lower-Bounds DPLL Depth on 3-Regular Tseitin |
+| 2026-04-27 20:12 UTC | `INCONCLUSIVE` | Hypercontractive p→2 Norm of Restriction Operator Bounds Resoluti |
+| 2026-04-27 20:42 UTC | `BARRIER_HIT` | Median-Restriction Hardness Amplification Gap for DNF Truth Table |
 
 ## How to read the reports
 

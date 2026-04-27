@@ -1,0 +1,40 @@
+{
+  "entry_id": "a0e6af1e7a28",
+  "ts": 1777320759.981764,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1905.12372",
+      "title": "Resolution Lower Bounds for Refutation Statements",
+      "abstract_excerpt": "For any unsatisfiable CNF formula we give an exponential lower bound on the size of resolution refutations of a propositional statement that the formula has a resolution refutation. We describe three applications. (1) An open question in (Atserias, Müller 2019) asks whether a certain natural propositional encoding of the above statement is hard for Resolution. We answer by giving an exponential size lower bound. (2) We show exponential resolution size lower bounds for reflection principles, ther",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns resolution size lower bounds for refutation statements and reflection principles, with no mention of hypercontractivity, p→2 norms, or width bounds via the Bonami-Beckner semigroup. It shares the 'resolution refutation' vocabulary but does not interact with the specific width-vs-hypercontractive-defect claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0906.0693",
+      "title": "An improved lower bound on the counterfeit coins problem",
+      "abstract_excerpt": "In this paper, we will give an improvement on the lower bound for the counterfeit coins problem in the case that the number of false coins is unknown in advance",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns lower bounds for the counterfeit coins problem, which has no apparent connection to hypercontractivity, Bonami-Beckner operators, or resolution refutation width of 3-CNF formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1007.1875",
+      "title": "Lower Bounds for Quantum Oblivious Transfer",
+      "abstract_excerpt": "Oblivious transfer is a fundamental primitive in cryptography. While perfect information theoretic security is impossible, quantum oblivious transfer protocols can limit the dishonest players' cheating. Finding the optimal security parameters in such protocols is an important open question. In this paper we show that every 1-out-of-2 oblivious transfer protocol allows a dishonest party to cheat with probability bounded below by a constant strictly larger than 1/2. Alice's cheating is defined as ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quantum oblivious transfer cheating bounds via Kitaev's coin flipping SDP, with no mention of hypercontractivity, Boolean function norms, or resolution width of CNF formulas.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

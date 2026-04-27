@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — Wall atlas"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-27 19:45 UTC"
+date: "2026-04-27 20:42 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,7 +13,7 @@ colorlinks: true
 
 # SEC P vs NP — Wall atlas
 
-Compiled 2026-04-27 19:45 UTC. 17 total barrier rejections logged.
+Compiled 2026-04-27 20:42 UTC. 18 total barrier rejections logged.
 
 This is the **map of known walls** encountered by the barrier filter. Each entry below was a proposed conjecture that, according to dual-LLM agreement, would fall to one of the four classical barriers. Patterns in this data tell us where the proposer keeps tripping.
 
@@ -23,8 +23,8 @@ This is the **map of known walls** encountered by the barrier filter. Each entry
 |---------|-----------:|
 | `RELATIVIZATION` | 7 |
 | `ALGEBRIZATION` | 4 |
+| `NATURAL_PROOFS` | 4 |
 | `KARP_LIPTON` | 3 |
-| `NATURAL_PROOFS` | 3 |
 
 ## Rejections by field_A (top 10)
 
@@ -36,10 +36,10 @@ This is the **map of known walls** encountered by the barrier filter. Each entry
 | Meta-complexity | 3 | `KARP_LIPTON` |
 | Abstract recursion | 1 | `RELATIVIZATION` |
 | Schur-Horn majorization theory (doubly-stochastic / diagonal | 1 | `NATURAL_PROOFS` |
+| Quantile statistics of random subcube restrictions (order-st | 1 | `NATURAL_PROOFS` |
 
 ## Recent rejections (last 15)
 
-- [2026-04-24 16:19 UTC] `RELATIVIZATION` (conf 0.90) — Truth-table discriminant for circuit hardness
 - [2026-04-24 16:21 UTC] `ALGEBRIZATION` (conf 0.95) — Sum-check bound for NEXP lower bound
 - [2026-04-24 16:23 UTC] `KARP_LIPTON` (conf 0.99) — Every NEXP language has polynomial-size circuits
 - [2026-04-24 16:37 UTC] `RELATIVIZATION` (conf 0.95) — Diagonalization separation of P and NP
@@ -54,3 +54,4 @@ This is the **map of known walls** encountered by the barrier filter. Each entry
 - [2026-04-24 21:05 UTC] `ALGEBRIZATION` (conf 0.95) — Sum-check bound for NEXP lower bound
 - [2026-04-24 21:07 UTC] `KARP_LIPTON` (conf 0.99) — Every NEXP language has polynomial-size circuits
 - [2026-04-26 22:22 UTC] `NATURAL_PROOFS` (conf 0.70) — Schur-Horn Majorization Gap Lower-Bounds Sign-Rank Discrepancy
+- [2026-04-27 20:42 UTC] `NATURAL_PROOFS` (conf 0.70) — Median-Restriction Hardness Amplification Gap for DNF Truth Tables
