@@ -1,0 +1,85 @@
+{
+  "entry_id": "5013aa48b582",
+  "ts": 1777283663.9705827,
+  "hits_evaluated": 8,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1911.10855",
+      "title": "$\\hat{G}$-invariant quasimorphisms and symplectic geometry of surfaces",
+      "abstract_excerpt": "Let $\\hat{G}$ be a group and $G$ its normal subgroup. In this paper, we study $\\hat{G}$-invariant quasimorphisms on $G$ which appear in symplectic geometry and low dimensional topology. As its application, we prove the non-existence of a section of the flux homomorphism on closed surfaces of higher genus. We also prove that Py's Calabi quasimorphism and Entov-Polterovich's partial Calabi quasimorphism are non-extendable to the group of symplectomorphisms. We show that Py's Calabi quasimorphism i",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns G-hat-invariant quasimorphisms in symplectic geometry (flux homomorphism, Py's Calabi quasimorphism, symplectomorphisms of surfaces), with no mention of Brooks counting quasimorphisms on F_2, Barrington's branching programs, or Boolean formula depth.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/hep-ph/0610012v1",
+      "title": "Tevatron-for-LHC Report of the QCD Working Group",
+      "abstract_excerpt": "The experiments at Run 2 of the Tevatron have each accumulated over 1 inverse femtobarn of high-transverse momentum data. Such a dataset allows for the first precision (i.e. comparisons between theory and experiment at the few percent level) tests of QCD at a hadron collider. While the Large Hadron ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns QCD precision tests at the Tevatron/LHC hadron colliders, which has no interaction with quasimorphisms on F_2 or Boolean formula depth lower bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1710.02392",
+      "title": "The cup product of Brooks quasimorphisms",
+      "abstract_excerpt": "We prove the vanishing of the cup product of the bounded cohomology classes associated to any two Brooks quasimorphisms on the free group. This is a consequence of the vanishing of the square of a universal class for tree automorphism groups.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the vanishing of cup products of Brooks quasimorphism classes in bounded cohomology, which shares vocabulary (Brooks quasimorphisms on free groups) but does not address word-length growth, Barrington branching programs, or formula depth lower bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1901.01301",
+      "title": "Second bounded cohomology and WWPD",
+      "abstract_excerpt": "Given a group acting on a Gromov hyperbolic space, Bestvina and Fujiwara introduced the WPD property --- weak proper discontinuity --- for studying the 2nd bounded cohomology of the group. We carry out a more general study of second bounded cohomology using a 'really' weak property discontinuity property known as WWPD that was introduced by Bestvina, Bromberg, and Fujiwara.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a general study of second bounded cohomology via the WWPD property for groups acting on Gromov hyperbolic spaces, which shares the Bestvina–Fujiwara framework but says nothing about Brooks quasimorphism magnitude, Barrington's branching programs, or formula depth lower bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0701214v2",
+      "title": "Graphs, free groups and the Hanna Neumann conjecture",
+      "abstract_excerpt": "A new bound for the rank of the intersection of finitely generated subgroups of a free group is given, formulated in topological terms, and very much in the spirit of Stallings. The bound is a contribution to (although unfortunately not a solution of) the strengthened Hanna Neumann conjecture.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses rank bounds for intersections of subgroups of free groups (Hanna Neumann conjecture), which shares the free-group setting but does not interact with Brooks quasimorphisms, Barrington lifts, or formula depth.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1007.1875",
+      "title": "Lower Bounds for Quantum Oblivious Transfer",
+      "abstract_excerpt": "Oblivious transfer is a fundamental primitive in cryptography. While perfect information theoretic security is impossible, quantum oblivious transfer protocols can limit the dishonest players' cheating. Finding the optimal security parameters in such protocols is an important open question. In this paper we show that every 1-out-of-2 oblivious transfer protocol allows a dishonest party to cheat with probability bounded below by a constant strictly larger than 1/2. Alice's cheating is defined as ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quantum oblivious transfer cheating bounds via Kitaev's coin flipping lower bound and SDP formulations, with no mention of Brooks quasimorphisms, Barrington's branching programs, or Boolean formula depth.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1512.02171",
+      "title": "Right-jumps and pattern avoiding permutations",
+      "abstract_excerpt": "We study the iteration of the process \"a particle jumps to the right\" in permutations. We prove that the set of permutations obtained in this model after a given number of iterations from the identity is a class of pattern avoiding permutations. We characterize the elements of the basis of this class and we enumerate these \"forbidden minimal patterns\" by giving their bivariate exponential generating function: we achieve this via a catalytic variable, the number of left-to-right maxima. We show t",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns pattern-avoiding permutations under a 'right-jumps' process and their enumeration/asymptotics, with no connection to Brooks quasimorphisms, free groups, Barrington's theorem, or Boolean formula depth.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1001.4392",
+      "title": "Counting Finite Languages by Total Word Length",
+      "abstract_excerpt": "We investigate the number of sets of words that can be formed from a finite alphabet, counted by the total length of the words in the set. An explicit expression for the counting sequence is derived from the generating function, and asymptotics for large alphabet respectively large total word length are discussed. Moreover, we derive a Gaussian limit law for the number of words in a random finite language.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns enumerative combinatorics of finite languages counted by total word length and a Gaussian limit law, with no mention of Brooks quasimorphisms, free groups, Barrington's theorem, or formula depth.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 8,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-27 09:18 UTC"
+date: "2026-04-27 10:38 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-27 09:18 UTC
+Generated 2026-04-27 10:38 UTC
 
-- Cycles recorded: **140**
-- Time span: 83.6h (~1.67 cycles/h)
+- Cycles recorded: **143**
+- Time span: 85.0h (~1.68 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 121 |
+| INCONCLUSIVE | 124 |
 | FALSIFIED | 14 |
 | SUPPORTED | 4 |
 | BARRIER_HIT | 1 |
@@ -67,9 +67,6 @@ Generated 2026-04-27 09:18 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-27 01:38 UTC | `INCONCLUSIVE` | Pebble-Cost Gadget Lifts Decision Tree Depth to KW-Game Length |
-| 2026-04-27 02:14 UTC | `INCONCLUSIVE` | Mealy Automaticity Lower-Bounds Truth-Table Formula Size |
-| 2026-04-27 02:28 UTC | `INCONCLUSIVE` | Tropical Positive-Scalar Homogeneity of MinimalFourierCoefficient |
 | 2026-04-27 02:42 UTC | `INCONCLUSIVE` | Permanent-Variance of NW Design Matrix Predicts PRG Bias |
 | 2026-04-27 03:18 UTC | `INCONCLUSIVE` | Cycle-Space Cocycle Imbalance Lower-Bounds Resolution Width of Ts |
 | 2026-04-27 03:49 UTC | `INCONCLUSIVE` | Halton Star-Discrepancy of Clause-Sign Embedding Bounds DPLL Leav |
@@ -82,6 +79,9 @@ Generated 2026-04-27 09:18 UTC
 | 2026-04-27 08:18 UTC | `INCONCLUSIVE` | Newton-Inequality Defect of SAT Generating Polynomial Bounds DPLL |
 | 2026-04-27 08:47 UTC | `INCONCLUSIVE` | Möbius Function of Minterm Lattice Bounds Indexing-Lifted Communi |
 | 2026-04-27 09:18 UTC | `INCONCLUSIVE` | Noise-Stability Plateau at rho=1/3 Bounds DPLL Leaves on 3-CNF |
+| 2026-04-27 09:53 UTC | `INCONCLUSIVE` | Brooks Quasimorphism Magnitude Lower-Bounds Formula Depth via Bar |
+| 2026-04-27 10:22 UTC | `INCONCLUSIVE` | Hadamard-Code Distance Defect Predicts NW-PRG Distinguisher Advan |
+| 2026-04-27 10:37 UTC | `INCONCLUSIVE` | Asymptotic-dimension lower bound for the indexing function via co |
 
 ## How to read the reports
 

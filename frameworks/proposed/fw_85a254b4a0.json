@@ -1,6 +1,6 @@
 {
   "framework_id": "fw_85a254b4a0",
-  "ts": 1777278512.5450706,
+  "ts": 1777286282.595617,
   "generation": 0,
   "parent_framework_id": "",
   "mutation_from_parent": "",
@@ -78,7 +78,9 @@
     "A5 (Roe-index rigidity): nontrivial classes in HX^1(X_f) detected by the Roe-trace pairing are stable under coarse equivalence, mirroring Yu's coarse Baum-Connes results (Yu 2000; Nowak-Yu 2012); explicit candidate functions (Andreev's, element-distinctness) are conjectured to realize κ = Ω(log^2 n)"
   ],
   "status": "ELABORATING",
-  "sub_conjecture_entry_ids": [],
+  "sub_conjecture_entry_ids": [
+    "e871be18b26c"
+  ],
   "fitness_components": {},
   "fitness": 0.0,
   "paper_path": "",

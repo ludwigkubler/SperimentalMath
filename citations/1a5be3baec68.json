@@ -1,0 +1,85 @@
+{
+  "entry_id": "1a5be3baec68",
+  "ts": 1777285408.9420981,
+  "hits_evaluated": 8,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2106.11085",
+      "title": "On the Maximal Monotone Operators in Hadamard Spaces",
+      "abstract_excerpt": "In this paper, some topics of monotone operator theory in the setting of Hadamard spaces are investigated. For a fixed element $p$ in a Hadamard space $X$, the notion of $p$-Fenchel conjugate is introduced and a type of the Fenchel-Young inequality is proved. Moreover, we examine the $p$-Fitzpatrick transform and its main properties for monotone set-valued operators in Hadamard spaces. Furthermore, some relations between maximal monotone operators and certain classes of proper, convex, l.s.c. ex",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns monotone operator theory in Hadamard metric spaces (Fenchel conjugates, Fitzpatrick transforms), which shares only the name 'Hadamard' with the conjecture's Hadamard codes and has no bearing on NW-PRG distinguisher advantage.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1003.4003",
+      "title": "A Fourier-analytic Approach to Counting Partial Hadamard Matrices",
+      "abstract_excerpt": "In this paper, we study a family of lattice walks which are related to the Hadamard conjecture.  There is a bijection between paths of these walks which originate and terminate at the origin and equivalence classes of partial Hadamard matrices.    Therefore,  the existence of partial Hadamard matrices can be proved by showing that there is positive probability of a random walk returning to the origin after a specified number of steps.  Moreover, the number of these designs can be approximated by",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses counting partial Hadamard matrices via Fourier-analytic random walk methods, not NW-PRG distinguisher advantage or minimum-distance defects of NW design incidence matrices. It shares only the loose 'Hadamard' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1003.4001",
+      "title": "On the Asymptotic Existence of Hadamard Matrices",
+      "abstract_excerpt": "It is conjectured that Hadamard matrices exist for all orders $4t$ ($t&gt;0$).  However, despite a sustained effort over more than five decades, the strongest overall existence results are asymptotic results of the form: for all odd natural numbers $k$, there is a Hadamard matrix of order $k2^{[a+b\\log_2k]}$, where $a$ and $b$ are fixed non-negative constants.  To prove the Hadamard Conjecture, it is sufficient to show that we may take $a=2$ and $b=0$.  Since Seberry's ground-breaking result, wh",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns asymptotic existence of Hadamard matrices of order k2^{2+[ε log k]} via Paley constructions, not the minimum-distance defect of NW-design incidence matrices nor distinguisher advantage against NW pseudorandom generators.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1311.6531",
+      "title": "Brains and pseudorandom generators",
+      "abstract_excerpt": "In a pioneering classic, Warren McCulloch and Walter Pitts proposed a model of the central nervous system; motivated by EEG recordings of normal brain activity, Chv\\' atal and Goldsmith asked whether or not this model can be engineered to provide pseudorandom number generators. We supply evidence suggesting that the answer is negative.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns whether McCulloch-Pitts neural network models can serve as pseudorandom number generators, with no mention of Nisan-Wigderson designs, Hadamard/Reed-Muller code distance, or AND-of-parities distinguisher advantage. It shares only the broad term 'pseudorandom generators' and does not interact with the specific quantitative bound conjectured.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2410.08073",
+      "title": "Efficient Quantum Pseudorandomness from Hamiltonian Phase States",
+      "abstract_excerpt": "Quantum pseudorandomness has found applications in many areas of quantum information, ranging from entanglement theory, to models of scrambling phenomena in chaotic quantum systems, and, more recently, in the foundations of quantum cryptography. Kretschmer (TQC '21) showed that both pseudorandom states and pseudorandom unitaries exist even in a world without classical one-way functions. To this day, however, all known constructions require classical cryptographic building blocks which are themse",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quantum pseudorandomness from Hamiltonian Phase States and IQP circuits, with no mention of Nisan-Wigderson designs, Hadamard code distance defects, or AND-of-parities distinguishers against classical NW-PRGs.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2510.04085",
+      "title": "Gluing Random Unitaries with Inverses and Applications to Strong Pseudorandom Unitaries",
+      "abstract_excerpt": "Gluing theorem for random unitaries [Schuster, Haferkamp, Huang, QIP 2025] have found numerous applications, including designing low depth random unitaries [Schuster, Haferkamp, Huang, QIP 2025], random unitaries in ${\\sf QAC0}$ [Foxman, Parham, Vasconcelos, Yuen'25] and generically shortening the key length of pseudorandom unitaries [Ananth, Bostanci, Gulati, Lin EUROCRYPT'25]. We present an alternate method of combining Haar random unitaries from the gluing lemma from [Schuster, Haferkamp, Hua",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns gluing Haar-random unitaries and strong pseudorandom unitaries in quantum cryptography ('strong pseudorandom unitaries can generically have their length extended'), which has no interaction with classical Nisan-Wigderson PRG distinguisher bounds or Hadamard-code distance defects.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0909.3185",
+      "title": "Construction of Additive Reed-Muller Codes",
+      "abstract_excerpt": "The well known Plotkin construction is, in the current paper, generalized and used to yield new families of Z2Z4-additive codes, whose length, dimension as well as minimum distance are studied. These new constructions enable us to obtain families of Z2Z4-additive codes such that, under the Gray map, the corresponding binary codes have the same parameters and properties as the usual binary linear Reed-Muller codes. Moreover, the first family is the usual binary linear Reed-Muller family.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a Plotkin-style construction of Z2Z4-additive Reed-Muller codes and their parameters under the Gray map; it makes no claim about NW-PRG designs, distinguisher advantage, or linking minimum-distance defect to pseudorandomness bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1407.6185",
+      "title": "Relative generalized Hamming weights of q-ary Reed-Muller codes",
+      "abstract_excerpt": "Coset constructions of $q$-ary Reed-Muller codes can be used to store secrets on a distributed storage system in such a way that only parties with access to a large part of the system can obtain information while still allowing for local error-correction. In this paper we determine the relative generalized Hamming weights of these codes which can be translated into a detailed description of the information leakage [2, 24, 21, 11].",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses relative generalized Hamming weights of q-ary Reed-Muller codes for secret-sharing/information-leakage on distributed storage, with no mention of Nisan-Wigderson generators, parity-AND distinguishers, or NW-design incidence matrices. It shares only the broad coding-theory vocabulary.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 8,
+    "INSUFFICIENT": 0
+  }
+}

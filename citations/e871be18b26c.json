@@ -1,0 +1,85 @@
+{
+  "entry_id": "e871be18b26c",
+  "ts": 1777286339.6001275,
+  "hits_evaluated": 8,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2107.05128",
+      "title": "Karchmer-Wigderson Games for Hazard-free Computation",
+      "abstract_excerpt": "We present a Karchmer-Wigderson game to study the complexity of hazard-free formulas. This new game is both a generalization of the monotone Karchmer-Wigderson game and an analog of the classical Boolean Karchmer-Wigderson game. Therefore, it acts as a bridge between the existing monotone and general games.\n  Using this game, we prove hazard-free formula size and depth lower bounds that are provably stronger than those possible by the standard technique of transferring results from monotone comp",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a Karchmer-Wigderson game for hazard-free formula complexity and proves bounds for the multiplexer function, but does not address coarse geometry, asymptotic dimension, Roe algebras, or controlled covers of a KW-metric space. It shares the KW vocabulary but does not interact with the specific asdim/κ lower bound claim for IND_k.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2002.07444",
+      "title": "Multiparty Karchmer-Wigderson Games and Threshold Circuits",
+      "abstract_excerpt": "We suggest a generalization of Karchmer-Wigderson communication games to the multiparty setting. Our generalization turns out to be tightly connected to circuits consisting of threshold gates. This allows us to obtain new explicit constructions of such circuits for several functions. In particular, we provide an explicit (polynomial-time computable) log-depth monotone formula for Majority function, consisting only of 3-bit majority gates and variables. This resolves a conjecture of Cohen et al. ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a multiparty generalization of KW games tied to threshold circuits and a log-depth monotone formula for Majority, with no mention of coarse geometry, asymptotic dimension, Roe algebras, or the indexing function IND_k.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0906.0693",
+      "title": "An improved lower bound on the counterfeit coins problem",
+      "abstract_excerpt": "In this paper, we will give an improvement on the lower bound for the counterfeit coins problem in the case that the number of false coins is unknown in advance",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses a lower bound for the counterfeit coins problem with an unknown number of false coins, which is unrelated to coarse geometry, asymptotic dimension, KW-metric spaces, or formula depth of the indexing function.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1904.05483",
+      "title": "Parallels Between Phase Transitions and Circuit Complexity?",
+      "abstract_excerpt": "In many natural average-case problems, there are or there are believed to be critical values in the parameter space where the structure of the space of solutions changes in a fundamental way. These phase transitions are often believed to coincide with drastic changes in the computational complexity of the associated problem.\n  In this work, we study the circuit complexity of inference in the broadcast tree model, which has important applications in phylogenetic reconstruction and close connectio",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns circuit complexity of belief propagation in broadcast tree models and phase transitions, with no mention of asymptotic dimension, coarse geometry, KW games, or the indexing function IND_k. It shares only the broad framework of circuit complexity but does not interact with the specific coarse-geometric depth lower bound claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2312.08907",
+      "title": "Roe algebras of coarse spaces via coarse geometric modules",
+      "abstract_excerpt": "We provide a construction of Roe (C*-)algebras of general coarse spaces in terms of coarse geometric modules. This extends the classical theory of Roe algebras of metric spaces and gives a unified framework to deal with either uniform or non-uniform Roe algebras, algebras of operators of controlled propagation, and algebras of quasi-local operators; both in the metric and general coarse geometric setting. The key new definitions are that of coarse geometric module and coarse support of operators",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a general framework for constructing Roe C*-algebras of coarse spaces via coarse geometric modules and studying their structural/K-theoretic properties; it makes no claim about asymptotic dimension lower bounds, KW-metric spaces, or the indexing function IND_k.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2408.07701",
+      "title": "A categorical interpretation of Morita equivalence for dynamical von Neumann algebras",
+      "abstract_excerpt": "$\\DeclareMathOperator{\\G}{\\mathbb{G}}\\DeclareMathOperator{\\Rep}{Rep} \\DeclareMathOperator{\\Corr}{Corr}$Let $\\G$ be a locally compact quantum group and $(M, α)$ a $\\G$-$W^*$-algebra. The object of study of this paper is the $W^*$-category $\\Rep^{\\G}(M)$ of normal, unital $\\G$-representations of $M$ on Hilbert spaces endowed with a unitary $\\G$-representation. This category has a right action of the category $\\Rep(\\G)= \\Rep^{\\G}(\\mathbb{C})$ for which it becomes a right $\\Rep(\\G)$-module $W^*$-cat",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Morita equivalence of dynamical von Neumann algebras and an equivariant Eilenberg-Watts theorem for quantum group actions, with no mention of asymptotic dimension, controlled covers, KW games, or formula depth lower bounds for the indexing function.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2405.12883",
+      "title": "Asymptotic analysis at any order of Helmholtz's problem in a corner with a thin layer: an algebraic approach",
+      "abstract_excerpt": "We consider the Helmholtz equation in an angular sector partially covered by a homogeneous layer of small thickness, denoted $\\varepsilon$. We propose in this work an asymptotic expansion of the solution with respect to $\\varepsilon$ at any order. This is done using matched asymptotic expansion, which consists here in introducing different asymptotic expansions of the solution in three subdomains: the vicinity of the corner, the layer and the rest of the domain. These expansions are linked throu",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns asymptotic expansions for the Helmholtz equation in a corner with a thin layer, an algebraic PDE analysis problem with no relation to coarse geometry, asymptotic dimension, or formula depth lower bounds for IND_k.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1208.1981",
+      "title": "General notions of depth for functional data",
+      "abstract_excerpt": "A data depth measures the centrality of a point with respect to an empirical distribution. Postulates are formulated, which a depth for functional data should satisfy, and a general approach is proposed to construct multivariate data depths in Banach spaces. The new approach, mentioned as Phi-depth, is based on depth infima over a proper set Phi of R^d-valued linear functions. Several desirable properties are established for the Phi-depth and a generalized version of it. The general notions incl",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'data depth' as a statistical centrality measure for functional data in Banach spaces, which is unrelated to formula depth, asymptotic dimension, or coarse geometry of KW-metric spaces.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 8,
+    "INSUFFICIENT": 0
+  }
+}
