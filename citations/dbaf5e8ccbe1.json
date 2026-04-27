@@ -1,0 +1,40 @@
+{
+  "entry_id": "dbaf5e8ccbe1",
+  "ts": 1777332303.1456463,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2602.09948",
+      "title": "Non-Additive Discrepancy: Coverage Functions in a Beck-Fiala Setting",
+      "abstract_excerpt": "Recent concurrent work by Dupré la Tour and Fujii and by Hollender, Manurangsi, Meka, and Suksompong [ITCS'26] introduced a generalization of classical discrepancy theory to non-additive functions, motivated by applications in fair division. As many classical techniques from discrepancy theory seem to fail in this setting, including linear algebraic methods like the Beck-Fiala Theorem [Discrete Appl. Math '81], it remains widely open whether comparable non-additive bounds can be achieved.\n  Towa",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns non-additive discrepancy bounds for coverage functions in a Beck-Fiala-like sparse setting ('we prove a constructive discrepancy bound that is polynomial in t, k, and log n'), with no mention of DPLL search trees, tree-resolution, or 3-CNF proof complexity, so it neither supports nor refutes the specific clause-variable conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2508.01937",
+      "title": "An Improved Bound for the Beck-Fiala Conjecture",
+      "abstract_excerpt": "In 1981, Beck and Fiala [Discrete Appl. Math, 1981] conjectured that given a set system $A \\in \\{0,1\\}^{m \\times n}$ with degree at most $k$ (i.e., each column of $A$ has at most $k$ non-zeros), its combinatorial discrepancy $\\mathsf{disc}(A) := \\min_{x \\in \\{\\pm 1\\}^n} \\|Ax\\|_\\infty$ is at most $O(\\sqrt{k})$. Previously, the best-known bounds for this conjecture were either $O(k)$, first established by Beck and Fiala [Discrete Appl. Math, 1981], or $O(\\sqrt{k \\log n})$, first proved by Banaszcz",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns asymptotic discrepancy upper bounds O(sqrt(k log log n)) for the Beck-Fiala conjecture on general degree-k set systems, not a connection between Beck-Fiala slack of clause-variable hypergraphs and DPLL tree-resolution leaf counts on small unsatisfiable 3-CNFs.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1306.6081",
+      "title": "An improvement of the Beck-Fiala theorem",
+      "abstract_excerpt": "In 1981 Beck and Fiala proved an upper bound for the discrepancy of a set system of degree d that is independent of the size of the ground set. In the intervening years the bound has been decreased from 2d-2 to 2d-4. We improve the bound to 2d-log* d.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract only improves the classical Beck-Fiala discrepancy bound from 2d-4 to 2d-log*d; it says nothing about DPLL/tree-resolution leaf counts or clause-variable hypergraphs of 3-CNFs, so it neither supports nor refutes the specific inequality log2(L_DPLL(F)) >= delta(F)/3 - 1.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

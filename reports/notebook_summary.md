@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-27 22:24 UTC"
+date: "2026-04-27 23:36 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,20 +13,20 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-27 22:24 UTC
+Generated 2026-04-27 23:36 UTC
 
-- Cycles recorded: **173**
-- Time span: 96.7h (~1.79 cycles/h)
+- Cycles recorded: **176**
+- Time span: 97.9h (~1.80 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 152 |
+| INCONCLUSIVE | 154 |
 | FALSIFIED | 14 |
 | SUPPORTED | 4 |
-| BARRIER_HIT | 3 |
+| BARRIER_HIT | 4 |
 
 ## Mathematical fields explored (field_A)
 
@@ -67,9 +67,6 @@ Generated 2026-04-27 22:24 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-27 16:59 UTC | `INCONCLUSIVE` | Fourier Variance Ratio of Violated-Clause Counter Bounds Tree-Res |
-| 2026-04-27 17:25 UTC | `INCONCLUSIVE` | Frobenius Trace Defect of Clause-Indicator Polynomial Lower-Bound |
-| 2026-04-27 17:34 UTC | `INCONCLUSIVE` | Oracle Collapse of κ: Anti-Relativization Stress Test for the Coa |
 | 2026-04-27 17:36 UTC | `INCONCLUSIVE` | Carries-Polynomial Degree Lower-Bounds EF-Lines for PHP_n |
 | 2026-04-27 18:10 UTC | `INCONCLUSIVE` | Sharply-Bounded Refutability Vanishes at 3-SAT Threshold |
 | 2026-04-27 18:40 UTC | `INCONCLUSIVE` | Run-Length Entropy Floor Lower-Bounds DNF-MCSP Term Count |
@@ -82,6 +79,9 @@ Generated 2026-04-27 22:24 UTC
 | 2026-04-27 21:34 UTC | `BARRIER_HIT` | Diameter-Multiplicity Power Law under Controlled Refinement Recov |
 | 2026-04-27 21:48 UTC | `INCONCLUSIVE` | Commutator-Length Defect in S_5 Predicts Width-5 BP Size of Boole |
 | 2026-04-27 22:23 UTC | `INCONCLUSIVE` | Hessian-Rank of Clause-Count Polynomial Bounds DPLL Depth |
+| 2026-04-27 22:52 UTC | `INCONCLUSIVE` | Herbrand-Disjunction Length of PHP Bounds Tree-Resolution Leaves |
+| 2026-04-27 23:24 UTC | `INCONCLUSIVE` | Beck-Fiala Slack of Clause-Variable Hypergraph Bounds DPLL Leaves |
+| 2026-04-27 23:36 UTC | `BARRIER_HIT` | Monotone Ultralimit Convergence of κ along the Asymptotic Complet |
 
 ## How to read the reports
 
