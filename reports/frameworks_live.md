@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — Frameworks (live)"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-27 08:18 UTC"
+date: "2026-04-27 09:18 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,7 +13,7 @@ colorlinks: true
 
 # SEC P vs NP — Frameworks (live)
 
-Compiled 2026-04-27 08:18 UTC. Tracking 3 active + 0 dead frameworks.
+Compiled 2026-04-27 09:18 UTC. Tracking 3 active + 0 dead frameworks.
 
 ## Summary table
 
@@ -21,7 +21,7 @@ Compiled 2026-04-27 08:18 UTC. Tracking 3 active + 0 dead frameworks.
 |--------------|--------|---------|-----------:|--------|------|
 | `fw_b9e7d103d0` | ELABORATING | 0.000 | 0 | `-` | Ergodic Circuit Framework |
 | `fw_28b4bfb95f` | ELABORATING | 0.000 | 0 | `-` | TROPICAL_FOURIER_ANALYSIS |
-| `fw_85a254b4a0` | PROPOSED | 0.000 | 0 | `-` | Coarse Geometric Karchmer-Wigderson (CG-KW) |
+| `fw_85a254b4a0` | ELABORATING | 0.000 | 0 | `-` | Coarse Geometric Karchmer-Wigderson (CG-KW) |
 
 ## Details
 
@@ -67,7 +67,7 @@ Compiled 2026-04-27 08:18 UTC. Tracking 3 active + 0 dead frameworks.
 
 ### Coarse Geometric Karchmer-Wigderson (CG-KW) (`fw_85a254b4a0`)
 
-- **Status**: `PROPOSED`
+- **Status**: `ELABORATING`
 - **Fitness**: 0.000
 - **Taxonomy**: KARCHMER_WIGDERSON
 - **Target invariant**: Coarse depth κ(f) (non-negative real) → bounds κ(f) := sup over nontrivial c ∈ HX^1(X_f) and T ∈ C_u^*[X_f] of log|⟨c,T⟩| / log(propagation(T)). The conjecture is depth(f) ≥ κ(f), so a super-logarithmic κ(f) for an explicit f gives a super-logarithmic formula-depth lower bound (a P ⊄ NC^1 separation if κ is poly-large).
