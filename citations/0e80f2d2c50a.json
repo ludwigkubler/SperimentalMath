@@ -1,0 +1,31 @@
+{
+  "entry_id": "0e80f2d2c50a",
+  "ts": 1777251952.4387207,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.1145/1993636.1993704",
+      "title": "Geometric complexity theory and tensor rank",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available, so I cannot determine from the provided text whether the paper addresses Young-flattening rank gaps for the padded permanent or supports/refutes the specific quantitative bound.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:1011.1350",
+      "title": "Geometric Complexity Theory and Tensor Rank",
+      "abstract_excerpt": "Mulmuley and Sohoni (GCT1 in SICOMP 2001, GCT2 in SICOMP 2008) proposed to view the permanent versus determinant problem as a specific orbit closure problem and to attack it by methods from geometric invariant and representation theory. We adopt these ideas towards the goal of showing lower bounds o",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The truncated abstract only states that the paper adopts GCT ideas 'towards the goal of showing lower bounds' on tensor rank, without specifying whether Young flattenings, equivariant rank gaps, or padded-permanent border rank bounds matching the conjecture's specific quantitative claim are addressed.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 2
+  }
+}

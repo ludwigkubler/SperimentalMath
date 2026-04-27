@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-27 00:31 UTC"
+date: "2026-04-27 01:38 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-27 00:31 UTC
+Generated 2026-04-27 01:38 UTC
 
-- Cycles recorded: **124**
-- Time span: 74.9h (~1.66 cycles/h)
+- Cycles recorded: **126**
+- Time span: 76.0h (~1.66 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 105 |
+| INCONCLUSIVE | 107 |
 | FALSIFIED | 14 |
 | SUPPORTED | 4 |
 | BARRIER_HIT | 1 |
@@ -67,8 +67,6 @@ Generated 2026-04-27 00:31 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-26 19:40 UTC | `INCONCLUSIVE` | Lehmer Pair Density of Communication Matrix Lower-Bounds Discrepa |
-| 2026-04-26 20:32 UTC | `FALSIFIED` | Tropical Self-Convolution Doubling Law for MinimalFourierCoeffici |
 | 2026-04-26 20:50 UTC | `FALSIFIED` | Tropical Shift-Invariance of MinimalFourierCoefficient under Addi |
 | 2026-04-26 20:54 UTC | `INCONCLUSIVE` | Hypercontractive (4,2)-Norm of Clause-Count Polynomial Bounds Res |
 | 2026-04-26 21:31 UTC | `INCONCLUSIVE` | Tropical Tensor-Product Factorization of MinimalFourierCoefficien |
@@ -82,6 +80,8 @@ Generated 2026-04-27 00:31 UTC
 | 2026-04-26 23:56 UTC | `INCONCLUSIVE` | Sample-Compression Gap Predicts Worst-Case DPLL Depth on Random 3 |
 | 2026-04-27 00:22 UTC | `INCONCLUSIVE` | Tropical Affine Rigidity: Vanishing Discrepancy iff Single-Atom F |
 | 2026-04-27 00:31 UTC | `INCONCLUSIVE` | Continued Fraction Depth of Spectral Ratio Bounds Discrepancy |
+| 2026-04-27 01:05 UTC | `INCONCLUSIVE` | Young-Flattening Rank Gap Lower-Bounds Padded-Permanent Border Ra |
+| 2026-04-27 01:38 UTC | `INCONCLUSIVE` | Pebble-Cost Gadget Lifts Decision Tree Depth to KW-Game Length |
 
 ## How to read the reports
 
