@@ -1,0 +1,85 @@
+{
+  "entry_id": "d25429e913d1",
+  "ts": 1777305387.1553676,
+  "hits_evaluated": 8,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2209.05839",
+      "title": "On bounded depth proofs for Tseitin formulas on the grid; revisited",
+      "abstract_excerpt": "We study Frege proofs using depth-$d$ Boolean formulas for the Tseitin contradiction on $n \\times n$ grids. We prove that if each line in the proof is of size $M$ then the number of lines is exponential in $n/(\\log M)^{O(d)}$. This strengthens a recent result of Pitassi et al. [PRT22]. The key technical step is a multi-switching lemma extending the switching lemma of Håstad [Hås20] for a space of restrictions related to the Tseitin contradiction. The strengthened lemma also allows us to improve ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses bounded-depth Frege proof size lower bounds for Tseitin on grids via switching lemmas, not resolution width bounds via Cheeger-type quotient constants on small 3-regular graphs.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2103.09609",
+      "title": "Characterizing Tseitin-formulas with short regular resolution refutations",
+      "abstract_excerpt": "Tseitin-formulas are systems of parity constraints whose structure is described by a graph. These formulas have been studied extensively in proof complexity as hard instances in many proof systems. In this paper, we prove that a class of unsatisfiable Tseitin-formulas of bounded degree has regular resolution refutations of polynomial length if and only if the treewidth of all underlying graphs $G$ for that class is in $O(\\log|V(G)|)$. To do so, we show that any regular resolution refutation of a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract characterizes regular resolution refutation length via treewidth (tw(G)), not resolution width via Cheeger/quotient-Cheeger constants. It shares the Tseitin-formula framework but does not address the specific claim that w(T(G,c) ⊢ ⊥) is bounded above and below by h_q(G) up to a factor of 3.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0906.0693",
+      "title": "An improved lower bound on the counterfeit coins problem",
+      "abstract_excerpt": "In this paper, we will give an improvement on the lower bound for the counterfeit coins problem in the case that the number of false coins is unknown in advance",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns lower bounds for the counterfeit coins problem, which has no apparent connection to Tseitin resolution width, Cheeger constants, or quotient multigraphs.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1807.02225",
+      "title": "Cheeger inequalities for graph limits",
+      "abstract_excerpt": "We introduce notions of Cheeger constants for graphons and graphings. We prove Cheeger and Buser inequalities for these. On the way we prove co-area formulae for graphons and graphings.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Cheeger and Buser inequalities for graphons and graphings (graph limits), with no mention of Tseitin formulas, resolution width, proof complexity, or quotient multigraphs of finite 3-regular graphs.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1411.3530",
+      "title": "Cheeger constants, structural balance, and spectral clustering analysis for signed graphs",
+      "abstract_excerpt": "We introduce a family of multi-way Cheeger-type constants $\\{h_k^σ, k=1,2,\\ldots, n\\}$ on a signed graph $Γ=(G,σ)$ such that $h_k^σ=0$ if and only if $Γ$ has $k$ balanced connected components. These constants are switching invariant and bring together in a unified viewpoint a number of important graph-theoretical concepts, including the classical Cheeger constant, those measures of bipartiteness introduced by Desai-Rao, Trevisan, Bauer-Jost, respectively, on unsigned graphs,, and the frustration",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes multi-way Cheeger constants on signed graphs and spectral clustering for balanced subgraphs, with no mention of Tseitin formulas, resolution width, or proof complexity. It shares the 'Cheeger constant' vocabulary but does not interact with the specific bound on Tseitin resolution width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2312.13058",
+      "title": "On the Cheeger inequality in Carnot-Carathéodory spaces",
+      "abstract_excerpt": "We generalize the Cheeger inequality, a lower bound on the first nontrivial eigenvalue of a Laplacian, to the case of geometric sub-Laplacians on rank-varying Carnot-Carathéodory spaces and we describe a concrete method to lower bound the Cheeger constant. The proof is geometric, and works for Dirichlet, Neumann and mixed boundary conditions. One of the main technical tools in the proof is a generalization of Courant's nodal domain theorem, which is proven from scratch for Neumann and mixed boun",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Cheeger inequalities for sub-Laplacians on Carnot-Carathéodory spaces, a continuous geometric setting unrelated to Tseitin resolution width or quotient multigraph Cheeger constants in proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1307.1863",
+      "title": "Vertex-Coloring Edge-Weighting of Bipartite Graphs with Two Edge Weights",
+      "abstract_excerpt": "Let $G$ be a graph and $\\mathcal {S}$ be a subset of $Z$. A vertex-coloring $\\mathcal {S}$-edge-weighting of $G$ is an assignment of weight $s$ by the elements of $\\mathcal {S}$ to each edge of $G$ so that adjacent vertices have different sums of incident edges weights.\n  It was proved that every 3-connected bipartite graph admits a vertex-coloring $\\{1,2\\}$-edge-weighting (Lu, Yu and Zhang, (2011) \\cite{LYZ}). In this paper, we show that the following result: if a 3-edge-connected bipartite gra",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns vertex-coloring edge-weightings of bipartite graphs with weights from {0,1} or {1,2}, which has no bearing on Cheeger constants, Tseitin formulas, or resolution width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2510.08378",
+      "title": "A Graph Width Perspective on Partially Ordered Hamiltonian Paths and Cycles II: Vertex and Edge Deletion Numbers",
+      "abstract_excerpt": "We consider the problem of finding a Hamiltonian path or cycle with precedence constraints in the form of a partial order on the vertex set. We study the complexity for graph width parameters for which the ordinary problems $\\mathsf{Hamiltonian\\ Path}$ and $\\mathsf{Hamiltonian\\ Cycle}$ are in $\\mathsf{FPT}$. In particular, we focus on parameters that describe how many vertices and edges have to be deleted to become a member of a certain graph class. We show that the problems are $\\mathsf{W[1]}$-",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns parameterized complexity of Hamiltonian path/cycle with precedence constraints under graph width parameters, with no mention of Tseitin formulas, resolution width, Cheeger constants, or expansion bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 8,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "entry_id": "a991258bde76",
+  "ts": 1777307307.6275582,
+  "hits_evaluated": 8,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1808.06095",
+      "title": "Skew RSK and the switching on ballot tableau pairs",
+      "abstract_excerpt": "In arXiv:1808.06095 we have introduced the Knuth class of the word recording a sequence of locations for repeated internal insertion operations in the Sagan-Stanley skew RSK correspondence, with no prescribed external insertion of new cells, to be a preserver for the $P$-tableau. As a consequence the Benkart-Sottile-Stroomer switching involution on ballot tableau pairs allows a realization as a recursive internal insertion procedure. This amounts to explain the various presentations of Littlewoo",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the Sagan-Stanley skew RSK correspondence, Benkart-Sottile-Stroomer switching, and Littlewood-Richardson commuters — pure combinatorial/representation-theoretic results with no mention of Boolean functions, decision-tree depth, or communication complexity. It shares only the RSK vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1810.08668",
+      "title": "Parity Decision Tree Complexity is Greater Than Granularity",
+      "abstract_excerpt": "We prove a new lower bound on the parity decision tree complexity $\\mathsf{D}_{\\oplus}(f)$ of a Boolean function $f$. Namely, granularity of the Boolean function $f$ is the smallest $k$ such that all Fourier coefficients of $f$ are integer multiples of $1/2^k$. We show that $\\mathsf{D}_{\\oplus}(f)\\geq k+1$.\n  This lower bound is an improvement of lower bounds through the sparsity of $f$ and through the degree of $f$ over $\\mathbb{F}_2$. Using our lower bound we determine the exact parity decisio",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns parity decision tree complexity lower bounds via Fourier granularity, not standard deterministic decision tree depth Q^dt or RSK tableau shapes / λ_2 statistics. It shares the 'decision tree complexity' vocabulary but does not address the conjectured RSK-second-row bound.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2512.11833",
+      "title": "Soft Decision Tree classifier: explainable and extendable PyTorch implementation",
+      "abstract_excerpt": "We implemented a Soft Decision Tree (SDT) and a Short-term Memory Soft Decision Tree (SM-SDT) using PyTorch. The methods were extensively tested on simulated and clinical datasets. The SDT was visualized to demonstrate the potential for its explainability. SDT, SM-SDT, and XGBoost demonstrated similar area under the curve (AUC) values. These methods were better than Random Forest, Logistic Regression, and Decision Tree. The results on clinical datasets suggest that, aside from a decision tree, a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a PyTorch implementation of Soft Decision Tree classifiers benchmarked on clinical datasets via AUC, with no connection to deterministic decision-tree depth, RSK tableaux, or communication complexity lifting.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0109079v2",
+      "title": "GL(n,q) and Increasing Subsequences in Nonuniform Random Permutations",
+      "abstract_excerpt": "Connections between longest increasing subsequences in random permutations and eigenvalues of random matrices with complex entries have been intensely studied. This note applies properties of random elements of the finite general linear group to obtain results about the longest increasing subsequenc",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns longest increasing subsequences in nonuniform random permutations derived from GL(n,q), not decision-tree depth or communication complexity bounds via RSK shapes of f-sorted permutations.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2309.01208",
+      "title": "Streaming and Query Once Space Complexity of Longest Increasing Subsequence",
+      "abstract_excerpt": "Longest Increasing Subsequence (LIS) is a fundamental problem in combinatorics and computer science. Previously, there have been numerous works on both upper bounds and lower bounds of the time complexity of computing and approximating LIS, yet only a few on the equally important space complexity.\n  In this paper, we further study the space complexity of computing and approximating LIS in various models. Specifically, we prove non-trivial space lower bounds in the following two models: (1) the a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns space complexity lower bounds for computing Longest Increasing Subsequence in streaming and query-once models, not RSK tableau shapes, decision-tree depth, or communication complexity lifting. It shares only the LIS/RSK vocabulary but does not address the relationship between λ_2 and Q^dt(f).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0511419v1",
+      "title": "Longest alternating subsequences of permutations",
+      "abstract_excerpt": "The length is(w) of the longest increasing subsequence of a permutation w in the symmetric group S_n has been the object of much investigation. We develop comparable results for the length as(w) of the longest alternating subsequence of w, where a sequence a,b,c,d,... is alternating if a&gt;b&lt;c&g",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the longest alternating subsequence statistic as(w) of permutations, not RSK tableau shapes, decision-tree depth, or communication complexity. It shares only the general 'permutation statistics' vocabulary and does not interact with the λ_2 vs Q^dt(f) claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1904.13056",
+      "title": "Query-to-Communication Lifting Using Low-Discrepancy Gadgets",
+      "abstract_excerpt": "Lifting theorems are theorems that relate the query complexity of a function $f:\\{0,1\\}^{n}\\to\\{0,1\\}$ to the communication complexity of the composed function $f \\circ g^{n}$, for some \"gadget\" $g:\\{0,1\\}^{b}\\times\\{0,1\\}^{b}\\to\\{0,1\\}$. Such theorems allow transferring lower bounds from query complexity to the communication complexity, and have seen numerous applications in the recent years. In addition, such theorems can be viewed as a strong generalization of a direct-sum theorem for the gad",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a generalized query-to-communication lifting theorem for low-discrepancy gadgets, but says nothing about RSK insertion tableaux, λ_2, or patience sorting. It provides the lifting machinery the conjecture invokes but does not address the specific λ_2 ≤ Q^dt bound.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2405.02711",
+      "title": "The Role of AI in Peer Support for Young People: A Study of Preferences for Human- and AI-Generated Responses",
+      "abstract_excerpt": "Generative Artificial Intelligence (AI) is integrated into everyday technology, including news, education, and social media. AI has further pervaded private conversations as conversational partners, auto-completion, and response suggestions. As social media becomes young people's main method of peer support exchange, we need to understand when and how AI can facilitate and assist in such exchanges in a beneficial, safe, and socially appropriate way. We asked 622 young people to complete an onlin",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'The Role of AI in Peer Support for Young People' and survey preferences for AI-generated responses, which has no connection to RSK insertion, decision-tree complexity, or communication complexity lifting.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 8,
+    "INSUFFICIENT": 0
+  }
+}

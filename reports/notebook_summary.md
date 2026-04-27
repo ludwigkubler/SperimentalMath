@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-27 15:25 UTC"
+date: "2026-04-27 16:44 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-27 15:25 UTC
+Generated 2026-04-27 16:44 UTC
 
-- Cycles recorded: **155**
-- Time span: 89.7h (~1.73 cycles/h)
+- Cycles recorded: **158**
+- Time span: 91.1h (~1.73 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 136 |
+| INCONCLUSIVE | 139 |
 | FALSIFIED | 14 |
 | SUPPORTED | 4 |
 | BARRIER_HIT | 1 |
@@ -67,9 +67,6 @@ Generated 2026-04-27 15:25 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-27 09:53 UTC | `INCONCLUSIVE` | Brooks Quasimorphism Magnitude Lower-Bounds Formula Depth via Bar |
-| 2026-04-27 10:22 UTC | `INCONCLUSIVE` | Hadamard-Code Distance Defect Predicts NW-PRG Distinguisher Advan |
-| 2026-04-27 10:37 UTC | `INCONCLUSIVE` | Asymptotic-dimension lower bound for the indexing function via co |
 | 2026-04-27 10:47 UTC | `INCONCLUSIVE` | Permanent of Sensitive-Boundary Bipartite Matrix Bounds Lifted In |
 | 2026-04-27 11:13 UTC | `INCONCLUSIVE` | Subdeterminant Dispersion Lower-Bounds Singular-Tail Matrix Rigid |
 | 2026-04-27 11:46 UTC | `INCONCLUSIVE` | Lyndon Factor Count of Truth Table Lower-Bounds DT Leaves Under I |
@@ -82,6 +79,9 @@ Generated 2026-04-27 15:25 UTC
 | 2026-04-27 14:43 UTC | `INCONCLUSIVE` | Roe-cohomological concentration: HX^1(X_f) vanishes for random f, |
 | 2026-04-27 14:50 UTC | `INCONCLUSIVE` | Antichain-Width of Query Certificate Poset Bounds Lifted IND CC |
 | 2026-04-27 15:25 UTC | `INCONCLUSIVE` | Apolar Span of Clause-Product Polynomial Bounds DPLL Leaves |
+| 2026-04-27 15:55 UTC | `INCONCLUSIVE` | Cheeger Constant of Quotient Multigraph Bounds Tseitin Resolution |
+| 2026-04-27 16:27 UTC | `INCONCLUSIVE` | RSK Second-Row Length of f-Sorted Permutation Bounds Lifted IND C |
+| 2026-04-27 16:44 UTC | `INCONCLUSIVE` | Coarse-dimensional KRW direct sum: asdim is sub-additive under bl |
 
 ## How to read the reports
 
