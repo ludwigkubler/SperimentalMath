@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-27 03:18 UTC"
+date: "2026-04-27 04:23 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-27 03:18 UTC
+Generated 2026-04-27 04:23 UTC
 
-- Cycles recorded: **130**
-- Time span: 77.6h (~1.67 cycles/h)
+- Cycles recorded: **132**
+- Time span: 78.7h (~1.68 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 111 |
+| INCONCLUSIVE | 113 |
 | FALSIFIED | 14 |
 | SUPPORTED | 4 |
 | BARRIER_HIT | 1 |
@@ -67,8 +67,6 @@ Generated 2026-04-27 03:18 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-26 21:43 UTC | `INCONCLUSIVE` | Legendre-Fenchel Involution Conjecture: Discrepancy Invariance un |
-| 2026-04-26 21:46 UTC | `INCONCLUSIVE` | Combinatorial Discrepancy of NW Designs Predicts Generator Bias o |
 | 2026-04-26 22:20 UTC | `FALSIFIED` | Tropical Max-Aggregation Monotonicity of MinimalFourierCoefficien |
 | 2026-04-26 22:22 UTC | `BARRIER_HIT` | Schur-Horn Majorization Gap Lower-Bounds Sign-Rank Discrepancy |
 | 2026-04-26 22:55 UTC | `INCONCLUSIVE` | Pseudoexpectation Spectral Gap Lower-Bounds SoS Refutation Degree |
@@ -82,6 +80,8 @@ Generated 2026-04-27 03:18 UTC
 | 2026-04-27 02:28 UTC | `INCONCLUSIVE` | Tropical Positive-Scalar Homogeneity of MinimalFourierCoefficient |
 | 2026-04-27 02:42 UTC | `INCONCLUSIVE` | Permanent-Variance of NW Design Matrix Predicts PRG Bias |
 | 2026-04-27 03:18 UTC | `INCONCLUSIVE` | Cycle-Space Cocycle Imbalance Lower-Bounds Resolution Width of Ts |
+| 2026-04-27 03:49 UTC | `INCONCLUSIVE` | Halton Star-Discrepancy of Clause-Sign Embedding Bounds DPLL Leav |
+| 2026-04-27 04:23 UTC | `INCONCLUSIVE` | Erdős–Ko–Rado Shadow Defect Lower-Bounds Disjointness Discrepancy |
 
 ## How to read the reports
 

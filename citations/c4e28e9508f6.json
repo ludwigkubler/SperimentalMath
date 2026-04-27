@@ -1,0 +1,85 @@
+{
+  "entry_id": "c4e28e9508f6",
+  "ts": 1777261828.7551422,
+  "hits_evaluated": 8,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1209.3611",
+      "title": "A van der Corput-type algorithm for LS-sequences of points",
+      "abstract_excerpt": "In this paper we associate to any $LS$-sequence of partitions ${ρ_{L,S}^n}$ the corresponding $LS$-sequence of points ${ξ_{L,S}^n}$ obtained reordering the points of each partition with an explicit algorithm. The procedure begins with the representation in base $L+S$ of natural numbers, $[n]_{L+S}$, and ends with the $LS$-radical inverse function $φ_{L,S}$, introduced ad hoc, evaluated at an appropriate subsequence of natural numbers depending on $L$ and $S$. This construction is deeply related ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes constructing LS-sequences of points via a van der Corput-type radical inverse algorithm and studying their uniform distribution; it makes no claim about DPLL search trees, 3-CNF satisfiability, or any bound linking discrepancy to leaf counts.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2411.14979",
+      "title": "Fundamentals and applications of Van der Waals magnets in magnon spintronics",
+      "abstract_excerpt": "Spintronics is concerned with replacing charge current with current of spin, the electron's intrinsic angular momentum. In magnetic insulators, spin currents are carried by magnons, the quanta of spin-wave excitations on top of the magnetically ordered state. Magnon spin currents are especially promising for information technology due to their low intrinsic damping, non-reciprocal transport, micrometer wavelengths at microwave frequencies, and strong interactions that enable signal transduction.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns magnon spintronics in Van der Waals magnets ('replacing charge current with current of spin... magnons'), which has no relation to Halton sequences, star-discrepancy, or DPLL search on 3-CNF formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1908.01624",
+      "title": "Learned Clause Minimization in Parallel SAT Solvers",
+      "abstract_excerpt": "Learned clauses minimization (LCM) let to performance improvements of modern SAT solvers especially in solving hard SAT instances. Despite the success of LCM approaches in sequential solvers, they are not widely incorporated in parallel SAT solvers. In this paper we explore the potential of LCM for parallel SAT solvers by defining multiple LCM approaches based on clause vivification, comparing their runtime in different SAT solvers and discussing reasons for performance gains and losses. Results",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'learned clauses minimization (LCM)' performance in parallel SAT solvers, with no mention of DPLL leaf counts, star-discrepancy, Halton/van der Corput sequences, or random 3-CNF analysis at the satisfiability threshold.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1402.4455",
+      "title": "Symbiosis of Search and Heuristics for Random 3-SAT",
+      "abstract_excerpt": "When combined properly, search techniques can reveal the full potential of sophisticated branching heuristics. We demonstrate this observation on the well-known class of random 3-SAT formulae. First, a new branching heuristic is presented, which generalizes existing work on this class. Much smaller search trees can be constructed by using this heuristic. Second, we introduce a variant of discrepancy search, called ALDS. Theoretical and practical evidence support that ALDS traverses the search tr",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'discrepancy search' (ALDS) as a tree traversal order heuristic combined with branching heuristics for random 3-SAT, not the star-discrepancy of a Halton/van der Corput embedding of clauses bounding DPLL leaf counts. It shares the word 'discrepancy' but does not address the specific quantitative bound log2 L(F) vs n·D*(F).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:cs/0506069",
+      "title": "A generating function method for the average-case analysis of DPLL",
+      "abstract_excerpt": "A method to calculate the average size of Davis-Putnam-Loveland-Logemann (DPLL) search trees for random computational problems is introduced, and applied to the satisfiability of random CNF formulas (SAT) and the coloring of random graph (COL) problems. We establish recursion relations for the generating functions of the average numbers of (variable or color) assignments at a given height in the search tree, which allow us to derive the asymptotics of the expected DPLL tree size, 2^{N w + o(N)},",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract presents a generating-function method to compute average DPLL tree size as 2^{Nw+o(N)} based on input distribution parameters and branching heuristics, but says nothing about Halton/van der Corput star-discrepancy of a clause-sign embedding. It neither establishes nor refutes the specific discrepancy-based bound c·n·D*(F) ≤ log2 L(F) ≤ C·n·D*(F).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1908.05361",
+      "title": "Placing quantified variants of 3-SAT and Not-All-Equal 3-SAT in the polynomial hierarchy",
+      "abstract_excerpt": "The complexity of variants of 3-SAT and Not-All-Equal 3-SAT is well studied. However, in contrast, very little is known about the complexity of the problems' quantified counterparts. In the first part of this paper, we show that $\\forall \\exists$ 3-SAT is $Π_2^P$-complete even if (1) each variable appears exactly twice unnegated and exactly twice negated, (2) each clause is a disjunction of exactly three distinct variables, and (3) the number of universal variables is equal to the number of exis",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns polynomial-hierarchy classification of quantified 3-SAT and NAE-3-SAT variants ($\\Pi_2^P$-completeness), with no mention of DPLL leaf counts, random 3-CNF at the threshold, or star-discrepancy of clause embeddings.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1902.04347",
+      "title": "A Multilevel Monte Carlo Asymptotic-Preserving Particle Method for Kinetic Equations in the Diffusion Limit",
+      "abstract_excerpt": "We propose a multilevel Monte Carlo method for a particle-based asymptotic-preserving scheme for kinetic equations. Kinetic equations model transport and collision of particles in a position-velocity phase-space. With a diffusive scaling, the kinetic equation converges to an advection-diffusion equation in the limit of zero mean free path. Classical particle-based techniques suffer from a strict time-step restriction to maintain stability in this limit. Asymptotic-preserving schemes provide a so",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns multilevel Monte Carlo for kinetic equations in the diffusion limit ('multilevel Monte Carlo method for a particle-based asymptotic-preserving scheme'), which has no interaction with Halton star-discrepancy, clause-sign embeddings, or DPLL leaf counts.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/physics/9611010v1",
+      "title": "Quasi-Monte Carlo, Discrepancies and Error Estimates",
+      "abstract_excerpt": "We discuss the problem of defining an estimate for the error in quasi-Monte Carlo integration. The key issue is the definition of an ensemble of quasi-random point sets that, on the one hand, includes a sufficiency of equivalent point sets, and on the other hand uses information on the degree of uni",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses error estimation in quasi-Monte Carlo integration via ensembles of quasi-random point sets, with no mention of SAT, DPLL, or clause-sign embeddings. It shares only the general QMC/discrepancy vocabulary but does not interact with the specific conjecture about DPLL leaf counts.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 8,
+    "INSUFFICIENT": 0
+  }
+}

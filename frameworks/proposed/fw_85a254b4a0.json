@@ -1,0 +1,86 @@
+{
+  "framework_id": "fw_85a254b4a0",
+  "ts": 1777264589.5910652,
+  "generation": 0,
+  "parent_framework_id": "",
+  "mutation_from_parent": "",
+  "name": "Coarse Geometric Karchmer-Wigderson (CG-KW)",
+  "taxonomy_category": "KARCHMER_WIGDERSON",
+  "primitives": [
+    {
+      "name": "KW-metric space",
+      "type": "finite metric space (X_f, d_f) with X_f = f^{-1}(0) ⊔ f^{-1}(1)",
+      "description": "For a boolean function f:{0,1}^n -> {0,1}, define d_f(x,y) = log_2(min number of coordinates a depth-bounded distinguisher must read to certify f(x) ≠ f(y), or +∞ if f(x)=f(y) and they lie in the same coarse component). Computable by a finite enumeration over coordinate subsets; gives a quasi-metric on inputs that the KW protocol must navigate."
+    },
+    {
+      "name": "Controlled cover",
+      "type": "finite family U = {U_i ⊂ X_f} with diameter bound R",
+      "description": "A cover whose parts have d_f-diameter at most R and whose overlap multiplicity is at most m. Encoded as a hypergraph H_U (vertices = X_f, edges = U_i). Inspired by Gromov's asymptotic dimension and Roe's controlled coverings."
+    },
+    {
+      "name": "Coarse cocycle",
+      "type": "function c : X_f × X_f -> Z with finite support modulo controlled equivalence",
+      "description": "A discrete 1-cochain in the Roe-style coarse cohomology HX^*(X_f) restricted to the KW pair structure. Stored as a sparse table on pairs (x,y) with d_f(x,y) ≤ R; coboundary computable by a triangle sum δc(x,y,z) = c(y,z) - c(x,z) + c(x,y)."
+    },
+    {
+      "name": "Asymptotic-dimension witness",
+      "type": "vertex coloring χ : X_f -> [k] together with diameter bound R",
+      "description": "Witnesses asdim(X_f) ≤ k-1 in the sense of Gromov: each color class decomposes into d_f-bounded pieces of diameter ≤ R that are pairwise R-disjoint. Computable by greedy R-net construction (Bell-Dranishnikov style)."
+    },
+    {
+      "name": "Roe-controlled operator",
+      "type": "matrix T ∈ R^{X_f × X_f} with T_{x,y} = 0 whenever d_f(x,y) > R",
+      "description": "Element of the algebraic uniform Roe algebra C_u^*[X_f]. Stored as a banded sparse matrix in the d_f-metric; multiplication, adjoint, and trace are all polynomial-time in |X_f|."
+    }
+  ],
+  "operations": [
+    {
+      "name": "coarse_product",
+      "signature": "(X_f, d_f) × (X_g, d_g) -> (X_{f∘g}, d_{f∘g})",
+      "description": "Models block composition f ∘ g (à la Karchmer-Raz-Wigderson). The product metric is d_{f∘g} = d_f ⊕ d_g with a 'depth-additive' coupling controlled by coarse Lipschitz maps."
+    },
+    {
+      "name": "controlled_refinement",
+      "signature": "(U, R) -> (U', R') with R' < R",
+      "description": "Refine a controlled cover by intersecting with a finer R'-net. Decreases diameter; may increase multiplicity. Tracks the growth function R ↦ multiplicity(U_R), which is the asymptotic-dimension-control function."
+    },
+    {
+      "name": "coboundary",
+      "signature": "C^k_{coarse}(X_f) -> C^{k+1}_{coarse}(X_f)",
+      "description": "Discrete coarse-cohomology differential δ. Computable on sparse tables; kernels and images give HX^k(X_f). We focus on HX^1 (obstruction to ‘flattening’ the KW game by a constant-depth protocol)."
+    },
+    {
+      "name": "reduction_pullback",
+      "signature": "f ≤_m g, φ:{0,1}^n -> {0,1}^{n'} ⇒ φ^* : C^*(X_g) -> C^*(X_f)",
+      "description": "A coarse-Lipschitz reduction induces a pullback on cocycles and on Roe-controlled operators; this is the categorical glue that lets lower bounds transfer."
+    },
+    {
+      "name": "asymptotic_completion",
+      "signature": "{(X_{f_n}, d_{f_n})}_n -> (X_∞, d_∞)",
+      "description": "Take a Gromov-Hausdorff / ultralimit over the family {f_n} of n-bit instances to obtain a 'limit space' on which infinite asymptotic invariants live. Implemented operationally via a finite-truncation oracle."
+    },
+    {
+      "name": "trace_pairing",
+      "signature": "(c ∈ HX^1) × (T ∈ C_u^*[X_f]) -> R",
+      "description": "Index-theoretic pairing ⟨c, T⟩ = tr(c · T) (in the sense of Roe's index pairing, after Connes). This is the quantitative bridge from cohomology classes to formula-depth lower bounds."
+    }
+  ],
+  "target_invariant": {
+    "name": "Coarse depth κ(f)",
+    "type": "non-negative real",
+    "what_it_should_bound": "κ(f) := sup over nontrivial c ∈ HX^1(X_f) and T ∈ C_u^*[X_f] of log|⟨c,T⟩| / log(propagation(T)). The conjecture is depth(f) ≥ κ(f), so a super-logarithmic κ(f) for an explicit f gives a super-logarithmic formula-depth lower bound (a P ⊄ NC^1 separation if κ is poly-large)."
+  },
+  "axioms_tentative": [
+    "A1 (Coarse-KW link): formula depth d(f) ≥ Ω(log(asdim(X_f))) and more strongly d(f) ≥ Ω(κ(f)); proved by translating a KW protocol into a controlled cover whose multiplicity exponent equals depth.",
+    "A2 (Composition sub-additivity): asdim(X_{f∘g}) ≥ asdim(X_f) + asdim(X_g) − O(1), giving a KRW-style direct-sum theorem at the level of coarse dimension.",
+    "A3 (Anti-natural-proofs): for a uniformly random f, HX^1(X_f) is generically zero (Roe-algebraic concentration of measure), so κ is NOT a 'largeness' property in the Razborov-Rudich sense — random f's have small κ, blocking natural-proofs obstructions.",
+    "A4 (Anti-relativization): κ is a metric invariant of d_f and is destroyed by oracle access (oracle gates collapse d_f to ≤ 1), so κ-based bounds cannot relativize, in the spirit of Mendel-Naor metric cotype obstructions.",
+    "A5 (Roe-index rigidity): nontrivial classes in HX^1(X_f) detected by the Roe-trace pairing are stable under coarse equivalence, mirroring Yu's coarse Baum-Connes results (Yu 2000; Nowak-Yu 2012); explicit candidate functions (Andreev's, element-distinctness) are conjectured to realize κ = Ω(log^2 n)"
+  ],
+  "status": "PROPOSED",
+  "sub_conjecture_entry_ids": [],
+  "fitness_components": {},
+  "fitness": 0.0,
+  "paper_path": "",
+  "lean_module_path": ""
+}

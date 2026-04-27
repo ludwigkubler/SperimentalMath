@@ -1,0 +1,85 @@
+{
+  "entry_id": "78c33f7389a9",
+  "ts": 1777263859.335026,
+  "hits_evaluated": 8,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1809.03967",
+      "title": "More Cases Where the Kruskal-Katona Bound is Tight",
+      "abstract_excerpt": "In graph theory, knowing the number of complete subgraphs with r vertices that a graph g has, limits the number of its complete subgraphs with s vertices, for s &gt; r. A useful upper bound is provided by the Kruskal-Katona theorem, but this bound is often not tight. In this note, we add to the known cases where this bound is tight and begin an investigation of tight bounded graph sequences.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns tightness cases of the Kruskal-Katona bound for counting complete subgraphs in graphs, with no mention of EKR families, intersecting families, communication complexity, or discrepancy. It shares the Kruskal-Katona vocabulary but does not address the conjectured inequality linking shadow defect to spectral discrepancy.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2005.06999",
+      "title": "Tight bounds for Katona's shadow intersection theorem",
+      "abstract_excerpt": "A fundamental result in extremal set theory is Katona's shadow intersection theorem, which extends the Kruskal-Katona theorem by giving a lower bound on the size of the shadow of an intersecting family of $k$-sets in terms of its size. We improve this classical result and a related result of Ahlswede, Aydinian, and Khachatrian by proving tight bounds for families that can be quite small. For example, when $k=3$ our result is sharp for all families with $n$ points and at least $3n-7$ triples.\n  K",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns improved lower bounds on the shadow of intersecting families (Katona's shadow intersection theorem and Frankl's extension), but says nothing about spectral discrepancy, ±1 disjointness matrices, or communication complexity, so it neither confirms nor refutes the conjectured inequality linking shadow defect to δ(F).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2305.10152",
+      "title": "On the extremal families for the Kruskal--Katona theorem",
+      "abstract_excerpt": "In \\cite[Serra, Vena, Extremal families for the Kruskal-Katona theorem]{sv21}, the authors have shown a characterization of the extremal families for the Kruskal-Katona Theorem. We further develop some of the arguments given in \\cite{sv21} and give additional properties of these extremal families. Füredi-Griggs/Mörs theorem from 1986/85 \\cite{furgri86,mors85} claims that, for some cardinalities, the initial segment of the colexicographical is the unique extremal family; we extend their result as",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns characterizing extremal families for the Kruskal-Katona theorem (when shadow defect is zero) and their structural proximity to colex-initial segments, but says nothing about communication complexity, spectral discrepancy, or the quantitative inequality δ(F) ≥ c·s(F)/(|F|·C(n,k−1)).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1408.1376",
+      "title": "Factorization Norms and Hereditary Discrepancy",
+      "abstract_excerpt": "The $γ_2$ norm of a real $m\\times n$ matrix $A$ is the minimum number $t$ such that the column vectors of $A$ are contained in a $0$-centered ellipsoid $E\\subseteq\\mathbb{R}^m$ which in turn is contained in the hypercube $[-t, t]^m$. We prove that this classical quantity approximates the \\emph{hereditary discrepancy} $\\mathrm{herdisc}\\ A$ as follows: $γ_2(A) = {O(\\log m)}\\cdot \\mathrm{herdisc}\\ A$ and $\\mathrm{herdisc}\\ A = O(\\sqrt{\\log m}\\,)\\cdotγ_2(A) $. Since $γ_2$ is polynomial-time computab",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the γ_2 factorization norm approximating hereditary discrepancy and an application to the Tusnády problem on axis-parallel boxes; it does not address EKR shadow defects, intersecting families, or the disjointness matrix discrepancy in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1208.6015",
+      "title": "The spectral function of a first order elliptic system",
+      "abstract_excerpt": "We consider an elliptic self-adjoint first order pseudodifferential operator acting on columns of complex-valued half-densities over a connected compact manifold without boundary. The eigenvalues of the principal symbol are assumed to be simple but no assumptions are made on their sign, so the operator is not necessarily semi-bounded. We study the following objects: the propagator (time-dependent operator which solves the Cauchy problem for the dynamic equation), the spectral function (sum of sq",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns spectral asymptotics of elliptic pseudodifferential operators on manifolds ('two-term asymptotic formulae' for the propagator, spectral, and counting functions), which has no interaction with EKR shadow defects or communication complexity discrepancy bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1009.0997",
+      "title": "Spectral asymptotics for Robin problems with a discontinuous coefficient",
+      "abstract_excerpt": "The spectral behavior of the difference between the resolvents of two realizations $\\tilde A_1$ and $\\tilde A_2$ of a second-order strongly elliptic symmetric differential operator $A$, defined by different Robin conditions $νu=b_1γ_0u$ and $νu=b_2γ_0u$, can in the case where all coefficients are $C^\\infty$ be determined by use of a general result by the author in 1984 on singular Green operators. We here treat the problem for nonsmooth $b_i$. Using a Krein resolvent formula, we show that if $b_",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns spectral asymptotics of resolvent differences for elliptic operators with Robin boundary conditions, citing 'spectral asymptotic estimate for pseudodifferential operators' — entirely unrelated to extremal set theory, EKR families, or communication complexity discrepancy.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2301.09079",
+      "title": "Star discrepancy bounds based on Hilbert space filling curve stratified sampling and its applications",
+      "abstract_excerpt": "In this paper, we consider the upper bound of the probabilistic star discrepancy based on Hilbert space filling curve sampling. This problem originates from the multivariate integral approximation, but the main result removes the strict conditions on the sampling number of the classical grid-based jittered sampling. The main content has three parts. First, we inherit the advantages of this new sampling and achieve a better upper bound of the random star discrepancy than the use of Monte Carlo sa",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'probabilistic star discrepancy based on Hilbert space filling curve sampling' for multivariate integral approximation, which shares only the word 'discrepancy' with the conjecture's spectral/communication-complexity discrepancy of set-family matrices and has no bearing on EKR shadow defects.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1102.4243",
+      "title": "Disjointness and unique ergodicity of C*-dynamical systems",
+      "abstract_excerpt": "We study an ergodic theorem for disjoint C*-dynamical systems, where disjointness here is a noncommutative version of the concept introduced by Furstenberg for classical dynamical systems. This is applied to W*-dynamical systems. We also consider specific examples of disjoint C*-dynamical and W*-dynamical systems, including for actions of other groups than $\\mathbb{Z}$. Unique ergodicity and unique ergodicity relative to the fixed point algebra are closely related to disjointness, and are used t",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses 'disjointness' in the sense of Furstenberg's noncommutative ergodic theory for C*-dynamical systems, which shares only the word 'disjoint' with the conjecture's set-disjointness/EKR framework and has no bearing on shadow defects or communication complexity discrepancy.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 8,
+    "INSUFFICIENT": 0
+  }
+}
