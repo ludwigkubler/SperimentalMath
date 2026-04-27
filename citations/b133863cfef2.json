@@ -1,0 +1,85 @@
+{
+  "entry_id": "b133863cfef2",
+  "ts": 1777295878.3762186,
+  "hits_evaluated": 8,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1311.6531",
+      "title": "Brains and pseudorandom generators",
+      "abstract_excerpt": "In a pioneering classic, Warren McCulloch and Walter Pitts proposed a model of the central nervous system; motivated by EEG recordings of normal brain activity, Chv\\' atal and Goldsmith asked whether or not this model can be engineered to provide pseudorandom number generators. We supply evidence suggesting that the answer is negative.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a McCulloch-Pitts neural model and its capacity to produce pseudorandom generators, with no mention of Nisan-Wigderson designs, Zeckendorf representations, or Fourier/parity bias bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2404.12647",
+      "title": "Simple constructions of linear-depth t-designs and pseudorandom unitaries",
+      "abstract_excerpt": "Uniformly random unitaries, i.e. unitaries drawn from the Haar measure, have many useful properties, but cannot be implemented efficiently. This has motivated a long line of research into random unitaries that \"look\" sufficiently Haar random while also being efficient to implement. Two different notions of derandomisation have emerged: $t$-designs are random unitaries that information-theoretically reproduce the first $t$ moments of the Haar measure, and pseudorandom unitaries (PRUs) are random ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quantum t-designs and pseudorandom unitaries via the PFC ensemble, with no mention of Nisan-Wigderson designs, Zeckendorf/Fibonacci representations, or parity-test bias bounds for Boolean PRGs.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2601.03730",
+      "title": "Perception-Aware Bias Detection for Query Suggestions",
+      "abstract_excerpt": "Bias in web search has been in the spotlight of bias detection research for quite a while. At the same time, little attention has been paid to query suggestions in this regard. Awareness of the problem of biased query suggestions has been raised. Likewise, there is a rising need for automatic bias detection approaches. This paper adds on the bias detection pipeline for bias detection in query suggestions of person-related search developed by Bonart et al. \\cite{Bonart_2019a}. The sparseness and ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses bias detection in web search query suggestions and perception-aware metrics, which has no interaction with Zeckendorf representations, NW pseudorandom generator parity bias, or Fourier coefficients of Boolean functions.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1906.10962",
+      "title": "The Fibonacci Sequence and Schreier-Zeckendorf Sets",
+      "abstract_excerpt": "A finite subset of the natural numbers is weak-Schreier if $\\min S \\ge |S|$, strong-Schreier if $\\min S&gt;|S|$, and maximal if $\\min S = |S|$. Let $M_n$ be the number of weak-Schreier sets with $n$ being the largest element and $(F_n)_{n\\geq -1}$ denote the Fibonacci sequence. A finite set is said to be Zeckendorf if it does not contain two consecutive natural numbers. Let $E_n$ be the number of Zeckendorf subsets of $\\{1,2,\\ldots,n\\}$. It is well-known that $E_n = F_{n+2}$. In this paper, we f",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns combinatorial enumeration of Schreier-Zeckendorf sets and recurrences yielding Fibonacci numbers; it makes no mention of pseudorandom generators, NW designs, Fourier coefficients, or parity bias bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1302.6583",
+      "title": "A note on closed-form representation of Fibonacci numbers using Fibonacci trees",
+      "abstract_excerpt": "In this paper, we give a new representation of the Fibonacci numbers. This is achieved using Fibonacci trees. With the help of this representation, the nth Fibonacci number can be calculated without having any knowledge about the previous Fibonacci numbers.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a 'new representation of the Fibonacci numbers' via Fibonacci trees for computing the nth Fibonacci number, which shares Fibonacci vocabulary but does not address Zeckendorf digit-length statistics or NW-PRG parity bias bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2009.09510",
+      "title": "Bounds on Zeckendorf Games",
+      "abstract_excerpt": "Zeckendorf proved that every positive integer $n$ can be written uniquely as the sum of non-adjacent Fibonacci numbers. We use this decomposition to construct a two-player game. Given a fixed integer $n$ and an initial decomposition of $n=n F_1$, the two players alternate by using moves related to the recurrence relation $F_{n+1}=F_n+F_{n-1}$, and whoever moves last wins. The game always terminates in the Zeckendorf decomposition; depending on the choice of moves the length of the game and the w",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns combinatorial game theory bounds on Zeckendorf games using Z(n), with no mention of pseudorandom generators, NW designs, Fourier coefficients, or parity bias. It shares only the Zeckendorf vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1805.12210",
+      "title": "Design of a general scientific CCD simulation and test system",
+      "abstract_excerpt": "In this paper, we introduce a general scientific CCD simulation and test system which can meet the test requirements of different types of CCD chips from E2V company, such as measuring different signals output from modules of a CCD controller including power supply, fan, temperature control module, crystal oscillator, shutter and clock-bias generator. Furthermore, the video signal of the CCD detector can be simulated and superimposed with random noise to verify the performance of the video sampl",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a hardware CCD simulation and test system for E2V detectors, sharing only the generic word 'design' with the conjecture; it has no bearing on Zeckendorf representations or NW pseudorandom generator bias.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2301.08134",
+      "title": "A Benchmark Generator for Combinatorial Testing",
+      "abstract_excerpt": "Combinatorial Testing (CT) tools are essential to test properly a wide range of systems (train systems, Graphical User Interfaces (GUIs), autonomous driving systems, etc). While there is an active research community working on developing CT tools, paradoxically little attention has been paid to making available enough resources to test the CT tools themselves. In particular, the set of available benchmarks to asses their correctness, effectiveness and efficiency is rather limited. In this paper,",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a benchmark generator for Combinatorial Testing (CT) tools, with no mention of Zeckendorf representations, Nisan-Wigderson PRGs, Fourier coefficients, or parity bias bounds. It shares no substantive interaction with the conjecture's claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 8,
+    "INSUFFICIENT": 0
+  }
+}
