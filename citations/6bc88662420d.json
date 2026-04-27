@@ -1,0 +1,85 @@
+{
+  "entry_id": "6bc88662420d",
+  "ts": 1777273496.2663953,
+  "hits_evaluated": 8,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1009.4130",
+      "title": "Limit theorems for Betti numbers of random simplicial complexes",
+      "abstract_excerpt": "There have been several recent articles studying homology of various types of random simplicial complexes. Several theorems have concerned thresholds for vanishing of homology, and in some cases expectations of the Betti numbers. However little seems known so far about limiting distributions of random Betti numbers.\n  In this article we establish Poisson and normal approximation theorems for Betti numbers of different kinds of random simplicial complex: Erdős-Rényi random clique complexes, rando",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses 'Poisson and normal approximation theorems for Betti numbers' of random clique/Vietoris-Rips/Čech complexes, with no mention of 3-CNF formulas, resolution width, or any logical/proof-complexity connection to the conjecture's biconditional.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2003.08066",
+      "title": "Law of large numbers for Betti numbers of homogeneous and spatially independent random simplicial complexes",
+      "abstract_excerpt": "The Linial-Meshulam complex model is a natural higher-dimensional analog of the Erdős-Rényi graph model. In recent years, Linial and Peled established a limit theorem for Betti numbers of Linial-Meshulam complexes with an appropriate scaling of the underlying parameter. The present paper aims to extend that result to more-general random simplicial complex models. We introduce a class of homogeneous and spatially independent random simplicial complexes, including the Linial-Meshulam complex model",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns limit theorems for Betti numbers of random simplicial complexes (Linial-Meshulam, clique complexes), with no mention of 3-CNF formulas, resolution width, or proof complexity. It shares the 'Betti numbers of random complexes' vocabulary but does not interact with the specific Θ(log n) equivalence claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1501.03759",
+      "title": "Erratum: Limit theorems for Betti numbers of random simplicial complexes",
+      "abstract_excerpt": "We correct the proofs of the main theorems in our paper \"Limit theorems for Betti numbers of random simplicial complexes\".",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract is merely an erratum correcting proofs in a paper about limit theorems for Betti numbers of random simplicial complexes; it makes no claim about resolution width or 3-CNF formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2110.02458",
+      "title": "Magnitude homology of graphs and discrete Morse theory on Asao-Izumihara complexes",
+      "abstract_excerpt": "Recently, Asao and Izumihara introduced CW-complexes whose homology groups are isomorphic to direct summands of the graph magnitude homology group. In this paper, we study the homotopy type of the CW-complexes in connection with the diagonality of magnitude homology groups. We prove that the Asao-Izumihara complex is homotopy equivalent to a wedge of spheres for pawful graphs introduced by Y. Gu. The result can be considered as a homotopy type version of Gu's result. We also formulate a slight g",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns magnitude homology of graphs and Asao-Izumihara complexes (homotopy equivalent to wedges of spheres for 'pawful graphs'), with no mention of 3-CNF formulas, resolution width, or Betti numbers of clause-induced complexes.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2306.01534",
+      "title": "The magnitude homology of a hypergraph",
+      "abstract_excerpt": "The magnitude homology, introduced by R. Hepworth and S. Willerton, offers a topological invariant that enables the study of graph properties. Hypergraphs, being a generalization of graphs, serve as popular mathematical models for data with higher-order structures. In this paper, we focus on describing the topological characteristics of hypergraphs by considering their magnitude homology. We begin by examining the distances between hyperedges in a hypergraph and establish the magnitude homology ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns magnitude homology of hypergraphs and a Künneth theorem, with no mention of Betti numbers of clause-induced complexes, random 3-CNF, or resolution width. It shares only general topological vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1909.00234",
+      "title": "The spectrum of a class of uniform hypergraphs",
+      "abstract_excerpt": "A generalized power hypergraph $\\mathcal{H}^k_s$ is obtained from a base hypergraph $\\mathcal{H}$ by means of some simple edge-expansion operations. Kang, Liu, Qi and Yuan [8] proved that the nonzero eigenvalues of $\\mathcal{H}$ give rise to nonzero eigenvalues of $\\mathcal{H}^k_s$. In this paper we show that all nonzero eigenvalues of $\\mathcal{H}^k_s$ may be computed from the eigenvalues of its base hypergraph $\\mathcal{H}$ and of its subgraphs. To prove this, we derive spectral results about ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns spectra of generalized power hypergraphs and edge-expansion operations, with no mention of Betti numbers, simplicial complexes from CNF clauses, or resolution width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1110.6876",
+      "title": "Lower bounds for topological complexity",
+      "abstract_excerpt": "We introduce fibrewise Whitehead- and fibrewise Ganea definitions of monoidal topological complexity. We then define several lower bounds for the topological complexity, which improve on the standard lower bound in terms of nilpotency of the cohomology ring. The relationships between these lower bounds are studied.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses 'monoidal topological complexity' and cohomology nilpotency lower bounds in algebraic topology, with no mention of 3-CNF, Betti numbers of clause complexes, or resolution width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1606.05050",
+      "title": "Proof Complexity Lower Bounds from Algebraic Circuit Complexity",
+      "abstract_excerpt": "We give upper and lower bounds on the power of subsystems of the Ideal Proof System (IPS), the algebraic proof system recently proposed by Grochow and Pitassi, where the circuits comprising the proof come from various restricted algebraic circuit classes. This mimics an established research direction in the boolean setting for subsystems of Extended Frege proofs, where proof-lines are circuits from restricted boolean circuit classes. Except one, all of the subsystems considered in this paper can",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses algebraic proof system (IPS) lower bounds via algebraic circuit complexity, with no mention of Betti numbers, simplicial complexes of clauses, resolution width, or random 3-CNF — sharing only the broad 'proof complexity' framework without addressing the specific topological/width equivalence.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 8,
+    "INSUFFICIENT": 0
+  }
+}

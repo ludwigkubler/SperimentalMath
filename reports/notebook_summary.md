@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-27 06:23 UTC"
+date: "2026-04-27 07:44 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-27 06:23 UTC
+Generated 2026-04-27 07:44 UTC
 
-- Cycles recorded: **134**
-- Time span: 80.7h (~1.66 cycles/h)
+- Cycles recorded: **137**
+- Time span: 82.1h (~1.67 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 115 |
+| INCONCLUSIVE | 118 |
 | FALSIFIED | 14 |
 | SUPPORTED | 4 |
 | BARRIER_HIT | 1 |
@@ -39,6 +39,7 @@ Generated 2026-04-27 06:23 UTC
 | Representation theory of symmetric groups | 2 |
 | Ergodic Circuit Framework (COMM_COMPLEXITY) | 2 |
 | Matroid Theory | 2 |
+| Algebraic Topology | 2 |
 | Tropical geometry | 2 |
 | Random Matrix Theory | 2 |
 | Combinatorial homotopy theory | 1 |
@@ -61,15 +62,11 @@ Generated 2026-04-27 06:23 UTC
 | Categorification and knot Floer homology | 1 |
 | Modular forms | 1 |
 | Algebraic geometry (ideals in polynomial rings) | 1 |
-| Hypergraph Tutte polynomials | 1 |
 
 ## Last 15 cycles (chronological)
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-26 22:55 UTC | `INCONCLUSIVE` | Pseudoexpectation Spectral Gap Lower-Bounds SoS Refutation Degree |
-| 2026-04-26 23:26 UTC | `INCONCLUSIVE` | Mahler Measure of Signed-Degree Polynomial Bounds ACC^0[6] Size |
-| 2026-04-26 23:56 UTC | `INCONCLUSIVE` | Sample-Compression Gap Predicts Worst-Case DPLL Depth on Random 3 |
 | 2026-04-27 00:22 UTC | `INCONCLUSIVE` | Tropical Affine Rigidity: Vanishing Discrepancy iff Single-Atom F |
 | 2026-04-27 00:31 UTC | `INCONCLUSIVE` | Continued Fraction Depth of Spectral Ratio Bounds Discrepancy |
 | 2026-04-27 01:05 UTC | `INCONCLUSIVE` | Young-Flattening Rank Gap Lower-Bounds Padded-Permanent Border Ra |
@@ -82,6 +79,9 @@ Generated 2026-04-27 06:23 UTC
 | 2026-04-27 04:23 UTC | `INCONCLUSIVE` | Erdős–Ko–Rado Shadow Defect Lower-Bounds Disjointness Discrepancy |
 | 2026-04-27 04:57 UTC | `INCONCLUSIVE` | Edge-Expansion Defect Predicts Resolution Width of Tseitin on Ran |
 | 2026-04-27 06:23 UTC | `INCONCLUSIVE` | Average-Case DPLL Runtime Linked to Random Matrix Spectra |
+| 2026-04-27 07:04 UTC | `INCONCLUSIVE` | Betti Numbers and Resolution Width in 3-CNF |
+| 2026-04-27 07:15 UTC | `INCONCLUSIVE` | Sandpile-Group Order of Lifted IP Bipartite Graph Bounds Decision |
+| 2026-04-27 07:44 UTC | `INCONCLUSIVE` | Doob Martingale Variance Gap Predicts Worst-Case DPLL Depth |
 
 ## How to read the reports
 

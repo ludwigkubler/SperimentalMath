@@ -1,0 +1,85 @@
+{
+  "entry_id": "6487f7d68c31",
+  "ts": 1777275918.5614028,
+  "hits_evaluated": 8,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1411.0186",
+      "title": "Algorithmic randomness for Doob's martingale convergence theorem in continuous time",
+      "abstract_excerpt": "We study Doob's martingale convergence theorem for computable continuous time martingales on Brownian motion, in the context of algorithmic randomness. A characterization of the class of sample points for which the theorem holds is given. Such points are given the name of Doob random points. It is shown that a point is Doob random if its tail is computably random in a certain sense. Moreover, Doob randomness is strictly weaker than computable randomness and is incomparable with Schnorr randomnes",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper studies algorithmic randomness characterizations of Doob's martingale convergence theorem on Brownian motion ('A characterization of the class of sample points for which the theorem holds'), which shares only the name 'Doob martingale' and does not address variance concentration, DPLL search depth, or random 3-CNF perturbations.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1408.3470",
+      "title": "Efron-Stein Inequalities for Random Matrices",
+      "abstract_excerpt": "This paper establishes new concentration inequalities for random matrices constructed from independent random variables. These results are analogous with the generalized Efron-Stein inequalities developed by Boucheron et al. The proofs rely on the method of exchangeable pairs.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes Efron-Stein concentration inequalities for random matrices via exchangeable pairs, with no mention of DPLL search trees, 3-CNF, or Doob martingale variance predicting worst-case search depth. It shares the Efron-Stein framework but does not interact with the specific CSP/DPLL claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1908.05361",
+      "title": "Placing quantified variants of 3-SAT and Not-All-Equal 3-SAT in the polynomial hierarchy",
+      "abstract_excerpt": "The complexity of variants of 3-SAT and Not-All-Equal 3-SAT is well studied. However, in contrast, very little is known about the complexity of the problems' quantified counterparts. In the first part of this paper, we show that $\\forall \\exists$ 3-SAT is $Π_2^P$-complete even if (1) each variable appears exactly twice unnegated and exactly twice negated, (2) each clause is a disjunction of exactly three distinct variables, and (3) the number of universal variables is equal to the number of exis",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses polynomial hierarchy classification of quantified 3-SAT variants ($Π_2^P$-completeness), with no mention of DPLL search-tree depth, Doob martingales, or variance concentration on random 3-CNF. It shares only the '3-SAT' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:cs/0506069",
+      "title": "A generating function method for the average-case analysis of DPLL",
+      "abstract_excerpt": "A method to calculate the average size of Davis-Putnam-Loveland-Logemann (DPLL) search trees for random computational problems is introduced, and applied to the satisfiability of random CNF formulas (SAT) and the coloring of random graph (COL) problems. We establish recursion relations for the generating functions of the average numbers of (variable or color) assignments at a given height in the search tree, which allow us to derive the asymptotics of the expected DPLL tree size, 2^{N w + o(N)},",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a generating-function method for the average expected DPLL tree size scaling as 2^{Nw+o(N)}, but says nothing about Doob martingale quadratic variation, Efron-Stein decomposition, or one-clause-perturbation worst-case gaps, which are the core of the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2002.02797",
+      "title": "Variational Depth Search in ResNets",
+      "abstract_excerpt": "One-shot neural architecture search allows joint learning of weights and network architecture, reducing computational cost. We limit our search space to the depth of residual networks and formulate an analytically tractable variational objective that allows for obtaining an unbiased approximate posterior over depths in one-shot. We propose a heuristic to prune our networks based on this distribution. We compare our proposed method against manual search over network depths on the MNIST, Fashion-M",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns variational depth search for ResNet neural architectures ('search space to the depth of residual networks'), which is unrelated to Doob martingale variance or DPLL search-tree depth on random 3-CNF formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1805.08295",
+      "title": "Concentration of Measure and Large Random Matrices with an application to Sample Covariance Matrices",
+      "abstract_excerpt": "The present work provides an original framework for random matrix analysis based on revisiting the concentration of measure theory from a probabilistic point of view. By providing various notions of vector concentration ($q$-exponential, linear, Lipschitz, convex), a set of elementary tools is laid out that allows for the immediate extension of classical results from random matrix theory involving random concentrated vectors in place of vectors with independent entries. These findings are exempl",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns concentration of measure applied to random matrix theory and sample covariance matrices, with no mention of DPLL search, random 3-CNF, or Doob martingale variance for CSP perturbations.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2007.13241",
+      "title": "Beyond the Worst-Case Analysis of Algorithms (Introduction)",
+      "abstract_excerpt": "One of the primary goals of the mathematical analysis of algorithms is to provide guidance about which algorithm is the \"best\" for solving a given computational problem. Worst-case analysis summarizes the performance profile of an algorithm by its worst performance on any input of a given size, implicitly advocating for the algorithm with the best-possible worst-case performance. Strong worst-case guarantees are the holy grail of algorithm design, providing an application-agnostic certification ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract is a high-level survey introduction about 'alternatives to worst-case analysis' generally, with no mention of Doob martingales, Efron-Stein variance, DPLL depth, or random 3-CNF concentration claims. It shares only the broad framing of average-vs-worst-case analysis.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2002.11171",
+      "title": "Dynamic Set Cover: Improved Amortized and Worst-Case Update Time",
+      "abstract_excerpt": "In the dynamic minimum set cover problem, a challenge is to minimize the update time while guaranteeing close to the optimal $\\min(O(\\log n), f)$ approximation factor. (Throughout, $m$, $n$, $f$, and $C$ are parameters denoting the maximum number of sets, number of elements, frequency, and the cost range.) In the high-frequency range, when $f=Ω(\\log n)$, this was achieved by a deterministic $O(\\log n)$-approximation algorithm with $O(f \\log n)$ amortized update time [Gupta et al. STOC'17]. In th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns dynamic set cover approximation algorithms and their update times, with no mention of Doob martingales, random 3-CNF, DPLL search depth, or variance-based concentration — it shares no substantive claim with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 8,
+    "INSUFFICIENT": 0
+  }
+}

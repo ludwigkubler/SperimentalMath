@@ -1,13 +1,13 @@
 {
-  "last_update_utc": "2026-04-27T06:47:02Z",
-  "total_cycles": 134,
+  "last_update_utc": "2026-04-27T07:47:01Z",
+  "total_cycles": 137,
   "verdict_counts": {
-    "INCONCLUSIVE": 115,
+    "INCONCLUSIVE": 118,
     "SUPPORTED": 4,
     "FALSIFIED": 14,
     "BARRIER_HIT": 1
   },
-  "unique_field_A": 120,
+  "unique_field_A": 122,
   "top_fields_A": [
     [
       "Ergodic Circuit Framework (communication complexity via dynamical systems)",
@@ -38,6 +38,10 @@
       2
     ],
     [
+      "Algebraic Topology",
+      2
+    ],
+    [
       "Tropical geometry",
       2
     ],
@@ -63,10 +67,6 @@
     ],
     [
       "Quadratic forms over finite fields (Grothendieck-Witt groups)",
-      1
-    ],
-    [
-      "Clifford algebras over finite fields",
       1
     ]
   ]

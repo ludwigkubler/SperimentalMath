@@ -1,0 +1,85 @@
+{
+  "entry_id": "69ad4d50946e",
+  "ts": 1777274155.9124658,
+  "hits_evaluated": 8,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1906.08515",
+      "title": "An overview on the bipartite divisor graph for the set of irreducible character degrees",
+      "abstract_excerpt": "Let $G$ be a finite group. The bipartite divisor graph for the set of irreducible complex character degrees is the undirected graph with vertex set consisting of the prime numbers dividing some character degree and of the non-identity character degrees, where a prime number $p$ is declared to be adjacent to a character degree $m$ if and only if $p$ divides $m$. This graph is bipartite and it encodes two of the most widely studied graphs associated to the character degrees of a finite group: the ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'the bipartite divisor graph for the set of irreducible complex character degrees' of finite groups, which is unrelated to sandpile groups, spanning-tree counts, or communication complexity of lifted IP functions.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1705.07519",
+      "title": "Sandpile Groups of Random Bipartite Graphs",
+      "abstract_excerpt": "We determine the asymptotic distribution of the p-rank of the sandpile groups of random bipartite graphs. We see that this depends on the ratio between the number of vertices on each side, with a threshold when the ratio between the sides is equal to 1/p. We follow the approach of Melanie Wood and consider random graphs as a special case of random matrices, and rely on a variant the definition of min-entropy given by Maples, in order to obtain useful results about these random matrices. Our resu",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses asymptotic p-rank distributions of sandpile groups of random bipartite graphs, not spanning-tree counts of structured lifted communication matrices nor any connection to decision-tree depth. It shares the 'sandpile groups of bipartite graphs' vocabulary but does not interact with the specific quantitative bound conjectured.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1904.12209",
+      "title": "Sandpile monomorphisms and limits",
+      "abstract_excerpt": "We introduce a tiling problem between bounded open convex polyforms $\\hat{P}\\subset\\mathbb{R}^2$ with directed and uniquely colored edges. If there exists a tiling of the polyform $\\hat{P}_2$ by $\\hat{P}_1$, we show that one can construct a monomorphism from the sandpile group $G_{Γ_1}=\\mathbb{Z}^{Γ_1}/Δ(\\mathbb{Z}^{Γ_1})$ on the domain (graph) $Γ_1=\\hat{P}_1\\cap\\mathbb{Z}^2$ to the respective group on $Γ_2=\\hat{P}_2\\cap\\mathbb{Z}^2$. We provide several examples of infinite series of such tiling",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns sandpile group monomorphisms and scaling limits for planar polyform graphs in Z^2, with no mention of communication complexity, lifted/IP gadgets, decision-tree depth, or bipartite communication matrices. It shares only the 'sandpile group' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1012.2478",
+      "title": "Packing spanning trees and the $k$-tree protocol",
+      "abstract_excerpt": "We provide a structural description of, and invariants for, maximum spanning tree-packable graphs, i.e. those graphs G for which the edge connectivity of G is equal to the maximum number of edge-disjoint spanning trees in G. These graphs are of interest for the k-tree protocol of Itai and Rodeh [Inform. and Comput. 79 (1988), 43-59].",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns structural characterization of maximum spanning tree-packable graphs (edge-disjoint spanning trees equaling edge connectivity) for the k-tree protocol, which does not address spanning-tree counts τ(G), sandpile groups, or communication complexity of lifted IP functions.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0904.3087",
+      "title": "Distributed Maintenance of Anytime Available Spanning Trees in Dynamic Networks",
+      "abstract_excerpt": "We address the problem of building and maintaining distributed spanning trees in highly dynamic networks, in which topological events can occur at any time and any rate, and no stable periods can be assumed. In these harsh environments, we strive to preserve some properties such as cycle-freeness or the existence of a root in each tree, in order to make it possible to keep using the trees uninterruptedly (to a possible extent). Our algorithm operates at a coarse-grain level, using atomic pairwis",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns distributed algorithms for maintaining spanning trees in dynamic networks via population-protocol-style token random walks, not spanning-tree counts, sandpile groups, or communication complexity of lifted functions. It shares only the vague vocabulary of 'spanning trees' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/hep-ph/0610012v1",
+      "title": "Tevatron-for-LHC Report of the QCD Working Group",
+      "abstract_excerpt": "The experiments at Run 2 of the Tevatron have each accumulated over 1 inverse femtobarn of high-transverse momentum data. Such a dataset allows for the first precision (i.e. comparisons between theory and experiment at the few percent level) tests of QCD at a hadron collider. While the Large Hadron ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns precision QCD tests at the Tevatron and LHC ('first precision...tests of QCD at a hadron collider'), which has no bearing on sandpile groups, communication complexity, or decision tree depth.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2007.09501",
+      "title": "A family of matrix-tree multijections",
+      "abstract_excerpt": "For a natural class of $r \\times n$ integer matrices, we construct a non-convex polytope which periodically tiles $\\mathbb R^n$. From this tiling, we provide a family of geometrically meaningful maps from a generalized sandpile group to a set of generalized spanning trees which give multijective proofs for several higher-dimensional matrix-tree theorems. In particular, these multijections can be applied to graphs, regular matroids, cell complexes with a torsion-free spanning forest, and represen",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes general matrix-tree multijections between sandpile groups and spanning trees for integer matrices, matroids, and cell complexes, with no mention of communication complexity, lifted functions, IP gadgets, or decision-tree depth bounds. It shares the sandpile/spanning-tree vocabulary but does not interact with the specific quantitative bound log₂ τ(G(f,b)) ≥ d·2^{bn−2}.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2512.11833",
+      "title": "Soft Decision Tree classifier: explainable and extendable PyTorch implementation",
+      "abstract_excerpt": "We implemented a Soft Decision Tree (SDT) and a Short-term Memory Soft Decision Tree (SM-SDT) using PyTorch. The methods were extensively tested on simulated and clinical datasets. The SDT was visualized to demonstrate the potential for its explainability. SDT, SM-SDT, and XGBoost demonstrated similar area under the curve (AUC) values. These methods were better than Random Forest, Logistic Regression, and Decision Tree. The results on clinical datasets suggest that, aside from a decision tree, a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a PyTorch implementation of Soft Decision Tree classifiers benchmarked against XGBoost and other ML methods on clinical data, with no connection to sandpile groups, communication complexity, or lifted Boolean functions. It only shares the vague term 'decision tree' but does not engage with decision-tree depth lower bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 8,
+    "INSUFFICIENT": 0
+  }
+}
