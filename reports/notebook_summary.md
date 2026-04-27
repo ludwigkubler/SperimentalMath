@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-27 17:36 UTC"
+date: "2026-04-27 18:40 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-27 17:36 UTC
+Generated 2026-04-27 18:40 UTC
 
-- Cycles recorded: **162**
-- Time span: 91.9h (~1.76 cycles/h)
+- Cycles recorded: **164**
+- Time span: 93.0h (~1.76 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 143 |
+| INCONCLUSIVE | 145 |
 | FALSIFIED | 14 |
 | SUPPORTED | 4 |
 | BARRIER_HIT | 1 |
@@ -67,8 +67,6 @@ Generated 2026-04-27 17:36 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-27 12:41 UTC | `INCONCLUSIVE` | Roe-trace pairing for Inner-Product realizes coarse depth κ ≥ log |
-| 2026-04-27 12:47 UTC | `INCONCLUSIVE` | Cubical Betti Sum of Implicant Complex Lower-Bounds DNF-MCSP |
 | 2026-04-27 13:16 UTC | `INCONCLUSIVE` | Zeckendorf Length of NW Design Rows Bounds PRG Parity Bias |
 | 2026-04-27 13:49 UTC | `INCONCLUSIVE` | Sturmian Factor-Complexity Lower-Bounds DNF-MCSP Term Count |
 | 2026-04-27 14:18 UTC | `INCONCLUSIVE` | Haar-Wavelet Star-Discrepancy of Sign Matrix Lower-Bounds Rigidit |
@@ -82,6 +80,8 @@ Generated 2026-04-27 17:36 UTC
 | 2026-04-27 17:25 UTC | `INCONCLUSIVE` | Frobenius Trace Defect of Clause-Indicator Polynomial Lower-Bound |
 | 2026-04-27 17:34 UTC | `INCONCLUSIVE` | Oracle Collapse of κ: Anti-Relativization Stress Test for the Coa |
 | 2026-04-27 17:36 UTC | `INCONCLUSIVE` | Carries-Polynomial Degree Lower-Bounds EF-Lines for PHP_n |
+| 2026-04-27 18:10 UTC | `INCONCLUSIVE` | Sharply-Bounded Refutability Vanishes at 3-SAT Threshold |
+| 2026-04-27 18:40 UTC | `INCONCLUSIVE` | Run-Length Entropy Floor Lower-Bounds DNF-MCSP Term Count |
 
 ## How to read the reports
 

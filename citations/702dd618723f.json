@@ -1,0 +1,40 @@
+{
+  "entry_id": "702dd618723f",
+  "ts": 1777315270.0435238,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2511.07739",
+      "title": "A Lower Bound for the Fourier Entropy of Boolean Functions on the Biased Hypercube",
+      "abstract_excerpt": "We study Boolean functions on the $p$-biased hypercube $(\\{0,1\\}^n,μ_p^n)$ through the lens of Fourier (spectral) entropy, i.e. the Shannon entropy of the squared $p$-biased Fourier coefficients. Motivated by recent restriction-based advances on upper bounds toward the Fourier-Entropy-Influence (FEI) conjecture, we prove a complementary, sharp lower bound that decomposes the entropy into coordinate-wise contributions. Let $q:=4p(1-p)$ and define $Ψ:[0,\\tfrac12]\\to[0,\\ln 2]$ by $Ψ(t):=h\\left(\\fra",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper proves a lower bound on Fourier (spectral) entropy of Boolean functions on the biased hypercube, which shares the vocabulary 'entropy of Boolean functions' but does not address run-length encoding entropy of the truth-table word nor DNF term count, so it does not interact with the specific DNF-MCSP claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0906.0693",
+      "title": "An improved lower bound on the counterfeit coins problem",
+      "abstract_excerpt": "In this paper, we will give an improvement on the lower bound for the counterfeit coins problem in the case that the number of false coins is unknown in advance",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a lower bound for the counterfeit coins problem with an unknown number of false coins, which has no connection to DNF minimum term counts or run-length entropy of truth tables.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1802.00703",
+      "title": "From Clustering Supersequences to Entropy Minimizing Subsequences for Single and Double Deletions",
+      "abstract_excerpt": "A binary string transmitted via a memoryless i.i.d. deletion channel is received as a subsequence of the original input. From this, one obtains a posterior distribution on the channel input, corresponding to a set of candidate supersequences weighted by the number of times the received subsequence can be embedded in them. In a previous work it is conjectured on the basis of experimental data that the entropy of the posterior is minimized and maximized by the constant and the alternating strings,",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The paper concerns entropy of posterior distributions over supersequences in deletion channels using run-length encoding, not DNF term counts or Boolean function complexity. Despite shared 'run-length encoding' vocabulary, it does not address DNF-MCSP or any lower bound on DNF_min(f).",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "08881f411f0c",
+  "ts": 1777313477.0236626,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1008.1260",
+      "title": "Structure of random r-SAT below the pure literal threshold",
+      "abstract_excerpt": "It is well known that there is a sharp density threshold for a random $r$-SAT formula to be satisfiable, and a similar, smaller, threshold for it to be satisfied by the pure literal rule. Also, above the satisfiability threshold, where a random formula is with high probability (whp) unsatisfiable, the unsatisfiability is whp due to a large \"minimal unsatisfiable subformula\" (MUF).\n  By contrast, we show that for the (rare) unsatisfiable formulae below the pure literal threshold, the unsatisfiabi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract studies unsatisfiability structure 'below the pure literal threshold' and explicitly notes 'It remains open what happens between the pure literal threshold and the satisfiability threshold,' which is exactly the regime (4.27 near the SAT threshold) of the conjecture. It thus shares vocabulary but does not address the UPC closure success probability at the 3-SAT threshold.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2405.16149",
+      "title": "Small unsatisfiable $k$-CNFs with bounded literal occurrence",
+      "abstract_excerpt": "We obtain the smallest unsatisfiable formulas in subclasses of $k$-CNF (exactly $k$ distinct literals per clause) with bounded variable or literal occurrences. Smaller unsatisfiable formulas of this type translate into stronger inapproximability results for MaxSAT in the considered formula class. Our results cover subclasses of 3-CNF and 4-CNF; in all subclasses of 3-CNF we considered we were able to determine the smallest size of an unsatisfiable formula; in the case of 4-CNF with at most 5 occ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns finding the smallest unsatisfiable k-CNF formulas with bounded literal/variable occurrences for MaxSAT inapproximability, not the probability that random 3-CNFs at the SAT threshold are refuted by a unit-propagation closure operator. It shares only the 'unsatisfiable 3-CNF' vocabulary.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1908.05361",
+      "title": "Placing quantified variants of 3-SAT and Not-All-Equal 3-SAT in the polynomial hierarchy",
+      "abstract_excerpt": "The complexity of variants of 3-SAT and Not-All-Equal 3-SAT is well studied. However, in contrast, very little is known about the complexity of the problems' quantified counterparts. In the first part of this paper, we show that $\\forall \\exists$ 3-SAT is $Π_2^P$-complete even if (1) each variable appears exactly twice unnegated and exactly twice negated, (2) each clause is a disjunction of exactly three distinct variables, and (3) the number of universal variables is equal to the number of exis",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns complexity classification of quantified ∀∃ 3-SAT variants in the polynomial hierarchy (Π_2^P-completeness), which shares vocabulary (3-SAT) but does not address unit-propagation closure refutability or threshold-density random 3-CNF behavior.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
