@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-27 02:42 UTC"
+date: "2026-04-27 03:18 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-27 02:42 UTC
+Generated 2026-04-27 03:18 UTC
 
-- Cycles recorded: **129**
-- Time span: 77.0h (~1.67 cycles/h)
+- Cycles recorded: **130**
+- Time span: 77.6h (~1.67 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 110 |
+| INCONCLUSIVE | 111 |
 | FALSIFIED | 14 |
 | SUPPORTED | 4 |
 | BARRIER_HIT | 1 |
@@ -67,7 +67,6 @@ Generated 2026-04-27 02:42 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-26 21:34 UTC | `INCONCLUSIVE` | Dyadic Martingale Quadratic Variation Lower-Bounds Sign-Rank Disc |
 | 2026-04-26 21:43 UTC | `INCONCLUSIVE` | Legendre-Fenchel Involution Conjecture: Discrepancy Invariance un |
 | 2026-04-26 21:46 UTC | `INCONCLUSIVE` | Combinatorial Discrepancy of NW Designs Predicts Generator Bias o |
 | 2026-04-26 22:20 UTC | `FALSIFIED` | Tropical Max-Aggregation Monotonicity of MinimalFourierCoefficien |
@@ -82,6 +81,7 @@ Generated 2026-04-27 02:42 UTC
 | 2026-04-27 02:14 UTC | `INCONCLUSIVE` | Mealy Automaticity Lower-Bounds Truth-Table Formula Size |
 | 2026-04-27 02:28 UTC | `INCONCLUSIVE` | Tropical Positive-Scalar Homogeneity of MinimalFourierCoefficient |
 | 2026-04-27 02:42 UTC | `INCONCLUSIVE` | Permanent-Variance of NW Design Matrix Predicts PRG Bias |
+| 2026-04-27 03:18 UTC | `INCONCLUSIVE` | Cycle-Space Cocycle Imbalance Lower-Bounds Resolution Width of Ts |
 
 ## How to read the reports
 

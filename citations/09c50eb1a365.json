@@ -1,0 +1,76 @@
+{
+  "entry_id": "09c50eb1a365",
+  "ts": 1777259960.413155,
+  "hits_evaluated": 7,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1411.3958",
+      "title": "Edge-state enhanced transport in a 2-dimensional quantum walk",
+      "abstract_excerpt": "Quantum walks on translation invariant regular graphs spread quadratically faster than their classical counterparts. The same coherence that gives them this quantum speedup inhibits, or even stops their spread in the presence of disorder. We ask how to create an efficient transport channel from a fixed source site (A) to fixed target site (B) in a disordered 2-dimensional discrete-time quantum walk by cutting some of the links. We show that the somewhat counterintuitive strategy of cutting links",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quantum walks, edge states, and topological invariants on 2D lattices, which has no interaction with resolution width lower bounds for Tseitin formulas or cycle-space cocycle imbalance.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2209.05839",
+      "title": "On bounded depth proofs for Tseitin formulas on the grid; revisited",
+      "abstract_excerpt": "We study Frege proofs using depth-$d$ Boolean formulas for the Tseitin contradiction on $n \\times n$ grids. We prove that if each line in the proof is of size $M$ then the number of lines is exponential in $n/(\\log M)^{O(d)}$. This strengthens a recent result of Pitassi et al. [PRT22]. The key technical step is a multi-switching lemma extending the switching lemma of Håstad [Hås20] for a space of restrictions related to the Tseitin contradiction. The strengthened lemma also allows us to improve ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses bounded-depth Frege proof size lower bounds for Tseitin on grids via switching lemmas, not resolution width lower bounds via cocycle imbalance on 3-regular expanders. It shares the Tseitin vocabulary but does not interact with the specific width/edge-boundary claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2103.09609",
+      "title": "Characterizing Tseitin-formulas with short regular resolution refutations",
+      "abstract_excerpt": "Tseitin-formulas are systems of parity constraints whose structure is described by a graph. These formulas have been studied extensively in proof complexity as hard instances in many proof systems. In this paper, we prove that a class of unsatisfiable Tseitin-formulas of bounded degree has regular resolution refutations of polynomial length if and only if the treewidth of all underlying graphs $G$ for that class is in $O(\\log|V(G)|)$. To do so, we show that any regular resolution refutation of a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses regular resolution refutation LENGTH in terms of treewidth, not resolution WIDTH in terms of cocycle/edge-boundary imbalance. It neither states nor implies the specific width lower bound w(T(G,c)) >= I(G)·min(|S*|,|V\\S*|)/2 + 1.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0804.4433",
+      "title": "SPACE: the SPectroscopic All-sky Cosmic Explorer",
+      "abstract_excerpt": "We describe the scientific motivations, the mission concept and the instrumentation of SPACE, a class-M mission proposed for concept study at the first call of the ESA Cosmic-Vision 2015-2025 planning cycle. SPACE aims to produce the largest three-dimensional evolutionary map of the Universe over the past 10 billion years by taking near-IR spectra and measuring redshifts for more than half a billion galaxies at 0&lt;z&lt;2 down to AB~23 over 3πsr of the sky. In addition, SPACE will also target a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes 'SPACE,' an astronomical mission for near-IR spectroscopy and galaxy redshift mapping, which has no relation to algebraic graph theory or resolution refutation of Tseitin formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2405.02292",
+      "title": "ALOHA 2: An Enhanced Low-Cost Hardware for Bimanual Teleoperation",
+      "abstract_excerpt": "Diverse demonstration datasets have powered significant advances in robot learning, but the dexterity and scale of such data can be limited by the hardware cost, the hardware robustness, and the ease of teleoperation. We introduce ALOHA 2, an enhanced version of ALOHA that has greater performance, ergonomics, and robustness compared to the original design. To accelerate research in large-scale bimanual manipulation, we open source all hardware designs of ALOHA 2 with a detailed tutorial, togethe",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes ALOHA 2, a bimanual teleoperation hardware platform for robot learning, which has no relation to resolution width, Tseitin formulas, or cycle-space cocycle imbalance.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1303.4033",
+      "title": "Two-dimensional magnetic interactions in LaFeAsO",
+      "abstract_excerpt": "Inelastic neutron scattering measurements demonstrate that the magnetic interactions in antiferromagnetic LaFeAsO are two-dimensional. Spin wave velocities within the Fe layer and the magnitude of the spin gap are similar to the \\textit{A}Fe$_2$As$_2$ based materials. However, the ratio of interlayer and intralayer exchange is found to be less than $\\sim 10^{-4}$ in LaFeAsO, very similar to the cuprates, and $\\sim$ 100 times smaller than that found in \\textit{A}Fe$_2$As$_2$ compounds. The result",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns inelastic neutron scattering of magnetic interactions in LaFeAsO, an iron arsenide superconductor, with no connection to resolution width, Tseitin formulas, or graph cycle spaces.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2404.04038",
+      "title": "Refutability as Recursive as Provability",
+      "abstract_excerpt": "Godel numbering is an arithmetization of sintax which defines provability by coding a primitive recursive predicate, Pf(x,v). A multiplicity of researches and results all around this well-known recursive predicate are today widespread in many areas of logic and AI. Not equally investigated is the refutability predicate defined by Godel numbering within the same primitive recursive status. Rf(x,v) can be defined as a recursive predicate meaning that x is the Godel number of a refutation in PA of ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Gödel numbering and the recursive status of provability/refutability predicates in Peano Arithmetic ('a recursive predicate meaning that x is the Godel number of a refutation in PA'), which is unrelated to resolution width lower bounds for Tseitin formulas on expander graphs.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 7,
+    "INSUFFICIENT": 0
+  }
+}
