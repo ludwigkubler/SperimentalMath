@@ -1,0 +1,40 @@
+{
+  "entry_id": "151708c9a4ad",
+  "ts": 1777311411.8763492,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1309.5828",
+      "title": "On certain definite integrals and infinite series",
+      "abstract_excerpt": "A translation of Kummer`s paper On certain definite integrals and infinite series",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a translation of Kummer's paper on definite integrals and infinite series, which has no bearing on EF proof complexity, PHP lower bounds, or the carries-polynomial gadget; it shares only the name 'Kummer' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0906.0693",
+      "title": "An improved lower bound on the counterfeit coins problem",
+      "abstract_excerpt": "In this paper, we will give an improvement on the lower bound for the counterfeit coins problem in the case that the number of false coins is unknown in advance",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a lower bound for the counterfeit coins problem with an unknown number of false coins, which has no apparent connection to EF proof complexity, PHP, or carries polynomials.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1007.1875",
+      "title": "Lower Bounds for Quantum Oblivious Transfer",
+      "abstract_excerpt": "Oblivious transfer is a fundamental primitive in cryptography. While perfect information theoretic security is impossible, quantum oblivious transfer protocols can limit the dishonest players' cheating. Finding the optimal security parameters in such protocols is an important open question. In this paper we show that every 1-out-of-2 oblivious transfer protocol allows a dishonest party to cheat with probability bounded below by a constant strictly larger than 1/2. Alice's cheating is defined as ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quantum oblivious transfer cheating probability lower bounds via Kitaev's semidefinite programming, with no connection to proof complexity, EF refutations, PHP, or carry combinatorics.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

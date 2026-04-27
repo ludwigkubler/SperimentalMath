@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-27 17:00 UTC"
+date: "2026-04-27 17:36 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-27 17:00 UTC
+Generated 2026-04-27 17:36 UTC
 
-- Cycles recorded: **159**
-- Time span: 91.3h (~1.74 cycles/h)
+- Cycles recorded: **162**
+- Time span: 91.9h (~1.76 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 140 |
+| INCONCLUSIVE | 143 |
 | FALSIFIED | 14 |
 | SUPPORTED | 4 |
 | BARRIER_HIT | 1 |
@@ -67,9 +67,6 @@ Generated 2026-04-27 17:00 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-27 11:13 UTC | `INCONCLUSIVE` | Subdeterminant Dispersion Lower-Bounds Singular-Tail Matrix Rigid |
-| 2026-04-27 11:46 UTC | `INCONCLUSIVE` | Lyndon Factor Count of Truth Table Lower-Bounds DT Leaves Under I |
-| 2026-04-27 12:12 UTC | `INCONCLUSIVE` | Kashin-Split Energy Gap Lower-Bounds Sign-Matrix Rigidity at Rank |
 | 2026-04-27 12:41 UTC | `INCONCLUSIVE` | Roe-trace pairing for Inner-Product realizes coarse depth κ ≥ log |
 | 2026-04-27 12:47 UTC | `INCONCLUSIVE` | Cubical Betti Sum of Implicant Complex Lower-Bounds DNF-MCSP |
 | 2026-04-27 13:16 UTC | `INCONCLUSIVE` | Zeckendorf Length of NW Design Rows Bounds PRG Parity Bias |
@@ -82,6 +79,9 @@ Generated 2026-04-27 17:00 UTC
 | 2026-04-27 16:27 UTC | `INCONCLUSIVE` | RSK Second-Row Length of f-Sorted Permutation Bounds Lifted IND C |
 | 2026-04-27 16:44 UTC | `INCONCLUSIVE` | Coarse-dimensional KRW direct sum: asdim is sub-additive under bl |
 | 2026-04-27 16:59 UTC | `INCONCLUSIVE` | Fourier Variance Ratio of Violated-Clause Counter Bounds Tree-Res |
+| 2026-04-27 17:25 UTC | `INCONCLUSIVE` | Frobenius Trace Defect of Clause-Indicator Polynomial Lower-Bound |
+| 2026-04-27 17:34 UTC | `INCONCLUSIVE` | Oracle Collapse of κ: Anti-Relativization Stress Test for the Coa |
+| 2026-04-27 17:36 UTC | `INCONCLUSIVE` | Carries-Polynomial Degree Lower-Bounds EF-Lines for PHP_n |
 
 ## How to read the reports
 
