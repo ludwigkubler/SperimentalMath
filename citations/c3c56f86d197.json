@@ -1,0 +1,85 @@
+{
+  "entry_id": "c3c56f86d197",
+  "ts": 1777265889.3730936,
+  "hits_evaluated": 8,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2103.09609",
+      "title": "Characterizing Tseitin-formulas with short regular resolution refutations",
+      "abstract_excerpt": "Tseitin-formulas are systems of parity constraints whose structure is described by a graph. These formulas have been studied extensively in proof complexity as hard instances in many proof systems. In this paper, we prove that a class of unsatisfiable Tseitin-formulas of bounded degree has regular resolution refutations of polynomial length if and only if the treewidth of all underlying graphs $G$ for that class is in $O(\\log|V(G)|)$. To do so, we show that any regular resolution refutation of a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract characterizes regular resolution refutation *length* in terms of *treewidth* of G, not resolution *width* in terms of edge-expansion or a Cheeger defect. It neither states nor implies the specific h(G)/lambda_2-based width bounds in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0908.1772",
+      "title": "Some Probabilistic Results on Width Measures of Graphs",
+      "abstract_excerpt": "Fixed parameter tractable (FPT) algorithms run in time f(p(x)) poly(|x|), where f is an arbitrary function of some parameter p of the input x and poly is some polynomial function. Treewidth, branchwidth, cliquewidth, NLC-width, rankwidth, and booleanwidth are parameters often used in the design and analysis of such algorithms for problems on graphs.\n  We show asymptotically almost surely (aas), there are Omega(n) lower bounds on the treewidth, branchwidth, cliquewidth, NLC-width, and rankwidth o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Omega(n) lower bounds on graph width measures (treewidth, branchwidth, cliquewidth, etc.) for random graphs in the FPT context, not resolution refutation width of Tseitin formulas nor Cheeger/edge-expansion defects. It shares the word 'width' but does not interact with the specific isoperimetric-vs-spectral claim about Tseitin resolution width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/astro-ph/0407622v3",
+      "title": "A Study of the Composition of Ultra High Energy Cosmic Rays Using the High Resolution Fly's Eye",
+      "abstract_excerpt": "The composition of Ultra High Energy Cosmic Rays (UHECR) is measured with the High Resolution Fly's Eye cosmic ray observatory (HiRes) data using the Xmax technique. Data were collected in stereo between 1999 November and 2001 September. The data are reconstructed with well-determined geometry. Meas",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns ultra-high-energy cosmic ray composition measurements via the Fly's Eye observatory's Xmax technique, which has no relation to graph expansion, Cheeger inequalities, or Tseitin resolution width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1712.06904",
+      "title": "Rigidity for the isoperimetric inequality of negative effective dimension on weighted Riemannian manifolds",
+      "abstract_excerpt": "We study, on a weighted Riemannian manifold of Ric$_{N} \\geq K &gt; 0$ for $N &lt; -1$, when equality holds in the isoperimetric inequality. Our main theorem asserts that such a manifold is necessarily isometric to the warped product $\\mathbb{R} \\times_{\\cosh(\\sqrt{K/(1-N)}t)} Σ^{n-1}$ of hyperbolic nature, where $Σ^{n-1}$ is an $(n-1)$-dimensional manifold with lower weighted Ricci curvature bound and $\\mathbb{R}$ is equipped with a hyperbolic cosine measure. This is a similar phenomenon to the",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns rigidity of the isoperimetric inequality on weighted Riemannian manifolds with negative effective dimension ('weighted Riemannian manifold of Ric_N >= K > 0 for N < -1'), which shares only the broad isoperimetric framework but does not address graph Cheeger defects, Tseitin formulas, or resolution width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2111.02944",
+      "title": "A sharp isoperimetric inequality in metric measure spaces with non-negative Ricci curvature",
+      "abstract_excerpt": "We prove a sharp dimension-free isoperimetric inequality, involving the volume entropy, in non-compact metric measure spaces with non-negative synthetic Ricci curvature.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a dimension-free isoperimetric inequality in metric measure spaces with non-negative Ricci curvature involving volume entropy, which has no interaction with edge-expansion Cheeger defects on 3-regular graphs or resolution width of Tseitin formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2312.13058",
+      "title": "On the Cheeger inequality in Carnot-Carathéodory spaces",
+      "abstract_excerpt": "We generalize the Cheeger inequality, a lower bound on the first nontrivial eigenvalue of a Laplacian, to the case of geometric sub-Laplacians on rank-varying Carnot-Carathéodory spaces and we describe a concrete method to lower bound the Cheeger constant. The proof is geometric, and works for Dirichlet, Neumann and mixed boundary conditions. One of the main technical tools in the proof is a generalization of Courant's nodal domain theorem, which is proven from scratch for Neumann and mixed boun",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Cheeger inequalities for sub-Laplacians on Carnot-Carathéodory spaces (geometric/continuous setting), with no engagement with graph edge-expansion, Tseitin formulas, or resolution refutation width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2501.18019",
+      "title": "An exact closed walks series formula for the complexity of regular graphs and some related bounds",
+      "abstract_excerpt": "The complexity of a graph is the number of its labeled spanning trees. In this work complexity is studied in settings that admit regular graphs. An exact formula is established linking complexity of the complement of a regular graph to numbers of closed walks in the graph by way of an infinite alternating series. Some consequences of this result yield infinite classes of lower and upper bounds on the complexity of such graphs. Applications of these mathematical results to biological problems on ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns counting spanning trees (graph complexity) of regular graphs via closed walk series, with no mention of Tseitin formulas, resolution width, edge-isoperimetric ratios, or Cheeger bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2301.10131",
+      "title": "Random perfect matchings in regular graphs",
+      "abstract_excerpt": "We prove that in all regular robust expanders $G$ every edge is asymptotically equally likely contained in a uniformly chosen perfect matching $M$. We also show that given any fixed matching or spanning regular graph $N$ in $G$, the random variable $|M\\cap E(N)|$ is approximately Poisson distributed. This in particular confirms a conjecture and a question due to Spiro and Surya, and complements results due to Kahn and Kim who proved that in a regular graph every vertex is asymptotically equally ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the distribution of edges in random perfect matchings of regular robust expanders, citing 'switching method' and random-walk mixing, with no mention of Tseitin formulas, resolution width, or Cheeger defect bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 8,
+    "INSUFFICIENT": 0
+  }
+}
