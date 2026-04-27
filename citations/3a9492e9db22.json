@@ -1,0 +1,40 @@
+{
+  "entry_id": "3a9492e9db22",
+  "ts": 1777319165.0968664,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1804.08448",
+      "title": "On Asymptotic Formula for the First Moment of the Riemann Zeta-Function on the Critical Line",
+      "abstract_excerpt": "In the present paper the asymptotic formulae for the first moment of the Riemann zeta-function on the critical line is proven under assumption of the Riemann Hypothesis.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'asymptotic formulae for the first moment of the Riemann zeta-function on the critical line' under RH, which has no interaction with Ihara zeta functions of finite 3-regular graphs or DPLL refutation depth of Tseitin formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0311029v1",
+      "title": "Zeta functions over zeros of general zeta and $L$-functions",
+      "abstract_excerpt": "We describe in detail three distinct families of generalized zeta functions built over the (nontrivial) zeros of a rather general arithmetic zeta or L-function, extending the scope of two earlier works that treated the Riemann zeros only. Explicit properties are also displayed more clearly than befo",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns generalized zeta functions built over zeros of arithmetic zeta/L-functions, with no mention of Ihara zeta functions of graphs, Tseitin formulas, or DPLL/resolution complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1302.4644",
+      "title": "Heat kernels on regular graphs and generalized Ihara zeta function formulas",
+      "abstract_excerpt": "We establish a new formula for the heat kernel on regular trees in terms of classical I-Bessel functions. Although the formula is explicit, and a proof is given through direct computation, we also provide a conceptual viewpoint using the horocyclic transform on regular trees. From periodization, we then obtain a heat kernel expression on any regular graph. From spectral theory, one has another expression for the heat kernel as an integral transform of the spectral measure. By equating these two ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns heat kernel formulas and generalized Ihara zeta determinant identities on regular graphs, with no mention of DPLL, Tseitin formulas, proof complexity, or refutation depth lower bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

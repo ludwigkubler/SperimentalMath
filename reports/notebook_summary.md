@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-27 18:40 UTC"
+date: "2026-04-27 19:45 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-27 18:40 UTC
+Generated 2026-04-27 19:45 UTC
 
-- Cycles recorded: **164**
-- Time span: 93.0h (~1.76 cycles/h)
+- Cycles recorded: **167**
+- Time span: 94.1h (~1.77 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 145 |
+| INCONCLUSIVE | 148 |
 | FALSIFIED | 14 |
 | SUPPORTED | 4 |
 | BARRIER_HIT | 1 |
@@ -67,9 +67,6 @@ Generated 2026-04-27 18:40 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-27 13:16 UTC | `INCONCLUSIVE` | Zeckendorf Length of NW Design Rows Bounds PRG Parity Bias |
-| 2026-04-27 13:49 UTC | `INCONCLUSIVE` | Sturmian Factor-Complexity Lower-Bounds DNF-MCSP Term Count |
-| 2026-04-27 14:18 UTC | `INCONCLUSIVE` | Haar-Wavelet Star-Discrepancy of Sign Matrix Lower-Bounds Rigidit |
 | 2026-04-27 14:43 UTC | `INCONCLUSIVE` | Roe-cohomological concentration: HX^1(X_f) vanishes for random f, |
 | 2026-04-27 14:50 UTC | `INCONCLUSIVE` | Antichain-Width of Query Certificate Poset Bounds Lifted IND CC |
 | 2026-04-27 15:25 UTC | `INCONCLUSIVE` | Apolar Span of Clause-Product Polynomial Bounds DPLL Leaves |
@@ -82,6 +79,9 @@ Generated 2026-04-27 18:40 UTC
 | 2026-04-27 17:36 UTC | `INCONCLUSIVE` | Carries-Polynomial Degree Lower-Bounds EF-Lines for PHP_n |
 | 2026-04-27 18:10 UTC | `INCONCLUSIVE` | Sharply-Bounded Refutability Vanishes at 3-SAT Threshold |
 | 2026-04-27 18:40 UTC | `INCONCLUSIVE` | Run-Length Entropy Floor Lower-Bounds DNF-MCSP Term Count |
+| 2026-04-27 19:11 UTC | `INCONCLUSIVE` | Hamming-Weight Spectrum Slope Bounds ACC^0[2] Subcircuit Count |
+| 2026-04-27 19:34 UTC | `INCONCLUSIVE` | Pullback monotonicity of coarse depth under coarse-Lipschitz redu |
+| 2026-04-27 19:45 UTC | `INCONCLUSIVE` | Ihara Zeta Entropy Lower-Bounds DPLL Depth on 3-Regular Tseitin |
 
 ## How to read the reports
 

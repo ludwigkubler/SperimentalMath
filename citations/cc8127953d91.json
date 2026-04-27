@@ -1,0 +1,40 @@
+{
+  "entry_id": "cc8127953d91",
+  "ts": 1777318499.0055382,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2107.05128",
+      "title": "Karchmer-Wigderson Games for Hazard-free Computation",
+      "abstract_excerpt": "We present a Karchmer-Wigderson game to study the complexity of hazard-free formulas. This new game is both a generalization of the monotone Karchmer-Wigderson game and an analog of the classical Boolean Karchmer-Wigderson game. Therefore, it acts as a bridge between the existing monotone and general games.\n  Using this game, we prove hazard-free formula size and depth lower bounds that are provably stronger than those possible by the standard technique of transferring results from monotone comp",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a Karchmer-Wigderson game for hazard-free computation and lower bounds bridging monotone and Boolean complexity, with no mention of coarse geometry, coarse-Lipschitz reductions, or a κ invariant pulling back along m-reductions. It shares the KW vocabulary but does not address the specific functoriality/distortion-monotonicity claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2002.07444",
+      "title": "Multiparty Karchmer-Wigderson Games and Threshold Circuits",
+      "abstract_excerpt": "We suggest a generalization of Karchmer-Wigderson communication games to the multiparty setting. Our generalization turns out to be tightly connected to circuits consisting of threshold gates. This allows us to obtain new explicit constructions of such circuits for several functions. In particular, we provide an explicit (polynomial-time computable) log-depth monotone formula for Majority function, consisting only of 3-bit majority gates and variables. This resolves a conjecture of Cohen et al. ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a multiparty generalization of Karchmer-Wigderson games connected to threshold circuits and an explicit log-depth majority formula; it says nothing about coarse geometry, coarse-Lipschitz reductions, or pullback monotonicity of a κ invariant under m-reductions.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1404.7443",
+      "title": "Depth Lower Bounds against Circuits with Sparse Orientation",
+      "abstract_excerpt": "We study depth lower bounds against non-monotone circuits, parametrized by a new measure of non-monotonicity: the orientation of a function $f$ is the characteristic vector of the minimum sized set of negated variables needed in any DeMorgan circuit computing $f$. We prove trade-off results between the depth and the weight/structure of the orientation vectors in any circuit $C$ computing the Clique function on an $n$ vertex graph. We prove that if $C$ is of depth $d$ and each gate computes a Boo",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses depth lower bounds via orientation/negation weight in non-monotone circuits using a generalized Karchmer-Wigderson game, but says nothing about coarse geometry, coarse-Lipschitz reductions, Roe C*-algebras, or pullback monotonicity of a κ invariant under m-reductions.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
