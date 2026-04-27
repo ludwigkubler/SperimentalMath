@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-27 10:38 UTC"
+date: "2026-04-27 11:46 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-27 10:38 UTC
+Generated 2026-04-27 11:46 UTC
 
-- Cycles recorded: **143**
-- Time span: 85.0h (~1.68 cycles/h)
+- Cycles recorded: **146**
+- Time span: 86.1h (~1.70 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 124 |
+| INCONCLUSIVE | 127 |
 | FALSIFIED | 14 |
 | SUPPORTED | 4 |
 | BARRIER_HIT | 1 |
@@ -67,9 +67,6 @@ Generated 2026-04-27 10:38 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-27 02:42 UTC | `INCONCLUSIVE` | Permanent-Variance of NW Design Matrix Predicts PRG Bias |
-| 2026-04-27 03:18 UTC | `INCONCLUSIVE` | Cycle-Space Cocycle Imbalance Lower-Bounds Resolution Width of Ts |
-| 2026-04-27 03:49 UTC | `INCONCLUSIVE` | Halton Star-Discrepancy of Clause-Sign Embedding Bounds DPLL Leav |
 | 2026-04-27 04:23 UTC | `INCONCLUSIVE` | Erdős–Ko–Rado Shadow Defect Lower-Bounds Disjointness Discrepancy |
 | 2026-04-27 04:57 UTC | `INCONCLUSIVE` | Edge-Expansion Defect Predicts Resolution Width of Tseitin on Ran |
 | 2026-04-27 06:23 UTC | `INCONCLUSIVE` | Average-Case DPLL Runtime Linked to Random Matrix Spectra |
@@ -82,6 +79,9 @@ Generated 2026-04-27 10:38 UTC
 | 2026-04-27 09:53 UTC | `INCONCLUSIVE` | Brooks Quasimorphism Magnitude Lower-Bounds Formula Depth via Bar |
 | 2026-04-27 10:22 UTC | `INCONCLUSIVE` | Hadamard-Code Distance Defect Predicts NW-PRG Distinguisher Advan |
 | 2026-04-27 10:37 UTC | `INCONCLUSIVE` | Asymptotic-dimension lower bound for the indexing function via co |
+| 2026-04-27 10:47 UTC | `INCONCLUSIVE` | Permanent of Sensitive-Boundary Bipartite Matrix Bounds Lifted In |
+| 2026-04-27 11:13 UTC | `INCONCLUSIVE` | Subdeterminant Dispersion Lower-Bounds Singular-Tail Matrix Rigid |
+| 2026-04-27 11:46 UTC | `INCONCLUSIVE` | Lyndon Factor Count of Truth Table Lower-Bounds DT Leaves Under I |
 
 ## How to read the reports
 

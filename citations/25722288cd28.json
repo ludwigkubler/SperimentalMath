@@ -1,0 +1,85 @@
+{
+  "entry_id": "25722288cd28",
+  "ts": 1777286889.7014008,
+  "hits_evaluated": 8,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2512.11833",
+      "title": "Soft Decision Tree classifier: explainable and extendable PyTorch implementation",
+      "abstract_excerpt": "We implemented a Soft Decision Tree (SDT) and a Short-term Memory Soft Decision Tree (SM-SDT) using PyTorch. The methods were extensively tested on simulated and clinical datasets. The SDT was visualized to demonstrate the potential for its explainability. SDT, SM-SDT, and XGBoost demonstrated similar area under the curve (AUC) values. These methods were better than Random Forest, Logistic Regression, and Decision Tree. The results on clinical datasets suggest that, aside from a decision tree, a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a PyTorch implementation of Soft Decision Trees for clinical classification ('We implemented a Soft Decision Tree (SDT)... using PyTorch'), which has no interaction with permanents, communication complexity, or lifting theorems.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1810.08668",
+      "title": "Parity Decision Tree Complexity is Greater Than Granularity",
+      "abstract_excerpt": "We prove a new lower bound on the parity decision tree complexity $\\mathsf{D}_{\\oplus}(f)$ of a Boolean function $f$. Namely, granularity of the Boolean function $f$ is the smallest $k$ such that all Fourier coefficients of $f$ are integer multiples of $1/2^k$. We show that $\\mathsf{D}_{\\oplus}(f)\\geq k+1$.\n  This lower bound is an improvement of lower bounds through the sparsity of $f$ and through the degree of $f$ over $\\mathbb{F}_2$. Using our lower bound we determine the exact parity decisio",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns parity decision tree complexity lower bounds via Fourier granularity, not permanents of sensitive-boundary biadjacency matrices nor Indexing-lifted communication complexity. It shares the general 'Boolean function complexity' vocabulary but does not interact with the specific permanent-based bound or GPW lifting claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2209.08042",
+      "title": "Decision Tree Complexity versus Block Sensitivity and Degree",
+      "abstract_excerpt": "Relations between the decision tree complexity and various other complexity measures of Boolean functions is a thriving topic of research in computational complexity. It is known that decision tree complexity is bounded above by the cube of block sensitivity, and the cube of polynomial degree. However, the widest separation between decision tree complexity and each of block sensitivity and degree that is witnessed by known Boolean functions is quadratic. In this work, we investigate the tightnes",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract focuses on relating decision tree complexity to block sensitivity and degree, and on using the GPW lift to translate between DT and CC upper bounds; it never mentions permanents or sensitive-boundary biadjacency matrices, so it neither establishes nor refutes the proposed permanent-based lower bound.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1904.13056",
+      "title": "Query-to-Communication Lifting Using Low-Discrepancy Gadgets",
+      "abstract_excerpt": "Lifting theorems are theorems that relate the query complexity of a function $f:\\{0,1\\}^{n}\\to\\{0,1\\}$ to the communication complexity of the composed function $f \\circ g^{n}$, for some \"gadget\" $g:\\{0,1\\}^{b}\\times\\{0,1\\}^{b}\\to\\{0,1\\}$. Such theorems allow transferring lower bounds from query complexity to the communication complexity, and have seen numerous applications in the recent years. In addition, such theorems can be viewed as a strong generalization of a direct-sum theorem for the gad",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a lifting theorem for low-discrepancy gadgets of logarithmic length, not the Indexing gadget specifically and not any permanent-based lower bound; it shares the lifting framework but does not interact with the conjecture's claim about log_2(perm(B(f)) + 1) ≤ k · Q^dt(f).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:cs/0111062",
+      "title": "One-way communication complexity and the Neciporuk lower bound on formula size",
+      "abstract_excerpt": "In this paper the Neciporuk method for proving lower bounds on the size of Boolean formulae is reformulated in terms of one-way communication complexity. We investigate the scenarios of probabilistic formulae, nondeterministic formulae, and quantum formulae. In all cases we can use results about one-way communication complexity to prove lower bounds on formula size. In the latter two cases we newly develop the employed communication complexity bounds. The main results regarding formula size are ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the Neciporuk method for formula-size lower bounds via one-way communication complexity, with no mention of permanents, sensitive boundaries, Hamming-cube biadjacency matrices, or Indexing-lifted decision-tree complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:cs/9906008",
+      "title": "A Lower Bound on the Average-Case Complexity of Shellsort",
+      "abstract_excerpt": "We prove a general lower bound on the average-case complexity of Shellsort: the average number of data-movements (and comparisons) made by a $p$-pass Shellsort for any incremental sequence is $Ω(pn^{1 + 1/p})$ for every $p$. The proof method is an incompressibility argument based on Kolmogorov complexity. Using similar techniques, the average-case complexity of several other sorting algorithms is analyzed.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns average-case lower bounds for Shellsort via Kolmogorov complexity ('incompressibility argument based on Kolmogorov complexity'), with no connection to permanents, sensitive-boundary matrices, decision-tree depth, or lifted communication complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1703.07666",
+      "title": "Query-to-Communication Lifting for BPP",
+      "abstract_excerpt": "For any $n$-bit boolean function $f$, we show that the randomized communication complexity of the composed function $f\\circ g^n$, where $g$ is an index gadget, is characterized by the randomized decision tree complexity of $f$. In particular, this means that many query complexity separations involving randomized models (e.g., classical vs. quantum) automatically imply analogous separations in communication complexity.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract establishes a randomized query-to-communication lifting theorem for the index gadget ('randomized communication complexity ... is characterized by the randomized decision tree complexity of f'), but the conjecture concerns a deterministic permanent-based bound tied to sensitive-boundary matchings, which the abstract does not address.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2306.14401",
+      "title": "On the distribution of sensitivities of symmetric Boolean functions",
+      "abstract_excerpt": "A Boolean function $f({\\vec x})$ is sensitive to bit $x_i$ if there is at least one input vector $\\vec x$ and one bit $x_i$ in $\\vec x$, such that changing $x_i$ changes $f$. A function has sensitivity $s$ if among all input vectors, the largest number of bits to which $f$ is sensitive is $s$. We count the $n$-variable symmetric Boolean functions that have maximum sensitivity. We show that most such functions have the largest possible sensitivity, $n$. This suggests sensitivity is limited as a c",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract counts symmetric Boolean functions by maximum sensitivity ('count the n-variable symmetric Boolean functions that have maximum sensitivity'); it does not address permanents of sensitive-boundary biadjacency matrices, decision-tree depth, or indexing-lifted communication complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 8,
+    "INSUFFICIENT": 0
+  }
+}
