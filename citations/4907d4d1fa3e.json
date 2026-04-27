@@ -1,0 +1,85 @@
+{
+  "entry_id": "4907d4d1fa3e",
+  "ts": 1777277970.1279693,
+  "hits_evaluated": 8,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1907.08306",
+      "title": "A Polynomial Time Algorithm for Log-Concave Maximum Likelihood via Locally Exponential Families",
+      "abstract_excerpt": "We consider the problem of computing the maximum likelihood multivariate log-concave distribution for a set of points. Specifically, we present an algorithm which, given $n$ points in $\\mathbb{R}^d$ and an accuracy parameter $ε&gt;0$, runs in time $poly(n,d,1/ε),$ and returns a log-concave distribution which, with high probability, has the property that the likelihood of the $n$ points under the returned distribution is at most an additive $ε$ less than the maximum likelihood that could be achie",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a polynomial-time algorithm for log-concave maximum likelihood estimation of multivariate distributions, which shares only the vague 'log-concave' vocabulary with the conjecture's Newton-inequality defect; it says nothing about SAT generating polynomials, DPLL depth, or Newton's inequalities for integer coefficient polynomials.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2004.07220",
+      "title": "Log-Concave Polynomials IV: Approximate Exchange, Tight Mixing Times, and Near-Optimal Sampling of Forests",
+      "abstract_excerpt": "We prove tight mixing time bounds for natural random walks on bases of matroids, determinantal distributions, and more generally distributions associated with log-concave polynomials. For a matroid of rank $k$ on a ground set of $n$ elements, or more generally distributions associated with log-concave polynomials of homogeneous degree $k$ on $n$ variables, we show that the down-up random walk, started from an arbitrary point in the support, mixes in time $O(k\\log k)$. Our bound has no dependence",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns mixing times of down-up random walks and sampling on matroid bases via log-concave polynomials, with no mention of SAT, DPLL search trees, or Newton-inequality defects bounding search depth.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1604.00993",
+      "title": "The 'Core' of Symmetric Homogeneous Polynomial Inequalities of Degree Four of Three Real Variables",
+      "abstract_excerpt": "In this paper we explore inequalities between symmetric homogeneous polynomials of degree four of three real variables and three nonnegative real variables. The main theorems describe the cases in which the smallest possible coefficient is not expressed by the other coefficients. The problem is resolved by introducing a parametric representation.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns inequalities between symmetric homogeneous polynomials of degree four in three real variables, which is unrelated to Newton-inequality defects of SAT generating polynomials or DPLL search-tree depth.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1908.05361",
+      "title": "Placing quantified variants of 3-SAT and Not-All-Equal 3-SAT in the polynomial hierarchy",
+      "abstract_excerpt": "The complexity of variants of 3-SAT and Not-All-Equal 3-SAT is well studied. However, in contrast, very little is known about the complexity of the problems' quantified counterparts. In the first part of this paper, we show that $\\forall \\exists$ 3-SAT is $Π_2^P$-complete even if (1) each variable appears exactly twice unnegated and exactly twice negated, (2) each clause is a disjunction of exactly three distinct variables, and (3) the number of universal variables is equal to the number of exis",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the polynomial-hierarchy classification of quantified 3-SAT and NAE-3-SAT variants ($\\Pi_2^P$-completeness), with no mention of DPLL search-tree depth, generating polynomials, Newton's inequalities, or random 3-CNF — it shares only the general 3-SAT vocabulary.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0803.0018",
+      "title": "Another approach to decide on real root existence for univariate Polynomials, and a multivariate extension for 3-SAT",
+      "abstract_excerpt": "We present six Theorems on the univariate real Polynomial, using which we develop a new algorithm for deciding the existence of atleast one real root for univariate integer Polynomials. Our algorithm outputs that no positive real root exists, if and only if, the given Polynomial is a factor of a real Polynomial with positive coefficients. Next, we define a transformation that transforms any instance of 3-SAT into a multivariate real Polynomial with positive coefficients, if and only if, the inst",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns deciding real-root existence for univariate polynomials and a transformation mapping unsatisfiable 3-SAT to multivariate polynomials with positive coefficients; it does not address Newton-inequality defects of solution generating polynomials nor DPLL search-tree depth bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1110.1658",
+      "title": "Algorithm that Solves 3-SAT in Polynomial Time",
+      "abstract_excerpt": "The question of whether the complexity class P is equal to the complexity class NP has been a seemingly intractable problem for over 4 decades. It has been clear that if an algorithm existed that would solve the problems in the NP class in polynomial time then P would equal NP. However, no one has yet been able to create that algorithm or to successfully prove that such an algorithm cannot exist. The algorithm that will be presented in this paper solves the 3-satisfiability or 3-CNF-SAT problem,",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract merely claims a polynomial-time algorithm for 3-SAT, with no mention of DPLL search-tree depth, generating polynomials, Newton's inequalities, or log-concavity defects ('solves the 3-satisfiability or 3-CNF-SAT problem'). It does not interact with the specific quantitative claim linking delta(F) to DPLL leaf counts.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2312.00421",
+      "title": "A Semi-Tensor Product based Circuit Simulation for SAT-sweeping",
+      "abstract_excerpt": "In recent years, circuit simulators and Boolean satisfiability (SAT) solvers have been tightly integrated to provide efficient logic synthesis and verification. Circuit simulation can generate highly expressive simulation patterns that can either enumerate or filter out most candidates for synthesis. Subsequently, SAT solvers are employed to check those that remain, thereby making the logic synthesis process more efficient. This paper introduces a novel circuit simulator of k-input lookup table ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a semi-tensor product circuit simulator for SAT-sweeping in logic synthesis, with no mention of DPLL search-tree depth, Newton's inequalities, or generating polynomials of SAT solutions.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1002.1290",
+      "title": "Bounds on Threshold of Regular Random $k$-SAT",
+      "abstract_excerpt": "We consider the regular model of formula generation in conjunctive normal form (CNF) introduced by Boufkhad et. al. We derive an upper bound on the satisfiability threshold and NAE-satisfiability threshold for regular random $k$-SAT for any $k \\geq 3$. We show that these bounds matches with the corresponding bound for the uniform model of formula generation.\n  We derive lower bound on the threshold by applying the second moment method to the number of satisfying assignments. For large $k$, we no",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns satisfiability thresholds for regular random k-SAT via moment methods, not DPLL search-tree depth, Newton inequalities, or solution-weight generating polynomials. It shares the random k-SAT setting but does not interact with the conjecture's specific claim linking a Newton-defect to DPLL leaf counts.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 8,
+    "INSUFFICIENT": 0
+  }
+}

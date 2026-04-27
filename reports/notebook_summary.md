@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-27 07:44 UTC"
+date: "2026-04-27 08:18 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-27 07:44 UTC
+Generated 2026-04-27 08:18 UTC
 
-- Cycles recorded: **137**
-- Time span: 82.1h (~1.67 cycles/h)
+- Cycles recorded: **138**
+- Time span: 82.6h (~1.67 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 118 |
+| INCONCLUSIVE | 119 |
 | FALSIFIED | 14 |
 | SUPPORTED | 4 |
 | BARRIER_HIT | 1 |
@@ -67,7 +67,6 @@ Generated 2026-04-27 07:44 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-27 00:22 UTC | `INCONCLUSIVE` | Tropical Affine Rigidity: Vanishing Discrepancy iff Single-Atom F |
 | 2026-04-27 00:31 UTC | `INCONCLUSIVE` | Continued Fraction Depth of Spectral Ratio Bounds Discrepancy |
 | 2026-04-27 01:05 UTC | `INCONCLUSIVE` | Young-Flattening Rank Gap Lower-Bounds Padded-Permanent Border Ra |
 | 2026-04-27 01:38 UTC | `INCONCLUSIVE` | Pebble-Cost Gadget Lifts Decision Tree Depth to KW-Game Length |
@@ -82,6 +81,7 @@ Generated 2026-04-27 07:44 UTC
 | 2026-04-27 07:04 UTC | `INCONCLUSIVE` | Betti Numbers and Resolution Width in 3-CNF |
 | 2026-04-27 07:15 UTC | `INCONCLUSIVE` | Sandpile-Group Order of Lifted IP Bipartite Graph Bounds Decision |
 | 2026-04-27 07:44 UTC | `INCONCLUSIVE` | Doob Martingale Variance Gap Predicts Worst-Case DPLL Depth |
+| 2026-04-27 08:18 UTC | `INCONCLUSIVE` | Newton-Inequality Defect of SAT Generating Polynomial Bounds DPLL |
 
 ## How to read the reports
 
