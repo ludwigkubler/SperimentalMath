@@ -1,0 +1,85 @@
+{
+  "entry_id": "6be01f5e483c",
+  "ts": 1777256956.3405294,
+  "hits_evaluated": 8,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1010.5964",
+      "title": "Quadratic discrete Fourier transform and mutually unbiased bases",
+      "abstract_excerpt": "The present chapter [submitted for publication in \"Fourier Transforms, Theory and Applications\", G. Nikolic (Ed.), InTech (Open Access Publisher), Vienna, 2011] is concerned with the introduction and study of a quadratic discrete Fourier transform. This Fourier transform can be considered as a two-parameter extension, with a quadratic term, of the usual discrete Fourier transform. In the case where the two parameters are taken to be equal to zero, the quadratic discrete Fourier transform is noth",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a 'quadratic discrete Fourier transform' for quantum information and mutually unbiased bases, with no mention of tropical/max-plus semirings, Legendre–Fenchel transforms, or homogeneous scaling of minimal Fourier coefficients.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1207.2443",
+      "title": "Tropical Teichmuller and Siegel spaces",
+      "abstract_excerpt": "In this paper, we present a unified study of the moduli space of tropical curves and Outer space which we link via period maps to the moduli space of tropical abelian varieties and the space of positive definite quadratic forms. Our work is a first step towards exhibiting Outer space and the space of positive definite quadratic forms as analogues of Teichmüller space and Siegel space, respectively, in tropical geometry. All these spaces and the maps among them are described within the category o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns moduli spaces of tropical curves, Outer space, and tropical abelian varieties via period maps and ideal stacky fans, with no mention of tropical Fourier coefficients, discrepancy bounds, or homogeneity under tropical rescaling.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1204.4578",
+      "title": "Complexity of tropical and min-plus linear prevarieties",
+      "abstract_excerpt": "A tropical (or min-plus) semiring is a set $\\mathbb{Z}$ (or $\\mathbb{Z \\cup \\{\\infty\\}}$) endowed with two operations: $\\oplus$, which is just usual minimum, and $\\odot$, which is usual addition. In tropical algebra the vector $x$ is a solution to a polynomial $g_1(x) \\oplus g_2(x) \\oplus...\\oplus g_k(x)$, where $g_i(x)$'s are tropical monomials, if the minimum in $\\min_i(g_{i}(x))$ is attained at least twice. In min-plus algebra solutions of systems of equations of the form $g_1(x)\\oplus...\\opl",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns computational complexity of solvability and dimension problems for tropical/min-plus linear systems (reducing to mean payoff games, NP∩coNP, NP-completeness), not Fourier coefficients, Legendre–Fenchel transforms, or homogeneity scaling under tropical rescaling.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1406.3065",
+      "title": "Lower Bounds for Tropical Circuits and Dynamic Programs",
+      "abstract_excerpt": "Tropical circuits are circuits with Min and Plus, or Max and Plus operations as gates. Their importance stems from their intimate relation to dynamic programming algorithms. The power of tropical circuits lies somewhere between that of monotone boolean circuits and monotone arithmetic circuits. In this paper we present some lower bounds arguments for tropical circuits, and hence, for dynamic programs.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns lower bounds for tropical (min/max-plus) circuits and dynamic programs, sharing only the tropical-semiring vocabulary; it says nothing about Fourier coefficients, Legendre–Fenchel transforms, or homogeneity under positive tropical rescaling.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1904.05483",
+      "title": "Parallels Between Phase Transitions and Circuit Complexity?",
+      "abstract_excerpt": "In many natural average-case problems, there are or there are believed to be critical values in the parameter space where the structure of the space of solutions changes in a fundamental way. These phase transitions are often believed to coincide with drastic changes in the computational complexity of the associated problem.\n  In this work, we study the circuit complexity of inference in the broadcast tree model, which has important applications in phylogenetic reconstruction and close connectio",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns circuit complexity of belief propagation in the broadcast tree model and phase transitions, with no mention of tropical Fourier transforms, Legendre-Fenchel duality, or homogeneity of minimal Fourier coefficients under tropical rescaling.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1606.05050",
+      "title": "Proof Complexity Lower Bounds from Algebraic Circuit Complexity",
+      "abstract_excerpt": "We give upper and lower bounds on the power of subsystems of the Ideal Proof System (IPS), the algebraic proof system recently proposed by Grochow and Pitassi, where the circuits comprising the proof come from various restricted algebraic circuit classes. This mimics an established research direction in the boolean setting for subsystems of Extended Frege proofs, where proof-lines are circuits from restricted boolean circuit classes. Except one, all of the subsystems considered in this paper can",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns proof complexity lower bounds for the Ideal Proof System via algebraic circuit complexity, with no mention of tropical/min-plus Fourier transforms, Legendre-Fenchel duality, or homogeneity of minimal Fourier coefficients under tropical rescaling. It shares no specific claim with the conjecture about λ-homogeneity of MinimalFourierCoefficient.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1503.01392",
+      "title": "Valuations of Semirings",
+      "abstract_excerpt": "We develop notions of valuations on a semiring, with a view toward extending the classical theory of abstract nonsingular curves and discrete valuation rings to this general algebraic setting; the novelty of our approach lies in the implementation of hyperrings to yield a new definition (\\emph{hyperfield valuation}). In particular, we classify valuations on the semifield $\\mathbb{Q}_{max}$ (the max-plus semifield of rational numbers) and also valuations on the `function field' $\\mathbb{Q}_{max}(",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns valuations on semirings like Q_max and abstract curves over the max-plus semifield, with no mention of tropical Fourier transforms, minimal Fourier coefficients, or scaling/homogeneity properties relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0812.3496",
+      "title": "Linear independence over tropical semirings and beyond",
+      "abstract_excerpt": "We investigate different notions of linear independence and of matrix rank that are relevant for max-plus or tropical semirings. The factor rank and tropical rank have already received attention, we compare them with the ranks defined in terms of signed tropical determinants or arising from a notion of linear independence introduced by Gondran and Minoux. To do this, we revisit the symmetrization of the max-plus algebra, establishing properties of linear spaces, linear systems, and matrices over",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns linear independence and matrix ranks (factor rank, tropical rank, Gondran-Minoux) over symmetrized max-plus algebra, not Fourier-type transforms, scaling homogeneity of minimal Fourier coefficients, or discrepancy bounds. It shares the tropical/max-plus vocabulary but does not interact with the specific homogeneity claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 8,
+    "INSUFFICIENT": 0
+  }
+}
