@@ -1,0 +1,76 @@
+{
+  "entry_id": "223537333300",
+  "ts": 1777291987.8923354,
+  "hits_evaluated": 7,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0610498v4",
+      "title": "Bounds on changes in Ritz values for a perturbed invariant subspace of a Hermitian matrix",
+      "abstract_excerpt": "The Rayleigh-Ritz method is widely used for eigenvalue approximation. Given a matrix $X$ with columns that form an orthonormal basis for a subspace $\\X$, and a Hermitian matrix $A$, the eigenvalues of $X^HAX$ are called Ritz values of $A$ with respect to $\\X$. If the subspace $\\X$ is $A$-invariant t",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns perturbation bounds for Ritz values of Hermitian matrices via the Rayleigh-Ritz method, which does not interact with sign-matrix rigidity, Kashin splittings, or singular-value tail sums of {+1,-1} matrices.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1005.0979",
+      "title": "Supersymmetry in Random Matrix Theory",
+      "abstract_excerpt": "Supersymmetry is nowadays indispensable for many problems in Random Matrix Theory. It is presented here with an emphasis on conceptual and structural issues. An introduction to supermathematics is given. The Hubbard-Stratonovich transformation as well as its generalization and superbosonization are explained. The supersymmetric non-linear sigma model, Brownian motion in superspace and the color-flavor transformation are discussed.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns supersymmetry techniques in random matrix theory (Hubbard-Stratonovich, sigma models, superbosonization), with no mention of matrix rigidity, sign matrices, Kashin decompositions, or singular-value tail bounds relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1204.0062",
+      "title": "Improved matrix algorithms via the Subsampled Randomized Hadamard Transform",
+      "abstract_excerpt": "Several recent randomized linear algebra algorithms rely upon fast dimension reduction methods. A popular choice is the Subsampled Randomized Hadamard Transform (SRHT). In this article, we address the efficacy, in the Frobenius and spectral norms, of an SRHT-based low-rank matrix approximation technique introduced by Woolfe, Liberty, Rohklin, and Tygert. We establish a slightly better Frobenius norm error bound than currently available, and a much sharper spectral norm error bound (in the presen",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns SRHT-based randomized low-rank approximation error bounds in Frobenius/spectral norms, not matrix rigidity, Kashin decompositions, or sign-matrix lower bounds at rank n/4.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2208.05223",
+      "title": "Modular Bourgain-Tzafriri Restricted Invertibility Conjectures and Johnson-Lindenstrauss Flattening Conjecture",
+      "abstract_excerpt": "We recently formulated important Modular Bourgain-Tzafriri Restricted Invertibility Conjectures and Modular Johnson-Lindenstrauss Flattening Conjecture in the Appendix of \\textit{[arXiv: 2207.12799.v1]}. For the sake of wide accessibility we give a self-contained treatment of them.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract only announces 'Modular Bourgain-Tzafriri Restricted Invertibility Conjectures' and a Johnson-Lindenstrauss flattening conjecture in a self-contained format, with no mention of sign matrices, matrix rigidity, Kashin splittings, or singular-value tail sums. It shares the Bourgain-Tzafriri vocabulary but does not engage with the specific rigidity bound claimed.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1503.07054",
+      "title": "A Geometric Perspective on the Singular Value Decomposition",
+      "abstract_excerpt": "This is an introductory survey, from a geometric perspective, on the Singular Value Decomposition (SVD) for real matrices, focusing on the role of the Terracini Lemma. We extend this point of view to tensors, we define the singular space of a tensor as the space spanned by singular vector tuples and we study some of its basic properties.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes an introductory geometric/Terracini-Lemma survey of the SVD and its tensor extension, with no mention of matrix rigidity, sign matrices, Kashin decompositions, or singular-value tail bounds relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2503.20972",
+      "title": "p-adic Grothendieck Inequality, p-adic Johnson-Lindenstrauss Flattening and p-adic Bourgain-Tzafriri Restricted Invertibility Problems",
+      "abstract_excerpt": "We formulate p-adic versions of following three: (1) Grothendieck Inequality, (2) Johnson-Lindenstrauss Flattening Lemma, (3) Bourgain-Tzafriri Restricted Invertibility Theorem.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract only formulates p-adic versions of Grothendieck, Johnson-Lindenstrauss, and Bourgain-Tzafriri results, with no statement about sign-matrix rigidity, Kashin splittings of real matrices, or singular-value tail sums.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1210.1461",
+      "title": "A Scalable CUR Matrix Decomposition Algorithm: Lower Time Complexity and Tighter Bound",
+      "abstract_excerpt": "The CUR matrix decomposition is an important extension of Nyström approximation to a general matrix. It approximates any data matrix in terms of a small number of its columns and rows. In this paper we propose a novel randomized CUR algorithm with an expected relative-error bound. The proposed algorithm has the advantages over the existing relative-error CUR algorithms that it possesses tighter theoretical bound and lower time complexity, and that it can avoid maintaining the whole data matrix i",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a randomized CUR matrix decomposition algorithm with relative-error bounds and lower time complexity, which shares the linear-algebra framework but does not address Kashin splittings, sign-matrix rigidity, or singular-value tail sums.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 7,
+    "INSUFFICIENT": 0
+  }
+}

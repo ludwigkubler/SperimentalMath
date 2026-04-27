@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-27 11:46 UTC"
+date: "2026-04-27 12:41 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-27 11:46 UTC
+Generated 2026-04-27 12:41 UTC
 
-- Cycles recorded: **146**
-- Time span: 86.1h (~1.70 cycles/h)
+- Cycles recorded: **148**
+- Time span: 87.0h (~1.70 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 127 |
+| INCONCLUSIVE | 129 |
 | FALSIFIED | 14 |
 | SUPPORTED | 4 |
 | BARRIER_HIT | 1 |
@@ -67,8 +67,6 @@ Generated 2026-04-27 11:46 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-27 04:23 UTC | `INCONCLUSIVE` | Erdős–Ko–Rado Shadow Defect Lower-Bounds Disjointness Discrepancy |
-| 2026-04-27 04:57 UTC | `INCONCLUSIVE` | Edge-Expansion Defect Predicts Resolution Width of Tseitin on Ran |
 | 2026-04-27 06:23 UTC | `INCONCLUSIVE` | Average-Case DPLL Runtime Linked to Random Matrix Spectra |
 | 2026-04-27 07:04 UTC | `INCONCLUSIVE` | Betti Numbers and Resolution Width in 3-CNF |
 | 2026-04-27 07:15 UTC | `INCONCLUSIVE` | Sandpile-Group Order of Lifted IP Bipartite Graph Bounds Decision |
@@ -82,6 +80,8 @@ Generated 2026-04-27 11:46 UTC
 | 2026-04-27 10:47 UTC | `INCONCLUSIVE` | Permanent of Sensitive-Boundary Bipartite Matrix Bounds Lifted In |
 | 2026-04-27 11:13 UTC | `INCONCLUSIVE` | Subdeterminant Dispersion Lower-Bounds Singular-Tail Matrix Rigid |
 | 2026-04-27 11:46 UTC | `INCONCLUSIVE` | Lyndon Factor Count of Truth Table Lower-Bounds DT Leaves Under I |
+| 2026-04-27 12:12 UTC | `INCONCLUSIVE` | Kashin-Split Energy Gap Lower-Bounds Sign-Matrix Rigidity at Rank |
+| 2026-04-27 12:41 UTC | `INCONCLUSIVE` | Roe-trace pairing for Inner-Product realizes coarse depth κ ≥ log |
 
 ## How to read the reports
 
