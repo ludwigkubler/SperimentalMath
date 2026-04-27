@@ -1,0 +1,85 @@
+{
+  "entry_id": "848aa89a6626",
+  "ts": 1777297834.8500094,
+  "hits_evaluated": 8,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1303.5057",
+      "title": "GRay: a Massively Parallel GPU-Based Code for Ray Tracing in Relativistic Spacetimes",
+      "abstract_excerpt": "We introduce GRay, a massively parallel integrator designed to trace the trajectories of billions of photons in a curved spacetime. This GPU-based integrator employs the stream processing paradigm, is implemented in CUDA C/C++, and runs on nVidia graphics cards. The peak performance of GRay using single precision floating-point arithmetic on a single GPU exceeds 300 GFLOP (or 1 nanosecond per photon per time step). For a realistic problem, where the peak performance cannot be reached, GRay is tw",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes 'GRay, a massively parallel integrator designed to trace the trajectories of billions of photons in a curved spacetime,' which concerns GPU-based ray tracing in general relativity and has no connection to Boolean function complexity, DNF minimization, or symbolic dynamics.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1203.2323",
+      "title": "The greedy flip tree of a subword complex",
+      "abstract_excerpt": "We describe a canonical spanning tree of the ridge graph of a subword complex on a finite Coxeter group. It is based on properties of greedy facets in subword complexes, defined and studied in this paper. Searching this tree yields an enumeration scheme for the facets of the subword complex. This algorithm extends the greedy flip algorithm for pointed pseudotriangulations of points or convex bodies in the plane.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a 'subword complex on a finite Coxeter group' and an enumeration algorithm for its facets via a 'greedy flip tree' — this is combinatorics on Coxeter groups, unrelated to factor complexity of Gray-code words or DNF minimization.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2412.05161",
+      "title": "DNF: Unconditional 4D Generation with Dictionary-based Neural Fields",
+      "abstract_excerpt": "While remarkable success has been achieved through diffusion-based 3D generative models for shapes, 4D generative modeling remains challenging due to the complexity of object deformations over time. We propose DNF, a new 4D representation for unconditional generative modeling that efficiently models deformable shapes with disentangled shape and motion while capturing high-fidelity details in the deforming objects. To achieve this, we propose a dictionary learning approach to disentangle 4D motio",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'DNF, a new 4D representation' for generative modeling of deformable shapes via dictionary learning and neural fields—it shares only the acronym 'DNF' and has nothing to do with disjunctive normal form, MCSP, or factor complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1501.01331",
+      "title": "DNF complexity of complete boolean functions",
+      "abstract_excerpt": "In this paper we analyse the complexity of boolean functions takes value 0 on a sufficiently small number of points. For many functions this leads to the analysis of a single function attains 0 only on unsigned representation of numbers from 1 to d for various d. Here we obtain a tight bounds on the DNF complexity of complete functions in terms of the number of literals and conjunctions. The method is based on a certain efficient approximation of the hypercube covering problem related to DNF com",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses DNF complexity bounds for 'complete' boolean functions via hypercube covering approximations, with no mention of Gray-code linearizations, factor/subword complexity, or Sturmian-style p_w(k)/k ratios that the conjecture relies on.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2511.07739",
+      "title": "A Lower Bound for the Fourier Entropy of Boolean Functions on the Biased Hypercube",
+      "abstract_excerpt": "We study Boolean functions on the $p$-biased hypercube $(\\{0,1\\}^n,μ_p^n)$ through the lens of Fourier (spectral) entropy, i.e. the Shannon entropy of the squared $p$-biased Fourier coefficients. Motivated by recent restriction-based advances on upper bounds toward the Fourier-Entropy-Influence (FEI) conjecture, we prove a complementary, sharp lower bound that decomposes the entropy into coordinate-wise contributions. Let $q:=4p(1-p)$ and define $Ψ:[0,\\tfrac12]\\to[0,\\ln 2]$ by $Ψ(t):=h\\left(\\fra",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Fourier entropy lower bounds on the biased hypercube via the FEI framework, with no mention of subword/factor complexity, Gray-code linearization, or DNF term-count lower bounds, so it does not interact with the specific Sturmian-vs-DNF_min claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2404.02414",
+      "title": "A simple lower bound for the complexity of estimating partition functions on a quantum computer",
+      "abstract_excerpt": "We study the complexity of estimating the partition function $\\mathsf{Z}(β)=\\sum_{x\\inχ} e^{-βH(x)}$ for a Gibbs distribution characterized by the Hamiltonian $H(x)$. We provide a simple and natural lower bound for quantum algorithms that solve this task by relying on reflections through the coherent encoding of Gibbs states. Our primary contribution is a $\\varOmega(1/ε)$ lower bound for the number of reflections needed to estimate the partition function with a quantum algorithm. The proof is ba",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quantum query lower bounds for estimating Gibbs partition functions via reflections, citing a reduction from Hamming weight estimation; it has no connection to DNF minimum term counts or Sturmian/factor complexity of Gray-code truth tables.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1904.05483",
+      "title": "Parallels Between Phase Transitions and Circuit Complexity?",
+      "abstract_excerpt": "In many natural average-case problems, there are or there are believed to be critical values in the parameter space where the structure of the space of solutions changes in a fundamental way. These phase transitions are often believed to coincide with drastic changes in the computational complexity of the associated problem.\n  In this work, we study the circuit complexity of inference in the broadcast tree model, which has important applications in phylogenetic reconstruction and close connectio",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns circuit complexity of belief propagation in broadcast tree models and phase transitions, with no mention of DNF minimization, factor/subword complexity, Gray-code linearizations, or Sturmian words. It shares only the broad 'circuit complexity' framing with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1212.3064",
+      "title": "Subword complexity and Sturmian colorings of regular trees",
+      "abstract_excerpt": "In this article, we study subword complexity of colorings of regular trees. We characterize colorings of bounded subword complexity and study Sturmian colorings, which are colorings of minimal unbounded subword complexity.\n  We classify Sturmian colorings using their type sets. We show that any Sturmian coloring is a lifting of a coloring on a quotient graph of the tree which is a geodesic or a ray with loops possibly attached, thus a lifting of an \"infinte word\". We further give a complete char",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses subword complexity and Sturmian colorings on regular trees, classifying them via type sets and quotient graphs—it makes no claim about Boolean function DNF size, Gray-code linearizations, or meta-complexity, so it neither supports nor refutes the DNF_min lower bound conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 8,
+    "INSUFFICIENT": 0
+  }
+}

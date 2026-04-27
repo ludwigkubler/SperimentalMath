@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-27 13:17 UTC"
+date: "2026-04-27 14:43 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-27 13:17 UTC
+Generated 2026-04-27 14:43 UTC
 
-- Cycles recorded: **150**
-- Time span: 87.6h (~1.71 cycles/h)
+- Cycles recorded: **153**
+- Time span: 89.0h (~1.72 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 131 |
+| INCONCLUSIVE | 134 |
 | FALSIFIED | 14 |
 | SUPPORTED | 4 |
 | BARRIER_HIT | 1 |
@@ -67,9 +67,6 @@ Generated 2026-04-27 13:17 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-27 07:15 UTC | `INCONCLUSIVE` | Sandpile-Group Order of Lifted IP Bipartite Graph Bounds Decision |
-| 2026-04-27 07:44 UTC | `INCONCLUSIVE` | Doob Martingale Variance Gap Predicts Worst-Case DPLL Depth |
-| 2026-04-27 08:18 UTC | `INCONCLUSIVE` | Newton-Inequality Defect of SAT Generating Polynomial Bounds DPLL |
 | 2026-04-27 08:47 UTC | `INCONCLUSIVE` | Möbius Function of Minterm Lattice Bounds Indexing-Lifted Communi |
 | 2026-04-27 09:18 UTC | `INCONCLUSIVE` | Noise-Stability Plateau at rho=1/3 Bounds DPLL Leaves on 3-CNF |
 | 2026-04-27 09:53 UTC | `INCONCLUSIVE` | Brooks Quasimorphism Magnitude Lower-Bounds Formula Depth via Bar |
@@ -82,6 +79,9 @@ Generated 2026-04-27 13:17 UTC
 | 2026-04-27 12:41 UTC | `INCONCLUSIVE` | Roe-trace pairing for Inner-Product realizes coarse depth κ ≥ log |
 | 2026-04-27 12:47 UTC | `INCONCLUSIVE` | Cubical Betti Sum of Implicant Complex Lower-Bounds DNF-MCSP |
 | 2026-04-27 13:16 UTC | `INCONCLUSIVE` | Zeckendorf Length of NW Design Rows Bounds PRG Parity Bias |
+| 2026-04-27 13:49 UTC | `INCONCLUSIVE` | Sturmian Factor-Complexity Lower-Bounds DNF-MCSP Term Count |
+| 2026-04-27 14:18 UTC | `INCONCLUSIVE` | Haar-Wavelet Star-Discrepancy of Sign Matrix Lower-Bounds Rigidit |
+| 2026-04-27 14:43 UTC | `INCONCLUSIVE` | Roe-cohomological concentration: HX^1(X_f) vanishes for random f, |
 
 ## How to read the reports
 

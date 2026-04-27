@@ -1,0 +1,85 @@
+{
+  "entry_id": "bb503edce1c2",
+  "ts": 1777299567.8879566,
+  "hits_evaluated": 8,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:cs/0702067",
+      "title": "The Haar Wavelet Transform of a Dendrogram: Additional Notes",
+      "abstract_excerpt": "We consider the wavelet transform of a finite, rooted, node-ranked, $p$-way tree, focusing on the case of binary ($p = 2$) trees. We study a Haar wavelet transform on this tree. Wavelet transforms allow for multiresolution analysis through translation and dilation of a wavelet function. We explore how this works in our tree context.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a Haar wavelet transform on rooted node-ranked trees (dendrograms) for multiresolution analysis, with no mention of sign matrices, star-discrepancy, or matrix rigidity. It shares only the 'Haar wavelet' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1005.0979",
+      "title": "Supersymmetry in Random Matrix Theory",
+      "abstract_excerpt": "Supersymmetry is nowadays indispensable for many problems in Random Matrix Theory. It is presented here with an emphasis on conceptual and structural issues. An introduction to supermathematics is given. The Hubbard-Stratonovich transformation as well as its generalization and superbosonization are explained. The supersymmetric non-linear sigma model, Brownian motion in superspace and the color-flavor transformation are discussed.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns supersymmetry techniques (Hubbard-Stratonovich, sigma models) in Random Matrix Theory, with no mention of matrix rigidity, Haar-wavelet discrepancy, or sign matrices, so it does not interact with the specific conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1112.1588",
+      "title": "Evaluating Matrix Functions by Resummations on Graphs: the Method of Path-Sums",
+      "abstract_excerpt": "We introduce the method of path-sums which is a tool for exactly evaluating a function of a discrete matrix with possibly non-commuting entries, based on the closed-form resummation of infinite families of terms in the corresponding Taylor series. If the matrix is finite, our approach yields the exact result in a finite number of steps. We achieve this by combining a mapping between matrix powers and walks on a weighted directed graph with a universal graph-theoretic result on the structure of s",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'path-sums' for evaluating matrix functions (exponential, inverse, logarithm) and quasideterminants on weighted graphs, with no mention of matrix rigidity, sign matrices, Haar wavelets, or discrepancy theory.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0909.2030",
+      "title": "Size Bounds for Conjunctive Queries with General Functional Dependencies",
+      "abstract_excerpt": "This paper extends the work of Gottlob, Lee, and Valiant (PODS 2009)[GLV], and considers worst-case bounds for the size of the result Q(D) of a conjunctive query Q to a database D given an arbitrary set of functional dependencies. The bounds in [GLV] are based on a \"coloring\" of the query variables. In order to extend the previous bounds to the setting of arbitrary functional dependencies, we leverage tools from information theory to formalize the original intuition that each color used represen",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns worst-case size bounds for conjunctive queries under functional dependencies using information-theoretic linear programs, with no mention of matrix rigidity, Haar wavelets, discrepancy, or sign matrices.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1308.3946",
+      "title": "Optimal Algorithms for Testing Closeness of Discrete Distributions",
+      "abstract_excerpt": "We study the question of closeness testing for two discrete distributions. More precisely, given samples from two distributions $p$ and $q$ over an $n$-element set, we wish to distinguish whether $p=q$ versus $p$ is at least $\\eps$-far from $q$, in either $\\ell_1$ or $\\ell_2$ distance. Batu et al. gave the first sub-linear time algorithms for these problems, which matched the lower bounds of Valiant up to a logarithmic factor in $n$, and a polynomial factor of $\\eps.$\n  In this work, we present ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns sample complexity for testing closeness of discrete distributions in L1/L2, with no mention of Haar wavelets, star-discrepancy, sign matrices, or matrix rigidity. It shares no specific claim with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0906.0693",
+      "title": "An improved lower bound on the counterfeit coins problem",
+      "abstract_excerpt": "In this paper, we will give an improvement on the lower bound for the counterfeit coins problem in the case that the number of false coins is unknown in advance",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns lower bounds for the counterfeit coins problem, which is a combinatorial search/weighing problem unrelated to Haar-wavelet discrepancy of sign matrices or Valiant matrix rigidity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1306.2976",
+      "title": "Seshadri constants, Diophantine approximation, and Roth's Theorem for arbitrary varieties",
+      "abstract_excerpt": "In this paper, we associate an invariant $α_{x}(L)$ to an algebraic point $x$ on an algebraic variety $X$ with an ample line bundle $L$. The invariant $α$ measures how well $x$ can be approximated by rational points on $X$, with respect to the height function associated to $L$. We show that this invariant is closely related to the Seshadri constant $ε_{x}(L)$ measuring local positivity of $L$ at $x$, and in particular that Roth's theorem on $\\mathbf{P}^1$ generalizes as an inequality between the",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Seshadri constants and a Diophantine-approximation Roth's theorem on projective varieties ('Roth's theorem on P^1 generalizes as an inequality between these two invariants'), which has no bearing on Haar-wavelet discrepancy of sign matrices or matrix rigidity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2411.10363",
+      "title": "Hammersley Point Sets and Inverse of Star-Discrepancy",
+      "abstract_excerpt": "We establish the existence of $N$-point sets in dimension $d$ whose star-discrepancy is bounded above by $2.4631832 \\sqrt{\\frac{d}{N}}$, where the numerical constant improves upon all previously known bounds. This improvement is obtained by combining a recent result by Gnewuch on bracketing numbers in high dimensions with discrepancy bounds for Hammersley point sets due to Atanassov in dimensions $1 \\leq d \\leq 4$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns upper bounds on star-discrepancy of Hammersley point sets in d-dimensional unit cubes (≤ 2.46√(d/N)), with no mention of sign matrices, Haar wavelets, or matrix rigidity, so it does not interact with the specific R(M,n/2) ≥ c·D(M)^2/log n claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 8,
+    "INSUFFICIENT": 0
+  }
+}
