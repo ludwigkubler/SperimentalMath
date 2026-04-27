@@ -1,0 +1,85 @@
+{
+  "entry_id": "71ce01b16c1e",
+  "ts": 1777249946.9813328,
+  "hits_evaluated": 8,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1210.1461",
+      "title": "A Scalable CUR Matrix Decomposition Algorithm: Lower Time Complexity and Tighter Bound",
+      "abstract_excerpt": "The CUR matrix decomposition is an important extension of Nyström approximation to a general matrix. It approximates any data matrix in terms of a small number of its columns and rows. In this paper we propose a novel randomized CUR algorithm with an expected relative-error bound. The proposed algorithm has the advantages over the existing relative-error CUR algorithms that it possesses tighter theoretical bound and lower time complexity, and that it can avoid maintaining the whole data matrix i",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a randomized CUR matrix decomposition with relative-error bounds, with no mention of continued fractions, singular value ratios, sign matrices, or communication complexity discrepancy. It shares only the generic vocabulary of matrix approximation and is unrelated to the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:cs/0111062",
+      "title": "One-way communication complexity and the Neciporuk lower bound on formula size",
+      "abstract_excerpt": "In this paper the Neciporuk method for proving lower bounds on the size of Boolean formulae is reformulated in terms of one-way communication complexity. We investigate the scenarios of probabilistic formulae, nondeterministic formulae, and quantum formulae. In all cases we can use results about one-way communication complexity to prove lower bounds on formula size. In the latter two cases we newly develop the employed communication complexity bounds. The main results regarding formula size are ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns one-way communication complexity and Neciporuk-style formula size lower bounds, with no mention of discrepancy, singular value ratios, or continued-fraction expansions. It shares only the broad framework of communication complexity and does not interact with the specific spectral/Diophantine claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:cs/9906008",
+      "title": "A Lower Bound on the Average-Case Complexity of Shellsort",
+      "abstract_excerpt": "We prove a general lower bound on the average-case complexity of Shellsort: the average number of data-movements (and comparisons) made by a $p$-pass Shellsort for any incremental sequence is $Ω(pn^{1 + 1/p})$ for every $p$. The proof method is an incompressibility argument based on Kolmogorov complexity. Using similar techniques, the average-case complexity of several other sorting algorithms is analyzed.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns average-case lower bounds for Shellsort via Kolmogorov complexity (incompressibility), with no mention of singular values, discrepancy, continued fractions, or communication complexity. It does not interact with the specific spectral/discrepancy claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2209.08318",
+      "title": "Hausdorff dimension of sets with restricted, slowly growing partial quotients in semi-regular continued fractions",
+      "abstract_excerpt": "We determine the Hausdorff dimension of sets of irrationals in $(0,1)$ whose partial quotients in semi-regular continued fractions obey certain restrictions and growth conditions. This result substantially generalizes that of the second author [Proc. Amer. Math. Soc. {\\bf 151} (2023), 3645--3653] and the solution of Hirst's conjecture [B.-W. Wang and J. Wu, Bull. London Math. Soc. {\\bf 40} (2008), 18--22], both previously obtained for the regular continued fraction. To prove the result, we const",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Hausdorff dimension of sets of irrationals with restricted partial quotients in semi-regular continued fractions, which shares vocabulary (partial quotients, growth conditions) but does not address discrepancy of ±1 sign matrices or any inequality linking continued-fraction depth to communication complexity bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1510.00068",
+      "title": "On the complete solution of the general quintic using Rogers-Ramanujan continued fraction",
+      "abstract_excerpt": "In this article we give solution of the general quintic equation by means of the Rogers-Ramanujan continued fraction. More precisely we express a root of the quintic as a known algebraic function of the Rogers-Ramanujan continued fraction.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns solving general quintic equations via the Rogers-Ramanujan continued fraction, which shares only the vocabulary 'continued fraction' with the conjecture and has no bearing on discrepancy bounds or singular value ratios of ±1 matrices.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1111.6023",
+      "title": "On a General Sextic Equation Solved by the Rogers Ramanujan Continued Fraction",
+      "abstract_excerpt": "In this article we solve a general class of sextic equations. The solution follows if we consider the $j$-invariant and relate it with the polynomial equation's coefficients. The form of the solution is a relation of Rogers-Ramanujan continued fraction. The inverse technique can also be used for the evaluation of the Rogers-Ramanujan continued fraction, in which the equation is not now the depressed equation but another quite more simplified equation.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns solving sextic equations via the Rogers-Ramanujan continued fraction and j-invariants, which shares only the vocabulary 'continued fraction' but does not address discrepancy, sign matrices, singular values, or partial-quotient bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2207.14810",
+      "title": "Simplifying a classical-quantum algorithm interpolation with quantum singular value transformations",
+      "abstract_excerpt": "The problem of Phase Estimation (or Amplitude Estimation) admits a quadratic quantum speedup. Wang, Higgott and Brierley [2019, Phys. Rev. Lett. 122 140504] have shown that there is a continuous trade-off between quantum speedup and circuit depth (by defining a family of algorithms known as $α$-QPE). In this work, we show that the scaling of $α$-QPE can be naturally and succinctly derived within the framework of Quantum Singular Value Transformation (QSVT). From the QSVT perspective, a greater n",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Quantum Singular Value Transformation applied to Phase Estimation and the sign function approximation, with no mention of discrepancy, communication complexity, continued fractions, or sign matrices relevant to the conjecture's claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2004.09833",
+      "title": "Expressing the largest eigenvalue of a singular beta F-matrix with heterogeneous hypergeometric functions",
+      "abstract_excerpt": "In this paper, the exact distribution of the largest eigenvalue of a singular random matrix for multivariate analysis of variance (MANOVA) is discussed. The key to developing the distribution theory of eigenvalues of a singular random matrix is to use heterogeneous hypergeometric functions with two matrix arguments. In this study, we define the singular beta F-matrix and extend the distributions of a nonsingular beta F -matrix to the singular case. We also give the joint density of eigenvalues a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the exact distribution of the largest eigenvalue of a singular beta F-matrix in MANOVA via heterogeneous hypergeometric functions, which has no interaction with discrepancy bounds, sign matrices, or continued-fraction expansions of singular value ratios.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 8,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "entry_id": "318f60b6c3b3",
+  "ts": 1777247833.6765726,
+  "hits_evaluated": 8,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1503.01613",
+      "title": "Space proof complexity for random 3-CNFs",
+      "abstract_excerpt": "We investigate the space complexity of refuting $3$-CNFs in Resolution and algebraic systems. We prove that every Polynomial Calculus with Resolution refutation of a random $3$-CNF $φ$ in $n$ variables requires, with high probability, $Ω(n)$ distinct monomials to be kept simultaneously in memory. The same construction also proves that every Resolution refutation $φ$ requires, with high probability, $Ω(n)$ clauses each of width $Ω(n)$ to be kept at the same time in memory. This gives a $Ω(n^2)$ l",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses Resolution/Polynomial Calculus space complexity lower bounds (Ω(n) monomials, Ω(n²) total space) for random 3-CNFs, which concerns memory in proof systems rather than DPLL search-tree depth or sample-compression set size. It shares the 'random 3-CNF' setting but does not interact with the specific C(F) vs D(F) relationship conjectured.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:cs/0506069",
+      "title": "A generating function method for the average-case analysis of DPLL",
+      "abstract_excerpt": "A method to calculate the average size of Davis-Putnam-Loveland-Logemann (DPLL) search trees for random computational problems is introduced, and applied to the satisfiability of random CNF formulas (SAT) and the coloring of random graph (COL) problems. We establish recursion relations for the generating functions of the average numbers of (variable or color) assignments at a given height in the search tree, which allow us to derive the asymptotics of the expected DPLL tree size, 2^{N w + o(N)},",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses average DPLL tree size asymptotics 2^{Nw+o(N)} via generating functions, not the relationship between a sample-compression set size C(F) and worst-case DPLL depth; it shares the DPLL/random-CNF setting but does not engage with compression schemes or the specific C(F) <= D(F) <= 3C(F)+O(log n) bound.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:cs/0209032",
+      "title": "Complexity Results on DPLL and Resolution",
+      "abstract_excerpt": "DPLL and resolution are two popular methods for solving the problem of propositional satisfiability. Rather than algorithms, they are families of algorithms, as their behavior depend on some choices they face during execution: DPLL depends on the choice of the literal to branch on; resolution depends on the choice of the pair of clauses to resolve at each step. The complexity of making the optimal choice is analyzed in this paper. Extending previous results, we prove that choosing the optimal li",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses complexity-theoretic hardness of choosing optimal DPLL branching literals and proof sizes (e.g., 'Delta[log]^2-hard', 'CoNP-hard'), not any quantitative relationship between sample-compression set size and DPLL depth on random 3-CNF at alpha=4.0.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1810.01864",
+      "title": "Agnostic Sample Compression Schemes for Regression",
+      "abstract_excerpt": "We obtain the first positive results for bounded sample compression in the agnostic regression setting with the $\\ell_p$ loss, where $p\\in [1,\\infty]$. We construct a generic approximate sample compression scheme for real-valued function classes exhibiting exponential size in the fat-shattering dimension but independent of the sample size. Notably, for linear regression, an approximate compression of size linear in the dimension is constructed. Moreover, for $\\ell_1$ and $\\ell_\\infty$ losses, we",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses sample compression schemes for agnostic regression with $\\ell_p$ losses and fat-shattering dimension bounds, with no mention of DPLL search, random 3-CNF formulas, or unit-propagation closures. It shares only the general 'sample compression' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2401.04670",
+      "title": "Modified Levenberg-Marquardt Algorithm For Tensor CP Decomposition in Image Compression",
+      "abstract_excerpt": "This paper explores a new version of the Levenberg-Marquardt algorithm used for Tensor Canonical Polyadic (CP) decomposition with an emphasis on image compression and reconstruction. Tensor computation, especially CP decomposition, holds significant applications in data compression and analysis. In this study, we formulate CP as a nonlinear least squares optimization problem. Then, we present an iterative Levenberg-Marquardt (LM) based algorithm for computing the CP decomposition. Ultimately, we",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a Levenberg-Marquardt algorithm for tensor CP decomposition applied to image compression, with no connection to PAC-Bayesian sample compression, DPLL search, or random 3-CNF formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2310.10886",
+      "title": "The Calysto Scheme Project",
+      "abstract_excerpt": "Calysto Scheme is written in Scheme in Continuation-Passing Style, and converted through a series of correctness-preserving program transformations into Python. It has support for standard Scheme functionality, including call/cc, as well as syntactic extensions, a nondeterministic operator for automatic backtracking, and many extensions to allow Python interoperation. Because of its Python foundation, it can take advantage of modern Python libraries, including those for machine learning and othe",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes Calysto Scheme, a Scheme implementation in Python with nondeterministic backtracking for educational purposes, with no connection to PAC-Bayesian compression, DPLL search depth, or random 3-CNF formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1002.1290",
+      "title": "Bounds on Threshold of Regular Random $k$-SAT",
+      "abstract_excerpt": "We consider the regular model of formula generation in conjunctive normal form (CNF) introduced by Boufkhad et. al. We derive an upper bound on the satisfiability threshold and NAE-satisfiability threshold for regular random $k$-SAT for any $k \\geq 3$. We show that these bounds matches with the corresponding bound for the uniform model of formula generation.\n  We derive lower bound on the threshold by applying the second moment method to the number of satisfying assignments. For large $k$, we no",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns satisfiability thresholds for regular random k-SAT via second moment methods, with no mention of DPLL depth, compression sets, or unit-propagation complexity that the conjecture addresses.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1402.4455",
+      "title": "Symbiosis of Search and Heuristics for Random 3-SAT",
+      "abstract_excerpt": "When combined properly, search techniques can reveal the full potential of sophisticated branching heuristics. We demonstrate this observation on the well-known class of random 3-SAT formulae. First, a new branching heuristic is presented, which generalizes existing work on this class. Much smaller search trees can be constructed by using this heuristic. Second, we introduce a variant of discrepancy search, called ALDS. Theoretical and practical evidence support that ALDS traverses the search tr",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a new branching heuristic and discrepancy-search variant (ALDS) for random 3-SAT in the march solver, but says nothing about sample-compression sets or a C(F) ≤ D(F) ≤ 3·C(F)+O(log n) relationship; it shares the random 3-SAT framework only.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 8,
+    "INSUFFICIENT": 0
+  }
+}

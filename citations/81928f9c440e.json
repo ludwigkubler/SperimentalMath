@@ -1,0 +1,85 @@
+{
+  "entry_id": "81928f9c440e",
+  "ts": 1777249393.4812827,
+  "hits_evaluated": 8,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1207.2443",
+      "title": "Tropical Teichmuller and Siegel spaces",
+      "abstract_excerpt": "In this paper, we present a unified study of the moduli space of tropical curves and Outer space which we link via period maps to the moduli space of tropical abelian varieties and the space of positive definite quadratic forms. Our work is a first step towards exhibiting Outer space and the space of positive definite quadratic forms as analogues of Teichmüller space and Siegel space, respectively, in tropical geometry. All these spaces and the maps among them are described within the category o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns moduli spaces of tropical curves, Outer space, and tropical abelian varieties via period maps and stacky fans, with no mention of tropical Fourier/Legendre-Fenchel transforms, discrepancy, or affine-function recognition.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1204.4578",
+      "title": "Complexity of tropical and min-plus linear prevarieties",
+      "abstract_excerpt": "A tropical (or min-plus) semiring is a set $\\mathbb{Z}$ (or $\\mathbb{Z \\cup \\{\\infty\\}}$) endowed with two operations: $\\oplus$, which is just usual minimum, and $\\odot$, which is usual addition. In tropical algebra the vector $x$ is a solution to a polynomial $g_1(x) \\oplus g_2(x) \\oplus...\\oplus g_k(x)$, where $g_i(x)$'s are tropical monomials, if the minimum in $\\min_i(g_{i}(x))$ is attained at least twice. In min-plus algebra solutions of systems of equations of the form $g_1(x)\\oplus...\\opl",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses computational complexity of tropical/min-plus linear system solvability and dimension problems (mean payoff games, NP∩coNP, NP-completeness), not Legendre–Fenchel transforms, discrepancy, or characterizations of tropically affine functions via single-atom Fourier concentration.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2006.04823",
+      "title": "Quantum Legendre-Fenchel Transform",
+      "abstract_excerpt": "We present a quantum algorithm to compute the discrete Legendre-Fenchel transform. Given access to a convex function evaluated at $N$ points, the algorithm outputs a quantum-mechanical representation of its corresponding discrete Legendre-Fenchel transform evaluated at $K$ points in the transformed space. For a fixed regular discretization of the dual space the expected running time scales as $O(\\sqrtκ\\,\\mathrm{polylog}(N,K))$, where $κ$ is the condition number of the function. If the discretiza",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract presents a quantum algorithm for computing the discrete Legendre-Fenchel transform with complexity bounds, and does not address tropical affinity, discrepancy, or singleton support of the argmin set. It shares the Legendre-Fenchel framework but does not interact with the specific iff claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0710.0377",
+      "title": "Idempotent and tropical mathematics and problems of mathematical physics (Volume I)",
+      "abstract_excerpt": "This volume contains the proceedings of an International Workshop on Idempotent and Tropical Mathematics and Problems of Mathematical Physics, held at the Independent University of Moscow, Russia, on August 25-30, 2007.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract only states this is a workshop proceedings volume on 'Idempotent and Tropical Mathematics' without describing any specific results, so it is impossible to determine from the abstract alone whether any contained paper addresses the discrepancy/Legendre-Fenchel rigidity claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0709.4119",
+      "title": "Idempotent and tropical mathematics and problems of mathematical physics (Volume II)",
+      "abstract_excerpt": "This volume contains the proceedings of an International Workshop on Idempotent and Tropical Mathematics and Problems of Mathematical Physics, held at the Independent University of Moscow, Russia, on August 25-30, 2007.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract only states that the document is a workshop proceedings volume on idempotent and tropical mathematics, with no specific claims about Legendre–Fenchel transforms, discrepancy, or affine recognition. Nothing in the abstract addresses the specific iff claim of the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0507014v1",
+      "title": "The Maslov dequantization, idempotent and tropical mathematics: A brief introduction",
+      "abstract_excerpt": "This paper is a brief introduction to idempotent and tropical mathematics. Tropical mathematics can be treated as a result of the so-called Maslov dequantization of the traditional mathematics over numerical fields as the Planck constant $\\hbar$ tends to zero taking imaginary values.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a 'brief introduction to idempotent and tropical mathematics' via Maslov dequantization, with no mention of Legendre–Fenchel/tropical Fourier transforms, discrepancy, or affine-function characterizations. It shares vocabulary (tropical/Maslov) but does not address the specific iff claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2210.10942",
+      "title": "Lecture notes on Legendre polynomials: their origin and main properties",
+      "abstract_excerpt": "It is well-known that separation of variables in 2nd order partial differential equations (PDEs) for physical problems with spherical symmetry usually leads to Cauchy's differential equation for the radial coordinate and Legendre's differential equation for the polar angle $θ$. For eigenvalues of the form $\\,n\\,(n+1)$, $n \\ge 0\\,$ being an integer, Legendre's equation admits certain polynomials $P_n(\\cosθ)$ as solutions, which form a complete set of continuous orthogonal functions for all $θ\\in ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns classical Legendre polynomials, Fourier-Legendre series, and irrationality proofs for ζ(2)/ζ(3) — it does not address tropical/min-plus semirings, Legendre–Fenchel transforms, or affine recognition. Shared vocabulary ('Legendre', 'Fourier') does not interact with the specific claim about tropical affine rigidity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2410.12251",
+      "title": "NP-hardness of testing equivalence to sparse polynomials and to constant-support polynomials",
+      "abstract_excerpt": "An $s$-sparse polynomial has at most $s$ monomials with nonzero coefficients. The Equivalence Testing problem for sparse polynomials (ETsparse) asks to decide if a given polynomial $f$ is equivalent to (i.e., in the orbit of) some $s$-sparse polynomial. In other words, given $f \\in \\mathbb{F}[\\mathbf{x}]$ and $s \\in \\mathbb{N}$, ETsparse asks to check if there exist $A \\in \\mathrm{GL}(|\\mathbf{x}|, \\mathbb{F})$ and $\\mathbf{b} \\in \\mathbb{F}^{|\\mathbf{x}|}$ such that $f(A\\mathbf{x} + \\mathbf{b})",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns NP-hardness of equivalence testing for sparse polynomials over a field via GL transformations, not tropical/min-plus Fourier (Legendre-Fenchel) transforms or affine-function recognition via vanishing discrepancy. There is no interaction with the specific iff-claim about single-atom Fourier concentration.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 6,
+    "INSUFFICIENT": 2
+  }
+}

@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-26 23:26 UTC"
+date: "2026-04-27 00:31 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-26 23:26 UTC
+Generated 2026-04-27 00:31 UTC
 
-- Cycles recorded: **121**
-- Time span: 73.8h (~1.64 cycles/h)
+- Cycles recorded: **124**
+- Time span: 74.9h (~1.66 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 102 |
+| INCONCLUSIVE | 105 |
 | FALSIFIED | 14 |
 | SUPPORTED | 4 |
 | BARRIER_HIT | 1 |
@@ -67,9 +67,6 @@ Generated 2026-04-26 23:26 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-26 18:14 UTC | `INCONCLUSIVE` | Antichain Cover Number of KW Relation Lower-Bounds Monotone Formu |
-| 2026-04-26 18:40 UTC | `INCONCLUSIVE` | Tropical Lipschitz Stability of Discrepancy under Fourier Coeffic |
-| 2026-04-26 19:10 UTC | `INCONCLUSIVE` | Young-Tableau Cell Count Bounds Border-Rank of 3x3 Permanent Slic |
 | 2026-04-26 19:40 UTC | `INCONCLUSIVE` | Lehmer Pair Density of Communication Matrix Lower-Bounds Discrepa |
 | 2026-04-26 20:32 UTC | `FALSIFIED` | Tropical Self-Convolution Doubling Law for MinimalFourierCoeffici |
 | 2026-04-26 20:50 UTC | `FALSIFIED` | Tropical Shift-Invariance of MinimalFourierCoefficient under Addi |
@@ -82,6 +79,9 @@ Generated 2026-04-26 23:26 UTC
 | 2026-04-26 22:22 UTC | `BARRIER_HIT` | Schur-Horn Majorization Gap Lower-Bounds Sign-Rank Discrepancy |
 | 2026-04-26 22:55 UTC | `INCONCLUSIVE` | Pseudoexpectation Spectral Gap Lower-Bounds SoS Refutation Degree |
 | 2026-04-26 23:26 UTC | `INCONCLUSIVE` | Mahler Measure of Signed-Degree Polynomial Bounds ACC^0[6] Size |
+| 2026-04-26 23:56 UTC | `INCONCLUSIVE` | Sample-Compression Gap Predicts Worst-Case DPLL Depth on Random 3 |
+| 2026-04-27 00:22 UTC | `INCONCLUSIVE` | Tropical Affine Rigidity: Vanishing Discrepancy iff Single-Atom F |
+| 2026-04-27 00:31 UTC | `INCONCLUSIVE` | Continued Fraction Depth of Spectral Ratio Bounds Discrepancy |
 
 ## How to read the reports
 
