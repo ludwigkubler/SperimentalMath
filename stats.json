@@ -1,8 +1,8 @@
 {
-  "last_update_utc": "2026-04-27T05:47:01Z",
-  "total_cycles": 133,
+  "last_update_utc": "2026-04-27T06:47:02Z",
+  "total_cycles": 134,
   "verdict_counts": {
-    "INCONCLUSIVE": 114,
+    "INCONCLUSIVE": 115,
     "SUPPORTED": 4,
     "FALSIFIED": 14,
     "BARRIER_HIT": 1
@@ -42,6 +42,10 @@
       2
     ],
     [
+      "Random Matrix Theory",
+      2
+    ],
+    [
       "Combinatorial homotopy theory",
       1
     ],
@@ -63,10 +67,6 @@
     ],
     [
       "Clifford algebras over finite fields",
-      1
-    ],
-    [
-      "Toric geometry (via Gröbner degenerations)",
       1
     ]
   ]

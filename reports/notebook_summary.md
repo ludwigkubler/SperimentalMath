@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-27 04:57 UTC"
+date: "2026-04-27 06:23 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-27 04:57 UTC
+Generated 2026-04-27 06:23 UTC
 
-- Cycles recorded: **133**
-- Time span: 79.3h (~1.68 cycles/h)
+- Cycles recorded: **134**
+- Time span: 80.7h (~1.66 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 114 |
+| INCONCLUSIVE | 115 |
 | FALSIFIED | 14 |
 | SUPPORTED | 4 |
 | BARRIER_HIT | 1 |
@@ -40,6 +40,7 @@ Generated 2026-04-27 04:57 UTC
 | Ergodic Circuit Framework (COMM_COMPLEXITY) | 2 |
 | Matroid Theory | 2 |
 | Tropical geometry | 2 |
+| Random Matrix Theory | 2 |
 | Combinatorial homotopy theory | 1 |
 | Kazhdan-Lusztig theory of Hecke algebras | 1 |
 | Combinatorial algebraic topology | 1 |
@@ -61,13 +62,11 @@ Generated 2026-04-27 04:57 UTC
 | Modular forms | 1 |
 | Algebraic geometry (ideals in polynomial rings) | 1 |
 | Hypergraph Tutte polynomials | 1 |
-| Galois theory of finite field extensions | 1 |
 
 ## Last 15 cycles (chronological)
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-26 22:22 UTC | `BARRIER_HIT` | Schur-Horn Majorization Gap Lower-Bounds Sign-Rank Discrepancy |
 | 2026-04-26 22:55 UTC | `INCONCLUSIVE` | Pseudoexpectation Spectral Gap Lower-Bounds SoS Refutation Degree |
 | 2026-04-26 23:26 UTC | `INCONCLUSIVE` | Mahler Measure of Signed-Degree Polynomial Bounds ACC^0[6] Size |
 | 2026-04-26 23:56 UTC | `INCONCLUSIVE` | Sample-Compression Gap Predicts Worst-Case DPLL Depth on Random 3 |
@@ -82,6 +81,7 @@ Generated 2026-04-27 04:57 UTC
 | 2026-04-27 03:49 UTC | `INCONCLUSIVE` | Halton Star-Discrepancy of Clause-Sign Embedding Bounds DPLL Leav |
 | 2026-04-27 04:23 UTC | `INCONCLUSIVE` | Erdős–Ko–Rado Shadow Defect Lower-Bounds Disjointness Discrepancy |
 | 2026-04-27 04:57 UTC | `INCONCLUSIVE` | Edge-Expansion Defect Predicts Resolution Width of Tseitin on Ran |
+| 2026-04-27 06:23 UTC | `INCONCLUSIVE` | Average-Case DPLL Runtime Linked to Random Matrix Spectra |
 
 ## How to read the reports
 
