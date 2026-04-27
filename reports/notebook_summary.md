@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-27 20:42 UTC"
+date: "2026-04-27 21:34 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,20 +13,20 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-27 20:42 UTC
+Generated 2026-04-27 21:34 UTC
 
-- Cycles recorded: **169**
-- Time span: 95.0h (~1.78 cycles/h)
+- Cycles recorded: **171**
+- Time span: 95.9h (~1.78 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 149 |
+| INCONCLUSIVE | 150 |
 | FALSIFIED | 14 |
 | SUPPORTED | 4 |
-| BARRIER_HIT | 2 |
+| BARRIER_HIT | 3 |
 
 ## Mathematical fields explored (field_A)
 
@@ -67,8 +67,6 @@ Generated 2026-04-27 20:42 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-27 15:25 UTC | `INCONCLUSIVE` | Apolar Span of Clause-Product Polynomial Bounds DPLL Leaves |
-| 2026-04-27 15:55 UTC | `INCONCLUSIVE` | Cheeger Constant of Quotient Multigraph Bounds Tseitin Resolution |
 | 2026-04-27 16:27 UTC | `INCONCLUSIVE` | RSK Second-Row Length of f-Sorted Permutation Bounds Lifted IND C |
 | 2026-04-27 16:44 UTC | `INCONCLUSIVE` | Coarse-dimensional KRW direct sum: asdim is sub-additive under bl |
 | 2026-04-27 16:59 UTC | `INCONCLUSIVE` | Fourier Variance Ratio of Violated-Clause Counter Bounds Tree-Res |
@@ -82,6 +80,8 @@ Generated 2026-04-27 20:42 UTC
 | 2026-04-27 19:45 UTC | `INCONCLUSIVE` | Ihara Zeta Entropy Lower-Bounds DPLL Depth on 3-Regular Tseitin |
 | 2026-04-27 20:12 UTC | `INCONCLUSIVE` | Hypercontractive p→2 Norm of Restriction Operator Bounds Resoluti |
 | 2026-04-27 20:42 UTC | `BARRIER_HIT` | Median-Restriction Hardness Amplification Gap for DNF Truth Table |
+| 2026-04-27 21:18 UTC | `INCONCLUSIVE` | Total-Influence Defect of Clause-Indicator Bounds Tree-Resolution |
+| 2026-04-27 21:34 UTC | `BARRIER_HIT` | Diameter-Multiplicity Power Law under Controlled Refinement Recov |
 
 ## How to read the reports
 
