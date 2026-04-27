@@ -1,0 +1,85 @@
+{
+  "entry_id": "ee44e38271ee",
+  "ts": 1777309289.3231447,
+  "hits_evaluated": 8,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0806.1148",
+      "title": "Unsatisfiable CNF Formulas need many Conflicts",
+      "abstract_excerpt": "A pair of clauses in a CNF formula constitutes a conflict if there is a variable that occurs positively in one clause and negatively in the other. A CNF formula without any conflicts is satisfiable. The Lovasz Local Lemma implies that a k-CNF formula is satisfiable if each clause conflicts with at most 2^k/e-1 clauses. It does not, however, give any good bound on how many conflicts an unsatisfiable formula has globally. We show here that every unsatisfiable k-CNF formula requires 2.69^k conflict",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract bounds the global number of clause-pair conflicts in unsatisfiable k-CNFs (2.69^k lower, 3.51^k upper), which concerns clause-conflict counts, not Walsh-Hadamard Fourier variance of the violated-clause counter or tree-resolution depth.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0905.1587",
+      "title": "Unsatisfiable Linear CNF Formulas Are Large and Complex",
+      "abstract_excerpt": "We call a CNF formula linear if any two clauses have at most one variable in common. We show that there exist unsatisfiable linear k-CNF formulas with at most 4k^2 4^k clauses, and on the other hand, any linear k-CNF formula with at most 4^k/(8e^2k^2) clauses is satisfiable. The upper bound uses probabilistic means, and we have no explicit construction coming even close to it. One reason for this is that unsatisfiable linear formulas exhibit a more complex structure than general (non-linear) for",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract gives lower bounds on tree-resolution refutation size (e.g., '2^(2^(k/2-1))') for linear k-CNF formulas, but says nothing about Walsh-Hadamard Fourier coefficients of the violated-clauses counter or a variance-to-mean-squared ratio R(F). It shares the tree-resolution framework but does not interact with the specific Fourier-concentration floor claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2511.07739",
+      "title": "A Lower Bound for the Fourier Entropy of Boolean Functions on the Biased Hypercube",
+      "abstract_excerpt": "We study Boolean functions on the $p$-biased hypercube $(\\{0,1\\}^n,μ_p^n)$ through the lens of Fourier (spectral) entropy, i.e. the Shannon entropy of the squared $p$-biased Fourier coefficients. Motivated by recent restriction-based advances on upper bounds toward the Fourier-Entropy-Influence (FEI) conjecture, we prove a complementary, sharp lower bound that decomposes the entropy into coordinate-wise contributions. Let $q:=4p(1-p)$ and define $Ψ:[0,\\tfrac12]\\to[0,\\ln 2]$ by $Ψ(t):=h\\left(\\fra",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a Fourier-entropy lower bound for Boolean functions on the p-biased hypercube via the FEI framework, with no mention of resolution depth, DPLL trees, unsatisfiable 3-CNFs, or violated-clause counters. It shares only general Fourier-analysis vocabulary and does not interact with the variance-ratio-vs-tree-resolution-depth claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1508.06336",
+      "title": "SPRIGHT: A Fast and Robust Framework for Sparse Walsh-Hadamard Transform",
+      "abstract_excerpt": "We consider the problem of computing the Walsh-Hadamard Transform (WHT) of some $N$-length input vector in the presence of noise, where the $N$-point Walsh spectrum is $K$-sparse with $K = {O}(N^δ)$ scaling sub-linearly in the input dimension $N$ for some $0&lt;δ&lt;1$. Over the past decade, there has been a resurgence in research related to the computation of Discrete Fourier Transform (DFT) for some length-$N$ input signal that has a $K$-sparse Fourier spectrum. In particular, through a sparse",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a fast algorithmic framework for computing sparse Walsh-Hadamard transforms under noise (sample/computational complexity O(K log N), O(K log^2 N)), and says nothing about violated-clause counters, resolution depth, or DPLL refutations. It shares only the Walsh-Hadamard vocabulary.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2101.09528v1",
+      "title": "Hard satisfiable formulas for DPLL algorithms using heuristics with small memory",
+      "abstract_excerpt": "DPLL algorithm for solving the Boolean satisfiability problem (SAT) can be represented in the form of a procedure that, using heuristics $A$ and $B$, select the variable $x$ from the input formula $\\varphi$ and the value $b$ and runs recursively on the formulas $\\varphi[x := b]$ and $\\varphi[x := 1 ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns DPLL heuristics with small memory on satisfiable formulas, not Fourier-analytic lower bounds on tree-resolution depth for UNSAT 3-CNFs via a violated-clauses counter. It shares the DPLL/SAT vocabulary but does not interact with the specific Fourier variance ratio claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0804.4584",
+      "title": "Feature Unification in TAG Derivation Trees",
+      "abstract_excerpt": "The derivation trees of a tree adjoining grammar provide a first insight into the sentence semantics, and are thus prime targets for generation systems. We define a formalism, feature-based regular tree grammars, and a translation from feature based tree adjoining grammars into this new formalism. The translation preserves the derivation structures of the original grammar, and accounts for feature unification.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns tree adjoining grammars and feature unification in computational linguistics ('derivation trees of a tree adjoining grammar'), which has no interaction with Fourier analysis of clause counters or resolution refutation depth.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0911.3482",
+      "title": "Complexity of Networks (reprise)",
+      "abstract_excerpt": "Network or graph structures are ubiquitous in the study of complex systems. Often, we are interested in complexity trends of these system as it evolves under some dynamic. An example might be looking at the complexity of a food web as species enter an ecosystem via migration or speciation, and leave via extinction.\n  In a previous paper, a complexity measure of networks was proposed based on the {\\em complexity is information content} paradigm. To apply this paradigm to any object, one must fix ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a complexity measure for networks based on information content of graph representations ('complexity is information content paradigm'), with no connection to Walsh-Hadamard Fourier analysis, violated-clause counters, or tree-resolution depth of 3-CNFs.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/nlin/0101006v1",
+      "title": "On Complexity and Emergence",
+      "abstract_excerpt": "Numerous definitions for complexity have been proposed over the last half century, with little consensus achieved on how to use the term. A definition of complexity is supplied here that is closely related to the Kolmogorov Complexity and Shannon Entropy measures widely used as complexity measures, ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses general definitions of complexity related to Kolmogorov Complexity and Shannon Entropy, with no mention of Fourier analysis, resolution depth, or 3-CNF refutations relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 8,
+    "INSUFFICIENT": 0
+  }
+}
