@@ -205,3 +205,11 @@ Co-Authored-By: SEC Explorer <noreply@sec>"
 else
     echo "no changes"
 fi
+
+# --- 13b. Health report (every 6h, for remote agents to consume)
+if [ -f "$SRC/health_report.json" ]; then
+    cp "$SRC/health_report.json" health_report.json
+fi
+if [ -f "$SRC/health_report.md" ]; then
+    cp "$SRC/health_report.md" health_report.md
+fi
