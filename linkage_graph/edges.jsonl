@@ -1,0 +1,6 @@
+{"src": "TARGET_AC0_PARITY", "dst": "TARGET_P_NEQ_NP", "rationale": "canonical reduction (literature)", "confidence": 1.0, "proposed_by": "seed", "ts": 1777408954.6277955}
+{"src": "TARGET_MONOTONE_CLIQUE", "dst": "TARGET_P_NEQ_NP", "rationale": "canonical reduction (literature)", "confidence": 1.0, "proposed_by": "seed", "ts": 1777408954.6278095}
+{"src": "TARGET_MONOTONE_NP_GAP", "dst": "TARGET_P_NEQ_NP", "rationale": "canonical reduction (literature)", "confidence": 1.0, "proposed_by": "seed", "ts": 1777408954.6278186}
+{"src": "TARGET_NEXP_NOT_ACC0", "dst": "TARGET_P_NEQ_NP", "rationale": "canonical reduction (literature)", "confidence": 1.0, "proposed_by": "seed", "ts": 1777408954.6278253}
+{"src": "TARGET_TSEITIN_RES", "dst": "TARGET_P_NEQ_NP", "rationale": "canonical reduction (literature)", "confidence": 1.0, "proposed_by": "seed", "ts": 1777408954.627831}
+{"src": "TARGET_PHI_LOWER_BOUND", "dst": "TARGET_TSEITIN_RES", "rationale": "canonical reduction (literature)", "confidence": 1.0, "proposed_by": "seed", "ts": 1777408954.6278374}
