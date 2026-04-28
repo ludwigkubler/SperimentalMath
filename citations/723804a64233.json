@@ -1,0 +1,40 @@
+{
+  "entry_id": "723804a64233",
+  "ts": 1777380184.6941507,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:cs/0111062",
+      "title": "One-way communication complexity and the Neciporuk lower bound on formula size",
+      "abstract_excerpt": "In this paper the Neciporuk method for proving lower bounds on the size of Boolean formulae is reformulated in terms of one-way communication complexity. We investigate the scenarios of probabilistic formulae, nondeterministic formulae, and quantum formulae. In all cases we can use results about one-way communication complexity to prove lower bounds on formula size. In the latter two cases we newly develop the employed communication complexity bounds. The main results regarding formula size are ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Neciporuk-style formula size lower bounds via one-way communication complexity, VC-dimension, and quantum/probabilistic/nondeterministic models — it makes no claims about Følner defects, Property A gadgets, asymptotic dimension, or lifted Equality with metric gadgets.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:cs/9906008",
+      "title": "A Lower Bound on the Average-Case Complexity of Shellsort",
+      "abstract_excerpt": "We prove a general lower bound on the average-case complexity of Shellsort: the average number of data-movements (and comparisons) made by a $p$-pass Shellsort for any incremental sequence is $Ω(pn^{1 + 1/p})$ for every $p$. The proof method is an incompressibility argument based on Kolmogorov complexity. Using similar techniques, the average-case complexity of several other sorting algorithms is analyzed.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns average-case lower bounds for Shellsort via Kolmogorov complexity incompressibility, which has no interaction with communication complexity of lifted Equality, Følner defects, or Property A. Shared vocabulary of 'lower bound' is superficial.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1904.13056",
+      "title": "Query-to-Communication Lifting Using Low-Discrepancy Gadgets",
+      "abstract_excerpt": "Lifting theorems are theorems that relate the query complexity of a function $f:\\{0,1\\}^{n}\\to\\{0,1\\}$ to the communication complexity of the composed function $f \\circ g^{n}$, for some \"gadget\" $g:\\{0,1\\}^{b}\\times\\{0,1\\}^{b}\\to\\{0,1\\}$. Such theorems allow transferring lower bounds from query complexity to the communication complexity, and have seen numerous applications in the recent years. In addition, such theorems can be viewed as a strong generalization of a direct-sum theorem for the gad",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper proves a lifting theorem for gadgets with 'logarithmic length and exponentially-small discrepancy' via discrepancy methods, while the conjecture concerns a coarse-geometric Følner-defect/Property-A lower bound for Equality-lifted MetricGadgets — shared lifting framework but no interaction with the specific Følner/asymptotic-dimension claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

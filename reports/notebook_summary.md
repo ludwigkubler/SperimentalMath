@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-28 11:19 UTC"
+date: "2026-04-28 12:42 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-28 11:19 UTC
+Generated 2026-04-28 12:42 UTC
 
-- Cycles recorded: **187**
-- Time span: 109.6h (~1.71 cycles/h)
+- Cycles recorded: **190**
+- Time span: 111.0h (~1.71 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 164 |
+| INCONCLUSIVE | 167 |
 | FALSIFIED | 14 |
 | BARRIER_HIT | 5 |
 | SUPPORTED | 4 |
@@ -67,9 +67,6 @@ Generated 2026-04-28 11:19 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-27 22:23 UTC | `INCONCLUSIVE` | Hessian-Rank of Clause-Count Polynomial Bounds DPLL Depth |
-| 2026-04-27 22:52 UTC | `INCONCLUSIVE` | Herbrand-Disjunction Length of PHP Bounds Tree-Resolution Leaves |
-| 2026-04-27 23:24 UTC | `INCONCLUSIVE` | Beck-Fiala Slack of Clause-Variable Hypergraph Bounds DPLL Leaves |
 | 2026-04-27 23:36 UTC | `BARRIER_HIT` | Monotone Ultralimit Convergence of κ along the Asymptotic Complet |
 | 2026-04-27 23:55 UTC | `INCONCLUSIVE` | Spectral-Tail Mass of Unit-Propagation Indicator Bounds DPLL Leav |
 | 2026-04-28 01:39 UTC | `INCONCLUSIVE` | Block-Composition Sub-Additivity of Coarse Depth κ via the Roe-Tr |
@@ -82,6 +79,9 @@ Generated 2026-04-28 11:19 UTC
 | 2026-04-28 10:39 UTC | `INCONCLUSIVE` | Tensor-Amplified Asdim Forces Linear Communication Blow-up on Inn |
 | 2026-04-28 10:48 UTC | `INCONCLUSIVE` | Möbius Defect of NW Design Lattice Bounds Parity Bias |
 | 2026-04-28 11:19 UTC | `INCONCLUSIVE` | Sandpile-Group Order of Certificate Conflict Graph Lower-Bounds Q |
+| 2026-04-28 11:47 UTC | `INCONCLUSIVE` | Stanley-Reisner Projective Dimension Lower-Bounds Monotone-KW Dep |
+| 2026-04-28 12:19 UTC | `INCONCLUSIVE` | Lie-Stabilizer Dimension of Clause Cubic Bounds DPLL Leaves |
+| 2026-04-28 12:42 UTC | `INCONCLUSIVE` | Følner-Defect Floor Forces Logarithmic Communication Overhead on  |
 
 ## How to read the reports
 
