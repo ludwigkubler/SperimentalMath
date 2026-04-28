@@ -1,0 +1,40 @@
+{
+  "entry_id": "f1f0ed613240",
+  "ts": 1777401138.1437607,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1904.13056",
+      "title": "Query-to-Communication Lifting Using Low-Discrepancy Gadgets",
+      "abstract_excerpt": "Lifting theorems are theorems that relate the query complexity of a function $f:\\{0,1\\}^{n}\\to\\{0,1\\}$ to the communication complexity of the composed function $f \\circ g^{n}$, for some \"gadget\" $g:\\{0,1\\}^{b}\\times\\{0,1\\}^{b}\\to\\{0,1\\}$. Such theorems allow transferring lower bounds from query complexity to the communication complexity, and have seen numerous applications in the recent years. In addition, such theorems can be viewed as a strong generalization of a direct-sum theorem for the gad",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns lifting theorems for gadgets with 'logarithmic length and exponentially-small discrepancy,' which excludes the b=2 indexing gadget IND_2 and does not address sunflower petals or minimal 1-certificates as a lower bound on log-rank.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2211.17211",
+      "title": "On Disperser/Lifting Properties of the Index and Inner-Product Functions",
+      "abstract_excerpt": "Query-to-communication lifting theorems, which connect the query complexity of a Boolean function to the communication complexity of an associated `lifted' function obtained by composing the function with many copies of another function known as a gadget, have been instrumental in resolving many open questions in computational complexity. Several important complexity questions could be resolved if we could make substantial improvements in the input size required for lifting with the Index functi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses lifting with Index gadgets of size ≥ 4 (and disperser/sunflower-based arguments for asymptotic N), not the b=2 indexing gadget or a sunflower-petals lower bound on log-rank for k≤4. It neither asserts nor refutes ⌊log₂ r(f)⌋ ≤ D^cc_log(f∘IND_2).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1809.10318",
+      "title": "Improved Bound on Sets Including No Sunflower with Three Petals",
+      "abstract_excerpt": "A sunflower with $k$ petals, or $k$-sunflower, is a family of $k$ sets every two of which have a common intersection. Known since 1960, the sunflower conjecture states that a family ${\\mathcal F}$ of sets each of cardinality $m$ includes a $k$-sunflower if $|{\\mathcal F}| \\ge c_k^m$ for some $c_k \\in {\\mathbb R}_{&gt;0}$ depending only on $k$. The case $k=3$ of the conjecture was especially emphasized by Erdös, for which Kostochka's bound $c m! \\left( \\frac{\\log \\log \\log m}{\\log \\log m} \\right)",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns upper bounds on family sizes that avoid 3-sunflowers (sunflower conjecture combinatorics), not communication complexity or log-rank of lifted functions. It shares only the 'sunflower' vocabulary with the conjecture's claim about ⌊log₂ r(f)⌋ ≤ D^cc_log(f∘IND_2).",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
