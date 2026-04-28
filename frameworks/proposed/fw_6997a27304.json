@@ -1,6 +1,6 @@
 {
   "framework_id": "fw_6997a27304",
-  "ts": 1777361963.959219,
+  "ts": 1777365450.9978971,
   "generation": 0,
   "parent_framework_id": "",
   "mutation_from_parent": "",
@@ -78,7 +78,9 @@
     "A5 (Non-Algebrization): The Roe algebra C*_R((X×Y)^n) is not closed under polynomial extensions of the gadget alphabet; therefore lower bounds derived from its K-theory do not algebrize."
   ],
   "status": "ELABORATING",
-  "sub_conjecture_entry_ids": [],
+  "sub_conjecture_entry_ids": [
+    "6a6a970e1f5b"
+  ],
   "fitness_components": {},
   "fitness": 0.0,
   "paper_path": "",

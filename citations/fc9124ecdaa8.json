@@ -1,0 +1,40 @@
+{
+  "entry_id": "fc9124ecdaa8",
+  "ts": 1777365995.5083606,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:cs/0209032",
+      "title": "Complexity Results on DPLL and Resolution",
+      "abstract_excerpt": "DPLL and resolution are two popular methods for solving the problem of propositional satisfiability. Rather than algorithms, they are families of algorithms, as their behavior depend on some choices they face during execution: DPLL depends on the choice of the literal to branch on; resolution depends on the choice of the pair of clauses to resolve at each step. The complexity of making the optimal choice is analyzed in this paper. Extending previous results, we prove that choosing the optimal li",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses the computational complexity of choosing optimal branching literals and determining optimal proof sizes in DPLL and resolution (e.g., 'Delta[log]^2-hard', 'NP^PP-hard'), not a quantitative dichotomy between width-2 RUP closure rounds and DPLL leaf counts on small CNFs. It shares the DPLL/resolution framework but does not interact with the specific r_2 vs L(F) bound.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2407.17947",
+      "title": "Supercritical Size-Width Tree-Like Resolution Trade-Offs for Graph Isomorphism",
+      "abstract_excerpt": "We study the refutation complexity of graph isomorphism in the tree-like resolution calculus. Torán and Wörz (TOCL 2023) showed that there is a resolution refutation of narrow width $k$ for two graphs if and only if they can be distinguished in ($k+1$)-variable first-order logic (FO$^{k+1}$) and hence by a count-free variant of the $k$-dimensional Weisfeiler-Leman algorithm. While DAG-like narrow width $k$ resolution refutations have size at most $n^k$, tree-like refutations may be much larger. ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses supercritical size-width trade-offs for tree-like resolution on graph isomorphism formulas with large n (using FO^k and pebble games), not the specific small-n (≤14 variables) dichotomy between width-2 RUP closure depth and DPLL leaf count proposed here. It shares vocabulary (tree-like resolution, width) but does not interact with the Σ^b_0-PIND width-2 closure invariant or the claimed sharp dichotomy.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1502.02131",
+      "title": "Extracting verified decision procedures: DPLL and Resolution",
+      "abstract_excerpt": "This article is concerned with the application of the program extraction technique to a new class of problems: the synthesis of decision procedures for the classical satisfiability problem that are correct by construction. To this end, we formalize a completeness proof for the DPLL proof system and extract a SAT solver from it. When applied to a propositional formula in conjunctive normal form the program produces either a satisfying assignment or a DPLL derivation showing its unsatisfiability. ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses program extraction of a verified DPLL solver and a size-bound equivalence between DPLL and resolution proofs in Minlog, but says nothing about a width-2 RUP closure round count r_2 or the specific dichotomy bounding log L(F) on small 3-CNFs.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — Frameworks (live)"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-28 06:30 UTC"
+date: "2026-04-28 08:46 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,7 +13,7 @@ colorlinks: true
 
 # SEC P vs NP — Frameworks (live)
 
-Compiled 2026-04-28 06:30 UTC. Tracking 4 active + 0 dead frameworks.
+Compiled 2026-04-28 08:46 UTC. Tracking 4 active + 0 dead frameworks.
 
 ## Summary table
 
@@ -22,7 +22,7 @@ Compiled 2026-04-28 06:30 UTC. Tracking 4 active + 0 dead frameworks.
 | `fw_b9e7d103d0` | ELABORATING | 0.000 | 0 | `-` | Ergodic Circuit Framework |
 | `fw_28b4bfb95f` | ELABORATING | 0.000 | 0 | `-` | TROPICAL_FOURIER_ANALYSIS |
 | `fw_85a254b4a0` | ELABORATING | 0.000 | 0 | `-` | Coarse Geometric Karchmer-Wigderson (CG-KW) |
-| `fw_6997a27304` | PROPOSED | 0.000 | 0 | `-` | Coarse Geometric Lifting (CGL) |
+| `fw_6997a27304` | ELABORATING | 0.000 | 0 | `-` | Coarse Geometric Lifting (CGL) |
 
 ## Details
 
@@ -91,7 +91,7 @@ Compiled 2026-04-28 06:30 UTC. Tracking 4 active + 0 dead frameworks.
 
 ### Coarse Geometric Lifting (CGL) (`fw_6997a27304`)
 
-- **Status**: `PROPOSED`
+- **Status**: `ELABORATING`
 - **Fitness**: 0.000
 - **Taxonomy**: LIFTING
 - **Target invariant**: CoarseLiftingComplexity (CLC) (ℕ-valued function of (f, G)) → bounds The deterministic 2-party communication complexity of f∘G^n. Specifically: CC(f∘G^n) ≥ Q(f) · log_2(asdim_R(G)+1) for the gadget scale R = diam(G), with the goal of recovering and surpassing known query-to-communication lifting bounds (Raz–McKenzie, Göös–Pitassi–Watson) for gadgets where positive asymptotic dimension can be certified.
