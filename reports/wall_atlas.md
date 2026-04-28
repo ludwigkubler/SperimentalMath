@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — Wall atlas"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-28 08:46 UTC"
+date: "2026-04-28 09:45 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,7 +13,7 @@ colorlinks: true
 
 # SEC P vs NP — Wall atlas
 
-Compiled 2026-04-28 08:46 UTC. 20 total barrier rejections logged.
+Compiled 2026-04-28 09:45 UTC. 21 total barrier rejections logged.
 
 This is the **map of known walls** encountered by the barrier filter. Each entry below was a proposed conjecture that, according to dual-LLM agreement, would fall to one of the four classical barriers. Patterns in this data tell us where the proposer keeps tripping.
 
@@ -22,7 +22,7 @@ This is the **map of known walls** encountered by the barrier filter. Each entry
 | Barrier | Rejections |
 |---------|-----------:|
 | `RELATIVIZATION` | 7 |
-| `NATURAL_PROOFS` | 6 |
+| `NATURAL_PROOFS` | 7 |
 | `ALGEBRIZATION` | 4 |
 | `KARP_LIPTON` | 3 |
 
@@ -39,10 +39,10 @@ This is the **map of known walls** encountered by the barrier filter. Each entry
 | Quantile statistics of random subcube restrictions (order-st | 1 | `NATURAL_PROOFS` |
 | Coarse Geometric Karchmer-Wigderson (CG-KW); coarse geometry | 1 | `NATURAL_PROOFS` |
 | Coarse Geometric Karchmer-Wigderson (CG-KW) framework / coar | 1 | `NATURAL_PROOFS` |
+| Number theory of polynomial heights — the (logarithmic) Mahl | 1 | `NATURAL_PROOFS` |
 
 ## Recent rejections (last 15)
 
-- [2026-04-24 16:37 UTC] `RELATIVIZATION` (conf 0.95) — Diagonalization separation of P and NP
 - [2026-04-24 16:39 UTC] `NATURAL_PROOFS` (conf 0.95) — Truth-table discriminant for circuit hardness
 - [2026-04-24 16:41 UTC] `ALGEBRIZATION` (conf 0.95) — Sum-check bound for NEXP lower bound
 - [2026-04-24 20:48 UTC] `RELATIVIZATION` (conf 0.99) — Diagonalization separation of P and NP
@@ -57,3 +57,4 @@ This is the **map of known walls** encountered by the barrier filter. Each entry
 - [2026-04-27 20:42 UTC] `NATURAL_PROOFS` (conf 0.70) — Median-Restriction Hardness Amplification Gap for DNF Truth Tables
 - [2026-04-27 21:34 UTC] `NATURAL_PROOFS` (conf 0.70) — Diameter-Multiplicity Power Law under Controlled Refinement Recovers Coarse Dept
 - [2026-04-27 23:36 UTC] `NATURAL_PROOFS` (conf 0.78) — Monotone Ultralimit Convergence of κ along the Asymptotic Completion of the Majo
+- [2026-04-28 09:18 UTC] `NATURAL_PROOFS` (conf 0.85) — Mahler Measure of Truth-Table Polynomial Lower-Bounds DNF_min

@@ -1,0 +1,40 @@
+{
+  "entry_id": "6ae7590ec4aa",
+  "ts": 1777369546.7998013,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2507.01005",
+      "title": "Discovery and study of the eclipsing variable star Grigoriev 1",
+      "abstract_excerpt": "This work is dedicated to the discovery of the eclipsing variable star Grigoriev 1 and determining the parameters of its binary system. The star was found through the systematic checking of ultraviolet sources of GALEX space observatory in Pegasus constellation. Analysis of the ZTF project data has shown the presence of eclipses with two magnitudes depth and a period of 6.5997 days. The duration of eclipse covers only 1% of the orbital period, and the partial phases are at least 30 times shorter",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes the discovery of an eclipsing variable star named 'Grigoriev 1' in astronomy, sharing only the surname 'Grigoriev' with the conjecture's Grigoriev-Schoenebeck proxy; it has no bearing on additive combinatorics or SoS degree.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/cond-mat/0701009v2",
+      "title": "Electron mobility on a surface of dielectric media: influence of surface level atoms",
+      "abstract_excerpt": "We calculate the contribution to the electron scattering rate from the surface level atoms (SLA), proposed in [A.M. Dyugaev, P.D. Grigoriev, JETP Lett. 78, 466 (2003)]. The inclusion of these states into account was sufficient to explain the long-standing puzzles in the temperature dependence of the",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns electron scattering rates and surface level atoms in condensed matter physics, sharing only the surname 'Grigoriev' as a coincidental author reference, with no connection to additive combinatorics or SoS refutation degree.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1812.10216",
+      "title": "Robust Approach for Rotor Mapping in Cardiac Tissue",
+      "abstract_excerpt": "The motion of and interaction between phase singularities that anchor spiral waves captures many qualitative and, in some cases, quantitative features of complex dynamics in excitable systems. Being able to accurately reconstruct their position is thus quite important, even if the data are noisy and sparse, as in electrophysiology studies of cardiac arrhythmias, for instance. A recently proposed global topological approach [Marcotte &amp; Grigoriev, Chaos 27, 093936 (2017)] promises to dramatica",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns rotor mapping and phase singularities in cardiac tissue electrophysiology, sharing only the surname 'Grigoriev' with the conjecture's domain; it has no bearing on Plünnecke-Ruzsa doubling or SoS degree for 3-XOR.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

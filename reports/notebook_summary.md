@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-28 08:46 UTC"
+date: "2026-04-28 09:45 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,20 +13,20 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-28 08:46 UTC
+Generated 2026-04-28 09:45 UTC
 
-- Cycles recorded: **181**
-- Time span: 107.1h (~1.69 cycles/h)
+- Cycles recorded: **183**
+- Time span: 108.1h (~1.69 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 159 |
+| INCONCLUSIVE | 160 |
 | FALSIFIED | 14 |
+| BARRIER_HIT | 5 |
 | SUPPORTED | 4 |
-| BARRIER_HIT | 4 |
 
 ## Mathematical fields explored (field_A)
 
@@ -67,8 +67,6 @@ Generated 2026-04-28 08:46 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-27 19:45 UTC | `INCONCLUSIVE` | Ihara Zeta Entropy Lower-Bounds DPLL Depth on 3-Regular Tseitin |
-| 2026-04-27 20:12 UTC | `INCONCLUSIVE` | Hypercontractive p→2 Norm of Restriction Operator Bounds Resoluti |
 | 2026-04-27 20:42 UTC | `BARRIER_HIT` | Median-Restriction Hardness Amplification Gap for DNF Truth Table |
 | 2026-04-27 21:18 UTC | `INCONCLUSIVE` | Total-Influence Defect of Clause-Indicator Bounds Tree-Resolution |
 | 2026-04-27 21:34 UTC | `BARRIER_HIT` | Diameter-Multiplicity Power Law under Controlled Refinement Recov |
@@ -82,6 +80,8 @@ Generated 2026-04-28 08:46 UTC
 | 2026-04-28 03:39 UTC | `INCONCLUSIVE` | Coboundary-Vanishing Threshold: HX^1 Triviality Below the Diamete |
 | 2026-04-28 08:37 UTC | `INCONCLUSIVE` | Multiplicity-Doubling Lower Bound from Protocol Pullback on Index |
 | 2026-04-28 08:46 UTC | `INCONCLUSIVE` | Σ^b_0-PIND Width-2 Closure Round-Count vs DPLL Leaves |
+| 2026-04-28 09:18 UTC | `BARRIER_HIT` | Mahler Measure of Truth-Table Polynomial Lower-Bounds DNF_min |
+| 2026-04-28 09:45 UTC | `INCONCLUSIVE` | Plünnecke-Ruzsa Doubling of Constraint Vectors Lower-Bounds SoS D |
 
 ## How to read the reports
 
