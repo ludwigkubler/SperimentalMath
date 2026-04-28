@@ -1,0 +1,40 @@
+{
+  "entry_id": "52d3382c4243",
+  "ts": 1777388116.101839,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1504.04131",
+      "title": "Formulas for the Walsh coefficients of smooth functions and their application to bounds on the Walsh coefficients",
+      "abstract_excerpt": "We establish formulas for the $b$-adic Walsh coefficients of functions in $C^α[0,1]$ for an integer $α\\geq 1$ and give upper bounds on the Walsh coefficients of these functions. We also study the Walsh coefficients of periodic and non-periodic functions in reproducing kernel Hilbert spaces.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns b-adic Walsh coefficients of smooth real-valued functions in C^α[0,1] and reproducing kernel Hilbert spaces, which shares the 'Walsh' vocabulary but does not address NW designs, antichain width, or PRG linear bias.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1905.12811",
+      "title": "Embedding of Walsh Brownian Motion",
+      "abstract_excerpt": "Let $(Z,κ)$ be a Walsh Brownian motion with spinning measure $κ$. Suppose $μ$ is a probability measure on $\\mathbb{R}^n$. We characterize all the $κ$ such that $μ$ is a stopping distribution of $(Z,κ)$. If we further restrict the solution to be integrable, we show that there would be only one choice of $κ$. We also generalize Vallois' embedding, and prove that it minimizes the expectation $\\mathbb{E}[Ψ(L^Z_τ)]$ among all the admissible solutions $τ$, where $Ψ$ is a strictly convex function and $",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns embedding problems for Walsh Brownian motion and stopping distributions in probability theory, sharing only the name 'Walsh' with the conjecture's Walsh-character/antichain framework for PRG bias analysis.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2601.03730",
+      "title": "Perception-Aware Bias Detection for Query Suggestions",
+      "abstract_excerpt": "Bias in web search has been in the spotlight of bias detection research for quite a while. At the same time, little attention has been paid to query suggestions in this regard. Awareness of the problem of biased query suggestions has been raised. Likewise, there is a rising need for automatic bias detection approaches. This paper adds on the bias detection pipeline for bias detection in query suggestions of person-related search developed by Bonart et al. \\cite{Bonart_2019a}. The sparseness and ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'bias detection in query suggestions' for web search, sharing only the word 'bias' with the conjecture; it has no relation to Nisan-Wigderson PRGs, Walsh characters, or antichain width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

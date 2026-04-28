@@ -1,0 +1,40 @@
+{
+  "entry_id": "37788821c84c",
+  "ts": 1777390089.6853588,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1809.03967",
+      "title": "More Cases Where the Kruskal-Katona Bound is Tight",
+      "abstract_excerpt": "In graph theory, knowing the number of complete subgraphs with r vertices that a graph g has, limits the number of its complete subgraphs with s vertices, for s &gt; r. A useful upper bound is provided by the Kruskal-Katona theorem, but this bound is often not tight. In this note, we add to the known cases where this bound is tight and begin an investigation of tight bounded graph sequences.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses tightness cases of the Kruskal-Katona bound for counting complete subgraphs in graphs, with no mention of monotone Karchmer-Wigderson depth, Boolean functions, or shadow defect as a depth lower bound. It shares only the Kruskal-Katona vocabulary but does not interact with the conjecture's specific claim about D_m(f).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2107.05128",
+      "title": "Karchmer-Wigderson Games for Hazard-free Computation",
+      "abstract_excerpt": "We present a Karchmer-Wigderson game to study the complexity of hazard-free formulas. This new game is both a generalization of the monotone Karchmer-Wigderson game and an analog of the classical Boolean Karchmer-Wigderson game. Therefore, it acts as a bridge between the existing monotone and general games.\n  Using this game, we prove hazard-free formula size and depth lower bounds that are provably stronger than those possible by the standard technique of transferring results from monotone comp",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a Karchmer-Wigderson game for hazard-free computation and proves hazard-free formula size/depth bounds; it does not address Kruskal-Katona shadow defects or monotone KW depth lower bounds via shadow slack.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2002.07444",
+      "title": "Multiparty Karchmer-Wigderson Games and Threshold Circuits",
+      "abstract_excerpt": "We suggest a generalization of Karchmer-Wigderson communication games to the multiparty setting. Our generalization turns out to be tightly connected to circuits consisting of threshold gates. This allows us to obtain new explicit constructions of such circuits for several functions. In particular, we provide an explicit (polynomial-time computable) log-depth monotone formula for Majority function, consisting only of 3-bit majority gates and variables. This resolves a conjecture of Cohen et al. ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a multiparty generalization of KW games tied to threshold circuits and a log-depth monotone formula for Majority using 3-bit majority gates; it does not mention Kruskal-Katona shadows or any slice-wise shadow-defect lower bound on monotone KW depth.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

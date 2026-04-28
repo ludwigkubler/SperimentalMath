@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-28 14:45 UTC"
+date: "2026-04-28 15:27 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-28 14:45 UTC
+Generated 2026-04-28 15:27 UTC
 
-- Cycles recorded: **195**
-- Time span: 113.1h (~1.72 cycles/h)
+- Cycles recorded: **197**
+- Time span: 113.8h (~1.73 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 172 |
+| INCONCLUSIVE | 174 |
 | FALSIFIED | 14 |
 | BARRIER_HIT | 5 |
 | SUPPORTED | 4 |
@@ -67,8 +67,6 @@ Generated 2026-04-28 14:45 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-28 08:46 UTC | `INCONCLUSIVE` | Σ^b_0-PIND Width-2 Closure Round-Count vs DPLL Leaves |
-| 2026-04-28 09:18 UTC | `BARRIER_HIT` | Mahler Measure of Truth-Table Polynomial Lower-Bounds DNF_min |
 | 2026-04-28 09:45 UTC | `INCONCLUSIVE` | Plünnecke-Ruzsa Doubling of Constraint Vectors Lower-Bounds SoS D |
 | 2026-04-28 10:22 UTC | `INCONCLUSIVE` | Kolmogorov Width of Lifted Functions Bounds MA^cc |
 | 2026-04-28 10:39 UTC | `INCONCLUSIVE` | Tensor-Amplified Asdim Forces Linear Communication Blow-up on Inn |
@@ -82,6 +80,8 @@ Generated 2026-04-28 14:45 UTC
 | 2026-04-28 13:54 UTC | `INCONCLUSIVE` | Monomer-Dimer Entropy Lower-Bounds Tseitin Resolution Width |
 | 2026-04-28 14:25 UTC | `INCONCLUSIVE` | Sprague-Grundy Game Value of CNF Bounds Tree-Frege Lines |
 | 2026-04-28 14:45 UTC | `INCONCLUSIVE` | Roe-Skeleton Spectral Gap Forces Multiplicity in Protocol-Induced |
+| 2026-04-28 14:54 UTC | `INCONCLUSIVE` | Walsh-Code Antichain Width of NW Designs Bounds PRG Linear Bias |
+| 2026-04-28 15:27 UTC | `INCONCLUSIVE` | Kruskal-Katona Shadow Defect Lower-Bounds Monotone-KW Depth |
 
 ## How to read the reports
 
