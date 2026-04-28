@@ -1,0 +1,40 @@
+{
+  "entry_id": "8bf8c5c64dba",
+  "ts": 1777382855.4886682,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0810.5488",
+      "title": "The Magnus expansion and some of its applications",
+      "abstract_excerpt": "Approximate resolution of linear systems of differential equations with varying coefficients is a recurrent problem shared by a number of scientific and engineering areas, ranging from Quantum Mechanics to Control Theory. When formulated in operator or matrix form, the Magnus expansion furnishes an elegant setting to built up approximate exponential representations of the solution of the system. It provides a power series expansion for the corresponding exponent and is sometimes referred to as T",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes the Magnus expansion as a tool for 'approximate exponential representations' of solutions to linear differential equations in physics and numerical integration, with no mention of Boolean functions, DNF complexity, truth tables, or meta-complexity. It shares only the 'Magnus expansion' vocabulary with the conjecture's framework.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1501.01331",
+      "title": "DNF complexity of complete boolean functions",
+      "abstract_excerpt": "In this paper we analyse the complexity of boolean functions takes value 0 on a sufficiently small number of points. For many functions this leads to the analysis of a single function attains 0 only on unsigned representation of numbers from 1 to d for various d. Here we obtain a tight bounds on the DNF complexity of complete functions in terms of the number of literals and conjunctions. The method is based on a certain efficient approximation of the hypercube covering problem related to DNF com",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses tight DNF complexity bounds for 'complete' boolean functions taking value 0 on few points, via hypercube covering approximation; it makes no statement about Magnus signatures, iterated integrals, or the inversion defect λ_2 that the conjecture relates to DNF_min.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1407.6169",
+      "title": "Multiplicative Complexity of Vector Valued Boolean Functions",
+      "abstract_excerpt": "We consider the multiplicative complexity of Boolean functions with multiple bits of output, studying how large a multiplicative complexity is necessary and sufficient to provide a desired nonlinearity. For so-called $ΣΠΣ$ circuits, we show that there is a tight connection between error correcting codes and circuits computing functions with high nonlinearity. Combining this with known coding theory results, we show that functions with $n$ inputs and $n$ outputs with the highest possible nonlinea",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns multiplicative complexity (AND-gate count) of Boolean functions and its connection to nonlinearity and error-correcting codes, not DNF minimization or Magnus-signature/inversion-defect invariants of truth tables. It shares the meta-complexity vocabulary but does not interact with the specific λ_2(f) ≤ n + log(1+DNF_min) inequality.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

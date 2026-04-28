@@ -1,0 +1,40 @@
+{
+  "entry_id": "299d5162a4f6",
+  "ts": 1777380519.0223334,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2107.05128",
+      "title": "Karchmer-Wigderson Games for Hazard-free Computation",
+      "abstract_excerpt": "We present a Karchmer-Wigderson game to study the complexity of hazard-free formulas. This new game is both a generalization of the monotone Karchmer-Wigderson game and an analog of the classical Boolean Karchmer-Wigderson game. Therefore, it acts as a bridge between the existing monotone and general games.\n  Using this game, we prove hazard-free formula size and depth lower bounds that are provably stronger than those possible by the standard technique of transferring results from monotone comp",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract introduces a Karchmer-Wigderson game for hazard-free formulas as a bridge between monotone and general KW games, but says nothing about token-sliding reconfiguration diameters or bipartite minterm-maxterm incidence structures. It shares the KW-game vocabulary but does not interact with the specific diameter lower bound claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2504.10671",
+      "title": "Token Sliding Reconfiguration on DAGs",
+      "abstract_excerpt": "Given a graph $G$ and two independent sets of same size, the Independent Set Reconfiguration Problem under token sliding ask whether one can, in a step by step manner, transform the first independent set into the second one. In each step we must preserve the condition of independence. Further, referring to solution vertices as tokens, we are only permitted to slide a token along an edge. Until the recent work of Ito et al. [Ito et al. MFCS 2022] this problem was only considered on undirected gra",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns complexity of Independent Set Reconfiguration under token sliding on DAGs (NP-completeness/W[1]-hardness by depth, FPT by treewidth+k), not diameter bounds on bipartite minterm-maxterm structures nor any connection to monotone KW depth/formula depth.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2002.07444",
+      "title": "Multiparty Karchmer-Wigderson Games and Threshold Circuits",
+      "abstract_excerpt": "We suggest a generalization of Karchmer-Wigderson communication games to the multiparty setting. Our generalization turns out to be tightly connected to circuits consisting of threshold gates. This allows us to obtain new explicit constructions of such circuits for several functions. In particular, we provide an explicit (polynomial-time computable) log-depth monotone formula for Majority function, consisting only of 3-bit majority gates and variables. This resolves a conjecture of Cohen et al. ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a multiparty generalization of KW games tied to threshold circuits and an explicit log-depth majority formula; it does not address token-sliding reconfiguration diameters or any lower bound of the form D_m(f) >= log2(D_TS+1)-1.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
