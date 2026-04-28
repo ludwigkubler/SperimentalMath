@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-28 17:25 UTC"
+date: "2026-04-28 17:55 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-28 17:25 UTC
+Generated 2026-04-28 17:55 UTC
 
-- Cycles recorded: **201**
-- Time span: 115.7h (~1.74 cycles/h)
+- Cycles recorded: **202**
+- Time span: 116.3h (~1.74 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 178 |
+| INCONCLUSIVE | 179 |
 | FALSIFIED | 14 |
 | BARRIER_HIT | 5 |
 | SUPPORTED | 4 |
@@ -67,7 +67,6 @@ Generated 2026-04-28 17:25 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-28 11:19 UTC | `INCONCLUSIVE` | Sandpile-Group Order of Certificate Conflict Graph Lower-Bounds Q |
 | 2026-04-28 11:47 UTC | `INCONCLUSIVE` | Stanley-Reisner Projective Dimension Lower-Bounds Monotone-KW Dep |
 | 2026-04-28 12:19 UTC | `INCONCLUSIVE` | Lie-Stabilizer Dimension of Clause Cubic Bounds DPLL Leaves |
 | 2026-04-28 12:42 UTC | `INCONCLUSIVE` | Følner-Defect Floor Forces Logarithmic Communication Overhead on  |
@@ -82,6 +81,7 @@ Generated 2026-04-28 17:25 UTC
 | 2026-04-28 16:32 UTC | `INCONCLUSIVE` | Continued-Fraction Spike of Truth-Table Rational Caps DNF_min |
 | 2026-04-28 16:59 UTC | `INCONCLUSIVE` | Shifted Partials of Clause Cubic Lower-Bound Tree-Resolution Leav |
 | 2026-04-28 17:25 UTC | `INCONCLUSIVE` | Hereditary Discrepancy of Clause-Variable Incidence Lower-Bounds  |
+| 2026-04-28 17:55 UTC | `INCONCLUSIVE` | Schur-Polynomial Positivity Defect Lower-Bounds Tree-Frege Lines  |
 
 ## How to read the reports
 

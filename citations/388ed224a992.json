@@ -1,0 +1,40 @@
+{
+  "entry_id": "388ed224a992",
+  "ts": 1777398985.6940184,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:cs/0304041",
+      "title": "$P \\ne NP$, propositional proof complexity, and resolution lower bounds for the weak pigeonhole principle",
+      "abstract_excerpt": "Recent results established exponential lower bounds for the length of any Resolution proof for the weak pigeonhole principle. More formally, it was proved that any Resolution proof for the weak pigeonhole principle, with $n$ holes and any number of pigeons, is of length $Ω(2^{n^ε})$, (for a constant $ε= 1/3$). One corollary is that certain propositional formulations of the statement $P \\ne NP$ do not have short Resolution proofs. After a short introduction to the problem of $P \\ne NP$ and to the",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses exponential resolution lower bounds for the weak pigeonhole principle (Ω(2^{n^ε})) but makes no mention of Schur-positivity, symmetric functions, Kostka matrices, or any clause-occupancy/partition-based defect measure. It shares the PHP/proof-complexity vocabulary but does not interact with the specific symmetric-function bound claimed in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2511.20023",
+      "title": "Lower Bounds for Bit Pigeonhole Principles in Bounded-Depth Resolution over Parities",
+      "abstract_excerpt": "We prove lower bounds for proofs of the bit pigeonhole principle (BPHP) and its generalizations in bounded-depth resolution over parities (Res$(\\oplus)$). For weak BPHP$_n^m$ with $m = cn$ pigeons (for any constant $c&gt;1$) and $n$ holes, for all $ε&gt;0$, we prove that any depth $N^{1.5 - ε}$ proof in Res$(\\oplus)$ must have exponential size, where $N = cn\\log n$ is the number of variables.\n  Inspired by recent work in TFNP on multicollision-finding, we consider a generalization of the bit pig",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns lower bounds for the bit pigeonhole principle in bounded-depth Res(⊕), with no mention of tree-Frege/tree-resolution line counts, Schur positivity, or symmetric functions; it shares only the PHP vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1611.08382",
+      "title": "Conditionally positive definite kernels in Hilbert $C^*$-modules",
+      "abstract_excerpt": "We investigate the notion of conditionally positive definite in the context of Hilbert $C^*$-modules and present a characterization of the conditionally positive definiteness in terms of the usual positive definiteness. We give a Kolmogorov type representation of conditionally positive definite kernels in Hilbert $C^*$-modules. As a consequence, we show that a $C^*$-metric space $(S, d)$ is $C^*$-isometric to a subset of a Hilbert $C^*$-module if and only if $K(s,t)=-d(s,t)^2$ is a conditionally",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'conditionally positive definite kernels in Hilbert C*-modules' and Kolmogorov-type representations, which has no interaction with Schur-positivity defects, Kostka matrices, or tree-Frege lower bounds for PHP.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

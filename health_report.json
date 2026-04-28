@@ -1,0 +1,24 @@
+{
+  "ts": 1777398910,
+  "ts_human": "2026-04-28 17:55:10 UTC",
+  "status": "OK",
+  "issues": "(none)",
+  "daemon_count": 1,
+  "daemon_pids": "1860863",
+  "zombies": 0,
+  "zombie_detail": "",
+  "runaway": "",
+  "last_cycle_ts": 1777397111,
+  "last_cycle_age_h": 0.5,
+  "cycles_24h": 39,
+  "mem_used_pct": 14.1,
+  "disk_used_pct": 12,
+  "claude_calls_168h": 1688,
+  "claude_budget_pct": 67.5,
+  "skeptic_168h": {
+    "hardened": 0,
+    "downgrade": 0,
+    "not_invoked": 41,
+    "downgrade_reasons": {}
+  }
+}
