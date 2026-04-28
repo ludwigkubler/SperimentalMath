@@ -1,0 +1,40 @@
+{
+  "entry_id": "501b089a21b9",
+  "ts": 1777386354.9079404,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1912.12573",
+      "title": "A base-p Sprague-Grundy type theorem for p-calm subtraction games: Welter's game and representations of generalized symmetric groups",
+      "abstract_excerpt": "For impartial games $Γ$ and $Γ'$, the Sprague-Grundy function of the disjunctive sum $Γ+ Γ'$ is equal to the Nim-sum of their Sprague-Grundy functions. In this paper, we introduce $p$-calm subtraction games, and show that for $p$-calm subtraction games $Γ$ and $Γ'$, the Sprague-Grundy function of a $p$-saturation of $Γ+ Γ'$ is equal to the $p$-Nim-sum of the Sprague-Grundy functions of their $p$-saturations. Here a $p$-Nim-sum is the result of addition without carrying in base $p$ and a $p$-satu",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns p-calm subtraction games, Welter's game, and representations of generalized symmetric groups via Young diagrams; it makes no mention of CNFs, tree-Frege/tree-resolution, or proof complexity, so it shares only the Sprague-Grundy vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1702.07068",
+      "title": "The Sprague-Grundy function for some nearly disjunctive sums of Nim and Silver Dollar games",
+      "abstract_excerpt": "We introduce and analyse an extension of the disjunctive sum operation on some classical impartial games. Whereas the disjunctive sum describes positions formed from independent subpositions, our operation combines positions that are not completely independent but interact only in a very restricted way. We extend the games Nim and Silver Dollar, played by moving counters along one-dimensional strips of cells, by joining several strips at their initial cell. We prove that, in certain cases, compu",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Sprague-Grundy values of Nim and Silver Dollar variants joined at initial cells ('extension of the disjunctive sum operation'), with no mention of CNF formulas, tree-Frege/tree-resolution, or DPLL leaf counts.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1507.04665",
+      "title": "Invariance of the Sprague-Grundy Function for Variants of Wythoff's Game",
+      "abstract_excerpt": "We prove three conjectures of Fraenkel and Ho regarding two classes of variants of Wythoff's game. The two classes of variants of Wythoff's game feature restrictions of the diagonal moves. Each conjecture states that the Sprague-Grundy function is invariant up to a certain nim-value for a subset of that class of variant of Wythoff's game. For one class of variants of Wythoff's game, we prove that the invariance of the Sprague-Grundy function extends beyond what was conjectured by Fraenkel and Ho",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'variants of Wythoff's game' and invariance of the Sprague-Grundy function in that specific combinatorial game setting, with no connection to CNF formulas, tree-Frege/tree-resolution proof complexity, or DPLL leaf counts.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

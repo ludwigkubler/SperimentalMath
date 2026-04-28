@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-28 13:27 UTC"
+date: "2026-04-28 14:25 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-28 13:27 UTC
+Generated 2026-04-28 14:25 UTC
 
-- Cycles recorded: **192**
-- Time span: 111.8h (~1.72 cycles/h)
+- Cycles recorded: **194**
+- Time span: 112.8h (~1.72 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 169 |
+| INCONCLUSIVE | 171 |
 | FALSIFIED | 14 |
 | BARRIER_HIT | 5 |
 | SUPPORTED | 4 |
@@ -67,8 +67,6 @@ Generated 2026-04-28 13:27 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-28 01:39 UTC | `INCONCLUSIVE` | Block-Composition Sub-Additivity of Coarse Depth κ via the Roe-Tr |
-| 2026-04-28 03:39 UTC | `INCONCLUSIVE` | Coboundary-Vanishing Threshold: HX^1 Triviality Below the Diamete |
 | 2026-04-28 08:37 UTC | `INCONCLUSIVE` | Multiplicity-Doubling Lower Bound from Protocol Pullback on Index |
 | 2026-04-28 08:46 UTC | `INCONCLUSIVE` | Σ^b_0-PIND Width-2 Closure Round-Count vs DPLL Leaves |
 | 2026-04-28 09:18 UTC | `BARRIER_HIT` | Mahler Measure of Truth-Table Polynomial Lower-Bounds DNF_min |
@@ -82,6 +80,8 @@ Generated 2026-04-28 13:27 UTC
 | 2026-04-28 12:42 UTC | `INCONCLUSIVE` | Følner-Defect Floor Forces Logarithmic Communication Overhead on  |
 | 2026-04-28 12:48 UTC | `INCONCLUSIVE` | Bipartite Token-Sliding Diameter Lower-Bounds Monotone-KW Depth |
 | 2026-04-28 13:27 UTC | `INCONCLUSIVE` | Magnus Level-2 Defect Bounds DNF_min via Truth-Table Inversions |
+| 2026-04-28 13:54 UTC | `INCONCLUSIVE` | Monomer-Dimer Entropy Lower-Bounds Tseitin Resolution Width |
+| 2026-04-28 14:25 UTC | `INCONCLUSIVE` | Sprague-Grundy Game Value of CNF Bounds Tree-Frege Lines |
 
 ## How to read the reports
 

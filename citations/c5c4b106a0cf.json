@@ -1,0 +1,40 @@
+{
+  "entry_id": "c5c4b106a0cf",
+  "ts": 1777384476.4946945,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2103.09609",
+      "title": "Characterizing Tseitin-formulas with short regular resolution refutations",
+      "abstract_excerpt": "Tseitin-formulas are systems of parity constraints whose structure is described by a graph. These formulas have been studied extensively in proof complexity as hard instances in many proof systems. In this paper, we prove that a class of unsatisfiable Tseitin-formulas of bounded degree has regular resolution refutations of polynomial length if and only if the treewidth of all underlying graphs $G$ for that class is in $O(\\log|V(G)|)$. To do so, we show that any regular resolution refutation of a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract bounds regular resolution length via treewidth (`2^{Ω(tw(G))}/|V(G)|`), not resolution width via monomer-dimer entropy h_md(G); it neither establishes nor contradicts the specific width-vs-matching-entropy inequality conjectured.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/astro-ph/0407622v3",
+      "title": "A Study of the Composition of Ultra High Energy Cosmic Rays Using the High Resolution Fly's Eye",
+      "abstract_excerpt": "The composition of Ultra High Energy Cosmic Rays (UHECR) is measured with the High Resolution Fly's Eye cosmic ray observatory (HiRes) data using the Xmax technique. Data were collected in stereo between 1999 November and 2001 September. The data are reconstructed with well-determined geometry. Meas",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns measurement of ultra-high-energy cosmic ray composition via the Fly's Eye observatory's Xmax technique, which has no connection to monomer-dimer entropy, Tseitin formulas, or resolution width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2209.05839",
+      "title": "On bounded depth proofs for Tseitin formulas on the grid; revisited",
+      "abstract_excerpt": "We study Frege proofs using depth-$d$ Boolean formulas for the Tseitin contradiction on $n \\times n$ grids. We prove that if each line in the proof is of size $M$ then the number of lines is exponential in $n/(\\log M)^{O(d)}$. This strengthens a recent result of Pitassi et al. [PRT22]. The key technical step is a multi-switching lemma extending the switching lemma of Håstad [Hås20] for a space of restrictions related to the Tseitin contradiction. The strengthened lemma also allows us to improve ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns bounded-depth Frege proof size lower bounds for Tseitin on grids via a multi-switching lemma, not resolution width nor monomer-dimer entropy. It shares the Tseitin framework but does not address the specific width vs. h_md(G) inequality.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
