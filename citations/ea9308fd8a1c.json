@@ -1,0 +1,40 @@
+{
+  "entry_id": "ea9308fd8a1c",
+  "ts": 1777392369.4030674,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/2602.03763v1",
+      "title": "Optimizing Weighted Hodge Laplacian Flows on Simplicial Complexes",
+      "abstract_excerpt": "Simplicial complexes are generalizations of graphs that describe higher-order network interactions among nodes in the graph. Network dynamics described by graph Laplacian flows have been widely studied in network science and control theory, and these can be generalized to simplicial complexes using ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes optimizing weighted Hodge Laplacian flows for network dynamics on simplicial complexes ('Network dynamics described by graph Laplacian flows...generalized to simplicial complexes'), which shares the Hodge Laplacian framework but does not address Tseitin formulas, SoS refutation degree, or any bound of the conjectured form.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1807.05044v5",
+      "title": "Random Walks on Simplicial Complexes and the normalized Hodge 1-Laplacian",
+      "abstract_excerpt": "Focusing on coupling between edges, we generalize the relationship between the normalized graph Laplacian and random walks on graphs by devising an appropriate normalization for the Hodge Laplacian -- the generalization of the graph Laplacian for simplicial complexes -- and relate this to a random w",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns normalizing the Hodge 1-Laplacian to study random walks on simplicial complexes ('devising an appropriate normalization for the Hodge Laplacian...relate this to a random walk'), and says nothing about Tseitin instances, Sum-of-Squares refutation degree, or the combinatorial proxy g*(F).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2205.02134v1",
+      "title": "Hodge Decomposition and General Laplacian Solvers for Embedded Simplicial Complexes",
+      "abstract_excerpt": "We describe a nearly-linear time algorithm to solve the linear system $L_1x = b$ parameterized by the first Betti number of the complex, where $L_1$ is the 1-Laplacian of a simplicial complex $K$ that is a subcomplex of a collapsible complex $X$ linearly embedded in $\\mathbb{R}^{3}$. Our algorithm g",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a 'nearly-linear time algorithm to solve the linear system L_1x = b' for embedded simplicial complexes — an algorithmic Laplacian solver, not a bound on Sum-of-Squares refutation degree of Tseitin instances. It shares the L_1/Hodge vocabulary but does not interact with the SoS-degree claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

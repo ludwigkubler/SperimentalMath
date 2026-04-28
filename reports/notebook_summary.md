@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-28 15:27 UTC"
+date: "2026-04-28 16:32 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-28 15:27 UTC
+Generated 2026-04-28 16:32 UTC
 
-- Cycles recorded: **197**
-- Time span: 113.8h (~1.73 cycles/h)
+- Cycles recorded: **199**
+- Time span: 114.9h (~1.73 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 174 |
+| INCONCLUSIVE | 176 |
 | FALSIFIED | 14 |
 | BARRIER_HIT | 5 |
 | SUPPORTED | 4 |
@@ -67,8 +67,6 @@ Generated 2026-04-28 15:27 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-28 09:45 UTC | `INCONCLUSIVE` | Plünnecke-Ruzsa Doubling of Constraint Vectors Lower-Bounds SoS D |
-| 2026-04-28 10:22 UTC | `INCONCLUSIVE` | Kolmogorov Width of Lifted Functions Bounds MA^cc |
 | 2026-04-28 10:39 UTC | `INCONCLUSIVE` | Tensor-Amplified Asdim Forces Linear Communication Blow-up on Inn |
 | 2026-04-28 10:48 UTC | `INCONCLUSIVE` | Möbius Defect of NW Design Lattice Bounds Parity Bias |
 | 2026-04-28 11:19 UTC | `INCONCLUSIVE` | Sandpile-Group Order of Certificate Conflict Graph Lower-Bounds Q |
@@ -82,6 +80,8 @@ Generated 2026-04-28 15:27 UTC
 | 2026-04-28 14:45 UTC | `INCONCLUSIVE` | Roe-Skeleton Spectral Gap Forces Multiplicity in Protocol-Induced |
 | 2026-04-28 14:54 UTC | `INCONCLUSIVE` | Walsh-Code Antichain Width of NW Designs Bounds PRG Linear Bias |
 | 2026-04-28 15:27 UTC | `INCONCLUSIVE` | Kruskal-Katona Shadow Defect Lower-Bounds Monotone-KW Depth |
+| 2026-04-28 16:05 UTC | `INCONCLUSIVE` | Hodge Laplacian b_1 of Edge-Triangle Star-Complex Bounds SoS Degr |
+| 2026-04-28 16:32 UTC | `INCONCLUSIVE` | Continued-Fraction Spike of Truth-Table Rational Caps DNF_min |
 
 ## How to read the reports
 
