@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-28 18:31 UTC"
+date: "2026-04-28 19:42 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-28 18:31 UTC
+Generated 2026-04-28 19:42 UTC
 
-- Cycles recorded: **203**
-- Time span: 116.9h (~1.74 cycles/h)
+- Cycles recorded: **205**
+- Time span: 118.0h (~1.74 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 180 |
+| INCONCLUSIVE | 182 |
 | FALSIFIED | 14 |
 | BARRIER_HIT | 5 |
 | SUPPORTED | 4 |
@@ -67,8 +67,6 @@ Generated 2026-04-28 18:31 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-28 12:19 UTC | `INCONCLUSIVE` | Lie-Stabilizer Dimension of Clause Cubic Bounds DPLL Leaves |
-| 2026-04-28 12:42 UTC | `INCONCLUSIVE` | Følner-Defect Floor Forces Logarithmic Communication Overhead on  |
 | 2026-04-28 12:48 UTC | `INCONCLUSIVE` | Bipartite Token-Sliding Diameter Lower-Bounds Monotone-KW Depth |
 | 2026-04-28 13:27 UTC | `INCONCLUSIVE` | Magnus Level-2 Defect Bounds DNF_min via Truth-Table Inversions |
 | 2026-04-28 13:54 UTC | `INCONCLUSIVE` | Monomer-Dimer Entropy Lower-Bounds Tseitin Resolution Width |
@@ -82,6 +80,8 @@ Generated 2026-04-28 18:31 UTC
 | 2026-04-28 17:25 UTC | `INCONCLUSIVE` | Hereditary Discrepancy of Clause-Variable Incidence Lower-Bounds  |
 | 2026-04-28 17:55 UTC | `INCONCLUSIVE` | Schur-Polynomial Positivity Defect Lower-Bounds Tree-Frege Lines  |
 | 2026-04-28 18:31 UTC | `INCONCLUSIVE` | Erdős-Rado Sunflower Petals Lower-Bound Lifted Log-Rank for IND_2 |
+| 2026-04-28 19:01 UTC | `INCONCLUSIVE` | Subword Complexity of Lifted Rows Lower-Bounds Real Rank for IND_ |
+| 2026-04-28 19:42 UTC | `INCONCLUSIVE` | Bakry-Émery Curvature Floor Lower-Bounds Tseitin Resolution Width |
 
 ## How to read the reports
 

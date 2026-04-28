@@ -1,0 +1,40 @@
+{
+  "entry_id": "6a507261ca55",
+  "ts": 1777405365.1018417,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2103.10093",
+      "title": "Conjectures on Convergence and Scalar Curvature",
+      "abstract_excerpt": "Here we survey the compactness and geometric stability conjectures formulated by the participants at the 2018 IAS Emerging Topics Workshop on {\\em Scalar Curvature and Convergence}. We have tried to survey all the progress towards these conjectures as well as related examples, although it is impossible to cover everything. We focus primarily on sequences of compact Riemannian manifolds with nonnegative scalar curvature and their limit spaces. Christina Sormani is grateful to have had the opportu",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract surveys 'compactness and geometric stability conjectures' on 'sequences of compact Riemannian manifolds with nonnegative scalar curvature' — a continuous-geometry topic with no contact with discrete Bakry-Émery curvature on graphs or Tseitin resolution width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1807.10181",
+      "title": "Gradient estimates, Bakry-Emery Ricci curvature and ellipticity for unbounded graph Laplacians",
+      "abstract_excerpt": "In this article, we prove gradient estimates under Bakry-Emery curvature bounds for unbounded graph Laplacians which satisfy an ellipticity assumption. As applications, we study completeness and finiteness of stochastically complete graphs under Bakry-Emery curvature bounds.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns gradient estimates and stochastic completeness for unbounded graph Laplacians under Bakry-Emery curvature bounds, with no mention of Tseitin formulas, resolution width, or proof complexity. It shares only the Bakry-Emery framework vocabulary without engaging the specific width lower-bound claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1608.07778",
+      "title": "Bakry-Emery curvature and diameter bounds on graphs",
+      "abstract_excerpt": "We prove diameter bounds for graphs having positive Ricci-curvature bound in Bakry-Emery sense. One result using only curvature and maximal vertex degree is sharp in case of hypercubes. The other result depends on an additional dimension bound, but is independent of the vertex degree. In particular, the second result is the first Bonnet-Myers type theorem for unbounded graph Laplacians. Moreover, our results improve diameter bounds from [6] and [10].",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns diameter (Bonnet-Myers type) bounds for graphs with positive Bakry-Émery Ricci curvature, which neither addresses Tseitin formulas, resolution width, nor the non-positive average curvature regime central to the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
