@@ -1,0 +1,40 @@
+{
+  "entry_id": "15736a2ab8cf",
+  "ts": 1777397141.4093153,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2212.02103",
+      "title": "A Study of Hypergraph Using Null Spaces of the Incidence Matrix and its Transpose",
+      "abstract_excerpt": "In this study, we explore the substructures of a hypergraph that lead us to linearly dependent rows (or columns) in the incidence matrix of the hypergraph.\n  These substructures are closely related to the spectra of various hypergraph matrices, including the signless Laplacian, adjacency, Laplacian, and adjacency matrices of the hypergraph's incidence graph. Specific eigenvectors of these hypergraph matrices serve to characterize these substructures. We show that vectors belonging to the nullspa",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract focuses on substructures yielding linearly dependent rows/columns in hypergraph incidence matrices and their spectral characterization, with no mention of discrepancy, determinant lower bounds, resolution proof complexity, or DPLL search trees. It shares the 'incidence matrix of a hypergraph' vocabulary but does not interact with the specific bound linking detlb to tree-resolution leaves.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2111.02125",
+      "title": "Expected Complexity of Persistence Barcode Computation via Matrix Reduction",
+      "abstract_excerpt": "We study the algorithmic complexity of computing the persistence barcode of a randomly generated filtration. We provide a general technique to bound the expected complexity of reducing the boundary matrix in terms of the density of its reduced form. We apply this technique finding upper bounds for the average fill-in (number of non-zero entries) of the boundary matrix on Čech, Vietoris--Rips and Erdős--Rényi filtrations after matrix reduction, thus obtaining bounds on the expected complexity of ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns expected complexity of persistence barcode computation via boundary matrix reduction on random filtrations, with no mention of discrepancy, resolution proof complexity, or 3-CNF refutation hardness. It shares no specific claim with the conjecture linking detlb and tree-resolution leaves.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0702457v4",
+      "title": "Topological invariants of piecewise hereditary algebras",
+      "abstract_excerpt": "We investigate the Galois coverings of piecewise algebras and more particularly their behaviour under derived equivalences. Under a technical assumption which is satisfied if the algebra is derived equivalent to a hereditary algebra, we prove that there exists a universal Galois covering whose group",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Galois coverings of piecewise hereditary algebras under derived equivalences, which shares only the word 'hereditary' with the conjecture and has no bearing on combinatorial discrepancy or resolution proof complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
