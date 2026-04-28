@@ -1,0 +1,40 @@
+{
+  "entry_id": "23fb9df5b1a2",
+  "ts": 1777417760.443258,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2103.09609",
+      "title": "Characterizing Tseitin-formulas with short regular resolution refutations",
+      "abstract_excerpt": "Tseitin-formulas are systems of parity constraints whose structure is described by a graph. These formulas have been studied extensively in proof complexity as hard instances in many proof systems. In this paper, we prove that a class of unsatisfiable Tseitin-formulas of bounded degree has regular resolution refutations of polynomial length if and only if the treewidth of all underlying graphs $G$ for that class is in $O(\\log|V(G)|)$. To do so, we show that any regular resolution refutation of a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract characterizes regular resolution length of Tseitin formulas via treewidth (`2^{Ω(tw(G))}/|V(G)|` lower bound), not via effective-resistance diameter or DPLL width on 3-regular graphs. It shares the Tseitin/resolution framework but does not interact with the specific resistance-based width lower bound conjectured.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2101.11818",
+      "title": "Contagion-Preserving Network Sparsifiers: Exploring Epidemic Edge Importance Utilizing Effective Resistance",
+      "abstract_excerpt": "Network epidemiology has become a vital tool in understanding the effects of high-degree vertices, geographic and demographic communities, and other inhomogeneities in social structure on the spread of disease. However, many networks derived from modern datasets are quite dense, such as mobility networks where each location has links to a large number of potential destinations. One way to reduce the computational effort of simulating epidemics on these networks is sparsification, where we select",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns using effective resistance as a proxy for epidemic edge importance in network sparsification ('how effective resistance is correlated with the probability that an edge transmits disease in the SI model'), which shares only the vocabulary of effective resistance with the conjecture but does not address Tseitin formulas, resolution width, or DPLL depth.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/astro-ph/0407622v3",
+      "title": "A Study of the Composition of Ultra High Energy Cosmic Rays Using the High Resolution Fly's Eye",
+      "abstract_excerpt": "The composition of Ultra High Energy Cosmic Rays (UHECR) is measured with the High Resolution Fly's Eye cosmic ray observatory (HiRes) data using the Xmax technique. Data were collected in stereo between 1999 November and 2001 September. The data are reconstructed with well-determined geometry. Meas",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Ultra High Energy Cosmic Ray composition measured by the HiRes observatory using the Xmax technique, which has no connection to effective resistance, Tseitin formulas, or resolution width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

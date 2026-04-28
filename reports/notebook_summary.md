@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-28 20:35 UTC"
+date: "2026-04-28 23:09 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-28 20:35 UTC
+Generated 2026-04-28 23:09 UTC
 
-- Cycles recorded: **207**
-- Time span: 118.9h (~1.74 cycles/h)
+- Cycles recorded: **209**
+- Time span: 121.5h (~1.72 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 184 |
+| INCONCLUSIVE | 186 |
 | FALSIFIED | 14 |
 | BARRIER_HIT | 5 |
 | SUPPORTED | 4 |
@@ -67,8 +67,6 @@ Generated 2026-04-28 20:35 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-28 13:54 UTC | `INCONCLUSIVE` | Monomer-Dimer Entropy Lower-Bounds Tseitin Resolution Width |
-| 2026-04-28 14:25 UTC | `INCONCLUSIVE` | Sprague-Grundy Game Value of CNF Bounds Tree-Frege Lines |
 | 2026-04-28 14:45 UTC | `INCONCLUSIVE` | Roe-Skeleton Spectral Gap Forces Multiplicity in Protocol-Induced |
 | 2026-04-28 14:54 UTC | `INCONCLUSIVE` | Walsh-Code Antichain Width of NW Designs Bounds PRG Linear Bias |
 | 2026-04-28 15:27 UTC | `INCONCLUSIVE` | Kruskal-Katona Shadow Defect Lower-Bounds Monotone-KW Depth |
@@ -82,6 +80,8 @@ Generated 2026-04-28 20:35 UTC
 | 2026-04-28 19:42 UTC | `INCONCLUSIVE` | Bakry-Émery Curvature Floor Lower-Bounds Tseitin Resolution Width |
 | 2026-04-28 20:08 UTC | `INCONCLUSIVE` | Dyck Zero-Crossing Count of Row-Walks Capped by Log-Rank |
 | 2026-04-28 20:35 UTC | `INCONCLUSIVE` | Cyclotomic Norm Floor of Truth-Table Character Sum Caps ACC^0[m]  |
+| 2026-04-28 23:06 UTC | `INCONCLUSIVE` | Hilbert-Compression Floor on Property-A Gadgets Forces α·Q(f) Mul |
+| 2026-04-28 23:09 UTC | `INCONCLUSIVE` | Effective-Resistance Diameter Lower-Bounds Tseitin Resolution Wid |
 
 ## How to read the reports
 

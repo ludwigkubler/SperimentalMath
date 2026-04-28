@@ -1,0 +1,40 @@
+{
+  "entry_id": "15542d600c45",
+  "ts": 1777417591.4513276,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1411.4413",
+      "title": "Observation of the rare $B^0_s\\toμ^+μ^-$ decay from the combined analysis of CMS and LHCb data",
+      "abstract_excerpt": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence f",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a particle physics measurement of rare B-meson decay branching fractions at CMS and LHCb, with no relation to coarse geometry, Property A, or communication complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0901.0512",
+      "title": "Expected Performance of the ATLAS Experiment - Detector, Trigger and Physics",
+      "abstract_excerpt": "A detailed study is presented of the expected performance of the ATLAS detector. The reconstruction of tracks, leptons, photons, missing energy and jets is investigated, together with the performance of b-tagging and the trigger. The physics potential for a variety of interesting physics processes, within the Standard Model and beyond, is examined. The study comprises a series of notes based on simulations of the detector and physics processes, with particular emphasis given to the data expected",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes the ATLAS particle physics detector at the LHC ('expected performance of the ATLAS detector...reconstruction of tracks, leptons, photons'), which has no relation to coarse geometry, Property A, or communication complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2601.07595",
+      "title": "Deep Search for Joint Sources of Gravitational Waves and High-Energy Neutrinos with IceCube During the Third Observing Run of LIGO and Virgo",
+      "abstract_excerpt": "The discovery of joint sources of high-energy neutrinos and gravitational waves has been a primary target for the LIGO, Virgo, KAGRA, and IceCube observatories. The joint detection of high-energy neutrinos and gravitational waves would provide insight into cosmic processes, from the dynamics of compact object mergers and stellar collapses to the mechanisms driving relativistic outflows. The joint detection of multiple cosmic messengers can also elevate the significance of the common observation ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a multi-messenger astrophysics search for joint gravitational-wave and high-energy neutrino sources using LIGO/Virgo/IceCube data, with no connection to coarse geometry, Property A, or communication complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
