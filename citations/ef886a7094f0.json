@@ -1,0 +1,40 @@
+{
+  "entry_id": "ef886a7094f0",
+  "ts": 1777375184.2012255,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0906.2809",
+      "title": "Sandpile groups and spanning trees of directed line graphs",
+      "abstract_excerpt": "We generalize a theorem of Knuth relating the oriented spanning trees of a directed graph G and its directed line graph LG. The sandpile group is an abelian group associated to a directed graph, whose order is the number of oriented spanning trees rooted at a fixed vertex. In the case when G is regular of degree k, we show that the sandpile group of G is isomorphic to the quotient of the sandpile group of LG by its k-torsion subgroup. As a corollary we compute the sandpile groups of two families",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns relating sandpile groups of a regular graph G and its directed line graph LG (computing them for de Bruijn/Kautz graphs), with no mention of Boolean functions, certificates, decision-tree depth, or communication complexity lifting. It shares the 'sandpile group' vocabulary but does not interact with the conjecture's bound linking |K(G_f)| to Q^dt(f).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2602.01042",
+      "title": "On Condensation of Block Sensitivity, Certificate Complexity and the $\\mathsf{AND}$ (and $\\mathsf{OR}$) Decision Tree Complexity",
+      "abstract_excerpt": "Given an $n$-bit Boolean function with a complexity measure (such as block sensitivity, query complexity, etc.) $M(f) = k$, the hardness condensation question asks whether $f$ can be restricted to $O(k)$ variables such that the complexity measure is $Ω(k)$?\n  In this work, we study the condensability of block sensitivity, certificate complexity, AND (and OR) query complexity and Fourier sparsity. We show that block sensitivity does not condense under restrictions, unlike sensitivity: there exist",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses 'condensation' of complexity measures like block sensitivity and certificate complexity under variable restrictions, with no mention of sandpile groups, spanning trees, conflict graphs of certificates, or communication-complexity lifting bounds via Q^dt.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1904.12209",
+      "title": "Sandpile monomorphisms and limits",
+      "abstract_excerpt": "We introduce a tiling problem between bounded open convex polyforms $\\hat{P}\\subset\\mathbb{R}^2$ with directed and uniquely colored edges. If there exists a tiling of the polyform $\\hat{P}_2$ by $\\hat{P}_1$, we show that one can construct a monomorphism from the sandpile group $G_{Γ_1}=\\mathbb{Z}^{Γ_1}/Δ(\\mathbb{Z}^{Γ_1})$ on the domain (graph) $Γ_1=\\hat{P}_1\\cap\\mathbb{Z}^2$ to the respective group on $Γ_2=\\hat{P}_2\\cap\\mathbb{Z}^2$. We provide several examples of infinite series of such tiling",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns sandpile group monomorphisms via tilings of planar polyforms and scaling limits on Z^2, with no mention of Boolean certificate-conflict graphs, decision-tree depth, or communication complexity lifting. It shares only the sandpile-group framework but does not address the specific inequality being conjectured.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-28 10:39 UTC"
+date: "2026-04-28 11:19 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-28 10:39 UTC
+Generated 2026-04-28 11:19 UTC
 
-- Cycles recorded: **185**
-- Time span: 109.0h (~1.70 cycles/h)
+- Cycles recorded: **187**
+- Time span: 109.6h (~1.71 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 162 |
+| INCONCLUSIVE | 164 |
 | FALSIFIED | 14 |
 | BARRIER_HIT | 5 |
 | SUPPORTED | 4 |
@@ -67,8 +67,6 @@ Generated 2026-04-28 10:39 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-27 21:34 UTC | `BARRIER_HIT` | Diameter-Multiplicity Power Law under Controlled Refinement Recov |
-| 2026-04-27 21:48 UTC | `INCONCLUSIVE` | Commutator-Length Defect in S_5 Predicts Width-5 BP Size of Boole |
 | 2026-04-27 22:23 UTC | `INCONCLUSIVE` | Hessian-Rank of Clause-Count Polynomial Bounds DPLL Depth |
 | 2026-04-27 22:52 UTC | `INCONCLUSIVE` | Herbrand-Disjunction Length of PHP Bounds Tree-Resolution Leaves |
 | 2026-04-27 23:24 UTC | `INCONCLUSIVE` | Beck-Fiala Slack of Clause-Variable Hypergraph Bounds DPLL Leaves |
@@ -82,6 +80,8 @@ Generated 2026-04-28 10:39 UTC
 | 2026-04-28 09:45 UTC | `INCONCLUSIVE` | Plünnecke-Ruzsa Doubling of Constraint Vectors Lower-Bounds SoS D |
 | 2026-04-28 10:22 UTC | `INCONCLUSIVE` | Kolmogorov Width of Lifted Functions Bounds MA^cc |
 | 2026-04-28 10:39 UTC | `INCONCLUSIVE` | Tensor-Amplified Asdim Forces Linear Communication Blow-up on Inn |
+| 2026-04-28 10:48 UTC | `INCONCLUSIVE` | Möbius Defect of NW Design Lattice Bounds Parity Bias |
+| 2026-04-28 11:19 UTC | `INCONCLUSIVE` | Sandpile-Group Order of Certificate Conflict Graph Lower-Bounds Q |
 
 ## How to read the reports
 

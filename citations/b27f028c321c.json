@@ -1,0 +1,40 @@
+{
+  "entry_id": "b27f028c321c",
+  "ts": 1777373320.6934888,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2601.03730",
+      "title": "Perception-Aware Bias Detection for Query Suggestions",
+      "abstract_excerpt": "Bias in web search has been in the spotlight of bias detection research for quite a while. At the same time, little attention has been paid to query suggestions in this regard. Awareness of the problem of biased query suggestions has been raised. Likewise, there is a rising need for automatic bias detection approaches. This paper adds on the bias detection pipeline for bias detection in query suggestions of person-related search developed by Bonart et al. \\cite{Bonart_2019a}. The sparseness and ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses 'bias detection in query suggestions of person-related search' in web search engines, which shares only the word 'bias' with the conjecture about Möbius defect bounds on PRG parity bias—no interaction with NW generators, lattice Möbius functions, or pseudorandomness.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1207.0393",
+      "title": "Pseudo-finite hard instances for a student-teacher game with a Nisan-Wigderson generator",
+      "abstract_excerpt": "For an NP intersect coNP function g of the Nisan-Wigderson type and a string b outside its range we consider a two player game on a common input a to the function. One player, a computationally limited Student, tries to find a bit of g(a) that differs from the corresponding bit of b. He can query a computationally unlimited Teacher for the witnesses of the values of constantly many bits of g(a). The Student computes the queries from a and from Teacher's answers to his previous queries. It was pr",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a student-teacher game and pseudo-finite hard instances for an NW-type function in a proof-complexity/forcing context, with no mention of Möbius functions, intersection lattices, or bias bounds against parity distinguishers. It shares only the 'Nisan-Wigderson generator' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2109.14047",
+      "title": "Second Order WinoBias (SoWinoBias) Test Set for Latent Gender Bias Detection in Coreference Resolution",
+      "abstract_excerpt": "We observe an instance of gender-induced bias in a downstream application, despite the absence of explicit gender words in the test cases. We provide a test set, SoWinoBias, for the purpose of measuring such latent gender bias in coreference resolution systems. We evaluate the performance of current debiasing methods on the SoWinoBias test set, especially in reference to the method's design and altered embedding space properties. See https://github.com/hillarydawkins/SoWinoBias.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'gender-induced bias' in coreference resolution NLP systems and the SoWinoBias test set, which has no relation to Möbius functions, NW pseudorandom generators, or parity distinguishers. The shared word 'bias' is the only overlap.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
