@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-27 23:36 UTC"
+date: "2026-04-27 23:55 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-27 23:36 UTC
+Generated 2026-04-27 23:55 UTC
 
-- Cycles recorded: **176**
-- Time span: 97.9h (~1.80 cycles/h)
+- Cycles recorded: **177**
+- Time span: 98.3h (~1.80 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 154 |
+| INCONCLUSIVE | 155 |
 | FALSIFIED | 14 |
 | SUPPORTED | 4 |
 | BARRIER_HIT | 4 |
@@ -67,7 +67,6 @@ Generated 2026-04-27 23:36 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-27 17:36 UTC | `INCONCLUSIVE` | Carries-Polynomial Degree Lower-Bounds EF-Lines for PHP_n |
 | 2026-04-27 18:10 UTC | `INCONCLUSIVE` | Sharply-Bounded Refutability Vanishes at 3-SAT Threshold |
 | 2026-04-27 18:40 UTC | `INCONCLUSIVE` | Run-Length Entropy Floor Lower-Bounds DNF-MCSP Term Count |
 | 2026-04-27 19:11 UTC | `INCONCLUSIVE` | Hamming-Weight Spectrum Slope Bounds ACC^0[2] Subcircuit Count |
@@ -82,6 +81,7 @@ Generated 2026-04-27 23:36 UTC
 | 2026-04-27 22:52 UTC | `INCONCLUSIVE` | Herbrand-Disjunction Length of PHP Bounds Tree-Resolution Leaves |
 | 2026-04-27 23:24 UTC | `INCONCLUSIVE` | Beck-Fiala Slack of Clause-Variable Hypergraph Bounds DPLL Leaves |
 | 2026-04-27 23:36 UTC | `BARRIER_HIT` | Monotone Ultralimit Convergence of κ along the Asymptotic Complet |
+| 2026-04-27 23:55 UTC | `INCONCLUSIVE` | Spectral-Tail Mass of Unit-Propagation Indicator Bounds DPLL Leav |
 
 ## How to read the reports
 

@@ -1,0 +1,40 @@
+{
+  "entry_id": "9edcbf300e22",
+  "ts": 1777334150.0721014,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1504.04131",
+      "title": "Formulas for the Walsh coefficients of smooth functions and their application to bounds on the Walsh coefficients",
+      "abstract_excerpt": "We establish formulas for the $b$-adic Walsh coefficients of functions in $C^α[0,1]$ for an integer $α\\geq 1$ and give upper bounds on the Walsh coefficients of these functions. We also study the Walsh coefficients of periodic and non-periodic functions in reproducing kernel Hilbert spaces.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns b-adic Walsh coefficients of smooth real-valued functions on [0,1] in C^α and reproducing kernel Hilbert spaces, not Boolean Walsh spectra of unit-propagation indicators or DPLL leaf counts.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2406.18700",
+      "title": "Structure of sparse Boolean functions over Abelian groups, and its application to testing",
+      "abstract_excerpt": "We study Fourier-sparse Boolean functions over general finite Abelian groups. A Boolean function $f : G \\to \\{-1,+1\\}$ is $s$-sparse if it has at most $s$ non-zero Fourier coefficients. We introduce a general notion of granularity of Fourier coefficients and prove that every non-zero coefficient of an $s$-sparse Boolean function has magnitude at least \\begin{equation*} \\frac{1}{2^{\\varphi(Δ)/2} \\, s^{\\varphi(Δ)/2}}, \\end{equation*} where $Δ$ denotes the exponent of the group $G$ (that is, the ma",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Fourier sparsity of Boolean functions over Abelian groups and sparsity testing ('s-sparse Boolean function', 'sparsity testing algorithm'), with no engagement with unit propagation, DPLL leaf counts, or high-degree Walsh tail mass bounds for unsatisfiable 3-CNF formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2205.09222",
+      "title": "On the Walsh and Fourier-Hadamard Supports of Boolean Functions From a Quantum Viewpoint",
+      "abstract_excerpt": "In this paper, we focus on the links between Boolean function theory and quantum computing. In particular, we study the notion of what we call fully-balanced functions and analyse the Fourier--Hadamard and Walsh supports of those functions having such property. We study the Walsh and Fourier supports of other relevant classes of functions, using what we call balancing sets. This leads us to revisit and complete certain classic results and to propose new ones.\n  We complete our study by extending",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract focuses on Walsh/Fourier-Hadamard supports of 'fully-balanced' Boolean functions and quantum-algorithm applications, with no mention of unit propagation, DPLL leaf counts, or spectral tail bounds on SAT-solver behavior.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
