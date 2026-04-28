@@ -1,0 +1,40 @@
+{
+  "entry_id": "a510fd856726",
+  "ts": 1777387568.3028746,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1903.06084",
+      "title": "Lifting coarse homotopies",
+      "abstract_excerpt": "Coarse geometry, and in particular coarse homotopy theory, has proven to be a powerful tool for approaching problems in geometric group theory and higher index theory. In this paper, we continue to develop theory in this area by proving a Coarse Lifting Lemma with respect to a certain class of bornologous surjective maps. This class is wide enough to include quotients by coarsely discontinuous group actions, which allows us to obtain results concerning the coarse fundamental group of quotients w",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses a 'Coarse Lifting Lemma' for bornologous surjective maps and computes coarse fundamental groups of metric cones — it shares the 'coarse' and 'lifting' vocabulary but does not engage with Roe-algebra spectral gaps, communication complexity, or protocol cover multiplicity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2312.08907",
+      "title": "Roe algebras of coarse spaces via coarse geometric modules",
+      "abstract_excerpt": "We provide a construction of Roe (C*-)algebras of general coarse spaces in terms of coarse geometric modules. This extends the classical theory of Roe algebras of metric spaces and gives a unified framework to deal with either uniform or non-uniform Roe algebras, algebras of operators of controlled propagation, and algebras of quasi-local operators; both in the metric and general coarse geometric setting. The key new definitions are that of coarse geometric module and coarse support of operators",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a general C*-algebraic construction of Roe algebras via coarse geometric modules and their K-theory, with no mention of communication complexity, lifting theorems, protocol covers, or spectral gap lower bounds on multiplicity. It shares only the 'Roe algebra' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2408.07701",
+      "title": "A categorical interpretation of Morita equivalence for dynamical von Neumann algebras",
+      "abstract_excerpt": "$\\DeclareMathOperator{\\G}{\\mathbb{G}}\\DeclareMathOperator{\\Rep}{Rep} \\DeclareMathOperator{\\Corr}{Corr}$Let $\\G$ be a locally compact quantum group and $(M, α)$ a $\\G$-$W^*$-algebra. The object of study of this paper is the $W^*$-category $\\Rep^{\\G}(M)$ of normal, unital $\\G$-representations of $M$ on Hilbert spaces endowed with a unitary $\\G$-representation. This category has a right action of the category $\\Rep(\\G)= \\Rep^{\\G}(\\mathbb{C})$ for which it becomes a right $\\Rep(\\G)$-module $W^*$-cat",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Morita equivalence of dynamical von Neumann algebras and an equivariant Eilenberg-Watts theorem for quantum group actions, with no mention of Roe algebras, spectral gaps, communication complexity, or protocol covers. It shares only the broad operator-algebra framework but does not interact with the specific lifting/multiplicity claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
