@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — Frameworks (live)"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-28 03:39 UTC"
+date: "2026-04-28 06:30 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,7 +13,7 @@ colorlinks: true
 
 # SEC P vs NP — Frameworks (live)
 
-Compiled 2026-04-28 03:39 UTC. Tracking 3 active + 0 dead frameworks.
+Compiled 2026-04-28 06:30 UTC. Tracking 4 active + 0 dead frameworks.
 
 ## Summary table
 
@@ -22,6 +22,7 @@ Compiled 2026-04-28 03:39 UTC. Tracking 3 active + 0 dead frameworks.
 | `fw_b9e7d103d0` | ELABORATING | 0.000 | 0 | `-` | Ergodic Circuit Framework |
 | `fw_28b4bfb95f` | ELABORATING | 0.000 | 0 | `-` | TROPICAL_FOURIER_ANALYSIS |
 | `fw_85a254b4a0` | ELABORATING | 0.000 | 0 | `-` | Coarse Geometric Karchmer-Wigderson (CG-KW) |
+| `fw_6997a27304` | PROPOSED | 0.000 | 0 | `-` | Coarse Geometric Lifting (CGL) |
 
 ## Details
 
@@ -85,3 +86,26 @@ Compiled 2026-04-28 03:39 UTC. Tracking 3 active + 0 dead frameworks.
 - A3 (Anti-natural-proofs): for a uniformly random f, HX^1(X_f) is generically zero (Roe-algebraic concentration of measure), so κ is NOT a 'largeness' property in the Razborov-Rudich sense — random f's
 - A4 (Anti-relativization): κ is a metric invariant of d_f and is destroyed by oracle access (oracle gates collapse d_f to ≤ 1), so κ-based bounds cannot relativize, in the spirit of Mendel-Naor metric 
 - A5 (Roe-index rigidity): nontrivial classes in HX^1(X_f) detected by the Roe-trace pairing are stable under coarse equivalence, mirroring Yu's coarse Baum-Connes results (Yu 2000; Nowak-Yu 2012); expl
+
+---
+
+### Coarse Geometric Lifting (CGL) (`fw_6997a27304`)
+
+- **Status**: `PROPOSED`
+- **Fitness**: 0.000
+- **Taxonomy**: LIFTING
+- **Target invariant**: CoarseLiftingComplexity (CLC) (ℕ-valued function of (f, G)) → bounds The deterministic 2-party communication complexity of f∘G^n. Specifically: CC(f∘G^n) ≥ Q(f) · log_2(asdim_R(G)+1) for the gadget scale R = diam(G), with the goal of recovering and surpassing known query-to-communication lifting bounds (Raz–McKenzie, Göös–Pitassi–Watson) for gadgets where positive asymptotic dimension can be certified.
+
+**Primitives**:
+- `MetricGadget` ((X: FiniteSet, Y: FiniteSet, g: X×Y → {0,1}, d: (X×Y)² → ℝ≥0)): A boolean gadget g equipped with a graph/Hamming metric d on X×Y. Implementable as a tuple of two finite sets, a truth-table for g, and a precomputed 
+- `LiftedInputSpace` (((X×Y)^n, d_⊕)): The n-fold product of a MetricGadget under the ℓ¹ (Hamming-sum) product metric d_⊕((u_i),(v_i)) = Σ d(u_i, v_i). Implementable as a generator over tup
+- `RoeCover` (List[Subset((X×Y)^n)] with multiplicity m and scale R): A finite cover of the lifted input space whose members have d_⊕-diameter ≤ R and any point is in ≤ m members. This is the discrete witness used in the
+- `ProtocolPullback` (Dict[transcript → Subset((X×Y)^n)]): The partition of inputs induced by transcripts of a (deterministic or randomized) communication protocol Π, viewed as a candidate RoeCover. Implementa
+- `FolnerWitness` (Sequence[Subset((X×Y)^n)]): A nested family F_1 ⊂ F_2 ⊂ ... with |∂_R F_k|/|F_k| → 0 for each scale R, certifying amenability/Property A of the lifted space relative to a gadget.
+
+**Tentative axioms**:
+- A1 (Coarse-Lift Functoriality): If two gadgets G_1, G_2 are coarsely equivalent (a bi-Lipschitz bijection up to bounded error), then CLC(f, G_1) = Θ(CLC(f, G_2)) for every f.
+- A2 (Protocol → Cover): Every deterministic protocol Π for f∘G^n of cost c yields a RoeCover with multiplicity ≤ 2^c and bounded scale R_Π depending only on G; hence CC(f∘G^n) ≥ log_2 (min multiplicity
+- A3 (Asdim Amplification): asdim(G_1 ⊗ G_2) ≥ asdim(G_1) + asdim(G_2) − O(1), so iterated tensoring of a single 'good' gadget produces unbounded coarse dimension.
+- A4 (Property-A Transfer): If G has Property A and f has query complexity Q(f), then CLC(f, G) ≥ Q(f) · h(G) where h(G) is the Hilbert-space compression exponent of G — a non-natural, non-relativizing 
+- A5 (Non-Algebrization): The Roe algebra C*_R((X×Y)^n) is not closed under polynomial extensions of the gadget alphabet; therefore lower bounds derived from its K-theory do not algebrize.
