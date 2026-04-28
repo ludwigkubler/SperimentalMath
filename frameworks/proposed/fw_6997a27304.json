@@ -1,0 +1,86 @@
+{
+  "framework_id": "fw_6997a27304",
+  "ts": 1777354828.005803,
+  "generation": 0,
+  "parent_framework_id": "",
+  "mutation_from_parent": "",
+  "name": "Coarse Geometric Lifting (CGL)",
+  "taxonomy_category": "LIFTING",
+  "primitives": [
+    {
+      "name": "MetricGadget",
+      "type": "(X: FiniteSet, Y: FiniteSet, g: X×Y → {0,1}, d: (X×Y)² → ℝ≥0)",
+      "description": "A boolean gadget g equipped with a graph/Hamming metric d on X×Y. Implementable as a tuple of two finite sets, a truth-table for g, and a precomputed pairwise distance matrix."
+    },
+    {
+      "name": "LiftedInputSpace",
+      "type": "((X×Y)^n, d_⊕)",
+      "description": "The n-fold product of a MetricGadget under the ℓ¹ (Hamming-sum) product metric d_⊕((u_i),(v_i)) = Σ d(u_i, v_i). Implementable as a generator over tuples with a vectorized distance routine."
+    },
+    {
+      "name": "RoeCover",
+      "type": "List[Subset((X×Y)^n)] with multiplicity m and scale R",
+      "description": "A finite cover of the lifted input space whose members have d_⊕-diameter ≤ R and any point is in ≤ m members. This is the discrete witness used in the definition of asymptotic dimension. Implementable as a list of frozensets plus integers (R, m)."
+    },
+    {
+      "name": "ProtocolPullback",
+      "type": "Dict[transcript → Subset((X×Y)^n)]",
+      "description": "The partition of inputs induced by transcripts of a (deterministic or randomized) communication protocol Π, viewed as a candidate RoeCover. Implementable by simulating Π over a sample of inputs and recording leaf membership."
+    },
+    {
+      "name": "FolnerWitness",
+      "type": "Sequence[Subset((X×Y)^n)]",
+      "description": "A nested family F_1 ⊂ F_2 ⊂ ... with |∂_R F_k|/|F_k| → 0 for each scale R, certifying amenability/Property A of the lifted space relative to a gadget. Implementable as an iterator yielding sets together with boundary statistics."
+    }
+  ],
+  "operations": [
+    {
+      "name": "Lift",
+      "signature": "(f: {0,1}^n → {0,1}, G: MetricGadget) → f∘G^n : (X×Y)^n → {0,1}",
+      "description": "Standard query-to-communication lift; carries the metric d_⊕ along."
+    },
+    {
+      "name": "RoeAlgebraSkeleton",
+      "signature": "LiftedInputSpace → SparseMatrix",
+      "description": "Builds the finite-propagation operator skeleton C*_R(X×Y)^n: the algebra of matrices indexed by inputs whose nonzero entries are within distance R. The 'skeleton' is its support graph; spectral data approximates Roe-algebra K-theory."
+    },
+    {
+      "name": "CoarsePullback",
+      "signature": "Protocol Π → ProtocolPullback → (multiplicity m_Π, scale R_Π)",
+      "description": "Extracts the multiplicity and scale of the cover induced by Π's transcript partition."
+    },
+    {
+      "name": "AsdimCertify",
+      "signature": "(LiftedInputSpace, R) → (m: ℕ ∪ {∞})",
+      "description": "Searches for the minimum multiplicity m such that a RoeCover of scale R exists; outputs the asymptotic-dimension profile asdim_R."
+    },
+    {
+      "name": "GadgetComposition",
+      "signature": "(G_1, G_2) → G_1 ⊗ G_2 : MetricGadget",
+      "description": "Forms the metric tensor gadget with coordinatewise distances added; used to amplify coarse invariants."
+    },
+    {
+      "name": "PropertyAExpand",
+      "signature": "FolnerWitness → ε-Hilbert-space embedding",
+      "description": "Constructs an explicit Yu-style coarse embedding into ℓ²; certifies Property A of the gadget for use in lower-bound transfer."
+    }
+  ],
+  "target_invariant": {
+    "name": "CoarseLiftingComplexity (CLC)",
+    "type": "ℕ-valued function of (f, G)",
+    "what_it_should_bound": "The deterministic 2-party communication complexity of f∘G^n. Specifically: CC(f∘G^n) ≥ Q(f) · log_2(asdim_R(G)+1) for the gadget scale R = diam(G), with the goal of recovering and surpassing known query-to-communication lifting bounds (Raz–McKenzie, Göös–Pitassi–Watson) for gadgets where positive asymptotic dimension can be certified."
+  },
+  "axioms_tentative": [
+    "A1 (Coarse-Lift Functoriality): If two gadgets G_1, G_2 are coarsely equivalent (a bi-Lipschitz bijection up to bounded error), then CLC(f, G_1) = Θ(CLC(f, G_2)) for every f.",
+    "A2 (Protocol → Cover): Every deterministic protocol Π for f∘G^n of cost c yields a RoeCover with multiplicity ≤ 2^c and bounded scale R_Π depending only on G; hence CC(f∘G^n) ≥ log_2 (min multiplicity over scale-R covers).",
+    "A3 (Asdim Amplification): asdim(G_1 ⊗ G_2) ≥ asdim(G_1) + asdim(G_2) − O(1), so iterated tensoring of a single 'good' gadget produces unbounded coarse dimension.",
+    "A4 (Property-A Transfer): If G has Property A and f has query complexity Q(f), then CLC(f, G) ≥ Q(f) · h(G) where h(G) is the Hilbert-space compression exponent of G — a non-natural, non-relativizing quantity.",
+    "A5 (Non-Algebrization): The Roe algebra C*_R((X×Y)^n) is not closed under polynomial extensions of the gadget alphabet; therefore lower bounds derived from its K-theory do not algebrize."
+  ],
+  "status": "PROPOSED",
+  "sub_conjecture_entry_ids": [],
+  "fitness_components": {},
+  "fitness": 0.0,
+  "paper_path": "",
+  "lean_module_path": ""
+}
