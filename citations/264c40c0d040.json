@@ -1,0 +1,40 @@
+{
+  "entry_id": "264c40c0d040",
+  "ts": 1777347599.4973931,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2107.05128",
+      "title": "Karchmer-Wigderson Games for Hazard-free Computation",
+      "abstract_excerpt": "We present a Karchmer-Wigderson game to study the complexity of hazard-free formulas. This new game is both a generalization of the monotone Karchmer-Wigderson game and an analog of the classical Boolean Karchmer-Wigderson game. Therefore, it acts as a bridge between the existing monotone and general games.\n  Using this game, we prove hazard-free formula size and depth lower bounds that are provably stronger than those possible by the standard technique of transferring results from monotone comp",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a Karchmer-Wigderson game variant for hazard-free computation and proves bounds for the multiplexer function, with no mention of coarse cohomology, Roe algebras, recursive parity, or coboundary thresholds. It shares the KW-game vocabulary but does not interact with the specific HX^1 triviality claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2002.07444",
+      "title": "Multiparty Karchmer-Wigderson Games and Threshold Circuits",
+      "abstract_excerpt": "We suggest a generalization of Karchmer-Wigderson communication games to the multiparty setting. Our generalization turns out to be tightly connected to circuits consisting of threshold gates. This allows us to obtain new explicit constructions of such circuits for several functions. In particular, we provide an explicit (polynomial-time computable) log-depth monotone formula for Majority function, consisting only of 3-bit majority gates and variables. This resolves a conjecture of Cohen et al. ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper generalizes Karchmer-Wigderson games to the multiparty setting for threshold circuits and majority formulas, with no mention of coarse cohomology, Roe algebras, parity-trees, or HX^1 vanishing thresholds. It shares only the 'Karchmer-Wigderson' vocabulary without interacting with the specific coboundary-vanishing claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2109.13292",
+      "title": "The Hochschild Cohomology of Uniform Roe Algebras",
+      "abstract_excerpt": "In Rufus Willett's and the authors paper \"Bounded Derivations on Uniform Roe Algebras\" we showed that all bounded derivations on a uniform Roe algebra $C^*_u(X)$ associated to a bounded geometry metric space $X$ are inner. This naturally leads to the question of whether or not the higher dimensional Hochschild cohomology groups of the uniform Roe algebra vanish also. While we cannot answer this question completely, we are able to give necessary and sufficient conditions for the vanishing of $H^n",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Hochschild cohomology of uniform Roe algebras C^*_u(X) (bounded derivations being inner, vanishing of H^n_c) on bounded-geometry metric spaces, not coarse 1-cohomology HX^1 of KW-metric spaces, propagation thresholds, or formula depth lower bounds for parity trees.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
