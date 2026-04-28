@@ -11,3 +11,5 @@
 {"ts": 1777361401.7593968, "kind": "SERVICE_STALL", "auto_fixed": true, "detail": {"hours": 3.8390105805794397}}
 {"ts": 1777363201.293665, "kind": "SERVICE_STALL", "auto_fixed": true, "detail": {"hours": 4.338881834016906}}
 {"ts": 1777365001.7745311, "kind": "SERVICE_STALL", "auto_fixed": true, "detail": {"hours": 4.839015558428234}}
+{"ts": 1777370401.7875607, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1405, "cap": 2000, "fraction": 0.703, "weekly_budget": 2500}}
+{"ts": 1777372201.666357, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1416, "cap": 2000, "fraction": 0.708, "weekly_budget": 2500}}

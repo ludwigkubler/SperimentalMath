@@ -1,0 +1,40 @@
+{
+  "entry_id": "916caa07c776",
+  "ts": 1777372809.903135,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1904.13056",
+      "title": "Query-to-Communication Lifting Using Low-Discrepancy Gadgets",
+      "abstract_excerpt": "Lifting theorems are theorems that relate the query complexity of a function $f:\\{0,1\\}^{n}\\to\\{0,1\\}$ to the communication complexity of the composed function $f \\circ g^{n}$, for some \"gadget\" $g:\\{0,1\\}^{b}\\times\\{0,1\\}^{b}\\to\\{0,1\\}$. Such theorems allow transferring lower bounds from query complexity to the communication complexity, and have seen numerous applications in the recent years. In addition, such theorems can be viewed as a strong generalization of a direct-sum theorem for the gad",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract proves lifting theorems via low-discrepancy gadgets of logarithmic length, not via tensor-amplified inner-product gadgets analyzed through asymptotic dimension/coarse geometry, and gives no log_2(k+1) per-query-bit bound tied to AsdimCertify multiplicity. It shares the lifting framework but does not interact with the specific CGL/asdim claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1104.4468",
+      "title": "A strong direct product theorem for quantum query complexity",
+      "abstract_excerpt": "We show that quantum query complexity satisfies a strong direct product theorem. This means that computing $k$ copies of a function with less than $k$ times the quantum queries needed to compute one copy of the function implies that the overall success probability will be exponentially small in $k$. For a boolean function $f$ we also show an XOR lemma---computing the parity of $k$ copies of $f$ with less than $k$ times the queries needed for one copy implies that the advantage over random guessi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a strong direct product theorem for quantum query complexity via adversary methods, not deterministic two-party communication complexity of lifted functions, asymptotic dimension, or coarse geometric gadget composition. It shares the 'k copies' framing but does not interact with the specific CLC/asdim claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2511.17227",
+      "title": "A Lifting Theorem for Hybrid Classical-Quantum Communication Complexity",
+      "abstract_excerpt": "We investigates a model of hybrid classical-quantum communication complexity, in which two parties first exchange classical messages and subsequently communicate using quantum messages. We study the trade-off between the classical and quantum communication for composed functions of the form $f\\circ G^n$, where $f:\\{0,1\\}^n\\to\\{\\pm1\\}$ and $G$ is an inner product function of $Θ(\\log n)$ bits. To prove the trade-off, we establish a novel lifting theorem for hybrid communication complexity. This th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a lifting theorem for hybrid classical-quantum communication with an inner-product gadget of Θ(log n) bits, yielding a c+q² trade-off via degree/block-sensitivity — it does not address coarse geometry, asymptotic dimension, tensor-power gadgets G_k = IP_2^⊗k, nor a log_2(k+1) per-query-bit lower bound.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "dd203ee122c9",
+  "ts": 1777371799.7019322,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1811.04010",
+      "title": "The layer complexity of Arthur-Merlin-like communication",
+      "abstract_excerpt": "In communication complexity the Arthur-Merlin (AM) model is the most natural one that allows both randomness and non-determinism. Presently we do not have any super-logarithmic lower bound for the AM-complexity of an explicit function. Obtaining such a bound is a fundamental challenge to our understanding of communication phenomena. In this article we explore the gap between the known techniques and the complexity class AM.\n  In the first part we define a new natural class, Small-advantage Layer",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses layer complexity, the SLAM subclass, and the difficulty of proving ω(√n) MA lower bounds, but says nothing about Kolmogorov width, lifted functions, or Indexing gadget composition. It shares the MA communication complexity vocabulary without addressing the specific Kolmogorov-width lifting bound.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1904.13056",
+      "title": "Query-to-Communication Lifting Using Low-Discrepancy Gadgets",
+      "abstract_excerpt": "Lifting theorems are theorems that relate the query complexity of a function $f:\\{0,1\\}^{n}\\to\\{0,1\\}$ to the communication complexity of the composed function $f \\circ g^{n}$, for some \"gadget\" $g:\\{0,1\\}^{b}\\times\\{0,1\\}^{b}\\to\\{0,1\\}$. Such theorems allow transferring lower bounds from query complexity to the communication complexity, and have seen numerous applications in the recent years. In addition, such theorems can be viewed as a strong generalization of a direct-sum theorem for the gad",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns lifting theorems from query to deterministic/randomized communication complexity for low-discrepancy gadgets, with no mention of Kolmogorov width, MA communication complexity, or the Indexing gadget specifically tied to the Ω(log n) MA bound.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:cs/0506068",
+      "title": "Quantum Arthur-Merlin Games",
+      "abstract_excerpt": "This paper studies quantum Arthur-Merlin games, which are Arthur-Merlin games in which Arthur and Merlin can perform quantum computations and Merlin can send Arthur quantum information. As in the classical case, messages from Arthur to Merlin are restricted to be strings of uniformly generated random bits. It is proved that for one-message quantum Arthur-Merlin games, which correspond to the complexity class QMA, completeness and soundness errors can be reduced exponentially without increasing t",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quantum Arthur-Merlin games (QMA) in the Turing-machine complexity setting, discussing error reduction and class containments like QMA ⊆ PP; it does not address communication complexity, lifting theorems, Indexing gadgets, or Kolmogorov width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

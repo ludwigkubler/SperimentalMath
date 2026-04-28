@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-28 09:45 UTC"
+date: "2026-04-28 10:39 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-28 09:45 UTC
+Generated 2026-04-28 10:39 UTC
 
-- Cycles recorded: **183**
-- Time span: 108.1h (~1.69 cycles/h)
+- Cycles recorded: **185**
+- Time span: 109.0h (~1.70 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 160 |
+| INCONCLUSIVE | 162 |
 | FALSIFIED | 14 |
 | BARRIER_HIT | 5 |
 | SUPPORTED | 4 |
@@ -67,8 +67,6 @@ Generated 2026-04-28 09:45 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-27 20:42 UTC | `BARRIER_HIT` | Median-Restriction Hardness Amplification Gap for DNF Truth Table |
-| 2026-04-27 21:18 UTC | `INCONCLUSIVE` | Total-Influence Defect of Clause-Indicator Bounds Tree-Resolution |
 | 2026-04-27 21:34 UTC | `BARRIER_HIT` | Diameter-Multiplicity Power Law under Controlled Refinement Recov |
 | 2026-04-27 21:48 UTC | `INCONCLUSIVE` | Commutator-Length Defect in S_5 Predicts Width-5 BP Size of Boole |
 | 2026-04-27 22:23 UTC | `INCONCLUSIVE` | Hessian-Rank of Clause-Count Polynomial Bounds DPLL Depth |
@@ -82,6 +80,8 @@ Generated 2026-04-28 09:45 UTC
 | 2026-04-28 08:46 UTC | `INCONCLUSIVE` | Σ^b_0-PIND Width-2 Closure Round-Count vs DPLL Leaves |
 | 2026-04-28 09:18 UTC | `BARRIER_HIT` | Mahler Measure of Truth-Table Polynomial Lower-Bounds DNF_min |
 | 2026-04-28 09:45 UTC | `INCONCLUSIVE` | Plünnecke-Ruzsa Doubling of Constraint Vectors Lower-Bounds SoS D |
+| 2026-04-28 10:22 UTC | `INCONCLUSIVE` | Kolmogorov Width of Lifted Functions Bounds MA^cc |
+| 2026-04-28 10:39 UTC | `INCONCLUSIVE` | Tensor-Amplified Asdim Forces Linear Communication Blow-up on Inn |
 
 ## How to read the reports
 
