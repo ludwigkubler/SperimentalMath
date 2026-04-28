@@ -1,0 +1,40 @@
+{
+  "entry_id": "eb402b6828f3",
+  "ts": 1777406929.4073758,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1403.8106",
+      "title": "Recent advances on the log-rank conjecture in communication complexity",
+      "abstract_excerpt": "The log-rank conjecture is one of the fundamental open problems in communication complexity. It speculates that the deterministic communication complexity of any two-party function is equal to the log of the rank of its associated matrix, up to polynomial factors. Despite much research, we still know very little about this conjecture. Recently, there has been renewed interest in this conjecture and its relations to other fundamental problems in complexity theory. This survey describes some of th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a survey on the log-rank conjecture in communication complexity, but does not mention Dyck-path zero-crossing counts or any row-walk statistic like R(f), so it neither supports nor refutes the specific √(rk·N·log N) bound proposed.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2510.02583",
+      "title": "The Log-Rank Conjecture: New Equivalent Formulations",
+      "abstract_excerpt": "The log-rank conjecture is a longstanding open problem with multiple equivalent formulations in complexity theory and mathematics. In its linear-algebraic form, it asserts that the rank and partitioning number of a Boolean matrix are quasi-polynomially related.\n  We propose a relaxed but still equivalent version of the conjecture based on a new matrix parameter, signed rectangle rank: the minimum number of all-1 rectangles needed to express the Boolean matrix as a $\\pm 1$-sum. Signed rectangle r",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract introduces 'signed rectangle rank' as an equivalent reformulation of the log-rank conjecture and connects it to cross-intersecting set systems, but says nothing about row-walk zero-crossing counts or any Dyck/arcsine statistic of M_f, so it neither supports nor refutes the specific R(f) ≤ 4·√(rk·N·log N) bound.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1111.5884",
+      "title": "An additive combinatorics approach to the log-rank conjecture in communication complexity",
+      "abstract_excerpt": "For a $\\{0,1\\}$-valued matrix $M$ let $\\rm{CC}(M)$ denote the deterministic communication complexity of the boolean function associated with $M$. The log-rank conjecture of Lovász and Saks [FOCS 1988] states that $\\rm{CC}(M) \\leq \\log^c(\\rm{rank}(M))$ for some absolute constant $c$ where $\\rm{rank}(M)$ denotes the rank of $M$ over the field of real numbers. We show that $\\rm{CC}(M)\\leq c \\cdot \\rm{rank}(M)/\\log \\rm{rank}(M)$ for some absolute constant $c$, assuming a well-known conjecture from a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns upper bounds on deterministic communication complexity in terms of rank (CC(M) ≤ c·rank(M)/log rank(M) under PFR), with no mention of Dyck row-walk zero-crossing counts or any prefix-sum/arcsine statistic of M_f's rows. It shares the log-rank framework but does not interact with the specific R(f) ≤ 4√(rk·N·log N) claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

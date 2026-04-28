@@ -1,0 +1,40 @@
+{
+  "entry_id": "a13755e34e77",
+  "ts": 1777408535.8010616,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1611.06783",
+      "title": "Cyclotomic polynomials at roots of unity",
+      "abstract_excerpt": "The $n^{th}$ cyclotomic polynomial $Φ_n(x)$ is the minimal polynomial of an $n^{th}$ primitive root of unity. Hence $Φ_n(x)$ is trivially zero at primitive $n^{th}$ roots of unity. Using finite Fourier analysis we derive a formula for $Φ_n(x)$ at the other roots of unity. This allows one to explicitly evaluate $Φ_n(e^{2πi/m})$ with $m\\in \\{3,4,5,6,8,10,12\\}$. We use this evaluation with $m=5$ to give a simple reproof of a result of Vaughan (1975) on the maximum coefficient (in absolute value) of",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns evaluating cyclotomic polynomials Φ_n at roots of unity and deriving formulas for Φ_n'(e^{2πi/m})/Φ_n(e^{2πi/m}), with no mention of Boolean functions, circuit complexity, ACC^0[m], or norm bounds on truth-table character sums.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2504.19966",
+      "title": "Quantum circuit lower bounds in the magic hierarchy",
+      "abstract_excerpt": "We introduce the magic hierarchy, a quantum circuit model that alternates between arbitrary-sized Clifford circuits and constant-depth circuits with two-qubit gates ($\\textsf{QNC}^0$). This model unifies existing circuit models, such as $\\textsf{QAC}^0_f$ and models with adaptive intermediate measurements. Despite its generality, we are able to prove nontrivial lower bounds.\n  We prove new lower bounds in the first level of the hierarchy, showing that certain explicit quantum states cannot be ap",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quantum circuit lower bounds in a 'magic hierarchy' built from Clifford and QNC^0 circuits, with no mention of cyclotomic norms, ACC^0[m], or character sums over Boolean functions. It shares only the broad theme of 'circuit complexity' but does not interact with the specific cyclotomic-norm-vs-ACC^0[m]-size claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2110.13086",
+      "title": "Quantum Algorithms and Lower Bounds for Linear Regression with Norm Constraints",
+      "abstract_excerpt": "Lasso and Ridge are important minimization problems in machine learning and statistics. They are versions of linear regression with squared loss where the vector $θ\\in\\mathbb{R}^d$ of coefficients is constrained in either $\\ell_1$-norm (for Lasso) or in $\\ell_2$-norm (for Ridge). We study the complexity of quantum algorithms for finding $\\varepsilon$-minimizers for these minimization problems. We show that for Lasso we can get a quadratic quantum speedup in terms of $d$ by speeding up the cost-p",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quantum and classical complexity of Lasso/Ridge linear regression with norm constraints, which shares only the generic word 'norm' with the conjecture and has no bearing on cyclotomic norms or ACC^0[m] circuit lower bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

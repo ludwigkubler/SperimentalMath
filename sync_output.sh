@@ -213,3 +213,24 @@ fi
 if [ -f "$SRC/health_report.md" ]; then
     cp "$SRC/health_report.md" health_report.md
 fi
+
+# --- 14. Linkage graph (P vs NP obstructions chain — Fase 4)
+if [ -d "$SRC/linkage_graph" ]; then
+    mkdir -p linkage_graph
+    rsync -a --include="*.jsonl" --include="*.dot" --exclude="*" "$SRC/linkage_graph/" linkage_graph/
+fi
+
+# --- 15. Lean PROOFS (Fase 3 — positive direction, separate from refutations)
+if [ -d "$SRC/lean_proofs" ]; then
+    mkdir -p lean_proofs
+    rsync -a --include="*.lean" --exclude="*" "$SRC/lean_proofs/" lean_proofs/
+fi
+if [ -f "$SRC/pvsnp_lean_proof_log.jsonl" ]; then
+    cp "$SRC/pvsnp_lean_proof_log.jsonl" lean_proofs/_build_log.jsonl
+fi
+
+# --- 16. Review-me digests (Fase 6 — HITL alert)
+if [ -d "$SRC/review_alerts" ]; then
+    mkdir -p review_alerts
+    rsync -a --include="*.md" --exclude="*" "$SRC/review_alerts/" review_alerts/
+fi

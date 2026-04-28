@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-28 19:42 UTC"
+date: "2026-04-28 20:35 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-28 19:42 UTC
+Generated 2026-04-28 20:35 UTC
 
-- Cycles recorded: **205**
-- Time span: 118.0h (~1.74 cycles/h)
+- Cycles recorded: **207**
+- Time span: 118.9h (~1.74 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 182 |
+| INCONCLUSIVE | 184 |
 | FALSIFIED | 14 |
 | BARRIER_HIT | 5 |
 | SUPPORTED | 4 |
@@ -67,8 +67,6 @@ Generated 2026-04-28 19:42 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-28 12:48 UTC | `INCONCLUSIVE` | Bipartite Token-Sliding Diameter Lower-Bounds Monotone-KW Depth |
-| 2026-04-28 13:27 UTC | `INCONCLUSIVE` | Magnus Level-2 Defect Bounds DNF_min via Truth-Table Inversions |
 | 2026-04-28 13:54 UTC | `INCONCLUSIVE` | Monomer-Dimer Entropy Lower-Bounds Tseitin Resolution Width |
 | 2026-04-28 14:25 UTC | `INCONCLUSIVE` | Sprague-Grundy Game Value of CNF Bounds Tree-Frege Lines |
 | 2026-04-28 14:45 UTC | `INCONCLUSIVE` | Roe-Skeleton Spectral Gap Forces Multiplicity in Protocol-Induced |
@@ -82,6 +80,8 @@ Generated 2026-04-28 19:42 UTC
 | 2026-04-28 18:31 UTC | `INCONCLUSIVE` | Erdős-Rado Sunflower Petals Lower-Bound Lifted Log-Rank for IND_2 |
 | 2026-04-28 19:01 UTC | `INCONCLUSIVE` | Subword Complexity of Lifted Rows Lower-Bounds Real Rank for IND_ |
 | 2026-04-28 19:42 UTC | `INCONCLUSIVE` | Bakry-Émery Curvature Floor Lower-Bounds Tseitin Resolution Width |
+| 2026-04-28 20:08 UTC | `INCONCLUSIVE` | Dyck Zero-Crossing Count of Row-Walks Capped by Log-Rank |
+| 2026-04-28 20:35 UTC | `INCONCLUSIVE` | Cyclotomic Norm Floor of Truth-Table Character Sum Caps ACC^0[m]  |
 
 ## How to read the reports
 
