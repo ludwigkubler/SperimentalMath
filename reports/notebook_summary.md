@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-29 02:17 UTC"
+date: "2026-04-29 03:21 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-29 02:17 UTC
+Generated 2026-04-29 03:21 UTC
 
-- Cycles recorded: **215**
-- Time span: 124.6h (~1.73 cycles/h)
+- Cycles recorded: **217**
+- Time span: 125.7h (~1.73 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 192 |
+| INCONCLUSIVE | 194 |
 | FALSIFIED | 14 |
 | BARRIER_HIT | 5 |
 | SUPPORTED | 4 |
@@ -67,8 +67,6 @@ Generated 2026-04-29 02:17 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-28 17:25 UTC | `INCONCLUSIVE` | Hereditary Discrepancy of Clause-Variable Incidence Lower-Bounds  |
-| 2026-04-28 17:55 UTC | `INCONCLUSIVE` | Schur-Polynomial Positivity Defect Lower-Bounds Tree-Frege Lines  |
 | 2026-04-28 18:31 UTC | `INCONCLUSIVE` | Erdős-Rado Sunflower Petals Lower-Bound Lifted Log-Rank for IND_2 |
 | 2026-04-28 19:01 UTC | `INCONCLUSIVE` | Subword Complexity of Lifted Rows Lower-Bounds Real Rank for IND_ |
 | 2026-04-28 19:42 UTC | `INCONCLUSIVE` | Bakry-Émery Curvature Floor Lower-Bounds Tseitin Resolution Width |
@@ -82,6 +80,8 @@ Generated 2026-04-29 02:17 UTC
 | 2026-04-29 01:14 UTC | `INCONCLUSIVE` | Secant Rank Lower Bound for Disjointness Communication Matrices |
 | 2026-04-29 01:46 UTC | `INCONCLUSIVE` | Sign-Rank Distinguishing Tensor for Read-Twice Branching Programs |
 | 2026-04-29 02:17 UTC | `INCONCLUSIVE` | SOS Hierarchy Integrality Gap for Random CSPs |
+| 2026-04-29 02:49 UTC | `INCONCLUSIVE` | Hardness of MCSP Under Parameterized Circuit Classes |
+| 2026-04-29 03:21 UTC | `INCONCLUSIVE` | Monotone CLIQUE Lower Bound via GF(2) Rank Defect |
 
 ## How to read the reports
 
