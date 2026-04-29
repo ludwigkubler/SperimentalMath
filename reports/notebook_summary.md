@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-29 07:53 UTC"
+date: "2026-04-29 08:50 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-29 07:53 UTC
+Generated 2026-04-29 08:50 UTC
 
-- Cycles recorded: **225**
-- Time span: 130.2h (~1.73 cycles/h)
+- Cycles recorded: **226**
+- Time span: 131.2h (~1.72 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 202 |
+| INCONCLUSIVE | 203 |
 | FALSIFIED | 14 |
 | BARRIER_HIT | 5 |
 | SUPPORTED | 4 |
@@ -67,7 +67,6 @@ Generated 2026-04-29 07:53 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-29 00:24 UTC | `INCONCLUSIVE` | Coarse-Equivalence Invariance of Protocol-Pullback Multiplicity A |
 | 2026-04-29 00:40 UTC | `INCONCLUSIVE` | Persistent H_0 Component Count of Sign-Quotient Row Set Caps Real |
 | 2026-04-29 01:14 UTC | `INCONCLUSIVE` | Secant Rank Lower Bound for Disjointness Communication Matrices |
 | 2026-04-29 01:46 UTC | `INCONCLUSIVE` | Sign-Rank Distinguishing Tensor for Read-Twice Branching Programs |
@@ -82,6 +81,7 @@ Generated 2026-04-29 07:53 UTC
 | 2026-04-29 06:32 UTC | `INCONCLUSIVE` | SOS Integrality Gap and Secant Variety Dimension for Polynomial C |
 | 2026-04-29 07:23 UTC | `INCONCLUSIVE` | Protocol-Induced Covers on Tensor-Powered Girth Gadgets Exhibit L |
 | 2026-04-29 07:53 UTC | `INCONCLUSIVE` | Real Rank Lower Bound for ACC^0 Circuit Size |
+| 2026-04-29 08:50 UTC | `INCONCLUSIVE` | Free Entropy Lower Bound for Disjointness Communication Matrices |
 
 ## How to read the reports
 
