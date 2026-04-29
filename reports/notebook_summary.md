@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-29 10:45 UTC"
+date: "2026-04-29 13:06 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-29 10:45 UTC
+Generated 2026-04-29 13:06 UTC
 
-- Cycles recorded: **228**
-- Time span: 133.1h (~1.71 cycles/h)
+- Cycles recorded: **229**
+- Time span: 135.4h (~1.69 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 205 |
+| INCONCLUSIVE | 206 |
 | FALSIFIED | 14 |
 | BARRIER_HIT | 5 |
 | SUPPORTED | 4 |
@@ -45,6 +45,7 @@ Generated 2026-04-29 10:45 UTC
 | Random Matrix Theory | 2 |
 | Additive Combinatorics | 2 |
 | matroid theory | 2 |
+| Coarse Geometric Lifting (CGL) — Geometric Complexity Theory | 2 |
 | Combinatorial homotopy theory | 1 |
 | Kazhdan-Lusztig theory of Hecke algebras | 1 |
 | Combinatorial algebraic topology | 1 |
@@ -61,13 +62,11 @@ Generated 2026-04-29 10:45 UTC
 | Directed algebraic topology (d-space homology) | 1 |
 | Motivic integration (Denef-Loeser zeta functions) | 1 |
 | Matroid theory (Clifford index of binary matroids) | 1 |
-| Representation theory of finite groups (Frobenius-Schur indicator) | 1 |
 
 ## Last 15 cycles (chronological)
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-29 01:46 UTC | `INCONCLUSIVE` | Sign-Rank Distinguishing Tensor for Read-Twice Branching Programs |
 | 2026-04-29 02:17 UTC | `INCONCLUSIVE` | SOS Hierarchy Integrality Gap for Random CSPs |
 | 2026-04-29 02:49 UTC | `INCONCLUSIVE` | Hardness of MCSP Under Parameterized Circuit Classes |
 | 2026-04-29 03:21 UTC | `INCONCLUSIVE` | Monotone CLIQUE Lower Bound via GF(2) Rank Defect |
@@ -82,6 +81,7 @@ Generated 2026-04-29 10:45 UTC
 | 2026-04-29 08:50 UTC | `INCONCLUSIVE` | Free Entropy Lower Bound for Disjointness Communication Matrices |
 | 2026-04-29 10:34 UTC | `INCONCLUSIVE` | Roe-Cover Multiplicity Lower Bound from Asymptotic Dimension Grow |
 | 2026-04-29 10:45 UTC | `INCONCLUSIVE` | Additive Energy of Sipser Function Bounds ACC⁰ Circuit Size |
+| 2026-04-29 13:06 UTC | `INCONCLUSIVE` | Protocol-Induced Covers on High-Asdim Gadget Lifts Require Expone |
 
 ## How to read the reports
 
