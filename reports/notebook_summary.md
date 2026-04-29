@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-29 15:43 UTC"
+date: "2026-04-29 18:05 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-29 15:43 UTC
+Generated 2026-04-29 18:05 UTC
 
-- Cycles recorded: **230**
-- Time span: 138.0h (~1.67 cycles/h)
+- Cycles recorded: **231**
+- Time span: 140.4h (~1.65 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 207 |
+| INCONCLUSIVE | 208 |
 | FALSIFIED | 14 |
 | BARRIER_HIT | 5 |
 | SUPPORTED | 4 |
@@ -35,6 +35,7 @@ Generated 2026-04-29 15:43 UTC
 | Ergodic Circuit Framework (communication complexity via dynamical systems) | 4 |
 | {"framework_name": "Ergodic Circuit Framework", "math_branch": "COMM_COMPLEXITY"} | 4 |
 | Fourier analysis of boolean functions | 3 |
+| Coarse Geometric Lifting (CGL) — Geometric Complexity Theory | 3 |
 | Noncommutative geometry | 2 |
 | Representation theory of symmetric groups | 2 |
 | Ergodic Circuit Framework (COMM_COMPLEXITY) | 2 |
@@ -45,7 +46,6 @@ Generated 2026-04-29 15:43 UTC
 | Random Matrix Theory | 2 |
 | Additive Combinatorics | 2 |
 | matroid theory | 2 |
-| Coarse Geometric Lifting (CGL) — Geometric Complexity Theory | 2 |
 | Free Probability Theory | 2 |
 | Combinatorial homotopy theory | 1 |
 | Kazhdan-Lusztig theory of Hecke algebras | 1 |
@@ -67,7 +67,6 @@ Generated 2026-04-29 15:43 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-29 02:49 UTC | `INCONCLUSIVE` | Hardness of MCSP Under Parameterized Circuit Classes |
 | 2026-04-29 03:21 UTC | `INCONCLUSIVE` | Monotone CLIQUE Lower Bound via GF(2) Rank Defect |
 | 2026-04-29 03:54 UTC | `INCONCLUSIVE` | Dual Code Distance Lower Bound for Tseitin Refutations |
 | 2026-04-29 04:23 UTC | `INCONCLUSIVE` | Width-5 ABPs and NC¹ Circuit Simulation |
@@ -82,6 +81,7 @@ Generated 2026-04-29 15:43 UTC
 | 2026-04-29 10:45 UTC | `INCONCLUSIVE` | Additive Energy of Sipser Function Bounds ACC⁰ Circuit Size |
 | 2026-04-29 13:06 UTC | `INCONCLUSIVE` | Protocol-Induced Covers on High-Asdim Gadget Lifts Require Expone |
 | 2026-04-29 15:43 UTC | `INCONCLUSIVE` | Free Entropy Gap in Read-Twice Branching Programs for IP_2 |
+| 2026-04-29 18:05 UTC | `INCONCLUSIVE` | Protocol-Induced Covers from Low-Cost Protocols on High-Distortio |
 
 ## How to read the reports
 

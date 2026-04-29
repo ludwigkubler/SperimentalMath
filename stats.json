@@ -1,8 +1,8 @@
 {
-  "last_update_utc": "2026-04-29T17:47:02Z",
-  "total_cycles": 230,
+  "last_update_utc": "2026-04-29T18:47:01Z",
+  "total_cycles": 231,
   "verdict_counts": {
-    "INCONCLUSIVE": 207,
+    "INCONCLUSIVE": 208,
     "SUPPORTED": 4,
     "FALSIFIED": 14,
     "BARRIER_HIT": 5
@@ -19,6 +19,10 @@
     ],
     [
       "Fourier analysis of boolean functions",
+      3
+    ],
+    [
+      "Coarse Geometric Lifting (CGL) — Geometric Complexity Theory",
       3
     ],
     [
@@ -59,10 +63,6 @@
     ],
     [
       "matroid theory",
-      2
-    ],
-    [
-      "Coarse Geometric Lifting (CGL) — Geometric Complexity Theory",
       2
     ],
     [
