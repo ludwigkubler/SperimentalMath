@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — Frameworks (live)"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-29 18:05 UTC"
+date: "2026-04-29 21:06 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,7 +13,7 @@ colorlinks: true
 
 # SEC P vs NP — Frameworks (live)
 
-Compiled 2026-04-29 18:05 UTC. Tracking 4 active + 0 dead frameworks.
+Compiled 2026-04-29 21:06 UTC. Tracking 5 active + 0 dead frameworks.
 
 ## Summary table
 
@@ -23,6 +23,7 @@ Compiled 2026-04-29 18:05 UTC. Tracking 4 active + 0 dead frameworks.
 | `fw_28b4bfb95f` | ELABORATING | 0.000 | 0 | `-` | TROPICAL_FOURIER_ANALYSIS |
 | `fw_85a254b4a0` | ELABORATING | 0.000 | 0 | `-` | Coarse Geometric Karchmer-Wigderson (CG-KW) |
 | `fw_6997a27304` | ELABORATING | 0.000 | 0 | `-` | Coarse Geometric Lifting (CGL) |
+| `fw_a1a152ae17` | ELABORATING | 0.000 | 0 | `-` | Tropical Circuit Weight Analysis (TCWA) |
 
 ## Details
 
@@ -109,3 +110,23 @@ Compiled 2026-04-29 18:05 UTC. Tracking 4 active + 0 dead frameworks.
 - A3 (Asdim Amplification): asdim(G_1 ⊗ G_2) ≥ asdim(G_1) + asdim(G_2) − O(1), so iterated tensoring of a single 'good' gadget produces unbounded coarse dimension.
 - A4 (Property-A Transfer): If G has Property A and f has query complexity Q(f), then CLC(f, G) ≥ Q(f) · h(G) where h(G) is the Hilbert-space compression exponent of G — a non-natural, non-relativizing 
 - A5 (Non-Algebrization): The Roe algebra C*_R((X×Y)^n) is not closed under polynomial extensions of the gadget alphabet; therefore lower bounds derived from its K-theory do not algebrize.
+
+---
+
+### Tropical Circuit Weight Analysis (TCWA) (`fw_a1a152ae17`)
+
+- **Status**: `ELABORATING`
+- **Fitness**: 0.000
+- **Taxonomy**: BOUNDED_ARITHMETIC
+- **Target invariant**: Tropical Proof Rank (integer) → bounds The minimum number of phase transitions required to simulate a bounded arithmetic proof line in V⁰ or IΔ₀, thereby bounding the strength of definable functions and aiming to separate bounded arithmetic theories via circuit phase complexity.
+
+**Primitives**:
+- `Tropical Circuit` (tuple (G, w)): A directed acyclic graph G with nodes labeled as inputs (variables or constants), tropical addition (min or max), or tropical multiplication (usual ad
+- `Tropical Derivation` (function δ: Circuit → Circuit): A formal derivative operator on tropical circuits: for a node computing min(x,y), the derivation selects the active operand (argmin) with tie-breaking
+- `Weight Profile` (list of integers): For a tropical circuit C and input x ∈ ℤⁿ, the weight profile is the sequence of edge weights traversed during evaluation under tropical semantics, or
+- `Circuit Phase Space` (subset of ℝⁿ): Partition of input space ℝⁿ into convex polyhedral regions where the tropical circuit's active computation path (i.e., argmin/argmax decisions) remain
+
+**Tentative axioms**:
+- A1: (Phase Stability Axiom) Any function provably total in IΔ₀ has a tropical circuit with polynomially many phase cells under uniform input scaling.
+- A2: (Weight-Proof Correspondence) The sum of absolute weights in a tropical circuit for a formula encoding a proof line is at least the bit-complexity of the cut-free proof in bounded arithmetic.
+- A3: (Tropical Soundness) If a bounded arithmetic theory proves a ∀Σ₁ᵇ sentence, then its tropical circuit model exhibits a homotopy-stable phase space under perturbation.

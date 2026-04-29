@@ -92,3 +92,9 @@
 {"ts": 1777492802.267862, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 2000, "cap": 2000, "fraction": 1.0, "weekly_budget": 2500}}
 {"ts": 1777494615.150127, "kind": "SERVICE_STALL", "auto_fixed": true, "detail": {"hours": 2.41520917084482}}
 {"ts": 1777494615.3330061, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 2000, "cap": 2000, "fraction": 1.0, "weekly_budget": 2500}}
+{"ts": 1777496406.3280647, "kind": "DUPLICATE_DAEMON", "auto_fixed": true, "detail": {"instances": [{"pid": 2672061, "etimes": 1789}, {"pid": 2672062, "etimes": 1788}]}}
+{"ts": 1777496419.363125, "kind": "SERVICE_STALL", "auto_fixed": true, "detail": {"hours": 2.9163795317543877}}
+{"ts": 1777496419.4723396, "kind": "REPORT_STALE", "auto_fixed": true, "detail": {"issues": ["stale:notebook_summary.md(age=2.9h)", "stale:supported_findings.md(age=2.9h)", "stale:falsified_findings.md(age=2.9h)", "stale:frameworks_live.md(age=2.9h)", "stale:wall_atlas.md(age=2.9h)", "stale:dead_frameworks_compendium.md(age=2.9h)"]}}
+{"ts": 1777496419.6766362, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 2000, "cap": 2000, "fraction": 1.0, "weekly_budget": 2500}}
+{"ts": 1777498206.5504935, "kind": "DUPLICATE_DAEMON", "auto_fixed": true, "detail": {"instances": [{"pid": 2673359, "etimes": 1785}, {"pid": 2673360, "etimes": 1784}]}}
+{"ts": 1777498206.7290578, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 2000, "cap": 2000, "fraction": 1.0, "weekly_budget": 2500}}

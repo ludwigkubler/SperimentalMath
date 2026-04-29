@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-29 18:05 UTC"
+date: "2026-04-29 21:06 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-29 18:05 UTC
+Generated 2026-04-29 21:06 UTC
 
-- Cycles recorded: **231**
-- Time span: 140.4h (~1.65 cycles/h)
+- Cycles recorded: **232**
+- Time span: 143.4h (~1.62 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 208 |
+| INCONCLUSIVE | 209 |
 | FALSIFIED | 14 |
 | BARRIER_HIT | 5 |
 | SUPPORTED | 4 |
@@ -67,7 +67,6 @@ Generated 2026-04-29 18:05 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-29 03:21 UTC | `INCONCLUSIVE` | Monotone CLIQUE Lower Bound via GF(2) Rank Defect |
 | 2026-04-29 03:54 UTC | `INCONCLUSIVE` | Dual Code Distance Lower Bound for Tseitin Refutations |
 | 2026-04-29 04:23 UTC | `INCONCLUSIVE` | Width-5 ABPs and NC¹ Circuit Simulation |
 | 2026-04-29 05:07 UTC | `INCONCLUSIVE` | AC⁰ PARITY Lower Bound via Linear Independence Invariant |
@@ -82,6 +81,7 @@ Generated 2026-04-29 18:05 UTC
 | 2026-04-29 13:06 UTC | `INCONCLUSIVE` | Protocol-Induced Covers on High-Asdim Gadget Lifts Require Expone |
 | 2026-04-29 15:43 UTC | `INCONCLUSIVE` | Free Entropy Gap in Read-Twice Branching Programs for IP_2 |
 | 2026-04-29 18:05 UTC | `INCONCLUSIVE` | Protocol-Induced Covers from Low-Cost Protocols on High-Distortio |
+| 2026-04-29 21:06 UTC | `INCONCLUSIVE` | Spectral Radius of Vertex Contraction Graph Controls Tseitin Reso |
 
 ## How to read the reports
 

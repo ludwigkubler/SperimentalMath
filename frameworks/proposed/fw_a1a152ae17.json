@@ -1,6 +1,6 @@
 {
   "framework_id": "fw_a1a152ae17",
-  "ts": 1777494814.4096956,
+  "ts": 1777496594.3743799,
   "generation": 0,
   "parent_framework_id": "",
   "mutation_from_parent": "",
@@ -65,7 +65,7 @@
     "A2: (Weight-Proof Correspondence) The sum of absolute weights in a tropical circuit for a formula encoding a proof line is at least the bit-complexity of the cut-free proof in bounded arithmetic.",
     "A3: (Tropical Soundness) If a bounded arithmetic theory proves a ∀Σ₁ᵇ sentence, then its tropical circuit model exhibits a homotopy-stable phase space under perturbation."
   ],
-  "status": "PROPOSED",
+  "status": "ELABORATING",
   "sub_conjecture_entry_ids": [],
   "fitness_components": {},
   "fitness": 0.0,
