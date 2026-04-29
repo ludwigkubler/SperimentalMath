@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-29 03:21 UTC"
+date: "2026-04-29 04:23 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-29 03:21 UTC
+Generated 2026-04-29 04:23 UTC
 
-- Cycles recorded: **217**
-- Time span: 125.7h (~1.73 cycles/h)
+- Cycles recorded: **219**
+- Time span: 126.7h (~1.73 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 194 |
+| INCONCLUSIVE | 196 |
 | FALSIFIED | 14 |
 | BARRIER_HIT | 5 |
 | SUPPORTED | 4 |
@@ -67,8 +67,6 @@ Generated 2026-04-29 03:21 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-28 18:31 UTC | `INCONCLUSIVE` | Erdős-Rado Sunflower Petals Lower-Bound Lifted Log-Rank for IND_2 |
-| 2026-04-28 19:01 UTC | `INCONCLUSIVE` | Subword Complexity of Lifted Rows Lower-Bounds Real Rank for IND_ |
 | 2026-04-28 19:42 UTC | `INCONCLUSIVE` | Bakry-Émery Curvature Floor Lower-Bounds Tseitin Resolution Width |
 | 2026-04-28 20:08 UTC | `INCONCLUSIVE` | Dyck Zero-Crossing Count of Row-Walks Capped by Log-Rank |
 | 2026-04-28 20:35 UTC | `INCONCLUSIVE` | Cyclotomic Norm Floor of Truth-Table Character Sum Caps ACC^0[m]  |
@@ -82,6 +80,8 @@ Generated 2026-04-29 03:21 UTC
 | 2026-04-29 02:17 UTC | `INCONCLUSIVE` | SOS Hierarchy Integrality Gap for Random CSPs |
 | 2026-04-29 02:49 UTC | `INCONCLUSIVE` | Hardness of MCSP Under Parameterized Circuit Classes |
 | 2026-04-29 03:21 UTC | `INCONCLUSIVE` | Monotone CLIQUE Lower Bound via GF(2) Rank Defect |
+| 2026-04-29 03:54 UTC | `INCONCLUSIVE` | Dual Code Distance Lower Bound for Tseitin Refutations |
+| 2026-04-29 04:23 UTC | `INCONCLUSIVE` | Width-5 ABPs and NC¹ Circuit Simulation |
 
 ## How to read the reports
 
