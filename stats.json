@@ -1,13 +1,13 @@
 {
-  "last_update_utc": "2026-04-29T09:47:02Z",
-  "total_cycles": 226,
+  "last_update_utc": "2026-04-29T10:47:01Z",
+  "total_cycles": 228,
   "verdict_counts": {
-    "INCONCLUSIVE": 203,
+    "INCONCLUSIVE": 205,
     "SUPPORTED": 4,
     "FALSIFIED": 14,
     "BARRIER_HIT": 5
   },
-  "unique_field_A": 209,
+  "unique_field_A": 210,
   "top_fields_A": [
     [
       "Ergodic Circuit Framework (communication complexity via dynamical systems)",
@@ -54,6 +54,10 @@
       2
     ],
     [
+      "Additive Combinatorics",
+      2
+    ],
+    [
       "matroid theory",
       2
     ],
@@ -63,10 +67,6 @@
     ],
     [
       "Kazhdan-Lusztig theory of Hecke algebras",
-      1
-    ],
-    [
-      "Combinatorial algebraic topology",
       1
     ]
   ]

@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-29 08:50 UTC"
+date: "2026-04-29 10:45 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-29 08:50 UTC
+Generated 2026-04-29 10:45 UTC
 
-- Cycles recorded: **226**
-- Time span: 131.2h (~1.72 cycles/h)
+- Cycles recorded: **228**
+- Time span: 133.1h (~1.71 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 203 |
+| INCONCLUSIVE | 205 |
 | FALSIFIED | 14 |
 | BARRIER_HIT | 5 |
 | SUPPORTED | 4 |
@@ -43,6 +43,7 @@ Generated 2026-04-29 08:50 UTC
 | Tropical geometry | 2 |
 | Algebraic Geometry | 2 |
 | Random Matrix Theory | 2 |
+| Additive Combinatorics | 2 |
 | matroid theory | 2 |
 | Combinatorial homotopy theory | 1 |
 | Kazhdan-Lusztig theory of Hecke algebras | 1 |
@@ -61,14 +62,11 @@ Generated 2026-04-29 08:50 UTC
 | Motivic integration (Denef-Loeser zeta functions) | 1 |
 | Matroid theory (Clifford index of binary matroids) | 1 |
 | Representation theory of finite groups (Frobenius-Schur indicator) | 1 |
-| Categorification and knot Floer homology | 1 |
 
 ## Last 15 cycles (chronological)
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-29 00:40 UTC | `INCONCLUSIVE` | Persistent H_0 Component Count of Sign-Quotient Row Set Caps Real |
-| 2026-04-29 01:14 UTC | `INCONCLUSIVE` | Secant Rank Lower Bound for Disjointness Communication Matrices |
 | 2026-04-29 01:46 UTC | `INCONCLUSIVE` | Sign-Rank Distinguishing Tensor for Read-Twice Branching Programs |
 | 2026-04-29 02:17 UTC | `INCONCLUSIVE` | SOS Hierarchy Integrality Gap for Random CSPs |
 | 2026-04-29 02:49 UTC | `INCONCLUSIVE` | Hardness of MCSP Under Parameterized Circuit Classes |
@@ -82,6 +80,8 @@ Generated 2026-04-29 08:50 UTC
 | 2026-04-29 07:23 UTC | `INCONCLUSIVE` | Protocol-Induced Covers on Tensor-Powered Girth Gadgets Exhibit L |
 | 2026-04-29 07:53 UTC | `INCONCLUSIVE` | Real Rank Lower Bound for ACC^0 Circuit Size |
 | 2026-04-29 08:50 UTC | `INCONCLUSIVE` | Free Entropy Lower Bound for Disjointness Communication Matrices |
+| 2026-04-29 10:34 UTC | `INCONCLUSIVE` | Roe-Cover Multiplicity Lower Bound from Asymptotic Dimension Grow |
+| 2026-04-29 10:45 UTC | `INCONCLUSIVE` | Additive Energy of Sipser Function Bounds ACC⁰ Circuit Size |
 
 ## How to read the reports
 

@@ -1,0 +1,40 @@
+{
+  "entry_id": "3035afde3273",
+  "ts": 1777458892.6543941,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2506.12420",
+      "title": "Deterministic Lifting Theorems for One-Way Number-on-Forehead Communication",
+      "abstract_excerpt": "Lifting theorems are one of the most powerful tools for proving communication lower bounds, with numerous downstream applications in proof complexity, monotone circuit lower bounds, data structures, and combinatorial optimization. However, to the best of our knowledge, prior lifting theorems have primarily focused on the two-party communication.\n  In this paper, we propose a new lifting theorem that establishes connections between two-party communication and the Number-on-Forehead (NOF) communic",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper focuses on lifting theorems for one-way Number-on-Forehead communication and separations in round and randomness complexity, but does not mention asymptotic dimension, Roe covers, tensor-powered equality gadgets, or multiplicity bounds. The abstract contains no discussion of coarse geometry or dimension-theoretic lower bounds on protocol complexity.",
+      "judge_provider": "cerebras"
+    },
+    {
+      "paper_id": "arxiv:1803.07099",
+      "title": "Varieties of coarse spaces",
+      "abstract_excerpt": "A class $\\mathfrak{M}$ of coarse spaces is called a variety if $\\mathfrak{M}$ is closed under formation of subspaces, coarse images and products. We classify the varieties of coarse spaces and, in particular, show that if a variety $\\mathfrak{M}$ contains an unbounded metric space then $\\mathfrak{M}$ is the variety of all coarse spaces.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses varieties of coarse spaces and their classification based on closure properties, but does not mention asymptotic dimension growth, tensor-powered gadgets, or deterministic communication complexity. The abstract does not interact with the specific conjecture about RoeCover multiplicity or lower bounds in communication complexity.",
+      "judge_provider": "cerebras"
+    },
+    {
+      "paper_id": "arxiv:1903.06084",
+      "title": "Lifting coarse homotopies",
+      "abstract_excerpt": "Coarse geometry, and in particular coarse homotopy theory, has proven to be a powerful tool for approaching problems in geometric group theory and higher index theory. In this paper, we continue to develop theory in this area by proving a Coarse Lifting Lemma with respect to a certain class of bornologous surjective maps. This class is wide enough to include quotients by coarsely discontinuous group actions, which allows us to obtain results concerning the coarse fundamental group of quotients w",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses coarse homotopy theory, coarse lifting, and fundamental groups of metric cones, but does not mention tensor-powered gadgets, asymptotic dimension growth, or deterministic communication complexity. The focus on coarse fundamental groups and quotients by group actions does not interact with the specific conjecture about multiplicity lower bounds in communication protocols.",
+      "judge_provider": "cerebras"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
