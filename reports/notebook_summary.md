@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-29 04:23 UTC"
+date: "2026-04-29 05:27 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-29 04:23 UTC
+Generated 2026-04-29 05:27 UTC
 
-- Cycles recorded: **219**
-- Time span: 126.7h (~1.73 cycles/h)
+- Cycles recorded: **221**
+- Time span: 127.8h (~1.73 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 196 |
+| INCONCLUSIVE | 198 |
 | FALSIFIED | 14 |
 | BARRIER_HIT | 5 |
 | SUPPORTED | 4 |
@@ -67,8 +67,6 @@ Generated 2026-04-29 04:23 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-28 19:42 UTC | `INCONCLUSIVE` | Bakry-Émery Curvature Floor Lower-Bounds Tseitin Resolution Width |
-| 2026-04-28 20:08 UTC | `INCONCLUSIVE` | Dyck Zero-Crossing Count of Row-Walks Capped by Log-Rank |
 | 2026-04-28 20:35 UTC | `INCONCLUSIVE` | Cyclotomic Norm Floor of Truth-Table Character Sum Caps ACC^0[m]  |
 | 2026-04-28 23:06 UTC | `INCONCLUSIVE` | Hilbert-Compression Floor on Property-A Gadgets Forces α·Q(f) Mul |
 | 2026-04-28 23:09 UTC | `INCONCLUSIVE` | Effective-Resistance Diameter Lower-Bounds Tseitin Resolution Wid |
@@ -82,6 +80,8 @@ Generated 2026-04-29 04:23 UTC
 | 2026-04-29 03:21 UTC | `INCONCLUSIVE` | Monotone CLIQUE Lower Bound via GF(2) Rank Defect |
 | 2026-04-29 03:54 UTC | `INCONCLUSIVE` | Dual Code Distance Lower Bound for Tseitin Refutations |
 | 2026-04-29 04:23 UTC | `INCONCLUSIVE` | Width-5 ABPs and NC¹ Circuit Simulation |
+| 2026-04-29 05:07 UTC | `INCONCLUSIVE` | AC⁰ PARITY Lower Bound via Linear Independence Invariant |
+| 2026-04-29 05:27 UTC | `INCONCLUSIVE` | Representation-Theoretic Rank Invariant for Permanent vs Determin |
 
 ## How to read the reports
 

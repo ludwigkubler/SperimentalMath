@@ -1,0 +1,40 @@
+{
+  "entry_id": "0423a578c1a6",
+  "ts": 1777439268.1211655,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1409.1534",
+      "title": "Algorithms in Real Algebraic Geometry: A Survey",
+      "abstract_excerpt": "We survey both old and new developments in the theory of algorithms in real algebraic geometry -- starting from effective quantifier elimination in the first order theory of reals due to Tarski and Seidenberg, to more recent algorithms for computing topological invariants of semi-algebraic sets. We emphasize throughout the complexity aspects of these algorithms and also discuss the computational hardness of the underlying problems. We also describe some recent results linking the computational h",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract discusses algorithms and complexity in real algebraic geometry, including quantifier elimination and topological invariants, but does not mention AC⁰ circuits, PARITY, communication complexity, or linear independence of functions in the context of circuit lower bounds. The specific claim of the conjecture is not addressed or implied.",
+      "judge_provider": "cerebras"
+    },
+    {
+      "paper_id": "arxiv:2506.14060",
+      "title": "Linear Geometry and Algebra",
+      "abstract_excerpt": "Linear Geometry studies geometric properties which can be expressed via the notion of a line. All information about lines is encoded in a ternary relation called a line relation. A set endowed with a line relation is called a liner. So, Linear Geometry studies liners. Imposing some additional axioms on a liner, we obtain some special classes of liners: regular, projective, affine, proaffine, etc. Linear Geometry includes Affine and Projective Geometries and is a part of Incidence Geometry. The a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses synthetic and algebraic aspects of Linear Geometry, focusing on axiomatic structures like liners and their relation to algebraic systems, but does not mention AC⁰ circuits, PARITY computation, communication complexity, or lower bounds in computational models. There is no overlap with the conjecture's content or framework.",
+      "judge_provider": "cerebras"
+    },
+    {
+      "paper_id": "arxiv:0912.2255",
+      "title": "Test ideals via algebras of $p^{-e}$-linear maps",
+      "abstract_excerpt": "Continuing ideas of a recent preprint of Schwede arXiv:0906.4313 we study test ideals by viewing them as minimal objects in a certain class of $F$-pure modules over algebras of p^{-e}-linear operators. This shift in the viewpoint leads to a simplified and generalized treatment, also allowing us to define test ideals in non-reduced settings.\n  In combining this with an observation of Anderson on the contracting property of p^{-e}-linear operators we obtain an elementary approach to test ideals in",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses test ideals and p^{-e}-linear maps in commutative algebra and algebraic geometry in positive characteristic, which is unrelated to AC⁰ circuits, PARITY computation, or linear independence of functions in communication complexity or real algebraic geometry.",
+      "judge_provider": "cerebras"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}
