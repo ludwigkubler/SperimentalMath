@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-29 00:40 UTC"
+date: "2026-04-29 01:46 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-29 00:40 UTC
+Generated 2026-04-29 01:46 UTC
 
-- Cycles recorded: **212**
-- Time span: 123.0h (~1.72 cycles/h)
+- Cycles recorded: **214**
+- Time span: 124.1h (~1.72 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 189 |
+| INCONCLUSIVE | 191 |
 | FALSIFIED | 14 |
 | BARRIER_HIT | 5 |
 | SUPPORTED | 4 |
@@ -67,8 +67,6 @@ Generated 2026-04-29 00:40 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-28 16:05 UTC | `INCONCLUSIVE` | Hodge Laplacian b_1 of Edge-Triangle Star-Complex Bounds SoS Degr |
-| 2026-04-28 16:32 UTC | `INCONCLUSIVE` | Continued-Fraction Spike of Truth-Table Rational Caps DNF_min |
 | 2026-04-28 16:59 UTC | `INCONCLUSIVE` | Shifted Partials of Clause Cubic Lower-Bound Tree-Resolution Leav |
 | 2026-04-28 17:25 UTC | `INCONCLUSIVE` | Hereditary Discrepancy of Clause-Variable Incidence Lower-Bounds  |
 | 2026-04-28 17:55 UTC | `INCONCLUSIVE` | Schur-Polynomial Positivity Defect Lower-Bounds Tree-Frege Lines  |
@@ -82,6 +80,8 @@ Generated 2026-04-29 00:40 UTC
 | 2026-04-29 00:11 UTC | `INCONCLUSIVE` | GF(2)-Rank Defect of Term-Indicator Matrix Lower-Bounds Monotone  |
 | 2026-04-29 00:24 UTC | `INCONCLUSIVE` | Coarse-Equivalence Invariance of Protocol-Pullback Multiplicity A |
 | 2026-04-29 00:40 UTC | `INCONCLUSIVE` | Persistent H_0 Component Count of Sign-Quotient Row Set Caps Real |
+| 2026-04-29 01:14 UTC | `INCONCLUSIVE` | Secant Rank Lower Bound for Disjointness Communication Matrices |
+| 2026-04-29 01:46 UTC | `INCONCLUSIVE` | Sign-Rank Distinguishing Tensor for Read-Twice Branching Programs |
 
 ## How to read the reports
 

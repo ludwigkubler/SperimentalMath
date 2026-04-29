@@ -1,0 +1,20 @@
+digraph G {
+  rankdir=BT;
+  node [shape=box];
+  "TARGET_P_NEQ_NP" [label="P ≠ NP", fillcolor=lightblue, style=filled];
+  "TARGET_AC0_PARITY" [label="PARITY ∉ AC⁰", fillcolor=lightblue, style=filled];
+  "TARGET_MONOTONE_CLIQUE" [label="Monotone k-CLIQUE lower bound", fillcolor=lightblue, style=filled];
+  "TARGET_MONOTONE_NP_GAP" [label="Monotone NP-completeness gap", fillcolor=lightblue, style=filled];
+  "TARGET_NEXP_NOT_ACC0" [label="NEXP ⊄ ACC⁰", fillcolor=lightblue, style=filled];
+  "TARGET_TSEITIN_RES" [label="Exponential Resolution lower bound for Tseitin", fillcolor=lightblue, style=filled];
+  "TARGET_PHI_LOWER_BOUND" [label="C-003b cumulative entropy bound (Φ ≥ size)", fillcolor=lightblue, style=filled];
+  "LEAN_REFUTATION_32a1e966ed26" [label="Tropical Parseval Lower Bound on Discrepancy via Min-Coefficient Saturation", fillcolor=lightcoral, style=filled];
+  "LEAN_REFUTATION_e14f176e4ef1" [label="Tropical Self-Convolution Doubling Law for MinimalFourierCoefficient", fillcolor=lightcoral, style=filled];
+  "LEAN_REFUTATION_44f82c29ed79" [label="Tropical Shift-Invariance of MinimalFourierCoefficient under Additive Translatio", fillcolor=lightcoral, style=filled];
+  "TARGET_AC0_PARITY" -> "TARGET_P_NEQ_NP" [style=solid];
+  "TARGET_MONOTONE_CLIQUE" -> "TARGET_P_NEQ_NP" [style=solid];
+  "TARGET_MONOTONE_NP_GAP" -> "TARGET_P_NEQ_NP" [style=solid];
+  "TARGET_NEXP_NOT_ACC0" -> "TARGET_P_NEQ_NP" [style=solid];
+  "TARGET_TSEITIN_RES" -> "TARGET_P_NEQ_NP" [style=solid];
+  "TARGET_PHI_LOWER_BOUND" -> "TARGET_TSEITIN_RES" [style=solid];
+}
