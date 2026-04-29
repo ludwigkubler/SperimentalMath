@@ -1,0 +1,40 @@
+{
+  "entry_id": "578b4afa80c0",
+  "ts": 1777447483.1256454,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1903.06084",
+      "title": "Lifting coarse homotopies",
+      "abstract_excerpt": "Coarse geometry, and in particular coarse homotopy theory, has proven to be a powerful tool for approaching problems in geometric group theory and higher index theory. In this paper, we continue to develop theory in this area by proving a Coarse Lifting Lemma with respect to a certain class of bornologous surjective maps. This class is wide enough to include quotients by coarsely discontinuous group actions, which allows us to obtain results concerning the coarse fundamental group of quotients w",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract discusses coarse homotopy theory, coarse lifting, and fundamental groups of metric cones, but does not mention communication protocols, tensor-powered gadgets, or covers with logarithmic multiplicity growth. The connection to ProtocolPullback or RoeCover multiplicity in the context of communication complexity is not addressed.",
+      "judge_provider": "cerebras"
+    },
+    {
+      "paper_id": "arxiv:1803.07099",
+      "title": "Varieties of coarse spaces",
+      "abstract_excerpt": "A class $\\mathfrak{M}$ of coarse spaces is called a variety if $\\mathfrak{M}$ is closed under formation of subspaces, coarse images and products. We classify the varieties of coarse spaces and, in particular, show that if a variety $\\mathfrak{M}$ contains an unbounded metric space then $\\mathfrak{M}$ is the variety of all coarse spaces.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses varieties of coarse spaces and their classification, but does not mention metric gadgets, tensor powers, or communication protocols, which are central to the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2511.17227",
+      "title": "A Lifting Theorem for Hybrid Classical-Quantum Communication Complexity",
+      "abstract_excerpt": "We investigates a model of hybrid classical-quantum communication complexity, in which two parties first exchange classical messages and subsequently communicate using quantum messages. We study the trade-off between the classical and quantum communication for composed functions of the form $f\\circ G^n$, where $f:\\{0,1\\}^n\\to\\{\\pm1\\}$ and $G$ is an inner product function of $Θ(\\log n)$ bits. To prove the trade-off, we establish a novel lifting theorem for hybrid communication complexity. This th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses a lifting theorem for hybrid classical-quantum communication complexity, which does not directly interact with the specific claim about protocol-induced covers on tensor-powered girth gadgets in the conjecture, despite sharing some vocabulary like 'lifting' and 'communication complexity'.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}
