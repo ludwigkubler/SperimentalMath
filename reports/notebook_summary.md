@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-29 07:23 UTC"
+date: "2026-04-29 07:53 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-29 07:23 UTC
+Generated 2026-04-29 07:53 UTC
 
-- Cycles recorded: **224**
-- Time span: 129.7h (~1.73 cycles/h)
+- Cycles recorded: **225**
+- Time span: 130.2h (~1.73 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 201 |
+| INCONCLUSIVE | 202 |
 | FALSIFIED | 14 |
 | BARRIER_HIT | 5 |
 | SUPPORTED | 4 |
@@ -67,7 +67,6 @@ Generated 2026-04-29 07:23 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-29 00:11 UTC | `INCONCLUSIVE` | GF(2)-Rank Defect of Term-Indicator Matrix Lower-Bounds Monotone  |
 | 2026-04-29 00:24 UTC | `INCONCLUSIVE` | Coarse-Equivalence Invariance of Protocol-Pullback Multiplicity A |
 | 2026-04-29 00:40 UTC | `INCONCLUSIVE` | Persistent H_0 Component Count of Sign-Quotient Row Set Caps Real |
 | 2026-04-29 01:14 UTC | `INCONCLUSIVE` | Secant Rank Lower Bound for Disjointness Communication Matrices |
@@ -82,6 +81,7 @@ Generated 2026-04-29 07:23 UTC
 | 2026-04-29 05:58 UTC | `INCONCLUSIVE` | Submodular Matroid Rank Defect for Monotone CLIQUE |
 | 2026-04-29 06:32 UTC | `INCONCLUSIVE` | SOS Integrality Gap and Secant Variety Dimension for Polynomial C |
 | 2026-04-29 07:23 UTC | `INCONCLUSIVE` | Protocol-Induced Covers on Tensor-Powered Girth Gadgets Exhibit L |
+| 2026-04-29 07:53 UTC | `INCONCLUSIVE` | Real Rank Lower Bound for ACC^0 Circuit Size |
 
 ## How to read the reports
 
