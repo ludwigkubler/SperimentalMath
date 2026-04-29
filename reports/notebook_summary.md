@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-29 05:27 UTC"
+date: "2026-04-29 06:32 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-29 05:27 UTC
+Generated 2026-04-29 06:32 UTC
 
-- Cycles recorded: **221**
-- Time span: 127.8h (~1.73 cycles/h)
+- Cycles recorded: **223**
+- Time span: 128.9h (~1.73 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 198 |
+| INCONCLUSIVE | 200 |
 | FALSIFIED | 14 |
 | BARRIER_HIT | 5 |
 | SUPPORTED | 4 |
@@ -41,7 +41,9 @@ Generated 2026-04-29 05:27 UTC
 | Matroid Theory | 2 |
 | Algebraic Topology | 2 |
 | Tropical geometry | 2 |
+| Algebraic Geometry | 2 |
 | Random Matrix Theory | 2 |
+| matroid theory | 2 |
 | Combinatorial homotopy theory | 1 |
 | Kazhdan-Lusztig theory of Hecke algebras | 1 |
 | Combinatorial algebraic topology | 1 |
@@ -60,15 +62,11 @@ Generated 2026-04-29 05:27 UTC
 | Matroid theory (Clifford index of binary matroids) | 1 |
 | Representation theory of finite groups (Frobenius-Schur indicator) | 1 |
 | Categorification and knot Floer homology | 1 |
-| Modular forms | 1 |
-| Algebraic geometry (ideals in polynomial rings) | 1 |
 
 ## Last 15 cycles (chronological)
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-28 20:35 UTC | `INCONCLUSIVE` | Cyclotomic Norm Floor of Truth-Table Character Sum Caps ACC^0[m]  |
-| 2026-04-28 23:06 UTC | `INCONCLUSIVE` | Hilbert-Compression Floor on Property-A Gadgets Forces α·Q(f) Mul |
 | 2026-04-28 23:09 UTC | `INCONCLUSIVE` | Effective-Resistance Diameter Lower-Bounds Tseitin Resolution Wid |
 | 2026-04-29 00:11 UTC | `INCONCLUSIVE` | GF(2)-Rank Defect of Term-Indicator Matrix Lower-Bounds Monotone  |
 | 2026-04-29 00:24 UTC | `INCONCLUSIVE` | Coarse-Equivalence Invariance of Protocol-Pullback Multiplicity A |
@@ -82,6 +80,8 @@ Generated 2026-04-29 05:27 UTC
 | 2026-04-29 04:23 UTC | `INCONCLUSIVE` | Width-5 ABPs and NC¹ Circuit Simulation |
 | 2026-04-29 05:07 UTC | `INCONCLUSIVE` | AC⁰ PARITY Lower Bound via Linear Independence Invariant |
 | 2026-04-29 05:27 UTC | `INCONCLUSIVE` | Representation-Theoretic Rank Invariant for Permanent vs Determin |
+| 2026-04-29 05:58 UTC | `INCONCLUSIVE` | Submodular Matroid Rank Defect for Monotone CLIQUE |
+| 2026-04-29 06:32 UTC | `INCONCLUSIVE` | SOS Integrality Gap and Secant Variety Dimension for Polynomial C |
 
 ## How to read the reports
 
