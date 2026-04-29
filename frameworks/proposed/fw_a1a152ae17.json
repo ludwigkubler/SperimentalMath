@@ -1,0 +1,74 @@
+{
+  "framework_id": "fw_a1a152ae17",
+  "ts": 1777494814.4096956,
+  "generation": 0,
+  "parent_framework_id": "",
+  "mutation_from_parent": "",
+  "name": "Tropical Circuit Weight Analysis (TCWA)",
+  "taxonomy_category": "BOUNDED_ARITHMETIC",
+  "primitives": [
+    {
+      "name": "Tropical Circuit",
+      "type": "tuple (G, w)",
+      "description": "A directed acyclic graph G with nodes labeled as inputs (variables or constants), tropical addition (min or max), or tropical multiplication (usual addition). Edge weights w: E → ℤ are integers. Computation proceeds by tropical semiring rules: min-plus or max-plus arithmetic. Can be implemented as a Python class with nodes, edges, and evaluation method over ℤ."
+    },
+    {
+      "name": "Tropical Derivation",
+      "type": "function δ: Circuit → Circuit",
+      "description": "A formal derivative operator on tropical circuits: for a node computing min(x,y), the derivation selects the active operand (argmin) with tie-breaking via lexicographic ordering. Implemented as a dynamic edge-selection map during evaluation on input vectors."
+    },
+    {
+      "name": "Weight Profile",
+      "type": "list of integers",
+      "description": "For a tropical circuit C and input x ∈ ℤⁿ, the weight profile is the sequence of edge weights traversed during evaluation under tropical semantics, ordered by topological evaluation. Computable via trace during forward pass."
+    },
+    {
+      "name": "Circuit Phase Space",
+      "type": "subset of ℝⁿ",
+      "description": "Partition of input space ℝⁿ into convex polyhedral regions where the tropical circuit's active computation path (i.e., argmin/argmax decisions) remains constant. Each phase cell is defined by linear inequalities; computable via tropical hypersurface decomposition."
+    }
+  ],
+  "operations": [
+    {
+      "name": "Phase Merging",
+      "signature": "PhaseSpace × PhaseSpace → PhaseSpace",
+      "description": "Given two phase spaces P₁, P₂ from circuits C₁, C₂, return the refinement of their Minkowski sum under superposition. Implemented via convex hull and hyperplane arrangement intersection."
+    },
+    {
+      "name": "Tropical Linearization",
+      "signature": "TropicalCircuit → TropicalDerivation",
+      "description": "Compute the piecewise-linear derivation map δ_C(x) that outputs, for each input x, the active edge structure (a combinatorial gradient). Implemented via forward-mode tropical automatic differentiation."
+    },
+    {
+      "name": "Weight Accumulation Trace",
+      "signature": "TropicalCircuit × ℤⁿ → List(ℤ)",
+      "description": "Evaluate circuit on input x and return the weight profile (sequence of edge weights along active path). Used to define complexity measures based on arithmetic dynamics."
+    },
+    {
+      "name": "Circuit Homotopy",
+      "signature": "TropicalCircuit × [0,1] → TropicalCircuit",
+      "description": "Deform edge weights continuously while preserving functional equivalence on integer inputs. Implemented via affine lifting of weights with tie-breaking preservation constraints."
+    },
+    {
+      "name": "Duality Flip",
+      "signature": "TropicalCircuit → TropicalCircuit",
+      "description": "Transform min-plus circuit to max-plus (or vice versa) by negating all weights and inverting comparison logic. Preserves expressible functions up to sign."
+    }
+  ],
+  "target_invariant": {
+    "name": "Tropical Proof Rank",
+    "type": "integer",
+    "what_it_should_bound": "The minimum number of phase transitions required to simulate a bounded arithmetic proof line in V⁰ or IΔ₀, thereby bounding the strength of definable functions and aiming to separate bounded arithmetic theories via circuit phase complexity."
+  },
+  "axioms_tentative": [
+    "A1: (Phase Stability Axiom) Any function provably total in IΔ₀ has a tropical circuit with polynomially many phase cells under uniform input scaling.",
+    "A2: (Weight-Proof Correspondence) The sum of absolute weights in a tropical circuit for a formula encoding a proof line is at least the bit-complexity of the cut-free proof in bounded arithmetic.",
+    "A3: (Tropical Soundness) If a bounded arithmetic theory proves a ∀Σ₁ᵇ sentence, then its tropical circuit model exhibits a homotopy-stable phase space under perturbation."
+  ],
+  "status": "PROPOSED",
+  "sub_conjecture_entry_ids": [],
+  "fitness_components": {},
+  "fitness": 0.0,
+  "paper_path": "",
+  "lean_module_path": ""
+}
