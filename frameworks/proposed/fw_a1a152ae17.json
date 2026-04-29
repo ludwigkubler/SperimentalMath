@@ -1,6 +1,6 @@
 {
   "framework_id": "fw_a1a152ae17",
-  "ts": 1777496594.3743799,
+  "ts": 1777505686.582188,
   "generation": 0,
   "parent_framework_id": "",
   "mutation_from_parent": "",
@@ -66,7 +66,9 @@
     "A3: (Tropical Soundness) If a bounded arithmetic theory proves a ∀Σ₁ᵇ sentence, then its tropical circuit model exhibits a homotopy-stable phase space under perturbation."
   ],
   "status": "ELABORATING",
-  "sub_conjecture_entry_ids": [],
+  "sub_conjecture_entry_ids": [
+    "19163a75e6d2"
+  ],
   "fitness_components": {},
   "fitness": 0.0,
   "paper_path": "",

@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-29 21:06 UTC"
+date: "2026-04-29 23:43 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,19 +13,19 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-29 21:06 UTC
+Generated 2026-04-29 23:43 UTC
 
-- Cycles recorded: **232**
-- Time span: 143.4h (~1.62 cycles/h)
+- Cycles recorded: **234**
+- Time span: 146.0h (~1.60 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 209 |
+| INCONCLUSIVE | 210 |
 | FALSIFIED | 14 |
-| BARRIER_HIT | 5 |
+| BARRIER_HIT | 6 |
 | SUPPORTED | 4 |
 
 ## Mathematical fields explored (field_A)
@@ -67,8 +67,6 @@ Generated 2026-04-29 21:06 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-29 03:54 UTC | `INCONCLUSIVE` | Dual Code Distance Lower Bound for Tseitin Refutations |
-| 2026-04-29 04:23 UTC | `INCONCLUSIVE` | Width-5 ABPs and NC¹ Circuit Simulation |
 | 2026-04-29 05:07 UTC | `INCONCLUSIVE` | AC⁰ PARITY Lower Bound via Linear Independence Invariant |
 | 2026-04-29 05:27 UTC | `INCONCLUSIVE` | Representation-Theoretic Rank Invariant for Permanent vs Determin |
 | 2026-04-29 05:58 UTC | `INCONCLUSIVE` | Submodular Matroid Rank Defect for Monotone CLIQUE |
@@ -82,6 +80,8 @@ Generated 2026-04-29 21:06 UTC
 | 2026-04-29 15:43 UTC | `INCONCLUSIVE` | Free Entropy Gap in Read-Twice Branching Programs for IP_2 |
 | 2026-04-29 18:05 UTC | `INCONCLUSIVE` | Protocol-Induced Covers from Low-Cost Protocols on High-Distortio |
 | 2026-04-29 21:06 UTC | `INCONCLUSIVE` | Spectral Radius of Vertex Contraction Graph Controls Tseitin Reso |
+| 2026-04-29 23:34 UTC | `BARRIER_HIT` | Tropical Circuit Weight Accumulation Bound |
+| 2026-04-29 23:43 UTC | `INCONCLUSIVE` | Star Discrepancy of Clause-Vectors Lower-Bounds Resolution Width  |
 
 ## How to read the reports
 
