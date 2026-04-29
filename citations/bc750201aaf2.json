@@ -1,0 +1,40 @@
+{
+  "entry_id": "bc750201aaf2",
+  "ts": 1777423256.2787955,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.4230/LIPIcs.ESA.2024.29",
+      "title": "A Euclidean Embedding for Computing Persistent Homology with Gaussian Kernels",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available, so I cannot assess whether the paper's content interacts with the specific claim about τ_±(M_f) ≤ rk_R(M_f).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:609241bc94e187c943bd6d4ec6bcf0c1ababa87c",
+      "title": "Topology in sensor networks",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available, so I cannot determine whether this paper addresses persistent H_0 of sign-quotient row sets or real-rank bounds in communication complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:2505.16879",
+      "title": "How high is 'high'? Rethinking the roles of dimensionality in topological data analysis and manifold learning",
+      "abstract_excerpt": "We present a generalised Hanson-Wright inequality and use it to establish new statistical insights into the geometry of data point-clouds. In the setting of a general random function model of data, we clarify the roles played by three notions of dimensionality: ambient intrinsic dimension $p_{\\mathr",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a generalized Hanson-Wright inequality and notions of dimensionality in random function models for TDA/manifold learning, with no connection to communication matrices, real rank, or persistent H_0 of sign-quotient row sets.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}

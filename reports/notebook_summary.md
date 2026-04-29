@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-28 23:09 UTC"
+date: "2026-04-29 00:40 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-28 23:09 UTC
+Generated 2026-04-29 00:40 UTC
 
-- Cycles recorded: **209**
-- Time span: 121.5h (~1.72 cycles/h)
+- Cycles recorded: **212**
+- Time span: 123.0h (~1.72 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 186 |
+| INCONCLUSIVE | 189 |
 | FALSIFIED | 14 |
 | BARRIER_HIT | 5 |
 | SUPPORTED | 4 |
@@ -67,9 +67,6 @@ Generated 2026-04-28 23:09 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-28 14:45 UTC | `INCONCLUSIVE` | Roe-Skeleton Spectral Gap Forces Multiplicity in Protocol-Induced |
-| 2026-04-28 14:54 UTC | `INCONCLUSIVE` | Walsh-Code Antichain Width of NW Designs Bounds PRG Linear Bias |
-| 2026-04-28 15:27 UTC | `INCONCLUSIVE` | Kruskal-Katona Shadow Defect Lower-Bounds Monotone-KW Depth |
 | 2026-04-28 16:05 UTC | `INCONCLUSIVE` | Hodge Laplacian b_1 of Edge-Triangle Star-Complex Bounds SoS Degr |
 | 2026-04-28 16:32 UTC | `INCONCLUSIVE` | Continued-Fraction Spike of Truth-Table Rational Caps DNF_min |
 | 2026-04-28 16:59 UTC | `INCONCLUSIVE` | Shifted Partials of Clause Cubic Lower-Bound Tree-Resolution Leav |
@@ -82,6 +79,9 @@ Generated 2026-04-28 23:09 UTC
 | 2026-04-28 20:35 UTC | `INCONCLUSIVE` | Cyclotomic Norm Floor of Truth-Table Character Sum Caps ACC^0[m]  |
 | 2026-04-28 23:06 UTC | `INCONCLUSIVE` | Hilbert-Compression Floor on Property-A Gadgets Forces α·Q(f) Mul |
 | 2026-04-28 23:09 UTC | `INCONCLUSIVE` | Effective-Resistance Diameter Lower-Bounds Tseitin Resolution Wid |
+| 2026-04-29 00:11 UTC | `INCONCLUSIVE` | GF(2)-Rank Defect of Term-Indicator Matrix Lower-Bounds Monotone  |
+| 2026-04-29 00:24 UTC | `INCONCLUSIVE` | Coarse-Equivalence Invariance of Protocol-Pullback Multiplicity A |
+| 2026-04-29 00:40 UTC | `INCONCLUSIVE` | Persistent H_0 Component Count of Sign-Quotient Row Set Caps Real |
 
 ## How to read the reports
 

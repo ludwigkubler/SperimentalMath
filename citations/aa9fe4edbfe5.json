@@ -1,0 +1,40 @@
+{
+  "entry_id": "aa9fe4edbfe5",
+  "ts": 1777422281.243903,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2408.07701",
+      "title": "A categorical interpretation of Morita equivalence for dynamical von Neumann algebras",
+      "abstract_excerpt": "$\\DeclareMathOperator{\\G}{\\mathbb{G}}\\DeclareMathOperator{\\Rep}{Rep} \\DeclareMathOperator{\\Corr}{Corr}$Let $\\G$ be a locally compact quantum group and $(M, α)$ a $\\G$-$W^*$-algebra. The object of study of this paper is the $W^*$-category $\\Rep^{\\G}(M)$ of normal, unital $\\G$-representations of $M$ on Hilbert spaces endowed with a unitary $\\G$-representation. This category has a right action of the category $\\Rep(\\G)= \\Rep^{\\G}(\\mathbb{C})$ for which it becomes a right $\\Rep(\\G)$-module $W^*$-cat",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Morita equivalence of dynamical von Neumann algebras and an equivariant Eilenberg-Watts theorem for quantum group actions, with no mention of coarse geometry, communication complexity, gadgets, or protocol pullback multiplicities.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2312.08907",
+      "title": "Roe algebras of coarse spaces via coarse geometric modules",
+      "abstract_excerpt": "We provide a construction of Roe (C*-)algebras of general coarse spaces in terms of coarse geometric modules. This extends the classical theory of Roe algebras of metric spaces and gives a unified framework to deal with either uniform or non-uniform Roe algebras, algebras of operators of controlled propagation, and algebras of quasi-local operators; both in the metric and general coarse geometric setting. The key new definitions are that of coarse geometric module and coarse support of operators",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a general construction of Roe C*-algebras via coarse geometric modules and proves K-theory functoriality, but says nothing about communication complexity, MetricGadgets, protocol pullbacks, or multiplicity invariants under bit-permuted gadgets. It shares the Roe-algebra/coarse-geometry vocabulary but does not interact with the specific CLC multiplicity claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1706.00276",
+      "title": "Counting coarse subsets of a countable group",
+      "abstract_excerpt": "For every countable group $G$, there are $2^ω$ distinct classes of coarsely equivalent subsets of $G$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract counts coarse equivalence classes of subsets of countable groups ('2^ω distinct classes of coarsely equivalent subsets'), which shares the vocabulary of coarse equivalence but does not address protocol pullback multiplicity, communication complexity, or metric gadgets.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

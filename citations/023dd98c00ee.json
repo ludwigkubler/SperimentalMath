@@ -1,0 +1,40 @@
+{
+  "entry_id": "023dd98c00ee",
+  "ts": 1777421497.3446217,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1806.02734",
+      "title": "Spectral lower bounds for the orthogonal and projective ranks of a graph",
+      "abstract_excerpt": "The orthogonal rank of a graph $G=(V,E)$ is the smallest dimension $ξ$ such that there exist non-zero column vectors $x_v\\in\\mathbb{C}^ξ$ for $v\\in V$ satisfying the orthogonality condition $x_v^\\dagger x_w=0$ for all $vw\\in E$. We prove that many spectral lower bounds for the chromatic number, $χ$, are also lower bounds for $ξ$. This result complements a previous result by the authors, in which they showed that spectral lower bounds for $χ$ are also lower bounds for the quantum chromatic number",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns spectral lower bounds for orthogonal/projective ranks of graphs (related to chromatic number), not GF(2) rank of term-indicator matrices for monotone DNF or k-CLIQUE circuit complexity. It shares only the generic word 'rank' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1801.08709",
+      "title": "Adaptive Lower Bound for Testing Monotonicity on the Line",
+      "abstract_excerpt": "In the property testing model, the task is to distinguish objects possessing some property from the objects that are far from it. One of such properties is monotonicity, when the objects are functions from one poset to another. This is an active area of research. In this paper we study query complexity of $ε$-testing monotonicity of a function $f\\colon [n]\\to[r]$. All our lower bounds are for adaptive two-sided testers.\n  * We prove a nearly tight lower bound for this problem in terms of $r$. Th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns query complexity lower bounds for property testing of monotonicity of functions f:[n]→[r], with no mention of GF(2) rank, monotone DNF size, k-CLIQUE, or matroid rank defect. It shares only the loose word 'monotonicity' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1007.1875",
+      "title": "Lower Bounds for Quantum Oblivious Transfer",
+      "abstract_excerpt": "Oblivious transfer is a fundamental primitive in cryptography. While perfect information theoretic security is impossible, quantum oblivious transfer protocols can limit the dishonest players' cheating. Finding the optimal security parameters in such protocols is an important open question. In this paper we show that every 1-out-of-2 oblivious transfer protocol allows a dishonest party to cheat with probability bounded below by a constant strictly larger than 1/2. Alice's cheating is defined as ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quantum oblivious transfer cheating probabilities and Kitaev's SDP coin-flipping bounds, with no connection to monotone DNF, GF(2) rank, or k-CLIQUE lower bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
