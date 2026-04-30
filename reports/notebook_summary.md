@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-30 06:30 UTC"
+date: "2026-04-30 07:30 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-30 06:30 UTC
+Generated 2026-04-30 07:30 UTC
 
-- Cycles recorded: **236**
-- Time span: 152.8h (~1.54 cycles/h)
+- Cycles recorded: **238**
+- Time span: 153.8h (~1.55 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 212 |
+| INCONCLUSIVE | 214 |
 | FALSIFIED | 14 |
 | BARRIER_HIT | 6 |
 | SUPPORTED | 4 |
@@ -67,8 +67,6 @@ Generated 2026-04-30 06:30 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-29 05:58 UTC | `INCONCLUSIVE` | Submodular Matroid Rank Defect for Monotone CLIQUE |
-| 2026-04-29 06:32 UTC | `INCONCLUSIVE` | SOS Integrality Gap and Secant Variety Dimension for Polynomial C |
 | 2026-04-29 07:23 UTC | `INCONCLUSIVE` | Protocol-Induced Covers on Tensor-Powered Girth Gadgets Exhibit L |
 | 2026-04-29 07:53 UTC | `INCONCLUSIVE` | Real Rank Lower Bound for ACC^0 Circuit Size |
 | 2026-04-29 08:50 UTC | `INCONCLUSIVE` | Free Entropy Lower Bound for Disjointness Communication Matrices |
@@ -82,6 +80,8 @@ Generated 2026-04-30 06:30 UTC
 | 2026-04-29 23:43 UTC | `INCONCLUSIVE` | Star Discrepancy of Clause-Vectors Lower-Bounds Resolution Width  |
 | 2026-04-30 02:07 UTC | `INCONCLUSIVE` | Kolmogorov Complexity of Shortest Resolution Refutations Bounded  |
 | 2026-04-30 04:40 UTC | `INCONCLUSIVE` | EF Refutation Size vs. Clause-Indicator Complexity |
+| 2026-04-30 07:04 UTC | `INCONCLUSIVE` | Tropical Derivation Sparsity Limits Phase Cell Count |
+| 2026-04-30 07:30 UTC | `INCONCLUSIVE` | Persistent Homology and Communication Complexity Lower Bounds |
 
 ## How to read the reports
 
