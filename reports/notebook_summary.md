@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-30 11:30 UTC"
+date: "2026-04-30 12:42 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-30 11:30 UTC
+Generated 2026-04-30 12:42 UTC
 
-- Cycles recorded: **240**
-- Time span: 157.8h (~1.52 cycles/h)
+- Cycles recorded: **241**
+- Time span: 159.0h (~1.52 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 216 |
+| INCONCLUSIVE | 217 |
 | FALSIFIED | 14 |
 | BARRIER_HIT | 6 |
 | SUPPORTED | 4 |
@@ -67,7 +67,6 @@ Generated 2026-04-30 11:30 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-29 08:50 UTC | `INCONCLUSIVE` | Free Entropy Lower Bound for Disjointness Communication Matrices |
 | 2026-04-29 10:34 UTC | `INCONCLUSIVE` | Roe-Cover Multiplicity Lower Bound from Asymptotic Dimension Grow |
 | 2026-04-29 10:45 UTC | `INCONCLUSIVE` | Additive Energy of Sipser Function Bounds ACC⁰ Circuit Size |
 | 2026-04-29 13:06 UTC | `INCONCLUSIVE` | Protocol-Induced Covers on High-Asdim Gadget Lifts Require Expone |
@@ -82,6 +81,7 @@ Generated 2026-04-30 11:30 UTC
 | 2026-04-30 07:30 UTC | `INCONCLUSIVE` | Persistent Homology and Communication Complexity Lower Bounds |
 | 2026-04-30 07:49 UTC | `INCONCLUSIVE` | Width-Bounded Module Dimension in Barrington's Branching Programs |
 | 2026-04-30 10:09 UTC | `INCONCLUSIVE` | VC-Dimension of Row-Induced Set System Bounds Monotone DNF Size f |
+| 2026-04-30 12:42 UTC | `INCONCLUSIVE` | Bounded Arithmetic Reflection Strength Lower-Bounds Resolution Re |
 
 ## How to read the reports
 
