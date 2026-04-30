@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-30 22:30 UTC"
+date: "2026-04-30 23:42 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-30 22:30 UTC
+Generated 2026-04-30 23:42 UTC
 
-- Cycles recorded: **255**
-- Time span: 168.8h (~1.51 cycles/h)
+- Cycles recorded: **257**
+- Time span: 170.0h (~1.51 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 229 |
+| INCONCLUSIVE | 231 |
 | FALSIFIED | 15 |
 | BARRIER_HIT | 7 |
 | SUPPORTED | 4 |
@@ -67,8 +67,6 @@ Generated 2026-04-30 22:30 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-30 12:42 UTC | `INCONCLUSIVE` | Bounded Arithmetic Reflection Strength Lower-Bounds Resolution Re |
-| 2026-04-30 15:04 UTC | `BARRIER_HIT` | Kronecker Coefficients of Rectangular GLₙ-Representations Lower-B |
 | 2026-04-30 16:12 UTC | `INCONCLUSIVE` | SOS Moment Matrix Rank and Real Variety Dimension for Max-CUT |
 | 2026-04-30 16:48 UTC | `INCONCLUSIVE` | Bounded Arithmetic Proof Complexity and Resolution Length |
 | 2026-04-30 17:18 UTC | `INCONCLUSIVE` | Real Rank of Karchmer-Wigderson Communication Matrices for AC⁰ PA |
@@ -82,6 +80,8 @@ Generated 2026-04-30 22:30 UTC
 | 2026-04-30 21:28 UTC | `INCONCLUSIVE` | Real Rank of SOS Moment Matrices for Max-CUT |
 | 2026-04-30 22:03 UTC | `INCONCLUSIVE` | Slice Rank Lower Bounds for Communication Complexity of CNF Formu |
 | 2026-04-30 22:29 UTC | `FALSIFIED` | Duality-Preserved Phase Cell Bound |
+| 2026-04-30 23:07 UTC | `INCONCLUSIVE` | Algebraic Geometry over Finite Fields and EF Proof Length |
+| 2026-04-30 23:42 UTC | `INCONCLUSIVE` | Additive Energy Bounds for SOS Refutations of Sipser Functions |
 
 ## How to read the reports
 
