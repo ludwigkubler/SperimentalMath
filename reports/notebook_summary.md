@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-30 01:30 UTC"
+date: "2026-04-30 02:30 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-30 01:30 UTC
+Generated 2026-04-30 02:30 UTC
 
-- Cycles recorded: **234**
-- Time span: 147.8h (~1.58 cycles/h)
+- Cycles recorded: **235**
+- Time span: 148.8h (~1.58 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 210 |
+| INCONCLUSIVE | 211 |
 | FALSIFIED | 14 |
 | BARRIER_HIT | 6 |
 | SUPPORTED | 4 |
@@ -67,7 +67,6 @@ Generated 2026-04-30 01:30 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-29 05:07 UTC | `INCONCLUSIVE` | AC⁰ PARITY Lower Bound via Linear Independence Invariant |
 | 2026-04-29 05:27 UTC | `INCONCLUSIVE` | Representation-Theoretic Rank Invariant for Permanent vs Determin |
 | 2026-04-29 05:58 UTC | `INCONCLUSIVE` | Submodular Matroid Rank Defect for Monotone CLIQUE |
 | 2026-04-29 06:32 UTC | `INCONCLUSIVE` | SOS Integrality Gap and Secant Variety Dimension for Polynomial C |
@@ -82,6 +81,7 @@ Generated 2026-04-30 01:30 UTC
 | 2026-04-29 21:06 UTC | `INCONCLUSIVE` | Spectral Radius of Vertex Contraction Graph Controls Tseitin Reso |
 | 2026-04-29 23:34 UTC | `BARRIER_HIT` | Tropical Circuit Weight Accumulation Bound |
 | 2026-04-29 23:43 UTC | `INCONCLUSIVE` | Star Discrepancy of Clause-Vectors Lower-Bounds Resolution Width  |
+| 2026-04-30 02:07 UTC | `INCONCLUSIVE` | Kolmogorov Complexity of Shortest Resolution Refutations Bounded  |
 
 ## How to read the reports
 
