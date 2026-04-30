@@ -143,3 +143,5 @@
 {"ts": 1777554006.415784, "kind": "DUPLICATE_DAEMON", "auto_fixed": true, "detail": {"instances": [{"pid": 2821598, "etimes": 1789}, {"pid": 2821599, "etimes": 1789}]}}
 {"ts": 1777554007.3510602, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 2000, "cap": 2000, "fraction": 1.0, "weekly_budget": 2500}}
 {"ts": 1777555802.257796, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 2000, "cap": 2000, "fraction": 1.0, "weekly_budget": 2500}}
+{"ts": 1777557602.4201608, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 2000, "cap": 2000, "fraction": 1.0, "weekly_budget": 2500}}
+{"ts": 1777559402.282771, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 2000, "cap": 2000, "fraction": 1.0, "weekly_budget": 2500}}
