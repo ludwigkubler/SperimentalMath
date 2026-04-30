@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-30 09:30 UTC"
+date: "2026-04-30 10:30 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-30 09:30 UTC
+Generated 2026-04-30 10:30 UTC
 
-- Cycles recorded: **239**
-- Time span: 155.8h (~1.53 cycles/h)
+- Cycles recorded: **240**
+- Time span: 156.8h (~1.53 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 215 |
+| INCONCLUSIVE | 216 |
 | FALSIFIED | 14 |
 | BARRIER_HIT | 6 |
 | SUPPORTED | 4 |
@@ -67,7 +67,6 @@ Generated 2026-04-30 09:30 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-29 07:53 UTC | `INCONCLUSIVE` | Real Rank Lower Bound for ACC^0 Circuit Size |
 | 2026-04-29 08:50 UTC | `INCONCLUSIVE` | Free Entropy Lower Bound for Disjointness Communication Matrices |
 | 2026-04-29 10:34 UTC | `INCONCLUSIVE` | Roe-Cover Multiplicity Lower Bound from Asymptotic Dimension Grow |
 | 2026-04-29 10:45 UTC | `INCONCLUSIVE` | Additive Energy of Sipser Function Bounds ACC⁰ Circuit Size |
@@ -82,6 +81,7 @@ Generated 2026-04-30 09:30 UTC
 | 2026-04-30 07:04 UTC | `INCONCLUSIVE` | Tropical Derivation Sparsity Limits Phase Cell Count |
 | 2026-04-30 07:30 UTC | `INCONCLUSIVE` | Persistent Homology and Communication Complexity Lower Bounds |
 | 2026-04-30 07:49 UTC | `INCONCLUSIVE` | Width-Bounded Module Dimension in Barrington's Branching Programs |
+| 2026-04-30 10:09 UTC | `INCONCLUSIVE` | VC-Dimension of Row-Induced Set System Bounds Monotone DNF Size f |
 
 ## How to read the reports
 
