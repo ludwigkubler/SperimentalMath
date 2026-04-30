@@ -1,24 +1,24 @@
 {
-  "last_update_utc": "2026-04-30T20:47:02Z",
-  "total_cycles": 251,
+  "last_update_utc": "2026-04-30T21:47:01Z",
+  "total_cycles": 253,
   "verdict_counts": {
-    "INCONCLUSIVE": 226,
+    "INCONCLUSIVE": 228,
     "SUPPORTED": 4,
     "FALSIFIED": 14,
     "BARRIER_HIT": 7
   },
-  "unique_field_A": 227,
+  "unique_field_A": 228,
   "top_fields_A": [
+    [
+      "Real Algebraic Geometry",
+      5
+    ],
     [
       "Ergodic Circuit Framework (communication complexity via dynamical systems)",
       4
     ],
     [
       "{'framework_name': 'Ergodic Circuit Framework', 'math_branch': 'COMM_COMPLEXITY'}",
-      4
-    ],
-    [
-      "Real Algebraic Geometry",
       4
     ],
     [

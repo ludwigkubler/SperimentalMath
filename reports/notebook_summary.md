@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-30 20:31 UTC"
+date: "2026-04-30 21:30 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-30 20:31 UTC
+Generated 2026-04-30 21:30 UTC
 
-- Cycles recorded: **251**
-- Time span: 166.9h (~1.50 cycles/h)
+- Cycles recorded: **253**
+- Time span: 167.8h (~1.51 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 226 |
+| INCONCLUSIVE | 228 |
 | FALSIFIED | 14 |
 | BARRIER_HIT | 7 |
 | SUPPORTED | 4 |
@@ -32,9 +32,9 @@ Generated 2026-04-30 20:31 UTC
 
 | Field | Cycles |
 |---|---|
+| Real Algebraic Geometry | 5 |
 | Ergodic Circuit Framework (communication complexity via dynamical systems) | 4 |
 | {"framework_name": "Ergodic Circuit Framework", "math_branch": "COMM_COMPLEXITY"} | 4 |
-| Real Algebraic Geometry | 4 |
 | Fourier analysis of boolean functions | 3 |
 | Coarse Geometric Lifting (CGL) — Geometric Complexity Theory | 3 |
 | Noncommutative geometry | 2 |
@@ -67,8 +67,6 @@ Generated 2026-04-30 20:31 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-30 07:04 UTC | `INCONCLUSIVE` | Tropical Derivation Sparsity Limits Phase Cell Count |
-| 2026-04-30 07:30 UTC | `INCONCLUSIVE` | Persistent Homology and Communication Complexity Lower Bounds |
 | 2026-04-30 07:49 UTC | `INCONCLUSIVE` | Width-Bounded Module Dimension in Barrington's Branching Programs |
 | 2026-04-30 10:09 UTC | `INCONCLUSIVE` | VC-Dimension of Row-Induced Set System Bounds Monotone DNF Size f |
 | 2026-04-30 12:42 UTC | `INCONCLUSIVE` | Bounded Arithmetic Reflection Strength Lower-Bounds Resolution Re |
@@ -82,6 +80,8 @@ Generated 2026-04-30 20:31 UTC
 | 2026-04-30 18:56 UTC | `INCONCLUSIVE` | Real Algebraic Components of AC⁰ PARITY Circuits |
 | 2026-04-30 19:25 UTC | `INCONCLUSIVE` | Non-Commutative Rank of ACC^0 Circuits Bounded by Logarithmic Dep |
 | 2026-04-30 20:31 UTC | `INCONCLUSIVE` | Fourier Coefficient Sparsity and Deterministic Communication Comp |
+| 2026-04-30 20:59 UTC | `INCONCLUSIVE` | Monomial Count in KW Polynomial Bounds Communication Complexity |
+| 2026-04-30 21:28 UTC | `INCONCLUSIVE` | Real Rank of SOS Moment Matrices for Max-CUT |
 
 ## How to read the reports
 
