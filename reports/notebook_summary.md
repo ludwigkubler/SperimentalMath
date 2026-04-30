@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-30 19:30 UTC"
+date: "2026-04-30 20:31 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-30 19:30 UTC
+Generated 2026-04-30 20:31 UTC
 
-- Cycles recorded: **250**
-- Time span: 165.8h (~1.51 cycles/h)
+- Cycles recorded: **251**
+- Time span: 166.9h (~1.50 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 225 |
+| INCONCLUSIVE | 226 |
 | FALSIFIED | 14 |
 | BARRIER_HIT | 7 |
 | SUPPORTED | 4 |
@@ -67,7 +67,6 @@ Generated 2026-04-30 19:30 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-30 04:40 UTC | `INCONCLUSIVE` | EF Refutation Size vs. Clause-Indicator Complexity |
 | 2026-04-30 07:04 UTC | `INCONCLUSIVE` | Tropical Derivation Sparsity Limits Phase Cell Count |
 | 2026-04-30 07:30 UTC | `INCONCLUSIVE` | Persistent Homology and Communication Complexity Lower Bounds |
 | 2026-04-30 07:49 UTC | `INCONCLUSIVE` | Width-Bounded Module Dimension in Barrington's Branching Programs |
@@ -82,6 +81,7 @@ Generated 2026-04-30 19:30 UTC
 | 2026-04-30 18:22 UTC | `INCONCLUSIVE` | Orbit Closure Dimension vs. Circuit Complexity for Permanent |
 | 2026-04-30 18:56 UTC | `INCONCLUSIVE` | Real Algebraic Components of AC⁰ PARITY Circuits |
 | 2026-04-30 19:25 UTC | `INCONCLUSIVE` | Non-Commutative Rank of ACC^0 Circuits Bounded by Logarithmic Dep |
+| 2026-04-30 20:31 UTC | `INCONCLUSIVE` | Fourier Coefficient Sparsity and Deterministic Communication Comp |
 
 ## How to read the reports
 
