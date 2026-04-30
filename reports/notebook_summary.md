@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-30 17:44 UTC"
+date: "2026-04-30 18:30 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-30 17:44 UTC
+Generated 2026-04-30 18:30 UTC
 
-- Cycles recorded: **246**
-- Time span: 164.1h (~1.50 cycles/h)
+- Cycles recorded: **248**
+- Time span: 164.8h (~1.50 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 221 |
+| INCONCLUSIVE | 223 |
 | FALSIFIED | 14 |
 | BARRIER_HIT | 7 |
 | SUPPORTED | 4 |
@@ -67,8 +67,6 @@ Generated 2026-04-30 17:44 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-29 21:06 UTC | `INCONCLUSIVE` | Spectral Radius of Vertex Contraction Graph Controls Tseitin Reso |
-| 2026-04-29 23:34 UTC | `BARRIER_HIT` | Tropical Circuit Weight Accumulation Bound |
 | 2026-04-29 23:43 UTC | `INCONCLUSIVE` | Star Discrepancy of Clause-Vectors Lower-Bounds Resolution Width  |
 | 2026-04-30 02:07 UTC | `INCONCLUSIVE` | Kolmogorov Complexity of Shortest Resolution Refutations Bounded  |
 | 2026-04-30 04:40 UTC | `INCONCLUSIVE` | EF Refutation Size vs. Clause-Indicator Complexity |
@@ -82,6 +80,8 @@ Generated 2026-04-30 17:44 UTC
 | 2026-04-30 16:48 UTC | `INCONCLUSIVE` | Bounded Arithmetic Proof Complexity and Resolution Length |
 | 2026-04-30 17:18 UTC | `INCONCLUSIVE` | Real Rank of Karchmer-Wigderson Communication Matrices for AC⁰ PA |
 | 2026-04-30 17:44 UTC | `INCONCLUSIVE` | Free Entropy Distinguishes Read-Twice BPs from IP_2 Trivial Ones |
+| 2026-04-30 17:57 UTC | `INCONCLUSIVE` | Phase Cell Count Bounded by Tropical Proof Rank |
+| 2026-04-30 18:22 UTC | `INCONCLUSIVE` | Orbit Closure Dimension vs. Circuit Complexity for Permanent |
 
 ## How to read the reports
 
