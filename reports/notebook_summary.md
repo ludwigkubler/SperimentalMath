@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-30 18:30 UTC"
+date: "2026-04-30 19:30 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-30 18:30 UTC
+Generated 2026-04-30 19:30 UTC
 
-- Cycles recorded: **248**
-- Time span: 164.8h (~1.50 cycles/h)
+- Cycles recorded: **250**
+- Time span: 165.8h (~1.51 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 223 |
+| INCONCLUSIVE | 225 |
 | FALSIFIED | 14 |
 | BARRIER_HIT | 7 |
 | SUPPORTED | 4 |
@@ -34,9 +34,9 @@ Generated 2026-04-30 18:30 UTC
 |---|---|
 | Ergodic Circuit Framework (communication complexity via dynamical systems) | 4 |
 | {"framework_name": "Ergodic Circuit Framework", "math_branch": "COMM_COMPLEXITY"} | 4 |
+| Real Algebraic Geometry | 4 |
 | Fourier analysis of boolean functions | 3 |
 | Coarse Geometric Lifting (CGL) — Geometric Complexity Theory | 3 |
-| Real Algebraic Geometry | 3 |
 | Noncommutative geometry | 2 |
 | Representation theory of symmetric groups | 2 |
 | Ergodic Circuit Framework (COMM_COMPLEXITY) | 2 |
@@ -67,8 +67,6 @@ Generated 2026-04-30 18:30 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-29 23:43 UTC | `INCONCLUSIVE` | Star Discrepancy of Clause-Vectors Lower-Bounds Resolution Width  |
-| 2026-04-30 02:07 UTC | `INCONCLUSIVE` | Kolmogorov Complexity of Shortest Resolution Refutations Bounded  |
 | 2026-04-30 04:40 UTC | `INCONCLUSIVE` | EF Refutation Size vs. Clause-Indicator Complexity |
 | 2026-04-30 07:04 UTC | `INCONCLUSIVE` | Tropical Derivation Sparsity Limits Phase Cell Count |
 | 2026-04-30 07:30 UTC | `INCONCLUSIVE` | Persistent Homology and Communication Complexity Lower Bounds |
@@ -82,6 +80,8 @@ Generated 2026-04-30 18:30 UTC
 | 2026-04-30 17:44 UTC | `INCONCLUSIVE` | Free Entropy Distinguishes Read-Twice BPs from IP_2 Trivial Ones |
 | 2026-04-30 17:57 UTC | `INCONCLUSIVE` | Phase Cell Count Bounded by Tropical Proof Rank |
 | 2026-04-30 18:22 UTC | `INCONCLUSIVE` | Orbit Closure Dimension vs. Circuit Complexity for Permanent |
+| 2026-04-30 18:56 UTC | `INCONCLUSIVE` | Real Algebraic Components of AC⁰ PARITY Circuits |
+| 2026-04-30 19:25 UTC | `INCONCLUSIVE` | Non-Commutative Rank of ACC^0 Circuits Bounded by Logarithmic Dep |
 
 ## How to read the reports
 

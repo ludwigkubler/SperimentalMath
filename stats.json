@@ -1,13 +1,13 @@
 {
-  "last_update_utc": "2026-04-30T18:47:01Z",
-  "total_cycles": 248,
+  "last_update_utc": "2026-04-30T19:47:01Z",
+  "total_cycles": 250,
   "verdict_counts": {
-    "INCONCLUSIVE": 223,
+    "INCONCLUSIVE": 225,
     "SUPPORTED": 4,
     "FALSIFIED": 14,
     "BARRIER_HIT": 7
   },
-  "unique_field_A": 225,
+  "unique_field_A": 226,
   "top_fields_A": [
     [
       "Ergodic Circuit Framework (communication complexity via dynamical systems)",
@@ -18,15 +18,15 @@
       4
     ],
     [
+      "Real Algebraic Geometry",
+      4
+    ],
+    [
       "Fourier analysis of boolean functions",
       3
     ],
     [
       "Coarse Geometric Lifting (CGL) — Geometric Complexity Theory",
-      3
-    ],
-    [
-      "Real Algebraic Geometry",
       3
     ],
     [
