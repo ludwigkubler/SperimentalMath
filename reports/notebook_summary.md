@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-30 21:30 UTC"
+date: "2026-04-30 22:30 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,18 +13,18 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-30 21:30 UTC
+Generated 2026-04-30 22:30 UTC
 
-- Cycles recorded: **253**
-- Time span: 167.8h (~1.51 cycles/h)
+- Cycles recorded: **255**
+- Time span: 168.8h (~1.51 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 228 |
-| FALSIFIED | 14 |
+| INCONCLUSIVE | 229 |
+| FALSIFIED | 15 |
 | BARRIER_HIT | 7 |
 | SUPPORTED | 4 |
 
@@ -48,6 +48,7 @@ Generated 2026-04-30 21:30 UTC
 | Additive Combinatorics | 2 |
 | matroid theory | 2 |
 | Free Probability Theory | 2 |
+| Tropical Circuit Weight Analysis (BOUNDED_ARITHMETIC) | 2 |
 | Combinatorial homotopy theory | 1 |
 | Kazhdan-Lusztig theory of Hecke algebras | 1 |
 | Combinatorial algebraic topology | 1 |
@@ -61,14 +62,11 @@ Generated 2026-04-30 21:30 UTC
 | Clifford algebras over real vector spaces | 1 |
 | Algebraic cycles (Chow groups over finite fields) | 1 |
 | Algebraic lattice theory (Möbius functions of flow lattices) | 1 |
-| Directed algebraic topology (d-space homology) | 1 |
 
 ## Last 15 cycles (chronological)
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-30 07:49 UTC | `INCONCLUSIVE` | Width-Bounded Module Dimension in Barrington's Branching Programs |
-| 2026-04-30 10:09 UTC | `INCONCLUSIVE` | VC-Dimension of Row-Induced Set System Bounds Monotone DNF Size f |
 | 2026-04-30 12:42 UTC | `INCONCLUSIVE` | Bounded Arithmetic Reflection Strength Lower-Bounds Resolution Re |
 | 2026-04-30 15:04 UTC | `BARRIER_HIT` | Kronecker Coefficients of Rectangular GLₙ-Representations Lower-B |
 | 2026-04-30 16:12 UTC | `INCONCLUSIVE` | SOS Moment Matrix Rank and Real Variety Dimension for Max-CUT |
@@ -82,6 +80,8 @@ Generated 2026-04-30 21:30 UTC
 | 2026-04-30 20:31 UTC | `INCONCLUSIVE` | Fourier Coefficient Sparsity and Deterministic Communication Comp |
 | 2026-04-30 20:59 UTC | `INCONCLUSIVE` | Monomial Count in KW Polynomial Bounds Communication Complexity |
 | 2026-04-30 21:28 UTC | `INCONCLUSIVE` | Real Rank of SOS Moment Matrices for Max-CUT |
+| 2026-04-30 22:03 UTC | `INCONCLUSIVE` | Slice Rank Lower Bounds for Communication Complexity of CNF Formu |
+| 2026-04-30 22:29 UTC | `FALSIFIED` | Duality-Preserved Phase Cell Bound |
 
 ## How to read the reports
 

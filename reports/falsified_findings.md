@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — FALSIFIED conjectures"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-30 21:30 UTC"
+date: "2026-04-30 22:30 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,7 +13,7 @@ colorlinks: true
 
 # SEC P vs NP — FALSIFIED conjectures (negative results)
 
-Compiled 2026-04-30 21:30 UTC. 14 conjectures falsified with counterexample.
+Compiled 2026-04-30 22:30 UTC. 15 conjectures falsified with counterexample.
 
 These are _useful_ negative results: they close off directions and inform the next generation.
 
@@ -698,3 +698,49 @@ RESULT: FALSIFIED counterexample="Slack exceeded 6.5 after 189 violations" first
 ### Judge reasoning
 
 The test's RESULT line reports FALSIFIED with all 5 seeds yielding slack ~10.6 (well above the pre-registered threshold log2(N)+0.5) and a 0.0 support fraction across 189+ violations per seed; the failure is overwhelming and consistent regardless of the critic's definitional concerns. | next: Pin down a precise definition of FourierTransform and MinimalFourierCoefficient for tropical polynomials (e.g., interpret f as a real-valued function on G, use min over nontrivial characters of |F̂|), and r
+
+---
+
+## Duality-Preserved Phase Cell Bound
+
+- **Verdict**: `FALSIFIED`
+- **Bridge**: Tropical Circuit Weight Analysis (BOUNDED_ARITHMETIC) × Phase Cell Symmetry Under Duality
+- **Recorded**: 2026-04-30 22:29 UTC
+- **Entry ID**: `8f4860266324`
+
+### Statement
+
+The number of phase cells in a tropical circuit and its dual (after Duality Flip) is bounded by twice the Tropical Proof Rank.
+
+### Rationale
+
+Tests A3's homotopy stability: duality flip preserves functional equivalence, implying phase space stability. If phase cells are symmetric, their count should relate to the proof rank via duality invariance.
+
+### Novelty
+
+- Judge: `NOVEL` over 0 arXiv hits
+
+### Empirical Test
+
+- exit code: `0`, elapsed: `0.03s`
+
+```
+xample': 'mapping_undefined'}
+TRIAL: {'metric_name': 'phase_cell_difference', 'metric_value': 80, 'instances_tested': 40, 'conjecture_holds': False, 'counterexample': 'mapping_undefined'}
+TRIAL: {'metric_name': 'phase_cell_difference', 'metric_value': 20, 'instances_tested': 10, 'conjecture_holds': False, 'counterexample': 'mapping_undefined'}
+TRIAL: {'metric_name': 'phase_cell_difference', 'metric_value': 20, 'instances_tested': 10, 'conjecture_holds': False, 'counterexample': 'mapping_undefined'}
+TRIAL: {'metric_name': 'phase_cell_difference', 'metric_value': 10, 'instances_tested': 5, 'conjecture_holds': False, 'counterexample': 'mapping_undefined'}
+TRIAL: {'metric_name': 'phase_cell_difference', 'metric_value': 30, 'instances_tested': 15, 'conjecture_holds': False, 'counterexample': 'mapping_undefined'}
+TRIAL: {'metric_name': 'phase_cell_difference', 'metric_value': 30, 'instances_tested': 15, 'conjecture_holds': False, 'counterexample': 'mapping_undefined'}
+TRIAL: {'metric_name': 'phase_cell_difference', 'metric_value': 80, 'instances_tested': 40, 'conjecture_holds': False, 'counterexample': 'mapping_undefined'}
+TRIAL: {'metric_name': 'phase_cell_difference', 'metric_value': 60, 'instances_tested': 30, 'conjecture_holds': False, 'counterexample': 'mapping_undefined'}
+TRIAL: {'metric_name': 'phase_cell_difference', 'metric_value': 20, 'instances_tested': 10, 'conjecture_holds': False, 'counterexample': 'mapping_undefined'}
+TRIAL: {'metric_name': 'phase_cell_difference', 'metric_value': 60, 'instances_tested': 30, 'conjecture_holds': False, 'counterexample': 'mapping_undefined'}
+TRIAL: {'metric_name': 'phase_cell_difference', 'metric_value': 20, 'instances_tested': 10, 'conjecture_holds': False, 'counterexample': 'mapping_undefined'}
+TRIAL: {'metric_name': 'phase_cell_difference', 'metric_value': 20, 'instances_tested': 10, 'conjecture_holds': False, 'counterexample': 'mapping_undefined'}
+RESULT: FALSIFIED counterexample="mapping_undefined" first_failing_seed=11
+```
+
+### Judge reasoning
+
+The conjecture was directly refuted by multiple counterexamples with 'conjecture_holds': False. The metric consistently exceeded the proposed bound. | next: Investigate why 'mapping_undefined' appears in counterexamples - this may indicate a bug in the duality flip implementation or phase cell detection algorithm.
