@@ -1,13 +1,13 @@
 {
-  "last_update_utc": "2026-04-30T16:47:07Z",
-  "total_cycles": 243,
+  "last_update_utc": "2026-04-30T17:47:02Z",
+  "total_cycles": 246,
   "verdict_counts": {
-    "INCONCLUSIVE": 218,
+    "INCONCLUSIVE": 221,
     "SUPPORTED": 4,
     "FALSIFIED": 14,
     "BARRIER_HIT": 7
   },
-  "unique_field_A": 221,
+  "unique_field_A": 223,
   "top_fields_A": [
     [
       "Ergodic Circuit Framework (communication complexity via dynamical systems)",
@@ -23,6 +23,10 @@
     ],
     [
       "Coarse Geometric Lifting (CGL) — Geometric Complexity Theory",
+      3
+    ],
+    [
+      "Real Algebraic Geometry",
       3
     ],
     [
@@ -63,10 +67,6 @@
     ],
     [
       "matroid theory",
-      2
-    ],
-    [
-      "Real Algebraic Geometry",
       2
     ]
   ]

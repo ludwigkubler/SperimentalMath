@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-30 16:30 UTC"
+date: "2026-04-30 17:44 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-30 16:30 UTC
+Generated 2026-04-30 17:44 UTC
 
-- Cycles recorded: **243**
-- Time span: 162.8h (~1.49 cycles/h)
+- Cycles recorded: **246**
+- Time span: 164.1h (~1.50 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 218 |
+| INCONCLUSIVE | 221 |
 | FALSIFIED | 14 |
 | BARRIER_HIT | 7 |
 | SUPPORTED | 4 |
@@ -36,6 +36,7 @@ Generated 2026-04-30 16:30 UTC
 | {"framework_name": "Ergodic Circuit Framework", "math_branch": "COMM_COMPLEXITY"} | 4 |
 | Fourier analysis of boolean functions | 3 |
 | Coarse Geometric Lifting (CGL) — Geometric Complexity Theory | 3 |
+| Real Algebraic Geometry | 3 |
 | Noncommutative geometry | 2 |
 | Representation theory of symmetric groups | 2 |
 | Ergodic Circuit Framework (COMM_COMPLEXITY) | 2 |
@@ -46,7 +47,6 @@ Generated 2026-04-30 16:30 UTC
 | Random Matrix Theory | 2 |
 | Additive Combinatorics | 2 |
 | matroid theory | 2 |
-| Real Algebraic Geometry | 2 |
 | Free Probability Theory | 2 |
 | Combinatorial homotopy theory | 1 |
 | Kazhdan-Lusztig theory of Hecke algebras | 1 |
@@ -67,9 +67,6 @@ Generated 2026-04-30 16:30 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-29 13:06 UTC | `INCONCLUSIVE` | Protocol-Induced Covers on High-Asdim Gadget Lifts Require Expone |
-| 2026-04-29 15:43 UTC | `INCONCLUSIVE` | Free Entropy Gap in Read-Twice Branching Programs for IP_2 |
-| 2026-04-29 18:05 UTC | `INCONCLUSIVE` | Protocol-Induced Covers from Low-Cost Protocols on High-Distortio |
 | 2026-04-29 21:06 UTC | `INCONCLUSIVE` | Spectral Radius of Vertex Contraction Graph Controls Tseitin Reso |
 | 2026-04-29 23:34 UTC | `BARRIER_HIT` | Tropical Circuit Weight Accumulation Bound |
 | 2026-04-29 23:43 UTC | `INCONCLUSIVE` | Star Discrepancy of Clause-Vectors Lower-Bounds Resolution Width  |
@@ -82,6 +79,9 @@ Generated 2026-04-30 16:30 UTC
 | 2026-04-30 12:42 UTC | `INCONCLUSIVE` | Bounded Arithmetic Reflection Strength Lower-Bounds Resolution Re |
 | 2026-04-30 15:04 UTC | `BARRIER_HIT` | Kronecker Coefficients of Rectangular GLₙ-Representations Lower-B |
 | 2026-04-30 16:12 UTC | `INCONCLUSIVE` | SOS Moment Matrix Rank and Real Variety Dimension for Max-CUT |
+| 2026-04-30 16:48 UTC | `INCONCLUSIVE` | Bounded Arithmetic Proof Complexity and Resolution Length |
+| 2026-04-30 17:18 UTC | `INCONCLUSIVE` | Real Rank of Karchmer-Wigderson Communication Matrices for AC⁰ PA |
+| 2026-04-30 17:44 UTC | `INCONCLUSIVE` | Free Entropy Distinguishes Read-Twice BPs from IP_2 Trivial Ones |
 
 ## How to read the reports
 

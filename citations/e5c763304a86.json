@@ -1,0 +1,40 @@
+{
+  "entry_id": "e5c763304a86",
+  "ts": 1777567795.6509736,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/0706.3841v1",
+      "title": "Arithmetic lattices and weak spectral geometry",
+      "abstract_excerpt": "This note is an expansion of three lectures given at the workshop \"Topology, Complex Analysis and Arithmetic of Hyperbolic Spaces\" held at Kyoto University in December of 2006 and will appear in the proceedings for this workshop.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract mentions arithmetic lattices and hyperbolic spaces, with no reference to bounded arithmetic, proof complexity, or resolution proof length. The topics appear unrelated to the conjecture.",
+      "judge_provider": "cerebras"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1411.7087v6",
+      "title": "Consistency proof of a fragment of PV with substitution in bounded arithmetic",
+      "abstract_excerpt": "This paper presents proof that Buss's $S^2_2$ can prove the consistency of a fragment of Cook and Urquhart's $\\mathrm{PV}$ from which induction has been removed but substitution has been retained.\n  This result improves Beckmann's result, which proves the consistency of such a system without substit",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the consistency proof of a fragment of PV in bounded arithmetic, which does not directly interact with the statement about minimal resolution proof length and its relation to provability in S^1_2 with k quantifier alternations.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2411.15515v2",
+      "title": "Finding Bugs in Short Proofs: The Metamathematics of Resolution Lower Bounds",
+      "abstract_excerpt": "We study the *refuter* problems for proof complexity lower bounds. Suppose $\\varphi$ is a hard tautology that does not admit any length-$s$ proof in some proof system $P$. In the corresponding refuter problem, we are given (query access to) a purported length-$s$ proof $π$ in $P$ that claims to have",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses refuter problems for proof complexity lower bounds, which shares vocabulary with the conjecture, but does not interact with the specific claim about the relationship between minimal resolution proof length and bounded arithmetic theory S^1_2.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
