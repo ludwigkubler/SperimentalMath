@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-04-30 15:30 UTC"
+date: "2026-04-30 16:30 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-04-30 15:30 UTC
+Generated 2026-04-30 16:30 UTC
 
-- Cycles recorded: **242**
-- Time span: 161.8h (~1.50 cycles/h)
+- Cycles recorded: **243**
+- Time span: 162.8h (~1.49 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 217 |
+| INCONCLUSIVE | 218 |
 | FALSIFIED | 14 |
 | BARRIER_HIT | 7 |
 | SUPPORTED | 4 |
@@ -46,6 +46,7 @@ Generated 2026-04-30 15:30 UTC
 | Random Matrix Theory | 2 |
 | Additive Combinatorics | 2 |
 | matroid theory | 2 |
+| Real Algebraic Geometry | 2 |
 | Free Probability Theory | 2 |
 | Combinatorial homotopy theory | 1 |
 | Kazhdan-Lusztig theory of Hecke algebras | 1 |
@@ -61,13 +62,11 @@ Generated 2026-04-30 15:30 UTC
 | Algebraic cycles (Chow groups over finite fields) | 1 |
 | Algebraic lattice theory (Möbius functions of flow lattices) | 1 |
 | Directed algebraic topology (d-space homology) | 1 |
-| Motivic integration (Denef-Loeser zeta functions) | 1 |
 
 ## Last 15 cycles (chronological)
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-29 10:45 UTC | `INCONCLUSIVE` | Additive Energy of Sipser Function Bounds ACC⁰ Circuit Size |
 | 2026-04-29 13:06 UTC | `INCONCLUSIVE` | Protocol-Induced Covers on High-Asdim Gadget Lifts Require Expone |
 | 2026-04-29 15:43 UTC | `INCONCLUSIVE` | Free Entropy Gap in Read-Twice Branching Programs for IP_2 |
 | 2026-04-29 18:05 UTC | `INCONCLUSIVE` | Protocol-Induced Covers from Low-Cost Protocols on High-Distortio |
@@ -82,6 +81,7 @@ Generated 2026-04-30 15:30 UTC
 | 2026-04-30 10:09 UTC | `INCONCLUSIVE` | VC-Dimension of Row-Induced Set System Bounds Monotone DNF Size f |
 | 2026-04-30 12:42 UTC | `INCONCLUSIVE` | Bounded Arithmetic Reflection Strength Lower-Bounds Resolution Re |
 | 2026-04-30 15:04 UTC | `BARRIER_HIT` | Kronecker Coefficients of Rectangular GLₙ-Representations Lower-B |
+| 2026-04-30 16:12 UTC | `INCONCLUSIVE` | SOS Moment Matrix Rank and Real Variety Dimension for Max-CUT |
 
 ## How to read the reports
 
