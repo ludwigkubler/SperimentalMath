@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-01 16:36 UTC"
+date: "2026-05-01 17:30 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,26 +13,26 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-01 16:36 UTC
+Generated 2026-05-01 17:30 UTC
 
-- Cycles recorded: **288**
-- Time span: 186.9h (~1.54 cycles/h)
+- Cycles recorded: **290**
+- Time span: 187.8h (~1.54 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 260 |
+| INCONCLUSIVE | 261 |
 | FALSIFIED | 15 |
-| BARRIER_HIT | 9 |
+| BARRIER_HIT | 10 |
 | SUPPORTED | 4 |
 
 ## Mathematical fields explored (field_A)
 
 | Field | Cycles |
 |---|---|
-| Real Algebraic Geometry | 7 |
+| Real Algebraic Geometry | 8 |
 | Algebraic Geometry | 5 |
 | Ergodic Circuit Framework (communication complexity via dynamical systems) | 4 |
 | {"framework_name": "Ergodic Circuit Framework", "math_branch": "COMM_COMPLEXITY"} | 4 |
@@ -49,6 +49,7 @@ Generated 2026-05-01 16:36 UTC
 | Algebraic Topology | 2 |
 | Tropical geometry | 2 |
 | Additive Combinatorics | 2 |
+| Finite Geometry | 2 |
 | matroid theory | 2 |
 | Free Probability Theory | 2 |
 | Bounded Arithmetic | 2 |
@@ -61,14 +62,11 @@ Generated 2026-05-01 16:36 UTC
 | Combinatorial algebraic topology | 1 |
 | Knot theory (quantum invariants) | 1 |
 | Quadratic forms over finite fields (Grothendieck-Witt groups) | 1 |
-| Clifford algebras over finite fields | 1 |
 
 ## Last 15 cycles (chronological)
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-01 07:17 UTC | `BARRIER_HIT` | Orbit Closure Dimension vs. Boolean Circuit Size |
-| 2026-05-01 07:55 UTC | `INCONCLUSIVE` | Homotopy Type and AC^0 Complexity |
 | 2026-05-01 08:38 UTC | `INCONCLUSIVE` | Littlewood-Richardson Coefficient Gap in Permanent vs Determinant |
 | 2026-05-01 09:12 UTC | `INCONCLUSIVE` | Algebraic Curve Genus and Communication Complexity Lower Bound |
 | 2026-05-01 09:26 UTC | `INCONCLUSIVE` | Matroid Girth of Monotone DNF Implies k-CLIQUE Circuit Size Lower |
@@ -82,6 +80,8 @@ Generated 2026-05-01 16:36 UTC
 | 2026-05-01 15:02 UTC | `INCONCLUSIVE` | Singular Locus Dimension Bounds SOS Refutation Size for 3-SAT |
 | 2026-05-01 16:11 UTC | `INCONCLUSIVE` | Expander Modulus Bounds Tseitin Proof Complexity |
 | 2026-05-01 16:36 UTC | `INCONCLUSIVE` | Tropical Circuit Weight Profile Complexity Bound |
+| 2026-05-01 16:47 UTC | `INCONCLUSIVE` | Finite Geometry Rank and ACC^0 Circuit Size for 3-SAT Instances |
+| 2026-05-01 17:19 UTC | `BARRIER_HIT` | Moment Matrix Eigenvalue Gap and SOS Degree for Max-CUT |
 
 ## How to read the reports
 
