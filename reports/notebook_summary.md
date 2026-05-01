@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-01 09:13 UTC"
+date: "2026-05-01 09:35 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-01 09:13 UTC
+Generated 2026-05-01 09:35 UTC
 
-- Cycles recorded: **277**
-- Time span: 179.5h (~1.54 cycles/h)
+- Cycles recorded: **279**
+- Time span: 179.9h (~1.55 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 249 |
+| INCONCLUSIVE | 251 |
 | FALSIFIED | 15 |
 | BARRIER_HIT | 9 |
 | SUPPORTED | 4 |
@@ -36,8 +36,8 @@ Generated 2026-05-01 09:13 UTC
 | Algebraic Geometry | 5 |
 | Ergodic Circuit Framework (communication complexity via dynamical systems) | 4 |
 | {"framework_name": "Ergodic Circuit Framework", "math_branch": "COMM_COMPLEXITY"} | 4 |
+| Matroid Theory | 4 |
 | Fourier analysis of boolean functions | 3 |
-| Matroid Theory | 3 |
 | Random Matrix Theory | 3 |
 | Coarse Geometric Lifting (CGL) — Geometric Complexity Theory | 3 |
 | Tropical Circuit Weight Analysis (BOUNDED_ARITHMETIC) | 3 |
@@ -55,20 +55,18 @@ Generated 2026-05-01 09:13 UTC
 | Schur-Weyl duality | 2 |
 | Schur-Weyl Duality | 2 |
 | Noncommutative L^p Geometry | 2 |
+| Tropical Circuit Weight Analysis (TCWA) in BOUNDED_ARITHMETIC | 2 |
 | Combinatorial homotopy theory | 1 |
 | Kazhdan-Lusztig theory of Hecke algebras | 1 |
 | Combinatorial algebraic topology | 1 |
 | Knot theory (quantum invariants) | 1 |
 | Quadratic forms over finite fields (Grothendieck-Witt groups) | 1 |
 | Clifford algebras over finite fields | 1 |
-| Toric geometry (via Gröbner degenerations) | 1 |
 
 ## Last 15 cycles (chronological)
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-01 03:07 UTC | `INCONCLUSIVE` | Matroid Rank and Minimal Circuit Size for Boolean Functions |
-| 2026-05-01 03:27 UTC | `INCONCLUSIVE` | Bounded Arithmetic Proof Length and Circuit Complexity for Tautol |
 | 2026-05-01 03:54 UTC | `INCONCLUSIVE` | Duality-Preserved Homotopy Stability |
 | 2026-05-01 04:01 UTC | `INCONCLUSIVE` | Symmetric Power Partition Dominance in Permanent vs Determinant |
 | 2026-05-01 04:36 UTC | `INCONCLUSIVE` | Schur-Weyl Multiplicity Gap in Permanent vs Determinant Tensor Po |
@@ -82,6 +80,8 @@ Generated 2026-05-01 09:13 UTC
 | 2026-05-01 07:55 UTC | `INCONCLUSIVE` | Homotopy Type and AC^0 Complexity |
 | 2026-05-01 08:38 UTC | `INCONCLUSIVE` | Littlewood-Richardson Coefficient Gap in Permanent vs Determinant |
 | 2026-05-01 09:12 UTC | `INCONCLUSIVE` | Algebraic Curve Genus and Communication Complexity Lower Bound |
+| 2026-05-01 09:26 UTC | `INCONCLUSIVE` | Matroid Girth of Monotone DNF Implies k-CLIQUE Circuit Size Lower |
+| 2026-05-01 09:35 UTC | `INCONCLUSIVE` | Phase Merging Additivity in Tropical Proof Rank |
 
 ## How to read the reports
 
