@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-01 13:30 UTC"
+date: "2026-05-01 14:32 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-01 13:30 UTC
+Generated 2026-05-01 14:32 UTC
 
-- Cycles recorded: **284**
-- Time span: 183.8h (~1.54 cycles/h)
+- Cycles recorded: **285**
+- Time span: 184.9h (~1.54 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 256 |
+| INCONCLUSIVE | 257 |
 | FALSIFIED | 15 |
 | BARRIER_HIT | 9 |
 | SUPPORTED | 4 |
@@ -67,7 +67,6 @@ Generated 2026-05-01 13:30 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-01 05:58 UTC | `INCONCLUSIVE` | Phase Merging Complexity Bound |
 | 2026-05-01 06:07 UTC | `INCONCLUSIVE` | Noncommutative L^p Norm Lower Bounds for Disjointness |
 | 2026-05-01 06:41 UTC | `INCONCLUSIVE` | Real Rank of Coefficient Matrices for AC⁰ PARITY Circuits |
 | 2026-05-01 07:13 UTC | `BARRIER_HIT` | Tropical Circuit Homotopy Stability under Weight Accumulation |
@@ -82,6 +81,7 @@ Generated 2026-05-01 13:30 UTC
 | 2026-05-01 11:29 UTC | `INCONCLUSIVE` | SOS Moment Matrix Rank and Max-CUT Approximation Ratio |
 | 2026-05-01 12:03 UTC | `INCONCLUSIVE` | Schur-Weyl Multiplicity Gap in Permanent vs Determinant Tensor Po |
 | 2026-05-01 13:05 UTC | `INCONCLUSIVE` | Multiplicity of Symmetric Powers in Permanent Tensor Decompositio |
+| 2026-05-01 14:32 UTC | `INCONCLUSIVE` | Diophantine Solution Count Bounds Resolution Length in 3-SAT |
 
 ## How to read the reports
 
