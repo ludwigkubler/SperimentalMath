@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-01 10:34 UTC"
+date: "2026-05-01 11:30 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-01 10:34 UTC
+Generated 2026-05-01 11:30 UTC
 
-- Cycles recorded: **281**
-- Time span: 180.9h (~1.55 cycles/h)
+- Cycles recorded: **282**
+- Time span: 181.8h (~1.55 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 253 |
+| INCONCLUSIVE | 254 |
 | FALSIFIED | 15 |
 | BARRIER_HIT | 9 |
 | SUPPORTED | 4 |
@@ -67,7 +67,6 @@ Generated 2026-05-01 10:34 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-01 04:36 UTC | `INCONCLUSIVE` | Schur-Weyl Multiplicity Gap in Permanent vs Determinant Tensor Po |
 | 2026-05-01 05:04 UTC | `INCONCLUSIVE` | Bounded Arithmetic Proof Length and 3-SAT Tautology Resolution Co |
 | 2026-05-01 05:36 UTC | `INCONCLUSIVE` | Noncommutative L^p Norm Lower Bounds for Disjointness Communicati |
 | 2026-05-01 05:58 UTC | `INCONCLUSIVE` | Phase Merging Complexity Bound |
@@ -82,6 +81,7 @@ Generated 2026-05-01 10:34 UTC
 | 2026-05-01 09:35 UTC | `INCONCLUSIVE` | Phase Merging Additivity in Tropical Proof Rank |
 | 2026-05-01 09:55 UTC | `INCONCLUSIVE` | Spectral Gap Lower Bounds for Tseitin Resolution Length |
 | 2026-05-01 10:34 UTC | `INCONCLUSIVE` | Permutation Polynomial Degree Bounds ABP Size for NC¹ Functions |
+| 2026-05-01 11:29 UTC | `INCONCLUSIVE` | SOS Moment Matrix Rank and Max-CUT Approximation Ratio |
 
 ## How to read the reports
 
