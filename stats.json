@@ -1,8 +1,8 @@
 {
-  "last_update_utc": "2026-05-01T17:47:05Z",
-  "total_cycles": 290,
+  "last_update_utc": "2026-05-01T18:47:02Z",
+  "total_cycles": 291,
   "verdict_counts": {
-    "INCONCLUSIVE": 261,
+    "INCONCLUSIVE": 262,
     "SUPPORTED": 4,
     "FALSIFIED": 15,
     "BARRIER_HIT": 10
@@ -38,6 +38,10 @@
       3
     ],
     [
+      "Additive Combinatorics",
+      3
+    ],
+    [
       "Coarse Geometric Lifting (CGL) — Geometric Complexity Theory",
       3
     ],
@@ -63,10 +67,6 @@
     ],
     [
       "Ergodic Circuit Framework (COMM_COMPLEXITY)",
-      2
-    ],
-    [
-      "Algebraic Topology",
       2
     ]
   ]

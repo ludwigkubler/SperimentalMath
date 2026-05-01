@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-01 17:30 UTC"
+date: "2026-05-01 18:30 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-01 17:30 UTC
+Generated 2026-05-01 18:30 UTC
 
-- Cycles recorded: **290**
-- Time span: 187.8h (~1.54 cycles/h)
+- Cycles recorded: **291**
+- Time span: 188.8h (~1.54 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 261 |
+| INCONCLUSIVE | 262 |
 | FALSIFIED | 15 |
 | BARRIER_HIT | 10 |
 | SUPPORTED | 4 |
@@ -39,6 +39,7 @@ Generated 2026-05-01 17:30 UTC
 | Matroid Theory | 4 |
 | Fourier analysis of boolean functions | 3 |
 | Random Matrix Theory | 3 |
+| Additive Combinatorics | 3 |
 | Coarse Geometric Lifting (CGL) — Geometric Complexity Theory | 3 |
 | {"framework_name": "Tropical Circuit Weight Analysis (TCWA)", "math_branch": "BOUNDED_ARITHMETIC"} | 3 |
 | Tropical Circuit Weight Analysis (BOUNDED_ARITHMETIC) | 3 |
@@ -48,7 +49,6 @@ Generated 2026-05-01 17:30 UTC
 | Ergodic Circuit Framework (COMM_COMPLEXITY) | 2 |
 | Algebraic Topology | 2 |
 | Tropical geometry | 2 |
-| Additive Combinatorics | 2 |
 | Finite Geometry | 2 |
 | matroid theory | 2 |
 | Free Probability Theory | 2 |
@@ -67,7 +67,6 @@ Generated 2026-05-01 17:30 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-01 08:38 UTC | `INCONCLUSIVE` | Littlewood-Richardson Coefficient Gap in Permanent vs Determinant |
 | 2026-05-01 09:12 UTC | `INCONCLUSIVE` | Algebraic Curve Genus and Communication Complexity Lower Bound |
 | 2026-05-01 09:26 UTC | `INCONCLUSIVE` | Matroid Girth of Monotone DNF Implies k-CLIQUE Circuit Size Lower |
 | 2026-05-01 09:35 UTC | `INCONCLUSIVE` | Phase Merging Additivity in Tropical Proof Rank |
@@ -82,6 +81,7 @@ Generated 2026-05-01 17:30 UTC
 | 2026-05-01 16:36 UTC | `INCONCLUSIVE` | Tropical Circuit Weight Profile Complexity Bound |
 | 2026-05-01 16:47 UTC | `INCONCLUSIVE` | Finite Geometry Rank and ACC^0 Circuit Size for 3-SAT Instances |
 | 2026-05-01 17:19 UTC | `BARRIER_HIT` | Moment Matrix Eigenvalue Gap and SOS Degree for Max-CUT |
+| 2026-05-01 18:20 UTC | `INCONCLUSIVE` | Additive Energy Threshold and ACC⁰ Circuit Size |
 
 ## How to read the reports
 
