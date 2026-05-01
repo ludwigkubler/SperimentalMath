@@ -1,13 +1,13 @@
 {
-  "last_update_utc": "2026-05-01T02:47:01Z",
-  "total_cycles": 262,
+  "last_update_utc": "2026-05-01T03:47:02Z",
+  "total_cycles": 264,
   "verdict_counts": {
-    "INCONCLUSIVE": 236,
+    "INCONCLUSIVE": 238,
     "SUPPORTED": 4,
     "FALSIFIED": 15,
     "BARRIER_HIT": 7
   },
-  "unique_field_A": 232,
+  "unique_field_A": 233,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
@@ -30,6 +30,10 @@
       3
     ],
     [
+      "Matroid Theory",
+      3
+    ],
+    [
       "Random Matrix Theory",
       3
     ],
@@ -47,10 +51,6 @@
     ],
     [
       "Ergodic Circuit Framework (COMM_COMPLEXITY)",
-      2
-    ],
-    [
-      "Matroid Theory",
       2
     ],
     [

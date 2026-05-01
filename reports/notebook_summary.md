@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-01 02:30 UTC"
+date: "2026-05-01 03:30 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-01 02:30 UTC
+Generated 2026-05-01 03:30 UTC
 
-- Cycles recorded: **262**
-- Time span: 172.8h (~1.52 cycles/h)
+- Cycles recorded: **264**
+- Time span: 173.8h (~1.52 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 236 |
+| INCONCLUSIVE | 238 |
 | FALSIFIED | 15 |
 | BARRIER_HIT | 7 |
 | SUPPORTED | 4 |
@@ -37,12 +37,12 @@ Generated 2026-05-01 02:30 UTC
 | {"framework_name": "Ergodic Circuit Framework", "math_branch": "COMM_COMPLEXITY"} | 4 |
 | Algebraic Geometry | 4 |
 | Fourier analysis of boolean functions | 3 |
+| Matroid Theory | 3 |
 | Random Matrix Theory | 3 |
 | Coarse Geometric Lifting (CGL) — Geometric Complexity Theory | 3 |
 | Noncommutative geometry | 2 |
 | Representation theory of symmetric groups | 2 |
 | Ergodic Circuit Framework (COMM_COMPLEXITY) | 2 |
-| Matroid Theory | 2 |
 | Algebraic Topology | 2 |
 | Tropical geometry | 2 |
 | Additive Combinatorics | 2 |
@@ -67,8 +67,6 @@ Generated 2026-05-01 02:30 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-30 18:22 UTC | `INCONCLUSIVE` | Orbit Closure Dimension vs. Circuit Complexity for Permanent |
-| 2026-04-30 18:56 UTC | `INCONCLUSIVE` | Real Algebraic Components of AC⁰ PARITY Circuits |
 | 2026-04-30 19:25 UTC | `INCONCLUSIVE` | Non-Commutative Rank of ACC^0 Circuits Bounded by Logarithmic Dep |
 | 2026-04-30 20:31 UTC | `INCONCLUSIVE` | Fourier Coefficient Sparsity and Deterministic Communication Comp |
 | 2026-04-30 20:59 UTC | `INCONCLUSIVE` | Monomial Count in KW Polynomial Bounds Communication Complexity |
@@ -82,6 +80,8 @@ Generated 2026-05-01 02:30 UTC
 | 2026-05-01 01:19 UTC | `INCONCLUSIVE` | Secant Variety Dimension Lower Bounds for Disjointness |
 | 2026-05-01 02:01 UTC | `INCONCLUSIVE` | Irreducible Component Count Bounds Circuit Complexity for CNF |
 | 2026-05-01 02:29 UTC | `INCONCLUSIVE` | Schur-Weyl Multiplicity Gap in Permanent Communication Matrices |
+| 2026-05-01 03:07 UTC | `INCONCLUSIVE` | Matroid Rank and Minimal Circuit Size for Boolean Functions |
+| 2026-05-01 03:27 UTC | `INCONCLUSIVE` | Bounded Arithmetic Proof Length and Circuit Complexity for Tautol |
 
 ## How to read the reports
 
