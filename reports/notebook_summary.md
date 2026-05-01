@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-01 18:30 UTC"
+date: "2026-05-01 19:17 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-01 18:30 UTC
+Generated 2026-05-01 19:17 UTC
 
-- Cycles recorded: **291**
-- Time span: 188.8h (~1.54 cycles/h)
+- Cycles recorded: **292**
+- Time span: 189.6h (~1.54 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 262 |
+| INCONCLUSIVE | 263 |
 | FALSIFIED | 15 |
 | BARRIER_HIT | 10 |
 | SUPPORTED | 4 |
@@ -52,6 +52,7 @@ Generated 2026-05-01 18:30 UTC
 | Finite Geometry | 2 |
 | matroid theory | 2 |
 | Free Probability Theory | 2 |
+| Tropical Circuit Weight Analysis (TCWA) — Bounded Arithmetic | 2 |
 | Bounded Arithmetic | 2 |
 | Geometric Complexity Theory | 2 |
 | Schur-Weyl duality | 2 |
@@ -61,13 +62,11 @@ Generated 2026-05-01 18:30 UTC
 | Kazhdan-Lusztig theory of Hecke algebras | 1 |
 | Combinatorial algebraic topology | 1 |
 | Knot theory (quantum invariants) | 1 |
-| Quadratic forms over finite fields (Grothendieck-Witt groups) | 1 |
 
 ## Last 15 cycles (chronological)
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-01 09:12 UTC | `INCONCLUSIVE` | Algebraic Curve Genus and Communication Complexity Lower Bound |
 | 2026-05-01 09:26 UTC | `INCONCLUSIVE` | Matroid Girth of Monotone DNF Implies k-CLIQUE Circuit Size Lower |
 | 2026-05-01 09:35 UTC | `INCONCLUSIVE` | Phase Merging Additivity in Tropical Proof Rank |
 | 2026-05-01 09:55 UTC | `INCONCLUSIVE` | Spectral Gap Lower Bounds for Tseitin Resolution Length |
@@ -82,6 +81,7 @@ Generated 2026-05-01 18:30 UTC
 | 2026-05-01 16:47 UTC | `INCONCLUSIVE` | Finite Geometry Rank and ACC^0 Circuit Size for 3-SAT Instances |
 | 2026-05-01 17:19 UTC | `BARRIER_HIT` | Moment Matrix Eigenvalue Gap and SOS Degree for Max-CUT |
 | 2026-05-01 18:20 UTC | `INCONCLUSIVE` | Additive Energy Threshold and ACC⁰ Circuit Size |
+| 2026-05-01 19:17 UTC | `INCONCLUSIVE` | Tropical Derivation Depth Reflects Proof Rank in Bounded Arithmet |
 
 ## How to read the reports
 
