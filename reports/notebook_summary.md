@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-01 05:36 UTC"
+date: "2026-05-01 06:41 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-01 05:36 UTC
+Generated 2026-05-01 06:41 UTC
 
-- Cycles recorded: **269**
-- Time span: 175.9h (~1.53 cycles/h)
+- Cycles recorded: **272**
+- Time span: 177.0h (~1.54 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 243 |
+| INCONCLUSIVE | 246 |
 | FALSIFIED | 15 |
 | BARRIER_HIT | 7 |
 | SUPPORTED | 4 |
@@ -32,7 +32,7 @@ Generated 2026-05-01 05:36 UTC
 
 | Field | Cycles |
 |---|---|
-| Real Algebraic Geometry | 6 |
+| Real Algebraic Geometry | 7 |
 | Ergodic Circuit Framework (communication complexity via dynamical systems) | 4 |
 | {"framework_name": "Ergodic Circuit Framework", "math_branch": "COMM_COMPLEXITY"} | 4 |
 | Algebraic Geometry | 4 |
@@ -51,6 +51,7 @@ Generated 2026-05-01 05:36 UTC
 | Free Probability Theory | 2 |
 | Bounded Arithmetic | 2 |
 | Schur-Weyl Duality | 2 |
+| Noncommutative L^p Geometry | 2 |
 | Combinatorial homotopy theory | 1 |
 | Kazhdan-Lusztig theory of Hecke algebras | 1 |
 | Combinatorial algebraic topology | 1 |
@@ -61,15 +62,11 @@ Generated 2026-05-01 05:36 UTC
 | Arithmetic geometry (Tate-Shafarevich groups) | 1 |
 | Geometric Langlands correspondence | 1 |
 | Algebraic graph theory (chromatic polynomials) | 1 |
-| Clifford algebras over real vector spaces | 1 |
 
 ## Last 15 cycles (chronological)
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-30 22:29 UTC | `FALSIFIED` | Duality-Preserved Phase Cell Bound |
-| 2026-04-30 23:07 UTC | `INCONCLUSIVE` | Algebraic Geometry over Finite Fields and EF Proof Length |
-| 2026-04-30 23:42 UTC | `INCONCLUSIVE` | Additive Energy Bounds for SOS Refutations of Sipser Functions |
 | 2026-05-01 00:11 UTC | `INCONCLUSIVE` | Spectral Norm of SOS Relaxation and Refutation Size in Random 3-S |
 | 2026-05-01 00:46 UTC | `INCONCLUSIVE` | Spectral Radius of SOS Moment Matrix Bounds Max-CUT Approximation |
 | 2026-05-01 01:19 UTC | `INCONCLUSIVE` | Secant Variety Dimension Lower Bounds for Disjointness |
@@ -82,6 +79,9 @@ Generated 2026-05-01 05:36 UTC
 | 2026-05-01 04:36 UTC | `INCONCLUSIVE` | Schur-Weyl Multiplicity Gap in Permanent vs Determinant Tensor Po |
 | 2026-05-01 05:04 UTC | `INCONCLUSIVE` | Bounded Arithmetic Proof Length and 3-SAT Tautology Resolution Co |
 | 2026-05-01 05:36 UTC | `INCONCLUSIVE` | Noncommutative L^p Norm Lower Bounds for Disjointness Communicati |
+| 2026-05-01 05:58 UTC | `INCONCLUSIVE` | Phase Merging Complexity Bound |
+| 2026-05-01 06:07 UTC | `INCONCLUSIVE` | Noncommutative L^p Norm Lower Bounds for Disjointness |
+| 2026-05-01 06:41 UTC | `INCONCLUSIVE` | Real Rank of Coefficient Matrices for AC⁰ PARITY Circuits |
 
 ## How to read the reports
 
