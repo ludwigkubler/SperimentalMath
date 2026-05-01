@@ -234,3 +234,9 @@ if [ -d "$SRC/review_alerts" ]; then
     mkdir -p review_alerts
     rsync -a --include="*.md" --exclude="*" "$SRC/review_alerts/" review_alerts/
 fi
+
+# --- 17. Computational evidence (Fase compute — kissat experiments)
+if [ -d "$SRC/compute_evidence" ]; then
+    mkdir -p compute_evidence
+    rsync -a --include="*.json" --include="*.md" --exclude="*" "$SRC/compute_evidence/" compute_evidence/
+fi
