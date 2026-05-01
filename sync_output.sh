@@ -254,3 +254,9 @@ import json
 print(json.dumps(stats(), indent=2))
 " > arxiv_mirror_stats.json 2>/dev/null
 fi
+
+# --- 19. Daily reflection (scoop detection vs arxiv mirror)
+if [ -d "$SRC/daily_reflection" ]; then
+    mkdir -p daily_reflection
+    rsync -a --include="*.md" --include="*.json" --exclude="*" "$SRC/daily_reflection/" daily_reflection/
+fi

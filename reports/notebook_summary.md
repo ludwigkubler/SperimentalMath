@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-01 08:30 UTC"
+date: "2026-05-01 08:38 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-01 08:30 UTC
+Generated 2026-05-01 08:38 UTC
 
-- Cycles recorded: **275**
-- Time span: 178.8h (~1.54 cycles/h)
+- Cycles recorded: **276**
+- Time span: 179.0h (~1.54 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 247 |
+| INCONCLUSIVE | 248 |
 | FALSIFIED | 15 |
 | BARRIER_HIT | 9 |
 | SUPPORTED | 4 |
@@ -52,6 +52,7 @@ Generated 2026-05-01 08:30 UTC
 | {"framework_name": "Tropical Circuit Weight Analysis (TCWA)", "math_branch": "BOUNDED_ARITHMETIC"} | 2 |
 | Bounded Arithmetic | 2 |
 | Geometric Complexity Theory | 2 |
+| Schur-Weyl duality | 2 |
 | Schur-Weyl Duality | 2 |
 | Noncommutative L^p Geometry | 2 |
 | Combinatorial homotopy theory | 1 |
@@ -61,13 +62,11 @@ Generated 2026-05-01 08:30 UTC
 | Quadratic forms over finite fields (Grothendieck-Witt groups) | 1 |
 | Clifford algebras over finite fields | 1 |
 | Toric geometry (via Gröbner degenerations) | 1 |
-| Arithmetic geometry (Tate-Shafarevich groups) | 1 |
 
 ## Last 15 cycles (chronological)
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-01 02:01 UTC | `INCONCLUSIVE` | Irreducible Component Count Bounds Circuit Complexity for CNF |
 | 2026-05-01 02:29 UTC | `INCONCLUSIVE` | Schur-Weyl Multiplicity Gap in Permanent Communication Matrices |
 | 2026-05-01 03:07 UTC | `INCONCLUSIVE` | Matroid Rank and Minimal Circuit Size for Boolean Functions |
 | 2026-05-01 03:27 UTC | `INCONCLUSIVE` | Bounded Arithmetic Proof Length and Circuit Complexity for Tautol |
@@ -82,6 +81,7 @@ Generated 2026-05-01 08:30 UTC
 | 2026-05-01 07:13 UTC | `BARRIER_HIT` | Tropical Circuit Homotopy Stability under Weight Accumulation |
 | 2026-05-01 07:17 UTC | `BARRIER_HIT` | Orbit Closure Dimension vs. Boolean Circuit Size |
 | 2026-05-01 07:55 UTC | `INCONCLUSIVE` | Homotopy Type and AC^0 Complexity |
+| 2026-05-01 08:38 UTC | `INCONCLUSIVE` | Littlewood-Richardson Coefficient Gap in Permanent vs Determinant |
 
 ## How to read the reports
 
