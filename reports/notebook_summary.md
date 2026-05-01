@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-01 04:37 UTC"
+date: "2026-05-01 05:36 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-01 04:37 UTC
+Generated 2026-05-01 05:36 UTC
 
-- Cycles recorded: **267**
-- Time span: 174.9h (~1.53 cycles/h)
+- Cycles recorded: **269**
+- Time span: 175.9h (~1.53 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 241 |
+| INCONCLUSIVE | 243 |
 | FALSIFIED | 15 |
 | BARRIER_HIT | 7 |
 | SUPPORTED | 4 |
@@ -49,6 +49,7 @@ Generated 2026-05-01 04:37 UTC
 | Additive Combinatorics | 2 |
 | matroid theory | 2 |
 | Free Probability Theory | 2 |
+| Bounded Arithmetic | 2 |
 | Schur-Weyl Duality | 2 |
 | Combinatorial homotopy theory | 1 |
 | Kazhdan-Lusztig theory of Hecke algebras | 1 |
@@ -61,14 +62,11 @@ Generated 2026-05-01 04:37 UTC
 | Geometric Langlands correspondence | 1 |
 | Algebraic graph theory (chromatic polynomials) | 1 |
 | Clifford algebras over real vector spaces | 1 |
-| Algebraic cycles (Chow groups over finite fields) | 1 |
 
 ## Last 15 cycles (chronological)
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-30 21:28 UTC | `INCONCLUSIVE` | Real Rank of SOS Moment Matrices for Max-CUT |
-| 2026-04-30 22:03 UTC | `INCONCLUSIVE` | Slice Rank Lower Bounds for Communication Complexity of CNF Formu |
 | 2026-04-30 22:29 UTC | `FALSIFIED` | Duality-Preserved Phase Cell Bound |
 | 2026-04-30 23:07 UTC | `INCONCLUSIVE` | Algebraic Geometry over Finite Fields and EF Proof Length |
 | 2026-04-30 23:42 UTC | `INCONCLUSIVE` | Additive Energy Bounds for SOS Refutations of Sipser Functions |
@@ -82,6 +80,8 @@ Generated 2026-05-01 04:37 UTC
 | 2026-05-01 03:54 UTC | `INCONCLUSIVE` | Duality-Preserved Homotopy Stability |
 | 2026-05-01 04:01 UTC | `INCONCLUSIVE` | Symmetric Power Partition Dominance in Permanent vs Determinant |
 | 2026-05-01 04:36 UTC | `INCONCLUSIVE` | Schur-Weyl Multiplicity Gap in Permanent vs Determinant Tensor Po |
+| 2026-05-01 05:04 UTC | `INCONCLUSIVE` | Bounded Arithmetic Proof Length and 3-SAT Tautology Resolution Co |
+| 2026-05-01 05:36 UTC | `INCONCLUSIVE` | Noncommutative L^p Norm Lower Bounds for Disjointness Communicati |
 
 ## How to read the reports
 
