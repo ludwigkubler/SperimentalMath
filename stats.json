@@ -1,13 +1,13 @@
 {
-  "last_update_utc": "2026-05-01T16:10:59Z",
-  "total_cycles": 286,
+  "last_update_utc": "2026-05-01T16:47:01Z",
+  "total_cycles": 288,
   "verdict_counts": {
-    "INCONCLUSIVE": 258,
+    "INCONCLUSIVE": 260,
     "SUPPORTED": 4,
     "FALSIFIED": 15,
     "BARRIER_HIT": 9
   },
-  "unique_field_A": 243,
+  "unique_field_A": 244,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
@@ -42,6 +42,10 @@
       3
     ],
     [
+      "{'framework_name': 'Tropical Circuit Weight Analysis (TCWA)', 'math_branch': 'BOUNDED_ARITHMETIC'}",
+      3
+    ],
+    [
       "Tropical Circuit Weight Analysis (BOUNDED_ARITHMETIC)",
       3
     ],
@@ -63,10 +67,6 @@
     ],
     [
       "Algebraic Topology",
-      2
-    ],
-    [
-      "Tropical geometry",
       2
     ]
   ]

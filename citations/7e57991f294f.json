@@ -1,0 +1,31 @@
+{
+  "entry_id": "7e57991f294f",
+  "ts": 1777653515.1304543,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:1503.01170",
+      "title": "Integer Addition and Hamming Weight",
+      "abstract_excerpt": "We study the effect of addition on the Hamming weight of a positive integer. Consider the first $2^n$ positive integers, and fix an $\\alpha$ among them. We show that if the binary representation of $\\alpha$ consists of $\\Theta(n)$ blocks of zeros and ones, then addition by $\\alpha$ causes a constant",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper focuses on Hamming weight and integer addition, while the conjecture involves tropical circuits, proof complexity, and bounded arithmetic. No shared concepts or framework interactions are present in the abstract.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "s2:5d5145ad0400a8508cf97f4698c2ed62d43d952b",
+      "title": "Automata, Languages and Programming: 19th International Colloquium, Wien, Austria, July 13-17, 1992. Proceedings",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper's abstract is unavailable, preventing assessment of relevance to tropical circuits, weight profiles, or IΔ₀ proof complexity bounds.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}

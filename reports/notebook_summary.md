@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-01 16:00 UTC"
+date: "2026-05-01 16:36 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-01 16:00 UTC
+Generated 2026-05-01 16:36 UTC
 
-- Cycles recorded: **286**
-- Time span: 186.3h (~1.53 cycles/h)
+- Cycles recorded: **288**
+- Time span: 186.9h (~1.54 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 258 |
+| INCONCLUSIVE | 260 |
 | FALSIFIED | 15 |
 | BARRIER_HIT | 9 |
 | SUPPORTED | 4 |
@@ -40,6 +40,7 @@ Generated 2026-05-01 16:00 UTC
 | Fourier analysis of boolean functions | 3 |
 | Random Matrix Theory | 3 |
 | Coarse Geometric Lifting (CGL) — Geometric Complexity Theory | 3 |
+| {"framework_name": "Tropical Circuit Weight Analysis (TCWA)", "math_branch": "BOUNDED_ARITHMETIC"} | 3 |
 | Tropical Circuit Weight Analysis (BOUNDED_ARITHMETIC) | 3 |
 | Schur-Weyl Duality | 3 |
 | Noncommutative geometry | 2 |
@@ -50,7 +51,6 @@ Generated 2026-05-01 16:00 UTC
 | Additive Combinatorics | 2 |
 | matroid theory | 2 |
 | Free Probability Theory | 2 |
-| {"framework_name": "Tropical Circuit Weight Analysis (TCWA)", "math_branch": "BOUNDED_ARITHMETIC"} | 2 |
 | Bounded Arithmetic | 2 |
 | Geometric Complexity Theory | 2 |
 | Schur-Weyl duality | 2 |
@@ -67,8 +67,6 @@ Generated 2026-05-01 16:00 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-01 06:41 UTC | `INCONCLUSIVE` | Real Rank of Coefficient Matrices for AC⁰ PARITY Circuits |
-| 2026-05-01 07:13 UTC | `BARRIER_HIT` | Tropical Circuit Homotopy Stability under Weight Accumulation |
 | 2026-05-01 07:17 UTC | `BARRIER_HIT` | Orbit Closure Dimension vs. Boolean Circuit Size |
 | 2026-05-01 07:55 UTC | `INCONCLUSIVE` | Homotopy Type and AC^0 Complexity |
 | 2026-05-01 08:38 UTC | `INCONCLUSIVE` | Littlewood-Richardson Coefficient Gap in Permanent vs Determinant |
@@ -82,6 +80,8 @@ Generated 2026-05-01 16:00 UTC
 | 2026-05-01 13:05 UTC | `INCONCLUSIVE` | Multiplicity of Symmetric Powers in Permanent Tensor Decompositio |
 | 2026-05-01 14:32 UTC | `INCONCLUSIVE` | Diophantine Solution Count Bounds Resolution Length in 3-SAT |
 | 2026-05-01 15:02 UTC | `INCONCLUSIVE` | Singular Locus Dimension Bounds SOS Refutation Size for 3-SAT |
+| 2026-05-01 16:11 UTC | `INCONCLUSIVE` | Expander Modulus Bounds Tseitin Proof Complexity |
+| 2026-05-01 16:36 UTC | `INCONCLUSIVE` | Tropical Circuit Weight Profile Complexity Bound |
 
 ## How to read the reports
 
