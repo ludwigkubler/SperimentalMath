@@ -1,8 +1,8 @@
 {
-  "last_update_utc": "2026-05-01T00:47:02Z",
-  "total_cycles": 259,
+  "last_update_utc": "2026-05-01T01:47:02Z",
+  "total_cycles": 260,
   "verdict_counts": {
-    "INCONCLUSIVE": 233,
+    "INCONCLUSIVE": 234,
     "SUPPORTED": 4,
     "FALSIFIED": 15,
     "BARRIER_HIT": 7
@@ -23,6 +23,10 @@
     ],
     [
       "Fourier analysis of boolean functions",
+      3
+    ],
+    [
+      "Algebraic Geometry",
       3
     ],
     [
@@ -55,10 +59,6 @@
     ],
     [
       "Tropical geometry",
-      2
-    ],
-    [
-      "Algebraic Geometry",
       2
     ],
     [

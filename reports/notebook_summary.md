@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-01 00:46 UTC"
+date: "2026-05-01 01:30 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-01 00:46 UTC
+Generated 2026-05-01 01:30 UTC
 
-- Cycles recorded: **259**
-- Time span: 171.1h (~1.51 cycles/h)
+- Cycles recorded: **260**
+- Time span: 171.8h (~1.51 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 233 |
+| INCONCLUSIVE | 234 |
 | FALSIFIED | 15 |
 | BARRIER_HIT | 7 |
 | SUPPORTED | 4 |
@@ -36,6 +36,7 @@ Generated 2026-05-01 00:46 UTC
 | Ergodic Circuit Framework (communication complexity via dynamical systems) | 4 |
 | {"framework_name": "Ergodic Circuit Framework", "math_branch": "COMM_COMPLEXITY"} | 4 |
 | Fourier analysis of boolean functions | 3 |
+| Algebraic Geometry | 3 |
 | Random Matrix Theory | 3 |
 | Coarse Geometric Lifting (CGL) — Geometric Complexity Theory | 3 |
 | Noncommutative geometry | 2 |
@@ -44,7 +45,6 @@ Generated 2026-05-01 00:46 UTC
 | Matroid Theory | 2 |
 | Algebraic Topology | 2 |
 | Tropical geometry | 2 |
-| Algebraic Geometry | 2 |
 | Additive Combinatorics | 2 |
 | matroid theory | 2 |
 | Free Probability Theory | 2 |
@@ -67,7 +67,6 @@ Generated 2026-05-01 00:46 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-30 17:18 UTC | `INCONCLUSIVE` | Real Rank of Karchmer-Wigderson Communication Matrices for AC⁰ PA |
 | 2026-04-30 17:44 UTC | `INCONCLUSIVE` | Free Entropy Distinguishes Read-Twice BPs from IP_2 Trivial Ones |
 | 2026-04-30 17:57 UTC | `INCONCLUSIVE` | Phase Cell Count Bounded by Tropical Proof Rank |
 | 2026-04-30 18:22 UTC | `INCONCLUSIVE` | Orbit Closure Dimension vs. Circuit Complexity for Permanent |
@@ -82,6 +81,7 @@ Generated 2026-05-01 00:46 UTC
 | 2026-04-30 23:42 UTC | `INCONCLUSIVE` | Additive Energy Bounds for SOS Refutations of Sipser Functions |
 | 2026-05-01 00:11 UTC | `INCONCLUSIVE` | Spectral Norm of SOS Relaxation and Refutation Size in Random 3-S |
 | 2026-05-01 00:46 UTC | `INCONCLUSIVE` | Spectral Radius of SOS Moment Matrix Bounds Max-CUT Approximation |
+| 2026-05-01 01:19 UTC | `INCONCLUSIVE` | Secant Variety Dimension Lower Bounds for Disjointness |
 
 ## How to read the reports
 
