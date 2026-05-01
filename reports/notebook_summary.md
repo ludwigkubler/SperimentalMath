@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-01 08:38 UTC"
+date: "2026-05-01 09:13 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-01 08:38 UTC
+Generated 2026-05-01 09:13 UTC
 
-- Cycles recorded: **276**
-- Time span: 179.0h (~1.54 cycles/h)
+- Cycles recorded: **277**
+- Time span: 179.5h (~1.54 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 248 |
+| INCONCLUSIVE | 249 |
 | FALSIFIED | 15 |
 | BARRIER_HIT | 9 |
 | SUPPORTED | 4 |
@@ -33,9 +33,9 @@ Generated 2026-05-01 08:38 UTC
 | Field | Cycles |
 |---|---|
 | Real Algebraic Geometry | 7 |
+| Algebraic Geometry | 5 |
 | Ergodic Circuit Framework (communication complexity via dynamical systems) | 4 |
 | {"framework_name": "Ergodic Circuit Framework", "math_branch": "COMM_COMPLEXITY"} | 4 |
-| Algebraic Geometry | 4 |
 | Fourier analysis of boolean functions | 3 |
 | Matroid Theory | 3 |
 | Random Matrix Theory | 3 |
@@ -67,7 +67,6 @@ Generated 2026-05-01 08:38 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-01 02:29 UTC | `INCONCLUSIVE` | Schur-Weyl Multiplicity Gap in Permanent Communication Matrices |
 | 2026-05-01 03:07 UTC | `INCONCLUSIVE` | Matroid Rank and Minimal Circuit Size for Boolean Functions |
 | 2026-05-01 03:27 UTC | `INCONCLUSIVE` | Bounded Arithmetic Proof Length and Circuit Complexity for Tautol |
 | 2026-05-01 03:54 UTC | `INCONCLUSIVE` | Duality-Preserved Homotopy Stability |
@@ -82,6 +81,7 @@ Generated 2026-05-01 08:38 UTC
 | 2026-05-01 07:17 UTC | `BARRIER_HIT` | Orbit Closure Dimension vs. Boolean Circuit Size |
 | 2026-05-01 07:55 UTC | `INCONCLUSIVE` | Homotopy Type and AC^0 Complexity |
 | 2026-05-01 08:38 UTC | `INCONCLUSIVE` | Littlewood-Richardson Coefficient Gap in Permanent vs Determinant |
+| 2026-05-01 09:12 UTC | `INCONCLUSIVE` | Algebraic Curve Genus and Communication Complexity Lower Bound |
 
 ## How to read the reports
 

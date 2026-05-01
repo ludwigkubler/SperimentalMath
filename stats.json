@@ -1,8 +1,8 @@
 {
-  "last_update_utc": "2026-05-01T08:47:01Z",
-  "total_cycles": 276,
+  "last_update_utc": "2026-05-01T09:14:43Z",
+  "total_cycles": 277,
   "verdict_counts": {
-    "INCONCLUSIVE": 248,
+    "INCONCLUSIVE": 249,
     "SUPPORTED": 4,
     "FALSIFIED": 15,
     "BARRIER_HIT": 9
@@ -14,15 +14,15 @@
       7
     ],
     [
+      "Algebraic Geometry",
+      5
+    ],
+    [
       "Ergodic Circuit Framework (communication complexity via dynamical systems)",
       4
     ],
     [
       "{'framework_name': 'Ergodic Circuit Framework', 'math_branch': 'COMM_COMPLEXITY'}",
-      4
-    ],
-    [
-      "Algebraic Geometry",
       4
     ],
     [

@@ -260,3 +260,8 @@ if [ -d "$SRC/daily_reflection" ]; then
     mkdir -p daily_reflection
     rsync -a --include="*.md" --include="*.json" --exclude="*" "$SRC/daily_reflection/" daily_reflection/
 fi
+
+# --- 20. Few-shot examples block (drives proposer in-context learning)
+if [ -f "$SRC/few_shot_examples.md" ]; then
+    cp "$SRC/few_shot_examples.md" few_shot_examples.md
+fi
