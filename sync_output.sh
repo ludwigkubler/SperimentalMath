@@ -240,3 +240,17 @@ if [ -d "$SRC/compute_evidence" ]; then
     mkdir -p compute_evidence
     rsync -a --include="*.json" --include="*.md" --exclude="*" "$SRC/compute_evidence/" compute_evidence/
 fi
+
+# --- 18. arxiv mirror state (only metadata, NOT the sqlite which is large)
+if [ -f "$SRC/arxiv_mirror_state.json" ]; then
+    cp "$SRC/arxiv_mirror_state.json" arxiv_mirror_state.json
+fi
+# Generate a stats summary for the repo
+if [ -f "$SRC/arxiv_mirror.sqlite" ]; then
+    python3 -c "
+import sys; sys.path.insert(0, \"/home/ludo/Scrivania/SEC\")
+from src.research.pvsnp_arxiv_mirror import stats
+import json
+print(json.dumps(stats(), indent=2))
+" > arxiv_mirror_stats.json 2>/dev/null
+fi

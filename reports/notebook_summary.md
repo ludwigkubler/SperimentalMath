@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-01 07:30 UTC"
+date: "2026-05-01 08:30 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-01 07:30 UTC
+Generated 2026-05-01 08:30 UTC
 
-- Cycles recorded: **274**
-- Time span: 177.8h (~1.54 cycles/h)
+- Cycles recorded: **275**
+- Time span: 178.8h (~1.54 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 246 |
+| INCONCLUSIVE | 247 |
 | FALSIFIED | 15 |
 | BARRIER_HIT | 9 |
 | SUPPORTED | 4 |
@@ -67,7 +67,6 @@ Generated 2026-05-01 07:30 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-01 01:19 UTC | `INCONCLUSIVE` | Secant Variety Dimension Lower Bounds for Disjointness |
 | 2026-05-01 02:01 UTC | `INCONCLUSIVE` | Irreducible Component Count Bounds Circuit Complexity for CNF |
 | 2026-05-01 02:29 UTC | `INCONCLUSIVE` | Schur-Weyl Multiplicity Gap in Permanent Communication Matrices |
 | 2026-05-01 03:07 UTC | `INCONCLUSIVE` | Matroid Rank and Minimal Circuit Size for Boolean Functions |
@@ -82,6 +81,7 @@ Generated 2026-05-01 07:30 UTC
 | 2026-05-01 06:41 UTC | `INCONCLUSIVE` | Real Rank of Coefficient Matrices for AC⁰ PARITY Circuits |
 | 2026-05-01 07:13 UTC | `BARRIER_HIT` | Tropical Circuit Homotopy Stability under Weight Accumulation |
 | 2026-05-01 07:17 UTC | `BARRIER_HIT` | Orbit Closure Dimension vs. Boolean Circuit Size |
+| 2026-05-01 07:55 UTC | `INCONCLUSIVE` | Homotopy Type and AC^0 Complexity |
 
 ## How to read the reports
 

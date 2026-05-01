@@ -1,0 +1,40 @@
+{
+  "entry_id": "5cbad98886db",
+  "ts": 1777622284.3714478,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1904.05483",
+      "title": "Parallels Between Phase Transitions and Circuit Complexity?",
+      "abstract_excerpt": "In many natural average-case problems, there are or there are believed to be critical values in the parameter space where the structure of the space of solutions changes in a fundamental way. These phase transitions are often believed to coincide with drastic changes in the computational complexity of the associated problem.\n  In this work, we study the circuit complexity of inference in the broadcast tree model, which has important applications in phylogenetic reconstruction and close connectio",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses circuit complexity in the context of phase transitions and the broadcast tree model, but does not mention homotopy type or decision trees, which are central to the conjecture. The mention of circuit complexity is too general to interact with the specific claim.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2304.02770",
+      "title": "Tight Correlation Bounds for Circuits Between AC0 and TC0",
+      "abstract_excerpt": "We initiate the study of generalized AC0 circuits comprised of negations and arbitrary unbounded fan-in gates that only need to be constant over inputs of Hamming weight $\\ge k$, which we denote GC0$(k)$. The gate set of this class includes biased LTFs like the $k$-$OR$ (output $1$ iff $\\ge k$ bits are 1) and $k$-$AND$ (output $0$ iff $\\ge k$ bits are 0), and thus can be seen as an interpolation between AC0 and TC0. We establish a tight multi-switching lemma for GC0$(k)$ circuits, which bounds t",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses correlation bounds for circuits between AC0 and TC0, but does not mention homotopy type or decision trees, which are central to the conjecture; it shares vocabulary like AC0 but does not interact with the specific claim about homotopy type and circuit size.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1003.3820",
+      "title": "Double groupoids and homotopy 2-types",
+      "abstract_excerpt": "This work contributes to clarifying several relationships between certain higher categorical structures and the homotopy types of their classifying spaces. Double categories (Ehresmann, 1963) have well-understood geometric realizations, and here we deal with homotopy types represented by double groupoids satisfying a natural `filling condition'. Any such double groupoid characteristically has associated to it `homotopy groups', which are defined using only its algebraic structure. Thus arises th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses double groupoids and homotopy 2-types, but does not mention Boolean functions, decision trees, or AC^0 circuit size, which are central to the conjecture, as seen in phrases such as 'homotopy types of their classifying spaces' that do not interact with the specific claim.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
