@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-01 07:00 UTC"
+date: "2026-05-01 07:30 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,10 +13,10 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-01 07:00 UTC
+Generated 2026-05-01 07:30 UTC
 
-- Cycles recorded: **272**
-- Time span: 177.3h (~1.53 cycles/h)
+- Cycles recorded: **274**
+- Time span: 177.8h (~1.54 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
@@ -25,7 +25,7 @@ Generated 2026-05-01 07:00 UTC
 |---|---|
 | INCONCLUSIVE | 246 |
 | FALSIFIED | 15 |
-| BARRIER_HIT | 7 |
+| BARRIER_HIT | 9 |
 | SUPPORTED | 4 |
 
 ## Mathematical fields explored (field_A)
@@ -49,7 +49,9 @@ Generated 2026-05-01 07:00 UTC
 | Additive Combinatorics | 2 |
 | matroid theory | 2 |
 | Free Probability Theory | 2 |
+| {"framework_name": "Tropical Circuit Weight Analysis (TCWA)", "math_branch": "BOUNDED_ARITHMETIC"} | 2 |
 | Bounded Arithmetic | 2 |
+| Geometric Complexity Theory | 2 |
 | Schur-Weyl Duality | 2 |
 | Noncommutative L^p Geometry | 2 |
 | Combinatorial homotopy theory | 1 |
@@ -60,15 +62,11 @@ Generated 2026-05-01 07:00 UTC
 | Clifford algebras over finite fields | 1 |
 | Toric geometry (via Gröbner degenerations) | 1 |
 | Arithmetic geometry (Tate-Shafarevich groups) | 1 |
-| Geometric Langlands correspondence | 1 |
-| Algebraic graph theory (chromatic polynomials) | 1 |
 
 ## Last 15 cycles (chronological)
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-01 00:11 UTC | `INCONCLUSIVE` | Spectral Norm of SOS Relaxation and Refutation Size in Random 3-S |
-| 2026-05-01 00:46 UTC | `INCONCLUSIVE` | Spectral Radius of SOS Moment Matrix Bounds Max-CUT Approximation |
 | 2026-05-01 01:19 UTC | `INCONCLUSIVE` | Secant Variety Dimension Lower Bounds for Disjointness |
 | 2026-05-01 02:01 UTC | `INCONCLUSIVE` | Irreducible Component Count Bounds Circuit Complexity for CNF |
 | 2026-05-01 02:29 UTC | `INCONCLUSIVE` | Schur-Weyl Multiplicity Gap in Permanent Communication Matrices |
@@ -82,6 +80,8 @@ Generated 2026-05-01 07:00 UTC
 | 2026-05-01 05:58 UTC | `INCONCLUSIVE` | Phase Merging Complexity Bound |
 | 2026-05-01 06:07 UTC | `INCONCLUSIVE` | Noncommutative L^p Norm Lower Bounds for Disjointness |
 | 2026-05-01 06:41 UTC | `INCONCLUSIVE` | Real Rank of Coefficient Matrices for AC⁰ PARITY Circuits |
+| 2026-05-01 07:13 UTC | `BARRIER_HIT` | Tropical Circuit Homotopy Stability under Weight Accumulation |
+| 2026-05-01 07:17 UTC | `BARRIER_HIT` | Orbit Closure Dimension vs. Boolean Circuit Size |
 
 ## How to read the reports
 
