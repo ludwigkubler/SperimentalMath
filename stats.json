@@ -1,8 +1,8 @@
 {
-  "last_update_utc": "2026-05-01T11:47:01Z",
-  "total_cycles": 282,
+  "last_update_utc": "2026-05-01T12:47:01Z",
+  "total_cycles": 283,
   "verdict_counts": {
-    "INCONCLUSIVE": 254,
+    "INCONCLUSIVE": 255,
     "SUPPORTED": 4,
     "FALSIFIED": 15,
     "BARRIER_HIT": 9
@@ -46,6 +46,10 @@
       3
     ],
     [
+      "Schur-Weyl Duality",
+      3
+    ],
+    [
       "Noncommutative geometry",
       2
     ],
@@ -63,10 +67,6 @@
     ],
     [
       "Tropical geometry",
-      2
-    ],
-    [
-      "Additive Combinatorics",
       2
     ]
   ]

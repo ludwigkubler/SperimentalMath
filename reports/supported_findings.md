@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — SUPPORTED findings"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-01 11:30 UTC"
+date: "2026-05-01 12:30 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,7 +13,7 @@ colorlinks: true
 
 # SEC P vs NP — SUPPORTED findings
 
-Compiled 2026-05-01 11:30 UTC from pvsnp_notebook.jsonl.
+Compiled 2026-05-01 12:30 UTC from pvsnp_notebook.jsonl.
 4 conjectures empirically supported (on small instances; all require follow-up at larger n).
 
 > **Important caveat**: these are _empirical_ results on instances of size ≤ 20. 

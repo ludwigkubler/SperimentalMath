@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-01 11:30 UTC"
+date: "2026-05-01 12:30 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-01 11:30 UTC
+Generated 2026-05-01 12:30 UTC
 
-- Cycles recorded: **282**
-- Time span: 181.8h (~1.55 cycles/h)
+- Cycles recorded: **283**
+- Time span: 182.8h (~1.55 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 254 |
+| INCONCLUSIVE | 255 |
 | FALSIFIED | 15 |
 | BARRIER_HIT | 9 |
 | SUPPORTED | 4 |
@@ -41,6 +41,7 @@ Generated 2026-05-01 11:30 UTC
 | Random Matrix Theory | 3 |
 | Coarse Geometric Lifting (CGL) — Geometric Complexity Theory | 3 |
 | Tropical Circuit Weight Analysis (BOUNDED_ARITHMETIC) | 3 |
+| Schur-Weyl Duality | 3 |
 | Noncommutative geometry | 2 |
 | Representation theory of symmetric groups | 2 |
 | Ergodic Circuit Framework (COMM_COMPLEXITY) | 2 |
@@ -53,7 +54,6 @@ Generated 2026-05-01 11:30 UTC
 | Bounded Arithmetic | 2 |
 | Geometric Complexity Theory | 2 |
 | Schur-Weyl duality | 2 |
-| Schur-Weyl Duality | 2 |
 | Noncommutative L^p Geometry | 2 |
 | Tropical Circuit Weight Analysis (TCWA) in BOUNDED_ARITHMETIC | 2 |
 | Combinatorial homotopy theory | 1 |
@@ -67,7 +67,6 @@ Generated 2026-05-01 11:30 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-01 05:04 UTC | `INCONCLUSIVE` | Bounded Arithmetic Proof Length and 3-SAT Tautology Resolution Co |
 | 2026-05-01 05:36 UTC | `INCONCLUSIVE` | Noncommutative L^p Norm Lower Bounds for Disjointness Communicati |
 | 2026-05-01 05:58 UTC | `INCONCLUSIVE` | Phase Merging Complexity Bound |
 | 2026-05-01 06:07 UTC | `INCONCLUSIVE` | Noncommutative L^p Norm Lower Bounds for Disjointness |
@@ -82,6 +81,7 @@ Generated 2026-05-01 11:30 UTC
 | 2026-05-01 09:55 UTC | `INCONCLUSIVE` | Spectral Gap Lower Bounds for Tseitin Resolution Length |
 | 2026-05-01 10:34 UTC | `INCONCLUSIVE` | Permutation Polynomial Degree Bounds ABP Size for NC¹ Functions |
 | 2026-05-01 11:29 UTC | `INCONCLUSIVE` | SOS Moment Matrix Rank and Max-CUT Approximation Ratio |
+| 2026-05-01 12:03 UTC | `INCONCLUSIVE` | Schur-Weyl Multiplicity Gap in Permanent vs Determinant Tensor Po |
 
 ## How to read the reports
 
