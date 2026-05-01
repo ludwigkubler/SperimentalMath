@@ -1,13 +1,13 @@
 {
-  "last_update_utc": "2026-05-01T03:47:02Z",
-  "total_cycles": 264,
+  "last_update_utc": "2026-05-01T04:47:01Z",
+  "total_cycles": 267,
   "verdict_counts": {
-    "INCONCLUSIVE": 238,
+    "INCONCLUSIVE": 241,
     "SUPPORTED": 4,
     "FALSIFIED": 15,
     "BARRIER_HIT": 7
   },
-  "unique_field_A": 233,
+  "unique_field_A": 234,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
@@ -42,6 +42,10 @@
       3
     ],
     [
+      "Tropical Circuit Weight Analysis (BOUNDED_ARITHMETIC)",
+      3
+    ],
+    [
       "Noncommutative geometry",
       2
     ],
@@ -63,10 +67,6 @@
     ],
     [
       "Additive Combinatorics",
-      2
-    ],
-    [
-      "matroid theory",
       2
     ]
   ]

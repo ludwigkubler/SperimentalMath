@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-01 03:30 UTC"
+date: "2026-05-01 04:37 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-01 03:30 UTC
+Generated 2026-05-01 04:37 UTC
 
-- Cycles recorded: **264**
-- Time span: 173.8h (~1.52 cycles/h)
+- Cycles recorded: **267**
+- Time span: 174.9h (~1.53 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 238 |
+| INCONCLUSIVE | 241 |
 | FALSIFIED | 15 |
 | BARRIER_HIT | 7 |
 | SUPPORTED | 4 |
@@ -40,6 +40,7 @@ Generated 2026-05-01 03:30 UTC
 | Matroid Theory | 3 |
 | Random Matrix Theory | 3 |
 | Coarse Geometric Lifting (CGL) — Geometric Complexity Theory | 3 |
+| Tropical Circuit Weight Analysis (BOUNDED_ARITHMETIC) | 3 |
 | Noncommutative geometry | 2 |
 | Representation theory of symmetric groups | 2 |
 | Ergodic Circuit Framework (COMM_COMPLEXITY) | 2 |
@@ -48,7 +49,7 @@ Generated 2026-05-01 03:30 UTC
 | Additive Combinatorics | 2 |
 | matroid theory | 2 |
 | Free Probability Theory | 2 |
-| Tropical Circuit Weight Analysis (BOUNDED_ARITHMETIC) | 2 |
+| Schur-Weyl Duality | 2 |
 | Combinatorial homotopy theory | 1 |
 | Kazhdan-Lusztig theory of Hecke algebras | 1 |
 | Combinatorial algebraic topology | 1 |
@@ -61,15 +62,11 @@ Generated 2026-05-01 03:30 UTC
 | Algebraic graph theory (chromatic polynomials) | 1 |
 | Clifford algebras over real vector spaces | 1 |
 | Algebraic cycles (Chow groups over finite fields) | 1 |
-| Algebraic lattice theory (Möbius functions of flow lattices) | 1 |
 
 ## Last 15 cycles (chronological)
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-04-30 19:25 UTC | `INCONCLUSIVE` | Non-Commutative Rank of ACC^0 Circuits Bounded by Logarithmic Dep |
-| 2026-04-30 20:31 UTC | `INCONCLUSIVE` | Fourier Coefficient Sparsity and Deterministic Communication Comp |
-| 2026-04-30 20:59 UTC | `INCONCLUSIVE` | Monomial Count in KW Polynomial Bounds Communication Complexity |
 | 2026-04-30 21:28 UTC | `INCONCLUSIVE` | Real Rank of SOS Moment Matrices for Max-CUT |
 | 2026-04-30 22:03 UTC | `INCONCLUSIVE` | Slice Rank Lower Bounds for Communication Complexity of CNF Formu |
 | 2026-04-30 22:29 UTC | `FALSIFIED` | Duality-Preserved Phase Cell Bound |
@@ -82,6 +79,9 @@ Generated 2026-05-01 03:30 UTC
 | 2026-05-01 02:29 UTC | `INCONCLUSIVE` | Schur-Weyl Multiplicity Gap in Permanent Communication Matrices |
 | 2026-05-01 03:07 UTC | `INCONCLUSIVE` | Matroid Rank and Minimal Circuit Size for Boolean Functions |
 | 2026-05-01 03:27 UTC | `INCONCLUSIVE` | Bounded Arithmetic Proof Length and Circuit Complexity for Tautol |
+| 2026-05-01 03:54 UTC | `INCONCLUSIVE` | Duality-Preserved Homotopy Stability |
+| 2026-05-01 04:01 UTC | `INCONCLUSIVE` | Symmetric Power Partition Dominance in Permanent vs Determinant |
+| 2026-05-01 04:36 UTC | `INCONCLUSIVE` | Schur-Weyl Multiplicity Gap in Permanent vs Determinant Tensor Po |
 
 ## How to read the reports
 
