@@ -1,8 +1,8 @@
 {
-  "last_update_utc": "2026-04-30T23:47:02Z",
-  "total_cycles": 257,
+  "last_update_utc": "2026-05-01T00:47:02Z",
+  "total_cycles": 259,
   "verdict_counts": {
-    "INCONCLUSIVE": 231,
+    "INCONCLUSIVE": 233,
     "SUPPORTED": 4,
     "FALSIFIED": 15,
     "BARRIER_HIT": 7
@@ -11,7 +11,7 @@
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
-      5
+      6
     ],
     [
       "Ergodic Circuit Framework (communication complexity via dynamical systems)",
@@ -23,6 +23,10 @@
     ],
     [
       "Fourier analysis of boolean functions",
+      3
+    ],
+    [
+      "Random Matrix Theory",
       3
     ],
     [
@@ -55,10 +59,6 @@
     ],
     [
       "Algebraic Geometry",
-      2
-    ],
-    [
-      "Random Matrix Theory",
       2
     ],
     [
