@@ -1,0 +1,179 @@
+{
+  "ts": 1777692782.1282156,
+  "window_h": 24.0,
+  "n_conjectures": 27,
+  "n_papers": 329,
+  "n_scoops": 11,
+  "scoops": [
+    {
+      "paper_id": "2604.27474v1",
+      "paper_title": "Computing the (k+2)-Edge-Connected Components in k-Edge-Connected Digraphs in Subquadratic Time",
+      "matched_eid": "c18d42c448ab",
+      "similarity": 0.7301426683070622
+    },
+    {
+      "paper_id": "2604.26714v1",
+      "paper_title": "On (In)approximability of MaxMin Independent Set Reconfiguration",
+      "matched_eid": "b0314b45545a",
+      "similarity": 0.7263540796848759
+    },
+    {
+      "paper_id": "2604.26533v1",
+      "paper_title": "Small Independent Sets versus Small Separator in Geometric Intersection Graphs",
+      "matched_eid": "b0314b45545a",
+      "similarity": 0.7258534963983068
+    },
+    {
+      "paper_id": "2604.26754v1",
+      "paper_title": "A note on quantitative stability in Hilbert spaces",
+      "matched_eid": "52b8188bdfa4",
+      "similarity": 0.7392813215965943
+    },
+    {
+      "paper_id": "2604.22365v1",
+      "paper_title": "Dynamic Planar Graph Isomorphism is in DynFO",
+      "matched_eid": "b0314b45545a",
+      "similarity": 0.7219962694721127
+    },
+    {
+      "paper_id": "2604.22006v1",
+      "paper_title": "Polynomial Lower Bounds for Arithmetic Circuits over Non-Commutative Rings",
+      "matched_eid": "d4ccd48216c9",
+      "similarity": 0.7403653463923504
+    },
+    {
+      "paper_id": "2604.20575v1",
+      "paper_title": "A Quadratic Lower Bound for Noncommutative Circuits",
+      "matched_eid": "d4ccd48216c9",
+      "similarity": 0.737538576287357
+    },
+    {
+      "paper_id": "2604.17061v1",
+      "paper_title": "$\\exists\\mathbb{R}$-Completeness of Tensor Degeneracy and a Derandomization Barrier for Hyperdeterminants",
+      "matched_eid": "27563135d273",
+      "similarity": 0.7357642150353478
+    },
+    {
+      "paper_id": "2604.25585v1",
+      "paper_title": "New Parameterized and Exact Exponential Time Algorithms for Strongly Connected Steiner Subgraph",
+      "matched_eid": "b0314b45545a",
+      "similarity": 0.7205916884628135
+    },
+    {
+      "paper_id": "2604.27107v1",
+      "paper_title": "Stretched Schubert coefficients are eventually quasi-polynomial",
+      "matched_eid": "52ba9a0b4010",
+      "similarity": 0.7213226594938259
+    },
+    {
+      "paper_id": "2604.26385v1",
+      "paper_title": "On a conjecture of distance spectral extremal problems",
+      "matched_eid": "58628c03994f",
+      "similarity": 0.7487166633278582
+    }
+  ],
+  "top_overlap": [
+    {
+      "score": 0.749,
+      "paper_id": "2604.26385v1",
+      "paper_title": "On a conjecture of distance spectral extremal problems",
+      "paper_category": "math.CO",
+      "matched_conjecture_eid": "58628c03994f",
+      "matched_conjecture_title": "Spectral Gap Lower Bounds for Tseitin Resolution Length"
+    },
+    {
+      "score": 0.74,
+      "paper_id": "2604.22006v1",
+      "paper_title": "Polynomial Lower Bounds for Arithmetic Circuits over Non-Commutative Rings",
+      "paper_category": "cs.CC",
+      "matched_conjecture_eid": "d4ccd48216c9",
+      "matched_conjecture_title": "Multiplicity of Symmetric Powers in Permanent Tensor Decomposition"
+    },
+    {
+      "score": 0.739,
+      "paper_id": "2604.26754v1",
+      "paper_title": "A note on quantitative stability in Hilbert spaces",
+      "paper_category": "math.LO",
+      "matched_conjecture_eid": "52b8188bdfa4",
+      "matched_conjecture_title": "Duality-Preserved Homotopy Stability"
+    },
+    {
+      "score": 0.738,
+      "paper_id": "2604.20575v1",
+      "paper_title": "A Quadratic Lower Bound for Noncommutative Circuits",
+      "paper_category": "cs.CC",
+      "matched_conjecture_eid": "d4ccd48216c9",
+      "matched_conjecture_title": "Multiplicity of Symmetric Powers in Permanent Tensor Decomposition"
+    },
+    {
+      "score": 0.736,
+      "paper_id": "2604.17061v1",
+      "paper_title": "$\\exists\\mathbb{R}$-Completeness of Tensor Degeneracy and a Derandomization Barrier for Hyperdeterminants",
+      "paper_category": "cs.CC",
+      "matched_conjecture_eid": "27563135d273",
+      "matched_conjecture_title": "Schur-Weyl Multiplicity Gap in Permanent vs Determinant Tensor Powers"
+    },
+    {
+      "score": 0.73,
+      "paper_id": "2604.27474v1",
+      "paper_title": "Computing the (k+2)-Edge-Connected Components in k-Edge-Connected Digraphs in Subquadratic Time",
+      "paper_category": "cs.DS",
+      "matched_conjecture_eid": "c18d42c448ab",
+      "matched_conjecture_title": "Matroid Girth of Monotone DNF Implies k-CLIQUE Circuit Size Lower Bound"
+    },
+    {
+      "score": 0.726,
+      "paper_id": "2604.26714v1",
+      "paper_title": "On (In)approximability of MaxMin Independent Set Reconfiguration",
+      "paper_category": "cs.DS",
+      "matched_conjecture_eid": "b0314b45545a",
+      "matched_conjecture_title": "Expander Modulus Bounds Tseitin Proof Complexity"
+    },
+    {
+      "score": 0.726,
+      "paper_id": "2604.26533v1",
+      "paper_title": "Small Independent Sets versus Small Separator in Geometric Intersection Graphs",
+      "paper_category": "cs.DS",
+      "matched_conjecture_eid": "b0314b45545a",
+      "matched_conjecture_title": "Expander Modulus Bounds Tseitin Proof Complexity"
+    },
+    {
+      "score": 0.722,
+      "paper_id": "2604.22365v1",
+      "paper_title": "Dynamic Planar Graph Isomorphism is in DynFO",
+      "paper_category": "cs.LO",
+      "matched_conjecture_eid": "b0314b45545a",
+      "matched_conjecture_title": "Expander Modulus Bounds Tseitin Proof Complexity"
+    },
+    {
+      "score": 0.721,
+      "paper_id": "2604.27107v1",
+      "paper_title": "Stretched Schubert coefficients are eventually quasi-polynomial",
+      "paper_category": "math.CO",
+      "matched_conjecture_eid": "52ba9a0b4010",
+      "matched_conjecture_title": "Littlewood-Richardson Coefficient Gap in Permanent vs Determinant Decompositions"
+    }
+  ],
+  "stats": {
+    "n_cycles": 27,
+    "verdicts": {
+      "INCONCLUSIVE": 24,
+      "BARRIER_HIT": 3
+    },
+    "focus_distribution": {
+      "GCT_DET_PERM": 4,
+      "COMM_DISJ": 2,
+      "AC0_PARITY": 1,
+      "MONOTONE_CLIQUE": 1,
+      "TSEITIN_RES": 1,
+      "SOS_DEGREE": 1
+    },
+    "top_fields_A": {
+      "Schur-Weyl Duality": 3,
+      "Noncommutative L^p Geometry": 2,
+      "Tropical Circuit Weight Analysis (TCWA) in BOUNDED": 2,
+      "Real Algebraic Geometry": 2,
+      "{'framework_name': 'Tropical Circuit Weight Analys": 2
+    }
+  }
+}
