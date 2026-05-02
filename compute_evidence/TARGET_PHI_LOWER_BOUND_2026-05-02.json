@@ -1,7 +1,7 @@
 {
   "node_id": "TARGET_PHI_LOWER_BOUND",
   "instance_class": "tseitin",
-  "ts": 1777681381.5645149,
+  "ts": 1777724582.1251411,
   "result": {
     "instance_class": "tseitin",
     "n_range": [
@@ -35,7 +35,7 @@
         "n": 8,
         "seed": 1,
         "sat": false,
-        "runtime_s": 0.0016,
+        "runtime_s": 0.0015,
         "conflicts": 35,
         "decisions": 25,
         "propagations": 268,
@@ -48,7 +48,7 @@
         "n": 10,
         "seed": 0,
         "sat": false,
-        "runtime_s": 0.0015,
+        "runtime_s": 0.0016,
         "conflicts": 43,
         "decisions": 35,
         "propagations": 335,
@@ -100,7 +100,7 @@
         "n": 14,
         "seed": 0,
         "sat": false,
-        "runtime_s": 0.0018,
+        "runtime_s": 0.0017,
         "conflicts": 119,
         "decisions": 115,
         "propagations": 815,
@@ -139,7 +139,7 @@
         "n": 16,
         "seed": 1,
         "sat": false,
-        "runtime_s": 0.0019,
+        "runtime_s": 0.0018,
         "conflicts": 215,
         "decisions": 148,
         "propagations": 1371,
@@ -165,7 +165,7 @@
         "n": 18,
         "seed": 1,
         "sat": false,
-        "runtime_s": 0.0018,
+        "runtime_s": 0.0019,
         "conflicts": 210,
         "decisions": 166,
         "propagations": 1226,
@@ -191,7 +191,7 @@
         "n": 20,
         "seed": 1,
         "sat": false,
-        "runtime_s": 0.0017,
+        "runtime_s": 0.0018,
         "conflicts": 128,
         "decisions": 116,
         "propagations": 836,
@@ -217,7 +217,7 @@
         "n": 22,
         "seed": 1,
         "sat": false,
-        "runtime_s": 0.002,
+        "runtime_s": 0.0021,
         "conflicts": 301,
         "decisions": 265,
         "propagations": 1715,
@@ -230,7 +230,7 @@
         "n": 24,
         "seed": 0,
         "sat": false,
-        "runtime_s": 0.0037,
+        "runtime_s": 0.0038,
         "conflicts": 1338,
         "decisions": 881,
         "propagations": 6414,
@@ -297,7 +297,7 @@
         "n_total": 2
       },
       "n=22": {
-        "median_runtime_s": 0.0021,
+        "median_runtime_s": 0.0022,
         "median_conflicts": 333,
         "n_timeout": 0,
         "n_total": 2
@@ -309,7 +309,7 @@
         "n_total": 2
       },
       "fit": {
-        "runtime_loglog_slope": 0.5028671606661174,
+        "runtime_loglog_slope": 0.5301083717259075,
         "conflicts_loglog_slope": 2.8276112281628936
       }
     }

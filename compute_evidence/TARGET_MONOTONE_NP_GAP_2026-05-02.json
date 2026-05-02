@@ -1,7 +1,7 @@
 {
   "node_id": "TARGET_MONOTONE_NP_GAP",
   "instance_class": "random_3sat",
-  "ts": 1777681381.5193717,
+  "ts": 1777724582.0794747,
   "result": {
     "instance_class": "random_3sat",
     "n_range": [
@@ -18,7 +18,7 @@
         "n": 8,
         "seed": 0,
         "sat": true,
-        "runtime_s": 0.0012,
+        "runtime_s": 0.0013,
         "conflicts": 0,
         "decisions": 0,
         "propagations": 11,
@@ -109,7 +109,7 @@
         "n": 20,
         "seed": 1,
         "sat": true,
-        "runtime_s": 0.0012,
+        "runtime_s": 0.0013,
         "conflicts": 0,
         "decisions": 0,
         "propagations": 71,
@@ -122,7 +122,7 @@
         "n": 24,
         "seed": 0,
         "sat": false,
-        "runtime_s": 0.0014,
+        "runtime_s": 0.0015,
         "conflicts": 0,
         "decisions": 0,
         "propagations": 116,
@@ -177,7 +177,7 @@
         "n_total": 2
       },
       "fit": {
-        "runtime_loglog_slope": 0.19447635400742752,
+        "runtime_loglog_slope": 0.16848795694261084,
         "conflicts_loglog_slope": 0.0
       }
     }
