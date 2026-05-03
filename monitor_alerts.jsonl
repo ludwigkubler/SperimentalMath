@@ -541,3 +541,11 @@
 {"ts": 1777847419.8980296, "kind": "SERVICE_STALL", "auto_fixed": true, "detail": {"hours": 51.2139670913087}}
 {"ts": 1777847420.126283, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 7}}
 {"ts": 1777847420.2198462, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1691, "cap": 2000, "fraction": 0.846, "weekly_budget": 2500}}
+{"ts": 1777849206.3062975, "kind": "DUPLICATE_DAEMON", "auto_fixed": true, "detail": {"instances": [{"pid": 434755, "etimes": 1789}, {"pid": 434769, "etimes": 1784}]}}
+{"ts": 1777849219.3507211, "kind": "SERVICE_STALL", "auto_fixed": true, "detail": {"hours": 51.71381480667326}}
+{"ts": 1777849219.579651, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 7}}
+{"ts": 1777849219.6726587, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1670, "cap": 2000, "fraction": 0.835, "weekly_budget": 2500}}
+{"ts": 1777851006.5945234, "kind": "DUPLICATE_DAEMON", "auto_fixed": true, "detail": {"instances": [{"pid": 435233, "etimes": 1789}, {"pid": 435249, "etimes": 1785}]}}
+{"ts": 1777851019.6387749, "kind": "SERVICE_STALL", "auto_fixed": true, "detail": {"hours": 52.21389487213558}}
+{"ts": 1777851019.8673103, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 7}}
+{"ts": 1777851019.9597514, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1649, "cap": 2000, "fraction": 0.825, "weekly_budget": 2500}}
