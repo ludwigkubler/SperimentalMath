@@ -1,21 +1,21 @@
 # SEC P vs NP — Health Report
 
-**Generated**: 2026-05-02 18:17:01 UTC
+**Generated**: 2026-05-03 00:17:01 UTC
 **Status**: DEGRADED
-**Issues**: daemon_count=2(expected 1); last_cycle_age_h=23.0; 
+**Issues**: daemon_count=2(expected 1); last_cycle_age_h=29.0; 
 
 ## Process state
-- **Daemons**: 2 (PIDs: `414548,414549`)
+- **Daemons**: 2 (PIDs: `418938,418952`)
 - **Zombies**: 0 (``)
 - **Runaway**: ``
 
 ## Cycle activity
-- **Last cycle**: 23.0 hours ago
-- **Cycles last 24h**: 2
+- **Last cycle**: 29.0 hours ago
+- **Cycles last 24h**: 0
 - **Skeptic gate (last 168h)**: see JSON for breakdown
 
 ## Resources
-- **Memory**: 10.0% used
+- **Memory**: 10.3% used
 - **Disk**: 12% used (/home)
 - **Claude calls 168h**: 2000 / 2500 (80.0%)
 
