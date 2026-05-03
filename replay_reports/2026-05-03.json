@@ -1,0 +1,93 @@
+{
+  "ts": 1777777503.716752,
+  "picked": 10,
+  "since_days": 7,
+  "image": "sec-pvsnp-replay",
+  "summary_counts": {
+    "crash": 7,
+    "timeout": 2,
+    "match": 1
+  },
+  "results": [
+    {
+      "tarball": "72e451ddd9b9.tar.gz",
+      "rc": 1,
+      "elapsed_s": 0.1,
+      "result": "crash",
+      "first_line": "",
+      "stderr_tail": "RUNTIME_CRASH rc=1\nTraceback (most recent call last):\n  File \"/tmp/sec_replay.lLrwdl/replay_72e451ddd9b9/run.py\", line 66, in <module>\n    seeds = [int(x) for x in sys.argv[1:]] or [2, 3, 5, 7, 11, 13, 17, 19, 23, 29]\n                             ^^^\nNameError: name 'sys' is not defined. Did you forget to import 'sys'?\n"
+    },
+    {
+      "tarball": "c9c485ce7f5b.tar.gz",
+      "rc": 1,
+      "elapsed_s": 0.1,
+      "result": "crash",
+      "first_line": "",
+      "stderr_tail": "play_c9c485ce7f5b/run.py\", line 70, in <module>\n    result = run_trial(seed)\n             ^^^^^^^^^^^^^^^\n  File \"/tmp/sec_replay.nqrZQI/replay_c9c485ce7f5b/run.py\", line 41, in run_trial\n    clause = random.sample(variables, random.randint(1, n))\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/random.py\", line 413, in sample\n    raise TypeError(\"Population must be a sequence.  \"\nTypeError: Population must be a sequence.  For dicts or sets, use sorted(d).\n"
+    },
+    {
+      "tarball": "80c8560ef86e.tar.gz",
+      "rc": 4,
+      "elapsed_s": 150.4,
+      "result": "timeout",
+      "first_line": "",
+      "stderr_tail": "RUNTIME_TIMEOUT rc=124 (>150s)\n"
+    },
+    {
+      "tarball": "a13755e34e77.tar.gz",
+      "rc": 1,
+      "elapsed_s": 0.4,
+      "result": "crash",
+      "first_line": "",
+      "stderr_tail": "_a13755e34e77/run.py\", line 154, in <module>\n    result = run_trial(seed)\n             ^^^^^^^^^^^^^^^\n  File \"/tmp/sec_replay.saaHcq/replay_a13755e34e77/run.py\", line 114, in run_trial\n    norm = compute_cyclotomic_norm(alpha_f, m)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/sec_replay.saaHcq/replay_a13755e34e77/run.py\", line 86, in compute_cyclotomic_norm\n    n = int(math.log2(len(truth_table)))\n                          ^^^^^^^^^^^\nNameError: name 'truth_table' is not defined\n"
+    },
+    {
+      "tarball": "633d44f5ae88.tar.gz",
+      "rc": 1,
+      "elapsed_s": 0.1,
+      "result": "crash",
+      "first_line": "",
+      "stderr_tail": "p/sec_replay.kryT9w/replay_633d44f5ae88/run.py\", line 105, in <module>\n    result = run_trial(seed)\n             ^^^^^^^^^^^^^^^\n  File \"/tmp/sec_replay.kryT9w/replay_633d44f5ae88/run.py\", line 77, in run_trial\n    clause = [random.choice([-i-1, i+1] for i in range(n)) for _ in range(3)]\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/random.py\", line 346, in choice\n    if not len(seq):\n           ^^^^^^^^\nTypeError: object of type 'generator' has no len()\n"
+    },
+    {
+      "tarball": "dd203ee122c9.tar.gz",
+      "rc": 1,
+      "elapsed_s": 0.1,
+      "result": "crash",
+      "first_line": "",
+      "stderr_tail": "RUNTIME_CRASH rc=1\nTraceback (most recent call last):\n  File \"/tmp/sec_replay.NIry8X/replay_dd203ee122c9/run.py\", line 64, in <module>\n    seeds = [int(x) for x in sys.argv[1:]] or [11, 23, 37, 53, 71]\n                             ^^^\nNameError: name 'sys' is not defined. Did you forget to import 'sys'?\n"
+    },
+    {
+      "tarball": "fc9124ecdaa8.tar.gz",
+      "rc": 4,
+      "elapsed_s": 150.0,
+      "result": "timeout",
+      "first_line": "",
+      "stderr_tail": "RUNTIME_TIMEOUT rc=124 (>150s)\n"
+    },
+    {
+      "tarball": "7bbefa60fc65.tar.gz",
+      "rc": 0,
+      "elapsed_s": 0.4,
+      "result": "match",
+      "first_line": "MATCH",
+      "stderr_tail": ""
+    },
+    {
+      "tarball": "d9faa5eb7bca.tar.gz",
+      "rc": 1,
+      "elapsed_s": 0.1,
+      "result": "crash",
+      "first_line": "",
+      "stderr_tail": "RUNTIME_CRASH rc=1\nTraceback (most recent call last):\n  File \"/tmp/sec_replay.hoCUUy/replay_d9faa5eb7bca/run.py\", line 68, in <module>\n    trial_result = run_trial(seed)\n                   ^^^^^^^^^^^^^^^\n  File \"/tmp/sec_replay.hoCUUy/replay_d9faa5eb7bca/run.py\", line 12, in run_trial\n    def generate_circuit(n: int) -> Tuple[List[List[int]], List[int], Dict[int, float]]:\n                                    ^^^^^\nNameError: name 'Tuple' is not defined. Did you mean: 'tuple'?\n"
+    },
+    {
+      "tarball": "bd540f51275f.tar.gz",
+      "rc": 1,
+      "elapsed_s": 0.1,
+      "result": "crash",
+      "first_line": "",
+      "stderr_tail": "RUNTIME_CRASH rc=1\nTraceback (most recent call last):\n  File \"/tmp/sec_replay.dS19lW/replay_bd540f51275f/run.py\", line 44, in <module>\n    seeds = [int(arg) for arg in sys.argv[1:]] or [2**i + 3 for i in range(5, 8)]\n                                 ^^^\nNameError: name 'sys' is not defined. Did you forget to import 'sys'?\n"
+    }
+  ]
+}
