@@ -1,84 +1,91 @@
 {
-  "total": 329,
+  "total": 404,
   "by_category": {
-    "cs.DS": 48,
-    "math.CO": 41,
-    "cs.LO": 38,
-    "math.LO": 37,
-    "hep-th": 36,
-    "quant-ph": 22,
+    "cs.DS": 54,
+    "math.CO": 53,
+    "cs.LO": 42,
+    "hep-th": 41,
+    "math.LO": 41,
+    "quant-ph": 27,
+    "math-ph": 23,
     "cs.CC": 19,
-    "math-ph": 18,
-    "cs.LG": 6,
+    "cs.LG": 8,
+    "math.NT": 8,
+    "gr-qc": 7,
+    "astro-ph.CO": 6,
+    "hep-ph": 6,
+    "math.AG": 6,
     "cs.AI": 5,
-    "gr-qc": 5,
-    "math.AG": 5,
-    "math.NT": 5,
-    "astro-ph.CO": 4,
-    "cs.FL": 3,
+    "cs.CG": 5,
+    "math.PR": 5,
+    "cs.CR": 4,
+    "cs.FL": 4,
     "cs.GT": 3,
+    "math.CT": 3,
     "math.MG": 3,
-    "math.PR": 3,
-    "cs.CG": 2,
-    "cs.CR": 2,
+    "nlin.SI": 3,
+    "nucl-th": 3,
+    "cond-mat.str-el": 2,
     "cs.DM": 2,
-    "hep-ph": 2,
-    "math.CT": 2,
-    "nlin.SI": 2,
-    "nucl-th": 2,
+    "hep-lat": 2,
     "physics.flu-dyn": 2,
     "astro-ph.HE": 1,
     "cond-mat.quant-gas": 1,
     "cond-mat.stat-mech": 1,
-    "cond-mat.str-el": 1,
+    "cs.DB": 1,
     "cs.IT": 1,
     "cs.NE": 1,
+    "cs.PL": 1,
     "cs.SC": 1,
-    "hep-lat": 1,
+    "eess.SY": 1,
+    "math.AC": 1,
+    "math.AP": 1,
     "math.DG": 1,
     "math.GR": 1,
     "math.OA": 1,
+    "math.OC": 1,
+    "math.SP": 1,
     "q-bio.PE": 1
   },
-  "embedded": 329,
-  "fetched_span_h": 1.6121377288632923,
+  "embedded": 404,
+  "fetched_span_h": 65.61170834720134,
   "last_update": {
-    "last_update_ts": 1777831886.5560603,
+    "last_update_ts": 1777860688.8212013,
     "by_category": {
       "cs.CC": {
         "fetched": 50,
-        "new": 0,
-        "skipped": 50
+        "new": 1,
+        "skipped": 49
       },
       "cs.DS": {
         "fetched": 50,
-        "new": 0,
-        "skipped": 50
+        "new": 11,
+        "skipped": 39
       },
       "cs.LO": {
         "fetched": 50,
-        "new": 0,
-        "skipped": 50
+        "new": 11,
+        "skipped": 39
       },
       "math.CO": {
         "fetched": 50,
-        "new": 0,
-        "skipped": 50
+        "new": 18,
+        "skipped": 32
       },
       "math.LO": {
         "fetched": 50,
-        "new": 0,
-        "skipped": 50
+        "new": 3,
+        "skipped": 47
       },
       "math-ph": {
         "fetched": 50,
-        "new": 0,
-        "skipped": 50
+        "new": 15,
+        "skipped": 35
       },
       "hep-th": {
         "fetched": 50,
-        "new": 0,
-        "skipped": 50
+        "new": 16,
+        "skipped": 34
       }
     }
   }
