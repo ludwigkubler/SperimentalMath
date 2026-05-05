@@ -1,91 +1,99 @@
 {
-  "total": 404,
+  "total": 564,
   "by_category": {
-    "cs.DS": 54,
-    "math.CO": 53,
-    "cs.LO": 42,
-    "hep-th": 41,
-    "math.LO": 41,
-    "quant-ph": 27,
-    "math-ph": 23,
-    "cs.CC": 19,
-    "cs.LG": 8,
-    "math.NT": 8,
-    "gr-qc": 7,
+    "math.CO": 90,
+    "cs.DS": 62,
+    "hep-th": 61,
+    "cs.LO": 54,
+    "math.LO": 43,
+    "quant-ph": 41,
+    "math-ph": 31,
+    "cs.CC": 26,
+    "gr-qc": 17,
+    "math.AG": 11,
+    "math.NT": 10,
+    "cs.AI": 9,
+    "cs.LG": 9,
+    "hep-ph": 9,
     "astro-ph.CO": 6,
-    "hep-ph": 6,
-    "math.AG": 6,
-    "cs.AI": 5,
+    "cs.CR": 6,
     "cs.CG": 5,
     "math.PR": 5,
-    "cs.CR": 4,
     "cs.FL": 4,
+    "nucl-th": 4,
+    "cond-mat.stat-mech": 3,
+    "cs.DM": 3,
     "cs.GT": 3,
+    "cs.IT": 3,
+    "math.AC": 3,
+    "math.AP": 3,
     "math.CT": 3,
+    "math.DS": 3,
+    "math.GR": 3,
     "math.MG": 3,
     "nlin.SI": 3,
-    "nucl-th": 3,
     "cond-mat.str-el": 2,
-    "cs.DM": 2,
+    "cs.DB": 2,
+    "cs.NE": 2,
     "hep-lat": 2,
+    "math.SP": 2,
     "physics.flu-dyn": 2,
     "astro-ph.HE": 1,
+    "cond-mat.dis-nn": 1,
+    "cond-mat.mtrl-sci": 1,
     "cond-mat.quant-gas": 1,
-    "cond-mat.stat-mech": 1,
-    "cs.DB": 1,
-    "cs.IT": 1,
-    "cs.NE": 1,
+    "cond-mat.soft": 1,
     "cs.PL": 1,
+    "cs.RO": 1,
     "cs.SC": 1,
+    "econ.EM": 1,
     "eess.SY": 1,
-    "math.AC": 1,
-    "math.AP": 1,
+    "math.AT": 1,
     "math.DG": 1,
-    "math.GR": 1,
+    "math.GT": 1,
     "math.OA": 1,
     "math.OC": 1,
-    "math.SP": 1,
     "q-bio.PE": 1
   },
-  "embedded": 404,
-  "fetched_span_h": 65.61170834720134,
+  "embedded": 564,
+  "fetched_span_h": 105.6122156841225,
   "last_update": {
-    "last_update_ts": 1777976004.7340684,
+    "last_update_ts": 1778004690.6378417,
     "by_category": {
       "cs.CC": {
-        "fetched": 0,
-        "new": 0,
-        "skipped": 0
+        "fetched": 50,
+        "new": 11,
+        "skipped": 39
       },
       "cs.DS": {
-        "fetched": 0,
-        "new": 0,
-        "skipped": 0
+        "fetched": 50,
+        "new": 11,
+        "skipped": 39
       },
       "cs.LO": {
-        "fetched": 0,
-        "new": 0,
-        "skipped": 0
+        "fetched": 50,
+        "new": 20,
+        "skipped": 30
       },
       "math.CO": {
-        "fetched": 0,
-        "new": 0,
-        "skipped": 0
+        "fetched": 50,
+        "new": 48,
+        "skipped": 2
       },
       "math.LO": {
-        "fetched": 0,
-        "new": 0,
-        "skipped": 0
+        "fetched": 50,
+        "new": 4,
+        "skipped": 46
       },
       "math-ph": {
-        "fetched": 0,
-        "new": 0,
-        "skipped": 0
+        "fetched": 50,
+        "new": 31,
+        "skipped": 19
       },
       "hep-th": {
-        "fetched": 0,
-        "new": 0,
-        "skipped": 0
+        "fetched": 50,
+        "new": 35,
+        "skipped": 15
       }
     }
   }
