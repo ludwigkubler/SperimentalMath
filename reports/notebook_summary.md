@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-06 19:30 UTC"
+date: "2026-05-06 20:30 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,10 +13,10 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-06 19:30 UTC
+Generated 2026-05-06 20:30 UTC
 
 - Cycles recorded: **292**
-- Time span: 309.8h (~0.94 cycles/h)
+- Time span: 310.8h (~0.94 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
