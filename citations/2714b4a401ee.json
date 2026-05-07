@@ -1,0 +1,40 @@
+{
+  "entry_id": "2714b4a401ee",
+  "ts": 1778197358.7964172,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/2304.08399v3",
+      "title": "Dually Lorentzian Polynomials",
+      "abstract_excerpt": "We introduce and study a notion of dually Lorentzian polynomials, and show that if $s$ is non-zero and dually Lorentzian then the operator \\[s(\\partial_{x_1},\\ldots,\\partial_{x_n}):\\mathbb R[x_1,\\ldots,x_n] \\to \\mathbb R[x_1,\\ldots,x_n]\\] preserves (strictly) Lorentzian polynomials. From this we con",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract introduces 'dually Lorentzian polynomials' and a differential-operator preservation result for Lorentzian polynomials, with no mention of Tseitin formulas, SOS/Lasserre refutation degree, expanders, or resolution width. It shares only the 'Lorentzian polynomial' vocabulary and does not interact with the specific defect-vs-width inequality conjectured.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2206.02759v4",
+      "title": "Polynomials with Lorentzian Signature, and Computing Permanents via Hyperbolic Programming",
+      "abstract_excerpt": "We study the class of polynomials whose Hessians evaluated at any point of a closed convex cone have Lorentzian signature. This class is a generalization to the remarkable class of Lorentzian polynomials. We prove that hyperbolic polynomials and conic stable polynomials belong to this class, and the",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses a generalization of Lorentzian polynomials to those with Lorentzian Hessian signature on convex cones, and applications to hyperbolic programming for permanents — it shares the 'Lorentzian signature' vocabulary but says nothing about Tseitin formulas, SOS refutation degree, or expander-graph defect bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1209.2976v3",
+      "title": "Sums of squares of polynomials with rational coefficients",
+      "abstract_excerpt": "We construct families of explicit polynomials f with rational coefficients that are sums of squares of polynomials over the real numbers, but not over the rational numbers. Whether or not such examples exist was an open question originally raised by Sturmfels. We also study representations of f as s",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns rationality of SOS representations (whether rational-coefficient polynomials that are SOS over R are also SOS over Q), which shares the 'sum of squares' vocabulary but does not address Tseitin formulas, Lorentzian polynomials, expanders, or SOS refutation degree.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

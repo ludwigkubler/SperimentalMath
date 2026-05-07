@@ -1,0 +1,40 @@
+{
+  "entry_id": "ed9920e4ad50",
+  "ts": 1778195538.7253911,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2306.14401",
+      "title": "On the distribution of sensitivities of symmetric Boolean functions",
+      "abstract_excerpt": "A Boolean function $f({\\vec x})$ is sensitive to bit $x_i$ if there is at least one input vector $\\vec x$ and one bit $x_i$ in $\\vec x$, such that changing $x_i$ changes $f$. A function has sensitivity $s$ if among all input vectors, the largest number of bits to which $f$ is sensitive is $s$. We count the $n$-variable symmetric Boolean functions that have maximum sensitivity. We show that most such functions have the largest possible sensitivity, $n$. This suggests sensitivity is limited as a c",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the distribution of sensitivity (a complexity measure) among symmetric Boolean functions, not DNF minimization or Euler characteristics of cubical complexes. It shares the 'symmetric Boolean functions' framework but says nothing about DNF-min(f) versus |χ(K_f)|.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1805.08177",
+      "title": "A Polynomial Time Delta-Decomposition Algorithm for Positive DNFs",
+      "abstract_excerpt": "We consider the problem of decomposing a positive DNF into a conjunction of DNFs, which may share a (possibly empty) given set of variables Delta. This problem has interesting connections with traditional applications of positive DNFs, e.g., in game theory, and with the broad topic of minimization of boolean functions. We show that the finest Delta-decomposition components of a positive DNF can be computed in polynomial time and provide a decomposition algorithm based on factorization of multili",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses polynomial-time Delta-decomposition of positive DNFs into conjunctions of DNFs, which shares the DNF minimization framework but does not address Euler characteristic bounds, symmetric functions, or DNF-min lower bounds via cubical topology.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0808.0684",
+      "title": "9-variable Boolean Functions with Nonlinearity 242 in the Generalized Rotation Class",
+      "abstract_excerpt": "In 2006, 9-variable Boolean functions having nonlinearity 241, which is strictly greater than the bent concatenation bound of 240, have been discovered in the class of Rotation Symmetric Boolean Functions (RSBFs) by Kavut, Maitra and Yucel. To improve this nonlinearity result, we have firstly defined some subsets of the n-variable Boolean functions as the \"generalized classes of k-RSBFs and k-DSBFs (k-Dihedral Symmetric Boolean Functions)\", where k is a positive integer dividing n and k-RSBFs is",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns nonlinearity bounds for 9-variable rotation/dihedral symmetric Boolean functions and the covering radius of Reed-Muller codes, with no mention of DNF size, Euler characteristics, or cubical complexes. It shares only the loose vocabulary of 'symmetric Boolean functions' but does not interact with the DNF-min / cubical Euler characteristic claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

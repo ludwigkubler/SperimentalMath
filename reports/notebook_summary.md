@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-07 22:46 UTC"
+date: "2026-05-07 23:41 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-07 22:46 UTC
+Generated 2026-05-07 23:41 UTC
 
-- Cycles recorded: **315**
-- Time span: 337.1h (~0.93 cycles/h)
+- Cycles recorded: **320**
+- Time span: 338.0h (~0.95 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 285 |
+| INCONCLUSIVE | 290 |
 | FALSIFIED | 15 |
 | BARRIER_HIT | 11 |
 | SUPPORTED | 4 |
@@ -32,14 +32,14 @@ Generated 2026-05-07 22:46 UTC
 
 | Field | Cycles |
 |---|---|
-| Real Algebraic Geometry | 9 |
+| Real Algebraic Geometry | 10 |
 | Algebraic Geometry | 5 |
 | Ergodic Circuit Framework (communication complexity via dynamical systems) | 4 |
 | {"framework_name": "Ergodic Circuit Framework", "math_branch": "COMM_COMPLEXITY"} | 4 |
 | Matroid Theory | 4 |
+| Random Matrix Theory | 4 |
 | Additive Combinatorics | 4 |
 | Fourier analysis of boolean functions | 3 |
-| Random Matrix Theory | 3 |
 | Finite Geometry | 3 |
 | Coarse Geometric Lifting (CGL) — Geometric Complexity Theory | 3 |
 | {"framework_name": "Tropical Circuit Weight Analysis (TCWA)", "math_branch": "BOUNDED_ARITHMETIC"} | 3 |
@@ -67,11 +67,6 @@ Generated 2026-05-07 22:46 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-07 20:33 UTC | `INCONCLUSIVE` | Hashimoto Non-Backtracking Pole Gap Lower-Bounds Tseitin Resoluti |
-| 2026-05-07 20:41 UTC | `INCONCLUSIVE` | Tropical Convex Hull Dimension and ACC^0 Circuit Size |
-| 2026-05-07 20:48 UTC | `INCONCLUSIVE` | Fourier Coefficient Sum Lower-Bounds Resolution Length for 3-CNFs |
-| 2026-05-07 20:58 UTC | `INCONCLUSIVE` | Non-Abelian Fourier Coefficient Boundedness in Tseitin Resolution |
-| 2026-05-07 21:02 UTC | `INCONCLUSIVE` | Free Cumulant κ₄ of Disjointness Spectrum Lower-Bounds R(DISJ) |
 | 2026-05-07 21:03 UTC | `INCONCLUSIVE` | Algebraic Matroid Rank and ACC^0 Circuit Size Trade-off |
 | 2026-05-07 21:18 UTC | `INCONCLUSIVE` | Maximum Fourier Coefficient Lower Bound via Sensitivity Scaling |
 | 2026-05-07 21:40 UTC | `INCONCLUSIVE` | Roth Density of ACC⁰ Truth Tables Lower-Bounds Sipser Hardness |
@@ -82,6 +77,11 @@ Generated 2026-05-07 22:46 UTC
 | 2026-05-07 22:33 UTC | `INCONCLUSIVE` | Finite Plane Line Count Bounds MCSP Complexity |
 | 2026-05-07 22:35 UTC | `BARRIER_HIT` | Leinster Magnitude of Hamming-Embedded Communication Matrices Low |
 | 2026-05-07 22:46 UTC | `INCONCLUSIVE` | Free Cumulant Gap in Read-Twice Branching Programs for IP_2 |
+| 2026-05-07 22:58 UTC | `INCONCLUSIVE` | Kronecker Coefficient Asymmetry in Symmetric Tensor Decomposition |
+| 2026-05-07 23:11 UTC | `INCONCLUSIVE` | Cubical Euler Characteristic Bounds DNF-Min for Symmetric Functio |
+| 2026-05-07 23:12 UTC | `INCONCLUSIVE` | Random Matrix Spectral Norm and SOS Refutation Degree for 3-CNF |
+| 2026-05-07 23:34 UTC | `INCONCLUSIVE` | Real Radical Rank and SOS Degree for Max-CUT |
+| 2026-05-07 23:41 UTC | `INCONCLUSIVE` | Lorentzian Defect of Tseitin Moment Polynomial Lower-Bounds SOS D |
 
 ## How to read the reports
 
