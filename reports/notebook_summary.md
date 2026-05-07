@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-07 19:41 UTC"
+date: "2026-05-07 20:41 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-07 19:41 UTC
+Generated 2026-05-07 20:41 UTC
 
-- Cycles recorded: **298**
-- Time span: 334.0h (~0.89 cycles/h)
+- Cycles recorded: **302**
+- Time span: 335.0h (~0.90 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 269 |
+| INCONCLUSIVE | 273 |
 | FALSIFIED | 15 |
 | BARRIER_HIT | 10 |
 | SUPPORTED | 4 |
@@ -67,10 +67,6 @@ Generated 2026-05-07 19:41 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-01 13:05 UTC | `INCONCLUSIVE` | Multiplicity of Symmetric Powers in Permanent Tensor Decompositio |
-| 2026-05-01 14:32 UTC | `INCONCLUSIVE` | Diophantine Solution Count Bounds Resolution Length in 3-SAT |
-| 2026-05-01 15:02 UTC | `INCONCLUSIVE` | Singular Locus Dimension Bounds SOS Refutation Size for 3-SAT |
-| 2026-05-01 16:11 UTC | `INCONCLUSIVE` | Expander Modulus Bounds Tseitin Proof Complexity |
 | 2026-05-01 16:36 UTC | `INCONCLUSIVE` | Tropical Circuit Weight Profile Complexity Bound |
 | 2026-05-01 16:47 UTC | `INCONCLUSIVE` | Finite Geometry Rank and ACC^0 Circuit Size for 3-SAT Instances |
 | 2026-05-01 17:19 UTC | `BARRIER_HIT` | Moment Matrix Eigenvalue Gap and SOS Degree for Max-CUT |
@@ -82,6 +78,10 @@ Generated 2026-05-07 19:41 UTC
 | 2026-05-07 19:28 UTC | `INCONCLUSIVE` | Sandpile 2-Rank Lower-Bounds Tree-Resolution Size of Tseitin |
 | 2026-05-07 19:29 UTC | `INCONCLUSIVE` | Real Stable Polynomial Coefficient Sum and AC⁰ PARITY Circuit Siz |
 | 2026-05-07 19:41 UTC | `INCONCLUSIVE` | Additive Energy Gap Between P and AC⁰ Functions |
+| 2026-05-07 20:05 UTC | `INCONCLUSIVE` | Spectral Mahler Measure of Tseitin Moment Matrix Bounds SOS Refut |
+| 2026-05-07 20:16 UTC | `INCONCLUSIVE` | Polymatroid Rank Gap in Monotone DNF Depth |
+| 2026-05-07 20:33 UTC | `INCONCLUSIVE` | Hashimoto Non-Backtracking Pole Gap Lower-Bounds Tseitin Resoluti |
+| 2026-05-07 20:41 UTC | `INCONCLUSIVE` | Tropical Convex Hull Dimension and ACC^0 Circuit Size |
 
 ## How to read the reports
 

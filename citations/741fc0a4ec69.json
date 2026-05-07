@@ -1,0 +1,40 @@
+{
+  "entry_id": "741fc0a4ec69",
+  "ts": 1778186078.8048258,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0311029v1",
+      "title": "Zeta functions over zeros of general zeta and $L$-functions",
+      "abstract_excerpt": "We describe in detail three distinct families of generalized zeta functions built over the (nontrivial) zeros of a rather general arithmetic zeta or L-function, extending the scope of two earlier works that treated the Riemann zeros only. Explicit properties are also displayed more clearly than befo",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes generalized zeta functions built over zeros of arithmetic zeta/L-functions, with no mention of Ihara zeta functions of finite graphs, non-backtracking operators, Tseitin formulas, or resolution complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1306.5454v1",
+      "title": "The Ihara zeta function of the infinite grid",
+      "abstract_excerpt": "The infinite grid is the Cayley graph of $\\mathbb{Z} \\times \\mathbb{Z}$ with the usual generators. In this paper, the Ihara zeta function for the infinite grid is computed using elliptic integrals and theta functions. The zeta function of the grid extends to an analytic, multivalued function which s",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the analytic computation of the Ihara zeta function of the infinite 2D grid via elliptic integrals/theta functions, with no mention of Tseitin formulas, Resolution refutation length, or spectral gap lower bounds for proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1712.05169v12",
+      "title": "Zeros and the functional equation of the quadrilateral zeta function",
+      "abstract_excerpt": "In this paper, we show that all real zeros of the bilateral Hurwitz zeta function $Z(s,a):=ζ(s,a) + ζ(s,1-a)$ with $1/4 \\le a \\le 1/2$ are on only the non-positive even integers exactly same as in the case of $(2^s-1) ζ(s)$. We also prove that all real zeros of the bilateral periodic zeta function $",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns zeros of bilateral Hurwitz/periodic zeta functions in analytic number theory, with no connection to Ihara zeta functions of graphs, non-backtracking operators, or Resolution complexity of Tseitin formulas.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
