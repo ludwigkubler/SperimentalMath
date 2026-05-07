@@ -1,15 +1,15 @@
 {
-  "ts": 1778134621,
-  "ts_human": "2026-05-07 06:17:01 UTC",
+  "ts": 1778156221,
+  "ts_human": "2026-05-07 12:17:01 UTC",
   "status": "DEGRADED",
-  "issues": "daemon_count=2(expected 1); last_cycle_age_h=131.0; ",
+  "issues": "daemon_count=2(expected 1); last_cycle_age_h=137.0; ",
   "daemon_count": 2,
-  "daemon_pids": "498005,498019",
+  "daemon_pids": "502409,502423",
   "zombies": 0,
   "zombie_detail": "",
   "runaway": "",
   "last_cycle_ts": 1777663036,
-  "last_cycle_age_h": 131.0,
+  "last_cycle_age_h": 137.0,
   "cycles_24h": 0,
   "mem_used_pct": 10.2,
   "disk_used_pct": 12,
@@ -18,7 +18,7 @@
   "skeptic_168h": {
     "hardened": 0,
     "downgrade": 0,
-    "not_invoked": 56,
+    "not_invoked": 52,
     "downgrade_reasons": {}
   }
 }

@@ -1,7 +1,7 @@
 {
   "node_id": "TARGET_PHI_LOWER_BOUND",
   "instance_class": "tseitin",
-  "ts": 1778113381.5857918,
+  "ts": 1778156581.2325706,
   "result": {
     "instance_class": "tseitin",
     "n_range": [
@@ -22,7 +22,7 @@
         "n": 8,
         "seed": 0,
         "sat": false,
-        "runtime_s": 0.0016,
+        "runtime_s": 0.0015,
         "conflicts": 27,
         "decisions": 25,
         "propagations": 236,
@@ -126,7 +126,7 @@
         "n": 16,
         "seed": 0,
         "sat": false,
-        "runtime_s": 0.002,
+        "runtime_s": 0.0019,
         "conflicts": 222,
         "decisions": 174,
         "propagations": 1382,
@@ -285,7 +285,7 @@
         "n_total": 2
       },
       "n=18": {
-        "median_runtime_s": 0.0021,
+        "median_runtime_s": 0.002,
         "median_conflicts": 283,
         "n_timeout": 0,
         "n_total": 2
@@ -303,13 +303,13 @@
         "n_total": 2
       },
       "n=24": {
-        "median_runtime_s": 0.0034,
+        "median_runtime_s": 0.0035,
         "median_conflicts": 1063,
         "n_timeout": 0,
         "n_total": 2
       },
       "fit": {
-        "runtime_loglog_slope": 0.5368102891987326,
+        "runtime_loglog_slope": 0.5353745929679614,
         "conflicts_loglog_slope": 2.8276112281628936
       }
     }
