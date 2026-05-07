@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-07 18:30 UTC"
+date: "2026-05-07 19:41 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-07 18:30 UTC
+Generated 2026-05-07 19:41 UTC
 
-- Cycles recorded: **292**
-- Time span: 332.8h (~0.88 cycles/h)
+- Cycles recorded: **298**
+- Time span: 334.0h (~0.89 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 263 |
+| INCONCLUSIVE | 269 |
 | FALSIFIED | 15 |
 | BARRIER_HIT | 10 |
 | SUPPORTED | 4 |
@@ -32,14 +32,14 @@ Generated 2026-05-07 18:30 UTC
 
 | Field | Cycles |
 |---|---|
-| Real Algebraic Geometry | 8 |
+| Real Algebraic Geometry | 9 |
 | Algebraic Geometry | 5 |
 | Ergodic Circuit Framework (communication complexity via dynamical systems) | 4 |
 | {"framework_name": "Ergodic Circuit Framework", "math_branch": "COMM_COMPLEXITY"} | 4 |
 | Matroid Theory | 4 |
+| Additive Combinatorics | 4 |
 | Fourier analysis of boolean functions | 3 |
 | Random Matrix Theory | 3 |
-| Additive Combinatorics | 3 |
 | Coarse Geometric Lifting (CGL) — Geometric Complexity Theory | 3 |
 | {"framework_name": "Tropical Circuit Weight Analysis (TCWA)", "math_branch": "BOUNDED_ARITHMETIC"} | 3 |
 | Tropical Circuit Weight Analysis (BOUNDED_ARITHMETIC) | 3 |
@@ -55,24 +55,18 @@ Generated 2026-05-07 18:30 UTC
 | Tropical Circuit Weight Analysis (TCWA) — Bounded Arithmetic | 2 |
 | Bounded Arithmetic | 2 |
 | Geometric Complexity Theory | 2 |
+| Additive combinatorics | 2 |
 | Schur-Weyl duality | 2 |
 | Noncommutative L^p Geometry | 2 |
 | Tropical Circuit Weight Analysis (TCWA) in BOUNDED_ARITHMETIC | 2 |
+| Spectral Graph Theory | 2 |
 | Combinatorial homotopy theory | 1 |
 | Kazhdan-Lusztig theory of Hecke algebras | 1 |
-| Combinatorial algebraic topology | 1 |
-| Knot theory (quantum invariants) | 1 |
 
 ## Last 15 cycles (chronological)
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-01 09:26 UTC | `INCONCLUSIVE` | Matroid Girth of Monotone DNF Implies k-CLIQUE Circuit Size Lower |
-| 2026-05-01 09:35 UTC | `INCONCLUSIVE` | Phase Merging Additivity in Tropical Proof Rank |
-| 2026-05-01 09:55 UTC | `INCONCLUSIVE` | Spectral Gap Lower Bounds for Tseitin Resolution Length |
-| 2026-05-01 10:34 UTC | `INCONCLUSIVE` | Permutation Polynomial Degree Bounds ABP Size for NC¹ Functions |
-| 2026-05-01 11:29 UTC | `INCONCLUSIVE` | SOS Moment Matrix Rank and Max-CUT Approximation Ratio |
-| 2026-05-01 12:03 UTC | `INCONCLUSIVE` | Schur-Weyl Multiplicity Gap in Permanent vs Determinant Tensor Po |
 | 2026-05-01 13:05 UTC | `INCONCLUSIVE` | Multiplicity of Symmetric Powers in Permanent Tensor Decompositio |
 | 2026-05-01 14:32 UTC | `INCONCLUSIVE` | Diophantine Solution Count Bounds Resolution Length in 3-SAT |
 | 2026-05-01 15:02 UTC | `INCONCLUSIVE` | Singular Locus Dimension Bounds SOS Refutation Size for 3-SAT |
@@ -82,6 +76,12 @@ Generated 2026-05-07 18:30 UTC
 | 2026-05-01 17:19 UTC | `BARRIER_HIT` | Moment Matrix Eigenvalue Gap and SOS Degree for Max-CUT |
 | 2026-05-01 18:20 UTC | `INCONCLUSIVE` | Additive Energy Threshold and ACC⁰ Circuit Size |
 | 2026-05-01 19:17 UTC | `INCONCLUSIVE` | Tropical Derivation Depth Reflects Proof Rank in Bounded Arithmet |
+| 2026-05-07 18:59 UTC | `INCONCLUSIVE` | Discrete Morse Critical-Cell Count Lower Bounds Frege Depth |
+| 2026-05-07 19:01 UTC | `INCONCLUSIVE` | Additive Energy Threshold and Deterministic Communication Complex |
+| 2026-05-07 19:11 UTC | `INCONCLUSIVE` | Cheeger Constant Lower Bound on Tseitin Resolution Length |
+| 2026-05-07 19:28 UTC | `INCONCLUSIVE` | Sandpile 2-Rank Lower-Bounds Tree-Resolution Size of Tseitin |
+| 2026-05-07 19:29 UTC | `INCONCLUSIVE` | Real Stable Polynomial Coefficient Sum and AC⁰ PARITY Circuit Siz |
+| 2026-05-07 19:41 UTC | `INCONCLUSIVE` | Additive Energy Gap Between P and AC⁰ Functions |
 
 ## How to read the reports
 
