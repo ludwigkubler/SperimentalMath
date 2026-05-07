@@ -1,13 +1,13 @@
 {
-  "last_update_utc": "2026-05-07T21:47:02Z",
-  "total_cycles": 310,
+  "last_update_utc": "2026-05-07T22:47:02Z",
+  "total_cycles": 315,
   "verdict_counts": {
-    "INCONCLUSIVE": 281,
+    "INCONCLUSIVE": 285,
     "SUPPORTED": 4,
     "FALSIFIED": 15,
-    "BARRIER_HIT": 10
+    "BARRIER_HIT": 11
   },
-  "unique_field_A": 256,
+  "unique_field_A": 258,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
@@ -42,6 +42,10 @@
       3
     ],
     [
+      "Finite Geometry",
+      3
+    ],
+    [
       "Coarse Geometric Lifting (CGL) — Geometric Complexity Theory",
       3
     ],
@@ -63,10 +67,6 @@
     ],
     [
       "Representation theory of symmetric groups",
-      2
-    ],
-    [
-      "Ergodic Circuit Framework (COMM_COMPLEXITY)",
       2
     ]
   ]
