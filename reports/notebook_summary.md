@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-07 20:41 UTC"
+date: "2026-05-07 21:46 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-07 20:41 UTC
+Generated 2026-05-07 21:46 UTC
 
-- Cycles recorded: **302**
-- Time span: 335.0h (~0.90 cycles/h)
+- Cycles recorded: **310**
+- Time span: 336.1h (~0.92 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 273 |
+| INCONCLUSIVE | 281 |
 | FALSIFIED | 15 |
 | BARRIER_HIT | 10 |
 | SUPPORTED | 4 |
@@ -60,21 +60,13 @@ Generated 2026-05-07 20:41 UTC
 | Noncommutative L^p Geometry | 2 |
 | Tropical Circuit Weight Analysis (TCWA) in BOUNDED_ARITHMETIC | 2 |
 | Spectral Graph Theory | 2 |
-| Combinatorial homotopy theory | 1 |
-| Kazhdan-Lusztig theory of Hecke algebras | 1 |
+| Fourier Analysis of Boolean Functions | 2 |
+| Algebraic Geometry of Secant Varieties | 2 |
 
 ## Last 15 cycles (chronological)
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-01 16:36 UTC | `INCONCLUSIVE` | Tropical Circuit Weight Profile Complexity Bound |
-| 2026-05-01 16:47 UTC | `INCONCLUSIVE` | Finite Geometry Rank and ACC^0 Circuit Size for 3-SAT Instances |
-| 2026-05-01 17:19 UTC | `BARRIER_HIT` | Moment Matrix Eigenvalue Gap and SOS Degree for Max-CUT |
-| 2026-05-01 18:20 UTC | `INCONCLUSIVE` | Additive Energy Threshold and ACC⁰ Circuit Size |
-| 2026-05-01 19:17 UTC | `INCONCLUSIVE` | Tropical Derivation Depth Reflects Proof Rank in Bounded Arithmet |
-| 2026-05-07 18:59 UTC | `INCONCLUSIVE` | Discrete Morse Critical-Cell Count Lower Bounds Frege Depth |
-| 2026-05-07 19:01 UTC | `INCONCLUSIVE` | Additive Energy Threshold and Deterministic Communication Complex |
-| 2026-05-07 19:11 UTC | `INCONCLUSIVE` | Cheeger Constant Lower Bound on Tseitin Resolution Length |
 | 2026-05-07 19:28 UTC | `INCONCLUSIVE` | Sandpile 2-Rank Lower-Bounds Tree-Resolution Size of Tseitin |
 | 2026-05-07 19:29 UTC | `INCONCLUSIVE` | Real Stable Polynomial Coefficient Sum and AC⁰ PARITY Circuit Siz |
 | 2026-05-07 19:41 UTC | `INCONCLUSIVE` | Additive Energy Gap Between P and AC⁰ Functions |
@@ -82,6 +74,14 @@ Generated 2026-05-07 20:41 UTC
 | 2026-05-07 20:16 UTC | `INCONCLUSIVE` | Polymatroid Rank Gap in Monotone DNF Depth |
 | 2026-05-07 20:33 UTC | `INCONCLUSIVE` | Hashimoto Non-Backtracking Pole Gap Lower-Bounds Tseitin Resoluti |
 | 2026-05-07 20:41 UTC | `INCONCLUSIVE` | Tropical Convex Hull Dimension and ACC^0 Circuit Size |
+| 2026-05-07 20:48 UTC | `INCONCLUSIVE` | Fourier Coefficient Sum Lower-Bounds Resolution Length for 3-CNFs |
+| 2026-05-07 20:58 UTC | `INCONCLUSIVE` | Non-Abelian Fourier Coefficient Boundedness in Tseitin Resolution |
+| 2026-05-07 21:02 UTC | `INCONCLUSIVE` | Free Cumulant κ₄ of Disjointness Spectrum Lower-Bounds R(DISJ) |
+| 2026-05-07 21:03 UTC | `INCONCLUSIVE` | Algebraic Matroid Rank and ACC^0 Circuit Size Trade-off |
+| 2026-05-07 21:18 UTC | `INCONCLUSIVE` | Maximum Fourier Coefficient Lower Bound via Sensitivity Scaling |
+| 2026-05-07 21:40 UTC | `INCONCLUSIVE` | Roth Density of ACC⁰ Truth Tables Lower-Bounds Sipser Hardness |
+| 2026-05-07 21:41 UTC | `INCONCLUSIVE` | Secant Variety Dimension Lower-Bounds Disjointness Communication  |
+| 2026-05-07 21:46 UTC | `INCONCLUSIVE` | Secant Variety Dimension Lower-Bounds Disjointness Communication  |
 
 ## How to read the reports
 

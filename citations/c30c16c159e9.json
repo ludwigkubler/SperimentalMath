@@ -1,0 +1,40 @@
+{
+  "entry_id": "c30c16c159e9",
+  "ts": 1778187770.5858955,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/2207.14810v3",
+      "title": "Simplifying a classical-quantum algorithm interpolation with quantum singular value transformations",
+      "abstract_excerpt": "The problem of Phase Estimation (or Amplitude Estimation) admits a quadratic quantum speedup. Wang, Higgott and Brierley [2019, Phys. Rev. Lett. 122 140504] have shown that there is a continuous trade-off between quantum speedup and circuit depth (by defining a family of algorithms known as $α$-QPE)",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a quantum phase/amplitude estimation algorithm with circuit-depth tradeoffs via quantum singular value transformations, which has no bearing on free cumulants of disjointness matrices or randomized communication complexity lower bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2303.00713v4",
+      "title": "Full Eigenstate Thermalization via Free Cumulants in Quantum Lattice Systems",
+      "abstract_excerpt": "The Eigenstate-Thermalization-Hypothesis (ETH) has been established as the general framework to understand quantum statistical mechanics. Only recently has the attention been paid to so-called full ETH, which accounts for higher-order correlations among matrix elements, and that can be rationalized ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the Eigenstate Thermalization Hypothesis and free cumulants of matrix elements in quantum lattice systems, sharing only the 'free cumulants' vocabulary but not interacting with disjointness, communication complexity, or SoS lower bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2603.19490v1",
+      "title": "Communication Complexity of Disjointness under Product Distributions",
+      "abstract_excerpt": "Determining the randomized (or distributional) communication complexity of disjointness is a central problem in communication complexity, having roots in the foundational work of Babai, Frankl, and Simon in the 1980s and culminating in the famous works of Kalyanasundaram-Schnitger and Razborov in 19",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract only states the paper concerns randomized/distributional communication complexity of disjointness under product distributions, without revealing any free-probability or singular-value/cumulant content; I cannot tell from this snippet whether it bears on the κ₄ lower bound claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}

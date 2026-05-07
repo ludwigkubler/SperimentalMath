@@ -1,0 +1,31 @@
+{
+  "entry_id": "b80de3626c1d",
+  "ts": 1778190030.4341123,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.1109/FOCS.2019.00080",
+      "title": "Why are Proof Complexity Lower Bounds Hard?",
+      "abstract_excerpt": "We formalize and study the question of whether there are inherent difficulties to showing lower bounds on propositional proof complexity. We establish the following unconditional result: Propositional proof systems cannot efficiently show that truth tables of random Boolean functions lack polynomial size non-uniform proofs of hardness. Assuming a conjecture of Rudich, propositional proof systems also cannot efficiently show that random k-CNFs of linear density lack polynomial size non-uniform pr",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns barriers to proving propositional proof complexity lower bounds (e.g., 'Propositional proof systems cannot efficiently show that truth tables of random Boolean functions lack polynomial size non-uniform proofs of hardness'), not 3-AP density of ACC⁰ truth tables or Sipser function hardness via Roth-type combinatorics.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:0f5716700eab6bfbf79f8f31d90a5bc5790641cf",
+      "title": "Computing and combinatorics : 13th Annual International Conference, COCOON 2007 Banff, Canada, July 16-19, 2007 : proceedings",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available, so I cannot assess whether the cited proceedings volume contains content relevant to ACC⁰ lower bounds or Roth-type density claims.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}
