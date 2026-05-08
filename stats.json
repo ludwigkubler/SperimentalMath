@@ -1,13 +1,13 @@
 {
-  "last_update_utc": "2026-05-08T21:47:01Z",
-  "total_cycles": 433,
+  "last_update_utc": "2026-05-08T22:47:02Z",
+  "total_cycles": 436,
   "verdict_counts": {
-    "INCONCLUSIVE": 398,
+    "INCONCLUSIVE": 401,
     "SUPPORTED": 4,
     "FALSIFIED": 15,
     "BARRIER_HIT": 16
   },
-  "unique_field_A": 333,
+  "unique_field_A": 334,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
@@ -50,6 +50,10 @@
       4
     ],
     [
+      "Polymatroid Theory",
+      4
+    ],
+    [
       "Algebraic Geometry of Secant Varieties",
       4
     ],
@@ -63,10 +67,6 @@
     ],
     [
       "matroid theory",
-      3
-    ],
-    [
-      "Coarse Geometric Lifting (CGL) — Geometric Complexity Theory",
       3
     ]
   ]

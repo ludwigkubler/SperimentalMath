@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-08 21:44 UTC"
+date: "2026-05-08 22:24 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-08 21:44 UTC
+Generated 2026-05-08 22:24 UTC
 
-- Cycles recorded: **433**
-- Time span: 360.1h (~1.20 cycles/h)
+- Cycles recorded: **436**
+- Time span: 360.7h (~1.21 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 398 |
+| INCONCLUSIVE | 401 |
 | BARRIER_HIT | 16 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -42,6 +42,7 @@ Generated 2026-05-08 21:44 UTC
 | Ergodic Circuit Framework (communication complexity via dynamical systems) | 4 |
 | {"framework_name": "Ergodic Circuit Framework", "math_branch": "COMM_COMPLEXITY"} | 4 |
 | Random Matrix Theory | 4 |
+| Polymatroid Theory | 4 |
 | Algebraic Geometry of Secant Varieties | 4 |
 | FOURIER_ANALYSIS | 4 |
 | Fourier analysis of boolean functions | 3 |
@@ -51,7 +52,6 @@ Generated 2026-05-08 21:44 UTC
 | Tropical Circuit Weight Analysis (BOUNDED_ARITHMETIC) | 3 |
 | Schur-Weyl duality | 3 |
 | Spectral Graph Theory | 3 |
-| Polymatroid Theory | 3 |
 | Persistent Homology | 3 |
 | Noncommutative geometry | 2 |
 | Representation theory of symmetric groups | 2 |
@@ -67,9 +67,6 @@ Generated 2026-05-08 21:44 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-08 18:47 UTC | `INCONCLUSIVE` | Laplacian Eigenvalue Deficit Bounds SOS Degree for Max-CUT |
-| 2026-05-08 18:56 UTC | `INCONCLUSIVE` | Diophantine Approximation Bound on Resolution Proof Size |
-| 2026-05-08 19:10 UTC | `INCONCLUSIVE` | Submodular Coverage Deficit in Monotone DNF for k-CLIQUE |
 | 2026-05-08 19:22 UTC | `INCONCLUSIVE` | Quandle Isomorphism Complexity and ACC^0 Circuit Depth |
 | 2026-05-08 19:28 UTC | `INCONCLUSIVE` | Schur-Weyl Decomposition Rank Lower Bounds Disjointness Communica |
 | 2026-05-08 19:41 UTC | `INCONCLUSIVE` | Persistent Homology Barcode Length Inversely Proportional to DPLL |
@@ -82,6 +79,9 @@ Generated 2026-05-08 21:44 UTC
 | 2026-05-08 21:20 UTC | `INCONCLUSIVE` | Cluster Algebra Mutation Distance Bounds ACC^0 Circuit Size |
 | 2026-05-08 21:37 UTC | `INCONCLUSIVE` | Moment Matrix Eigenvalue Decay and SOS Degree for Max-CUT |
 | 2026-05-08 21:44 UTC | `INCONCLUSIVE` | Matroid Representation Complexity of Monotone DNF for k-CLIQUE |
+| 2026-05-08 22:01 UTC | `INCONCLUSIVE` | Plethysm Coefficient Exponential Gap in Symmetric Squares of Perm |
+| 2026-05-08 22:16 UTC | `INCONCLUSIVE` | Symmetric Group Multiplicity Sum Lower Bound for Disjointness Com |
+| 2026-05-08 22:24 UTC | `INCONCLUSIVE` | Polymatroid Rank Deficit in Monotone DNF for k-CLIQUE |
 
 ## How to read the reports
 
