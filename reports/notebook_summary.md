@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-08 00:42 UTC"
+date: "2026-05-08 01:45 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-08 00:42 UTC
+Generated 2026-05-08 01:45 UTC
 
-- Cycles recorded: **325**
-- Time span: 339.0h (~0.96 cycles/h)
+- Cycles recorded: **329**
+- Time span: 340.1h (~0.97 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 294 |
+| INCONCLUSIVE | 298 |
 | FALSIFIED | 15 |
 | BARRIER_HIT | 12 |
 | SUPPORTED | 4 |
@@ -39,13 +39,14 @@ Generated 2026-05-08 00:42 UTC
 | Matroid Theory | 4 |
 | Random Matrix Theory | 4 |
 | Additive Combinatorics | 4 |
+| Free Probability | 4 |
 | Fourier analysis of boolean functions | 3 |
 | Finite Geometry | 3 |
 | Coarse Geometric Lifting (CGL) — Geometric Complexity Theory | 3 |
 | {"framework_name": "Tropical Circuit Weight Analysis (TCWA)", "math_branch": "BOUNDED_ARITHMETIC"} | 3 |
-| Free Probability | 3 |
 | Tropical Circuit Weight Analysis (BOUNDED_ARITHMETIC) | 3 |
 | Schur-Weyl Duality | 3 |
+| Polymatroid Theory | 3 |
 | Algebraic Geometry of Secant Varieties | 3 |
 | Noncommutative geometry | 2 |
 | Representation theory of symmetric groups | 2 |
@@ -61,16 +62,11 @@ Generated 2026-05-08 00:42 UTC
 | Schur-Weyl duality | 2 |
 | Noncommutative L^p Geometry | 2 |
 | Tropical Circuit Weight Analysis (TCWA) in BOUNDED_ARITHMETIC | 2 |
-| Spectral Graph Theory | 2 |
 
 ## Last 15 cycles (chronological)
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-07 22:08 UTC | `INCONCLUSIVE` | Lyndon Factor Width Lower-Bounds Tree-Like Resolution |
-| 2026-05-07 22:09 UTC | `INCONCLUSIVE` | Polymatroid Rank Gap in Monotone DNF Depth for k-CLIQUE |
-| 2026-05-07 22:33 UTC | `INCONCLUSIVE` | Finite Plane Line Count Bounds MCSP Complexity |
-| 2026-05-07 22:35 UTC | `BARRIER_HIT` | Leinster Magnitude of Hamming-Embedded Communication Matrices Low |
 | 2026-05-07 22:46 UTC | `INCONCLUSIVE` | Free Cumulant Gap in Read-Twice Branching Programs for IP_2 |
 | 2026-05-07 22:58 UTC | `INCONCLUSIVE` | Kronecker Coefficient Asymmetry in Symmetric Tensor Decomposition |
 | 2026-05-07 23:11 UTC | `INCONCLUSIVE` | Cubical Euler Characteristic Bounds DNF-Min for Symmetric Functio |
@@ -82,6 +78,10 @@ Generated 2026-05-08 00:42 UTC
 | 2026-05-08 00:24 UTC | `INCONCLUSIVE` | Möbius Mass of Gate-Support Meet-Semilattice Bounds AC⁰ PARITY Si |
 | 2026-05-08 00:38 UTC | `INCONCLUSIVE` | Secant Variety Dimension Lower-Bounds Disjointness Communication  |
 | 2026-05-08 00:42 UTC | `BARRIER_HIT` | Stern-Brocot Rank of Truth Tables Lifts Average-to-Worst MCSP |
+| 2026-05-08 01:14 UTC | `INCONCLUSIVE` | Slice Rank of Layer-Variable Tensor Lower-Bounds Read-Twice BP Si |
+| 2026-05-08 01:18 UTC | `INCONCLUSIVE` | Polymatroid Rank Lower Bound for Monotone DNF Representing k-CLIQ |
+| 2026-05-08 01:28 UTC | `INCONCLUSIVE` | Free Cumulant Gap in Read-Twice BP for IP_2 |
+| 2026-05-08 01:44 UTC | `INCONCLUSIVE` | Persistent Homology Barcodes and Communication Complexity of Bool |
 
 ## How to read the reports
 

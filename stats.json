@@ -1,13 +1,13 @@
 {
-  "last_update_utc": "2026-05-08T00:47:02Z",
-  "total_cycles": 325,
+  "last_update_utc": "2026-05-08T01:47:01Z",
+  "total_cycles": 329,
   "verdict_counts": {
-    "INCONCLUSIVE": 294,
+    "INCONCLUSIVE": 298,
     "SUPPORTED": 4,
     "FALSIFIED": 15,
     "BARRIER_HIT": 12
   },
-  "unique_field_A": 264,
+  "unique_field_A": 265,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
@@ -38,6 +38,10 @@
       4
     ],
     [
+      "Free Probability",
+      4
+    ],
+    [
       "Fourier analysis of boolean functions",
       3
     ],
@@ -54,10 +58,6 @@
       3
     ],
     [
-      "Free Probability",
-      3
-    ],
-    [
       "Tropical Circuit Weight Analysis (BOUNDED_ARITHMETIC)",
       3
     ],
@@ -66,7 +66,7 @@
       3
     ],
     [
-      "Algebraic Geometry of Secant Varieties",
+      "Polymatroid Theory",
       3
     ]
   ]
