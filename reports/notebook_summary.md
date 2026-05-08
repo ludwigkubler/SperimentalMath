@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-08 14:45 UTC"
+date: "2026-05-08 15:45 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,19 +13,19 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-08 14:45 UTC
+Generated 2026-05-08 15:45 UTC
 
-- Cycles recorded: **402**
-- Time span: 353.1h (~1.14 cycles/h)
+- Cycles recorded: **408**
+- Time span: 354.1h (~1.15 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 368 |
+| INCONCLUSIVE | 373 |
+| BARRIER_HIT | 16 |
 | FALSIFIED | 15 |
-| BARRIER_HIT | 15 |
 | SUPPORTED | 4 |
 
 ## Mathematical fields explored (field_A)
@@ -67,12 +67,6 @@ Generated 2026-05-08 14:45 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-08 11:22 UTC | `INCONCLUSIVE` | Forman-Ricci Negative-Edge Count Lower-Bounds Tseitin DPLL Size |
-| 2026-05-08 11:42 UTC | `INCONCLUSIVE` | Matroid Rank Gap in Monotone DNF Depth for k-CLIQUE |
-| 2026-05-08 11:59 UTC | `INCONCLUSIVE` | Fourier Coefficient Flatness Implies Worst-Case Hardness for Bool |
-| 2026-05-08 12:13 UTC | `INCONCLUSIVE` | Fourier Coefficient Product Lower Bound on Disjointness Communica |
-| 2026-05-08 12:27 UTC | `INCONCLUSIVE` | Fourier Coefficient Decay Implies SOS Degree Lower Bound for Max- |
-| 2026-05-08 12:50 UTC | `INCONCLUSIVE` | Communication Matrix Discrepancy Lower Bound for AC⁰ PARITY Circu |
 | 2026-05-08 13:02 UTC | `INCONCLUSIVE` | Seed Length of Nisan-Wigderson PRG Bounded by Minimal Linear Appr |
 | 2026-05-08 13:14 UTC | `INCONCLUSIVE` | Operator Norm Separation for Read-Twice Branching Programs |
 | 2026-05-08 13:26 UTC | `INCONCLUSIVE` | Plethysm Multiplicity Gap in Symmetric Powers of Permanent vs Det |
@@ -82,6 +76,12 @@ Generated 2026-05-08 14:45 UTC
 | 2026-05-08 14:08 UTC | `INCONCLUSIVE` | Monochromatic Rectangle Density Lower Bounds for PARITY Communica |
 | 2026-05-08 14:26 UTC | `INCONCLUSIVE` | Spectral Gap Lower Bound on Tseitin Resolution Length |
 | 2026-05-08 14:45 UTC | `INCONCLUSIVE` | Hilbert Series Complexity of Orbit Closures for Permanent vs Dete |
+| 2026-05-08 14:52 UTC | `INCONCLUSIVE` | Secant Variety Dimension Lower Bounds for Disjointness Communicat |
+| 2026-05-08 15:00 UTC | `INCONCLUSIVE` | Free Entropy Lower Bound on Disjointness Communication Complexity |
+| 2026-05-08 15:06 UTC | `INCONCLUSIVE` | Invariant Degree Gap in Read-Twice Branching Programs for IP_2 |
+| 2026-05-08 15:19 UTC | `BARRIER_HIT` | Bounded Arithmetic Complexity of Algebraic Closure in Finite Fiel |
+| 2026-05-08 15:39 UTC | `INCONCLUSIVE` | Graph Energy Lower Bound on Tseitin Resolution Length |
+| 2026-05-08 15:45 UTC | `INCONCLUSIVE` | Multiplicity Gap in Symmetric Powers of Permanent vs Determinant  |
 
 ## How to read the reports
 
