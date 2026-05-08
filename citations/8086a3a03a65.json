@@ -1,0 +1,40 @@
+{
+  "entry_id": "8086a3a03a65",
+  "ts": 1778271586.2394805,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1102.2932",
+      "title": "Applications of Monotone Rank to Complexity Theory",
+      "abstract_excerpt": "Raz's recent result \\cite{Raz2010} has rekindled people's interest in the study of \\emph{tensor rank}, the generalization of matrix rank to high dimensions, by showing its connections to arithmetic formulas. In this paper, we follow Raz's work and show that \\emph{monotone rank}, the monotone variant of tensor rank and matrix rank, has applications in algebraic complexity, quantum computing and communication complexity. This paper differs from Raz's paper in that it leverages existing results to ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns monotone rank/tensor rank applications to algebraic branching programs, Bell's theorem, and a multiparty log-rank conjecture — it never mentions Zarankiewicz numbers, K_{s,t}-free matrices, or monotone Boolean circuit size lower bounds derived from extremal bipartite graph forbidden subgraphs.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1709.09876",
+      "title": "Communication Complexity of Cake Cutting",
+      "abstract_excerpt": "We study classic cake-cutting problems, but in discrete models rather than using infinite-precision real values, specifically, focusing on their communication complexity. Using general discrete simulations of classical infinite-precision protocols (Robertson-Webb and moving-knife), we roughly partition the various fair-allocation problems into 3 classes: \"easy\" (constant number of rounds of logarithmic many bits), \"medium\" (poly-logarithmic total communication), and \"hard\". Our main technical re",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns communication complexity of cake-cutting fair-allocation problems, with no mention of Zarankiewicz numbers, K_{s,t}-free matrices, or monotone circuit lower bounds. It shares only the broad 'communication complexity' vocabulary.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2210.06739",
+      "title": "Computing the Best Case Energy Complexity of Satisfying Assignments in Monotone Circuits",
+      "abstract_excerpt": "Measures of circuit complexity are usually analyzed to ensure the computation of Boolean functions with economy and efficiency. One of these measures is energy complexity, which is related to the number of gates that output true in a circuit for an assignment. The idea behind energy complexity comes from the counting of `firing' neurons in a natural neural network. The initial model is based on threshold circuits, but recent works also have analyzed the energy complexity of traditional Boolean c",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the computational complexity of determining minimum energy complexity (number of true-output gates) in monotone circuits, not lower bounds on monotone circuit size from Zarankiewicz/K_{s,t}-free communication matrices.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

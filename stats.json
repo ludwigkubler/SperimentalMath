@@ -1,13 +1,13 @@
 {
-  "last_update_utc": "2026-05-08T19:47:02Z",
-  "total_cycles": 424,
+  "last_update_utc": "2026-05-08T20:47:01Z",
+  "total_cycles": 427,
   "verdict_counts": {
-    "INCONCLUSIVE": 389,
+    "INCONCLUSIVE": 392,
     "SUPPORTED": 4,
     "FALSIFIED": 15,
     "BARRIER_HIT": 16
   },
-  "unique_field_A": 329,
+  "unique_field_A": 330,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
@@ -22,15 +22,19 @@
       7
     ],
     [
+      "Additive Combinatorics",
+      6
+    ],
+    [
       "Algebraic Geometry",
       5
     ],
     [
-      "Additive Combinatorics",
+      "Finite Geometry",
       5
     ],
     [
-      "Finite Geometry",
+      "Schur-Weyl Duality",
       5
     ],
     [
@@ -43,10 +47,6 @@
     ],
     [
       "Random Matrix Theory",
-      4
-    ],
-    [
-      "Schur-Weyl Duality",
       4
     ],
     [

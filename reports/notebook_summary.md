@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-08 19:41 UTC"
+date: "2026-05-08 20:40 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-08 19:41 UTC
+Generated 2026-05-08 20:40 UTC
 
-- Cycles recorded: **424**
-- Time span: 358.0h (~1.18 cycles/h)
+- Cycles recorded: **427**
+- Time span: 359.0h (~1.19 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 389 |
+| INCONCLUSIVE | 392 |
 | BARRIER_HIT | 16 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -35,13 +35,13 @@ Generated 2026-05-08 19:41 UTC
 | Real Algebraic Geometry | 16 |
 | Matroid Theory | 7 |
 | Free Probability | 7 |
+| Additive Combinatorics | 6 |
 | Algebraic Geometry | 5 |
-| Additive Combinatorics | 5 |
 | Finite Geometry | 5 |
+| Schur-Weyl Duality | 5 |
 | Ergodic Circuit Framework (communication complexity via dynamical systems) | 4 |
 | {"framework_name": "Ergodic Circuit Framework", "math_branch": "COMM_COMPLEXITY"} | 4 |
 | Random Matrix Theory | 4 |
-| Schur-Weyl Duality | 4 |
 | Algebraic Geometry of Secant Varieties | 4 |
 | FOURIER_ANALYSIS | 4 |
 | Fourier analysis of boolean functions | 3 |
@@ -67,9 +67,6 @@ Generated 2026-05-08 19:41 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-08 16:16 UTC | `INCONCLUSIVE` | Invariant Polynomial Generation Complexity in Determinant vs Perm |
-| 2026-05-08 17:02 UTC | `INCONCLUSIVE` | Covering Radius Bound on Set System Discrepancy |
-| 2026-05-08 17:17 UTC | `INCONCLUSIVE` | Algebraic Geometry Solution Count Lower Bound on ACC^0 Circuit Si |
 | 2026-05-08 17:23 UTC | `INCONCLUSIVE` | Matroid Rank Deficit in Monotone DNF Depth for k-CLIQUE |
 | 2026-05-08 17:36 UTC | `INCONCLUSIVE` | Betti Number Exponential Lower Bound on Tseitin Resolution Length |
 | 2026-05-08 17:49 UTC | `INCONCLUSIVE` | Tensor Rank Lower Bound on SOS Refutation Size for Symmetric CSPs |
@@ -82,6 +79,9 @@ Generated 2026-05-08 19:41 UTC
 | 2026-05-08 19:22 UTC | `INCONCLUSIVE` | Quandle Isomorphism Complexity and ACC^0 Circuit Depth |
 | 2026-05-08 19:28 UTC | `INCONCLUSIVE` | Schur-Weyl Decomposition Rank Lower Bounds Disjointness Communica |
 | 2026-05-08 19:41 UTC | `INCONCLUSIVE` | Persistent Homology Barcode Length Inversely Proportional to DPLL |
+| 2026-05-08 20:09 UTC | `INCONCLUSIVE` | Additive Energy Threshold Exceeds ACC⁰ Circuit Size |
+| 2026-05-08 20:19 UTC | `INCONCLUSIVE` | Zarankiewicz-Free Communication Matrices Imply Monotone Circuit L |
+| 2026-05-08 20:40 UTC | `INCONCLUSIVE` | Kronecker Coefficient Growth Separates Permanent vs Determinant |
 
 ## How to read the reports
 
