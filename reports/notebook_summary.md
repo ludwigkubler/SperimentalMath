@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-08 22:24 UTC"
+date: "2026-05-08 23:45 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-08 22:24 UTC
+Generated 2026-05-08 23:45 UTC
 
-- Cycles recorded: **436**
-- Time span: 360.7h (~1.21 cycles/h)
+- Cycles recorded: **439**
+- Time span: 362.1h (~1.21 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 401 |
+| INCONCLUSIVE | 404 |
 | BARRIER_HIT | 16 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -32,11 +32,11 @@ Generated 2026-05-08 22:24 UTC
 
 | Field | Cycles |
 |---|---|
-| Real Algebraic Geometry | 18 |
+| Real Algebraic Geometry | 19 |
 | Matroid Theory | 7 |
 | Free Probability | 7 |
+| Schur-Weyl Duality | 7 |
 | Additive Combinatorics | 6 |
-| Schur-Weyl Duality | 6 |
 | Algebraic Geometry | 5 |
 | Finite Geometry | 5 |
 | Ergodic Circuit Framework (communication complexity via dynamical systems) | 4 |
@@ -67,9 +67,6 @@ Generated 2026-05-08 22:24 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-08 19:22 UTC | `INCONCLUSIVE` | Quandle Isomorphism Complexity and ACC^0 Circuit Depth |
-| 2026-05-08 19:28 UTC | `INCONCLUSIVE` | Schur-Weyl Decomposition Rank Lower Bounds Disjointness Communica |
-| 2026-05-08 19:41 UTC | `INCONCLUSIVE` | Persistent Homology Barcode Length Inversely Proportional to DPLL |
 | 2026-05-08 20:09 UTC | `INCONCLUSIVE` | Additive Energy Threshold Exceeds ACC⁰ Circuit Size |
 | 2026-05-08 20:19 UTC | `INCONCLUSIVE` | Zarankiewicz-Free Communication Matrices Imply Monotone Circuit L |
 | 2026-05-08 20:40 UTC | `INCONCLUSIVE` | Kronecker Coefficient Growth Separates Permanent vs Determinant |
@@ -82,6 +79,9 @@ Generated 2026-05-08 22:24 UTC
 | 2026-05-08 22:01 UTC | `INCONCLUSIVE` | Plethysm Coefficient Exponential Gap in Symmetric Squares of Perm |
 | 2026-05-08 22:16 UTC | `INCONCLUSIVE` | Symmetric Group Multiplicity Sum Lower Bound for Disjointness Com |
 | 2026-05-08 22:24 UTC | `INCONCLUSIVE` | Polymatroid Rank Deficit in Monotone DNF for k-CLIQUE |
+| 2026-05-08 22:53 UTC | `INCONCLUSIVE` | Symmetric Power Rank Gap in CNF Incidence Matrices |
+| 2026-05-08 23:16 UTC | `INCONCLUSIVE` | Real Dimension Gap in Communication Matrices for AC⁰ PARITY |
+| 2026-05-08 23:44 UTC | `INCONCLUSIVE` | Noncommutative Fourier Spectrum Gap in Read-Twice BP for IP_2 |
 
 ## How to read the reports
 
