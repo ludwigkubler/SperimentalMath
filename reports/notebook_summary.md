@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-08 16:30 UTC"
+date: "2026-05-08 17:36 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-08 16:30 UTC
+Generated 2026-05-08 17:36 UTC
 
-- Cycles recorded: **410**
-- Time span: 354.8h (~1.16 cycles/h)
+- Cycles recorded: **414**
+- Time span: 355.9h (~1.16 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 375 |
+| INCONCLUSIVE | 379 |
 | BARRIER_HIT | 16 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -33,8 +33,8 @@ Generated 2026-05-08 16:30 UTC
 | Field | Cycles |
 |---|---|
 | Real Algebraic Geometry | 15 |
+| Matroid Theory | 7 |
 | Free Probability | 7 |
-| Matroid Theory | 6 |
 | Algebraic Geometry | 5 |
 | Additive Combinatorics | 5 |
 | Finite Geometry | 5 |
@@ -61,16 +61,12 @@ Generated 2026-05-08 16:30 UTC
 | Tropical Circuit Weight Analysis (TCWA) — Bounded Arithmetic | 2 |
 | Bounded Arithmetic | 2 |
 | Geometric Complexity Theory | 2 |
-| Additive combinatorics | 2 |
+| Algebraic Geometry over Finite Fields | 2 |
 
 ## Last 15 cycles (chronological)
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-08 13:26 UTC | `INCONCLUSIVE` | Plethysm Multiplicity Gap in Symmetric Powers of Permanent vs Det |
-| 2026-05-08 13:36 UTC | `INCONCLUSIVE` | Moment-Matrix Rank Deficit in Max-CUT Approximation |
-| 2026-05-08 13:42 UTC | `INCONCLUSIVE` | Secant Variety Dimension Lower Bounds Disjointness Communication  |
-| 2026-05-08 13:48 UTC | `INCONCLUSIVE` | Matroid Rank Deficit in Monotone DNF Depth for k-CLIQUE |
 | 2026-05-08 14:08 UTC | `INCONCLUSIVE` | Monochromatic Rectangle Density Lower Bounds for PARITY Communica |
 | 2026-05-08 14:26 UTC | `INCONCLUSIVE` | Spectral Gap Lower Bound on Tseitin Resolution Length |
 | 2026-05-08 14:45 UTC | `INCONCLUSIVE` | Hilbert Series Complexity of Orbit Closures for Permanent vs Dete |
@@ -82,6 +78,10 @@ Generated 2026-05-08 16:30 UTC
 | 2026-05-08 15:45 UTC | `INCONCLUSIVE` | Multiplicity Gap in Symmetric Powers of Permanent vs Determinant  |
 | 2026-05-08 15:54 UTC | `INCONCLUSIVE` | Fourier Coefficient Sum Separation for Read-Twice Branching Progr |
 | 2026-05-08 16:16 UTC | `INCONCLUSIVE` | Invariant Polynomial Generation Complexity in Determinant vs Perm |
+| 2026-05-08 17:02 UTC | `INCONCLUSIVE` | Covering Radius Bound on Set System Discrepancy |
+| 2026-05-08 17:17 UTC | `INCONCLUSIVE` | Algebraic Geometry Solution Count Lower Bound on ACC^0 Circuit Si |
+| 2026-05-08 17:23 UTC | `INCONCLUSIVE` | Matroid Rank Deficit in Monotone DNF Depth for k-CLIQUE |
+| 2026-05-08 17:36 UTC | `INCONCLUSIVE` | Betti Number Exponential Lower Bound on Tseitin Resolution Length |
 
 ## How to read the reports
 

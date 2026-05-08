@@ -1,25 +1,25 @@
 {
-  "last_update_utc": "2026-05-08T16:47:01Z",
-  "total_cycles": 410,
+  "last_update_utc": "2026-05-08T17:47:01Z",
+  "total_cycles": 414,
   "verdict_counts": {
-    "INCONCLUSIVE": 375,
+    "INCONCLUSIVE": 379,
     "SUPPORTED": 4,
     "FALSIFIED": 15,
     "BARRIER_HIT": 16
   },
-  "unique_field_A": 322,
+  "unique_field_A": 324,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
       15
     ],
     [
-      "Free Probability",
+      "Matroid Theory",
       7
     ],
     [
-      "Matroid Theory",
-      6
+      "Free Probability",
+      7
     ],
     [
       "Algebraic Geometry",
