@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-08 04:46 UTC"
+date: "2026-05-08 05:45 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-08 04:46 UTC
+Generated 2026-05-08 05:45 UTC
 
-- Cycles recorded: **342**
-- Time span: 343.1h (~1.00 cycles/h)
+- Cycles recorded: **347**
+- Time span: 344.1h (~1.01 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 311 |
+| INCONCLUSIVE | 316 |
 | FALSIFIED | 15 |
 | BARRIER_HIT | 12 |
 | SUPPORTED | 4 |
@@ -33,19 +33,20 @@ Generated 2026-05-08 04:46 UTC
 | Field | Cycles |
 |---|---|
 | Real Algebraic Geometry | 10 |
+| Matroid Theory | 5 |
 | Algebraic Geometry | 5 |
 | Additive Combinatorics | 5 |
 | Finite Geometry | 5 |
 | Free Probability | 5 |
 | Ergodic Circuit Framework (communication complexity via dynamical systems) | 4 |
 | {"framework_name": "Ergodic Circuit Framework", "math_branch": "COMM_COMPLEXITY"} | 4 |
-| Matroid Theory | 4 |
 | Random Matrix Theory | 4 |
 | Fourier analysis of boolean functions | 3 |
 | Coarse Geometric Lifting (CGL) — Geometric Complexity Theory | 3 |
 | {"framework_name": "Tropical Circuit Weight Analysis (TCWA)", "math_branch": "BOUNDED_ARITHMETIC"} | 3 |
 | Tropical Circuit Weight Analysis (BOUNDED_ARITHMETIC) | 3 |
 | Schur-Weyl Duality | 3 |
+| Spectral Graph Theory | 3 |
 | Polymatroid Theory | 3 |
 | Algebraic Geometry of Secant Varieties | 3 |
 | Noncommutative geometry | 2 |
@@ -61,17 +62,11 @@ Generated 2026-05-08 04:46 UTC
 | Additive combinatorics | 2 |
 | Schur-Weyl duality | 2 |
 | Noncommutative L^p Geometry | 2 |
-| Tropical Circuit Weight Analysis (TCWA) in BOUNDED_ARITHMETIC | 2 |
 
 ## Last 15 cycles (chronological)
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-08 01:28 UTC | `INCONCLUSIVE` | Free Cumulant Gap in Read-Twice BP for IP_2 |
-| 2026-05-08 01:44 UTC | `INCONCLUSIVE` | Persistent Homology Barcodes and Communication Complexity of Bool |
-| 2026-05-08 01:52 UTC | `INCONCLUSIVE` | Jacobi Recurrence b₂ Floor Constrains SoS-2 Max-CUT Ratio |
-| 2026-05-08 02:11 UTC | `INCONCLUSIVE` | Orbit Closure Dimension Bounds Permanent Circuit Complexity |
-| 2026-05-08 02:17 UTC | `INCONCLUSIVE` | Lie Stabilizer Dimension Linearly Bounds Arithmetic Formula Size |
 | 2026-05-08 02:26 UTC | `INCONCLUSIVE` | Finite Plane Line Count Bounds Tseitin Resolution Size |
 | 2026-05-08 02:37 UTC | `INCONCLUSIVE` | Tree-Depth of Tseitin Graph Bounds Resolution Length |
 | 2026-05-08 03:03 UTC | `INCONCLUSIVE` | Projective Plane Incidence Matrix Deterministic Communication Com |
@@ -82,6 +77,11 @@ Generated 2026-05-08 04:46 UTC
 | 2026-05-08 04:12 UTC | `INCONCLUSIVE` | Second-Read Commutator Frobenius Excess Bounds Read-Twice BP Size |
 | 2026-05-08 04:33 UTC | `INCONCLUSIVE` | Additive Energy of Fourier Coefficients Bounds SOS Refutation Siz |
 | 2026-05-08 04:46 UTC | `INCONCLUSIVE` | A_5 Word-Embedding Spectral Norm Lower-Bounds R(DISJ) |
+| 2026-05-08 05:10 UTC | `INCONCLUSIVE` | Algebraic Connectivity Inverse Lower-Bounds Tseitin Resolution Le |
+| 2026-05-08 05:18 UTC | `INCONCLUSIVE` | Metric Dimension Lower Bound on Tseitin Resolution Length |
+| 2026-05-08 05:24 UTC | `INCONCLUSIVE` | Witness-Complex Betti Sum Lower-Bounds Formula Depth |
+| 2026-05-08 05:35 UTC | `INCONCLUSIVE` | Finite Field Representation Complexity and ACC^0 Circuit Size |
+| 2026-05-08 05:45 UTC | `INCONCLUSIVE` | Matroid Connectivity and ACC^0 Circuit Size for 3-SAT Instances |
 
 ## How to read the reports
 

@@ -1,17 +1,21 @@
 {
-  "last_update_utc": "2026-05-08T04:47:02Z",
-  "total_cycles": 342,
+  "last_update_utc": "2026-05-08T05:47:02Z",
+  "total_cycles": 347,
   "verdict_counts": {
-    "INCONCLUSIVE": 311,
+    "INCONCLUSIVE": 316,
     "SUPPORTED": 4,
     "FALSIFIED": 15,
     "BARRIER_HIT": 12
   },
-  "unique_field_A": 274,
+  "unique_field_A": 277,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
       10
+    ],
+    [
+      "Matroid Theory",
+      5
     ],
     [
       "Algebraic Geometry",
@@ -35,10 +39,6 @@
     ],
     [
       "{'framework_name': 'Ergodic Circuit Framework', 'math_branch': 'COMM_COMPLEXITY'}",
-      4
-    ],
-    [
-      "Matroid Theory",
       4
     ],
     [
@@ -66,7 +66,7 @@
       3
     ],
     [
-      "Polymatroid Theory",
+      "Spectral Graph Theory",
       3
     ]
   ]
