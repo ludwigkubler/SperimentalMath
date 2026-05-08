@@ -1,0 +1,40 @@
+{
+  "entry_id": "97b82c049269",
+  "ts": 1778229653.0432835,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1709.08890",
+      "title": "Partial matching width and its application to lower bounds for branching programs",
+      "abstract_excerpt": "We introduce a new structural graph parameter called \\emph{partial matching width}. For each (sufficiently large) integer $k \\geq 1$, we introduce a class $\\mathcal{G}_k$ of graphs of treewidth at most $k$ and max-degree $7$ such that for each $G \\in \\mathcal{G}_k$ and each (sufficiently large) $V \\subseteq V(G)$, the partial matching width of $V$ is $Ω(k \\log |V|)$.\n  We use the above lower bound to establish a lower bound on the size of non-deterministic read-once branching programs (NROBPs). ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'non-deterministic read-once branching programs' for CNFs of bounded treewidth via 'partial matching width', not read-twice BPs for IP_2 nor SVD/participation-ratio dispersion measures. It shares the BP lower-bound framework but does not interact with the specific SVD-dispersion conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1007.1875",
+      "title": "Lower Bounds for Quantum Oblivious Transfer",
+      "abstract_excerpt": "Oblivious transfer is a fundamental primitive in cryptography. While perfect information theoretic security is impossible, quantum oblivious transfer protocols can limit the dishonest players' cheating. Finding the optimal security parameters in such protocols is an important open question. In this paper we show that every 1-out-of-2 oblivious transfer protocol allows a dishonest party to cheat with probability bounded below by a constant strictly larger than 1/2. Alice's cheating is defined as ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quantum oblivious transfer protocols and Kitaev's SDP-based coin flipping lower bounds, which has no interaction with branching program size lower bounds for IP_2 or SVD participation ratios of incidence matrices.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0906.0693",
+      "title": "An improved lower bound on the counterfeit coins problem",
+      "abstract_excerpt": "In this paper, we will give an improvement on the lower bound for the counterfeit coins problem in the case that the number of false coins is unknown in advance",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a lower bound for the counterfeit coins problem with an unknown number of false coins, which has no connection to branching programs, IP_2, or SVD-based dispersion measures.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

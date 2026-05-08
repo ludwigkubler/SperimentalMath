@@ -1,0 +1,40 @@
+{
+  "entry_id": "11647c329d11",
+  "ts": 1778229161.7488625,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1709.08890",
+      "title": "Partial matching width and its application to lower bounds for branching programs",
+      "abstract_excerpt": "We introduce a new structural graph parameter called \\emph{partial matching width}. For each (sufficiently large) integer $k \\geq 1$, we introduce a class $\\mathcal{G}_k$ of graphs of treewidth at most $k$ and max-degree $7$ such that for each $G \\in \\mathcal{G}_k$ and each (sufficiently large) $V \\subseteq V(G)$, the partial matching width of $V$ is $Ω(k \\log |V|)$.\n  We use the above lower bound to establish a lower bound on the size of non-deterministic read-once branching programs (NROBPs). ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'partial matching width' and lower bounds for non-deterministic read-once branching programs on bounded-treewidth CNFs, which shares the BP lower-bound framework but does not address Lie nilpotency class, layer-algebra commutators, read-twice BPs, or IP_2.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2001.07570",
+      "title": "Hom 3-Lie-Rinehart Algebras",
+      "abstract_excerpt": "After endowing with a 3-Lie-Rinehart structure on Hom 3-Lie algebras, we obtain a class of special\n  Hom 3-Lie algebras, which have close relationships with representations of commutative associative algebras. We provide a special class of Hom 3-Lie-Rinehart algebras, called split regular Hom 3-Lie-Rinehart algebras, and we then characterize their structures by means of root systems and weight systems associated to a splitting Cartan subalgebra.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Hom 3-Lie-Rinehart algebras, root systems, and splitting Cartan subalgebras — a structural Lie-theoretic topic with no mention of nilpotency class, branching programs, or IP_2 lower bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1807.11011",
+      "title": "The capability and certain functors of some nilpotent Lie algebras of class two",
+      "abstract_excerpt": "Recently, the authors obtained the Schur multiplier, the non-abelian tensor square and the non-abelian exterior square of $d$-generator generalized Heisenberg Lie algebras of rank $ \\frac{1}{2}d(d-1).$ Here, we intend to obtain the same results for $d$-generator generalized Heisenberg Lie algebras of rank $ t$ when $ \\frac{1}{2}d(d-1)-3 \\leq t\\leq \\frac{1}{2}d(d-1)-1.$ Then, as a result, we give similar consequences for a nilpotent Lie algebra $ L $ of class two when $ \\dim (L/Z(L))=d,$ $ \\dim L",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Schur multipliers, non-abelian tensor/exterior squares of generalized Heisenberg Lie algebras of class two, with no connection to branching-program lower bounds or nilpotency-class growth as a complexity measure.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

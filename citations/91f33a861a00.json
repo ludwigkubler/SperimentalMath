@@ -1,0 +1,40 @@
+{
+  "entry_id": "91f33a861a00",
+  "ts": 1778229921.0613468,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2602.17248",
+      "title": "The optimal hypercontractive constants for $\\mathbb{Z}_3$ and biased Bernoulli random variables",
+      "abstract_excerpt": "We resolve a folklore problem of determining the optimal hypercontractive constants $r_{p,q}(\\mathbb{Z}_3)$ for the cyclic group $\\mathbb{Z}_3$ for all $1 &lt; p &lt; q &lt; \\infty$. More precisely, we have \\[ r_{p,q}(\\mathbb{Z}_3) = \\frac{(1 + 2x)(1 - y)}{(1 + 2y)(1 - x)}, \\] where $(x,y)$ is the unique solution in the open unit square $(0,1)\\times (0,1)$ to the system of equations \\begin{align*} \\left\\{ \\begin{aligned} &amp;\\frac{1}{1+2x}\\Big(\\frac{1+2x^p}{3}\\Big)^{\\frac{1}{p}}=\\frac{1}{1+2y}\\",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns optimal hypercontractive constants for Z_3 and biased Bernoulli variables ('We resolve a folklore problem of determining the optimal hypercontractive constants r_{p,q}(Z_3)'), with no engagement with DPLL search trees, CNF satisfiability, or clause-count functions.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2511.07739",
+      "title": "A Lower Bound for the Fourier Entropy of Boolean Functions on the Biased Hypercube",
+      "abstract_excerpt": "We study Boolean functions on the $p$-biased hypercube $(\\{0,1\\}^n,μ_p^n)$ through the lens of Fourier (spectral) entropy, i.e. the Shannon entropy of the squared $p$-biased Fourier coefficients. Motivated by recent restriction-based advances on upper bounds toward the Fourier-Entropy-Influence (FEI) conjecture, we prove a complementary, sharp lower bound that decomposes the entropy into coordinate-wise contributions. Let $q:=4p(1-p)$ and define $Ψ:[0,\\tfrac12]\\to[0,\\ln 2]$ by $Ψ(t):=h\\left(\\fra",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a lower bound on Fourier entropy on the biased hypercube (FEI-style), with no mention of DPLL search-tree size, random 3-CNF unsatisfiability, or the L4/L2 hypercontractive ratio of clause-count functions. It shares Boolean-Fourier vocabulary but does not interact with the specific T_DPLL ≥ (n−log m)/E(Φ) − 5 claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1908.05361",
+      "title": "Placing quantified variants of 3-SAT and Not-All-Equal 3-SAT in the polynomial hierarchy",
+      "abstract_excerpt": "The complexity of variants of 3-SAT and Not-All-Equal 3-SAT is well studied. However, in contrast, very little is known about the complexity of the problems' quantified counterparts. In the first part of this paper, we show that $\\forall \\exists$ 3-SAT is $Π_2^P$-complete even if (1) each variable appears exactly twice unnegated and exactly twice negated, (2) each clause is a disjunction of exactly three distinct variables, and (3) the number of universal variables is equal to the number of exis",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns complexity classification of quantified 3-SAT variants in the polynomial hierarchy ('$Π_2^P$-complete'), with no mention of DPLL tree size, hypercontractivity, or Fourier-analytic flatness invariants relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

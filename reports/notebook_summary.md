@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-08 07:43 UTC"
+date: "2026-05-08 08:45 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-08 07:43 UTC
+Generated 2026-05-08 08:45 UTC
 
-- Cycles recorded: **363**
-- Time span: 346.1h (~1.05 cycles/h)
+- Cycles recorded: **372**
+- Time span: 347.1h (~1.07 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 331 |
+| INCONCLUSIVE | 340 |
 | FALSIFIED | 15 |
 | BARRIER_HIT | 13 |
 | SUPPORTED | 4 |
@@ -32,7 +32,7 @@ Generated 2026-05-08 07:43 UTC
 
 | Field | Cycles |
 |---|---|
-| Real Algebraic Geometry | 12 |
+| Real Algebraic Geometry | 14 |
 | Free Probability | 7 |
 | Matroid Theory | 6 |
 | Algebraic Geometry | 5 |
@@ -67,21 +67,21 @@ Generated 2026-05-08 07:43 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-08 06:04 UTC | `INCONCLUSIVE` | Real Dimension Lower Bound for AC⁰ PARITY Circuits |
-| 2026-05-08 06:11 UTC | `INCONCLUSIVE` | Free Cumulant Gap in Read-Twice Branching Programs for IP_2 |
-| 2026-05-08 06:17 UTC | `BARRIER_HIT` | Plunnecke Doubling of Top-Fourier Spectrum Bounds ACC0 Size |
-| 2026-05-08 06:23 UTC | `INCONCLUSIVE` | Matroid Rank Lower-Bounds Disjointness Communication Complexity |
-| 2026-05-08 06:34 UTC | `INCONCLUSIVE` | Tree-to-Dimension Tightness for MAJ_3: Optimal KW Protocols Yield |
-| 2026-05-08 06:34 UTC | `INCONCLUSIVE` | Asymptotic Dimension and Resolution Length for Tseitin Formulas |
-| 2026-05-08 06:40 UTC | `INCONCLUSIVE` | Matroid Spread Bounded by Monotone DNF Size |
-| 2026-05-08 06:49 UTC | `INCONCLUSIVE` | Plethysm Coefficient Gap in Symmetric Powers of Permanent Polynom |
-| 2026-05-08 06:55 UTC | `INCONCLUSIVE` | Sandpile-Group 2-Rank Lower-Bounds Tseitin DPLL Tree Size |
 | 2026-05-08 06:56 UTC | `INCONCLUSIVE` | Secant Variety Dimension Lower-Bounds Disjointness Communication  |
 | 2026-05-08 07:12 UTC | `INCONCLUSIVE` | Free Cumulant Gap in Read-Twice BPs Bounds Disjointness Communica |
 | 2026-05-08 07:21 UTC | `INCONCLUSIVE` | Gowers Uniformity Norm of Boolean Functions Bounds ACC⁰ Circuit S |
 | 2026-05-08 07:33 UTC | `INCONCLUSIVE` | Low-Degree Fourier Mass of Cut Indicator Bounds Tseitin Resolutio |
 | 2026-05-08 07:38 UTC | `INCONCLUSIVE` | Monomial Ideal Generators and Frege Proof Complexity |
 | 2026-05-08 07:43 UTC | `INCONCLUSIVE` | Positivstellensatz Rank Lower-Bounds SOS Max-CUT Degree |
+| 2026-05-08 07:54 UTC | `INCONCLUSIVE` | Real Stable Rank Lower-Bounds AC⁰ PARITY Circuit Size |
+| 2026-05-08 08:00 UTC | `INCONCLUSIVE` | Real Variety Connectedness Lower Bound on SOS Degree for Max-CUT |
+| 2026-05-08 08:01 UTC | `INCONCLUSIVE` | Legendre-Symbol Partial-Sum Anomaly Excludes ACC^0 |
+| 2026-05-08 08:12 UTC | `INCONCLUSIVE` | Möbius Coinvariant of Minterm Intersection Lattice Bounds k-CLIQU |
+| 2026-05-08 08:22 UTC | `INCONCLUSIVE` | Network Reliability Deficit Lower-Bounds Tseitin Resolution |
+| 2026-05-08 08:28 UTC | `INCONCLUSIVE` | Three-Distance Beatty Ordering Matches Avg DPLL on Random 3-SAT |
+| 2026-05-08 08:32 UTC | `INCONCLUSIVE` | Lie Nilpotency Class of Layer Algebra Distinguishes Read-Twice BP |
+| 2026-05-08 08:40 UTC | `INCONCLUSIVE` | SVD Participation Dispersion of Mid-Layer Lower-Bounds Read-Twice |
+| 2026-05-08 08:45 UTC | `INCONCLUSIVE` | Hypercontractive L4/L2 Flatness of Clause-Count Lower-Bounds DPLL |
 
 ## How to read the reports
 
