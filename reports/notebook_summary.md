@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-08 13:42 UTC"
+date: "2026-05-08 14:45 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-08 13:42 UTC
+Generated 2026-05-08 14:45 UTC
 
-- Cycles recorded: **398**
-- Time span: 352.0h (~1.13 cycles/h)
+- Cycles recorded: **402**
+- Time span: 353.1h (~1.14 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 364 |
+| INCONCLUSIVE | 368 |
 | FALSIFIED | 15 |
 | BARRIER_HIT | 15 |
 | SUPPORTED | 4 |
@@ -67,10 +67,6 @@ Generated 2026-05-08 13:42 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-08 10:49 UTC | `INCONCLUSIVE` | Schur-Horn Diagonal-Spectrum Defect Bounds SOS-2 Max-Cut Gap |
-| 2026-05-08 11:00 UTC | `INCONCLUSIVE` | Bregman-Minc Permanent Defect Lower-Bounds SOS-2 Max-Cut Gap on T |
-| 2026-05-08 11:07 UTC | `INCONCLUSIVE` | Selberg Log-Gas Rigidity Defect Bounds SOS-2 Max-CUT Gap |
-| 2026-05-08 11:12 UTC | `BARRIER_HIT` | Lasserre Moment-Rank Gap of Accept Set Bounds AC0 PARITY Size |
 | 2026-05-08 11:22 UTC | `INCONCLUSIVE` | Forman-Ricci Negative-Edge Count Lower-Bounds Tseitin DPLL Size |
 | 2026-05-08 11:42 UTC | `INCONCLUSIVE` | Matroid Rank Gap in Monotone DNF Depth for k-CLIQUE |
 | 2026-05-08 11:59 UTC | `INCONCLUSIVE` | Fourier Coefficient Flatness Implies Worst-Case Hardness for Bool |
@@ -82,6 +78,10 @@ Generated 2026-05-08 13:42 UTC
 | 2026-05-08 13:26 UTC | `INCONCLUSIVE` | Plethysm Multiplicity Gap in Symmetric Powers of Permanent vs Det |
 | 2026-05-08 13:36 UTC | `INCONCLUSIVE` | Moment-Matrix Rank Deficit in Max-CUT Approximation |
 | 2026-05-08 13:42 UTC | `INCONCLUSIVE` | Secant Variety Dimension Lower Bounds Disjointness Communication  |
+| 2026-05-08 13:48 UTC | `INCONCLUSIVE` | Matroid Rank Deficit in Monotone DNF Depth for k-CLIQUE |
+| 2026-05-08 14:08 UTC | `INCONCLUSIVE` | Monochromatic Rectangle Density Lower Bounds for PARITY Communica |
+| 2026-05-08 14:26 UTC | `INCONCLUSIVE` | Spectral Gap Lower Bound on Tseitin Resolution Length |
+| 2026-05-08 14:45 UTC | `INCONCLUSIVE` | Hilbert Series Complexity of Orbit Closures for Permanent vs Dete |
 
 ## How to read the reports
 
