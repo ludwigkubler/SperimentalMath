@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-08 11:42 UTC"
+date: "2026-05-08 12:30 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-08 11:42 UTC
+Generated 2026-05-08 12:30 UTC
 
-- Cycles recorded: **389**
-- Time span: 350.0h (~1.11 cycles/h)
+- Cycles recorded: **392**
+- Time span: 350.8h (~1.12 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 355 |
+| INCONCLUSIVE | 358 |
 | FALSIFIED | 15 |
 | BARRIER_HIT | 15 |
 | SUPPORTED | 4 |
@@ -50,6 +50,7 @@ Generated 2026-05-08 11:42 UTC
 | Tropical Circuit Weight Analysis (BOUNDED_ARITHMETIC) | 3 |
 | Spectral Graph Theory | 3 |
 | Polymatroid Theory | 3 |
+| FOURIER_ANALYSIS | 3 |
 | Noncommutative geometry | 2 |
 | Representation theory of symmetric groups | 2 |
 | Ergodic Circuit Framework (COMM_COMPLEXITY) | 2 |
@@ -61,15 +62,11 @@ Generated 2026-05-08 11:42 UTC
 | Geometric Complexity Theory | 2 |
 | Additive combinatorics | 2 |
 | Schur-Weyl duality | 2 |
-| Noncommutative L^p Geometry | 2 |
 
 ## Last 15 cycles (chronological)
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-08 09:37 UTC | `INCONCLUSIVE` | Non-backtracking Spectral Gap Lower-Bounds Tseitin DPLL Trees |
-| 2026-05-08 09:52 UTC | `INCONCLUSIVE` | Symmetrized Univariate Approximate Degree Bounds AC0 PARITY |
-| 2026-05-08 09:57 UTC | `BARRIER_HIT` | Bivariate Mahler Measure of Sign Polynomial Lower-Bounds R(DISJ) |
 | 2026-05-08 10:04 UTC | `INCONCLUSIVE` | Hochster Betti Sum of Monotone f Lower-Bounds Log-Rank of IND-Lif |
 | 2026-05-08 10:10 UTC | `INCONCLUSIVE` | Cut-Polynomial Kurtosis Excess Bounds GW SDP Integrality Gap |
 | 2026-05-08 10:17 UTC | `INCONCLUSIVE` | Golden-Ratio Rotation Discrepancy of Truth Tables Excludes ACC^0[ |
@@ -82,6 +79,9 @@ Generated 2026-05-08 11:42 UTC
 | 2026-05-08 11:12 UTC | `BARRIER_HIT` | Lasserre Moment-Rank Gap of Accept Set Bounds AC0 PARITY Size |
 | 2026-05-08 11:22 UTC | `INCONCLUSIVE` | Forman-Ricci Negative-Edge Count Lower-Bounds Tseitin DPLL Size |
 | 2026-05-08 11:42 UTC | `INCONCLUSIVE` | Matroid Rank Gap in Monotone DNF Depth for k-CLIQUE |
+| 2026-05-08 11:59 UTC | `INCONCLUSIVE` | Fourier Coefficient Flatness Implies Worst-Case Hardness for Bool |
+| 2026-05-08 12:13 UTC | `INCONCLUSIVE` | Fourier Coefficient Product Lower Bound on Disjointness Communica |
+| 2026-05-08 12:27 UTC | `INCONCLUSIVE` | Fourier Coefficient Decay Implies SOS Degree Lower Bound for Max- |
 
 ## How to read the reports
 
