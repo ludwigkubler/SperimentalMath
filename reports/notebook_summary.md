@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-08 17:36 UTC"
+date: "2026-05-08 18:36 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-08 17:36 UTC
+Generated 2026-05-08 18:36 UTC
 
-- Cycles recorded: **414**
-- Time span: 355.9h (~1.16 cycles/h)
+- Cycles recorded: **418**
+- Time span: 356.9h (~1.17 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 379 |
+| INCONCLUSIVE | 383 |
 | BARRIER_HIT | 16 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -67,10 +67,6 @@ Generated 2026-05-08 17:36 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-08 14:08 UTC | `INCONCLUSIVE` | Monochromatic Rectangle Density Lower Bounds for PARITY Communica |
-| 2026-05-08 14:26 UTC | `INCONCLUSIVE` | Spectral Gap Lower Bound on Tseitin Resolution Length |
-| 2026-05-08 14:45 UTC | `INCONCLUSIVE` | Hilbert Series Complexity of Orbit Closures for Permanent vs Dete |
-| 2026-05-08 14:52 UTC | `INCONCLUSIVE` | Secant Variety Dimension Lower Bounds for Disjointness Communicat |
 | 2026-05-08 15:00 UTC | `INCONCLUSIVE` | Free Entropy Lower Bound on Disjointness Communication Complexity |
 | 2026-05-08 15:06 UTC | `INCONCLUSIVE` | Invariant Degree Gap in Read-Twice Branching Programs for IP_2 |
 | 2026-05-08 15:19 UTC | `BARRIER_HIT` | Bounded Arithmetic Complexity of Algebraic Closure in Finite Fiel |
@@ -82,6 +78,10 @@ Generated 2026-05-08 17:36 UTC
 | 2026-05-08 17:17 UTC | `INCONCLUSIVE` | Algebraic Geometry Solution Count Lower Bound on ACC^0 Circuit Si |
 | 2026-05-08 17:23 UTC | `INCONCLUSIVE` | Matroid Rank Deficit in Monotone DNF Depth for k-CLIQUE |
 | 2026-05-08 17:36 UTC | `INCONCLUSIVE` | Betti Number Exponential Lower Bound on Tseitin Resolution Length |
+| 2026-05-08 17:49 UTC | `INCONCLUSIVE` | Tensor Rank Lower Bound on SOS Refutation Size for Symmetric CSPs |
+| 2026-05-08 18:02 UTC | `INCONCLUSIVE` | Newton Polytope Vertex Count Bounds SOS Degree for Max-CUT Approx |
+| 2026-05-08 18:22 UTC | `INCONCLUSIVE` | Noncommutative Quantum Dimension Lower Bound on Disjointness |
+| 2026-05-08 18:36 UTC | `INCONCLUSIVE` | Noncommutative Norm Gap in Read-Twice Branching Programs for IP_2 |
 
 ## How to read the reports
 

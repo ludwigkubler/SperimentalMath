@@ -1,0 +1,40 @@
+{
+  "entry_id": "03c7a9ecad95",
+  "ts": 1778263376.2943766,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/1512.01594v2",
+      "title": "Pruning Algorithms for Pretropisms of Newton Polytopes",
+      "abstract_excerpt": "Pretropisms are candidates for the leading exponents of Puiseux series that represent solutions of polynomial systems. To find pretropisms, we propose an exact gift wrapping algorithm to prune the tree of edges of a tuple of Newton polytopes. We prefer exact arithmetic not only because of the exact ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a gift wrapping algorithm for pruning pretropisms (leading exponents of Puiseux series) from Newton polytopes, which shares only the 'Newton polytope' vocabulary with the conjecture but does not address SOS degree bounds or Max-CUT approximation.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1604.01183v2",
+      "title": "Approximate Polytope Membership Queries",
+      "abstract_excerpt": "In the polytope membership problem, a convex polytope $K$ in $\\mathbb{R}^d$ is given, and the objective is to preprocess $K$ into a data structure so that, given any query point $q \\in \\mathbb{R}^d$, it is possible to determine efficiently whether $q \\in K$. We consider this problem in an approximat",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a data structure for approximate polytope membership queries in R^d, which shares the 'polytope' vocabulary but does not address Newton polytopes, SOS degree, or Max-CUT approximation bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2107.00574v1",
+      "title": "Trigonometric approximation of the Max-Cut Polytope is star-like",
+      "abstract_excerpt": "The Max-Cut polytope appears in the formulation of many difficult combinatorial optimization problems. These problems can also be formulated as optimization problems over the so-called trigonometric approximation which possesses an algorithmically accessible description but is not convex. Hirschfeld",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a 'trigonometric approximation' of the Max-Cut polytope as a non-convex algorithmic description, with no mention of SOS degree, Newton polytopes, or lower bounds of the form d ≥ log(m). It shares the Max-Cut topic but does not interact with the specific SOS degree claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
