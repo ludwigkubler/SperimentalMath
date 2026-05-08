@@ -1,0 +1,40 @@
+{
+  "entry_id": "5a78c0e11f98",
+  "ts": 1778273938.313022,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2512.09960",
+      "title": "Numerical Behavior of the Riemann Zeta Function Using Real-to-Complex Conversion Without Gram Points or Bracketing",
+      "abstract_excerpt": "The Riemann zeta function and the distribution of its nontrivial zeros on the critical line remain central topics in analytic number theory and large-scale computation. This work develops a numerical framework that replaces classical Gram-point bracketing with a real-to-complex parametrization of the critical line. Combined with high-precision evaluation of the Hardy Z function using the Riemann-Siegel formula with Gabcke type remainder control, this parametrization induces a Valley Scanner algo",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns numerical computation of Riemann zeta zeros via a 'real-to-complex parametrization' and 'Valley Scanner algorithm,' with no mention of Max-CUT, SOS degree, or real radicals of polynomial systems.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/physics/0401058v1",
+      "title": "Multimer Radical Ions and Electron/Hole Localization in Polyatomic Molecular Liquids: A critical review",
+      "abstract_excerpt": "While ionization of some polyatomic molecular liquids (such as water and aliphatic alcohols) yields so-called \"solvated electrons\" in which the excess electron density is localized in the interstices between the solvent molecules, most organic and inorganic liquids yield radical anions and cations i",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'radical anions and cations' in molecular liquids—a chemistry topic—not real radicals in algebraic geometry or SOS degree, despite the shared word 'radical'.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1806.09998",
+      "title": "Real time state monitoring and fault diagnosis system for motor based on LabVIEW",
+      "abstract_excerpt": "Motor is the most widely used production equipment in industrial field. In order to realize the real-time state monitoring and multi-fault pre-diagnosis of three-phase motor, this paper presents a design of three-phase motor state monitoring and fault diagnosis system based on LabVIEW.\n  The multi-dimensional vibration acceleration, rotational speed, temperature, current and voltage signals of the motor are collected with NI cDAQ acquisition equipment in real time and high speed. At the same tim",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a LabVIEW-based motor fault diagnosis system using vibration and electrical signals, which has no relation to SOS degree, Max-CUT, or real radical dimension in algebraic geometry.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

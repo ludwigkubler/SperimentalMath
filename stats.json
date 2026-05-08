@@ -1,17 +1,17 @@
 {
-  "last_update_utc": "2026-05-08T20:47:01Z",
-  "total_cycles": 427,
+  "last_update_utc": "2026-05-08T21:47:01Z",
+  "total_cycles": 433,
   "verdict_counts": {
-    "INCONCLUSIVE": 392,
+    "INCONCLUSIVE": 398,
     "SUPPORTED": 4,
     "FALSIFIED": 15,
     "BARRIER_HIT": 16
   },
-  "unique_field_A": 330,
+  "unique_field_A": 333,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
-      16
+      18
     ],
     [
       "Matroid Theory",
@@ -26,15 +26,15 @@
       6
     ],
     [
+      "Schur-Weyl Duality",
+      6
+    ],
+    [
       "Algebraic Geometry",
       5
     ],
     [
       "Finite Geometry",
-      5
-    ],
-    [
-      "Schur-Weyl Duality",
       5
     ],
     [

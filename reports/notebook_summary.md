@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-08 20:40 UTC"
+date: "2026-05-08 21:44 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-08 20:40 UTC
+Generated 2026-05-08 21:44 UTC
 
-- Cycles recorded: **427**
-- Time span: 359.0h (~1.19 cycles/h)
+- Cycles recorded: **433**
+- Time span: 360.1h (~1.20 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 392 |
+| INCONCLUSIVE | 398 |
 | BARRIER_HIT | 16 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -32,13 +32,13 @@ Generated 2026-05-08 20:40 UTC
 
 | Field | Cycles |
 |---|---|
-| Real Algebraic Geometry | 16 |
+| Real Algebraic Geometry | 18 |
 | Matroid Theory | 7 |
 | Free Probability | 7 |
 | Additive Combinatorics | 6 |
+| Schur-Weyl Duality | 6 |
 | Algebraic Geometry | 5 |
 | Finite Geometry | 5 |
-| Schur-Weyl Duality | 5 |
 | Ergodic Circuit Framework (communication complexity via dynamical systems) | 4 |
 | {"framework_name": "Ergodic Circuit Framework", "math_branch": "COMM_COMPLEXITY"} | 4 |
 | Random Matrix Theory | 4 |
@@ -67,12 +67,6 @@ Generated 2026-05-08 20:40 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-08 17:23 UTC | `INCONCLUSIVE` | Matroid Rank Deficit in Monotone DNF Depth for k-CLIQUE |
-| 2026-05-08 17:36 UTC | `INCONCLUSIVE` | Betti Number Exponential Lower Bound on Tseitin Resolution Length |
-| 2026-05-08 17:49 UTC | `INCONCLUSIVE` | Tensor Rank Lower Bound on SOS Refutation Size for Symmetric CSPs |
-| 2026-05-08 18:02 UTC | `INCONCLUSIVE` | Newton Polytope Vertex Count Bounds SOS Degree for Max-CUT Approx |
-| 2026-05-08 18:22 UTC | `INCONCLUSIVE` | Noncommutative Quantum Dimension Lower Bound on Disjointness |
-| 2026-05-08 18:36 UTC | `INCONCLUSIVE` | Noncommutative Norm Gap in Read-Twice Branching Programs for IP_2 |
 | 2026-05-08 18:47 UTC | `INCONCLUSIVE` | Laplacian Eigenvalue Deficit Bounds SOS Degree for Max-CUT |
 | 2026-05-08 18:56 UTC | `INCONCLUSIVE` | Diophantine Approximation Bound on Resolution Proof Size |
 | 2026-05-08 19:10 UTC | `INCONCLUSIVE` | Submodular Coverage Deficit in Monotone DNF for k-CLIQUE |
@@ -82,6 +76,12 @@ Generated 2026-05-08 20:40 UTC
 | 2026-05-08 20:09 UTC | `INCONCLUSIVE` | Additive Energy Threshold Exceeds ACC⁰ Circuit Size |
 | 2026-05-08 20:19 UTC | `INCONCLUSIVE` | Zarankiewicz-Free Communication Matrices Imply Monotone Circuit L |
 | 2026-05-08 20:40 UTC | `INCONCLUSIVE` | Kronecker Coefficient Growth Separates Permanent vs Determinant |
+| 2026-05-08 20:58 UTC | `INCONCLUSIVE` | Real Radical Dimension and SOS Degree for Max-CUT |
+| 2026-05-08 21:07 UTC | `INCONCLUSIVE` | Permutation Polynomial Width Conjecture |
+| 2026-05-08 21:14 UTC | `INCONCLUSIVE` | Plethysm Coefficient Gap in Symmetric Powers of Permanent vs Dete |
+| 2026-05-08 21:20 UTC | `INCONCLUSIVE` | Cluster Algebra Mutation Distance Bounds ACC^0 Circuit Size |
+| 2026-05-08 21:37 UTC | `INCONCLUSIVE` | Moment Matrix Eigenvalue Decay and SOS Degree for Max-CUT |
+| 2026-05-08 21:44 UTC | `INCONCLUSIVE` | Matroid Representation Complexity of Monotone DNF for k-CLIQUE |
 
 ## How to read the reports
 
