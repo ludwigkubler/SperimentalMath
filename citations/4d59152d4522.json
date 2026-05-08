@@ -1,0 +1,31 @@
+{
+  "entry_id": "4d59152d4522",
+  "ts": 1778219787.0691445,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.1007/978-3-642-38536-0_14",
+      "title": "Graph Expansion, Tseitin Formulas and Resolution Proofs for CSP",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available, so I cannot determine from the provided text whether the paper supports, refutes, or is orthogonal to the specific Leighton-Rao LP lower bound on Tseitin resolution length.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:1b3c2faed501856fd5b542e3b6f6185f210f90be",
+      "title": "Expander Flows and Sparsest Cut Linear Programming",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available, so I cannot determine whether the paper addresses the specific link between the Leighton-Rao sparsest-cut LP and Tseitin resolution length.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 2
+  }
+}

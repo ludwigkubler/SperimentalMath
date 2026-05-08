@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-08 05:45 UTC"
+date: "2026-05-08 06:40 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,31 +13,31 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-08 05:45 UTC
+Generated 2026-05-08 06:40 UTC
 
-- Cycles recorded: **347**
-- Time span: 344.1h (~1.01 cycles/h)
+- Cycles recorded: **355**
+- Time span: 345.0h (~1.03 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 316 |
+| INCONCLUSIVE | 323 |
 | FALSIFIED | 15 |
-| BARRIER_HIT | 12 |
+| BARRIER_HIT | 13 |
 | SUPPORTED | 4 |
 
 ## Mathematical fields explored (field_A)
 
 | Field | Cycles |
 |---|---|
-| Real Algebraic Geometry | 10 |
-| Matroid Theory | 5 |
+| Real Algebraic Geometry | 11 |
+| Matroid Theory | 6 |
+| Free Probability | 6 |
 | Algebraic Geometry | 5 |
 | Additive Combinatorics | 5 |
 | Finite Geometry | 5 |
-| Free Probability | 5 |
 | Ergodic Circuit Framework (communication complexity via dynamical systems) | 4 |
 | {"framework_name": "Ergodic Circuit Framework", "math_branch": "COMM_COMPLEXITY"} | 4 |
 | Random Matrix Theory | 4 |
@@ -67,14 +67,6 @@ Generated 2026-05-08 05:45 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-08 02:26 UTC | `INCONCLUSIVE` | Finite Plane Line Count Bounds Tseitin Resolution Size |
-| 2026-05-08 02:37 UTC | `INCONCLUSIVE` | Tree-Depth of Tseitin Graph Bounds Resolution Length |
-| 2026-05-08 03:03 UTC | `INCONCLUSIVE` | Projective Plane Incidence Matrix Deterministic Communication Com |
-| 2026-05-08 03:10 UTC | `INCONCLUSIVE` | Multilinear Catalecticant Rank Scales Polynomially in ACC^0 Circu |
-| 2026-05-08 03:25 UTC | `INCONCLUSIVE` | Asymptotic Dimension of KW Space for PARITY Matches Optimal Formu |
-| 2026-05-08 03:37 UTC | `INCONCLUSIVE` | Free Logarithmic Energy Deficit Lower-Bounds R(DISJ) |
-| 2026-05-08 03:38 UTC | `INCONCLUSIVE` | Free Cumulant Gap in Read-Twice BP for IP_2 |
-| 2026-05-08 04:12 UTC | `INCONCLUSIVE` | Second-Read Commutator Frobenius Excess Bounds Read-Twice BP Size |
 | 2026-05-08 04:33 UTC | `INCONCLUSIVE` | Additive Energy of Fourier Coefficients Bounds SOS Refutation Siz |
 | 2026-05-08 04:46 UTC | `INCONCLUSIVE` | A_5 Word-Embedding Spectral Norm Lower-Bounds R(DISJ) |
 | 2026-05-08 05:10 UTC | `INCONCLUSIVE` | Algebraic Connectivity Inverse Lower-Bounds Tseitin Resolution Le |
@@ -82,6 +74,14 @@ Generated 2026-05-08 05:45 UTC
 | 2026-05-08 05:24 UTC | `INCONCLUSIVE` | Witness-Complex Betti Sum Lower-Bounds Formula Depth |
 | 2026-05-08 05:35 UTC | `INCONCLUSIVE` | Finite Field Representation Complexity and ACC^0 Circuit Size |
 | 2026-05-08 05:45 UTC | `INCONCLUSIVE` | Matroid Connectivity and ACC^0 Circuit Size for 3-SAT Instances |
+| 2026-05-08 05:56 UTC | `INCONCLUSIVE` | Sparsest-Cut LP Value Lower-Bounds Tseitin Resolution Length |
+| 2026-05-08 06:04 UTC | `INCONCLUSIVE` | Real Dimension Lower Bound for AC⁰ PARITY Circuits |
+| 2026-05-08 06:11 UTC | `INCONCLUSIVE` | Free Cumulant Gap in Read-Twice Branching Programs for IP_2 |
+| 2026-05-08 06:17 UTC | `BARRIER_HIT` | Plunnecke Doubling of Top-Fourier Spectrum Bounds ACC0 Size |
+| 2026-05-08 06:23 UTC | `INCONCLUSIVE` | Matroid Rank Lower-Bounds Disjointness Communication Complexity |
+| 2026-05-08 06:34 UTC | `INCONCLUSIVE` | Tree-to-Dimension Tightness for MAJ_3: Optimal KW Protocols Yield |
+| 2026-05-08 06:34 UTC | `INCONCLUSIVE` | Asymptotic Dimension and Resolution Length for Tseitin Formulas |
+| 2026-05-08 06:40 UTC | `INCONCLUSIVE` | Matroid Spread Bounded by Monotone DNF Size |
 
 ## How to read the reports
 
