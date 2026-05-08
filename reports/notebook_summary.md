@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-08 08:45 UTC"
+date: "2026-05-08 09:37 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-08 08:45 UTC
+Generated 2026-05-08 09:37 UTC
 
-- Cycles recorded: **372**
-- Time span: 347.1h (~1.07 cycles/h)
+- Cycles recorded: **375**
+- Time span: 348.0h (~1.08 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 340 |
+| INCONCLUSIVE | 343 |
 | FALSIFIED | 15 |
 | BARRIER_HIT | 13 |
 | SUPPORTED | 4 |
@@ -32,7 +32,7 @@ Generated 2026-05-08 08:45 UTC
 
 | Field | Cycles |
 |---|---|
-| Real Algebraic Geometry | 14 |
+| Real Algebraic Geometry | 15 |
 | Free Probability | 7 |
 | Matroid Theory | 6 |
 | Algebraic Geometry | 5 |
@@ -67,9 +67,6 @@ Generated 2026-05-08 08:45 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-08 06:56 UTC | `INCONCLUSIVE` | Secant Variety Dimension Lower-Bounds Disjointness Communication  |
-| 2026-05-08 07:12 UTC | `INCONCLUSIVE` | Free Cumulant Gap in Read-Twice BPs Bounds Disjointness Communica |
-| 2026-05-08 07:21 UTC | `INCONCLUSIVE` | Gowers Uniformity Norm of Boolean Functions Bounds ACC⁰ Circuit S |
 | 2026-05-08 07:33 UTC | `INCONCLUSIVE` | Low-Degree Fourier Mass of Cut Indicator Bounds Tseitin Resolutio |
 | 2026-05-08 07:38 UTC | `INCONCLUSIVE` | Monomial Ideal Generators and Frege Proof Complexity |
 | 2026-05-08 07:43 UTC | `INCONCLUSIVE` | Positivstellensatz Rank Lower-Bounds SOS Max-CUT Degree |
@@ -82,6 +79,9 @@ Generated 2026-05-08 08:45 UTC
 | 2026-05-08 08:32 UTC | `INCONCLUSIVE` | Lie Nilpotency Class of Layer Algebra Distinguishes Read-Twice BP |
 | 2026-05-08 08:40 UTC | `INCONCLUSIVE` | SVD Participation Dispersion of Mid-Layer Lower-Bounds Read-Twice |
 | 2026-05-08 08:45 UTC | `INCONCLUSIVE` | Hypercontractive L4/L2 Flatness of Clause-Count Lower-Bounds DPLL |
+| 2026-05-08 09:02 UTC | `INCONCLUSIVE` | Gauss-Kuzmin Deviation Bounds Truth-Table Lempel-Ziv Complexity |
+| 2026-05-08 09:28 UTC | `INCONCLUSIVE` | SOS Moment Matrix Rank Bounded by Square Root of Variables for Ma |
+| 2026-05-08 09:37 UTC | `INCONCLUSIVE` | Non-backtracking Spectral Gap Lower-Bounds Tseitin DPLL Trees |
 
 ## How to read the reports
 
