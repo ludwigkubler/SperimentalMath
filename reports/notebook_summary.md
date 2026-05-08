@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-08 12:30 UTC"
+date: "2026-05-08 13:42 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-08 12:30 UTC
+Generated 2026-05-08 13:42 UTC
 
-- Cycles recorded: **392**
-- Time span: 350.8h (~1.12 cycles/h)
+- Cycles recorded: **398**
+- Time span: 352.0h (~1.13 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 358 |
+| INCONCLUSIVE | 364 |
 | FALSIFIED | 15 |
 | BARRIER_HIT | 15 |
 | SUPPORTED | 4 |
@@ -56,23 +56,17 @@ Generated 2026-05-08 12:30 UTC
 | Ergodic Circuit Framework (COMM_COMPLEXITY) | 2 |
 | Algebraic Topology | 2 |
 | Tropical geometry | 2 |
+| Schur-Weyl duality, plethysm, algebraic combinatorics | 2 |
 | Free Probability Theory | 2 |
 | Tropical Circuit Weight Analysis (TCWA) — Bounded Arithmetic | 2 |
 | Bounded Arithmetic | 2 |
 | Geometric Complexity Theory | 2 |
 | Additive combinatorics | 2 |
-| Schur-Weyl duality | 2 |
 
 ## Last 15 cycles (chronological)
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-08 10:04 UTC | `INCONCLUSIVE` | Hochster Betti Sum of Monotone f Lower-Bounds Log-Rank of IND-Lif |
-| 2026-05-08 10:10 UTC | `INCONCLUSIVE` | Cut-Polynomial Kurtosis Excess Bounds GW SDP Integrality Gap |
-| 2026-05-08 10:17 UTC | `INCONCLUSIVE` | Golden-Ratio Rotation Discrepancy of Truth Tables Excludes ACC^0[ |
-| 2026-05-08 10:25 UTC | `INCONCLUSIVE` | Galois Concept Lattice Height Lower-Bounds Monotone KW Depth |
-| 2026-05-08 10:31 UTC | `INCONCLUSIVE` | Lyndon Factor Count Separates MOD_3 from Depth-2 ACC^0[2] |
-| 2026-05-08 10:39 UTC | `INCONCLUSIVE` | KKL Influence-Spread of Edge-Product Threshold Lower-Bounds Tseit |
 | 2026-05-08 10:49 UTC | `INCONCLUSIVE` | Schur-Horn Diagonal-Spectrum Defect Bounds SOS-2 Max-Cut Gap |
 | 2026-05-08 11:00 UTC | `INCONCLUSIVE` | Bregman-Minc Permanent Defect Lower-Bounds SOS-2 Max-Cut Gap on T |
 | 2026-05-08 11:07 UTC | `INCONCLUSIVE` | Selberg Log-Gas Rigidity Defect Bounds SOS-2 Max-CUT Gap |
@@ -82,6 +76,12 @@ Generated 2026-05-08 12:30 UTC
 | 2026-05-08 11:59 UTC | `INCONCLUSIVE` | Fourier Coefficient Flatness Implies Worst-Case Hardness for Bool |
 | 2026-05-08 12:13 UTC | `INCONCLUSIVE` | Fourier Coefficient Product Lower Bound on Disjointness Communica |
 | 2026-05-08 12:27 UTC | `INCONCLUSIVE` | Fourier Coefficient Decay Implies SOS Degree Lower Bound for Max- |
+| 2026-05-08 12:50 UTC | `INCONCLUSIVE` | Communication Matrix Discrepancy Lower Bound for AC⁰ PARITY Circu |
+| 2026-05-08 13:02 UTC | `INCONCLUSIVE` | Seed Length of Nisan-Wigderson PRG Bounded by Minimal Linear Appr |
+| 2026-05-08 13:14 UTC | `INCONCLUSIVE` | Operator Norm Separation for Read-Twice Branching Programs |
+| 2026-05-08 13:26 UTC | `INCONCLUSIVE` | Plethysm Multiplicity Gap in Symmetric Powers of Permanent vs Det |
+| 2026-05-08 13:36 UTC | `INCONCLUSIVE` | Moment-Matrix Rank Deficit in Max-CUT Approximation |
+| 2026-05-08 13:42 UTC | `INCONCLUSIVE` | Secant Variety Dimension Lower Bounds Disjointness Communication  |
 
 ## How to read the reports
 
