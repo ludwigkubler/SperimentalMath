@@ -1,0 +1,62 @@
+{
+  "_meta": {
+    "audit_document": "AUDIT_2026-05-08.md",
+    "audit_date": "2026-05-08",
+    "audit_author": "Ludovico Kubler",
+    "schema_version": 1
+  },
+  "retracted": [
+    {
+      "entry_id": "e006a48b37a7",
+      "original_verdict": "SUPPORTED",
+      "title": "Frobenius-Schur Indicator of Clause-Symmetry Group Predicts SAT Symmetry Breaking Cost",
+      "reason": "Stub test: frobenius_schur_sum returns hard-coded constants based on string label; add_lex_leader_clause returns a fixed number of dummy clauses. Reported ratio_avg is the deterministic average of those constants. No CDCL run, no representation theory computed.",
+      "action": "RETRACTED"
+    },
+    {
+      "entry_id": "b43a4129e5c5",
+      "original_verdict": "SUPPORTED",
+      "title": "Ideal Generators Count Bounds Communication Complexity",
+      "reason": "Pure stub: comm_complexity(f, n) := n, ideal_generators(f, n) := 2*n. Test reduces to n <= 2n, trivially true. Output line contained the unresolved placeholder 'RESULT: SUPPORTED <metric>=<value>'. Novelty filter recorded 0 arXiv hits.",
+      "action": "RETRACTED"
+    },
+    {
+      "entry_id": "7cbbaa3e1e4a",
+      "original_verdict": "SUPPORTED",
+      "title": "Tropical Rank of Clause-Indicator Polynomial Bounds ACC Circuit Size",
+      "reason": "Malformed test: cnf_to_tropical_matrix uses len(cnf[0]) as variable count; acc_circuit_size counts clauses+literals, no relation to ACC^0 complexity. The reported support_fraction is an XNOR artefact in the chosen n. Novelty filter recorded 0 arXiv hits.",
+      "action": "RETRACTED"
+    },
+    {
+      "entry_id": "a8b5663ca867",
+      "original_verdict": "FALSIFIED",
+      "title": "Khovanov Homology",
+      "reason": "Counterexample is degenerate: n=5, m=1, a single 3-clause is satisfiable so resolution proof size is undefined. The 'falsification' is a category error, not a counterexample to a non-trivial regime.",
+      "action": "RETRACTED"
+    },
+    {
+      "entry_id": "cb842205136a",
+      "original_verdict": "FALSIFIED",
+      "title": "Noncommutative Algebra Generator Count Bounds Circuit Depth",
+      "reason": "The function used to compute 'generators' returns n by construction (same stub pattern as the SUPPORTED entry b43a4129e5c5). The 'counterexample' that generators scale linearly is therefore tautological. Novelty filter recorded 0 arXiv hits.",
+      "action": "RETRACTED"
+    },
+    {
+      "entry_id": "b5f9314580e6",
+      "original_verdict": "FALSIFIED",
+      "title": "Lattice of Flows on Clause-Variable Graph Induces Resolution Width Lower Bound",
+      "reason": "Test stdout reads 'Too many edge configurations: 282429536481, skipping full enumeration'. The enumeration was skipped, so the reported counterexample is vacuous (no flows were actually computed).",
+      "action": "RETRACTED"
+    }
+  ],
+  "demoted": [
+    {
+      "entry_id": "15ae8fd62af0",
+      "original_verdict": "SUPPORTED",
+      "new_verdict": "INCONCLUSIVE",
+      "title": "Grothendieck-Witt Class of Clause Polynomials Mod 2 Predicts Resolution Width",
+      "reason": "Statement-test mismatch. The conjecture is stated over F_2 where Q(x) = sum <c,x>^2 mod 2 is linear (since a^2 = a in F_2), making the bilinear form B identically zero and the conjecture vacuous. The test silently substitutes 'integer inner product, then squared, then reduced mod 2', i.e. tests a different statement. The underlying intuition (Grothendieck-Witt class of clause polynomials) may be salvageable via re-formulation with an explicit ring assignment; pending such re-formulation, demoted to INCONCLUSIVE.",
+      "action": "DEMOTED_PENDING_REFORMULATION"
+    }
+  ]
+}
