@@ -47,6 +47,27 @@
       "title": "Lattice of Flows on Clause-Variable Graph Induces Resolution Width Lower Bound",
       "reason": "Test stdout reads 'Too many edge configurations: 282429536481, skipping full enumeration'. The enumeration was skipped, so the reported counterexample is vacuous (no flows were actually computed).",
       "action": "RETRACTED"
+    },
+    {
+      "entry_id": "32a1e966ed26",
+      "original_verdict": "FALSIFIED",
+      "title": "Tropical Parseval Lower Bound on Discrepancy via Min-Coefficient Saturation",
+      "reason": "Gate 2 fail under the new pipeline. The conjecture under test admits an elementary 3-line refutation derived in the test's own docstring (lines 11-18): theta(0,k) = 0 forces F[k] >= f[0] for all k, so min_k F[k] >= f[0]; the lower bound min_k F[k] <= Disc(f) = max(f) - mean(f) then reduces to mean(f) <= max(f) - f[0] <= 0, which fails for half of all polynomials with non-zero mean. The 'falsification' is structurally trivial, not a deep obstruction. Statement also underspecifies TropicalFourierTransform and DiscrepancyCalculation. Should not be cited as a Tropical Fourier obstruction.",
+      "action": "RETRACTED"
+    },
+    {
+      "entry_id": "44f82c29ed79",
+      "original_verdict": "FALSIFIED",
+      "title": "Tropical Shift-Invariance of MinimalFourierCoefficient under Additive Translation of TropicalPolynomials",
+      "reason": "Gate 1 fail under the new pipeline. The test's tropical_fourier_transform is defined as F[j] = sum(f[(i+j) mod N] for i in range(N)), which equals N*mean(f) for every j (a constant function of k). The reported 'TFT' is therefore not a Fourier transform at all but a cyclic-rotation sum; all claimed counterexamples are artefacts of this bug. Test additionally clamps f_c via max(x+c, -10), which is not the additive shift in max-plus.",
+      "action": "RETRACTED"
+    },
+    {
+      "entry_id": "cca077d3c64c",
+      "original_verdict": "FALSIFIED",
+      "title": "Tropical Max-Aggregation Monotonicity of MinimalFourierCoefficient under Pointwise Tropical Sum",
+      "reason": "Gate 2 fail. Same hand-rolled real-valued max-plus 'TFT' as 32a1e966ed26 with theta(n,k) = -2*pi*k*x/n; inherits the elementary structural triviality (theta(0,k)=0 forces MFC >= f[0]). The 'monotonicity' test is then a comparison of trivial-by-construction bounds. Same DiscrepancyCalculation = max - mean redefinition, undocumented in statement.",
+      "action": "RETRACTED"
     }
   ],
   "demoted": [
