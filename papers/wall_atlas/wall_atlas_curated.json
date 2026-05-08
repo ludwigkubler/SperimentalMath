@@ -1,0 +1,337 @@
+{
+  "n_raw_records": 32,
+  "n_unique_conjectures": 20,
+  "entries": [
+    {
+      "title": "Sum-check bound for NEXP lower bound",
+      "primary_barrier": "ALGEBRIZATION",
+      "rejection_count": 4,
+      "max_confidence": 0.95,
+      "field_A": "Arithmetic interactive proofs",
+      "field_B": "NEXP vs P/poly",
+      "statement": "Using sum-check over polynomial extensions of Boolean functions, we prove NEXP \u2284 P/poly.",
+      "rationale": "Apply IP = PSPACE style arithmetization to the NEXP Turing machine directly.",
+      "barrier_count_breakdown": {
+        "ALGEBRIZATION": 4
+      },
+      "llm1_reasoning_excerpt": "The proof uses sum-check over polynomial extensions of Boolean functions, which is an arithmetization technique. This algebrizes by preserving the argument's validity under polynomial extensions, directly hitting the ALGEBRIZATION barrier. The IP=PSPACE style arithmetization applies to the NEXP machine's simulation, making the argument invalid in the algebraic setting where the barrier applies.",
+      "llm2_reasoning_excerpt": "The proof uses sum-check protocol on polynomial extensions of Boolean functions, which algebrizes by definition. This directly triggers the ALGEBRIZATION barrier as it relies on arithmetic properties preserved under polynomial extensions, making it incompatible with resolving NEXP vs P/poly as shown by Aaronson-Wigderson.",
+      "ts": 1777047690.306919
+    },
+    {
+      "title": "Bounded Arithmetic Complexity of Algebraic Closure in Finite Fields",
+      "primary_barrier": "ALGEBRIZATION",
+      "rejection_count": 1,
+      "max_confidence": 0.95,
+      "field_A": "BOUNDED_ARITHMETIC",
+      "field_B": "ALGEBRAIC_GEOMETRY",
+      "statement": "For a system of polynomial equations over GF(p^n), the minimal proof size in bounded arithmetic (PSPACE) required to certify the existence of a solution is polynomially bounded by the number of variables and the degree of the polynomials. Conversely, if the system has no solutions, the proof size is exponential in the number of variables.",
+      "rationale": "Bounded arithmetic theories (e.g., S^1_2) are central to understanding proof complexity and separation of computational classes. Linking their proof size to algebraic geometry's solvability conditions (e.g., Hilbert's Nullstellensatz) provides a bridge between logical complexity and algebraic structure. This conjecture tests whether algebraic closure properties inherently constrain or expand proof complexity in bounded arithmetic.",
+      "barrier_count_breakdown": {
+        "ALGEBRIZATION": 1
+      },
+      "llm1_reasoning_excerpt": "The conjecture's proof relies on algebraic geometry concepts like Hilbert's Nullstellensatz, which algebrize by extending to polynomial extensions over finite fields. The bounded arithmetic proof size analysis directly connects to arithmetic complexity measures that persist under polynomial extensions, triggering the algebraization barrier. This would prevent resolving NEXP vs P/poly-style separation via such techniques.",
+      "llm2_reasoning_excerpt": "The conjecture's proof relies on algebraic geometry (Nullstellensatz) and bounded arithmetic proof complexity. This involves arithmetization of logical statements into polynomial equations, which algebrizes. The barrier blocks arguments that remain valid under polynomial extensions, including solvability conditions in algebraic geometry. The proof's reliance on polynomial-degree constraints and solution existence criteria would preserve its validity in the algebraic setting, making it incompatib",
+      "ts": 1778253576.796925
+    },
+    {
+      "title": "Tropical Circuit Weight Accumulation Bound",
+      "primary_barrier": "ALGEBRIZATION",
+      "rejection_count": 1,
+      "max_confidence": 0.9,
+      "field_A": {
+        "framework_name": "Tropical Circuit Weight Analysis (TCWA)",
+        "math_branch": "BOUNDED_ARITHMETIC"
+      },
+      "field_B": {
+        "complexity_theoretic_object": "Tropical Circuit with polynomially many phase cells"
+      },
+      "statement": "For any tropical circuit C computing a function provably total in I\u0394\u2080, the sum of absolute weights in the weight accumulation trace of C is bounded by a polynomial in the input size, implying a bound on the Tropical Proof Rank.",
+      "rationale": "This sub-conjecture tests Axiom A1 (Phase Stability Axiom) and Axiom A2 (Weight-Proof Correspondence) by exploring the relationship between the weight accumulation trace and the complexity of the proof. It should hold because the weight accumulation trace reflects the underlying proof structure, and the polynomial bound on phase cells implies a bound on the weight accumulation.",
+      "barrier_count_breakdown": {
+        "ALGEBRIZATION": 1
+      },
+      "llm1_reasoning_excerpt": "The conjecture relies on arithmetic properties of tropical circuit weight accumulation, which can be replaced by low-degree polynomial extensions over a large finite field, thereby algebrizing the argument. The use of bounded arithmetic and polynomial bounds on phase cells suggests that the proof structure may extend naturally to the polynomial-extension world, triggering the algebrization barrier. The focus on weight accumulation and polynomial bounds implies an algebraic approach, rather than ",
+      "llm2_reasoning_excerpt": "The conjecture uses arithmetic properties of tropical circuit simulations and relies on the weight accumulation trace, which is an algebraic concept. The proof sketch also mentions exploring the relationship between the weight accumulation trace and the complexity of the proof, which suggests an algebraic approach. Furthermore, the use of bounded arithmetic (BOUNDED_ARITHMETIC) in the math branch and the focus on polynomial bounds imply that the proof may go through arithmetization, making it su",
+      "ts": 1777505686.5029304
+    },
+    {
+      "title": "Kronecker Coefficients of Rectangular GL\u2099-Representations Lower-Bound Determinantal Complexity",
+      "primary_barrier": "ALGEBRIZATION",
+      "rejection_count": 1,
+      "max_confidence": 0.9,
+      "field_A": "Representation theory of general linear groups",
+      "field_B": "Determinantal complexity of the permanent",
+      "statement": "Let dc(per\u2099) denote the smallest m such that the permanent per\u2099(x\u2081\u2081,...,x\u2099\u2099) equals det\u2098(L(x)) for affine linear functions L. Then dc(per\u2099) \u2265 n + 1 + max_{\u03bb \u22a2 n\u00b2, \u2113(\u03bb)\u2264n} g(\u03bb, \u25a1\u2099, \u25a1\u2099), where \u25a1\u2099 = (n\u207f) \u22a2 n\u00b2 is the rectangular partition and g(\u03bb,\u03bc,\u03bd) is the Kronecker coefficient in S^{\u03bb}(V\u2297W\u2297X) \u2286 S^{\u03bc}(V)\u2297S^{\u03bd}(W)\u2297S^{\u03ba}(X).",
+      "rationale": "Mulmuley-Sohoni's GCT program suggests that representation-theoretic obstructions (nonvanishing Kronecker coefficients) can separate orbit closures of determinant and permanent. We exploit that dc(per\u2099) requires embedding per\u2099 into the orbit closure of det\u2098, and rectangular symmetries dominate the coordinate ring. The Kronecker coefficient g(\u03bb,\u25a1\u2099,\u25a1\u2099) obstructs plethystic inclusion, hence forces m > n when positive.",
+      "barrier_count_breakdown": {
+        "ALGEBRIZATION": 1
+      },
+      "llm1_reasoning_excerpt": "The conjecture relies on representation-theoretic obstructions, specifically Kronecker coefficients, which are algebraic in nature and can be extended to polynomial extensions over finite fields. The proof sketch involves exploiting symmetries and coordinate rings, which are also algebraic objects that can be arithmetized. The use of character inner products and Littlewood-Richardson rules further supports the algebraic nature of the argument, making it likely to algebrize and thus hitting the A",
+      "llm2_reasoning_excerpt": "The conjecture relies heavily on the representation-theoretic properties of the general linear group and the Kronecker coefficients, which are inherently algebraic in nature. The proof sketch involves exploiting the symmetries of the coordinate ring and the plethystic inclusion, which are also algebraic concepts. Furthermore, the use of character inner products and Littlewood-Richardson rule, which are fundamental tools in representation theory, suggests that the proof would likely algebrize, as",
+      "ts": 1777561491.7631044
+    },
+    {
+      "title": "Tropical Circuit Homotopy Stability under Weight Accumulation",
+      "primary_barrier": "ALGEBRIZATION",
+      "rejection_count": 1,
+      "max_confidence": 0.9,
+      "field_A": {
+        "framework_name": "Tropical Circuit Weight Analysis (TCWA)",
+        "math_branch": "BOUNDED_ARITHMETIC"
+      },
+      "field_B": {
+        "complexity_theoretic_object": "Tropical Circuit Model"
+      },
+      "statement": "For any tropical circuit C and input x, the weight accumulation trace of C under Circuit Homotopy deformation is bounded by the Tropical Proof Rank of the corresponding bounded arithmetic theory, thereby preserving the homotopy-stable phase space under perturbation.",
+      "rationale": "This sub-conjecture tests Axiom A3 (Tropical Soundness) by examining the relationship between the weight accumulation trace and the Tropical Proof Rank. It should hold because the Tropical Proof Rank is designed to bound the minimum number of phase transitions required to simulate a bounded arithmetic proof line, and the weight accumulation trace is a measure of the circuit's behavior under deformation. If the weight accumulation trace is bounded by the Tropical Proof Rank, it would provide evidence for the tropical soundness of the circuit model.",
+      "barrier_count_breakdown": {
+        "ALGEBRIZATION": 1
+      },
+      "llm1_reasoning_excerpt": "The conjecture uses arithmetic properties of tropical circuit simulations and relies on the relationship between weight accumulation trace and Tropical Proof Rank, which are both defined in terms of bounded arithmetic. This suggests that the proof may algebrize, as it uses arithmetic/algebraic properties that could be preserved under polynomial extensions. The use of bounded arithmetic and tropical circuit models, which are inherently algebraic, further supports this conclusion.",
+      "llm2_reasoning_excerpt": "The conjecture uses arithmetic properties of tropical circuit simulations and relies on the relationship between weight accumulation trace and Tropical Proof Rank, which are based on bounded arithmetic. This suggests that the proof may algebrize, as it focuses on algebraic properties and arithmetization, similar to IP = PSPACE. The use of bounded arithmetic and Tropical Proof Rank implies that the conclusions may extend naturally to the polynomial-extension world, triggering the algebrization ba",
+      "ts": 1777619615.1618507
+    },
+    {
+      "title": "Orbit Closure Dimension vs. Boolean Circuit Size",
+      "primary_barrier": "ALGEBRIZATION",
+      "rejection_count": 1,
+      "max_confidence": 0.9,
+      "field_A": "Geometric Complexity Theory",
+      "field_B": "Boolean Circuits",
+      "statement": "For any Boolean function f, the dimension of the orbit closure of the determinant polynomial under the action of the general linear group is upper bounded by the size of the smallest Boolean circuit computing f. Specifically, for a Boolean circuit C of size s, the dimension of the orbit closure of the determinant polynomial is at most O(s^2).",
+      "rationale": "The orbit closure dimension is a measure of the complexity of a polynomial under the action of a group, and the determinant polynomial is closely related to the permanent polynomial, which is a key object of study in geometric complexity theory. By relating the orbit closure dimension to Boolean circuit size, we may be able to leverage the power of geometric complexity theory to prove lower bounds on Boolean circuit size.",
+      "barrier_count_breakdown": {
+        "ALGEBRIZATION": 1
+      },
+      "llm1_reasoning_excerpt": "The conjecture relates the dimension of the orbit closure of the determinant polynomial to Boolean circuit size, which involves arithmetic and algebraic properties of polynomial extensions. The use of geometric complexity theory and the determinant polynomial, closely related to the permanent polynomial, suggests an argument that algebrizes, as it relies on properties preserved under arithmetization and polynomial extensions. The proposed test strategy, involving computation of the dimension of ",
+      "llm2_reasoning_excerpt": "The conjecture relates the dimension of the orbit closure of the determinant polynomial to Boolean circuit size, which involves arithmetic and algebraic properties of polynomial extensions. The use of geometric complexity theory and the focus on the determinant polynomial, closely related to the permanent polynomial, suggests that the proof may rely on arithmetization and algebraic properties that extend naturally to polynomial extensions. This indicates that the proof likely algebrizes, trigger",
+      "ts": 1777619878.219613
+    },
+    {
+      "title": "Moment Matrix Eigenvalue Gap and SOS Degree for Max-CUT",
+      "primary_barrier": "ALGEBRIZATION",
+      "rejection_count": 1,
+      "max_confidence": 0.85,
+      "field_A": "Real Algebraic Geometry",
+      "field_B": "SOS Degree of Max-CUT",
+      "statement": "For any Max-CUT instance with n variables, the minimal eigenvalue \u03bb_min of its degree-d SOS moment matrix satisfies \u03bb_min \u2265 \u03a9(1/n\u00b2). Thus, achieving a 0.879-approximation requires d = \u03a9(n).",
+      "rationale": "The SOS moment matrix's eigenvalue structure encodes the feasibility of polynomial certificates for Max-CUT. A lower bound on \u03bb_min implies the hierarchy must scale with n to avoid degenerate certificates, linking algebraic geometry to SOS complexity.",
+      "barrier_count_breakdown": {
+        "ALGEBRIZATION": 1
+      },
+      "llm1_reasoning_excerpt": "The conjecture's proof relies on algebraic properties of the SOS moment matrix, which algebrizes under polynomial extensions. The eigenvalue analysis of the moment matrix is inherently tied to arithmetic/algebraic structures that persist when Boolean functions are replaced by low-degree polynomials. This would make the argument subject to the algebraization barrier, as the core reasoning would carry over to polynomial extensions, preventing resolution of the complexity question.",
+      "llm2_reasoning_excerpt": "The conjecture's proof relies on algebraic properties of the SOS moment matrix (eigenvalue structure of polynomial certificates), which algebrizes under low-degree polynomial extensions. The eigenvalue lower bound \u03bb_min \u2265 \u03a9(1/n\u00b2) is an arithmetic invariant that would persist under field extensions, making the argument invalidatable via algebraic methods. This directly triggers the ALGEBRIZATION barrier as the proof uses arithmetic properties preserved in polynomial extensions.",
+      "ts": 1777655986.1548598
+    },
+    {
+      "title": "Every NEXP language has polynomial-size circuits",
+      "primary_barrier": "KARP_LIPTON",
+      "rejection_count": 3,
+      "max_confidence": 0.99,
+      "field_A": "Meta-complexity",
+      "field_B": "NEXP vs P/poly",
+      "statement": "For every L \u2208 NEXP, there exists a family of circuits {C_n} of size poly(n) deciding L.",
+      "rationale": "Direct circuit construction.",
+      "barrier_count_breakdown": {
+        "KARP_LIPTON": 3
+      },
+      "llm1_reasoning_excerpt": "The conjecture directly asserts NEXP \u2286 P/poly, which by Karp-Lipton theorem implies PH collapses to \u03a3\u2082. This collapse is considered highly unlikely, triggering the barrier. The implication is direct and unavoidable under standard complexity assumptions.",
+      "llm2_reasoning_excerpt": "The conjecture directly asserts NEXP \u2286 P/poly, which by Karp-Lipton implies PH collapses to \u03a3\u2082. This collapse is considered a major barrier because it contradicts the widely believed assumption that PH does not collapse. The conjecture's truth would thus trigger the barrier via this implied collapse.",
+      "ts": 1777047812.3941321
+    },
+    {
+      "title": "Truth-table discriminant for circuit hardness",
+      "primary_barrier": "NATURAL_PROOFS",
+      "rejection_count": 4,
+      "max_confidence": 0.95,
+      "field_A": "Boolean function analysis",
+      "field_B": "Circuit complexity P/poly",
+      "statement": "There exists a poly-time-computable property P of 2^n-bit truth tables such that (i) P holds for at least 1/poly fraction of all functions, (ii) P(f) implies f requires super-polynomial circuit size over any basis.",
+      "rationale": "Define P via a signal-processing transform of the truth table.",
+      "barrier_count_breakdown": {
+        "NATURAL_PROOFS": 2,
+        "RELATIVIZATION": 2
+      },
+      "llm1_reasoning_excerpt": "The conjecture's property P satisfies all three natural proofs criteria: (a) it is constructively computable in poly-time via the signal-processing transform, (b) it holds for 1/poly fraction of functions by design, and (c) it implies super-polynomial circuit lower bounds. This would yield an efficient distinguisher against strong PRGs, contradicting the existence of one-way functions under standard complexity assumptions.",
+      "llm2_reasoning_excerpt": "The conjecture explicitly satisfies all three natural proofs criteria: (a) the property P is poly-time computable from the truth table, (b) it holds for 1/poly fraction of functions (positive density), and (c) it implies super-polynomial circuit lower bounds. This would imply an efficient distinguisher against strong PRGs, contradicting the existence of one-way functions under standard assumptions.",
+      "ts": 1777048782.8561335
+    },
+    {
+      "title": "Stern-Brocot Rank of Truth Tables Lifts Average-to-Worst MCSP",
+      "primary_barrier": "NATURAL_PROOFS",
+      "rejection_count": 1,
+      "max_confidence": 0.88,
+      "field_A": "Continued-fraction / Stern-Brocot combinatorics (Hensley sums of partial quotients, Gauss\u2013Kuzmin statistics)",
+      "field_B": "Average-case to worst-case hardness lifting for gap-MCSP via Yao-XOR amplification on truth-table integers",
+      "statement": "For f: {0,1}^k \u2192 {0,1}, encode T(f) as the bigint p_f = \u03a3_x f(x)\u00b72^{val(x)} \u2208 [0, 2^{2^k}) and define the Stern-Brocot rank SB(f) = \u03a3_j a_j, the sum of partial quotients of the continued-fraction expansion of p_f / 2^{2^k} (equivalently, the depth of p_f/2^{2^k} in the Stern-Brocot tree). We conjecture: (i) for uniformly random f, E[SB(f)] = \u0398(2^k \u00b7 k) with concentration |SB \u2212 E[SB]| = O(2^k \u00b7 k^{1/2}) whp; (ii) every f computed by a Boolean circuit of size s \u2264 2^{k/4} satisfies SB(f) \u2264 C \u00b7 s \u00b7 2^{k/2} \u00b7 k for an absolute constant C; (iii) SB is XOR-additive up to slack: SB(f \u2295 g) \u2265 SB(f) + SB(g) \u2212 O(k+\u2113), so any worst-case lower bound SB(h) = \u03c9(2^{k/2}\u00b7k) on a target h amplifies via t-fold XOR into a 2^{\u03a9(t)} lower bound on gap-MCSP for the hardness-amplified family \u2014 a concrete avg-to-worst transfer.",
+      "rationale": "Sums of continued-fraction partial quotients are arithmetic invariants reflecting the multiplicative structure of the integer p_f, which is exactly the regime in which Yao-XOR composes truth-table integers; truth tables of low-complexity circuits inherit short Euclidean reductions while Gauss\u2013Kuzmin / Hensley statistics force random TTs to have SB \u2273 2^k\u00b7k. The k/4 circuit-size threshold sits a polynomial factor below the Razborov\u2013Rudich largeness threshold 2^{k/2}, so the predicted gap can in principle evade natural proofs while still yielding sub-exponential lower bounds. Continued-fraction combinatorics has essentially never been used as a circuit-lower-bound proxy, so the bridge could expose new arithmetic/structural invariants of MCSP-hard truth tables.",
+      "barrier_count_breakdown": {
+        "NATURAL_PROOFS": 1
+      },
+      "llm1_reasoning_excerpt": "The Stern-Brocot rank SB(f) is computed directly from the truth table in time poly(2^k) via the Euclidean algorithm, so the property 'SB(f) > threshold' is CONSTRUCTIVE. By claim (i), random functions concentrate above the threshold while low-complexity functions fall below it, so the distinguishing property has density \u2265 1 - 2^{-poly(2^k)}, making it LARGE; it is also USEFUL against general Boolean circuits of size s \u2264 2^{k/4} (a P/poly-style class for these input sizes via gap-MCSP amplificati",
+      "llm2_reasoning_excerpt": "The proposed conjecture uses a property P (Stern-Brocot rank SB) of Boolean functions that is computable in time 2^poly(n) given the truth table, satisfying condition (a) of natural proofs. The conjecture also implies that a large fraction of Boolean functions satisfy P, as evidenced by the claim that E[SB(f)] = \u0398(2^k \u00b7 k) for uniformly random f, which suggests that the property is LARGE, satisfying condition (b). Furthermore, the property is USEFUL, as it implies that f \u2209 TargetClass (in this c",
+      "ts": 1778200962.5310585
+    },
+    {
+      "title": "Mahler Measure of Truth-Table Polynomial Lower-Bounds DNF_min",
+      "primary_barrier": "NATURAL_PROOFS",
+      "rejection_count": 1,
+      "max_confidence": 0.85,
+      "field_A": "Number theory of polynomial heights \u2014 the (logarithmic) Mahler measure m(p) = log|a_d| + sum_{|\u03b1|>1} log|\u03b1| over the complex roots of p \u2208 Z[x] (Lehmer-Boyd-Smyth tradition: Lehmer's problem on smallest non-cyclotomic measure, Boyd's heights, Smyth's resolved cubic case). Rarely deployed in meta-complexity; computable in poly time via numerical root-finding on the explicit degree-(2^n \u2212 1) integer polynomial.",
+      "field_B": "DNF_min(f): the minimum number of product terms in a DNF representation of a Boolean function f:{0,1}^n\u2192{0,1} given its 2^n-bit truth table \u2014 the Hirahara\u2013Oliveira\u2013Santhanam restricted-MCSP proxy at the heart of meta-complexity worst-case-to-average-case reductions.",
+      "statement": "Define the truth-table polynomial p_f(x) := sum_{i=0}^{2^n \u2212 1} f(i)\u00b7x^i \u2208 Z[x], where f(i) is the value of f on the n-bit binary expansion of i. For every f with |f^{-1}(1)| \u2265 1, m(p_f) \u2264 (DNF_min(f) \u2212 1) \u00b7 log_2(n + 1). Equivalently, every f whose truth-table polynomial has logarithmic Mahler measure exceeding (k \u2212 1)\u00b7log_2(n+1) satisfies DNF_min(f) > k.",
+      "rationale": "Each DNF product term corresponds to a coordinate-aligned subcube whose index set is a coset a+W \u2264 F_2^n; its indicator polynomial factors as x^a \u00b7 prod_j (1 + x^{2^{i_j}}), so all roots lie on the unit circle and m = 0 (purely cyclotomic). Disjunction of k subcubes makes p_f a signed sum of k such cyclotomic-rooted polynomials, and Boyd-style sub-additive heuristics for Mahler measure under integer-coefficient sums predict at most a log_2(deg+1) escape per added term. If true, this transforms a hard Diophantine height into a poly-time-computable lower bound on DNF_min, giving a Lehmer-type obstruction useful in restricted-MCSP regimes.",
+      "barrier_count_breakdown": {
+        "NATURAL_PROOFS": 1
+      },
+      "llm1_reasoning_excerpt": "The proposed property \u2014 testing whether m(p_f) exceeds (k\u22121)\u00b7log_2(n+1) \u2014 is computed directly from the 2^n-bit truth table in poly(2^n) = 2^poly(n) time via Durand\u2013Kerner root-finding, satisfying CONSTRUCTIVITY. Mahler measure is a generic analytic invariant of integer polynomials with no special structure tying it to a sparse function family, so a positive-density (LARGE) fraction of random truth tables will have large m(p_f) (random \u00b11/0-1 polynomials of degree 2^n\u22121 typically have measure ~\u0398",
+      "llm2_reasoning_excerpt": "The proposed conjecture uses a property P (the Mahler measure of the truth-table polynomial) that is computable in time 2^poly(n) given the truth table, satisfying condition (a) of the natural proofs barrier. The property P also seems to be LARGE, as it is defined for all Boolean functions f with |f^{-1}(1)| \u2265 1, which is a significant fraction of all Boolean functions, satisfying condition (b). Furthermore, the property P implies a lower bound on DNF_min(f), which is a circuit complexity measur",
+      "ts": 1777367881.1549277
+    },
+    {
+      "title": "Plunnecke Doubling of Top-Fourier Spectrum Bounds ACC0 Size",
+      "primary_barrier": "NATURAL_PROOFS",
+      "rejection_count": 1,
+      "max_confidence": 0.85,
+      "field_A": "Additive combinatorics (Plunnecke-Ruzsa sumset doubling applied to the large-Fourier-spectrum of a Boolean function in F_2^n)",
+      "field_B": "ACC^0[m] circuit size for explicit Boolean functions, accessed through a Williams-style natural property R: f -> {0,1} computable in 2^O(n) time",
+      "statement": "Let f:{0,1}^n -> {-1,+1} with Walsh-Hadamard coefficients f_hat(a) = 2^{-n} sum_x f(x)(-1)^{a.x}, and let S(f) = {a in F_2^n : |f_hat(a)| >= 1/n} be the 1/n-large spectrum.  Define the Plunnecke doubling pi(f) = log_2 |S(f) XOR S(f)| / log_2 max(2,|S(f)|), where XOR-sumset is taken in the additive group F_2^n.  Conjecture: every f computed by an ACC^0[m] circuit of size s and depth d satisfies pi(f) <= 1 + (d log s)/sqrt(n) + o(1), and hence any explicit family with pi(f_n) >= 1.5 + Omega(1) for infinitely many n is not in ACC^0[m]; the property R := [pi >= 1.5] is constructive (computable in 2^O(n) time via FWHT) yet excludes ACC^0, threading the natural-proofs needle because R fails on sparse-spectrum PRG candidates.",
+      "rationale": "Linial-Mansour-Nisan and Tal's Fourier-concentration bounds for AC^0, together with Razborov-Smolensky low-degree approximators for ACC^0[p], force the top spectrum of an ACC^0 function to live in a low-Hamming-weight, hence low-Freiman-dimensional, region of F_2^n, which implies a small Plunnecke doubling on its XOR-sumset.  Plunnecke-Ruzsa doubling of the spectrum is a Freiman-Ruzsa invariant essentially absent from the ACC^0 lower-bound literature (<5 papers cross additive-combinatorics doubling with ACC^0), giving a fresh, locally-checkable natural property aligned with Williams' algorithmic-method circuit-SAT framework.  Because pseudorandom function candidates with a designed sparse heavy-spectrum will have |S|<=2 and trivially small pi, R is not useful against PRGs, providing a concrete attempt at minimal-violation natural property.",
+      "barrier_count_breakdown": {
+        "NATURAL_PROOFS": 1
+      },
+      "llm1_reasoning_excerpt": "The property R := [pi(f) >= 1.5] is explicitly (a) CONSTRUCTIVE in 2^O(n) time via FWHT on the truth table, and (c) USEFUL against ACC^0[m] \u2287 AC^0 by the conjecture's own claim. For LARGENESS: a uniformly random Boolean function has Fourier spectrum with |f_hat(a)| \u2248 2^{-n/2}, so the 1/n-threshold spectrum S(f) is essentially a uniformly random subset of F_2^n of large size, whose XOR-sumset behaves generically \u2014 the test strategy itself predicts random truth tables cluster at pi >= 1.6, which m",
+      "llm2_reasoning_excerpt": "The proposed property R = [pi(f) >= 1.5] is explicitly (a) constructive \u2014 computable in 2^O(n) time from the truth table via FWHT-based XOR-convolution \u2014 and (c) useful, since by hypothesis it excludes all ACC^0[m] circuits, a class widely believed (and treated in the conjecture's framing alongside Williams' method) to be approached as a stepping stone toward P/poly. The critical issue is largeness: the rationale claims R fails on 'sparse-spectrum PRG candidates' with |S|<=2, but a uniformly ran",
+      "ts": 1778221065.465017
+    },
+    {
+      "title": "Monotone Ultralimit Convergence of \u03ba along the Asymptotic Completion of the Majority Family",
+      "primary_barrier": "NATURAL_PROOFS",
+      "rejection_count": 1,
+      "max_confidence": 0.78,
+      "field_A": "Coarse Geometric Karchmer-Wigderson (CG-KW) framework / coarse geometry and Roe-algebraic K-theory within combinatorial topology",
+      "field_B": "Formula-depth complexity in the De Morgan basis (NC^1 vs. P lower bounds for Majority/threshold), specifically the logarithmic depth of MAJ_n and its threshold cousins",
+      "statement": "Let {(X_{MAJ_n}, d_{MAJ_n})} be the KW-metric spaces of the Majority family for odd n. Let c_H \u2208 HX^1(X_{MAJ_n}) be the canonical Hamming cocycle c_H(x,y) = d_{MAJ_n}(x,y) mod 2, and for each propagation R let T_R \u2208 C_u^*[X_{MAJ_n}] be the indicator-banded Roe operator T_R(x,y) = 1[d_{MAJ_n}(x,y) \u2264 R]. Then (i) the trace-pairing-derived invariant \u03ba_n := sup_R log|\u27e8c_H, T_R\u27e9| / log(R) is monotone non-decreasing in n, and (ii) \u03ba_n \u2265 \u03b1 \u00b7 log n for some absolute \u03b1 > 0, so that under asymptotic_completion the limit \u03ba_\u221e = lim \u03ba_n is unbounded. Combined with axiom A1 (Coarse-KW link), this predicts depth(MAJ_n) = \u03a9(log n), and combined with A5 (Roe-index rigidity) the witness is stable under coarse equivalences induced by reduction_pullback.",
+      "rationale": "This sub-conjecture stresses two axioms that prior sub-conjectures left untested in tandem: A1 (the Coarse-KW link, in its asymptotic, 'completion' formulation) and the convergence behavior implicit in the asymptotic_completion operation. If \u03ba behaves like a true coarse invariant of an ultralimit, then along any natural function family it should be monotone and divergent whenever depth grows; Majority \u2014 whose formula depth is \u0398(log n) \u2014 is the smallest non-trivial witness where the predicted \u03ba-growth is detectable on tiny instances, but still nontrivial. The Hamming cocycle c_H is the simplest nontrivial coarse 1-cocycle (its \u03b4-image is supported on triangle-defects, which vanish modulo 2 on the bipartite f^{-1}(0) \u2294 f^{-1}(1) partition), and indicator-banded T_R is the canonical Roe-controlled operator; the trace pairing reduces to a counting identity that scales with the propagation R, exactly the quantity that A1 forces to be polynomial in 2^depth. Failure of monotonicity or sub-logarithmic growth would falsify A1 in its strong form; success gives small-scale empirical evidence for the conjectured ultralimit convergence underlying A5.",
+      "barrier_count_breakdown": {
+        "NATURAL_PROOFS": 1
+      },
+      "llm1_reasoning_excerpt": "The proposed property \u03ba_n is computed directly from the truth table of f via a sparse trace pairing over {0,1}^n, hence constructive in 2^poly(n) time (a). The construction uses only generic ingredients \u2014 Hamming-distance-banded Roe operators and the parity cocycle \u2014 that make no use of structural features specific to Majority, so a uniformly random Boolean function plausibly fails the \u03ba growth condition (the test strategy itself uses random f as a falsifier baseline), giving a largeness gap con",
+      "llm2_reasoning_excerpt": "The proposed property \u03ba_n is computed directly from the truth table of f via a sparse Roe operator and Hamming cocycle in time 2^poly(n) (constructive), and the test explicitly contrasts MAJ against a UNIFORMLY RANDOM Boolean function expecting \u03ba to stay O(1) on random f \u2014 which would make the property's complement large (random f fails it with high probability), so the 'high-\u03ba' property is satisfied by a non-negligible class while random functions evade it, giving the standard largeness/usefuln",
+      "ts": 1777332964.079263
+    },
+    {
+      "title": "Leinster Magnitude of Hamming-Embedded Communication Matrices Lower-Bounds R(DISJ)",
+      "primary_barrier": "NATURAL_PROOFS",
+      "rejection_count": 1,
+      "max_confidence": 0.78,
+      "field_A": "Leinster metric magnitude (Euler-characteristic-style invariant of finite metric spaces via inverting the similarity matrix Z(t)=exp(-t\u00b7D))",
+      "field_B": "Randomized communication complexity of partial Boolean matrices, with DISJOINTNESS as the canonical \u03a9(n) target",
+      "statement": "For a 2^n \u00d7 2^n {0,1}-matrix M, embed its rows as points of the Hamming metric space H(M)=({rows of M}, d_Ham) and define the magnitude \u03c4_t(M) := 1^T Z(t)^{-1} 1 where Z(t)[i,j] = exp(-t\u00b7d_Ham(row_i, row_j)). At the canonical scale t* = ln 2 we conjecture that (a) log\u2082 \u03c4_{t*}(DISJ_n) = (1 \u00b1 o(1))\u00b7n as n \u2192 \u221e, and (b) every 2^n \u00d7 2^n {0,1}-matrix M satisfies log\u2082 \u03c4_{t*}(M) \u2264 C\u00b7R_{1/3}(M) for an absolute constant C \u2264 8; consequently \u03c4_{t*} is a Lean-formalizable tensor invariant providing the \u03a9(n) lower bound on R(DISJ_n). The conjecture is falsified by exhibiting a 2^n \u00d7 2^n matrix where log\u2082 \u03c4_{t*}/R_{1/3} > 8 or where DISJ_n's log\u2082 \u03c4_{t*} drops below 0.5n or exceeds 1.5n for any tested n.",
+      "rationale": "Magnitude captures the 'effective number of distinct points' of a metric space and is monotone under inclusions of metric subspaces, so it should detect the row-diversity that any low-communication protocol must collapse via rectangular partitions. Because rectangles in low-communication protocols force rows in the same leaf to be Hamming-close, a small protocol forces magnitude to collapse, while DISJ's rows are pairwise far apart and should sustain magnitude exponential in n. To our knowledge magnitude has never been applied as a communication-matrix invariant, despite being a single matrix-inversion away from concrete numbers.",
+      "barrier_count_breakdown": {
+        "NATURAL_PROOFS": 1
+      },
+      "llm1_reasoning_excerpt": "The proposed invariant \u03c4_{t*}(M) is computed by a single matrix inversion on the 2^n \u00d7 2^n similarity matrix Z(t), so it is computable in time 2^{O(n)} from the truth table \u2014 satisfying CONSTRUCTIVE. The target class is randomized communication complexity which corresponds (via the standard correspondence) to functions with small randomized circuits / protocols, and the conjectured bound log\u2082 \u03c4 \u2264 C\u00b7R_{1/3}(M) would distinguish high-magnitude functions from any function with small protocols, givi",
+      "llm2_reasoning_excerpt": "The proposed conjecture uses a property P (magnitude \u03c4_t) of Boolean functions that is computable in time 2^poly(n) given the truth table, as it involves inverting a matrix that can be computed from the truth table. The property is also large, as it applies to all Boolean functions and claims a universal lower bound. Furthermore, the property is useful, as it implies a lower bound on the communication complexity of the function. The target class is randomized communication complexity, which is a",
+      "ts": 1778193317.1400833
+    },
+    {
+      "title": "Bivariate Mahler Measure of Sign Polynomial Lower-Bounds R(DISJ)",
+      "primary_barrier": "NATURAL_PROOFS",
+      "rejection_count": 1,
+      "max_confidence": 0.78,
+      "field_A": "Mahler measure / heights of multivariate polynomials in algebraic number theory (Smyth's L'(\u03c7_{-3},-1) closed form for m(1+s+t); Boyd\u2013Deninger zeta-value formulae; Lehmer's problem). The logarithmic Mahler measure m(P) = \u222b_{T^k} log|P| d\u03bc is a classical height invariant essentially absent from the communication-complexity literature.",
+      "field_B": "Randomized two-party communication complexity R_{1/3}(f) of sign matrices M_f \u2208 {-1,+1}^{2^n\u00d72^n}, with DISJ_n as the canonical \u03a9(n) target (Razborov 1992) accessed through the discrepancy-style proxy R_{1/3}(f) \u2265 (1/2) log_2(1/disc(M_f)) \u2212 O(1).",
+      "statement": "For f:{0,1}^n \u00d7 {0,1}^n \u2192 {-1,+1} with sign matrix M_f, define the multilinear matrix polynomial F_f(s_1,...,s_n,t_1,...,t_n) = \u03a3_{x,y\u2208{0,1}^n} M_f(x,y) \u00b7 \u220f_{i=1}^n s_i^{x_i} t_i^{y_i} \u2208 Z[s,t], and its 2n-torus logarithmic Mahler measure m(F_f) = \u222b_{[0,1]^{2n}} log|F_f(e^{2\u03c0i\u03b8_1},...,e^{2\u03c0i\u03c6_n})| d\u03b8 d\u03c6. Conjecture: (a) m(F_{DISJ_n}) \u2212 m(F_{const}) \u2265 n \u00b7 m(1+s+t) \u2212 o(n) = (0.32307...)\u00b7n \u2212 o(n), and (b) for every f, R_{1/3}(f) \u2265 c \u00b7 (m(F_f) \u2212 n\u00b7log 2) \u2212 O(log n) for an absolute c > 0. A single instance with R_{1/3} = O(log n) but m(F_f) \u2212 n\u00b7log 2 = \u03c9(log n) refutes (b); an instance of DISJ with sublinear m refutes (a).",
+      "rationale": "The multilinear polynomial F_f is the natural Fourier-side / generating-function avatar of M_f under the {0,1}^n \u00d7 {0,1}^n product structure; for DISJ the polynomial factors as 2\u220f(1+s_i+t_i) \u2212 \u220f(1+s_i)(1+t_i), whose Mahler measure inherits Smyth's exact L-value per coordinate and gives a clean \u03a9(n) signature, while easy functions (constant, equality up to a row/column permutation, low-rank patterns) collapse F_f into a product of small-height factors with bounded m. Heights/Mahler measure are coordinate-respectful (multiplicative under tensor product, monotone under specialization), so they should track the multiplicative structure that makes DISJ hard, in a way orthogonal to spectral or discrepancy invariants.",
+      "barrier_count_breakdown": {
+        "NATURAL_PROOFS": 1
+      },
+      "llm1_reasoning_excerpt": "The proposed property \u2014 m(F_f) \u2212 n\u00b7log 2 being large \u2014 is defined directly on the truth table M_f, computable in 2^poly(n) time (the integral can be approximated to inverse-exponential precision by deterministic quadrature on a polynomial-size grid given the 2^{2n}-entry truth table), satisfying constructivity. It is plausibly large: random \u00b11 sign matrices should have Mahler measure scaling with n (heights of generic multilinear polynomials concentrate), so a positive density of functions would",
+      "llm2_reasoning_excerpt": "Part (b) proposes a property of the truth table M_f \u2014 namely the Mahler measure m(F_f) of its generating polynomial \u2014 that lower-bounds R_{1/3}(f), and via the standard R \u2264 poly(log) \u21d2 low communication path, would yield P/poly-style lower bounds since high m(F_f) would witness hardness against small-circuit f's truth tables. The property is (a) constructive in 2^poly(n): given the 2^{2n}-entry truth table, m(F_f) is approximable to inverse-polynomial accuracy in time 2^{poly(n)} by Monte-Carlo ",
+      "ts": 1778234265.5153642
+    },
+    {
+      "title": "Lasserre Moment-Rank Gap of Accept Set Bounds AC0 PARITY Size",
+      "primary_barrier": "NATURAL_PROOFS",
+      "rejection_count": 1,
+      "max_confidence": 0.78,
+      "field_A": "Sum-of-squares / Lasserre hierarchy moment-matrix theory (Lasserre 2001, Parrilo 2003, Grigoriev 2001) \u2014 specifically the empirical degree-k pseudo-moment Gram matrix M_k(f) := (1/|f^{-1}(1)|) sum_{x in f^{-1}(1)} v_k(x) v_k(x)^T over the multilinear monomial vector v_k(x) of degree <= k on the boolean cube, used here as an S_n-equivariant non-uniform circuit invariant rather than as a CSP relaxation; its R-rank is poly-time via SVD and is essentially absent from the AC^0 / switching-lemma literature.",
+      "field_B": "AC^0 depth-d formula size for PARITY_n in the Hastad / Razborov-Smolensky lineage; the canonical NEXP-vs-AC^0 gateway target where tight size constants for d>=3 remain open.",
+      "statement": "For every boolean f:{0,1}^n -> {0,1} and integer k <= n/2, let rk_k(f) := rank_R(M_k(f)) <= N_k where N_k = sum_{j<=k} C(n,j). Conjecture (A): rk_k(PARITY_n) = N_k for every k <= floor(n/2) (full Lasserre rank of the even-parity accept set up to half-degree). Conjecture (B): for every AC^0 depth-d formula F of size s computing g on n variables, rk_k(g) <= s * k * C(n, k-1) for every 2 <= k <= n/2. Combining (A) and (B) at k = ceil(n^{1/(d-1)}) forces any AC^0 depth-d formula for PARITY_n to have size >= N_k / (k * C(n,k-1)) = 2^{Omega(n^{1/(d-1)} / log n)}; one counterexample to (A) at any (n,k <= n/2) or to (B) at any (F,k,g) refutes the conjecture.",
+      "rationale": "PARITY's accept set is the unique S_n-invariant antipodal half-cube and so should saturate every Lasserre moment-matrix dimension below half-degree, while AC^0 formulas of size s decompose their accept set as a union of s subcubes whose moment-matrix support sits inside an O(s)-dimensional (k*C(n,k-1))-spanned subspace of the multilinear monomial basis (one degree-(k-1) factor per gate fan-in). Re-expressing the Hastad/Razborov barrier as a moment-matrix rank deficit makes the lower bound a single linear-algebraic invariant computable in O((2^n + N_k) N_k^2) time. The bridge sits squarely in the SOS-hierarchy framework \u2014 Lasserre level-k rank for empirical pseudo-distributions on f^{-1}(1) \u2014 while being a non-uniform circuit lower bound rather than a CSP integrality gap, occupying a corner with <5 papers.",
+      "barrier_count_breakdown": {
+        "NATURAL_PROOFS": 1
+      },
+      "llm1_reasoning_excerpt": "The proposed property P(f) = 'rank of the empirical degree-k moment matrix M_k(f) is small' is computed directly from the truth table via SVD in time poly(2^n) = 2^poly(n), so it is CONSTRUCTIVE. It is also LARGE: a random Boolean function's accept set spans a generic subspace and almost surely yields full or near-full rank N_k, while the conjecture asserts AC^0 formulas have rk_k(g) <= s*k*C(n,k-1), a bound a positive (in fact overwhelming) fraction of random functions violate \u2014 so the 'low-ran",
+      "llm2_reasoning_excerpt": "The proposed property \u2014 that the Lasserre moment-matrix rank rk_k(g) of the accept set is small (bounded by s\u00b7k\u00b7C(n,k-1)) \u2014 is computed directly from the truth table via SVD in time poly(2^n), so it is CONSTRUCTIVE in 2^poly(n). The property is plausibly LARGE: a random Boolean function has accept set of size ~2^{n-1} which generically yields full or near-full moment rank N_k, so 'low moment rank' is a measure-zero/sparse but the complementary 'high moment rank' property is overwhelmingly typica",
+      "ts": 1778238768.3625443
+    },
+    {
+      "title": "Schur-Horn Majorization Gap Lower-Bounds Sign-Rank Discrepancy",
+      "primary_barrier": "NATURAL_PROOFS",
+      "rejection_count": 1,
+      "max_confidence": 0.7,
+      "field_A": "Schur-Horn majorization theory (doubly-stochastic / diagonal-vs-spectrum majorization on Hermitian matrices)",
+      "field_B": "Discrepancy-based randomized communication complexity of \u00b11 sign matrices",
+      "statement": "For any \u00b11 matrix M of size N\u00d7N (N=2^n), let s(M)=(s_1\u2265\u2026\u2265s_N) be its singular values and d(M) be the sorted absolute row-sums of M divided by sqrt(N); define the Schur-Horn majorization gap G(M)=sum_{k=1}^{N} (s_k - d_k)_+ /N. Then the discrepancy disc(M) satisfies disc(M) \u2264 C \u00b7 2^{-G(M)} for an absolute constant C\u2208[1,4], and equivalently the randomized two-party communication complexity obeys R_{1/3}(M) \u2265 G(M) - O(1). The conjecture is falsified by exhibiting any single \u00b11 matrix with disc(M) > 4\u00b72^{-G(M)} at any tested n\u22646.",
+      "rationale": "Schur-Horn theory precisely measures how far a Hermitian matrix's diagonal can be from its spectrum under unitary conjugation, which is exactly the kind of unitary-invariant slack that controls cut-norm/discrepancy via Grothendieck-type inequalities. Because Hadamard-like matrices saturate the spectrum-vs-diagonal majorization inequality, G(M) should track the spectral flatness that Lindsey's lemma exploits, giving a fresh majorization handle on discrepancy that is independent of the algebrization barrier. No prior work links Schur-Horn majorization gaps directly to sign-rank or randomized communication complexity.",
+      "barrier_count_breakdown": {
+        "NATURAL_PROOFS": 1
+      },
+      "llm1_reasoning_excerpt": "The proposed property G(M) is computed directly from the truth-table-as-matrix via SVD and row-sums in time 2^O(n)=poly(2^n), so it is constructive in the Razborov\u2013Rudich sense. A high G(M) lower bound on randomized communication complexity would in particular separate sign matrices computable by P/poly circuits from those that aren't, and the Schur-Horn gap is a smooth, unitary-invariant spectral statistic that plausibly holds for a 2^{-poly(n)} fraction of random \u00b11 matrices (random sign matri",
+      "llm2_reasoning_excerpt": "The proposed property G(M) is computed directly from the truth table (viewed as a \u00b11 matrix) via SVD and row-sum sorting in time 2^O(n), so it is constructive. Random \u00b11 matrices have Gaussian-like singular values of order sqrt(N) while row-sums are O(sqrt(N)), so a constant fraction of all functions would exhibit large G(M), making the property large. Since the conjecture asserts G(M) lower-bounds R_{1/3}(M) and hence circuit complexity for the natural protocol-induced classes, using G as a har",
+      "ts": 1777242139.937495
+    },
+    {
+      "title": "Median-Restriction Hardness Amplification Gap for DNF Truth Tables",
+      "primary_barrier": "NATURAL_PROOFS",
+      "rejection_count": 1,
+      "max_confidence": 0.7,
+      "field_A": "Quantile statistics of random subcube restrictions (order-statistic / median-of-medians combinatorics on the Boolean cube; rarely deployed in worst-case-to-average-case amplification, distinct from Hastad/Razborov switching-lemma expectation-style bounds)",
+      "field_B": "DNF-MCSP / minimum DNF term count DNF_min(f) for a Boolean function f:{0,1}^n\u2192{0,1} given its 2^n-bit truth table \u2014 the Hirahara\u2013Oliveira\u2013Santhanam restricted-MCSP proxy used in average-to-worst-case meta-complexity reductions",
+      "statement": "Let M_p(f) be the median, over 1024 i.i.d. random p-restrictions \u03c1 (each variable independently *-ed with probability p, else uniform 0/1) with p = 1/sqrt(n), of the term count DNF_min(f|_\u03c1) of the restricted truth table; let A_p(f) be the corresponding mean. We conjecture that for every Boolean function f on n \u2264 16 variables, DNF_min(f) \u2264 2 \u00b7 M_p(f)^2 + n, and moreover the median\u2013mean gap satisfies A_p(f) \u2212 M_p(f) \u2264 sqrt(DNF_min(f)) \u00b7 log2(n+2). One Boolean function violating either inequality refutes the conjecture.",
+      "rationale": "Switching-lemma arguments bound *expected* restricted-DNF size, but average-to-worst-case lifts (Impagliazzo\u2013Wigderson, Hirahara) actually need a tail/quantile statement: a typical restriction must already reveal hardness, not just the expectation. Replacing the mean by the median controls heavy-tailed restriction outliers and conjecturally yields a sharper, square-rooted relation to the unrestricted term count, exposing the structure that lets average DNF-MCSP hardness amplify to worst-case via restriction self-reducibility. The bridge is rare because order statistics of restriction-size functionals (as opposed to expectations) have not, to my knowledge, been used as a complexity invariant.",
+      "barrier_count_breakdown": {
+        "NATURAL_PROOFS": 1
+      },
+      "llm1_reasoning_excerpt": "The proposed property is a quantile statistic (median of DNF_min over random restrictions) computed directly from the 2^n-bit truth table, which makes it CONSTRUCTIVE in 2^poly(n) time. If proved as a generic relation usable in average-to-worst-case lifts for DNF-MCSP, the property would be LARGE (random truth tables generically have huge DNF_min and similarly large M_p, so the bound holds densely) and the amplification framework targets meta-complexity classes that, when pushed via restriction ",
+      "llm2_reasoning_excerpt": "The conjectured property is a relation between truth-table statistics (DNF_min and median/mean of DNF_min on random restrictions), which is (a) constructive \u2014 computable from the 2^n truth table in time 2^poly(n) \u2014 and (b) plausibly large, since random functions have high DNF_min and concentrated restriction statistics, so a non-negligible fraction satisfy the bound. If used as a hardness amplification lemma toward DNF-MCSP/meta-complexity lower bounds against P/poly (the stated motivation via H",
+      "ts": 1777322562.156373
+    },
+    {
+      "title": "Diameter-Multiplicity Power Law under Controlled Refinement Recovers Coarse Depth",
+      "primary_barrier": "NATURAL_PROOFS",
+      "rejection_count": 1,
+      "max_confidence": 0.7,
+      "field_A": "Coarse Geometric Karchmer-Wigderson (CG-KW); coarse geometry / Roe-style coarse cohomology of finite KW metric spaces (Gromov asymptotic dimension, Roe algebras)",
+      "field_B": "Formula-depth complexity (NC^1 vs. P): obtaining super-logarithmic formula-depth lower bounds for explicit f by reading off the multiplicity exponent of a controlled cover of X_f",
+      "statement": "Let f:{0,1}^n -> {0,1} be explicit and let X_f be its KW-metric space with metric d_f. For any sequence of controlled covers U_0, U_1, U_2, ... of X_f produced by iterated controlled_refinement, with diameters R_k = R_0 \u00b7 2^{-k} and multiplicities m_k, the conjecture is that the asymptotic exponent \u03b3(f) := limsup_{k\u2192\u221e} log(m_k) / log(R_0/R_k) satisfies \u03b3(f) = \u03ba(f) up to additive O(1). Equivalently: the slope of log(m_k) versus log(R_0/R_k) recovers the coarse depth invariant from the framework's target, and hence by axiom A1 lower-bounds depth(f). In particular for an explicit family with \u03b3(f_n) = \u03c9(log n), one obtains depth(f_n) = \u03c9(log n).",
+      "rationale": "This sub-conjecture directly tests the proof mechanism asserted by axiom A1, which states that the multiplicity exponent of a controlled cover equals depth (the cover is built from a KW protocol tree, and refinement halves diameter at the cost of one extra fan-out at each gate, so multiplicity should compound at the depth rate). It also exercises the controlled_refinement operation as a numerical probe rather than a structural one, providing an alternative empirical handle on \u03ba(f) that bypasses construction of explicit cocycles in HX^1. If A1's proof is correct, the diameter\u2013multiplicity log-log slope must match \u03ba(f) on independently checkable small instances; deviation would signal a gap in A1's translation step. It is independent of the previously listed conjectures because it concerns the refinement operation rather than the trace pairing, the ultralimit, oracle collapse, pullbacks, or composition.",
+      "barrier_count_breakdown": {
+        "NATURAL_PROOFS": 1
+      },
+      "llm1_reasoning_excerpt": "The proposed invariant \u03b3(f) is read off the truth table of f via a constructive procedure (build X_f, greedy/ILP cover, fit log-log slope) running in time poly(2^n), so it is constructive in the Razborov\u2013Rudich sense. The target class is formula depth \u03c9(log n), i.e., super-NC^1, which sits inside P/poly, so usefulness against P/poly-style classes is at stake. Unless \u03b3 is argued to be small for a 2^{-poly(n)} fraction of random truth tables, a random f (with depth \u0398(n) w.h.p.) will plausibly yiel",
+      "llm2_reasoning_excerpt": "The conjecture proposes a property \u03b3(f) \u2014 the log-log slope of multiplicity vs. inverse diameter of controlled covers of the KW space X_f \u2014 that purports to lower-bound formula depth, and the test strategy explicitly computes it from the truth table in 2^poly(n) time via greedy/ILP cover construction, making it CONSTRUCTIVE. The target class is formula-depth \u03c9(log n), i.e., super-NC^1, which is well within P/poly, so USEFULNESS against P/poly is at stake once the invariant is pushed to separate ",
+      "ts": 1777325690.1161094
+    },
+    {
+      "title": "Diagonalization separation of P and NP",
+      "primary_barrier": "RELATIVIZATION",
+      "rejection_count": 5,
+      "max_confidence": 0.99,
+      "field_A": "Abstract recursion",
+      "field_B": "P vs NP",
+      "statement": "By Turing-machine diagonalization, there exists L in NP minus P.",
+      "rationale": "Diagonalize against all poly-time TMs.",
+      "barrier_count_breakdown": {
+        "RELATIVIZATION": 5
+      },
+      "llm1_reasoning_excerpt": "The proof sketch relies on diagonalization against all polynomial-time Turing machines, a black-box simulation technique that treats machines solely by their input-output behavior. Such methods are known to relativize, as they do not exploit structural properties of computations like circuit depth or formula locality. Since there exist oracles (e.g., Baker\u2013Gill\u2013Solovay A) under which P^A = NP^A, any relativizing argument cannot separate P from NP. Thus, this proof technique is blocked by the rel",
+      "llm2_reasoning_excerpt": "The proposed proof uses Turing-machine diagonalization against all poly-time TMs, treating them as black boxes, which is a relativizing argument. This approach does not exploit specific properties of the circuit or formula encoding, triggering the relativization barrier. As established by Baker-Gill-Solovay, such arguments cannot separate P from NP due to the existence of oracles A and B with P^A = NP^A and P^B \u2260 NP^B.",
+      "ts": 1777047547.527884
+    }
+  ]
+}

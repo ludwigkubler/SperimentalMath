@@ -1,0 +1,353 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=2.3cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage[disable]{microtype}
+\hypersetup{colorlinks=true, linkcolor=blue, urlcolor=blue, citecolor=blue}
+
+\title{The Wall Atlas:\\
+A curated record of barrier rejections\\
+encountered by an autonomous P-vs-NP proposer}
+
+\author{Ludovico Kubler\thanks{The proposer agent and barrier-checker
+agents whose log we curate here are part of the autonomous engine
+behind \href{https://github.com/ludwigkubler/SperimentalMath}{SperimentalMath}.
+Curation, deduplication, and the analysis of patterns are presented
+under the \texttt{MULTIAGENT\_PIPELINE.md} framework as a survey-grade
+artefact, not a research result.}}
+
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We curate the $32$-record output of the four-barrier filter that gates
+every conjecture proposed by the \texttt{SperimentalMath} autonomous
+engine, deduplicate it to $20$ unique conjectures, and tabulate which
+conjectures are blocked by which classical barrier. Of the $20$
+unique entries, three are textbook ``calibration'' attempts that the
+engine keeps re-emitting (and the filter keeps correctly catching) —
+diagonalization for $\mathbf{P}$ vs.\ $\mathbf{NP}$
+\cite{BakerGillSolovay1975}, sum-check arithmetization for
+$\mathbf{NEXP} \not\subseteq \mathbf{P}/\mathrm{poly}$
+\cite{AaronsonWigderson2008}, and the Karp-Lipton-style direct
+$\mathbf{NEXP} \subseteq \mathbf{P}/\mathrm{poly}$ assertion
+\cite{KarpLipton1980}. The remaining $17$ entries are ``genuine''
+proposer attempts that nonetheless trigger one of the four barriers; we
+group them by the underlying mathematical idea and identify the
+recurring failure modes. The contribution is curation, not a result; the
+corpus is offered as raw material for the design of better proposer
+prompts and better barrier-detection heuristics.
+\end{abstract}
+
+\section{Introduction}\label{sec:intro}
+
+The four classical barriers to circuit lower bounds and complexity-class
+separations — relativization \cite{BakerGillSolovay1975}, natural
+proofs \cite{RazborovRudich1997}, algebrization
+\cite{AaronsonWigderson2008}, and the Karp-Lipton-style implied collapse
+\cite{KarpLipton1980} — together rule out a large class of generic proof
+strategies. Most working complexity theorists eventually internalize
+the rules of thumb associated with these barriers: \emph{don't
+diagonalize black-box machines}, \emph{don't use only
+constructive-large-useful properties}, \emph{don't arithmetize sum-check
+into PSPACE-style protocols}, \emph{don't directly assert collapses
+that contradict standard hierarchy assumptions}. An autonomous
+proposer agent has no such internalization; it generates conjectures
+from natural-language prompts and has to be reminded, at each turn, by
+a barrier-detection module.
+
+The Wall Atlas is the audit log of such reminders. Every time the
+proposer of \texttt{SperimentalMath} emits a conjecture, two
+LLM-driven barrier checkers (using independent backends) read the
+conjecture and its rationale, vote on each of the four barriers, and
+record a verdict $\in \{\textsc{Hits}, \textsc{Uncertain}, \textsc{Safe}\}$
+with a confidence score. A conjecture is rejected if either checker
+votes \textsc{Hits} on any barrier with confidence $\geq 0.7$.
+
+This paper curates the raw rejection log into a deduplicated, classified
+catalogue. The intended audience is twofold:
+
+\begin{itemize}
+\item \emph{Designers of autonomous research engines}: the patterns
+in \S\ref{sec:patterns} suggest concrete improvements to proposer
+prompts.
+\item \emph{Complexity theorists curious about borderline cases}:
+some of the $17$ genuine entries (\S\ref{sec:genuine}) propose ideas
+that are not obviously blocked by the cited barrier; in those cases
+the barrier-checker may itself be wrong.
+\end{itemize}
+
+\section{The four barriers, in one paragraph each}\label{sec:barriers}
+
+\paragraph{Relativization (Baker--Gill--Solovay 1975 \cite{BakerGillSolovay1975}).}
+A proof technique \emph{relativizes} if its conclusion remains valid
+when every Turing machine in the argument is given access to the same
+oracle. Since there exist oracles $A, B$ with $\mathbf{P}^A = \mathbf{NP}^A$ and
+$\mathbf{P}^B \neq \mathbf{NP}^B$, no relativizing argument can resolve
+$\mathbf{P}$ vs.\ $\mathbf{NP}$. Generic Turing-machine diagonalization is the
+canonical example.
+
+\paragraph{Natural proofs (Razborov--Rudich 1997 \cite{RazborovRudich1997}).}
+A property $P$ of boolean functions is \emph{natural} (against
+$\mathbf{P}/\mathrm{poly}$) if it is \emph{constructive} (poly-time
+computable from the truth table), \emph{large} (holds for at least a
+$1/\mathrm{poly}$ fraction of functions), and \emph{useful} (its truth
+on a function $f$ implies that $f$ has super-polynomial circuit size).
+Under standard cryptographic assumptions (one-way functions exist), no
+natural property is useful. Hence any property satisfying the three
+criteria above cannot be the basis of a circuit lower bound.
+
+\paragraph{Algebrization (Aaronson--Wigderson 2008 \cite{AaronsonWigderson2008}).}
+A proof technique \emph{algebrizes} if its conclusion remains valid
+when every boolean function in the argument is replaced by a
+polynomial extension (over a field of large enough size). Sum-check,
+$\mathbf{IP} = \mathbf{PSPACE}$-style arithmetization, and similar techniques
+algebrize. There exist two oracles $A, \tilde A$, with $\tilde A$ a
+polynomial extension of $A$, that algebrize $\mathbf{P}$ vs.\ $\mathbf{NP}$ in
+opposite directions; hence algebrizing arguments cannot resolve
+$\mathbf{P}$ vs.\ $\mathbf{NP}$, $\mathbf{NEXP}$ vs.\ $\mathbf{P}/\mathrm{poly}$, or
+similar separations.
+
+\paragraph{Karp-Lipton-style implied collapse \cite{KarpLipton1980}.}
+The Karp-Lipton theorem says that $\mathbf{NP} \subseteq \mathbf{P}/\mathrm{poly}$
+implies the polynomial hierarchy collapses to $\Sigma_2^p$. By a chain
+of similar results, conjectures of the form
+``every $\mathcal{C}$-language has polynomial-size circuits'' typically
+imply unlikely collapses in higher complexity classes, putting them in
+contradiction with standard separation assumptions.
+
+\section{Corpus and methodology}\label{sec:corpus}
+
+The raw barrier-checker log records $32$ rejection events. Many events
+re-evaluate the \emph{same} conjecture title, since the proposer
+re-emits a few canonical attempts every few hours; deduplication by
+conjecture title yields $20$ unique conjectures (Table~\ref{tab:counts}).
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{l r r}
+\toprule
+Barrier & Unique conjectures & Total rejection events \\
+\midrule
+\texttt{ALGEBRIZATION}    & $7$  & $10$ \\
+\texttt{KARP\_LIPTON}     & $1$  & $3$  \\
+\texttt{NATURAL\_PROOFS}  & $11$ & $12$ \\
+\texttt{RELATIVIZATION}   & $1$  & $7$  \\
+\midrule
+\textbf{Total}            & $20$ & $32$ \\
+\bottomrule
+\end{tabular}
+\caption{Counts after curation. The two single-conjecture rows
+(\texttt{KARP\_LIPTON} and \texttt{RELATIVIZATION}) reflect calibration
+attempts; the natural-proofs and algebrization rows contain the
+genuine population.}
+\label{tab:counts}
+\end{table}
+
+\section{Calibration entries}\label{sec:calibration}
+
+Three distinct conjectures account for roughly half ($16/32$) of the
+raw rejection events. Each is a textbook ``don't try this'' attempt,
+which the proposer keeps re-emitting and which the barrier checker
+keeps correctly catching. We list them here so the rest of the
+catalogue can focus on genuine attempts.
+
+\begin{enumerate}
+
+\item \textbf{Diagonalization separation of $\mathbf{P}$ and $\mathbf{NP}$}
+($5$ events, \textsc{Relativization}, max confidence $0.99$).
+Proposer keeps trying ``By Turing-machine diagonalization, there exists
+$L \in \mathbf{NP} \setminus \mathbf{P}$.'' Caught by Baker--Gill--Solovay
+\cite{BakerGillSolovay1975} as a black-box diagonalization argument.
+
+\item \textbf{Every $\mathbf{NEXP}$ language has polynomial-size circuits}
+($3$ events, \textsc{Karp\_Lipton}, max confidence $0.99$).
+Proposer keeps emitting the direct circuit-construction assertion;
+caught as a Karp-Lipton-style implied collapse.
+
+\item \textbf{Sum-check bound for $\mathbf{NEXP}$ lower bound}
+($4$ events, \textsc{Algebrization}, max confidence $0.95$).
+Proposer keeps trying ``use IP = PSPACE-style arithmetization on the
+$\mathbf{NEXP}$ machine''; caught as algebrizing
+\cite{AaronsonWigderson2008}.
+
+\item \textbf{Truth-table discriminant for circuit hardness}
+($4$ events, \textsc{Natural\_Proofs}, max confidence $0.95$).
+Proposer keeps proposing a poly-time-computable property of truth
+tables that holds on $1/\mathrm{poly}$ fraction of functions and
+implies super-polynomial circuit size — a textbook natural property
+\cite{RazborovRudich1997}.
+
+\end{enumerate}
+
+These four account for $16$ of the $32$ raw events. \textbf{Design
+recommendation}: a single line in the proposer prompt — ``do not
+re-emit any of the following four canonical traps'' — would eliminate
+half the false starts.
+
+\section{Genuine attempts (the interesting half)}\label{sec:genuine}
+
+The remaining $16$ unique conjectures are bona-fide attempts to
+construct a complexity-theoretic invariant from a fresh mathematical
+angle. We group them by the cited barrier and reproduce the proposer's
+self-described \emph{rationale} (the one-sentence motivation that
+accompanies each conjecture). Confidence scores are the
+combined two-LLM verdict; entries are sorted within each section by
+descending confidence.
+
+\subsection{Natural-proofs hits ($10$ entries)}\label{sec:np-genuine}
+
+Most of these propose a single-number invariant of the truth table
+(spectral, magnitude-theoretic, ergodic-theoretic, etc.) and conjecture
+that it lower-bounds a complexity measure. The natural-proofs flag
+fires when the invariant is \emph{poly-time-from-the-truth-table},
+\emph{spread over a non-negligible fraction of all functions}, and
+\emph{useful} against $\mathbf{P}/\mathrm{poly}$.
+
+\begin{longtable}{p{3.0cm} p{0.8cm} p{10.5cm}}
+\toprule
+Title & Conf & Rationale \\
+\midrule
+Stern-Brocot Rank of Truth Tables Lifts Average-to-Worst MCSP & $0.88$ & Stern-Brocot continued-fraction depth of a truth-table-as-rational, lifted to MCSP via Levin-style amplification. \\
+Mahler Measure of Truth-Table Polynomial Lower-Bounds $\mathrm{DNF}_{\min}$ & $0.85$ & Logarithmic Mahler measure of the Lagrange-interpolating polynomial of $f$ as a hardness witness for DNF size. \\
+Plunnecke Doubling of Top-Fourier Spectrum Bounds $\mathbf{ACC^0}$ Size & $0.85$ & Doubling constants of the top-$k$ Fourier spectrum of $f$ via Plünnecke-Ruzsa as $\mathbf{ACC^0}$ size lower bound. \\
+Monotone Ultralimit Convergence of $\kappa$ along majorization completion & $0.78$ & Internal stress test of the CG-KW framework's $\kappa$ along an ultrafilter limit; flagged by NP because $\kappa$ becomes a natural property in the limit. \\
+Leinster Magnitude of Hamming-Embedded Communication Matrices $\mathbf{R}(\mathrm{DISJ})$ & $0.78$ & Leinster magnitude of the Hamming-Hamming product space as a discrepancy lower bound. \\
+Bivariate Mahler Measure of Sign Polynomial Lower-Bounds $\mathbf{R}(\mathrm{DISJ})$ & $0.78$ & Bivariate Mahler measure of the sign polynomial of $f$ as a randomized communication lower bound. \\
+Lasserre Moment-Rank Gap of Accept Set Bounds $\mathbf{AC^0}$ PARITY Size & $0.78$ & Lasserre moment-rank gap of the accept-set indicator polynomial. \\
+Schur-Horn Majorization Gap Lower-Bounds Sign-Rank Discrepancy & $0.70$ & SVD vs.\ row-sum majorization gap on the $\pm 1$ truth-table matrix. \\
+Median-Restriction Hardness Amplification Gap for DNF Truth Tables & $0.70$ & Median over restrictions of $f$, accumulated as a hardness gap. \\
+Diameter-Multiplicity Power Law under Controlled Refinement & $0.70$ & Internal stress test of the CG-KW framework's covering invariants. \\
+\bottomrule
+\caption{Genuine \texttt{NATURAL\_PROOFS} hits.}\label{tab:np-genuine}
+\end{longtable}
+
+\paragraph{Pattern.} Eight of these ten entries propose
+a single number computed from the truth-table and conjecture it lower
+bounds circuit complexity. This is the canonical Razborov-Rudich
+template, and the barrier-checker's verdict is consistent with the
+literature. Two of them (the bottom two from the CG-KW framework) are
+flagged \emph{despite} the framework's axiom A3 explicitly being an
+anti-natural-proofs claim — see \cite{KublerCGKW2026} for the
+internal tension this raises.
+
+\subsection{Algebrization hits ($6$ entries)}\label{sec:alg-genuine}
+
+\begin{longtable}{p{3.5cm} p{0.8cm} p{10.0cm}}
+\toprule
+Title & Conf & Rationale \\
+\midrule
+Bounded Arithmetic Complexity of Algebraic Closure in Finite Fields & $0.95$ & Closure-algebra over $\mathbb{F}_q$ as proof-complexity invariant; flagged because the closure operation algebrizes. \\
+Tropical Circuit Weight Accumulation Bound & $0.90$ & Tropical-arithmetic weight transform on circuit gates; flagged because tropical arithmetic still admits polynomial-extension lift. \\
+Tropical Circuit Homotopy Stability under Weight Accumulation & $0.90$ & Companion to the above; same algebrizing transform. \\
+Kronecker Coefficients of Rectangular GL$_n$-Representations Lower-Bound Determinantal Complexity & $0.90$ & GCT-style approach via Kronecker coefficients; flagged because the GCT framework algebrizes by construction \cite{MulmuleySohoni2001,BurgisserIkenmeyerPanova2019}. \\
+Orbit Closure Dimension vs.\ Boolean Circuit Size & $0.90$ & Dimension of $\mathbf{GL}_n$-orbit closure of the function-as-tensor; same GCT-flavored algebrization concern. \\
+Moment Matrix Eigenvalue Gap and SOS Degree for Max-CUT & $0.85$ & SOS degree from spectral gap of the moment matrix; algebrizes via Lasserre lift. \\
+\bottomrule
+\caption{Genuine \texttt{ALGEBRIZATION} hits.}\label{tab:alg-genuine}
+\end{longtable}
+
+\paragraph{Pattern.} Algebrization concerns are triggered whenever the
+proposer reaches into commutative algebra (Mahler measure, Kronecker
+coefficients, orbit closures, SOS hierarchies). The two GCT-flavored
+entries are subtle: the GCT programme \cite{MulmuleySohoni2001} is
+explicitly designed to evade the natural-proofs barrier, but
+algebrization remains an open concern \cite{BurgisserIkenmeyerPanova2019}.
+A nuanced barrier-checker would distinguish ``trivially algebrizes''
+from ``algebrizes-but-via-techniques-actively-being-developed''; the
+current binary flag conflates the two.
+
+\section{Patterns and design recommendations}\label{sec:patterns}
+
+\paragraph{Calibration noise.} 16/32 events are the four canonical
+traps of \S\ref{sec:calibration}. A static disqualifier list in the
+proposer prompt would remove this noise.
+
+\paragraph{Truth-table-statistics monoculture.} 8 of the 10 genuine
+\texttt{NATURAL\_PROOFS} entries reduce to ``a single number computed
+from the truth table.'' This is the most heavily-mined region of the
+proposer's hypothesis space and the barrier reliably catches it. A
+useful next step is for the proposer to learn that ``truth-table
+single-number'' is essentially exhausted, and to bias toward
+\emph{relational} or \emph{categorical} invariants instead.
+
+\paragraph{Algebrization is the proposer's blind spot.} The proposer
+has no obvious filter for ``does my construction lift to a polynomial
+extension''. The 6 genuine algebrization hits are the symptom; a
+syntactic check (``does the construction use only ring operations'') in
+the proposer prompt would help.
+
+\paragraph{Internal tensions.} Two CG-KW framework sub-conjectures hit
+the natural-proofs barrier despite the framework's A3 axiom claiming
+anti-natural-proofs immunity. This is a contradiction the framework
+must address before its sub-conjectures can be tested coherently.
+
+\section{What to do with the genuine entries}\label{sec:next}
+
+For each entry in \S\ref{sec:genuine}, the obvious next step is to
+re-evaluate the barrier verdict by hand, with full attention to the
+specific construction. In the case of the GCT-flavored entries
+(\S\ref{sec:alg-genuine}, last two rows), this is a research-level
+question; in the case of the truth-table single-number entries it is
+mostly bookkeeping. We do not perform that re-evaluation here.
+
+The corpus is offered as raw material; both the barrier-checker
+verdicts and the proposer's rationales are publicly logged in the
+\texttt{barriers/} subdirectory of the
+\href{https://github.com/ludwigkubler/SperimentalMath}{SperimentalMath} repository.
+
+\section*{Reproducibility}
+
+The deduplicated catalogue is generated by
+\texttt{papers/wall\_atlas/curate\_walls.py} from the four
+\texttt{barriers/*.jsonl} files in the SperimentalMath repository. The
+output \texttt{wall\_atlas\_curated.json} is committed alongside this
+paper.
+
+\begin{thebibliography}{99}
+
+\bibitem{AaronsonWigderson2008}
+S.~Aaronson, A.~Wigderson.
+\emph{Algebrization: A new barrier in complexity theory.}
+ACM Trans.\ Comput.\ Theory, 2009 (STOC 2008).
+
+\bibitem{BakerGillSolovay1975}
+T.~Baker, J.~Gill, R.~Solovay.
+\emph{Relativizations of the $\mathbf{P}=?\,\mathbf{NP}$ question.}
+SIAM J.\ Comput.\ 4(4):431--442, 1975.
+
+\bibitem{BurgisserIkenmeyerPanova2019}
+P.~Bürgisser, C.~Ikenmeyer, G.~Panova.
+\emph{No occurrence obstructions in geometric complexity theory.}
+J.\ Amer.\ Math.\ Soc.\ 32:163--193, 2019.
+
+\bibitem{KarpLipton1980}
+R.~M.~Karp, R.~J.~Lipton.
+\emph{Some connections between nonuniform and uniform complexity classes.}
+STOC, 302--309, 1980.
+
+\bibitem{KublerCGKW2026}
+L.~Kubler.
+\emph{The Coarse-Geometric Karchmer-Wigderson Programme.}
+\href{https://github.com/ludwigkubler/SperimentalMath}{SperimentalMath} preprint, 2026.
+
+\bibitem{MulmuleySohoni2001}
+K.~Mulmuley, M.~Sohoni.
+\emph{Geometric complexity theory I.}
+SIAM J.\ Comput.\ 31(2):496--526, 2001.
+
+\bibitem{RazborovRudich1997}
+A.~A.~Razborov, S.~Rudich.
+\emph{Natural proofs.}
+J.\ Comput.\ System Sci.\ 55(1):24--35, 1997.
+
+\end{thebibliography}
+
+\end{document}
