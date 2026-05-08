@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-08 18:36 UTC"
+date: "2026-05-08 19:41 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-08 18:36 UTC
+Generated 2026-05-08 19:41 UTC
 
-- Cycles recorded: **418**
-- Time span: 356.9h (~1.17 cycles/h)
+- Cycles recorded: **424**
+- Time span: 358.0h (~1.18 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 383 |
+| INCONCLUSIVE | 389 |
 | BARRIER_HIT | 16 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -32,7 +32,7 @@ Generated 2026-05-08 18:36 UTC
 
 | Field | Cycles |
 |---|---|
-| Real Algebraic Geometry | 15 |
+| Real Algebraic Geometry | 16 |
 | Matroid Theory | 7 |
 | Free Probability | 7 |
 | Algebraic Geometry | 5 |
@@ -49,8 +49,10 @@ Generated 2026-05-08 18:36 UTC
 | Coarse Geometric Lifting (CGL) — Geometric Complexity Theory | 3 |
 | {"framework_name": "Tropical Circuit Weight Analysis (TCWA)", "math_branch": "BOUNDED_ARITHMETIC"} | 3 |
 | Tropical Circuit Weight Analysis (BOUNDED_ARITHMETIC) | 3 |
+| Schur-Weyl duality | 3 |
 | Spectral Graph Theory | 3 |
 | Polymatroid Theory | 3 |
+| Persistent Homology | 3 |
 | Noncommutative geometry | 2 |
 | Representation theory of symmetric groups | 2 |
 | Ergodic Circuit Framework (COMM_COMPLEXITY) | 2 |
@@ -60,19 +62,11 @@ Generated 2026-05-08 18:36 UTC
 | Free Probability Theory | 2 |
 | Tropical Circuit Weight Analysis (TCWA) — Bounded Arithmetic | 2 |
 | Bounded Arithmetic | 2 |
-| Geometric Complexity Theory | 2 |
-| Algebraic Geometry over Finite Fields | 2 |
 
 ## Last 15 cycles (chronological)
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-08 15:00 UTC | `INCONCLUSIVE` | Free Entropy Lower Bound on Disjointness Communication Complexity |
-| 2026-05-08 15:06 UTC | `INCONCLUSIVE` | Invariant Degree Gap in Read-Twice Branching Programs for IP_2 |
-| 2026-05-08 15:19 UTC | `BARRIER_HIT` | Bounded Arithmetic Complexity of Algebraic Closure in Finite Fiel |
-| 2026-05-08 15:39 UTC | `INCONCLUSIVE` | Graph Energy Lower Bound on Tseitin Resolution Length |
-| 2026-05-08 15:45 UTC | `INCONCLUSIVE` | Multiplicity Gap in Symmetric Powers of Permanent vs Determinant  |
-| 2026-05-08 15:54 UTC | `INCONCLUSIVE` | Fourier Coefficient Sum Separation for Read-Twice Branching Progr |
 | 2026-05-08 16:16 UTC | `INCONCLUSIVE` | Invariant Polynomial Generation Complexity in Determinant vs Perm |
 | 2026-05-08 17:02 UTC | `INCONCLUSIVE` | Covering Radius Bound on Set System Discrepancy |
 | 2026-05-08 17:17 UTC | `INCONCLUSIVE` | Algebraic Geometry Solution Count Lower Bound on ACC^0 Circuit Si |
@@ -82,6 +76,12 @@ Generated 2026-05-08 18:36 UTC
 | 2026-05-08 18:02 UTC | `INCONCLUSIVE` | Newton Polytope Vertex Count Bounds SOS Degree for Max-CUT Approx |
 | 2026-05-08 18:22 UTC | `INCONCLUSIVE` | Noncommutative Quantum Dimension Lower Bound on Disjointness |
 | 2026-05-08 18:36 UTC | `INCONCLUSIVE` | Noncommutative Norm Gap in Read-Twice Branching Programs for IP_2 |
+| 2026-05-08 18:47 UTC | `INCONCLUSIVE` | Laplacian Eigenvalue Deficit Bounds SOS Degree for Max-CUT |
+| 2026-05-08 18:56 UTC | `INCONCLUSIVE` | Diophantine Approximation Bound on Resolution Proof Size |
+| 2026-05-08 19:10 UTC | `INCONCLUSIVE` | Submodular Coverage Deficit in Monotone DNF for k-CLIQUE |
+| 2026-05-08 19:22 UTC | `INCONCLUSIVE` | Quandle Isomorphism Complexity and ACC^0 Circuit Depth |
+| 2026-05-08 19:28 UTC | `INCONCLUSIVE` | Schur-Weyl Decomposition Rank Lower Bounds Disjointness Communica |
+| 2026-05-08 19:41 UTC | `INCONCLUSIVE` | Persistent Homology Barcode Length Inversely Proportional to DPLL |
 
 ## How to read the reports
 

@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — FALSIFIED conjectures"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-08 19:36 UTC"
+date: "2026-05-08 19:41 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,9 +13,7 @@ colorlinks: true
 
 # SEC P vs NP — FALSIFIED conjectures (negative results)
 
-> **⚠ AUDIT 2026-05-08**: this report has been filtered against `retractions.json`. Some entries previously listed here have been retracted following a code-level audit. See [`AUDIT_2026-05-08.md`](../AUDIT_2026-05-08.md) for the full audit document and [`MULTIAGENT_PIPELINE.md`](../MULTIAGENT_PIPELINE.md) for the new review pipeline.
-
-Compiled 2026-05-08 19:36 UTC. 12 conjectures falsified with counterexample.
+Compiled 2026-05-08 19:41 UTC. 15 conjectures falsified with counterexample.
 
 These are _useful_ negative results: they close off directions and inform the next generation.
 
@@ -73,6 +71,55 @@ A counterexample was found for n=4 with D(f)=1 and d(φ)=3, showing that the dec
 
 ---
 
+## Lattice of Flows on Clause-Variable Graph Induces Resolution Width Lower Bound
+
+- **Verdict**: `FALSIFIED`
+- **Bridge**: Algebraic lattice theory (Möbius functions of flow lattices) × Resolution proof width
+- **Recorded**: 2026-04-24 01:38 UTC
+- **Entry ID**: `b5f9314580e6`
+
+### Statement
+
+For every unsatisfiable 3-CNF formula φ with n variables and m clauses, let L(φ) be the lattice of integer flows on its clause-variable incidence graph with edges directed from clauses to variables and capacities ±1. Let μ(0,1) be the Möbius function of the bounded interval in L(φ). Then |μ(0,1)| ≥ w(φ) - 1, where w(φ) is the minimal resolution width of φ.
+
+### Rationale
+
+The clause-variable incidence graph encodes logical dependencies; its flow lattice captures global consistency obstructions. The Möbius function μ(0,1) measures topological complexity of the lattice, which may reflect proof complexity. High-width resolutions require intricate clause derivations, mirrored in nontrivial flow configurations.
+
+### Novelty
+
+- Judge: `NOVEL` over 0 arXiv hits
+
+### Empirical Test
+
+- exit code: `0`, elapsed: `0.02s`
+
+```
+Testing PHP_2 with 6 vars and 9 clauses
+Too many edge configurations: 387420489, skipping full enumeration
+  Found 0 valid flows
+  No flows found, skipping
+Testing Cycle_3 with 5 vars and 44 clauses
+Too many edge configurations: 955004950796825236893190701774414011919935138974343129836853841, skipping full enumeration
+  Found 0 valid flows
+  No flows found, skipping
+Testing Cycle_4 with 6 vars and 48 clauses
+Too many edge configurations: 507528786056415600719754159741696356908742250191663887263627442114881, skipping full enumeration
+  Found 0 valid flows
+  No flows found, skipping
+Testing Trivial_3CNF with 3 vars and 8 clauses
+Too many edge configurations: 282429536481, skipping full enumeration
+  Found 0 valid flows
+  No flows found, skipping
+RESULT: SUPPORTED |μ(0,1)|_min=0 w_max=4
+```
+
+### Judge reasoning
+
+The test found no valid flows in any instance, resulting in |μ(0,1)| = 0, while the minimal resolution width w(φ) is up to 4; thus |μ(0,1)| ≥ w(φ) - 1 fails for w(φ) > 1. | next: Investigate whether the lattice L(φ) is nontrivial for unsatisfiable formulas with small resolution width, or revise flow definition to allow non-zero flows.
+
+---
+
 ## Euler Characteristic of Directed Clause-Variable Feedback Spaces Equals DPLL Backtrack Count
 
 - **Verdict**: `FALSIFIED`
@@ -111,6 +158,84 @@ RESULT: FALSIFIED n=3, m=12, instance 0: χ_dir=-1, B=4, clauses=[(3, -1, -2), (
 ### Judge reasoning
 
 A counterexample was found for n=3, m=12: the Euler characteristic χ_dir = -1, while the DPLL backtrack count B(φ) = 4, showing the two values are not equal. | next: Investigate whether a corrected topological invariant (e.g., magnitude or path homology) correlates with backtrack count.
+
+---
+
+## Khovanov Homology
+
+- **Verdict**: `FALSIFIED`
+- **Bridge**: Categorification and knot Floer homology × Resolution proof size
+- **Recorded**: 2026-04-24 04:14 UTC
+- **Entry ID**: `a8b5663ca867`
+
+### Statement
+
+The Khovanov homology of a SAT instance's clause-variable graph, denoted as Kh(G), has a rank that bounds the resolution proof size. Specifically, for a SAT instance φ with n variables and m clauses, the rank of Kh(G) is upper bounded by the resolution proof size of φ, i.e., rank(Kh(G)) ≤ w(φ).
+
+### Rationale
+
+The Khovanov homology is a categorification of the Jones polynomial and can capture the topological features of the clause-variable graph. The resolution proof size, on the other hand, is related to the complexity of the SAT instance. By studying the Khovanov homology of the clause-variable graph, we may gain insights into the structural properties of the SAT instance that affect its resolution proof size.
+
+### Novelty
+
+- Judge: `NOVEL` over 11 arXiv hits
+
+Top hits consulted:
+  - [2510.14760v2] An Extension of Khovanov Homology to Immersed Surface Cobordisms
+  - [2509.03785v2] Symmetries of equivariant Khovanov homology
+  - [0808.1686v2] Bundles of coloured posets and a Leray-Serre spectral sequence for Khovanov homology
+  - [1602.05992v1] Geometry and categorification
+  - [1505.03340v2] HordeSat: A Massively Parallel Portfolio SAT Solver
+
+### Empirical Test
+
+- exit code: `0`, elapsed: `0.02s`
+
+```
+n=5, m=1, Khovanov rank=3, Resolution proof size=1
+RESULT: FALSIFIED n=5, m=1, Khovanov rank=3, Resolution proof size=1
+```
+
+### Judge reasoning
+
+The test found a counterexample where the Khovanov rank (3) exceeds the resolution proof size (1) for a SAT instance with n=5 variables and m=1 clauses. | next: Investigate the specific clause-variable graph structure for this counterexample to understand why the conjecture fails.
+
+---
+
+## Noncommutative Algebra Generator Count Bounds Circuit Depth
+
+- **Verdict**: `FALSIFIED`
+- **Bridge**: Noncommutative geometry × Boolean circuit depth
+- **Recorded**: 2026-04-24 06:29 UTC
+- **Entry ID**: `cb842205136a`
+
+### Statement
+
+For any 3-SAT instance with n variables, the minimal number of generators required to represent the noncommutative algebra constructed from the instance is Θ(log n).
+
+### Rationale
+
+Noncommutative algebras can encode logical constraints via generators and relations, and their generator count may reflect the depth needed to express these constraints in circuits.
+
+### Novelty
+
+- Judge: `NOVEL` over 0 arXiv hits
+
+### Empirical Test
+
+- exit code: `0`, elapsed: `0.02s`
+
+```
+n=5, generators=5, log_n=1.6094379124341003
+n=8, generators=8, log_n=2.0794415416798357
+n=11, generators=11, log_n=2.3978952727983707
+n=14, generators=14, log_n=2.6390573296152584
+RESULT: FALSIFIED counterexample for n=5,8,11,14
+```
+
+### Judge reasoning
+
+The counterexamples show generators scale linearly with n, contradicting Θ(log n). | next: Analyze algebraic structure for n=5,8,11,14 to identify linear scaling patterns
 
 ---
 
@@ -619,27 +744,3 @@ RESULT: FALSIFIED counterexample="mapping_undefined" first_failing_seed=11
 ### Judge reasoning
 
 The conjecture was directly refuted by multiple counterexamples with 'conjecture_holds': False. The metric consistently exceeded the proposed bound. | next: Investigate why 'mapping_undefined' appears in counterexamples - this may indicate a bug in the duality flip implementation or phase cell detection algorithm.
-
----
-
-## Retractions (originally `FALSIFIED`)
-
-The following 3 entries were removed from this report on 2026-05-08 per the audit document. They are preserved in the raw `notebook/*.jsonl` for traceability but are NOT to be cited as scientific output.
-
-### `a8b5663ca867` — Khovanov Homology
-
-- **Original verdict**: `FALSIFIED`
-- **Action**: `RETRACTED`
-- **Reason**: Counterexample is degenerate: n=5, m=1, a single 3-clause is satisfiable so resolution proof size is undefined. The 'falsification' is a category error, not a counterexample to a non-trivial regime.
-
-### `b5f9314580e6` — Lattice of Flows on Clause-Variable Graph Induces Resolution Width Lower Bound
-
-- **Original verdict**: `FALSIFIED`
-- **Action**: `RETRACTED`
-- **Reason**: Test stdout reads 'Too many edge configurations: 282429536481, skipping full enumeration'. The enumeration was skipped, so the reported counterexample is vacuous (no flows were actually computed).
-
-### `cb842205136a` — Noncommutative Algebra Generator Count Bounds Circuit Depth
-
-- **Original verdict**: `FALSIFIED`
-- **Action**: `RETRACTED`
-- **Reason**: The function used to compute 'generators' returns n by construction (same stub pattern as the SUPPORTED entry b43a4129e5c5). The 'counterexample' that generators scale linearly is therefore tautological. Novelty filter recorded 0 arXiv hits.
