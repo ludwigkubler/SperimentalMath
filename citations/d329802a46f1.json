@@ -1,0 +1,40 @@
+{
+  "entry_id": "d329802a46f1",
+  "ts": 1778235439.608278,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2504.19966",
+      "title": "Quantum circuit lower bounds in the magic hierarchy",
+      "abstract_excerpt": "We introduce the magic hierarchy, a quantum circuit model that alternates between arbitrary-sized Clifford circuits and constant-depth circuits with two-qubit gates ($\\textsf{QNC}^0$). This model unifies existing circuit models, such as $\\textsf{QAC}^0_f$ and models with adaptive intermediate measurements. Despite its generality, we are able to prove nontrivial lower bounds.\n  We prove new lower bounds in the first level of the hierarchy, showing that certain explicit quantum states cannot be ap",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quantum circuit lower bounds in a 'magic hierarchy' of Clifford + QNC^0 circuits for state preparation, with no mention of ACC^0[m], golden-ratio/Kronecker rotation discrepancy, or Boolean truth-table statistics. It shares only the general 'circuit lower bounds' framing and does not interact with the specific Diophantine-discrepancy conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2002.10956",
+      "title": "Upper bounds on Kronecker coefficients with few rows",
+      "abstract_excerpt": "We present three different upper bounds for Kronecker coefficients $g(λ,μ,ν)$ in terms of Kostka numbers, contingency tables and Littlewood--Richardson coefficients. We then give various examples, asymptotic applications, and compare them with existing lower bounds.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns upper bounds for Kronecker coefficients in representation theory via Kostka numbers and Littlewood-Richardson coefficients, which has no interaction with golden-ratio rotation discrepancy or ACC^0[m] circuit lower bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1410.7087",
+      "title": "Bounds on Kronecker and $q$-binomial coefficients",
+      "abstract_excerpt": "We present a lower bound on the Kronecker coefficients for tensor squares of the symmetric group via the characters of~$S_n$, which we apply to obtain various explicit estimates. Notably, we extend Sylvester's unimodality of $q$-binomial coefficients $\\binom{n}{k}_q$ as polynomials in~$q$ to derive sharp bounds on the differences of their consecutive coefficients. We then derive effective asymptotic lower bounds for a wider class of Kronecker coefficients.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Kronecker coefficients of the symmetric group and q-binomial unimodality, sharing only the word 'Kronecker' (representation theory sense, not Kronecker sequences in equidistribution). It does not address rotation discrepancy, ACC^0[m] circuits, or natural properties.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

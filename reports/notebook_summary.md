@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-08 09:37 UTC"
+date: "2026-05-08 10:39 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,19 +13,19 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-08 09:37 UTC
+Generated 2026-05-08 10:39 UTC
 
-- Cycles recorded: **375**
-- Time span: 348.0h (~1.08 cycles/h)
+- Cycles recorded: **383**
+- Time span: 349.0h (~1.10 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 343 |
+| INCONCLUSIVE | 350 |
 | FALSIFIED | 15 |
-| BARRIER_HIT | 13 |
+| BARRIER_HIT | 14 |
 | SUPPORTED | 4 |
 
 ## Mathematical fields explored (field_A)
@@ -67,14 +67,6 @@ Generated 2026-05-08 09:37 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-08 07:33 UTC | `INCONCLUSIVE` | Low-Degree Fourier Mass of Cut Indicator Bounds Tseitin Resolutio |
-| 2026-05-08 07:38 UTC | `INCONCLUSIVE` | Monomial Ideal Generators and Frege Proof Complexity |
-| 2026-05-08 07:43 UTC | `INCONCLUSIVE` | Positivstellensatz Rank Lower-Bounds SOS Max-CUT Degree |
-| 2026-05-08 07:54 UTC | `INCONCLUSIVE` | Real Stable Rank Lower-Bounds AC⁰ PARITY Circuit Size |
-| 2026-05-08 08:00 UTC | `INCONCLUSIVE` | Real Variety Connectedness Lower Bound on SOS Degree for Max-CUT |
-| 2026-05-08 08:01 UTC | `INCONCLUSIVE` | Legendre-Symbol Partial-Sum Anomaly Excludes ACC^0 |
-| 2026-05-08 08:12 UTC | `INCONCLUSIVE` | Möbius Coinvariant of Minterm Intersection Lattice Bounds k-CLIQU |
-| 2026-05-08 08:22 UTC | `INCONCLUSIVE` | Network Reliability Deficit Lower-Bounds Tseitin Resolution |
 | 2026-05-08 08:28 UTC | `INCONCLUSIVE` | Three-Distance Beatty Ordering Matches Avg DPLL on Random 3-SAT |
 | 2026-05-08 08:32 UTC | `INCONCLUSIVE` | Lie Nilpotency Class of Layer Algebra Distinguishes Read-Twice BP |
 | 2026-05-08 08:40 UTC | `INCONCLUSIVE` | SVD Participation Dispersion of Mid-Layer Lower-Bounds Read-Twice |
@@ -82,6 +74,14 @@ Generated 2026-05-08 09:37 UTC
 | 2026-05-08 09:02 UTC | `INCONCLUSIVE` | Gauss-Kuzmin Deviation Bounds Truth-Table Lempel-Ziv Complexity |
 | 2026-05-08 09:28 UTC | `INCONCLUSIVE` | SOS Moment Matrix Rank Bounded by Square Root of Variables for Ma |
 | 2026-05-08 09:37 UTC | `INCONCLUSIVE` | Non-backtracking Spectral Gap Lower-Bounds Tseitin DPLL Trees |
+| 2026-05-08 09:52 UTC | `INCONCLUSIVE` | Symmetrized Univariate Approximate Degree Bounds AC0 PARITY |
+| 2026-05-08 09:57 UTC | `BARRIER_HIT` | Bivariate Mahler Measure of Sign Polynomial Lower-Bounds R(DISJ) |
+| 2026-05-08 10:04 UTC | `INCONCLUSIVE` | Hochster Betti Sum of Monotone f Lower-Bounds Log-Rank of IND-Lif |
+| 2026-05-08 10:10 UTC | `INCONCLUSIVE` | Cut-Polynomial Kurtosis Excess Bounds GW SDP Integrality Gap |
+| 2026-05-08 10:17 UTC | `INCONCLUSIVE` | Golden-Ratio Rotation Discrepancy of Truth Tables Excludes ACC^0[ |
+| 2026-05-08 10:25 UTC | `INCONCLUSIVE` | Galois Concept Lattice Height Lower-Bounds Monotone KW Depth |
+| 2026-05-08 10:31 UTC | `INCONCLUSIVE` | Lyndon Factor Count Separates MOD_3 from Depth-2 ACC^0[2] |
+| 2026-05-08 10:39 UTC | `INCONCLUSIVE` | KKL Influence-Spread of Edge-Product Threshold Lower-Bounds Tseit |
 
 ## How to read the reports
 
