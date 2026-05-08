@@ -1,13 +1,13 @@
 {
-  "last_update_utc": "2026-05-08T10:47:02Z",
-  "total_cycles": 383,
+  "last_update_utc": "2026-05-08T11:47:02Z",
+  "total_cycles": 389,
   "verdict_counts": {
-    "INCONCLUSIVE": 350,
+    "INCONCLUSIVE": 355,
     "SUPPORTED": 4,
     "FALSIFIED": 15,
-    "BARRIER_HIT": 14
+    "BARRIER_HIT": 15
   },
-  "unique_field_A": 303,
+  "unique_field_A": 308,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
@@ -58,15 +58,15 @@
       3
     ],
     [
+      "matroid theory",
+      3
+    ],
+    [
       "Coarse Geometric Lifting (CGL) — Geometric Complexity Theory",
       3
     ],
     [
       "{'framework_name': 'Tropical Circuit Weight Analysis (TCWA)', 'math_branch': 'BOUNDED_ARITHMETIC'}",
-      3
-    ],
-    [
-      "Tropical Circuit Weight Analysis (BOUNDED_ARITHMETIC)",
       3
     ]
   ]

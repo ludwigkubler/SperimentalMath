@@ -1,0 +1,40 @@
+{
+  "entry_id": "139cdbb34775",
+  "ts": 1778238035.082983,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/1901.00043v1",
+      "title": "On the structure of (claw,bull)-free graphs",
+      "abstract_excerpt": "In this research, we determine the structure of (claw, bull)-free graphs. We show that every connected (claw, bull)-free graph is either an expansion of a path, an expansion of a cycle, or the complement of a triangle-free graph; where an expansion of a graph $G$ is obtained by replacing its vertice",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns structural characterization of (claw, bull)-free graphs via expansions of paths/cycles or complements of triangle-free graphs, with no mention of permanents, Bregman-Minc inequality, SDP relaxations, or Max-Cut integrality gaps.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2109.02238v1",
+      "title": "Optimal solutions and ranks in the max-cut SDP",
+      "abstract_excerpt": "The max-cut problem is a classical graph theory problem which is NP-complete. The best polynomial time approximation scheme relies on \\emph{semidefinite programming} (SDP). We study the conditions under which graphs of certain classes have rank~1 solutions to the max-cut SDP. We apply these findings",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses conditions for rank-1 solutions to the max-cut SDP for certain graph classes, which shares the SDP framework but does not address permanents, Bregman-Minc defect, or quantitative integrality gaps on triangle-free cubic graphs.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1403.5248v3",
+      "title": "NP-hardness results for partitioning graphs into disjoint cliques and a triangle-free subgraph",
+      "abstract_excerpt": "This paper investigates the computational complexity of deciding whether the vertices of a graph can be partitioned into a disjoint union of cliques and a triangle-free subgraph. This problem is known to be $\\NP$-complete on arbitrary graphs. We show that this problem remains $\\NP$-complete even whe",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns NP-hardness of a vertex-partition problem into cliques and a triangle-free subgraph, which shares only the 'triangle-free' vocabulary with the conjecture and does not address permanents, Bregman-Minc bounds, or SDP/SOS Max-Cut gaps.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
