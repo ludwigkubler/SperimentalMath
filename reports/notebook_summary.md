@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-08 01:45 UTC"
+date: "2026-05-08 02:37 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-08 01:45 UTC
+Generated 2026-05-08 02:37 UTC
 
-- Cycles recorded: **329**
-- Time span: 340.1h (~0.97 cycles/h)
+- Cycles recorded: **334**
+- Time span: 341.0h (~0.98 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 298 |
+| INCONCLUSIVE | 303 |
 | FALSIFIED | 15 |
 | BARRIER_HIT | 12 |
 | SUPPORTED | 4 |
@@ -39,9 +39,9 @@ Generated 2026-05-08 01:45 UTC
 | Matroid Theory | 4 |
 | Random Matrix Theory | 4 |
 | Additive Combinatorics | 4 |
+| Finite Geometry | 4 |
 | Free Probability | 4 |
 | Fourier analysis of boolean functions | 3 |
-| Finite Geometry | 3 |
 | Coarse Geometric Lifting (CGL) — Geometric Complexity Theory | 3 |
 | {"framework_name": "Tropical Circuit Weight Analysis (TCWA)", "math_branch": "BOUNDED_ARITHMETIC"} | 3 |
 | Tropical Circuit Weight Analysis (BOUNDED_ARITHMETIC) | 3 |
@@ -67,11 +67,6 @@ Generated 2026-05-08 01:45 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-07 22:46 UTC | `INCONCLUSIVE` | Free Cumulant Gap in Read-Twice Branching Programs for IP_2 |
-| 2026-05-07 22:58 UTC | `INCONCLUSIVE` | Kronecker Coefficient Asymmetry in Symmetric Tensor Decomposition |
-| 2026-05-07 23:11 UTC | `INCONCLUSIVE` | Cubical Euler Characteristic Bounds DNF-Min for Symmetric Functio |
-| 2026-05-07 23:12 UTC | `INCONCLUSIVE` | Random Matrix Spectral Norm and SOS Refutation Degree for 3-CNF |
-| 2026-05-07 23:34 UTC | `INCONCLUSIVE` | Real Radical Rank and SOS Degree for Max-CUT |
 | 2026-05-07 23:41 UTC | `INCONCLUSIVE` | Lorentzian Defect of Tseitin Moment Polynomial Lower-Bounds SOS D |
 | 2026-05-07 23:53 UTC | `INCONCLUSIVE` | Persistent Homology Barcodes and Resolution Proof Size for Tseiti |
 | 2026-05-07 23:58 UTC | `INCONCLUSIVE` | Free Cumulant Rank Gap in Read-Twice Branching Programs for IP_2 |
@@ -82,6 +77,11 @@ Generated 2026-05-08 01:45 UTC
 | 2026-05-08 01:18 UTC | `INCONCLUSIVE` | Polymatroid Rank Lower Bound for Monotone DNF Representing k-CLIQ |
 | 2026-05-08 01:28 UTC | `INCONCLUSIVE` | Free Cumulant Gap in Read-Twice BP for IP_2 |
 | 2026-05-08 01:44 UTC | `INCONCLUSIVE` | Persistent Homology Barcodes and Communication Complexity of Bool |
+| 2026-05-08 01:52 UTC | `INCONCLUSIVE` | Jacobi Recurrence b₂ Floor Constrains SoS-2 Max-CUT Ratio |
+| 2026-05-08 02:11 UTC | `INCONCLUSIVE` | Orbit Closure Dimension Bounds Permanent Circuit Complexity |
+| 2026-05-08 02:17 UTC | `INCONCLUSIVE` | Lie Stabilizer Dimension Linearly Bounds Arithmetic Formula Size |
+| 2026-05-08 02:26 UTC | `INCONCLUSIVE` | Finite Plane Line Count Bounds Tseitin Resolution Size |
+| 2026-05-08 02:37 UTC | `INCONCLUSIVE` | Tree-Depth of Tseitin Graph Bounds Resolution Length |
 
 ## How to read the reports
 

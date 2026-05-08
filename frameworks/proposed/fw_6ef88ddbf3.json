@@ -1,6 +1,6 @@
 {
   "framework_id": "fw_6ef88ddbf3",
-  "ts": 1778198515.1901639,
+  "ts": 1778205673.4632778,
   "generation": 0,
   "parent_framework_id": "",
   "mutation_from_parent": "",
@@ -77,7 +77,7 @@
     "A4 (Non-Naturalness): The predicate 'asdim(X_f) >= k' is neither large nor constructive in the Razborov-Rudich sense - random functions have bounded asdim with high probability because random metric spaces of bounded degree have asdim 0 in the coarse sense, so this invariant evades the natural proof",
     "A5 (Non-Relativizing / Non-Algebrizing): Coarse invariants depend on the fine combinatorial structure of f^{-1}(0) and f^{-1}(1) as embedded in the Hamming cube, not on oracle access or low-degree algebraic extensions, so oracle and algebraic-extension transformations do not preserve asdim or alpha*"
   ],
-  "status": "PROPOSED",
+  "status": "ELABORATING",
   "sub_conjecture_entry_ids": [],
   "fitness_components": {},
   "fitness": 0.0,

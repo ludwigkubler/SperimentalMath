@@ -1,0 +1,31 @@
+{
+  "entry_id": "6a8b922a8da3",
+  "ts": 1778205142.0640674,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:ARXIV:2512.04951",
+      "title": "MAX BISECTION might be harder to approximate than MAX CUT",
+      "abstract_excerpt": "The MAX BISECTION problem seeks a maximum-size cut that evenly divides the vertices of a given undirected graph. An open problem raised by Austrin, Benabbas, and Georgiou is whether MAX BISECTION can be approximated as well as MAX CUT, i.e., to within ${\\alpha_{GW}}\\approx 0.8785672\\ldots$, which is the approximation ratio achieved by the celebrated Goemans-Williamson algorithm for MAX CUT, which is best possible assuming the Unique Games Conjecture (UGC). They conjectured that the answer is yes",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns MAX BISECTION integrality gaps for the Basic SDP under SoS rounding paradigms, not 3-regular Max-CUT ratios linked to Jacobi recurrence parameters b_2 of empirical spectral measures. It shares the vocabulary of α_GW and SoS but does not address the spectral/Jacobi-defect implication in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10.1145/380752.380837",
+      "title": "On the integrality ratio of semidefinite relaxations of MAX CUT",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available, so I cannot determine from the provided text whether the paper addresses the specific link between Jacobi recurrence parameters and the Max-CUT SDP integrality ratio on 3-regular graphs.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}

@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — Frameworks (live)"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-08 01:45 UTC"
+date: "2026-05-08 02:37 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,7 +13,7 @@ colorlinks: true
 
 # SEC P vs NP — Frameworks (live)
 
-Compiled 2026-05-08 01:45 UTC. Tracking 6 active + 0 dead frameworks.
+Compiled 2026-05-08 02:37 UTC. Tracking 6 active + 0 dead frameworks.
 
 ## Summary table
 
@@ -24,7 +24,7 @@ Compiled 2026-05-08 01:45 UTC. Tracking 6 active + 0 dead frameworks.
 | `fw_85a254b4a0` | ELABORATING | 0.000 | 0 | `-` | Coarse Geometric Karchmer-Wigderson (CG-KW) |
 | `fw_6997a27304` | ELABORATING | 0.000 | 0 | `-` | Coarse Geometric Lifting (CGL) |
 | `fw_a1a152ae17` | ELABORATING | 0.000 | 0 | `-` | Tropical Circuit Weight Analysis (TCWA) |
-| `fw_6ef88ddbf3` | PROPOSED | 0.000 | 0 | `-` | Coarse-Geometric KW Bounds (CG-KW) |
+| `fw_6ef88ddbf3` | ELABORATING | 0.000 | 0 | `-` | Coarse-Geometric KW Bounds (CG-KW) |
 
 ## Details
 
@@ -136,7 +136,7 @@ Compiled 2026-05-08 01:45 UTC. Tracking 6 active + 0 dead frameworks.
 
 ### Coarse-Geometric KW Bounds (CG-KW) (`fw_6ef88ddbf3`)
 
-- **Status**: `PROPOSED`
+- **Status**: `ELABORATING`
 - **Fitness**: 0.000
 - **Taxonomy**: KARCHMER_WIGDERSON
 - **Target invariant**: formula_depth_D(f) (natural_number) → bounds log_2 of minimum size, equivalently minimum depth, of a De Morgan formula computing f. The framework conjectures D(f) >= c * asdim(X_f) and D(f) >= c' / alpha*(X_f), giving super-logarithmic depth lower bounds when X_f has no Hilbert compression (Yu 2000; Nowak-Yu 2012).
