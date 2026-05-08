@@ -1,0 +1,10 @@
+name = "CGKWMathlib"
+defaultTargets = ["CGKWMathlib"]
+
+[[lean_lib]]
+name = "CGKWMathlib"
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "v4.26.0"
