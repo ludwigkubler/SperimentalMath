@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — Frameworks (live)"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-07 23:41 UTC"
+date: "2026-05-08 00:42 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,7 +13,7 @@ colorlinks: true
 
 # SEC P vs NP — Frameworks (live)
 
-Compiled 2026-05-07 23:41 UTC. Tracking 5 active + 0 dead frameworks.
+Compiled 2026-05-08 00:42 UTC. Tracking 6 active + 0 dead frameworks.
 
 ## Summary table
 
@@ -24,6 +24,7 @@ Compiled 2026-05-07 23:41 UTC. Tracking 5 active + 0 dead frameworks.
 | `fw_85a254b4a0` | ELABORATING | 0.000 | 0 | `-` | Coarse Geometric Karchmer-Wigderson (CG-KW) |
 | `fw_6997a27304` | ELABORATING | 0.000 | 0 | `-` | Coarse Geometric Lifting (CGL) |
 | `fw_a1a152ae17` | ELABORATING | 0.000 | 0 | `-` | Tropical Circuit Weight Analysis (TCWA) |
+| `fw_6ef88ddbf3` | PROPOSED | 0.000 | 0 | `-` | Coarse-Geometric KW Bounds (CG-KW) |
 
 ## Details
 
@@ -130,3 +131,26 @@ Compiled 2026-05-07 23:41 UTC. Tracking 5 active + 0 dead frameworks.
 - A1: (Phase Stability Axiom) Any function provably total in IΔ₀ has a tropical circuit with polynomially many phase cells under uniform input scaling.
 - A2: (Weight-Proof Correspondence) The sum of absolute weights in a tropical circuit for a formula encoding a proof line is at least the bit-complexity of the cut-free proof in bounded arithmetic.
 - A3: (Tropical Soundness) If a bounded arithmetic theory proves a ∀Σ₁ᵇ sentence, then its tropical circuit model exhibits a homotopy-stable phase space under perturbation.
+
+---
+
+### Coarse-Geometric KW Bounds (CG-KW) (`fw_6ef88ddbf3`)
+
+- **Status**: `PROPOSED`
+- **Fitness**: 0.000
+- **Taxonomy**: KARCHMER_WIGDERSON
+- **Target invariant**: formula_depth_D(f) (natural_number) → bounds log_2 of minimum size, equivalently minimum depth, of a De Morgan formula computing f. The framework conjectures D(f) >= c * asdim(X_f) and D(f) >= c' / alpha*(X_f), giving super-logarithmic depth lower bounds when X_f has no Hilbert compression (Yu 2000; Nowak-Yu 2012).
+
+**Primitives**:
+- `KW_metric_space` (metric_space): For boolean f:{0,1}^n -> {0,1}, the set X_f = f^{-1}(0) x f^{-1}(1) equipped with the disagreement-Hamming metric d((x,y),(x',y')) = |{i : (x_i!=y_i) 
+- `AsymDim_cover` (indexed_cover): A family {U_a}_{a in A} of subsets of X_f with uniformly bounded diameter and bounded r-multiplicity (every r-ball meets <= k+1 sets). Encoded as a hy
+- `Hilbert_compression_embedding` (Lipschitz_map): A map phi: X_f -> R^N with explicit upper Lipschitz constant L and lower compression rho(t) ~ t^alpha, certified by a Gram matrix and PSD check. Compu
+- `Coarse_partition_tree` (rooted_labeled_tree): A binary tree whose leaves partition X_f into 'monochromatic' coordinate-rectangles; each internal node is labeled with a coordinate i in [n] separati
+- `Property_A_witness` (function_family): Maps xi: X_f -> ell^1(X_f) of finite support such that ||xi_x - xi_y||_1 is small when d(x,y) bounded, and supports lie in fixed-radius balls. Verifia
+
+**Tentative axioms**:
+- A1 (Tree-to-Dimension): Every depth-d KW protocol yields an AsymDim_cover of X_f with multiplicity <= d+1 and bounded diameter; hence asdim(X_f) <= D(f).
+- A2 (Compression Lower Bound): If X_f admits a Hilbert embedding with compression exponent alpha, then D(f) >= Omega(1/alpha); contrapositively, expander-like X_f forces large depth (cf. Gromov's a-T-m
+- A3 (Coarse Composition / KRW): asdim(X_{f o g}) >= asdim(X_f) + asdim(X_g) - O(1), giving a coarse-geometric route to the Karchmer-Raz-Wigderson conjecture.
+- A4 (Non-Naturalness): The predicate 'asdim(X_f) >= k' is neither large nor constructive in the Razborov-Rudich sense - random functions have bounded asdim with high probability because random metric s
+- A5 (Non-Relativizing / Non-Algebrizing): Coarse invariants depend on the fine combinatorial structure of f^{-1}(0) and f^{-1}(1) as embedded in the Hamming cube, not on oracle access or low-degree alg

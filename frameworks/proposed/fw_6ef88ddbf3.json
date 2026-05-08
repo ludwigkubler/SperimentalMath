@@ -1,0 +1,86 @@
+{
+  "framework_id": "fw_6ef88ddbf3",
+  "ts": 1778198515.1901639,
+  "generation": 0,
+  "parent_framework_id": "",
+  "mutation_from_parent": "",
+  "name": "Coarse-Geometric KW Bounds (CG-KW)",
+  "taxonomy_category": "KARCHMER_WIGDERSON",
+  "primitives": [
+    {
+      "name": "KW_metric_space",
+      "type": "metric_space",
+      "description": "For boolean f:{0,1}^n -> {0,1}, the set X_f = f^{-1}(0) x f^{-1}(1) equipped with the disagreement-Hamming metric d((x,y),(x',y')) = |{i : (x_i!=y_i) XOR (x'_i!=y'_i)}|. Implementable as a sparse weighted graph; distances computed by BFS."
+    },
+    {
+      "name": "AsymDim_cover",
+      "type": "indexed_cover",
+      "description": "A family {U_a}_{a in A} of subsets of X_f with uniformly bounded diameter and bounded r-multiplicity (every r-ball meets <= k+1 sets). Encoded as a hypergraph; checking the bound is a polynomial-time predicate in |X_f|."
+    },
+    {
+      "name": "Hilbert_compression_embedding",
+      "type": "Lipschitz_map",
+      "description": "A map phi: X_f -> R^N with explicit upper Lipschitz constant L and lower compression rho(t) ~ t^alpha, certified by a Gram matrix and PSD check. Computable via SDP."
+    },
+    {
+      "name": "Coarse_partition_tree",
+      "type": "rooted_labeled_tree",
+      "description": "A binary tree whose leaves partition X_f into 'monochromatic' coordinate-rectangles; each internal node is labeled with a coordinate i in [n] separating left/right by x_i vs y_i disagreement. This is exactly the syntactic object dual to a KW-protocol."
+    },
+    {
+      "name": "Property_A_witness",
+      "type": "function_family",
+      "description": "Maps xi: X_f -> ell^1(X_f) of finite support such that ||xi_x - xi_y||_1 is small when d(x,y) bounded, and supports lie in fixed-radius balls. Verifiable by linear programming."
+    }
+  ],
+  "operations": [
+    {
+      "name": "coarsen",
+      "signature": "(KW_metric_space, scale r) -> KW_metric_space",
+      "description": "Quotient by r-balls; produces a coarser space whose asymptotic dimension is preserved."
+    },
+    {
+      "name": "tree_to_cover",
+      "signature": "Coarse_partition_tree -> AsymDim_cover",
+      "description": "Each leaf of a depth-d KW tree gives a covering set; multiplicity is bounded by tree depth."
+    },
+    {
+      "name": "compose",
+      "signature": "(KW_metric_space f, KW_metric_space g) -> KW_metric_space (f o g)",
+      "description": "Coarse fiber product modeling block-composition; coarse invariants must satisfy super-additivity here (the KRW analogue)."
+    },
+    {
+      "name": "embed_into_Hilbert",
+      "signature": "KW_metric_space -> Hilbert_compression_embedding",
+      "description": "Compute (via SDP relaxation) the optimal Hilbert compression exponent alpha*(X_f)."
+    },
+    {
+      "name": "asym_dim",
+      "signature": "KW_metric_space -> N",
+      "description": "Compute (or lower bound via LP duality) the asymptotic dimension asdim(X_f)."
+    },
+    {
+      "name": "pad",
+      "signature": "(KW_metric_space, k) -> KW_metric_space",
+      "description": "Direct product with a k-cube; used to amplify coarse invariants."
+    }
+  ],
+  "target_invariant": {
+    "name": "formula_depth_D(f)",
+    "type": "natural_number",
+    "what_it_should_bound": "log_2 of minimum size, equivalently minimum depth, of a De Morgan formula computing f. The framework conjectures D(f) >= c * asdim(X_f) and D(f) >= c' / alpha*(X_f), giving super-logarithmic depth lower bounds when X_f has no Hilbert compression (Yu 2000; Nowak-Yu 2012)."
+  },
+  "axioms_tentative": [
+    "A1 (Tree-to-Dimension): Every depth-d KW protocol yields an AsymDim_cover of X_f with multiplicity <= d+1 and bounded diameter; hence asdim(X_f) <= D(f).",
+    "A2 (Compression Lower Bound): If X_f admits a Hilbert embedding with compression exponent alpha, then D(f) >= Omega(1/alpha); contrapositively, expander-like X_f forces large depth (cf. Gromov's a-T-menability obstructions).",
+    "A3 (Coarse Composition / KRW): asdim(X_{f o g}) >= asdim(X_f) + asdim(X_g) - O(1), giving a coarse-geometric route to the Karchmer-Raz-Wigderson conjecture.",
+    "A4 (Non-Naturalness): The predicate 'asdim(X_f) >= k' is neither large nor constructive in the Razborov-Rudich sense - random functions have bounded asdim with high probability because random metric spaces of bounded degree have asdim 0 in the coarse sense, so this invariant evades the natural proof",
+    "A5 (Non-Relativizing / Non-Algebrizing): Coarse invariants depend on the fine combinatorial structure of f^{-1}(0) and f^{-1}(1) as embedded in the Hamming cube, not on oracle access or low-degree algebraic extensions, so oracle and algebraic-extension transformations do not preserve asdim or alpha*"
+  ],
+  "status": "PROPOSED",
+  "sub_conjecture_entry_ids": [],
+  "fitness_components": {},
+  "fitness": 0.0,
+  "paper_path": "",
+  "lean_module_path": ""
+}

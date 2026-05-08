@@ -1,0 +1,40 @@
+{
+  "entry_id": "15f8d5df3519",
+  "ts": 1778199899.9018872,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2304.02770",
+      "title": "Tight Correlation Bounds for Circuits Between AC0 and TC0",
+      "abstract_excerpt": "We initiate the study of generalized AC0 circuits comprised of negations and arbitrary unbounded fan-in gates that only need to be constant over inputs of Hamming weight $\\ge k$, which we denote GC0$(k)$. The gate set of this class includes biased LTFs like the $k$-$OR$ (output $1$ iff $\\ge k$ bits are 1) and $k$-$AND$ (output $0$ iff $\\ge k$ bits are 0), and thus can be seen as an interpolation between AC0 and TC0. We establish a tight multi-switching lemma for GC0$(k)$ circuits, which bounds t",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses correlation bounds, multi-switching lemmas, and PRGs for a generalized class GC0(k) interpolating AC0 and TC0; it never discusses Möbius functions, meet-semilattices of gate supports, or any incidence-algebra invariant like ψ(C). It shares the AC0/PARITY framework but does not interact with the specific Möbius-mass conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1410.8702",
+      "title": "The Möbius function of the small Ree groups",
+      "abstract_excerpt": "The Möbius function for a group, $G$, was introduced in 1936 by Hall in order to count ordered generating sets of $G$. In this paper we determine the Möbius function of the simple small Ree groups, $R(q)={}^2G_2(q)$ where $q=3^{2m+1}$ for $m&gt;0$, using their 2-transitive permutation representation of degree $q^3+1$ and describe their maximal subgroups in terms of this representation. We then use this to determine $\\vert$Epi$(Γ,G)\\vert$ for various $Γ$, such as $F_2$ or the modular group $PSL_2",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the Möbius function on subgroup lattices of small Ree groups for counting generating sets and dessins d'enfants applications, sharing only the term 'Möbius function' with the conjecture about AC⁰ circuit lower bounds for PARITY.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2504.19966",
+      "title": "Quantum circuit lower bounds in the magic hierarchy",
+      "abstract_excerpt": "We introduce the magic hierarchy, a quantum circuit model that alternates between arbitrary-sized Clifford circuits and constant-depth circuits with two-qubit gates ($\\textsf{QNC}^0$). This model unifies existing circuit models, such as $\\textsf{QAC}^0_f$ and models with adaptive intermediate measurements. Despite its generality, we are able to prove nontrivial lower bounds.\n  We prove new lower bounds in the first level of the hierarchy, showing that certain explicit quantum states cannot be ap",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quantum circuit lower bounds in a 'magic hierarchy' of Clifford + QNC^0 circuits and stabilizer-code techniques, with no mention of Möbius functions, meet-semilattices of gate supports, or AC^0 size lower bounds for PARITY. It shares only the broad theme of circuit lower bounds and does not interact with the specific Möbius-mass conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,13 +1,13 @@
 {
-  "last_update_utc": "2026-05-07T23:47:01Z",
-  "total_cycles": 320,
+  "last_update_utc": "2026-05-08T00:47:02Z",
+  "total_cycles": 325,
   "verdict_counts": {
-    "INCONCLUSIVE": 290,
+    "INCONCLUSIVE": 294,
     "SUPPORTED": 4,
     "FALSIFIED": 15,
-    "BARRIER_HIT": 11
+    "BARRIER_HIT": 12
   },
-  "unique_field_A": 261,
+  "unique_field_A": 264,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
@@ -54,6 +54,10 @@
       3
     ],
     [
+      "Free Probability",
+      3
+    ],
+    [
       "Tropical Circuit Weight Analysis (BOUNDED_ARITHMETIC)",
       3
     ],
@@ -62,12 +66,8 @@
       3
     ],
     [
-      "Noncommutative geometry",
-      2
-    ],
-    [
-      "Representation theory of symmetric groups",
-      2
+      "Algebraic Geometry of Secant Varieties",
+      3
     ]
   ]
 }
