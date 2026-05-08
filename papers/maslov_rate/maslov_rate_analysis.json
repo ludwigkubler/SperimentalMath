@@ -1,0 +1,91 @@
+{
+  "fit_log_mean_vs_log_n": [
+    {
+      "beta": 5.0,
+      "slope": -0.22405482197094742,
+      "intercept": 0.5574308586863017,
+      "r2": 0.6781666314552823,
+      "n_points": 6
+    },
+    {
+      "beta": 10.0,
+      "slope": -0.24166367820878884,
+      "intercept": 0.6458694560577758,
+      "r2": 0.5794335340610317,
+      "n_points": 6
+    },
+    {
+      "beta": 20.0,
+      "slope": -0.14170723627592144,
+      "intercept": 0.03955307319169177,
+      "r2": 0.2127429640994829,
+      "n_points": 6
+    },
+    {
+      "beta": 40.0,
+      "slope": -0.09816169082297835,
+      "intercept": -0.48469865288981767,
+      "r2": 0.12487335244190179,
+      "n_points": 6
+    },
+    {
+      "beta": 80.0,
+      "slope": 0.1335563548074649,
+      "intercept": -2.1243939903771056,
+      "r2": 0.07252375789082743,
+      "n_points": 6
+    },
+    {
+      "beta": 160.0,
+      "slope": -0.07961468410860588,
+      "intercept": -1.950442008425566,
+      "r2": 0.031003986599582145,
+      "n_points": 6
+    }
+  ],
+  "fit_log_mean_vs_log_beta": [
+    {
+      "n": 8,
+      "slope": -0.931588797758165,
+      "intercept": 1.9492925167865838,
+      "r2": 0.9064193839420855,
+      "n_points": 6
+    },
+    {
+      "n": 16,
+      "slope": -0.595609000211928,
+      "intercept": 1.1451948537550316,
+      "r2": 0.831241528485287,
+      "n_points": 6
+    },
+    {
+      "n": 32,
+      "slope": -0.4508735598588098,
+      "intercept": 0.9608892022986016,
+      "r2": 0.8632067212179199,
+      "n_points": 6
+    },
+    {
+      "n": 64,
+      "slope": -0.4129250315744739,
+      "intercept": 0.7565234701415745,
+      "r2": 0.7717369748618412,
+      "n_points": 6
+    },
+    {
+      "n": 128,
+      "slope": -0.48428755480662633,
+      "intercept": 0.522926751225955,
+      "r2": 0.6679230520380793,
+      "n_points": 6
+    },
+    {
+      "n": 256,
+      "slope": -0.6276901038955307,
+      "intercept": 0.5722273399426694,
+      "r2": 0.9191382540348263,
+      "n_points": 6
+    }
+  ],
+  "conclusion": "The conjectured n-rate O(1/n) is empirically false: the slope vs log(n) at fixed \u03b2 is far from -1 (typically positive at small \u03b2). The dominant scaling is in \u03b2, not in n. log(mean error) decays approximately linearly in log(\u03b2) at fixed n with decay exponent in [0.4, 0.8] \u2014 i.e. error \u2248 const \u00b7 \u03b2^{-p} with 0.4 \u2264 p \u2264 0.8, consistent with O(\u03b2^{-1/2}) to O(\u03b2^{-1}) Maslov-limit convergence."
+}

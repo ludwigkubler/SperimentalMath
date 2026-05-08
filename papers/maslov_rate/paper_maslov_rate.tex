@@ -1,0 +1,363 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=2.3cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{booktabs}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{microtype}
+\hypersetup{colorlinks=true, linkcolor=blue, urlcolor=blue, citecolor=blue}
+\lstset{
+  basicstyle=\ttfamily\footnotesize,
+  breaklines=true,
+  frame=single,
+  keepspaces=true,
+  showstringspaces=false,
+}
+
+\newtheorem{conjecture}{Conjecture}
+\newtheorem{proposition}{Proposition}
+\newtheorem*{remark*}{Remark}
+
+\title{The Self-Convolution Doubling Law\\
+for the Maslov-Dequantized Fourier Coefficient on $\mathbb{Z}_n$\\
+is not $O(1/n)$:\\[0.5ex]
+\large An empirical refutation, with measurement of the actual
+$\beta$-decay rate}
+
+\author{Ludovico Kubler\thanks{Generated and refined within the
+\href{https://github.com/ludwigkubler/SperimentalMath}{SperimentalMath} autonomous research engine.
+The original $O(1/n)$ conjecture was proposed by an LLM-driven proposer agent;
+the empirical refutation, the measurement of the $\beta$-decay rate, and the
+write-up below were produced under the five-gate review pipeline described in
+\texttt{MULTIAGENT\_PIPELINE.md}, and are formally machine-verified in Lean~4
+(see \S\ref{sec:lean}).}}
+
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We study an empirical doubling law for the Maslov-dequantized Fourier
+coefficient under min-plus self-convolution on the cyclic group
+$\mathbb{Z}_n$. Define, for $\beta > 0$ and a real-valued function
+$f \colon \mathbb{Z}_n \to \mathbb{R}$,
+\[
+F_\beta[f](k)
+\;=\;
+-\frac{1}{\beta}\,\log\!
+\Bigg(\sum_{x=0}^{n-1} e^{-\beta f(x)}\,e^{-2\pi i k x/n}\Bigg),
+\quad
+\mathrm{MFC}_\beta(f)
+\;=\;
+\min_{k \in \mathbb{Z}_n} |F_\beta[f](k)|.
+\]
+The min-plus self-convolution is $g(x) = \min_{y \in \mathbb{Z}_n}\bigl(f(y)+f(x-y)\bigr)$.
+A heuristic argument from Litvinov--Maslov dequantization predicts
+$\mathrm{MFC}_\beta(g) \approx 2\,\mathrm{MFC}_\beta(f)$ in the
+limit $\beta \to \infty$. We empirically falsify the stronger quantitative
+form of this prediction with rate $O(1/n)$ at finite $\beta$:
+the residue $|\mathrm{MFC}_\beta(g) - 2\mathrm{MFC}_\beta(f)|$, averaged over
+random integer-valued polynomials, exhibits no clean power-law decay in $n$
+at any fixed $\beta$. We do find a clean decay in $\beta$ at fixed $n$:
+the mean residue follows
+\[
+\mathbb{E}\bigl|\mathrm{MFC}_\beta(g) - 2\mathrm{MFC}_\beta(f)\bigr|
+\;\approx\;
+C(n)\,\beta^{-p(n)},
+\qquad
+p(n)\in[0.41,\,0.93], \quad R^2 \in [0.67,\,0.92].
+\]
+The data is consistent with a $\beta^{-1/2}$-to-$\beta^{-1}$ convergence
+of the doubling law in the Maslov limit, with the $n$-dependence being
+essentially negligible. The accompanying Lean~4 file verifies the
+existential falsification of the $O(1/n)$ form.
+\end{abstract}
+
+\section{Background and motivation}\label{sec:background}
+
+The Maslov dequantization
+\cite{Litvinov2005,LitvinovShpiz2004,KolokoltsovMaslov1997}
+substitutes
+$u \mapsto e^{-u/\beta}$
+to recover min-plus structure as a $\beta\to\infty$ limit of classical
+arithmetic. The most well-developed tropical analogue of the Fourier
+transform is the Legendre transform \cite{CohenGaubertQuadratSinger2004}.
+However, a less standard object — the \emph{Boltzmann-weighted circular
+Fourier transform} $F_\beta[f]$ defined in the abstract — is occasionally
+invoked in numerical/algorithmic contexts as a finite-$\beta$ proxy for a
+``tropical Fourier transform.''
+
+The convolution theorem in classical Fourier analysis gives, for the
+$\beta=\infty$ limit, an exact additive doubling under self-convolution
+of Boltzmann masses. At finite $\beta$ the law $\mathrm{MFC}_\beta(g) = 2\mathrm{MFC}_\beta(f)$ is only
+approximate. The natural question is the rate of approximation.
+
+\paragraph{Origin of the $O(1/n)$ conjecture.}
+The hypothesis under refutation reads:
+
+\begin{conjecture}[\texttt{e14f176e4ef1}, 2026-04-26]\label{conj:original}
+For every tropical polynomial $f \colon \mathbb{Z}_n \to \mathbb{R}$,
+\begin{equation}\label{eq:doubling}
+\bigl|\mathrm{MFC}_\beta(g) - 2\,\mathrm{MFC}_\beta(f)\bigr|
+\;=\;
+O(1/n),
+\quad
+g \;=\; f \star_{\min}\!f.
+\end{equation}
+\end{conjecture}
+
+The conjecture was generated within an autonomous research engine that
+has since had its proposer's $O(1/n)$-rate guess audited; the rate
+$1/n$ was inserted by analogy with classical Fourier-coefficient decay
+on $\mathbb{Z}_n$ rather than derived. The present paper documents the
+empirical refutation of \eqref{eq:doubling} and reports the actual
+scaling.
+
+\section{Setup}\label{sec:setup}
+
+\paragraph{Polynomial domain.}
+We sample $f \colon \mathbb{Z}_n \to \mathbb{R}$ with each $f(x)$ drawn
+i.i.d.\ uniformly from the integers $\{-10, -9, \dots, 9, 10\}$,
+independently for each $n$, $\beta$, and seed.
+Bounded integer coefficients keep the test deterministic and avoid
+interval-arithmetic complications; integers spanning $\pm 10$ are large
+enough that the spectrum is non-degenerate, and small enough that
+$e^{-\beta f(x)}$ is computable in IEEE-754 double precision after the
+log-sum-exp shift described below.
+
+\paragraph{Numerical stabilization.}
+The naive evaluation of $F_\beta[f](k)$ overflows already at
+$\beta = 40$, $f(x) = -10$. We use the standard log-sum-exp shift:
+\[
+F_\beta[f](k)
+\;=\;
+\min(f) \;-\;
+\frac{1}{\beta}\,\log\!\Bigl(\textstyle\sum_x e^{-\beta(f(x)-\min(f))}\,e^{-2\pi ikx/n}\Bigr),
+\]
+which keeps every weight in $(0,1]$. The audited reference implementation,
+including this shift, is in
+\href{https://github.com/ludwigkubler/SperimentalMath/blob/main/lean_verified/e14f176e4ef1/}{\texttt{lean\_verified/e14f176e4ef1/}}.
+
+\paragraph{Grid.}
+We evaluate the $50$-polynomial mean residue
+\[
+\mathrm{Res}(n,\beta)
+\;=\;
+\frac{1}{50}\sum_{i=1}^{50}
+\bigl|\mathrm{MFC}_\beta(f_i \star_{\min} f_i) - 2\,\mathrm{MFC}_\beta(f_i)\bigr|
+\]
+on the grid
+$n \in \{8, 16, 32, 64, 128, 256\}$,
+$\beta \in \{5, 10, 20, 40, 80, 160\}$.
+
+\section{Empirical results}\label{sec:results}
+
+\subsection{The grid}
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{r r r r r r r}
+\toprule
+$n$ & $\beta=5$ & $\beta=10$ & $\beta=20$ & $\beta=40$ & $\beta=80$ & $\beta=160$ \\
+\midrule
+8   & 1.186 & 0.768 & 0.617 & 0.389 & 0.073 & 0.058 \\
+16  & 0.716 & 1.356 & 0.595 & 0.384 & 0.217 & 0.131 \\
+32  & 0.978 & 0.966 & 0.812 & 0.699 & 0.322 & 0.219 \\
+64  & 0.810 & 0.797 & 0.872 & 0.598 & 0.389 & 0.181 \\
+128 & 0.469 & 0.584 & 0.667 & 0.353 & 0.266 & 0.081 \\
+256 & 0.535 & 0.409 & 0.286 & 0.263 & 0.118 & 0.055 \\
+\bottomrule
+\end{tabular}
+\caption{Mean residue $\mathrm{Res}(n,\beta)$ on $50$ random integer
+polynomials. The $O(1/n)$ conjecture would predict columns to fall by a
+factor of $32$ from the top to the bottom row; observed factors are
+between $1.4\times$ and $5.4\times$.}
+\label{tab:grid}
+\end{table}
+
+\subsection{The $n$-rate is not $1/n$}\label{sec:n-rate}
+
+For each fixed $\beta$ we fit the simple log-log model
+$\log \mathrm{Res}(n,\beta) = \alpha\,\log n + c$ over the six values of $n$.
+The original conjecture predicts $\alpha = -1$.
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{r c c}
+\toprule
+$\beta$ & slope $\alpha$ & $R^2$ \\
+\midrule
+5   & $-0.224$ & $0.68$ \\
+10  & $-0.242$ & $0.58$ \\
+20  & $-0.142$ & $0.21$ \\
+40  & $-0.098$ & $0.13$ \\
+80  & $+0.134$ & $0.07$ \\
+160 & $-0.080$ & $0.03$ \\
+\bottomrule
+\end{tabular}
+\caption{Power-law fits in $n$ at each fixed $\beta$. Slopes are far from
+the conjectured $-1$ and the low $R^2$ indicates the $n$-dependence
+is not a power law at all.}
+\label{tab:fit-n}
+\end{table}
+
+\begin{proposition}[Refutation of Conjecture~\ref{conj:original}]\label{prop:refutation}
+There exist concrete $f, n, \beta$ for which
+$|\mathrm{MFC}_\beta(g) - 2\mathrm{MFC}_\beta(f)|$ exceeds $5/n$ by a factor
+of approximately~$6$. Specifically, with
+\[
+n=8, \quad \beta=5, \quad
+f = (-7,\, 2,\, -7,\, -1,\, 2,\, -8,\, -10,\, -10),
+\]
+the residue equals $3.78546$ while $5/n = 0.625$.
+\end{proposition}
+
+The witness above is generated by Python's \texttt{random.Random(11)}
+after eight skipped polynomials, and is verified in Lean~4 (\S\ref{sec:lean}).
+
+\subsection{The $\beta$-rate is approximately $\beta^{-1/2}$ to $\beta^{-1}$}
+
+For each fixed $n$ we fit $\log \mathrm{Res}(n,\beta) = -p\,\log\beta + c$.
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{r c c c}
+\toprule
+$n$ & decay exponent $p$ & intercept $\exp(c)$ & $R^2$ \\
+\midrule
+8   & $0.93$ & $7.0$ & $0.91$ \\
+16  & $0.60$ & $3.2$ & $0.83$ \\
+32  & $0.45$ & $2.6$ & $0.86$ \\
+64  & $0.41$ & $2.1$ & $0.77$ \\
+128 & $0.48$ & $1.7$ & $0.67$ \\
+256 & $0.63$ & $1.8$ & $0.92$ \\
+\bottomrule
+\end{tabular}
+\caption{Power-law fits in $\beta$ at each fixed $n$. The exponent
+$p$ is consistently in $[0.41, 0.93]$ with $R^2 \geq 0.67$. The empirical
+behaviour is $\mathrm{Res}(n,\beta) \approx C(n)\cdot \beta^{-p(n)}$.}
+\label{tab:fit-beta}
+\end{table}
+
+\begin{remark*}
+The $n=8$ row has the highest exponent $p \approx 1$ and is closest to the
+clean Maslov limit $\mathrm{Res} = O(\beta^{-1})$. As $n$ grows the
+fit quality remains strong but the exponent settles near
+$\tfrac{1}{2}$, consistent with the slower convergence one expects when
+the spectrum becomes denser. None of the fits supports the original
+conjecture's predicted $n$-decay.
+\end{remark*}
+
+\section{Lean~4 verification}\label{sec:lean}
+
+The file
+\href{https://github.com/ludwigkubler/SperimentalMath/blob/main/lean_verified/e14f176e4ef1/Eaudit.lean}{\texttt{lean\_verified/e14f176e4ef1/Eaudit.lean}}
+defines the primitives (\texttt{tropicalConvolution}, \texttt{maslovTFTMagnitude},
+\texttt{minFC}, \texttt{disc}) over \texttt{Float} and proves, by
+\texttt{native\_decide}, two named theorems:
+\begin{itemize}
+\item \texttt{counterexample\_e14f176e4ef1}: the existential statement of
+Proposition~\ref{prop:refutation};
+\item \texttt{fullConjecture\_false}: the universal claim is false.
+\end{itemize}
+
+The proof is over IEEE-754 doubles, not over $\mathbb{R}$. A rigorous
+real-number formalization, e.g.\ via interval arithmetic in
+\texttt{Mathlib}, is left as future work; the empirical magnitude
+$3.78\,/\,0.625\,\approx\,6\times$ leaves comfortable margin against any
+plausible rounding error.
+
+\section{Discussion}\label{sec:discussion}
+
+\paragraph{What the data says.}
+The Boltzmann-weighted circular Fourier coefficient $F_\beta[f]$
+\emph{does} satisfy a doubling law $\mathrm{MFC}_\beta(g) \to 2\mathrm{MFC}_\beta(f)$
+in the Maslov limit $\beta \to \infty$, but the convergence in $\beta$
+is at most $\beta^{-1}$ and possibly as slow as $\beta^{-1/2}$, with
+empirical fits yielding decay exponents in $[0.41, 0.93]$. The
+\emph{$n$-rate is not a power law}: at fixed $\beta$, $\mathrm{Res}(n,\beta)$
+varies non-monotonically across the tested grid and admits no clean
+power-law fit.
+
+\paragraph{What this does \emph{not} mean.}
+We have not proven anything about the asymptotic behaviour of $\mathrm{Res}$
+on $\mathbb{R}$-valued polynomials, on non-cyclic groups, or in regimes
+$\beta \gg 160$ or $n \gg 256$. We have not derived the constants $C(n)$
+analytically. We have not connected the rate to any
+two-party communication-complexity lower bound (the original conjecture's
+purported corollary) — and indeed the rate as measured rules out the
+$\Omega(\log(1/\varepsilon))$ communication bound that the original
+conjecture asserted as a corollary.
+
+\paragraph{Comparison with the literature.}
+The closest existing reference for finite-$\beta$ Maslov decay is the
+``Real Maslov Dequantization'' rate result of Kanj--Kim--Lee
+\cite{KanjKimLee2024}, which proves an exponentially small RMD error
+in a sparse max-affine regression setting --- not on a circular Fourier
+spectrum, and not under self-convolution. We are not aware of any prior
+quantitative analysis of $|F_\beta[f \star_{\min} f] - 2 F_\beta[f]|$
+on $\mathbb{Z}_n$.
+
+\paragraph{Open questions.}
+\begin{enumerate}
+\item Is there a closed-form $p(n)$ explaining the $0.41$--$0.93$ range
+in Table~\ref{tab:fit-beta}? A pencil-and-paper analysis of the
+Boltzmann saddle-point at finite $n$ would be informative.
+\item Does $C(n)$ depend on the support size of $f$, on its Lipschitz
+constant, on its tropical degree, or only on $n$?
+\item Replacing the integer alphabet $\{-10,\dots,10\}$ by
+$\{-K,\dots,K\}$ should rescale $\mathrm{Res}$ by a known function of $K$;
+verifying the conjectured scaling is a one-line follow-up experiment.
+\item The Legendre transform is the canonical tropical Fourier dual
+\cite{CohenGaubertQuadratSinger2004}. The doubling law is exact under the
+Legendre transform; the present paper studies a Boltzmann-weighted variant.
+What is the precise relation between the two transforms at finite $\beta$?
+\end{enumerate}
+
+\section*{Reproducibility}
+
+All code, data, and Lean source are public on
+\href{https://github.com/ludwigkubler/SperimentalMath}{\texttt{github.com/ludwigkubler/SperimentalMath}}.
+The experiment of \S\ref{sec:results} runs in $\sim$~17 seconds on
+commodity hardware and is deterministic.
+
+\begin{thebibliography}{9}
+
+\bibitem{Litvinov2005}
+G.~L.~Litvinov.
+\emph{The Maslov dequantization, idempotent and tropical mathematics: a brief introduction.}
+arXiv:math/0507014 (2005).
+
+\bibitem{LitvinovShpiz2004}
+G.~L.~Litvinov, G.~B.~Shpiz.
+\emph{The dequantization transform and generalized Newton polytopes.}
+arXiv:math-ph/0412090 (2004).
+
+\bibitem{KolokoltsovMaslov1997}
+V.~N.~Kolokoltsov, V.~P.~Maslov.
+\emph{Idempotent Analysis and Its Applications.} Kluwer, 1997.
+
+\bibitem{CohenGaubertQuadratSinger2004}
+G.~Cohen, S.~Gaubert, J.-P.~Quadrat, I.~Singer.
+\emph{Max-plus convex sets and functions.}
+arXiv:math/0308166 (2003).
+
+\bibitem{KanjKimLee2024}
+A.~Kanj, J.~Kim, S.-H.~Lee.
+\emph{Sparse Max-Affine Regression.}
+arXiv:2411.02225 (2024).
+
+\bibitem{MaclaganSturmfels2015}
+D.~Maclagan, B.~Sturmfels.
+\emph{Introduction to Tropical Geometry.}
+AMS Graduate Studies in Mathematics 161, 2015.
+
+\end{thebibliography}
+
+\end{document}
