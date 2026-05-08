@@ -1,24 +1,24 @@
 {
-  "last_update_utc": "2026-05-08T06:47:01Z",
-  "total_cycles": 355,
+  "last_update_utc": "2026-05-08T07:47:01Z",
+  "total_cycles": 363,
   "verdict_counts": {
-    "INCONCLUSIVE": 323,
+    "INCONCLUSIVE": 331,
     "SUPPORTED": 4,
     "FALSIFIED": 15,
     "BARRIER_HIT": 13
   },
-  "unique_field_A": 282,
+  "unique_field_A": 286,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
-      11
-    ],
-    [
-      "Matroid Theory",
-      6
+      12
     ],
     [
       "Free Probability",
+      7
+    ],
+    [
+      "Matroid Theory",
       6
     ],
     [
@@ -46,6 +46,14 @@
       4
     ],
     [
+      "Schur-Weyl Duality",
+      4
+    ],
+    [
+      "Algebraic Geometry of Secant Varieties",
+      4
+    ],
+    [
       "Fourier analysis of boolean functions",
       3
     ],
@@ -59,14 +67,6 @@
     ],
     [
       "Tropical Circuit Weight Analysis (BOUNDED_ARITHMETIC)",
-      3
-    ],
-    [
-      "Schur-Weyl Duality",
-      3
-    ],
-    [
-      "Spectral Graph Theory",
       3
     ]
   ]

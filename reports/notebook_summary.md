@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-08 06:40 UTC"
+date: "2026-05-08 07:43 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-08 06:40 UTC
+Generated 2026-05-08 07:43 UTC
 
-- Cycles recorded: **355**
-- Time span: 345.0h (~1.03 cycles/h)
+- Cycles recorded: **363**
+- Time span: 346.1h (~1.05 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 323 |
+| INCONCLUSIVE | 331 |
 | FALSIFIED | 15 |
 | BARRIER_HIT | 13 |
 | SUPPORTED | 4 |
@@ -32,23 +32,23 @@ Generated 2026-05-08 06:40 UTC
 
 | Field | Cycles |
 |---|---|
-| Real Algebraic Geometry | 11 |
+| Real Algebraic Geometry | 12 |
+| Free Probability | 7 |
 | Matroid Theory | 6 |
-| Free Probability | 6 |
 | Algebraic Geometry | 5 |
 | Additive Combinatorics | 5 |
 | Finite Geometry | 5 |
 | Ergodic Circuit Framework (communication complexity via dynamical systems) | 4 |
 | {"framework_name": "Ergodic Circuit Framework", "math_branch": "COMM_COMPLEXITY"} | 4 |
 | Random Matrix Theory | 4 |
+| Schur-Weyl Duality | 4 |
+| Algebraic Geometry of Secant Varieties | 4 |
 | Fourier analysis of boolean functions | 3 |
 | Coarse Geometric Lifting (CGL) — Geometric Complexity Theory | 3 |
 | {"framework_name": "Tropical Circuit Weight Analysis (TCWA)", "math_branch": "BOUNDED_ARITHMETIC"} | 3 |
 | Tropical Circuit Weight Analysis (BOUNDED_ARITHMETIC) | 3 |
-| Schur-Weyl Duality | 3 |
 | Spectral Graph Theory | 3 |
 | Polymatroid Theory | 3 |
-| Algebraic Geometry of Secant Varieties | 3 |
 | Noncommutative geometry | 2 |
 | Representation theory of symmetric groups | 2 |
 | Ergodic Circuit Framework (COMM_COMPLEXITY) | 2 |
@@ -67,14 +67,6 @@ Generated 2026-05-08 06:40 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-08 04:33 UTC | `INCONCLUSIVE` | Additive Energy of Fourier Coefficients Bounds SOS Refutation Siz |
-| 2026-05-08 04:46 UTC | `INCONCLUSIVE` | A_5 Word-Embedding Spectral Norm Lower-Bounds R(DISJ) |
-| 2026-05-08 05:10 UTC | `INCONCLUSIVE` | Algebraic Connectivity Inverse Lower-Bounds Tseitin Resolution Le |
-| 2026-05-08 05:18 UTC | `INCONCLUSIVE` | Metric Dimension Lower Bound on Tseitin Resolution Length |
-| 2026-05-08 05:24 UTC | `INCONCLUSIVE` | Witness-Complex Betti Sum Lower-Bounds Formula Depth |
-| 2026-05-08 05:35 UTC | `INCONCLUSIVE` | Finite Field Representation Complexity and ACC^0 Circuit Size |
-| 2026-05-08 05:45 UTC | `INCONCLUSIVE` | Matroid Connectivity and ACC^0 Circuit Size for 3-SAT Instances |
-| 2026-05-08 05:56 UTC | `INCONCLUSIVE` | Sparsest-Cut LP Value Lower-Bounds Tseitin Resolution Length |
 | 2026-05-08 06:04 UTC | `INCONCLUSIVE` | Real Dimension Lower Bound for AC⁰ PARITY Circuits |
 | 2026-05-08 06:11 UTC | `INCONCLUSIVE` | Free Cumulant Gap in Read-Twice Branching Programs for IP_2 |
 | 2026-05-08 06:17 UTC | `BARRIER_HIT` | Plunnecke Doubling of Top-Fourier Spectrum Bounds ACC0 Size |
@@ -82,6 +74,14 @@ Generated 2026-05-08 06:40 UTC
 | 2026-05-08 06:34 UTC | `INCONCLUSIVE` | Tree-to-Dimension Tightness for MAJ_3: Optimal KW Protocols Yield |
 | 2026-05-08 06:34 UTC | `INCONCLUSIVE` | Asymptotic Dimension and Resolution Length for Tseitin Formulas |
 | 2026-05-08 06:40 UTC | `INCONCLUSIVE` | Matroid Spread Bounded by Monotone DNF Size |
+| 2026-05-08 06:49 UTC | `INCONCLUSIVE` | Plethysm Coefficient Gap in Symmetric Powers of Permanent Polynom |
+| 2026-05-08 06:55 UTC | `INCONCLUSIVE` | Sandpile-Group 2-Rank Lower-Bounds Tseitin DPLL Tree Size |
+| 2026-05-08 06:56 UTC | `INCONCLUSIVE` | Secant Variety Dimension Lower-Bounds Disjointness Communication  |
+| 2026-05-08 07:12 UTC | `INCONCLUSIVE` | Free Cumulant Gap in Read-Twice BPs Bounds Disjointness Communica |
+| 2026-05-08 07:21 UTC | `INCONCLUSIVE` | Gowers Uniformity Norm of Boolean Functions Bounds ACC⁰ Circuit S |
+| 2026-05-08 07:33 UTC | `INCONCLUSIVE` | Low-Degree Fourier Mass of Cut Indicator Bounds Tseitin Resolutio |
+| 2026-05-08 07:38 UTC | `INCONCLUSIVE` | Monomial Ideal Generators and Frege Proof Complexity |
+| 2026-05-08 07:43 UTC | `INCONCLUSIVE` | Positivstellensatz Rank Lower-Bounds SOS Max-CUT Degree |
 
 ## How to read the reports
 
