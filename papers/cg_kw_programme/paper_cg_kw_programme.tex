@@ -1,0 +1,371 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=2.3cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{booktabs}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage[disable]{microtype}
+\hypersetup{colorlinks=true, linkcolor=blue, urlcolor=blue, citecolor=blue}
+\lstset{
+  basicstyle=\ttfamily\footnotesize,
+  breaklines=true,
+  frame=single,
+  keepspaces=true,
+}
+
+\newtheorem{conjecture}{Conjecture}
+\newtheorem{problem}{Problem}
+\newtheorem{definition}{Definition}
+\newtheorem*{remark*}{Remark}
+
+\title{The Coarse-Geometric Karchmer-Wigderson Programme:\\
+A scaffold for formula-depth lower bounds via\\
+asymptotic dimension and the Roe pairing}
+
+\author{Ludovico Kubler\thanks{The CG-KW framework was first proposed
+by an autonomous LLM-driven proposer agent of the
+\href{https://github.com/ludwigkubler/SperimentalMath}{SperimentalMath}
+research engine and refined under the five-gate review pipeline of
+\texttt{MULTIAGENT\_PIPELINE.md}. The five primitives, five tentative
+axioms, and Lean~4 stub presented here are the framework's current state;
+none of the axioms are proved, and the explicit-function targets remain
+open.}}
+
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We propose a research programme — not a result — to attack
+formula-depth lower bounds via the language of large-scale geometry and
+the Roe-style coarse cohomology of the Karchmer-Wigderson pair space.
+Concretely: for a boolean function $f \colon \{0,1\}^n \to \{0,1\}$,
+let $X_f = f^{-1}(0) \times f^{-1}(1)$ equipped with the disagreement-
+Hamming pseudo-metric $d_f$. We define a coarse depth invariant
+$\kappa(f)$ via the Roe-trace pairing of 1-cocycles against
+controlled operators on $X_f$, and outline five tentative axioms whose
+combination would give a $\kappa$-based formula depth lower bound that
+is, by construction, immune to the natural-proofs, relativization, and
+algebrization barriers. We make explicit why this is currently a
+\emph{programme}: ten sub-conjectures generated under the framework
+have all returned \texttt{INCONCLUSIVE} (test crashes during
+verification) or \texttt{BARRIER\_HIT} verdicts, none have been
+empirically supported, and no lean-verified theorem is yet attached. We
+provide a Lean~4 stub that records the primitives and axioms in
+machine-readable form and lay out the explicit open problems that turn
+the programme into a discipline.
+\end{abstract}
+
+\section{Why a programme, not a paper of theorems}\label{sec:why}
+
+Formula-depth lower bounds for explicit boolean functions are blocked by
+three barriers: \emph{relativization}~\cite{BakerGillSolovay1975},
+\emph{natural proofs}~\cite{RazborovRudich1997}, and
+\emph{algebrization}~\cite{AaronsonWigderson2008}. Almost every existing
+bound is sub-quadratic in formula size; the long-standing open problem is
+whether explicit functions admit super-logarithmic formula depth, which
+would separate $\mathbf{NC^1}$ from $\mathbf{P}$. The Karchmer-Wigderson
+characterization~\cite{KarchmerWigderson1990} expresses formula depth as
+the communication cost of a two-party game on the pair space
+$X_f$. Coarse geometry, in the sense of
+Roe~\cite{Roe2003} and Yu~\cite{Yu2000}, provides invariants of metric
+spaces that:
+\begin{enumerate}
+  \item are \emph{coarsely invariant} (so they cannot distinguish a
+        random $f$ from a structured $f$ at the Razborov-Rudich
+        density level);
+  \item are \emph{destroyed by oracle access} (oracle gates collapse
+        $d_f$);
+  \item live in the K-theory of the Roe algebra $C^*_u[X_f]$, which is
+        not closed under polynomial extensions of the underlying
+        alphabet.
+\end{enumerate}
+The first three properties are precisely those that the three barriers
+exclude. The CG-KW programme aims to construct a formula-depth lower
+bound from a coarse invariant that satisfies all three.
+
+\textbf{What we have:} a precise definition of $X_f$, $d_f$, the
+controlled-cover and Roe-pairing primitives, a target invariant
+$\kappa(f)$, and five tentative axioms (\S\ref{sec:axioms}).
+
+\textbf{What we lack:} a proof of any of the five axioms. The ten
+sub-conjectures generated under the framework are listed in
+\S\ref{sec:status} together with their current pipeline verdicts. None
+is currently supported.
+
+\section{Primitives}\label{sec:primitives}
+
+Throughout, $f \colon \{0,1\}^n \to \{0,1\}$ is a boolean function and
+$X_f = f^{-1}(0) \times f^{-1}(1)$.
+
+\begin{definition}[KW-metric space]
+The \emph{KW-metric} on $X_f$ is
+\[
+d_f((x,y), (x',y'))
+\;=\;
+\log_2 \min\bigl\{|S| \;:\;
+S \subseteq [n]\,,\, x|_S \neq y|_S \text{ certifies } f(x) \neq f(y)\text{ or }
+x'|_S \neq y'|_S \text{ certifies } f(x') \neq f(y')\bigr\}.
+\]
+\end{definition}
+
+\begin{definition}[Controlled cover]\label{def:cover}
+A finite family $\mathcal{U} = \{U_i\}_{i \in I}$ of subsets of $X_f$
+with diameter bound $R$ and multiplicity bound $m$: every $U_i$ has
+$d_f$-diameter $\leq R$ and every $p \in X_f$ belongs to at most $m$
+of the $U_i$.
+\end{definition}
+
+\begin{definition}[Coarse 1-cocycle]
+A function $c \colon X_f \times X_f \to \mathbb{Z}$ of finite support
+modulo controlled equivalence, satisfying the cocycle identity
+$c(p, q) + c(q, r) = c(p, r)$ on every triple. Class in $HX^1(X_f)$ in
+the Roe-style coarse cohomology.
+\end{definition}
+
+\begin{definition}[Roe-controlled operator]
+A bounded operator $T \in C^*_u[X_f]$ with finite \emph{propagation}
+$\mathrm{prop}(T) := \sup\{d_f(p,q) : T_{pq} \neq 0\}$.
+\end{definition}
+
+\begin{definition}[Asymptotic-dimension witness]\label{def:asdim}
+A vertex coloring $\chi \colon X_f \to [k]$ together with a diameter
+bound $R$ such that each colour class decomposes into $d_f$-bounded
+pieces of diameter $\leq R$ that are pairwise $R$-disjoint. Witnesses
+$\mathrm{asdim}(X_f) \leq k - 1$ in the Gromov sense.
+\end{definition}
+
+\section{The target invariant $\kappa(f)$}\label{sec:kappa}
+
+\begin{definition}[Coarse depth]
+\[
+\kappa(f)
+\;:=\;
+\sup_{\substack{c \in HX^1(X_f),\, T \in C^*_u[X_f] \\ \langle c, T\rangle \neq 0}}
+\frac{\log\bigl|\langle c, T\rangle\bigr|}{\log\,\mathrm{prop}(T)},
+\]
+where $\langle c, T \rangle$ is the Roe-trace pairing
+$\sum_{p, q} c(p,q) \cdot T_{pq}$ with appropriate normalization.
+\end{definition}
+
+The programmatic claim is that $\kappa$ tracks formula depth.
+
+\section{The five tentative axioms}\label{sec:axioms}
+
+\begin{conjecture}[A1, Coarse-KW link]\label{ax:A1}
+There is a constant $c_0 > 0$ such that for every boolean $f$,
+\[
+d(f) \;\geq\; c_0 \cdot \kappa(f),
+\]
+where $d(f)$ is the De Morgan formula depth.
+\end{conjecture}
+
+A1 is the load-bearing axiom; everything else is a sufficient condition
+for $\kappa$ to be a non-trivial invariant on explicit functions.
+
+\begin{conjecture}[A2, Composition sub-additivity]\label{ax:A2}
+For all $f, g$ and the block composition $f \circ g^n$,
+\[
+\mathrm{asdim}(X_{f \circ g^n})
+\;\geq\;
+\mathrm{asdim}(X_f) + \mathrm{asdim}(X_g) - O(1).
+\]
+\end{conjecture}
+
+A2 is a coarse-geometric analogue of the
+Karchmer-Raz-Wigderson direct sum theorem~\cite{KarchmerRazWigderson1995}.
+
+\begin{conjecture}[A3, Anti-natural-proofs]\label{ax:A3}
+For a uniformly random $f$, $HX^1(X_f) = 0$ generically. Consequently
+the predicate ``$\kappa(f) \geq T$'' is not a largeness property in the
+Razborov-Rudich sense.
+\end{conjecture}
+
+\begin{conjecture}[A4, Anti-relativization]\label{ax:A4}
+$\kappa$ is a metric invariant of $d_f$. Oracle access collapses $d_f$
+to $\leq 1$, hence $\kappa$ to $\leq 1$, hence cannot relativize.
+\end{conjecture}
+
+\begin{conjecture}[A5, Roe-index rigidity]\label{ax:A5}
+Nontrivial classes in $HX^1(X_f)$ detected by the Roe-trace pairing are
+stable under coarse equivalence (in the spirit of Yu's coarse Baum-Connes
+result~\cite{Yu2000} and Nowak-Yu's compendium~\cite{NowakYu2012}).
+Andreev's function~\cite{Andreev1987} and element-distinctness are
+conjectured to realize $\kappa = \Omega(\log^2 n)$.
+\end{conjecture}
+
+\section{Programme-level explicit-function targets}\label{sec:targets}
+
+\begin{problem}[Andreev's function]
+Prove $\kappa(\mathrm{Andreev}_n) = \Omega(\log^2 n)$. Combined with A1,
+this yields a super-logarithmic formula depth lower bound on
+$\mathrm{Andreev}_n$, separating $\mathbf{NC^1}$ from
+$\mathbf{P}$ on this family.
+\end{problem}
+
+\begin{problem}[Indexing function]
+Prove $\kappa(\mathrm{IND}_k) \geq k - O(1)$ where $N = k + 2^k$. The
+formula depth of $\mathrm{IND}_k$ is $\Theta(k)$, so this would match
+the true depth up to a constant via A1.
+\end{problem}
+
+\begin{problem}[Element-distinctness]
+Prove $\kappa(\mathrm{ED}_n) = \Omega(\log^2 n)$.
+\end{problem}
+
+\section{Status of generated sub-conjectures}\label{sec:status}
+
+The autonomous engine has generated $10$ sub-conjectures under the CG-KW
+framework (entry IDs in the
+\href{https://github.com/ludwigkubler/SperimentalMath/blob/main/notebook}{notebook}).
+None are currently supported.
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{l l l}
+\toprule
+Entry ID & Verdict & Subject \\
+\midrule
+\texttt{e871be18b26c} & INCONCLUSIVE & $\mathrm{asdim}$ lower bound for $\mathrm{IND}_k$ \\
+\texttt{738bb754804a} & INCONCLUSIVE & Roe-trace pairing for Inner-Product \\
+\texttt{7c5ad65991c5} & INCONCLUSIVE & $HX^1(X_f) = 0$ for random $f$ (A3 test) \\
+\texttt{f685d342f4c0} & INCONCLUSIVE & KRW direct sum at the asdim level (A2 test) \\
+\texttt{a81b4af0bc2b} & INCONCLUSIVE & Oracle collapse of $\kappa$ (A4 test) \\
+\texttt{cc8127953d91} & INCONCLUSIVE & Pullback monotonicity under coarse-Lipschitz reductions \\
+\texttt{ed6023df7533} & BARRIER\_HIT & Diameter-multiplicity power law (NATURAL\_PROOFS) \\
+\texttt{2ee2e2f64a25} & BARRIER\_HIT & Monotone ultralimit of $\kappa$ (NATURAL\_PROOFS) \\
+\texttt{8047f7f8eea1} & INCONCLUSIVE & Block-composition sub-additivity via Roe-trace pairing \\
+\texttt{264c40c0d040} & INCONCLUSIVE & Coboundary-vanishing threshold $HX^1$ \\
+\bottomrule
+\end{tabular}
+\caption{Current pipeline verdicts. Most INCONCLUSIVE entries have
+runtime errors in their auto-generated empirical tests
+(e.g.\ \texttt{log2(0)} domain errors); they are queued for repair under
+the new five-gate pipeline.}
+\label{tab:status}
+\end{table}
+
+\begin{remark*}[An internal tension to resolve]
+Two sub-conjectures (\texttt{ed6023df7533}, \texttt{2ee2e2f64a25}) were
+flagged \texttt{BARRIER\_HIT} on the natural-proofs barrier despite axiom
+A3 of the framework being explicitly an \emph{anti}-natural-proofs claim.
+This is currently a contradiction: either (a) the proposer's barrier
+filter incorrectly flags A3-compatible statements; (b) those particular
+sub-conjectures violate A3 in a way the framework's verbal description
+did not capture; or (c) A3 is too strong as stated. Resolving this
+tension is the first concrete task on the CG-KW programme's to-do
+list.
+\end{remark*}
+
+\section{Lean~4 record}\label{sec:lean}
+
+The accompanying file
+\href{https://github.com/ludwigkubler/SperimentalMath/blob/main/lean_verified/cg_kw/CGKW.lean}{\texttt{lean\_verified/cg\_kw/CGKW.lean}}
+records the primitives, the target invariant, and the five axioms in
+machine-readable form. \texttt{lake build} succeeds; the file does not
+depend on Mathlib, uses \texttt{Float} as a stand-in for $\mathbb{R}$,
+and contains \emph{no proofs}. Each axiom of \S\ref{sec:axioms} is
+recorded as a Lean \texttt{axiom}, acknowledging that it is open. Each
+explicit-function target of \S\ref{sec:targets} is recorded as a
+\texttt{def} of type \texttt{Prop}.
+
+A Mathlib port (lifting every \texttt{Float} to \texttt{Real} and every
+\texttt{axiom} to a \texttt{theorem} with \texttt{sorry}) is queued.
+
+\section{What turns this scaffold into a paper of theorems}
+
+The CG-KW programme converts the long-standing problem of formula-depth
+lower bounds into seven concrete tasks of independent interest:
+
+\begin{enumerate}
+\item Prove the Coarse-KW link (A1) for at least one nontrivial class
+of boolean functions.
+\item Prove the asdim sub-additivity (A2), even with a $\log n$ slack.
+\item Prove the anti-natural-proofs property (A3) by establishing
+$HX^1(X_f) = 0$ generically — a Roe-algebraic concentration of
+measure result.
+\item Prove the anti-relativization property (A4) — likely the
+shortest of the five proofs.
+\item Construct an explicit cocycle-operator pair $(c, T)$ on
+$X_{\mathrm{Andreev}}$ realizing $\kappa = \Omega(\log^2 n)$.
+\item Repair the ten generated sub-conjecture tests
+(\S\ref{sec:status}) and re-run them through the
+five-gate pipeline.
+\item Resolve the A3 tension noted above.
+\end{enumerate}
+
+A successful resolution of any single one of (1)--(5) would constitute
+a publishable paper in its own right. The scaffold itself is presented
+here in the format of Mulmuley-Sohoni's GCT programme~\cite{MulmuleySohoni2001}: a
+proposed direction with explicit, testable, sub-conjectures, not a claim
+of a result.
+
+\paragraph{Reproducibility.}
+The Lean stub builds in $\sim\!500$ ms with \texttt{lake build}; the
+sub-conjecture data is auto-synced hourly to
+\href{https://github.com/ludwigkubler/SperimentalMath}{\texttt{github.com/ludwigkubler/SperimentalMath}}.
+
+\begin{thebibliography}{99}
+
+\bibitem{Andreev1987}
+A.~E.~Andreev.
+\emph{On a method for obtaining more than quadratic effective
+lower bounds for the complexity of $\pi$-schemes.}
+Vestnik Moskov.\ Univ.\ Ser.\ I Mat.\ Mekh., 1987.
+
+\bibitem{AaronsonWigderson2008}
+S.~Aaronson, A.~Wigderson.
+\emph{Algebrization: A new barrier in complexity theory.}
+ACM Trans.\ Comput.\ Theory, 2009 (STOC 2008).
+
+\bibitem{BakerGillSolovay1975}
+T.~Baker, J.~Gill, R.~Solovay.
+\emph{Relativizations of the $\mathbf{P} = ?\, \mathbf{NP}$ question.}
+SIAM J.\ Comput., 1975.
+
+\bibitem{KarchmerRazWigderson1995}
+M.~Karchmer, R.~Raz, A.~Wigderson.
+\emph{Super-logarithmic depth lower bounds via the direct sum in
+communication complexity.}
+Computational Complexity, 1995.
+
+\bibitem{KarchmerWigderson1990}
+M.~Karchmer, A.~Wigderson.
+\emph{Monotone circuits for connectivity require super-logarithmic
+depth.}
+SIAM J.\ Discrete Math., 1990.
+
+\bibitem{MulmuleySohoni2001}
+K.~Mulmuley, M.~Sohoni.
+\emph{Geometric complexity theory I: An approach to the
+$\mathbf{P}$ vs.\ $\mathbf{NP}$ and related problems.}
+SIAM J.\ Comput., 2001.
+
+\bibitem{NowakYu2012}
+P.~W.~Nowak, G.~Yu.
+\emph{Large Scale Geometry.}
+EMS Textbooks in Mathematics, 2012.
+
+\bibitem{RazborovRudich1997}
+A.~A.~Razborov, S.~Rudich.
+\emph{Natural proofs.}
+J.\ Comput.\ System Sci., 1997.
+
+\bibitem{Roe2003}
+J.~Roe.
+\emph{Lectures on Coarse Geometry.}
+AMS University Lecture Series 31, 2003.
+
+\bibitem{Yu2000}
+G.~Yu.
+\emph{The coarse Baum-Connes conjecture for spaces which admit a uniform
+embedding into Hilbert space.}
+Invent.\ Math., 2000.
+
+\end{thebibliography}
+
+\end{document}
