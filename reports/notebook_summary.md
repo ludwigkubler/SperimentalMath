@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-08 15:45 UTC"
+date: "2026-05-08 16:30 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-08 15:45 UTC
+Generated 2026-05-08 16:30 UTC
 
-- Cycles recorded: **408**
-- Time span: 354.1h (~1.15 cycles/h)
+- Cycles recorded: **410**
+- Time span: 354.8h (~1.16 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 373 |
+| INCONCLUSIVE | 375 |
 | BARRIER_HIT | 16 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -43,6 +43,7 @@ Generated 2026-05-08 15:45 UTC
 | Random Matrix Theory | 4 |
 | Schur-Weyl Duality | 4 |
 | Algebraic Geometry of Secant Varieties | 4 |
+| FOURIER_ANALYSIS | 4 |
 | Fourier analysis of boolean functions | 3 |
 | matroid theory | 3 |
 | Coarse Geometric Lifting (CGL) — Geometric Complexity Theory | 3 |
@@ -50,7 +51,6 @@ Generated 2026-05-08 15:45 UTC
 | Tropical Circuit Weight Analysis (BOUNDED_ARITHMETIC) | 3 |
 | Spectral Graph Theory | 3 |
 | Polymatroid Theory | 3 |
-| FOURIER_ANALYSIS | 3 |
 | Noncommutative geometry | 2 |
 | Representation theory of symmetric groups | 2 |
 | Ergodic Circuit Framework (COMM_COMPLEXITY) | 2 |
@@ -67,8 +67,6 @@ Generated 2026-05-08 15:45 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-08 13:02 UTC | `INCONCLUSIVE` | Seed Length of Nisan-Wigderson PRG Bounded by Minimal Linear Appr |
-| 2026-05-08 13:14 UTC | `INCONCLUSIVE` | Operator Norm Separation for Read-Twice Branching Programs |
 | 2026-05-08 13:26 UTC | `INCONCLUSIVE` | Plethysm Multiplicity Gap in Symmetric Powers of Permanent vs Det |
 | 2026-05-08 13:36 UTC | `INCONCLUSIVE` | Moment-Matrix Rank Deficit in Max-CUT Approximation |
 | 2026-05-08 13:42 UTC | `INCONCLUSIVE` | Secant Variety Dimension Lower Bounds Disjointness Communication  |
@@ -82,6 +80,8 @@ Generated 2026-05-08 15:45 UTC
 | 2026-05-08 15:19 UTC | `BARRIER_HIT` | Bounded Arithmetic Complexity of Algebraic Closure in Finite Fiel |
 | 2026-05-08 15:39 UTC | `INCONCLUSIVE` | Graph Energy Lower Bound on Tseitin Resolution Length |
 | 2026-05-08 15:45 UTC | `INCONCLUSIVE` | Multiplicity Gap in Symmetric Powers of Permanent vs Determinant  |
+| 2026-05-08 15:54 UTC | `INCONCLUSIVE` | Fourier Coefficient Sum Separation for Read-Twice Branching Progr |
+| 2026-05-08 16:16 UTC | `INCONCLUSIVE` | Invariant Polynomial Generation Complexity in Determinant vs Perm |
 
 ## How to read the reports
 

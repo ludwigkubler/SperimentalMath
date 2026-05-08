@@ -1,8 +1,8 @@
 {
-  "last_update_utc": "2026-05-08T15:47:02Z",
-  "total_cycles": 408,
+  "last_update_utc": "2026-05-08T16:47:01Z",
+  "total_cycles": 410,
   "verdict_counts": {
-    "INCONCLUSIVE": 373,
+    "INCONCLUSIVE": 375,
     "SUPPORTED": 4,
     "FALSIFIED": 15,
     "BARRIER_HIT": 16
@@ -54,6 +54,10 @@
       4
     ],
     [
+      "FOURIER_ANALYSIS",
+      4
+    ],
+    [
       "Fourier analysis of boolean functions",
       3
     ],
@@ -63,10 +67,6 @@
     ],
     [
       "Coarse Geometric Lifting (CGL) — Geometric Complexity Theory",
-      3
-    ],
-    [
-      "{'framework_name': 'Tropical Circuit Weight Analysis (TCWA)', 'math_branch': 'BOUNDED_ARITHMETIC'}",
       3
     ]
   ]
