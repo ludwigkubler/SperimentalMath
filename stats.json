@@ -1,13 +1,13 @@
 {
-  "last_update_utc": "2026-05-08T03:47:01Z",
-  "total_cycles": 339,
+  "last_update_utc": "2026-05-08T04:47:02Z",
+  "total_cycles": 342,
   "verdict_counts": {
-    "INCONCLUSIVE": 308,
+    "INCONCLUSIVE": 311,
     "SUPPORTED": 4,
     "FALSIFIED": 15,
     "BARRIER_HIT": 12
   },
-  "unique_field_A": 272,
+  "unique_field_A": 274,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
@@ -15,6 +15,10 @@
     ],
     [
       "Algebraic Geometry",
+      5
+    ],
+    [
+      "Additive Combinatorics",
       5
     ],
     [
@@ -39,10 +43,6 @@
     ],
     [
       "Random Matrix Theory",
-      4
-    ],
-    [
-      "Additive Combinatorics",
       4
     ],
     [

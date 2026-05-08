@@ -1,0 +1,156 @@
+{
+  "ts": 1778211182.366095,
+  "window_h": 24.0,
+  "n_conjectures": 34,
+  "n_papers": 115,
+  "n_scoops": 7,
+  "scoops": [
+    {
+      "paper_id": "2605.04798v1",
+      "paper_title": "Online Orthogonal Vectors Revisited",
+      "matched_eid": "2714b4a401ee",
+      "similarity": 0.7296680932139449
+    },
+    {
+      "paper_id": "2605.04544v1",
+      "paper_title": "Hard CNF Instances for Ideal Proof Systems",
+      "matched_eid": "07532f1e404c",
+      "similarity": 0.7805326415519143
+    },
+    {
+      "paper_id": "2605.05192v1",
+      "paper_title": "Almost-Orthogonality in Lp Spaces: A Case Study with Grok",
+      "matched_eid": "e2aedb4aa03f",
+      "similarity": 0.729661451212286
+    },
+    {
+      "paper_id": "2605.05048v1",
+      "paper_title": "On spectral Turán theorems: confirming a conjecture of Guiduli and two problems of Nikiforov",
+      "matched_eid": "6a8b922a8da3",
+      "similarity": 0.7215705468481871
+    },
+    {
+      "paper_id": "2605.04889v1",
+      "paper_title": "An Andrews-Gordon Type Identity Related to Andrews' Parity Consideration",
+      "matched_eid": "f9268bf85309",
+      "similarity": 0.7212961534807798
+    },
+    {
+      "paper_id": "2605.04780v1",
+      "paper_title": "Minimal generating sets of transfer systems for more non-Abelian Groups",
+      "matched_eid": "226cd77ad310",
+      "similarity": 0.7212308959404978
+    },
+    {
+      "paper_id": "2605.04404v1",
+      "paper_title": "Computable Scott Sentences and the Friedman-Stanley embedding",
+      "matched_eid": "f9268bf85309",
+      "similarity": 0.7261535785572798
+    }
+  ],
+  "top_overlap": [
+    {
+      "score": 0.781,
+      "paper_id": "2605.04544v1",
+      "paper_title": "Hard CNF Instances for Ideal Proof Systems",
+      "paper_category": "cs.CC",
+      "matched_conjecture_eid": "07532f1e404c",
+      "matched_conjecture_title": "Tree-Depth of Tseitin Graph Bounds Resolution Length"
+    },
+    {
+      "score": 0.73,
+      "paper_id": "2605.04798v1",
+      "paper_title": "Online Orthogonal Vectors Revisited",
+      "paper_category": "cs.DS",
+      "matched_conjecture_eid": "2714b4a401ee",
+      "matched_conjecture_title": "Lorentzian Defect of Tseitin Moment Polynomial Lower-Bounds SOS Degree"
+    },
+    {
+      "score": 0.73,
+      "paper_id": "2605.05192v1",
+      "paper_title": "Almost-Orthogonality in Lp Spaces: A Case Study with Grok",
+      "paper_category": "math.CA",
+      "matched_conjecture_eid": "e2aedb4aa03f",
+      "matched_conjecture_title": "Fourier Coefficient Sum Lower-Bounds Resolution Length for 3-CNFs"
+    },
+    {
+      "score": 0.726,
+      "paper_id": "2605.04404v1",
+      "paper_title": "Computable Scott Sentences and the Friedman-Stanley embedding",
+      "paper_category": "math.LO",
+      "matched_conjecture_eid": "f9268bf85309",
+      "matched_conjecture_title": "Slice Rank of Layer-Variable Tensor Lower-Bounds Read-Twice BP Size for IP_2"
+    },
+    {
+      "score": 0.722,
+      "paper_id": "2605.05048v1",
+      "paper_title": "On spectral Turán theorems: confirming a conjecture of Guiduli and two problems of Nikiforov",
+      "paper_category": "math.CO",
+      "matched_conjecture_eid": "6a8b922a8da3",
+      "matched_conjecture_title": "Jacobi Recurrence b₂ Floor Constrains SoS-2 Max-CUT Ratio"
+    },
+    {
+      "score": 0.721,
+      "paper_id": "2605.04889v1",
+      "paper_title": "An Andrews-Gordon Type Identity Related to Andrews' Parity Consideration",
+      "paper_category": "math.CO",
+      "matched_conjecture_eid": "f9268bf85309",
+      "matched_conjecture_title": "Slice Rank of Layer-Variable Tensor Lower-Bounds Read-Twice BP Size for IP_2"
+    },
+    {
+      "score": 0.721,
+      "paper_id": "2605.04780v1",
+      "paper_title": "Minimal generating sets of transfer systems for more non-Abelian Groups",
+      "paper_category": "math.CO",
+      "matched_conjecture_eid": "226cd77ad310",
+      "matched_conjecture_title": "Non-Abelian Fourier Coefficient Boundedness in Tseitin Resolution Length"
+    },
+    {
+      "score": 0.713,
+      "paper_id": "2605.04715v1",
+      "paper_title": "On the Complexity of Minimum Riesz s-Energy Subset Selection in Euclidean and Ultrametric Spaces",
+      "paper_category": "cs.CG",
+      "matched_conjecture_eid": "a97487bf0a56",
+      "matched_conjecture_title": "Persistent Homology Barcodes and Resolution Proof Size for Tseitin Formulas"
+    },
+    {
+      "score": 0.705,
+      "paper_id": "2605.04714v1",
+      "paper_title": "On n-distality, n-triviality and hypergraph regularity in NIP theories",
+      "paper_category": "math.LO",
+      "matched_conjecture_eid": "a97487bf0a56",
+      "matched_conjecture_title": "Persistent Homology Barcodes and Resolution Proof Size for Tseitin Formulas"
+    },
+    {
+      "score": 0.704,
+      "paper_id": "2605.04438v1",
+      "paper_title": "Extremal problems on $[a, b]$-covered graphs",
+      "paper_category": "math.CO",
+      "matched_conjecture_eid": "2714b4a401ee",
+      "matched_conjecture_title": "Lorentzian Defect of Tseitin Moment Polynomial Lower-Bounds SOS Degree"
+    }
+  ],
+  "stats": {
+    "n_cycles": 34,
+    "verdicts": {
+      "INCONCLUSIVE": 34
+    },
+    "focus_distribution": {
+      "ACC_SIPSER": 2,
+      "TSEITIN_RES": 3,
+      "AC0_PARITY": 1,
+      "MONOTONE_CLIQUE": 3,
+      "COMM_DISJ": 4,
+      "BP_READTWICE": 4,
+      "GCT_DET_PERM": 1,
+      "SOS_DEGREE": 3
+    },
+    "top_fields_A": {
+      "Polymatroid Theory": 3,
+      "Algebraic Geometry of Secant Varieties": 3,
+      "Finite Geometry": 3,
+      "Free Probability": 3,
+      "Real Algebraic Geometry": 2
+    }
+  }
+}

@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-08 03:38 UTC"
+date: "2026-05-08 04:46 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-08 03:38 UTC
+Generated 2026-05-08 04:46 UTC
 
-- Cycles recorded: **339**
-- Time span: 342.0h (~0.99 cycles/h)
+- Cycles recorded: **342**
+- Time span: 343.1h (~1.00 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 308 |
+| INCONCLUSIVE | 311 |
 | FALSIFIED | 15 |
 | BARRIER_HIT | 12 |
 | SUPPORTED | 4 |
@@ -34,13 +34,13 @@ Generated 2026-05-08 03:38 UTC
 |---|---|
 | Real Algebraic Geometry | 10 |
 | Algebraic Geometry | 5 |
+| Additive Combinatorics | 5 |
 | Finite Geometry | 5 |
 | Free Probability | 5 |
 | Ergodic Circuit Framework (communication complexity via dynamical systems) | 4 |
 | {"framework_name": "Ergodic Circuit Framework", "math_branch": "COMM_COMPLEXITY"} | 4 |
 | Matroid Theory | 4 |
 | Random Matrix Theory | 4 |
-| Additive Combinatorics | 4 |
 | Fourier analysis of boolean functions | 3 |
 | Coarse Geometric Lifting (CGL) — Geometric Complexity Theory | 3 |
 | {"framework_name": "Tropical Circuit Weight Analysis (TCWA)", "math_branch": "BOUNDED_ARITHMETIC"} | 3 |
@@ -67,9 +67,6 @@ Generated 2026-05-08 03:38 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-08 00:42 UTC | `BARRIER_HIT` | Stern-Brocot Rank of Truth Tables Lifts Average-to-Worst MCSP |
-| 2026-05-08 01:14 UTC | `INCONCLUSIVE` | Slice Rank of Layer-Variable Tensor Lower-Bounds Read-Twice BP Si |
-| 2026-05-08 01:18 UTC | `INCONCLUSIVE` | Polymatroid Rank Lower Bound for Monotone DNF Representing k-CLIQ |
 | 2026-05-08 01:28 UTC | `INCONCLUSIVE` | Free Cumulant Gap in Read-Twice BP for IP_2 |
 | 2026-05-08 01:44 UTC | `INCONCLUSIVE` | Persistent Homology Barcodes and Communication Complexity of Bool |
 | 2026-05-08 01:52 UTC | `INCONCLUSIVE` | Jacobi Recurrence b₂ Floor Constrains SoS-2 Max-CUT Ratio |
@@ -82,6 +79,9 @@ Generated 2026-05-08 03:38 UTC
 | 2026-05-08 03:25 UTC | `INCONCLUSIVE` | Asymptotic Dimension of KW Space for PARITY Matches Optimal Formu |
 | 2026-05-08 03:37 UTC | `INCONCLUSIVE` | Free Logarithmic Energy Deficit Lower-Bounds R(DISJ) |
 | 2026-05-08 03:38 UTC | `INCONCLUSIVE` | Free Cumulant Gap in Read-Twice BP for IP_2 |
+| 2026-05-08 04:12 UTC | `INCONCLUSIVE` | Second-Read Commutator Frobenius Excess Bounds Read-Twice BP Size |
+| 2026-05-08 04:33 UTC | `INCONCLUSIVE` | Additive Energy of Fourier Coefficients Bounds SOS Refutation Siz |
+| 2026-05-08 04:46 UTC | `INCONCLUSIVE` | A_5 Word-Embedding Spectral Norm Lower-Bounds R(DISJ) |
 
 ## How to read the reports
 
