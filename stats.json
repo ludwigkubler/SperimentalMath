@@ -1,13 +1,13 @@
 {
-  "last_update_utc": "2026-05-08T02:47:02Z",
-  "total_cycles": 334,
+  "last_update_utc": "2026-05-08T03:47:01Z",
+  "total_cycles": 339,
   "verdict_counts": {
-    "INCONCLUSIVE": 303,
+    "INCONCLUSIVE": 308,
     "SUPPORTED": 4,
     "FALSIFIED": 15,
     "BARRIER_HIT": 12
   },
-  "unique_field_A": 269,
+  "unique_field_A": 272,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
@@ -15,6 +15,14 @@
     ],
     [
       "Algebraic Geometry",
+      5
+    ],
+    [
+      "Finite Geometry",
+      5
+    ],
+    [
+      "Free Probability",
       5
     ],
     [
@@ -35,14 +43,6 @@
     ],
     [
       "Additive Combinatorics",
-      4
-    ],
-    [
-      "Finite Geometry",
-      4
-    ],
-    [
-      "Free Probability",
       4
     ],
     [

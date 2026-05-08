@@ -1,6 +1,6 @@
 {
   "framework_id": "fw_6ef88ddbf3",
-  "ts": 1778205673.4632778,
+  "ts": 1778210757.65435,
   "generation": 0,
   "parent_framework_id": "",
   "mutation_from_parent": "",
@@ -78,7 +78,9 @@
     "A5 (Non-Relativizing / Non-Algebrizing): Coarse invariants depend on the fine combinatorial structure of f^{-1}(0) and f^{-1}(1) as embedded in the Hamming cube, not on oracle access or low-degree algebraic extensions, so oracle and algebraic-extension transformations do not preserve asdim or alpha*"
   ],
   "status": "ELABORATING",
-  "sub_conjecture_entry_ids": [],
+  "sub_conjecture_entry_ids": [
+    "b0765766a778"
+  ],
   "fitness_components": {},
   "fitness": 0.0,
   "paper_path": "",

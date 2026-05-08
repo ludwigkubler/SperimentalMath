@@ -1,0 +1,40 @@
+{
+  "entry_id": "ea69d0cf842b",
+  "ts": 1778211472.4156227,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1211.0310",
+      "title": "Large Synoptic Survey Telescope: Dark Energy Science Collaboration",
+      "abstract_excerpt": "This white paper describes the LSST Dark Energy Science Collaboration (DESC), whose goal is the study of dark energy and related topics in fundamental physics with data from the Large Synoptic Survey Telescope (LSST). It provides an overview of dark energy science and describes the current and anticipated state of the field. It makes the case for the DESC by laying out a robust analytical framework for dark energy science that has been defined by its members and the comprehensive three-year work",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes the LSST Dark Energy Science Collaboration's white paper on astrophysical dark energy probes (weak lensing, supernovae, etc.), which shares only the word 'energy' with the conjecture and has no connection to free probability, communication complexity, or disjointness.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/astro-ph/0510346v1",
+      "title": "The Dark Energy Survey",
+      "abstract_excerpt": "We describe the Dark Energy Survey (DES), a proposed optical-near infrared survey of 5000 sq. deg of the South Galactic Cap to ~24th magnitude in SDSS griz, that would use a new 3 sq. deg CCD camera to be mounted on the Blanco 4-m telescope at Cerro Telolo Inter-American Observatory (CTIO). The surv",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper describes the Dark Energy Survey, an astronomical optical-near infrared sky survey, which has no connection to free probability, communication complexity, or discrepancy of sign matrices.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2401.14623",
+      "title": "Structure in Communication Complexity and Constant-Cost Complexity Classes",
+      "abstract_excerpt": "Several theorems and conjectures in communication complexity state or speculate that the complexity of a matrix in a given communication model is controlled by a related analytic or algebraic matrix parameter, e.g., rank, sign-rank, discrepancy, etc. The forward direction is typically easy as the structural implications of small complexity often imply a bound on some matrix parameter. The challenge lies in establishing the reverse direction, which requires understanding the structure of Boolean ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a general survey of how communication complexity relates to matrix parameters like rank, sign-rank, and discrepancy, but does not mention free logarithmic energy, singular-value empirical measures, or the specific deficit ΔE(M_f) inequality conjectured here.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

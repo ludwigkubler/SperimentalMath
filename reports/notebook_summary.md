@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-08 02:37 UTC"
+date: "2026-05-08 03:38 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-08 02:37 UTC
+Generated 2026-05-08 03:38 UTC
 
-- Cycles recorded: **334**
-- Time span: 341.0h (~0.98 cycles/h)
+- Cycles recorded: **339**
+- Time span: 342.0h (~0.99 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 303 |
+| INCONCLUSIVE | 308 |
 | FALSIFIED | 15 |
 | BARRIER_HIT | 12 |
 | SUPPORTED | 4 |
@@ -34,13 +34,13 @@ Generated 2026-05-08 02:37 UTC
 |---|---|
 | Real Algebraic Geometry | 10 |
 | Algebraic Geometry | 5 |
+| Finite Geometry | 5 |
+| Free Probability | 5 |
 | Ergodic Circuit Framework (communication complexity via dynamical systems) | 4 |
 | {"framework_name": "Ergodic Circuit Framework", "math_branch": "COMM_COMPLEXITY"} | 4 |
 | Matroid Theory | 4 |
 | Random Matrix Theory | 4 |
 | Additive Combinatorics | 4 |
-| Finite Geometry | 4 |
-| Free Probability | 4 |
 | Fourier analysis of boolean functions | 3 |
 | Coarse Geometric Lifting (CGL) — Geometric Complexity Theory | 3 |
 | {"framework_name": "Tropical Circuit Weight Analysis (TCWA)", "math_branch": "BOUNDED_ARITHMETIC"} | 3 |
@@ -67,11 +67,6 @@ Generated 2026-05-08 02:37 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-07 23:41 UTC | `INCONCLUSIVE` | Lorentzian Defect of Tseitin Moment Polynomial Lower-Bounds SOS D |
-| 2026-05-07 23:53 UTC | `INCONCLUSIVE` | Persistent Homology Barcodes and Resolution Proof Size for Tseiti |
-| 2026-05-07 23:58 UTC | `INCONCLUSIVE` | Free Cumulant Rank Gap in Read-Twice Branching Programs for IP_2 |
-| 2026-05-08 00:24 UTC | `INCONCLUSIVE` | Möbius Mass of Gate-Support Meet-Semilattice Bounds AC⁰ PARITY Si |
-| 2026-05-08 00:38 UTC | `INCONCLUSIVE` | Secant Variety Dimension Lower-Bounds Disjointness Communication  |
 | 2026-05-08 00:42 UTC | `BARRIER_HIT` | Stern-Brocot Rank of Truth Tables Lifts Average-to-Worst MCSP |
 | 2026-05-08 01:14 UTC | `INCONCLUSIVE` | Slice Rank of Layer-Variable Tensor Lower-Bounds Read-Twice BP Si |
 | 2026-05-08 01:18 UTC | `INCONCLUSIVE` | Polymatroid Rank Lower Bound for Monotone DNF Representing k-CLIQ |
@@ -82,6 +77,11 @@ Generated 2026-05-08 02:37 UTC
 | 2026-05-08 02:17 UTC | `INCONCLUSIVE` | Lie Stabilizer Dimension Linearly Bounds Arithmetic Formula Size |
 | 2026-05-08 02:26 UTC | `INCONCLUSIVE` | Finite Plane Line Count Bounds Tseitin Resolution Size |
 | 2026-05-08 02:37 UTC | `INCONCLUSIVE` | Tree-Depth of Tseitin Graph Bounds Resolution Length |
+| 2026-05-08 03:03 UTC | `INCONCLUSIVE` | Projective Plane Incidence Matrix Deterministic Communication Com |
+| 2026-05-08 03:10 UTC | `INCONCLUSIVE` | Multilinear Catalecticant Rank Scales Polynomially in ACC^0 Circu |
+| 2026-05-08 03:25 UTC | `INCONCLUSIVE` | Asymptotic Dimension of KW Space for PARITY Matches Optimal Formu |
+| 2026-05-08 03:37 UTC | `INCONCLUSIVE` | Free Logarithmic Energy Deficit Lower-Bounds R(DISJ) |
+| 2026-05-08 03:38 UTC | `INCONCLUSIVE` | Free Cumulant Gap in Read-Twice BP for IP_2 |
 
 ## How to read the reports
 
