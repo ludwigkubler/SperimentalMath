@@ -1,119 +1,70 @@
-# Daily Reflection — 2026-05-08
+# Daily Reflection — 2026-05-09
 
-*Generated: 2026-05-08 03:33 UTC*
+*Generated: 2026-05-09 03:33 UTC*
 
 ## Yesterday in numbers
-- **Cycles**: 34
-- **New arxiv papers (mirror, last 24h)**: 115
+- **Cycles**: 110
+- **New arxiv papers (mirror, last 24h)**: 28
 - **Verdict distribution**:
-    - INCONCLUSIVE: 34
+    - INCONCLUSIVE: 107
+    - BARRIER_HIT: 3
 - **Focus mode**:
-    - COMM_DISJ: 4
-    - BP_READTWICE: 4
-    - TSEITIN_RES: 3
-    - MONOTONE_CLIQUE: 3
-    - SOS_DEGREE: 3
-    - ACC_SIPSER: 2
-    - AC0_PARITY: 1
-    - GCT_DET_PERM: 1
+    - GCT_DET_PERM: 16
+    - BP_READTWICE: 12
+    - TSEITIN_RES: 12
+    - SOS_DEGREE: 12
+    - MONOTONE_CLIQUE: 9
+    - COMM_DISJ: 9
+    - AC0_PARITY: 6
+    - ACC_SIPSER: 4
 - **Top fields_A**:
-    - Polymatroid Theory: 3
-    - Algebraic Geometry of Secant Varieties: 3
-    - Finite Geometry: 3
-    - Free Probability: 3
-    - Real Algebraic Geometry: 2
+    - Real Algebraic Geometry: 9
+    - Schur-Weyl Duality: 6
+    - Free Probability: 4
+    - FOURIER_ANALYSIS: 4
+    - Matroid Theory: 3
 
-## ⚠ Potential scoops (7)
+## ⚠ Potential scoops (1)
 
 These new arxiv papers have **>0.72 cosine** to one of our recent conjectures.
 
-### `2605.04798v1` (sim=0.730)
-- **Paper**: Online Orthogonal Vectors Revisited
-- **Category**: cs.DS
-- **Submitted**: 2026-05-06T11:48:10Z
-- **URL**: https://arxiv.org/abs/2605.04798v1
-- **Matches our conjecture** `2714b4a401ee`: "Lorentzian Defect of Tseitin Moment Polynomial Lower-Bounds SOS Degree"
-- **Abstract excerpt**: We prove new upper and lower bounds for the Online Orthogonal Vectors Problem ($\mathsf{OnlineOV}_{n,d}$). In this problem, a preprocessing algorithm receives $n$ vectors $x_1,\ldots,x_n\in\{0,1\}^d$ and constructs a data structure of size $S$. A query algorithm subsequently receives a query vector …
-
-### `2605.04544v1` (sim=0.781)
-- **Paper**: Hard CNF Instances for Ideal Proof Systems
-- **Category**: cs.CC
-- **Submitted**: 2026-05-06T06:46:02Z
-- **URL**: https://arxiv.org/abs/2605.04544v1
-- **Matches our conjecture** `07532f1e404c`: "Tree-Depth of Tseitin Graph Bounds Resolution Length"
-- **Abstract excerpt**: Since the introduction of the Ideal Proof System (IPS) by Grochow and Pitassi (J. ACM 2018), a substantial body of work has established size lower bounds for IPS and its fragments. In particular, Forbes, Shpilka, Tzameret, and Wigderson (Theory Comput. 2021) developed the main lower-bound frameworks…
-
-### `2605.05192v1` (sim=0.730)
-- **Paper**: Almost-Orthogonality in Lp Spaces: A Case Study with Grok
-- **Category**: math.CA
-- **Submitted**: 2026-05-06T17:54:51Z
-- **URL**: https://arxiv.org/abs/2605.05192v1
-- **Matches our conjecture** `e2aedb4aa03f`: "Fourier Coefficient Sum Lower-Bounds Resolution Length for 3-CNFs"
-- **Abstract excerpt**: Carbery proposed the following sharpened form of triangle inequality for many functions: for any $p\ge 2$ and any finite sequence $(f_j)_j\subset L^p$ we have \[ \Big\|\sum_j f_j\Big\|_p \ \le\ \left(\sup_{j} \sum_{k} α_{jk}^{\,c}\right)^{1/p'} \Big(\sum_j \|f_j\|_p^p\Big)^{1/p}, \] where $c=2$, $1/…
-
-### `2605.05048v1` (sim=0.722)
-- **Paper**: On spectral Turán theorems: confirming a conjecture of Guiduli and two problems of Nikiforov
-- **Category**: math.CO
-- **Submitted**: 2026-05-06T15:44:07Z
-- **URL**: https://arxiv.org/abs/2605.05048v1
-- **Matches our conjecture** `6a8b922a8da3`: "Jacobi Recurrence b₂ Floor Constrains SoS-2 Max-CUT Ratio"
-- **Abstract excerpt**: Let $G$ be an $n$-vertex graph, and let $λ(G)$ and $λ_n(G)$ denote the largest and smallest eigenvalues of its adjacency matrix. Write $e(G)$ for the number of edges of $G$, $d(G)=2e(G)/n$ for its average degree, and $T_r(n)$ for the $r$-partite Turán graph on $n$ vertices.   We prove four sharp res…
-
-### `2605.04889v1` (sim=0.721)
-- **Paper**: An Andrews-Gordon Type Identity Related to Andrews' Parity Consideration
-- **Category**: math.CO
-- **Submitted**: 2026-05-06T13:22:25Z
-- **URL**: https://arxiv.org/abs/2605.04889v1
-- **Matches our conjecture** `f9268bf85309`: "Slice Rank of Layer-Variable Tensor Lower-Bounds Read-Twice BP Size for IP_2"
-- **Abstract excerpt**: Andrews investigated parity conditions in the Rogers-Ramanujan-Gordon theorem.   Under the conditions that even parts or odd parts appear an even number of times,   Andrews discovered two Rogers-Ramanujan-Gordon type partition theorems   and derived corresponding generating functions. In the Rogers-…
-
-### `2605.04780v1` (sim=0.721)
-- **Paper**: Minimal generating sets of transfer systems for more non-Abelian Groups
-- **Category**: math.CO
-- **Submitted**: 2026-05-06T11:33:44Z
-- **URL**: https://arxiv.org/abs/2605.04780v1
-- **Matches our conjecture** `226cd77ad310`: "Non-Abelian Fourier Coefficient Boundedness in Tseitin Resolution Length"
-- **Abstract excerpt**: For a finite group $G$, $N_\infty$ operads encode collections of norm maps, and by work of Blumberg--Hill and Rubin their homotopy category is equivalent to the poset of $G$--transfer systems on the subgroup lattice of $G$. In \cite{ABB+25} the authors defined the \emph{width} $w(G)$ as the minimal …
-
-### `2605.04404v1` (sim=0.726)
-- **Paper**: Computable Scott Sentences and the Friedman-Stanley embedding
-- **Category**: math.LO
-- **Submitted**: 2026-05-06T01:54:21Z
-- **URL**: https://arxiv.org/abs/2605.04404v1
-- **Matches our conjecture** `f9268bf85309`: "Slice Rank of Layer-Variable Tensor Lower-Bounds Read-Twice BP Size for IP_2"
-- **Abstract excerpt**: Friedman and Stanley developed the notion of Borel reducibility and illustrated its use in comparing classification problems for some familiar classes of countable structures. For many embeddings, the fact that the embedding is $1-1$ on isomorphism types is explained by the existence of simple formu…
+### `2605.05321v1` (sim=0.740)
+- **Paper**: Analytical Angle-Finding and Series Expansions for Quantum Signal Processing via Orthogonal Polynomial Theory
+- **Category**: quant-ph
+- **Submitted**: 2026-05-06T18:00:26Z
+- **URL**: https://arxiv.org/abs/2605.05321v1
+- **Matches our conjecture** `e67822267f11`: "Symmetrized Univariate Approximate Degree Bounds AC0 PARITY"
+- **Abstract excerpt**: Quantum signal processing is a powerful framework in quantum algorithms, playing a central role in Hamiltonian simulation and related applications. The sequence of polynomials implemented at each step of this protocol provides a polynomial basis for block-encoding any polynomial of a unitary. We cha…
 
 ## Top 10 most-overlapping new papers (no threshold)
 
 Useful for compass / next-direction suggestions:
 
-- `2605.04544v1` (cs.CC, sim=0.781): Hard CNF Instances for Ideal Proof Systems
-    matched conj `07532f1e404c`: Tree-Depth of Tseitin Graph Bounds Resolution Length
-- `2605.04798v1` (cs.DS, sim=0.73): Online Orthogonal Vectors Revisited
-    matched conj `2714b4a401ee`: Lorentzian Defect of Tseitin Moment Polynomial Lower-Bounds SOS Degree
-- `2605.05192v1` (math.CA, sim=0.73): Almost-Orthogonality in Lp Spaces: A Case Study with Grok
-    matched conj `e2aedb4aa03f`: Fourier Coefficient Sum Lower-Bounds Resolution Length for 3-CNFs
-- `2605.04404v1` (math.LO, sim=0.726): Computable Scott Sentences and the Friedman-Stanley embedding
-    matched conj `f9268bf85309`: Slice Rank of Layer-Variable Tensor Lower-Bounds Read-Twice BP Size for IP_2
-- `2605.05048v1` (math.CO, sim=0.722): On spectral Turán theorems: confirming a conjecture of Guiduli and two problems of Nikiforov
-    matched conj `6a8b922a8da3`: Jacobi Recurrence b₂ Floor Constrains SoS-2 Max-CUT Ratio
-- `2605.04889v1` (math.CO, sim=0.721): An Andrews-Gordon Type Identity Related to Andrews' Parity Consideration
-    matched conj `f9268bf85309`: Slice Rank of Layer-Variable Tensor Lower-Bounds Read-Twice BP Size for IP_2
-- `2605.04780v1` (math.CO, sim=0.721): Minimal generating sets of transfer systems for more non-Abelian Groups
-    matched conj `226cd77ad310`: Non-Abelian Fourier Coefficient Boundedness in Tseitin Resolution Length
-- `2605.04715v1` (cs.CG, sim=0.713): On the Complexity of Minimum Riesz s-Energy Subset Selection in Euclidean and Ultrametric Spaces
-    matched conj `a97487bf0a56`: Persistent Homology Barcodes and Resolution Proof Size for Tseitin Formulas
-- `2605.04714v1` (math.LO, sim=0.705): On n-distality, n-triviality and hypergraph regularity in NIP theories
-    matched conj `a97487bf0a56`: Persistent Homology Barcodes and Resolution Proof Size for Tseitin Formulas
-- `2605.04438v1` (math.CO, sim=0.704): Extremal problems on $[a, b]$-covered graphs
-    matched conj `2714b4a401ee`: Lorentzian Defect of Tseitin Moment Polynomial Lower-Bounds SOS Degree
+- `2605.05321v1` (quant-ph, sim=0.74): Analytical Angle-Finding and Series Expansions for Quantum Signal Processing via Orthogonal Polynomi
+    matched conj `e67822267f11`: Symmetrized Univariate Approximate Degree Bounds AC0 PARITY
+- `2605.06429v1` (math.PR, sim=0.7): $\mathsf{GL}_N(\mathbb{C})$ Brownian motion and stochastic PDE on entire functions
+    matched conj `d1d1e2ec5d2a`: Non-backtracking Spectral Gap Lower-Bounds Tseitin DPLL Trees
+- `2605.06019v1` (math.OA, sim=0.696): Geometric Means and Lebesgue-type Decomposition of Completely Positive Maps
+    matched conj `ad24d125d8b7`: Lasserre Moment-Rank Gap of Accept Set Bounds AC0 PARITY Size
+- `2605.06425v1` (cond-mat.stat-mech, sim=0.693): Comparative Study of Potts Machine Dynamics and Performance for Max-k-Cut
+    matched conj `4d59152d4522`: Sparsest-Cut LP Value Lower-Bounds Tseitin Resolution Length
+- `2605.06224v1` (hep-th, sim=0.692): Modular wedge localization, Majorana fields and the Tsirelson limit of the Bell-CHSH inequality
+    matched conj `77f332fbbf06`: Schur-Horn Diagonal-Spectrum Defect Bounds SOS-2 Max-Cut Gap
+- `2605.06504v1` (math-ph, sim=0.692): Eigenstates with Infinite Position Moments
+    matched conj `1ca152a211e8`: Moment Matrix Eigenvalue Decay and SOS Degree for Max-CUT
+- `2605.05423v1` (cond-mat.mtrl-sci, sim=0.691): Band Unfolding via the Quadratic Pseudospectrum
+    matched conj `14fdafc31b7e`: Selberg Log-Gas Rigidity Defect Bounds SOS-2 Max-CUT Gap
+- `2605.06569v1` (math.AP, sim=0.688): Equidistribution of Eigenfunctions of Quantum Cat Maps
+    matched conj `14fdafc31b7e`: Selberg Log-Gas Rigidity Defect Bounds SOS-2 Max-CUT Gap
+- `2605.05764v1` (quant-ph, sim=0.68): Weighted Phase-Space Paths for Exact Wigner Dynamics
+    matched conj `97b82c049269`: SVD Participation Dispersion of Mid-Layer Lower-Bounds Read-Twice BPs for IP_2
+- `2605.05322v1` (hep-th, sim=0.671): Automorphic Structures of Heterotic Vacua
+    matched conj `8d6bdbe44c56`: KKL Influence-Spread of Edge-Product Threshold Lower-Bounds Tseitin Resolution
 
 ## Recommendations
-- ⚠ Read the 7 flagged papers; consider mutating affected conjectures away from the overlap.
-  - [2605.04798v1](https://arxiv.org/abs/2605.04798v1) vs our `2714b4a401ee`
-  - [2605.04544v1](https://arxiv.org/abs/2605.04544v1) vs our `07532f1e404c`
-  - [2605.05192v1](https://arxiv.org/abs/2605.05192v1) vs our `e2aedb4aa03f`
-- Closest non-scoop overlap: `2605.04544v1` (sim=0.781) — may be a useful reference if you publish.
+- ⚠ Read the 1 flagged papers; consider mutating affected conjectures away from the overlap.
+  - [2605.05321v1](https://arxiv.org/abs/2605.05321v1) vs our `e67822267f11`
+- Closest non-scoop overlap: `2605.05321v1` (sim=0.74) — may be a useful reference if you publish.
 
 ---
 

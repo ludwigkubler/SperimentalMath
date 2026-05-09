@@ -1,17 +1,17 @@
 {
-  "last_update_utc": "2026-05-09T03:47:02Z",
-  "total_cycles": 453,
+  "last_update_utc": "2026-05-09T04:47:02Z",
+  "total_cycles": 458,
   "verdict_counts": {
-    "INCONCLUSIVE": 418,
+    "INCONCLUSIVE": 423,
     "SUPPORTED": 4,
     "FALSIFIED": 15,
     "BARRIER_HIT": 16
   },
-  "unique_field_A": 342,
+  "unique_field_A": 343,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
-      19
+      20
     ],
     [
       "Schur-Weyl Duality",
@@ -34,6 +34,10 @@
       5
     ],
     [
+      "Random Matrix Theory",
+      5
+    ],
+    [
       "Finite Geometry",
       5
     ],
@@ -46,7 +50,7 @@
       4
     ],
     [
-      "Random Matrix Theory",
+      "Spectral Graph Theory",
       4
     ],
     [
@@ -63,10 +67,6 @@
     ],
     [
       "Fourier analysis of boolean functions",
-      3
-    ],
-    [
-      "matroid theory",
       3
     ]
   ]

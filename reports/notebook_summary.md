@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-09 03:44 UTC"
+date: "2026-05-09 04:46 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-09 03:44 UTC
+Generated 2026-05-09 04:46 UTC
 
-- Cycles recorded: **453**
-- Time span: 366.1h (~1.24 cycles/h)
+- Cycles recorded: **458**
+- Time span: 367.1h (~1.25 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 418 |
+| INCONCLUSIVE | 423 |
 | BARRIER_HIT | 16 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -32,16 +32,17 @@ Generated 2026-05-09 03:44 UTC
 
 | Field | Cycles |
 |---|---|
-| Real Algebraic Geometry | 19 |
+| Real Algebraic Geometry | 20 |
 | Schur-Weyl Duality | 9 |
 | Free Probability | 8 |
 | Matroid Theory | 7 |
 | Additive Combinatorics | 6 |
 | Algebraic Geometry | 5 |
+| Random Matrix Theory | 5 |
 | Finite Geometry | 5 |
 | Ergodic Circuit Framework (communication complexity via dynamical systems) | 4 |
 | {"framework_name": "Ergodic Circuit Framework", "math_branch": "COMM_COMPLEXITY"} | 4 |
-| Random Matrix Theory | 4 |
+| Spectral Graph Theory | 4 |
 | Polymatroid Theory | 4 |
 | Algebraic Geometry of Secant Varieties | 4 |
 | FOURIER_ANALYSIS | 4 |
@@ -51,7 +52,6 @@ Generated 2026-05-09 03:44 UTC
 | {"framework_name": "Tropical Circuit Weight Analysis (TCWA)", "math_branch": "BOUNDED_ARITHMETIC"} | 3 |
 | Tropical Circuit Weight Analysis (BOUNDED_ARITHMETIC) | 3 |
 | Schur-Weyl duality | 3 |
-| Spectral Graph Theory | 3 |
 | Representation Theory of Symmetric Groups | 3 |
 | Persistent Homology | 3 |
 | Plethysm Theory | 3 |
@@ -67,11 +67,6 @@ Generated 2026-05-09 03:44 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-08 23:44 UTC | `INCONCLUSIVE` | Noncommutative Fourier Spectrum Gap in Read-Twice BP for IP_2 |
-| 2026-05-08 23:56 UTC | `INCONCLUSIVE` | Hyperbolicity Lower Bound on Tseitin Resolution Length |
-| 2026-05-09 00:12 UTC | `INCONCLUSIVE` | Submodular Width Separates Monotone DNF from k-CLIQUE |
-| 2026-05-09 00:21 UTC | `INCONCLUSIVE` | Noncommutative Fourier Coefficient Norm Separates Read-Twice from |
-| 2026-05-09 00:31 UTC | `INCONCLUSIVE` | Symmetric Group Fourier Min-Coefficient Lower Bound on Disjointne |
 | 2026-05-09 00:45 UTC | `INCONCLUSIVE` | Plethysm Coefficient Inverse Proportionality to Circuit Size |
 | 2026-05-09 00:51 UTC | `INCONCLUSIVE` | Free Entropy Inverse Proportionality to Disjointness Communicatio |
 | 2026-05-09 00:57 UTC | `INCONCLUSIVE` | Young Tableaux Count Lower Bound on Disjointness Communication Co |
@@ -82,6 +77,11 @@ Generated 2026-05-09 03:44 UTC
 | 2026-05-09 03:07 UTC | `INCONCLUSIVE` | Plethysm Coefficient Exponential Gap in Symmetric Squares of Perm |
 | 2026-05-09 03:18 UTC | `INCONCLUSIVE` | Schur-Weyl Multiplicity Exponential Gap in Symmetric Powers of Pe |
 | 2026-05-09 03:44 UTC | `INCONCLUSIVE` | SOS Refutation Degree and Convex Body Volume for Random 3-SAT |
+| 2026-05-09 03:53 UTC | `INCONCLUSIVE` | Random Matrix Eigenvalue Deficit and SOS Degree for Max-CUT |
+| 2026-05-09 04:05 UTC | `INCONCLUSIVE` | Real Radical Rank Bounds SOS Degree for Max-CUT |
+| 2026-05-09 04:26 UTC | `INCONCLUSIVE` | Discriminant Exponentiation Bounds SOS Refutation Degree for Rand |
+| 2026-05-09 04:34 UTC | `INCONCLUSIVE` | Spectral Gap Exponential Lower Bound on Tseitin Resolution Length |
+| 2026-05-09 04:46 UTC | `INCONCLUSIVE` | Dehn Function Exponentiation Bounds Resolution Length for Tseitin |
 
 ## How to read the reports
 

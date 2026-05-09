@@ -1,0 +1,121 @@
+{
+  "ts": 1778297582.261371,
+  "window_h": 24.0,
+  "n_conjectures": 110,
+  "n_papers": 28,
+  "n_scoops": 1,
+  "scoops": [
+    {
+      "paper_id": "2605.05321v1",
+      "paper_title": "Analytical Angle-Finding and Series Expansions for Quantum Signal Processing via Orthogonal Polynomial Theory",
+      "matched_eid": "e67822267f11",
+      "similarity": 0.7397329072921704
+    }
+  ],
+  "top_overlap": [
+    {
+      "score": 0.74,
+      "paper_id": "2605.05321v1",
+      "paper_title": "Analytical Angle-Finding and Series Expansions for Quantum Signal Processing via Orthogonal Polynomial Theory",
+      "paper_category": "quant-ph",
+      "matched_conjecture_eid": "e67822267f11",
+      "matched_conjecture_title": "Symmetrized Univariate Approximate Degree Bounds AC0 PARITY"
+    },
+    {
+      "score": 0.7,
+      "paper_id": "2605.06429v1",
+      "paper_title": "$\\mathsf{GL}_N(\\mathbb{C})$ Brownian motion and stochastic PDE on entire functions",
+      "paper_category": "math.PR",
+      "matched_conjecture_eid": "d1d1e2ec5d2a",
+      "matched_conjecture_title": "Non-backtracking Spectral Gap Lower-Bounds Tseitin DPLL Trees"
+    },
+    {
+      "score": 0.696,
+      "paper_id": "2605.06019v1",
+      "paper_title": "Geometric Means and Lebesgue-type Decomposition of Completely Positive Maps",
+      "paper_category": "math.OA",
+      "matched_conjecture_eid": "ad24d125d8b7",
+      "matched_conjecture_title": "Lasserre Moment-Rank Gap of Accept Set Bounds AC0 PARITY Size"
+    },
+    {
+      "score": 0.693,
+      "paper_id": "2605.06425v1",
+      "paper_title": "Comparative Study of Potts Machine Dynamics and Performance for Max-k-Cut",
+      "paper_category": "cond-mat.stat-mech",
+      "matched_conjecture_eid": "4d59152d4522",
+      "matched_conjecture_title": "Sparsest-Cut LP Value Lower-Bounds Tseitin Resolution Length"
+    },
+    {
+      "score": 0.692,
+      "paper_id": "2605.06224v1",
+      "paper_title": "Modular wedge localization, Majorana fields and the Tsirelson limit of the Bell-CHSH inequality",
+      "paper_category": "hep-th",
+      "matched_conjecture_eid": "77f332fbbf06",
+      "matched_conjecture_title": "Schur-Horn Diagonal-Spectrum Defect Bounds SOS-2 Max-Cut Gap"
+    },
+    {
+      "score": 0.692,
+      "paper_id": "2605.06504v1",
+      "paper_title": "Eigenstates with Infinite Position Moments",
+      "paper_category": "math-ph",
+      "matched_conjecture_eid": "1ca152a211e8",
+      "matched_conjecture_title": "Moment Matrix Eigenvalue Decay and SOS Degree for Max-CUT"
+    },
+    {
+      "score": 0.691,
+      "paper_id": "2605.05423v1",
+      "paper_title": "Band Unfolding via the Quadratic Pseudospectrum",
+      "paper_category": "cond-mat.mtrl-sci",
+      "matched_conjecture_eid": "14fdafc31b7e",
+      "matched_conjecture_title": "Selberg Log-Gas Rigidity Defect Bounds SOS-2 Max-CUT Gap"
+    },
+    {
+      "score": 0.688,
+      "paper_id": "2605.06569v1",
+      "paper_title": "Equidistribution of Eigenfunctions of Quantum Cat Maps",
+      "paper_category": "math.AP",
+      "matched_conjecture_eid": "14fdafc31b7e",
+      "matched_conjecture_title": "Selberg Log-Gas Rigidity Defect Bounds SOS-2 Max-CUT Gap"
+    },
+    {
+      "score": 0.68,
+      "paper_id": "2605.05764v1",
+      "paper_title": "Weighted Phase-Space Paths for Exact Wigner Dynamics",
+      "paper_category": "quant-ph",
+      "matched_conjecture_eid": "97b82c049269",
+      "matched_conjecture_title": "SVD Participation Dispersion of Mid-Layer Lower-Bounds Read-Twice BPs for IP_2"
+    },
+    {
+      "score": 0.671,
+      "paper_id": "2605.05322v1",
+      "paper_title": "Automorphic Structures of Heterotic Vacua",
+      "paper_category": "hep-th",
+      "matched_conjecture_eid": "8d6bdbe44c56",
+      "matched_conjecture_title": "KKL Influence-Spread of Edge-Product Threshold Lower-Bounds Tseitin Resolution"
+    }
+  ],
+  "stats": {
+    "n_cycles": 110,
+    "verdicts": {
+      "INCONCLUSIVE": 107,
+      "BARRIER_HIT": 3
+    },
+    "focus_distribution": {
+      "BP_READTWICE": 12,
+      "ACC_SIPSER": 4,
+      "TSEITIN_RES": 12,
+      "AC0_PARITY": 6,
+      "MONOTONE_CLIQUE": 9,
+      "GCT_DET_PERM": 16,
+      "COMM_DISJ": 9,
+      "SOS_DEGREE": 12
+    },
+    "top_fields_A": {
+      "Real Algebraic Geometry": 9,
+      "Schur-Weyl Duality": 6,
+      "Free Probability": 4,
+      "FOURIER_ANALYSIS": 4,
+      "Matroid Theory": 3
+    }
+  }
+}
