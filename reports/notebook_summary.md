@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-09 19:24 UTC"
+date: "2026-05-09 20:27 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-09 19:24 UTC
+Generated 2026-05-09 20:27 UTC
 
-- Cycles recorded: **496**
-- Time span: 381.7h (~1.30 cycles/h)
+- Cycles recorded: **501**
+- Time span: 382.8h (~1.31 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 461 |
+| INCONCLUSIVE | 466 |
 | BARRIER_HIT | 16 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -50,6 +50,7 @@ Generated 2026-05-09 19:24 UTC
 | FOURIER_ANALYSIS | 4 |
 | Plethysm Theory | 4 |
 | Fourier analysis of boolean functions | 3 |
+| Algebraic Topology | 3 |
 | matroid theory | 3 |
 | Coarse Geometric Lifting (CGL) — Geometric Complexity Theory | 3 |
 | {"framework_name": "Tropical Circuit Weight Analysis (TCWA)", "math_branch": "BOUNDED_ARITHMETIC"} | 3 |
@@ -59,7 +60,6 @@ Generated 2026-05-09 19:24 UTC
 | Noncommutative geometry | 2 |
 | Representation theory of symmetric groups | 2 |
 | Ergodic Circuit Framework (COMM_COMPLEXITY) | 2 |
-| Algebraic Topology | 2 |
 | Tropical geometry | 2 |
 | Schur-Weyl duality, plethysm, algebraic combinatorics | 2 |
 
@@ -67,11 +67,6 @@ Generated 2026-05-09 19:24 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-09 14:30 UTC | `INCONCLUSIVE` | Free Entropy Lower Bound on Disjointness Communication Complexity |
-| 2026-05-09 15:27 UTC | `INCONCLUSIVE` | Kronecker Coefficient Exponential Gap in Symmetric Powers of Perm |
-| 2026-05-09 16:11 UTC | `INCONCLUSIVE` | Noncommutative Fourier Norm Inverse Proportional to Disjointness  |
-| 2026-05-09 16:25 UTC | `INCONCLUSIVE` | Moment Matrix Sparsity Lower Bound for Max-CUT SOS Approximation |
-| 2026-05-09 16:43 UTC | `INCONCLUSIVE` | Hypergraph Treewidth Inverse Proportional to DPLL Tree Size for R |
 | 2026-05-09 16:48 UTC | `INCONCLUSIVE` | Smallest Singular Value Inverse Proportional to SOS Degree for Ma |
 | 2026-05-09 17:08 UTC | `INCONCLUSIVE` | Schur-Weyl Tensor Rank Bounds SOS Degree for Random 3-SAT |
 | 2026-05-09 17:17 UTC | `INCONCLUSIVE` | Geometric Arrangement Discrepancy Inverse Proportional to Disjoin |
@@ -82,6 +77,11 @@ Generated 2026-05-09 19:24 UTC
 | 2026-05-09 18:32 UTC | `INCONCLUSIVE` | Genus Inverse Proportionality to Disjointness Communication Compl |
 | 2026-05-09 18:58 UTC | `INCONCLUSIVE` | Free Entropy Lower Bound on Disjointness Communication Complexity |
 | 2026-05-09 19:24 UTC | `INCONCLUSIVE` | Symmetric Group Irreducible Component Exponential Gap in Permanen |
+| 2026-05-09 19:47 UTC | `INCONCLUSIVE` | Quadratic Form Rank Inverse Proportional to SOS Refutation Degree |
+| 2026-05-09 19:56 UTC | `INCONCLUSIVE` | Algebraic Circuit Complexity via Monodromy Action on Tseitin Form |
+| 2026-05-09 20:05 UTC | `INCONCLUSIVE` | Newton Polytope Vertex Count Inverse Proportional to SOS Degree f |
+| 2026-05-09 20:11 UTC | `INCONCLUSIVE` | Real Stable Polynomial Degree Lower Bound for Max-CUT SOS |
+| 2026-05-09 20:27 UTC | `INCONCLUSIVE` | Young Tableau Count Inverse Proportional to Monotone Circuit Size |
 
 ## How to read the reports
 
