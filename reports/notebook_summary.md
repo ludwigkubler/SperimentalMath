@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-09 09:46 UTC"
+date: "2026-05-09 10:43 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-09 09:46 UTC
+Generated 2026-05-09 10:43 UTC
 
-- Cycles recorded: **469**
-- Time span: 372.1h (~1.26 cycles/h)
+- Cycles recorded: **472**
+- Time span: 373.1h (~1.27 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 434 |
+| INCONCLUSIVE | 437 |
 | BARRIER_HIT | 16 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -41,11 +41,11 @@ Generated 2026-05-09 09:46 UTC
 | Random Matrix Theory | 5 |
 | Finite Geometry | 5 |
 | Spectral Graph Theory | 5 |
+| Polymatroid Theory | 5 |
+| Representation Theory of Symmetric Groups | 5 |
 | Ergodic Circuit Framework (communication complexity via dynamical systems) | 4 |
 | {"framework_name": "Ergodic Circuit Framework", "math_branch": "COMM_COMPLEXITY"} | 4 |
-| Polymatroid Theory | 4 |
 | Algebraic Geometry of Secant Varieties | 4 |
-| Representation Theory of Symmetric Groups | 4 |
 | FOURIER_ANALYSIS | 4 |
 | Plethysm Theory | 4 |
 | Fourier analysis of boolean functions | 3 |
@@ -67,9 +67,6 @@ Generated 2026-05-09 09:46 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-09 04:05 UTC | `INCONCLUSIVE` | Real Radical Rank Bounds SOS Degree for Max-CUT |
-| 2026-05-09 04:26 UTC | `INCONCLUSIVE` | Discriminant Exponentiation Bounds SOS Refutation Degree for Rand |
-| 2026-05-09 04:34 UTC | `INCONCLUSIVE` | Spectral Gap Exponential Lower Bound on Tseitin Resolution Length |
 | 2026-05-09 04:46 UTC | `INCONCLUSIVE` | Dehn Function Exponentiation Bounds Resolution Length for Tseitin |
 | 2026-05-09 05:35 UTC | `INCONCLUSIVE` | Symmetric Power Rank Gap in Permanent vs Determinant Polynomials |
 | 2026-05-09 05:41 UTC | `INCONCLUSIVE` | Real Radical Dimension Inverse Proportionality to SOS Degree for  |
@@ -82,6 +79,9 @@ Generated 2026-05-09 09:46 UTC
 | 2026-05-09 08:50 UTC | `INCONCLUSIVE` | Fourier Min-Coefficient Inverse Proportionality to CNF Size |
 | 2026-05-09 09:25 UTC | `INCONCLUSIVE` | Kronecker Coefficient Exponential Gap in Symmetric Powers of Perm |
 | 2026-05-09 09:46 UTC | `INCONCLUSIVE` | Algebraic Connectivity Exponentiates DPLL Tree Size for Tseitin F |
+| 2026-05-09 09:58 UTC | `INCONCLUSIVE` | Submodular Width of Polymatroid Rank Function and Monotone Circui |
+| 2026-05-09 10:06 UTC | `INCONCLUSIVE` | Symmetric Group Fourier Coefficient Sum Distinguishes Read-Twice  |
+| 2026-05-09 10:43 UTC | `INCONCLUSIVE` | Fourier Coefficient Sum Inverse Proportionality to DPLL Tree Size |
 
 ## How to read the reports
 

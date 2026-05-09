@@ -1,13 +1,13 @@
 {
-  "last_update_utc": "2026-05-09T09:47:01Z",
-  "total_cycles": 469,
+  "last_update_utc": "2026-05-09T10:47:02Z",
+  "total_cycles": 472,
   "verdict_counts": {
-    "INCONCLUSIVE": 434,
+    "INCONCLUSIVE": 437,
     "SUPPORTED": 4,
     "FALSIFIED": 15,
     "BARRIER_HIT": 16
   },
-  "unique_field_A": 343,
+  "unique_field_A": 344,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
@@ -46,6 +46,14 @@
       5
     ],
     [
+      "Polymatroid Theory",
+      5
+    ],
+    [
+      "Representation Theory of Symmetric Groups",
+      5
+    ],
+    [
       "Ergodic Circuit Framework (communication complexity via dynamical systems)",
       4
     ],
@@ -54,15 +62,7 @@
       4
     ],
     [
-      "Polymatroid Theory",
-      4
-    ],
-    [
       "Algebraic Geometry of Secant Varieties",
-      4
-    ],
-    [
-      "Representation Theory of Symmetric Groups",
       4
     ],
     [
