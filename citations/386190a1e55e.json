@@ -1,0 +1,40 @@
+{
+  "entry_id": "386190a1e55e",
+  "ts": 1778362258.1173353,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1807.04318",
+      "title": "On the Discrepancy of Random Matrices with Many Columns",
+      "abstract_excerpt": "Motivated by the Komlós conjecture in combinatorial discrepancy, we study the discrepancy of random matrices with $m$ rows and $n$ independent columns drawn from a bounded lattice random variable. It is known that for $n$ tending to infinity and $m$ fixed, with high probability the $\\ell_\\infty$-discrepancy is at most twice the $\\ell_\\infty$-covering radius of the integer span of the support of the random variable. However, the easy argument for the above fact gives no concrete bounds on the fai",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns combinatorial discrepancy of random matrices via Fourier analysis and local limit theorems (e.g., 'study the discrepancy of random matrices' and 'Komlós conjecture'), with no mention of Schur-Weyl decomposition, permanent vs determinant, or irreducible component counts.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1503.04226",
+      "title": "Symmetric Hadamard matrices of order 116 and 172 exist",
+      "abstract_excerpt": "We construct new symmetric Hadamard matrices of orders $92,116$, and $172$. While the existence of those of order $92$ was known since 1978, the orders $116$ and $172$ are new. Our construction is based on a recent new combinatorial array discovered by N. A. Balonin and J. Seberry. For order $116$ we used an adaptation of an algorithm for parallel collision search. The adaptation pertains to the modification of some aspects of the algorithm to make it suitable to solve a 3-way matching problem. ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns construction of symmetric Hadamard matrices of specific orders (92, 116, 172), which shares no interaction with claims about Schur-Weyl decomposition components of permanent vs determinant tensor powers.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2403.03513",
+      "title": "Spectrum of random centrosymmetric matrices; CLT and Circular law",
+      "abstract_excerpt": "We analyze the asymptotic fluctuations of linear eigenvalue statistics of random centrosymmetric matrices with i.i.d. entries. We prove that for a complex analytic test function, the centered and normalized linear eigenvalue statistics of random centrosymmetric matrices converge to a normal distribution. We find the exact expression of the variance of the limiting normal distribution via combinatorial arguments. Moreover, we also argue that the limiting spectral distribution of properly scaled c",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns asymptotic eigenvalue statistics (CLT, circular law) of random centrosymmetric matrices, with no mention of Schur-Weyl decomposition, permanents, or determinants. It shares only the broad 'random matrices' framework but does not address the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
