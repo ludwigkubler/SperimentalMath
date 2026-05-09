@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-09 10:43 UTC"
+date: "2026-05-09 11:32 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-09 10:43 UTC
+Generated 2026-05-09 11:32 UTC
 
-- Cycles recorded: **472**
-- Time span: 373.1h (~1.27 cycles/h)
+- Cycles recorded: **474**
+- Time span: 373.9h (~1.27 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 437 |
+| INCONCLUSIVE | 439 |
 | BARRIER_HIT | 16 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -32,10 +32,10 @@ Generated 2026-05-09 10:43 UTC
 
 | Field | Cycles |
 |---|---|
-| Real Algebraic Geometry | 22 |
+| Real Algebraic Geometry | 23 |
 | Free Probability | 10 |
 | Schur-Weyl Duality | 10 |
-| Matroid Theory | 7 |
+| Matroid Theory | 8 |
 | Algebraic Geometry | 6 |
 | Additive Combinatorics | 6 |
 | Random Matrix Theory | 5 |
@@ -67,8 +67,6 @@ Generated 2026-05-09 10:43 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-09 04:46 UTC | `INCONCLUSIVE` | Dehn Function Exponentiation Bounds Resolution Length for Tseitin |
-| 2026-05-09 05:35 UTC | `INCONCLUSIVE` | Symmetric Power Rank Gap in Permanent vs Determinant Polynomials |
 | 2026-05-09 05:41 UTC | `INCONCLUSIVE` | Real Radical Dimension Inverse Proportionality to SOS Degree for  |
 | 2026-05-09 06:02 UTC | `INCONCLUSIVE` | Free Entropy Lower Bound on Disjointness Communication Complexity |
 | 2026-05-09 06:15 UTC | `INCONCLUSIVE` | Fourier Coefficient Decay and Resolution Proof Length for k-CNF F |
@@ -82,6 +80,8 @@ Generated 2026-05-09 10:43 UTC
 | 2026-05-09 09:58 UTC | `INCONCLUSIVE` | Submodular Width of Polymatroid Rank Function and Monotone Circui |
 | 2026-05-09 10:06 UTC | `INCONCLUSIVE` | Symmetric Group Fourier Coefficient Sum Distinguishes Read-Twice  |
 | 2026-05-09 10:43 UTC | `INCONCLUSIVE` | Fourier Coefficient Sum Inverse Proportionality to DPLL Tree Size |
+| 2026-05-09 11:18 UTC | `INCONCLUSIVE` | Positive Eigenvalue Count Inverse Proportional to SOS Refutation  |
+| 2026-05-09 11:32 UTC | `INCONCLUSIVE` | Matroid Rank Gap in Monotone DNF for k-CLIQUE |
 
 ## How to read the reports
 
