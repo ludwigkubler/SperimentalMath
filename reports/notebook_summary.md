@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-09 15:30 UTC"
+date: "2026-05-09 16:43 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-09 15:30 UTC
+Generated 2026-05-09 16:43 UTC
 
-- Cycles recorded: **483**
-- Time span: 377.8h (~1.28 cycles/h)
+- Cycles recorded: **486**
+- Time span: 379.0h (~1.28 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 448 |
+| INCONCLUSIVE | 451 |
 | BARRIER_HIT | 16 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -32,7 +32,7 @@ Generated 2026-05-09 15:30 UTC
 
 | Field | Cycles |
 |---|---|
-| Real Algebraic Geometry | 24 |
+| Real Algebraic Geometry | 25 |
 | Free Probability | 11 |
 | Schur-Weyl Duality | 10 |
 | Matroid Theory | 9 |
@@ -67,9 +67,6 @@ Generated 2026-05-09 15:30 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-09 09:46 UTC | `INCONCLUSIVE` | Algebraic Connectivity Exponentiates DPLL Tree Size for Tseitin F |
-| 2026-05-09 09:58 UTC | `INCONCLUSIVE` | Submodular Width of Polymatroid Rank Function and Monotone Circui |
-| 2026-05-09 10:06 UTC | `INCONCLUSIVE` | Symmetric Group Fourier Coefficient Sum Distinguishes Read-Twice  |
 | 2026-05-09 10:43 UTC | `INCONCLUSIVE` | Fourier Coefficient Sum Inverse Proportionality to DPLL Tree Size |
 | 2026-05-09 11:18 UTC | `INCONCLUSIVE` | Positive Eigenvalue Count Inverse Proportional to SOS Refutation  |
 | 2026-05-09 11:32 UTC | `INCONCLUSIVE` | Matroid Rank Gap in Monotone DNF for k-CLIQUE |
@@ -82,6 +79,9 @@ Generated 2026-05-09 15:30 UTC
 | 2026-05-09 13:46 UTC | `INCONCLUSIVE` | Convex Body Volume Lower Bounds Disjointness Communication Comple |
 | 2026-05-09 14:30 UTC | `INCONCLUSIVE` | Free Entropy Lower Bound on Disjointness Communication Complexity |
 | 2026-05-09 15:27 UTC | `INCONCLUSIVE` | Kronecker Coefficient Exponential Gap in Symmetric Powers of Perm |
+| 2026-05-09 16:11 UTC | `INCONCLUSIVE` | Noncommutative Fourier Norm Inverse Proportional to Disjointness  |
+| 2026-05-09 16:25 UTC | `INCONCLUSIVE` | Moment Matrix Sparsity Lower Bound for Max-CUT SOS Approximation |
+| 2026-05-09 16:43 UTC | `INCONCLUSIVE` | Hypergraph Treewidth Inverse Proportional to DPLL Tree Size for R |
 
 ## How to read the reports
 
