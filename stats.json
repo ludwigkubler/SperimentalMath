@@ -1,13 +1,13 @@
 {
-  "last_update_utc": "2026-05-09T16:47:02Z",
-  "total_cycles": 486,
+  "last_update_utc": "2026-05-09T17:47:01Z",
+  "total_cycles": 490,
   "verdict_counts": {
-    "INCONCLUSIVE": 451,
+    "INCONCLUSIVE": 455,
     "SUPPORTED": 4,
     "FALSIFIED": 15,
     "BARRIER_HIT": 16
   },
-  "unique_field_A": 348,
+  "unique_field_A": 349,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
@@ -19,7 +19,7 @@
     ],
     [
       "Schur-Weyl Duality",
-      10
+      11
     ],
     [
       "Matroid Theory",
@@ -30,16 +30,16 @@
       7
     ],
     [
+      "Random Matrix Theory",
+      6
+    ],
+    [
       "Additive Combinatorics",
       6
     ],
     [
       "Polymatroid Theory",
       6
-    ],
-    [
-      "Random Matrix Theory",
-      5
     ],
     [
       "Finite Geometry",
@@ -62,11 +62,11 @@
       4
     ],
     [
-      "Algebraic Geometry of Secant Varieties",
+      "Fourier Analysis on Boolean Functions",
       4
     ],
     [
-      "FOURIER_ANALYSIS",
+      "Algebraic Geometry of Secant Varieties",
       4
     ]
   ]
