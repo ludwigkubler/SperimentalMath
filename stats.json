@@ -1,8 +1,8 @@
 {
-  "last_update_utc": "2026-05-09T08:47:43Z",
-  "total_cycles": 466,
+  "last_update_utc": "2026-05-09T09:47:01Z",
+  "total_cycles": 469,
   "verdict_counts": {
-    "INCONCLUSIVE": 431,
+    "INCONCLUSIVE": 434,
     "SUPPORTED": 4,
     "FALSIFIED": 15,
     "BARRIER_HIT": 16
@@ -19,7 +19,7 @@
     ],
     [
       "Schur-Weyl Duality",
-      9
+      10
     ],
     [
       "Matroid Theory",
@@ -42,15 +42,15 @@
       5
     ],
     [
+      "Spectral Graph Theory",
+      5
+    ],
+    [
       "Ergodic Circuit Framework (communication complexity via dynamical systems)",
       4
     ],
     [
       "{'framework_name': 'Ergodic Circuit Framework', 'math_branch': 'COMM_COMPLEXITY'}",
-      4
-    ],
-    [
-      "Spectral Graph Theory",
       4
     ],
     [

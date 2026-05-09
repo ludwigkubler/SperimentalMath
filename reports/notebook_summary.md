@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-09 08:36 UTC"
+date: "2026-05-09 09:46 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-09 08:36 UTC
+Generated 2026-05-09 09:46 UTC
 
-- Cycles recorded: **466**
-- Time span: 370.9h (~1.26 cycles/h)
+- Cycles recorded: **469**
+- Time span: 372.1h (~1.26 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 431 |
+| INCONCLUSIVE | 434 |
 | BARRIER_HIT | 16 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -34,15 +34,15 @@ Generated 2026-05-09 08:36 UTC
 |---|---|
 | Real Algebraic Geometry | 22 |
 | Free Probability | 10 |
-| Schur-Weyl Duality | 9 |
+| Schur-Weyl Duality | 10 |
 | Matroid Theory | 7 |
 | Algebraic Geometry | 6 |
 | Additive Combinatorics | 6 |
 | Random Matrix Theory | 5 |
 | Finite Geometry | 5 |
+| Spectral Graph Theory | 5 |
 | Ergodic Circuit Framework (communication complexity via dynamical systems) | 4 |
 | {"framework_name": "Ergodic Circuit Framework", "math_branch": "COMM_COMPLEXITY"} | 4 |
-| Spectral Graph Theory | 4 |
 | Polymatroid Theory | 4 |
 | Algebraic Geometry of Secant Varieties | 4 |
 | Representation Theory of Symmetric Groups | 4 |
@@ -53,6 +53,7 @@ Generated 2026-05-09 08:36 UTC
 | Coarse Geometric Lifting (CGL) — Geometric Complexity Theory | 3 |
 | {"framework_name": "Tropical Circuit Weight Analysis (TCWA)", "math_branch": "BOUNDED_ARITHMETIC"} | 3 |
 | Tropical Circuit Weight Analysis (BOUNDED_ARITHMETIC) | 3 |
+| Fourier Analysis on Boolean Functions | 3 |
 | Schur-Weyl duality | 3 |
 | Persistent Homology | 3 |
 | Noncommutative geometry | 2 |
@@ -61,15 +62,11 @@ Generated 2026-05-09 08:36 UTC
 | Algebraic Topology | 2 |
 | Tropical geometry | 2 |
 | Schur-Weyl duality, plethysm, algebraic combinatorics | 2 |
-| Free Probability Theory | 2 |
 
 ## Last 15 cycles (chronological)
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-09 03:18 UTC | `INCONCLUSIVE` | Schur-Weyl Multiplicity Exponential Gap in Symmetric Powers of Pe |
-| 2026-05-09 03:44 UTC | `INCONCLUSIVE` | SOS Refutation Degree and Convex Body Volume for Random 3-SAT |
-| 2026-05-09 03:53 UTC | `INCONCLUSIVE` | Random Matrix Eigenvalue Deficit and SOS Degree for Max-CUT |
 | 2026-05-09 04:05 UTC | `INCONCLUSIVE` | Real Radical Rank Bounds SOS Degree for Max-CUT |
 | 2026-05-09 04:26 UTC | `INCONCLUSIVE` | Discriminant Exponentiation Bounds SOS Refutation Degree for Rand |
 | 2026-05-09 04:34 UTC | `INCONCLUSIVE` | Spectral Gap Exponential Lower Bound on Tseitin Resolution Length |
@@ -82,6 +79,9 @@ Generated 2026-05-09 08:36 UTC
 | 2026-05-09 06:33 UTC | `INCONCLUSIVE` | Moment Matrix Rank Inverse Proportional to SOS Degree for Max-CUT |
 | 2026-05-09 08:02 UTC | `INCONCLUSIVE` | Free Entropy Gap in Read-Twice Branching Programs for IP_2 |
 | 2026-05-09 08:36 UTC | `INCONCLUSIVE` | Plethysm Coefficient Gap in Symmetric Squares of Permutation Repr |
+| 2026-05-09 08:50 UTC | `INCONCLUSIVE` | Fourier Min-Coefficient Inverse Proportionality to CNF Size |
+| 2026-05-09 09:25 UTC | `INCONCLUSIVE` | Kronecker Coefficient Exponential Gap in Symmetric Powers of Perm |
+| 2026-05-09 09:46 UTC | `INCONCLUSIVE` | Algebraic Connectivity Exponentiates DPLL Tree Size for Tseitin F |
 
 ## How to read the reports
 
