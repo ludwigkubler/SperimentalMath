@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-09 01:41 UTC"
+date: "2026-05-09 02:30 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-09 01:41 UTC
+Generated 2026-05-09 02:30 UTC
 
-- Cycles recorded: **448**
-- Time span: 364.0h (~1.23 cycles/h)
+- Cycles recorded: **449**
+- Time span: 364.8h (~1.23 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 413 |
+| INCONCLUSIVE | 414 |
 | BARRIER_HIT | 16 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -67,7 +67,6 @@ Generated 2026-05-09 01:41 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-08 22:01 UTC | `INCONCLUSIVE` | Plethysm Coefficient Exponential Gap in Symmetric Squares of Perm |
 | 2026-05-08 22:16 UTC | `INCONCLUSIVE` | Symmetric Group Multiplicity Sum Lower Bound for Disjointness Com |
 | 2026-05-08 22:24 UTC | `INCONCLUSIVE` | Polymatroid Rank Deficit in Monotone DNF for k-CLIQUE |
 | 2026-05-08 22:53 UTC | `INCONCLUSIVE` | Symmetric Power Rank Gap in CNF Incidence Matrices |
@@ -82,6 +81,7 @@ Generated 2026-05-09 01:41 UTC
 | 2026-05-09 00:57 UTC | `INCONCLUSIVE` | Young Tableaux Count Lower Bound on Disjointness Communication Co |
 | 2026-05-09 01:10 UTC | `INCONCLUSIVE` | Symmetric Polynomial Monomial Count and Resolution Proof Size for |
 | 2026-05-09 01:41 UTC | `INCONCLUSIVE` | Valuation Rank of Polynomial Coefficients Bounds ACC^0 Circuit Si |
+| 2026-05-09 02:24 UTC | `INCONCLUSIVE` | Plethysm Coefficient Inverse Proportionality to SOS Refutation Si |
 
 ## How to read the reports
 
