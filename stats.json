@@ -1,8 +1,8 @@
 {
-  "last_update_utc": "2026-05-09T22:47:01Z",
-  "total_cycles": 508,
+  "last_update_utc": "2026-05-09T23:47:02Z",
+  "total_cycles": 510,
   "verdict_counts": {
-    "INCONCLUSIVE": 473,
+    "INCONCLUSIVE": 475,
     "SUPPORTED": 4,
     "FALSIFIED": 15,
     "BARRIER_HIT": 16
@@ -19,7 +19,7 @@
     ],
     [
       "Schur-Weyl Duality",
-      11
+      12
     ],
     [
       "Matroid Theory",
@@ -54,6 +54,10 @@
       5
     ],
     [
+      "Plethysm Theory",
+      5
+    ],
+    [
       "Ergodic Circuit Framework (communication complexity via dynamical systems)",
       4
     ],
@@ -63,10 +67,6 @@
     ],
     [
       "Fourier Analysis on Boolean Functions",
-      4
-    ],
-    [
-      "Algebraic Geometry of Secant Varieties",
       4
     ]
   ]

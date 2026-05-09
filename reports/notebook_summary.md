@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-09 22:30 UTC"
+date: "2026-05-09 23:33 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-09 22:30 UTC
+Generated 2026-05-09 23:33 UTC
 
-- Cycles recorded: **508**
-- Time span: 384.8h (~1.32 cycles/h)
+- Cycles recorded: **510**
+- Time span: 385.9h (~1.32 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 473 |
+| INCONCLUSIVE | 475 |
 | BARRIER_HIT | 16 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -34,7 +34,7 @@ Generated 2026-05-09 22:30 UTC
 |---|---|
 | Real Algebraic Geometry | 25 |
 | Free Probability | 12 |
-| Schur-Weyl Duality | 11 |
+| Schur-Weyl Duality | 12 |
 | Matroid Theory | 9 |
 | Representation Theory of Symmetric Groups | 9 |
 | Algebraic Geometry | 7 |
@@ -43,12 +43,12 @@ Generated 2026-05-09 22:30 UTC
 | Spectral Graph Theory | 6 |
 | Polymatroid Theory | 6 |
 | Finite Geometry | 5 |
+| Plethysm Theory | 5 |
 | Ergodic Circuit Framework (communication complexity via dynamical systems) | 4 |
 | {"framework_name": "Ergodic Circuit Framework", "math_branch": "COMM_COMPLEXITY"} | 4 |
 | Fourier Analysis on Boolean Functions | 4 |
 | Algebraic Geometry of Secant Varieties | 4 |
 | FOURIER_ANALYSIS | 4 |
-| Plethysm Theory | 4 |
 | Fourier analysis of boolean functions | 3 |
 | Algebraic Topology | 3 |
 | matroid theory | 3 |
@@ -67,8 +67,6 @@ Generated 2026-05-09 22:30 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-09 18:32 UTC | `INCONCLUSIVE` | Genus Inverse Proportionality to Disjointness Communication Compl |
-| 2026-05-09 18:58 UTC | `INCONCLUSIVE` | Free Entropy Lower Bound on Disjointness Communication Complexity |
 | 2026-05-09 19:24 UTC | `INCONCLUSIVE` | Symmetric Group Irreducible Component Exponential Gap in Permanen |
 | 2026-05-09 19:47 UTC | `INCONCLUSIVE` | Quadratic Form Rank Inverse Proportional to SOS Refutation Degree |
 | 2026-05-09 19:56 UTC | `INCONCLUSIVE` | Algebraic Circuit Complexity via Monodromy Action on Tseitin Form |
@@ -82,6 +80,8 @@ Generated 2026-05-09 22:30 UTC
 | 2026-05-09 22:03 UTC | `INCONCLUSIVE` | p-adic Valuation of Solution Count Modulo p Inversely Proportiona |
 | 2026-05-09 22:15 UTC | `INCONCLUSIVE` | Slice Rank Lower Bound for Disjointness Communication Matrices |
 | 2026-05-09 22:28 UTC | `INCONCLUSIVE` | Symmetric Tensor Rank Gap in Permanent vs Determinant Decompositi |
+| 2026-05-09 22:50 UTC | `INCONCLUSIVE` | Standard Young Tableau Count Exponential Gap in Symmetric Power D |
+| 2026-05-09 23:33 UTC | `INCONCLUSIVE` | Plethysm Multiplicity Exponential Gap in Monotone Permanent vs De |
 
 ## How to read the reports
 
