@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-09 11:32 UTC"
+date: "2026-05-09 12:44 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-09 11:32 UTC
+Generated 2026-05-09 12:44 UTC
 
-- Cycles recorded: **474**
-- Time span: 373.9h (~1.27 cycles/h)
+- Cycles recorded: **477**
+- Time span: 375.1h (~1.27 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 439 |
+| INCONCLUSIVE | 442 |
 | BARRIER_HIT | 16 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -32,11 +32,11 @@ Generated 2026-05-09 11:32 UTC
 
 | Field | Cycles |
 |---|---|
-| Real Algebraic Geometry | 23 |
+| Real Algebraic Geometry | 24 |
 | Free Probability | 10 |
 | Schur-Weyl Duality | 10 |
 | Matroid Theory | 8 |
-| Algebraic Geometry | 6 |
+| Algebraic Geometry | 7 |
 | Additive Combinatorics | 6 |
 | Random Matrix Theory | 5 |
 | Finite Geometry | 5 |
@@ -67,9 +67,6 @@ Generated 2026-05-09 11:32 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-09 05:41 UTC | `INCONCLUSIVE` | Real Radical Dimension Inverse Proportionality to SOS Degree for  |
-| 2026-05-09 06:02 UTC | `INCONCLUSIVE` | Free Entropy Lower Bound on Disjointness Communication Complexity |
-| 2026-05-09 06:15 UTC | `INCONCLUSIVE` | Fourier Coefficient Decay and Resolution Proof Length for k-CNF F |
 | 2026-05-09 06:21 UTC | `INCONCLUSIVE` | Hilbert Function Leading Coefficient Distinguishes Read-Twice fro |
 | 2026-05-09 06:33 UTC | `INCONCLUSIVE` | Moment Matrix Rank Inverse Proportional to SOS Degree for Max-CUT |
 | 2026-05-09 08:02 UTC | `INCONCLUSIVE` | Free Entropy Gap in Read-Twice Branching Programs for IP_2 |
@@ -82,6 +79,9 @@ Generated 2026-05-09 11:32 UTC
 | 2026-05-09 10:43 UTC | `INCONCLUSIVE` | Fourier Coefficient Sum Inverse Proportionality to DPLL Tree Size |
 | 2026-05-09 11:18 UTC | `INCONCLUSIVE` | Positive Eigenvalue Count Inverse Proportional to SOS Refutation  |
 | 2026-05-09 11:32 UTC | `INCONCLUSIVE` | Matroid Rank Gap in Monotone DNF for k-CLIQUE |
+| 2026-05-09 11:59 UTC | `INCONCLUSIVE` | Hilbert Leading Coefficient Inverse Proportional to ABP Size |
+| 2026-05-09 12:07 UTC | `INCONCLUSIVE` | Resultant Degree Exponential Lower Bound for ACC^0 Circuit Size |
+| 2026-05-09 12:44 UTC | `INCONCLUSIVE` | Semialgebraic Dimension Inverse Proportional to SOS Degree for Ma |
 
 ## How to read the reports
 
