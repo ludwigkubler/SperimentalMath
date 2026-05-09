@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-09 07:30 UTC"
+date: "2026-05-09 08:36 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-09 07:30 UTC
+Generated 2026-05-09 08:36 UTC
 
-- Cycles recorded: **464**
-- Time span: 369.8h (~1.25 cycles/h)
+- Cycles recorded: **466**
+- Time span: 370.9h (~1.26 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 429 |
+| INCONCLUSIVE | 431 |
 | BARRIER_HIT | 16 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -33,7 +33,7 @@ Generated 2026-05-09 07:30 UTC
 | Field | Cycles |
 |---|---|
 | Real Algebraic Geometry | 22 |
-| Free Probability | 9 |
+| Free Probability | 10 |
 | Schur-Weyl Duality | 9 |
 | Matroid Theory | 7 |
 | Algebraic Geometry | 6 |
@@ -47,6 +47,7 @@ Generated 2026-05-09 07:30 UTC
 | Algebraic Geometry of Secant Varieties | 4 |
 | Representation Theory of Symmetric Groups | 4 |
 | FOURIER_ANALYSIS | 4 |
+| Plethysm Theory | 4 |
 | Fourier analysis of boolean functions | 3 |
 | matroid theory | 3 |
 | Coarse Geometric Lifting (CGL) — Geometric Complexity Theory | 3 |
@@ -54,7 +55,6 @@ Generated 2026-05-09 07:30 UTC
 | Tropical Circuit Weight Analysis (BOUNDED_ARITHMETIC) | 3 |
 | Schur-Weyl duality | 3 |
 | Persistent Homology | 3 |
-| Plethysm Theory | 3 |
 | Noncommutative geometry | 2 |
 | Representation theory of symmetric groups | 2 |
 | Ergodic Circuit Framework (COMM_COMPLEXITY) | 2 |
@@ -67,8 +67,6 @@ Generated 2026-05-09 07:30 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-09 02:52 UTC | `INCONCLUSIVE` | Young Tableaux Ratio Exponential Lower Bound on Permanent Circuit |
-| 2026-05-09 03:07 UTC | `INCONCLUSIVE` | Plethysm Coefficient Exponential Gap in Symmetric Squares of Perm |
 | 2026-05-09 03:18 UTC | `INCONCLUSIVE` | Schur-Weyl Multiplicity Exponential Gap in Symmetric Powers of Pe |
 | 2026-05-09 03:44 UTC | `INCONCLUSIVE` | SOS Refutation Degree and Convex Body Volume for Random 3-SAT |
 | 2026-05-09 03:53 UTC | `INCONCLUSIVE` | Random Matrix Eigenvalue Deficit and SOS Degree for Max-CUT |
@@ -82,6 +80,8 @@ Generated 2026-05-09 07:30 UTC
 | 2026-05-09 06:15 UTC | `INCONCLUSIVE` | Fourier Coefficient Decay and Resolution Proof Length for k-CNF F |
 | 2026-05-09 06:21 UTC | `INCONCLUSIVE` | Hilbert Function Leading Coefficient Distinguishes Read-Twice fro |
 | 2026-05-09 06:33 UTC | `INCONCLUSIVE` | Moment Matrix Rank Inverse Proportional to SOS Degree for Max-CUT |
+| 2026-05-09 08:02 UTC | `INCONCLUSIVE` | Free Entropy Gap in Read-Twice Branching Programs for IP_2 |
+| 2026-05-09 08:36 UTC | `INCONCLUSIVE` | Plethysm Coefficient Gap in Symmetric Squares of Permutation Repr |
 
 ## How to read the reports
 
