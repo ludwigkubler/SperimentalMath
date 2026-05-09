@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-08 23:45 UTC"
+date: "2026-05-09 00:45 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-08 23:45 UTC
+Generated 2026-05-09 00:45 UTC
 
-- Cycles recorded: **439**
-- Time span: 362.1h (~1.21 cycles/h)
+- Cycles recorded: **444**
+- Time span: 363.1h (~1.22 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 404 |
+| INCONCLUSIVE | 409 |
 | BARRIER_HIT | 16 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -67,11 +67,6 @@ Generated 2026-05-08 23:45 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-08 20:09 UTC | `INCONCLUSIVE` | Additive Energy Threshold Exceeds ACC⁰ Circuit Size |
-| 2026-05-08 20:19 UTC | `INCONCLUSIVE` | Zarankiewicz-Free Communication Matrices Imply Monotone Circuit L |
-| 2026-05-08 20:40 UTC | `INCONCLUSIVE` | Kronecker Coefficient Growth Separates Permanent vs Determinant |
-| 2026-05-08 20:58 UTC | `INCONCLUSIVE` | Real Radical Dimension and SOS Degree for Max-CUT |
-| 2026-05-08 21:07 UTC | `INCONCLUSIVE` | Permutation Polynomial Width Conjecture |
 | 2026-05-08 21:14 UTC | `INCONCLUSIVE` | Plethysm Coefficient Gap in Symmetric Powers of Permanent vs Dete |
 | 2026-05-08 21:20 UTC | `INCONCLUSIVE` | Cluster Algebra Mutation Distance Bounds ACC^0 Circuit Size |
 | 2026-05-08 21:37 UTC | `INCONCLUSIVE` | Moment Matrix Eigenvalue Decay and SOS Degree for Max-CUT |
@@ -82,6 +77,11 @@ Generated 2026-05-08 23:45 UTC
 | 2026-05-08 22:53 UTC | `INCONCLUSIVE` | Symmetric Power Rank Gap in CNF Incidence Matrices |
 | 2026-05-08 23:16 UTC | `INCONCLUSIVE` | Real Dimension Gap in Communication Matrices for AC⁰ PARITY |
 | 2026-05-08 23:44 UTC | `INCONCLUSIVE` | Noncommutative Fourier Spectrum Gap in Read-Twice BP for IP_2 |
+| 2026-05-08 23:56 UTC | `INCONCLUSIVE` | Hyperbolicity Lower Bound on Tseitin Resolution Length |
+| 2026-05-09 00:12 UTC | `INCONCLUSIVE` | Submodular Width Separates Monotone DNF from k-CLIQUE |
+| 2026-05-09 00:21 UTC | `INCONCLUSIVE` | Noncommutative Fourier Coefficient Norm Separates Read-Twice from |
+| 2026-05-09 00:31 UTC | `INCONCLUSIVE` | Symmetric Group Fourier Min-Coefficient Lower Bound on Disjointne |
+| 2026-05-09 00:45 UTC | `INCONCLUSIVE` | Plethysm Coefficient Inverse Proportionality to Circuit Size |
 
 ## How to read the reports
 
