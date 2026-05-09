@@ -1,8 +1,8 @@
 {
-  "last_update_utc": "2026-05-09T05:47:01Z",
-  "total_cycles": 460,
+  "last_update_utc": "2026-05-09T06:47:02Z",
+  "total_cycles": 464,
   "verdict_counts": {
-    "INCONCLUSIVE": 425,
+    "INCONCLUSIVE": 429,
     "SUPPORTED": 4,
     "FALSIFIED": 15,
     "BARRIER_HIT": 16
@@ -11,27 +11,27 @@
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
-      21
+      22
+    ],
+    [
+      "Free Probability",
+      9
     ],
     [
       "Schur-Weyl Duality",
       9
     ],
     [
-      "Free Probability",
-      8
-    ],
-    [
       "Matroid Theory",
       7
     ],
     [
-      "Additive Combinatorics",
+      "Algebraic Geometry",
       6
     ],
     [
-      "Algebraic Geometry",
-      5
+      "Additive Combinatorics",
+      6
     ],
     [
       "Random Matrix Theory",

@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-09 05:41 UTC"
+date: "2026-05-09 06:33 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-09 05:41 UTC
+Generated 2026-05-09 06:33 UTC
 
-- Cycles recorded: **460**
-- Time span: 368.0h (~1.25 cycles/h)
+- Cycles recorded: **464**
+- Time span: 368.9h (~1.26 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 425 |
+| INCONCLUSIVE | 429 |
 | BARRIER_HIT | 16 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -32,12 +32,12 @@ Generated 2026-05-09 05:41 UTC
 
 | Field | Cycles |
 |---|---|
-| Real Algebraic Geometry | 21 |
+| Real Algebraic Geometry | 22 |
+| Free Probability | 9 |
 | Schur-Weyl Duality | 9 |
-| Free Probability | 8 |
 | Matroid Theory | 7 |
+| Algebraic Geometry | 6 |
 | Additive Combinatorics | 6 |
-| Algebraic Geometry | 5 |
 | Random Matrix Theory | 5 |
 | Finite Geometry | 5 |
 | Ergodic Circuit Framework (communication complexity via dynamical systems) | 4 |
@@ -67,10 +67,6 @@ Generated 2026-05-09 05:41 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-09 00:57 UTC | `INCONCLUSIVE` | Young Tableaux Count Lower Bound on Disjointness Communication Co |
-| 2026-05-09 01:10 UTC | `INCONCLUSIVE` | Symmetric Polynomial Monomial Count and Resolution Proof Size for |
-| 2026-05-09 01:41 UTC | `INCONCLUSIVE` | Valuation Rank of Polynomial Coefficients Bounds ACC^0 Circuit Si |
-| 2026-05-09 02:24 UTC | `INCONCLUSIVE` | Plethysm Coefficient Inverse Proportionality to SOS Refutation Si |
 | 2026-05-09 02:52 UTC | `INCONCLUSIVE` | Young Tableaux Ratio Exponential Lower Bound on Permanent Circuit |
 | 2026-05-09 03:07 UTC | `INCONCLUSIVE` | Plethysm Coefficient Exponential Gap in Symmetric Squares of Perm |
 | 2026-05-09 03:18 UTC | `INCONCLUSIVE` | Schur-Weyl Multiplicity Exponential Gap in Symmetric Powers of Pe |
@@ -82,6 +78,10 @@ Generated 2026-05-09 05:41 UTC
 | 2026-05-09 04:46 UTC | `INCONCLUSIVE` | Dehn Function Exponentiation Bounds Resolution Length for Tseitin |
 | 2026-05-09 05:35 UTC | `INCONCLUSIVE` | Symmetric Power Rank Gap in Permanent vs Determinant Polynomials |
 | 2026-05-09 05:41 UTC | `INCONCLUSIVE` | Real Radical Dimension Inverse Proportionality to SOS Degree for  |
+| 2026-05-09 06:02 UTC | `INCONCLUSIVE` | Free Entropy Lower Bound on Disjointness Communication Complexity |
+| 2026-05-09 06:15 UTC | `INCONCLUSIVE` | Fourier Coefficient Decay and Resolution Proof Length for k-CNF F |
+| 2026-05-09 06:21 UTC | `INCONCLUSIVE` | Hilbert Function Leading Coefficient Distinguishes Read-Twice fro |
+| 2026-05-09 06:33 UTC | `INCONCLUSIVE` | Moment Matrix Rank Inverse Proportional to SOS Degree for Max-CUT |
 
 ## How to read the reports
 
