@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-09 12:44 UTC"
+date: "2026-05-09 13:46 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-09 12:44 UTC
+Generated 2026-05-09 13:46 UTC
 
-- Cycles recorded: **477**
-- Time span: 375.1h (~1.27 cycles/h)
+- Cycles recorded: **481**
+- Time span: 376.1h (~1.28 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 442 |
+| INCONCLUSIVE | 446 |
 | BARRIER_HIT | 16 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -35,13 +35,13 @@ Generated 2026-05-09 12:44 UTC
 | Real Algebraic Geometry | 24 |
 | Free Probability | 10 |
 | Schur-Weyl Duality | 10 |
-| Matroid Theory | 8 |
+| Matroid Theory | 9 |
 | Algebraic Geometry | 7 |
 | Additive Combinatorics | 6 |
+| Polymatroid Theory | 6 |
 | Random Matrix Theory | 5 |
 | Finite Geometry | 5 |
 | Spectral Graph Theory | 5 |
-| Polymatroid Theory | 5 |
 | Representation Theory of Symmetric Groups | 5 |
 | Ergodic Circuit Framework (communication complexity via dynamical systems) | 4 |
 | {"framework_name": "Ergodic Circuit Framework", "math_branch": "COMM_COMPLEXITY"} | 4 |
@@ -67,10 +67,6 @@ Generated 2026-05-09 12:44 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-09 06:21 UTC | `INCONCLUSIVE` | Hilbert Function Leading Coefficient Distinguishes Read-Twice fro |
-| 2026-05-09 06:33 UTC | `INCONCLUSIVE` | Moment Matrix Rank Inverse Proportional to SOS Degree for Max-CUT |
-| 2026-05-09 08:02 UTC | `INCONCLUSIVE` | Free Entropy Gap in Read-Twice Branching Programs for IP_2 |
-| 2026-05-09 08:36 UTC | `INCONCLUSIVE` | Plethysm Coefficient Gap in Symmetric Squares of Permutation Repr |
 | 2026-05-09 08:50 UTC | `INCONCLUSIVE` | Fourier Min-Coefficient Inverse Proportionality to CNF Size |
 | 2026-05-09 09:25 UTC | `INCONCLUSIVE` | Kronecker Coefficient Exponential Gap in Symmetric Powers of Perm |
 | 2026-05-09 09:46 UTC | `INCONCLUSIVE` | Algebraic Connectivity Exponentiates DPLL Tree Size for Tseitin F |
@@ -82,6 +78,10 @@ Generated 2026-05-09 12:44 UTC
 | 2026-05-09 11:59 UTC | `INCONCLUSIVE` | Hilbert Leading Coefficient Inverse Proportional to ABP Size |
 | 2026-05-09 12:07 UTC | `INCONCLUSIVE` | Resultant Degree Exponential Lower Bound for ACC^0 Circuit Size |
 | 2026-05-09 12:44 UTC | `INCONCLUSIVE` | Semialgebraic Dimension Inverse Proportional to SOS Degree for Ma |
+| 2026-05-09 13:00 UTC | `INCONCLUSIVE` | Polymatroid Rank and SOS Refutation Degree for Monotone k-CLIQUE |
+| 2026-05-09 13:27 UTC | `INCONCLUSIVE` | Matroid Rank Submodularity Bounds Monotone DNF Size |
+| 2026-05-09 13:33 UTC | `INCONCLUSIVE` | Operator Norm Separation for Read-Twice vs Read-Once BPs |
+| 2026-05-09 13:46 UTC | `INCONCLUSIVE` | Convex Body Volume Lower Bounds Disjointness Communication Comple |
 
 ## How to read the reports
 

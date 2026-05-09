@@ -1,13 +1,13 @@
 {
-  "last_update_utc": "2026-05-09T12:47:01Z",
-  "total_cycles": 477,
+  "last_update_utc": "2026-05-09T13:47:02Z",
+  "total_cycles": 481,
   "verdict_counts": {
-    "INCONCLUSIVE": 442,
+    "INCONCLUSIVE": 446,
     "SUPPORTED": 4,
     "FALSIFIED": 15,
     "BARRIER_HIT": 16
   },
-  "unique_field_A": 345,
+  "unique_field_A": 346,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
@@ -23,7 +23,7 @@
     ],
     [
       "Matroid Theory",
-      8
+      9
     ],
     [
       "Algebraic Geometry",
@@ -31,6 +31,10 @@
     ],
     [
       "Additive Combinatorics",
+      6
+    ],
+    [
+      "Polymatroid Theory",
       6
     ],
     [
@@ -43,10 +47,6 @@
     ],
     [
       "Spectral Graph Theory",
-      5
-    ],
-    [
-      "Polymatroid Theory",
       5
     ],
     [
