@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-09 00:45 UTC"
+date: "2026-05-09 01:41 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-09 00:45 UTC
+Generated 2026-05-09 01:41 UTC
 
-- Cycles recorded: **444**
-- Time span: 363.1h (~1.22 cycles/h)
+- Cycles recorded: **448**
+- Time span: 364.0h (~1.23 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 409 |
+| INCONCLUSIVE | 413 |
 | BARRIER_HIT | 16 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -33,9 +33,9 @@ Generated 2026-05-09 00:45 UTC
 | Field | Cycles |
 |---|---|
 | Real Algebraic Geometry | 19 |
+| Free Probability | 8 |
+| Schur-Weyl Duality | 8 |
 | Matroid Theory | 7 |
-| Free Probability | 7 |
-| Schur-Weyl Duality | 7 |
 | Additive Combinatorics | 6 |
 | Algebraic Geometry | 5 |
 | Finite Geometry | 5 |
@@ -67,10 +67,6 @@ Generated 2026-05-09 00:45 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-08 21:14 UTC | `INCONCLUSIVE` | Plethysm Coefficient Gap in Symmetric Powers of Permanent vs Dete |
-| 2026-05-08 21:20 UTC | `INCONCLUSIVE` | Cluster Algebra Mutation Distance Bounds ACC^0 Circuit Size |
-| 2026-05-08 21:37 UTC | `INCONCLUSIVE` | Moment Matrix Eigenvalue Decay and SOS Degree for Max-CUT |
-| 2026-05-08 21:44 UTC | `INCONCLUSIVE` | Matroid Representation Complexity of Monotone DNF for k-CLIQUE |
 | 2026-05-08 22:01 UTC | `INCONCLUSIVE` | Plethysm Coefficient Exponential Gap in Symmetric Squares of Perm |
 | 2026-05-08 22:16 UTC | `INCONCLUSIVE` | Symmetric Group Multiplicity Sum Lower Bound for Disjointness Com |
 | 2026-05-08 22:24 UTC | `INCONCLUSIVE` | Polymatroid Rank Deficit in Monotone DNF for k-CLIQUE |
@@ -82,6 +78,10 @@ Generated 2026-05-09 00:45 UTC
 | 2026-05-09 00:21 UTC | `INCONCLUSIVE` | Noncommutative Fourier Coefficient Norm Separates Read-Twice from |
 | 2026-05-09 00:31 UTC | `INCONCLUSIVE` | Symmetric Group Fourier Min-Coefficient Lower Bound on Disjointne |
 | 2026-05-09 00:45 UTC | `INCONCLUSIVE` | Plethysm Coefficient Inverse Proportionality to Circuit Size |
+| 2026-05-09 00:51 UTC | `INCONCLUSIVE` | Free Entropy Inverse Proportionality to Disjointness Communicatio |
+| 2026-05-09 00:57 UTC | `INCONCLUSIVE` | Young Tableaux Count Lower Bound on Disjointness Communication Co |
+| 2026-05-09 01:10 UTC | `INCONCLUSIVE` | Symmetric Polynomial Monomial Count and Resolution Proof Size for |
+| 2026-05-09 01:41 UTC | `INCONCLUSIVE` | Valuation Rank of Polynomial Coefficients Bounds ACC^0 Circuit Si |
 
 ## How to read the reports
 
