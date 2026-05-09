@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-09 13:46 UTC"
+date: "2026-05-09 14:30 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-09 13:46 UTC
+Generated 2026-05-09 14:30 UTC
 
-- Cycles recorded: **481**
-- Time span: 376.1h (~1.28 cycles/h)
+- Cycles recorded: **482**
+- Time span: 376.8h (~1.28 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 446 |
+| INCONCLUSIVE | 447 |
 | BARRIER_HIT | 16 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -33,7 +33,7 @@ Generated 2026-05-09 13:46 UTC
 | Field | Cycles |
 |---|---|
 | Real Algebraic Geometry | 24 |
-| Free Probability | 10 |
+| Free Probability | 11 |
 | Schur-Weyl Duality | 10 |
 | Matroid Theory | 9 |
 | Algebraic Geometry | 7 |
@@ -67,7 +67,6 @@ Generated 2026-05-09 13:46 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-09 08:50 UTC | `INCONCLUSIVE` | Fourier Min-Coefficient Inverse Proportionality to CNF Size |
 | 2026-05-09 09:25 UTC | `INCONCLUSIVE` | Kronecker Coefficient Exponential Gap in Symmetric Powers of Perm |
 | 2026-05-09 09:46 UTC | `INCONCLUSIVE` | Algebraic Connectivity Exponentiates DPLL Tree Size for Tseitin F |
 | 2026-05-09 09:58 UTC | `INCONCLUSIVE` | Submodular Width of Polymatroid Rank Function and Monotone Circui |
@@ -82,6 +81,7 @@ Generated 2026-05-09 13:46 UTC
 | 2026-05-09 13:27 UTC | `INCONCLUSIVE` | Matroid Rank Submodularity Bounds Monotone DNF Size |
 | 2026-05-09 13:33 UTC | `INCONCLUSIVE` | Operator Norm Separation for Read-Twice vs Read-Once BPs |
 | 2026-05-09 13:46 UTC | `INCONCLUSIVE` | Convex Body Volume Lower Bounds Disjointness Communication Comple |
+| 2026-05-09 14:30 UTC | `INCONCLUSIVE` | Free Entropy Lower Bound on Disjointness Communication Complexity |
 
 ## How to read the reports
 
