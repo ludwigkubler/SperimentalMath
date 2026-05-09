@@ -1,0 +1,40 @@
+{
+  "entry_id": "d27b04e7091e",
+  "ts": 1778304948.0246415,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1503.00822",
+      "title": "Product Ranks of the $3\\times 3$ Determinant and Permanent",
+      "abstract_excerpt": "We show that the product rank of the $3\\times 3$ determinant is $5$, and the product rank of the $3\\times 3$ permanent is $4$. As a corollary, we obtain that the tensor ranks of the $3 \\times 3$ determinant and permanent are $5$ and $4$, respectively. We show moreover that the border product rank of the $n \\times n$ permanent is larger than $n$ for any $n\\geq 3$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "REFUTES",
+      "judge_reasoning": "The abstract states the product rank of the 3×3 permanent is 4 while the determinant is 5, meaning the permanent's rank is smaller than the determinant's for n=3 — directly contradicting the conjecture that Perm_n's rank is at least 2^{n/2} times Det_n's rank.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1101.2456",
+      "title": "Polynomial representations and categorifications of Fock Space",
+      "abstract_excerpt": "The rings of symmetric polynomials form an inverse system whose limit, the ring of symmetric functions, is the model for the bosonic Fock space representation of the affine Lie algebra. We categorify this construction by considering an inverse limit of categories of polynomial representation of general linear groups. We show that this limit naturally carries an action of the affine Lie algebra (in the sense of Rouquier), thereby obtaining a famiy of categorifications of the bosonic Fock space re",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns categorification of bosonic Fock space via polynomial representations of general linear groups and affine Lie algebra actions; it does not address symmetric power rank, permanent, or determinant polynomials.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1603.02493",
+      "title": "Clifford theory for glider representations",
+      "abstract_excerpt": "Classical Clifford theory studies the decomposition of simple $G$-modules into simple $H$-modules for some normal subgroup $H \\triangleleft G$. In this paper we deal with chains of normal subgroups $1 \\triangleleft G_1 \\triangleleft \\cdots \\triangleleft G_d =G$, which allow to consider fragments and in particular glider representations. These are given by a descending chain of vector spaces over some field $K$ and relate different representations of the groups appearing in the chain. Picking som",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Clifford theory for glider representations via chains of normal subgroups, with no mention of permanent/determinant polynomials, symmetric power rank, or complexity-theoretic comparisons relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 1,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 0
+  }
+}

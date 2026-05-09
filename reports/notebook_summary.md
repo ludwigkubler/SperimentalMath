@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-09 04:46 UTC"
+date: "2026-05-09 05:41 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-09 04:46 UTC
+Generated 2026-05-09 05:41 UTC
 
-- Cycles recorded: **458**
-- Time span: 367.1h (~1.25 cycles/h)
+- Cycles recorded: **460**
+- Time span: 368.0h (~1.25 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 423 |
+| INCONCLUSIVE | 425 |
 | BARRIER_HIT | 16 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -32,7 +32,7 @@ Generated 2026-05-09 04:46 UTC
 
 | Field | Cycles |
 |---|---|
-| Real Algebraic Geometry | 20 |
+| Real Algebraic Geometry | 21 |
 | Schur-Weyl Duality | 9 |
 | Free Probability | 8 |
 | Matroid Theory | 7 |
@@ -45,6 +45,7 @@ Generated 2026-05-09 04:46 UTC
 | Spectral Graph Theory | 4 |
 | Polymatroid Theory | 4 |
 | Algebraic Geometry of Secant Varieties | 4 |
+| Representation Theory of Symmetric Groups | 4 |
 | FOURIER_ANALYSIS | 4 |
 | Fourier analysis of boolean functions | 3 |
 | matroid theory | 3 |
@@ -52,7 +53,6 @@ Generated 2026-05-09 04:46 UTC
 | {"framework_name": "Tropical Circuit Weight Analysis (TCWA)", "math_branch": "BOUNDED_ARITHMETIC"} | 3 |
 | Tropical Circuit Weight Analysis (BOUNDED_ARITHMETIC) | 3 |
 | Schur-Weyl duality | 3 |
-| Representation Theory of Symmetric Groups | 3 |
 | Persistent Homology | 3 |
 | Plethysm Theory | 3 |
 | Noncommutative geometry | 2 |
@@ -67,8 +67,6 @@ Generated 2026-05-09 04:46 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-09 00:45 UTC | `INCONCLUSIVE` | Plethysm Coefficient Inverse Proportionality to Circuit Size |
-| 2026-05-09 00:51 UTC | `INCONCLUSIVE` | Free Entropy Inverse Proportionality to Disjointness Communicatio |
 | 2026-05-09 00:57 UTC | `INCONCLUSIVE` | Young Tableaux Count Lower Bound on Disjointness Communication Co |
 | 2026-05-09 01:10 UTC | `INCONCLUSIVE` | Symmetric Polynomial Monomial Count and Resolution Proof Size for |
 | 2026-05-09 01:41 UTC | `INCONCLUSIVE` | Valuation Rank of Polynomial Coefficients Bounds ACC^0 Circuit Si |
@@ -82,6 +80,8 @@ Generated 2026-05-09 04:46 UTC
 | 2026-05-09 04:26 UTC | `INCONCLUSIVE` | Discriminant Exponentiation Bounds SOS Refutation Degree for Rand |
 | 2026-05-09 04:34 UTC | `INCONCLUSIVE` | Spectral Gap Exponential Lower Bound on Tseitin Resolution Length |
 | 2026-05-09 04:46 UTC | `INCONCLUSIVE` | Dehn Function Exponentiation Bounds Resolution Length for Tseitin |
+| 2026-05-09 05:35 UTC | `INCONCLUSIVE` | Symmetric Power Rank Gap in Permanent vs Determinant Polynomials |
+| 2026-05-09 05:41 UTC | `INCONCLUSIVE` | Real Radical Dimension Inverse Proportionality to SOS Degree for  |
 
 ## How to read the reports
 

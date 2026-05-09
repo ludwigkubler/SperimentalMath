@@ -1,8 +1,8 @@
 {
-  "last_update_utc": "2026-05-09T04:47:02Z",
-  "total_cycles": 458,
+  "last_update_utc": "2026-05-09T05:47:01Z",
+  "total_cycles": 460,
   "verdict_counts": {
-    "INCONCLUSIVE": 423,
+    "INCONCLUSIVE": 425,
     "SUPPORTED": 4,
     "FALSIFIED": 15,
     "BARRIER_HIT": 16
@@ -11,7 +11,7 @@
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
-      20
+      21
     ],
     [
       "Schur-Weyl Duality",
@@ -62,12 +62,12 @@
       4
     ],
     [
-      "FOURIER_ANALYSIS",
+      "Representation Theory of Symmetric Groups",
       4
     ],
     [
-      "Fourier analysis of boolean functions",
-      3
+      "FOURIER_ANALYSIS",
+      4
     ]
   ]
 }
