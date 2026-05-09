@@ -1,0 +1,40 @@
+{
+  "entry_id": "3fd17de5d8ec",
+  "ts": 1778363595.3086586,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2103.09609",
+      "title": "Characterizing Tseitin-formulas with short regular resolution refutations",
+      "abstract_excerpt": "Tseitin-formulas are systems of parity constraints whose structure is described by a graph. These formulas have been studied extensively in proof complexity as hard instances in many proof systems. In this paper, we prove that a class of unsatisfiable Tseitin-formulas of bounded degree has regular resolution refutations of polynomial length if and only if the treewidth of all underlying graphs $G$ for that class is in $O(\\log|V(G)|)$. To do so, we show that any regular resolution refutation of a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract characterizes regular resolution length of Tseitin formulas in terms of treewidth (tw(G)), not the Cheeger constant h(G). While both relate graph parameters to resolution length on Tseitin formulas, the abstract makes no claim about Cheeger/expansion, so it neither confirms nor refutes the specific h(G) bound.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1807.02225",
+      "title": "Cheeger inequalities for graph limits",
+      "abstract_excerpt": "We introduce notions of Cheeger constants for graphons and graphings. We prove Cheeger and Buser inequalities for these. On the way we prove co-area formulae for graphons and graphings.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Cheeger and Buser inequalities for graphons and graphings (graph limits), with no mention of Tseitin formulas, resolution refutation length, or proof complexity. It shares only the 'Cheeger constant' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2404.04038",
+      "title": "Refutability as Recursive as Provability",
+      "abstract_excerpt": "Godel numbering is an arithmetization of sintax which defines provability by coding a primitive recursive predicate, Pf(x,v). A multiplicity of researches and results all around this well-known recursive predicate are today widespread in many areas of logic and AI. Not equally investigated is the refutability predicate defined by Godel numbering within the same primitive recursive status. Rf(x,v) can be defined as a recursive predicate meaning that x is the Godel number of a refutation in PA of ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Gödel numbering, Peano arithmetic provability/refutability predicates, and incompleteness — not Tseitin formulas, Cheeger constants, or Resolution proof complexity lower bounds. The shared word 'refutation' is used in a completely different (PA-arithmetical) sense.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

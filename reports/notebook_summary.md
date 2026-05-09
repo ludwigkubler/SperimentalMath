@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-09 21:30 UTC"
+date: "2026-05-09 22:30 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-09 21:30 UTC
+Generated 2026-05-09 22:30 UTC
 
-- Cycles recorded: **504**
-- Time span: 383.8h (~1.31 cycles/h)
+- Cycles recorded: **508**
+- Time span: 384.8h (~1.32 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 469 |
+| INCONCLUSIVE | 473 |
 | BARRIER_HIT | 16 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -36,13 +36,13 @@ Generated 2026-05-09 21:30 UTC
 | Free Probability | 12 |
 | Schur-Weyl Duality | 11 |
 | Matroid Theory | 9 |
-| Representation Theory of Symmetric Groups | 8 |
+| Representation Theory of Symmetric Groups | 9 |
 | Algebraic Geometry | 7 |
 | Random Matrix Theory | 6 |
 | Additive Combinatorics | 6 |
+| Spectral Graph Theory | 6 |
 | Polymatroid Theory | 6 |
 | Finite Geometry | 5 |
-| Spectral Graph Theory | 5 |
 | Ergodic Circuit Framework (communication complexity via dynamical systems) | 4 |
 | {"framework_name": "Ergodic Circuit Framework", "math_branch": "COMM_COMPLEXITY"} | 4 |
 | Fourier Analysis on Boolean Functions | 4 |
@@ -67,10 +67,6 @@ Generated 2026-05-09 21:30 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-09 17:37 UTC | `INCONCLUSIVE` | Fourier Coefficient Sum Submodularity for Monotone DNF |
-| 2026-05-09 17:48 UTC | `INCONCLUSIVE` | Metric Dispersion Lower Bound for Monotone DNF Depth |
-| 2026-05-09 18:13 UTC | `INCONCLUSIVE` | Gowers Uniformity Norm Gap in Read-Twice vs Read-Once BPs |
-| 2026-05-09 18:20 UTC | `INCONCLUSIVE` | Littlewood-Richardson Coefficient Asymmetry in Permanent vs Deter |
 | 2026-05-09 18:32 UTC | `INCONCLUSIVE` | Genus Inverse Proportionality to Disjointness Communication Compl |
 | 2026-05-09 18:58 UTC | `INCONCLUSIVE` | Free Entropy Lower Bound on Disjointness Communication Complexity |
 | 2026-05-09 19:24 UTC | `INCONCLUSIVE` | Symmetric Group Irreducible Component Exponential Gap in Permanen |
@@ -82,6 +78,10 @@ Generated 2026-05-09 21:30 UTC
 | 2026-05-09 21:07 UTC | `INCONCLUSIVE` | Real Root Count Inverse Proportional to SOS Degree for Max-CUT |
 | 2026-05-09 21:15 UTC | `INCONCLUSIVE` | Betti Number Inverse Proportionality to DPLL Tree Size in 3-SAT |
 | 2026-05-09 21:30 UTC | `INCONCLUSIVE` | Schur-Weyl Decomposition Irreducible Component Gap for Permanent  |
+| 2026-05-09 21:52 UTC | `INCONCLUSIVE` | Cheeger Constant Exponentiates Resolution Length for Tseitin Form |
+| 2026-05-09 22:03 UTC | `INCONCLUSIVE` | p-adic Valuation of Solution Count Modulo p Inversely Proportiona |
+| 2026-05-09 22:15 UTC | `INCONCLUSIVE` | Slice Rank Lower Bound for Disjointness Communication Matrices |
+| 2026-05-09 22:28 UTC | `INCONCLUSIVE` | Symmetric Tensor Rank Gap in Permanent vs Determinant Decompositi |
 
 ## How to read the reports
 
