@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-09 17:37 UTC"
+date: "2026-05-09 18:32 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-09 17:37 UTC
+Generated 2026-05-09 18:32 UTC
 
-- Cycles recorded: **490**
-- Time span: 379.9h (~1.29 cycles/h)
+- Cycles recorded: **494**
+- Time span: 380.9h (~1.30 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 455 |
+| INCONCLUSIVE | 459 |
 | BARRIER_HIT | 16 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -40,9 +40,9 @@ Generated 2026-05-09 17:37 UTC
 | Random Matrix Theory | 6 |
 | Additive Combinatorics | 6 |
 | Polymatroid Theory | 6 |
+| Representation Theory of Symmetric Groups | 6 |
 | Finite Geometry | 5 |
 | Spectral Graph Theory | 5 |
-| Representation Theory of Symmetric Groups | 5 |
 | Ergodic Circuit Framework (communication complexity via dynamical systems) | 4 |
 | {"framework_name": "Ergodic Circuit Framework", "math_branch": "COMM_COMPLEXITY"} | 4 |
 | Fourier Analysis on Boolean Functions | 4 |
@@ -67,10 +67,6 @@ Generated 2026-05-09 17:37 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-09 12:07 UTC | `INCONCLUSIVE` | Resultant Degree Exponential Lower Bound for ACC^0 Circuit Size |
-| 2026-05-09 12:44 UTC | `INCONCLUSIVE` | Semialgebraic Dimension Inverse Proportional to SOS Degree for Ma |
-| 2026-05-09 13:00 UTC | `INCONCLUSIVE` | Polymatroid Rank and SOS Refutation Degree for Monotone k-CLIQUE |
-| 2026-05-09 13:27 UTC | `INCONCLUSIVE` | Matroid Rank Submodularity Bounds Monotone DNF Size |
 | 2026-05-09 13:33 UTC | `INCONCLUSIVE` | Operator Norm Separation for Read-Twice vs Read-Once BPs |
 | 2026-05-09 13:46 UTC | `INCONCLUSIVE` | Convex Body Volume Lower Bounds Disjointness Communication Comple |
 | 2026-05-09 14:30 UTC | `INCONCLUSIVE` | Free Entropy Lower Bound on Disjointness Communication Complexity |
@@ -82,6 +78,10 @@ Generated 2026-05-09 17:37 UTC
 | 2026-05-09 17:08 UTC | `INCONCLUSIVE` | Schur-Weyl Tensor Rank Bounds SOS Degree for Random 3-SAT |
 | 2026-05-09 17:17 UTC | `INCONCLUSIVE` | Geometric Arrangement Discrepancy Inverse Proportional to Disjoin |
 | 2026-05-09 17:37 UTC | `INCONCLUSIVE` | Fourier Coefficient Sum Submodularity for Monotone DNF |
+| 2026-05-09 17:48 UTC | `INCONCLUSIVE` | Metric Dispersion Lower Bound for Monotone DNF Depth |
+| 2026-05-09 18:13 UTC | `INCONCLUSIVE` | Gowers Uniformity Norm Gap in Read-Twice vs Read-Once BPs |
+| 2026-05-09 18:20 UTC | `INCONCLUSIVE` | Littlewood-Richardson Coefficient Asymmetry in Permanent vs Deter |
+| 2026-05-09 18:32 UTC | `INCONCLUSIVE` | Genus Inverse Proportionality to Disjointness Communication Compl |
 
 ## How to read the reports
 
