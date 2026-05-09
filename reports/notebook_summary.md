@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-09 14:30 UTC"
+date: "2026-05-09 15:30 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-09 14:30 UTC
+Generated 2026-05-09 15:30 UTC
 
-- Cycles recorded: **482**
-- Time span: 376.8h (~1.28 cycles/h)
+- Cycles recorded: **483**
+- Time span: 377.8h (~1.28 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 447 |
+| INCONCLUSIVE | 448 |
 | BARRIER_HIT | 16 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -67,7 +67,6 @@ Generated 2026-05-09 14:30 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-09 09:25 UTC | `INCONCLUSIVE` | Kronecker Coefficient Exponential Gap in Symmetric Powers of Perm |
 | 2026-05-09 09:46 UTC | `INCONCLUSIVE` | Algebraic Connectivity Exponentiates DPLL Tree Size for Tseitin F |
 | 2026-05-09 09:58 UTC | `INCONCLUSIVE` | Submodular Width of Polymatroid Rank Function and Monotone Circui |
 | 2026-05-09 10:06 UTC | `INCONCLUSIVE` | Symmetric Group Fourier Coefficient Sum Distinguishes Read-Twice  |
@@ -82,6 +81,7 @@ Generated 2026-05-09 14:30 UTC
 | 2026-05-09 13:33 UTC | `INCONCLUSIVE` | Operator Norm Separation for Read-Twice vs Read-Once BPs |
 | 2026-05-09 13:46 UTC | `INCONCLUSIVE` | Convex Body Volume Lower Bounds Disjointness Communication Comple |
 | 2026-05-09 14:30 UTC | `INCONCLUSIVE` | Free Entropy Lower Bound on Disjointness Communication Complexity |
+| 2026-05-09 15:27 UTC | `INCONCLUSIVE` | Kronecker Coefficient Exponential Gap in Symmetric Powers of Perm |
 
 ## How to read the reports
 
