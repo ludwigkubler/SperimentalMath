@@ -1,8 +1,8 @@
 {
-  "last_update_utc": "2026-05-09T18:47:02Z",
-  "total_cycles": 494,
+  "last_update_utc": "2026-05-09T19:47:02Z",
+  "total_cycles": 496,
   "verdict_counts": {
-    "INCONCLUSIVE": 459,
+    "INCONCLUSIVE": 461,
     "SUPPORTED": 4,
     "FALSIFIED": 15,
     "BARRIER_HIT": 16
@@ -15,7 +15,7 @@
     ],
     [
       "Free Probability",
-      11
+      12
     ],
     [
       "Schur-Weyl Duality",
@@ -30,6 +30,10 @@
       7
     ],
     [
+      "Representation Theory of Symmetric Groups",
+      7
+    ],
+    [
       "Random Matrix Theory",
       6
     ],
@@ -39,10 +43,6 @@
     ],
     [
       "Polymatroid Theory",
-      6
-    ],
-    [
-      "Representation Theory of Symmetric Groups",
       6
     ],
     [

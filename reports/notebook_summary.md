@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-09 18:32 UTC"
+date: "2026-05-09 19:24 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-09 18:32 UTC
+Generated 2026-05-09 19:24 UTC
 
-- Cycles recorded: **494**
-- Time span: 380.9h (~1.30 cycles/h)
+- Cycles recorded: **496**
+- Time span: 381.7h (~1.30 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 459 |
+| INCONCLUSIVE | 461 |
 | BARRIER_HIT | 16 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -33,14 +33,14 @@ Generated 2026-05-09 18:32 UTC
 | Field | Cycles |
 |---|---|
 | Real Algebraic Geometry | 25 |
-| Free Probability | 11 |
+| Free Probability | 12 |
 | Schur-Weyl Duality | 11 |
 | Matroid Theory | 9 |
 | Algebraic Geometry | 7 |
+| Representation Theory of Symmetric Groups | 7 |
 | Random Matrix Theory | 6 |
 | Additive Combinatorics | 6 |
 | Polymatroid Theory | 6 |
-| Representation Theory of Symmetric Groups | 6 |
 | Finite Geometry | 5 |
 | Spectral Graph Theory | 5 |
 | Ergodic Circuit Framework (communication complexity via dynamical systems) | 4 |
@@ -67,8 +67,6 @@ Generated 2026-05-09 18:32 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-09 13:33 UTC | `INCONCLUSIVE` | Operator Norm Separation for Read-Twice vs Read-Once BPs |
-| 2026-05-09 13:46 UTC | `INCONCLUSIVE` | Convex Body Volume Lower Bounds Disjointness Communication Comple |
 | 2026-05-09 14:30 UTC | `INCONCLUSIVE` | Free Entropy Lower Bound on Disjointness Communication Complexity |
 | 2026-05-09 15:27 UTC | `INCONCLUSIVE` | Kronecker Coefficient Exponential Gap in Symmetric Powers of Perm |
 | 2026-05-09 16:11 UTC | `INCONCLUSIVE` | Noncommutative Fourier Norm Inverse Proportional to Disjointness  |
@@ -82,6 +80,8 @@ Generated 2026-05-09 18:32 UTC
 | 2026-05-09 18:13 UTC | `INCONCLUSIVE` | Gowers Uniformity Norm Gap in Read-Twice vs Read-Once BPs |
 | 2026-05-09 18:20 UTC | `INCONCLUSIVE` | Littlewood-Richardson Coefficient Asymmetry in Permanent vs Deter |
 | 2026-05-09 18:32 UTC | `INCONCLUSIVE` | Genus Inverse Proportionality to Disjointness Communication Compl |
+| 2026-05-09 18:58 UTC | `INCONCLUSIVE` | Free Entropy Lower Bound on Disjointness Communication Complexity |
+| 2026-05-09 19:24 UTC | `INCONCLUSIVE` | Symmetric Group Irreducible Component Exponential Gap in Permanen |
 
 ## How to read the reports
 
