@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-09 02:30 UTC"
+date: "2026-05-09 03:44 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-09 02:30 UTC
+Generated 2026-05-09 03:44 UTC
 
-- Cycles recorded: **449**
-- Time span: 364.8h (~1.23 cycles/h)
+- Cycles recorded: **453**
+- Time span: 366.1h (~1.24 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 414 |
+| INCONCLUSIVE | 418 |
 | BARRIER_HIT | 16 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -33,8 +33,8 @@ Generated 2026-05-09 02:30 UTC
 | Field | Cycles |
 |---|---|
 | Real Algebraic Geometry | 19 |
+| Schur-Weyl Duality | 9 |
 | Free Probability | 8 |
-| Schur-Weyl Duality | 8 |
 | Matroid Theory | 7 |
 | Additive Combinatorics | 6 |
 | Algebraic Geometry | 5 |
@@ -52,7 +52,9 @@ Generated 2026-05-09 02:30 UTC
 | Tropical Circuit Weight Analysis (BOUNDED_ARITHMETIC) | 3 |
 | Schur-Weyl duality | 3 |
 | Spectral Graph Theory | 3 |
+| Representation Theory of Symmetric Groups | 3 |
 | Persistent Homology | 3 |
+| Plethysm Theory | 3 |
 | Noncommutative geometry | 2 |
 | Representation theory of symmetric groups | 2 |
 | Ergodic Circuit Framework (COMM_COMPLEXITY) | 2 |
@@ -60,17 +62,11 @@ Generated 2026-05-09 02:30 UTC
 | Tropical geometry | 2 |
 | Schur-Weyl duality, plethysm, algebraic combinatorics | 2 |
 | Free Probability Theory | 2 |
-| Tropical Circuit Weight Analysis (TCWA) — Bounded Arithmetic | 2 |
-| Bounded Arithmetic | 2 |
 
 ## Last 15 cycles (chronological)
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-08 22:16 UTC | `INCONCLUSIVE` | Symmetric Group Multiplicity Sum Lower Bound for Disjointness Com |
-| 2026-05-08 22:24 UTC | `INCONCLUSIVE` | Polymatroid Rank Deficit in Monotone DNF for k-CLIQUE |
-| 2026-05-08 22:53 UTC | `INCONCLUSIVE` | Symmetric Power Rank Gap in CNF Incidence Matrices |
-| 2026-05-08 23:16 UTC | `INCONCLUSIVE` | Real Dimension Gap in Communication Matrices for AC⁰ PARITY |
 | 2026-05-08 23:44 UTC | `INCONCLUSIVE` | Noncommutative Fourier Spectrum Gap in Read-Twice BP for IP_2 |
 | 2026-05-08 23:56 UTC | `INCONCLUSIVE` | Hyperbolicity Lower Bound on Tseitin Resolution Length |
 | 2026-05-09 00:12 UTC | `INCONCLUSIVE` | Submodular Width Separates Monotone DNF from k-CLIQUE |
@@ -82,6 +78,10 @@ Generated 2026-05-09 02:30 UTC
 | 2026-05-09 01:10 UTC | `INCONCLUSIVE` | Symmetric Polynomial Monomial Count and Resolution Proof Size for |
 | 2026-05-09 01:41 UTC | `INCONCLUSIVE` | Valuation Rank of Polynomial Coefficients Bounds ACC^0 Circuit Si |
 | 2026-05-09 02:24 UTC | `INCONCLUSIVE` | Plethysm Coefficient Inverse Proportionality to SOS Refutation Si |
+| 2026-05-09 02:52 UTC | `INCONCLUSIVE` | Young Tableaux Ratio Exponential Lower Bound on Permanent Circuit |
+| 2026-05-09 03:07 UTC | `INCONCLUSIVE` | Plethysm Coefficient Exponential Gap in Symmetric Squares of Perm |
+| 2026-05-09 03:18 UTC | `INCONCLUSIVE` | Schur-Weyl Multiplicity Exponential Gap in Symmetric Powers of Pe |
+| 2026-05-09 03:44 UTC | `INCONCLUSIVE` | SOS Refutation Degree and Convex Body Volume for Random 3-SAT |
 
 ## How to read the reports
 

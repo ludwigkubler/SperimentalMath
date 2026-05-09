@@ -1,8 +1,8 @@
 {
-  "last_update_utc": "2026-05-09T02:47:02Z",
-  "total_cycles": 449,
+  "last_update_utc": "2026-05-09T03:47:02Z",
+  "total_cycles": 453,
   "verdict_counts": {
-    "INCONCLUSIVE": 414,
+    "INCONCLUSIVE": 418,
     "SUPPORTED": 4,
     "FALSIFIED": 15,
     "BARRIER_HIT": 16
@@ -14,11 +14,11 @@
       19
     ],
     [
-      "Free Probability",
-      8
+      "Schur-Weyl Duality",
+      9
     ],
     [
-      "Schur-Weyl Duality",
+      "Free Probability",
       8
     ],
     [
