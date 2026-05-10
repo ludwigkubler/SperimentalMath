@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-10 01:47 UTC"
+date: "2026-05-10 03:39 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-10 01:47 UTC
+Generated 2026-05-10 03:39 UTC
 
-- Cycles recorded: **518**
-- Time span: 388.1h (~1.33 cycles/h)
+- Cycles recorded: **519**
+- Time span: 390.0h (~1.33 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 483 |
+| INCONCLUSIVE | 484 |
 | BARRIER_HIT | 16 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -43,7 +43,7 @@ Generated 2026-05-10 01:47 UTC
 | Finite Geometry | 6 |
 | Spectral Graph Theory | 6 |
 | Polymatroid Theory | 6 |
-| Plethysm Theory | 5 |
+| Plethysm Theory | 6 |
 | Ergodic Circuit Framework (communication complexity via dynamical systems) | 4 |
 | {"framework_name": "Ergodic Circuit Framework", "math_branch": "COMM_COMPLEXITY"} | 4 |
 | Fourier Analysis on Boolean Functions | 4 |
@@ -67,7 +67,6 @@ Generated 2026-05-10 01:47 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-09 21:30 UTC | `INCONCLUSIVE` | Schur-Weyl Decomposition Irreducible Component Gap for Permanent  |
 | 2026-05-09 21:52 UTC | `INCONCLUSIVE` | Cheeger Constant Exponentiates Resolution Length for Tseitin Form |
 | 2026-05-09 22:03 UTC | `INCONCLUSIVE` | p-adic Valuation of Solution Count Modulo p Inversely Proportiona |
 | 2026-05-09 22:15 UTC | `INCONCLUSIVE` | Slice Rank Lower Bound for Disjointness Communication Matrices |
@@ -82,6 +81,7 @@ Generated 2026-05-10 01:47 UTC
 | 2026-05-10 01:08 UTC | `INCONCLUSIVE` | Quantum Rank Lower Bounds for Disjointness Communication Matrices |
 | 2026-05-10 01:23 UTC | `INCONCLUSIVE` | Symmetric Tensor Rank Gap in Permanent vs Determinant Decompositi |
 | 2026-05-10 01:47 UTC | `INCONCLUSIVE` | Negative Eigenvalue Count Lower Bounds SOS Degree for Max-CUT |
+| 2026-05-10 03:39 UTC | `INCONCLUSIVE` | Plethysm Coefficient Gap in Homogeneous Polynomial Decompositions |
 
 ## How to read the reports
 

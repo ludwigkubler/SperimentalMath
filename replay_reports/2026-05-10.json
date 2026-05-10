@@ -1,0 +1,93 @@
+{
+  "ts": 1778382316.190281,
+  "picked": 10,
+  "since_days": 7,
+  "image": "sec-pvsnp-replay",
+  "summary_counts": {
+    "crash": 7,
+    "timeout": 2,
+    "drift": 1
+  },
+  "results": [
+    {
+      "tarball": "289b9bdc2257.tar.gz",
+      "rc": 1,
+      "elapsed_s": 0.2,
+      "result": "crash",
+      "first_line": "",
+      "stderr_tail": "        ^^^^^^^^^^^^^^^\n  File \"/tmp/sec_replay.zcYWmh/replay_289b9bdc2257/run.py\", line 90, in run_trial\n    rank_k_clique = rank(A)\n                    ^^^^^^^\n  File \"/tmp/sec_replay.zcYWmh/replay_289b9bdc2257/run.py\", line 43, in rank\n    return len(gaussian_elimination(A_copy, [0]*n))\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/sec_replay.zcYWmh/replay_289b9bdc2257/run.py\", line 32, in gaussian_elimination\n    augmented[i][j] /= pivot\nZeroDivisionError: division by zero\n"
+    },
+    {
+      "tarball": "11647c329d11.tar.gz",
+      "rc": 4,
+      "elapsed_s": 150.1,
+      "result": "timeout",
+      "first_line": "",
+      "stderr_tail": "RUNTIME_TIMEOUT rc=124 (>150s)\n"
+    },
+    {
+      "tarball": "ceaca8c608a7.tar.gz",
+      "rc": 4,
+      "elapsed_s": 156.4,
+      "result": "timeout",
+      "first_line": "",
+      "stderr_tail": "RUNTIME_TIMEOUT rc=124 (>150s)\n"
+    },
+    {
+      "tarball": "fcdff37e3de9.tar.gz",
+      "rc": 1,
+      "elapsed_s": 4.6,
+      "result": "crash",
+      "first_line": "",
+      "stderr_tail": "cent call last):\n  File \"/tmp/sec_replay.4MMFTP/replay_fcdff37e3de9/run.py\", line 120, in <module>\n    first_failing_seed = next(r[\"seed\"] for r in results if not r[\"conjecture_holds\"])\n                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/sec_replay.4MMFTP/replay_fcdff37e3de9/run.py\", line 120, in <genexpr>\n    first_failing_seed = next(r[\"seed\"] for r in results if not r[\"conjecture_holds\"])\n                              ~^^^^^^^^\nKeyError: 'seed'\n"
+    },
+    {
+      "tarball": "7da975152a0e.tar.gz",
+      "rc": 1,
+      "elapsed_s": 0.2,
+      "result": "crash",
+      "first_line": "",
+      "stderr_tail": "licity_for_partition\n    multiplicity += schur_weyl_coefficient(λ, μ)\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/sec_replay.zKjF83/replay_7da975152a0e/run.py\", line 61, in schur_weyl_coefficient\n    product *= hook_length_formula(n, λ[i]) // (hook_length_formula(n, λ[i] - μ[i]) * hook_length_formula(n, μ[i]))\n               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nZeroDivisionError: integer division or modulo by zero\n"
+    },
+    {
+      "tarball": "0bb43dada997.tar.gz",
+      "rc": 1,
+      "elapsed_s": 0.1,
+      "result": "crash",
+      "first_line": "",
+      "stderr_tail": " call last):\n  File \"/tmp/sec_replay.nDnE9i/replay_0bb43dada997/run.py\", line 64, in <module>\n    result = run_trial(seed)\n             ^^^^^^^^^^^^^^^\n  File \"/tmp/sec_replay.nDnE9i/replay_0bb43dada997/run.py\", line 42, in run_trial\n    poly = clause_indicator_polynomial(clauses, n)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/sec_replay.nDnE9i/replay_0bb43dada997/run.py\", line 28, in clause_indicator_polynomial\n    poly = [0] * (2 ** n)\n           ~~~~^~~~~~~~~~\nMemoryError\n"
+    },
+    {
+      "tarball": "bfe3aa3f84d1.tar.gz",
+      "rc": 1,
+      "elapsed_s": 0.2,
+      "result": "crash",
+      "first_line": "",
+      "stderr_tail": "seed)\n             ^^^^^^^^^^^^^^^\n  File \"/tmp/sec_replay.KB2Inb/replay_bfe3aa3f84d1/run.py\", line 37, in run_trial\n    dnf_formula = generate_monotone_dnf(n, size)\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/sec_replay.KB2Inb/replay_bfe3aa3f84d1/run.py\", line 11, in generate_monotone_dnf\n    if all(term[i] == 0 or term[j] == 0 for i, j in combinations(range(n), 2)):\n                                                    ^^^^^^^^^^^^\nNameError: name 'combinations' is not defined\n"
+    },
+    {
+      "tarball": "ffcf1be9a920.tar.gz",
+      "rc": 1,
+      "elapsed_s": 0.3,
+      "result": "crash",
+      "first_line": "",
+      "stderr_tail": "eplay.G4W0Z6/replay_ffcf1be9a920/run.py\", line 44, in run_trial\n    rank = gaussian_elimination(incidence)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/sec_replay.G4W0Z6/replay_ffcf1be9a920/run.py\", line 14, in gaussian_elimination\n    factor = Fraction(matrix[j][i], matrix[i][i])\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/fractions.py\", line 281, in __new__\n    raise ZeroDivisionError('Fraction(%s, 0)' % numerator)\nZeroDivisionError: Fraction(0, 0)\n"
+    },
+    {
+      "tarball": "934a387d12d9.tar.gz",
+      "rc": 2,
+      "elapsed_s": 0.1,
+      "result": "drift",
+      "first_line": "",
+      "stderr_tail": "{'metric_name': 'Invariant Polynomial Count', 'metric_value': 1, 'instances_tested': 1, 'conjecture_holds': False, 'counterexample': ''}\nTRIAL: {'metric_name': 'Invariant Polynomial Count', 'metric_value': 1, 'instances_tested': 1, 'conjecture_holds': False, 'counterexample': ''}\nTRIAL: {'metric_name': 'Invariant Polynomial Count', 'metric_value': 0, 'instances_tested': 1, 'conjecture_holds': False, 'counterexample': 'mapping_undefined'}\nRESULT: FALSIFIED counterexample=\"\" first_failing_seed=11\n"
+    },
+    {
+      "tarball": "06752711f237.tar.gz",
+      "rc": 1,
+      "elapsed_s": 0.1,
+      "result": "crash",
+      "first_line": "",
+      "stderr_tail": "RUNTIME_CRASH rc=1\n  File \"/tmp/sec_replay.5CdBf6/replay_06752711f237/run.py\", line 118\n    print(f\"RESULT: FALSIFIED counterexample=\\\"{next(result['counterexample'] for result in results if result['counterexample'] != \\\"mapping_undefined\\\")}\\\" first_failing_seed={first_failing_seed}\")\n                                                                                                                                    ^\nSyntaxError: unexpected character after line continuation character\n"
+    }
+  ]
+}
