@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-10 08:23 UTC"
+date: "2026-05-10 09:46 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-10 08:23 UTC
+Generated 2026-05-10 09:46 UTC
 
-- Cycles recorded: **532**
-- Time span: 394.7h (~1.35 cycles/h)
+- Cycles recorded: **536**
+- Time span: 396.1h (~1.35 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 497 |
+| INCONCLUSIVE | 501 |
 | BARRIER_HIT | 16 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -33,9 +33,9 @@ Generated 2026-05-10 08:23 UTC
 | Field | Cycles |
 |---|---|
 | Real Algebraic Geometry | 29 |
-| Free Probability | 12 |
+| Free Probability | 13 |
 | Schur-Weyl Duality | 12 |
-| Representation Theory of Symmetric Groups | 11 |
+| Representation Theory of Symmetric Groups | 12 |
 | Matroid Theory | 10 |
 | Algebraic Geometry | 7 |
 | Additive Combinatorics | 7 |
@@ -67,10 +67,6 @@ Generated 2026-05-10 08:23 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-10 01:47 UTC | `INCONCLUSIVE` | Negative Eigenvalue Count Lower Bounds SOS Degree for Max-CUT |
-| 2026-05-10 03:39 UTC | `INCONCLUSIVE` | Plethysm Coefficient Gap in Homogeneous Polynomial Decompositions |
-| 2026-05-10 03:58 UTC | `INCONCLUSIVE` | Hypergraph Maximum Matching Inverse Proportional to ACC^0 Circuit |
-| 2026-05-10 04:08 UTC | `INCONCLUSIVE` | Finite Field Rank and Branching Program Width for Boolean Functio |
 | 2026-05-10 04:25 UTC | `INCONCLUSIVE` | Matroid Rank Inverse Proportional to ACC^0 Circuit Size for GF(2) |
 | 2026-05-10 04:55 UTC | `INCONCLUSIVE` | Secant Variety Dimension Lower Bounds Disjointness Communication  |
 | 2026-05-10 05:06 UTC | `INCONCLUSIVE` | Real Critical Point Count Exponential in SOS Degree for Max-CUT |
@@ -82,6 +78,10 @@ Generated 2026-05-10 08:23 UTC
 | 2026-05-10 07:48 UTC | `INCONCLUSIVE` | Modular Character Degree Gap in Permanent vs Determinant Circuits |
 | 2026-05-10 08:11 UTC | `INCONCLUSIVE` | Class Number Inverse Proportional to Resolution Length in 3-SAT |
 | 2026-05-10 08:23 UTC | `INCONCLUSIVE` | BIBD Incidence Matrix ACC⁰ Circuit Size Lower Bound |
+| 2026-05-10 09:07 UTC | `INCONCLUSIVE` | Minimal Incidence Count Inverse Proportional to Disjointness Comm |
+| 2026-05-10 09:21 UTC | `INCONCLUSIVE` | Standard Young Tableau Count Exponential Gap in Symmetric Power D |
+| 2026-05-10 09:36 UTC | `INCONCLUSIVE` | Symmetric Group Orbit Count Invariant for AC⁰ PARITY Circuits |
+| 2026-05-10 09:46 UTC | `INCONCLUSIVE` | Free Entropy Distinguishes Read-Twice BPs from IP_2 Trivial Ones |
 
 ## How to read the reports
 
