@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-10 04:25 UTC"
+date: "2026-05-10 05:06 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-10 04:25 UTC
+Generated 2026-05-10 05:06 UTC
 
-- Cycles recorded: **522**
-- Time span: 390.7h (~1.34 cycles/h)
+- Cycles recorded: **524**
+- Time span: 391.4h (~1.34 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 487 |
+| INCONCLUSIVE | 489 |
 | BARRIER_HIT | 16 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -32,7 +32,7 @@ Generated 2026-05-10 04:25 UTC
 
 | Field | Cycles |
 |---|---|
-| Real Algebraic Geometry | 26 |
+| Real Algebraic Geometry | 27 |
 | Free Probability | 12 |
 | Schur-Weyl Duality | 12 |
 | Representation Theory of Symmetric Groups | 11 |
@@ -67,8 +67,6 @@ Generated 2026-05-10 04:25 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-09 22:28 UTC | `INCONCLUSIVE` | Symmetric Tensor Rank Gap in Permanent vs Determinant Decompositi |
-| 2026-05-09 22:50 UTC | `INCONCLUSIVE` | Standard Young Tableau Count Exponential Gap in Symmetric Power D |
 | 2026-05-09 23:33 UTC | `INCONCLUSIVE` | Plethysm Multiplicity Exponential Gap in Monotone Permanent vs De |
 | 2026-05-10 00:08 UTC | `INCONCLUSIVE` | Tropical Convex Hull Extreme Points Lower Bound for ACC^0 Circuit |
 | 2026-05-10 00:22 UTC | `INCONCLUSIVE` | Kronecker Coefficient Exponential Gap in Symmetric Powers of Perm |
@@ -82,6 +80,8 @@ Generated 2026-05-10 04:25 UTC
 | 2026-05-10 03:58 UTC | `INCONCLUSIVE` | Hypergraph Maximum Matching Inverse Proportional to ACC^0 Circuit |
 | 2026-05-10 04:08 UTC | `INCONCLUSIVE` | Finite Field Rank and Branching Program Width for Boolean Functio |
 | 2026-05-10 04:25 UTC | `INCONCLUSIVE` | Matroid Rank Inverse Proportional to ACC^0 Circuit Size for GF(2) |
+| 2026-05-10 04:55 UTC | `INCONCLUSIVE` | Secant Variety Dimension Lower Bounds Disjointness Communication  |
+| 2026-05-10 05:06 UTC | `INCONCLUSIVE` | Real Critical Point Count Exponential in SOS Degree for Max-CUT |
 
 ## How to read the reports
 
