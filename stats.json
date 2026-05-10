@@ -1,8 +1,8 @@
 {
-  "last_update_utc": "2026-05-10T06:47:02Z",
-  "total_cycles": 526,
+  "last_update_utc": "2026-05-10T07:47:02Z",
+  "total_cycles": 529,
   "verdict_counts": {
-    "INCONCLUSIVE": 491,
+    "INCONCLUSIVE": 494,
     "SUPPORTED": 4,
     "FALSIFIED": 15,
     "BARRIER_HIT": 16
@@ -11,7 +11,7 @@
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
-      28
+      29
     ],
     [
       "Free Probability",
@@ -34,11 +34,15 @@
       7
     ],
     [
-      "Random Matrix Theory",
-      6
+      "Additive Combinatorics",
+      7
     ],
     [
-      "Additive Combinatorics",
+      "Polymatroid Theory",
+      7
+    ],
+    [
+      "Random Matrix Theory",
       6
     ],
     [
@@ -47,10 +51,6 @@
     ],
     [
       "Spectral Graph Theory",
-      6
-    ],
-    [
-      "Polymatroid Theory",
       6
     ],
     [

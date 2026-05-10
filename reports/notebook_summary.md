@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-10 06:28 UTC"
+date: "2026-05-10 07:36 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-10 06:28 UTC
+Generated 2026-05-10 07:36 UTC
 
-- Cycles recorded: **526**
-- Time span: 392.8h (~1.34 cycles/h)
+- Cycles recorded: **529**
+- Time span: 393.9h (~1.34 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 491 |
+| INCONCLUSIVE | 494 |
 | BARRIER_HIT | 16 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -32,17 +32,17 @@ Generated 2026-05-10 06:28 UTC
 
 | Field | Cycles |
 |---|---|
-| Real Algebraic Geometry | 28 |
+| Real Algebraic Geometry | 29 |
 | Free Probability | 12 |
 | Schur-Weyl Duality | 12 |
 | Representation Theory of Symmetric Groups | 11 |
 | Matroid Theory | 10 |
 | Algebraic Geometry | 7 |
+| Additive Combinatorics | 7 |
+| Polymatroid Theory | 7 |
 | Random Matrix Theory | 6 |
-| Additive Combinatorics | 6 |
 | Finite Geometry | 6 |
 | Spectral Graph Theory | 6 |
-| Polymatroid Theory | 6 |
 | Plethysm Theory | 6 |
 | Ergodic Circuit Framework (communication complexity via dynamical systems) | 4 |
 | {"framework_name": "Ergodic Circuit Framework", "math_branch": "COMM_COMPLEXITY"} | 4 |
@@ -67,9 +67,6 @@ Generated 2026-05-10 06:28 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-10 00:22 UTC | `INCONCLUSIVE` | Kronecker Coefficient Exponential Gap in Symmetric Powers of Perm |
-| 2026-05-10 00:30 UTC | `INCONCLUSIVE` | Operator Norm Lower Bound for Disjointness Communication Matrices |
-| 2026-05-10 00:53 UTC | `INCONCLUSIVE` | Tensor Rank Exponential Gap in Read-Twice vs Read-Once Branching  |
 | 2026-05-10 01:02 UTC | `INCONCLUSIVE` | Projective Plane Line Count Bounds ABP Width for Monotone Circuit |
 | 2026-05-10 01:08 UTC | `INCONCLUSIVE` | Quantum Rank Lower Bounds for Disjointness Communication Matrices |
 | 2026-05-10 01:23 UTC | `INCONCLUSIVE` | Symmetric Tensor Rank Gap in Permanent vs Determinant Decompositi |
@@ -82,6 +79,9 @@ Generated 2026-05-10 06:28 UTC
 | 2026-05-10 05:06 UTC | `INCONCLUSIVE` | Real Critical Point Count Exponential in SOS Degree for Max-CUT |
 | 2026-05-10 05:57 UTC | `INCONCLUSIVE` | Schatten p-Norm Lower Bound for Disjointness Communication Comple |
 | 2026-05-10 06:28 UTC | `INCONCLUSIVE` | SOS Degree Lower Bound via Adjacency Eigenvalue Multiplicity |
+| 2026-05-10 07:07 UTC | `INCONCLUSIVE` | Additive Energy Lower Bound via Read-Twice Branching Program Disc |
+| 2026-05-10 07:15 UTC | `INCONCLUSIVE` | Real Root Count Exponential in AC⁰ PARITY Circuits |
+| 2026-05-10 07:36 UTC | `INCONCLUSIVE` | Polymatroid Rank Lower Bound for Monotone CLIQUE |
 
 ## How to read the reports
 
