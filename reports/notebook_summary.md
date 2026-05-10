@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-10 15:10 UTC"
+date: "2026-05-10 16:34 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,18 +13,18 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-10 15:10 UTC
+Generated 2026-05-10 16:34 UTC
 
-- Cycles recorded: **553**
-- Time span: 401.5h (~1.38 cycles/h)
+- Cycles recorded: **555**
+- Time span: 402.9h (~1.38 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 517 |
-| BARRIER_HIT | 17 |
+| INCONCLUSIVE | 518 |
+| BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
 
@@ -33,7 +33,7 @@ Generated 2026-05-10 15:10 UTC
 | Field | Cycles |
 |---|---|
 | Real Algebraic Geometry | 30 |
-| Representation Theory of Symmetric Groups | 15 |
+| Representation Theory of Symmetric Groups | 16 |
 | Free Probability | 14 |
 | Schur-Weyl Duality | 14 |
 | Matroid Theory | 11 |
@@ -67,8 +67,6 @@ Generated 2026-05-10 15:10 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-10 11:14 UTC | `INCONCLUSIVE` | Free Entropy Gap in Read-Twice Branching Programs for IP_2 |
-| 2026-05-10 11:23 UTC | `INCONCLUSIVE` | Non-Commutative Fourier L1 Norm Distinguishes Read-Twice from Rea |
 | 2026-05-10 11:43 UTC | `INCONCLUSIVE` | Automorphism Group Generator Count Bounded by ABP Width for Symme |
 | 2026-05-10 11:59 UTC | `INCONCLUSIVE` | Jordan Algebra Rank Inverse Proportional to ABP Width for Symmetr |
 | 2026-05-10 12:05 UTC | `INCONCLUSIVE` | Matroid Rank Inverse Proportional to Monotone DNF Discrepancy for |
@@ -82,6 +80,8 @@ Generated 2026-05-10 15:10 UTC
 | 2026-05-10 14:39 UTC | `INCONCLUSIVE` | Fourier Coefficient Concentration and ACC⁰ Circuit Size |
 | 2026-05-10 14:54 UTC | `INCONCLUSIVE` | Moment Matrix Rank Lower Bound for Max-CUT SOS Approximation |
 | 2026-05-10 15:10 UTC | `INCONCLUSIVE` | Kronecker Coefficient Non-Zero Threshold for Permanent-Complete S |
+| 2026-05-10 16:28 UTC | `INCONCLUSIVE` | SOS Degree Lower Bound via Matroid Polytope Dimension |
+| 2026-05-10 16:34 UTC | `BARRIER_HIT` | Schur Coefficient Exponential Gap in 3-CNF Permanent vs Determina |
 
 ## How to read the reports
 
