@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-10 14:39 UTC"
+date: "2026-05-10 15:10 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-10 14:39 UTC
+Generated 2026-05-10 15:10 UTC
 
-- Cycles recorded: **551**
-- Time span: 401.0h (~1.37 cycles/h)
+- Cycles recorded: **553**
+- Time span: 401.5h (~1.38 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 515 |
+| INCONCLUSIVE | 517 |
 | BARRIER_HIT | 17 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -32,10 +32,10 @@ Generated 2026-05-10 14:39 UTC
 
 | Field | Cycles |
 |---|---|
-| Real Algebraic Geometry | 29 |
+| Real Algebraic Geometry | 30 |
+| Representation Theory of Symmetric Groups | 15 |
 | Free Probability | 14 |
 | Schur-Weyl Duality | 14 |
-| Representation Theory of Symmetric Groups | 14 |
 | Matroid Theory | 11 |
 | Additive Combinatorics | 8 |
 | Algebraic Geometry | 7 |
@@ -67,8 +67,6 @@ Generated 2026-05-10 14:39 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-10 09:56 UTC | `INCONCLUSIVE` | Association Scheme Eigenvalue Inverse Proportional to ACC^0 Circu |
-| 2026-05-10 10:35 UTC | `INCONCLUSIVE` | Schatten p-Norm Lower Bound for Disjointness Communication Matric |
 | 2026-05-10 11:14 UTC | `INCONCLUSIVE` | Free Entropy Gap in Read-Twice Branching Programs for IP_2 |
 | 2026-05-10 11:23 UTC | `INCONCLUSIVE` | Non-Commutative Fourier L1 Norm Distinguishes Read-Twice from Rea |
 | 2026-05-10 11:43 UTC | `INCONCLUSIVE` | Automorphism Group Generator Count Bounded by ABP Width for Symme |
@@ -82,6 +80,8 @@ Generated 2026-05-10 14:39 UTC
 | 2026-05-10 14:15 UTC | `INCONCLUSIVE` | Secant Variety Dimension Gap in Determinant vs Permanent Orbits f |
 | 2026-05-10 14:31 UTC | `INCONCLUSIVE` | Fourier Coefficient Discrepancy and ACC⁰ Circuit Size |
 | 2026-05-10 14:39 UTC | `INCONCLUSIVE` | Fourier Coefficient Concentration and ACC⁰ Circuit Size |
+| 2026-05-10 14:54 UTC | `INCONCLUSIVE` | Moment Matrix Rank Lower Bound for Max-CUT SOS Approximation |
+| 2026-05-10 15:10 UTC | `INCONCLUSIVE` | Kronecker Coefficient Non-Zero Threshold for Permanent-Complete S |
 
 ## How to read the reports
 
