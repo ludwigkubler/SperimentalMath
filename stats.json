@@ -1,13 +1,13 @@
 {
-  "last_update_utc": "2026-05-10T00:47:02Z",
-  "total_cycles": 513,
+  "last_update_utc": "2026-05-10T01:47:02Z",
+  "total_cycles": 517,
   "verdict_counts": {
-    "INCONCLUSIVE": 478,
+    "INCONCLUSIVE": 482,
     "SUPPORTED": 4,
     "FALSIFIED": 15,
     "BARRIER_HIT": 16
   },
-  "unique_field_A": 360,
+  "unique_field_A": 361,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
@@ -23,7 +23,7 @@
     ],
     [
       "Representation Theory of Symmetric Groups",
-      10
+      11
     ],
     [
       "Matroid Theory",
@@ -42,16 +42,16 @@
       6
     ],
     [
+      "Finite Geometry",
+      6
+    ],
+    [
       "Spectral Graph Theory",
       6
     ],
     [
       "Polymatroid Theory",
       6
-    ],
-    [
-      "Finite Geometry",
-      5
     ],
     [
       "Plethysm Theory",

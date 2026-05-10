@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-10 00:30 UTC"
+date: "2026-05-10 01:30 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-10 00:30 UTC
+Generated 2026-05-10 01:30 UTC
 
-- Cycles recorded: **513**
-- Time span: 386.8h (~1.33 cycles/h)
+- Cycles recorded: **517**
+- Time span: 387.8h (~1.33 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 478 |
+| INCONCLUSIVE | 482 |
 | BARRIER_HIT | 16 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -35,14 +35,14 @@ Generated 2026-05-10 00:30 UTC
 | Real Algebraic Geometry | 25 |
 | Free Probability | 12 |
 | Schur-Weyl Duality | 12 |
-| Representation Theory of Symmetric Groups | 10 |
+| Representation Theory of Symmetric Groups | 11 |
 | Matroid Theory | 9 |
 | Algebraic Geometry | 7 |
 | Random Matrix Theory | 6 |
 | Additive Combinatorics | 6 |
+| Finite Geometry | 6 |
 | Spectral Graph Theory | 6 |
 | Polymatroid Theory | 6 |
-| Finite Geometry | 5 |
 | Plethysm Theory | 5 |
 | Ergodic Circuit Framework (communication complexity via dynamical systems) | 4 |
 | {"framework_name": "Ergodic Circuit Framework", "math_branch": "COMM_COMPLEXITY"} | 4 |
@@ -57,20 +57,16 @@ Generated 2026-05-10 00:30 UTC
 | Tropical Circuit Weight Analysis (BOUNDED_ARITHMETIC) | 3 |
 | Schur-Weyl duality | 3 |
 | Persistent Homology | 3 |
+| Noncommutative Geometry | 3 |
 | Noncommutative geometry | 2 |
 | Representation theory of symmetric groups | 2 |
 | Ergodic Circuit Framework (COMM_COMPLEXITY) | 2 |
 | Tropical geometry | 2 |
-| Schur-Weyl duality, plethysm, algebraic combinatorics | 2 |
 
 ## Last 15 cycles (chronological)
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-09 20:05 UTC | `INCONCLUSIVE` | Newton Polytope Vertex Count Inverse Proportional to SOS Degree f |
-| 2026-05-09 20:11 UTC | `INCONCLUSIVE` | Real Stable Polynomial Degree Lower Bound for Max-CUT SOS |
-| 2026-05-09 20:27 UTC | `INCONCLUSIVE` | Young Tableau Count Inverse Proportional to Monotone Circuit Size |
-| 2026-05-09 21:07 UTC | `INCONCLUSIVE` | Real Root Count Inverse Proportional to SOS Degree for Max-CUT |
 | 2026-05-09 21:15 UTC | `INCONCLUSIVE` | Betti Number Inverse Proportionality to DPLL Tree Size in 3-SAT |
 | 2026-05-09 21:30 UTC | `INCONCLUSIVE` | Schur-Weyl Decomposition Irreducible Component Gap for Permanent  |
 | 2026-05-09 21:52 UTC | `INCONCLUSIVE` | Cheeger Constant Exponentiates Resolution Length for Tseitin Form |
@@ -82,6 +78,10 @@ Generated 2026-05-10 00:30 UTC
 | 2026-05-10 00:08 UTC | `INCONCLUSIVE` | Tropical Convex Hull Extreme Points Lower Bound for ACC^0 Circuit |
 | 2026-05-10 00:22 UTC | `INCONCLUSIVE` | Kronecker Coefficient Exponential Gap in Symmetric Powers of Perm |
 | 2026-05-10 00:30 UTC | `INCONCLUSIVE` | Operator Norm Lower Bound for Disjointness Communication Matrices |
+| 2026-05-10 00:53 UTC | `INCONCLUSIVE` | Tensor Rank Exponential Gap in Read-Twice vs Read-Once Branching  |
+| 2026-05-10 01:02 UTC | `INCONCLUSIVE` | Projective Plane Line Count Bounds ABP Width for Monotone Circuit |
+| 2026-05-10 01:08 UTC | `INCONCLUSIVE` | Quantum Rank Lower Bounds for Disjointness Communication Matrices |
+| 2026-05-10 01:23 UTC | `INCONCLUSIVE` | Symmetric Tensor Rank Gap in Permanent vs Determinant Decompositi |
 
 ## How to read the reports
 
