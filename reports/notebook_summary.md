@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-10 03:39 UTC"
+date: "2026-05-10 04:25 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-10 03:39 UTC
+Generated 2026-05-10 04:25 UTC
 
-- Cycles recorded: **519**
-- Time span: 390.0h (~1.33 cycles/h)
+- Cycles recorded: **522**
+- Time span: 390.7h (~1.34 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 484 |
+| INCONCLUSIVE | 487 |
 | BARRIER_HIT | 16 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -36,7 +36,7 @@ Generated 2026-05-10 03:39 UTC
 | Free Probability | 12 |
 | Schur-Weyl Duality | 12 |
 | Representation Theory of Symmetric Groups | 11 |
-| Matroid Theory | 9 |
+| Matroid Theory | 10 |
 | Algebraic Geometry | 7 |
 | Random Matrix Theory | 6 |
 | Additive Combinatorics | 6 |
@@ -67,9 +67,6 @@ Generated 2026-05-10 03:39 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-09 21:52 UTC | `INCONCLUSIVE` | Cheeger Constant Exponentiates Resolution Length for Tseitin Form |
-| 2026-05-09 22:03 UTC | `INCONCLUSIVE` | p-adic Valuation of Solution Count Modulo p Inversely Proportiona |
-| 2026-05-09 22:15 UTC | `INCONCLUSIVE` | Slice Rank Lower Bound for Disjointness Communication Matrices |
 | 2026-05-09 22:28 UTC | `INCONCLUSIVE` | Symmetric Tensor Rank Gap in Permanent vs Determinant Decompositi |
 | 2026-05-09 22:50 UTC | `INCONCLUSIVE` | Standard Young Tableau Count Exponential Gap in Symmetric Power D |
 | 2026-05-09 23:33 UTC | `INCONCLUSIVE` | Plethysm Multiplicity Exponential Gap in Monotone Permanent vs De |
@@ -82,6 +79,9 @@ Generated 2026-05-10 03:39 UTC
 | 2026-05-10 01:23 UTC | `INCONCLUSIVE` | Symmetric Tensor Rank Gap in Permanent vs Determinant Decompositi |
 | 2026-05-10 01:47 UTC | `INCONCLUSIVE` | Negative Eigenvalue Count Lower Bounds SOS Degree for Max-CUT |
 | 2026-05-10 03:39 UTC | `INCONCLUSIVE` | Plethysm Coefficient Gap in Homogeneous Polynomial Decompositions |
+| 2026-05-10 03:58 UTC | `INCONCLUSIVE` | Hypergraph Maximum Matching Inverse Proportional to ACC^0 Circuit |
+| 2026-05-10 04:08 UTC | `INCONCLUSIVE` | Finite Field Rank and Branching Program Width for Boolean Functio |
+| 2026-05-10 04:25 UTC | `INCONCLUSIVE` | Matroid Rank Inverse Proportional to ACC^0 Circuit Size for GF(2) |
 
 ## How to read the reports
 
