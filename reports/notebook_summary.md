@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-10 20:44 UTC"
+date: "2026-05-10 21:20 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-10 20:44 UTC
+Generated 2026-05-10 21:20 UTC
 
-- Cycles recorded: **564**
-- Time span: 407.1h (~1.39 cycles/h)
+- Cycles recorded: **565**
+- Time span: 407.7h (~1.39 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 527 |
+| INCONCLUSIVE | 528 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -38,8 +38,8 @@ Generated 2026-05-10 20:44 UTC
 | Schur-Weyl Duality | 14 |
 | Matroid Theory | 11 |
 | Additive Combinatorics | 8 |
+| Polymatroid Theory | 8 |
 | Algebraic Geometry | 7 |
-| Polymatroid Theory | 7 |
 | Random Matrix Theory | 6 |
 | Finite Geometry | 6 |
 | Noncommutative L^p Geometry | 6 |
@@ -67,7 +67,6 @@ Generated 2026-05-10 20:44 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-10 14:31 UTC | `INCONCLUSIVE` | Fourier Coefficient Discrepancy and ACC⁰ Circuit Size |
 | 2026-05-10 14:39 UTC | `INCONCLUSIVE` | Fourier Coefficient Concentration and ACC⁰ Circuit Size |
 | 2026-05-10 14:54 UTC | `INCONCLUSIVE` | Moment Matrix Rank Lower Bound for Max-CUT SOS Approximation |
 | 2026-05-10 15:10 UTC | `INCONCLUSIVE` | Kronecker Coefficient Non-Zero Threshold for Permanent-Complete S |
@@ -82,6 +81,7 @@ Generated 2026-05-10 20:44 UTC
 | 2026-05-10 20:31 UTC | `INCONCLUSIVE` | SOS Moment Matrix Rank and Max-CUT Integrality Gap |
 | 2026-05-10 20:37 UTC | `INCONCLUSIVE` | Genus of Communication Curve Bounds Disjointness Complexity |
 | 2026-05-10 20:44 UTC | `INCONCLUSIVE` | Toric Variety Hilbert Function Bounded by SOS Degree for Max-CUT |
+| 2026-05-10 21:20 UTC | `INCONCLUSIVE` | Polymatroid Rank Lower Bound for Monotone k-CLIQUE |
 
 ## How to read the reports
 
