@@ -1,0 +1,122 @@
+# auto-injected by SEC sandbox
+import itertools
+import collections
+import json
+import sys
+import os
+import time
+import re
+from collections import defaultdict, Counter, deque
+from itertools import product, combinations, permutations, chain
+from fractions import Fraction
+from typing import List, Dict, Tuple, Set, Optional, Any, Iterable, Callable
+# end SEC prelude
+
+import random
+import math
+
+def run_trial(seed: int) -> dict:
+    random.seed(seed)
+    
+    def matrix_multiply(A, B):
+        n = len(B[0])
+        result = [[sum(A[i][k] * B[k][j] for k in range(n)) for j in range(n)] for i in range(len(A))]
+        return result
+    
+    def transpose(matrix):
+        return [list(row) for row in zip(*matrix)]
+    
+    def gaussian_elimination(A, b):
+        n = len(A)
+        augmented_matrix = [A[i] + [b[i]] for i in range(n)]
+        for i in range(n):
+            max_row = max(range(i, n), key=lambda x: abs(augmented_matrix[x][i]))
+            augmented_matrix[i], augmented_matrix[max_row] = augmented_matrix[max_row], augmented_matrix[i]
+            for j in range(i + 1, n):
+                factor = augmented_matrix[j][i] / augmented_matrix[i][i]
+                augmented_matrix[j] = [augmented_matrix[j][k] - factor * augmented_matrix[i][k] for k in range(n + 1)]
+        x = [0] * n
+        for i in range(n - 1, -1, -1):
+            x[i] = (augmented_matrix[i][-1] - sum(augmented_matrix[i][j] * x[j] for j in range(i + 1, n))) / augmented_matrix[i][i]
+        return x
+    
+    def solve_linear_system(A, b):
+        x = gaussian_elimination(A, b)
+        return x
+    
+    def eigenvalues(matrix):
+        n = len(matrix)
+        identity = [[0 if i != j else 1 for j in range(n)] for i in range(n)]
+        A = matrix
+        B = identity
+        tol = 1e-6
+        max_iter = 1000
+        for _ in range(max_iter):
+            Q, R = qr_decomposition(A)
+            A = matrix_multiply(R, Q)
+            if max(abs(A[i][j]) for i in range(n) for j in range(i + 1)) < tol:
+                break
+        eigenvals = [A[i][i] for i in range(n)]
+        return eigenvals
+    
+    def qr_decomposition(matrix):
+        n = len(matrix)
+        Q = [[0 if i != j else 1 for j in range(n)] for i in range(n)]
+        R = matrix.copy()
+        for k in range(n):
+            v = [R[i][k] for i in range(k, n)]
+            norm_v = math.sqrt(sum(x**2 for x in v))
+            e_k = [0 if i != k else 1 / norm_v for i in range(n)]
+            Q[k] = [v[i] - norm_v * e_k[i] for i in range(n)]
+            R = [[sum(Q[j][i] * R[j][k] for j in range(k, n)) for k in range(n)] for i in range(n)]
+        return Q, R
+    
+    def degree_optimized_sdp(A):
+        n = len(A)
+        identity = [[0 if i != j else 1 for j in range(n)] for i in range(n)]
+        A_bar = matrix_multiply(transpose(A), A)
+        b = [sum(A[i][j] * (i + j) for j in range(i, n)) / 2 for i in range(n)]
+        x = solve_linear_system(A_bar, b)
+        return sum(x[i]**2 for i in range(n))
+    
+    n = 40
+    A = [[random.choice([0, 1]) if i != j else 0 for j in range(n)] for i in range(n)]
+    for i in range(n):
+        for j in range(i + 1, n):
+            if random.random() < 0.5:
+                A[i][j] = A[j][i] = 1
+    
+    eigenvals = eigenvalues(A)
+    k_G = sum(1 for val in set(eigenvals) if val > 0)
+    
+    d_G = degree_optimized_sdp(A)
+    
+    return {
+        "metric_name": "SOS Degree",
+        "metric_value": d_G,
+        "instances_tested": 1,
+        "conjecture_holds": d_G >= k_G,
+        "counterexample": "" if d_G >= k_G else f"Graph with {n} vertices, k(G)={k_G}, d(G)={d_G}"
+    }
+
+if __name__ == "__main__":
+    import sys
+    seeds = [int(arg) for arg in sys.argv[1:]] or [2**i + 3 for i in range(5, 8)]
+    
+    results = []
+    for seed in seeds:
+        result = run_trial(seed)
+        print(f"TRIAL: {result}")
+        results.append(result)
+    
+    mean_value = sum(res["metric_value"] for res in results) / len(results)
+    std_value = math.sqrt(sum((res["metric_value"] - mean_value)**2 for res in results) / len(results))
+    support_fraction = sum(1 for res in results if res["conjecture_holds"]) / len(results)
+    
+    if all(res["conjecture_holds"] for res in results):
+        print(f"RESULT: SUPPORTED mean={mean_value} std={std_value} support_fraction={support_fraction}")
+    elif any(not res["conjecture_holds"] for res in results) and support_fraction >= 0.8:
+        first_failing_seed = next(res["seed"] for res in results if not res["conjecture_holds"])
+        print(f"RESULT: FALSIFIED counterexample='' first_failing_seed={first_failing_seed}")
+    else:
+        print("RESULT: INCONCLUSIVE insufficient evidence")

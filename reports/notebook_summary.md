@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-10 05:06 UTC"
+date: "2026-05-10 06:28 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-10 05:06 UTC
+Generated 2026-05-10 06:28 UTC
 
-- Cycles recorded: **524**
-- Time span: 391.4h (~1.34 cycles/h)
+- Cycles recorded: **526**
+- Time span: 392.8h (~1.34 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 489 |
+| INCONCLUSIVE | 491 |
 | BARRIER_HIT | 16 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -32,7 +32,7 @@ Generated 2026-05-10 05:06 UTC
 
 | Field | Cycles |
 |---|---|
-| Real Algebraic Geometry | 27 |
+| Real Algebraic Geometry | 28 |
 | Free Probability | 12 |
 | Schur-Weyl Duality | 12 |
 | Representation Theory of Symmetric Groups | 11 |
@@ -56,19 +56,17 @@ Generated 2026-05-10 05:06 UTC
 | {"framework_name": "Tropical Circuit Weight Analysis (TCWA)", "math_branch": "BOUNDED_ARITHMETIC"} | 3 |
 | Tropical Circuit Weight Analysis (BOUNDED_ARITHMETIC) | 3 |
 | Schur-Weyl duality | 3 |
+| Noncommutative L^p Geometry | 3 |
 | Persistent Homology | 3 |
 | Noncommutative Geometry | 3 |
 | Noncommutative geometry | 2 |
 | Representation theory of symmetric groups | 2 |
 | Ergodic Circuit Framework (COMM_COMPLEXITY) | 2 |
-| Tropical geometry | 2 |
 
 ## Last 15 cycles (chronological)
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-09 23:33 UTC | `INCONCLUSIVE` | Plethysm Multiplicity Exponential Gap in Monotone Permanent vs De |
-| 2026-05-10 00:08 UTC | `INCONCLUSIVE` | Tropical Convex Hull Extreme Points Lower Bound for ACC^0 Circuit |
 | 2026-05-10 00:22 UTC | `INCONCLUSIVE` | Kronecker Coefficient Exponential Gap in Symmetric Powers of Perm |
 | 2026-05-10 00:30 UTC | `INCONCLUSIVE` | Operator Norm Lower Bound for Disjointness Communication Matrices |
 | 2026-05-10 00:53 UTC | `INCONCLUSIVE` | Tensor Rank Exponential Gap in Read-Twice vs Read-Once Branching  |
@@ -82,6 +80,8 @@ Generated 2026-05-10 05:06 UTC
 | 2026-05-10 04:25 UTC | `INCONCLUSIVE` | Matroid Rank Inverse Proportional to ACC^0 Circuit Size for GF(2) |
 | 2026-05-10 04:55 UTC | `INCONCLUSIVE` | Secant Variety Dimension Lower Bounds Disjointness Communication  |
 | 2026-05-10 05:06 UTC | `INCONCLUSIVE` | Real Critical Point Count Exponential in SOS Degree for Max-CUT |
+| 2026-05-10 05:57 UTC | `INCONCLUSIVE` | Schatten p-Norm Lower Bound for Disjointness Communication Comple |
+| 2026-05-10 06:28 UTC | `INCONCLUSIVE` | SOS Degree Lower Bound via Adjacency Eigenvalue Multiplicity |
 
 ## How to read the reports
 
