@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-10 16:34 UTC"
+date: "2026-05-10 17:37 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-10 16:34 UTC
+Generated 2026-05-10 17:37 UTC
 
-- Cycles recorded: **555**
-- Time span: 402.9h (~1.38 cycles/h)
+- Cycles recorded: **557**
+- Time span: 403.9h (~1.38 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 518 |
+| INCONCLUSIVE | 520 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -33,7 +33,7 @@ Generated 2026-05-10 16:34 UTC
 | Field | Cycles |
 |---|---|
 | Real Algebraic Geometry | 30 |
-| Representation Theory of Symmetric Groups | 16 |
+| Representation Theory of Symmetric Groups | 17 |
 | Free Probability | 14 |
 | Schur-Weyl Duality | 14 |
 | Matroid Theory | 11 |
@@ -67,8 +67,6 @@ Generated 2026-05-10 16:34 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-10 11:43 UTC | `INCONCLUSIVE` | Automorphism Group Generator Count Bounded by ABP Width for Symme |
-| 2026-05-10 11:59 UTC | `INCONCLUSIVE` | Jordan Algebra Rank Inverse Proportional to ABP Width for Symmetr |
 | 2026-05-10 12:05 UTC | `INCONCLUSIVE` | Matroid Rank Inverse Proportional to Monotone DNF Discrepancy for |
 | 2026-05-10 12:27 UTC | `INCONCLUSIVE` | Symmetric Group Fourier Coefficient Sum Exponential Gap Between P |
 | 2026-05-10 12:38 UTC | `INCONCLUSIVE` | Schur-Weyl Duality Invariant for Permanent vs Determinant Circuit |
@@ -82,6 +80,8 @@ Generated 2026-05-10 16:34 UTC
 | 2026-05-10 15:10 UTC | `INCONCLUSIVE` | Kronecker Coefficient Non-Zero Threshold for Permanent-Complete S |
 | 2026-05-10 16:28 UTC | `INCONCLUSIVE` | SOS Degree Lower Bound via Matroid Polytope Dimension |
 | 2026-05-10 16:34 UTC | `BARRIER_HIT` | Schur Coefficient Exponential Gap in 3-CNF Permanent vs Determina |
+| 2026-05-10 17:22 UTC | `INCONCLUSIVE` | Symmetric Group Fourier Coefficient Gap in Disjointness Communica |
+| 2026-05-10 17:37 UTC | `INCONCLUSIVE` | Harmonic Coefficient Sum Lower Bound for Resolution Proof Length |
 
 ## How to read the reports
 
