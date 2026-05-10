@@ -74,12 +74,12 @@
   "embedded": 921,
   "fetched_span_h": 201.63569606112108,
   "last_update": {
-    "last_update_ts": 1778407992.2712648,
+    "last_update_ts": 1778436745.9969282,
     "by_category": {
       "cs.CC": {
-        "fetched": 50,
+        "fetched": 0,
         "new": 0,
-        "skipped": 50
+        "skipped": 0
       },
       "cs.DS": {
         "fetched": 50,
@@ -87,9 +87,9 @@
         "skipped": 50
       },
       "cs.LO": {
-        "fetched": 0,
+        "fetched": 50,
         "new": 0,
-        "skipped": 0
+        "skipped": 50
       },
       "math.CO": {
         "fetched": 50,

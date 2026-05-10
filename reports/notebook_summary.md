@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-10 18:03 UTC"
+date: "2026-05-10 19:08 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-10 18:03 UTC
+Generated 2026-05-10 19:08 UTC
 
-- Cycles recorded: **558**
-- Time span: 404.4h (~1.38 cycles/h)
+- Cycles recorded: **559**
+- Time span: 405.5h (~1.38 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 521 |
+| INCONCLUSIVE | 522 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -67,7 +67,6 @@ Generated 2026-05-10 18:03 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-10 12:27 UTC | `INCONCLUSIVE` | Symmetric Group Fourier Coefficient Sum Exponential Gap Between P |
 | 2026-05-10 12:38 UTC | `INCONCLUSIVE` | Schur-Weyl Duality Invariant for Permanent vs Determinant Circuit |
 | 2026-05-10 12:46 UTC | `INCONCLUSIVE` | Schur-Weyl Dimension Gap in 3-CNF Permanent vs Determinant Shapes |
 | 2026-05-10 13:07 UTC | `INCONCLUSIVE` | Noncommutative L^p Norm Lower Bound for Disjointness Communicatio |
@@ -82,6 +81,7 @@ Generated 2026-05-10 18:03 UTC
 | 2026-05-10 17:22 UTC | `INCONCLUSIVE` | Symmetric Group Fourier Coefficient Gap in Disjointness Communica |
 | 2026-05-10 17:37 UTC | `INCONCLUSIVE` | Harmonic Coefficient Sum Lower Bound for Resolution Proof Length |
 | 2026-05-10 18:03 UTC | `INCONCLUSIVE` | Noncommutative L^p Norm Lower Bounds for Disjointness Communicati |
+| 2026-05-10 19:08 UTC | `INCONCLUSIVE` | Cheeger Constant Exponentiates Resolution Length for Tseitin Form |
 
 ## How to read the reports
 
