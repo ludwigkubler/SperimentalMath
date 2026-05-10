@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-10 10:35 UTC"
+date: "2026-05-10 11:43 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-10 10:35 UTC
+Generated 2026-05-10 11:43 UTC
 
-- Cycles recorded: **538**
-- Time span: 396.9h (~1.36 cycles/h)
+- Cycles recorded: **541**
+- Time span: 398.1h (~1.36 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 503 |
+| INCONCLUSIVE | 506 |
 | BARRIER_HIT | 16 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -33,7 +33,7 @@ Generated 2026-05-10 10:35 UTC
 | Field | Cycles |
 |---|---|
 | Real Algebraic Geometry | 29 |
-| Free Probability | 13 |
+| Free Probability | 14 |
 | Schur-Weyl Duality | 12 |
 | Representation Theory of Symmetric Groups | 12 |
 | Matroid Theory | 10 |
@@ -67,9 +67,6 @@ Generated 2026-05-10 10:35 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-10 05:06 UTC | `INCONCLUSIVE` | Real Critical Point Count Exponential in SOS Degree for Max-CUT |
-| 2026-05-10 05:57 UTC | `INCONCLUSIVE` | Schatten p-Norm Lower Bound for Disjointness Communication Comple |
-| 2026-05-10 06:28 UTC | `INCONCLUSIVE` | SOS Degree Lower Bound via Adjacency Eigenvalue Multiplicity |
 | 2026-05-10 07:07 UTC | `INCONCLUSIVE` | Additive Energy Lower Bound via Read-Twice Branching Program Disc |
 | 2026-05-10 07:15 UTC | `INCONCLUSIVE` | Real Root Count Exponential in AC⁰ PARITY Circuits |
 | 2026-05-10 07:36 UTC | `INCONCLUSIVE` | Polymatroid Rank Lower Bound for Monotone CLIQUE |
@@ -82,6 +79,9 @@ Generated 2026-05-10 10:35 UTC
 | 2026-05-10 09:46 UTC | `INCONCLUSIVE` | Free Entropy Distinguishes Read-Twice BPs from IP_2 Trivial Ones |
 | 2026-05-10 09:56 UTC | `INCONCLUSIVE` | Association Scheme Eigenvalue Inverse Proportional to ACC^0 Circu |
 | 2026-05-10 10:35 UTC | `INCONCLUSIVE` | Schatten p-Norm Lower Bound for Disjointness Communication Matric |
+| 2026-05-10 11:14 UTC | `INCONCLUSIVE` | Free Entropy Gap in Read-Twice Branching Programs for IP_2 |
+| 2026-05-10 11:23 UTC | `INCONCLUSIVE` | Non-Commutative Fourier L1 Norm Distinguishes Read-Twice from Rea |
+| 2026-05-10 11:43 UTC | `INCONCLUSIVE` | Automorphism Group Generator Count Bounded by ABP Width for Symme |
 
 ## How to read the reports
 
