@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-10 12:46 UTC"
+date: "2026-05-10 13:12 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,18 +13,18 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-10 12:46 UTC
+Generated 2026-05-10 13:12 UTC
 
-- Cycles recorded: **546**
-- Time span: 399.1h (~1.37 cycles/h)
+- Cycles recorded: **548**
+- Time span: 399.5h (~1.37 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 511 |
-| BARRIER_HIT | 16 |
+| INCONCLUSIVE | 512 |
+| BARRIER_HIT | 17 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
 
@@ -35,7 +35,7 @@ Generated 2026-05-10 12:46 UTC
 | Real Algebraic Geometry | 29 |
 | Free Probability | 14 |
 | Schur-Weyl Duality | 14 |
-| Representation Theory of Symmetric Groups | 13 |
+| Representation Theory of Symmetric Groups | 14 |
 | Matroid Theory | 11 |
 | Algebraic Geometry | 7 |
 | Additive Combinatorics | 7 |
@@ -44,10 +44,10 @@ Generated 2026-05-10 12:46 UTC
 | Finite Geometry | 6 |
 | Spectral Graph Theory | 6 |
 | Plethysm Theory | 6 |
+| Noncommutative L^p Geometry | 5 |
 | Ergodic Circuit Framework (communication complexity via dynamical systems) | 4 |
 | {"framework_name": "Ergodic Circuit Framework", "math_branch": "COMM_COMPLEXITY"} | 4 |
 | Fourier Analysis on Boolean Functions | 4 |
-| Noncommutative L^p Geometry | 4 |
 | Algebraic Geometry of Secant Varieties | 4 |
 | FOURIER_ANALYSIS | 4 |
 | Fourier analysis of boolean functions | 3 |
@@ -67,8 +67,6 @@ Generated 2026-05-10 12:46 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-10 08:23 UTC | `INCONCLUSIVE` | BIBD Incidence Matrix ACC⁰ Circuit Size Lower Bound |
-| 2026-05-10 09:07 UTC | `INCONCLUSIVE` | Minimal Incidence Count Inverse Proportional to Disjointness Comm |
 | 2026-05-10 09:21 UTC | `INCONCLUSIVE` | Standard Young Tableau Count Exponential Gap in Symmetric Power D |
 | 2026-05-10 09:36 UTC | `INCONCLUSIVE` | Symmetric Group Orbit Count Invariant for AC⁰ PARITY Circuits |
 | 2026-05-10 09:46 UTC | `INCONCLUSIVE` | Free Entropy Distinguishes Read-Twice BPs from IP_2 Trivial Ones |
@@ -82,6 +80,8 @@ Generated 2026-05-10 12:46 UTC
 | 2026-05-10 12:27 UTC | `INCONCLUSIVE` | Symmetric Group Fourier Coefficient Sum Exponential Gap Between P |
 | 2026-05-10 12:38 UTC | `INCONCLUSIVE` | Schur-Weyl Duality Invariant for Permanent vs Determinant Circuit |
 | 2026-05-10 12:46 UTC | `INCONCLUSIVE` | Schur-Weyl Dimension Gap in 3-CNF Permanent vs Determinant Shapes |
+| 2026-05-10 13:07 UTC | `INCONCLUSIVE` | Noncommutative L^p Norm Lower Bound for Disjointness Communicatio |
+| 2026-05-10 13:12 UTC | `BARRIER_HIT` | Schur Coefficient Gap in Permanent vs Determinant Decompositions |
 
 ## How to read the reports
 

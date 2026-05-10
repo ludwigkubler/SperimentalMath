@@ -1,11 +1,11 @@
 {
-  "last_update_utc": "2026-05-10T12:47:02Z",
-  "total_cycles": 546,
+  "last_update_utc": "2026-05-10T13:47:02Z",
+  "total_cycles": 548,
   "verdict_counts": {
-    "INCONCLUSIVE": 511,
+    "INCONCLUSIVE": 512,
     "SUPPORTED": 4,
     "FALSIFIED": 15,
-    "BARRIER_HIT": 16
+    "BARRIER_HIT": 17
   },
   "unique_field_A": 371,
   "top_fields_A": [
@@ -23,7 +23,7 @@
     ],
     [
       "Representation Theory of Symmetric Groups",
-      13
+      14
     ],
     [
       "Matroid Theory",
@@ -58,15 +58,15 @@
       6
     ],
     [
+      "Noncommutative L^p Geometry",
+      5
+    ],
+    [
       "Ergodic Circuit Framework (communication complexity via dynamical systems)",
       4
     ],
     [
       "{'framework_name': 'Ergodic Circuit Framework', 'math_branch': 'COMM_COMPLEXITY'}",
-      4
-    ],
-    [
-      "Fourier Analysis on Boolean Functions",
       4
     ]
   ]
