@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-10 19:08 UTC"
+date: "2026-05-10 20:44 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-10 19:08 UTC
+Generated 2026-05-10 20:44 UTC
 
-- Cycles recorded: **559**
-- Time span: 405.5h (~1.38 cycles/h)
+- Cycles recorded: **564**
+- Time span: 407.1h (~1.39 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 522 |
+| INCONCLUSIVE | 527 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -32,7 +32,7 @@ Generated 2026-05-10 19:08 UTC
 
 | Field | Cycles |
 |---|---|
-| Real Algebraic Geometry | 30 |
+| Real Algebraic Geometry | 31 |
 | Representation Theory of Symmetric Groups | 17 |
 | Free Probability | 14 |
 | Schur-Weyl Duality | 14 |
@@ -67,11 +67,6 @@ Generated 2026-05-10 19:08 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-10 12:38 UTC | `INCONCLUSIVE` | Schur-Weyl Duality Invariant for Permanent vs Determinant Circuit |
-| 2026-05-10 12:46 UTC | `INCONCLUSIVE` | Schur-Weyl Dimension Gap in 3-CNF Permanent vs Determinant Shapes |
-| 2026-05-10 13:07 UTC | `INCONCLUSIVE` | Noncommutative L^p Norm Lower Bound for Disjointness Communicatio |
-| 2026-05-10 13:12 UTC | `BARRIER_HIT` | Schur Coefficient Gap in Permanent vs Determinant Decompositions |
-| 2026-05-10 14:15 UTC | `INCONCLUSIVE` | Secant Variety Dimension Gap in Determinant vs Permanent Orbits f |
 | 2026-05-10 14:31 UTC | `INCONCLUSIVE` | Fourier Coefficient Discrepancy and ACC⁰ Circuit Size |
 | 2026-05-10 14:39 UTC | `INCONCLUSIVE` | Fourier Coefficient Concentration and ACC⁰ Circuit Size |
 | 2026-05-10 14:54 UTC | `INCONCLUSIVE` | Moment Matrix Rank Lower Bound for Max-CUT SOS Approximation |
@@ -82,6 +77,11 @@ Generated 2026-05-10 19:08 UTC
 | 2026-05-10 17:37 UTC | `INCONCLUSIVE` | Harmonic Coefficient Sum Lower Bound for Resolution Proof Length |
 | 2026-05-10 18:03 UTC | `INCONCLUSIVE` | Noncommutative L^p Norm Lower Bounds for Disjointness Communicati |
 | 2026-05-10 19:08 UTC | `INCONCLUSIVE` | Cheeger Constant Exponentiates Resolution Length for Tseitin Form |
+| 2026-05-10 19:52 UTC | `INCONCLUSIVE` | Hilbert Function Inverse Proportional to 3-SAT Solution Count |
+| 2026-05-10 20:25 UTC | `INCONCLUSIVE` | Tropical Rank Gap in Read-Twice BP Transition Matrices |
+| 2026-05-10 20:31 UTC | `INCONCLUSIVE` | SOS Moment Matrix Rank and Max-CUT Integrality Gap |
+| 2026-05-10 20:37 UTC | `INCONCLUSIVE` | Genus of Communication Curve Bounds Disjointness Complexity |
+| 2026-05-10 20:44 UTC | `INCONCLUSIVE` | Toric Variety Hilbert Function Bounded by SOS Degree for Max-CUT |
 
 ## How to read the reports
 
