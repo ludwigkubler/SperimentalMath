@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-10 22:42 UTC"
+date: "2026-05-10 23:30 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-10 22:42 UTC
+Generated 2026-05-10 23:30 UTC
 
-- Cycles recorded: **569**
-- Time span: 409.0h (~1.39 cycles/h)
+- Cycles recorded: **570**
+- Time span: 409.8h (~1.39 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 532 |
+| INCONCLUSIVE | 533 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -67,7 +67,6 @@ Generated 2026-05-10 22:42 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-10 16:34 UTC | `BARRIER_HIT` | Schur Coefficient Exponential Gap in 3-CNF Permanent vs Determina |
 | 2026-05-10 17:22 UTC | `INCONCLUSIVE` | Symmetric Group Fourier Coefficient Gap in Disjointness Communica |
 | 2026-05-10 17:37 UTC | `INCONCLUSIVE` | Harmonic Coefficient Sum Lower Bound for Resolution Proof Length |
 | 2026-05-10 18:03 UTC | `INCONCLUSIVE` | Noncommutative L^p Norm Lower Bounds for Disjointness Communicati |
@@ -82,6 +81,7 @@ Generated 2026-05-10 22:42 UTC
 | 2026-05-10 21:59 UTC | `INCONCLUSIVE` | Spectral Concentration of Moment Matrices in Max-CUT SOS Hierarch |
 | 2026-05-10 22:09 UTC | `INCONCLUSIVE` | Noncommutative Fourier Coefficient Gap in Read-Twice BPs for IP_2 |
 | 2026-05-10 22:42 UTC | `INCONCLUSIVE` | Additive Energy Inverse Proportional to Disjointness Discrepancy |
+| 2026-05-10 23:07 UTC | `INCONCLUSIVE` | Moment-Matrix Spectral Norm Inverse Proportional to Communication |
 
 ## How to read the reports
 
