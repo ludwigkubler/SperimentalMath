@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-10 01:30 UTC"
+date: "2026-05-10 01:47 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-10 01:30 UTC
+Generated 2026-05-10 01:47 UTC
 
-- Cycles recorded: **517**
-- Time span: 387.8h (~1.33 cycles/h)
+- Cycles recorded: **518**
+- Time span: 388.1h (~1.33 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 482 |
+| INCONCLUSIVE | 483 |
 | BARRIER_HIT | 16 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -32,7 +32,7 @@ Generated 2026-05-10 01:30 UTC
 
 | Field | Cycles |
 |---|---|
-| Real Algebraic Geometry | 25 |
+| Real Algebraic Geometry | 26 |
 | Free Probability | 12 |
 | Schur-Weyl Duality | 12 |
 | Representation Theory of Symmetric Groups | 11 |
@@ -67,7 +67,6 @@ Generated 2026-05-10 01:30 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-09 21:15 UTC | `INCONCLUSIVE` | Betti Number Inverse Proportionality to DPLL Tree Size in 3-SAT |
 | 2026-05-09 21:30 UTC | `INCONCLUSIVE` | Schur-Weyl Decomposition Irreducible Component Gap for Permanent  |
 | 2026-05-09 21:52 UTC | `INCONCLUSIVE` | Cheeger Constant Exponentiates Resolution Length for Tseitin Form |
 | 2026-05-09 22:03 UTC | `INCONCLUSIVE` | p-adic Valuation of Solution Count Modulo p Inversely Proportiona |
@@ -82,6 +81,7 @@ Generated 2026-05-10 01:30 UTC
 | 2026-05-10 01:02 UTC | `INCONCLUSIVE` | Projective Plane Line Count Bounds ABP Width for Monotone Circuit |
 | 2026-05-10 01:08 UTC | `INCONCLUSIVE` | Quantum Rank Lower Bounds for Disjointness Communication Matrices |
 | 2026-05-10 01:23 UTC | `INCONCLUSIVE` | Symmetric Tensor Rank Gap in Permanent vs Determinant Decompositi |
+| 2026-05-10 01:47 UTC | `INCONCLUSIVE` | Negative Eigenvalue Count Lower Bounds SOS Degree for Max-CUT |
 
 ## How to read the reports
 
