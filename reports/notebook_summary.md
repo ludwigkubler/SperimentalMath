@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-10 17:37 UTC"
+date: "2026-05-10 18:03 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-10 17:37 UTC
+Generated 2026-05-10 18:03 UTC
 
-- Cycles recorded: **557**
-- Time span: 403.9h (~1.38 cycles/h)
+- Cycles recorded: **558**
+- Time span: 404.4h (~1.38 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 520 |
+| INCONCLUSIVE | 521 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -42,9 +42,9 @@ Generated 2026-05-10 17:37 UTC
 | Polymatroid Theory | 7 |
 | Random Matrix Theory | 6 |
 | Finite Geometry | 6 |
+| Noncommutative L^p Geometry | 6 |
 | Spectral Graph Theory | 6 |
 | Plethysm Theory | 6 |
-| Noncommutative L^p Geometry | 5 |
 | Ergodic Circuit Framework (communication complexity via dynamical systems) | 4 |
 | {"framework_name": "Ergodic Circuit Framework", "math_branch": "COMM_COMPLEXITY"} | 4 |
 | Fourier Analysis on Boolean Functions | 4 |
@@ -67,7 +67,6 @@ Generated 2026-05-10 17:37 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-10 12:05 UTC | `INCONCLUSIVE` | Matroid Rank Inverse Proportional to Monotone DNF Discrepancy for |
 | 2026-05-10 12:27 UTC | `INCONCLUSIVE` | Symmetric Group Fourier Coefficient Sum Exponential Gap Between P |
 | 2026-05-10 12:38 UTC | `INCONCLUSIVE` | Schur-Weyl Duality Invariant for Permanent vs Determinant Circuit |
 | 2026-05-10 12:46 UTC | `INCONCLUSIVE` | Schur-Weyl Dimension Gap in 3-CNF Permanent vs Determinant Shapes |
@@ -82,6 +81,7 @@ Generated 2026-05-10 17:37 UTC
 | 2026-05-10 16:34 UTC | `BARRIER_HIT` | Schur Coefficient Exponential Gap in 3-CNF Permanent vs Determina |
 | 2026-05-10 17:22 UTC | `INCONCLUSIVE` | Symmetric Group Fourier Coefficient Gap in Disjointness Communica |
 | 2026-05-10 17:37 UTC | `INCONCLUSIVE` | Harmonic Coefficient Sum Lower Bound for Resolution Proof Length |
+| 2026-05-10 18:03 UTC | `INCONCLUSIVE` | Noncommutative L^p Norm Lower Bounds for Disjointness Communicati |
 
 ## How to read the reports
 

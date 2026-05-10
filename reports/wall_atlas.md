@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — Wall atlas"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-10 15:00 UTC"
+date: "2026-05-10 18:00 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,7 +13,7 @@ colorlinks: true
 
 # SEC P vs NP — Wall atlas
 
-Compiled 2026-05-10 15:00 UTC. 33 total barrier rejections logged.
+Compiled 2026-05-10 18:00 UTC. 34 total barrier rejections logged.
 
 This is the **map of known walls** encountered by the barrier filter. Each entry below was a proposed conjecture that, according to dual-LLM agreement, would fall to one of the four classical barriers. Patterns in this data tell us where the proposer keeps tripping.
 
@@ -21,8 +21,8 @@ This is the **map of known walls** encountered by the barrier filter. Each entry
 
 | Barrier | Rejections |
 |---------|-----------:|
+| `ALGEBRIZATION` | 12 |
 | `NATURAL_PROOFS` | 12 |
-| `ALGEBRIZATION` | 11 |
 | `RELATIVIZATION` | 7 |
 | `KARP_LIPTON` | 3 |
 
@@ -35,15 +35,14 @@ This is the **map of known walls** encountered by the barrier filter. Each entry
 | Arithmetic interactive proofs | 4 | `ALGEBRIZATION` |
 | Meta-complexity | 3 | `KARP_LIPTON` |
 | {"framework_name": "Tropical Circuit Weight Analysis (TCWA)" | 2 | `ALGEBRIZATION` |
+| Representation Theory of Symmetric Groups | 2 | `ALGEBRIZATION` |
 | Abstract recursion | 1 | `RELATIVIZATION` |
 | Schur-Horn majorization theory (doubly-stochastic / diagonal | 1 | `NATURAL_PROOFS` |
 | Quantile statistics of random subcube restrictions (order-st | 1 | `NATURAL_PROOFS` |
 | Coarse Geometric Karchmer-Wigderson (CG-KW); coarse geometry | 1 | `NATURAL_PROOFS` |
-| Coarse Geometric Karchmer-Wigderson (CG-KW) framework / coar | 1 | `NATURAL_PROOFS` |
 
 ## Recent rejections (last 15)
 
-- [2026-04-27 21:34 UTC] `NATURAL_PROOFS` (conf 0.70) — Diameter-Multiplicity Power Law under Controlled Refinement Recovers Coarse Dept
 - [2026-04-27 23:36 UTC] `NATURAL_PROOFS` (conf 0.78) — Monotone Ultralimit Convergence of κ along the Asymptotic Completion of the Majo
 - [2026-04-28 09:18 UTC] `NATURAL_PROOFS` (conf 0.85) — Mahler Measure of Truth-Table Polynomial Lower-Bounds DNF_min
 - [2026-04-29 23:34 UTC] `ALGEBRIZATION` (conf 0.90) — Tropical Circuit Weight Accumulation Bound
@@ -58,3 +57,4 @@ This is the **map of known walls** encountered by the barrier filter. Each entry
 - [2026-05-08 11:12 UTC] `NATURAL_PROOFS` (conf 0.78) — Lasserre Moment-Rank Gap of Accept Set Bounds AC0 PARITY Size
 - [2026-05-08 15:19 UTC] `ALGEBRIZATION` (conf 0.95) — Bounded Arithmetic Complexity of Algebraic Closure in Finite Fields
 - [2026-05-10 13:12 UTC] `ALGEBRIZATION` (conf 0.95) — Schur Coefficient Gap in Permanent vs Determinant Decompositions
+- [2026-05-10 16:34 UTC] `ALGEBRIZATION` (conf 0.95) — Schur Coefficient Exponential Gap in 3-CNF Permanent vs Determinant
