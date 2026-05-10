@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-10 11:43 UTC"
+date: "2026-05-10 12:46 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-10 11:43 UTC
+Generated 2026-05-10 12:46 UTC
 
-- Cycles recorded: **541**
-- Time span: 398.1h (~1.36 cycles/h)
+- Cycles recorded: **546**
+- Time span: 399.1h (~1.37 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 506 |
+| INCONCLUSIVE | 511 |
 | BARRIER_HIT | 16 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -34,9 +34,9 @@ Generated 2026-05-10 11:43 UTC
 |---|---|
 | Real Algebraic Geometry | 29 |
 | Free Probability | 14 |
-| Schur-Weyl Duality | 12 |
-| Representation Theory of Symmetric Groups | 12 |
-| Matroid Theory | 10 |
+| Schur-Weyl Duality | 14 |
+| Representation Theory of Symmetric Groups | 13 |
+| Matroid Theory | 11 |
 | Algebraic Geometry | 7 |
 | Additive Combinatorics | 7 |
 | Polymatroid Theory | 7 |
@@ -67,11 +67,6 @@ Generated 2026-05-10 11:43 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-10 07:07 UTC | `INCONCLUSIVE` | Additive Energy Lower Bound via Read-Twice Branching Program Disc |
-| 2026-05-10 07:15 UTC | `INCONCLUSIVE` | Real Root Count Exponential in AC⁰ PARITY Circuits |
-| 2026-05-10 07:36 UTC | `INCONCLUSIVE` | Polymatroid Rank Lower Bound for Monotone CLIQUE |
-| 2026-05-10 07:48 UTC | `INCONCLUSIVE` | Modular Character Degree Gap in Permanent vs Determinant Circuits |
-| 2026-05-10 08:11 UTC | `INCONCLUSIVE` | Class Number Inverse Proportional to Resolution Length in 3-SAT |
 | 2026-05-10 08:23 UTC | `INCONCLUSIVE` | BIBD Incidence Matrix ACC⁰ Circuit Size Lower Bound |
 | 2026-05-10 09:07 UTC | `INCONCLUSIVE` | Minimal Incidence Count Inverse Proportional to Disjointness Comm |
 | 2026-05-10 09:21 UTC | `INCONCLUSIVE` | Standard Young Tableau Count Exponential Gap in Symmetric Power D |
@@ -82,6 +77,11 @@ Generated 2026-05-10 11:43 UTC
 | 2026-05-10 11:14 UTC | `INCONCLUSIVE` | Free Entropy Gap in Read-Twice Branching Programs for IP_2 |
 | 2026-05-10 11:23 UTC | `INCONCLUSIVE` | Non-Commutative Fourier L1 Norm Distinguishes Read-Twice from Rea |
 | 2026-05-10 11:43 UTC | `INCONCLUSIVE` | Automorphism Group Generator Count Bounded by ABP Width for Symme |
+| 2026-05-10 11:59 UTC | `INCONCLUSIVE` | Jordan Algebra Rank Inverse Proportional to ABP Width for Symmetr |
+| 2026-05-10 12:05 UTC | `INCONCLUSIVE` | Matroid Rank Inverse Proportional to Monotone DNF Discrepancy for |
+| 2026-05-10 12:27 UTC | `INCONCLUSIVE` | Symmetric Group Fourier Coefficient Sum Exponential Gap Between P |
+| 2026-05-10 12:38 UTC | `INCONCLUSIVE` | Schur-Weyl Duality Invariant for Permanent vs Determinant Circuit |
+| 2026-05-10 12:46 UTC | `INCONCLUSIVE` | Schur-Weyl Dimension Gap in 3-CNF Permanent vs Determinant Shapes |
 
 ## How to read the reports
 
