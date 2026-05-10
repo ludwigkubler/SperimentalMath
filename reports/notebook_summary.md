@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-10 09:46 UTC"
+date: "2026-05-10 10:35 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-10 09:46 UTC
+Generated 2026-05-10 10:35 UTC
 
-- Cycles recorded: **536**
-- Time span: 396.1h (~1.35 cycles/h)
+- Cycles recorded: **538**
+- Time span: 396.9h (~1.36 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 501 |
+| INCONCLUSIVE | 503 |
 | BARRIER_HIT | 16 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -47,6 +47,7 @@ Generated 2026-05-10 09:46 UTC
 | Ergodic Circuit Framework (communication complexity via dynamical systems) | 4 |
 | {"framework_name": "Ergodic Circuit Framework", "math_branch": "COMM_COMPLEXITY"} | 4 |
 | Fourier Analysis on Boolean Functions | 4 |
+| Noncommutative L^p Geometry | 4 |
 | Algebraic Geometry of Secant Varieties | 4 |
 | FOURIER_ANALYSIS | 4 |
 | Fourier analysis of boolean functions | 3 |
@@ -56,7 +57,6 @@ Generated 2026-05-10 09:46 UTC
 | {"framework_name": "Tropical Circuit Weight Analysis (TCWA)", "math_branch": "BOUNDED_ARITHMETIC"} | 3 |
 | Tropical Circuit Weight Analysis (BOUNDED_ARITHMETIC) | 3 |
 | Schur-Weyl duality | 3 |
-| Noncommutative L^p Geometry | 3 |
 | Persistent Homology | 3 |
 | Noncommutative Geometry | 3 |
 | Noncommutative geometry | 2 |
@@ -67,8 +67,6 @@ Generated 2026-05-10 09:46 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-10 04:25 UTC | `INCONCLUSIVE` | Matroid Rank Inverse Proportional to ACC^0 Circuit Size for GF(2) |
-| 2026-05-10 04:55 UTC | `INCONCLUSIVE` | Secant Variety Dimension Lower Bounds Disjointness Communication  |
 | 2026-05-10 05:06 UTC | `INCONCLUSIVE` | Real Critical Point Count Exponential in SOS Degree for Max-CUT |
 | 2026-05-10 05:57 UTC | `INCONCLUSIVE` | Schatten p-Norm Lower Bound for Disjointness Communication Comple |
 | 2026-05-10 06:28 UTC | `INCONCLUSIVE` | SOS Degree Lower Bound via Adjacency Eigenvalue Multiplicity |
@@ -82,6 +80,8 @@ Generated 2026-05-10 09:46 UTC
 | 2026-05-10 09:21 UTC | `INCONCLUSIVE` | Standard Young Tableau Count Exponential Gap in Symmetric Power D |
 | 2026-05-10 09:36 UTC | `INCONCLUSIVE` | Symmetric Group Orbit Count Invariant for AC⁰ PARITY Circuits |
 | 2026-05-10 09:46 UTC | `INCONCLUSIVE` | Free Entropy Distinguishes Read-Twice BPs from IP_2 Trivial Ones |
+| 2026-05-10 09:56 UTC | `INCONCLUSIVE` | Association Scheme Eigenvalue Inverse Proportional to ACC^0 Circu |
+| 2026-05-10 10:35 UTC | `INCONCLUSIVE` | Schatten p-Norm Lower Bound for Disjointness Communication Matric |
 
 ## How to read the reports
 
