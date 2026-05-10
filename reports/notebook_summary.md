@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-09 23:33 UTC"
+date: "2026-05-10 00:30 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-09 23:33 UTC
+Generated 2026-05-10 00:30 UTC
 
-- Cycles recorded: **510**
-- Time span: 385.9h (~1.32 cycles/h)
+- Cycles recorded: **513**
+- Time span: 386.8h (~1.33 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 475 |
+| INCONCLUSIVE | 478 |
 | BARRIER_HIT | 16 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -35,8 +35,8 @@ Generated 2026-05-09 23:33 UTC
 | Real Algebraic Geometry | 25 |
 | Free Probability | 12 |
 | Schur-Weyl Duality | 12 |
+| Representation Theory of Symmetric Groups | 10 |
 | Matroid Theory | 9 |
-| Representation Theory of Symmetric Groups | 9 |
 | Algebraic Geometry | 7 |
 | Random Matrix Theory | 6 |
 | Additive Combinatorics | 6 |
@@ -67,9 +67,6 @@ Generated 2026-05-09 23:33 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-09 19:24 UTC | `INCONCLUSIVE` | Symmetric Group Irreducible Component Exponential Gap in Permanen |
-| 2026-05-09 19:47 UTC | `INCONCLUSIVE` | Quadratic Form Rank Inverse Proportional to SOS Refutation Degree |
-| 2026-05-09 19:56 UTC | `INCONCLUSIVE` | Algebraic Circuit Complexity via Monodromy Action on Tseitin Form |
 | 2026-05-09 20:05 UTC | `INCONCLUSIVE` | Newton Polytope Vertex Count Inverse Proportional to SOS Degree f |
 | 2026-05-09 20:11 UTC | `INCONCLUSIVE` | Real Stable Polynomial Degree Lower Bound for Max-CUT SOS |
 | 2026-05-09 20:27 UTC | `INCONCLUSIVE` | Young Tableau Count Inverse Proportional to Monotone Circuit Size |
@@ -82,6 +79,9 @@ Generated 2026-05-09 23:33 UTC
 | 2026-05-09 22:28 UTC | `INCONCLUSIVE` | Symmetric Tensor Rank Gap in Permanent vs Determinant Decompositi |
 | 2026-05-09 22:50 UTC | `INCONCLUSIVE` | Standard Young Tableau Count Exponential Gap in Symmetric Power D |
 | 2026-05-09 23:33 UTC | `INCONCLUSIVE` | Plethysm Multiplicity Exponential Gap in Monotone Permanent vs De |
+| 2026-05-10 00:08 UTC | `INCONCLUSIVE` | Tropical Convex Hull Extreme Points Lower Bound for ACC^0 Circuit |
+| 2026-05-10 00:22 UTC | `INCONCLUSIVE` | Kronecker Coefficient Exponential Gap in Symmetric Powers of Perm |
+| 2026-05-10 00:30 UTC | `INCONCLUSIVE` | Operator Norm Lower Bound for Disjointness Communication Matrices |
 
 ## How to read the reports
 
