@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-10 07:36 UTC"
+date: "2026-05-10 08:23 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-10 07:36 UTC
+Generated 2026-05-10 08:23 UTC
 
-- Cycles recorded: **529**
-- Time span: 393.9h (~1.34 cycles/h)
+- Cycles recorded: **532**
+- Time span: 394.7h (~1.35 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 494 |
+| INCONCLUSIVE | 497 |
 | BARRIER_HIT | 16 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -67,9 +67,6 @@ Generated 2026-05-10 07:36 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-10 01:02 UTC | `INCONCLUSIVE` | Projective Plane Line Count Bounds ABP Width for Monotone Circuit |
-| 2026-05-10 01:08 UTC | `INCONCLUSIVE` | Quantum Rank Lower Bounds for Disjointness Communication Matrices |
-| 2026-05-10 01:23 UTC | `INCONCLUSIVE` | Symmetric Tensor Rank Gap in Permanent vs Determinant Decompositi |
 | 2026-05-10 01:47 UTC | `INCONCLUSIVE` | Negative Eigenvalue Count Lower Bounds SOS Degree for Max-CUT |
 | 2026-05-10 03:39 UTC | `INCONCLUSIVE` | Plethysm Coefficient Gap in Homogeneous Polynomial Decompositions |
 | 2026-05-10 03:58 UTC | `INCONCLUSIVE` | Hypergraph Maximum Matching Inverse Proportional to ACC^0 Circuit |
@@ -82,6 +79,9 @@ Generated 2026-05-10 07:36 UTC
 | 2026-05-10 07:07 UTC | `INCONCLUSIVE` | Additive Energy Lower Bound via Read-Twice Branching Program Disc |
 | 2026-05-10 07:15 UTC | `INCONCLUSIVE` | Real Root Count Exponential in AC⁰ PARITY Circuits |
 | 2026-05-10 07:36 UTC | `INCONCLUSIVE` | Polymatroid Rank Lower Bound for Monotone CLIQUE |
+| 2026-05-10 07:48 UTC | `INCONCLUSIVE` | Modular Character Degree Gap in Permanent vs Determinant Circuits |
+| 2026-05-10 08:11 UTC | `INCONCLUSIVE` | Class Number Inverse Proportional to Resolution Length in 3-SAT |
+| 2026-05-10 08:23 UTC | `INCONCLUSIVE` | BIBD Incidence Matrix ACC⁰ Circuit Size Lower Bound |
 
 ## How to read the reports
 

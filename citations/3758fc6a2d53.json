@@ -1,0 +1,40 @@
+{
+  "entry_id": "3758fc6a2d53",
+  "ts": 1778400712.6786382,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1908.05361",
+      "title": "Placing quantified variants of 3-SAT and Not-All-Equal 3-SAT in the polynomial hierarchy",
+      "abstract_excerpt": "The complexity of variants of 3-SAT and Not-All-Equal 3-SAT is well studied. However, in contrast, very little is known about the complexity of the problems' quantified counterparts. In the first part of this paper, we show that $\\forall \\exists$ 3-SAT is $Π_2^P$-complete even if (1) each variable appears exactly twice unnegated and exactly twice negated, (2) each clause is a disjunction of exactly three distinct variables, and (3) the number of universal variables is equal to the number of exis",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns polynomial hierarchy classifications of quantified 3-SAT variants ($\\Pi_2^P$-completeness), with no mention of class numbers, number fields, or resolution proof length, which are the core elements of the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2202.08382",
+      "title": "The relative class number one problem for function fields, I",
+      "abstract_excerpt": "We reduce the classification of finite extensions of function fields (of curves over finite fields) with the same class number to a finite computation; complete this computation in all cases except when both curves have base field $\\mathbb{F}_2$ and genus $&gt;1$; and give a conjectural answer in the remaining cases. The conjecture will be resolved in subsequent papers.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns classifying finite extensions of function fields with equal class number, with no mention of 3-SAT, resolution proof length, or quadratic number fields Q(√m); it shares only the 'class number' vocabulary.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1307.5776",
+      "title": "An exact algorithm for 1-in-3 SAT",
+      "abstract_excerpt": "1-in-3 SAT is an NP-complete variant of 3-SAT\\ where a \"clause\" is satisfied iff exactly one of its three literal is satisfied. We present here an exact algorithm solving \\oit\\ in time $O^*(1.260^n)$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes an exact exponential-time algorithm for 1-in-3 SAT, with no mention of class numbers, number fields, or resolution proof length, so it does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
