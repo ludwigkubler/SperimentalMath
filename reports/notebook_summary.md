@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-10 21:20 UTC"
+date: "2026-05-10 22:42 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-10 21:20 UTC
+Generated 2026-05-10 22:42 UTC
 
-- Cycles recorded: **565**
-- Time span: 407.7h (~1.39 cycles/h)
+- Cycles recorded: **569**
+- Time span: 409.0h (~1.39 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 528 |
+| INCONCLUSIVE | 532 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -37,10 +37,10 @@ Generated 2026-05-10 21:20 UTC
 | Free Probability | 14 |
 | Schur-Weyl Duality | 14 |
 | Matroid Theory | 11 |
-| Additive Combinatorics | 8 |
+| Additive Combinatorics | 9 |
 | Polymatroid Theory | 8 |
 | Algebraic Geometry | 7 |
-| Random Matrix Theory | 6 |
+| Random Matrix Theory | 7 |
 | Finite Geometry | 6 |
 | Noncommutative L^p Geometry | 6 |
 | Spectral Graph Theory | 6 |
@@ -60,17 +60,13 @@ Generated 2026-05-10 21:20 UTC
 | Fourier Analysis of Boolean Functions | 3 |
 | Persistent Homology | 3 |
 | Noncommutative Geometry | 3 |
+| Noncommutative Harmonic Analysis | 3 |
 | Noncommutative geometry | 2 |
-| Representation theory of symmetric groups | 2 |
 
 ## Last 15 cycles (chronological)
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-10 14:39 UTC | `INCONCLUSIVE` | Fourier Coefficient Concentration and ACC⁰ Circuit Size |
-| 2026-05-10 14:54 UTC | `INCONCLUSIVE` | Moment Matrix Rank Lower Bound for Max-CUT SOS Approximation |
-| 2026-05-10 15:10 UTC | `INCONCLUSIVE` | Kronecker Coefficient Non-Zero Threshold for Permanent-Complete S |
-| 2026-05-10 16:28 UTC | `INCONCLUSIVE` | SOS Degree Lower Bound via Matroid Polytope Dimension |
 | 2026-05-10 16:34 UTC | `BARRIER_HIT` | Schur Coefficient Exponential Gap in 3-CNF Permanent vs Determina |
 | 2026-05-10 17:22 UTC | `INCONCLUSIVE` | Symmetric Group Fourier Coefficient Gap in Disjointness Communica |
 | 2026-05-10 17:37 UTC | `INCONCLUSIVE` | Harmonic Coefficient Sum Lower Bound for Resolution Proof Length |
@@ -82,6 +78,10 @@ Generated 2026-05-10 21:20 UTC
 | 2026-05-10 20:37 UTC | `INCONCLUSIVE` | Genus of Communication Curve Bounds Disjointness Complexity |
 | 2026-05-10 20:44 UTC | `INCONCLUSIVE` | Toric Variety Hilbert Function Bounded by SOS Degree for Max-CUT |
 | 2026-05-10 21:20 UTC | `INCONCLUSIVE` | Polymatroid Rank Lower Bound for Monotone k-CLIQUE |
+| 2026-05-10 21:50 UTC | `INCONCLUSIVE` | Coxeter Polynomial Root Count Inverse Proportional to Resolution  |
+| 2026-05-10 21:59 UTC | `INCONCLUSIVE` | Spectral Concentration of Moment Matrices in Max-CUT SOS Hierarch |
+| 2026-05-10 22:09 UTC | `INCONCLUSIVE` | Noncommutative Fourier Coefficient Gap in Read-Twice BPs for IP_2 |
+| 2026-05-10 22:42 UTC | `INCONCLUSIVE` | Additive Energy Inverse Proportional to Disjointness Discrepancy |
 
 ## How to read the reports
 
