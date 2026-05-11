@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-11 20:25 UTC"
+date: "2026-05-11 21:40 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-11 20:25 UTC
+Generated 2026-05-11 21:40 UTC
 
-- Cycles recorded: **621**
-- Time span: 430.8h (~1.44 cycles/h)
+- Cycles recorded: **624**
+- Time span: 432.0h (~1.44 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 584 |
+| INCONCLUSIVE | 587 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -33,16 +33,16 @@ Generated 2026-05-11 20:25 UTC
 | Field | Cycles |
 |---|---|
 | Real Algebraic Geometry | 34 |
-| Schur-Weyl Duality | 19 |
+| Schur-Weyl Duality | 20 |
 | Representation Theory of Symmetric Groups | 17 |
 | Free Probability | 14 |
 | Matroid Theory | 12 |
 | Additive Combinatorics | 10 |
+| Free Probability Theory | 8 |
 | Noncommutative L^p Geometry | 8 |
 | Polymatroid Theory | 8 |
 | Algebraic Geometry | 7 |
 | Random Matrix Theory | 7 |
-| Free Probability Theory | 7 |
 | Finite Geometry | 6 |
 | Spectral Graph Theory | 6 |
 | Plethysm Theory | 6 |
@@ -67,9 +67,6 @@ Generated 2026-05-11 20:25 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-11 14:27 UTC | `INCONCLUSIVE` | Non-Commutative Rank Gap in Read-Twice BPs for IP_2 |
-| 2026-05-11 14:33 UTC | `INCONCLUSIVE` | Standard Young Tableaux Count vs Monotone Circuit Size |
-| 2026-05-11 14:42 UTC | `INCONCLUSIVE` | Real Rank of Moment Matrix Bounded by SOS Refutation Degree for C |
 | 2026-05-11 14:59 UTC | `INCONCLUSIVE` | Schatten p-Norm Inverse Proportional to Disjointness Communicatio |
 | 2026-05-11 15:18 UTC | `INCONCLUSIVE` | Tree-Depth Exponentiation Bounds Tseitin Resolution Length |
 | 2026-05-11 15:41 UTC | `INCONCLUSIVE` | Resultant Degree Bounds Frege Proof Size for Tautologies |
@@ -82,6 +79,9 @@ Generated 2026-05-11 20:25 UTC
 | 2026-05-11 19:29 UTC | `INCONCLUSIVE` | Colin de Verdière Invariant Lower Bounds Resolution Length for Ts |
 | 2026-05-11 19:40 UTC | `INCONCLUSIVE` | Free Cumulant Gap in Read-Twice BPs for IP_2 |
 | 2026-05-11 20:25 UTC | `INCONCLUSIVE` | Free Cumulant Sum Gap in Read-Twice BPs for IP_2 |
+| 2026-05-11 20:56 UTC | `INCONCLUSIVE` | Free Cumulant Gap in Read-Twice BPs for IP_2 |
+| 2026-05-11 21:18 UTC | `INCONCLUSIVE` | Tropical Convex Hull Dimension Inverse Proportional to ACC^0 Circ |
+| 2026-05-11 21:40 UTC | `INCONCLUSIVE` | Symmetric Power Multiplicity Gap in Permanent vs Determinant Repr |
 
 ## How to read the reports
 

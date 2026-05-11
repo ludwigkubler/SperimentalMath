@@ -1,0 +1,40 @@
+{
+  "entry_id": "51256d50aa0d",
+  "ts": 1778535637.7518659,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1904.05483",
+      "title": "Parallels Between Phase Transitions and Circuit Complexity?",
+      "abstract_excerpt": "In many natural average-case problems, there are or there are believed to be critical values in the parameter space where the structure of the space of solutions changes in a fundamental way. These phase transitions are often believed to coincide with drastic changes in the computational complexity of the associated problem.\n  In this work, we study the circuit complexity of inference in the broadcast tree model, which has important applications in phylogenetic reconstruction and close connectio",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns circuit complexity of belief propagation in broadcast tree models and phase transitions, with no mention of permanents, determinants, symmetric powers, or representation multiplicities relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1701.06114",
+      "title": "Geometric Schur Duality of two parameter quantum group of type A",
+      "abstract_excerpt": "In this paper, we give an geometric description of the Schur-Weyl duality for two-parameter quantum algebras $U_{v, t}(gl_n)$, where $U_{v, t}(gl_n)$ is the deformation of $U_v(I, \\cdot)$, the classic Shur-Weyl duality $(U_{r, s}(gl_n), V^{\\otimes d}, H_d(r, s))$ can be seen as a corollary of the Shur-Weyl duality $(U_{v, t}(gl_n), V^{\\otimes d}, H_d(v, t))$ by using the galois descend approach. we also establish the Shur-Weyl duality between the algebras $\\widetilde{U_{v, t}(gl_N)^m}$, $\\wideha",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns geometric Schur-Weyl duality for two-parameter quantum groups U_{v,t}(gl_n) and Hecke algebras, with no mention of permanents, determinants, multiplicities of the trivial representation in Sym^k, or circuit complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2006.13879",
+      "title": "Two dualities: Markov and Schur-Weyl",
+      "abstract_excerpt": "We show that quantum Schur-Weyl duality leads to Markov duality for a variety of asymmetric interacting particle systems. In particular, we consider three cases:\n  (1) Using a Schur-Weyl duality between a two-parameter quantum group and a two-parameter Hecke algebra from arXiv:math/0108038, we recover the Markov self-duality of multi-species ASEP previously discovered in arXiv:1605.00691 and arXiv:1606.04587.\n  (2) From a Schur-Weyl duality between a co-ideal subalgebra of a quantum group and a ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Schur-Weyl duality applied to Markov duality for asymmetric interacting particle systems (ASEP variants), with no mention of permanent vs. determinant representations, symmetric powers, or multiplicity of trivial representations.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
