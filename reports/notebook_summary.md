@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-11 21:40 UTC"
+date: "2026-05-11 22:30 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-11 21:40 UTC
+Generated 2026-05-11 22:30 UTC
 
-- Cycles recorded: **624**
-- Time span: 432.0h (~1.44 cycles/h)
+- Cycles recorded: **627**
+- Time span: 432.8h (~1.45 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 587 |
+| INCONCLUSIVE | 590 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -33,10 +33,10 @@ Generated 2026-05-11 21:40 UTC
 | Field | Cycles |
 |---|---|
 | Real Algebraic Geometry | 34 |
-| Schur-Weyl Duality | 20 |
+| Schur-Weyl Duality | 21 |
 | Representation Theory of Symmetric Groups | 17 |
 | Free Probability | 14 |
-| Matroid Theory | 12 |
+| Matroid Theory | 13 |
 | Additive Combinatorics | 10 |
 | Free Probability Theory | 8 |
 | Noncommutative L^p Geometry | 8 |
@@ -67,9 +67,6 @@ Generated 2026-05-11 21:40 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-11 14:59 UTC | `INCONCLUSIVE` | Schatten p-Norm Inverse Proportional to Disjointness Communicatio |
-| 2026-05-11 15:18 UTC | `INCONCLUSIVE` | Tree-Depth Exponentiation Bounds Tseitin Resolution Length |
-| 2026-05-11 15:41 UTC | `INCONCLUSIVE` | Resultant Degree Bounds Frege Proof Size for Tautologies |
 | 2026-05-11 15:49 UTC | `INCONCLUSIVE` | Plethysm Coefficient Gap in Monotone Circuit Complexity for Perma |
 | 2026-05-11 16:11 UTC | `INCONCLUSIVE` | Real Rank of Depth-3 AC⁰ Circuits for PARITY is Ω(log n) |
 | 2026-05-11 17:00 UTC | `INCONCLUSIVE` | Quadratic Form Solution Count Exponential Gap in ACC⁰ Sipser Circ |
@@ -82,6 +79,9 @@ Generated 2026-05-11 21:40 UTC
 | 2026-05-11 20:56 UTC | `INCONCLUSIVE` | Free Cumulant Gap in Read-Twice BPs for IP_2 |
 | 2026-05-11 21:18 UTC | `INCONCLUSIVE` | Tropical Convex Hull Dimension Inverse Proportional to ACC^0 Circ |
 | 2026-05-11 21:40 UTC | `INCONCLUSIVE` | Symmetric Power Multiplicity Gap in Permanent vs Determinant Repr |
+| 2026-05-11 21:47 UTC | `INCONCLUSIVE` | Schur-Weyl Multiplicity Gap in Permanent vs Determinant Decomposi |
+| 2026-05-11 21:57 UTC | `INCONCLUSIVE` | Dual Convex Body Width Bounds SOS Degree for Max-CUT |
+| 2026-05-11 22:27 UTC | `INCONCLUSIVE` | Cycle Matroid Rank Inverse Proportional to Resolution Proof Size  |
 
 ## How to read the reports
 
