@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-11 01:40 UTC"
+date: "2026-05-11 02:30 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-11 01:40 UTC
+Generated 2026-05-11 02:30 UTC
 
-- Cycles recorded: **579**
-- Time span: 412.0h (~1.41 cycles/h)
+- Cycles recorded: **581**
+- Time span: 412.8h (~1.41 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 542 |
+| INCONCLUSIVE | 544 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -32,7 +32,7 @@ Generated 2026-05-11 01:40 UTC
 
 | Field | Cycles |
 |---|---|
-| Real Algebraic Geometry | 31 |
+| Real Algebraic Geometry | 32 |
 | Representation Theory of Symmetric Groups | 17 |
 | Schur-Weyl Duality | 15 |
 | Free Probability | 14 |
@@ -41,8 +41,8 @@ Generated 2026-05-11 01:40 UTC
 | Polymatroid Theory | 8 |
 | Algebraic Geometry | 7 |
 | Random Matrix Theory | 7 |
+| Noncommutative L^p Geometry | 7 |
 | Finite Geometry | 6 |
-| Noncommutative L^p Geometry | 6 |
 | Spectral Graph Theory | 6 |
 | Plethysm Theory | 6 |
 | Ergodic Circuit Framework (communication complexity via dynamical systems) | 4 |
@@ -67,8 +67,6 @@ Generated 2026-05-11 01:40 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-10 21:20 UTC | `INCONCLUSIVE` | Polymatroid Rank Lower Bound for Monotone k-CLIQUE |
-| 2026-05-10 21:50 UTC | `INCONCLUSIVE` | Coxeter Polynomial Root Count Inverse Proportional to Resolution  |
 | 2026-05-10 21:59 UTC | `INCONCLUSIVE` | Spectral Concentration of Moment Matrices in Max-CUT SOS Hierarch |
 | 2026-05-10 22:09 UTC | `INCONCLUSIVE` | Noncommutative Fourier Coefficient Gap in Read-Twice BPs for IP_2 |
 | 2026-05-10 22:42 UTC | `INCONCLUSIVE` | Additive Energy Inverse Proportional to Disjointness Discrepancy |
@@ -82,6 +80,8 @@ Generated 2026-05-11 01:40 UTC
 | 2026-05-11 01:05 UTC | `INCONCLUSIVE` | Tutte Polynomial Evaluation Bounded by Monotone k-CLIQUE Circuit  |
 | 2026-05-11 01:20 UTC | `INCONCLUSIVE` | Young Tableau Count Exponential Gap in Disjointness Communication |
 | 2026-05-11 01:40 UTC | `INCONCLUSIVE` | Fourier Coefficient Sum Inverse Proportional to Disjointness Disc |
+| 2026-05-11 01:51 UTC | `INCONCLUSIVE` | SOS Refutation Degree Bounded by Clause Density for Random 3-SAT |
+| 2026-05-11 01:59 UTC | `INCONCLUSIVE` | Schatten p-Norm Lower Bound on Disjointness Communication Complex |
 
 ## How to read the reports
 
