@@ -1,13 +1,13 @@
 {
-  "last_update_utc": "2026-05-11T14:47:01Z",
-  "total_cycles": 609,
+  "last_update_utc": "2026-05-11T15:47:02Z",
+  "total_cycles": 612,
   "verdict_counts": {
-    "INCONCLUSIVE": 572,
+    "INCONCLUSIVE": 575,
     "SUPPORTED": 4,
     "FALSIFIED": 15,
     "BARRIER_HIT": 18
   },
-  "unique_field_A": 400,
+  "unique_field_A": 402,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
@@ -34,6 +34,10 @@
       10
     ],
     [
+      "Noncommutative L^p Geometry",
+      8
+    ],
+    [
       "Polymatroid Theory",
       8
     ],
@@ -43,10 +47,6 @@
     ],
     [
       "Random Matrix Theory",
-      7
-    ],
-    [
-      "Noncommutative L^p Geometry",
       7
     ],
     [

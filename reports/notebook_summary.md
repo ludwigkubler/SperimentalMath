@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-11 14:42 UTC"
+date: "2026-05-11 15:41 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-11 14:42 UTC
+Generated 2026-05-11 15:41 UTC
 
-- Cycles recorded: **609**
-- Time span: 425.0h (~1.43 cycles/h)
+- Cycles recorded: **612**
+- Time span: 426.0h (~1.44 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 572 |
+| INCONCLUSIVE | 575 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -38,10 +38,10 @@ Generated 2026-05-11 14:42 UTC
 | Free Probability | 14 |
 | Matroid Theory | 12 |
 | Additive Combinatorics | 10 |
+| Noncommutative L^p Geometry | 8 |
 | Polymatroid Theory | 8 |
 | Algebraic Geometry | 7 |
 | Random Matrix Theory | 7 |
-| Noncommutative L^p Geometry | 7 |
 | Finite Geometry | 6 |
 | Spectral Graph Theory | 6 |
 | Plethysm Theory | 6 |
@@ -67,9 +67,6 @@ Generated 2026-05-11 14:42 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-11 08:32 UTC | `INCONCLUSIVE` | Newton Polytope Volume Inverse Proportional to SOS Degree for Max |
-| 2026-05-11 08:45 UTC | `INCONCLUSIVE` | Krull Dimension Lower Bounds SOS Refutation Degree for 3-SAT |
-| 2026-05-11 10:35 UTC | `INCONCLUSIVE` | Finite-Field Rank Threshold for ACC⁰ Circuit Complexity |
 | 2026-05-11 11:01 UTC | `INCONCLUSIVE` | Gonality Lower Bounds for Disjointness Communication Matrices |
 | 2026-05-11 11:36 UTC | `INCONCLUSIVE` | Projective Plane Disjointness Complexity Bounded by Line Count |
 | 2026-05-11 12:25 UTC | `INCONCLUSIVE` | Noncommutative Rank Bounded by Disjointness Communication Complex |
@@ -82,6 +79,9 @@ Generated 2026-05-11 14:42 UTC
 | 2026-05-11 14:27 UTC | `INCONCLUSIVE` | Non-Commutative Rank Gap in Read-Twice BPs for IP_2 |
 | 2026-05-11 14:33 UTC | `INCONCLUSIVE` | Standard Young Tableaux Count vs Monotone Circuit Size |
 | 2026-05-11 14:42 UTC | `INCONCLUSIVE` | Real Rank of Moment Matrix Bounded by SOS Refutation Degree for C |
+| 2026-05-11 14:59 UTC | `INCONCLUSIVE` | Schatten p-Norm Inverse Proportional to Disjointness Communicatio |
+| 2026-05-11 15:18 UTC | `INCONCLUSIVE` | Tree-Depth Exponentiation Bounds Tseitin Resolution Length |
+| 2026-05-11 15:41 UTC | `INCONCLUSIVE` | Resultant Degree Bounds Frege Proof Size for Tautologies |
 
 ## How to read the reports
 
