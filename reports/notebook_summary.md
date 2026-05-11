@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-11 10:35 UTC"
+date: "2026-05-11 11:36 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-11 10:35 UTC
+Generated 2026-05-11 11:36 UTC
 
-- Cycles recorded: **597**
-- Time span: 420.9h (~1.42 cycles/h)
+- Cycles recorded: **599**
+- Time span: 421.9h (~1.42 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 560 |
+| INCONCLUSIVE | 562 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -67,8 +67,6 @@ Generated 2026-05-11 10:35 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-11 03:39 UTC | `INCONCLUSIVE` | Symmetric Power Decomposition Complexity Gap for 3-SAT |
-| 2026-05-11 04:26 UTC | `INCONCLUSIVE` | Specht Module Decomposition Exponential Gap Between Permanent and |
 | 2026-05-11 04:32 UTC | `INCONCLUSIVE` | Persistent Homology Gap in Read-Twice BPs for IP_2 |
 | 2026-05-11 04:50 UTC | `INCONCLUSIVE` | Free Entropy Gap in Read-Twice BP Transition Matrices |
 | 2026-05-11 05:05 UTC | `INCONCLUSIVE` | Fundamental Group Rank Inverse Proportional to Resolution Proof S |
@@ -82,6 +80,8 @@ Generated 2026-05-11 10:35 UTC
 | 2026-05-11 08:32 UTC | `INCONCLUSIVE` | Newton Polytope Volume Inverse Proportional to SOS Degree for Max |
 | 2026-05-11 08:45 UTC | `INCONCLUSIVE` | Krull Dimension Lower Bounds SOS Refutation Degree for 3-SAT |
 | 2026-05-11 10:35 UTC | `INCONCLUSIVE` | Finite-Field Rank Threshold for ACC⁰ Circuit Complexity |
+| 2026-05-11 11:01 UTC | `INCONCLUSIVE` | Gonality Lower Bounds for Disjointness Communication Matrices |
+| 2026-05-11 11:36 UTC | `INCONCLUSIVE` | Projective Plane Disjointness Complexity Bounded by Line Count |
 
 ## How to read the reports
 
