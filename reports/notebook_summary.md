@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-11 22:30 UTC"
+date: "2026-05-11 23:33 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-11 22:30 UTC
+Generated 2026-05-11 23:33 UTC
 
-- Cycles recorded: **627**
-- Time span: 432.8h (~1.45 cycles/h)
+- Cycles recorded: **630**
+- Time span: 433.9h (~1.45 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 590 |
+| INCONCLUSIVE | 593 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -67,9 +67,6 @@ Generated 2026-05-11 22:30 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-11 15:49 UTC | `INCONCLUSIVE` | Plethysm Coefficient Gap in Monotone Circuit Complexity for Perma |
-| 2026-05-11 16:11 UTC | `INCONCLUSIVE` | Real Rank of Depth-3 AC⁰ Circuits for PARITY is Ω(log n) |
-| 2026-05-11 17:00 UTC | `INCONCLUSIVE` | Quadratic Form Solution Count Exponential Gap in ACC⁰ Sipser Circ |
 | 2026-05-11 17:52 UTC | `INCONCLUSIVE` | Additive Energy Inverse Proportional to Discrepancy of Sumset Com |
 | 2026-05-11 18:06 UTC | `INCONCLUSIVE` | Symmetric Square Multiplicity Gap in Permanent vs Determinant Dec |
 | 2026-05-11 18:31 UTC | `INCONCLUSIVE` | Free Cumulant Sum Gap in Read-Twice BP Transition Matrices |
@@ -82,6 +79,9 @@ Generated 2026-05-11 22:30 UTC
 | 2026-05-11 21:47 UTC | `INCONCLUSIVE` | Schur-Weyl Multiplicity Gap in Permanent vs Determinant Decomposi |
 | 2026-05-11 21:57 UTC | `INCONCLUSIVE` | Dual Convex Body Width Bounds SOS Degree for Max-CUT |
 | 2026-05-11 22:27 UTC | `INCONCLUSIVE` | Cycle Matroid Rank Inverse Proportional to Resolution Proof Size  |
+| 2026-05-11 22:59 UTC | `INCONCLUSIVE` | Cohomological Dimension Inverse Proportional to Disjointness Comm |
+| 2026-05-11 23:12 UTC | `INCONCLUSIVE` | Kronecker Coefficient Gap in Set Disjointness Communication Compl |
+| 2026-05-11 23:33 UTC | `INCONCLUSIVE` | Symmetric Tensor Rank Gap in Permanent vs Determinant Decompositi |
 
 ## How to read the reports
 
