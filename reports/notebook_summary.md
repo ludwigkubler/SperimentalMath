@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-10 23:30 UTC"
+date: "2026-05-11 00:43 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-10 23:30 UTC
+Generated 2026-05-11 00:43 UTC
 
-- Cycles recorded: **570**
-- Time span: 409.8h (~1.39 cycles/h)
+- Cycles recorded: **575**
+- Time span: 411.0h (~1.40 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 533 |
+| INCONCLUSIVE | 538 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -34,10 +34,10 @@ Generated 2026-05-10 23:30 UTC
 |---|---|
 | Real Algebraic Geometry | 31 |
 | Representation Theory of Symmetric Groups | 17 |
+| Schur-Weyl Duality | 15 |
 | Free Probability | 14 |
-| Schur-Weyl Duality | 14 |
 | Matroid Theory | 11 |
-| Additive Combinatorics | 9 |
+| Additive Combinatorics | 10 |
 | Polymatroid Theory | 8 |
 | Algebraic Geometry | 7 |
 | Random Matrix Theory | 7 |
@@ -57,21 +57,16 @@ Generated 2026-05-10 23:30 UTC
 | {"framework_name": "Tropical Circuit Weight Analysis (TCWA)", "math_branch": "BOUNDED_ARITHMETIC"} | 3 |
 | Tropical Circuit Weight Analysis (BOUNDED_ARITHMETIC) | 3 |
 | Schur-Weyl duality | 3 |
+| Diophantine Approximation | 3 |
 | Fourier Analysis of Boolean Functions | 3 |
 | Persistent Homology | 3 |
 | Noncommutative Geometry | 3 |
 | Noncommutative Harmonic Analysis | 3 |
-| Noncommutative geometry | 2 |
 
 ## Last 15 cycles (chronological)
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-10 17:22 UTC | `INCONCLUSIVE` | Symmetric Group Fourier Coefficient Gap in Disjointness Communica |
-| 2026-05-10 17:37 UTC | `INCONCLUSIVE` | Harmonic Coefficient Sum Lower Bound for Resolution Proof Length |
-| 2026-05-10 18:03 UTC | `INCONCLUSIVE` | Noncommutative L^p Norm Lower Bounds for Disjointness Communicati |
-| 2026-05-10 19:08 UTC | `INCONCLUSIVE` | Cheeger Constant Exponentiates Resolution Length for Tseitin Form |
-| 2026-05-10 19:52 UTC | `INCONCLUSIVE` | Hilbert Function Inverse Proportional to 3-SAT Solution Count |
 | 2026-05-10 20:25 UTC | `INCONCLUSIVE` | Tropical Rank Gap in Read-Twice BP Transition Matrices |
 | 2026-05-10 20:31 UTC | `INCONCLUSIVE` | SOS Moment Matrix Rank and Max-CUT Integrality Gap |
 | 2026-05-10 20:37 UTC | `INCONCLUSIVE` | Genus of Communication Curve Bounds Disjointness Complexity |
@@ -82,6 +77,11 @@ Generated 2026-05-10 23:30 UTC
 | 2026-05-10 22:09 UTC | `INCONCLUSIVE` | Noncommutative Fourier Coefficient Gap in Read-Twice BPs for IP_2 |
 | 2026-05-10 22:42 UTC | `INCONCLUSIVE` | Additive Energy Inverse Proportional to Disjointness Discrepancy |
 | 2026-05-10 23:07 UTC | `INCONCLUSIVE` | Moment-Matrix Spectral Norm Inverse Proportional to Communication |
+| 2026-05-10 23:56 UTC | `INCONCLUSIVE` | Schur-Weyl Decomposition Entropy Gap for Permanent vs Determinant |
+| 2026-05-11 00:01 UTC | `INCONCLUSIVE` | Homotopy Group Rank Inverse Proportional to Disjointness Communic |
+| 2026-05-11 00:27 UTC | `INCONCLUSIVE` | Diophantine Approximation Error Inversely Proportional to Communi |
+| 2026-05-11 00:37 UTC | `INCONCLUSIVE` | Hypergraph Matching Complexity for Monotone DNF |
+| 2026-05-11 00:43 UTC | `INCONCLUSIVE` | Additive Energy Threshold for ACC⁰ Circuit Size in CNF Formulas |
 
 ## How to read the reports
 

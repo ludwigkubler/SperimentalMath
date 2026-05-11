@@ -1,13 +1,13 @@
 {
-  "last_update_utc": "2026-05-10T23:47:02Z",
-  "total_cycles": 570,
+  "last_update_utc": "2026-05-11T00:47:02Z",
+  "total_cycles": 575,
   "verdict_counts": {
-    "INCONCLUSIVE": 533,
+    "INCONCLUSIVE": 538,
     "SUPPORTED": 4,
     "FALSIFIED": 15,
     "BARRIER_HIT": 18
   },
-  "unique_field_A": 380,
+  "unique_field_A": 381,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
@@ -18,11 +18,11 @@
       17
     ],
     [
-      "Free Probability",
-      14
+      "Schur-Weyl Duality",
+      15
     ],
     [
-      "Schur-Weyl Duality",
+      "Free Probability",
       14
     ],
     [
@@ -31,7 +31,7 @@
     ],
     [
       "Additive Combinatorics",
-      9
+      10
     ],
     [
       "Polymatroid Theory",
