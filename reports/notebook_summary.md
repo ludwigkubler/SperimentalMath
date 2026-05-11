@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-11 06:31 UTC"
+date: "2026-05-11 07:42 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-11 06:31 UTC
+Generated 2026-05-11 07:42 UTC
 
-- Cycles recorded: **591**
-- Time span: 416.8h (~1.42 cycles/h)
+- Cycles recorded: **593**
+- Time span: 418.0h (~1.42 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 554 |
+| INCONCLUSIVE | 556 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -67,8 +67,6 @@ Generated 2026-05-11 06:31 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-11 01:05 UTC | `INCONCLUSIVE` | Tutte Polynomial Evaluation Bounded by Monotone k-CLIQUE Circuit  |
-| 2026-05-11 01:20 UTC | `INCONCLUSIVE` | Young Tableau Count Exponential Gap in Disjointness Communication |
 | 2026-05-11 01:40 UTC | `INCONCLUSIVE` | Fourier Coefficient Sum Inverse Proportional to Disjointness Disc |
 | 2026-05-11 01:51 UTC | `INCONCLUSIVE` | SOS Refutation Degree Bounded by Clause Density for Random 3-SAT |
 | 2026-05-11 01:59 UTC | `INCONCLUSIVE` | Schatten p-Norm Lower Bound on Disjointness Communication Complex |
@@ -82,6 +80,8 @@ Generated 2026-05-11 06:31 UTC
 | 2026-05-11 05:56 UTC | `INCONCLUSIVE` | Finite-Field Rank Threshold for ACC⁰ Circuit Complexity |
 | 2026-05-11 06:02 UTC | `INCONCLUSIVE` | Secant Rank Lower Bound for Disjointness Tensors |
 | 2026-05-11 06:31 UTC | `INCONCLUSIVE` | Real Dimension of Parity-Constraint Variety Bounds AC⁰ Depth |
+| 2026-05-11 07:16 UTC | `INCONCLUSIVE` | Cheeger Constant Inverse Proportional to Extended Frege Proof Siz |
+| 2026-05-11 07:42 UTC | `INCONCLUSIVE` | Communication Matrix Rank Lower Bounds ABP Size for Boolean Funct |
 
 ## How to read the reports
 
