@@ -1,7 +1,7 @@
 {
   "node_id": "TARGET_P_NEQ_NP",
   "instance_class": "random_3sat",
-  "ts": 1778458981.9198923,
+  "ts": 1778502181.6514506,
   "result": {
     "instance_class": "random_3sat",
     "n_range": [
@@ -18,7 +18,7 @@
         "n": 8,
         "seed": 0,
         "sat": true,
-        "runtime_s": 0.016,
+        "runtime_s": 0.019,
         "conflicts": 0,
         "decisions": 0,
         "propagations": 11,
@@ -31,7 +31,7 @@
         "n": 8,
         "seed": 1,
         "sat": true,
-        "runtime_s": 0.0013,
+        "runtime_s": 0.0043,
         "conflicts": 0,
         "decisions": 0,
         "propagations": 8,
@@ -44,7 +44,7 @@
         "n": 12,
         "seed": 0,
         "sat": true,
-        "runtime_s": 0.0012,
+        "runtime_s": 0.0016,
         "conflicts": 0,
         "decisions": 0,
         "propagations": 35,
@@ -57,7 +57,7 @@
         "n": 12,
         "seed": 1,
         "sat": true,
-        "runtime_s": 0.0012,
+        "runtime_s": 0.0013,
         "conflicts": 0,
         "decisions": 0,
         "propagations": 17,
@@ -135,7 +135,7 @@
         "n": 24,
         "seed": 1,
         "sat": true,
-        "runtime_s": 0.0015,
+        "runtime_s": 0.0016,
         "conflicts": 0,
         "decisions": 0,
         "propagations": 181,
@@ -147,13 +147,13 @@
     ],
     "summary": {
       "n=8": {
-        "median_runtime_s": 0.0086,
+        "median_runtime_s": 0.0117,
         "median_conflicts": 0,
         "n_timeout": 0,
         "n_total": 2
       },
       "n=12": {
-        "median_runtime_s": 0.0012,
+        "median_runtime_s": 0.0015,
         "median_conflicts": 0,
         "n_timeout": 0,
         "n_total": 2
@@ -177,7 +177,7 @@
         "n_total": 2
       },
       "fit": {
-        "runtime_loglog_slope": -1.4436953639616892,
+        "runtime_loglog_slope": -1.7348052828370397,
         "conflicts_loglog_slope": 0.0
       }
     }
