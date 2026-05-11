@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-11 15:41 UTC"
+date: "2026-05-11 16:30 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-11 15:41 UTC
+Generated 2026-05-11 16:30 UTC
 
-- Cycles recorded: **612**
-- Time span: 426.0h (~1.44 cycles/h)
+- Cycles recorded: **614**
+- Time span: 426.8h (~1.44 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 575 |
+| INCONCLUSIVE | 577 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -32,8 +32,8 @@ Generated 2026-05-11 15:41 UTC
 
 | Field | Cycles |
 |---|---|
-| Real Algebraic Geometry | 33 |
-| Schur-Weyl Duality | 17 |
+| Real Algebraic Geometry | 34 |
+| Schur-Weyl Duality | 18 |
 | Representation Theory of Symmetric Groups | 17 |
 | Free Probability | 14 |
 | Matroid Theory | 12 |
@@ -67,8 +67,6 @@ Generated 2026-05-11 15:41 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-11 11:01 UTC | `INCONCLUSIVE` | Gonality Lower Bounds for Disjointness Communication Matrices |
-| 2026-05-11 11:36 UTC | `INCONCLUSIVE` | Projective Plane Disjointness Complexity Bounded by Line Count |
 | 2026-05-11 12:25 UTC | `INCONCLUSIVE` | Noncommutative Rank Bounded by Disjointness Communication Complex |
 | 2026-05-11 12:48 UTC | `INCONCLUSIVE` | Kronecker Coefficient Asymmetry in Permanent vs Determinant Decom |
 | 2026-05-11 13:20 UTC | `INCONCLUSIVE` | Plethysm Coefficient Growth and Permanent Circuit Complexity |
@@ -82,6 +80,8 @@ Generated 2026-05-11 15:41 UTC
 | 2026-05-11 14:59 UTC | `INCONCLUSIVE` | Schatten p-Norm Inverse Proportional to Disjointness Communicatio |
 | 2026-05-11 15:18 UTC | `INCONCLUSIVE` | Tree-Depth Exponentiation Bounds Tseitin Resolution Length |
 | 2026-05-11 15:41 UTC | `INCONCLUSIVE` | Resultant Degree Bounds Frege Proof Size for Tautologies |
+| 2026-05-11 15:49 UTC | `INCONCLUSIVE` | Plethysm Coefficient Gap in Monotone Circuit Complexity for Perma |
+| 2026-05-11 16:11 UTC | `INCONCLUSIVE` | Real Rank of Depth-3 AC⁰ Circuits for PARITY is Ω(log n) |
 
 ## How to read the reports
 
