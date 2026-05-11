@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-11 04:32 UTC"
+date: "2026-05-11 05:26 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-11 04:32 UTC
+Generated 2026-05-11 05:26 UTC
 
-- Cycles recorded: **585**
-- Time span: 414.9h (~1.41 cycles/h)
+- Cycles recorded: **588**
+- Time span: 415.8h (~1.41 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 548 |
+| INCONCLUSIVE | 551 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -55,21 +55,18 @@ Generated 2026-05-11 04:32 UTC
 | Algebraic Topology | 3 |
 | matroid theory | 3 |
 | Coarse Geometric Lifting (CGL) — Geometric Complexity Theory | 3 |
+| Free Probability Theory | 3 |
 | {"framework_name": "Tropical Circuit Weight Analysis (TCWA)", "math_branch": "BOUNDED_ARITHMETIC"} | 3 |
 | Tropical Circuit Weight Analysis (BOUNDED_ARITHMETIC) | 3 |
 | Schur-Weyl duality | 3 |
 | Diophantine Approximation | 3 |
 | Persistent Homology | 3 |
 | Noncommutative Geometry | 3 |
-| Noncommutative Harmonic Analysis | 3 |
 
 ## Last 15 cycles (chronological)
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-10 23:56 UTC | `INCONCLUSIVE` | Schur-Weyl Decomposition Entropy Gap for Permanent vs Determinant |
-| 2026-05-11 00:01 UTC | `INCONCLUSIVE` | Homotopy Group Rank Inverse Proportional to Disjointness Communic |
-| 2026-05-11 00:27 UTC | `INCONCLUSIVE` | Diophantine Approximation Error Inversely Proportional to Communi |
 | 2026-05-11 00:37 UTC | `INCONCLUSIVE` | Hypergraph Matching Complexity for Monotone DNF |
 | 2026-05-11 00:43 UTC | `INCONCLUSIVE` | Additive Energy Threshold for ACC⁰ Circuit Size in CNF Formulas |
 | 2026-05-11 00:50 UTC | `INCONCLUSIVE` | SOS Refutation Size Bounded by Curve Genus of CSP Constraints |
@@ -82,6 +79,9 @@ Generated 2026-05-11 04:32 UTC
 | 2026-05-11 03:39 UTC | `INCONCLUSIVE` | Symmetric Power Decomposition Complexity Gap for 3-SAT |
 | 2026-05-11 04:26 UTC | `INCONCLUSIVE` | Specht Module Decomposition Exponential Gap Between Permanent and |
 | 2026-05-11 04:32 UTC | `INCONCLUSIVE` | Persistent Homology Gap in Read-Twice BPs for IP_2 |
+| 2026-05-11 04:50 UTC | `INCONCLUSIVE` | Free Entropy Gap in Read-Twice BP Transition Matrices |
+| 2026-05-11 05:05 UTC | `INCONCLUSIVE` | Fundamental Group Rank Inverse Proportional to Resolution Proof S |
+| 2026-05-11 05:26 UTC | `INCONCLUSIVE` | Real Rank of Moment Matrix for Random Max-CUT Instances is Linear |
 
 ## How to read the reports
 

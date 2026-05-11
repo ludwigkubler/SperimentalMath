@@ -1,0 +1,40 @@
+{
+  "entry_id": "9858410e3069",
+  "ts": 1778475052.870834,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1201.0716",
+      "title": "Concavification of free entropy",
+      "abstract_excerpt": "We introduce a modification of Voiculescu's free entropy which coincides with the liminf variant of Voiculescu's free entropy on extremal states, but is a concave upper semi-continuous function on the trace state space. We also extend the orbital free entropy of Hiai, Miyamoto and Ueda to non-hyperfinite multivariables and prove freeness in case of additivity of Voiculescu's entropy (or vanishing of our extended orbital entropy).",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses a concavification modification of Voiculescu's free entropy and extends orbital free entropy to non-hyperfinite multivariables, with no reference to branching programs, transition matrices, or IP_2 lower bounds relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1510.05486",
+      "title": "Two types of branching programs with bounded repetition that cannot efficiently compute monotone 3-CNFs",
+      "abstract_excerpt": "It is known that there are classes of 2-CNFs requiring exponential size non-deterministic read-once branching programs to compute them. However, to the best of our knowledge, there are no superpolynomial lower bounds for branching programs of a higher repetition computing a class of 2-CNFs. This work is an attempt to make a progress in this direction.\n  We consider a class of monotone 3-CNFs that are almost 2-CNFs in the sense that in each clause there is a literal occurring in this clause only.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns exponential size lower bounds for read-k-times branching programs computing monotone 3-CNFs, with no mention of free probability, free entropy, transition matrices, or IP_2. It shares the branching-program framework but does not interact with the specific free-entropy claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1902.03873",
+      "title": "Analogues of Entropy in Bi-Free Probability Theory: Non-Microstate",
+      "abstract_excerpt": "In this paper, we extend the notion of non-microstate free entropy to the bi-free setting. Using a diagrammatic approach involving bi-non-crossing diagrams, bi-free difference quotients are constructed as analogues of the free partial derivations. Adjoints of bi-free difference quotients are discussed and used to define bi-free conjugate variables. Notions of bi-free Fisher information and non-microstate entropy are defined and properties of free entropy are extended to the bi-free setting.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract extends non-microstate free entropy to the bi-free setting via 'bi-non-crossing diagrams' and 'bi-free Fisher information,' with no mention of branching programs, transition matrices, or inner product mod 2 lower bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
