@@ -1,0 +1,40 @@
+{
+  "entry_id": "3b212abe5c22",
+  "ts": 1778479360.4879472,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/1011.5867v2",
+      "title": "Secant Varieties of Segre--Veronese Varieties",
+      "abstract_excerpt": "We prove that the ideal of the variety of secant lines to a Segre--Veronese variety is generated in degree three by minors of flattenings. In the special case of a Segre variety this was conjectured by Garcia, Stillman and Sturmfels, inspired by work on algebraic statistics, as well as by Pachter an",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses the ideal-theoretic structure of secant lines to Segre-Veronese varieties ('ideal...is generated in degree three by minors of flattenings'), not lower bounds on secant rank of specific tensors arising from DISJOINTNESS matrices.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1012.3563v4",
+      "title": "Secant varieties to high degree Veronese reembeddings, catalecticant matrices and smoothable Gorenstein schemes",
+      "abstract_excerpt": "We study the secant varieties of the Veronese varieties and of Veronese reembeddings of a smooth projective variety. We give some conditions, under which these secant varieties are set-theoretically cut out by determinantal equations. More precisely, they are given by minors of a catalecticant matri",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses determinantal/catalecticant equations cutting out secant varieties of Veronese reembeddings, not lower bounds on secant rank of a specific DISJOINTNESS-derived 3-tensor. Shared vocabulary ('secant varieties') but no interaction with the Ω(n) rank claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1503.01099v2",
+      "title": "Singularities of secant varieties",
+      "abstract_excerpt": "We study the singularities of the secant variety $Σ(X,L)$ associated to a smooth variety $X$ embedded by a sufficiently positive adjoint bundle $L$. We show that $Σ(X,L)$ is always Du Bois singular. Examples of secant varieties with worse singularities when $L$ has weak positivity are provided. We a",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses singularities (Du Bois) of secant varieties under positive adjoint bundles, not lower bounds on secant rank of specific tensors like disjointness tensors.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

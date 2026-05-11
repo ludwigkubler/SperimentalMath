@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-11 05:26 UTC"
+date: "2026-05-11 06:31 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-11 05:26 UTC
+Generated 2026-05-11 06:31 UTC
 
-- Cycles recorded: **588**
-- Time span: 415.8h (~1.41 cycles/h)
+- Cycles recorded: **591**
+- Time span: 416.8h (~1.42 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 551 |
+| INCONCLUSIVE | 554 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -32,7 +32,7 @@ Generated 2026-05-11 05:26 UTC
 
 | Field | Cycles |
 |---|---|
-| Real Algebraic Geometry | 32 |
+| Real Algebraic Geometry | 33 |
 | Representation Theory of Symmetric Groups | 17 |
 | Schur-Weyl Duality | 16 |
 | Free Probability | 14 |
@@ -67,9 +67,6 @@ Generated 2026-05-11 05:26 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-11 00:37 UTC | `INCONCLUSIVE` | Hypergraph Matching Complexity for Monotone DNF |
-| 2026-05-11 00:43 UTC | `INCONCLUSIVE` | Additive Energy Threshold for ACC⁰ Circuit Size in CNF Formulas |
-| 2026-05-11 00:50 UTC | `INCONCLUSIVE` | SOS Refutation Size Bounded by Curve Genus of CSP Constraints |
 | 2026-05-11 01:05 UTC | `INCONCLUSIVE` | Tutte Polynomial Evaluation Bounded by Monotone k-CLIQUE Circuit  |
 | 2026-05-11 01:20 UTC | `INCONCLUSIVE` | Young Tableau Count Exponential Gap in Disjointness Communication |
 | 2026-05-11 01:40 UTC | `INCONCLUSIVE` | Fourier Coefficient Sum Inverse Proportional to Disjointness Disc |
@@ -82,6 +79,9 @@ Generated 2026-05-11 05:26 UTC
 | 2026-05-11 04:50 UTC | `INCONCLUSIVE` | Free Entropy Gap in Read-Twice BP Transition Matrices |
 | 2026-05-11 05:05 UTC | `INCONCLUSIVE` | Fundamental Group Rank Inverse Proportional to Resolution Proof S |
 | 2026-05-11 05:26 UTC | `INCONCLUSIVE` | Real Rank of Moment Matrix for Random Max-CUT Instances is Linear |
+| 2026-05-11 05:56 UTC | `INCONCLUSIVE` | Finite-Field Rank Threshold for ACC⁰ Circuit Complexity |
+| 2026-05-11 06:02 UTC | `INCONCLUSIVE` | Secant Rank Lower Bound for Disjointness Tensors |
+| 2026-05-11 06:31 UTC | `INCONCLUSIVE` | Real Dimension of Parity-Constraint Variety Bounds AC⁰ Depth |
 
 ## How to read the reports
 
