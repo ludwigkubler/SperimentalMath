@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-11 02:30 UTC"
+date: "2026-05-11 03:39 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-11 02:30 UTC
+Generated 2026-05-11 03:39 UTC
 
-- Cycles recorded: **581**
-- Time span: 412.8h (~1.41 cycles/h)
+- Cycles recorded: **583**
+- Time span: 414.0h (~1.41 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 544 |
+| INCONCLUSIVE | 546 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -34,9 +34,9 @@ Generated 2026-05-11 02:30 UTC
 |---|---|
 | Real Algebraic Geometry | 32 |
 | Representation Theory of Symmetric Groups | 17 |
-| Schur-Weyl Duality | 15 |
+| Schur-Weyl Duality | 16 |
 | Free Probability | 14 |
-| Matroid Theory | 11 |
+| Matroid Theory | 12 |
 | Additive Combinatorics | 10 |
 | Polymatroid Theory | 8 |
 | Algebraic Geometry | 7 |
@@ -67,8 +67,6 @@ Generated 2026-05-11 02:30 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-10 21:59 UTC | `INCONCLUSIVE` | Spectral Concentration of Moment Matrices in Max-CUT SOS Hierarch |
-| 2026-05-10 22:09 UTC | `INCONCLUSIVE` | Noncommutative Fourier Coefficient Gap in Read-Twice BPs for IP_2 |
 | 2026-05-10 22:42 UTC | `INCONCLUSIVE` | Additive Energy Inverse Proportional to Disjointness Discrepancy |
 | 2026-05-10 23:07 UTC | `INCONCLUSIVE` | Moment-Matrix Spectral Norm Inverse Proportional to Communication |
 | 2026-05-10 23:56 UTC | `INCONCLUSIVE` | Schur-Weyl Decomposition Entropy Gap for Permanent vs Determinant |
@@ -82,6 +80,8 @@ Generated 2026-05-11 02:30 UTC
 | 2026-05-11 01:40 UTC | `INCONCLUSIVE` | Fourier Coefficient Sum Inverse Proportional to Disjointness Disc |
 | 2026-05-11 01:51 UTC | `INCONCLUSIVE` | SOS Refutation Degree Bounded by Clause Density for Random 3-SAT |
 | 2026-05-11 01:59 UTC | `INCONCLUSIVE` | Schatten p-Norm Lower Bound on Disjointness Communication Complex |
+| 2026-05-11 03:08 UTC | `INCONCLUSIVE` | Matroid Rank Lower Bound for Monotone k-CLIQUE |
+| 2026-05-11 03:39 UTC | `INCONCLUSIVE` | Symmetric Power Decomposition Complexity Gap for 3-SAT |
 
 ## How to read the reports
 

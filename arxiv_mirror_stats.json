@@ -1,24 +1,24 @@
 {
-  "total": 925,
+  "total": 956,
   "by_category": {
     "math.CO": 163,
-    "hep-th": 127,
+    "hep-th": 146,
     "cs.DS": 90,
     "cs.LO": 74,
-    "quant-ph": 61,
+    "quant-ph": 62,
     "math.LO": 57,
-    "math-ph": 40,
+    "math-ph": 41,
     "cs.CC": 33,
-    "gr-qc": 30,
-    "hep-ph": 22,
-    "cs.AI": 14,
+    "gr-qc": 32,
+    "hep-ph": 25,
+    "cs.AI": 15,
+    "math.AG": 15,
     "cs.LG": 14,
-    "math.AG": 14,
     "math.NT": 14,
     "math.PR": 11,
     "astro-ph.CO": 10,
+    "cond-mat.stat-mech": 10,
     "math.GR": 10,
-    "cond-mat.stat-mech": 8,
     "cond-mat.str-el": 8,
     "cs.CG": 8,
     "cs.CR": 7,
@@ -32,6 +32,7 @@
     "math.AC": 4,
     "math.AT": 4,
     "math.CT": 4,
+    "astro-ph.HE": 3,
     "cs.DB": 3,
     "cs.GT": 3,
     "cs.SC": 3,
@@ -39,7 +40,6 @@
     "math.NA": 3,
     "math.SP": 3,
     "nlin.SI": 3,
-    "astro-ph.HE": 2,
     "cond-mat.dis-nn": 2,
     "cond-mat.mtrl-sci": 2,
     "cs.NE": 2,
@@ -71,10 +71,10 @@
     "physics.plasm-ph": 1,
     "q-bio.PE": 1
   },
-  "embedded": 921,
-  "fetched_span_h": 201.63569606112108,
+  "embedded": 952,
+  "fetched_span_h": 233.64390061610274,
   "last_update": {
-    "last_update_ts": 1778436745.9969282,
+    "last_update_ts": 1778465604.707687,
     "by_category": {
       "cs.CC": {
         "fetched": 0,
@@ -82,34 +82,34 @@
         "skipped": 0
       },
       "cs.DS": {
-        "fetched": 50,
+        "fetched": 0,
         "new": 0,
-        "skipped": 50
+        "skipped": 0
       },
       "cs.LO": {
-        "fetched": 50,
+        "fetched": 0,
         "new": 0,
-        "skipped": 50
+        "skipped": 0
       },
       "math.CO": {
-        "fetched": 50,
+        "fetched": 0,
         "new": 0,
-        "skipped": 50
+        "skipped": 0
       },
       "math.LO": {
-        "fetched": 50,
+        "fetched": 0,
         "new": 0,
-        "skipped": 50
+        "skipped": 0
       },
       "math-ph": {
-        "fetched": 50,
+        "fetched": 0,
         "new": 0,
-        "skipped": 50
+        "skipped": 0
       },
       "hep-th": {
         "fetched": 50,
-        "new": 0,
-        "skipped": 50
+        "new": 31,
+        "skipped": 19
       }
     }
   }
