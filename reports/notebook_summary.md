@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-11 11:36 UTC"
+date: "2026-05-11 12:26 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-11 11:36 UTC
+Generated 2026-05-11 12:26 UTC
 
-- Cycles recorded: **599**
-- Time span: 421.9h (~1.42 cycles/h)
+- Cycles recorded: **600**
+- Time span: 422.8h (~1.42 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 562 |
+| INCONCLUSIVE | 563 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -51,6 +51,7 @@ Generated 2026-05-11 11:36 UTC
 | Fourier Analysis of Boolean Functions | 4 |
 | Algebraic Geometry of Secant Varieties | 4 |
 | FOURIER_ANALYSIS | 4 |
+| Noncommutative Geometry | 4 |
 | Fourier analysis of boolean functions | 3 |
 | Algebraic Topology | 3 |
 | matroid theory | 3 |
@@ -61,13 +62,11 @@ Generated 2026-05-11 11:36 UTC
 | Schur-Weyl duality | 3 |
 | Diophantine Approximation | 3 |
 | Persistent Homology | 3 |
-| Noncommutative Geometry | 3 |
 
 ## Last 15 cycles (chronological)
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-11 04:32 UTC | `INCONCLUSIVE` | Persistent Homology Gap in Read-Twice BPs for IP_2 |
 | 2026-05-11 04:50 UTC | `INCONCLUSIVE` | Free Entropy Gap in Read-Twice BP Transition Matrices |
 | 2026-05-11 05:05 UTC | `INCONCLUSIVE` | Fundamental Group Rank Inverse Proportional to Resolution Proof S |
 | 2026-05-11 05:26 UTC | `INCONCLUSIVE` | Real Rank of Moment Matrix for Random Max-CUT Instances is Linear |
@@ -82,6 +81,7 @@ Generated 2026-05-11 11:36 UTC
 | 2026-05-11 10:35 UTC | `INCONCLUSIVE` | Finite-Field Rank Threshold for ACC⁰ Circuit Complexity |
 | 2026-05-11 11:01 UTC | `INCONCLUSIVE` | Gonality Lower Bounds for Disjointness Communication Matrices |
 | 2026-05-11 11:36 UTC | `INCONCLUSIVE` | Projective Plane Disjointness Complexity Bounded by Line Count |
+| 2026-05-11 12:25 UTC | `INCONCLUSIVE` | Noncommutative Rank Bounded by Disjointness Communication Complex |
 
 ## How to read the reports
 
