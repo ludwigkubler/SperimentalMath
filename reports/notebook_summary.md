@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-11 16:30 UTC"
+date: "2026-05-11 17:00 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-11 16:30 UTC
+Generated 2026-05-11 17:00 UTC
 
-- Cycles recorded: **614**
-- Time span: 426.8h (~1.44 cycles/h)
+- Cycles recorded: **615**
+- Time span: 427.3h (~1.44 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 577 |
+| INCONCLUSIVE | 578 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -67,7 +67,6 @@ Generated 2026-05-11 16:30 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-11 12:25 UTC | `INCONCLUSIVE` | Noncommutative Rank Bounded by Disjointness Communication Complex |
 | 2026-05-11 12:48 UTC | `INCONCLUSIVE` | Kronecker Coefficient Asymmetry in Permanent vs Determinant Decom |
 | 2026-05-11 13:20 UTC | `INCONCLUSIVE` | Plethysm Coefficient Growth and Permanent Circuit Complexity |
 | 2026-05-11 13:30 UTC | `INCONCLUSIVE` | Real Radical Rank Lower Bounds SOS Degree for Max-CUT |
@@ -82,6 +81,7 @@ Generated 2026-05-11 16:30 UTC
 | 2026-05-11 15:41 UTC | `INCONCLUSIVE` | Resultant Degree Bounds Frege Proof Size for Tautologies |
 | 2026-05-11 15:49 UTC | `INCONCLUSIVE` | Plethysm Coefficient Gap in Monotone Circuit Complexity for Perma |
 | 2026-05-11 16:11 UTC | `INCONCLUSIVE` | Real Rank of Depth-3 AC⁰ Circuits for PARITY is Ω(log n) |
+| 2026-05-11 17:00 UTC | `INCONCLUSIVE` | Quadratic Form Solution Count Exponential Gap in ACC⁰ Sipser Circ |
 
 ## How to read the reports
 
