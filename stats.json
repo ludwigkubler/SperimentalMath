@@ -1,13 +1,13 @@
 {
-  "last_update_utc": "2026-05-11T17:47:01Z",
-  "total_cycles": 615,
+  "last_update_utc": "2026-05-11T18:47:02Z",
+  "total_cycles": 618,
   "verdict_counts": {
-    "INCONCLUSIVE": 578,
+    "INCONCLUSIVE": 581,
     "SUPPORTED": 4,
     "FALSIFIED": 15,
     "BARRIER_HIT": 18
   },
-  "unique_field_A": 402,
+  "unique_field_A": 403,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
@@ -15,7 +15,7 @@
     ],
     [
       "Schur-Weyl Duality",
-      18
+      19
     ],
     [
       "Representation Theory of Symmetric Groups",
@@ -62,11 +62,11 @@
       6
     ],
     [
-      "Ergodic Circuit Framework (communication complexity via dynamical systems)",
-      4
+      "Free Probability Theory",
+      5
     ],
     [
-      "{'framework_name': 'Ergodic Circuit Framework', 'math_branch': 'COMM_COMPLEXITY'}",
+      "Ergodic Circuit Framework (communication complexity via dynamical systems)",
       4
     ]
   ]

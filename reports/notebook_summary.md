@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-11 17:00 UTC"
+date: "2026-05-11 18:31 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-11 17:00 UTC
+Generated 2026-05-11 18:31 UTC
 
-- Cycles recorded: **615**
-- Time span: 427.3h (~1.44 cycles/h)
+- Cycles recorded: **618**
+- Time span: 428.8h (~1.44 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 578 |
+| INCONCLUSIVE | 581 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -33,7 +33,7 @@ Generated 2026-05-11 17:00 UTC
 | Field | Cycles |
 |---|---|
 | Real Algebraic Geometry | 34 |
-| Schur-Weyl Duality | 18 |
+| Schur-Weyl Duality | 19 |
 | Representation Theory of Symmetric Groups | 17 |
 | Free Probability | 14 |
 | Matroid Theory | 12 |
@@ -45,9 +45,9 @@ Generated 2026-05-11 17:00 UTC
 | Finite Geometry | 6 |
 | Spectral Graph Theory | 6 |
 | Plethysm Theory | 6 |
+| Free Probability Theory | 5 |
 | Ergodic Circuit Framework (communication complexity via dynamical systems) | 4 |
 | {"framework_name": "Ergodic Circuit Framework", "math_branch": "COMM_COMPLEXITY"} | 4 |
-| Free Probability Theory | 4 |
 | Fourier Analysis on Boolean Functions | 4 |
 | Fourier Analysis of Boolean Functions | 4 |
 | Algebraic Geometry of Secant Varieties | 4 |
@@ -67,9 +67,6 @@ Generated 2026-05-11 17:00 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-11 12:48 UTC | `INCONCLUSIVE` | Kronecker Coefficient Asymmetry in Permanent vs Determinant Decom |
-| 2026-05-11 13:20 UTC | `INCONCLUSIVE` | Plethysm Coefficient Growth and Permanent Circuit Complexity |
-| 2026-05-11 13:30 UTC | `INCONCLUSIVE` | Real Radical Rank Lower Bounds SOS Degree for Max-CUT |
 | 2026-05-11 13:41 UTC | `INCONCLUSIVE` | Plethysm Coefficient Inverse Proportional to Disjointness Communi |
 | 2026-05-11 13:48 UTC | `INCONCLUSIVE` | Secant Rank of Disjointness Communication Matrix Bounds Randomize |
 | 2026-05-11 14:19 UTC | `INCONCLUSIVE` | Kronecker Coefficient Gap in Symmetric Powers of Permanent vs Det |
@@ -82,6 +79,9 @@ Generated 2026-05-11 17:00 UTC
 | 2026-05-11 15:49 UTC | `INCONCLUSIVE` | Plethysm Coefficient Gap in Monotone Circuit Complexity for Perma |
 | 2026-05-11 16:11 UTC | `INCONCLUSIVE` | Real Rank of Depth-3 AC⁰ Circuits for PARITY is Ω(log n) |
 | 2026-05-11 17:00 UTC | `INCONCLUSIVE` | Quadratic Form Solution Count Exponential Gap in ACC⁰ Sipser Circ |
+| 2026-05-11 17:52 UTC | `INCONCLUSIVE` | Additive Energy Inverse Proportional to Discrepancy of Sumset Com |
+| 2026-05-11 18:06 UTC | `INCONCLUSIVE` | Symmetric Square Multiplicity Gap in Permanent vs Determinant Dec |
+| 2026-05-11 18:31 UTC | `INCONCLUSIVE` | Free Cumulant Sum Gap in Read-Twice BP Transition Matrices |
 
 ## How to read the reports
 
