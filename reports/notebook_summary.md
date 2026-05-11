@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-11 00:43 UTC"
+date: "2026-05-11 01:40 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-11 00:43 UTC
+Generated 2026-05-11 01:40 UTC
 
-- Cycles recorded: **575**
-- Time span: 411.0h (~1.40 cycles/h)
+- Cycles recorded: **579**
+- Time span: 412.0h (~1.41 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 538 |
+| INCONCLUSIVE | 542 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -48,6 +48,7 @@ Generated 2026-05-11 00:43 UTC
 | Ergodic Circuit Framework (communication complexity via dynamical systems) | 4 |
 | {"framework_name": "Ergodic Circuit Framework", "math_branch": "COMM_COMPLEXITY"} | 4 |
 | Fourier Analysis on Boolean Functions | 4 |
+| Fourier Analysis of Boolean Functions | 4 |
 | Algebraic Geometry of Secant Varieties | 4 |
 | FOURIER_ANALYSIS | 4 |
 | Fourier analysis of boolean functions | 3 |
@@ -58,7 +59,6 @@ Generated 2026-05-11 00:43 UTC
 | Tropical Circuit Weight Analysis (BOUNDED_ARITHMETIC) | 3 |
 | Schur-Weyl duality | 3 |
 | Diophantine Approximation | 3 |
-| Fourier Analysis of Boolean Functions | 3 |
 | Persistent Homology | 3 |
 | Noncommutative Geometry | 3 |
 | Noncommutative Harmonic Analysis | 3 |
@@ -67,10 +67,6 @@ Generated 2026-05-11 00:43 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-10 20:25 UTC | `INCONCLUSIVE` | Tropical Rank Gap in Read-Twice BP Transition Matrices |
-| 2026-05-10 20:31 UTC | `INCONCLUSIVE` | SOS Moment Matrix Rank and Max-CUT Integrality Gap |
-| 2026-05-10 20:37 UTC | `INCONCLUSIVE` | Genus of Communication Curve Bounds Disjointness Complexity |
-| 2026-05-10 20:44 UTC | `INCONCLUSIVE` | Toric Variety Hilbert Function Bounded by SOS Degree for Max-CUT |
 | 2026-05-10 21:20 UTC | `INCONCLUSIVE` | Polymatroid Rank Lower Bound for Monotone k-CLIQUE |
 | 2026-05-10 21:50 UTC | `INCONCLUSIVE` | Coxeter Polynomial Root Count Inverse Proportional to Resolution  |
 | 2026-05-10 21:59 UTC | `INCONCLUSIVE` | Spectral Concentration of Moment Matrices in Max-CUT SOS Hierarch |
@@ -82,6 +78,10 @@ Generated 2026-05-11 00:43 UTC
 | 2026-05-11 00:27 UTC | `INCONCLUSIVE` | Diophantine Approximation Error Inversely Proportional to Communi |
 | 2026-05-11 00:37 UTC | `INCONCLUSIVE` | Hypergraph Matching Complexity for Monotone DNF |
 | 2026-05-11 00:43 UTC | `INCONCLUSIVE` | Additive Energy Threshold for ACC⁰ Circuit Size in CNF Formulas |
+| 2026-05-11 00:50 UTC | `INCONCLUSIVE` | SOS Refutation Size Bounded by Curve Genus of CSP Constraints |
+| 2026-05-11 01:05 UTC | `INCONCLUSIVE` | Tutte Polynomial Evaluation Bounded by Monotone k-CLIQUE Circuit  |
+| 2026-05-11 01:20 UTC | `INCONCLUSIVE` | Young Tableau Count Exponential Gap in Disjointness Communication |
+| 2026-05-11 01:40 UTC | `INCONCLUSIVE` | Fourier Coefficient Sum Inverse Proportional to Disjointness Disc |
 
 ## How to read the reports
 
