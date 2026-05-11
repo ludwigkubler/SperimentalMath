@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-11 18:31 UTC"
+date: "2026-05-11 19:40 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-11 18:31 UTC
+Generated 2026-05-11 19:40 UTC
 
-- Cycles recorded: **618**
-- Time span: 428.8h (~1.44 cycles/h)
+- Cycles recorded: **620**
+- Time span: 430.0h (~1.44 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 581 |
+| INCONCLUSIVE | 583 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -43,9 +43,9 @@ Generated 2026-05-11 18:31 UTC
 | Algebraic Geometry | 7 |
 | Random Matrix Theory | 7 |
 | Finite Geometry | 6 |
+| Free Probability Theory | 6 |
 | Spectral Graph Theory | 6 |
 | Plethysm Theory | 6 |
-| Free Probability Theory | 5 |
 | Ergodic Circuit Framework (communication complexity via dynamical systems) | 4 |
 | {"framework_name": "Ergodic Circuit Framework", "math_branch": "COMM_COMPLEXITY"} | 4 |
 | Fourier Analysis on Boolean Functions | 4 |
@@ -67,8 +67,6 @@ Generated 2026-05-11 18:31 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-11 13:41 UTC | `INCONCLUSIVE` | Plethysm Coefficient Inverse Proportional to Disjointness Communi |
-| 2026-05-11 13:48 UTC | `INCONCLUSIVE` | Secant Rank of Disjointness Communication Matrix Bounds Randomize |
 | 2026-05-11 14:19 UTC | `INCONCLUSIVE` | Kronecker Coefficient Gap in Symmetric Powers of Permanent vs Det |
 | 2026-05-11 14:27 UTC | `INCONCLUSIVE` | Non-Commutative Rank Gap in Read-Twice BPs for IP_2 |
 | 2026-05-11 14:33 UTC | `INCONCLUSIVE` | Standard Young Tableaux Count vs Monotone Circuit Size |
@@ -82,6 +80,8 @@ Generated 2026-05-11 18:31 UTC
 | 2026-05-11 17:52 UTC | `INCONCLUSIVE` | Additive Energy Inverse Proportional to Discrepancy of Sumset Com |
 | 2026-05-11 18:06 UTC | `INCONCLUSIVE` | Symmetric Square Multiplicity Gap in Permanent vs Determinant Dec |
 | 2026-05-11 18:31 UTC | `INCONCLUSIVE` | Free Cumulant Sum Gap in Read-Twice BP Transition Matrices |
+| 2026-05-11 19:29 UTC | `INCONCLUSIVE` | Colin de Verdière Invariant Lower Bounds Resolution Length for Ts |
+| 2026-05-11 19:40 UTC | `INCONCLUSIVE` | Free Cumulant Gap in Read-Twice BPs for IP_2 |
 
 ## How to read the reports
 

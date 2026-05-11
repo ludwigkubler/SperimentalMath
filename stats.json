@@ -1,13 +1,13 @@
 {
-  "last_update_utc": "2026-05-11T18:47:02Z",
-  "total_cycles": 618,
+  "last_update_utc": "2026-05-11T19:47:02Z",
+  "total_cycles": 620,
   "verdict_counts": {
-    "INCONCLUSIVE": 581,
+    "INCONCLUSIVE": 583,
     "SUPPORTED": 4,
     "FALSIFIED": 15,
     "BARRIER_HIT": 18
   },
-  "unique_field_A": 403,
+  "unique_field_A": 404,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
@@ -54,16 +54,16 @@
       6
     ],
     [
+      "Free Probability Theory",
+      6
+    ],
+    [
       "Spectral Graph Theory",
       6
     ],
     [
       "Plethysm Theory",
       6
-    ],
-    [
-      "Free Probability Theory",
-      5
     ],
     [
       "Ergodic Circuit Framework (communication complexity via dynamical systems)",
