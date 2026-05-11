@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-11 07:42 UTC"
+date: "2026-05-11 08:45 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-11 07:42 UTC
+Generated 2026-05-11 08:45 UTC
 
-- Cycles recorded: **593**
-- Time span: 418.0h (~1.42 cycles/h)
+- Cycles recorded: **596**
+- Time span: 419.1h (~1.42 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 556 |
+| INCONCLUSIVE | 559 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -67,9 +67,6 @@ Generated 2026-05-11 07:42 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-11 01:40 UTC | `INCONCLUSIVE` | Fourier Coefficient Sum Inverse Proportional to Disjointness Disc |
-| 2026-05-11 01:51 UTC | `INCONCLUSIVE` | SOS Refutation Degree Bounded by Clause Density for Random 3-SAT |
-| 2026-05-11 01:59 UTC | `INCONCLUSIVE` | Schatten p-Norm Lower Bound on Disjointness Communication Complex |
 | 2026-05-11 03:08 UTC | `INCONCLUSIVE` | Matroid Rank Lower Bound for Monotone k-CLIQUE |
 | 2026-05-11 03:39 UTC | `INCONCLUSIVE` | Symmetric Power Decomposition Complexity Gap for 3-SAT |
 | 2026-05-11 04:26 UTC | `INCONCLUSIVE` | Specht Module Decomposition Exponential Gap Between Permanent and |
@@ -82,6 +79,9 @@ Generated 2026-05-11 07:42 UTC
 | 2026-05-11 06:31 UTC | `INCONCLUSIVE` | Real Dimension of Parity-Constraint Variety Bounds AC⁰ Depth |
 | 2026-05-11 07:16 UTC | `INCONCLUSIVE` | Cheeger Constant Inverse Proportional to Extended Frege Proof Siz |
 | 2026-05-11 07:42 UTC | `INCONCLUSIVE` | Communication Matrix Rank Lower Bounds ABP Size for Boolean Funct |
+| 2026-05-11 08:00 UTC | `INCONCLUSIVE` | Invariant Generator Count Bounds SOS Refutation Degree for Symmet |
+| 2026-05-11 08:32 UTC | `INCONCLUSIVE` | Newton Polytope Volume Inverse Proportional to SOS Degree for Max |
+| 2026-05-11 08:45 UTC | `INCONCLUSIVE` | Krull Dimension Lower Bounds SOS Refutation Degree for 3-SAT |
 
 ## How to read the reports
 
