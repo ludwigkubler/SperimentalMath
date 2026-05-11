@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-11 08:45 UTC"
+date: "2026-05-11 10:35 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-11 08:45 UTC
+Generated 2026-05-11 10:35 UTC
 
-- Cycles recorded: **596**
-- Time span: 419.1h (~1.42 cycles/h)
+- Cycles recorded: **597**
+- Time span: 420.9h (~1.42 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 559 |
+| INCONCLUSIVE | 560 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -67,7 +67,6 @@ Generated 2026-05-11 08:45 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-11 03:08 UTC | `INCONCLUSIVE` | Matroid Rank Lower Bound for Monotone k-CLIQUE |
 | 2026-05-11 03:39 UTC | `INCONCLUSIVE` | Symmetric Power Decomposition Complexity Gap for 3-SAT |
 | 2026-05-11 04:26 UTC | `INCONCLUSIVE` | Specht Module Decomposition Exponential Gap Between Permanent and |
 | 2026-05-11 04:32 UTC | `INCONCLUSIVE` | Persistent Homology Gap in Read-Twice BPs for IP_2 |
@@ -82,6 +81,7 @@ Generated 2026-05-11 08:45 UTC
 | 2026-05-11 08:00 UTC | `INCONCLUSIVE` | Invariant Generator Count Bounds SOS Refutation Degree for Symmet |
 | 2026-05-11 08:32 UTC | `INCONCLUSIVE` | Newton Polytope Volume Inverse Proportional to SOS Degree for Max |
 | 2026-05-11 08:45 UTC | `INCONCLUSIVE` | Krull Dimension Lower Bounds SOS Refutation Degree for 3-SAT |
+| 2026-05-11 10:35 UTC | `INCONCLUSIVE` | Finite-Field Rank Threshold for ACC⁰ Circuit Complexity |
 
 ## How to read the reports
 
