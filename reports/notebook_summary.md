@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-11 19:40 UTC"
+date: "2026-05-11 20:25 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-11 19:40 UTC
+Generated 2026-05-11 20:25 UTC
 
-- Cycles recorded: **620**
-- Time span: 430.0h (~1.44 cycles/h)
+- Cycles recorded: **621**
+- Time span: 430.8h (~1.44 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 583 |
+| INCONCLUSIVE | 584 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -42,8 +42,8 @@ Generated 2026-05-11 19:40 UTC
 | Polymatroid Theory | 8 |
 | Algebraic Geometry | 7 |
 | Random Matrix Theory | 7 |
+| Free Probability Theory | 7 |
 | Finite Geometry | 6 |
-| Free Probability Theory | 6 |
 | Spectral Graph Theory | 6 |
 | Plethysm Theory | 6 |
 | Ergodic Circuit Framework (communication complexity via dynamical systems) | 4 |
@@ -67,7 +67,6 @@ Generated 2026-05-11 19:40 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-11 14:19 UTC | `INCONCLUSIVE` | Kronecker Coefficient Gap in Symmetric Powers of Permanent vs Det |
 | 2026-05-11 14:27 UTC | `INCONCLUSIVE` | Non-Commutative Rank Gap in Read-Twice BPs for IP_2 |
 | 2026-05-11 14:33 UTC | `INCONCLUSIVE` | Standard Young Tableaux Count vs Monotone Circuit Size |
 | 2026-05-11 14:42 UTC | `INCONCLUSIVE` | Real Rank of Moment Matrix Bounded by SOS Refutation Degree for C |
@@ -82,6 +81,7 @@ Generated 2026-05-11 19:40 UTC
 | 2026-05-11 18:31 UTC | `INCONCLUSIVE` | Free Cumulant Sum Gap in Read-Twice BP Transition Matrices |
 | 2026-05-11 19:29 UTC | `INCONCLUSIVE` | Colin de Verdière Invariant Lower Bounds Resolution Length for Ts |
 | 2026-05-11 19:40 UTC | `INCONCLUSIVE` | Free Cumulant Gap in Read-Twice BPs for IP_2 |
+| 2026-05-11 20:25 UTC | `INCONCLUSIVE` | Free Cumulant Sum Gap in Read-Twice BPs for IP_2 |
 
 ## How to read the reports
 
