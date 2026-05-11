@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-11 03:39 UTC"
+date: "2026-05-11 04:32 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-11 03:39 UTC
+Generated 2026-05-11 04:32 UTC
 
-- Cycles recorded: **583**
-- Time span: 414.0h (~1.41 cycles/h)
+- Cycles recorded: **585**
+- Time span: 414.9h (~1.41 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 546 |
+| INCONCLUSIVE | 548 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -67,8 +67,6 @@ Generated 2026-05-11 03:39 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-10 22:42 UTC | `INCONCLUSIVE` | Additive Energy Inverse Proportional to Disjointness Discrepancy |
-| 2026-05-10 23:07 UTC | `INCONCLUSIVE` | Moment-Matrix Spectral Norm Inverse Proportional to Communication |
 | 2026-05-10 23:56 UTC | `INCONCLUSIVE` | Schur-Weyl Decomposition Entropy Gap for Permanent vs Determinant |
 | 2026-05-11 00:01 UTC | `INCONCLUSIVE` | Homotopy Group Rank Inverse Proportional to Disjointness Communic |
 | 2026-05-11 00:27 UTC | `INCONCLUSIVE` | Diophantine Approximation Error Inversely Proportional to Communi |
@@ -82,6 +80,8 @@ Generated 2026-05-11 03:39 UTC
 | 2026-05-11 01:59 UTC | `INCONCLUSIVE` | Schatten p-Norm Lower Bound on Disjointness Communication Complex |
 | 2026-05-11 03:08 UTC | `INCONCLUSIVE` | Matroid Rank Lower Bound for Monotone k-CLIQUE |
 | 2026-05-11 03:39 UTC | `INCONCLUSIVE` | Symmetric Power Decomposition Complexity Gap for 3-SAT |
+| 2026-05-11 04:26 UTC | `INCONCLUSIVE` | Specht Module Decomposition Exponential Gap Between Permanent and |
+| 2026-05-11 04:32 UTC | `INCONCLUSIVE` | Persistent Homology Gap in Read-Twice BPs for IP_2 |
 
 ## How to read the reports
 

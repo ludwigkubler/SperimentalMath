@@ -1,0 +1,114 @@
+{
+  "ts": 1778470381.7260926,
+  "window_h": 24.0,
+  "n_conjectures": 64,
+  "n_papers": 31,
+  "n_scoops": 0,
+  "scoops": [],
+  "top_overlap": [
+    {
+      "score": 0.674,
+      "paper_id": "2605.08079v1",
+      "paper_title": "Multiscale Structure of Eigenstate Thermalization",
+      "paper_category": "cond-mat.stat-mech",
+      "matched_conjecture_eid": "0b9d1a98a4f1",
+      "matched_conjecture_title": "Free Entropy Gap in Read-Twice Branching Programs for IP_2"
+    },
+    {
+      "score": 0.672,
+      "paper_id": "2605.06985v1",
+      "paper_title": "Real-Time Quantum Dynamics on the Fuzzy Sphere: Chaos and Entanglement",
+      "paper_category": "hep-th",
+      "matched_conjecture_eid": "0b9d1a98a4f1",
+      "matched_conjecture_title": "Free Entropy Gap in Read-Twice Branching Programs for IP_2"
+    },
+    {
+      "score": 0.648,
+      "paper_id": "2605.07917v1",
+      "paper_title": "From monodromy to $SL(2,\\mathbb{R})$: reconstructing the logarithmic sector of chiral TMG from virasoro flow",
+      "paper_category": "hep-th",
+      "matched_conjecture_eid": "e10a38fc2892",
+      "matched_conjecture_title": "Genus of Communication Curve Bounds Disjointness Complexity"
+    },
+    {
+      "score": 0.636,
+      "paper_id": "2605.08042v1",
+      "paper_title": "The two-flavor Schwinger model at 50: Solving Coleman's puzzles",
+      "paper_category": "hep-th",
+      "matched_conjecture_eid": "1de2d7187fe1",
+      "matched_conjecture_title": "Additive Energy Lower Bound via Read-Twice Branching Program Discrepancy"
+    },
+    {
+      "score": 0.635,
+      "paper_id": "2605.07729v1",
+      "paper_title": "Genus drop involving non-hyperelliptic curves in Feynman integrals",
+      "paper_category": "hep-th",
+      "matched_conjecture_eid": "66fe027cc0e4",
+      "matched_conjecture_title": "SOS Refutation Size Bounded by Curve Genus of CSP Constraints"
+    },
+    {
+      "score": 0.635,
+      "paper_id": "2605.06789v1",
+      "paper_title": "Physics inspired quantum algorithm for QCD splitting functions",
+      "paper_category": "quant-ph",
+      "matched_conjecture_eid": "1de2d7187fe1",
+      "matched_conjecture_title": "Additive Energy Lower Bound via Read-Twice Branching Program Discrepancy"
+    },
+    {
+      "score": 0.635,
+      "paper_id": "2605.07934v1",
+      "paper_title": "Topological Blocking of the Schwinger Effect in the Salpeter Equation: A Lefschetz Thimble Analysis",
+      "paper_category": "hep-th",
+      "matched_conjecture_eid": "1de2d7187fe1",
+      "matched_conjecture_title": "Additive Energy Lower Bound via Read-Twice Branching Program Discrepancy"
+    },
+    {
+      "score": 0.634,
+      "paper_id": "2605.07464v1",
+      "paper_title": "Broken and restored: a holographic constraint for AdS vacua with orbifolds",
+      "paper_category": "hep-th",
+      "matched_conjecture_eid": "b4a7c853b857",
+      "matched_conjecture_title": "SOS Degree Lower Bound via Matroid Polytope Dimension"
+    },
+    {
+      "score": 0.633,
+      "paper_id": "2605.08085v1",
+      "paper_title": "Fermionic trace relations and supersymmetric indices at finite $N$",
+      "paper_category": "hep-th",
+      "matched_conjecture_eid": "0b9d1a98a4f1",
+      "matched_conjecture_title": "Free Entropy Gap in Read-Twice Branching Programs for IP_2"
+    },
+    {
+      "score": 0.626,
+      "paper_id": "2605.07516v1",
+      "paper_title": "Collinear matching for leading power gluon transverse momentum distributions",
+      "paper_category": "hep-ph",
+      "matched_conjecture_eid": "0b9d1a98a4f1",
+      "matched_conjecture_title": "Free Entropy Gap in Read-Twice Branching Programs for IP_2"
+    }
+  ],
+  "stats": {
+    "n_cycles": 64,
+    "verdicts": {
+      "INCONCLUSIVE": 62,
+      "BARRIER_HIT": 2
+    },
+    "focus_distribution": {
+      "GCT_DET_PERM": 10,
+      "COMM_DISJ": 6,
+      "SOS_DEGREE": 7,
+      "BP_READTWICE": 6,
+      "AC0_PARITY": 2,
+      "MONOTONE_CLIQUE": 6,
+      "ACC_SIPSER": 5,
+      "TSEITIN_RES": 1
+    },
+    "top_fields_A": {
+      "Real Algebraic Geometry": 6,
+      "Representation Theory of Symmetric Groups": 6,
+      "Noncommutative L^p Geometry": 5,
+      "Additive Combinatorics": 4,
+      "Matroid Theory": 3
+    }
+  }
+}

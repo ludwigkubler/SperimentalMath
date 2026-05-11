@@ -1,101 +1,61 @@
-# Daily Reflection — 2026-05-10
+# Daily Reflection — 2026-05-11
 
-*Generated: 2026-05-10 03:33 UTC*
+*Generated: 2026-05-11 03:33 UTC*
 
 ## Yesterday in numbers
-- **Cycles**: 66
-- **New arxiv papers (mirror, last 24h)**: 90
+- **Cycles**: 64
+- **New arxiv papers (mirror, last 24h)**: 31
 - **Verdict distribution**:
-    - INCONCLUSIVE: 66
+    - INCONCLUSIVE: 62
+    - BARRIER_HIT: 2
 - **Focus mode**:
-    - GCT_DET_PERM: 14
-    - SOS_DEGREE: 12
-    - COMM_DISJ: 9
+    - GCT_DET_PERM: 10
+    - SOS_DEGREE: 7
+    - COMM_DISJ: 6
     - BP_READTWICE: 6
     - MONOTONE_CLIQUE: 6
-    - TSEITIN_RES: 5
+    - ACC_SIPSER: 5
+    - AC0_PARITY: 2
+    - TSEITIN_RES: 1
 - **Top fields_A**:
-    - Representation Theory of Symmetric Groups: 8
-    - Real Algebraic Geometry: 7
-    - Free Probability: 4
-    - Spectral Graph Theory: 3
-    - Fourier Analysis on Boolean Functions: 3
+    - Real Algebraic Geometry: 6
+    - Representation Theory of Symmetric Groups: 6
+    - Noncommutative L^p Geometry: 5
+    - Additive Combinatorics: 4
+    - Matroid Theory: 3
 
-## ⚠ Potential scoops (5)
+## ✓ No scoops detected today
 
-These new arxiv papers have **>0.72 cosine** to one of our recent conjectures.
-
-### `2605.05618v1` (sim=0.747)
-- **Paper**: Algorithmic Phase Transition for Large Independent Sets in Dense Hypergraphs
-- **Category**: cs.DS
-- **Submitted**: 2026-05-07T03:17:33Z
-- **URL**: https://arxiv.org/abs/2605.05618v1
-- **Matches our conjecture** `56b5e6eb5fea`: "Newton Polytope Vertex Count Inverse Proportional to SOS Degree for Max-CUT"
-- **Abstract excerpt**: We study the algorithmic tractability of finding large independent sets in dense random hypergraphs. In the sparse regime, much of the natural algorithms can be formulated within either the local or the low-degree polynomial (LDP) framework, and a rich literature has subsequently identified nearly s…
-
-### `2605.06398v1` (sim=0.738)
-- **Paper**: On the Parameterized Approximability of (Mergeable) Sum of Radii Clustering
-- **Category**: cs.DS
-- **Submitted**: 2026-05-07T15:10:33Z
-- **URL**: https://arxiv.org/abs/2605.06398v1
-- **Matches our conjecture** `fcdff37e3de9`: "Real Radical Dimension Inverse Proportionality to SOS Degree for Max-CUT"
-- **Abstract excerpt**: The sum of radii problem ($k$-MSR) asks, given a metric space on $n$ points, to place $k$ balls covering all points so as to minimize the sum of their radii. Despite extensive study from the perspectives of approximation and parameterized algorithms, the exact parameterized complexity of the problem…
-
-### `2605.05602v1` (sim=0.724)
-- **Paper**: Nearly Optimal Attention Coresets
-- **Category**: cs.DS
-- **Submitted**: 2026-05-07T02:37:57Z
-- **URL**: https://arxiv.org/abs/2605.05602v1
-- **Matches our conjecture** `96cc863111fe`: "Projective Plane Line Count Bounds ABP Width for Monotone Circuits"
-- **Abstract excerpt**: We consider the problem of estimating the Attention mechanism in small space, and prove the existence of coresets for it of nearly optimal size. Specifically, we show that for any set of unit-norm keys and values $(K,V)$ in $\mathbb{R}^d$, there exists a subset $(K',V')$ of size at most $O({\sqrt{d}…
-
-### `2605.06389v1` (sim=0.732)
-- **Paper**: A solution to Frankl and Kupavskii's conjecture concerning Erdos-Kleitman matching problem
-- **Category**: math.CO
-- **Submitted**: 2026-05-07T15:06:30Z
-- **URL**: https://arxiv.org/abs/2605.06389v1
-- **Matches our conjecture** `bf0f9125257a`: "Real Stable Polynomial Degree Lower Bound for Max-CUT SOS"
-- **Abstract excerpt**: For integers $n\ge s\ge2$, let $e(n,s)$ be the maximum size of a family   $\F\subseteq2^{[n]}$ with no $s$ pairwise disjoint members.   The study of determining $e(n,s)$ is closely related to its uniform   counterpart, the well-known Erdős matching conjecture.   Frankl and Kupavskii conjectured an e…
-
-### `2605.05319v1` (sim=0.720)
-- **Paper**: Induced Lorentzian and volume polynomials
-- **Category**: math.CO
-- **Submitted**: 2026-05-06T18:00:12Z
-- **URL**: https://arxiv.org/abs/2605.05319v1
-- **Matches our conjecture** `56b5e6eb5fea`: "Newton Polytope Vertex Count Inverse Proportional to SOS Degree for Max-CUT"
-- **Abstract excerpt**: Suppose one has a party of $m$ people, whose expertise collectively covers $n$ topics. Given a subset $T$ of the topics, one wishes to form a panel of $|T|$ people from the party such that $T$ can be covered by assigning a distinct topic to each panel member with the expertise. We show that the numb…
+None of yesterday's new papers had cosine ≥ 0.72 with our conjectures.
 
 ## Top 10 most-overlapping new papers (no threshold)
 
 Useful for compass / next-direction suggestions:
 
-- `2605.05618v1` (cs.DS, sim=0.747): Algorithmic Phase Transition for Large Independent Sets in Dense Hypergraphs
-    matched conj `56b5e6eb5fea`: Newton Polytope Vertex Count Inverse Proportional to SOS Degree for Max-CUT
-- `2605.06398v1` (cs.DS, sim=0.738): On the Parameterized Approximability of (Mergeable) Sum of Radii Clustering
-    matched conj `fcdff37e3de9`: Real Radical Dimension Inverse Proportionality to SOS Degree for Max-CUT
-- `2605.06389v1` (math.CO, sim=0.732): A solution to Frankl and Kupavskii's conjecture concerning Erdos-Kleitman matching problem
-    matched conj `bf0f9125257a`: Real Stable Polynomial Degree Lower Bound for Max-CUT SOS
-- `2605.05602v1` (cs.DS, sim=0.724): Nearly Optimal Attention Coresets
-    matched conj `96cc863111fe`: Projective Plane Line Count Bounds ABP Width for Monotone Circuits
-- `2605.05319v1` (math.CO, sim=0.72): Induced Lorentzian and volume polynomials
-    matched conj `56b5e6eb5fea`: Newton Polytope Vertex Count Inverse Proportional to SOS Degree for Max-CUT
-- `2605.04783v2` (math.CO, sim=0.72): The maximum number of triangles in graphs without vertex disjoint friendship graphs
-    matched conj `bf0f9125257a`: Real Stable Polynomial Degree Lower Bound for Max-CUT SOS
-- `2605.06369v1` (math.CO, sim=0.711): On the dimension of the space generated by characteristic vectors of $q$-Steiner systems
-    matched conj `88b2482f7682`: Semialgebraic Dimension Inverse Proportional to SOS Degree for Max-CUT
-- `2605.05837v1` (cs.IT, sim=0.706): An Additive Approximation Scheme for Generating Dyadic Codings for the Outputs of an LLM
-    matched conj `10b91e07b63e`: Betti Number Inverse Proportionality to DPLL Tree Size in 3-SAT
-- `2605.05455v1` (math.CO, sim=0.704): Thresholds for Tic-Tac-Toe on Finite Affine Spaces
-    matched conj `96cc863111fe`: Projective Plane Line Count Bounds ABP Width for Monotone Circuits
-- `2605.06248v1` (math.CO, sim=0.703): Double-sum Rogers-Ramanujan type identities
-    matched conj `399f95beac0c`: Symmetric Group Fourier Coefficient Sum Distinguishes Read-Twice from Read-Once 
+- `2605.08079v1` (cond-mat.stat-mech, sim=0.674): Multiscale Structure of Eigenstate Thermalization
+    matched conj `0b9d1a98a4f1`: Free Entropy Gap in Read-Twice Branching Programs for IP_2
+- `2605.06985v1` (hep-th, sim=0.672): Real-Time Quantum Dynamics on the Fuzzy Sphere: Chaos and Entanglement
+    matched conj `0b9d1a98a4f1`: Free Entropy Gap in Read-Twice Branching Programs for IP_2
+- `2605.07917v1` (hep-th, sim=0.648): From monodromy to $SL(2,\mathbb{R})$: reconstructing the logarithmic sector of chiral TMG from viras
+    matched conj `e10a38fc2892`: Genus of Communication Curve Bounds Disjointness Complexity
+- `2605.08042v1` (hep-th, sim=0.636): The two-flavor Schwinger model at 50: Solving Coleman's puzzles
+    matched conj `1de2d7187fe1`: Additive Energy Lower Bound via Read-Twice Branching Program Discrepancy
+- `2605.07729v1` (hep-th, sim=0.635): Genus drop involving non-hyperelliptic curves in Feynman integrals
+    matched conj `66fe027cc0e4`: SOS Refutation Size Bounded by Curve Genus of CSP Constraints
+- `2605.06789v1` (quant-ph, sim=0.635): Physics inspired quantum algorithm for QCD splitting functions
+    matched conj `1de2d7187fe1`: Additive Energy Lower Bound via Read-Twice Branching Program Discrepancy
+- `2605.07934v1` (hep-th, sim=0.635): Topological Blocking of the Schwinger Effect in the Salpeter Equation: A Lefschetz Thimble Analysis
+    matched conj `1de2d7187fe1`: Additive Energy Lower Bound via Read-Twice Branching Program Discrepancy
+- `2605.07464v1` (hep-th, sim=0.634): Broken and restored: a holographic constraint for AdS vacua with orbifolds
+    matched conj `b4a7c853b857`: SOS Degree Lower Bound via Matroid Polytope Dimension
+- `2605.08085v1` (hep-th, sim=0.633): Fermionic trace relations and supersymmetric indices at finite $N$
+    matched conj `0b9d1a98a4f1`: Free Entropy Gap in Read-Twice Branching Programs for IP_2
+- `2605.07516v1` (hep-ph, sim=0.626): Collinear matching for leading power gluon transverse momentum distributions
+    matched conj `0b9d1a98a4f1`: Free Entropy Gap in Read-Twice Branching Programs for IP_2
 
 ## Recommendations
-- ⚠ Read the 5 flagged papers; consider mutating affected conjectures away from the overlap.
-  - [2605.05618v1](https://arxiv.org/abs/2605.05618v1) vs our `56b5e6eb5fea`
-  - [2605.06398v1](https://arxiv.org/abs/2605.06398v1) vs our `fcdff37e3de9`
-  - [2605.05602v1](https://arxiv.org/abs/2605.05602v1) vs our `96cc863111fe`
-- Closest non-scoop overlap: `2605.05618v1` (sim=0.747) — may be a useful reference if you publish.
+- No urgent action. The system is exploring regions that are not currently saturated by recent arxiv work.
+- Closest non-scoop overlap: `2605.08079v1` (sim=0.674) — may be a useful reference if you publish.
 
 ---
 
