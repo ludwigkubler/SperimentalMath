@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-12 08:44 UTC"
+date: "2026-05-12 09:26 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-12 08:44 UTC
+Generated 2026-05-12 09:26 UTC
 
-- Cycles recorded: **652**
-- Time span: 443.1h (~1.47 cycles/h)
+- Cycles recorded: **653**
+- Time span: 443.8h (~1.47 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 615 |
+| INCONCLUSIVE | 616 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -32,7 +32,7 @@ Generated 2026-05-12 08:44 UTC
 
 | Field | Cycles |
 |---|---|
-| Real Algebraic Geometry | 34 |
+| Real Algebraic Geometry | 35 |
 | Schur-Weyl Duality | 22 |
 | Representation Theory of Symmetric Groups | 17 |
 | Matroid Theory | 16 |
@@ -67,7 +67,6 @@ Generated 2026-05-12 08:44 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-12 03:10 UTC | `INCONCLUSIVE` | Schur Coefficient Density Inverse Proportional to Frege Proof Len |
 | 2026-05-12 03:25 UTC | `INCONCLUSIVE` | Free Cumulant Sum Bounded by Log-Size for Read-Twice BPs |
 | 2026-05-12 04:34 UTC | `INCONCLUSIVE` | Condition Number of Moment Matrix Inversely Proportional to SOS D |
 | 2026-05-12 04:40 UTC | `INCONCLUSIVE` | Projective Plane Incidence Bounds Nisan-Wigderson Seed Length |
@@ -82,6 +81,7 @@ Generated 2026-05-12 08:44 UTC
 | 2026-05-12 08:22 UTC | `INCONCLUSIVE` | Hilbert Function Growth Inversely Proportional to Extended Frege  |
 | 2026-05-12 08:32 UTC | `INCONCLUSIVE` | Block Design Discrepancy and Communication Complexity Lower Bound |
 | 2026-05-12 08:44 UTC | `INCONCLUSIVE` | Second Eigenvalue Inverse Proportional to Resolution Proof Length |
+| 2026-05-12 09:26 UTC | `INCONCLUSIVE` | Real Radical Dimension Bounds SOS Degree for Max-CUT |
 
 ## How to read the reports
 
