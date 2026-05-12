@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-12 10:30 UTC"
+date: "2026-05-12 11:18 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-12 10:30 UTC
+Generated 2026-05-12 11:18 UTC
 
-- Cycles recorded: **655**
-- Time span: 444.8h (~1.47 cycles/h)
+- Cycles recorded: **656**
+- Time span: 445.6h (~1.47 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 618 |
+| INCONCLUSIVE | 619 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -67,7 +67,6 @@ Generated 2026-05-12 10:30 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-12 04:40 UTC | `INCONCLUSIVE` | Projective Plane Incidence Bounds Nisan-Wigderson Seed Length |
 | 2026-05-12 05:17 UTC | `INCONCLUSIVE` | Fourier Coefficient Spread and ACC⁰ Circuit Lower Bounds |
 | 2026-05-12 05:43 UTC | `INCONCLUSIVE` | Fourier Coefficient Decay Bounds AC⁰ Circuit Size for Parity-Inse |
 | 2026-05-12 06:36 UTC | `INCONCLUSIVE` | Invariant Ring Degree Bounds SOS Refutation Degree for Symmetric  |
@@ -82,6 +81,7 @@ Generated 2026-05-12 10:30 UTC
 | 2026-05-12 09:26 UTC | `INCONCLUSIVE` | Real Radical Dimension Bounds SOS Degree for Max-CUT |
 | 2026-05-12 10:22 UTC | `INCONCLUSIVE` | Noncommutative Fourier Coefficient Sum Inversely Proportional to  |
 | 2026-05-12 10:30 UTC | `INCONCLUSIVE` | SOS Degree Lower Bound via Eigenvalue Count in Moment Matrix |
+| 2026-05-12 11:18 UTC | `INCONCLUSIVE` | Kronecker Coefficient Gap in Symmetric Decompositions of Permanen |
 
 ## How to read the reports
 
