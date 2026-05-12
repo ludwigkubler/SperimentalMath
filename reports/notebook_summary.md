@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-12 05:43 UTC"
+date: "2026-05-12 06:43 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-12 05:43 UTC
+Generated 2026-05-12 06:43 UTC
 
-- Cycles recorded: **643**
-- Time span: 440.0h (~1.46 cycles/h)
+- Cycles recorded: **645**
+- Time span: 441.0h (~1.46 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 606 |
+| INCONCLUSIVE | 608 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -39,7 +39,7 @@ Generated 2026-05-12 05:43 UTC
 | Free Probability | 14 |
 | Additive Combinatorics | 10 |
 | Free Probability Theory | 10 |
-| Noncommutative L^p Geometry | 8 |
+| Noncommutative L^p Geometry | 9 |
 | Polymatroid Theory | 8 |
 | Algebraic Geometry | 7 |
 | Random Matrix Theory | 7 |
@@ -67,8 +67,6 @@ Generated 2026-05-12 05:43 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-11 23:12 UTC | `INCONCLUSIVE` | Kronecker Coefficient Gap in Set Disjointness Communication Compl |
-| 2026-05-11 23:33 UTC | `INCONCLUSIVE` | Symmetric Tensor Rank Gap in Permanent vs Determinant Decompositi |
 | 2026-05-12 01:18 UTC | `INCONCLUSIVE` | Free Cumulant Sum Bounded by Disjointness Communication Complexit |
 | 2026-05-12 01:34 UTC | `INCONCLUSIVE` | Plethysm Coefficient Gap in Permanent vs Determinant Decompositio |
 | 2026-05-12 01:48 UTC | `INCONCLUSIVE` | Symmetric Group Fourier Coefficients Inverse Proportional to ACC⁰ |
@@ -82,6 +80,8 @@ Generated 2026-05-12 05:43 UTC
 | 2026-05-12 04:40 UTC | `INCONCLUSIVE` | Projective Plane Incidence Bounds Nisan-Wigderson Seed Length |
 | 2026-05-12 05:17 UTC | `INCONCLUSIVE` | Fourier Coefficient Spread and ACC⁰ Circuit Lower Bounds |
 | 2026-05-12 05:43 UTC | `INCONCLUSIVE` | Fourier Coefficient Decay Bounds AC⁰ Circuit Size for Parity-Inse |
+| 2026-05-12 06:36 UTC | `INCONCLUSIVE` | Invariant Ring Degree Bounds SOS Refutation Degree for Symmetric  |
+| 2026-05-12 06:43 UTC | `INCONCLUSIVE` | Noncommutative L^p Norm of Communication Matrix Bounds Randomized |
 
 ## How to read the reports
 
