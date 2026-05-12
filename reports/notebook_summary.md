@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-12 02:46 UTC"
+date: "2026-05-12 03:25 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-12 02:46 UTC
+Generated 2026-05-12 03:25 UTC
 
-- Cycles recorded: **637**
-- Time span: 437.1h (~1.46 cycles/h)
+- Cycles recorded: **639**
+- Time span: 437.8h (~1.46 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 600 |
+| INCONCLUSIVE | 602 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -38,7 +38,7 @@ Generated 2026-05-12 02:46 UTC
 | Matroid Theory | 15 |
 | Free Probability | 14 |
 | Additive Combinatorics | 10 |
-| Free Probability Theory | 9 |
+| Free Probability Theory | 10 |
 | Noncommutative L^p Geometry | 8 |
 | Polymatroid Theory | 8 |
 | Algebraic Geometry | 7 |
@@ -67,8 +67,6 @@ Generated 2026-05-12 02:46 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-11 21:18 UTC | `INCONCLUSIVE` | Tropical Convex Hull Dimension Inverse Proportional to ACC^0 Circ |
-| 2026-05-11 21:40 UTC | `INCONCLUSIVE` | Symmetric Power Multiplicity Gap in Permanent vs Determinant Repr |
 | 2026-05-11 21:47 UTC | `INCONCLUSIVE` | Schur-Weyl Multiplicity Gap in Permanent vs Determinant Decomposi |
 | 2026-05-11 21:57 UTC | `INCONCLUSIVE` | Dual Convex Body Width Bounds SOS Degree for Max-CUT |
 | 2026-05-11 22:27 UTC | `INCONCLUSIVE` | Cycle Matroid Rank Inverse Proportional to Resolution Proof Size  |
@@ -82,6 +80,8 @@ Generated 2026-05-12 02:46 UTC
 | 2026-05-12 02:14 UTC | `INCONCLUSIVE` | Matroid Rank Bounded by Nisan-Wigderson Seed Length for 3-SAT |
 | 2026-05-12 02:20 UTC | `INCONCLUSIVE` | Matroid Rank Submodularity and Monotone Circuit Size for k-CLIQUE |
 | 2026-05-12 02:46 UTC | `INCONCLUSIVE` | Symplectic Rank of Disjointness Communication Matrix Bounds Rando |
+| 2026-05-12 03:10 UTC | `INCONCLUSIVE` | Schur Coefficient Density Inverse Proportional to Frege Proof Len |
+| 2026-05-12 03:25 UTC | `INCONCLUSIVE` | Free Cumulant Sum Bounded by Log-Size for Read-Twice BPs |
 
 ## How to read the reports
 
