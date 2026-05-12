@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-12 15:08 UTC"
+date: "2026-05-12 16:21 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-12 15:08 UTC
+Generated 2026-05-12 16:21 UTC
 
-- Cycles recorded: **662**
-- Time span: 449.5h (~1.47 cycles/h)
+- Cycles recorded: **665**
+- Time span: 450.7h (~1.48 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 625 |
+| INCONCLUSIVE | 628 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -37,7 +37,7 @@ Generated 2026-05-12 15:08 UTC
 | Representation Theory of Symmetric Groups | 17 |
 | Matroid Theory | 16 |
 | Free Probability | 14 |
-| Additive Combinatorics | 10 |
+| Additive Combinatorics | 11 |
 | Free Probability Theory | 10 |
 | Noncommutative L^p Geometry | 9 |
 | Random Matrix Theory | 8 |
@@ -67,9 +67,6 @@ Generated 2026-05-12 15:08 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-12 08:01 UTC | `INCONCLUSIVE` | Tensor Product Multiplicity Inverse Proportional to Monotone Circ |
-| 2026-05-12 08:14 UTC | `INCONCLUSIVE` | Persistent Homology of Read-Twice BPs Bounded by Log-Size |
-| 2026-05-12 08:22 UTC | `INCONCLUSIVE` | Hilbert Function Growth Inversely Proportional to Extended Frege  |
 | 2026-05-12 08:32 UTC | `INCONCLUSIVE` | Block Design Discrepancy and Communication Complexity Lower Bound |
 | 2026-05-12 08:44 UTC | `INCONCLUSIVE` | Second Eigenvalue Inverse Proportional to Resolution Proof Length |
 | 2026-05-12 09:26 UTC | `INCONCLUSIVE` | Real Radical Dimension Bounds SOS Degree for Max-CUT |
@@ -82,6 +79,9 @@ Generated 2026-05-12 15:08 UTC
 | 2026-05-12 13:27 UTC | `INCONCLUSIVE` | Invariant Ring Generator Count Gap in Read-Twice BPs for IP_2 |
 | 2026-05-12 14:34 UTC | `INCONCLUSIVE` | Noncommutative Fourier Coefficient Sum Bounded by Log-Size for Re |
 | 2026-05-12 15:07 UTC | `INCONCLUSIVE` | Schur-Weyl Multiplicity Gap in Symmetric Powers of Permanent vs D |
+| 2026-05-12 15:52 UTC | `INCONCLUSIVE` | Additive Energy of Truth Table Bounds ACC⁰ Circuit Size for Expli |
+| 2026-05-12 16:08 UTC | `INCONCLUSIVE` | Plethysm Multiplicity Inverse Proportional to Monotone Circuit Si |
+| 2026-05-12 16:21 UTC | `INCONCLUSIVE` | Ehrhart Polynomial Coefficient Sum Bounded by Resolution Proof Si |
 
 ## How to read the reports
 
