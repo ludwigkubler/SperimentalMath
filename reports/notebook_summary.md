@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-12 03:25 UTC"
+date: "2026-05-12 04:40 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-12 03:25 UTC
+Generated 2026-05-12 04:40 UTC
 
-- Cycles recorded: **639**
-- Time span: 437.8h (~1.46 cycles/h)
+- Cycles recorded: **641**
+- Time span: 439.0h (~1.46 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 602 |
+| INCONCLUSIVE | 604 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -67,8 +67,6 @@ Generated 2026-05-12 03:25 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-11 21:47 UTC | `INCONCLUSIVE` | Schur-Weyl Multiplicity Gap in Permanent vs Determinant Decomposi |
-| 2026-05-11 21:57 UTC | `INCONCLUSIVE` | Dual Convex Body Width Bounds SOS Degree for Max-CUT |
 | 2026-05-11 22:27 UTC | `INCONCLUSIVE` | Cycle Matroid Rank Inverse Proportional to Resolution Proof Size  |
 | 2026-05-11 22:59 UTC | `INCONCLUSIVE` | Cohomological Dimension Inverse Proportional to Disjointness Comm |
 | 2026-05-11 23:12 UTC | `INCONCLUSIVE` | Kronecker Coefficient Gap in Set Disjointness Communication Compl |
@@ -82,6 +80,8 @@ Generated 2026-05-12 03:25 UTC
 | 2026-05-12 02:46 UTC | `INCONCLUSIVE` | Symplectic Rank of Disjointness Communication Matrix Bounds Rando |
 | 2026-05-12 03:10 UTC | `INCONCLUSIVE` | Schur Coefficient Density Inverse Proportional to Frege Proof Len |
 | 2026-05-12 03:25 UTC | `INCONCLUSIVE` | Free Cumulant Sum Bounded by Log-Size for Read-Twice BPs |
+| 2026-05-12 04:34 UTC | `INCONCLUSIVE` | Condition Number of Moment Matrix Inversely Proportional to SOS D |
+| 2026-05-12 04:40 UTC | `INCONCLUSIVE` | Projective Plane Incidence Bounds Nisan-Wigderson Seed Length |
 
 ## How to read the reports
 

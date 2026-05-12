@@ -1,0 +1,162 @@
+{
+  "ts": 1778556782.8040838,
+  "window_h": 24.0,
+  "n_conjectures": 57,
+  "n_papers": 184,
+  "n_scoops": 8,
+  "scoops": [
+    {
+      "paper_id": "2605.08072v1",
+      "paper_title": "A Note on Non-Negative $L_1$-Approximating Polynomials",
+      "matched_eid": "e37540873b70",
+      "similarity": 0.7408438003845508
+    },
+    {
+      "paper_id": "2605.07902v1",
+      "paper_title": "Curvature Beyond Positivity: Greedy Guarantees for Arbitrary Submodular Functions",
+      "matched_eid": "ff054944518f",
+      "similarity": 0.7347949170637206
+    },
+    {
+      "paper_id": "2605.06900v1",
+      "paper_title": "Accelerated Relax-and-Round for Concave Coverage Problems",
+      "matched_eid": "e1acc109e09f",
+      "similarity": 0.7207869809626904
+    },
+    {
+      "paper_id": "2605.07298v1",
+      "paper_title": "On the Number of Zero Forcing Minimal Forts on Trees",
+      "matched_eid": "c965301cf284",
+      "similarity": 0.7476676579661904
+    },
+    {
+      "paper_id": "2605.10276v1",
+      "paper_title": "Principal specializations of Grothendieck polynomials",
+      "matched_eid": "5afbe3121f1c",
+      "similarity": 0.7339495532137068
+    },
+    {
+      "paper_id": "2605.09926v1",
+      "paper_title": "Three-Edges and the SOS Rank of Biquadratic Forms: Extending the Augmented Zarankiewicz Framework",
+      "matched_eid": "c965301cf284",
+      "similarity": 0.739973159278148
+    },
+    {
+      "paper_id": "2605.09683v1",
+      "paper_title": "Rook theory, normal ordering in the $q$-deformed Ore algebra and the polynomial generalization",
+      "matched_eid": "5afbe3121f1c",
+      "similarity": 0.7357661684714559
+    },
+    {
+      "paper_id": "2605.08444v1",
+      "paper_title": "A short proof of Mathar's 2013 recurrence conjecture for the Laguerre sequence~A025166",
+      "matched_eid": "5afbe3121f1c",
+      "similarity": 0.7232487249745408
+    }
+  ],
+  "top_overlap": [
+    {
+      "score": 0.748,
+      "paper_id": "2605.07298v1",
+      "paper_title": "On the Number of Zero Forcing Minimal Forts on Trees",
+      "paper_category": "math.CO",
+      "matched_conjecture_eid": "c965301cf284",
+      "matched_conjecture_title": "Tree-Depth Exponentiation Bounds Tseitin Resolution Length"
+    },
+    {
+      "score": 0.741,
+      "paper_id": "2605.08072v1",
+      "paper_title": "A Note on Non-Negative $L_1$-Approximating Polynomials",
+      "paper_category": "stat.ML",
+      "matched_conjecture_eid": "e37540873b70",
+      "matched_conjecture_title": "Real Radical Rank Lower Bounds SOS Degree for Max-CUT"
+    },
+    {
+      "score": 0.74,
+      "paper_id": "2605.09926v1",
+      "paper_title": "Three-Edges and the SOS Rank of Biquadratic Forms: Extending the Augmented Zarankiewicz Framework",
+      "paper_category": "math.CO",
+      "matched_conjecture_eid": "c965301cf284",
+      "matched_conjecture_title": "Tree-Depth Exponentiation Bounds Tseitin Resolution Length"
+    },
+    {
+      "score": 0.736,
+      "paper_id": "2605.09683v1",
+      "paper_title": "Rook theory, normal ordering in the $q$-deformed Ore algebra and the polynomial generalization",
+      "paper_category": "math.CO",
+      "matched_conjecture_eid": "5afbe3121f1c",
+      "matched_conjecture_title": "Specht Module Decomposition Exponential Gap Between Permanent and Determinant Polynomials"
+    },
+    {
+      "score": 0.735,
+      "paper_id": "2605.07902v1",
+      "paper_title": "Curvature Beyond Positivity: Greedy Guarantees for Arbitrary Submodular Functions",
+      "paper_category": "cs.LG",
+      "matched_conjecture_eid": "ff054944518f",
+      "matched_conjecture_title": "Standard Young Tableaux Count vs Monotone Circuit Size"
+    },
+    {
+      "score": 0.734,
+      "paper_id": "2605.10276v1",
+      "paper_title": "Principal specializations of Grothendieck polynomials",
+      "paper_category": "math.CO",
+      "matched_conjecture_eid": "5afbe3121f1c",
+      "matched_conjecture_title": "Specht Module Decomposition Exponential Gap Between Permanent and Determinant Polynomials"
+    },
+    {
+      "score": 0.723,
+      "paper_id": "2605.08444v1",
+      "paper_title": "A short proof of Mathar's 2013 recurrence conjecture for the Laguerre sequence~A025166",
+      "paper_category": "math.CO",
+      "matched_conjecture_eid": "5afbe3121f1c",
+      "matched_conjecture_title": "Specht Module Decomposition Exponential Gap Between Permanent and Determinant Polynomials"
+    },
+    {
+      "score": 0.721,
+      "paper_id": "2605.06900v1",
+      "paper_title": "Accelerated Relax-and-Round for Concave Coverage Problems",
+      "paper_category": "cs.DS",
+      "matched_conjecture_eid": "e1acc109e09f",
+      "matched_conjecture_title": "Dual Convex Body Width Bounds SOS Degree for Max-CUT"
+    },
+    {
+      "score": 0.719,
+      "paper_id": "2605.09798v1",
+      "paper_title": "The density of graphs with no $\\ell$-path connecting equal-degree vertices: a short proof",
+      "paper_category": "math.CO",
+      "matched_conjecture_eid": "c965301cf284",
+      "matched_conjecture_title": "Tree-Depth Exponentiation Bounds Tseitin Resolution Length"
+    },
+    {
+      "score": 0.717,
+      "paper_id": "2605.07916v1",
+      "paper_title": "A strengthening of Chang's lemma",
+      "paper_category": "math.NT",
+      "matched_conjecture_eid": "ac07c338962c",
+      "matched_conjecture_title": "Finite-Field Rank Threshold for ACC⁰ Circuit Complexity"
+    }
+  ],
+  "stats": {
+    "n_cycles": 57,
+    "verdicts": {
+      "INCONCLUSIVE": 57
+    },
+    "focus_distribution": {
+      "GCT_DET_PERM": 15,
+      "BP_READTWICE": 8,
+      "SOS_DEGREE": 4,
+      "ACC_SIPSER": 4,
+      "COMM_DISJ": 6,
+      "AC0_PARITY": 2,
+      "TSEITIN_RES": 2,
+      "MONOTONE_CLIQUE": 1
+    },
+    "top_fields_A": {
+      "Free Probability Theory": 8,
+      "Schur-Weyl Duality": 7,
+      "Matroid Theory": 3,
+      "Algebraic Geometry (Secant Varieties of Veronese R": 2,
+      "Real Algebraic Geometry": 2
+    }
+  }
+}
