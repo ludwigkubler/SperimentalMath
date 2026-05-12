@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-12 04:40 UTC"
+date: "2026-05-12 05:43 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-12 04:40 UTC
+Generated 2026-05-12 05:43 UTC
 
-- Cycles recorded: **641**
-- Time span: 439.0h (~1.46 cycles/h)
+- Cycles recorded: **643**
+- Time span: 440.0h (~1.46 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 604 |
+| INCONCLUSIVE | 606 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -67,8 +67,6 @@ Generated 2026-05-12 04:40 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-11 22:27 UTC | `INCONCLUSIVE` | Cycle Matroid Rank Inverse Proportional to Resolution Proof Size  |
-| 2026-05-11 22:59 UTC | `INCONCLUSIVE` | Cohomological Dimension Inverse Proportional to Disjointness Comm |
 | 2026-05-11 23:12 UTC | `INCONCLUSIVE` | Kronecker Coefficient Gap in Set Disjointness Communication Compl |
 | 2026-05-11 23:33 UTC | `INCONCLUSIVE` | Symmetric Tensor Rank Gap in Permanent vs Determinant Decompositi |
 | 2026-05-12 01:18 UTC | `INCONCLUSIVE` | Free Cumulant Sum Bounded by Disjointness Communication Complexit |
@@ -82,6 +80,8 @@ Generated 2026-05-12 04:40 UTC
 | 2026-05-12 03:25 UTC | `INCONCLUSIVE` | Free Cumulant Sum Bounded by Log-Size for Read-Twice BPs |
 | 2026-05-12 04:34 UTC | `INCONCLUSIVE` | Condition Number of Moment Matrix Inversely Proportional to SOS D |
 | 2026-05-12 04:40 UTC | `INCONCLUSIVE` | Projective Plane Incidence Bounds Nisan-Wigderson Seed Length |
+| 2026-05-12 05:17 UTC | `INCONCLUSIVE` | Fourier Coefficient Spread and ACC⁰ Circuit Lower Bounds |
+| 2026-05-12 05:43 UTC | `INCONCLUSIVE` | Fourier Coefficient Decay Bounds AC⁰ Circuit Size for Parity-Inse |
 
 ## How to read the reports
 
