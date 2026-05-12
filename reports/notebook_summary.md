@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-12 01:34 UTC"
+date: "2026-05-12 02:46 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-12 01:34 UTC
+Generated 2026-05-12 02:46 UTC
 
-- Cycles recorded: **632**
-- Time span: 435.9h (~1.45 cycles/h)
+- Cycles recorded: **637**
+- Time span: 437.1h (~1.46 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 595 |
+| INCONCLUSIVE | 600 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -35,8 +35,8 @@ Generated 2026-05-12 01:34 UTC
 | Real Algebraic Geometry | 34 |
 | Schur-Weyl Duality | 22 |
 | Representation Theory of Symmetric Groups | 17 |
+| Matroid Theory | 15 |
 | Free Probability | 14 |
-| Matroid Theory | 13 |
 | Additive Combinatorics | 10 |
 | Free Probability Theory | 9 |
 | Noncommutative L^p Geometry | 8 |
@@ -67,11 +67,6 @@ Generated 2026-05-12 01:34 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-11 18:31 UTC | `INCONCLUSIVE` | Free Cumulant Sum Gap in Read-Twice BP Transition Matrices |
-| 2026-05-11 19:29 UTC | `INCONCLUSIVE` | Colin de Verdière Invariant Lower Bounds Resolution Length for Ts |
-| 2026-05-11 19:40 UTC | `INCONCLUSIVE` | Free Cumulant Gap in Read-Twice BPs for IP_2 |
-| 2026-05-11 20:25 UTC | `INCONCLUSIVE` | Free Cumulant Sum Gap in Read-Twice BPs for IP_2 |
-| 2026-05-11 20:56 UTC | `INCONCLUSIVE` | Free Cumulant Gap in Read-Twice BPs for IP_2 |
 | 2026-05-11 21:18 UTC | `INCONCLUSIVE` | Tropical Convex Hull Dimension Inverse Proportional to ACC^0 Circ |
 | 2026-05-11 21:40 UTC | `INCONCLUSIVE` | Symmetric Power Multiplicity Gap in Permanent vs Determinant Repr |
 | 2026-05-11 21:47 UTC | `INCONCLUSIVE` | Schur-Weyl Multiplicity Gap in Permanent vs Determinant Decomposi |
@@ -82,6 +77,11 @@ Generated 2026-05-12 01:34 UTC
 | 2026-05-11 23:33 UTC | `INCONCLUSIVE` | Symmetric Tensor Rank Gap in Permanent vs Determinant Decompositi |
 | 2026-05-12 01:18 UTC | `INCONCLUSIVE` | Free Cumulant Sum Bounded by Disjointness Communication Complexit |
 | 2026-05-12 01:34 UTC | `INCONCLUSIVE` | Plethysm Coefficient Gap in Permanent vs Determinant Decompositio |
+| 2026-05-12 01:48 UTC | `INCONCLUSIVE` | Symmetric Group Fourier Coefficients Inverse Proportional to ACC⁰ |
+| 2026-05-12 01:54 UTC | `INCONCLUSIVE` | Integer Point Count in Solution Polytope Bounds Extended Frege Pr |
+| 2026-05-12 02:14 UTC | `INCONCLUSIVE` | Matroid Rank Bounded by Nisan-Wigderson Seed Length for 3-SAT |
+| 2026-05-12 02:20 UTC | `INCONCLUSIVE` | Matroid Rank Submodularity and Monotone Circuit Size for k-CLIQUE |
+| 2026-05-12 02:46 UTC | `INCONCLUSIVE` | Symplectic Rank of Disjointness Communication Matrix Bounds Rando |
 
 ## How to read the reports
 
