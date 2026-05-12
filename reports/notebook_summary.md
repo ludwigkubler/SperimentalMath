@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-12 12:40 UTC"
+date: "2026-05-12 13:27 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-12 12:40 UTC
+Generated 2026-05-12 13:27 UTC
 
-- Cycles recorded: **658**
-- Time span: 447.0h (~1.47 cycles/h)
+- Cycles recorded: **660**
+- Time span: 447.8h (~1.47 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 621 |
+| INCONCLUSIVE | 623 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -46,6 +46,7 @@ Generated 2026-05-12 12:40 UTC
 | Spectral Graph Theory | 7 |
 | Finite Geometry | 6 |
 | Plethysm Theory | 6 |
+| Noncommutative Harmonic Analysis | 5 |
 | Ergodic Circuit Framework (communication complexity via dynamical systems) | 4 |
 | {"framework_name": "Ergodic Circuit Framework", "math_branch": "COMM_COMPLEXITY"} | 4 |
 | Fourier Analysis on Boolean Functions | 4 |
@@ -54,7 +55,6 @@ Generated 2026-05-12 12:40 UTC
 | Persistent Homology | 4 |
 | FOURIER_ANALYSIS | 4 |
 | Noncommutative Geometry | 4 |
-| Noncommutative Harmonic Analysis | 4 |
 | Fourier analysis of boolean functions | 3 |
 | Algebraic Topology | 3 |
 | matroid theory | 3 |
@@ -67,8 +67,6 @@ Generated 2026-05-12 12:40 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-12 06:36 UTC | `INCONCLUSIVE` | Invariant Ring Degree Bounds SOS Refutation Degree for Symmetric  |
-| 2026-05-12 06:43 UTC | `INCONCLUSIVE` | Noncommutative L^p Norm of Communication Matrix Bounds Randomized |
 | 2026-05-12 07:48 UTC | `INCONCLUSIVE` | Matroid Rank Inverse Proportional to Monotone DNF Size for k-CLIQ |
 | 2026-05-12 07:54 UTC | `INCONCLUSIVE` | Matroid Rank Submodularity in Monotone DNF for k-CLIQUE |
 | 2026-05-12 08:01 UTC | `INCONCLUSIVE` | Tensor Product Multiplicity Inverse Proportional to Monotone Circ |
@@ -82,6 +80,8 @@ Generated 2026-05-12 12:40 UTC
 | 2026-05-12 11:18 UTC | `INCONCLUSIVE` | Kronecker Coefficient Gap in Symmetric Decompositions of Permanen |
 | 2026-05-12 11:48 UTC | `INCONCLUSIVE` | Schur-Weyl Decomposition Component Count vs. Monotone Circuit Siz |
 | 2026-05-12 12:40 UTC | `INCONCLUSIVE` | Real Radical Degree Lower Bound for AC⁰ Circuits Computing PARITY |
+| 2026-05-12 13:19 UTC | `INCONCLUSIVE` | Noncommutative Fourier Coefficient Spread and Read-Twice BP Size |
+| 2026-05-12 13:27 UTC | `INCONCLUSIVE` | Invariant Ring Generator Count Gap in Read-Twice BPs for IP_2 |
 
 ## How to read the reports
 
