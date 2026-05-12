@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-12 17:38 UTC"
+date: "2026-05-12 18:22 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-12 17:38 UTC
+Generated 2026-05-12 18:22 UTC
 
-- Cycles recorded: **668**
-- Time span: 452.0h (~1.48 cycles/h)
+- Cycles recorded: **671**
+- Time span: 452.7h (~1.48 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 631 |
+| INCONCLUSIVE | 634 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -32,7 +32,7 @@ Generated 2026-05-12 17:38 UTC
 
 | Field | Cycles |
 |---|---|
-| Real Algebraic Geometry | 36 |
+| Real Algebraic Geometry | 37 |
 | Schur-Weyl Duality | 24 |
 | Representation Theory of Symmetric Groups | 17 |
 | Matroid Theory | 16 |
@@ -67,9 +67,6 @@ Generated 2026-05-12 17:38 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-12 10:22 UTC | `INCONCLUSIVE` | Noncommutative Fourier Coefficient Sum Inversely Proportional to  |
-| 2026-05-12 10:30 UTC | `INCONCLUSIVE` | SOS Degree Lower Bound via Eigenvalue Count in Moment Matrix |
-| 2026-05-12 11:18 UTC | `INCONCLUSIVE` | Kronecker Coefficient Gap in Symmetric Decompositions of Permanen |
 | 2026-05-12 11:48 UTC | `INCONCLUSIVE` | Schur-Weyl Decomposition Component Count vs. Monotone Circuit Siz |
 | 2026-05-12 12:40 UTC | `INCONCLUSIVE` | Real Radical Degree Lower Bound for AC⁰ Circuits Computing PARITY |
 | 2026-05-12 13:19 UTC | `INCONCLUSIVE` | Noncommutative Fourier Coefficient Spread and Read-Twice BP Size |
@@ -82,6 +79,9 @@ Generated 2026-05-12 17:38 UTC
 | 2026-05-12 17:13 UTC | `INCONCLUSIVE` | Noncommutative L^∞ Norm Lower Bounds Disjointness Communication C |
 | 2026-05-12 17:24 UTC | `INCONCLUSIVE` | Quasigroup Idempotent Density Inversely Proportional to ACC⁰ Circ |
 | 2026-05-12 17:37 UTC | `INCONCLUSIVE` | Free Cumulant Sum Gap in Read-Twice BPs for IP_2 |
+| 2026-05-12 17:56 UTC | `INCONCLUSIVE` | Tropical Variety Dimension Gap in Read-Twice vs Read-Once BPs |
+| 2026-05-12 18:08 UTC | `INCONCLUSIVE` | Real Rank of SOS Moment Matrices for Max-CUT Bounded by Degree |
+| 2026-05-12 18:22 UTC | `INCONCLUSIVE` | Submodular Rank Gap in Monotone DNF for k-CLIQUE |
 
 ## How to read the reports
 
