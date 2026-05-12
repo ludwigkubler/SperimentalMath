@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-11 23:33 UTC"
+date: "2026-05-12 01:34 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-11 23:33 UTC
+Generated 2026-05-12 01:34 UTC
 
-- Cycles recorded: **630**
-- Time span: 433.9h (~1.45 cycles/h)
+- Cycles recorded: **632**
+- Time span: 435.9h (~1.45 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 593 |
+| INCONCLUSIVE | 595 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -33,12 +33,12 @@ Generated 2026-05-11 23:33 UTC
 | Field | Cycles |
 |---|---|
 | Real Algebraic Geometry | 34 |
-| Schur-Weyl Duality | 21 |
+| Schur-Weyl Duality | 22 |
 | Representation Theory of Symmetric Groups | 17 |
 | Free Probability | 14 |
 | Matroid Theory | 13 |
 | Additive Combinatorics | 10 |
-| Free Probability Theory | 8 |
+| Free Probability Theory | 9 |
 | Noncommutative L^p Geometry | 8 |
 | Polymatroid Theory | 8 |
 | Algebraic Geometry | 7 |
@@ -67,8 +67,6 @@ Generated 2026-05-11 23:33 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-11 17:52 UTC | `INCONCLUSIVE` | Additive Energy Inverse Proportional to Discrepancy of Sumset Com |
-| 2026-05-11 18:06 UTC | `INCONCLUSIVE` | Symmetric Square Multiplicity Gap in Permanent vs Determinant Dec |
 | 2026-05-11 18:31 UTC | `INCONCLUSIVE` | Free Cumulant Sum Gap in Read-Twice BP Transition Matrices |
 | 2026-05-11 19:29 UTC | `INCONCLUSIVE` | Colin de Verdière Invariant Lower Bounds Resolution Length for Ts |
 | 2026-05-11 19:40 UTC | `INCONCLUSIVE` | Free Cumulant Gap in Read-Twice BPs for IP_2 |
@@ -82,6 +80,8 @@ Generated 2026-05-11 23:33 UTC
 | 2026-05-11 22:59 UTC | `INCONCLUSIVE` | Cohomological Dimension Inverse Proportional to Disjointness Comm |
 | 2026-05-11 23:12 UTC | `INCONCLUSIVE` | Kronecker Coefficient Gap in Set Disjointness Communication Compl |
 | 2026-05-11 23:33 UTC | `INCONCLUSIVE` | Symmetric Tensor Rank Gap in Permanent vs Determinant Decompositi |
+| 2026-05-12 01:18 UTC | `INCONCLUSIVE` | Free Cumulant Sum Bounded by Disjointness Communication Complexit |
+| 2026-05-12 01:34 UTC | `INCONCLUSIVE` | Plethysm Coefficient Gap in Permanent vs Determinant Decompositio |
 
 ## How to read the reports
 
