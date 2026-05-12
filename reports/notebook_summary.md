@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-12 19:42 UTC"
+date: "2026-05-12 20:40 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-12 19:42 UTC
+Generated 2026-05-12 20:40 UTC
 
-- Cycles recorded: **674**
-- Time span: 454.0h (~1.48 cycles/h)
+- Cycles recorded: **676**
+- Time span: 455.0h (~1.49 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 637 |
+| INCONCLUSIVE | 639 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -33,7 +33,7 @@ Generated 2026-05-12 19:42 UTC
 | Field | Cycles |
 |---|---|
 | Real Algebraic Geometry | 37 |
-| Schur-Weyl Duality | 24 |
+| Schur-Weyl Duality | 25 |
 | Representation Theory of Symmetric Groups | 17 |
 | Matroid Theory | 16 |
 | Free Probability | 14 |
@@ -67,8 +67,6 @@ Generated 2026-05-12 19:42 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-12 13:27 UTC | `INCONCLUSIVE` | Invariant Ring Generator Count Gap in Read-Twice BPs for IP_2 |
-| 2026-05-12 14:34 UTC | `INCONCLUSIVE` | Noncommutative Fourier Coefficient Sum Bounded by Log-Size for Re |
 | 2026-05-12 15:07 UTC | `INCONCLUSIVE` | Schur-Weyl Multiplicity Gap in Symmetric Powers of Permanent vs D |
 | 2026-05-12 15:52 UTC | `INCONCLUSIVE` | Additive Energy of Truth Table Bounds ACC⁰ Circuit Size for Expli |
 | 2026-05-12 16:08 UTC | `INCONCLUSIVE` | Plethysm Multiplicity Inverse Proportional to Monotone Circuit Si |
@@ -82,6 +80,8 @@ Generated 2026-05-12 19:42 UTC
 | 2026-05-12 19:26 UTC | `INCONCLUSIVE` | Euler Characteristic of Communication Graph Equals Deterministic  |
 | 2026-05-12 19:34 UTC | `INCONCLUSIVE` | Completely Bounded Norm Gap in Read-Twice BPs for IP_2 |
 | 2026-05-12 19:42 UTC | `INCONCLUSIVE` | Non-Abelian Fourier Coefficient Spread Inversely Proportional to  |
+| 2026-05-12 20:10 UTC | `INCONCLUSIVE` | Secant Rank of Disjointness Communication Matrix Lower-Bounds Ran |
+| 2026-05-12 20:40 UTC | `INCONCLUSIVE` | Schur Coefficient Sum Ratio in Symmetric Powers of Permanent vs D |
 
 ## How to read the reports
 
