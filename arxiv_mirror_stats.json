@@ -82,42 +82,42 @@
   "embedded": 1242,
   "fetched_span_h": 265.6119833026992,
   "last_update": {
-    "last_update_ts": 1778580689.8169336,
+    "last_update_ts": 1778609638.1159403,
     "by_category": {
       "cs.CC": {
-        "fetched": 50,
-        "new": 17,
-        "skipped": 33
+        "fetched": 0,
+        "new": 0,
+        "skipped": 0
       },
       "cs.DS": {
-        "fetched": 50,
-        "new": 24,
-        "skipped": 26
+        "fetched": 0,
+        "new": 0,
+        "skipped": 0
       },
       "cs.LO": {
-        "fetched": 50,
-        "new": 25,
-        "skipped": 25
+        "fetched": 0,
+        "new": 0,
+        "skipped": 0
       },
       "math.CO": {
-        "fetched": 50,
-        "new": 14,
-        "skipped": 36
+        "fetched": 0,
+        "new": 0,
+        "skipped": 0
       },
       "math.LO": {
+        "fetched": 0,
+        "new": 0,
+        "skipped": 0
+      },
+      "math-ph": {
         "fetched": 50,
         "new": 0,
         "skipped": 50
       },
-      "math-ph": {
-        "fetched": 50,
-        "new": 13,
-        "skipped": 37
-      },
       "hep-th": {
-        "fetched": 50,
-        "new": 13,
-        "skipped": 37
+        "fetched": 0,
+        "new": 0,
+        "skipped": 0
       }
     }
   }

@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-12 18:22 UTC"
+date: "2026-05-12 19:42 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-12 18:22 UTC
+Generated 2026-05-12 19:42 UTC
 
-- Cycles recorded: **671**
-- Time span: 452.7h (~1.48 cycles/h)
+- Cycles recorded: **674**
+- Time span: 454.0h (~1.48 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 634 |
+| INCONCLUSIVE | 637 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -67,9 +67,6 @@ Generated 2026-05-12 18:22 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-12 11:48 UTC | `INCONCLUSIVE` | Schur-Weyl Decomposition Component Count vs. Monotone Circuit Siz |
-| 2026-05-12 12:40 UTC | `INCONCLUSIVE` | Real Radical Degree Lower Bound for AC⁰ Circuits Computing PARITY |
-| 2026-05-12 13:19 UTC | `INCONCLUSIVE` | Noncommutative Fourier Coefficient Spread and Read-Twice BP Size |
 | 2026-05-12 13:27 UTC | `INCONCLUSIVE` | Invariant Ring Generator Count Gap in Read-Twice BPs for IP_2 |
 | 2026-05-12 14:34 UTC | `INCONCLUSIVE` | Noncommutative Fourier Coefficient Sum Bounded by Log-Size for Re |
 | 2026-05-12 15:07 UTC | `INCONCLUSIVE` | Schur-Weyl Multiplicity Gap in Symmetric Powers of Permanent vs D |
@@ -82,6 +79,9 @@ Generated 2026-05-12 18:22 UTC
 | 2026-05-12 17:56 UTC | `INCONCLUSIVE` | Tropical Variety Dimension Gap in Read-Twice vs Read-Once BPs |
 | 2026-05-12 18:08 UTC | `INCONCLUSIVE` | Real Rank of SOS Moment Matrices for Max-CUT Bounded by Degree |
 | 2026-05-12 18:22 UTC | `INCONCLUSIVE` | Submodular Rank Gap in Monotone DNF for k-CLIQUE |
+| 2026-05-12 19:26 UTC | `INCONCLUSIVE` | Euler Characteristic of Communication Graph Equals Deterministic  |
+| 2026-05-12 19:34 UTC | `INCONCLUSIVE` | Completely Bounded Norm Gap in Read-Twice BPs for IP_2 |
+| 2026-05-12 19:42 UTC | `INCONCLUSIVE` | Non-Abelian Fourier Coefficient Spread Inversely Proportional to  |
 
 ## How to read the reports
 
