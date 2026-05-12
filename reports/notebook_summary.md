@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-12 11:18 UTC"
+date: "2026-05-12 12:40 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-12 11:18 UTC
+Generated 2026-05-12 12:40 UTC
 
-- Cycles recorded: **656**
-- Time span: 445.6h (~1.47 cycles/h)
+- Cycles recorded: **658**
+- Time span: 447.0h (~1.47 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 619 |
+| INCONCLUSIVE | 621 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -32,8 +32,8 @@ Generated 2026-05-12 11:18 UTC
 
 | Field | Cycles |
 |---|---|
-| Real Algebraic Geometry | 35 |
-| Schur-Weyl Duality | 22 |
+| Real Algebraic Geometry | 36 |
+| Schur-Weyl Duality | 23 |
 | Representation Theory of Symmetric Groups | 17 |
 | Matroid Theory | 16 |
 | Free Probability | 14 |
@@ -67,8 +67,6 @@ Generated 2026-05-12 11:18 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-12 05:17 UTC | `INCONCLUSIVE` | Fourier Coefficient Spread and ACC⁰ Circuit Lower Bounds |
-| 2026-05-12 05:43 UTC | `INCONCLUSIVE` | Fourier Coefficient Decay Bounds AC⁰ Circuit Size for Parity-Inse |
 | 2026-05-12 06:36 UTC | `INCONCLUSIVE` | Invariant Ring Degree Bounds SOS Refutation Degree for Symmetric  |
 | 2026-05-12 06:43 UTC | `INCONCLUSIVE` | Noncommutative L^p Norm of Communication Matrix Bounds Randomized |
 | 2026-05-12 07:48 UTC | `INCONCLUSIVE` | Matroid Rank Inverse Proportional to Monotone DNF Size for k-CLIQ |
@@ -82,6 +80,8 @@ Generated 2026-05-12 11:18 UTC
 | 2026-05-12 10:22 UTC | `INCONCLUSIVE` | Noncommutative Fourier Coefficient Sum Inversely Proportional to  |
 | 2026-05-12 10:30 UTC | `INCONCLUSIVE` | SOS Degree Lower Bound via Eigenvalue Count in Moment Matrix |
 | 2026-05-12 11:18 UTC | `INCONCLUSIVE` | Kronecker Coefficient Gap in Symmetric Decompositions of Permanen |
+| 2026-05-12 11:48 UTC | `INCONCLUSIVE` | Schur-Weyl Decomposition Component Count vs. Monotone Circuit Siz |
+| 2026-05-12 12:40 UTC | `INCONCLUSIVE` | Real Radical Degree Lower Bound for AC⁰ Circuits Computing PARITY |
 
 ## How to read the reports
 
