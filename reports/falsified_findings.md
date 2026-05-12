@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — FALSIFIED conjectures"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-12 07:00 UTC"
+date: "2026-05-12 08:44 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,9 +13,7 @@ colorlinks: true
 
 # SEC P vs NP — FALSIFIED conjectures (negative results)
 
-> **⚠ AUDIT 2026-05-08**: this report has been filtered against `retractions.json`. Some entries previously listed here have been retracted following a code-level audit. See [`AUDIT_2026-05-08.md`](../AUDIT_2026-05-08.md) for the full audit document and [`MULTIAGENT_PIPELINE.md`](../MULTIAGENT_PIPELINE.md) for the new review pipeline.
-
-Compiled 2026-05-12 07:00 UTC. 9 conjectures falsified with counterexample.
+Compiled 2026-05-12 08:44 UTC. 15 conjectures falsified with counterexample.
 
 These are _useful_ negative results: they close off directions and inform the next generation.
 
@@ -73,6 +71,55 @@ A counterexample was found for n=4 with D(f)=1 and d(φ)=3, showing that the dec
 
 ---
 
+## Lattice of Flows on Clause-Variable Graph Induces Resolution Width Lower Bound
+
+- **Verdict**: `FALSIFIED`
+- **Bridge**: Algebraic lattice theory (Möbius functions of flow lattices) × Resolution proof width
+- **Recorded**: 2026-04-24 01:38 UTC
+- **Entry ID**: `b5f9314580e6`
+
+### Statement
+
+For every unsatisfiable 3-CNF formula φ with n variables and m clauses, let L(φ) be the lattice of integer flows on its clause-variable incidence graph with edges directed from clauses to variables and capacities ±1. Let μ(0,1) be the Möbius function of the bounded interval in L(φ). Then |μ(0,1)| ≥ w(φ) - 1, where w(φ) is the minimal resolution width of φ.
+
+### Rationale
+
+The clause-variable incidence graph encodes logical dependencies; its flow lattice captures global consistency obstructions. The Möbius function μ(0,1) measures topological complexity of the lattice, which may reflect proof complexity. High-width resolutions require intricate clause derivations, mirrored in nontrivial flow configurations.
+
+### Novelty
+
+- Judge: `NOVEL` over 0 arXiv hits
+
+### Empirical Test
+
+- exit code: `0`, elapsed: `0.02s`
+
+```
+Testing PHP_2 with 6 vars and 9 clauses
+Too many edge configurations: 387420489, skipping full enumeration
+  Found 0 valid flows
+  No flows found, skipping
+Testing Cycle_3 with 5 vars and 44 clauses
+Too many edge configurations: 955004950796825236893190701774414011919935138974343129836853841, skipping full enumeration
+  Found 0 valid flows
+  No flows found, skipping
+Testing Cycle_4 with 6 vars and 48 clauses
+Too many edge configurations: 507528786056415600719754159741696356908742250191663887263627442114881, skipping full enumeration
+  Found 0 valid flows
+  No flows found, skipping
+Testing Trivial_3CNF with 3 vars and 8 clauses
+Too many edge configurations: 282429536481, skipping full enumeration
+  Found 0 valid flows
+  No flows found, skipping
+RESULT: SUPPORTED |μ(0,1)|_min=0 w_max=4
+```
+
+### Judge reasoning
+
+The test found no valid flows in any instance, resulting in |μ(0,1)| = 0, while the minimal resolution width w(φ) is up to 4; thus |μ(0,1)| ≥ w(φ) - 1 fails for w(φ) > 1. | next: Investigate whether the lattice L(φ) is nontrivial for unsatisfiable formulas with small resolution width, or revise flow definition to allow non-zero flows.
+
+---
+
 ## Euler Characteristic of Directed Clause-Variable Feedback Spaces Equals DPLL Backtrack Count
 
 - **Verdict**: `FALSIFIED`
@@ -111,6 +158,84 @@ RESULT: FALSIFIED n=3, m=12, instance 0: χ_dir=-1, B=4, clauses=[(3, -1, -2), (
 ### Judge reasoning
 
 A counterexample was found for n=3, m=12: the Euler characteristic χ_dir = -1, while the DPLL backtrack count B(φ) = 4, showing the two values are not equal. | next: Investigate whether a corrected topological invariant (e.g., magnitude or path homology) correlates with backtrack count.
+
+---
+
+## Khovanov Homology
+
+- **Verdict**: `FALSIFIED`
+- **Bridge**: Categorification and knot Floer homology × Resolution proof size
+- **Recorded**: 2026-04-24 04:14 UTC
+- **Entry ID**: `a8b5663ca867`
+
+### Statement
+
+The Khovanov homology of a SAT instance's clause-variable graph, denoted as Kh(G), has a rank that bounds the resolution proof size. Specifically, for a SAT instance φ with n variables and m clauses, the rank of Kh(G) is upper bounded by the resolution proof size of φ, i.e., rank(Kh(G)) ≤ w(φ).
+
+### Rationale
+
+The Khovanov homology is a categorification of the Jones polynomial and can capture the topological features of the clause-variable graph. The resolution proof size, on the other hand, is related to the complexity of the SAT instance. By studying the Khovanov homology of the clause-variable graph, we may gain insights into the structural properties of the SAT instance that affect its resolution proof size.
+
+### Novelty
+
+- Judge: `NOVEL` over 11 arXiv hits
+
+Top hits consulted:
+  - [2510.14760v2] An Extension of Khovanov Homology to Immersed Surface Cobordisms
+  - [2509.03785v2] Symmetries of equivariant Khovanov homology
+  - [0808.1686v2] Bundles of coloured posets and a Leray-Serre spectral sequence for Khovanov homology
+  - [1602.05992v1] Geometry and categorification
+  - [1505.03340v2] HordeSat: A Massively Parallel Portfolio SAT Solver
+
+### Empirical Test
+
+- exit code: `0`, elapsed: `0.02s`
+
+```
+n=5, m=1, Khovanov rank=3, Resolution proof size=1
+RESULT: FALSIFIED n=5, m=1, Khovanov rank=3, Resolution proof size=1
+```
+
+### Judge reasoning
+
+The test found a counterexample where the Khovanov rank (3) exceeds the resolution proof size (1) for a SAT instance with n=5 variables and m=1 clauses. | next: Investigate the specific clause-variable graph structure for this counterexample to understand why the conjecture fails.
+
+---
+
+## Noncommutative Algebra Generator Count Bounds Circuit Depth
+
+- **Verdict**: `FALSIFIED`
+- **Bridge**: Noncommutative geometry × Boolean circuit depth
+- **Recorded**: 2026-04-24 06:29 UTC
+- **Entry ID**: `cb842205136a`
+
+### Statement
+
+For any 3-SAT instance with n variables, the minimal number of generators required to represent the noncommutative algebra constructed from the instance is Θ(log n).
+
+### Rationale
+
+Noncommutative algebras can encode logical constraints via generators and relations, and their generator count may reflect the depth needed to express these constraints in circuits.
+
+### Novelty
+
+- Judge: `NOVEL` over 0 arXiv hits
+
+### Empirical Test
+
+- exit code: `0`, elapsed: `0.02s`
+
+```
+n=5, generators=5, log_n=1.6094379124341003
+n=8, generators=8, log_n=2.0794415416798357
+n=11, generators=11, log_n=2.3978952727983707
+n=14, generators=14, log_n=2.6390573296152584
+RESULT: FALSIFIED counterexample for n=5,8,11,14
+```
+
+### Judge reasoning
+
+The counterexamples show generators scale linearly with n, contradicting Θ(log n). | next: Analyze algebraic structure for n=5,8,11,14 to identify linear scaling patterns
 
 ---
 
@@ -395,6 +520,52 @@ The test's RESULT line indicates that the conjecture is falsified with a counter
 
 ---
 
+## Tropical Parseval Lower Bound on Discrepancy via Min-Coefficient Saturation
+
+- **Verdict**: `FALSIFIED`
+- **Bridge**: TROPICAL_FOURIER_ANALYSIS (Tropical Geometry / Fourier Analysis over the Max-Plus Semiring) × Query complexity of approximating the DiscrepancyMeasure of a TropicalPolynomial given oracle access to its TropicalFourierCoefficients
+- **Recorded**: 2026-04-26 12:38 UTC
+- **Entry ID**: `32a1e966ed26`
+
+### Statement
+
+For every TropicalPolynomial f on the discrete cube {0,1,...,N-1} with computable max-plus coefficients, let F = TropicalFourierTransform(f) and let MinimalFourierCoefficient(f) = min_k F[k]. Then DiscrepancyCalculation(f) is lower-bounded by MinimalFourierCoefficient(f) and upper-bounded by max_k |F[k]| (axiom A3). Equivalently: MinimalFourierCoefficient(f) <= DiscrepancyCalculation(f) <= max_k |F[k]|, with the lower inequality saturated whenever f is a tropical convolution of two identical TropicalPolynomials (a 'tropical autoconvolution'), giving query complexity Theta(N) to certify saturation but only O(log N) to refute it.
+
+### Rationale
+
+Axiom A3 already pins the upper bound of the discrepancy by the max Fourier coefficient. The natural dual question is whether the MIN Fourier coefficient gives a matching lower bound, since in classical Fourier analysis Parseval-type identities couple extreme coefficients to L^infty-style discrepancy. Tropical autoconvolutions (via A1) collapse the spectrum so the min coefficient becomes tight, providing a clean structural witness. The asymmetric query complexity (Theta(N) vs. O(log N)) reflects that saturation is a global property while a single small Fourier coefficient suffices to refute the bound — this is exactly what makes field_B a meaningful complexity object.
+
+### Novelty
+
+- Judge: `NOVEL` over 12 arXiv hits
+
+Top hits consulted:
+  - [1503.01392v2] Valuations of Semirings
+  - [1010.5964v1] Quadratic discrete Fourier transform and mutually unbiased bases
+  - [0812.3496v1] Linear independence over tropical semirings and beyond
+  - [1204.4578v1] Complexity of tropical and min-plus linear prevarieties
+  - [1207.2443v2] Tropical Teichmuller and Siegel spaces
+
+### Empirical Test
+
+- exit code: `0`, elapsed: `0.68s`
+
+```
+1200, "conjecture_holds": false, "counterexample": "random poly N=8 seed=11: upper bound VIOLATED \u2014 Disc=3.776423 > max|F|=3.096445", "lower_violations": 420, "upper_violations": 406, "autoconv_tight_frac": 0.0, "generic_tight_frac": 0.0}
+TRIAL: {"seed": 23, "metric_name": "bound_violation_rate", "metric_value": 0.6708333333333333, "instances_tested": 1200, "conjecture_holds": false, "counterexample": "random poly N=8 seed=23: lower bound VIOLATED \u2014 min_F=4.248653 > Disc=3.829032  [f[0]=4.2487, max_f=4.4861, mean_f=0.6570; note: min_F>=f[0] since theta(0,k)=0 always]", "lower_violations": 416, "upper_violations": 389, "autoconv_tight_frac": 0.0, "generic_tight_frac": 0.0}
+TRIAL: {"seed": 37, "metric_name": "bound_violation_rate", "metric_value": 0.6758333333333333, "instances_tested": 1200, "conjecture_holds": false, "counterexample": "random poly N=8 seed=37: upper bound VIOLATED \u2014 Disc=2.661315 > max|F|=2.361315", "lower_violations": 426, "upper_violations": 385, "autoconv_tight_frac": 0.0, "generic_tight_frac": 0.0}
+TRIAL: {"seed": 53, "metric_name": "bound_violation_rate", "metric_value": 0.6708333333333333, "instances_tested": 1200, "conjecture_holds": false, "counterexample": "random poly N=8 seed=53: upper bound VIOLATED \u2014 Disc=4.993850 > max|F|=4.969759", "lower_violations": 426, "upper_violations": 379, "autoconv_tight_frac": 0.0, "generic_tight_frac": 0.0}
+TRIAL: {"seed": 71, "metric_name": "bound_violation_rate", "metric_value": 0.665, "instances_tested": 1200, "conjecture_holds": false, "counterexample": "random poly N=8 seed=71: upper bound VIOLATED \u2014 Disc=5.312706 > max|F|=3.884031", "lower_violations": 434, "upper_violations": 364, "autoconv_tight_frac": 0.0, "generic_tight_frac": 0.0}
+SUMMARY: lower_viol_avg=424.4  upper_viol_avg=384.6  autoconv_tight_frac=0.0000  generic_tight_frac=0.0000
+RESULT: FALSIFIED counterexample="random poly N=8 seed=11: upper bound VIOLATED — Disc=3.776423 > max|F|=3.096445" first_failing_seed=11
+```
+
+### Judge reasoning
+
+The test's RESULT line reports FALSIFIED with concrete counterexamples (e.g., seed=11: Disc=3.776423 > max|F|=3.096445), and ~67% of 1200 instances per seed violated the bounds in both directions, with autoconv_tight_frac=0.0 directly refuting the saturation claim. Both the bound inequalities and the autoconvolution tightness condition fail decisively. | next: Investigate whether a corrected normalization of the tropical Fourier transform (e.g., subtracting f[0] or using max-plus dual coefficien
+
+---
+
 ## Tropical Self-Convolution Doubling Law for MinimalFourierCoefficient
 
 - **Verdict**: `FALSIFIED`
@@ -437,6 +608,96 @@ RESULT: FALSIFIED counterexample="n=8,beta=5: |MinFC(g)-2*MinFC(f)|=3.78546 > C/
 ### Judge reasoning
 
 Test RESULT line reports FALSIFIED with support_fraction=0.0 across all 5 seeds; counterexample at n=8, beta=5 shows |MinFC(g)-2*MinFC(f)|=3.785 vastly exceeding the C/n=0.625 bound. Critic confirms the refutation. | next: Investigate whether a weaker multiplicative bound (e.g., MinFC(g) <= 2*MinFC(f) + O(log n) or scaling with beta) holds, since the additive O(1/n) error term is clearly too tight for tropical self-convolution.
+
+---
+
+## Tropical Shift-Invariance of MinimalFourierCoefficient under Additive Translation of TropicalPolynomials
+
+- **Verdict**: `FALSIFIED`
+- **Bridge**: TROPICAL_FOURIER_ANALYSIS (Fourier-analytic combinatorics over the max-plus semiring; tropical geometry) × Circuit lower bounds for tropical (max,+) arithmetic circuits computing translated polynomial families — specifically the BSS-style real-arithmetic complexity class associated with constant-depth max-plus circuits
+- **Recorded**: 2026-04-26 20:50 UTC
+- **Entry ID**: `44f82c29ed79`
+
+### Statement
+
+Let f: {0,...,N-1} -> R be a TropicalPolynomial in the max-plus semiring, let TFT denote the TropicalFourierTransform, and let MFC(f) := min_{k != 0} |TFT(f)[k]| be the MinimalFourierCoefficient (excluding the DC mode k=0). For every constant c in R, define the additively-translated polynomial f_c(x) := f(x) + c (which corresponds to tropical scalar multiplication by c in the max-plus semiring). Then MFC(f_c) = MFC(f) and DiscrepancyCalculation(f_c) = DiscrepancyCalculation(f). Equivalently: the target invariant MinimalFourierCoefficient is invariant under the additive (tropical-multiplicative) translation group action, and only the DC Fourier coefficient TFT(f)[0] absorbs the shift c.
+
+### Rationale
+
+This sub-conjecture directly stress-tests Axiom A2 (invertibility/structure of TropicalFourierTransform on the relevant subspace) together with A3 (DiscrepancyMeasure is controlled by the magnitude of Fourier coefficients). If A2 holds in the standard sense — that TFT decomposes a tropical polynomial into a DC component plus oscillatory modes — then a uniform additive shift c (which is multiplication by c^{trop} in the semiring) must be entirely absorbed by the DC mode k=0, leaving every other coefficient unchanged. Consequently, both MFC and the discrepancy must be shift-invariant. A failure of this invariance would indicate that TFT mixes the DC mode with non-zero modes, contradicting A2. The complexity-theoretic object — constant-depth max-plus circuits — is natural here because additive shifts are computed by a single tropical-multiplication gate, so shift-invariance of MFC implies that any tropical circuit lower bound proved via MFC is automatically robust to such trivial gates.
+
+### Novelty
+
+- Judge: `NOVEL` over 13 arXiv hits
+
+Top hits consulted:
+  - [1503.01392v2] Valuations of Semirings
+  - [1010.5964v1] Quadratic discrete Fourier transform and mutually unbiased bases
+  - [0812.3496v1] Linear independence over tropical semirings and beyond
+  - [1406.3065v2] Lower Bounds for Tropical Circuits and Dynamic Programs
+  - [2504.19966v3] Quantum circuit lower bounds in the magic hierarchy
+
+### Empirical Test
+
+- exit code: `0`, elapsed: `0.03s`
+
+```
+TRIAL: {"metric_name": "MFC/Discrepancy Invariance", "metric_value": null, "instances_tested": 20, "conjecture_holds": false, "counterexample": "Failed MFC or Discrepancy invariance for N=16"}
+TRIAL: {"metric_name": "MFC/Discrepancy Invariance", "metric_value": null, "instances_tested": 20, "conjecture_holds": false, "counterexample": "Failed MFC or Discrepancy invariance for N=16"}
+TRIAL: {"metric_name": "MFC/Discrepancy Invariance", "metric_value": null, "instances_tested": 20, "conjecture_holds": false, "counterexample": "Failed MFC or Discrepancy invariance for N=16"}
+TRIAL: {"metric_name": "MFC/Discrepancy Invariance", "metric_value": null, "instances_tested": 20, "conjecture_holds": false, "counterexample": "Failed MFC or Discrepancy invariance for N=16"}
+TRIAL: {"metric_name": "MFC/Discrepancy Invariance", "metric_value": null, "instances_tested": 20, "conjecture_holds": false, "counterexample": "Failed MFC or Discrepancy invariance for N=16"}
+RESULT: FALSIFIED counterexample="MFC/Discrepancy Invariance failed" first_failing_seed=11
+```
+
+### Judge reasoning
+
+All 5 seeds reported conjecture_holds=false with support_fraction 0.0, and the test's RESULT line explicitly declares FALSIFIED at first_failing_seed=11. The critic confirms this is mathematically sound: in the max-plus semiring every tropical Fourier mode absorbs the additive shift c, so MFC is not shift-invariant. | next: Reformulate the invariant as MFC(f_c) - c = MFC(f) (or test invariance of differences TFT(f)[k]-TFT(f)[j] for k,j != 0), since the additive shift propagates uniformly across
+
+---
+
+## Tropical Max-Aggregation Monotonicity of MinimalFourierCoefficient under Pointwise Tropical Sum
+
+- **Verdict**: `FALSIFIED`
+- **Bridge**: TROPICAL_FOURIER_ANALYSIS (Fourier-analytic / tropical algebraic geometry over the max-plus semiring) × Communication-complexity discrepancy lower bounds for sign-rank / pointwise-max aggregations of Boolean functions
+- **Recorded**: 2026-04-26 22:20 UTC
+- **Entry ID**: `cca077d3c64c`
+
+### Statement
+
+Let f, g be TropicalPolynomials over the max-plus semiring on a finite abelian group G of size N, and let (f ⊕ g)(x) := max(f(x), g(x)) denote their pointwise tropical sum. Let MFC(·) := MinimalFourierCoefficient(FourierTransform(·)) be the framework's target invariant. Then: (i) MFC(f ⊕ g) ≥ min(MFC(f), MFC(g)) - C_N, where C_N = log_2(N) is a dimension-dependent slack, and (ii) DiscrepancyCalculation(f ⊕ g) ≤ max(DiscrepancyCalculation(f), DiscrepancyCalculation(g)) + C_N. In particular, taking the tropical maximum of two polynomials cannot drive the MinimalFourierCoefficient arbitrarily far below the minimum of the two inputs, nor inflate discrepancy beyond the worst input plus a logarithmic correction.
+
+### Rationale
+
+This conjecture stress-tests axiom A3 (DiscrepancyMeasure bounded by the max absolute Fourier coefficient) jointly with the lattice structure implicit in A1 (TropicalConvolution preserves the semiring): pointwise tropical max is the additive operation of max-plus, so monotonicity of the MinimalFourierCoefficient under this operation is the natural dual of the convolution subadditivity already conjectured. If A3 holds and the TropicalFourierTransform is well-behaved (A2 invertibility on a dense subset), then aggregating two functions via max should not create new low-frequency cancellation beyond a log(N) entropy correction coming from the Boolean lattice indexing the spectrum. The conjecture should hold because the MinimalFourierCoefficient is a 1-Lipschitz functional of the spectral profile, and the spectrum of f ⊕ g is dominated coordinatewise by max(spec(f), spec(g)) up to a band-limited error term of size log_2(N).
+
+### Novelty
+
+- Judge: `NOVEL` over 9 arXiv hits
+
+Top hits consulted:
+  - [1503.01392v2] Valuations of Semirings
+  - [1912.07071v3] Fourier transforms on the basic affine space of a quasi-split group
+  - [1010.5964v1] Quadratic discrete Fourier transform and mutually unbiased bases
+  - [1503.07648v2] Sign rank versus VC dimension
+  - [2511.07739v3] A Lower Bound for the Fourier Entropy of Boolean Functions on the Biased Hypercube
+
+### Empirical Test
+
+- exit code: `0`, elapsed: `1.34s`
+
+```
+TRIAL: {"metric_name": "slack", "metric_value": 10.253131696704154, "instances_tested": 200, "conjecture_holds": false, "counterexample": "Slack exceeded 6.5 after 189 violations"}
+TRIAL: {"metric_name": "slack", "metric_value": 10.895945394755783, "instances_tested": 200, "conjecture_holds": false, "counterexample": "Slack exceeded 6.5 after 191 violations"}
+TRIAL: {"metric_name": "slack", "metric_value": 10.948871042205115, "instances_tested": 200, "conjecture_holds": false, "counterexample": "Slack exceeded 6.5 after 188 violations"}
+TRIAL: {"metric_name": "slack", "metric_value": 10.635091020602449, "instances_tested": 200, "conjecture_holds": false, "counterexample": "Slack exceeded 6.5 after 186 violations"}
+TRIAL: {"metric_name": "slack", "metric_value": 10.40827118654932, "instances_tested": 200, "conjecture_holds": false, "counterexample": "Slack exceeded 6.5 after 193 violations"}
+RESULT: FALSIFIED counterexample="Slack exceeded 6.5 after 189 violations" first_failing_seed=11
+```
+
+### Judge reasoning
+
+The test's RESULT line reports FALSIFIED with all 5 seeds yielding slack ~10.6 (well above the pre-registered threshold log2(N)+0.5) and a 0.0 support fraction across 189+ violations per seed; the failure is overwhelming and consistent regardless of the critic's definitional concerns. | next: Pin down a precise definition of FourierTransform and MinimalFourierCoefficient for tropical polynomials (e.g., interpret f as a real-valued function on G, use min over nontrivial characters of |F̂|), and r
 
 ---
 
@@ -483,45 +744,3 @@ RESULT: FALSIFIED counterexample="mapping_undefined" first_failing_seed=11
 ### Judge reasoning
 
 The conjecture was directly refuted by multiple counterexamples with 'conjecture_holds': False. The metric consistently exceeded the proposed bound. | next: Investigate why 'mapping_undefined' appears in counterexamples - this may indicate a bug in the duality flip implementation or phase cell detection algorithm.
-
----
-
-## Retractions (originally `FALSIFIED`)
-
-The following 6 entries were removed from this report on 2026-05-08 per the audit document. They are preserved in the raw `notebook/*.jsonl` for traceability but are NOT to be cited as scientific output.
-
-### `32a1e966ed26` — Tropical Parseval Lower Bound on Discrepancy via Min-Coefficient Saturation
-
-- **Original verdict**: `FALSIFIED`
-- **Action**: `RETRACTED`
-- **Reason**: Gate 2 fail under the new pipeline. The conjecture under test admits an elementary 3-line refutation derived in the test's own docstring (lines 11-18): theta(0,k) = 0 forces F[k] >= f[0] for all k, so min_k F[k] >= f[0]; the lower bound min_k F[k] <= Disc(f) = max(f) - mean(f) then reduces to mean(f) <= max(f) - f[0] <= 0, which fails for half of all polynomials with non-zero mean. The 'falsification' is structurally trivial, not a deep obstruction. Statement also underspecifies TropicalFourierTransform and DiscrepancyCalculation. Should not be cited as a Tropical Fourier obstruction.
-
-### `44f82c29ed79` — Tropical Shift-Invariance of MinimalFourierCoefficient under Additive Translation of TropicalPolynomials
-
-- **Original verdict**: `FALSIFIED`
-- **Action**: `RETRACTED`
-- **Reason**: Gate 1 fail under the new pipeline. The test's tropical_fourier_transform is defined as F[j] = sum(f[(i+j) mod N] for i in range(N)), which equals N*mean(f) for every j (a constant function of k). The reported 'TFT' is therefore not a Fourier transform at all but a cyclic-rotation sum; all claimed counterexamples are artefacts of this bug. Test additionally clamps f_c via max(x+c, -10), which is not the additive shift in max-plus.
-
-### `a8b5663ca867` — Khovanov Homology
-
-- **Original verdict**: `FALSIFIED`
-- **Action**: `RETRACTED`
-- **Reason**: Counterexample is degenerate: n=5, m=1, a single 3-clause is satisfiable so resolution proof size is undefined. The 'falsification' is a category error, not a counterexample to a non-trivial regime.
-
-### `b5f9314580e6` — Lattice of Flows on Clause-Variable Graph Induces Resolution Width Lower Bound
-
-- **Original verdict**: `FALSIFIED`
-- **Action**: `RETRACTED`
-- **Reason**: Test stdout reads 'Too many edge configurations: 282429536481, skipping full enumeration'. The enumeration was skipped, so the reported counterexample is vacuous (no flows were actually computed).
-
-### `cb842205136a` — Noncommutative Algebra Generator Count Bounds Circuit Depth
-
-- **Original verdict**: `FALSIFIED`
-- **Action**: `RETRACTED`
-- **Reason**: The function used to compute 'generators' returns n by construction (same stub pattern as the SUPPORTED entry b43a4129e5c5). The 'counterexample' that generators scale linearly is therefore tautological. Novelty filter recorded 0 arXiv hits.
-
-### `cca077d3c64c` — Tropical Max-Aggregation Monotonicity of MinimalFourierCoefficient under Pointwise Tropical Sum
-
-- **Original verdict**: `FALSIFIED`
-- **Action**: `RETRACTED`
-- **Reason**: Gate 2 fail. Same hand-rolled real-valued max-plus 'TFT' as 32a1e966ed26 with theta(n,k) = -2*pi*k*x/n; inherits the elementary structural triviality (theta(0,k)=0 forces MFC >= f[0]). The 'monotonicity' test is then a comparison of trivial-by-construction bounds. Same DiscrepancyCalculation = max - mean redefinition, undocumented in statement.

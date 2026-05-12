@@ -1,13 +1,13 @@
 {
-  "last_update_utc": "2026-05-12T07:47:02Z",
-  "total_cycles": 645,
+  "last_update_utc": "2026-05-12T08:47:02Z",
+  "total_cycles": 652,
   "verdict_counts": {
-    "INCONCLUSIVE": 608,
+    "INCONCLUSIVE": 615,
     "SUPPORTED": 4,
     "FALSIFIED": 15,
     "BARRIER_HIT": 18
   },
-  "unique_field_A": 413,
+  "unique_field_A": 417,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
@@ -23,7 +23,7 @@
     ],
     [
       "Matroid Theory",
-      15
+      16
     ],
     [
       "Free Probability",
@@ -54,11 +54,11 @@
       7
     ],
     [
-      "Finite Geometry",
-      6
+      "Spectral Graph Theory",
+      7
     ],
     [
-      "Spectral Graph Theory",
+      "Finite Geometry",
       6
     ],
     [
