@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-12 22:03 UTC"
+date: "2026-05-12 23:21 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-12 22:03 UTC
+Generated 2026-05-12 23:21 UTC
 
-- Cycles recorded: **678**
-- Time span: 456.4h (~1.49 cycles/h)
+- Cycles recorded: **681**
+- Time span: 457.7h (~1.49 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 641 |
+| INCONCLUSIVE | 644 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -37,7 +37,7 @@ Generated 2026-05-12 22:03 UTC
 | Representation Theory of Symmetric Groups | 17 |
 | Matroid Theory | 16 |
 | Free Probability | 14 |
-| Additive Combinatorics | 11 |
+| Additive Combinatorics | 12 |
 | Free Probability Theory | 11 |
 | Noncommutative L^p Geometry | 10 |
 | Random Matrix Theory | 8 |
@@ -50,6 +50,7 @@ Generated 2026-05-12 22:03 UTC
 | Ergodic Circuit Framework (communication complexity via dynamical systems) | 4 |
 | {"framework_name": "Ergodic Circuit Framework", "math_branch": "COMM_COMPLEXITY"} | 4 |
 | Fourier Analysis on Boolean Functions | 4 |
+| Algebraic Geometry over Finite Fields | 4 |
 | Fourier Analysis of Boolean Functions | 4 |
 | Algebraic Geometry of Secant Varieties | 4 |
 | Persistent Homology | 4 |
@@ -61,15 +62,11 @@ Generated 2026-05-12 22:03 UTC
 | Coarse Geometric Lifting (CGL) — Geometric Complexity Theory | 3 |
 | {"framework_name": "Tropical Circuit Weight Analysis (TCWA)", "math_branch": "BOUNDED_ARITHMETIC"} | 3 |
 | Tropical Circuit Weight Analysis (BOUNDED_ARITHMETIC) | 3 |
-| Algebraic Geometry over Finite Fields | 3 |
 
 ## Last 15 cycles (chronological)
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-12 16:08 UTC | `INCONCLUSIVE` | Plethysm Multiplicity Inverse Proportional to Monotone Circuit Si |
-| 2026-05-12 16:21 UTC | `INCONCLUSIVE` | Ehrhart Polynomial Coefficient Sum Bounded by Resolution Proof Si |
-| 2026-05-12 17:13 UTC | `INCONCLUSIVE` | Noncommutative L^∞ Norm Lower Bounds Disjointness Communication C |
 | 2026-05-12 17:24 UTC | `INCONCLUSIVE` | Quasigroup Idempotent Density Inversely Proportional to ACC⁰ Circ |
 | 2026-05-12 17:37 UTC | `INCONCLUSIVE` | Free Cumulant Sum Gap in Read-Twice BPs for IP_2 |
 | 2026-05-12 17:56 UTC | `INCONCLUSIVE` | Tropical Variety Dimension Gap in Read-Twice vs Read-Once BPs |
@@ -82,6 +79,9 @@ Generated 2026-05-12 22:03 UTC
 | 2026-05-12 20:40 UTC | `INCONCLUSIVE` | Schur Coefficient Sum Ratio in Symmetric Powers of Permanent vs D |
 | 2026-05-12 21:10 UTC | `INCONCLUSIVE` | Hook-Length Ratio Bounds Monotone Circuit Size for Permanent |
 | 2026-05-12 22:03 UTC | `INCONCLUSIVE` | Irreducible Component Count Inversely Proportional to SOS Refutat |
+| 2026-05-12 22:47 UTC | `INCONCLUSIVE` | Gowers Norm Inverse Proportional to ACC⁰ Circuit Size for Explici |
+| 2026-05-12 22:54 UTC | `INCONCLUSIVE` | Irreducible Component Count of IP_2 BP Variety Bounds Read-Twice  |
+| 2026-05-12 23:21 UTC | `INCONCLUSIVE` | Irreducible Component Count Inversely Proportional to ACC⁰ Circui |
 
 ## How to read the reports
 
