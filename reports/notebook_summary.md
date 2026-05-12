@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-12 20:40 UTC"
+date: "2026-05-12 21:10 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-12 20:40 UTC
+Generated 2026-05-12 21:10 UTC
 
-- Cycles recorded: **676**
-- Time span: 455.0h (~1.49 cycles/h)
+- Cycles recorded: **677**
+- Time span: 455.5h (~1.49 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 639 |
+| INCONCLUSIVE | 640 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -67,7 +67,6 @@ Generated 2026-05-12 20:40 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-12 15:07 UTC | `INCONCLUSIVE` | Schur-Weyl Multiplicity Gap in Symmetric Powers of Permanent vs D |
 | 2026-05-12 15:52 UTC | `INCONCLUSIVE` | Additive Energy of Truth Table Bounds ACC⁰ Circuit Size for Expli |
 | 2026-05-12 16:08 UTC | `INCONCLUSIVE` | Plethysm Multiplicity Inverse Proportional to Monotone Circuit Si |
 | 2026-05-12 16:21 UTC | `INCONCLUSIVE` | Ehrhart Polynomial Coefficient Sum Bounded by Resolution Proof Si |
@@ -82,6 +81,7 @@ Generated 2026-05-12 20:40 UTC
 | 2026-05-12 19:42 UTC | `INCONCLUSIVE` | Non-Abelian Fourier Coefficient Spread Inversely Proportional to  |
 | 2026-05-12 20:10 UTC | `INCONCLUSIVE` | Secant Rank of Disjointness Communication Matrix Lower-Bounds Ran |
 | 2026-05-12 20:40 UTC | `INCONCLUSIVE` | Schur Coefficient Sum Ratio in Symmetric Powers of Permanent vs D |
+| 2026-05-12 21:10 UTC | `INCONCLUSIVE` | Hook-Length Ratio Bounds Monotone Circuit Size for Permanent |
 
 ## How to read the reports
 
