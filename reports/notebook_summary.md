@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-12 21:10 UTC"
+date: "2026-05-12 22:03 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-12 21:10 UTC
+Generated 2026-05-12 22:03 UTC
 
-- Cycles recorded: **677**
-- Time span: 455.5h (~1.49 cycles/h)
+- Cycles recorded: **678**
+- Time span: 456.4h (~1.49 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 640 |
+| INCONCLUSIVE | 641 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -61,13 +61,12 @@ Generated 2026-05-12 21:10 UTC
 | Coarse Geometric Lifting (CGL) — Geometric Complexity Theory | 3 |
 | {"framework_name": "Tropical Circuit Weight Analysis (TCWA)", "math_branch": "BOUNDED_ARITHMETIC"} | 3 |
 | Tropical Circuit Weight Analysis (BOUNDED_ARITHMETIC) | 3 |
-| Schur-Weyl duality | 3 |
+| Algebraic Geometry over Finite Fields | 3 |
 
 ## Last 15 cycles (chronological)
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-12 15:52 UTC | `INCONCLUSIVE` | Additive Energy of Truth Table Bounds ACC⁰ Circuit Size for Expli |
 | 2026-05-12 16:08 UTC | `INCONCLUSIVE` | Plethysm Multiplicity Inverse Proportional to Monotone Circuit Si |
 | 2026-05-12 16:21 UTC | `INCONCLUSIVE` | Ehrhart Polynomial Coefficient Sum Bounded by Resolution Proof Si |
 | 2026-05-12 17:13 UTC | `INCONCLUSIVE` | Noncommutative L^∞ Norm Lower Bounds Disjointness Communication C |
@@ -82,6 +81,7 @@ Generated 2026-05-12 21:10 UTC
 | 2026-05-12 20:10 UTC | `INCONCLUSIVE` | Secant Rank of Disjointness Communication Matrix Lower-Bounds Ran |
 | 2026-05-12 20:40 UTC | `INCONCLUSIVE` | Schur Coefficient Sum Ratio in Symmetric Powers of Permanent vs D |
 | 2026-05-12 21:10 UTC | `INCONCLUSIVE` | Hook-Length Ratio Bounds Monotone Circuit Size for Permanent |
+| 2026-05-12 22:03 UTC | `INCONCLUSIVE` | Irreducible Component Count Inversely Proportional to SOS Refutat |
 
 ## How to read the reports
 
