@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-13 01:46 UTC"
+date: "2026-05-13 02:43 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-13 01:46 UTC
+Generated 2026-05-13 02:43 UTC
 
-- Cycles recorded: **687**
-- Time span: 460.1h (~1.49 cycles/h)
+- Cycles recorded: **689**
+- Time span: 461.1h (~1.49 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 650 |
+| INCONCLUSIVE | 652 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -36,8 +36,8 @@ Generated 2026-05-13 01:46 UTC
 | Schur-Weyl Duality | 25 |
 | Representation Theory of Symmetric Groups | 17 |
 | Matroid Theory | 16 |
+| Free Probability Theory | 14 |
 | Free Probability | 14 |
-| Free Probability Theory | 13 |
 | Additive Combinatorics | 12 |
 | Noncommutative L^p Geometry | 10 |
 | Random Matrix Theory | 8 |
@@ -67,8 +67,6 @@ Generated 2026-05-13 01:46 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-12 19:34 UTC | `INCONCLUSIVE` | Completely Bounded Norm Gap in Read-Twice BPs for IP_2 |
-| 2026-05-12 19:42 UTC | `INCONCLUSIVE` | Non-Abelian Fourier Coefficient Spread Inversely Proportional to  |
 | 2026-05-12 20:10 UTC | `INCONCLUSIVE` | Secant Rank of Disjointness Communication Matrix Lower-Bounds Ran |
 | 2026-05-12 20:40 UTC | `INCONCLUSIVE` | Schur Coefficient Sum Ratio in Symmetric Powers of Permanent vs D |
 | 2026-05-12 21:10 UTC | `INCONCLUSIVE` | Hook-Length Ratio Bounds Monotone Circuit Size for Permanent |
@@ -82,6 +80,8 @@ Generated 2026-05-13 01:46 UTC
 | 2026-05-13 00:43 UTC | `INCONCLUSIVE` | Plethysm Coefficient Gap in Symmetric Powers of Permanent vs Dete |
 | 2026-05-13 01:20 UTC | `INCONCLUSIVE` | Negative Eigenvalue Count in SOS Moment Matrix Bounded by Log-Siz |
 | 2026-05-13 01:46 UTC | `INCONCLUSIVE` | Free Cumulant Norm Gap in Read-Twice BPs for IP_2 |
+| 2026-05-13 02:16 UTC | `INCONCLUSIVE` | Secant Variety Dimension Bounds Disjointness Communication Rank |
+| 2026-05-13 02:43 UTC | `INCONCLUSIVE` | Free Cumulant Spread Bounds Disjointness Communication Complexity |
 
 ## How to read the reports
 
