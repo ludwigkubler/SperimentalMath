@@ -1,0 +1,143 @@
+{
+  "ts": 1778643182.2830973,
+  "window_h": 24.0,
+  "n_conjectures": 51,
+  "n_papers": 106,
+  "n_scoops": 5,
+  "scoops": [
+    {
+      "paper_id": "2605.10941v1",
+      "paper_title": "Average-Case Hardness of Binary-Encoded Clique in Proof and Communication Complexity",
+      "matched_eid": "1d0355b7e76a",
+      "similarity": 0.7540176843303414
+    },
+    {
+      "paper_id": "2605.10778v1",
+      "paper_title": "When Does Sparsity Help for k-Independent Set in Hypergraphs and Other Boolean CSPs?",
+      "matched_eid": "afe153586854",
+      "similarity": 0.7704488748844691
+    },
+    {
+      "paper_id": "2605.10056v1",
+      "paper_title": "Hardness Amplification for (Sparse) LPN",
+      "matched_eid": "7a5d68832c2b",
+      "similarity": 0.7294546972567052
+    },
+    {
+      "paper_id": "2605.09551v1",
+      "paper_title": "VP, VNP and Algebraic Branching Programs over Min-Plus Semirings",
+      "matched_eid": "f5574a6cc9ec",
+      "similarity": 0.7206315109400683
+    },
+    {
+      "paper_id": "2605.10512v1",
+      "paper_title": "Reciprocals of Subsum Polynomials",
+      "matched_eid": "d8795d1b709f",
+      "similarity": 0.7382947838962577
+    }
+  ],
+  "top_overlap": [
+    {
+      "score": 0.77,
+      "paper_id": "2605.10778v1",
+      "paper_title": "When Does Sparsity Help for k-Independent Set in Hypergraphs and Other Boolean CSPs?",
+      "paper_category": "cs.CC",
+      "matched_conjecture_eid": "afe153586854",
+      "matched_conjecture_title": "Matroid Rank Inverse Proportional to Monotone DNF Size for k-CLIQUE"
+    },
+    {
+      "score": 0.754,
+      "paper_id": "2605.10941v1",
+      "paper_title": "Average-Case Hardness of Binary-Encoded Clique in Proof and Communication Complexity",
+      "paper_category": "cs.CC",
+      "matched_conjecture_eid": "1d0355b7e76a",
+      "matched_conjecture_title": "Euler Characteristic of Communication Graph Equals Deterministic Communication Complexity"
+    },
+    {
+      "score": 0.738,
+      "paper_id": "2605.10512v1",
+      "paper_title": "Reciprocals of Subsum Polynomials",
+      "paper_category": "math.NT",
+      "matched_conjecture_eid": "d8795d1b709f",
+      "matched_conjecture_title": "Schur Coefficient Sum Ratio in Symmetric Powers of Permanent vs Determinant"
+    },
+    {
+      "score": 0.729,
+      "paper_id": "2605.10056v1",
+      "paper_title": "Hardness Amplification for (Sparse) LPN",
+      "paper_category": "cs.CR",
+      "matched_conjecture_eid": "7a5d68832c2b",
+      "matched_conjecture_title": "Tensor Product Multiplicity Inverse Proportional to Monotone Circuit Size for Permanent"
+    },
+    {
+      "score": 0.721,
+      "paper_id": "2605.09551v1",
+      "paper_title": "VP, VNP and Algebraic Branching Programs over Min-Plus Semirings",
+      "paper_category": "cs.CC",
+      "matched_conjecture_eid": "f5574a6cc9ec",
+      "matched_conjecture_title": "Irreducible Component Count Inversely Proportional to ACC⁰ Circuit Size for Sipser-like Functions"
+    },
+    {
+      "score": 0.712,
+      "paper_id": "2605.10908v1",
+      "paper_title": "On Talagrand's Convexity Conjecture",
+      "paper_category": "math.PR",
+      "matched_conjecture_eid": "67d14839d492",
+      "matched_conjecture_title": "Second Eigenvalue Inverse Proportional to Resolution Proof Length for Tseitin Formulas"
+    },
+    {
+      "score": 0.71,
+      "paper_id": "2605.09814v1",
+      "paper_title": "Streaming Complexity Separations for Dense and Sparse Graphs",
+      "paper_category": "cs.DS",
+      "matched_conjecture_eid": "67d14839d492",
+      "matched_conjecture_title": "Second Eigenvalue Inverse Proportional to Resolution Proof Length for Tseitin Formulas"
+    },
+    {
+      "score": 0.707,
+      "paper_id": "2605.09815v1",
+      "paper_title": "Towards infinite PCSP: a dichotomy for monochromatic cliques",
+      "paper_category": "cs.CC",
+      "matched_conjecture_eid": "7a5d68832c2b",
+      "matched_conjecture_title": "Tensor Product Multiplicity Inverse Proportional to Monotone Circuit Size for Permanent"
+    },
+    {
+      "score": 0.702,
+      "paper_id": "2605.10895v1",
+      "paper_title": "FPT Approximation Schemes for Min-Sum Radii and Min-Sum Diameters Clustering",
+      "paper_category": "cs.DS",
+      "matched_conjecture_eid": "afe153586854",
+      "matched_conjecture_title": "Matroid Rank Inverse Proportional to Monotone DNF Size for k-CLIQUE"
+    },
+    {
+      "score": 0.699,
+      "paper_id": "2605.10911v1",
+      "paper_title": "The stochastic block model has the overlap graph property for modularity",
+      "paper_category": "math.PR",
+      "matched_conjecture_eid": "3fc630b9a37e",
+      "matched_conjecture_title": "Real Rank of SOS Moment Matrices for Max-CUT Bounded by Degree"
+    }
+  ],
+  "stats": {
+    "n_cycles": 51,
+    "verdicts": {
+      "INCONCLUSIVE": 51
+    },
+    "focus_distribution": {
+      "SOS_DEGREE": 7,
+      "ACC_SIPSER": 5,
+      "COMM_DISJ": 5,
+      "MONOTONE_CLIQUE": 3,
+      "GCT_DET_PERM": 9,
+      "BP_READTWICE": 10,
+      "AC0_PARITY": 1
+    },
+    "top_fields_A": {
+      "Real Algebraic Geometry": 5,
+      "Schur-Weyl Duality": 4,
+      "Free Probability Theory": 4,
+      "Fourier Analysis on Finite Groups": 2,
+      "Invariant Theory": 2
+    }
+  }
+}

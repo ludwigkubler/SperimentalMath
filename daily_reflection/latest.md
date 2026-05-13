@@ -1,127 +1,102 @@
-# Daily Reflection — 2026-05-12
+# Daily Reflection — 2026-05-13
 
-*Generated: 2026-05-12 03:33 UTC*
+*Generated: 2026-05-13 03:33 UTC*
 
 ## Yesterday in numbers
-- **Cycles**: 57
-- **New arxiv papers (mirror, last 24h)**: 184
+- **Cycles**: 51
+- **New arxiv papers (mirror, last 24h)**: 106
 - **Verdict distribution**:
-    - INCONCLUSIVE: 57
+    - INCONCLUSIVE: 51
 - **Focus mode**:
-    - GCT_DET_PERM: 15
-    - BP_READTWICE: 8
-    - COMM_DISJ: 6
-    - SOS_DEGREE: 4
-    - ACC_SIPSER: 4
-    - AC0_PARITY: 2
-    - TSEITIN_RES: 2
-    - MONOTONE_CLIQUE: 1
+    - BP_READTWICE: 10
+    - GCT_DET_PERM: 9
+    - SOS_DEGREE: 7
+    - ACC_SIPSER: 5
+    - COMM_DISJ: 5
+    - MONOTONE_CLIQUE: 3
+    - AC0_PARITY: 1
 - **Top fields_A**:
-    - Free Probability Theory: 8
-    - Schur-Weyl Duality: 7
-    - Matroid Theory: 3
-    - Algebraic Geometry (Secant Varieties of Veronese R: 2
-    - Real Algebraic Geometry: 2
+    - Real Algebraic Geometry: 5
+    - Schur-Weyl Duality: 4
+    - Free Probability Theory: 4
+    - Fourier Analysis on Finite Groups: 2
+    - Invariant Theory: 2
 
-## ⚠ Potential scoops (8)
+## ⚠ Potential scoops (5)
 
 These new arxiv papers have **>0.72 cosine** to one of our recent conjectures.
 
-### `2605.08072v1` (sim=0.741)
-- **Paper**: A Note on Non-Negative $L_1$-Approximating Polynomials
-- **Category**: stat.ML
-- **Submitted**: 2026-05-08T17:55:39Z
-- **URL**: https://arxiv.org/abs/2605.08072v1
-- **Matches our conjecture** `e37540873b70`: "Real Radical Rank Lower Bounds SOS Degree for Max-CUT"
-- **Abstract excerpt**: $L_1$-Approximating polynomials, i.e., polynomials that approximate indicator functions in $L_1$-norm under certain distributions, are widely used in computational learning theory. We study the existence of \textit{non-negative} $L_1$-approximating polynomials with respect to Gaussian distributions.…
+### `2605.10941v1` (sim=0.754)
+- **Paper**: Average-Case Hardness of Binary-Encoded Clique in Proof and Communication Complexity
+- **Category**: cs.CC
+- **Submitted**: 2026-05-11T17:59:43Z
+- **URL**: https://arxiv.org/abs/2605.10941v1
+- **Matches our conjecture** `1d0355b7e76a`: "Euler Characteristic of Communication Graph Equals Deterministic Communication Complexity"
+- **Abstract excerpt**: We study the average-case hardness of establishing that a graph does not have a large clique in both proof and communication complexity. We show exponential lower bounds on the length of cutting planes and bounded-depth resolution over parities refutations of the binary encoding of clique formulas o…
 
-### `2605.07902v1` (sim=0.735)
-- **Paper**: Curvature Beyond Positivity: Greedy Guarantees for Arbitrary Submodular Functions
-- **Category**: cs.LG
-- **Submitted**: 2026-05-08T15:42:14Z
-- **URL**: https://arxiv.org/abs/2605.07902v1
-- **Matches our conjecture** `ff054944518f`: "Standard Young Tableaux Count vs Monotone Circuit Size"
-- **Abstract excerpt**: Submodular functions -- functions exhibiting diminishing returns -- are central to machine learning. When the objective is monotone and non-negative, the greedy algorithm achieves a tight $63\%$ approximation. But many practical objectives incorporate costs that make them negative on some inputs, an…
+### `2605.10778v1` (sim=0.770)
+- **Paper**: When Does Sparsity Help for k-Independent Set in Hypergraphs and Other Boolean CSPs?
+- **Category**: cs.CC
+- **Submitted**: 2026-05-11T16:11:49Z
+- **URL**: https://arxiv.org/abs/2605.10778v1
+- **Matches our conjecture** `afe153586854`: "Matroid Rank Inverse Proportional to Monotone DNF Size for k-CLIQUE"
+- **Abstract excerpt**: Consider the fundamental task of finding independent sets of (constant) size $k$ in a given $n$-node hypergraph. How is the time complexity affected by the sparsity of the input, i.e., the number of hyperedges $m$? Turán's theorem implies that the problem is trivial if $m=O(n^{2-ε})$ for some $ε> 0$…
 
-### `2605.06900v1` (sim=0.721)
-- **Paper**: Accelerated Relax-and-Round for Concave Coverage Problems
-- **Category**: cs.DS
-- **Submitted**: 2026-05-07T20:00:40Z
-- **URL**: https://arxiv.org/abs/2605.06900v1
-- **Matches our conjecture** `e1acc109e09f`: "Dual Convex Body Width Bounds SOS Degree for Max-CUT"
-- **Abstract excerpt**: We present an accelerated relax-and-round algorithm for concave coverage problems, which generalize the classic maximum coverage problem. Building on the relax-and-round framework of Barman et al. [STACS 2021], we propose two significant improvements. First, we replace the linear programming (LP) re…
+### `2605.10056v1` (sim=0.729)
+- **Paper**: Hardness Amplification for (Sparse) LPN
+- **Category**: cs.CR
+- **Submitted**: 2026-05-11T06:34:37Z
+- **URL**: https://arxiv.org/abs/2605.10056v1
+- **Matches our conjecture** `7a5d68832c2b`: "Tensor Product Multiplicity Inverse Proportional to Monotone Circuit Size for Permanent"
+- **Abstract excerpt**: We prove new hardness amplification results for Learning Parity with Noise ($\mathsf{LPN}$) and its sparse variants. In $\mathsf{LPN}_{η,n,m}$, the goal is to recover a secret $\vec s\in\mathbb{F}_2^n$ from $m$ noisy linear samples $(\vec a,b)$, where $\vec a\leftarrow \mathbb{F}_2^n$ is uniform and…
 
-### `2605.07298v1` (sim=0.748)
-- **Paper**: On the Number of Zero Forcing Minimal Forts on Trees
-- **Category**: math.CO
-- **Submitted**: 2026-05-08T06:08:45Z
-- **URL**: https://arxiv.org/abs/2605.07298v1
-- **Matches our conjecture** `c965301cf284`: "Tree-Depth Exponentiation Bounds Tseitin Resolution Length"
-- **Abstract excerpt**: We solve a conjecture by Becker et al. (arXiv:2404.05963) on the topic of zero forcing regarding the number of minimal forts of a tree. They conjectured and we prove $\mathcal{F}_{T_n} \le \binom{n}{2} \mathcal{F}_{P_n}$ where $\mathcal{F}_{T_n}$ is the maximum number of minimal forts on a tree on $…
+### `2605.09551v1` (sim=0.721)
+- **Paper**: VP, VNP and Algebraic Branching Programs over Min-Plus Semirings
+- **Category**: cs.CC
+- **Submitted**: 2026-05-10T14:10:48Z
+- **URL**: https://arxiv.org/abs/2605.09551v1
+- **Matches our conjecture** `f5574a6cc9ec`: "Irreducible Component Count Inversely Proportional to ACC⁰ Circuit Size for Sipser-like Functions"
+- **Abstract excerpt**: Arithmetic circuit complexity studies the complexity of computing polynomials using only arithmetic operations such as addition, multiplication, subtraction, and division. Polynomials over rings of integers model counting problems. Similarly, polynomials over semirings such as tropical semirings mod…
 
-### `2605.10276v1` (sim=0.734)
-- **Paper**: Principal specializations of Grothendieck polynomials
-- **Category**: math.CO
-- **Submitted**: 2026-05-11T09:34:04Z
-- **URL**: https://arxiv.org/abs/2605.10276v1
-- **Matches our conjecture** `5afbe3121f1c`: "Specht Module Decomposition Exponential Gap Between Permanent and Determinant Polynomials"
-- **Abstract excerpt**: Motivated by Stanley's ``Schubert shenanigans'' paper, commendable attempts have been made to understand the principal specializations of Schubert or Grothendieck polynomials. In this paper, we prove that when a permutation $w$ does not contain the $1423$ pattern, the principal specialization of the…
-
-### `2605.09926v1` (sim=0.740)
-- **Paper**: Three-Edges and the SOS Rank of Biquadratic Forms: Extending the Augmented Zarankiewicz Framework
-- **Category**: math.CO
-- **Submitted**: 2026-05-11T03:22:53Z
-- **URL**: https://arxiv.org/abs/2605.09926v1
-- **Matches our conjecture** `c965301cf284`: "Tree-Depth Exponentiation Bounds Tseitin Resolution Length"
-- **Abstract excerpt**: The limited augmented Zarankiewicz number $z_L(m,n)$ corresponds to 2-edges $(i,j;k,l)$ in a $C_4$-free bipartite graph, each representing a square $(x_i y_j + x_k y_l)^2$. We introduce \emph{3-edges} $(i,j;k,l;p,q)$ representing $(x_i y_j + x_k y_l + x_p y_q)^2$, and define the numbers $z_{3L}(m,n)…
-
-### `2605.09683v1` (sim=0.736)
-- **Paper**: Rook theory, normal ordering in the $q$-deformed Ore algebra and the polynomial generalization
-- **Category**: math.CO
-- **Submitted**: 2026-05-10T18:04:17Z
-- **URL**: https://arxiv.org/abs/2605.09683v1
-- **Matches our conjecture** `5afbe3121f1c`: "Specht Module Decomposition Exponential Gap Between Permanent and Determinant Polynomials"
-- **Abstract excerpt**: For words in the variables $X$ and $Y$ satisfying the commutation relation of the $q$-deformed generalized Ore algebra, $XY-qYX= μI + νY$, we show that the corresponding normal ordering coefficients can be given an interpretation in terms of mixed placements of rooks and files. In particular, the as…
-
-### `2605.08444v1` (sim=0.723)
-- **Paper**: A short proof of Mathar's 2013 recurrence conjecture for the Laguerre sequence~A025166
-- **Category**: math.CO
-- **Submitted**: 2026-05-08T20:09:05Z
-- **URL**: https://arxiv.org/abs/2605.08444v1
-- **Matches our conjecture** `5afbe3121f1c`: "Specht Module Decomposition Exponential Gap Between Permanent and Determinant Polynomials"
-- **Abstract excerpt**: For the OEIS sequence A025166, defined by $a(n) = -n!\,2^{n}\,L_{n}(1/2)$ where $L_{n}$ is the Laguerre polynomial of degree $n$, R.~J.~Mathar contributed in February 2013 the conjectured order-2 P-recursive recurrence \[ a(n) + (-4n+3)\, a(n-1) + 4(n-1)^{2}\, a(n-2) \;=\; 0, \qquad n \ge 2. \] We g…
+### `2605.10512v1` (sim=0.738)
+- **Paper**: Reciprocals of Subsum Polynomials
+- **Category**: math.NT
+- **Submitted**: 2026-05-11T13:04:47Z
+- **URL**: https://arxiv.org/abs/2605.10512v1
+- **Matches our conjecture** `d8795d1b709f`: "Schur Coefficient Sum Ratio in Symmetric Powers of Permanent vs Determinant"
+- **Abstract excerpt**: We introduce the subsum polynomial of a partition $λ=(λ_1, λ_2, \ldots, λ_k)$ defined by $\mathrm{sp}(λ, x)=\prod_{i=1}^k(1+x^{λ_i})$. We study the sum of reciprocals of $\mathrm{sp}(λ, x)$ over all partitions of $n$. We prove arithmetic properties of related polynomials and offer connections to oth…
 
 ## Top 10 most-overlapping new papers (no threshold)
 
 Useful for compass / next-direction suggestions:
 
-- `2605.07298v1` (math.CO, sim=0.748): On the Number of Zero Forcing Minimal Forts on Trees
-    matched conj `c965301cf284`: Tree-Depth Exponentiation Bounds Tseitin Resolution Length
-- `2605.08072v1` (stat.ML, sim=0.741): A Note on Non-Negative $L_1$-Approximating Polynomials
-    matched conj `e37540873b70`: Real Radical Rank Lower Bounds SOS Degree for Max-CUT
-- `2605.09926v1` (math.CO, sim=0.74): Three-Edges and the SOS Rank of Biquadratic Forms: Extending the Augmented Zarankiewicz Framework
-    matched conj `c965301cf284`: Tree-Depth Exponentiation Bounds Tseitin Resolution Length
-- `2605.09683v1` (math.CO, sim=0.736): Rook theory, normal ordering in the $q$-deformed Ore algebra and the polynomial generalization
-    matched conj `5afbe3121f1c`: Specht Module Decomposition Exponential Gap Between Permanent and Determinant Po
-- `2605.07902v1` (cs.LG, sim=0.735): Curvature Beyond Positivity: Greedy Guarantees for Arbitrary Submodular Functions
-    matched conj `ff054944518f`: Standard Young Tableaux Count vs Monotone Circuit Size
-- `2605.10276v1` (math.CO, sim=0.734): Principal specializations of Grothendieck polynomials
-    matched conj `5afbe3121f1c`: Specht Module Decomposition Exponential Gap Between Permanent and Determinant Po
-- `2605.08444v1` (math.CO, sim=0.723): A short proof of Mathar's 2013 recurrence conjecture for the Laguerre sequence~A025166
-    matched conj `5afbe3121f1c`: Specht Module Decomposition Exponential Gap Between Permanent and Determinant Po
-- `2605.06900v1` (cs.DS, sim=0.721): Accelerated Relax-and-Round for Concave Coverage Problems
-    matched conj `e1acc109e09f`: Dual Convex Body Width Bounds SOS Degree for Max-CUT
-- `2605.09798v1` (math.CO, sim=0.719): The density of graphs with no $\ell$-path connecting equal-degree vertices: a short proof
-    matched conj `c965301cf284`: Tree-Depth Exponentiation Bounds Tseitin Resolution Length
-- `2605.07916v1` (math.NT, sim=0.717): A strengthening of Chang's lemma
-    matched conj `ac07c338962c`: Finite-Field Rank Threshold for ACC⁰ Circuit Complexity
+- `2605.10778v1` (cs.CC, sim=0.77): When Does Sparsity Help for k-Independent Set in Hypergraphs and Other Boolean CSPs?
+    matched conj `afe153586854`: Matroid Rank Inverse Proportional to Monotone DNF Size for k-CLIQUE
+- `2605.10941v1` (cs.CC, sim=0.754): Average-Case Hardness of Binary-Encoded Clique in Proof and Communication Complexity
+    matched conj `1d0355b7e76a`: Euler Characteristic of Communication Graph Equals Deterministic Communication C
+- `2605.10512v1` (math.NT, sim=0.738): Reciprocals of Subsum Polynomials
+    matched conj `d8795d1b709f`: Schur Coefficient Sum Ratio in Symmetric Powers of Permanent vs Determinant
+- `2605.10056v1` (cs.CR, sim=0.729): Hardness Amplification for (Sparse) LPN
+    matched conj `7a5d68832c2b`: Tensor Product Multiplicity Inverse Proportional to Monotone Circuit Size for Pe
+- `2605.09551v1` (cs.CC, sim=0.721): VP, VNP and Algebraic Branching Programs over Min-Plus Semirings
+    matched conj `f5574a6cc9ec`: Irreducible Component Count Inversely Proportional to ACC⁰ Circuit Size for Sips
+- `2605.10908v1` (math.PR, sim=0.712): On Talagrand's Convexity Conjecture
+    matched conj `67d14839d492`: Second Eigenvalue Inverse Proportional to Resolution Proof Length for Tseitin Fo
+- `2605.09814v1` (cs.DS, sim=0.71): Streaming Complexity Separations for Dense and Sparse Graphs
+    matched conj `67d14839d492`: Second Eigenvalue Inverse Proportional to Resolution Proof Length for Tseitin Fo
+- `2605.09815v1` (cs.CC, sim=0.707): Towards infinite PCSP: a dichotomy for monochromatic cliques
+    matched conj `7a5d68832c2b`: Tensor Product Multiplicity Inverse Proportional to Monotone Circuit Size for Pe
+- `2605.10895v1` (cs.DS, sim=0.702): FPT Approximation Schemes for Min-Sum Radii and Min-Sum Diameters Clustering
+    matched conj `afe153586854`: Matroid Rank Inverse Proportional to Monotone DNF Size for k-CLIQUE
+- `2605.10911v1` (math.PR, sim=0.699): The stochastic block model has the overlap graph property for modularity
+    matched conj `3fc630b9a37e`: Real Rank of SOS Moment Matrices for Max-CUT Bounded by Degree
 
 ## Recommendations
-- ⚠ Read the 8 flagged papers; consider mutating affected conjectures away from the overlap.
-  - [2605.08072v1](https://arxiv.org/abs/2605.08072v1) vs our `e37540873b70`
-  - [2605.07902v1](https://arxiv.org/abs/2605.07902v1) vs our `ff054944518f`
-  - [2605.06900v1](https://arxiv.org/abs/2605.06900v1) vs our `e1acc109e09f`
-- Closest non-scoop overlap: `2605.07298v1` (sim=0.748) — may be a useful reference if you publish.
+- ⚠ Read the 5 flagged papers; consider mutating affected conjectures away from the overlap.
+  - [2605.10941v1](https://arxiv.org/abs/2605.10941v1) vs our `1d0355b7e76a`
+  - [2605.10778v1](https://arxiv.org/abs/2605.10778v1) vs our `afe153586854`
+  - [2605.10056v1](https://arxiv.org/abs/2605.10056v1) vs our `7a5d68832c2b`
+- Closest non-scoop overlap: `2605.10778v1` (sim=0.77) — may be a useful reference if you publish.
 
 ---
 

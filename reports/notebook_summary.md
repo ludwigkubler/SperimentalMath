@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-13 03:38 UTC"
+date: "2026-05-13 04:40 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-13 03:38 UTC
+Generated 2026-05-13 04:40 UTC
 
-- Cycles recorded: **691**
-- Time span: 462.0h (~1.50 cycles/h)
+- Cycles recorded: **694**
+- Time span: 463.0h (~1.50 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 654 |
+| INCONCLUSIVE | 657 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -34,11 +34,11 @@ Generated 2026-05-13 03:38 UTC
 |---|---|
 | Real Algebraic Geometry | 39 |
 | Schur-Weyl Duality | 26 |
+| Free Probability Theory | 17 |
 | Representation Theory of Symmetric Groups | 17 |
 | Matroid Theory | 16 |
-| Free Probability Theory | 15 |
 | Free Probability | 14 |
-| Additive Combinatorics | 12 |
+| Additive Combinatorics | 13 |
 | Noncommutative L^p Geometry | 10 |
 | Random Matrix Theory | 8 |
 | Polymatroid Theory | 8 |
@@ -67,9 +67,6 @@ Generated 2026-05-13 03:38 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-12 21:10 UTC | `INCONCLUSIVE` | Hook-Length Ratio Bounds Monotone Circuit Size for Permanent |
-| 2026-05-12 22:03 UTC | `INCONCLUSIVE` | Irreducible Component Count Inversely Proportional to SOS Refutat |
-| 2026-05-12 22:47 UTC | `INCONCLUSIVE` | Gowers Norm Inverse Proportional to ACC⁰ Circuit Size for Explici |
 | 2026-05-12 22:54 UTC | `INCONCLUSIVE` | Irreducible Component Count of IP_2 BP Variety Bounds Read-Twice  |
 | 2026-05-12 23:21 UTC | `INCONCLUSIVE` | Irreducible Component Count Inversely Proportional to ACC⁰ Circui |
 | 2026-05-12 23:54 UTC | `INCONCLUSIVE` | Free Cumulant Gap in Read-Twice BPs for 3-SAT |
@@ -82,6 +79,9 @@ Generated 2026-05-13 03:38 UTC
 | 2026-05-13 02:43 UTC | `INCONCLUSIVE` | Free Cumulant Spread Bounds Disjointness Communication Complexity |
 | 2026-05-13 03:13 UTC | `INCONCLUSIVE` | Schur-Weyl Decomposition Term Count vs. Monotone Circuit Size for |
 | 2026-05-13 03:38 UTC | `INCONCLUSIVE` | Free Cumulant Sum Inversely Proportional to Disjointness Communic |
+| 2026-05-13 04:06 UTC | `INCONCLUSIVE` | Free Cumulant Spread Bounds Disjointness Communication Complexity |
+| 2026-05-13 04:27 UTC | `INCONCLUSIVE` | Sum-Product Complexity Lower Bounds for ACC⁰ Circuits |
+| 2026-05-13 04:40 UTC | `INCONCLUSIVE` | Free Cumulant Sum Lower Bounds Randomized Communication Complexit |
 
 ## How to read the reports
 
