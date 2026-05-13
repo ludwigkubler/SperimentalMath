@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-13 07:24 UTC"
+date: "2026-05-13 09:31 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-13 07:24 UTC
+Generated 2026-05-13 09:31 UTC
 
-- Cycles recorded: **703**
-- Time span: 465.7h (~1.51 cycles/h)
+- Cycles recorded: **706**
+- Time span: 467.9h (~1.51 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 666 |
+| INCONCLUSIVE | 669 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -33,8 +33,8 @@ Generated 2026-05-13 07:24 UTC
 | Field | Cycles |
 |---|---|
 | Real Algebraic Geometry | 40 |
-| Schur-Weyl Duality | 26 |
-| Free Probability Theory | 18 |
+| Schur-Weyl Duality | 27 |
+| Free Probability Theory | 19 |
 | Representation Theory of Symmetric Groups | 18 |
 | Matroid Theory | 16 |
 | Free Probability | 14 |
@@ -67,9 +67,6 @@ Generated 2026-05-13 07:24 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-13 02:43 UTC | `INCONCLUSIVE` | Free Cumulant Spread Bounds Disjointness Communication Complexity |
-| 2026-05-13 03:13 UTC | `INCONCLUSIVE` | Schur-Weyl Decomposition Term Count vs. Monotone Circuit Size for |
-| 2026-05-13 03:38 UTC | `INCONCLUSIVE` | Free Cumulant Sum Inversely Proportional to Disjointness Communic |
 | 2026-05-13 04:06 UTC | `INCONCLUSIVE` | Free Cumulant Spread Bounds Disjointness Communication Complexity |
 | 2026-05-13 04:27 UTC | `INCONCLUSIVE` | Sum-Product Complexity Lower Bounds for ACC⁰ Circuits |
 | 2026-05-13 04:40 UTC | `INCONCLUSIVE` | Free Cumulant Sum Lower Bounds Randomized Communication Complexit |
@@ -82,6 +79,9 @@ Generated 2026-05-13 07:24 UTC
 | 2026-05-13 06:42 UTC | `INCONCLUSIVE` | Kronecker Coefficient Gap in Symmetric Powers of Permanent vs Det |
 | 2026-05-13 07:16 UTC | `INCONCLUSIVE` | SOS Moment Matrix Eigenvalue Sum Bounded by Degree for Max-CUT |
 | 2026-05-13 07:23 UTC | `INCONCLUSIVE` | Symmetric Group Fourier Coefficient Count Inversely Proportional  |
+| 2026-05-13 08:49 UTC | `INCONCLUSIVE` | Free Cumulant Sum Lower Bounded by Communication Complexity of DI |
+| 2026-05-13 09:19 UTC | `INCONCLUSIVE` | Schur-Weyl Component Count Gap in Monotone Circuit Size for Perma |
+| 2026-05-13 09:31 UTC | `INCONCLUSIVE` | Algebraic Shifting Generator Count Bounds Communication Complexit |
 
 ## How to read the reports
 
