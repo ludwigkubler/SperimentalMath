@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-13 09:59 UTC"
+date: "2026-05-13 11:20 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-13 09:59 UTC
+Generated 2026-05-13 11:20 UTC
 
-- Cycles recorded: **707**
-- Time span: 468.3h (~1.51 cycles/h)
+- Cycles recorded: **708**
+- Time span: 469.7h (~1.51 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 670 |
+| INCONCLUSIVE | 671 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -33,7 +33,7 @@ Generated 2026-05-13 09:59 UTC
 | Field | Cycles |
 |---|---|
 | Real Algebraic Geometry | 40 |
-| Schur-Weyl Duality | 27 |
+| Schur-Weyl Duality | 28 |
 | Free Probability Theory | 19 |
 | Representation Theory of Symmetric Groups | 18 |
 | Matroid Theory | 16 |
@@ -67,7 +67,6 @@ Generated 2026-05-13 09:59 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-13 04:27 UTC | `INCONCLUSIVE` | Sum-Product Complexity Lower Bounds for ACC⁰ Circuits |
 | 2026-05-13 04:40 UTC | `INCONCLUSIVE` | Free Cumulant Sum Lower Bounds Randomized Communication Complexit |
 | 2026-05-13 04:58 UTC | `INCONCLUSIVE` | Toric Variety Degree Inverse to SOS Refutation Degree for 3-SAT |
 | 2026-05-13 05:57 UTC | `INCONCLUSIVE` | Persistent Homology Total Persistence Inversely Proportional to R |
@@ -82,6 +81,7 @@ Generated 2026-05-13 09:59 UTC
 | 2026-05-13 09:19 UTC | `INCONCLUSIVE` | Schur-Weyl Component Count Gap in Monotone Circuit Size for Perma |
 | 2026-05-13 09:31 UTC | `INCONCLUSIVE` | Algebraic Shifting Generator Count Bounds Communication Complexit |
 | 2026-05-13 09:59 UTC | `INCONCLUSIVE` | Algebraic Shifting Edge Count Bounds Monotone DNF Size for k-CLIQ |
+| 2026-05-13 11:20 UTC | `INCONCLUSIVE` | Symmetric Square Irreducible Component Count Gap in Permanent vs  |
 
 ## How to read the reports
 
