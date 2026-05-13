@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-13 04:40 UTC"
+date: "2026-05-13 04:58 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-13 04:40 UTC
+Generated 2026-05-13 04:58 UTC
 
-- Cycles recorded: **694**
-- Time span: 463.0h (~1.50 cycles/h)
+- Cycles recorded: **695**
+- Time span: 463.3h (~1.50 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 657 |
+| INCONCLUSIVE | 658 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -67,7 +67,6 @@ Generated 2026-05-13 04:40 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-12 22:54 UTC | `INCONCLUSIVE` | Irreducible Component Count of IP_2 BP Variety Bounds Read-Twice  |
 | 2026-05-12 23:21 UTC | `INCONCLUSIVE` | Irreducible Component Count Inversely Proportional to ACC⁰ Circui |
 | 2026-05-12 23:54 UTC | `INCONCLUSIVE` | Free Cumulant Gap in Read-Twice BPs for 3-SAT |
 | 2026-05-13 00:19 UTC | `INCONCLUSIVE` | Real Radical Dimension Inverse Proportional to SOS Degree for Max |
@@ -82,6 +81,7 @@ Generated 2026-05-13 04:40 UTC
 | 2026-05-13 04:06 UTC | `INCONCLUSIVE` | Free Cumulant Spread Bounds Disjointness Communication Complexity |
 | 2026-05-13 04:27 UTC | `INCONCLUSIVE` | Sum-Product Complexity Lower Bounds for ACC⁰ Circuits |
 | 2026-05-13 04:40 UTC | `INCONCLUSIVE` | Free Cumulant Sum Lower Bounds Randomized Communication Complexit |
+| 2026-05-13 04:58 UTC | `INCONCLUSIVE` | Toric Variety Degree Inverse to SOS Refutation Degree for 3-SAT |
 
 ## How to read the reports
 
