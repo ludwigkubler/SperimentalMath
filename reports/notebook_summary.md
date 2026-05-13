@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-13 11:20 UTC"
+date: "2026-05-13 12:30 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-13 11:20 UTC
+Generated 2026-05-13 12:30 UTC
 
-- Cycles recorded: **708**
-- Time span: 469.7h (~1.51 cycles/h)
+- Cycles recorded: **710**
+- Time span: 470.8h (~1.51 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 671 |
+| INCONCLUSIVE | 673 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -67,8 +67,6 @@ Generated 2026-05-13 11:20 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-13 04:40 UTC | `INCONCLUSIVE` | Free Cumulant Sum Lower Bounds Randomized Communication Complexit |
-| 2026-05-13 04:58 UTC | `INCONCLUSIVE` | Toric Variety Degree Inverse to SOS Refutation Degree for 3-SAT |
 | 2026-05-13 05:57 UTC | `INCONCLUSIVE` | Persistent Homology Total Persistence Inversely Proportional to R |
 | 2026-05-13 06:08 UTC | `INCONCLUSIVE` | Plethysm Coefficient Sum Gap in Symmetric Powers of Permanent vs  |
 | 2026-05-13 06:23 UTC | `INCONCLUSIVE` | Gröbner Basis Step Count vs. Extended Frege Proof Length for 3-SA |
@@ -82,6 +80,8 @@ Generated 2026-05-13 11:20 UTC
 | 2026-05-13 09:31 UTC | `INCONCLUSIVE` | Algebraic Shifting Generator Count Bounds Communication Complexit |
 | 2026-05-13 09:59 UTC | `INCONCLUSIVE` | Algebraic Shifting Edge Count Bounds Monotone DNF Size for k-CLIQ |
 | 2026-05-13 11:20 UTC | `INCONCLUSIVE` | Symmetric Square Irreducible Component Count Gap in Permanent vs  |
+| 2026-05-13 11:47 UTC | `INCONCLUSIVE` | Symplectic Capacity Inverse Proportional to Extended Frege Proof  |
+| 2026-05-13 12:08 UTC | `INCONCLUSIVE` | Symmetric Decomposition Coefficient Count Inversely Proportional  |
 
 ## How to read the reports
 
