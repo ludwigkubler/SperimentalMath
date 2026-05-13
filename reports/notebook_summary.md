@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-13 06:42 UTC"
+date: "2026-05-13 07:24 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-13 06:42 UTC
+Generated 2026-05-13 07:24 UTC
 
-- Cycles recorded: **701**
-- Time span: 465.0h (~1.51 cycles/h)
+- Cycles recorded: **703**
+- Time span: 465.7h (~1.51 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 664 |
+| INCONCLUSIVE | 666 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -32,10 +32,10 @@ Generated 2026-05-13 06:42 UTC
 
 | Field | Cycles |
 |---|---|
-| Real Algebraic Geometry | 39 |
+| Real Algebraic Geometry | 40 |
 | Schur-Weyl Duality | 26 |
 | Free Probability Theory | 18 |
-| Representation Theory of Symmetric Groups | 17 |
+| Representation Theory of Symmetric Groups | 18 |
 | Matroid Theory | 16 |
 | Free Probability | 14 |
 | Additive Combinatorics | 13 |
@@ -67,8 +67,6 @@ Generated 2026-05-13 06:42 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-13 01:46 UTC | `INCONCLUSIVE` | Free Cumulant Norm Gap in Read-Twice BPs for IP_2 |
-| 2026-05-13 02:16 UTC | `INCONCLUSIVE` | Secant Variety Dimension Bounds Disjointness Communication Rank |
 | 2026-05-13 02:43 UTC | `INCONCLUSIVE` | Free Cumulant Spread Bounds Disjointness Communication Complexity |
 | 2026-05-13 03:13 UTC | `INCONCLUSIVE` | Schur-Weyl Decomposition Term Count vs. Monotone Circuit Size for |
 | 2026-05-13 03:38 UTC | `INCONCLUSIVE` | Free Cumulant Sum Inversely Proportional to Disjointness Communic |
@@ -82,6 +80,8 @@ Generated 2026-05-13 06:42 UTC
 | 2026-05-13 06:30 UTC | `INCONCLUSIVE` | Free Cumulant Sum Gap in Read-Twice BPs for 3-SAT |
 | 2026-05-13 06:36 UTC | `INCONCLUSIVE` | Hilbert Polynomial Leading Coefficient Inversely Proportional to  |
 | 2026-05-13 06:42 UTC | `INCONCLUSIVE` | Kronecker Coefficient Gap in Symmetric Powers of Permanent vs Det |
+| 2026-05-13 07:16 UTC | `INCONCLUSIVE` | SOS Moment Matrix Eigenvalue Sum Bounded by Degree for Max-CUT |
+| 2026-05-13 07:23 UTC | `INCONCLUSIVE` | Symmetric Group Fourier Coefficient Count Inversely Proportional  |
 
 ## How to read the reports
 
