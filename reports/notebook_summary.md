@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-13 00:43 UTC"
+date: "2026-05-13 01:46 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-13 00:43 UTC
+Generated 2026-05-13 01:46 UTC
 
-- Cycles recorded: **685**
-- Time span: 459.0h (~1.49 cycles/h)
+- Cycles recorded: **687**
+- Time span: 460.1h (~1.49 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 648 |
+| INCONCLUSIVE | 650 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -37,8 +37,8 @@ Generated 2026-05-13 00:43 UTC
 | Representation Theory of Symmetric Groups | 17 |
 | Matroid Theory | 16 |
 | Free Probability | 14 |
+| Free Probability Theory | 13 |
 | Additive Combinatorics | 12 |
-| Free Probability Theory | 12 |
 | Noncommutative L^p Geometry | 10 |
 | Random Matrix Theory | 8 |
 | Polymatroid Theory | 8 |
@@ -67,8 +67,6 @@ Generated 2026-05-13 00:43 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-12 18:22 UTC | `INCONCLUSIVE` | Submodular Rank Gap in Monotone DNF for k-CLIQUE |
-| 2026-05-12 19:26 UTC | `INCONCLUSIVE` | Euler Characteristic of Communication Graph Equals Deterministic  |
 | 2026-05-12 19:34 UTC | `INCONCLUSIVE` | Completely Bounded Norm Gap in Read-Twice BPs for IP_2 |
 | 2026-05-12 19:42 UTC | `INCONCLUSIVE` | Non-Abelian Fourier Coefficient Spread Inversely Proportional to  |
 | 2026-05-12 20:10 UTC | `INCONCLUSIVE` | Secant Rank of Disjointness Communication Matrix Lower-Bounds Ran |
@@ -82,6 +80,8 @@ Generated 2026-05-13 00:43 UTC
 | 2026-05-13 00:19 UTC | `INCONCLUSIVE` | Real Radical Dimension Inverse Proportional to SOS Degree for Max |
 | 2026-05-13 00:30 UTC | `INCONCLUSIVE` | Real Variety Connected Components Lower Bound SOS Degree for Max- |
 | 2026-05-13 00:43 UTC | `INCONCLUSIVE` | Plethysm Coefficient Gap in Symmetric Powers of Permanent vs Dete |
+| 2026-05-13 01:20 UTC | `INCONCLUSIVE` | Negative Eigenvalue Count in SOS Moment Matrix Bounded by Log-Siz |
+| 2026-05-13 01:46 UTC | `INCONCLUSIVE` | Free Cumulant Norm Gap in Read-Twice BPs for IP_2 |
 
 ## How to read the reports
 
