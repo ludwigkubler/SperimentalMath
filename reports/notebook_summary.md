@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-12 23:21 UTC"
+date: "2026-05-13 00:43 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-12 23:21 UTC
+Generated 2026-05-13 00:43 UTC
 
-- Cycles recorded: **681**
-- Time span: 457.7h (~1.49 cycles/h)
+- Cycles recorded: **685**
+- Time span: 459.0h (~1.49 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 644 |
+| INCONCLUSIVE | 648 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -32,13 +32,13 @@ Generated 2026-05-12 23:21 UTC
 
 | Field | Cycles |
 |---|---|
-| Real Algebraic Geometry | 37 |
+| Real Algebraic Geometry | 39 |
 | Schur-Weyl Duality | 25 |
 | Representation Theory of Symmetric Groups | 17 |
 | Matroid Theory | 16 |
 | Free Probability | 14 |
 | Additive Combinatorics | 12 |
-| Free Probability Theory | 11 |
+| Free Probability Theory | 12 |
 | Noncommutative L^p Geometry | 10 |
 | Random Matrix Theory | 8 |
 | Polymatroid Theory | 8 |
@@ -67,10 +67,6 @@ Generated 2026-05-12 23:21 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-12 17:24 UTC | `INCONCLUSIVE` | Quasigroup Idempotent Density Inversely Proportional to ACC⁰ Circ |
-| 2026-05-12 17:37 UTC | `INCONCLUSIVE` | Free Cumulant Sum Gap in Read-Twice BPs for IP_2 |
-| 2026-05-12 17:56 UTC | `INCONCLUSIVE` | Tropical Variety Dimension Gap in Read-Twice vs Read-Once BPs |
-| 2026-05-12 18:08 UTC | `INCONCLUSIVE` | Real Rank of SOS Moment Matrices for Max-CUT Bounded by Degree |
 | 2026-05-12 18:22 UTC | `INCONCLUSIVE` | Submodular Rank Gap in Monotone DNF for k-CLIQUE |
 | 2026-05-12 19:26 UTC | `INCONCLUSIVE` | Euler Characteristic of Communication Graph Equals Deterministic  |
 | 2026-05-12 19:34 UTC | `INCONCLUSIVE` | Completely Bounded Norm Gap in Read-Twice BPs for IP_2 |
@@ -82,6 +78,10 @@ Generated 2026-05-12 23:21 UTC
 | 2026-05-12 22:47 UTC | `INCONCLUSIVE` | Gowers Norm Inverse Proportional to ACC⁰ Circuit Size for Explici |
 | 2026-05-12 22:54 UTC | `INCONCLUSIVE` | Irreducible Component Count of IP_2 BP Variety Bounds Read-Twice  |
 | 2026-05-12 23:21 UTC | `INCONCLUSIVE` | Irreducible Component Count Inversely Proportional to ACC⁰ Circui |
+| 2026-05-12 23:54 UTC | `INCONCLUSIVE` | Free Cumulant Gap in Read-Twice BPs for 3-SAT |
+| 2026-05-13 00:19 UTC | `INCONCLUSIVE` | Real Radical Dimension Inverse Proportional to SOS Degree for Max |
+| 2026-05-13 00:30 UTC | `INCONCLUSIVE` | Real Variety Connected Components Lower Bound SOS Degree for Max- |
+| 2026-05-13 00:43 UTC | `INCONCLUSIVE` | Plethysm Coefficient Gap in Symmetric Powers of Permanent vs Dete |
 
 ## How to read the reports
 
