@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-13 04:58 UTC"
+date: "2026-05-13 06:42 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-13 04:58 UTC
+Generated 2026-05-13 06:42 UTC
 
-- Cycles recorded: **695**
-- Time span: 463.3h (~1.50 cycles/h)
+- Cycles recorded: **701**
+- Time span: 465.0h (~1.51 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 658 |
+| INCONCLUSIVE | 664 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -34,7 +34,7 @@ Generated 2026-05-13 04:58 UTC
 |---|---|
 | Real Algebraic Geometry | 39 |
 | Schur-Weyl Duality | 26 |
-| Free Probability Theory | 17 |
+| Free Probability Theory | 18 |
 | Representation Theory of Symmetric Groups | 17 |
 | Matroid Theory | 16 |
 | Free Probability | 14 |
@@ -46,6 +46,7 @@ Generated 2026-05-13 04:58 UTC
 | Spectral Graph Theory | 7 |
 | Finite Geometry | 6 |
 | Plethysm Theory | 6 |
+| Persistent Homology | 5 |
 | Noncommutative Harmonic Analysis | 5 |
 | Ergodic Circuit Framework (communication complexity via dynamical systems) | 4 |
 | {"framework_name": "Ergodic Circuit Framework", "math_branch": "COMM_COMPLEXITY"} | 4 |
@@ -53,7 +54,6 @@ Generated 2026-05-13 04:58 UTC
 | Algebraic Geometry over Finite Fields | 4 |
 | Fourier Analysis of Boolean Functions | 4 |
 | Algebraic Geometry of Secant Varieties | 4 |
-| Persistent Homology | 4 |
 | FOURIER_ANALYSIS | 4 |
 | Noncommutative Geometry | 4 |
 | Fourier analysis of boolean functions | 3 |
@@ -67,12 +67,6 @@ Generated 2026-05-13 04:58 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-12 23:21 UTC | `INCONCLUSIVE` | Irreducible Component Count Inversely Proportional to ACC⁰ Circui |
-| 2026-05-12 23:54 UTC | `INCONCLUSIVE` | Free Cumulant Gap in Read-Twice BPs for 3-SAT |
-| 2026-05-13 00:19 UTC | `INCONCLUSIVE` | Real Radical Dimension Inverse Proportional to SOS Degree for Max |
-| 2026-05-13 00:30 UTC | `INCONCLUSIVE` | Real Variety Connected Components Lower Bound SOS Degree for Max- |
-| 2026-05-13 00:43 UTC | `INCONCLUSIVE` | Plethysm Coefficient Gap in Symmetric Powers of Permanent vs Dete |
-| 2026-05-13 01:20 UTC | `INCONCLUSIVE` | Negative Eigenvalue Count in SOS Moment Matrix Bounded by Log-Siz |
 | 2026-05-13 01:46 UTC | `INCONCLUSIVE` | Free Cumulant Norm Gap in Read-Twice BPs for IP_2 |
 | 2026-05-13 02:16 UTC | `INCONCLUSIVE` | Secant Variety Dimension Bounds Disjointness Communication Rank |
 | 2026-05-13 02:43 UTC | `INCONCLUSIVE` | Free Cumulant Spread Bounds Disjointness Communication Complexity |
@@ -82,6 +76,12 @@ Generated 2026-05-13 04:58 UTC
 | 2026-05-13 04:27 UTC | `INCONCLUSIVE` | Sum-Product Complexity Lower Bounds for ACC⁰ Circuits |
 | 2026-05-13 04:40 UTC | `INCONCLUSIVE` | Free Cumulant Sum Lower Bounds Randomized Communication Complexit |
 | 2026-05-13 04:58 UTC | `INCONCLUSIVE` | Toric Variety Degree Inverse to SOS Refutation Degree for 3-SAT |
+| 2026-05-13 05:57 UTC | `INCONCLUSIVE` | Persistent Homology Total Persistence Inversely Proportional to R |
+| 2026-05-13 06:08 UTC | `INCONCLUSIVE` | Plethysm Coefficient Sum Gap in Symmetric Powers of Permanent vs  |
+| 2026-05-13 06:23 UTC | `INCONCLUSIVE` | Gröbner Basis Step Count vs. Extended Frege Proof Length for 3-SA |
+| 2026-05-13 06:30 UTC | `INCONCLUSIVE` | Free Cumulant Sum Gap in Read-Twice BPs for 3-SAT |
+| 2026-05-13 06:36 UTC | `INCONCLUSIVE` | Hilbert Polynomial Leading Coefficient Inversely Proportional to  |
+| 2026-05-13 06:42 UTC | `INCONCLUSIVE` | Kronecker Coefficient Gap in Symmetric Powers of Permanent vs Det |
 
 ## How to read the reports
 

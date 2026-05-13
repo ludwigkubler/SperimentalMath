@@ -1,13 +1,13 @@
 {
-  "last_update_utc": "2026-05-13T05:47:02Z",
-  "total_cycles": 695,
+  "last_update_utc": "2026-05-13T06:47:01Z",
+  "total_cycles": 701,
   "verdict_counts": {
-    "INCONCLUSIVE": 658,
+    "INCONCLUSIVE": 664,
     "SUPPORTED": 4,
     "FALSIFIED": 15,
     "BARRIER_HIT": 18
   },
-  "unique_field_A": 427,
+  "unique_field_A": 430,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
@@ -19,7 +19,7 @@
     ],
     [
       "Free Probability Theory",
-      17
+      18
     ],
     [
       "Representation Theory of Symmetric Groups",
@@ -66,7 +66,7 @@
       6
     ],
     [
-      "Noncommutative Harmonic Analysis",
+      "Persistent Homology",
       5
     ]
   ]
