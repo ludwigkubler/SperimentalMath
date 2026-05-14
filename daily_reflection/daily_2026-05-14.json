@@ -1,0 +1,111 @@
+{
+  "ts": 1778729582.0902166,
+  "window_h": 24.0,
+  "n_conjectures": 20,
+  "n_papers": 139,
+  "n_scoops": 0,
+  "scoops": [],
+  "top_overlap": [
+    {
+      "score": 0.719,
+      "paper_id": "2605.10056v2",
+      "paper_title": "Hardness Amplification for (Sparse) LPN",
+      "paper_category": "cs.CR",
+      "matched_conjecture_eid": "d28e1c338d3e",
+      "matched_conjecture_title": "Kronecker Coefficient Gap in Symmetric Powers of Permanent vs Determinant"
+    },
+    {
+      "score": 0.712,
+      "paper_id": "2605.11545v1",
+      "paper_title": "Strong Inapproximability for a Promise Rank Problem",
+      "paper_category": "cs.CC",
+      "matched_conjecture_eid": "f1e317557d3c",
+      "matched_conjecture_title": "Hilbert Polynomial Leading Coefficient Inversely Proportional to Permanent Circuit Size"
+    },
+    {
+      "score": 0.71,
+      "paper_id": "2605.11445v1",
+      "paper_title": "Analytic Properties of Necklace Polynomials",
+      "paper_category": "math.CO",
+      "matched_conjecture_eid": "3d93cdba3971",
+      "matched_conjecture_title": "Symmetric Square Irreducible Component Count Gap in Permanent vs Determinant Polynomials"
+    },
+    {
+      "score": 0.707,
+      "paper_id": "2605.09155v1",
+      "paper_title": "A curve and its abstract generalized Jacobian",
+      "paper_category": "math.AG",
+      "matched_conjecture_eid": "b106cd299f7b",
+      "matched_conjecture_title": "Algebraic Shifting Edge Count Bounds Monotone DNF Size for k-CLIQUE"
+    },
+    {
+      "score": 0.702,
+      "paper_id": "2605.11288v1",
+      "paper_title": "On $2$-factors of Hamiltonian graphs",
+      "paper_category": "math.CO",
+      "matched_conjecture_eid": "b5947ad3eff5",
+      "matched_conjecture_title": "Symmetric Group Fourier Coefficient Count Inversely Proportional to ACC⁰ Circuit Size for Sipser-like Functions"
+    },
+    {
+      "score": 0.7,
+      "paper_id": "2605.12450v1",
+      "paper_title": "Simulation of Non-Hermitian Hamiltonians with Bivariate Quantum Signal Processing",
+      "paper_category": "quant-ph",
+      "matched_conjecture_eid": "62f906c3ef52",
+      "matched_conjecture_title": "Symmetric Decomposition Coefficient Count Inversely Proportional to Deterministic Communication Complexity for XOR Functions"
+    },
+    {
+      "score": 0.692,
+      "paper_id": "2605.12073v1",
+      "paper_title": "Clausal Deletion Backdoors for QBF: a Parameterized Complexity Approach",
+      "paper_category": "cs.CC",
+      "matched_conjecture_eid": "d28e1c338d3e",
+      "matched_conjecture_title": "Kronecker Coefficient Gap in Symmetric Powers of Permanent vs Determinant"
+    },
+    {
+      "score": 0.691,
+      "paper_id": "2605.12295v1",
+      "paper_title": "Symmetric Tensor Decompositions over Finite Fields",
+      "paper_category": "math.CO",
+      "matched_conjecture_eid": "b5947ad3eff5",
+      "matched_conjecture_title": "Symmetric Group Fourier Coefficient Count Inversely Proportional to ACC⁰ Circuit Size for Sipser-like Functions"
+    },
+    {
+      "score": 0.688,
+      "paper_id": "2605.11820v1",
+      "paper_title": "Classification and counting of Gorenstein simplices with $h^*$-polynomial $1+t^k+\\cdots+t^{(v-1)k}$",
+      "paper_category": "math.CO",
+      "matched_conjecture_eid": "f1e317557d3c",
+      "matched_conjecture_title": "Hilbert Polynomial Leading Coefficient Inversely Proportional to Permanent Circuit Size"
+    },
+    {
+      "score": 0.685,
+      "paper_id": "2605.12318v1",
+      "paper_title": "A stepping-up lemma for monotone paths with bounded color complexity",
+      "paper_category": "math.CO",
+      "matched_conjecture_eid": "b106cd299f7b",
+      "matched_conjecture_title": "Algebraic Shifting Edge Count Bounds Monotone DNF Size for k-CLIQUE"
+    }
+  ],
+  "stats": {
+    "n_cycles": 20,
+    "verdicts": {
+      "INCONCLUSIVE": 20
+    },
+    "focus_distribution": {
+      "COMM_DISJ": 4,
+      "ACC_SIPSER": 2,
+      "GCT_DET_PERM": 4,
+      "BP_READTWICE": 1,
+      "SOS_DEGREE": 1,
+      "MONOTONE_CLIQUE": 1
+    },
+    "top_fields_A": {
+      "Free Probability Theory": 5,
+      "Schur-Weyl Duality": 2,
+      "Additive Combinatorics": 1,
+      "Toric Geometry": 1,
+      "Persistent Homology": 1
+    }
+  }
+}
