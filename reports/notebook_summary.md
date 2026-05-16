@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-16 22:38 UTC"
+date: "2026-05-16 23:34 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-16 22:38 UTC
+Generated 2026-05-16 23:34 UTC
 
-- Cycles recorded: **716**
-- Time span: 553.0h (~1.29 cycles/h)
+- Cycles recorded: **718**
+- Time span: 553.9h (~1.30 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 679 |
+| INCONCLUSIVE | 681 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -67,8 +67,6 @@ Generated 2026-05-16 22:38 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-13 07:16 UTC | `INCONCLUSIVE` | SOS Moment Matrix Eigenvalue Sum Bounded by Degree for Max-CUT |
-| 2026-05-13 07:23 UTC | `INCONCLUSIVE` | Symmetric Group Fourier Coefficient Count Inversely Proportional  |
 | 2026-05-13 08:49 UTC | `INCONCLUSIVE` | Free Cumulant Sum Lower Bounded by Communication Complexity of DI |
 | 2026-05-13 09:19 UTC | `INCONCLUSIVE` | Schur-Weyl Component Count Gap in Monotone Circuit Size for Perma |
 | 2026-05-13 09:31 UTC | `INCONCLUSIVE` | Algebraic Shifting Generator Count Bounds Communication Complexit |
@@ -82,6 +80,8 @@ Generated 2026-05-16 22:38 UTC
 | 2026-05-16 21:44 UTC | `INCONCLUSIVE` | Non-Backtracking Spectral Gap Bounds Tseitin Resolution Length |
 | 2026-05-16 22:10 UTC | `INCONCLUSIVE` | Matching Polynomial Mahler Measure Lower-Bounds Tseitin DPLL Tree |
 | 2026-05-16 22:38 UTC | `INCONCLUSIVE` | Mobius-Mertens Cancellation on Fourier Levels vs Total Influence |
+| 2026-05-16 23:03 UTC | `INCONCLUSIVE` | Column-Subset Discrepancy Lower-Bounds Disjointness Protocol Tree |
+| 2026-05-16 23:34 UTC | `INCONCLUSIVE` | Zaslavsky Chamber Count Lower-Bounds AC⁰ PARITY Size |
 
 ## How to read the reports
 

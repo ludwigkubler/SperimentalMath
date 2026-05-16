@@ -1,0 +1,40 @@
+{
+  "entry_id": "96f06d91d088",
+  "ts": 1778972658.2504256,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/1505.03110v1",
+      "title": "Near-optimal bounds on bounded-round quantum communication complexity of disjointness",
+      "abstract_excerpt": "We prove a near optimal round-communication tradeoff for the two-party quantum communication complexity of disjointness. For protocols with $r$ rounds, we prove a lower bound of $\\tildeΩ(n/r + r)$ on the communication required for computing disjointness of input size $n$, which is optimal up to loga",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses 'quantum communication complexity of disjointness' with round-communication tradeoffs, which shares the disjointness framework but does not interact with hereditary discrepancy or leaf counts of deterministic DPLL protocol trees.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/cs/0111062v2",
+      "title": "One-way communication complexity and the Neciporuk lower bound on formula size",
+      "abstract_excerpt": "In this paper the Neciporuk method for proving lower bounds on the size of Boolean formulae is reformulated in terms of one-way communication complexity. We investigate the scenarios of probabilistic formulae, nondeterministic formulae, and quantum formulae. In all cases we can use results about one",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the Neciporuk method for Boolean formula size lower bounds via one-way communication complexity, with no mention of discrepancy theory, DISJOINTNESS protocol trees, or hereditary discrepancy of column subsets.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/cs/9906008v2",
+      "title": "A Lower Bound on the Average-Case Complexity of Shellsort",
+      "abstract_excerpt": "We prove a general lower bound on the average-case complexity of Shellsort: the average number of data-movements (and comparisons) made by a $p$-pass Shellsort for any incremental sequence is $Ω(pn^{1 + 1/p})$ for every $p$. The proof method is an incompressibility argument based on Kolmogorov compl",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns average-case lower bounds for Shellsort via Kolmogorov complexity/incompressibility, which has no interaction with hereditary discrepancy of column subsystems or DISJOINTNESS protocol-tree leaf counts.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "60678ef5bd8d",
+  "ts": 1778974479.9074092,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2304.02770",
+      "title": "Tight Correlation Bounds for Circuits Between AC0 and TC0",
+      "abstract_excerpt": "We initiate the study of generalized AC0 circuits comprised of negations and arbitrary unbounded fan-in gates that only need to be constant over inputs of Hamming weight $\\ge k$, which we denote GC0$(k)$. The gate set of this class includes biased LTFs like the $k$-$OR$ (output $1$ iff $\\ge k$ bits are 1) and $k$-$AND$ (output $0$ iff $\\ge k$ bits are 0), and thus can be seen as an interpolation between AC0 and TC0. We establish a tight multi-switching lemma for GC0$(k)$ circuits, which bounds t",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes correlation bounds, switching lemmas, and PRGs for a generalized AC0 class (GC0(k)), with no mention of hyperplane arrangements, Zaslavsky chamber counts, or gate-output covector counts as a size lower bound measure. While it concerns AC0-style lower bounds for PARITY, it does not interact with the specific chamber-count quantity ch(C) or the bound log₂ ch(C) ≥ (1/4)·n^{1/(d−1)}.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1705.10753",
+      "title": "Tutte Polynomials of Symmetric Hyperplane Arrangements",
+      "abstract_excerpt": "Originally in 1954 the Tutte polynomial was a bivariate polynomial associated to a graph in order to enumerate the colorings of this graph and of its dual graph at the same time. However the Tutte polynomial reveals more of the internal structure of a graph, and contains even other specializations from other sciences like the Jones polynomial in Knot theory, the partition function of the Pott model in statistical physics, and the reliability polynomial in network theory. In this article, we stud",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes computing Tutte polynomials of symmetric hyperplane arrangements (Catalan, Shi threshold, I_n), with no mention of AC⁰ circuits, PARITY, Boolean cube restrictions, or circuit-size lower bounds. It shares the hyperplane-arrangement vocabulary but does not interact with the specific conjectured lower bound.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0011101v3",
+      "title": "Morse theory, Milnor fibers and minimality of hyperplane arrangements",
+      "abstract_excerpt": "Through the study of Morse theory on the associated Milnor fiber, we show that complex hyperplane arrangement complements are minimal. That is, the complement of a complex hyperplane arrangement has the homotopy type of a CW complex in which the number of p-cells equals the p-th betti number.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the homotopy type of complex hyperplane arrangement complements (minimal CW structure with p-cells matching Betti numbers), which does not address Zaslavsky chamber counts on the Boolean cube or AC⁰ circuit size lower bounds for PARITY.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
