@@ -1,7 +1,7 @@
 {
   "node_id": "TARGET_MONOTONE_NP_GAP",
   "instance_class": "random_3sat",
-  "ts": 1778890981.2731757,
+  "ts": 1778934181.8311026,
   "result": {
     "instance_class": "random_3sat",
     "n_range": [
@@ -177,7 +177,7 @@
         "n_total": 2
       },
       "fit": {
-        "runtime_loglog_slope": 0.17245920974418646,
+        "runtime_loglog_slope": 0.1698043838295417,
         "conflicts_loglog_slope": 0.0
       }
     }
