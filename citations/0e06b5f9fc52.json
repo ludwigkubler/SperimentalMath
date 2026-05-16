@@ -1,0 +1,40 @@
+{
+  "entry_id": "0e06b5f9fc52",
+  "ts": 1778962446.4524837,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1709.08890",
+      "title": "Partial matching width and its application to lower bounds for branching programs",
+      "abstract_excerpt": "We introduce a new structural graph parameter called \\emph{partial matching width}. For each (sufficiently large) integer $k \\geq 1$, we introduce a class $\\mathcal{G}_k$ of graphs of treewidth at most $k$ and max-degree $7$ such that for each $G \\in \\mathcal{G}_k$ and each (sufficiently large) $V \\subseteq V(G)$, the partial matching width of $V$ is $Ω(k \\log |V|)$.\n  We use the above lower bound to establish a lower bound on the size of non-deterministic read-once branching programs (NROBPs). ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses non-deterministic read-once BPs for CNFs of bounded treewidth via a 'partial matching width' parameter, not read-twice BPs for IP_2 or any commutator/Frobenius discrepancy measure. It shares the general 'BP lower bound' framework but does not interact with the specific conjectured ρ(P) bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1007.1875",
+      "title": "Lower Bounds for Quantum Oblivious Transfer",
+      "abstract_excerpt": "Oblivious transfer is a fundamental primitive in cryptography. While perfect information theoretic security is impossible, quantum oblivious transfer protocols can limit the dishonest players' cheating. Finding the optimal security parameters in such protocols is an important open question. In this paper we show that every 1-out-of-2 oblivious transfer protocol allows a dishonest party to cheat with probability bounded below by a constant strictly larger than 1/2. Alice's cheating is defined as ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quantum oblivious transfer cheating probabilities and Kitaev's SDP coin-flipping bounds, with no connection to read-twice branching programs, IP_2, or Frobenius-norm commutator discrepancy measures.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0710.5926",
+      "title": "Mod 2 cohomology of 2-local finite groups of low rank",
+      "abstract_excerpt": "We determine the mod $2$ cohomology over the Steenrod algebra of the classifying spaces of the free loop groups $LG$ for compact groups $G=Spin(7)$, $Spin(8)$, $Spin(9)$, and $F_4$. Then, we show that they are isomorphic as algebras over the Steenrod algebra to the mod $2$ cohomology of the corresponding Chevalley groups of type $G(q)$, where $q$ is an odd prime power. In a similar manner, we compute the cohomology of the free loop space over $BDI(4)$ and show that it is isomorphic to that of $B",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns mod 2 cohomology of classifying spaces of free loop groups and Chevalley groups, which shares only the superficial 'mod 2' vocabulary with the conjecture about branching programs computing IP_2; it makes no claim about branching program complexity or commutator discrepancy.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

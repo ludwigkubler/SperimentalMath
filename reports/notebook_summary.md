@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-16 19:45 UTC"
+date: "2026-05-16 20:47 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-16 19:45 UTC
+Generated 2026-05-16 20:47 UTC
 
-- Cycles recorded: **710**
-- Time span: 550.1h (~1.29 cycles/h)
+- Cycles recorded: **712**
+- Time span: 551.1h (~1.29 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 673 |
+| INCONCLUSIVE | 675 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -67,8 +67,6 @@ Generated 2026-05-16 19:45 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-13 05:57 UTC | `INCONCLUSIVE` | Persistent Homology Total Persistence Inversely Proportional to R |
-| 2026-05-13 06:08 UTC | `INCONCLUSIVE` | Plethysm Coefficient Sum Gap in Symmetric Powers of Permanent vs  |
 | 2026-05-13 06:23 UTC | `INCONCLUSIVE` | Gröbner Basis Step Count vs. Extended Frege Proof Length for 3-SA |
 | 2026-05-13 06:30 UTC | `INCONCLUSIVE` | Free Cumulant Sum Gap in Read-Twice BPs for 3-SAT |
 | 2026-05-13 06:36 UTC | `INCONCLUSIVE` | Hilbert Polynomial Leading Coefficient Inversely Proportional to  |
@@ -82,6 +80,8 @@ Generated 2026-05-16 19:45 UTC
 | 2026-05-13 11:20 UTC | `INCONCLUSIVE` | Symmetric Square Irreducible Component Count Gap in Permanent vs  |
 | 2026-05-13 11:47 UTC | `INCONCLUSIVE` | Symplectic Capacity Inverse Proportional to Extended Frege Proof  |
 | 2026-05-13 12:08 UTC | `INCONCLUSIVE` | Symmetric Decomposition Coefficient Count Inversely Proportional  |
+| 2026-05-16 20:13 UTC | `INCONCLUSIVE` | Layer-Commutator Frobenius Discrepancy Separates Read-Twice BP fo |
+| 2026-05-16 20:46 UTC | `INCONCLUSIVE` | Matroid Matching of Term Co-Occurrence Graph Bounds k-CLIQUE Mono |
 
 ## How to read the reports
 
