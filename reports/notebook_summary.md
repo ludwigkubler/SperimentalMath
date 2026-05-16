@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-16 20:47 UTC"
+date: "2026-05-16 21:44 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-16 20:47 UTC
+Generated 2026-05-16 21:44 UTC
 
-- Cycles recorded: **712**
-- Time span: 551.1h (~1.29 cycles/h)
+- Cycles recorded: **714**
+- Time span: 552.1h (~1.29 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 675 |
+| INCONCLUSIVE | 677 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -67,8 +67,6 @@ Generated 2026-05-16 20:47 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-13 06:23 UTC | `INCONCLUSIVE` | Gröbner Basis Step Count vs. Extended Frege Proof Length for 3-SA |
-| 2026-05-13 06:30 UTC | `INCONCLUSIVE` | Free Cumulant Sum Gap in Read-Twice BPs for 3-SAT |
 | 2026-05-13 06:36 UTC | `INCONCLUSIVE` | Hilbert Polynomial Leading Coefficient Inversely Proportional to  |
 | 2026-05-13 06:42 UTC | `INCONCLUSIVE` | Kronecker Coefficient Gap in Symmetric Powers of Permanent vs Det |
 | 2026-05-13 07:16 UTC | `INCONCLUSIVE` | SOS Moment Matrix Eigenvalue Sum Bounded by Degree for Max-CUT |
@@ -82,6 +80,8 @@ Generated 2026-05-16 20:47 UTC
 | 2026-05-13 12:08 UTC | `INCONCLUSIVE` | Symmetric Decomposition Coefficient Count Inversely Proportional  |
 | 2026-05-16 20:13 UTC | `INCONCLUSIVE` | Layer-Commutator Frobenius Discrepancy Separates Read-Twice BP fo |
 | 2026-05-16 20:46 UTC | `INCONCLUSIVE` | Matroid Matching of Term Co-Occurrence Graph Bounds k-CLIQUE Mono |
+| 2026-05-16 21:14 UTC | `INCONCLUSIVE` | Persistent H1 of Random Row Subclouds Bounds DISJ Communication |
+| 2026-05-16 21:44 UTC | `INCONCLUSIVE` | Non-Backtracking Spectral Gap Bounds Tseitin Resolution Length |
 
 ## How to read the reports
 

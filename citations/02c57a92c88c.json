@@ -1,0 +1,40 @@
+{
+  "entry_id": "02c57a92c88c",
+  "ts": 1778964435.1853285,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2107.05128",
+      "title": "Karchmer-Wigderson Games for Hazard-free Computation",
+      "abstract_excerpt": "We present a Karchmer-Wigderson game to study the complexity of hazard-free formulas. This new game is both a generalization of the monotone Karchmer-Wigderson game and an analog of the classical Boolean Karchmer-Wigderson game. Therefore, it acts as a bridge between the existing monotone and general games.\n  Using this game, we prove hazard-free formula size and depth lower bounds that are provably stronger than those possible by the standard technique of transferring results from monotone comp",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Karchmer-Wigderson games for hazard-free formula complexity and the multiplexer function, with no mention of matroid matching, term co-occurrence graphs, monotone DNF size bounds, or k-CLIQUE. It shares only the general KW-game framework vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1503.06447",
+      "title": "Sum-of-squares lower bounds for planted clique",
+      "abstract_excerpt": "Finding cliques in random graphs and the closely related \"planted\" clique variant, where a clique of size k is planted in a random G(n, 1/2) graph, have been the focus of substantial study in algorithm design. Despite much effort, the best known polynomial-time algorithms only solve the problem for k ~ sqrt(n).\n  In this paper we study the complexity of the planted clique problem under algorithms from the Sum-of-squares hierarchy. We prove the first average case lower bound for this model: for a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Sum-of-Squares/Lasserre hierarchy lower bounds for the planted clique problem on random graphs, using association schemes and PSD certificates — it says nothing about monotone DNF size, term co-occurrence graphs, or matroid matching bounds for the k-CLIQUE indicator.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2405.01069",
+      "title": "Oriented Ramsey numbers of graded digraphs",
+      "abstract_excerpt": "We show that any graded digraph $D$ on $n$ vertices with maximum degree $Δ$ has an oriented Ramsey number of at most $C^Δn$ for some absolute constant $C &gt; 1$, improving upon a recent result of Fox, He, and Wigderson. In particular, this implies that oriented grids in any fixed dimension have linear oriented Ramsey numbers, and gives a polynomial bound on the oriented Ramsey number of the hypercube.\n  We also show that this result is essentially best possible, in that there exist graded digra",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns oriented Ramsey numbers of graded digraphs, with no mention of matroid matching, monotone DNFs, term co-occurrence graphs, or k-CLIQUE complexity. It shares no specific claim with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

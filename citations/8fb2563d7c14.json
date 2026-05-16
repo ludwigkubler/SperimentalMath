@@ -1,0 +1,40 @@
+{
+  "entry_id": "8fb2563d7c14",
+  "ts": 1778966114.6353748,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/2301.07191v3",
+      "title": "A New Construction of the Vietoris-Rips Complex",
+      "abstract_excerpt": "We present a new, inductive construction of the Vietoris-Rips complex, in which we take advantage of a small amount of unexploited combinatorial structure in the $k$-skeleton of the complex in order to avoid unnecessary comparisons when identifying its $(k+1)$-simplices. In doing so, we achieve a si",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes an 'inductive construction of the Vietoris-Rips complex' to avoid unnecessary comparisons when identifying simplices—an algorithmic/combinatorial improvement that does not address persistent H_1, communication complexity, or DISJOINTNESS lower bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2605.00705v1",
+      "title": "Cohomological properties of the Vietoris--Rips Complex of a Hypercube Graph",
+      "abstract_excerpt": "We develop a toric topological framework for studying the cohomology of Vietoris--Rips complexes $VR(Q_n;r)$ of hypercube graphs. Using total domination invariants and spectral methods, we establish general lower bounds on connectivity, which leads to infinite families of counterexamples to Shukla's conjecture, and derive first global upper bounds on coconnectivity. Our approach interprets Vietoris--Rips complexes via Stanley--Reisner rings, moment-angle complexes, and Tor algebras, allowing glo",
+      "abstract_source": "arxiv_local_mirror",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns cohomology of Vietoris–Rips complexes of hypercube graphs via toric topology, Stanley–Reisner rings, and Koszul resolutions — it does not address randomized communication complexity, DISJOINTNESS lower bounds, or total persistence functionals on random row sub-clouds of Boolean matrices.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2001.07588v8",
+      "title": "Vietoris-Rips Persistent Homology, Injective Metric Spaces, and The Filling Radius",
+      "abstract_excerpt": "In the applied algebraic topology community, the persistent homology induced by the Vietoris-Rips simplicial filtration is a standard method for capturing topological information from metric spaces. In this paper, we consider a different, more geometric way of generating persistent homology of metri",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Vietoris-Rips persistent homology in the context of injective metric spaces and the filling radius, with no mention of communication complexity, DISJOINTNESS, or sub-sampled Boolean matrices. It shares only the VR persistence vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
