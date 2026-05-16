@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-16 21:44 UTC"
+date: "2026-05-16 22:38 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-16 21:44 UTC
+Generated 2026-05-16 22:38 UTC
 
-- Cycles recorded: **714**
-- Time span: 552.1h (~1.29 cycles/h)
+- Cycles recorded: **716**
+- Time span: 553.0h (~1.29 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 677 |
+| INCONCLUSIVE | 679 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -67,8 +67,6 @@ Generated 2026-05-16 21:44 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-13 06:36 UTC | `INCONCLUSIVE` | Hilbert Polynomial Leading Coefficient Inversely Proportional to  |
-| 2026-05-13 06:42 UTC | `INCONCLUSIVE` | Kronecker Coefficient Gap in Symmetric Powers of Permanent vs Det |
 | 2026-05-13 07:16 UTC | `INCONCLUSIVE` | SOS Moment Matrix Eigenvalue Sum Bounded by Degree for Max-CUT |
 | 2026-05-13 07:23 UTC | `INCONCLUSIVE` | Symmetric Group Fourier Coefficient Count Inversely Proportional  |
 | 2026-05-13 08:49 UTC | `INCONCLUSIVE` | Free Cumulant Sum Lower Bounded by Communication Complexity of DI |
@@ -82,6 +80,8 @@ Generated 2026-05-16 21:44 UTC
 | 2026-05-16 20:46 UTC | `INCONCLUSIVE` | Matroid Matching of Term Co-Occurrence Graph Bounds k-CLIQUE Mono |
 | 2026-05-16 21:14 UTC | `INCONCLUSIVE` | Persistent H1 of Random Row Subclouds Bounds DISJ Communication |
 | 2026-05-16 21:44 UTC | `INCONCLUSIVE` | Non-Backtracking Spectral Gap Bounds Tseitin Resolution Length |
+| 2026-05-16 22:10 UTC | `INCONCLUSIVE` | Matching Polynomial Mahler Measure Lower-Bounds Tseitin DPLL Tree |
+| 2026-05-16 22:38 UTC | `INCONCLUSIVE` | Mobius-Mertens Cancellation on Fourier Levels vs Total Influence |
 
 ## How to read the reports
 
