@@ -1423,3 +1423,6 @@
 {"ts": 1778677201.5562942, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 17}}
 {"ts": 1778679002.4391403, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 17}}
 {"ts": 1778680801.5592992, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 17}}
+{"ts": 1778960748.0467653, "kind": "SERVICE_STALL", "auto_fixed": true, "detail": {"hours": 79.62343834929996}}
+{"ts": 1778960748.358156, "kind": "REPORT_STALE", "auto_fixed": true, "detail": {"issues": ["stale:notebook_summary.md(age=79.3h)", "stale:supported_findings.md(age=79.3h)", "stale:falsified_findings.md(age=79.3h)", "stale:frameworks_live.md(age=79.3h)", "stale:wall_atlas.md(age=79.3h)", "stale:dead_frameworks_compendium.md(age=79.3h)"]}}
+{"ts": 1778960748.9985898, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 20}}
