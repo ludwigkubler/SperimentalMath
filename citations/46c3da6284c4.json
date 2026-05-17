@@ -1,0 +1,40 @@
+{
+  "entry_id": "46c3da6284c4",
+  "ts": 1779008617.5147645,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0710.5926",
+      "title": "Mod 2 cohomology of 2-local finite groups of low rank",
+      "abstract_excerpt": "We determine the mod $2$ cohomology over the Steenrod algebra of the classifying spaces of the free loop groups $LG$ for compact groups $G=Spin(7)$, $Spin(8)$, $Spin(9)$, and $F_4$. Then, we show that they are isomorphic as algebras over the Steenrod algebra to the mod $2$ cohomology of the corresponding Chevalley groups of type $G(q)$, where $q$ is an odd prime power. In a similar manner, we compute the cohomology of the free loop space over $BDI(4)$ and show that it is isomorphic to that of $B",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns mod 2 cohomology of classifying spaces of free loop groups and Chevalley/Solomon groups — algebraic topology unrelated to branching program lower bounds, stable rank, or IP_2. No interaction with the conjecture's claims about ρ(P).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1503.07648v2",
+      "title": "Sign rank versus VC dimension",
+      "abstract_excerpt": "This work studies the maximum possible sign rank of $N \\times N$ sign matrices with a given VC dimension $d$. For $d=1$, this maximum is {three}. For $d=2$, this maximum is $\\tildeΘ(N^{1/2})$. For $d &gt;2$, similar but slightly less accurate statements hold. {The lower bounds improve over previous ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns sign rank versus VC dimension of N×N sign matrices, with no statement about branching programs, IP_2 lower bounds, or a stable-rank invariant ρ(P) = ‖S(P)‖_F²/‖S(P)‖_op² of a BP's layer-symbol matrix. It shares the sign-rank vocabulary but does not interact with the specific BP-size conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1708.02054v1",
+      "title": "Pseudorandom Bits for Oblivious Branching Programs",
+      "abstract_excerpt": "We construct a pseudorandom generator which fools read-$k$ oblivious branching programs and, more generally, any linear length oblivious branching program, assuming that the sequence according to which the bits are read is known in advance. For polynomial width branching programs, the seed lengths i",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a pseudorandom generator construction for read-k oblivious branching programs with a known reading order, not lower bounds via stable-rank invariants or separations for IP_2; it shares the read-k BP framework but does not interact with the conjecture's specific stable-rank claims.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
