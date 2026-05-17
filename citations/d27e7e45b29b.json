@@ -1,0 +1,31 @@
+{
+  "entry_id": "d27e7e45b29b",
+  "ts": 1778985003.0550725,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:1704.02537",
+      "title": "Dual polynomials and communication complexity of XOR functions",
+      "abstract_excerpt": "We show a new duality between the polynomial margin complexity of $f$ and the discrepancy of the function $f \\circ \\textsf{XOR}$, called an $\\textsf{XOR}$ function. Using this duality, we develop polynomial based techniques for understanding the bounded error ($\\textsf{BPP}$) and the weakly-unbounde",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a duality between polynomial margin complexity and discrepancy of XOR functions, but says nothing about a lattice/vertex star-discrepancy quantity D*_lat(g) or its equivalence to the spectral norm ||ĝ||_∞. It shares the XOR-function/discrepancy vocabulary but does not interact with the specific geometric-discrepancy claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:19311e592db3bd54ad8685ae0d27b815c87bef9c",
+      "title": "Dual polynomials and communication complexity of $\\textsf{XOR}$ functions",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available for the cited paper, so I cannot determine from the abstract alone whether it addresses the specific equivalence between vertex lattice star-discrepancy and spectral norm for XOR functions.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}

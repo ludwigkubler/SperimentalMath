@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-17 01:28 UTC"
+date: "2026-05-17 02:29 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-17 01:28 UTC
+Generated 2026-05-17 02:29 UTC
 
-- Cycles recorded: **722**
-- Time span: 555.8h (~1.30 cycles/h)
+- Cycles recorded: **724**
+- Time span: 556.8h (~1.30 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 685 |
+| INCONCLUSIVE | 687 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -67,8 +67,6 @@ Generated 2026-05-17 01:28 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-13 11:20 UTC | `INCONCLUSIVE` | Symmetric Square Irreducible Component Count Gap in Permanent vs  |
-| 2026-05-13 11:47 UTC | `INCONCLUSIVE` | Symplectic Capacity Inverse Proportional to Extended Frege Proof  |
 | 2026-05-13 12:08 UTC | `INCONCLUSIVE` | Symmetric Decomposition Coefficient Count Inversely Proportional  |
 | 2026-05-16 20:13 UTC | `INCONCLUSIVE` | Layer-Commutator Frobenius Discrepancy Separates Read-Twice BP fo |
 | 2026-05-16 20:46 UTC | `INCONCLUSIVE` | Matroid Matching of Term Co-Occurrence Graph Bounds k-CLIQUE Mono |
@@ -82,6 +80,8 @@ Generated 2026-05-17 01:28 UTC
 | 2026-05-17 00:26 UTC | `INCONCLUSIVE` | 2-adic Newton Slopes of DISJ Sub-blocks Scale as √n |
 | 2026-05-17 00:49 UTC | `INCONCLUSIVE` | Cyclic Burnside Orbit Count Lower-Bounds AC⁰ Size for PARITY |
 | 2026-05-17 01:28 UTC | `INCONCLUSIVE` | Cauchy Mean Width of Minterm Hull Lower-Bounds Monotone k-CLIQUE |
+| 2026-05-17 02:01 UTC | `INCONCLUSIVE` | Costas Displacement Coincidence Lower-Bounds AC⁰ Size for PARITY |
+| 2026-05-17 02:29 UTC | `INCONCLUSIVE` | Vertex Star-Discrepancy Equals Spectral Norm for XOR Comm |
 
 ## How to read the reports
 
