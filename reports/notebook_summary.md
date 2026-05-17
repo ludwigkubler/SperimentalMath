@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-17 22:43 UTC"
+date: "2026-05-17 23:46 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-17 22:43 UTC
+Generated 2026-05-17 23:46 UTC
 
-- Cycles recorded: **759**
-- Time span: 577.1h (~1.32 cycles/h)
+- Cycles recorded: **761**
+- Time span: 578.1h (~1.32 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 719 |
+| INCONCLUSIVE | 721 |
 | BARRIER_HIT | 20 |
 | FALSIFIED | 16 |
 | SUPPORTED | 4 |
@@ -67,8 +67,6 @@ Generated 2026-05-17 22:43 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-17 16:22 UTC | `INCONCLUSIVE` | Hypercontractive Laplacian-Spectrum Flatness Bounds Spectral SOS  |
-| 2026-05-17 16:51 UTC | `INCONCLUSIVE` | Free Cumulant Excess of Laplacian Spectrum Bounds Max-Cut SoS-2 G |
 | 2026-05-17 17:24 UTC | `INCONCLUSIVE` | Schatten-1/Schatten-4 Ratio Lower-Bounds AND-Function Communicati |
 | 2026-05-17 17:51 UTC | `INCONCLUSIVE` | Quiver Mutation Neighborhood Lower-Bounds ACC0 by Sensitivity |
 | 2026-05-17 18:27 UTC | `INCONCLUSIVE` | Burau Trace Defect of Clause Braid Lower-Bounds Tree-Resolution S |
@@ -82,6 +80,8 @@ Generated 2026-05-17 22:43 UTC
 | 2026-05-17 21:53 UTC | `INCONCLUSIVE` | Fatgraph Genus of Canonical Clause Ribbon Lower-Bounds Resolution |
 | 2026-05-17 22:25 UTC | `FALSIFIED` | Forman-Ricci Min-Curvature of Term-Overlap Graph Lower-Bounds Mon |
 | 2026-05-17 22:43 UTC | `INCONCLUSIVE` | Bourgain-Tzafriri Sub-Column Spectral Excess Bounds DISJ CC_R |
+| 2026-05-17 23:19 UTC | `INCONCLUSIVE` | Trivial-Isotype Mass Gap Separates Perm from Padded Det |
+| 2026-05-17 23:46 UTC | `INCONCLUSIVE` | Eulerian Descent Entropy Separates Perm from Padded Det_m |
 
 ## How to read the reports
 

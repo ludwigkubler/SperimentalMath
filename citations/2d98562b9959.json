@@ -1,0 +1,40 @@
+{
+  "entry_id": "2d98562b9959",
+  "ts": 1779060006.9725413,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1306.1810",
+      "title": "Matrix orbit closures",
+      "abstract_excerpt": "Let $G$ be the group $GL_r(C) \\times (C^\\times)^n$. We conjecture that the finely-graded Hilbert series of a $G$ orbit closure in the space of $r$-by-$n$ matrices is wholly determined by the associated matroid. In support of this, we prove that the coefficients of this Hilbert series corresponding to certain hook-shaped Schur functions in the $GL_r(C)$ variables are determined by the matroid, and that the orbit closure has a set-theoretic system of ideal generators whose combinatorics are also s",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Hilbert series of GL_r × torus orbit closures of matrices and matroid invariants, with 'hook-shaped Schur functions' coefficients — it does not address the symmetric-group trivial-isotype mass of permanent/padded-determinant coefficient vectors or determinantal complexity bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2202.13016",
+      "title": "Bounds on Determinantal Complexity of Two Types of Generalized Permanents",
+      "abstract_excerpt": "We define two new families of polynomials that generalize permanents and prove upper and lower bounds on their determinantal complexities comparable to the known bounds for permanents. One of these families is obtained by replacing permutations by signed permutations, and the other by replacing permutations by surjective functions with preimages of prescribed sizes.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses determinantal complexity bounds for generalizations of the permanent (signed permutations, surjective functions), with no mention of Specht/trivial-isotype decompositions or the permutation-diagonal coefficient invariant ρ(f) that the conjecture concerns.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1007.3804",
+      "title": "Symmetric Determinantal Representation of Formulas and Weakly Skew Circuits",
+      "abstract_excerpt": "We deploy algebraic complexity theoretic techniques for constructing symmetric determinantal representations of for00504925mulas and weakly skew circuits. Our representations produce matrices of much smaller dimensions than those given in the convex geometry literature when applied to polynomials having a concise representation (as a sum of monomials, or more generally as an arithmetic formula or a weakly skew circuit). These representations are valid in any field of characteristic different fro",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns symmetric determinantal representations of formulas/weakly skew circuits and VNP-completeness of partial permanent in characteristic 2 ('symmetric determinantal representations of formulas and weakly skew circuits'), with no engagement with Specht-isotype mass, trivial-isotype projection ρ, or the specific padded-determinant bound 1−1/n.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

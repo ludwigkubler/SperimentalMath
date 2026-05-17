@@ -1,0 +1,40 @@
+{
+  "entry_id": "1aaaed379c87",
+  "ts": 1779061585.1923122,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1503.00822",
+      "title": "Product Ranks of the $3\\times 3$ Determinant and Permanent",
+      "abstract_excerpt": "We show that the product rank of the $3\\times 3$ determinant is $5$, and the product rank of the $3\\times 3$ permanent is $4$. As a corollary, we obtain that the tensor ranks of the $3 \\times 3$ determinant and permanent are $5$ and $4$, respectively. We show moreover that the border product rank of the $n \\times n$ permanent is larger than $n$ for any $n\\geq 3$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses product rank and tensor rank of 3x3 determinant and permanent, with no mention of Eulerian descent statistics, coefficient binning, or entropy functionals as in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1802.01767",
+      "title": "Pseudomonads and Descent, PhD Thesis (Chapter 1)",
+      "abstract_excerpt": "This is the introductory chapter of my PhD Thesis. This thesis consists of one introductory chapter and four single-authored papers written during my PhD studies at the University of Coimbra under supervision of Maria Manuel Clementino. In this first chapter, we give a glance of the scope of our work and briefly describe elements of the original contributions of each paper, including some connections between them. We also give a brief exposition of our main setting, which is $2$-dimensional cate",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 2-dimensional category theory, pseudomonads, and categorical descent (Beck-Chevalley, biadjoint triangles), which is entirely unrelated to Eulerian descent statistics on permutations or GCT determinantal complexity. The shared word 'descent' is a false cognate.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1410.8628",
+      "title": "The Colored Eulerian Descent Algebra",
+      "abstract_excerpt": "Using a new colored analogue of P-partitions, we prove the existence of a colored Eulerian descent algebra which is a subalgebra of the Mantaci-Reutenauer algebra. This algebra has a basis consisting of formal sums of colored permutations with the same number of descents (using Steingrímsson's definition of the descent set of a colored permutation). The colored Eulerian descent algebra extends familiar Eulerian descent algebras from the symmetric group algebra and the hyperoctahedral group algeb",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a 'colored Eulerian descent algebra' as a subalgebra of the Mantaci-Reutenauer algebra with orthogonal idempotents — purely algebraic combinatorics with no mention of determinantal complexity, permanent, padding, or GCT obstructions.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
