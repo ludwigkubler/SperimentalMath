@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-17 07:23 UTC"
+date: "2026-05-17 08:06 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-17 07:23 UTC
+Generated 2026-05-17 08:06 UTC
 
-- Cycles recorded: **734**
-- Time span: 561.7h (~1.31 cycles/h)
+- Cycles recorded: **735**
+- Time span: 562.4h (~1.31 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 696 |
+| INCONCLUSIVE | 697 |
 | BARRIER_HIT | 19 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -67,7 +67,6 @@ Generated 2026-05-17 07:23 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-17 00:26 UTC | `INCONCLUSIVE` | 2-adic Newton Slopes of DISJ Sub-blocks Scale as √n |
 | 2026-05-17 00:49 UTC | `INCONCLUSIVE` | Cyclic Burnside Orbit Count Lower-Bounds AC⁰ Size for PARITY |
 | 2026-05-17 01:28 UTC | `INCONCLUSIVE` | Cauchy Mean Width of Minterm Hull Lower-Bounds Monotone k-CLIQUE |
 | 2026-05-17 02:01 UTC | `INCONCLUSIVE` | Costas Displacement Coincidence Lower-Bounds AC⁰ Size for PARITY |
@@ -82,6 +81,7 @@ Generated 2026-05-17 07:23 UTC
 | 2026-05-17 06:17 UTC | `INCONCLUSIVE` | Conway Temperature Bounds Tree-Resolution Width for 3-SAT |
 | 2026-05-17 06:44 UTC | `INCONCLUSIVE` | Hochster Regularity of Variable Co-Occurrence Graph Lower-Bounds  |
 | 2026-05-17 07:23 UTC | `INCONCLUSIVE` | Ihara Zeta Entropy Predicts Tseitin DPLL Tree Size |
+| 2026-05-17 08:06 UTC | `INCONCLUSIVE` | Signed-Support L_inf Discrepancy Bounds Bottom Fan-In for AC0 PAR |
 
 ## How to read the reports
 
