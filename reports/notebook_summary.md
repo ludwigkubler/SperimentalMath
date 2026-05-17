@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-17 19:17 UTC"
+date: "2026-05-17 20:26 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-17 19:17 UTC
+Generated 2026-05-17 20:26 UTC
 
-- Cycles recorded: **751**
-- Time span: 573.6h (~1.31 cycles/h)
+- Cycles recorded: **754**
+- Time span: 574.8h (~1.31 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 712 |
+| INCONCLUSIVE | 715 |
 | BARRIER_HIT | 20 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -67,9 +67,6 @@ Generated 2026-05-17 19:17 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-17 09:02 UTC | `INCONCLUSIVE` | Stable-Rank of Layer-Symbol Matrix Separates Read-Twice BPs for I |
-| 2026-05-17 09:29 UTC | `INCONCLUSIVE` | TP_2 Minor-Sign Defect of Spectral Pseudo-Moment Matrix Bounds Ma |
-| 2026-05-17 10:01 UTC | `INCONCLUSIVE` | Gromov 4-Point δ of XOR-Lifted Row Metric Bounds DT Depth |
 | 2026-05-17 10:32 UTC | `INCONCLUSIVE` | Median Half-Subgraph Separator Lower-Bounds Tseitin DPLL Size |
 | 2026-05-17 10:38 UTC | `BARRIER_HIT` | Cubic-Form Lie-Stabilizer Codim Lower-Bounds DISJ Communication |
 | 2026-05-17 11:47 UTC | `INCONCLUSIVE` | Discrete Morse Critical Cells of Conflict Complex Bound DPLL Tree |
@@ -82,6 +79,9 @@ Generated 2026-05-17 19:17 UTC
 | 2026-05-17 18:27 UTC | `INCONCLUSIVE` | Burau Trace Defect of Clause Braid Lower-Bounds Tree-Resolution S |
 | 2026-05-17 19:02 UTC | `INCONCLUSIVE` | Euler Characteristic of Gate-Conflict Independence Complex Bounds |
 | 2026-05-17 19:17 UTC | `INCONCLUSIVE` | Tamari Rotation Rank of Canonical DT Lower-Bounds XOR-Lifted F2-R |
+| 2026-05-17 19:47 UTC | `INCONCLUSIVE` | Immanant Log-Variance Separates Random Matrices from Det-Padded B |
+| 2026-05-17 20:14 UTC | `INCONCLUSIVE` | Hypercontractive Term-Support Stable Rank Bounds Monotone Clique  |
+| 2026-05-17 20:26 UTC | `INCONCLUSIVE` | S-Transform Free-Mult Defect Lower-Bounds DISJ Communication |
 
 ## How to read the reports
 

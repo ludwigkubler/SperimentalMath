@@ -1,0 +1,40 @@
+{
+  "entry_id": "88defc39f508",
+  "ts": 1779047302.3568113,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1005.0979",
+      "title": "Supersymmetry in Random Matrix Theory",
+      "abstract_excerpt": "Supersymmetry is nowadays indispensable for many problems in Random Matrix Theory. It is presented here with an emphasis on conceptual and structural issues. An introduction to supermathematics is given. The Hubbard-Stratonovich transformation as well as its generalization and superbosonization are explained. The supersymmetric non-linear sigma model, Brownian motion in superspace and the color-flavor transformation are discussed.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes supersymmetric techniques (Hubbard-Stratonovich, supermathematics, sigma models) for Random Matrix Theory, with no mention of immanants, Specht characters, padding ensembles, or meta-complexity discriminators relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0911.5645",
+      "title": "Non-Hermitian Random Matrix Ensembles",
+      "abstract_excerpt": "This is a concise review of the complex, real and quaternion real Ginibre random matrix ensembles and their elliptic deformations. Eigenvalue correlations are exactly reduced to two-point kernels and discussed in the strongly and weakly non-Hermitian limits of large matrix size.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns eigenvalue correlations of Ginibre non-Hermitian random matrix ensembles and their elliptic deformations, with no mention of immanants, Specht characters, or padding/compressibility discriminators. It shares only the general 'random matrices' vocabulary and does not interact with the specific log-variance immanant claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0904.1432",
+      "title": "Applications of random matrix theory to condensed matter and optical physics",
+      "abstract_excerpt": "This is a cursory overview of applications of concepts from random matrix theory (RMT) to quantum electronics and classical &amp; quantum optics. The emphasis is on phenomena, predicted or explained by RMT, that have actually been observed in experiments on quantum wires, quantum dots, disordered wave guides, and chaotic resonators. Topics considered include universal conductance fluctuations, weak localization and coherent backscattering, sub-Poissonian shot noise and open transmission channels",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes RMT applications to condensed matter and optical physics phenomena (conductance fluctuations, shot noise, laser cavities), with no mention of immanants, Specht characters, or meta-complexity separation of padded matrices.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "6c8daf2ab19d",
+  "ts": 1779049640.8685434,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2004.07191",
+      "title": "Cauchy-Stieltjes kernels families and free multiplicative convolution",
+      "abstract_excerpt": "In this paper, we determine the effect of the free multiplicative convolution on the pseudo-variance function of a Cauchy-Stieltjes kernel family. We then use the machinery of variance functions to establish some limit theorems related to this type of convolution and involving the free additive convolution and the boolean additive convolution.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the effect of free multiplicative convolution on pseudo-variance functions of Cauchy-Stieltjes kernel families and related limit theorems — it shares the ⊠ framework but says nothing about Boolean matrices, communication complexity, or any defect lower bound on CC_R.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1407.6169",
+      "title": "Multiplicative Complexity of Vector Valued Boolean Functions",
+      "abstract_excerpt": "We consider the multiplicative complexity of Boolean functions with multiple bits of output, studying how large a multiplicative complexity is necessary and sufficient to provide a desired nonlinearity. For so-called $ΣΠΣ$ circuits, we show that there is a tight connection between error correcting codes and circuits computing functions with high nonlinearity. Combining this with known coding theory results, we show that functions with $n$ inputs and $n$ outputs with the highest possible nonlinea",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'multiplicative complexity' as the count of AND gates in Boolean circuits, tied to nonlinearity and error-correcting codes — it does not address free probability's S-transform, free multiplicative convolution, or randomized communication complexity of DISJOINTNESS. Shared vocabulary ('multiplicative') is coincidental and the paper does not interact with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2511.02758",
+      "title": "Finite free probability and $S$ transforms of Jacobi processes",
+      "abstract_excerpt": "In this paper, we study the $S$ transforms of Jacobi processes in the frameworks of free and finite free probability theories. We begin by deriving a partial differential equation satisfied by the free $S$ transform of the free Jacobi process, and we provide a detailed analysis of its characteristic curves. We turn next our attention to the averaged characteristic polynomial of the Hermitian Jacobi process and to the dynamic of its roots, referred to as the \\emph{frozen Jacobi process}. In parti",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns S-transforms of free/finite-free Jacobi processes, PDE characteristic curves, and averaged characteristic polynomials — it never mentions communication complexity, Boolean matrices, DISJOINTNESS, or any lower-bound program, so it shares only the 'S-transform' vocabulary without interacting with the specific conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
