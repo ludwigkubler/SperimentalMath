@@ -1,0 +1,31 @@
+{
+  "entry_id": "b455093f5476",
+  "ts": 1779042484.3204691,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:68cab25640a4debd147cd412a08597d352b3397a",
+      "title": "Refutation of a Proof Complexity Approach to Maxsat Resolution-Based Systems",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available ('no abstract available'), so I cannot assess whether the paper interacts with the specific Burau-trace-defect / tree-resolution bound claimed in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10.1145/3506702",
+      "title": "On Proof Complexity of Resolution over Polynomial Calculus",
+      "abstract_excerpt": "The proof system Res (PCd,R) is a natural extension of the Resolution proof system that instead of disjunctions of literals operates with disjunctions of degree d multivariate polynomials over a ring R with Boolean variables. Proving super-polynomial lower bounds for the size of Res(PC1,R)-refutations of Conjunctive normal forms (CNFs) is one of the important problems in propositional proof complexity. The existence of such lower bounds is even open for Res(PC1,𝔽) when 𝔽 is a finite field, such ",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns size-width relations and lower bounds for Res(PCd,R) proof systems over polynomial calculus, with no mention of Burau representations, braid groups, or trace defects. It shares the proof-complexity framework but does not interact with the specific Burau-trace-to-DPLL-step claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}

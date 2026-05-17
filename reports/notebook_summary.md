@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-17 17:24 UTC"
+date: "2026-05-17 18:27 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-17 17:24 UTC
+Generated 2026-05-17 18:27 UTC
 
-- Cycles recorded: **747**
-- Time span: 571.7h (~1.31 cycles/h)
+- Cycles recorded: **749**
+- Time span: 572.8h (~1.31 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 708 |
+| INCONCLUSIVE | 710 |
 | BARRIER_HIT | 20 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -67,8 +67,6 @@ Generated 2026-05-17 17:24 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-17 06:44 UTC | `INCONCLUSIVE` | Hochster Regularity of Variable Co-Occurrence Graph Lower-Bounds  |
-| 2026-05-17 07:23 UTC | `INCONCLUSIVE` | Ihara Zeta Entropy Predicts Tseitin DPLL Tree Size |
 | 2026-05-17 08:06 UTC | `INCONCLUSIVE` | Signed-Support L_inf Discrepancy Bounds Bottom Fan-In for AC0 PAR |
 | 2026-05-17 08:50 UTC | `INCONCLUSIVE` | 2-Sylow Rank of Critical Group Bounds Tseitin DPLL Size |
 | 2026-05-17 09:02 UTC | `INCONCLUSIVE` | Stable-Rank of Layer-Symbol Matrix Separates Read-Twice BPs for I |
@@ -82,6 +80,8 @@ Generated 2026-05-17 17:24 UTC
 | 2026-05-17 16:22 UTC | `INCONCLUSIVE` | Hypercontractive Laplacian-Spectrum Flatness Bounds Spectral SOS  |
 | 2026-05-17 16:51 UTC | `INCONCLUSIVE` | Free Cumulant Excess of Laplacian Spectrum Bounds Max-Cut SoS-2 G |
 | 2026-05-17 17:24 UTC | `INCONCLUSIVE` | Schatten-1/Schatten-4 Ratio Lower-Bounds AND-Function Communicati |
+| 2026-05-17 17:51 UTC | `INCONCLUSIVE` | Quiver Mutation Neighborhood Lower-Bounds ACC0 by Sensitivity |
+| 2026-05-17 18:27 UTC | `INCONCLUSIVE` | Burau Trace Defect of Clause Braid Lower-Bounds Tree-Resolution S |
 
 ## How to read the reports
 
