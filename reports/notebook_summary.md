@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-17 10:38 UTC"
+date: "2026-05-17 11:47 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-17 10:38 UTC
+Generated 2026-05-17 11:47 UTC
 
-- Cycles recorded: **741**
-- Time span: 565.0h (~1.31 cycles/h)
+- Cycles recorded: **742**
+- Time span: 566.1h (~1.31 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 702 |
+| INCONCLUSIVE | 703 |
 | BARRIER_HIT | 20 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -67,7 +67,6 @@ Generated 2026-05-17 10:38 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-17 03:32 UTC | `INCONCLUSIVE` | q-Major Cancellation Gap Separates Permanent from Determinant Sup |
 | 2026-05-17 04:06 UTC | `INCONCLUSIVE` | Immanant Positivity Width Bounds Monotone KW Depth for Perfect Ma |
 | 2026-05-17 04:32 UTC | `INCONCLUSIVE` | Curto-Fialkow Hankel Defect Separates Read-Twice IP_2 BPs |
 | 2026-05-17 05:07 UTC | `INCONCLUSIVE` | Hodge-Cheeger Product Lower-Bounds Tseitin Resolution Length |
@@ -82,6 +81,7 @@ Generated 2026-05-17 10:38 UTC
 | 2026-05-17 10:01 UTC | `INCONCLUSIVE` | Gromov 4-Point δ of XOR-Lifted Row Metric Bounds DT Depth |
 | 2026-05-17 10:32 UTC | `INCONCLUSIVE` | Median Half-Subgraph Separator Lower-Bounds Tseitin DPLL Size |
 | 2026-05-17 10:38 UTC | `BARRIER_HIT` | Cubic-Form Lie-Stabilizer Codim Lower-Bounds DISJ Communication |
+| 2026-05-17 11:47 UTC | `INCONCLUSIVE` | Discrete Morse Critical Cells of Conflict Complex Bound DPLL Tree |
 
 ## How to read the reports
 
