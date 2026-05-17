@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-16 23:34 UTC"
+date: "2026-05-17 00:27 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-16 23:34 UTC
+Generated 2026-05-17 00:27 UTC
 
-- Cycles recorded: **718**
-- Time span: 553.9h (~1.30 cycles/h)
+- Cycles recorded: **720**
+- Time span: 554.8h (~1.30 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 681 |
+| INCONCLUSIVE | 683 |
 | BARRIER_HIT | 18 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -67,8 +67,6 @@ Generated 2026-05-16 23:34 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-13 08:49 UTC | `INCONCLUSIVE` | Free Cumulant Sum Lower Bounded by Communication Complexity of DI |
-| 2026-05-13 09:19 UTC | `INCONCLUSIVE` | Schur-Weyl Component Count Gap in Monotone Circuit Size for Perma |
 | 2026-05-13 09:31 UTC | `INCONCLUSIVE` | Algebraic Shifting Generator Count Bounds Communication Complexit |
 | 2026-05-13 09:59 UTC | `INCONCLUSIVE` | Algebraic Shifting Edge Count Bounds Monotone DNF Size for k-CLIQ |
 | 2026-05-13 11:20 UTC | `INCONCLUSIVE` | Symmetric Square Irreducible Component Count Gap in Permanent vs  |
@@ -82,6 +80,8 @@ Generated 2026-05-16 23:34 UTC
 | 2026-05-16 22:38 UTC | `INCONCLUSIVE` | Mobius-Mertens Cancellation on Fourier Levels vs Total Influence |
 | 2026-05-16 23:03 UTC | `INCONCLUSIVE` | Column-Subset Discrepancy Lower-Bounds Disjointness Protocol Tree |
 | 2026-05-16 23:34 UTC | `INCONCLUSIVE` | Zaslavsky Chamber Count Lower-Bounds AC⁰ PARITY Size |
+| 2026-05-17 00:01 UTC | `INCONCLUSIVE` | GCT Lie-Stabilizer Codimension Linearly Bounds ACC⁰ Size |
+| 2026-05-17 00:26 UTC | `INCONCLUSIVE` | 2-adic Newton Slopes of DISJ Sub-blocks Scale as √n |
 
 ## How to read the reports
 
