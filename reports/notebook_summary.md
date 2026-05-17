@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-17 15:23 UTC"
+date: "2026-05-17 16:22 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-17 15:23 UTC
+Generated 2026-05-17 16:22 UTC
 
-- Cycles recorded: **743**
-- Time span: 569.7h (~1.30 cycles/h)
+- Cycles recorded: **745**
+- Time span: 570.7h (~1.31 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 704 |
+| INCONCLUSIVE | 706 |
 | BARRIER_HIT | 20 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -67,8 +67,6 @@ Generated 2026-05-17 15:23 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-17 04:32 UTC | `INCONCLUSIVE` | Curto-Fialkow Hankel Defect Separates Read-Twice IP_2 BPs |
-| 2026-05-17 05:07 UTC | `INCONCLUSIVE` | Hodge-Cheeger Product Lower-Bounds Tseitin Resolution Length |
 | 2026-05-17 05:45 UTC | `INCONCLUSIVE` | Sandpile Group Order Lower-Bounds Monotone KW Depth |
 | 2026-05-17 06:17 UTC | `INCONCLUSIVE` | Conway Temperature Bounds Tree-Resolution Width for 3-SAT |
 | 2026-05-17 06:44 UTC | `INCONCLUSIVE` | Hochster Regularity of Variable Co-Occurrence Graph Lower-Bounds  |
@@ -82,6 +80,8 @@ Generated 2026-05-17 15:23 UTC
 | 2026-05-17 10:38 UTC | `BARRIER_HIT` | Cubic-Form Lie-Stabilizer Codim Lower-Bounds DISJ Communication |
 | 2026-05-17 11:47 UTC | `INCONCLUSIVE` | Discrete Morse Critical Cells of Conflict Complex Bound DPLL Tree |
 | 2026-05-17 15:23 UTC | `INCONCLUSIVE` | Gate-Cone Poset Mobius Value Lower-Bounds ACC0 Size for MOD-q |
+| 2026-05-17 15:55 UTC | `INCONCLUSIVE` | F_2-Corank of Minterm Incidence Bounds Monotone Formula Size |
+| 2026-05-17 16:22 UTC | `INCONCLUSIVE` | Hypercontractive Laplacian-Spectrum Flatness Bounds Spectral SOS  |
 
 ## How to read the reports
 

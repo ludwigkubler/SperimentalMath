@@ -1,0 +1,40 @@
+{
+  "entry_id": "c8a7a640d375",
+  "ts": 1779034975.8973286,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/1107.1630v3",
+      "title": "On the Integrality Gap of the Subtour LP for the 1,2-TSP",
+      "abstract_excerpt": "In this paper, we study the integrality gap of the subtour LP relaxation for the traveling salesman problem in the special case when all edge costs are either 1 or 2. For the general case of symmetric costs that obey triangle inequality, a famous conjecture is that the integrality gap is 4/3. Little",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the integrality gap of the subtour LP for the {1,2}-TSP, not Max-Cut, Laplacian spectra, or hypercontractive flatness; it shares only the generic 'integrality gap' vocabulary.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1207.5696v1",
+      "title": "Beyond Max-Cut: λ-Extendible Properties Parameterized Above the Poljak-Turzík Bound",
+      "abstract_excerpt": "Poljak and Turzík (Discrete Math. 1986) introduced the notion of λ-extendible properties of graphs as a generalization of the property of being bipartite. They showed that for any 0&lt;λ&lt;1 and λ-extendible property Π, any connected graph G on n vertices and m edges contains a subgraph H \\in Π wit",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns parameterized complexity of λ-extendible graph properties above the Poljak-Turzík bound, not spectral SOS relaxations, hypercontractive flatness invariants, or Laplacian-spectrum ratios for Max-Cut on 3-regular graphs.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2403.19550v2",
+      "title": "Spectral gap for surfaces of infinite volume with negative curvature",
+      "abstract_excerpt": "We prove that the imaginary parts of scattering resonances for negatively curved asymptotically hyperbolic surfaces are uniformly bounded away from zero and provide a resolvent bound in the resulting resonance-free strip. This provides an essential spectral gap without the pressure condition. This i",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns scattering resonances and spectral gaps for negatively curved asymptotically hyperbolic surfaces, which shares only the generic term 'spectral gap' with the conjecture about Laplacian flatness on finite 3-regular graphs and Max-Cut SOS relaxations.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
