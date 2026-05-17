@@ -1,0 +1,40 @@
+{
+  "entry_id": "18df83a46e71",
+  "ts": 1778998671.623585,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1709.03479",
+      "title": "Conway's potential function via the Gassner representation",
+      "abstract_excerpt": "We show how Conway's multivariable potential function can be constructed using braids and the reduced Gassner representation. The resulting formula is a multivariable generalization of a construction, due to Kassel-Turaev, of the Alexander-Conway polynomial in terms of the Burau representation. Apart from providing an efficient method of computing the potential function, our result also removes the sign ambiguity in the current formulas which relate the multivariable Alexander polynomial to the ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Conway's multivariable potential function in knot theory via the Gassner/Burau braid representations, not Conway-Berlekamp game temperature or Resolution proof complexity. It shares only the name 'Conway' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2203.14669",
+      "title": "Dynamic Structure in Four-strategy Game: Theory and Experiment",
+      "abstract_excerpt": "Game dynamics theory, as a field of science, the consistency of theory and experiment is essential. In the past 10 years, important progress has been made in the merging of the theory and experiment in this field, in which dynamics cycle is the presentation. However, the merging works have not got rid of the constraints of Euclidean two-dimensional cycle so far. This paper uses a classic four-strategy game to study the dynamic structure (non-Euclidean superplane cycle). The consistency is in sig",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns evolutionary game dynamics and laboratory experiments on a four-strategy game ('dynamics cycle... non-Euclidean superplane cycle'), with no connection to Conway temperature, Resolution width, or 3-SAT proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2207.14140",
+      "title": "Playing a 2D Game Indefinitely using NEAT and Reinforcement Learning",
+      "abstract_excerpt": "For over a decade now, robotics and the use of artificial agents have become a common thing.Testing the performance of new path finding or search space optimization algorithms has also become a challenge as they require simulation or an environment to test them.The creation of artificial environments with artificial agents is one of the methods employed to test such algorithms.Games have also become an environment to test them.The performance of the algorithms can be compared by using artificial",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns NEAT and Deep Q-learning applied to the Flappy Bird game, with no relation to Conway temperature, Resolution width, or 3-SAT proof complexity. It shares only the generic word 'game' with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
