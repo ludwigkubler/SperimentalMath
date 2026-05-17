@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-17 20:26 UTC"
+date: "2026-05-17 21:20 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-17 20:26 UTC
+Generated 2026-05-17 21:20 UTC
 
-- Cycles recorded: **754**
-- Time span: 574.8h (~1.31 cycles/h)
+- Cycles recorded: **756**
+- Time span: 575.7h (~1.31 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 715 |
+| INCONCLUSIVE | 717 |
 | BARRIER_HIT | 20 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -67,8 +67,6 @@ Generated 2026-05-17 20:26 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-17 10:32 UTC | `INCONCLUSIVE` | Median Half-Subgraph Separator Lower-Bounds Tseitin DPLL Size |
-| 2026-05-17 10:38 UTC | `BARRIER_HIT` | Cubic-Form Lie-Stabilizer Codim Lower-Bounds DISJ Communication |
 | 2026-05-17 11:47 UTC | `INCONCLUSIVE` | Discrete Morse Critical Cells of Conflict Complex Bound DPLL Tree |
 | 2026-05-17 15:23 UTC | `INCONCLUSIVE` | Gate-Cone Poset Mobius Value Lower-Bounds ACC0 Size for MOD-q |
 | 2026-05-17 15:55 UTC | `INCONCLUSIVE` | F_2-Corank of Minterm Incidence Bounds Monotone Formula Size |
@@ -82,6 +80,8 @@ Generated 2026-05-17 20:26 UTC
 | 2026-05-17 19:47 UTC | `INCONCLUSIVE` | Immanant Log-Variance Separates Random Matrices from Det-Padded B |
 | 2026-05-17 20:14 UTC | `INCONCLUSIVE` | Hypercontractive Term-Support Stable Rank Bounds Monotone Clique  |
 | 2026-05-17 20:26 UTC | `INCONCLUSIVE` | S-Transform Free-Mult Defect Lower-Bounds DISJ Communication |
+| 2026-05-17 20:47 UTC | `INCONCLUSIVE` | Fekete Capacity of Laplacian Spectrum Upper-Bounds Max-Cut SoS-2  |
+| 2026-05-17 21:20 UTC | `INCONCLUSIVE` | Polymer Cluster-Expansion Convergence Radius Bounds Tree-Res Size |
 
 ## How to read the reports
 

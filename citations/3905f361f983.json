@@ -1,0 +1,40 @@
+{
+  "entry_id": "3905f361f983",
+  "ts": 1779052822.1676698,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1705.04385",
+      "title": "A correction to a remark in a paper by Procacci and Yuhjtman: new lower bounds for the convergence radius of the virial series",
+      "abstract_excerpt": "In this note we deduce a new lower bound for the convergence radius of the Virial series of a continuous system of classical particles interacting via a stable and tempered pair potential using the estimates on the Mayer coefficients obtained in the recent paper by Procacci and Yuhjtman (Lett Math Phys 107:31-46, 2017). This corrects the wrongly optimistic lower bound for the same radius claimed (but not proved) in the above cited paper (in Remark 2 below Theorem 1). The lower bound for the conv",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns lower bounds for the convergence radius of the Virial series for continuous classical particle systems via Mayer coefficient estimates, with no connection to CNF formulas, Resolution proof size, or polymer cluster expansions on clause-overlap graphs.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math-ph/0605041v2",
+      "title": "Cluster expansion for abstract polymer models. New bounds from an old approach",
+      "abstract_excerpt": "We revisit the classical approach to cluster expansions, based on tree graphs, and establish a new convergence condition that improves those by Kotecky-Preiss and Dobrushin, as we show in some examples. The two ingredients of our approach are: (i) a careful consideration of the Penrose identity for ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract presents a new cluster-expansion convergence condition improving Kotecký-Preiss/Dobrushin via the Penrose identity, but says nothing about Resolution/DPLL tree size or proof complexity — it shares only the FP-style cluster-expansion framework, not the bridge to t*(F).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1002.3261",
+      "title": "On the convergence of cluster expansions for polymer gases",
+      "abstract_excerpt": "We compare the different convergence criteria available for cluster expansions of polymer gases subjected to hard-core exclusions, with emphasis on polymers defined as finite subsets of a countable set (e.g. contour expansions and more generally high- and low-temperature expansions). In order of increasing strength, these criteria are: (i) Dobrushin criterion, obtained by a simple inductive argument; (ii) Gruber-Kunz criterion obtained through the use of Kirkwood-Salzburg equations, and (iii) a ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract compares convergence criteria (Dobrushin, Gruber-Kunz, Fernandez-Procacci-style) for polymer cluster expansions but says nothing about proof complexity, Resolution/DPLL tree size, or CNF formulas. It shares the cluster-expansion vocabulary used to define Λ(F) but does not interact with the specific claim log_2 t*(F) ≥ c · Λ(F).",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

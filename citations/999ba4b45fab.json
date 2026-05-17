@@ -1,0 +1,40 @@
+{
+  "entry_id": "999ba4b45fab",
+  "ts": 1779050913.4102523,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/1107.1630v3",
+      "title": "On the Integrality Gap of the Subtour LP for the 1,2-TSP",
+      "abstract_excerpt": "In this paper, we study the integrality gap of the subtour LP relaxation for the traveling salesman problem in the special case when all edge costs are either 1 or 2. For the general case of symmetric costs that obey triangle inequality, a famous conjecture is that the integrality gap is 4/3. Little",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the integrality gap of the subtour LP for the 1,2-TSP, not Max-Cut SoS-2 gaps or Fekete capacity of Laplacian spectra. It shares only the generic term 'integrality gap' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1207.5696v1",
+      "title": "Beyond Max-Cut: λ-Extendible Properties Parameterized Above the Poljak-Turzík Bound",
+      "abstract_excerpt": "Poljak and Turzík (Discrete Math. 1986) introduced the notion of λ-extendible properties of graphs as a generalization of the property of being bipartite. They showed that for any 0&lt;λ&lt;1 and λ-extendible property Π, any connected graph G on n vertices and m edges contains a subgraph H \\in Π wit",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns parameterized complexity of λ-extendible graph properties above the Poljak-Turzík combinatorial lower bound, not the Delorme–Poljak eigenvalue SDP, SoS-2 integrality gaps, or Fekete capacity of Laplacian spectra.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2205.10968v4",
+      "title": "Eigenvalue bounds of the Kirchhoff Laplacian",
+      "abstract_excerpt": "We prove that each eigenvalue l(k) of the Kirchhoff Laplacian K of a graph or quiver is bounded above by d(k)+d(k-1) for all k in {1,...,n}. Here l(1),...,l(n) is a non-decreasing list of the eigenvalues of K and d(1),..,d(n) is a non-decreasing list of vertex degrees with the additional assumption ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns upper bounds on Kirchhoff Laplacian eigenvalues in terms of vertex degrees (l(k) ≤ d(k)+d(k-1)), which neither addresses Fekete/transfinite-diameter quantities nor the Delorme–Poljak SoS-2 Max-Cut integrality gap. It shares the Laplacian-spectrum vocabulary but does not interact with the specific conjectured inequality.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
