@@ -1,0 +1,93 @@
+{
+  "ts": 1778987109.3822603,
+  "picked": 10,
+  "since_days": 7,
+  "image": "sec-pvsnp-replay",
+  "summary_counts": {
+    "timeout": 2,
+    "crash": 6,
+    "drift": 2
+  },
+  "results": [
+    {
+      "tarball": "fb46b3cd2380.tar.gz",
+      "rc": 4,
+      "elapsed_s": 150.4,
+      "result": "timeout",
+      "first_line": "",
+      "stderr_tail": "RUNTIME_TIMEOUT rc=124 (>150s)\n"
+    },
+    {
+      "tarball": "93b47d86db79.tar.gz",
+      "rc": 1,
+      "elapsed_s": 0.1,
+      "result": "crash",
+      "first_line": "",
+      "stderr_tail": "RUNTIME_CRASH rc=1\nTraceback (most recent call last):\n  File \"/tmp/sec_replay.0XO2rc/replay_93b47d86db79/run.py\", line 82, in <module>\n    seeds = [int(x) for x in sys.argv[1:]] or [random.getrandbits(32) for _ in range(30)]\n                             ^^^\nNameError: name 'sys' is not defined. Did you forget to import 'sys'?\n"
+    },
+    {
+      "tarball": "1f09f4ec8317.tar.gz",
+      "rc": 1,
+      "elapsed_s": 0.1,
+      "result": "crash",
+      "first_line": "",
+      "stderr_tail": "RUNTIME_CRASH rc=1\n  File \"/tmp/sec_replay.jJThX9/replay_1f09f4ec8317/run.py\", line 57\n    row echelon_form = gaussian_elimination(matrix)\n        ^^^^^^^^^^^^\nSyntaxError: invalid syntax\n"
+    },
+    {
+      "tarball": "6ae57c36380b.tar.gz",
+      "rc": 1,
+      "elapsed_s": 0.1,
+      "result": "crash",
+      "first_line": "",
+      "stderr_tail": "e57c36380b/run.py\", line 108, in <module>\n    result = run_trial(seed)\n             ^^^^^^^^^^^^^^^\n  File \"/tmp/sec_replay.oWBEMx/replay_6ae57c36380b/run.py\", line 90, in run_trial\n    rank = submodular_rank(A)\n           ^^^^^^^^^^^^^^^^^^\n  File \"/tmp/sec_replay.oWBEMx/replay_6ae57c36380b/run.py\", line 43, in submodular_rank\n    A[j][i] -= A[j][max_col] * A[max_col][i] / A[max_col][max_col]\n               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~\nZeroDivisionError: division by zero\n"
+    },
+    {
+      "tarball": "102ae91c53d3.tar.gz",
+      "rc": 1,
+      "elapsed_s": 0.1,
+      "result": "crash",
+      "first_line": "",
+      "stderr_tail": "):\n  File \"/tmp/sec_replay.unDQyW/replay_102ae91c53d3/run.py\", line 139, in <module>\n    result = run_trial(seed)\n             ^^^^^^^^^^^^^^^\n  File \"/tmp/sec_replay.unDQyW/replay_102ae91c53d3/run.py\", line 107, in run_trial\n    C += clause_to_reflection(clause)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/sec_replay.unDQyW/replay_102ae91c53d3/run.py\", line 64, in clause_to_reflection\n    reflection[-var-1][-var-1] = Fraction(-2)\n    ~~~~~~~~~~^^^^^^^^\nIndexError: list index out of range\n"
+    },
+    {
+      "tarball": "965ac372534a.tar.gz",
+      "rc": 1,
+      "elapsed_s": 0.1,
+      "result": "crash",
+      "first_line": "",
+      "stderr_tail": "ack (most recent call last):\n  File \"/tmp/sec_replay.r2t8Il/replay_965ac372534a/run.py\", line 74, in <module>\n    result = run_trial(seed)\n             ^^^^^^^^^^^^^^^\n  File \"/tmp/sec_replay.r2t8Il/replay_965ac372534a/run.py\", line 50, in run_trial\n    tensor_product = [sum(v[i] * w[i] for v, w in zip(vec1, vec2)) for vec1, vec2 in zip(*clause_indicator_vectors)]\n                                                                       ^^^^^^^^^^\nValueError: too many values to unpack (expected 2)\n"
+    },
+    {
+      "tarball": "efd166108501.tar.gz",
+      "rc": 1,
+      "elapsed_s": 6.0,
+      "result": "crash",
+      "first_line": "",
+      "stderr_tail": " 71'}\nTraceback (most recent call last):\n  File \"/tmp/sec_replay.DsJ8GW/replay_efd166108501/run.py\", line 126, in <module>\n    failing_seed = next(r[\"seed\"] for r in results if not r[\"conjecture_holds\"])\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/sec_replay.DsJ8GW/replay_efd166108501/run.py\", line 126, in <genexpr>\n    failing_seed = next(r[\"seed\"] for r in results if not r[\"conjecture_holds\"])\n                        ~^^^^^^^^\nKeyError: 'seed'\n"
+    },
+    {
+      "tarball": "8fb2563d7c14.tar.gz",
+      "rc": 2,
+      "elapsed_s": 0.2,
+      "result": "drift",
+      "first_line": "",
+      "stderr_tail": "terexample\": \"\"}\nTRIAL: {\"seed\": 71, \"n\": 6, \"family\": \"EQ\", \"metric_name\": \"log2(1 + E_S[\\u03c4_PH] * k)\", \"metric_value\": 13.299351135796343, \"instances_tested\": 30, \"conjecture_holds\": true, \"counterexample\": \"\"}\nTRIAL: {\"seed\": 71, \"n\": 6, \"family\": \"RAND\", \"metric_name\": \"log2(1 + E_S[\\u03c4_PH] * k)\", \"metric_value\": 12.47395936569476, \"instances_tested\": 30, \"conjecture_holds\": true, \"counterexample\": \"\"}\nRESULT: SUPPORTED mean=9.739873400988692 std=2.573254871415799 support_fraction=1.0\n"
+    },
+    {
+      "tarball": "be45483362ed.tar.gz",
+      "rc": 4,
+      "elapsed_s": 150.2,
+      "result": "timeout",
+      "first_line": "",
+      "stderr_tail": "RUNTIME_TIMEOUT rc=124 (>150s)\n"
+    },
+    {
+      "tarball": "9dba9c55f385.tar.gz",
+      "rc": 2,
+      "elapsed_s": 0.0,
+      "result": "drift",
+      "first_line": "",
+      "stderr_tail": " 0, 'instances_tested': 9, 'conjecture_holds': True, 'counterexample': ''}\nTRIAL: {'metric_name': 'Volume', 'metric_value': 0, 'instances_tested': 9, 'conjecture_holds': True, 'counterexample': ''}\nTRIAL: {'metric_name': 'Volume', 'metric_value': 0, 'instances_tested': 9, 'conjecture_holds': True, 'counterexample': ''}\nTRIAL: {'metric_name': 'Volume', 'metric_value': 0, 'instances_tested': 9, 'conjecture_holds': True, 'counterexample': ''}\nRESULT: SUPPORTED mean=0.0 std=0.0 support_fraction=1.0\n"
+    }
+  ]
+}

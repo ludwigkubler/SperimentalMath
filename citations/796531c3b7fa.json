@@ -1,0 +1,40 @@
+{
+  "entry_id": "796531c3b7fa",
+  "ts": 1778988740.4695725,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1503.00822",
+      "title": "Product Ranks of the $3\\times 3$ Determinant and Permanent",
+      "abstract_excerpt": "We show that the product rank of the $3\\times 3$ determinant is $5$, and the product rank of the $3\\times 3$ permanent is $4$. As a corollary, we obtain that the tensor ranks of the $3 \\times 3$ determinant and permanent are $5$ and $4$, respectively. We show moreover that the border product rank of the $n \\times n$ permanent is larger than $n$ for any $n\\geq 3$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns product/tensor ranks of the 3x3 determinant and permanent polynomials, not q-Mahonian (major index) cancellation ratios on 0/1-support matrices. It shares only the 'determinant vs permanent' vocabulary without touching the specific q=2 cancellation bound.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2302.11221",
+      "title": "A q-analog of certain symmetric functions and one of its specializations",
+      "abstract_excerpt": "Let the symmetric functions be defined for the pair of integers $\\left( n,r\\right) $, $n\\geq r\\geq 1$, by $p_{n}^{\\left( r\\right) }=\\sum m_{λ}$ where $m_{λ}$ are the monomial symmetric functions, the sum being over the partitions $λ$ of the integer $n$ with length $r$. We introduce by a generating function, a $q$-analog of $p_{n}^{\\left( r\\right) }$ and give some of its properties. This $q$-analog is related to its the classical form using the $q$-Stirling numbers. We also start with the same pr",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a q-analog of symmetric functions m_λ related to q-Stirling numbers, tree inversions, and parking function enumerators — it never addresses major index sums on 0/1-matrix permutation supports or permanent-vs-determinant cancellation ratios.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1302.4419",
+      "title": "The determinant of the Malliavin matrix and the determinant of the covariance matrix for multiple integrals",
+      "abstract_excerpt": "A well-known problem in Malliavin calculus concerns the relation between the determinant of the Malliavin matrix of a random vector and the determinant of its covariance matrix. We give an explicit relation between these two determinants for couples of random vectors of multiple integrals. In particular, if the multiple integrals are of the same order and this order is at most 4, we prove that two random variables in the same Wiener chaos either admit a joint density, either are proportional and",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns determinants of Malliavin and covariance matrices for multiple stochastic integrals in Wiener chaos, with no mention of major index, q-analogs, symmetric group statistics, or 0/1-support permanent-vs-determinant comparisons.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

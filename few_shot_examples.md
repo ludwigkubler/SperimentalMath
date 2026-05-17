@@ -28,19 +28,20 @@ blacklist by construction. Use the FORM, not the content.
 - counterexample (witness of falsification): random poly N=8 seed=11: upper bound VIOLATED — Disc=3.776423 > max|F|=3.096445
 
 ### Example 4  [tier 4: INCONCLUSIVE but well-tested (showcases test grain)]
+- title: Cauchy Mean Width of Minterm Hull Lower-Bounds Monotone k-CLIQUE
+- field_A × field_B: Convex geometry (Cauchy mean-width / intrinsic 1-volume of polytopes in R^N, in   ×  Karchmer–Wigderson / monotone DNF size and formula complexity for the k-CLIQUE i
+- statement: For a monotone Boolean function f on N variables, let M(f) ⊂ {0,1}^N be its set of minterms (minimal satisfying assignments viewed as 0/1 vectors) and let K(f) := conv(M(f) ∪ {0}) ⊆ [0,1]^N. Define μ(f) := MW(K(f))^2, where MW(K) = 2·E_{u∼Unif(S^{N−1})}[max_{x∈K}⟨u,x⟩] is the Cauchy mean width. We conjecture: (i) for every monotone DNF representation of f with s terms, μ(f) ≤ C₁·log(s+1)·(log N+1); (ii) for the k-CLIQUE indicator on K_v with k=⌈log₂ v⌉ (so N = v(v−1)/2), μ(f) ≥ C₂·v, for absolute constants C₁,C₂>0. A single instance with μ(f) > C₁·log(s+1)(log N+1), or a k-CLIQUE indicator wit
+- counterexample (witness of falsification): k-CLIQUE with v=4 has mu=1.1786757596570663 < 0.5*v=2.0
+
+### Example 5  [tier 4: INCONCLUSIVE but well-tested (showcases test grain)]
+- title: Persistent H1 of Random Row Subclouds Bounds DISJ Communication
+- field_A × field_B: Persistent homology / topological data analysis (Vietoris–Rips H_1 with total ba  ×  Randomized communication complexity of DISJOINTNESS (worst-case lower bound via 
+- statement: Let M ∈ {0,1}^{N×N} be the communication matrix of a Boolean function (N = 2^n). For a uniformly random k-element subset S of row indices with k = ⌈√N⌉, view the rows {M[x,·] : x ∈ S} as a point cloud in {0,1}^N under Hamming distance, and let τ_PH(M;S) := Σ_{(b,d) ∈ Dgm_1(VR(S))} (d − b) denote the total persistence of the 1-dimensional bars of the Vietoris–Rips filtration of that sub-cloud, with all distances normalised by N. Conjecture: there is an absolute constant c > 0 such that for every Boolean matrix M, CC_R(M) ≥ c · log_2( 1 + E_S[τ_PH(M;S)] · k ); moreover E_S[τ_PH(M_DISJ_n;S)] = Ω(
+
+### Example 6  [tier 4: INCONCLUSIVE but well-tested (showcases test grain)]
 - title: Lehmer Pair Density of Communication Matrix Lower-Bounds Discrepancy
 - field_A × field_B: Analytic number theory (Lehmer-pair / close-zero-spacing statistics applied to i  ×  Discrepancy-based randomized communication complexity lower bounds
 - statement: For a Boolean matrix M_f in {-1,+1}^{2^n x 2^n} arising from an XOR-function f:{0,1}^n -> {-1,+1}, define the Lehmer-pair density L(f) as follows: list the magnitudes |a_1| <= |a_2| <= ... of nonzero Walsh-Hadamard coefficients of f and let L(f) = #{ i : (a_{i+1}-a_i) < (a_{i+1}+a_i)/(8 log_2(1+i)) } / (#nonzero coefficients). We conjecture that for every nonconstant XOR-function f, the discrepancy disc(M_f) satisfies disc(M_f) >= c * 2^{-n/2} * (1 + L(f))^{-1}, for an absolute constant c >= 1/16, with equality up to the constant achieved by parity-like spectra and refuted by any single instan
-
-### Example 5  [tier 4: INCONCLUSIVE but well-tested (showcases test grain)]
-- title: Nisan-Wigderson Seed Length Bounded by Finite Geometry Line Count
-- field_A × field_B: Finite Geometry  ×  Nisan-Wigderson PRG Seed Length
-- statement: For any CNF formula Φ with n variables, the seed length of the Nisan-Wigderson PRG fooling Φ is at most the number of lines in the projective plane PG(2, q) where q = 2^⌈log₂n⌉.
-
-### Example 6  [tier 4: INCONCLUSIVE but well-tested (showcases test grain)]
-- title: Tropical Convolution Subadditivity of MinimalFourierCoefficient and its Discrepancy Bound
-- field_A × field_B: TROPICAL_FOURIER_ANALYSIS within tropical algebra and Fourier-analytic combinato  ×  Communication complexity lower bounds via the discrepancy method (specifically, 
-- statement: Let f, g: Z_n -> R be tropical polynomials with TropicalFourierTransform coefficients f_hat(k) = min_x (f(x) - (k*x mod n)/n) and analogously g_hat. Define MinimalFourierCoefficient mu(f) = min_k f_hat(k). Then for the tropical (min-plus) convolution h = f *_trop g defined by h(z) = min_{x+y=z mod n} (f(x)+g(y)), the following holds: (i) mu(h) >= mu(f) + mu(g) (subadditivity inheriting from Axiom A1's preservation of semiring structure), and (ii) DiscrepancyMeasure(h) <= 2 * max(|mu(f)|, |mu(g)|) + |mu(f) + mu(g)|, which strictly refines Axiom A3 by replacing the maximum absolute Fourier coeff
 
 ============================================================
 Now propose a NEW conjecture. Different field_A. Different

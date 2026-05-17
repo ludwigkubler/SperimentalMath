@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — Wall atlas"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-17 02:29 UTC"
+date: "2026-05-17 03:32 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,7 +13,7 @@ colorlinks: true
 
 # SEC P vs NP — Wall atlas
 
-Compiled 2026-05-17 02:29 UTC. 34 total barrier rejections logged.
+Compiled 2026-05-17 03:32 UTC. 35 total barrier rejections logged.
 
 This is the **map of known walls** encountered by the barrier filter. Each entry below was a proposed conjecture that, according to dual-LLM agreement, would fall to one of the four classical barriers. Patterns in this data tell us where the proposer keeps tripping.
 
@@ -21,8 +21,8 @@ This is the **map of known walls** encountered by the barrier filter. Each entry
 
 | Barrier | Rejections |
 |---------|-----------:|
+| `NATURAL_PROOFS` | 13 |
 | `ALGEBRIZATION` | 12 |
-| `NATURAL_PROOFS` | 12 |
 | `RELATIVIZATION` | 7 |
 | `KARP_LIPTON` | 3 |
 
@@ -43,7 +43,6 @@ This is the **map of known walls** encountered by the barrier filter. Each entry
 
 ## Recent rejections (last 15)
 
-- [2026-04-27 23:36 UTC] `NATURAL_PROOFS` (conf 0.78) — Monotone Ultralimit Convergence of κ along the Asymptotic Completion of the Majo
 - [2026-04-28 09:18 UTC] `NATURAL_PROOFS` (conf 0.85) — Mahler Measure of Truth-Table Polynomial Lower-Bounds DNF_min
 - [2026-04-29 23:34 UTC] `ALGEBRIZATION` (conf 0.90) — Tropical Circuit Weight Accumulation Bound
 - [2026-04-30 15:04 UTC] `ALGEBRIZATION` (conf 0.90) — Kronecker Coefficients of Rectangular GLₙ-Representations Lower-Bound Determinan
@@ -58,3 +57,4 @@ This is the **map of known walls** encountered by the barrier filter. Each entry
 - [2026-05-08 15:19 UTC] `ALGEBRIZATION` (conf 0.95) — Bounded Arithmetic Complexity of Algebraic Closure in Finite Fields
 - [2026-05-10 13:12 UTC] `ALGEBRIZATION` (conf 0.95) — Schur Coefficient Gap in Permanent vs Determinant Decompositions
 - [2026-05-10 16:34 UTC] `ALGEBRIZATION` (conf 0.95) — Schur Coefficient Exponential Gap in 3-CNF Permanent vs Determinant
+- [2026-05-17 03:06 UTC] `NATURAL_PROOFS` (conf 0.78) — Cross-Side Fourier Symmetric-Difference Mass Lower-Bounds DISJ CC_R

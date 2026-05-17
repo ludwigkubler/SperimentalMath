@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-17 02:29 UTC"
+date: "2026-05-17 03:32 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,18 +13,18 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-17 02:29 UTC
+Generated 2026-05-17 03:32 UTC
 
-- Cycles recorded: **724**
-- Time span: 556.8h (~1.30 cycles/h)
+- Cycles recorded: **727**
+- Time span: 557.9h (~1.30 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 687 |
-| BARRIER_HIT | 18 |
+| INCONCLUSIVE | 689 |
+| BARRIER_HIT | 19 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
 
@@ -67,9 +67,6 @@ Generated 2026-05-17 02:29 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-13 12:08 UTC | `INCONCLUSIVE` | Symmetric Decomposition Coefficient Count Inversely Proportional  |
-| 2026-05-16 20:13 UTC | `INCONCLUSIVE` | Layer-Commutator Frobenius Discrepancy Separates Read-Twice BP fo |
-| 2026-05-16 20:46 UTC | `INCONCLUSIVE` | Matroid Matching of Term Co-Occurrence Graph Bounds k-CLIQUE Mono |
 | 2026-05-16 21:14 UTC | `INCONCLUSIVE` | Persistent H1 of Random Row Subclouds Bounds DISJ Communication |
 | 2026-05-16 21:44 UTC | `INCONCLUSIVE` | Non-Backtracking Spectral Gap Bounds Tseitin Resolution Length |
 | 2026-05-16 22:10 UTC | `INCONCLUSIVE` | Matching Polynomial Mahler Measure Lower-Bounds Tseitin DPLL Tree |
@@ -82,6 +79,9 @@ Generated 2026-05-17 02:29 UTC
 | 2026-05-17 01:28 UTC | `INCONCLUSIVE` | Cauchy Mean Width of Minterm Hull Lower-Bounds Monotone k-CLIQUE |
 | 2026-05-17 02:01 UTC | `INCONCLUSIVE` | Costas Displacement Coincidence Lower-Bounds AC⁰ Size for PARITY |
 | 2026-05-17 02:29 UTC | `INCONCLUSIVE` | Vertex Star-Discrepancy Equals Spectral Norm for XOR Comm |
+| 2026-05-17 02:59 UTC | `INCONCLUSIVE` | Operator-SoS 4-Trace Gap Lower-Bounds Blocks-Order Read-Twice BP  |
+| 2026-05-17 03:06 UTC | `BARRIER_HIT` | Cross-Side Fourier Symmetric-Difference Mass Lower-Bounds DISJ CC |
+| 2026-05-17 03:32 UTC | `INCONCLUSIVE` | q-Major Cancellation Gap Separates Permanent from Determinant Sup |
 
 ## How to read the reports
 
