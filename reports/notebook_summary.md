@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-17 09:29 UTC"
+date: "2026-05-17 10:38 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,18 +13,18 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-17 09:29 UTC
+Generated 2026-05-17 10:38 UTC
 
-- Cycles recorded: **738**
-- Time span: 563.8h (~1.31 cycles/h)
+- Cycles recorded: **741**
+- Time span: 565.0h (~1.31 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 700 |
-| BARRIER_HIT | 19 |
+| INCONCLUSIVE | 702 |
+| BARRIER_HIT | 20 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
 
@@ -67,9 +67,6 @@ Generated 2026-05-17 09:29 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-17 02:29 UTC | `INCONCLUSIVE` | Vertex Star-Discrepancy Equals Spectral Norm for XOR Comm |
-| 2026-05-17 02:59 UTC | `INCONCLUSIVE` | Operator-SoS 4-Trace Gap Lower-Bounds Blocks-Order Read-Twice BP  |
-| 2026-05-17 03:06 UTC | `BARRIER_HIT` | Cross-Side Fourier Symmetric-Difference Mass Lower-Bounds DISJ CC |
 | 2026-05-17 03:32 UTC | `INCONCLUSIVE` | q-Major Cancellation Gap Separates Permanent from Determinant Sup |
 | 2026-05-17 04:06 UTC | `INCONCLUSIVE` | Immanant Positivity Width Bounds Monotone KW Depth for Perfect Ma |
 | 2026-05-17 04:32 UTC | `INCONCLUSIVE` | Curto-Fialkow Hankel Defect Separates Read-Twice IP_2 BPs |
@@ -82,6 +79,9 @@ Generated 2026-05-17 09:29 UTC
 | 2026-05-17 08:50 UTC | `INCONCLUSIVE` | 2-Sylow Rank of Critical Group Bounds Tseitin DPLL Size |
 | 2026-05-17 09:02 UTC | `INCONCLUSIVE` | Stable-Rank of Layer-Symbol Matrix Separates Read-Twice BPs for I |
 | 2026-05-17 09:29 UTC | `INCONCLUSIVE` | TP_2 Minor-Sign Defect of Spectral Pseudo-Moment Matrix Bounds Ma |
+| 2026-05-17 10:01 UTC | `INCONCLUSIVE` | Gromov 4-Point δ of XOR-Lifted Row Metric Bounds DT Depth |
+| 2026-05-17 10:32 UTC | `INCONCLUSIVE` | Median Half-Subgraph Separator Lower-Bounds Tseitin DPLL Size |
+| 2026-05-17 10:38 UTC | `BARRIER_HIT` | Cubic-Form Lie-Stabilizer Codim Lower-Bounds DISJ Communication |
 
 ## How to read the reports
 
