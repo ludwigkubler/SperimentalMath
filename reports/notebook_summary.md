@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-17 04:32 UTC"
+date: "2026-05-17 05:45 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-17 04:32 UTC
+Generated 2026-05-17 05:45 UTC
 
-- Cycles recorded: **729**
-- Time span: 558.9h (~1.30 cycles/h)
+- Cycles recorded: **731**
+- Time span: 560.1h (~1.31 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 691 |
+| INCONCLUSIVE | 693 |
 | BARRIER_HIT | 19 |
 | FALSIFIED | 15 |
 | SUPPORTED | 4 |
@@ -67,8 +67,6 @@ Generated 2026-05-17 04:32 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-16 22:10 UTC | `INCONCLUSIVE` | Matching Polynomial Mahler Measure Lower-Bounds Tseitin DPLL Tree |
-| 2026-05-16 22:38 UTC | `INCONCLUSIVE` | Mobius-Mertens Cancellation on Fourier Levels vs Total Influence |
 | 2026-05-16 23:03 UTC | `INCONCLUSIVE` | Column-Subset Discrepancy Lower-Bounds Disjointness Protocol Tree |
 | 2026-05-16 23:34 UTC | `INCONCLUSIVE` | Zaslavsky Chamber Count Lower-Bounds AC⁰ PARITY Size |
 | 2026-05-17 00:01 UTC | `INCONCLUSIVE` | GCT Lie-Stabilizer Codimension Linearly Bounds ACC⁰ Size |
@@ -82,6 +80,8 @@ Generated 2026-05-17 04:32 UTC
 | 2026-05-17 03:32 UTC | `INCONCLUSIVE` | q-Major Cancellation Gap Separates Permanent from Determinant Sup |
 | 2026-05-17 04:06 UTC | `INCONCLUSIVE` | Immanant Positivity Width Bounds Monotone KW Depth for Perfect Ma |
 | 2026-05-17 04:32 UTC | `INCONCLUSIVE` | Curto-Fialkow Hankel Defect Separates Read-Twice IP_2 BPs |
+| 2026-05-17 05:07 UTC | `INCONCLUSIVE` | Hodge-Cheeger Product Lower-Bounds Tseitin Resolution Length |
+| 2026-05-17 05:45 UTC | `INCONCLUSIVE` | Sandpile Group Order Lower-Bounds Monotone KW Depth |
 
 ## How to read the reports
 

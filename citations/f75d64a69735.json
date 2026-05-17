@@ -1,0 +1,40 @@
+{
+  "entry_id": "f75d64a69735",
+  "ts": 1778996769.1170645,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2107.05128",
+      "title": "Karchmer-Wigderson Games for Hazard-free Computation",
+      "abstract_excerpt": "We present a Karchmer-Wigderson game to study the complexity of hazard-free formulas. This new game is both a generalization of the monotone Karchmer-Wigderson game and an analog of the classical Boolean Karchmer-Wigderson game. Therefore, it acts as a bridge between the existing monotone and general games.\n  Using this game, we prove hazard-free formula size and depth lower bounds that are provably stronger than those possible by the standard technique of transferring results from monotone comp",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a hazard-free Karchmer-Wigderson game and hazard-free formula size/depth bounds, with no mention of sandpile/critical groups, spanning-tree counts, or Laplacian-based lower bounds on monotone KW depth. It shares the KW framework vocabulary but does not interact with the specific tau(f)/sigma(f) inequality conjectured.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1012.2478v2",
+      "title": "Packing spanning trees and the $k$-tree protocol",
+      "abstract_excerpt": "We provide a structural description of, and invariants for, maximum spanning tree-packable graphs, i.e. those graphs G for which the edge connectivity of G is equal to the maximum number of edge-disjoint spanning trees in G. These graphs are of interest for the k-tree protocol of Itai and Rodeh [Inf",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'maximum spanning tree-packable graphs' and edge-disjoint spanning tree counts for the Itai-Rodeh k-tree network protocol, which shares the vocabulary 'spanning trees' but does not address sandpile groups, Karchmer-Wigderson depth, or monotone formula lower bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0904.3087",
+      "title": "Distributed Maintenance of Anytime Available Spanning Trees in Dynamic Networks",
+      "abstract_excerpt": "We address the problem of building and maintaining distributed spanning trees in highly dynamic networks, in which topological events can occur at any time and any rate, and no stable periods can be assumed. In these harsh environments, we strive to preserve some properties such as cycle-freeness or the existence of a root in each tree, in order to make it possible to keep using the trees uninterruptedly (to a possible extent). Our algorithm operates at a coarse-grain level, using atomic pairwis",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns distributed algorithms for maintaining spanning trees in dynamic networks via token random walks, with no engagement with sandpile groups, Karchmer-Wigderson depth, or monotone circuit lower bounds. It shares only the vocabulary 'spanning trees' with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
