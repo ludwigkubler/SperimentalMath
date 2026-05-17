@@ -1,0 +1,32 @@
+{
+  "ts": 1778988781.2353668,
+  "window_h": 24.0,
+  "n_conjectures": 17,
+  "n_papers": 0,
+  "n_scoops": 0,
+  "scoops": [],
+  "top_overlap": [],
+  "stats": {
+    "n_cycles": 17,
+    "verdicts": {
+      "INCONCLUSIVE": 16,
+      "BARRIER_HIT": 1
+    },
+    "focus_distribution": {
+      "BP_READTWICE": 2,
+      "MONOTONE_CLIQUE": 2,
+      "COMM_DISJ": 2,
+      "TSEITIN_RES": 1,
+      "AC0_PARITY": 3,
+      "ACC_SIPSER": 1,
+      "GCT_DET_PERM": 1
+    },
+    "top_fields_A": {
+      "Non-commutative operator discrepancy (Frobenius no": 1,
+      "Matroid matching theory (Lovász 1980 polymatroid m": 1,
+      "Persistent homology / topological data analysis (V": 1,
+      "Non-backtracking (Hashimoto) operator spectrum on ": 1,
+      "Matching polynomial root theory of Heilmann–Lieb–G": 1
+    }
+  }
+}

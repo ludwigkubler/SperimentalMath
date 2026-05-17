@@ -1,10 +1,27 @@
-# Daily Reflection — 2026-05-16
+# Daily Reflection — 2026-05-17
 
-*Generated: 2026-05-16 03:33 UTC*
+*Generated: 2026-05-17 03:33 UTC*
 
 ## Yesterday in numbers
-- **Cycles**: 0
-- **New arxiv papers (mirror, last 24h)**: 155
+- **Cycles**: 17
+- **New arxiv papers (mirror, last 24h)**: 0
+- **Verdict distribution**:
+    - INCONCLUSIVE: 16
+    - BARRIER_HIT: 1
+- **Focus mode**:
+    - AC0_PARITY: 3
+    - BP_READTWICE: 2
+    - MONOTONE_CLIQUE: 2
+    - COMM_DISJ: 2
+    - TSEITIN_RES: 1
+    - ACC_SIPSER: 1
+    - GCT_DET_PERM: 1
+- **Top fields_A**:
+    - Non-commutative operator discrepancy (Frobenius no: 1
+    - Matroid matching theory (Lovász 1980 polymatroid m: 1
+    - Persistent homology / topological data analysis (V: 1
+    - Non-backtracking (Hashimoto) operator spectrum on : 1
+    - Matching polynomial root theory of Heilmann–Lieb–G: 1
 
 ## ✓ No scoops detected today
 

@@ -1,0 +1,40 @@
+{
+  "entry_id": "15b45d9e4966",
+  "ts": 1778990845.2139666,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/2107.05128v2",
+      "title": "Karchmer-Wigderson Games for Hazard-free Computation",
+      "abstract_excerpt": "We present a Karchmer-Wigderson game to study the complexity of hazard-free formulas. This new game is both a generalization of the monotone Karchmer-Wigderson game and an analog of the classical Boolean Karchmer-Wigderson game. Therefore, it acts as a bridge between the existing monotone and genera",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a Karchmer–Wigderson game for hazard-free formulas as a bridge between monotone and Boolean KW games; it makes no claim about immanants, perfect matching, or depth lower bounds tied to representation-theoretic widths.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2002.07444v1",
+      "title": "Multiparty Karchmer-Wigderson Games and Threshold Circuits",
+      "abstract_excerpt": "We suggest a generalization of Karchmer-Wigderson communication games to the multiparty setting. Our generalization turns out to be tightly connected to circuits consisting of threshold gates. This allows us to obtain new explicit constructions of such circuits for several functions. In particular, ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a multiparty generalization of KW games tied to threshold circuits, with no mention of immanants, perfect matching, or representation-theoretic depth lower bounds. It shares only the KW-games vocabulary without engaging the specific immanant-positivity vs. monotone KW depth claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2003.09602",
+      "title": "The Number of Perfect Matchings in Möbius Ladders and Prisms",
+      "abstract_excerpt": "The 1970s conjecture of Lovász and Plummer that the number of perfect matchings in any $3$-regular graph is exponential in the number of vertices was proved in 2011 by Esperet, Kardoš, King, Král', and Norine. We give the exact formula for the number of perfect matchings in two families of $3$-regular graphs. In the graph consisting of a $2n$-cycle with diametric chords (also known as the Möbius ladder $M_n$ and a Harary graph) and in the cartesian product of the cycle $C_n$ with an edge (called",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract gives exact enumeration formulas for perfect matchings in Möbius ladders and cycle prisms ('the number of matchings is the sum of the Fibonacci numbers F_{n-1} and F_{n+1}'), which is unrelated to immanant positivity width or KW tree depth lower bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
