@@ -1,0 +1,31 @@
+{
+  "entry_id": "b045e08ff6c7",
+  "ts": 1779045451.3621345,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.1007/s00037-025-00276-5",
+      "title": "Lifting Dichotomies",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available ('no abstract available'), so I cannot determine whether the paper's lifting dichotomies interact with the specific Pallo-rank vs F2-rank bound conjectured.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:7250a91643b33e65c107da27b0c02900b7611476",
+      "title": "Lifting Theorems for Equality",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available to assess the paper's content, so it is impossible to determine whether it supports, refutes, or is orthogonal to the specific Tamari-rotation-rank vs. F2-rank conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 2
+  }
+}

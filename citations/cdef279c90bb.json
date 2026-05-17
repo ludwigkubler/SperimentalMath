@@ -1,0 +1,40 @@
+{
+  "entry_id": "cdef279c90bb",
+  "ts": 1779044579.7375317,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1904.05483",
+      "title": "Parallels Between Phase Transitions and Circuit Complexity?",
+      "abstract_excerpt": "In many natural average-case problems, there are or there are believed to be critical values in the parameter space where the structure of the space of solutions changes in a fundamental way. These phase transitions are often believed to coincide with drastic changes in the computational complexity of the associated problem.\n  In this work, we study the circuit complexity of inference in the broadcast tree model, which has important applications in phylogenetic reconstruction and close connectio",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns circuit complexity (TC^0, NC^1) of belief propagation in the broadcast tree model and its phase transitions, with no mention of independence complexes, Euler characteristics, gate-conflict graphs, ACC^0[m], or MOD_q lower bounds. It shares only the broad 'circuit complexity' framework but does not interact with the specific topological invariant or MOD_q size bound conjectured.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1606.05050",
+      "title": "Proof Complexity Lower Bounds from Algebraic Circuit Complexity",
+      "abstract_excerpt": "We give upper and lower bounds on the power of subsystems of the Ideal Proof System (IPS), the algebraic proof system recently proposed by Grochow and Pitassi, where the circuits comprising the proof come from various restricted algebraic circuit classes. This mimics an established research direction in the boolean setting for subsystems of Extended Frege proofs, where proof-lines are circuits from restricted boolean circuit classes. Except one, all of the subsystems considered in this paper can",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns algebraic proof complexity (IPS subsystems) and lower bounds on proof size via algebraic circuit complexity, with no mention of independence complexes, Euler characteristics, ACC^0[m], or MOD_q circuit size. It shares only the broad 'circuit complexity' framework but does not interact with the specific topological-combinatorial conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:cs/9906008",
+      "title": "A Lower Bound on the Average-Case Complexity of Shellsort",
+      "abstract_excerpt": "We prove a general lower bound on the average-case complexity of Shellsort: the average number of data-movements (and comparisons) made by a $p$-pass Shellsort for any incremental sequence is $Ω(pn^{1 + 1/p})$ for every $p$. The proof method is an incompressibility argument based on Kolmogorov complexity. Using similar techniques, the average-case complexity of several other sorting algorithms is analyzed.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns average-case lower bounds for Shellsort via Kolmogorov-complexity incompressibility arguments, with no connection to ACC^0[m] circuits, MOD_q, or independence complexes of gate-conflict graphs.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
