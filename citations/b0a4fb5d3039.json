@@ -1,0 +1,40 @@
+{
+  "entry_id": "b0a4fb5d3039",
+  "ts": 1779056728.971814,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2103.10093",
+      "title": "Conjectures on Convergence and Scalar Curvature",
+      "abstract_excerpt": "Here we survey the compactness and geometric stability conjectures formulated by the participants at the 2018 IAS Emerging Topics Workshop on {\\em Scalar Curvature and Convergence}. We have tried to survey all the progress towards these conjectures as well as related examples, although it is impossible to cover everything. We focus primarily on sequences of compact Riemannian manifolds with nonnegative scalar curvature and their limit spaces. Christina Sormani is grateful to have had the opportu",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract surveys compactness and geometric stability conjectures for sequences of compact Riemannian manifolds with nonnegative scalar curvature, which has no interaction with Forman-Ricci curvature on term-overlap graphs of monotone DNFs or k-CLIQUE lower bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2403.15973",
+      "title": "Isoperimetric profile function comparisons with Integral Ricci curvature bounds",
+      "abstract_excerpt": "We prove comparison results for the Isoperimetric profile function in the setting of manifolds with integral bounds on the Ricci curvature. We extend previous work of Ni and Wang and Bayle and Rosales under the usual pointwise bounds for the Ricci curvature.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns isoperimetric profile comparisons on smooth manifolds with integral Ricci curvature bounds, sharing only the word 'Ricci' with the conjecture, which is about Forman-Ricci combinatorial curvature on term-overlap graphs of monotone DNFs.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1809.07698",
+      "title": "Discrete Ricci curvatures for directed networks",
+      "abstract_excerpt": "A goal in network science is the geometrical characterization of complex networks. In this direction, we have recently introduced Forman's discretization of Ricci curvature to the realm of undirected networks. Investigation of this edge-centric network measure, Forman-Ricci curvature, in diverse model and real-world undirected networks revealed that the curvature measure captures several aspects of the organization of undirected complex networks. However, many important real-world networks are i",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract extends Forman-Ricci curvature to directed networks and simplicial complexes for 'geometrical characterization of complex networks,' with no mention of Boolean functions, DNFs, monotone circuits, or k-CLIQUE lower bounds. It shares only the Forman-Ricci vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

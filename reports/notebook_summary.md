@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-17 21:20 UTC"
+date: "2026-05-17 22:43 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,19 +13,19 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-17 21:20 UTC
+Generated 2026-05-17 22:43 UTC
 
-- Cycles recorded: **756**
-- Time span: 575.7h (~1.31 cycles/h)
+- Cycles recorded: **759**
+- Time span: 577.1h (~1.32 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 717 |
+| INCONCLUSIVE | 719 |
 | BARRIER_HIT | 20 |
-| FALSIFIED | 15 |
+| FALSIFIED | 16 |
 | SUPPORTED | 4 |
 
 ## Mathematical fields explored (field_A)
@@ -67,9 +67,6 @@ Generated 2026-05-17 21:20 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-17 11:47 UTC | `INCONCLUSIVE` | Discrete Morse Critical Cells of Conflict Complex Bound DPLL Tree |
-| 2026-05-17 15:23 UTC | `INCONCLUSIVE` | Gate-Cone Poset Mobius Value Lower-Bounds ACC0 Size for MOD-q |
-| 2026-05-17 15:55 UTC | `INCONCLUSIVE` | F_2-Corank of Minterm Incidence Bounds Monotone Formula Size |
 | 2026-05-17 16:22 UTC | `INCONCLUSIVE` | Hypercontractive Laplacian-Spectrum Flatness Bounds Spectral SOS  |
 | 2026-05-17 16:51 UTC | `INCONCLUSIVE` | Free Cumulant Excess of Laplacian Spectrum Bounds Max-Cut SoS-2 G |
 | 2026-05-17 17:24 UTC | `INCONCLUSIVE` | Schatten-1/Schatten-4 Ratio Lower-Bounds AND-Function Communicati |
@@ -82,6 +79,9 @@ Generated 2026-05-17 21:20 UTC
 | 2026-05-17 20:26 UTC | `INCONCLUSIVE` | S-Transform Free-Mult Defect Lower-Bounds DISJ Communication |
 | 2026-05-17 20:47 UTC | `INCONCLUSIVE` | Fekete Capacity of Laplacian Spectrum Upper-Bounds Max-Cut SoS-2  |
 | 2026-05-17 21:20 UTC | `INCONCLUSIVE` | Polymer Cluster-Expansion Convergence Radius Bounds Tree-Res Size |
+| 2026-05-17 21:53 UTC | `INCONCLUSIVE` | Fatgraph Genus of Canonical Clause Ribbon Lower-Bounds Resolution |
+| 2026-05-17 22:25 UTC | `FALSIFIED` | Forman-Ricci Min-Curvature of Term-Overlap Graph Lower-Bounds Mon |
+| 2026-05-17 22:43 UTC | `INCONCLUSIVE` | Bourgain-Tzafriri Sub-Column Spectral Excess Bounds DISJ CC_R |
 
 ## How to read the reports
 

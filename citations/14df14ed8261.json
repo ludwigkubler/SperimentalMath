@@ -1,0 +1,40 @@
+{
+  "entry_id": "14df14ed8261",
+  "ts": 1779057852.888454,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2208.05223",
+      "title": "Modular Bourgain-Tzafriri Restricted Invertibility Conjectures and Johnson-Lindenstrauss Flattening Conjecture",
+      "abstract_excerpt": "We recently formulated important Modular Bourgain-Tzafriri Restricted Invertibility Conjectures and Modular Johnson-Lindenstrauss Flattening Conjecture in the Appendix of \\textit{[arXiv: 2207.12799.v1]}. For the sake of wide accessibility we give a self-contained treatment of them.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes 'Modular Bourgain-Tzafriri Restricted Invertibility Conjectures' in a Hilbert C*-module setting, with no mention of communication complexity, DISJOINTNESS, sub-column spectral excess, or any quantitative bound that would interact with the specific ξ(M)/CC_R inequality conjectured.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2503.20972",
+      "title": "p-adic Grothendieck Inequality, p-adic Johnson-Lindenstrauss Flattening and p-adic Bourgain-Tzafriri Restricted Invertibility Problems",
+      "abstract_excerpt": "We formulate p-adic versions of following three: (1) Grothendieck Inequality, (2) Johnson-Lindenstrauss Flattening Lemma, (3) Bourgain-Tzafriri Restricted Invertibility Theorem.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract merely 'formulates p-adic versions' of Grothendieck, JL, and Bourgain-Tzafriri results; it shares the Bourgain-Tzafriri keyword but does not address sub-column spectral excess bounds or communication complexity of DISJ/PARITY.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:cs/0111062",
+      "title": "One-way communication complexity and the Neciporuk lower bound on formula size",
+      "abstract_excerpt": "In this paper the Neciporuk method for proving lower bounds on the size of Boolean formulae is reformulated in terms of one-way communication complexity. We investigate the scenarios of probabilistic formulae, nondeterministic formulae, and quantum formulae. In all cases we can use results about one-way communication complexity to prove lower bounds on formula size. In the latter two cases we newly develop the employed communication complexity bounds. The main results regarding formula size are ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns one-way communication complexity bounds for formula size via the Neciporuk method and VC-dimension, not random k-column submatrix spectral norms nor restricted invertibility; it does not address the proposed sub-column dispersion bound on CC_R.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

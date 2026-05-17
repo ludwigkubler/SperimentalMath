@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — FALSIFIED conjectures"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-17 21:20 UTC"
+date: "2026-05-17 22:43 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -15,7 +15,7 @@ colorlinks: true
 
 > **⚠ AUDIT 2026-05-08**: this report has been filtered against `retractions.json`. Some entries previously listed here have been retracted following a code-level audit. See [`AUDIT_2026-05-08.md`](../AUDIT_2026-05-08.md) for the full audit document and [`MULTIAGENT_PIPELINE.md`](../MULTIAGENT_PIPELINE.md) for the new review pipeline.
 
-Compiled 2026-05-17 21:20 UTC. 9 conjectures falsified with counterexample.
+Compiled 2026-05-17 22:43 UTC. 10 conjectures falsified with counterexample.
 
 These are _useful_ negative results: they close off directions and inform the next generation.
 
@@ -483,6 +483,58 @@ RESULT: FALSIFIED counterexample="mapping_undefined" first_failing_seed=11
 ### Judge reasoning
 
 The conjecture was directly refuted by multiple counterexamples with 'conjecture_holds': False. The metric consistently exceeded the proposed bound. | next: Investigate why 'mapping_undefined' appears in counterexamples - this may indicate a bug in the duality flip implementation or phase cell detection algorithm.
+
+---
+
+## Forman-Ricci Min-Curvature of Term-Overlap Graph Lower-Bounds Monotone k-CLIQUE DNF
+
+- **Verdict**: `FALSIFIED`
+- **Bridge**: Forman's combinatorial Ricci curvature on weighted 1-skeleta (Forman 2003, 'Bochner's method for cell complexes and combinatorial Ricci curvature'; Sreejith-Mukherjee-Sandhu-Saucan-Jost 2016 on network curvature). Distinct from Ollivier-Ricci (Skenderi 2025): Forman uses parallel-face / Bochner-Weitzenböck local sums of vertex and edge weights, not Wasserstein optimal transport. An arXiv search for 'Forman Ricci' AND ('monotone circuit' OR 'DNF' OR 'proof complexity' OR 'Razborov') returns 0 direct hits and <5 adjacent papers, all on biological/social networks — never on Boolean-function DNFs. × Monotone DNF leaf size / formula size for the k-CLIQUE indicator on K_v (n = v(v-1)/2 edge variables) in the Razborov 1985 / Alon-Boppana / Andreev regime; the Cook-Reckhow-Krajicek bounded-arithmetic stepping stone where a submodular DNF measure that is small on poly-size DNFs but Ω(v) on k-CLIQUE would witness a V^0-style separation by Buss-Pudlak-style approximator counting.
+- **Recorded**: 2026-05-17 22:25 UTC
+- **Entry ID**: `b0a4fb5d3039`
+
+### Statement
+
+For a monotone DNF F = ∨_{i=1}^{s} T_i (terms T_i ⊆ [N]) with at least one term of size ≥ 1, build the weighted term-overlap graph G_F on vertex set {1,…,s}: place an edge ij iff |T_i ∩ T_j| ≥ 1, assign vertex weight w_i = |T_i| and edge weight w_{ij} = |T_i ∩ T_j|, and define the Forman-Ricci curvature Ric_F(ij) = w_{ij}·[ w_i/w_{ij} + w_j/w_{ij} − Σ_{k~i, k≠j} w_i/√(w_{ij}·w_{ik}) − Σ_{k~j, k≠i} w_j/√(w_{ij}·w_{jk}) ]. Let μ(F) := log_2(1 + max{0, −min_e Ric_F(e)}) (with μ = 0 if G_F has no edges). We conjecture: (i) for any pair of monotone DNFs F,G, μ(F ∧ G) ≤ μ(F) + μ(G) + log_2(1 + N) (approximate submodularity under conjunction); (ii) for every monotone DNF F with |F| ≤ N^c terms, μ(F) ≤ 6c·log_2(1 + N); and (iii) the canonical minterm DNF F*_v of the k-CLIQUE indicator on K_v with k = ⌈log_2 v⌉ satisfies μ(F*_v) ≥ v/4. A single instance violating any of (i),(ii),(iii) refutes the conjecture.
+
+### Rationale
+
+The Razborov approximator method replaces ∧ and ∨ with closed operations on 'small CC^k objects' and bounds the error count; the right measure must be submodular under ∧ and saturate on clique. Forman-Ricci collapses each term-overlap edge into a single weighted Bochner-Weitzenböck term, so global negativity of the minimum curvature is forced precisely when the term graph contains a high-degree dense neighborhood around a 'sunflower core' — exactly the structural obstruction that makes clique indicators hard to approximate. Because μ is computed on the DNF graph (not the truth table) and uses √-weighted sums (not ring polynomial extensions), it is shielded from both NATURAL_PROOFS and ALGEBRIZATION.
+
+### Novelty
+
+- Judge: `NOVEL` over 6 arXiv hits
+
+Top hits consulted:
+  - [2103.10093v1] Conjectures on Convergence and Scalar Curvature
+  - [2403.15973v1] Isoperimetric profile function comparisons with Integral Ricci curvature bounds
+  - [1809.07698v1] Discrete Ricci curvatures for directed networks
+  - [2304.02672v2] The Log-Sobolev inequality for a submanifold in manifolds with asymptotic non-negative intermediate Ricci curvature
+  - [1909.00234v1] The spectrum of a class of uniform hypergraphs
+
+### Empirical Test
+
+- exit code: `0`, elapsed: `0.03s`
+
+```
+ances_tested': 1, 'conjecture_holds': False, 'counterexample': 'Regime A: v=4, mu=0 < v/4=1.0', 'seed': 421}
+TRIAL: {'metric_name': 'mu', 'metric_value': 0.0, 'instances_tested': 1, 'conjecture_holds': False, 'counterexample': 'Regime A: v=4, mu=0 < v/4=1.0', 'seed': 463}
+TRIAL: {'metric_name': 'mu', 'metric_value': 0.0, 'instances_tested': 1, 'conjecture_holds': False, 'counterexample': 'Regime A: v=4, mu=0 < v/4=1.0', 'seed': 503}
+TRIAL: {'metric_name': 'mu', 'metric_value': 0.0, 'instances_tested': 1, 'conjecture_holds': False, 'counterexample': 'Regime A: v=4, mu=0 < v/4=1.0', 'seed': 547}
+TRIAL: {'metric_name': 'mu', 'metric_value': 0.0, 'instances_tested': 1, 'conjecture_holds': False, 'counterexample': 'Regime A: v=4, mu=0 < v/4=1.0', 'seed': 593}
+TRIAL: {'metric_name': 'mu', 'metric_value': 0.0, 'instances_tested': 1, 'conjecture_holds': False, 'counterexample': 'Regime A: v=4, mu=0 < v/4=1.0', 'seed': 631}
+TRIAL: {'metric_name': 'mu', 'metric_value': 0.0, 'instances_tested': 1, 'conjecture_holds': False, 'counterexample': 'Regime A: v=4, mu=0 < v/4=1.0', 'seed': 677}
+TRIAL: {'metric_name': 'mu', 'metric_value': 0.0, 'instances_tested': 1, 'conjecture_holds': False, 'counterexample': 'Regime A: v=4, mu=0 < v/4=1.0', 'seed': 727}
+TRIAL: {'metric_name': 'mu', 'metric_value': 0.0, 'instances_tested': 1, 'conjecture_holds': False, 'counterexample': 'Regime A: v=4, mu=0 < v/4=1.0', 'seed': 773}
+TRIAL: {'metric_name': 'mu', 'metric_value': 0.0, 'instances_tested': 1, 'conjecture_holds': False, 'counterexample': 'Regime A: v=4, mu=0 < v/4=1.0', 'seed': 821}
+TRIAL: {'metric_name': 'mu', 'metric_value': 0.0, 'instances_tested': 1, 'conjecture_holds': False, 'counterexample': 'Regime A: v=4, mu=0 < v/4=1.0', 'seed': 877}
+TRIAL: {'metric_name': 'mu', 'metric_value': 0.0, 'instances_tested': 1, 'conjecture_holds': False, 'counterexample': 'Regime A: v=4, mu=0 < v/4=1.0', 'seed': 929}
+RESULT: FALSIFIED counterexample="Regime A: v=4, mu=0 < v/4=1.0" first_failing_seed=11
+```
+
+### Judge reasoning
+
+Regime (A) consistently yields μ(F*_v) = 0 for v=4, violating clause (iii)'s requirement that μ(F*_v) ≥ v/4 = 1.0. The test's RESULT line reports FALSIFIED with a reproducible counterexample at first_failing_seed=11. | next: Replace the log_2(1+max(0,-min Ric)) aggregator with a curvature-gap functional that scales with clique number (e.g., based on spectral gap of the term-overlap Laplacian) before reattempting a k-CLIQUE lower bound.
 
 ---
 

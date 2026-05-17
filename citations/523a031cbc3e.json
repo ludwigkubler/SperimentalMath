@@ -1,0 +1,40 @@
+{
+  "entry_id": "523a031cbc3e",
+  "ts": 1779054823.6242745,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1804.02478",
+      "title": "Complexity of the CNF-satisfiability problem",
+      "abstract_excerpt": "This paper is devoted to the complexity of the Boolean satisfiability problem. We consider a version of this problem, where the Boolean formula is specified in the conjunctive normal form. We prove an unexpected result that the CNF-satisfiability problem can be solved by a deterministic Turing machine in polynomial time.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract makes a sweeping (and dubious) claim that 'CNF-satisfiability problem can be solved by a deterministic Turing machine in polynomial time,' which concerns SAT decision complexity, not resolution width lower bounds via fatgraph genus. It does not address ribbon graphs, embedding genus, or resolution refutation width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1905.05290",
+      "title": "Graph Width Measures for CNF-Encodings with Auxiliary Variables",
+      "abstract_excerpt": "We consider bounded width CNF-formulas where the width is measured by popular graph width measures on graphs associated to CNF-formulas. Such restricted graph classes, in particular those of bounded treewidth, have been extensively studied for their uses in the design of algorithms for various computational problems on CNF-formulas. Here we consider the expressivity of these formulas in the model of clausal encodings with auxiliary variables. We first show that bounding the width for many of the",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns graph width measures (treewidth, cliquewidth) on CNF-encodings with auxiliary variables and their expressivity, not resolution refutation width nor any ribbon-graph/fatgraph genus invariant. It shares the 'width on CNF graph' vocabulary but does not interact with the specific claim that fatgraph genus lower-bounds resolution width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1905.10867",
+      "title": "Regular resolution for CNFs with almost bounded one-sided treewidth",
+      "abstract_excerpt": "We introduce a one-sided incidence tree decomposition of a CNF $\\varphi$. This is a tree decomposition of the incidence graph of $\\varphi$ where the underlying tree is rooted and the set of bags containing each clause induces a directed path in the tree. The one-sided treewidth is the smallest width of a one-sided incidence tree decomposition.\n  We consider a class of unsatisfiable CNF $\\varphi$ that can be turned into one of one sided treewidth at most $k$ by removal of at most $p$ clauses. We ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns one-sided incidence tree decompositions and FPT bounds on regular resolution size parameterized by treewidth, never mentioning ribbon graphs, fatgraph genus, or resolution width. It shares the proof-complexity setting but does not interact with the specific genus-vs-width claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
