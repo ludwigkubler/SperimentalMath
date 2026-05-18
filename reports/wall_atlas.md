@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — Wall atlas"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-17 23:46 UTC"
+date: "2026-05-18 00:34 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,7 +13,7 @@ colorlinks: true
 
 # SEC P vs NP — Wall atlas
 
-Compiled 2026-05-17 23:46 UTC. 36 total barrier rejections logged.
+Compiled 2026-05-18 00:34 UTC. 36 total barrier rejections logged.
 
 This is the **map of known walls** encountered by the barrier filter. Each entry below was a proposed conjecture that, according to dual-LLM agreement, would fall to one of the four classical barriers. Patterns in this data tell us where the proposer keeps tripping.
 

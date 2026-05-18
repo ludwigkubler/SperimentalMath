@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-17 23:46 UTC"
+date: "2026-05-18 00:34 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-17 23:46 UTC
+Generated 2026-05-18 00:34 UTC
 
-- Cycles recorded: **761**
-- Time span: 578.1h (~1.32 cycles/h)
+- Cycles recorded: **762**
+- Time span: 578.9h (~1.32 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 721 |
+| INCONCLUSIVE | 722 |
 | BARRIER_HIT | 20 |
 | FALSIFIED | 16 |
 | SUPPORTED | 4 |
@@ -67,7 +67,6 @@ Generated 2026-05-17 23:46 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-17 17:24 UTC | `INCONCLUSIVE` | Schatten-1/Schatten-4 Ratio Lower-Bounds AND-Function Communicati |
 | 2026-05-17 17:51 UTC | `INCONCLUSIVE` | Quiver Mutation Neighborhood Lower-Bounds ACC0 by Sensitivity |
 | 2026-05-17 18:27 UTC | `INCONCLUSIVE` | Burau Trace Defect of Clause Braid Lower-Bounds Tree-Resolution S |
 | 2026-05-17 19:02 UTC | `INCONCLUSIVE` | Euler Characteristic of Gate-Conflict Independence Complex Bounds |
@@ -82,6 +81,7 @@ Generated 2026-05-17 23:46 UTC
 | 2026-05-17 22:43 UTC | `INCONCLUSIVE` | Bourgain-Tzafriri Sub-Column Spectral Excess Bounds DISJ CC_R |
 | 2026-05-17 23:19 UTC | `INCONCLUSIVE` | Trivial-Isotype Mass Gap Separates Perm from Padded Det |
 | 2026-05-17 23:46 UTC | `INCONCLUSIVE` | Eulerian Descent Entropy Separates Perm from Padded Det_m |
+| 2026-05-18 00:33 UTC | `INCONCLUSIVE` | Signed-Laplacian Holonomy Spectrum Bounds Tseitin Tree-Resolution |
 
 ## How to read the reports
 
