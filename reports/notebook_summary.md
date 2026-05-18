@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-18 04:25 UTC"
+date: "2026-05-18 05:16 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-18 04:25 UTC
+Generated 2026-05-18 05:16 UTC
 
-- Cycles recorded: **765**
-- Time span: 582.7h (~1.31 cycles/h)
+- Cycles recorded: **767**
+- Time span: 583.6h (~1.31 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 725 |
+| INCONCLUSIVE | 727 |
 | BARRIER_HIT | 20 |
 | FALSIFIED | 16 |
 | SUPPORTED | 4 |
@@ -67,8 +67,6 @@ Generated 2026-05-18 04:25 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-17 19:17 UTC | `INCONCLUSIVE` | Tamari Rotation Rank of Canonical DT Lower-Bounds XOR-Lifted F2-R |
-| 2026-05-17 19:47 UTC | `INCONCLUSIVE` | Immanant Log-Variance Separates Random Matrices from Det-Padded B |
 | 2026-05-17 20:14 UTC | `INCONCLUSIVE` | Hypercontractive Term-Support Stable Rank Bounds Monotone Clique  |
 | 2026-05-17 20:26 UTC | `INCONCLUSIVE` | S-Transform Free-Mult Defect Lower-Bounds DISJ Communication |
 | 2026-05-17 20:47 UTC | `INCONCLUSIVE` | Fekete Capacity of Laplacian Spectrum Upper-Bounds Max-Cut SoS-2  |
@@ -82,6 +80,8 @@ Generated 2026-05-18 04:25 UTC
 | 2026-05-18 03:29 UTC | `INCONCLUSIVE` | Bonami-Beckner 4-2 Saturation of Clause-Sum Bounds DPLL Depth |
 | 2026-05-18 03:58 UTC | `INCONCLUSIVE` | Cycle-Type Mixing Defect of Barrington BP Bounds NC^1 Length |
 | 2026-05-18 04:25 UTC | `INCONCLUSIVE` | NW-Design Restriction Dimension Separates Perm from Padded Det |
+| 2026-05-18 04:47 UTC | `INCONCLUSIVE` | Coxeter Inversion Spread of Barrington BPs Bounds NC^1 Depth |
+| 2026-05-18 05:16 UTC | `INCONCLUSIVE` | Birkhoff Spectral Gap of Gate Co-occurrence Bounds AC^0 PARITY Co |
 
 ## How to read the reports
 
