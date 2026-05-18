@@ -1,0 +1,195 @@
+problem_id    = "AC0_PARITY_HASTAD_86"
+title         = "Tightness of Håstad's switching lemma for depth-d AC^0 lower bound on PARITY"
+field         = "circuit_lb"
+status        = "active"
+curated_by    = "Ludovico Kubler"
+last_reviewed = 2026-05-19
+
+[statement]
+markdown = """
+The class \\(\\mathsf{AC}^0\\) consists of Boolean circuits of unbounded
+fan-in over the basis \\(\\{\\mathrm{AND}, \\mathrm{OR}, \\mathrm{NOT}\\}\\),
+of polynomial size and constant depth.
+
+Furst-Saxe-Sipser (1984) showed PARITY \\(\\notin \\mathsf{AC}^0\\).
+Yao (1985) gave a stronger bound. Håstad (1986) gave the now-standard
+proof via the *switching lemma*, yielding the bound:
+
+\\[
+\\mathrm{size}_d(\\mathrm{PARITY}) \\geq 2^{c \\cdot n^{1/(d-1)}}
+\\]
+
+for any \\(\\mathsf{AC}^0\\) circuit of depth \\(d\\) computing PARITY on
+\\(n\\) inputs, for some absolute constant \\(c > 0\\).
+
+The bound is *qualitatively* tight: PARITY admits a depth-d circuit of
+size \\(2^{O(n^{1/(d-1)})}\\) for every constant \\(d\\). However the
+*constant* in the exponent has gone through multiple refinements
+(Håstad 1986 → Håstad–Wegener 1987 → Impagliazzo–Matthews–Paturi 2012 →
+Håstad 2014 → others), and the optimal constant remains open even for
+\\(d = 3\\).
+
+Specific empirical-math question: how does the random-restriction
+shrinkage rate (the central parameter \\(p\\) in the switching lemma)
+behave on PARITY-computing circuits at the threshold size? Does the
+shrinkage rate exhibit the discontinuous behaviour predicted by the
+optimal-constant conjecture?
+"""
+lean_file = "AC0_PARITY_HASTAD_86.lean"
+
+[significance_to_pvsnp]
+text = """
+\\(\\mathsf{AC}^0\\) is the most-studied non-trivial bounded-depth circuit
+class with super-polynomial lower bounds for explicit functions. Tightness
+of the Håstad bound is the *only* place in complexity theory where we know
+both an upper and a lower bound matching in qualitative form for an
+explicit function in P. Improving constants here has direct downstream
+applications:
+
+1. *Pseudorandom generators* against \\(\\mathsf{AC}^0\\) (Braverman 2010,
+   Nisan 1991): their seed length depends on the switching-lemma constant.
+2. *Derandomization* of \\(\\mathsf{AC}^0\\): if the constant can be improved
+   to optimal, polynomial-stretch PRGs become explicit.
+3. *Beyond \\(\\mathsf{AC}^0\\)*: techniques refined here generalize to
+   \\(\\mathsf{AC}^0[\\oplus]\\) (Razborov-Smolensky), \\(\\mathsf{AC}^0[m]\\)
+   for prime m (Williams 2014).
+
+Improving the Håstad constant does NOT resolve P vs NP — \\(\\mathsf{AC}^0\\)
+is far below P/poly — but it tightens the most-cited bound in circuit
+complexity and would inform downstream PRG constructions that may
+eventually attack barriers.
+"""
+
+[[known_bounds]]
+type            = "lower"
+parameter       = "size_{depth=d}(PARITY, n)"
+value_expr      = "2^{Omega(n^(1/(d-1)))}"
+range_valid     = "all d >= 2, all n >= 1"
+reference_key   = "hastad_1986"
+notes           = "Switching-lemma proof. Implicit constant ≈ 1/10 (Håstad's original)."
+
+[[known_bounds]]
+type            = "lower"
+parameter       = "size_{depth=d}(PARITY, n)"
+value_expr      = "2^{(c_d) * n^(1/(d-1))}"
+range_valid     = "d = 3, all n >= 1"
+reference_key   = "impagliazzo_matthews_paturi_2012"
+notes           = "c_3 ≈ 1/30 explicit; matches the random-restriction analysis with sharp parameters."
+
+[[known_bounds]]
+type            = "upper"
+parameter       = "size_{depth=d}(PARITY, n)"
+value_expr      = "2^{O(n^(1/(d-1)))}"
+range_valid     = "all d >= 2, all n >= 1"
+reference_key   = "hastad_1986"
+notes           = "Standard tree-of-tree construction; constant in the exponent matches the lower bound up to a factor."
+
+[[known_barriers]]
+name          = "natural_proofs"
+caveat        = "The Håstad bound is NOT subject to the natural-proofs barrier: AC^0 admits no pseudorandom function, so all proofs of AC^0 lower bounds are trivially non-natural in the Razborov-Rudich sense."
+reference_key = "razborov_rudich_1997"
+
+[[known_barriers]]
+name          = "algebrization"
+caveat        = "Algebrization (Aaronson-Wigderson 2008) does not apply to AC^0 lower bounds — the model is too weak."
+reference_key = "aaronson_wigderson_2008"
+
+[[canonical_references]]
+key      = "hastad_1986"
+title    = "Computational Limitations of Small-Depth Circuits"
+authors  = ["J. Håstad"]
+year     = 1987
+doi      = ""
+arxiv_id = ""
+venue    = "MIT Press (PhD thesis, published as book)"
+notes    = "The switching lemma. Foundational. Original thesis defended 1986, published 1987."
+
+[[canonical_references]]
+key      = "furst_saxe_sipser_1984"
+title    = "Parity, circuits, and the polynomial-time hierarchy"
+authors  = ["M. Furst", "J. B. Saxe", "M. Sipser"]
+year     = 1984
+doi      = "10.1007/BF01744431"
+arxiv_id = ""
+venue    = "Mathematical Systems Theory"
+notes    = "First super-polynomial AC^0 lower bound (weaker form). Predates the switching lemma."
+
+[[canonical_references]]
+key      = "yao_1985"
+title    = "Separating the polynomial-time hierarchy by oracles"
+authors  = ["A. C.-C. Yao"]
+year     = 1985
+doi      = "10.1109/SFCS.1985.49"
+arxiv_id = ""
+venue    = "FOCS 1985"
+notes    = "Improved super-polynomial AC^0 bound. Yao's proof preceded but motivated Håstad's switching lemma."
+
+[[canonical_references]]
+key      = "impagliazzo_matthews_paturi_2012"
+title    = "A satisfiability algorithm for AC^0"
+authors  = ["R. Impagliazzo", "W. Matthews", "R. Paturi"]
+year     = 2012
+doi      = "10.1145/2402875"
+arxiv_id = ""
+venue    = "SODA 2012 / J. ACM"
+notes    = "Provides sharp constants for the switching lemma in the d=3 case. Cited because it gives the cleanest constant analysis."
+
+[[canonical_references]]
+key      = "hastad_2014"
+title    = "On the correlation of parity and small-depth circuits"
+authors  = ["J. Håstad"]
+year     = 2014
+doi      = "10.1137/120897432"
+arxiv_id = ""
+venue    = "SIAM J. Comput."
+notes    = "Modern revisit by Håstad of the original analysis. Improved correlation bounds and constants."
+
+[[canonical_references]]
+key      = "braverman_2010"
+title    = "Polylogarithmic Independence Fools AC^0 Circuits"
+authors  = ["M. Braverman"]
+year     = 2010
+doi      = "10.1145/1706591.1706594"
+arxiv_id = ""
+venue    = "J. ACM"
+notes    = "PRG construction that depends on switching-lemma constants. Application downstream."
+
+[[canonical_references]]
+key      = "razborov_rudich_1997"
+title    = "Natural Proofs"
+authors  = ["A. A. Razborov", "S. Rudich"]
+year     = 1997
+doi      = "10.1006/jcss.1997.1494"
+venue    = "Journal of Computer and System Sciences"
+notes    = "Barrier paper; AC^0 escapes."
+
+[[canonical_references]]
+key      = "aaronson_wigderson_2008"
+title    = "Algebrization: A new barrier in complexity theory"
+authors  = ["S. Aaronson", "A. Wigderson"]
+year     = 2008
+doi      = "10.1145/1490270.1490272"
+arxiv_id = ""
+venue    = "ACM Trans. Comput. Theory"
+notes    = "Algebrization barrier paper; not applicable to AC^0."
+
+[[open_subquestions]]
+id                = "sub1"
+text              = "For depth d = 3, what is the empirical shrinkage rate of random restrictions applied to size-S PARITY-computing circuits, as a function of (S, n, restriction probability p)? Does the rate match the IMP 2012 prediction in the regime S ≈ 2^(n^(1/2))?"
+suggested_attack  = "Generate random depth-3 monotone-ish circuits computing PARITY at size S close to the bound; apply random restrictions with probability p; measure how often the restricted circuit collapses to depth-2. Empirically estimate the shrinkage exponent."
+estimated_compute = "Days on RTX 3070 Ti; circuit enumeration is the bottleneck."
+status            = "open"
+
+[[open_subquestions]]
+id                = "sub2"
+text              = "Is there a *concentration* phenomenon for the constant c_d in the lower bound: i.e., does almost-every restriction yield the same shrinkage exponent, or is there a heavy tail?"
+suggested_attack  = "Sampling: for fixed (n, d, p) configuration, run many independent restrictions and measure the distribution of effective shrinkage. Fit to known distributions (log-normal, power-law)."
+estimated_compute = "Hours on a single GPU; scales well across seeds."
+status            = "open"
+
+[[open_subquestions]]
+id                = "sub3"
+text              = "How does the optimal constant change when PARITY is replaced by a symmetric function (e.g. THRESHOLD-k, MAJORITY) at the same depth d = 3? Is there a symmetric-function-specific constant that beats Håstad's general bound?"
+suggested_attack  = "Same empirical setup as sub1, but compute the bound for THRESHOLD-k for various k. Compare to Beigel 1994 and Sherstov 2007 bounds for symmetric functions."
+estimated_compute = "Days; symmetric-function structure may admit faster search."
+status            = "open"

@@ -1,0 +1,169 @@
+problem_id    = "MONO_CLIQUE_RAZBOROV_85"
+title         = "Closing the gap in Razborov's monotone CLIQUE lower bound"
+field         = "circuit_lb"
+status        = "active"
+curated_by    = "Ludovico Kubler"
+last_reviewed = 2026-05-19
+
+[statement]
+markdown = """
+A monotone Boolean circuit uses only AND and OR gates (no NOT). The k-CLIQUE
+function, on an input graph encoded as \\(\\binom{n}{2}\\) edge variables,
+outputs 1 iff the input graph contains a clique of size \\(k\\).
+
+Razborov (1985) proved the first super-polynomial monotone lower bound:
+the size of any monotone circuit computing k-CLIQUE on n-vertex inputs is at
+least \\(n^{\\Omega(k)}\\), for \\(k \\leq (\\log n)^{1/4}\\).
+Alon and Boppana (1987) refined the analysis to extend the range to
+\\(k \\leq c \\cdot (\\log n)^{1/2}\\) and improved the constant.
+
+The natural conjecture is that a much stronger bound holds: for some
+\\(\\delta > 0\\), the lower bound \\(n^{\\Omega(k)}\\) extends to \\(k = n^{\\delta}\\)
+(or even to all \\(k \\leq n/2\\)). Forty years later, no proof closing
+this gap is known. The bottleneck is the *approximation method* — the
+polynomial-degree-based argument used in Razborov 1985 breaks down outside
+the polylog regime.
+
+Specific empirical-math question: how does the relevant polynomial degree
+(the minimum degree of an approximator agreeing with k-CLIQUE on \\(\\binom{[n]}{k}\\))
+scale with \\(k\\) for fixed small \\(n\\)? Does the scaling hint at a
+combinatorial obstruction that prevents extending Razborov's argument to
+\\(k = n^\\delta\\)?
+"""
+lean_file = "MONO_CLIQUE_RAZBOROV_85.lean"
+
+[significance_to_pvsnp]
+text = """
+CLIQUE is NP-complete. A super-polynomial *monotone* lower bound for any
+NP-complete function does NOT directly imply P ≠ NP, because monotone
+classes are strictly weaker than P/poly (an NP function may admit a
+small non-monotone circuit). However, the monotone class is the *only*
+non-trivial class in which we have super-polynomial lower bounds for
+explicit functions. Closing the k-CLIQUE gap to k = n^δ would:
+
+1. Be the first such bound in the regime k = polynomial-in-n, after 40 years
+   of plateau, and would represent the highest-confidence lower bound in
+   circuit complexity.
+2. Resolve the open question of whether the approximation method itself
+   can yield bounds in this regime, or whether a categorically new technique
+   is needed.
+3. Inform the design of bounded-error randomized lower bounds for
+   k-CLIQUE in the monotone model, with downstream consequences for
+   communication complexity (via Karchmer-Wigderson).
+
+It would NOT, by itself, resolve P vs NP. But it is universally regarded
+as a non-trivial step on the path.
+"""
+
+[[known_bounds]]
+type            = "lower"
+parameter       = "monotone_size(k-CLIQUE, n)"
+value_expr      = "n^Omega(k)"
+range_valid     = "k <= (log n)^(1/4)"
+reference_key   = "razborov_1985"
+notes           = "Original approximation method; constants explicit but small."
+
+[[known_bounds]]
+type            = "lower"
+parameter       = "monotone_size(k-CLIQUE, n)"
+value_expr      = "n^Omega(k)"
+range_valid     = "k <= c * (log n)^(1/2)"
+reference_key   = "alon_boppana_1987"
+notes           = "Refined approximation method; better range and constants."
+
+[[known_bounds]]
+type            = "upper"
+parameter       = "monotone_size(k-CLIQUE, n)"
+value_expr      = "O(n^k * k)"
+range_valid     = "all k"
+reference_key   = "trivial_upper"
+notes           = "Trivial: enumerate all k-subsets, AND each one."
+
+[[known_barriers]]
+name          = "natural_proofs"
+caveat        = """
+The natural-proofs barrier (Razborov-Rudich 1997) explicitly does NOT
+apply to monotone circuits. The Razborov 1985 argument is non-natural
+because the lower-bound predicate (`approximator polynomial does NOT
+agree with f on Y_k`) is not constructive in the Razborov-Rudich sense.
+So this problem lives BELOW the natural-proofs barrier: a proof here
+gives no information about P vs NP barriers.
+"""
+reference_key = "razborov_rudich_1997"
+
+[[canonical_references]]
+key      = "razborov_1985"
+title    = "Lower bounds on monotone complexity of the logical permanent"
+authors  = ["A. A. Razborov"]
+year     = 1985
+doi      = "10.1070/SM1985v050n01ABEH002825"
+venue    = "Mathematics of the USSR-Sbornik"
+notes    = "The original monotone CLIQUE lower bound. Foundational paper for the approximation method."
+
+[[canonical_references]]
+key      = "alon_boppana_1987"
+title    = "The monotone circuit complexity of Boolean functions"
+authors  = ["N. Alon", "R. B. Boppana"]
+year     = 1987
+doi      = "10.1007/BF02579196"
+venue    = "Combinatorica"
+notes    = "Refines Razborov's bound to k <= (log n)^(1/2). Provides cleaner proof."
+
+[[canonical_references]]
+key      = "andreev_1985"
+title    = "On a method for obtaining lower bounds for the complexity of individual monotone functions"
+authors  = ["A. E. Andreev"]
+year     = 1985
+doi      = "10.1007/BF01083780"
+venue    = "Soviet Mathematics Doklady"
+notes    = "Independent contemporary monotone lower bound for an explicit function."
+
+[[canonical_references]]
+key      = "razborov_rudich_1997"
+title    = "Natural Proofs"
+authors  = ["A. A. Razborov", "S. Rudich"]
+year     = 1997
+doi      = "10.1006/jcss.1997.1494"
+venue    = "Journal of Computer and System Sciences"
+notes    = "The natural-proofs barrier paper. Shows monotone bounds escape the framework."
+
+[[canonical_references]]
+key      = "trivial_upper"
+title    = "Folklore: monotone formula for k-CLIQUE"
+authors  = ["folklore"]
+year     = 0
+doi      = ""
+arxiv_id = ""
+venue    = "folklore"
+notes    = "AND-OR formula: OR over all C(n,k) k-subsets, each subset checked by AND of its C(k,2) edges. Size O(n^k * k)."
+
+[[canonical_references]]
+key      = "jukna_book_2012"
+title    = "Boolean Function Complexity: Advances and Frontiers"
+authors  = ["S. Jukna"]
+year     = 2012
+doi      = "10.1007/978-3-642-24508-4"
+arxiv_id = ""
+venue    = "Springer (Algorithms and Combinatorics 27)"
+notes    = "Modern survey textbook; Chapter 9 has the cleanest presentation of monotone bounds."
+
+[[open_subquestions]]
+id                = "sub1"
+text              = "Compute, for fixed small n (say n <= 12), the minimum-degree polynomial that 0/1-agrees with k-CLIQUE on all k-subsets, as a function of k. Does the degree behave qualitatively differently for k <= (log n)^(1/2) vs k > (log n)^(1/2)?"
+suggested_attack  = "Explicit linear-programming computation of the agreement polynomial. Feasible on RTX 3070 Ti for n <= 10, possibly n <= 12 with sparse-matrix tricks. Cite Sherali-Adams or sum-of-squares hierarchies if applicable."
+estimated_compute = "Hours on a single GPU/CPU; well below 24h."
+status            = "open"
+
+[[open_subquestions]]
+id                = "sub2"
+text              = "For k just above the (log n)^(1/2) threshold, can the approximation-method polynomial be replaced by a non-polynomial structural witness (e.g. a sunflower lemma generalization) that still admits a Razborov-style argument?"
+suggested_attack  = "Experimental: generate random monotone circuits at the threshold, fit them with both the Razborov approximator and candidate alternatives (sunflower-free families, Razborov-Smolensky polynomials over different rings). Measure approximation error."
+estimated_compute = "Days on RTX 3070 Ti; bounded by circuit-enumeration cost."
+status            = "open"
+
+[[open_subquestions]]
+id                = "sub3"
+text              = "Is there an empirical correlation between the monotone-circuit size of k-CLIQUE (as measured via SAT-encoded enumeration of small circuits) and the polynomial degree of the agreement set, for n where exact computation is feasible (n <= 8)?"
+suggested_attack  = "Encode monotone-circuit existence at given size as a SAT instance; run kissat. Compare measured minimum size to predicted size from Alon-Boppana applied to that small n."
+estimated_compute = "Hours per (n, k, size) triple; full sweep for n <= 8 in a few days."
+status            = "open"

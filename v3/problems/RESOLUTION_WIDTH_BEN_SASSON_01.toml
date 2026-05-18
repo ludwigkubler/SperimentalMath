@@ -1,0 +1,187 @@
+problem_id    = "RESOLUTION_WIDTH_BEN_SASSON_01"
+title         = "Tight Width-Size relationship for Tseitin formulas on expander graphs"
+field         = "proof_complexity"
+status        = "active"
+curated_by    = "Ludovico Kubler"
+last_reviewed = 2026-05-19
+
+[statement]
+markdown = """
+*Resolution* is the proof system that derives unsatisfiability of a CNF
+formula by repeatedly applying the resolution rule:
+\\((C \\vee x), (D \\vee \\neg x) \\;\\vdash\\; (C \\vee D)\\).
+
+The *width* of a resolution refutation is the maximum clause length appearing
+in the proof. The *size* is the total number of distinct clauses.
+
+Ben-Sasson and Wigderson (2001) proved the foundational *Width-Size
+theorem*: for any unsatisfiable CNF F over n variables,
+\\[
+S(F) \\geq \\exp\\!\\left( \\Omega\\!\\left( \\frac{(W(F) - W_0(F))^2}{n} \\right) \\right)
+\\]
+where \\(S(F)\\) is the minimum resolution refutation size and
+\\(W(F)\\), \\(W_0(F)\\) are the minimum width of any refutation and the
+initial width of the formula respectively.
+
+Application to *Tseitin formulas* over expander graphs: \\(W(F) = \\Theta(n)\\)
+yields \\(S(F) = 2^{\\Omega(n)}\\) — exponential lower bound on resolution
+size.
+
+The width-size relation is *qualitatively tight* but the *constants* matter:
+- The original BSW analysis is tight up to constants for random k-CNF.
+- For Tseitin on *Ramanujan graphs* (girth ≈ \\(\\log n\\), expander
+  constant near optimal), the predicted resolution width is
+  \\(\\geq c \\cdot n\\) for a specific constant c depending on the
+  expansion parameter.
+
+Specific empirical-math question: for explicit Ramanujan graphs (LPS,
+Margulis-Gabber-Galil), what is the exact resolution width of the
+corresponding Tseitin formula? Does the constant c match the BSW
+prediction, or is there structural improvement on Ramanujan graphs?
+"""
+lean_file = "RESOLUTION_WIDTH_BEN_SASSON_01.lean"
+
+[significance_to_pvsnp]
+text = """
+Resolution is the most-studied proof system; modern SAT solvers (DPLL,
+CDCL) operate within resolution. Resolution lower bounds:
+1. Directly imply lower bounds on running time of DPLL-style algorithms.
+2. Feed into proof-complexity lower bounds for stronger systems (cutting
+   planes, Frege).
+3. Provide the only known unconditional super-polynomial lower bounds
+   for any natural NP-complete problem solvable by a deterministic
+   algorithm with proof.
+
+For P vs NP:
+- A super-polynomial lower bound on resolution for a *natural* family
+  (Tseitin on expanders) gives unconditional exponential lower bounds
+  on DPLL — concrete evidence that 3SAT is hard on average.
+- Tightening the constant for Tseitin on Ramanujan graphs identifies
+  the *optimal* hard instances for SAT solvers.
+- The width-size relationship is the *paradigm* for proof-complexity
+  lower bounds; sharpening it directly informs cutting-planes (Krajíček
+  1998) and Frege (Pudlák, Buss).
+
+Empirical improvements on the constants ARE publishable. *Logical
+Methods in Computer Science* and *J. Symbolic Logic* welcome empirical
+proof-complexity work.
+"""
+
+[[known_bounds]]
+type            = "lower"
+parameter       = "resolution_size(Tseitin on G, n)"
+value_expr      = "2^Omega(n)"
+range_valid     = "G is expander; n = |V(G)|"
+reference_key   = "ben_sasson_wigderson_2001"
+notes           = "From the width-size theorem: width(Tseitin) = Theta(n) gives size 2^Omega(n)."
+
+[[known_bounds]]
+type            = "lower"
+parameter       = "resolution_width(Tseitin on G, n)"
+value_expr      = "lambda(G) * n / k"
+range_valid     = "G is a k-regular expander with expansion lambda"
+reference_key   = "ben_sasson_wigderson_2001"
+notes           = "Width is proportional to the expansion factor. Specific constants depend on expansion definition."
+
+[[known_bounds]]
+type            = "upper"
+parameter       = "resolution_size(Tseitin on G, n)"
+value_expr      = "2^O(n) * poly(n)"
+range_valid     = "all graphs G"
+reference_key   = "urquhart_1987"
+notes           = "Trivial: enumerate truth assignments. Used as upper-bound baseline."
+
+[[known_barriers]]
+name          = "natural_proofs"
+caveat        = "Resolution lower bounds are unconditional and NOT subject to the naturalization barrier (resolution does not capture any pseudorandom function class)."
+reference_key = "razborov_rudich_1997"
+
+[[canonical_references]]
+key      = "ben_sasson_wigderson_2001"
+title    = "Short proofs are narrow — resolution made simple"
+authors  = ["E. Ben-Sasson", "A. Wigderson"]
+year     = 2001
+doi      = "10.1145/375827.375835"
+arxiv_id = ""
+venue    = "J. ACM"
+notes    = "THE width-size theorem. Foundational. Proves S(F) >= exp(Omega(W²/n))."
+
+[[canonical_references]]
+key      = "urquhart_1987"
+title    = "Hard examples for resolution"
+authors  = ["A. Urquhart"]
+year     = 1987
+doi      = "10.1145/7531.8928"
+arxiv_id = ""
+venue    = "J. ACM"
+notes    = "First exponential resolution lower bound (for a specific family — not Tseitin, but Tseitin-precursor). Foundational."
+
+[[canonical_references]]
+key      = "tseitin_1968"
+title    = "On the complexity of derivation in propositional calculus"
+authors  = ["G. S. Tseitin"]
+year     = 1968
+doi      = "10.1007/978-3-642-81955-1_28"
+arxiv_id = ""
+venue    = "Studies in Constructive Mathematics and Mathematical Logic"
+notes    = "Original definition of Tseitin formulas. Russian original 1968; English 1983."
+
+[[canonical_references]]
+key      = "alekhnovich_razborov_2008"
+title    = "Resolution is not automatizable unless W[P] is tractable"
+authors  = ["M. Alekhnovich", "A. A. Razborov"]
+year     = 2008
+doi      = "10.1137/S0097539704441832"
+arxiv_id = ""
+venue    = "SIAM J. Comput."
+notes    = "Connects width to automatizability. Shows shortest resolution proof is hard to find unless W[P] easy."
+
+[[canonical_references]]
+key      = "lubotzky_phillips_sarnak_1988"
+title    = "Ramanujan graphs"
+authors  = ["A. Lubotzky", "R. Phillips", "P. Sarnak"]
+year     = 1988
+doi      = "10.1007/BF02126799"
+arxiv_id = ""
+venue    = "Combinatorica"
+notes    = "LPS construction of Ramanujan graphs. Optimal-spectral-gap expanders used as test cases."
+
+[[canonical_references]]
+key      = "atserias_lauria_nordstrom_2016"
+title    = "Narrow proofs may be maximally long"
+authors  = ["A. Atserias", "M. Lauria", "J. Nordström"]
+year     = 2016
+doi      = "10.1145/2898435"
+arxiv_id = "1409.2199"
+venue    = "J. ACM"
+notes    = "Resolution width does NOT imply small refutation in CP/Frege; tightening of width-size correspondence's applicability."
+
+[[canonical_references]]
+key      = "razborov_rudich_1997"
+title    = "Natural Proofs"
+authors  = ["A. A. Razborov", "S. Rudich"]
+year     = 1997
+doi      = "10.1006/jcss.1997.1494"
+venue    = "Journal of Computer and System Sciences"
+notes    = "Reference for barrier discussion."
+
+[[open_subquestions]]
+id                = "sub1"
+text              = "For Ramanujan graphs at n ∈ {20, 40, 60, 80, 100} (LPS construction), compute the resolution width of Tseitin via kissat-with-resolution-proof-extraction. How does the empirical width vs n compare to the BSW prediction lambda * n / k?"
+suggested_attack  = "Generate LPS graphs; encode Tseitin formula; run kissat with DRAT proof; extract resolution refutation; measure max clause width. Plot width vs n."
+estimated_compute = "Days; small (n < 100) Tseitin instances are within kissat range, but DRAT post-processing is the bottleneck."
+status            = "open"
+
+[[open_subquestions]]
+id                = "sub2"
+text              = "On Tseitin formulas where the underlying graph has high girth but low expansion, the BSW prediction over-estimates width. By how much? Construct an interpolating family of graphs (e.g. random k-regular at fixed k as n varies) and measure the discrepancy."
+suggested_attack  = "Generate random k-regular graphs; verify their (approximate) expansion via second-eigenvalue computation; encode Tseitin; measure width via DRAT. Plot empirical width / (predicted BSW width) ratio."
+estimated_compute = "Days; spectral computation + DRAT analysis."
+status            = "open"
+
+[[open_subquestions]]
+id                = "sub3"
+text              = "What is the smallest n for which the Tseitin formula on a 3-regular Ramanujan graph is provably resolution-hard (i.e. requires size > 2^20)? Push this empirical wall."
+suggested_attack  = "Sequence of n values; measure kissat runtime; conservatively estimate the resolution size via the DRAT proof size produced (with DRAT-trim verification)."
+estimated_compute = "Weeks at large n; budget around 5-7 days per data point at n = 80."
+status            = "open"

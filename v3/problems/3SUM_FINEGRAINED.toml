@@ -1,0 +1,208 @@
+problem_id    = "3SUM_FINEGRAINED"
+title         = "Tightness of the 3SUM lower bound and average-case hardness"
+field         = "fine_grained"
+status        = "active"
+curated_by    = "Ludovico Kubler"
+last_reviewed = 2026-05-19
+
+[statement]
+markdown = """
+3SUM is the canonical problem of fine-grained complexity: given a list of
+\\(n\\) integers, determine whether some three sum to zero.
+
+The naive algorithm runs in \\(O(n^2)\\) time after sorting. The
+*3SUM conjecture* posits that no algorithm runs in \\(O(n^{2-\\epsilon})\\)
+time on the *word RAM* with logarithmic word size, for any fixed
+\\(\\epsilon > 0\\).
+
+Status:
+- The conjecture is widely believed; many subsequent fine-grained
+  lower bounds *assume* it.
+- Baran–Demaine–Pătraşcu (2008) showed \\(O(n^2 / \\log^2 n)\\) on the
+  word RAM (asymptotically beating \\(n^2\\), but still consistent with
+  the conjecture).
+- Grønlund–Pettie (2014) showed \\(O(n^2 (\\log\\log n / \\log n)^{2/3})\\)
+  for *real-input* 3SUM in the decision-tree model.
+- Kane–Lovett–Moran (2017) gave a near-quadratic decision-tree lower
+  bound (matching the upper bound asymptotically).
+- Pătraşcu–Williams (2010): if 3SUM admits \\(O(n^{2-\\epsilon})\\) on
+  word RAM, several other problems also admit improved bounds. The
+  converse direction is open.
+
+Specific empirical-math question: on adversarially-constructed inputs,
+how does the *time-versus-input-distribution* curve behave for the best
+known 3SUM algorithms? Is there an empirical "hardness witness" — a
+specific input distribution — on which all known algorithms exhibit
+quadratic scaling, ruling out adversary-oblivious sub-quadratic
+algorithms in practice?
+"""
+lean_file = "3SUM_FINEGRAINED.lean"
+
+[significance_to_pvsnp]
+text = """
+Fine-grained complexity is the modern framework for distinguishing
+*polynomial-time* complexity classes — exactly the regime that P vs NP
+sits in. The 3SUM conjecture is the central hub from which many
+fine-grained reductions emanate:
+
+- OV (Orthogonal Vectors) conjecture — used to prove no
+  \\(O(n^{2-\\epsilon})\\) edit distance algorithm.
+- APSP (All-Pairs Shortest Paths) conjecture — connects to dynamic data
+  structures.
+- Many string algorithms (suffix array, etc.) have 3SUM-hard variants.
+
+The 3SUM conjecture does NOT imply P ≠ NP (3SUM is in P), but:
+1. A *proof* of the 3SUM conjecture in a restricted model (e.g. linear
+   decision trees) is plausibly within reach and would be a major
+   result.
+2. Empirical hardness evidence informs whether ongoing algorithmic
+   improvements (\\(\\log\\log n\\) factors) eventually reach a wall.
+
+This is the most-cited fine-grained question. Tightening its empirical
+profile is publishable at *ACM TOCT* / *J. ACM*.
+"""
+
+[[known_bounds]]
+type            = "upper"
+parameter       = "time_3SUM(n) on word RAM"
+value_expr      = "O(n^2)"
+range_valid     = "all n"
+reference_key   = "folklore_3sum"
+notes           = "Standard textbook algorithm: sort then two-pointer scan."
+
+[[known_bounds]]
+type            = "upper"
+parameter       = "time_3SUM(n) on word RAM"
+value_expr      = "O(n^2 / log^2 n)"
+range_valid     = "all n"
+reference_key   = "baran_demaine_patrascu_2008"
+notes           = "Tabulation-based; uses word-level parallelism."
+
+[[known_bounds]]
+type            = "upper"
+parameter       = "time_3SUM(n) on real RAM (decision tree)"
+value_expr      = "O(n^2 (log log n / log n)^(2/3))"
+range_valid     = "all n"
+reference_key   = "gronlund_pettie_2014"
+notes           = "Sub-quadratic ALGEBRAIC decision tree on real inputs. Does not contradict 3SUM conjecture on word RAM with integer inputs."
+
+[[known_bounds]]
+type            = "lower"
+parameter       = "time_3SUM(n) in LINEAR decision tree model"
+value_expr      = "Omega(n^2)"
+range_valid     = "all n"
+reference_key   = "erickson_1999"
+notes           = "Linear decision tree lower bound: any LDT algorithm requires Omega(n^2) comparisons."
+
+[[known_bounds]]
+type            = "lower"
+parameter       = "time_3SUM(n) word RAM"
+value_expr      = "(conjectured) Omega(n^(2-o(1)))"
+range_valid     = "all n"
+reference_key   = "patrascu_williams_2010"
+notes           = "The 3SUM conjecture. No unconditional lower bound on word RAM is known."
+
+[[known_barriers]]
+name          = "algebrization"
+caveat        = "Standard barriers (relativization, naturalization, algebrization) target separation of complexity *classes*, not lower bounds for specific problems. Not directly applicable."
+
+[[canonical_references]]
+key      = "folklore_3sum"
+title    = "3SUM and folklore quadratic algorithm"
+authors  = ["folklore"]
+year     = 0
+doi      = ""
+arxiv_id = ""
+venue    = "folklore"
+notes    = "The canonical O(n^2) algorithm. Origin pre-dates explicit 3SUM analysis."
+
+[[canonical_references]]
+key      = "gajentaan_overmars_1995"
+title    = "On a class of O(n^2) problems in computational geometry"
+authors  = ["A. Gajentaan", "M. H. Overmars"]
+year     = 1995
+doi      = "10.1016/0925-7721(95)00022-2"
+arxiv_id = ""
+venue    = "Computational Geometry: Theory and Applications"
+notes    = "The original 3SUM paper. Defined the problem; identified it as a hub for hardness in computational geometry."
+
+[[canonical_references]]
+key      = "erickson_1999"
+title    = "Lower bounds for linear satisfiability problems"
+authors  = ["J. Erickson"]
+year     = 1999
+doi      = "10.1006/jcss.1999.1631"
+arxiv_id = ""
+venue    = "Journal of Computer and System Sciences"
+notes    = "Linear-decision-tree lower bound Omega(n^(ceil(r/2))) for r-SUM. Foundational lower bound."
+
+[[canonical_references]]
+key      = "baran_demaine_patrascu_2008"
+title    = "Subquadratic algorithms for 3SUM"
+authors  = ["I. Baran", "E. D. Demaine", "M. Pătraşcu"]
+year     = 2008
+doi      = "10.1007/s00453-008-9215-x"
+arxiv_id = ""
+venue    = "Algorithmica"
+notes    = "Currently-best word-RAM upper bound, O(n^2 / log^2 n). Uses tabulation tricks."
+
+[[canonical_references]]
+key      = "gronlund_pettie_2014"
+title    = "Threesomes, Degenerates, and Love Triangles"
+authors  = ["A. Grønlund", "S. Pettie"]
+year     = 2014
+doi      = "10.1145/2616395"
+arxiv_id = "1404.0799"
+venue    = "FOCS 2014 / J. ACM"
+notes    = "Sub-quadratic real-RAM (decision tree) algorithm: O(n^2 (log log n / log n)^(2/3)). Major surprise."
+
+[[canonical_references]]
+key      = "kane_lovett_moran_2017"
+title    = "Near-Optimal Linear Decision Trees for k-SUM and Related Problems"
+authors  = ["D. Kane", "S. Lovett", "S. Moran"]
+year     = 2017
+doi      = "10.1145/3188745.3188770"
+arxiv_id = "1705.01720"
+venue    = "STOC 2018 / J. ACM"
+notes    = "Near-optimal LINEAR decision trees for 3SUM. Asymptotically tight in this model."
+
+[[canonical_references]]
+key      = "patrascu_williams_2010"
+title    = "On the possibility of faster SAT algorithms"
+authors  = ["M. Pătraşcu", "R. Williams"]
+year     = 2010
+doi      = "10.1137/1.9781611973082.91"
+arxiv_id = ""
+venue    = "SODA 2010"
+notes    = "Connects 3SUM to other fine-grained conjectures. Establishes 3SUM as a hub problem."
+
+[[canonical_references]]
+key      = "abboud_williams_2014"
+title    = "Popular conjectures imply strong lower bounds for dynamic problems"
+authors  = ["A. Abboud", "V. V. Williams"]
+year     = 2014
+doi      = "10.1109/FOCS.2014.53"
+arxiv_id = ""
+venue    = "FOCS 2014"
+notes    = "Catalogue of 3SUM-implied lower bounds for dynamic data structures."
+
+[[open_subquestions]]
+id                = "sub1"
+text              = "Implement Baran-Demaine-Pătraşcu (O(n^2/log^2 n)) and the textbook O(n^2) algorithms in Rust/C, and measure their actual scaling on adversarial inputs (worst-case for each algorithm). At which n do the constants in BDP catch up to the n^2 baseline, and does the asymptotic improvement materialize for n in [10^4, 10^6]?"
+suggested_attack  = "Construct three classes of adversarial inputs: (a) uniformly random, (b) arithmetic-progression-rich (worst-case for textbook), (c) BDP-hostile (constructed to defeat the tabulation). Time each algorithm on each input class for n = 10^3, 10^4, 10^5, 10^6. Plot wall-clock vs n."
+estimated_compute = "Days (multi-core CPU); 3SUM is CPU-bound, not GPU-bound."
+status            = "open"
+
+[[open_subquestions]]
+id                = "sub2"
+text              = "Construct an explicit input distribution on which Grønlund-Pettie's decision-tree algorithm achieves its claimed (log log n / log n)^(2/3) speedup — is this regime accessible at any feasible n, or is it asymptotic-only?"
+suggested_attack  = "Implement the Grønlund-Pettie algorithm; for large n (10^5+), count actual comparisons; compare to the textbook count of (n choose 3). Empirically determine the crossover n."
+estimated_compute = "Days; implementation is non-trivial."
+status            = "open"
+
+[[open_subquestions]]
+id                = "sub3"
+text              = "Average-case hardness: define a parameterized family of input distributions (varying entropy / structure). For each distribution, measure the time of the best-known 3SUM algorithm. Is there a *natural* distribution on which 3SUM remains hard, or do all natural distributions admit a sub-quadratic average-case algorithm?"
+suggested_attack  = "Sample inputs from k different distributions; run the algorithm; build a histogram. Apply statistical tests to detect distribution-specific speedups."
+estimated_compute = "Days; large-scale statistical sampling."
+status            = "open"

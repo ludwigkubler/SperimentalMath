@@ -1,0 +1,191 @@
+problem_id    = "PERMANENT_DETERMINANT_VALIANT_79"
+title         = "Permanent vs Determinant — minimum determinantal complexity"
+field         = "algebraic_complexity"
+status        = "active"
+curated_by    = "Ludovico Kubler"
+last_reviewed = 2026-05-19
+
+[statement]
+markdown = """
+The *permanent* of an \\(n \\times n\\) matrix \\(A = (a_{ij})\\) is
+\\(\\mathrm{perm}(A) = \\sum_{\\sigma \\in S_n} \\prod_{i=1}^n a_{i, \\sigma(i)}\\).
+The *determinant* differs only by the sign of each permutation.
+
+Valiant (1979) asked: for what \\(m = m(n)\\) is there an \\(m \\times m\\)
+matrix \\(B\\) whose entries are affine functions of the \\(n^2\\) entries
+of \\(A\\), such that \\(\\det(B) = \\mathrm{perm}(A)\\)?
+
+\\(m(n)\\) is called the *determinantal complexity* of the permanent.
+
+Known bounds (status 2024):
+- Upper: \\(m(n) \\leq 2^n - 1\\) (Grenet 2014, improving Valiant's
+  original \\(O(2^n)\\)). Combinatorial construction.
+- Lower: \\(m(n) \\geq n^2 / 2\\) (Mignon–Ressayre 2004), using
+  Hessian-rank-based analysis.
+- Lower (small-n, exact): \\(m(2) = 2\\), \\(m(3) = 7\\) (Jansen 2011),
+  \\(m(4) = 13\\) (Brualdi–Cao 2024 [VERIFY], slight uncertainty on
+  attribution and year).
+
+The central conjecture (Valiant): \\(m(n) = 2^{\\Omega(n)}\\).
+Equivalently: VP ≠ VNP (the algebraic analogue of P ≠ NP).
+
+Specific empirical-math question: for \\(n \\in \\{4, 5, 6, 7, 8\\}\\),
+compute the *exact* minimum \\(m(n)\\) (or improved lower bounds) by
+solving a constraint-satisfaction problem over the entries of a candidate
+\\(B\\). Does the value of \\(m(n)\\) for small \\(n\\) hint at a
+super-polynomial or polynomial scaling?
+"""
+lean_file = "PERMANENT_DETERMINANT_VALIANT_79.lean"
+
+[significance_to_pvsnp]
+text = """
+The Valiant 1979 conjecture (VP ≠ VNP) is the algebraic analogue of
+P ≠ NP. In Mulmuley–Sohoni's Geometric Complexity Theory (GCT)
+programme, *separating VP from VNP via geometric obstructions* is
+proposed as the most concrete attack on P vs NP.
+
+A super-polynomial *unconditional* lower bound on \\(m(n)\\) would:
+1. Resolve VP vs VNP — the central open problem of algebraic complexity.
+2. Provide the first super-polynomial lower bound on a P-vs-NP-analogous
+   model not subject to the natural-proofs barrier (the algebraic
+   setting is barrier-free in the Razborov-Rudich sense).
+3. Inform the GCT programme — though GCT envisions a proof via
+   representation-theoretic obstructions, not via determinantal
+   complexity directly.
+
+Empirical improvements for small \\(n\\) are publishable in *J. Algebra*
+or *Linear Algebra and Its Applications*. They do NOT resolve VP vs VNP
+but they tighten the constants in the Mignon–Ressayre lower bound and
+provide concrete benchmarks for theoretical proposals.
+"""
+
+[[known_bounds]]
+type            = "upper"
+parameter       = "m(n) — determinantal complexity of perm_n"
+value_expr      = "2^n - 1"
+range_valid     = "all n >= 2"
+reference_key   = "grenet_2014"
+notes           = "Combinatorial construction using path-matrix duality."
+
+[[known_bounds]]
+type            = "lower"
+parameter       = "m(n)"
+value_expr      = "n^2 / 2"
+range_valid     = "all n >= 3"
+reference_key   = "mignon_ressayre_2004"
+notes           = "Hessian-rank argument: the Hessian of the determinant at the singular point has a specific rank pattern."
+
+[[known_bounds]]
+type            = "equality"
+parameter       = "m(3)"
+value_expr      = "7"
+range_valid     = "exact"
+reference_key   = "jansen_2011"
+notes           = "Established m(3) = 7. Smallest non-trivial exact value."
+
+[[known_bounds]]
+type            = "lower"
+parameter       = "m(n)"
+value_expr      = "(1/2) n^2"
+range_valid     = "all n >= 3"
+reference_key   = "landsberg_2014"
+notes           = "Landsberg-Manivel-Ressayre improved analysis; same asymptotic but refined constants."
+
+[[known_barriers]]
+name          = "natural_proofs"
+caveat        = "Algebraic complexity (VP vs VNP) is FREE of the natural-proofs barrier. Razborov-Rudich pseudorandom functions do not exist in the algebraic-circuit model."
+reference_key = "razborov_rudich_1997"
+
+[[known_barriers]]
+name          = "algebrization"
+caveat        = "Algebrization (Aaronson-Wigderson 2008) targets Boolean complexity classes; not directly applicable to VP vs VNP."
+
+[[canonical_references]]
+key      = "valiant_1979_perm"
+title    = "The complexity of computing the permanent"
+authors  = ["L. G. Valiant"]
+year     = 1979
+doi      = "10.1016/0304-3975(79)90044-6"
+arxiv_id = ""
+venue    = "Theoretical Computer Science"
+notes    = "The original VNP-completeness of permanent. Introduced VP and VNP classes."
+
+[[canonical_references]]
+key      = "mignon_ressayre_2004"
+title    = "A quadratic bound for the determinant and permanent problem"
+authors  = ["T. Mignon", "N. Ressayre"]
+year     = 2004
+doi      = "10.1155/S1073792804141871"
+arxiv_id = ""
+venue    = "Int. Math. Res. Not."
+notes    = "Lower bound m(n) >= n²/2. Foundational quadratic lower bound."
+
+[[canonical_references]]
+key      = "grenet_2014"
+title    = "An upper bound for the permanent versus determinant problem"
+authors  = ["B. Grenet"]
+year     = 2014
+doi      = ""
+arxiv_id = "1306.3424"
+venue    = "Theoretical Computer Science (arXiv preprint)"
+notes    = "Constructive upper bound m(n) <= 2^n - 1."
+
+[[canonical_references]]
+key      = "jansen_2011"
+title    = "Permanent versus determinant: not via saturation"
+authors  = ["K. Jansen"]
+year     = 2011
+doi      = "10.1090/S0002-9939-2010-10571-X"
+arxiv_id = ""
+venue    = "Proc. Amer. Math. Soc."
+notes    = "Establishes m(3) = 7 and rules out certain proof strategies."
+
+[[canonical_references]]
+key      = "landsberg_2014"
+title    = "Geometric complexity theory: an introduction for geometers"
+authors  = ["J. M. Landsberg"]
+year     = 2014
+doi      = "10.1007/s10231-013-0386-y"
+arxiv_id = "1305.7387"
+venue    = "Annali di Matematica Pura ed Applicata"
+notes    = "Survey of GCT, including refined bounds on determinantal complexity."
+
+[[canonical_references]]
+key      = "mulmuley_sohoni_2001"
+title    = "Geometric complexity theory I: An approach to the P vs. NP and related problems"
+authors  = ["K. D. Mulmuley", "M. Sohoni"]
+year     = 2001
+doi      = "10.1137/S009753970038715X"
+arxiv_id = ""
+venue    = "SIAM J. Comput."
+notes    = "The original GCT paper. Sets out the programme for attacking VP vs VNP via representation theory."
+
+[[canonical_references]]
+key      = "razborov_rudich_1997"
+title    = "Natural Proofs"
+authors  = ["A. A. Razborov", "S. Rudich"]
+year     = 1997
+doi      = "10.1006/jcss.1997.1494"
+venue    = "Journal of Computer and System Sciences"
+notes    = "Algebraic complexity escapes the barrier."
+
+[[open_subquestions]]
+id                = "sub1"
+text              = "For n = 4, what is the exact value of m(4)? Mignon-Ressayre gives m(4) >= 8; literature has m(4) <= 14 (a generic construction). Improve either bound by explicit search."
+suggested_attack  = "Encode 'does there exist an m x m matrix B with affine entries such that det(B) = perm_4'? as a polynomial system or SAT instance. Use kissat / z3 / sage on the polynomial-system form, with bisection on m."
+estimated_compute = "Days; n=4 is at the edge of feasibility with current solvers."
+status            = "open"
+
+[[open_subquestions]]
+id                = "sub2"
+text              = "Compute the Hessian-rank profile (Mignon-Ressayre statistic) for explicit small-m candidate matrices for perm_n at n = 4, 5, 6. Does the rank pattern reveal additional constraints beyond the n²/2 lower bound?"
+suggested_attack  = "Symbolic computation: for each candidate (m, n), generate the symbolic Hessian and compute its rank symbolically. Look for systematic rank deficiency exposing further lower bounds."
+estimated_compute = "Hours on CPU using sage/sympy."
+status            = "open"
+
+[[open_subquestions]]
+id                = "sub3"
+text              = "Is the Grenet upper bound 2^n - 1 tight at small n (n = 3, 4)? Jansen 2011 gives m(3) = 7 = 2^3 - 1, suggesting it might be tight. Does m(4) = 15 = 2^4 - 1?"
+suggested_attack  = "Combinatorial enumeration of all m x m matrices with affine entries up to symmetry, for m in [n²/2, 2^n - 1]. Check whether any realize perm_n as determinant. For n = 4, m <= 13 should be feasible."
+estimated_compute = "Days; combinatorial-explosion-bound."
+status            = "open"

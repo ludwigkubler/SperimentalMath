@@ -1,0 +1,197 @@
+problem_id    = "RANDOM_KSAT_FRIEDGUT_99"
+title         = "Sharp satisfiability threshold for random 3-SAT (Friedgut's conjecture)"
+field         = "sat_hardness"
+status        = "active"
+curated_by    = "Ludovico Kubler"
+last_reviewed = 2026-05-19
+
+[statement]
+markdown = """
+In *random k-SAT* with \\(n\\) variables and \\(m = \\alpha n\\) clauses (each
+clause is a uniformly-random k-tuple of distinct variables with each literal
+negated independently with probability 1/2), let \\(p_{k,n}(\\alpha)\\) be
+the probability that the resulting formula is satisfiable.
+
+Friedgut (1999) proved: for every k ≥ 2, there is a *sharp threshold*
+function \\(\\alpha_k(n)\\) such that for every \\(\\epsilon > 0\\),
+
+\\[
+\\lim_{n \\to \\infty} p_{k,n}(\\alpha_k(n) - \\epsilon) = 1, \\qquad
+\\lim_{n \\to \\infty} p_{k,n}(\\alpha_k(n) + \\epsilon) = 0.
+\\]
+
+For k = 2, \\(\\alpha_2 = 1\\) (Goerdt 1992, Chvátal–Reed 1992).
+
+For k = 3, the threshold is known to *exist* (Friedgut 1999) and to satisfy
+\\(\\alpha_3(n) \\to \\alpha_3^*\\) for some absolute constant \\(\\alpha_3^* \\approx
+4.267\\) (Mertens, Mézard, Zecchina 2006 from physics; Ding–Sly–Sun 2014–2022
+rigorous upper and lower bounds converging on \\(\\alpha_3^* = 4.267...\\) but
+not exactly identifying it).
+
+Open: does \\(\\alpha_3(n)\\) converge to an absolute constant \\(\\alpha_3^*\\)
+rigorously, with the predicted value? The rigorous bounds are
+\\(\\alpha_3^{\\text{lower}} \\geq 4.0 - \\epsilon\\) (Coja-Oghlan 2014) and
+\\(\\alpha_3^{\\text{upper}} \\leq 4.4943\\) (Kirousis et al. 1998 + refinements).
+The conjecture is that the threshold converges to a specific value (likely
+4.267) predicted by replica-symmetry-breaking analysis.
+
+Specific empirical-math question: can we *empirically* identify the
+threshold to within ±0.01 for n ≤ 200 using kissat as oracle, and fit a
+finite-size scaling law that extrapolates to the asymptote?
+"""
+lean_file = "RANDOM_KSAT_FRIEDGUT_99.lean"
+
+[significance_to_pvsnp]
+text = """
+Random 3-SAT is the canonical *hardness benchmark* for NP problems:
+- The threshold \\(\\alpha_3^*\\) is where 3-SAT becomes "hard on average":
+  near the threshold, the best algorithms scale exponentially.
+- Identifying the threshold to high precision is required for designing
+  hardness reductions that preserve average-case difficulty.
+- The k=3 case is the smallest where the replica-symmetry-breaking
+  phenomenon (1-RSB) occurs, providing a window onto the *geometry* of
+  the solution space — relevant for understanding why local-search
+  algorithms fail above the *clustering threshold* (\\(\\alpha_d^* \\approx
+  3.86\\) for k=3).
+
+Tightening the threshold is NOT a direct attack on P vs NP, but it sharpens
+the tools used in:
+1. Reductions between NP problems preserving average-case complexity.
+2. Cryptographic hardness assumptions based on planted-3-SAT.
+3. Distinguishing structural from computational hardness.
+"""
+
+[[known_bounds]]
+type            = "lower"
+parameter       = "alpha_3 (satisfiability threshold for random 3-SAT)"
+value_expr      = "alpha_3 >= 3.52"
+range_valid     = "n -> infinity"
+reference_key   = "kaporis_kirousis_lalas_2006"
+notes           = "Lower bound via second-moment method on a refined random structure."
+
+[[known_bounds]]
+type            = "lower"
+parameter       = "alpha_3"
+value_expr      = "alpha_3 >= 3.86"
+range_valid     = "n -> infinity"
+reference_key   = "coja_oghlan_2014"
+notes           = "Best rigorous lower bound, via planted-3-SAT analysis. Threshold is at least 3.86."
+
+[[known_bounds]]
+type            = "upper"
+parameter       = "alpha_3"
+value_expr      = "alpha_3 <= 4.4943"
+range_valid     = "n -> infinity"
+reference_key   = "kirousis_kranakis_krizanc_stamatiou_1998"
+notes           = "Upper bound via first-moment method with refined statistic."
+
+[[known_bounds]]
+type            = "equality"
+parameter       = "alpha_3 (conjectured)"
+value_expr      = "alpha_3* approx 4.267"
+range_valid     = "n -> infinity"
+reference_key   = "mertens_mezard_zecchina_2006"
+notes           = "Non-rigorous physics prediction via 1-RSB cavity method. Strong consensus but not a theorem."
+
+[[known_bounds]]
+type            = "equality"
+parameter       = "alpha_k (k -> infinity)"
+value_expr      = "alpha_k = 2^k ln 2 - (1+ln 2)/2 + o(1)"
+range_valid     = "k large, n -> infinity"
+reference_key   = "ding_sly_sun_2022"
+notes           = "Resolves the threshold rigorously for k >= k_0 (some large constant). Does NOT cover k = 3."
+
+[[known_barriers]]
+name          = "natural_proofs"
+caveat        = "Not applicable — this is an average-case complexity question, not a circuit lower bound."
+
+[[canonical_references]]
+key      = "friedgut_1999"
+title    = "Sharp thresholds of graph properties, and the k-SAT problem"
+authors  = ["E. Friedgut", "J. Bourgain (appendix)"]
+year     = 1999
+doi      = "10.1090/S0894-0347-99-00305-7"
+arxiv_id = ""
+venue    = "J. Amer. Math. Soc."
+notes    = "The theorem that a sharp threshold exists for k-SAT. Foundational."
+
+[[canonical_references]]
+key      = "chvatal_reed_1992"
+title    = "Mick gets some (the odds are on his side)"
+authors  = ["V. Chvátal", "B. Reed"]
+year     = 1992
+doi      = "10.1109/SFCS.1992.267789"
+arxiv_id = ""
+venue    = "FOCS 1992"
+notes    = "Pinpoints the 2-SAT threshold at alpha_2 = 1."
+
+[[canonical_references]]
+key      = "kirousis_kranakis_krizanc_stamatiou_1998"
+title    = "Approximating the unsatisfiability threshold of random formulas"
+authors  = ["L. M. Kirousis", "E. Kranakis", "D. Krizanc", "Y. C. Stamatiou"]
+year     = 1998
+doi      = "10.1002/(SICI)1098-2418(199810/12)13:3/4<253::AID-RSA1>3.0.CO;2-U"
+arxiv_id = ""
+venue    = "Random Structures & Algorithms"
+notes    = "Upper bound alpha_3 <= 4.667 (later refined to 4.4943 by Dubois-Boufkhad-Mandler 2003)."
+
+[[canonical_references]]
+key      = "kaporis_kirousis_lalas_2006"
+title    = "The probabilistic analysis of a greedy satisfiability algorithm"
+authors  = ["A. C. Kaporis", "L. M. Kirousis", "E. G. Lalas"]
+year     = 2006
+doi      = "10.1002/rsa.20089"
+arxiv_id = ""
+venue    = "Random Structures & Algorithms"
+notes    = "Best lower bound for that period using greedy SAT algorithm analysis. Now superseded by Coja-Oghlan 2014."
+
+[[canonical_references]]
+key      = "coja_oghlan_2014"
+title    = "The asymptotic k-SAT threshold"
+authors  = ["A. Coja-Oghlan"]
+year     = 2014
+doi      = "10.1145/2591796.2591822"
+arxiv_id = "1310.2728"
+venue    = "STOC 2014"
+notes    = "Rigorous lower bound alpha_3 >= 3.86; closes gap for large k as well."
+
+[[canonical_references]]
+key      = "mertens_mezard_zecchina_2006"
+title    = "Threshold values of random K-SAT from the cavity method"
+authors  = ["S. Mertens", "M. Mézard", "R. Zecchina"]
+year     = 2006
+doi      = "10.1002/rsa.20090"
+arxiv_id = "cs/0309020"
+venue    = "Random Structures & Algorithms"
+notes    = "Non-rigorous physics-based prediction. Provides alpha_3* ≈ 4.267 (computed via 1-RSB cavity)."
+
+[[canonical_references]]
+key      = "ding_sly_sun_2022"
+title    = "Proof of the satisfiability conjecture for large k"
+authors  = ["J. Ding", "A. Sly", "N. Sun"]
+year     = 2022
+doi      = "10.4007/annals.2022.196.1.1"
+arxiv_id = "1411.0650"
+venue    = "Ann. of Math."
+notes    = "Resolves the threshold for k >= k_0. Does NOT cover k = 3 — that case remains open."
+
+[[open_subquestions]]
+id                = "sub1"
+text              = "For n ∈ {20, 50, 100, 150, 200}, use kissat to empirically determine the 50%-satisfiability point alpha_3(n). Fit the finite-n threshold to a model alpha_3(n) = alpha_3^* + c · n^(-gamma) and extrapolate to n → ∞. How close does the extrapolation come to the predicted 4.267?"
+suggested_attack  = "Generate ~1000 random 3-SAT instances per (n, alpha) at 20 alpha values bracketing the threshold; measure satisfiable-fraction; bisect to find 50% point; fit power-law in n."
+estimated_compute = "Hours on RTX 3070 Ti + multi-core CPU; kissat is fast on n <= 200."
+status            = "open"
+
+[[open_subquestions]]
+id                = "sub2"
+text              = "At the empirical threshold for each n, is there a *measurable* clustering transition? I.e. does the *number of clusters of solutions* (computed via belief propagation or sampled by Walksat with many restarts) jump at the predicted alpha_d ≈ 3.86 for k=3?"
+suggested_attack  = "Run belief-propagation algorithm at finite n; count fixed points; compare to predicted clustering threshold. Validate the 1-RSB physics."
+estimated_compute = "Days; BP is more compute-intensive than kissat."
+status            = "open"
+
+[[open_subquestions]]
+id                = "sub3"
+text              = "Random 3-SAT vs *planted* 3-SAT: at and above the threshold, planted-3-SAT (where a satisfying assignment exists by construction) is structurally distinguishable from random uniform 3-SAT. What's the smallest n at which this distinguishability becomes empirically measurable?"
+suggested_attack  = "Generate paired instances at alpha near the threshold: one uniform, one planted with the same alpha. Measure detectability via spectral analysis of the factor graph."
+estimated_compute = "Days; sampling + spectral analysis."
+status            = "open"
