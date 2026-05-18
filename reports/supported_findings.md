@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — SUPPORTED findings"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-18 05:16 UTC"
+date: "2026-05-18 06:21 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -15,7 +15,7 @@ colorlinks: true
 
 > **⚠ AUDIT 2026-05-08**: this report has been filtered against `retractions.json`. Some entries previously listed here have been retracted following a code-level audit. See [`AUDIT_2026-05-08.md`](../AUDIT_2026-05-08.md) for the full audit document and [`MULTIAGENT_PIPELINE.md`](../MULTIAGENT_PIPELINE.md) for the new review pipeline.
 
-Compiled 2026-05-18 05:16 UTC from pvsnp_notebook.jsonl.
+Compiled 2026-05-18 06:21 UTC from pvsnp_notebook.jsonl.
 0 conjectures empirically supported (on small instances; all require follow-up at larger n).
 
 > **Important caveat**: these are _empirical_ results on instances of size ≤ 20. 
