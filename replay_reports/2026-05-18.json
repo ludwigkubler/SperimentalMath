@@ -1,0 +1,36 @@
+{
+  "ts": 1779124398.9433513,
+  "picked": 3,
+  "since_days": 7,
+  "image": "sec-pvsnp-replay",
+  "summary_counts": {
+    "drift": 1,
+    "crash": 2
+  },
+  "results": [
+    {
+      "tarball": "618e9867e153.tar.gz",
+      "rc": 2,
+      "elapsed_s": 20.6,
+      "result": "drift",
+      "first_line": "",
+      "stderr_tail": "7135658, \"instances_tested\": 12, \"conjecture_holds\": true, \"counterexample\": \"\"}\nTRIAL: {\"seed\": 53, \"metric_name\": \"sigma_{N/2+1}^2 / (N*(1-4D_2))\", \"metric_value\": 1.0441714550180308, \"instances_tested\": 12, \"conjecture_holds\": true, \"counterexample\": \"\"}\nTRIAL: {\"seed\": 71, \"metric_name\": \"sigma_{N/2+1}^2 / (N*(1-4D_2))\", \"metric_value\": 1.0455383121055162, \"instances_tested\": 12, \"conjecture_holds\": true, \"counterexample\": \"\"}\nRESULT: SUPPORTED mean=1.0450 std=0.0015 support_fraction=1.0000\n"
+    },
+    {
+      "tarball": "16809e692923.tar.gz",
+      "rc": 1,
+      "elapsed_s": 3.5,
+      "result": "crash",
+      "first_line": "",
+      "stderr_tail": "09e692923/run.py\", line 165, in spectral_pseudo_moment_matrix\n    eigenvalues, eigenvectors = matrix_eigen(L)\n                                ^^^^^^^^^^^^^^^\n  File \"/tmp/sec_replay.mymiEk/replay_16809e692923/run.py\", line 71, in matrix_eigen\n    Q, R = qr_decomposition(A)\n           ^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/sec_replay.mymiEk/replay_16809e692923/run.py\", line 87, in qr_decomposition\n    Q[i][k] = A[i][k] / R[k][k]\n              ~~~~~~~~^~~~~~~~~\nZeroDivisionError: float division by zero\n"
+    },
+    {
+      "tarball": "71110706deb9.tar.gz",
+      "rc": 1,
+      "elapsed_s": 0.1,
+      "result": "crash",
+      "first_line": "",
+      "stderr_tail": "\n  File \"/tmp/sec_replay.TDKkHR/replay_71110706deb9/run.py\", line 52, in run_trial\n    cohomological_dimension = simplicial_complex_rank(rank(B))\n                                                      ^^^^^^^\n  File \"/tmp/sec_replay.TDKkHR/replay_71110706deb9/run.py\", line 42, in rank\n    A = gaussian_elimination(A)\n        ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/sec_replay.TDKkHR/replay_71110706deb9/run.py\", line 33, in gaussian_elimination\n    A[i][j] /= factor\nZeroDivisionError: division by zero\n"
+    }
+  ]
+}

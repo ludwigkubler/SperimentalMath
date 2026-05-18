@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-18 16:26 UTC"
+date: "2026-05-18 17:00 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-18 16:26 UTC
+Generated 2026-05-18 17:00 UTC
 
-- Cycles recorded: **784**
-- Time span: 594.8h (~1.32 cycles/h)
+- Cycles recorded: **785**
+- Time span: 595.3h (~1.32 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 744 |
+| INCONCLUSIVE | 745 |
 | BARRIER_HIT | 20 |
 | FALSIFIED | 16 |
 | SUPPORTED | 4 |
@@ -67,7 +67,6 @@ Generated 2026-05-18 16:26 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-18 06:47 UTC | `INCONCLUSIVE` | Bourgain Noise-Sensitivity Mass of Clause-Falsification Polynomia |
 | 2026-05-18 07:28 UTC | `INCONCLUSIVE` | Generated Algebra Dimension of Layer Operators Bounds IP_2 Read-T |
 | 2026-05-18 08:08 UTC | `INCONCLUSIVE` | Szegedy Quantum-Walk Phase Gap Lower-Bounds Tseitin Tree-Resoluti |
 | 2026-05-18 08:28 UTC | `INCONCLUSIVE` | Halász L^2 Spectrum Discrepancy Lower-Bounds Sign-Matrix Rigidity |
@@ -82,6 +81,7 @@ Generated 2026-05-18 16:26 UTC
 | 2026-05-18 13:00 UTC | `INCONCLUSIVE` | Fiedler Participation Entropy Lower-Bounds Tseitin Tree-Resolutio |
 | 2026-05-18 13:47 UTC | `INCONCLUSIVE` | Hypercontractive Term-Pair Contraction Defect Bounds Monotone CLI |
 | 2026-05-18 16:26 UTC | `INCONCLUSIVE` | Lovász-Theta of Term-Conflict Graph Bounds Monotone k-CLIQUE DNF |
+| 2026-05-18 17:00 UTC | `INCONCLUSIVE` | Sidon B_2-Witness Failure of ACC⁰[2] for Sipser via MOD-Gate Outp |
 
 ## How to read the reports
 
