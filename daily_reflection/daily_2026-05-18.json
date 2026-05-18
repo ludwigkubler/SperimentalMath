@@ -1,0 +1,33 @@
+{
+  "ts": 1779075182.0470402,
+  "window_h": 24.0,
+  "n_conjectures": 36,
+  "n_papers": 0,
+  "n_scoops": 0,
+  "scoops": [],
+  "top_overlap": [],
+  "stats": {
+    "n_cycles": 36,
+    "verdicts": {
+      "INCONCLUSIVE": 34,
+      "BARRIER_HIT": 1,
+      "FALSIFIED": 1
+    },
+    "focus_distribution": {
+      "GCT_DET_PERM": 4,
+      "BP_READTWICE": 2,
+      "TSEITIN_RES": 2,
+      "AC0_PARITY": 1,
+      "SOS_DEGREE": 2,
+      "MONOTONE_CLIQUE": 3,
+      "COMM_DISJ": 2
+    },
+    "top_fields_A": {
+      "Stembridge–Stanley immanant theory: the λ-immanant": 1,
+      "Curto-Fialkow truncated moment problem theory (Han": 1,
+      "Combinatorial Hodge theory on graphs (pairing of h": 1,
+      "Abelian sandpile / chip-firing group theory (Dhar ": 1,
+      "Conway-Berlekamp combinatorial game theory: left/r": 1
+    }
+  }
+}

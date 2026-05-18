@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-18 03:29 UTC"
+date: "2026-05-18 04:25 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-18 03:29 UTC
+Generated 2026-05-18 04:25 UTC
 
-- Cycles recorded: **763**
-- Time span: 581.8h (~1.31 cycles/h)
+- Cycles recorded: **765**
+- Time span: 582.7h (~1.31 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 723 |
+| INCONCLUSIVE | 725 |
 | BARRIER_HIT | 20 |
 | FALSIFIED | 16 |
 | SUPPORTED | 4 |
@@ -67,8 +67,6 @@ Generated 2026-05-18 03:29 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-17 18:27 UTC | `INCONCLUSIVE` | Burau Trace Defect of Clause Braid Lower-Bounds Tree-Resolution S |
-| 2026-05-17 19:02 UTC | `INCONCLUSIVE` | Euler Characteristic of Gate-Conflict Independence Complex Bounds |
 | 2026-05-17 19:17 UTC | `INCONCLUSIVE` | Tamari Rotation Rank of Canonical DT Lower-Bounds XOR-Lifted F2-R |
 | 2026-05-17 19:47 UTC | `INCONCLUSIVE` | Immanant Log-Variance Separates Random Matrices from Det-Padded B |
 | 2026-05-17 20:14 UTC | `INCONCLUSIVE` | Hypercontractive Term-Support Stable Rank Bounds Monotone Clique  |
@@ -82,6 +80,8 @@ Generated 2026-05-18 03:29 UTC
 | 2026-05-17 23:46 UTC | `INCONCLUSIVE` | Eulerian Descent Entropy Separates Perm from Padded Det_m |
 | 2026-05-18 00:33 UTC | `INCONCLUSIVE` | Signed-Laplacian Holonomy Spectrum Bounds Tseitin Tree-Resolution |
 | 2026-05-18 03:29 UTC | `INCONCLUSIVE` | Bonami-Beckner 4-2 Saturation of Clause-Sum Bounds DPLL Depth |
+| 2026-05-18 03:58 UTC | `INCONCLUSIVE` | Cycle-Type Mixing Defect of Barrington BP Bounds NC^1 Length |
+| 2026-05-18 04:25 UTC | `INCONCLUSIVE` | NW-Design Restriction Dimension Separates Perm from Padded Det |
 
 ## How to read the reports
 

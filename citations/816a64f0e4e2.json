@@ -1,0 +1,40 @@
+{
+  "entry_id": "816a64f0e4e2",
+  "ts": 1779076793.0396786,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/1709.08890v2",
+      "title": "Partial matching width and its application to lower bounds for branching programs",
+      "abstract_excerpt": "We introduce a new structural graph parameter called \\emph{partial matching width}. For each (sufficiently large) integer $k \\geq 1$, we introduce a class $\\mathcal{G}_k$ of graphs of treewidth at most $k$ and max-degree $7$ such that for each $G \\in \\mathcal{G}_k$ and each (sufficiently large) $V \\",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract introduces 'partial matching width' as a graph parameter for branching program lower bounds via treewidth, which shares the 'branching program lower bound' framework but does not interact with conjugacy-class mixing on S_5, Barrington's width-5 construction, or the MIX·L vs log LeafSize inequality.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1107.1826v4",
+      "title": "Conjugacy growth of finitely generated groups",
+      "abstract_excerpt": "We show that every non-decreasing function $f\\colon \\mathbb N\\to \\mathbb N$ bounded from above by $a^n$ for some $a\\ge 1$ can be realized (up to a natural equivalence) as the conjugacy growth function of a finitely generated group. We also construct a finitely generated group $G$ and a subgroup $H\\l",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'conjugacy growth function of a finitely generated group' — a realization result about counting conjugacy classes by length in infinite groups — which shares only the word 'conjugacy' with the conjecture about mixing on S_5 conjugacy classes in branching programs.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1007.1875v2",
+      "title": "Lower Bounds for Quantum Oblivious Transfer",
+      "abstract_excerpt": "Oblivious transfer is a fundamental primitive in cryptography. While perfect information theoretic security is impossible, quantum oblivious transfer protocols can limit the dishonest players' cheating. Finding the optimal security parameters in such protocols is an important open question. In this ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quantum oblivious transfer cryptographic protocols and their security parameters, which has no interaction with Barrington branching programs, S_5 conjugacy-class mixing, or NC^1 formula lower bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

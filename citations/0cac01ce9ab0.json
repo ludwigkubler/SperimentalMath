@@ -1,0 +1,40 @@
+{
+  "entry_id": "0cac01ce9ab0",
+  "ts": 1779078330.7004552,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/2202.13016v1",
+      "title": "Bounds on Determinantal Complexity of Two Types of Generalized Permanents",
+      "abstract_excerpt": "We define two new families of polynomials that generalize permanents and prove upper and lower bounds on their determinantal complexities comparable to the known bounds for permanents. One of these families is obtained by replacing permutations by signed permutations, and the other by replacing perm",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses determinantal complexity bounds for generalized permanent families (signed permutations, etc.), not Nisan-Wigderson design restriction dimensions or the specific separation method in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1007.3804v4",
+      "title": "Symmetric Determinantal Representation of Formulas and Weakly Skew Circuits",
+      "abstract_excerpt": "We deploy algebraic complexity theoretic techniques for constructing symmetric determinantal representations of for00504925mulas and weakly skew circuits. Our representations produce matrices of much smaller dimensions than those given in the convex geometry literature when applied to polynomials ha",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns constructing symmetric determinantal representations of formulas/weakly skew circuits with smaller matrix dimensions, which is a constructive upper-bound direction unrelated to Nisan–Wigderson design restrictions or the proposed ρ_D dimension measure separating perm from padded det.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0106076v3",
+      "title": "A determinantal formula for the Hilbert series of one-sided ladder determinantal rings",
+      "abstract_excerpt": "We give a formula that expresses the Hilbert series of one-sided ladder determinantal rings, up to a trivial factor, in form of a determinant. This allows the convenient computation of these Hilbert series. The formula follows from a determinantal formula for a generating function for families of no",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Hilbert series of one-sided ladder determinantal rings via a determinantal generating-function formula, which shares only the word 'determinantal' with the conjecture and says nothing about Nisan–Wigderson designs, restriction dimensions, or perm vs padded det separation.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
