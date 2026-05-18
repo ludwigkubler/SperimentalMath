@@ -1,0 +1,31 @@
+{
+  "entry_id": "9aa41336cecd",
+  "ts": 1779102157.1065898,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.1145/225058.225275",
+      "title": "Lower bounds for cutting planes proofs with small coefficients",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available for this paper, so I cannot assess whether it supports, refutes, or is orthogonal to the conjecture relating Cartier–Foata clique polynomial roots to tree-Resolution/Frege depth lower bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:cc9303da15c993f22af885c1375974ffce4b68e0",
+      "title": "Lower Bounds for Cutting Planes Proofs with Small Coe cientsMaria",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available ('no abstract available'), so I cannot determine whether the paper's content supports, refutes, or is orthogonal to the heap-radius/Frege-depth conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 2
+  }
+}

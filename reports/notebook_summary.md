@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-18 10:27 UTC"
+date: "2026-05-18 11:29 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-18 10:27 UTC
+Generated 2026-05-18 11:29 UTC
 
-- Cycles recorded: **777**
-- Time span: 588.8h (~1.32 cycles/h)
+- Cycles recorded: **779**
+- Time span: 589.8h (~1.32 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 737 |
+| INCONCLUSIVE | 739 |
 | BARRIER_HIT | 20 |
 | FALSIFIED | 16 |
 | SUPPORTED | 4 |
@@ -67,8 +67,6 @@ Generated 2026-05-18 10:27 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-18 03:29 UTC | `INCONCLUSIVE` | Bonami-Beckner 4-2 Saturation of Clause-Sum Bounds DPLL Depth |
-| 2026-05-18 03:58 UTC | `INCONCLUSIVE` | Cycle-Type Mixing Defect of Barrington BP Bounds NC^1 Length |
 | 2026-05-18 04:25 UTC | `INCONCLUSIVE` | NW-Design Restriction Dimension Separates Perm from Padded Det |
 | 2026-05-18 04:47 UTC | `INCONCLUSIVE` | Coxeter Inversion Spread of Barrington BPs Bounds NC^1 Depth |
 | 2026-05-18 05:16 UTC | `INCONCLUSIVE` | Birkhoff Spectral Gap of Gate Co-occurrence Bounds AC^0 PARITY Co |
@@ -82,6 +80,8 @@ Generated 2026-05-18 10:27 UTC
 | 2026-05-18 09:23 UTC | `INCONCLUSIVE` | Patience-Sort LIS of XOR-Lifted Row Permutations Bounds CC^D |
 | 2026-05-18 09:54 UTC | `INCONCLUSIVE` | Effective Resistance of Charged Vertex Pairs Bounds Tseitin DPLL  |
 | 2026-05-18 10:26 UTC | `INCONCLUSIVE` | p=3 Path-Family Modulus Lower-Bounds Tseitin Tree-Resolution |
+| 2026-05-18 11:02 UTC | `INCONCLUSIVE` | Viennot Heap Radius of Clause-Conflict Graph Bounds Frege Depth |
+| 2026-05-18 11:29 UTC | `INCONCLUSIVE` | Lee-Yang Zero Cluster Angle of Cut Polynomial Bounds Max-Cut SoS- |
 
 ## How to read the reports
 

@@ -1,0 +1,40 @@
+{
+  "entry_id": "62a36df2450c",
+  "ts": 1779103796.088729,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/1601.01561v2",
+      "title": "Fully Computable Error Bounds for Eigenvalue Problem",
+      "abstract_excerpt": "This paper is concerned with the computable error estimates for the eigenvalue problem which is solved by the general conforming finite element methods on the general meshes. Based on the computable error estimate, we can give an asymptotically lower bound of the general eigenvalues. Furthermore, we",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns computable error bounds for eigenvalue problems via conforming finite element methods, which does not interact with Lee-Yang zeros of cut polynomials or Max-Cut SoS-2 integrality gaps.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1812.01419v3",
+      "title": "On existence of shift-type invariant subspaces for polynomially bounded operator",
+      "abstract_excerpt": "A particular case of results from [K2] is as follows. Let the unitary asymptote of a contraction $T$ contain the bilateral shift (of finite or infinite multiplicity). Then there exists an invariant subspace $\\mathcal M$ of $T$ such that $T|_{\\mathcal M}$ is similar to the unilateral shift of the sam",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns invariant subspaces for polynomially bounded operators and unilateral/bilateral shifts in operator theory, with no engagement with Lee-Yang zeros, cut polynomials, Max-Cut, or SoS relaxations.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1508.07346v2",
+      "title": "Bounding Eigenvalues with Packing Density",
+      "abstract_excerpt": "We prove a lower bound on the eigenvalues $λ_k$, $k\\in\\mathbb{N}$, of the Dirichlet Laplacian of a bounded domain $Ω\\subset\\mathbb{R}^n$ of volume $V$: $$ λ_k \\geq C_n\\bigg( δ\\frac{k}{V}\\bigg)^{2/n} $$ where $δ$ is a constant that measures how efficiently $Ω$ can be packed into $\\mathbb{R}^n$ and $C",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns lower bounds on Dirichlet Laplacian eigenvalues of bounded domains in R^n via packing density, which has no interaction with Lee-Yang zeros of cut polynomials or the Delorme-Poljak SoS-2 Max-Cut gap.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
