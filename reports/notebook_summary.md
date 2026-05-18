@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-18 20:36 UTC"
+date: "2026-05-18 21:12 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-18 20:36 UTC
+Generated 2026-05-18 21:12 UTC
 
-- Cycles recorded: **791**
-- Time span: 598.9h (~1.32 cycles/h)
+- Cycles recorded: **792**
+- Time span: 599.5h (~1.32 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 751 |
+| INCONCLUSIVE | 752 |
 | BARRIER_HIT | 20 |
 | FALSIFIED | 16 |
 | SUPPORTED | 4 |
@@ -67,7 +67,6 @@ Generated 2026-05-18 20:36 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-18 10:26 UTC | `INCONCLUSIVE` | p=3 Path-Family Modulus Lower-Bounds Tseitin Tree-Resolution |
 | 2026-05-18 11:02 UTC | `INCONCLUSIVE` | Viennot Heap Radius of Clause-Conflict Graph Bounds Frege Depth |
 | 2026-05-18 11:29 UTC | `INCONCLUSIVE` | Lee-Yang Zero Cluster Angle of Cut Polynomial Bounds Max-Cut SoS- |
 | 2026-05-18 11:55 UTC | `INCONCLUSIVE` | Additive Energy of Out-Degree Sequence Bounds ACC^0[2] MOD_3 Size |
@@ -82,6 +81,7 @@ Generated 2026-05-18 20:36 UTC
 | 2026-05-18 19:09 UTC | `INCONCLUSIVE` | Dismantlability Core of Clause-Sharing Graph Bounds Tree-Res Size |
 | 2026-05-18 19:38 UTC | `INCONCLUSIVE` | Baker-Norine ω-Gonality Lower-Bounds Tseitin DPLL Size |
 | 2026-05-18 20:36 UTC | `INCONCLUSIVE` | Morse-Hedlund Factor Complexity of XOR-Lifted Rows Upper-Bounds D |
+| 2026-05-18 21:12 UTC | `INCONCLUSIVE` | Gromov 4-Point Hyperbolicity of Gate-Graph Caps ACC^0[2] Bias on  |
 
 ## How to read the reports
 
