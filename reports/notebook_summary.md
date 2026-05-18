@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-18 06:21 UTC"
+date: "2026-05-18 07:28 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-18 06:21 UTC
+Generated 2026-05-18 07:28 UTC
 
-- Cycles recorded: **769**
-- Time span: 584.7h (~1.32 cycles/h)
+- Cycles recorded: **771**
+- Time span: 585.8h (~1.32 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 729 |
+| INCONCLUSIVE | 731 |
 | BARRIER_HIT | 20 |
 | FALSIFIED | 16 |
 | SUPPORTED | 4 |
@@ -67,8 +67,6 @@ Generated 2026-05-18 06:21 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-17 20:47 UTC | `INCONCLUSIVE` | Fekete Capacity of Laplacian Spectrum Upper-Bounds Max-Cut SoS-2  |
-| 2026-05-17 21:20 UTC | `INCONCLUSIVE` | Polymer Cluster-Expansion Convergence Radius Bounds Tree-Res Size |
 | 2026-05-17 21:53 UTC | `INCONCLUSIVE` | Fatgraph Genus of Canonical Clause Ribbon Lower-Bounds Resolution |
 | 2026-05-17 22:25 UTC | `FALSIFIED` | Forman-Ricci Min-Curvature of Term-Overlap Graph Lower-Bounds Mon |
 | 2026-05-17 22:43 UTC | `INCONCLUSIVE` | Bourgain-Tzafriri Sub-Column Spectral Excess Bounds DISJ CC_R |
@@ -82,6 +80,8 @@ Generated 2026-05-18 06:21 UTC
 | 2026-05-18 05:16 UTC | `INCONCLUSIVE` | Birkhoff Spectral Gap of Gate Co-occurrence Bounds AC^0 PARITY Co |
 | 2026-05-18 05:56 UTC | `INCONCLUSIVE` | Mansour L1 Fourier Mass of Clause-Falsification Polynomial Bounds |
 | 2026-05-18 06:21 UTC | `INCONCLUSIVE` | Chang Spectrum Dimension of Wire-Source DFS Labels Bounds ACC^0[2 |
+| 2026-05-18 06:47 UTC | `INCONCLUSIVE` | Bourgain Noise-Sensitivity Mass of Clause-Falsification Polynomia |
+| 2026-05-18 07:28 UTC | `INCONCLUSIVE` | Generated Algebra Dimension of Layer Operators Bounds IP_2 Read-T |
 
 ## How to read the reports
 
