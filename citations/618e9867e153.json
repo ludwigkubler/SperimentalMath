@@ -1,0 +1,40 @@
+{
+  "entry_id": "618e9867e153",
+  "ts": 1779092924.6833742,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1007.3178",
+      "title": "Combination of CDF and D0 Results on the Mass of the Top Quark",
+      "abstract_excerpt": "We summarize the top-quark mass measurements from the CDF and DO experiments at Fermilab. We combine published Run I (1992-1996) measurements with the most precise published and preliminary Run II (2001-present) measurements using up to 5.6fb-1 of data. Taking uncertainty correlations properly into account, and adding in quadrature the statistical and systematic uncertainties, the resulting preliminary Tevatron average mass of the top quark is M(top) = 173.3+-1.1.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract is about combining CDF and D0 experimental measurements of the top quark mass at Fermilab ('preliminary Tevatron average mass of the top quark is M(top) = 173.3+-1.1'), which is high-energy physics and has no connection to matrix rigidity or discrepancy theory.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1107.5255",
+      "title": "Combination of CDF and DO results on the mass of the top quark using up to 5.8~fb-1 of data",
+      "abstract_excerpt": "We summarize the top-quark mass measurements from the CDF and DO experiments at Fermilab. We combine published Run I (1992--1996) measurements with the most precise published and preliminary Run II (2001-present) measurements using up to 5.8 fb-1 of data, adding new analyses (the Met+Jets analysis) and updating old ones. Taking uncertainty correlations into account, and adding in quadrature the statistical and systematic uncertainties, the resulting preliminary Tevatron average mass of the top q",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract is about a Tevatron particle-physics measurement of the top-quark mass ('preliminary Tevatron average mass of the top quark is M_T=173.2+/-0.9 GeV/c^2'), with no connection to discrepancy theory, sign matrices, or rigidity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/hep-ex/9810031v1",
+      "title": "Search for a Technicolor omega_T Particle in Events with a Photon and a b-quark Jet at CDF",
+      "abstract_excerpt": "If the Technicolor omega_T particle exists, a likely decay mode is omega_T -&gt; gamma pi_T, followed by pi_T -&gt; bb-bar, yielding the signature gamma bb-bar. We have searched 85 pb^-1 of data collected by the CDF experiment at the Fermilab Tevatron for events with a photon and two jets, where one",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a CDF experimental search for a Technicolor omega_T particle decaying to a photon and b-quark jet, which has no connection to matrix rigidity, sign matrices, or Halász L^2 discrepancy.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

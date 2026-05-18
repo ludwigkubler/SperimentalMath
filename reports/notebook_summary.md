@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-18 07:28 UTC"
+date: "2026-05-18 08:28 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-18 07:28 UTC
+Generated 2026-05-18 08:28 UTC
 
-- Cycles recorded: **771**
-- Time span: 585.8h (~1.32 cycles/h)
+- Cycles recorded: **773**
+- Time span: 586.8h (~1.32 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 731 |
+| INCONCLUSIVE | 733 |
 | BARRIER_HIT | 20 |
 | FALSIFIED | 16 |
 | SUPPORTED | 4 |
@@ -67,8 +67,6 @@ Generated 2026-05-18 07:28 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-17 21:53 UTC | `INCONCLUSIVE` | Fatgraph Genus of Canonical Clause Ribbon Lower-Bounds Resolution |
-| 2026-05-17 22:25 UTC | `FALSIFIED` | Forman-Ricci Min-Curvature of Term-Overlap Graph Lower-Bounds Mon |
 | 2026-05-17 22:43 UTC | `INCONCLUSIVE` | Bourgain-Tzafriri Sub-Column Spectral Excess Bounds DISJ CC_R |
 | 2026-05-17 23:19 UTC | `INCONCLUSIVE` | Trivial-Isotype Mass Gap Separates Perm from Padded Det |
 | 2026-05-17 23:46 UTC | `INCONCLUSIVE` | Eulerian Descent Entropy Separates Perm from Padded Det_m |
@@ -82,6 +80,8 @@ Generated 2026-05-18 07:28 UTC
 | 2026-05-18 06:21 UTC | `INCONCLUSIVE` | Chang Spectrum Dimension of Wire-Source DFS Labels Bounds ACC^0[2 |
 | 2026-05-18 06:47 UTC | `INCONCLUSIVE` | Bourgain Noise-Sensitivity Mass of Clause-Falsification Polynomia |
 | 2026-05-18 07:28 UTC | `INCONCLUSIVE` | Generated Algebra Dimension of Layer Operators Bounds IP_2 Read-T |
+| 2026-05-18 08:08 UTC | `INCONCLUSIVE` | Szegedy Quantum-Walk Phase Gap Lower-Bounds Tseitin Tree-Resoluti |
+| 2026-05-18 08:28 UTC | `INCONCLUSIVE` | Halász L^2 Spectrum Discrepancy Lower-Bounds Sign-Matrix Rigidity |
 
 ## How to read the reports
 
