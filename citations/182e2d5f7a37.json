@@ -1,0 +1,40 @@
+{
+  "entry_id": "182e2d5f7a37",
+  "ts": 1779146776.3441293,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1107.1630",
+      "title": "On the Integrality Gap of the Subtour LP for the 1,2-TSP",
+      "abstract_excerpt": "In this paper, we study the integrality gap of the subtour LP relaxation for the traveling salesman problem in the special case when all edge costs are either 1 or 2. For the general case of symmetric costs that obey triangle inequality, a famous conjecture is that the integrality gap is 4/3. Little progress towards resolving this conjecture has been made in thirty years. We conjecture that when all edge costs $c_{ij}\\in \\{1,2\\}$, the integrality gap is $10/9$. We show that this conjecture is tr",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the integrality gap of the subtour LP relaxation for the 1,2-TSP, with no mention of Max-Cut, SoS-2/Delorme-Poljak, Laplacian eigenvectors, or Kashin L1/L2 flatness. It shares only the generic concept of 'integrality gap' but does not interact with the specific conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2404.18142",
+      "title": "Revisiting Majumdar-Ghosh spin chain model and Max-cut problem using variational quantum algorithms",
+      "abstract_excerpt": "In this work, energy levels of the Majumdar-Ghosh model (MGM) are analyzed up to 15 spins chain in the noisy intermediate-scale quantum framework using noisy simulations. This is a useful model whose exact solution is known for a particular choice of interaction coefficients. We have solved this model for interaction coefficients other than that required for the exactly solvable conditions as this solution can be of help in understanding the quantum phase transitions in complex spin chain models",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns variational quantum algorithms (QAOA/VQE) applied to a spin chain model and an unweighted 17-node Max-Cut instance, with no mention of Laplacian eigenvector L1/L2 flatness, Kashin dispersion, or SoS-2/Delorme-Poljak integrality gaps. It shares only the 'Max-Cut' keyword and does not interact with the specific κ(G) vs. ρ(G) inequality.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1909.00238",
+      "title": "Principal eigenvectors of general hypergraphs",
+      "abstract_excerpt": "In this paper we obtain bounds for the extreme entries of the principal eigenvector of hypergraphs; these bounds are computed using the spectral radius and some classical parameters such as maximum and minimum degrees. We also study inequalities involving the ratio and difference between the two extreme entries of this vector.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns bounds on extreme entries of principal eigenvectors of hypergraphs via spectral radius and degree parameters, not the L1/L2 flatness deficit of the top Laplacian eigenvector nor any Max-Cut SoS-2 integrality gap. It shares the 'principal eigenvector' vocabulary but does not interact with κ(G), DP(G), or ρ(G).",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

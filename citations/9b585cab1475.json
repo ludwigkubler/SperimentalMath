@@ -1,0 +1,40 @@
+{
+  "entry_id": "9b585cab1475",
+  "ts": 1779147580.9842381,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:cs/0111062",
+      "title": "One-way communication complexity and the Neciporuk lower bound on formula size",
+      "abstract_excerpt": "In this paper the Neciporuk method for proving lower bounds on the size of Boolean formulae is reformulated in terms of one-way communication complexity. We investigate the scenarios of probabilistic formulae, nondeterministic formulae, and quantum formulae. In all cases we can use results about one-way communication complexity to prove lower bounds on formula size. In the latter two cases we newly develop the employed communication complexity bounds. The main results regarding formula size are ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Neciporuk-style formula-size lower bounds via one-way communication complexity and VC-dimension, with no mention of free cumulants, spectral moments, stable rank, or two-party randomized DISJ lower bounds in the conjectured spectral form.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2207.14810",
+      "title": "Simplifying a classical-quantum algorithm interpolation with quantum singular value transformations",
+      "abstract_excerpt": "The problem of Phase Estimation (or Amplitude Estimation) admits a quadratic quantum speedup. Wang, Higgott and Brierley [2019, Phys. Rev. Lett. 122 140504] have shown that there is a continuous trade-off between quantum speedup and circuit depth (by defining a family of algorithms known as $α$-QPE). In this work, we show that the scaling of $α$-QPE can be naturally and succinctly derived within the framework of Quantum Singular Value Transformation (QSVT). From the QSVT perspective, a greater n",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Quantum Singular Value Transformation applied to Phase/Amplitude Estimation and sign-function polynomial approximation, with no mention of free cumulants, stable rank, randomized communication complexity, or disjointness lower bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:cs/9906008",
+      "title": "A Lower Bound on the Average-Case Complexity of Shellsort",
+      "abstract_excerpt": "We prove a general lower bound on the average-case complexity of Shellsort: the average number of data-movements (and comparisons) made by a $p$-pass Shellsort for any incremental sequence is $Ω(pn^{1 + 1/p})$ for every $p$. The proof method is an incompressibility argument based on Kolmogorov complexity. Using similar techniques, the average-case complexity of several other sorting algorithms is analyzed.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns average-case lower bounds for Shellsort via Kolmogorov complexity incompressibility arguments, with no mention of free cumulants, stable rank, communication complexity, or disjointness.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

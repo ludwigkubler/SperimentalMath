@@ -1,0 +1,40 @@
+{
+  "entry_id": "38a575588f7c",
+  "ts": 1779144527.8365574,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1806.02734",
+      "title": "Spectral lower bounds for the orthogonal and projective ranks of a graph",
+      "abstract_excerpt": "The orthogonal rank of a graph $G=(V,E)$ is the smallest dimension $ξ$ such that there exist non-zero column vectors $x_v\\in\\mathbb{C}^ξ$ for $v\\in V$ satisfying the orthogonality condition $x_v^\\dagger x_w=0$ for all $vw\\in E$. We prove that many spectral lower bounds for the chromatic number, $χ$, are also lower bounds for $ξ$. This result complements a previous result by the authors, in which they showed that spectral lower bounds for $χ$ are also lower bounds for the quantum chromatic number",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns spectral lower bounds for orthogonal/projective ranks of graphs and quantum chromatic numbers, not Schatten stable rank of branching program layer-difference stacks or RT-BP size for IP_2. The 'spectral lower bounds' vocabulary overlaps but the objects and claim are unrelated.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1709.08890",
+      "title": "Partial matching width and its application to lower bounds for branching programs",
+      "abstract_excerpt": "We introduce a new structural graph parameter called \\emph{partial matching width}. For each (sufficiently large) integer $k \\geq 1$, we introduce a class $\\mathcal{G}_k$ of graphs of treewidth at most $k$ and max-degree $7$ such that for each $G \\in \\mathcal{G}_k$ and each (sufficiently large) $V \\subseteq V(G)$, the partial matching width of $V$ is $Ω(k \\log |V|)$.\n  We use the above lower bound to establish a lower bound on the size of non-deterministic read-once branching programs (NROBPs). ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'partial matching width' for NROBP lower bounds on CNFs of bounded treewidth, not the Schatten stable rank of a layer-difference stack nor read-twice BPs for IP_2. It shares only the general 'branching program lower bound' framework without interacting with the specific sr(D(P)) invariant or the IP_2 read-twice claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1007.1875",
+      "title": "Lower Bounds for Quantum Oblivious Transfer",
+      "abstract_excerpt": "Oblivious transfer is a fundamental primitive in cryptography. While perfect information theoretic security is impossible, quantum oblivious transfer protocols can limit the dishonest players' cheating. Finding the optimal security parameters in such protocols is an important open question. In this paper we show that every 1-out-of-2 oblivious transfer protocol allows a dishonest party to cheat with probability bounded below by a constant strictly larger than 1/2. Alice's cheating is defined as ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quantum oblivious transfer cheating probabilities and Kitaev's SDP coin flipping lower bound, with no mention of branching programs, IP_2, stable rank, or Schatten norms relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

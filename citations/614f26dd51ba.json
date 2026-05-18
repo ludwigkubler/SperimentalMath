@@ -1,0 +1,40 @@
+{
+  "entry_id": "614f26dd51ba",
+  "ts": 1779146072.2655025,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1408.6321",
+      "title": "Crossing Minimization for 1-page and 2-page Drawings of Graphs with Bounded Treewidth",
+      "abstract_excerpt": "We investigate crossing minimization for 1-page and 2-page book drawings. We show that computing the 1-page crossing number is fixed-parameter tractable with respect to the number of crossings, that testing 2-page planarity is fixed-parameter tractable with respect to treewidth, and that computing the 2-page crossing number is fixed-parameter tractable with respect to the sum of the number of crossings and the treewidth of the input graph. We prove these results via Courcelle's theorem on the fi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns FPT crossing-minimization for book drawings via Courcelle's theorem on bounded-treewidth graphs, with no mention of Boolean functions, DNF size, prime implicants, or MCSP. It shares only the vocabulary 'treewidth' without interacting with the conjectured τ(f) ≥ tw(G(f))+1 bound.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1210.8205",
+      "title": "Treewidth of the Line Graph of Complete and Complete Multipartite Graphs",
+      "abstract_excerpt": "In recent papers by Grohe and Marx, the treewidth of the line graph of the complete graph is a critical example. We determine the exact treewidth of the line graph of the complete graph. By extending these techniques, we determine the exact treewidth of the line graph of a regular complete multipartite graph. For an arbitrary complete multipartite graph, we determine the treewidth of the line graph up to a lower order term.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses treewidth of line graphs of complete and complete multipartite graphs, with no mention of Boolean functions, prime implicants, DNF minimization, or compatibility graphs. It shares only the 'treewidth' vocabulary without interacting with the conjectured DNF-size lower bound.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0909.3221",
+      "title": "The Stackelberg Minimum Spanning Tree Game on Planar and Bounded-Treewidth Graphs",
+      "abstract_excerpt": "The Stackelberg Minimum Spanning Tree Game is a two-level combinatorial pricing problem played on a graph representing a network. Its edges are colored either red or blue, and the red edges have a given fixed cost, representing the competitor's prices. The first player chooses an assignment of prices to the blue edges, and the second player then buys the cheapest spanning tree, using any combination of red and blue edges. The goal of the first player is to maximize the total price of purchased b",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a Stackelberg pricing game for minimum spanning trees on planar/bounded-treewidth graphs, with no mention of Boolean functions, prime implicants, DNF minimization, or meta-complexity. It shares only the vocabulary 'treewidth' but does not interact with the conjectured τ(f) ≥ tw(G(f))+1 bound.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

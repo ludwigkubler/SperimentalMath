@@ -83,8 +83,9 @@ key      = "razborov_1985"
 title    = "Lower bounds on monotone complexity of the logical permanent"
 authors  = ["A. A. Razborov"]
 year     = 1985
-arxiv_id = "" # if any
+arxiv_id = "" # one of {arxiv_id, doi, isbn} required (else exempt as folklore)
 doi      = "10.1070/SM1985v050n01ABEH002825"
+isbn     = "" # for monographs without DOI
 venue    = "Mathematics of the USSR-Sbornik"
 notes    = ""
 ```
@@ -107,7 +108,7 @@ status            = "open"   # open | in_progress | resolved | dropped
 1. `problem_id` MUST match the filename: `<problem_id>.toml`
 2. `statement.lean_file` MUST exist next to the TOML
 3. Every `reference_key` in `known_bounds.reference_key` and `known_barriers.reference_key` MUST exist in `canonical_references`
-4. Every `[[canonical_references]]` MUST have either an `arxiv_id` or a `doi` (at least one)
+4. Every `[[canonical_references]]` MUST have at least one of `arxiv_id`, `doi`, `isbn`
 5. `last_reviewed` MUST be within the last 90 days of the load time (else load fails — forces periodic refresh)
 
 ---

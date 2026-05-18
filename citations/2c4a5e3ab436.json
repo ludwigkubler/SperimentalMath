@@ -1,0 +1,40 @@
+{
+  "entry_id": "2c4a5e3ab436",
+  "ts": 1779145088.2511115,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2303.08167",
+      "title": "On the Gap between Hereditary Discrepancy and the Determinant Lower Bound",
+      "abstract_excerpt": "The determinant lower bound of Lovasz, Spencer, and Vesztergombi [European Journal of Combinatorics, 1986] is a powerful general way to prove lower bounds on the hereditary discrepancy of a set system. In their paper, Lovasz, Spencer, and Vesztergombi asked if hereditary discrepancy can also be bounded from above by a function of the hereditary discrepancy. This was answered in the negative by Hoffman, and the largest known multiplicative gap between the two quantities for a set system of $m$ su",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the multiplicative gap between hereditary discrepancy and the determinant lower bound for set systems, with no mention of sign-matrix singular values, Friedman spectral rigidity, or the inequality 4·sigma_r(M)^2 >= max|det(A)|^{2/r}. It shares the 'determinant lower bound' vocabulary but does not interact with the specific spectral-vs-submatrix-determinant claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1101.0767",
+      "title": "The determinant bound for discrepancy is almost tight",
+      "abstract_excerpt": "In 1986 Lovasz, Spencer, and Vesztergombi proved a lower bound for the hereditary a discrepancy of a set system F in terms of determinants of square submatrices of the incidence matrix of F. As shown by an example of Hoffman, this bound can differ from herdisc(F) by a multiplicative factor of order almost log n, where n is the size of the ground set of F. We prove that it never differs by more than O((log n)3/2), assuming |F| bounded by a polynomial in n. We also prove that if such an F is the u",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the relationship between the determinant lower bound and hereditary discrepancy of set systems ('it never differs by more than O((log n)^{3/2})'), with no mention of sign-matrix rigidity, singular values, or the Friedman spectral bound. It shares the Matousek det-LB vocabulary but does not interact with the specific inequality 4·σ_r(M)^2 ≥ max|det(A)|^{2/r}.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2108.07945",
+      "title": "A Tighter Relation Between Hereditary Discrepancy and Determinant Lower Bound",
+      "abstract_excerpt": "In seminal work, Lovász, Spencer, and Vesztergombi [European J. Combin., 1986] proved a lower bound for the hereditary discrepancy of a matrix $A \\in \\mathbb{R}^{m \\times n}$ in terms of the maximum $|\\det(B)|^{1/k}$ over all $k \\times k$ submatrices $B$ of $A$. We show algorithmically that this determinant lower bound can be off by at most a factor of $O(\\sqrt{\\log (m) \\cdot \\log (n)})$, improving over the previous bound of $O(\\log(mn) \\cdot \\sqrt{\\log (n)})$ given by Matoušek [Proc. of the AMS",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the gap between hereditary discrepancy and the determinant lower bound (improving Matoušek's factor to O(√(log m · log n))), with no mention of singular values, sign-matrix rigidity, or Friedman's spectral bound. It shares the determinant-lower-bound vocabulary but does not interact with the specific inequality 4·σ_r(M)² ≥ max|det(A)|^{2/r}.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
