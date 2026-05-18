@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-18 09:24 UTC"
+date: "2026-05-18 10:27 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-18 09:24 UTC
+Generated 2026-05-18 10:27 UTC
 
-- Cycles recorded: **775**
-- Time span: 587.7h (~1.32 cycles/h)
+- Cycles recorded: **777**
+- Time span: 588.8h (~1.32 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 735 |
+| INCONCLUSIVE | 737 |
 | BARRIER_HIT | 20 |
 | FALSIFIED | 16 |
 | SUPPORTED | 4 |
@@ -67,8 +67,6 @@ Generated 2026-05-18 09:24 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-17 23:46 UTC | `INCONCLUSIVE` | Eulerian Descent Entropy Separates Perm from Padded Det_m |
-| 2026-05-18 00:33 UTC | `INCONCLUSIVE` | Signed-Laplacian Holonomy Spectrum Bounds Tseitin Tree-Resolution |
 | 2026-05-18 03:29 UTC | `INCONCLUSIVE` | Bonami-Beckner 4-2 Saturation of Clause-Sum Bounds DPLL Depth |
 | 2026-05-18 03:58 UTC | `INCONCLUSIVE` | Cycle-Type Mixing Defect of Barrington BP Bounds NC^1 Length |
 | 2026-05-18 04:25 UTC | `INCONCLUSIVE` | NW-Design Restriction Dimension Separates Perm from Padded Det |
@@ -82,6 +80,8 @@ Generated 2026-05-18 09:24 UTC
 | 2026-05-18 08:28 UTC | `INCONCLUSIVE` | Halász L^2 Spectrum Discrepancy Lower-Bounds Sign-Matrix Rigidity |
 | 2026-05-18 08:56 UTC | `INCONCLUSIVE` | Mostar Index of Gate-Adjacency Graph Bounds ACC^0[m] Size for MOD |
 | 2026-05-18 09:23 UTC | `INCONCLUSIVE` | Patience-Sort LIS of XOR-Lifted Row Permutations Bounds CC^D |
+| 2026-05-18 09:54 UTC | `INCONCLUSIVE` | Effective Resistance of Charged Vertex Pairs Bounds Tseitin DPLL  |
+| 2026-05-18 10:26 UTC | `INCONCLUSIVE` | p=3 Path-Family Modulus Lower-Bounds Tseitin Tree-Resolution |
 
 ## How to read the reports
 

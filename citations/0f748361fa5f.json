@@ -1,0 +1,31 @@
+{
+  "entry_id": "0f748361fa5f",
+  "ts": 1779098102.6857693,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.1145/3506702",
+      "title": "On Proof Complexity of Resolution over Polynomial Calculus",
+      "abstract_excerpt": "The proof system Res (PCd,R) is a natural extension of the Resolution proof system that instead of disjunctions of literals operates with disjunctions of degree d multivariate polynomials over a ring R with Boolean variables. Proving super-polynomial lower bounds for the size of Res(PC1,R)-refutations of Conjunctive normal forms (CNFs) is one of the important problems in propositional proof complexity. The existence of such lower bounds is even open for Res(PC1,𝔽) when 𝔽 is a finite field, such ",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns size-width relations and lower bounds for Res(PCd, R) refutations of Tseitin/Flow/random/PHP formulas via algebraic proof systems, with no mention of effective resistance, Laplacian pseudoinverse, or any electrical-network metric bounding DPLL/tree-resolution size on 3-regular graphs.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10.4230/LIPIcs.MFCS.2019.49",
+      "title": "Bounded-depth Frege complexity of Tseitin formulas for all graphs",
+      "abstract_excerpt": "We prove that there is a constant K such that Tseitin formulas for an undirected graph G requires proofs of size 2twpGq Ωp1{dq in depth-d Frege systems for d ă K logn log logn , where twpGq is the treewidth of G. This extends H̊astad recent lower bound for the grid graph to any graph. Furthermore, we prove tightness of our bound up to a multiplicative constant in the top exponent. Namely, we show that if a Tseitin formula for a graph G has size s, then for all large enough d, it has a depth-d Fr",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract bounds bounded-depth Frege proof size for Tseitin formulas in terms of treewidth tw(G), not effective resistance ρ(G,ω), and does not address DPLL/tree-like resolution lower bounds via a pseudoinverse-Laplacian metric. It shares the Tseitin framework but does not interact with the specific charged-pair resistance claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 0
+  }
+}
