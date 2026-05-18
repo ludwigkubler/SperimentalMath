@@ -1,0 +1,40 @@
+{
+  "entry_id": "9dfcbea8b0a8",
+  "ts": 1779133150.4068477,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1504.06713",
+      "title": "Computing graph gonality is hard",
+      "abstract_excerpt": "There are several notions of gonality for graphs. The divisorial gonality dgon(G) of a graph G is the smallest degree of a divisor of positive rank in the sense of Baker-Norine. The stable gonality sgon(G) of a graph G is the minimum degree of a finite harmonic morphism from a refinement of G to a tree, as defined by Cornelissen, Kato and Kool. We show that computing dgon(G) and sgon(G) are NP-hard by a reduction from the maximum independent set problem and the vertex cover problem, respectively",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract establishes NP-hardness and APX-hardness of computing divisorial gonality dgon(G), but says nothing about Tseitin formulas, tree-like Resolution refutation size, or any inequality relating Baker-Norine rank of a charge-supported divisor to DPLL proof complexity. Computational hardness of ρ is orthogonal to whether ρ lower-bounds log t*(T(G,ω)).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2010.07992",
+      "title": "Ternary and Quaternary Curves of Small Fixed Genus and Gonality with Many Rational Points",
+      "abstract_excerpt": "We extend the computations from our previous paper arXiv:2005.07054 to determine the maximum number of rational points on a curve over $\\mathbb{F}_3$ and $\\mathbb{F}_4$ with fixed gonality and small genus. We find, for example, that there is no curve of genus 5 and gonality 6 over a finite field. We propose two conjectures based on our data. First, an optimal curve of genus $g$ has gonality at most $\\lfloor \\frac{g+3}{2} \\rfloor$. Second, a curve of gonality $γ$ and large genus over $\\mathbb{F}_",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns rational points on curves over F_3 and F_4 with fixed gonality and genus (algebraic-geometric gonality of curves over finite fields), not Baker-Norine divisor rank on graphs nor Tseitin/DPLL proof complexity. It shares the word 'gonality' but does not interact with the conjecture's claim linking ω-gonality to tree-Resolution size.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2103.09609",
+      "title": "Characterizing Tseitin-formulas with short regular resolution refutations",
+      "abstract_excerpt": "Tseitin-formulas are systems of parity constraints whose structure is described by a graph. These formulas have been studied extensively in proof complexity as hard instances in many proof systems. In this paper, we prove that a class of unsatisfiable Tseitin-formulas of bounded degree has regular resolution refutations of polynomial length if and only if the treewidth of all underlying graphs $G$ for that class is in $O(\\log|V(G)|)$. To do so, we show that any regular resolution refutation of a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract characterizes regular resolution refutation length of Tseitin formulas via treewidth tw(G), not via Baker-Norine ω-gonality ρ(G,ω); it neither asserts nor contradicts the specific divisor-rank lower bound for tree-like resolution. The shared Tseitin/resolution framework is vocabulary overlap, but the complexity measure on the graph side is entirely different.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

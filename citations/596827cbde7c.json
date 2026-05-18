@@ -1,0 +1,40 @@
+{
+  "entry_id": "596827cbde7c",
+  "ts": 1779131381.7050104,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2501.18019",
+      "title": "An exact closed walks series formula for the complexity of regular graphs and some related bounds",
+      "abstract_excerpt": "The complexity of a graph is the number of its labeled spanning trees. In this work complexity is studied in settings that admit regular graphs. An exact formula is established linking complexity of the complement of a regular graph to numbers of closed walks in the graph by way of an infinite alternating series. Some consequences of this result yield infinite classes of lower and upper bounds on the complexity of such graphs. Applications of these mathematical results to biological problems on ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses spanning-tree complexity of regular graphs via closed-walk series, with no connection to dismantlability, closed-neighborhood domination, CNF clause-sharing graphs, or proof complexity bounds like tree-Resolution size.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1508.02426",
+      "title": "A note on independence complexes of chordal graphs and dismantling",
+      "abstract_excerpt": "We show that the independence complex of a chordal graph is contractible if and only if this complex is dismantlable (strong collapsible) and it is homotopy equivalent to a sphere if and only if its core is a cross-polytopal sphere. The proof uses the properties of tree models of chordal graphs.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns independence complexes of chordal graphs and their dismantlability/homotopy type ('contractible if and only if this complex is dismantlable'), with no connection to CNF clause-sharing graphs, tree-Resolution size, or proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0911.3482",
+      "title": "Complexity of Networks (reprise)",
+      "abstract_excerpt": "Network or graph structures are ubiquitous in the study of complex systems. Often, we are interested in complexity trends of these system as it evolves under some dynamic. An example might be looking at the complexity of a food web as species enter an ecosystem via migration or speciation, and leave via extinction.\n  In a previous paper, a complexity measure of networks was proposed based on the {\\em complexity is information content} paradigm. To apply this paradigm to any object, one must fix ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns an information-theoretic complexity measure for networks based on description-length representations ('complexity is information content'), with no mention of dismantlability, closed-neighborhood domination, CNF clause-sharing graphs, or Resolution/proof complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

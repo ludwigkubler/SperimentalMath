@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-18 18:40 UTC"
+date: "2026-05-18 19:38 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-18 18:40 UTC
+Generated 2026-05-18 19:38 UTC
 
-- Cycles recorded: **788**
-- Time span: 597.0h (~1.32 cycles/h)
+- Cycles recorded: **790**
+- Time span: 598.0h (~1.32 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 748 |
+| INCONCLUSIVE | 750 |
 | BARRIER_HIT | 20 |
 | FALSIFIED | 16 |
 | SUPPORTED | 4 |
@@ -67,8 +67,6 @@ Generated 2026-05-18 18:40 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-18 08:56 UTC | `INCONCLUSIVE` | Mostar Index of Gate-Adjacency Graph Bounds ACC^0[m] Size for MOD |
-| 2026-05-18 09:23 UTC | `INCONCLUSIVE` | Patience-Sort LIS of XOR-Lifted Row Permutations Bounds CC^D |
 | 2026-05-18 09:54 UTC | `INCONCLUSIVE` | Effective Resistance of Charged Vertex Pairs Bounds Tseitin DPLL  |
 | 2026-05-18 10:26 UTC | `INCONCLUSIVE` | p=3 Path-Family Modulus Lower-Bounds Tseitin Tree-Resolution |
 | 2026-05-18 11:02 UTC | `INCONCLUSIVE` | Viennot Heap Radius of Clause-Conflict Graph Bounds Frege Depth |
@@ -82,6 +80,8 @@ Generated 2026-05-18 18:40 UTC
 | 2026-05-18 17:28 UTC | `INCONCLUSIVE` | RSK Shape Concentration Separates Permanent from Padded Determina |
 | 2026-05-18 17:45 UTC | `INCONCLUSIVE` | Tusnady 2-Box Discrepancy of Clause-Polarity Cloud Bounds DPLL Si |
 | 2026-05-18 18:40 UTC | `INCONCLUSIVE` | Hook-Length Dim of Tseitin T-Join Partition Lower-Bounds Tree-Res |
+| 2026-05-18 19:09 UTC | `INCONCLUSIVE` | Dismantlability Core of Clause-Sharing Graph Bounds Tree-Res Size |
+| 2026-05-18 19:38 UTC | `INCONCLUSIVE` | Baker-Norine ω-Gonality Lower-Bounds Tseitin DPLL Size |
 
 ## How to read the reports
 
