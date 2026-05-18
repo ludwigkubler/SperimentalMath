@@ -11,6 +11,7 @@ digraph G {
   "LEAN_REFUTATION_32a1e966ed26" [label="Tropical Parseval Lower Bound on Discrepancy via Min-Coefficient Saturation", fillcolor=lightcoral, style=filled];
   "LEAN_REFUTATION_e14f176e4ef1" [label="Tropical Self-Convolution Doubling Law for MinimalFourierCoefficient", fillcolor=lightcoral, style=filled];
   "LEAN_REFUTATION_44f82c29ed79" [label="Tropical Shift-Invariance of MinimalFourierCoefficient under Additive Translatio", fillcolor=lightcoral, style=filled];
+  "LEAN_REFUTATION_b0a4fb5d3039" [label="Forman-Ricci Min-Curvature of Term-Overlap Graph Lower-Bounds Monotone k-CLIQUE ", fillcolor=lightcoral, style=filled];
   "TARGET_AC0_PARITY" -> "TARGET_P_NEQ_NP" [style=solid];
   "TARGET_MONOTONE_CLIQUE" -> "TARGET_P_NEQ_NP" [style=solid];
   "TARGET_MONOTONE_NP_GAP" -> "TARGET_P_NEQ_NP" [style=solid];
