@@ -1,0 +1,31 @@
+{
+  "entry_id": "d6497285bebc",
+  "ts": 1779107541.562815,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:2312.03900",
+      "title": "Community Detection in High-Dimensional Graph Ensembles",
+      "abstract_excerpt": "Detecting communities in high-dimensional graphs can be achieved by applying random matrix theory where the adjacency matrix of the graph is modeled by a Stochastic Block Model (SBM). However, the SBM makes an unrealistic assumption that the edge probabilities are homogeneous within communities, i.e",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns generalizing SBM community detection beyond homogeneous edge probabilities in high-dimensional graphs ('the SBM makes an unrealistic assumption that the edge probabilities are homogeneous'); it makes no claim about DPLL backtrack counts, random 3-SAT, or literal conflict graphs.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:2101.10882",
+      "title": "On statistical inference when fixed points of belief propagation are unstable",
+      "abstract_excerpt": "Many statistical inference problems correspond to recovering the values of a set of hidden variables from sparse observations on them. For instance, in a planted constraint satisfaction problem such as planted 3-SAT, the clauses are sparse observations from which the hidden assignment is to be recov",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses belief propagation fixed points for statistical inference in planted CSP recovery, not the SBM-detectability gap λ₁²/d̄ of literal conflict graphs nor DPLL backtrack count bounds. It shares the 'planted 3-SAT' vocabulary but does not address the specific spectral functional D(F) or its relation to log₂ B(F).",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 0
+  }
+}

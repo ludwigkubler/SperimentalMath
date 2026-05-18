@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-18 11:29 UTC"
+date: "2026-05-18 12:32 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-18 11:29 UTC
+Generated 2026-05-18 12:32 UTC
 
-- Cycles recorded: **779**
-- Time span: 589.8h (~1.32 cycles/h)
+- Cycles recorded: **781**
+- Time span: 590.9h (~1.32 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 739 |
+| INCONCLUSIVE | 741 |
 | BARRIER_HIT | 20 |
 | FALSIFIED | 16 |
 | SUPPORTED | 4 |
@@ -67,8 +67,6 @@ Generated 2026-05-18 11:29 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-18 04:25 UTC | `INCONCLUSIVE` | NW-Design Restriction Dimension Separates Perm from Padded Det |
-| 2026-05-18 04:47 UTC | `INCONCLUSIVE` | Coxeter Inversion Spread of Barrington BPs Bounds NC^1 Depth |
 | 2026-05-18 05:16 UTC | `INCONCLUSIVE` | Birkhoff Spectral Gap of Gate Co-occurrence Bounds AC^0 PARITY Co |
 | 2026-05-18 05:56 UTC | `INCONCLUSIVE` | Mansour L1 Fourier Mass of Clause-Falsification Polynomial Bounds |
 | 2026-05-18 06:21 UTC | `INCONCLUSIVE` | Chang Spectrum Dimension of Wire-Source DFS Labels Bounds ACC^0[2 |
@@ -82,6 +80,8 @@ Generated 2026-05-18 11:29 UTC
 | 2026-05-18 10:26 UTC | `INCONCLUSIVE` | p=3 Path-Family Modulus Lower-Bounds Tseitin Tree-Resolution |
 | 2026-05-18 11:02 UTC | `INCONCLUSIVE` | Viennot Heap Radius of Clause-Conflict Graph Bounds Frege Depth |
 | 2026-05-18 11:29 UTC | `INCONCLUSIVE` | Lee-Yang Zero Cluster Angle of Cut Polynomial Bounds Max-Cut SoS- |
+| 2026-05-18 11:55 UTC | `INCONCLUSIVE` | Additive Energy of Out-Degree Sequence Bounds ACC^0[2] MOD_3 Size |
+| 2026-05-18 12:32 UTC | `INCONCLUSIVE` | SBM Detectability Gap of Literal Conflict Graph Bounds DPLL Time |
 
 ## How to read the reports
 
