@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-18 17:00 UTC"
+date: "2026-05-18 17:45 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-18 17:00 UTC
+Generated 2026-05-18 17:45 UTC
 
-- Cycles recorded: **785**
-- Time span: 595.3h (~1.32 cycles/h)
+- Cycles recorded: **787**
+- Time span: 596.1h (~1.32 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 745 |
+| INCONCLUSIVE | 747 |
 | BARRIER_HIT | 20 |
 | FALSIFIED | 16 |
 | SUPPORTED | 4 |
@@ -67,8 +67,6 @@ Generated 2026-05-18 17:00 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-18 07:28 UTC | `INCONCLUSIVE` | Generated Algebra Dimension of Layer Operators Bounds IP_2 Read-T |
-| 2026-05-18 08:08 UTC | `INCONCLUSIVE` | Szegedy Quantum-Walk Phase Gap Lower-Bounds Tseitin Tree-Resoluti |
 | 2026-05-18 08:28 UTC | `INCONCLUSIVE` | Halász L^2 Spectrum Discrepancy Lower-Bounds Sign-Matrix Rigidity |
 | 2026-05-18 08:56 UTC | `INCONCLUSIVE` | Mostar Index of Gate-Adjacency Graph Bounds ACC^0[m] Size for MOD |
 | 2026-05-18 09:23 UTC | `INCONCLUSIVE` | Patience-Sort LIS of XOR-Lifted Row Permutations Bounds CC^D |
@@ -82,6 +80,8 @@ Generated 2026-05-18 17:00 UTC
 | 2026-05-18 13:47 UTC | `INCONCLUSIVE` | Hypercontractive Term-Pair Contraction Defect Bounds Monotone CLI |
 | 2026-05-18 16:26 UTC | `INCONCLUSIVE` | Lovász-Theta of Term-Conflict Graph Bounds Monotone k-CLIQUE DNF |
 | 2026-05-18 17:00 UTC | `INCONCLUSIVE` | Sidon B_2-Witness Failure of ACC⁰[2] for Sipser via MOD-Gate Outp |
+| 2026-05-18 17:28 UTC | `INCONCLUSIVE` | RSK Shape Concentration Separates Permanent from Padded Determina |
+| 2026-05-18 17:45 UTC | `INCONCLUSIVE` | Tusnady 2-Box Discrepancy of Clause-Polarity Cloud Bounds DPLL Si |
 
 ## How to read the reports
 
