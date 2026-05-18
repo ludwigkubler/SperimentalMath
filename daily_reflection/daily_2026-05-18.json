@@ -1,33 +1,33 @@
 {
-  "ts": 1779075182.0470402,
+  "ts": 1779124268.4407432,
   "window_h": 24.0,
-  "n_conjectures": 36,
+  "n_conjectures": 39,
   "n_papers": 0,
   "n_scoops": 0,
   "scoops": [],
   "top_overlap": [],
   "stats": {
-    "n_cycles": 36,
+    "n_cycles": 39,
     "verdicts": {
-      "INCONCLUSIVE": 34,
-      "BARRIER_HIT": 1,
+      "INCONCLUSIVE": 38,
       "FALSIFIED": 1
     },
     "focus_distribution": {
+      "COMM_DISJ": 2,
       "GCT_DET_PERM": 4,
-      "BP_READTWICE": 2,
-      "TSEITIN_RES": 2,
+      "MONOTONE_CLIQUE": 4,
+      "ACC_SIPSER": 6,
       "AC0_PARITY": 1,
-      "SOS_DEGREE": 2,
-      "MONOTONE_CLIQUE": 3,
-      "COMM_DISJ": 2
+      "BP_READTWICE": 1,
+      "TSEITIN_RES": 1,
+      "SOS_DEGREE": 1
     },
     "top_fields_A": {
-      "Stembridge–Stanley immanant theory: the λ-immanant": 1,
-      "Curto-Fialkow truncated moment problem theory (Han": 1,
-      "Combinatorial Hodge theory on graphs (pairing of h": 1,
-      "Abelian sandpile / chip-firing group theory (Dhar ": 1,
-      "Conway-Berlekamp combinatorial game theory: left/r": 1
+      "Noncommutative L^p geometry — Schatten-p norm rati": 1,
+      "Cluster algebra theory of Fomin–Zelevinsky — finit": 1,
+      "Braid-group representation theory — the unreduced ": 1,
+      "Topological combinatorics — reduced Euler characte": 1,
+      "Tamari lattice combinatorics — the order-theoretic": 1
     }
   }
 }

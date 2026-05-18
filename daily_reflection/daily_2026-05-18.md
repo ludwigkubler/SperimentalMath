@@ -1,28 +1,28 @@
 # Daily Reflection — 2026-05-18
 
-*Generated: 2026-05-18 03:33 UTC*
+*Generated: 2026-05-18 17:11 UTC*
 
 ## Yesterday in numbers
-- **Cycles**: 36
+- **Cycles**: 39
 - **New arxiv papers (mirror, last 24h)**: 0
 - **Verdict distribution**:
-    - INCONCLUSIVE: 34
-    - BARRIER_HIT: 1
+    - INCONCLUSIVE: 38
     - FALSIFIED: 1
 - **Focus mode**:
+    - ACC_SIPSER: 6
     - GCT_DET_PERM: 4
-    - MONOTONE_CLIQUE: 3
-    - BP_READTWICE: 2
-    - TSEITIN_RES: 2
-    - SOS_DEGREE: 2
+    - MONOTONE_CLIQUE: 4
     - COMM_DISJ: 2
     - AC0_PARITY: 1
+    - BP_READTWICE: 1
+    - TSEITIN_RES: 1
+    - SOS_DEGREE: 1
 - **Top fields_A**:
-    - Stembridge–Stanley immanant theory: the λ-immanant: 1
-    - Curto-Fialkow truncated moment problem theory (Han: 1
-    - Combinatorial Hodge theory on graphs (pairing of h: 1
-    - Abelian sandpile / chip-firing group theory (Dhar : 1
-    - Conway-Berlekamp combinatorial game theory: left/r: 1
+    - Noncommutative L^p geometry — Schatten-p norm rati: 1
+    - Cluster algebra theory of Fomin–Zelevinsky — finit: 1
+    - Braid-group representation theory — the unreduced : 1
+    - Topological combinatorics — reduced Euler characte: 1
+    - Tamari lattice combinatorics — the order-theoretic: 1
 
 ## ✓ No scoops detected today
 
