@@ -1,0 +1,31 @@
+{
+  "entry_id": "c4e28a8fc7d7",
+  "ts": 1779167652.3668272,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:1512.03726",
+      "title": "Quantitative estimates in approximation by Bernstein-Durrmeyer-Choquet operators with respect to monotone and submodular set functions",
+      "abstract_excerpt": "For the qualitative results of pointwise and uniform approximation obtained in \\cite{Gal-Opris}, we present general quantitative estimates in terms of the modulus of continuity and in terms of a $K$-functional, for the generalized multivariate Bernstein-Durrmeyer operator $M_{n, \\Gamma_{n, x}}$, wri",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quantitative approximation estimates for Bernstein-Durrmeyer-Choquet operators with respect to monotone and submodular set functions—a topic in approximation theory of continuous functions—and shares only the vocabulary 'submodular' with the conjecture about DNF formulas and k-CLIQUE complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:2308.05588",
+      "title": "Banzhaf Values for Facts in Query Answering",
+      "abstract_excerpt": "Quantifying the contribution of database facts to query answers has been studied as means of explanation. The Banzhaf value, originally developed in Game Theory, is a natural measure of fact contribution, yet its efficient computation for select-project-join-union queries is challenging. In this pap",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Banzhaf values for quantifying database fact contributions in query answering, which shares no substantive overlap with submodular measures on monotone DNF or k-CLIQUE approximation lower bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 0
+  }
+}

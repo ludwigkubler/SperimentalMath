@@ -22,9 +22,12 @@ Known bounds (status 2024):
   original \\(O(2^n)\\)). Combinatorial construction.
 - Lower: \\(m(n) \\geq n^2 / 2\\) (Mignon–Ressayre 2004), using
   Hessian-rank-based analysis.
-- Lower (small-n, exact): \\(m(2) = 2\\), \\(m(3) = 7\\) (Jansen 2011),
-  \\(m(4) = 13\\) (Brualdi–Cao 2024 [VERIFY], slight uncertainty on
-  attribution and year).
+- Small-n: \\(m(2) = 2\\) is trivial. Exact small-\\(n\\) values
+  \\(m(3)\\) and \\(m(4)\\) are quoted in the literature but the precise
+  attribution of the first proof is unclear to the curator; conservative
+  reading: at the time of writing, no recent peer-reviewed source we
+  could verify pins down the exact value of \\(m(3)\\), \\(m(4)\\).
+  This is itself an open empirical sub-question (see below).
 
 The central conjecture (Valiant): \\(m(n) = 2^{\\Omega(n)}\\).
 Equivalently: VP ≠ VNP (the algebraic analogue of P ≠ NP).
@@ -76,14 +79,6 @@ reference_key   = "mignon_ressayre_2004"
 notes           = "Hessian-rank argument: the Hessian of the determinant at the singular point has a specific rank pattern."
 
 [[known_bounds]]
-type            = "equality"
-parameter       = "m(3)"
-value_expr      = "7"
-range_valid     = "exact"
-reference_key   = "jansen_2011"
-notes           = "Established m(3) = 7. Smallest non-trivial exact value."
-
-[[known_bounds]]
 type            = "lower"
 parameter       = "m(n)"
 value_expr      = "(1/2) n^2"
@@ -111,14 +106,15 @@ venue    = "Theoretical Computer Science"
 notes    = "The original VNP-completeness of permanent. Introduced VP and VNP classes."
 
 [[canonical_references]]
-key      = "mignon_ressayre_2004"
-title    = "A quadratic bound for the determinant and permanent problem"
-authors  = ["T. Mignon", "N. Ressayre"]
-year     = 2004
-doi      = "10.1155/S1073792804141871"
-arxiv_id = ""
-venue    = "Int. Math. Res. Not."
-notes    = "Lower bound m(n) >= n²/2. Foundational quadratic lower bound."
+key                  = "mignon_ressayre_2004"
+title                = "A quadratic bound for the determinant and permanent problem"
+authors              = ["T. Mignon", "N. Ressayre"]
+year                 = 2004
+doi                  = ""
+arxiv_id             = ""
+verification_status  = "pre_crossref"
+venue                = "Int. Math. Res. Not. 2004(79):4241-4253"
+notes                = "Lower bound m(n) >= n²/2. Foundational quadratic lower bound. IMRN paper from the Hindawi era; appears not to be indexed in CrossRef post-Oxford-takeover. Paper exists and is well-cited; identifier verification pending direct journal access."
 
 [[canonical_references]]
 key      = "grenet_2014"
@@ -131,14 +127,14 @@ venue    = "Theoretical Computer Science (arXiv preprint)"
 notes    = "Constructive upper bound m(n) <= 2^n - 1."
 
 [[canonical_references]]
-key      = "jansen_2011"
-title    = "Permanent versus determinant: not via saturation"
-authors  = ["K. Jansen"]
-year     = 2011
-doi      = "10.1090/S0002-9939-2010-10571-X"
-arxiv_id = ""
+key      = "burgisser_ikenmeyer_huttenhain_2016"
+title    = "Permanent versus determinant: not via saturations"
+authors  = ["P. Bürgisser", "C. Ikenmeyer", "J. Hüttenhain"]
+year     = 2016
+doi      = "10.1090/proc/13310"
+arxiv_id = "1501.05528"
 venue    = "Proc. Amer. Math. Soc."
-notes    = "Establishes m(3) = 7 and rules out certain proof strategies."
+notes    = "Negative result: shows that GCT-style saturation arguments alone cannot separate Permanent from Determinant. Important obstacle in the GCT programme."
 
 [[canonical_references]]
 key      = "landsberg_2014"
@@ -185,7 +181,7 @@ status            = "open"
 
 [[open_subquestions]]
 id                = "sub3"
-text              = "Is the Grenet upper bound 2^n - 1 tight at small n (n = 3, 4)? Jansen 2011 gives m(3) = 7 = 2^3 - 1, suggesting it might be tight. Does m(4) = 15 = 2^4 - 1?"
+text              = "Is the Grenet upper bound 2^n - 1 tight at small n (n = 3, 4)? Folklore suggests m(3) = 7 = 2^3 - 1 (attribution to be verified). Does m(4) = 15 = 2^4 - 1? Independent reverification is itself part of the experimental contribution."
 suggested_attack  = "Combinatorial enumeration of all m x m matrices with affine entries up to symmetry, for m in [n²/2, 2^n - 1]. Check whether any realize perm_n as determinant. For n = 4, m <= 13 should be feasible."
 estimated_compute = "Days; combinatorial-explosion-bound."
 status            = "open"

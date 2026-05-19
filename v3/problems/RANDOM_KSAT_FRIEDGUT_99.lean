@@ -115,13 +115,16 @@ def known_upper_bound_alpha3 : Prop :=
 
 -- ── Subquestion 1: empirical extrapolation ──────────────────────────
 
-/-- Sub-Q1: empirical threshold α_3(n) extrapolates to a constant in
-    [4.20, 4.30]. -/
+/-- Sub-Q1: empirical threshold α_3(n) extrapolates to a constant α* in
+    [4.20, 4.30], AND α_n(n) → α* as n → ∞. The convergence condition
+    references the opaque `alpha_n`, making the Prop non-trivial
+    (the earlier `True`-tailed version was provable by choosing
+    α* = 4.25 — a semantic bug). -/
 def SubQ1_empirical_extrapolation_in_predicted_window : Prop :=
   ∃ alpha_star : Float,
     alpha_star ≥ 4.20 ∧ alpha_star ≤ 4.30 ∧
-    -- The empirical thresholds at n = 20, 50, 100, 150, 200 are
-    -- consistent with α_n = α_star + c · n^(-γ) for some c, γ > 0.
-    True
+    ∀ ε : Float, ε > 0 →
+      ∃ N0 : Nat, ∀ n : Nat, n ≥ N0 →
+        Float.abs (alpha_n 3 n - alpha_star) ≤ ε
 
 end RandomKSatFriedgut99

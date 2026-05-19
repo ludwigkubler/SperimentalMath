@@ -1,45 +1,53 @@
 {
-  "last_update_utc": "2026-05-19T04:47:02Z",
-  "total_cycles": 824,
+  "last_update_utc": "2026-05-19T17:47:02Z",
+  "total_cycles": 884,
   "verdict_counts": {
-    "INCONCLUSIVE": 784,
+    "INCONCLUSIVE": 842,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 20
+    "BARRIER_HIT": 22
   },
-  "unique_field_A": 540,
+  "unique_field_A": 558,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
-      40
+      43
     ],
     [
       "Schur-Weyl Duality",
-      28
+      33
+    ],
+    [
+      "Matroid Theory",
+      20
     ],
     [
       "Free Probability Theory",
       19
     ],
     [
+      "Free Probability",
+      18
+    ],
+    [
       "Representation Theory of Symmetric Groups",
       18
     ],
     [
-      "Matroid Theory",
-      17
-    ],
-    [
-      "Free Probability",
+      "Additive Combinatorics",
       14
     ],
     [
-      "Additive Combinatorics",
-      13
+      "Noncommutative L^p Geometry",
+      12
     ],
     [
-      "Noncommutative L^p Geometry",
+      "Spectral Graph Theory",
       10
+    ],
+    [
+      "REAL_ALGEBRAIC_GEOMETRY",
+      9
     ],
     [
       "Random Matrix Theory",
@@ -54,20 +62,12 @@
       7
     ],
     [
-      "Spectral Graph Theory",
-      7
-    ],
-    [
       "Finite Geometry",
       6
     ],
     [
-      "Plethysm Theory",
+      "Schur-Weyl duality",
       6
-    ],
-    [
-      "Persistent Homology",
-      5
     ]
   ]
 }

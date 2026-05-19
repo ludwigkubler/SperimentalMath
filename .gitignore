@@ -10,3 +10,8 @@
 lake-manifest.json
 *.olean
 
+
+# Audit log of every LLM call (system+user prompts). Grows ~5MB/day.
+# Exceeds GitHub 100MB hard file size limit (was 113MB on 2026-05-19).
+# Preserved locally on the server at audit/_global.jsonl for forensics.
+audit/_global.jsonl

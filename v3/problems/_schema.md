@@ -79,16 +79,30 @@ reference_key   = "razborov_rudich_1997" # optional, FK
 ### `[[canonical_references]]` (3+ instances required)
 ```toml
 [[canonical_references]]
-key      = "razborov_1985"
-title    = "Lower bounds on monotone complexity of the logical permanent"
-authors  = ["A. A. Razborov"]
-year     = 1985
-arxiv_id = "" # one of {arxiv_id, doi, isbn} required (else exempt as folklore)
-doi      = "10.1070/SM1985v050n01ABEH002825"
-isbn     = "" # for monographs without DOI
-venue    = "Mathematics of the USSR-Sbornik"
-notes    = ""
+key                 = "razborov_1985"
+title               = "Lower bounds on monotone complexity of the logical permanent"
+authors             = ["A. A. Razborov"]
+year                = 1985
+arxiv_id            = "" # one of {arxiv_id, doi, isbn, verification_status} required (else exempt as folklore)
+doi                 = "10.1070/SM1985v050n01ABEH002825"
+isbn                = "" # for monographs without DOI
+verification_status = "" # "pre_crossref" for papers known to exist but not indexed in CrossRef (rare)
+venue               = "Mathematics of the USSR-Sbornik"
+notes               = ""
 ```
+
+### Identifier hierarchy
+
+Each canonical reference must have at least ONE of:
+
+1. **`arxiv_id`** — preferred for any modern paper that has an arXiv preprint. Validated via `https://arxiv.org/abs/<id>`. Strip any "arxiv:" or "arXiv:" prefix from the value.
+2. **`doi`** — preferred for journal/conference papers. Validated via the CrossRef metadata API (`https://api.crossref.org/works/<doi>`), which bypasses publisher HTTP-403 blocks.
+3. **`isbn`** — for monographs / theses published as books without a DOI. Accepted without online check.
+4. **`verification_status = "pre_crossref"`** — escape hatch for papers that genuinely exist but are not indexed in CrossRef (typically pre-2005 papers from journals that have moved publishers and not re-registered DOIs). Curator must vouch in `notes`.
+
+Order of preference: arxiv_id > doi > isbn > verification_status. Use the most automatically-verifiable identifier you have.
+
+The validator runs CrossRef HEAD requests, not full publisher GET. This is intentional: CrossRef indexes the DOI/metadata; publishers (ACM/SIAM/Wiley/Springer) reject HEAD with 403 even for valid DOIs, so direct publisher-URL checks have a high false-fail rate.
 
 ### `[[open_subquestions]]` (1+ instances required)
 The actionable units. These are what Strategies are proposed against.
@@ -108,7 +122,7 @@ status            = "open"   # open | in_progress | resolved | dropped
 1. `problem_id` MUST match the filename: `<problem_id>.toml`
 2. `statement.lean_file` MUST exist next to the TOML
 3. Every `reference_key` in `known_bounds.reference_key` and `known_barriers.reference_key` MUST exist in `canonical_references`
-4. Every `[[canonical_references]]` MUST have at least one of `arxiv_id`, `doi`, `isbn`
+4. Every `[[canonical_references]]` MUST have at least one of `arxiv_id`, `doi`, `isbn`, or `verification_status = "pre_crossref"`
 5. `last_reviewed` MUST be within the last 90 days of the load time (else load fails — forces periodic refresh)
 
 ---

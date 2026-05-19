@@ -1,0 +1,31 @@
+{
+  "entry_id": "4d43beaa3b30",
+  "ts": 1779173145.1316214,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:2502.15928",
+      "title": "EHands: Quantum Protocol for Polynomial Computation on Real-Valued Encoded States",
+      "abstract_excerpt": "We present EHands, a quantum-native protocol for implementing multivariable polynomial transformations on quantum processors. The protocol introduces four fundamental, reversible operators: multiplication, addition, negation, and parity flip, and employs the Expectation Value ENcoding (EVEN) scheme ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a quantum protocol for polynomial transformations using operators like 'multiplication, addition, negation, and parity flip,' which shares vocabulary (polynomials, parity) but does not address AC⁰ circuit depth lower bounds or real polynomial approximation degree for PARITY.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:2411.00976",
+      "title": "Low-degree approximation of QAC$^0$ circuits",
+      "abstract_excerpt": "QAC$^0$ is the class of constant-depth quantum circuits with polynomially many ancillary qubits, where Toffoli gates on arbitrarily many qubits are allowed. In this work, we show that the parity function cannot be computed in QAC$^0$, resolving a long-standing open problem in quantum circuit complex",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses QAC⁰ (quantum constant-depth circuits) computing parity, not the classical AC⁰ depth/degree lower bound stated in the conjecture; while it uses 'low-degree approximation' framework, it does not establish the Ω(√n) depth bound for classical AC⁰ circuits.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 0
+  }
+}

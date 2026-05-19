@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — Wall atlas"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-19 04:45 UTC"
+date: "2026-05-19 17:34 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,7 +13,7 @@ colorlinks: true
 
 # SEC P vs NP — Wall atlas
 
-Compiled 2026-05-19 04:45 UTC. 36 total barrier rejections logged.
+Compiled 2026-05-19 17:34 UTC. 38 total barrier rejections logged.
 
 This is the **map of known walls** encountered by the barrier filter. Each entry below was a proposed conjecture that, according to dual-LLM agreement, would fall to one of the four classical barriers. Patterns in this data tell us where the proposer keeps tripping.
 
@@ -21,7 +21,7 @@ This is the **map of known walls** encountered by the barrier filter. Each entry
 
 | Barrier | Rejections |
 |---------|-----------:|
-| `ALGEBRIZATION` | 13 |
+| `ALGEBRIZATION` | 15 |
 | `NATURAL_PROOFS` | 13 |
 | `RELATIVIZATION` | 7 |
 | `KARP_LIPTON` | 3 |
@@ -43,8 +43,6 @@ This is the **map of known walls** encountered by the barrier filter. Each entry
 
 ## Recent rejections (last 15)
 
-- [2026-04-29 23:34 UTC] `ALGEBRIZATION` (conf 0.90) — Tropical Circuit Weight Accumulation Bound
-- [2026-04-30 15:04 UTC] `ALGEBRIZATION` (conf 0.90) — Kronecker Coefficients of Rectangular GLₙ-Representations Lower-Bound Determinan
 - [2026-05-01 07:13 UTC] `ALGEBRIZATION` (conf 0.90) — Tropical Circuit Homotopy Stability under Weight Accumulation
 - [2026-05-01 07:17 UTC] `ALGEBRIZATION` (conf 0.90) — Orbit Closure Dimension vs. Boolean Circuit Size
 - [2026-05-01 17:19 UTC] `ALGEBRIZATION` (conf 0.85) — Moment Matrix Eigenvalue Gap and SOS Degree for Max-CUT
@@ -58,3 +56,5 @@ This is the **map of known walls** encountered by the barrier filter. Each entry
 - [2026-05-10 16:34 UTC] `ALGEBRIZATION` (conf 0.95) — Schur Coefficient Exponential Gap in 3-CNF Permanent vs Determinant
 - [2026-05-17 03:06 UTC] `NATURAL_PROOFS` (conf 0.78) — Cross-Side Fourier Symmetric-Difference Mass Lower-Bounds DISJ CC_R
 - [2026-05-17 10:38 UTC] `ALGEBRIZATION` (conf 0.78) — Cubic-Form Lie-Stabilizer Codim Lower-Bounds DISJ Communication
+- [2026-05-19 09:09 UTC] `ALGEBRIZATION` (conf 0.85) — SOS Moment Matrix Eigenvalue Decay and Approximation Ratio Trade-off
+- [2026-05-19 15:42 UTC] `ALGEBRIZATION` (conf 0.95) — Schur-Weyl Component Count Separation in 3-CNF Incidence Tensors

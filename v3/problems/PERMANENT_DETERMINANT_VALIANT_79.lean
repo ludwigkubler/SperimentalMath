@@ -107,9 +107,11 @@ def known_lower_bound : Prop :=
     ∀ m : Nat, IsDetComplexityWitness n m →
       m ≥ n * n / 2
 
-/-- Jansen 2011: m(3) = 7. -/
-def jansen_2011_m3_equals_7 : Prop :=
-  detComplexity 3 7
+-- (Previously this file declared `jansen_2011_m3_equals_7 : Prop`,
+--  attributing the m(3) = 7 result to a "Jansen 2011" citation. The
+--  2026-05-19 portfolio-validation pass found that citation to be
+--  unverified — the paper found under that DOI was a different result.
+--  m(3) and m(4) are treated as open empirical quantities below.)
 
 -- ── The Valiant conjecture (VP ≠ VNP, in the determinantal form) ─────
 

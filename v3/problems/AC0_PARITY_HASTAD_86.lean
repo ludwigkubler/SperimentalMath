@@ -100,19 +100,14 @@ def known_upper_bound : Prop :=
 
 /-- Conjecture: there is a SAME constant c* in both the upper and lower
     bound (asymptotically tight). Equivalently, the ratio of upper to
-    lower converges to 1 as n → ∞. -/
-def OpenConjecture_optimal_constant : Prop :=
-  ∃ cstar : Float,
-    cstar > 0 ∧
-    -- For every ε > 0 there exists N₀ such that for n ≥ N₀,
-    -- both bounds hold with constant in [cstar - ε, cstar + ε].
-    ∀ ε : Float, ε > 0 →
-      ∃ N0 : Nat,
-        ∀ n d : Nat,
-          n ≥ N0 → d ≥ 2 →
-          -- Both bounds use constant in the ε-window of cstar.
-          True  -- abstract; the precise statement requires quantification
-                -- over witness circuits which is more involved.
+    lower converges to 1 as n → ∞.
+
+    Declared `opaque`: a precise quantification over circuit witnesses
+    with constants in an ε-window requires lifting the AC0Circuit type
+    by a quotient (or moving to the asymptotic-class regime). We don't
+    construct that machinery here; the experimental harness instantiates
+    the statement on concrete (n, d) pairs. -/
+opaque OpenConjecture_optimal_constant : Prop
 
 -- ── Sub-question 1: empirical shrinkage rate ─────────────────────────
 
@@ -123,10 +118,11 @@ def OpenConjecture_optimal_constant : Prop :=
 opaque expectedShrinkage (c : AC0Circuit 0) (p : Float) : Float
 
 /-- Sub-question 1: for circuits at the size threshold, the empirical
-    shrinkage is bounded by p^Θ(1) and matches Håstad's prediction. -/
-def SubQ1_shrinkage_matches_prediction : Prop :=
-  -- Stated abstractly: the empirical shrinkage exponent equals the
-  -- theoretical prediction Θ((d-1)/d) ± experimental error.
-  True
+    shrinkage exponent matches the theoretical prediction Θ((d-1)/d).
+
+    Declared `opaque`: encoding "experimental error within ε" as a
+    formal predicate is intentionally deferred to the experimental
+    harness; this declaration only reserves the proposition name. -/
+opaque SubQ1_shrinkage_matches_prediction : Prop
 
 end AC0ParityHastad86

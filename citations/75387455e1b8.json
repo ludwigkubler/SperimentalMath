@@ -1,0 +1,40 @@
+{
+  "entry_id": "75387455e1b8",
+  "ts": 1779200102.977486,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2604.27336v1",
+      "title": "Strongly Refuting Random CSP without Literals",
+      "abstract_excerpt": "Under what condition is a random constraint satisfaction problem hard to refute by the sum-of-squares (SoS) algorithm? A sufficient condition is t-wise uniformity, that is, each constraint has a t-wise uniform distribution of satisfying assignments, as shown by the lower bounds of Kothari, Mori, O'Donnell, and Witmer (STOC 2017). This condition is also necessary for random CSPs given by a predicate and uniformly random literals, due to the constant-degree SoS refutation of Allen, O'Donnell, and ",
+      "abstract_source": "arxiv_local_mirror",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses SoS refutation of random CSPs via t-wise independence and Kikuchi matrices, with no mention of polymatroid rank or the specific inverse-proportionality bound r(M) ≥ Ω(n/ρ) claimed in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1701.04521",
+      "title": "Sum of squares lower bounds for refuting any CSP",
+      "abstract_excerpt": "Let $P:\\{0,1\\}^k \\to \\{0,1\\}$ be a nontrivial $k$-ary predicate. Consider a random instance of the constraint satisfaction problem $\\mathrm{CSP}(P)$ on $n$ variables with $Δn$ constraints, each being $P$ applied to $k$ randomly chosen literals. Provided the constraint density satisfies $Δ\\gg 1$, such an instance is unsatisfiable with high probability. The \\emph{refutation} problem is to efficiently find a proof of unsatisfiability.\n  We show that whenever the predicate $P$ supports a $t$-\\emph{w",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract establishes SOS degree/constraint-density tradeoffs for refuting random CSPs based on t-wise uniformity, but it does not discuss 'polymatroid rank' or any inverse-proportionality relation r(M) ≥ Ω(n/ρ), nor does it address k-CLIQUE instances.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2411.15363",
+      "title": "The Polymatroid Representation of a Greedoid, and Associated Galois Connections",
+      "abstract_excerpt": "A greedoid is a generalization of a matroid allowing for more flexible analyses and modeling of combinatorial optimization problems. However, these structures decimate many matroid properties contributing to their pervasive nature. A polymatroid greedoid [KL85a] presents an interesting middle ground, so we further develop this class. First we prove every local poset greedoid for which the greedy algorithm correctly solves linear optimizations over its basic words must have a polymatroid represen",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns polymatroid representations of greedoids and Galois connections between greedoid flats and closed sets—'A greedoid is a generalization of a matroid'—with no mention of CSPs, SOS refutation size, or rank lower bounds tied to refutation complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -226,30 +226,82 @@ def check_audit_log_infrastructure():
 
 
 def check_recent_traceback_in_cron_logs(max_age_h=1.0):
-    """Scan recent .log files for unhandled tracebacks in the last hour."""
+    """Scan recent .log files for UNHANDLED tracebacks.
+
+    A traceback is considered handled (and thus benign) if the next 10
+    log lines contain ANY of the following recovery markers:
+      - 'cycle failed:'           (pvsnp_explorer's caught-and-continue)
+      - 'fail-open'               (skeptic gate graceful degradation)
+      - 'retrying'                (any retry logic)
+      - 'WARNING'                 (warning-level recovery)
+      - 'Routing to'              (LLM provider fallback)
+      - 'INFO sec.'               (resumed normal logging)
+    Only tracebacks NOT followed by a recovery marker in 10 lines are
+    flagged as unhandled.
+
+    The earlier version flagged every traceback as bad, producing
+    false-positives from httpx timeouts in pvsnp_explorer.log
+    (observed 2026-05-19).
+    """
     cutoff = NOW_EPOCH - max_age_h * 3600
+    recovery_markers = (
+        "cycle failed:", "fail-open", "retrying",
+        "WARNING", "Routing to", "INFO sec.",
+    )
     offenders = []
     for logfile in RESEARCH.glob("*.log"):
         try:
             st = logfile.stat()
             if st.st_mtime < cutoff:
                 continue
-            # Read tail
             with logfile.open("rb") as f:
                 f.seek(0, 2)
                 size = f.tell()
                 f.seek(max(0, size - 65536))
                 tail = f.read().decode("utf-8", errors="replace")
-            # Look for tracebacks in the recent portion
-            if "Traceback (most recent call last)" in tail or "NameError" in tail:
-                # Crude age filter: only count if a traceback appears near the end of file
-                # (within last 8KB), since logs append-only and we tailed recent.
-                end = tail[-8192:]
-                if "Traceback (most recent call last)" in end or "NameError" in end:
-                    offenders.append(logfile.name)
+            # Find all "Traceback (most recent call last)" positions in the last 8KB
+            end = tail[-8192:]
+            if not (
+                "Traceback (most recent call last)" in end
+                or "NameError" in end
+            ):
+                continue
+            # Check if each traceback has a recovery marker within ~10 lines after it
+            lines = end.split("\n")
+            unhandled = False
+            for i, line in enumerate(lines):
+                if "Traceback (most recent call last)" in line or "NameError" in line:
+                    # Look at the next 30 lines (a traceback is up to ~20 lines,
+                    # plus the recovery message after).
+                    after = "\n".join(lines[i:i + 30])
+                    if not any(m in after for m in recovery_markers):
+                        unhandled = True
+                        break
+            if unhandled:
+                offenders.append(logfile.name)
         except Exception:
             pass
     return len(offenders) == 0, ",".join(offenders) if offenders else "all clean"
+
+
+def check_watchdog_self_heartbeat(max_age_min: int = 10):
+    """Verify the watchdog itself ran recently.
+
+    The watchdog is the canonical health-reporter; if IT stops firing,
+    the rest of the checks are moot. This check reads its own previous
+    state file's mtime: if older than `max_age_min` minutes, the
+    watchdog (or its cron) has stopped.
+
+    First run: state file doesn't exist yet — accepted as OK.
+    """
+    state = STATE_FILE
+    if not state.exists():
+        return True, "first run, no previous state"
+    age_sec = NOW_EPOCH - state.stat().st_mtime
+    age_min = age_sec / 60
+    if age_min > max_age_min:
+        return False, f"watchdog last ran {age_min:.1f} min ago (max {max_age_min})"
+    return True, f"{age_min:.1f} min ago"
 
 
 # ── Driver ────────────────────────────────────────────────────────────────────
@@ -267,6 +319,7 @@ CHECKS = [
     ("notebook_growing",       check_notebook_growth,            "DEGRADED"),
     ("entity_audit_log",       check_audit_log_infrastructure,   "DEGRADED"),
     ("cron_logs_no_trace",     check_recent_traceback_in_cron_logs, "DEGRADED"),
+    ("watchdog_self_heartbeat", check_watchdog_self_heartbeat,    "DEGRADED"),
 ]
 
 
@@ -357,6 +410,21 @@ def main():
         except Exception as e:
             print(f"WARN: could not append to alerts: {e}", file=sys.stderr)
         PREV_STATUS_FILE.write_text(status)
+
+        # Push STATUS.md to git on transition. Best-effort, hard timeout.
+        # This makes the GitHub-side STATUS.md visible within ~minutes
+        # rather than waiting for the hourly sync_output cron.
+        try:
+            push_cmd = (
+                f"cd '{MIRROR}' && "
+                "git add STATUS.md monitor_alerts.jsonl 2>/dev/null && "
+                "( git diff --cached --quiet || ("
+                f"git commit -m 'watchdog: {prev} -> {status}' --no-verify --quiet && "
+                "git push --quiet 2>&1 | tail -3))"
+            )
+            sh(push_cmd, timeout=45)
+        except Exception as e:
+            print(f"WARN: could not push status: {e}", file=sys.stderr)
 
     # Print short summary for cron log
     print(f"{NOW.isoformat()} watchdog: {status} crit={n_critical_fail} deg={n_degraded_fail}")

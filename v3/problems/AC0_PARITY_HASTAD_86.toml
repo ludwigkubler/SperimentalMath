@@ -130,10 +130,10 @@ key      = "impagliazzo_matthews_paturi_2012"
 title    = "A satisfiability algorithm for AC^0"
 authors  = ["R. Impagliazzo", "W. Matthews", "R. Paturi"]
 year     = 2012
-doi      = "10.1145/2402875"
-arxiv_id = ""
-venue    = "SODA 2012 / J. ACM"
-notes    = "Provides sharp constants for the switching lemma in the d=3 case. Cited because it gives the cleanest constant analysis."
+doi      = "10.1137/1.9781611973099.77"
+arxiv_id = "1107.3127"
+venue    = "SODA 2012"
+notes    = "Provides sharp constants for the switching lemma in the d=3 case. Cited because it gives the cleanest constant analysis. ArXiv preprint version is from 2011."
 
 [[canonical_references]]
 key      = "hastad_2014"

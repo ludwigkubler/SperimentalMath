@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-19 04:45 UTC"
+date: "2026-05-19 17:34 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,18 +13,18 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-19 04:45 UTC
+Generated 2026-05-19 17:34 UTC
 
-- Cycles recorded: **824**
-- Time span: 607.1h (~1.36 cycles/h)
+- Cycles recorded: **884**
+- Time span: 619.9h (~1.43 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 784 |
-| BARRIER_HIT | 20 |
+| INCONCLUSIVE | 842 |
+| BARRIER_HIT | 22 |
 | FALSIFIED | 16 |
 | SUPPORTED | 4 |
 
@@ -32,56 +32,56 @@ Generated 2026-05-19 04:45 UTC
 
 | Field | Cycles |
 |---|---|
-| Real Algebraic Geometry | 40 |
-| Schur-Weyl Duality | 28 |
+| Real Algebraic Geometry | 43 |
+| Schur-Weyl Duality | 33 |
+| Matroid Theory | 20 |
 | Free Probability Theory | 19 |
+| Free Probability | 18 |
 | Representation Theory of Symmetric Groups | 18 |
-| Matroid Theory | 17 |
-| Free Probability | 14 |
-| Additive Combinatorics | 13 |
-| Noncommutative L^p Geometry | 10 |
+| Additive Combinatorics | 14 |
+| Noncommutative L^p Geometry | 12 |
+| Spectral Graph Theory | 10 |
+| REAL_ALGEBRAIC_GEOMETRY | 9 |
 | Random Matrix Theory | 8 |
 | Polymatroid Theory | 8 |
 | Algebraic Geometry | 7 |
-| Spectral Graph Theory | 7 |
 | Finite Geometry | 6 |
+| Schur-Weyl duality | 6 |
+| Persistent Homology | 6 |
+| Noncommutative Harmonic Analysis | 6 |
 | Plethysm Theory | 6 |
-| Persistent Homology | 5 |
 | FOURIER_ANALYSIS | 5 |
-| Noncommutative Harmonic Analysis | 5 |
 | Ergodic Circuit Framework (communication complexity via dynamical systems) | 4 |
 | {"framework_name": "Ergodic Circuit Framework", "math_branch": "COMM_COMPLEXITY"} | 4 |
+| Algebraic Topology | 4 |
 | Fourier Analysis on Boolean Functions | 4 |
 | Algebraic Geometry over Finite Fields | 4 |
 | Fourier Analysis of Boolean Functions | 4 |
 | Algebraic Geometry of Secant Varieties | 4 |
+| COMMUNICATION_COMPLEXITY | 4 |
 | Noncommutative Geometry | 4 |
 | Fourier analysis of boolean functions | 3 |
-| Algebraic Topology | 3 |
-| matroid theory | 3 |
-| Coarse Geometric Lifting (CGL) — Geometric Complexity Theory | 3 |
-| {"framework_name": "Tropical Circuit Weight Analysis (TCWA)", "math_branch": "BOUNDED_ARITHMETIC"} | 3 |
-| Tropical Circuit Weight Analysis (BOUNDED_ARITHMETIC) | 3 |
+| Algebraic geometry of secant varieties | 3 |
 
 ## Last 15 cycles (chronological)
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-19 02:13 UTC | `INCONCLUSIVE` | Lorentzian Defect of Cut Polynomial Lower-Bounds Max-CUT SoS-2 Ga |
-| 2026-05-19 02:22 UTC | `INCONCLUSIVE` | Level-1 Fourier Mass Fraction of Term Family Bounds Monotone CLIQ |
-| 2026-05-19 02:31 UTC | `INCONCLUSIVE` | Dilworth Width of Gate-Cone Poset Lower-Bounds AC⁰ PARITY Size |
-| 2026-05-19 02:40 UTC | `INCONCLUSIVE` | Mean Log-Bias of Internal Gates Lower-Bounds AC⁰ PARITY Size |
-| 2026-05-19 02:48 UTC | `INCONCLUSIVE` | Sandpile Group Exponent Lower-Bounds Tseitin Tree-Resolution Size |
-| 2026-05-19 02:53 UTC | `INCONCLUSIVE` | SAW Connective Growth of Gate DAG Lower-Bounds ACC^0[2] for MOD_3 |
-| 2026-05-19 03:06 UTC | `INCONCLUSIVE` | Frobenius Fourier Defect of Barrington AND_n PBP Trajectory |
-| 2026-05-19 03:17 UTC | `INCONCLUSIVE` | Eigenvalue Gap in SOS Moment Matrices for Max-CUT Approximation |
-| 2026-05-19 03:33 UTC | `INCONCLUSIVE` | Matroid Rank Complexity of Monotone DNF for k-CLIQUE |
-| 2026-05-19 03:40 UTC | `INCONCLUSIVE` | Communication Complexity Lower Bound for AC⁰ PARITY via Real Alge |
-| 2026-05-19 03:56 UTC | `INCONCLUSIVE` | Log-Size Submodularity in Monotone DNF for k-CLIQUE |
-| 2026-05-19 04:03 UTC | `INCONCLUSIVE` | SOS Moment Matrix Eigenvalue Threshold for ACC⁰ Lower Bounds |
-| 2026-05-19 04:17 UTC | `INCONCLUSIVE` | Fourier Coefficient Concentration in ACC⁰ Circuits |
-| 2026-05-19 04:24 UTC | `INCONCLUSIVE` | Schur-Weyl Multiplicity Gap in Symmetric vs Antisymmetric Decompo |
-| 2026-05-19 04:45 UTC | `INCONCLUSIVE` | Communication Complexity Lower Bound for AC⁰ Circuits via Real Po |
+| 2026-05-19 13:55 UTC | `INCONCLUSIVE` | Additive Energy Inverse Proportionality to Karchmer-Wigderson Com |
+| 2026-05-19 14:14 UTC | `INCONCLUSIVE` | Polymatroid Rank Inverse Proportionality to SOS Refutation Size |
+| 2026-05-19 14:29 UTC | `INCONCLUSIVE` | Noncommutative Fourier Coefficient Inverse Proportionality to Com |
+| 2026-05-19 14:38 UTC | `INCONCLUSIVE` | Jordan Rank Lower Bound for Tseitin Resolution Width |
+| 2026-05-19 14:50 UTC | `INCONCLUSIVE` | Matroid Rank Inverse Proportionality to k-CLIQUE Communication Co |
+| 2026-05-19 15:23 UTC | `INCONCLUSIVE` | Real Rank Lower Bound for AC⁰ Communication Matrices of PARITY |
+| 2026-05-19 15:30 UTC | `INCONCLUSIVE` | Free Entropy Gap in Read-Twice Branching Programs for Inner Produ |
+| 2026-05-19 15:38 UTC | `INCONCLUSIVE` | Tensor Rank of Clause Incidence Matrix Bounds ACC^0 Circuit Size |
+| 2026-05-19 15:42 UTC | `BARRIER_HIT` | Schur-Weyl Component Count Separation in 3-CNF Incidence Tensors |
+| 2026-05-19 15:51 UTC | `INCONCLUSIVE` | Real Rank of SOS Moment Matrix and Max-CUT Approximation Ratio |
+| 2026-05-19 16:12 UTC | `INCONCLUSIVE` | Persistent Homology Betti Numbers and Communication Complexity of |
+| 2026-05-19 16:36 UTC | `INCONCLUSIVE` | Gröbner Basis Monomial Count and SAT Complexity |
+| 2026-05-19 17:04 UTC | `INCONCLUSIVE` | Free Entropy Lower Bound for Disjointness Communication Complexit |
+| 2026-05-19 17:21 UTC | `INCONCLUSIVE` | Schur Positivity of SOS Moment Matrices for 3-SAT |
+| 2026-05-19 17:34 UTC | `INCONCLUSIVE` | Plethysm Coefficient Exponential Gap in Symmetric Powers of Perma |
 
 ## How to read the reports
 
