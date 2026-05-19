@@ -44,7 +44,18 @@ This document captures the things `STATUS.md` cannot show: known tech debt, supe
 | 2026-05-13 | (live patch) | ENTITY sandbox `python -c` AST validator (`sec_python_payload_v1`) + audit log JSONL |
 | 2026-05-15 | `c02e87b` | Test-gen retry-bump 1→3 + always-record pitfalls + n>=5 prompt (`sec_test_gen_retry_bump_v1`) |
 | 2026-05-16 | `66121e6` | `pvsnp_monitor.py` rename `logger`→`log` (3-day silent outage F821) |
-| 2026-05-18 | (this session) | Watchdog + F821 fix in `pvsnp_framework.py`/`pvsnp_benchmark.py` + compendium retraction filter |
+| 2026-05-18 | `29cb071d` | Watchdog + F821 fix in `pvsnp_framework.py`/`pvsnp_benchmark.py` + compendium retraction filter |
+| 2026-05-19 | `4141b406` | v3 Phase 0: Problem Portfolio (6 problems × TOML+Lean, schema doc) |
+| 2026-05-19 | `fd3a4c5b` | Wrapper v1 (argv filter + cron self-match fix) |
+| 2026-05-19 | `977a781e`, `cc7db2fe` | **Verification sweep #1**: 5 broken DOIs fixed + 1 misattribution + 3 True-Prop Lean bugs + wrapper v2 with flock + watchdog v3 (false-positive filter + self-heartbeat + push-on-transition) + .gitignore `audit/_global.jsonl` (root-cause of 14h silent push failure) |
+| 2026-05-19 | (post-this-commit) | **Verification sweep #2**: 8-test follow-up. **Audit log rotation** (`sec_audit_rotation_v1`) — `_global.jsonl` now auto-rotates at 90 MB; existing 114 MB file moved to `_global-2026-05-19.jsonl`. **`mirror_git_pushed` watchdog check** — catches the same silent-push class of failure that broke us for 14h on 2026-05-19. Total: **13 watchdog checks**. |
+
+**Currently active sentinels** (find in source by grep):
+- `sec_python_payload_v1` — ENTITY sandbox python -c AST validator
+- `sec_test_gen_retry_bump_v1` — test-gen retry policy 1→3 + pitfall-on-failure
+- `sec_compendium_retraction_filter_v1` — compendium skips retracted entries
+- `sec_explorer_respawn_wrapper_v2` — flock-protected spawn + duplicate-kill
+- `sec_audit_rotation_v1` — audit `_global.jsonl` rotates at 90 MB
 
 ---
 
@@ -97,7 +108,11 @@ grep -rln "/home/ludo/SEC[^a-zA-Z]" /home/ludo/Scrivania/SEC/src /home/ludo/kiss
 
 **Quick risk-free win:** add a CI-style check that compares the two copies after each commit and fails loudly if they diverge. Implementation ~30 min.
 
-### TD-3 — `audit/_global.jsonl` exceeds GitHub recommended size  *(est. 15 min)*
+### TD-3 — `audit/_global.jsonl` exceeds GitHub recommended size  *(RESOLVED 2026-05-19)*
+
+**Status:** Resolved on 2026-05-19. `audit/_global.jsonl` is now gitignored (not version-controlled) and `pvsnp_audit.py` has `sec_audit_rotation_v1` that rotates the file at 90 MB. Existing 114 MB file moved to `_global-2026-05-19.jsonl`. Watchdog check `mirror_git_pushed` added to detect any recurrence of silent push failure.
+
+### TD-3-historical — Original procedure (preserved for reference)
 
 **Problem:** `~/Scrivania/SEC/research/git_mirrors/SperimentalMath/audit/_global.jsonl` is 92 MB. GitHub recommends < 50 MB. Each push triggers a warning. Not yet blocking but eventually will.
 

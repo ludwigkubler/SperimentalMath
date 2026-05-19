@@ -169,6 +169,37 @@ def check_mirror_git_fresh(max_age_h=4.0):
         return False, f"parse fail: out={out!r}"
 
 
+def check_mirror_git_pushed(max_unpushed: int = 3):
+    """The mirror's local main is in sync with origin/main (modulo a small
+    grace for very recent commits that the hourly sync will push).
+
+    This catches the class of silent failure observed 2026-05-19: hourly
+    sync_output.sh committed 14 hours of changes successfully, but the
+    git push was rejected by GitHub for an oversized file. The script
+    logged 'push deferred' to sync.log but no other alert. The watchdog
+    didn't know to look.
+
+    Rule: more than `max_unpushed` commits between origin/main and local
+    main is DEGRADED. Default 3 = up to ~3 hours of unpushed work is OK
+    (typical between cron ticks), 4+ means something is stuck.
+    """
+    # First refresh remote refs (cheap, only fetches refs not objects)
+    rc, _, _ = sh(f"cd '{MIRROR}' && git fetch --quiet origin main", timeout=15)
+    if rc != 0:
+        return False, "git fetch failed (network?)"
+    rc, out, _ = sh(
+        f"cd '{MIRROR}' && git rev-list --count origin/main..HEAD",
+        timeout=5,
+    )
+    try:
+        unpushed = int(out)
+    except Exception:
+        return False, f"parse fail: {out!r}"
+    if unpushed > max_unpushed:
+        return False, f"{unpushed} commits ahead of origin/main (max {max_unpushed})"
+    return True, f"{unpushed} unpushed (within tolerance)"
+
+
 def check_notebook_growth(max_age_h=4.0):
     """The latest entry in the current-month notebook is recent.
 
@@ -316,6 +347,7 @@ CHECKS = [
     ("disk_under_90pct",       check_disk,                       "CRITICAL"),
     ("ram_above_1g",           check_ram,                        "DEGRADED"),
     ("mirror_git_fresh",       check_mirror_git_fresh,           "DEGRADED"),
+    ("mirror_git_pushed",      check_mirror_git_pushed,          "DEGRADED"),
     ("notebook_growing",       check_notebook_growth,            "DEGRADED"),
     ("entity_audit_log",       check_audit_log_infrastructure,   "DEGRADED"),
     ("cron_logs_no_trace",     check_recent_traceback_in_cron_logs, "DEGRADED"),
