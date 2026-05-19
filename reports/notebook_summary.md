@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-19 03:40 UTC"
+date: "2026-05-19 04:45 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-19 03:40 UTC
+Generated 2026-05-19 04:45 UTC
 
-- Cycles recorded: **819**
-- Time span: 606.0h (~1.35 cycles/h)
+- Cycles recorded: **824**
+- Time span: 607.1h (~1.36 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 779 |
+| INCONCLUSIVE | 784 |
 | BARRIER_HIT | 20 |
 | FALSIFIED | 16 |
 | SUPPORTED | 4 |
@@ -47,6 +47,7 @@ Generated 2026-05-19 03:40 UTC
 | Finite Geometry | 6 |
 | Plethysm Theory | 6 |
 | Persistent Homology | 5 |
+| FOURIER_ANALYSIS | 5 |
 | Noncommutative Harmonic Analysis | 5 |
 | Ergodic Circuit Framework (communication complexity via dynamical systems) | 4 |
 | {"framework_name": "Ergodic Circuit Framework", "math_branch": "COMM_COMPLEXITY"} | 4 |
@@ -54,7 +55,6 @@ Generated 2026-05-19 03:40 UTC
 | Algebraic Geometry over Finite Fields | 4 |
 | Fourier Analysis of Boolean Functions | 4 |
 | Algebraic Geometry of Secant Varieties | 4 |
-| FOURIER_ANALYSIS | 4 |
 | Noncommutative Geometry | 4 |
 | Fourier analysis of boolean functions | 3 |
 | Algebraic Topology | 3 |
@@ -67,11 +67,6 @@ Generated 2026-05-19 03:40 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-19 01:23 UTC | `INCONCLUSIVE` | Communication Complexity Lower Bound for Disjointness Implies Mon |
-| 2026-05-19 01:33 UTC | `INCONCLUSIVE` | Cubical First-Betti Linearly Lower-Bounds DNF-MCSP |
-| 2026-05-19 01:40 UTC | `INCONCLUSIVE` | Fourier Spectral Entropy of Clause-Falsification Polynomial Bound |
-| 2026-05-19 01:51 UTC | `INCONCLUSIVE` | 2-Adic Cokernel Type of Sign Matrix Caps Randomized CC |
-| 2026-05-19 02:06 UTC | `INCONCLUSIVE` | vdW 3-AP Density of MAJ-Lifted NW Designs Tracks Overlap k |
 | 2026-05-19 02:13 UTC | `INCONCLUSIVE` | Lorentzian Defect of Cut Polynomial Lower-Bounds Max-CUT SoS-2 Ga |
 | 2026-05-19 02:22 UTC | `INCONCLUSIVE` | Level-1 Fourier Mass Fraction of Term Family Bounds Monotone CLIQ |
 | 2026-05-19 02:31 UTC | `INCONCLUSIVE` | Dilworth Width of Gate-Cone Poset Lower-Bounds AC⁰ PARITY Size |
@@ -82,6 +77,11 @@ Generated 2026-05-19 03:40 UTC
 | 2026-05-19 03:17 UTC | `INCONCLUSIVE` | Eigenvalue Gap in SOS Moment Matrices for Max-CUT Approximation |
 | 2026-05-19 03:33 UTC | `INCONCLUSIVE` | Matroid Rank Complexity of Monotone DNF for k-CLIQUE |
 | 2026-05-19 03:40 UTC | `INCONCLUSIVE` | Communication Complexity Lower Bound for AC⁰ PARITY via Real Alge |
+| 2026-05-19 03:56 UTC | `INCONCLUSIVE` | Log-Size Submodularity in Monotone DNF for k-CLIQUE |
+| 2026-05-19 04:03 UTC | `INCONCLUSIVE` | SOS Moment Matrix Eigenvalue Threshold for ACC⁰ Lower Bounds |
+| 2026-05-19 04:17 UTC | `INCONCLUSIVE` | Fourier Coefficient Concentration in ACC⁰ Circuits |
+| 2026-05-19 04:24 UTC | `INCONCLUSIVE` | Schur-Weyl Multiplicity Gap in Symmetric vs Antisymmetric Decompo |
+| 2026-05-19 04:45 UTC | `INCONCLUSIVE` | Communication Complexity Lower Bound for AC⁰ Circuits via Real Po |
 
 ## How to read the reports
 

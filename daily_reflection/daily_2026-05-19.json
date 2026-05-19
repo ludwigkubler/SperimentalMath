@@ -1,0 +1,113 @@
+{
+  "ts": 1779161581.939896,
+  "window_h": 24.0,
+  "n_conjectures": 54,
+  "n_papers": 28,
+  "n_scoops": 0,
+  "scoops": [],
+  "top_overlap": [
+    {
+      "score": 0.703,
+      "paper_id": "2605.16168v1",
+      "paper_title": "Supergravity flows, wormholes and their pseudo-Hermitian holographic duals",
+      "paper_category": "hep-th",
+      "matched_conjecture_eid": "0f748361fa5f",
+      "matched_conjecture_title": "Effective Resistance of Charged Vertex Pairs Bounds Tseitin DPLL Size"
+    },
+    {
+      "score": 0.701,
+      "paper_id": "2605.16119v1",
+      "paper_title": "Boundary anomalous dimensions from BCFT: $φ^{3}$ theories with a boundary and higher-derivative generalizations",
+      "paper_category": "hep-th",
+      "matched_conjecture_eid": "67ed17c63684",
+      "matched_conjecture_title": "p=3 Path-Family Modulus Lower-Bounds Tseitin Tree-Resolution"
+    },
+    {
+      "score": 0.693,
+      "paper_id": "2605.16172v1",
+      "paper_title": "Background-Equivariant BRST Observables and i-Particle Propagators from an Auxiliary Quartet in SU(3) Yang-Mills",
+      "paper_category": "hep-th",
+      "matched_conjecture_eid": "4bcf619e2ecb",
+      "matched_conjecture_title": "vdW 3-AP Density of MAJ-Lifted NW Designs Tracks Overlap k"
+    },
+    {
+      "score": 0.687,
+      "paper_id": "2605.15268v1",
+      "paper_title": "Ising anyons in the $SU(2)_2$ Chern--Simons theory",
+      "paper_category": "hep-th",
+      "matched_conjecture_eid": "b6fc094b0a25",
+      "matched_conjecture_title": "Sidon B_2-Witness Failure of ACC⁰[2] for Sipser via MOD-Gate Outputs"
+    },
+    {
+      "score": 0.686,
+      "paper_id": "2605.16254v1",
+      "paper_title": "Fortuity and Complexity in a Simple Quark Model",
+      "paper_category": "hep-th",
+      "matched_conjecture_eid": "1743ebcdf761",
+      "matched_conjecture_title": "Morse-Hedlund Factor Complexity of XOR-Lifted Rows Upper-Bounds D(f)"
+    },
+    {
+      "score": 0.683,
+      "paper_id": "2605.15841v1",
+      "paper_title": "Critical quench dynamics of Wegner's $\\mathbb{Z}_2$ gauge model: a geometric perspective",
+      "paper_category": "cond-mat.stat-mech",
+      "matched_conjecture_eid": "0f748361fa5f",
+      "matched_conjecture_title": "Effective Resistance of Charged Vertex Pairs Bounds Tseitin DPLL Size"
+    },
+    {
+      "score": 0.676,
+      "paper_id": "2605.15267v1",
+      "paper_title": "Hierarchies from Higher Flavor Spin",
+      "paper_category": "hep-ph",
+      "matched_conjecture_eid": "63e0e3f43696",
+      "matched_conjecture_title": "SoS Cone-Gram Stable Rank Caps AC⁰ Depth-d Size for PARITY"
+    },
+    {
+      "score": 0.671,
+      "paper_id": "2605.16188v1",
+      "paper_title": "Non-Invertible Symmetries in Compactified Supergravities",
+      "paper_category": "hep-th",
+      "matched_conjecture_eid": "fd57783d2ed4",
+      "matched_conjecture_title": "Cross-Read Kronecker Sum Rank Lower-Bounds Read-Twice BP for IP_2"
+    },
+    {
+      "score": 0.669,
+      "paper_id": "2605.15272v1",
+      "paper_title": "A general proof of integer Rényi QNEC",
+      "paper_category": "hep-th",
+      "matched_conjecture_eid": "182e2d5f7a37",
+      "matched_conjecture_title": "Kashin L1-Flatness of Top Laplacian Eigenvector Bounds Max-Cut SoS-2 Gap"
+    },
+    {
+      "score": 0.665,
+      "paper_id": "2605.15420v1",
+      "paper_title": "Coherent States of Non-Null Torus Knots",
+      "paper_category": "quant-ph",
+      "matched_conjecture_eid": "0f748361fa5f",
+      "matched_conjecture_title": "Effective Resistance of Charged Vertex Pairs Bounds Tseitin DPLL Size"
+    }
+  ],
+  "stats": {
+    "n_cycles": 54,
+    "verdicts": {
+      "INCONCLUSIVE": 54
+    },
+    "focus_distribution": {
+      "ACC_SIPSER": 6,
+      "GCT_DET_PERM": 4,
+      "AC0_PARITY": 4,
+      "BP_READTWICE": 3,
+      "TSEITIN_RES": 2,
+      "SOS_DEGREE": 5,
+      "MONOTONE_CLIQUE": 3,
+      "COMM_DISJ": 2
+    },
+    "top_fields_A": {
+      "Character-theoretic mixing on S_5 — the L^1 distan": 1,
+      "Nisan–Wigderson combinatorial designs (set systems": 1,
+      "Coxeter-group combinatorics of S_5 — the inversion": 1,
+      "Birkhoff polytope / doubly-stochastic spectral the": 1,
+      "Fourier analysis of Boolean functions — specifical": 1
+    }
+  }
+}
