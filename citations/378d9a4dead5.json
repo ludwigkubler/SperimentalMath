@@ -1,0 +1,40 @@
+{
+  "entry_id": "378d9a4dead5",
+  "ts": 1779150262.3238935,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1107.1630",
+      "title": "On the Integrality Gap of the Subtour LP for the 1,2-TSP",
+      "abstract_excerpt": "In this paper, we study the integrality gap of the subtour LP relaxation for the traveling salesman problem in the special case when all edge costs are either 1 or 2. For the general case of symmetric costs that obey triangle inequality, a famous conjecture is that the integrality gap is 4/3. Little progress towards resolving this conjecture has been made in thirty years. We conjecture that when all edge costs $c_{ij}\\in \\{1,2\\}$, the integrality gap is $10/9$. We show that this conjecture is tr",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the integrality gap of the subtour LP for 1,2-TSP, not Max-CUT, Laplacian eigenvalues, or SoS-2 Delorme-Poljak gaps. It shares only the generic vocabulary 'integrality gap' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2404.18142",
+      "title": "Revisiting Majumdar-Ghosh spin chain model and Max-cut problem using variational quantum algorithms",
+      "abstract_excerpt": "In this work, energy levels of the Majumdar-Ghosh model (MGM) are analyzed up to 15 spins chain in the noisy intermediate-scale quantum framework using noisy simulations. This is a useful model whose exact solution is known for a particular choice of interaction coefficients. We have solved this model for interaction coefficients other than that required for the exactly solvable conditions as this solution can be of help in understanding the quantum phase transitions in complex spin chain models",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns variational quantum algorithms (QAOA/VQE) for the Majumdar-Ghosh spin chain and a 17-node Max-Cut instance, with no mention of Laplacian spectra, Hankel/apolar rank, distinct eigenvalue counts, or the Delorme-Poljak SoS-2 integrality gap bound.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2411.11721",
+      "title": "Eigenvalues of the Neumann magnetic Laplacian in the unit disk",
+      "abstract_excerpt": "In this paper, we study the first eigenvalue of the magnetic Laplacian with Neumann boundary conditions in the unit disk $\\mathbb D$ in $\\mathbb R^2$. There is a rather complete asymptotic analysis when the constant magnetic field tends to $+\\infty$ and some inequalities seem to hold for any value of this magnetic field, leading to rather simple conjectures. Our goal is to explore these questions by revisiting a classical picture of the physicist D. Saint-James theoretically and numerically. On ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the first eigenvalue of the magnetic Laplacian with Neumann boundary conditions on the unit disk in R^2, with asymptotic analysis as the magnetic field grows — entirely unrelated to graph Laplacian Hankel rank, Max-CUT, or SoS integrality gaps.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

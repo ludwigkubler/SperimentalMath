@@ -1,0 +1,40 @@
+{
+  "entry_id": "eeec3f948dcf",
+  "ts": 1779149533.3626235,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/2512.11833v1",
+      "title": "Soft Decision Tree classifier: explainable and extendable PyTorch implementation",
+      "abstract_excerpt": "We implemented a Soft Decision Tree (SDT) and a Short-term Memory Soft Decision Tree (SM-SDT) using PyTorch. The methods were extensively tested on simulated and clinical datasets. The SDT was visualized to demonstrate the potential for its explainability. SDT, SM-SDT, and XGBoost demonstrated simil",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a PyTorch implementation of a Soft Decision Tree classifier tested on clinical datasets, which shares only the 'decision tree' vocabulary but does not address decision tree depth or communication complexity lower bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1302.4207v1",
+      "title": "A composition theorem for decision tree complexity",
+      "abstract_excerpt": "We completely characterise the complexity in the decision tree model of computing composite relations of the form h = g(f^1,...,f^n), where each relation f^i is boolean-valued. Immediate corollaries include a direct sum theorem for decision tree complexity and a tight characterisation of the decisio",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a composition theorem for decision tree complexity of composite relations h = g(f^1,...,f^n), with corollaries about direct sum theorems—it does not address any lifting to communication complexity or a bound like R_{1/3}(f) = Ω(d/log n).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2105.01963",
+      "title": "One-way communication complexity and non-adaptive decision trees",
+      "abstract_excerpt": "We study the relationship between various one-way communication complexity measures of a composed function with the analogous decision tree complexity of the outer function. We consider two gadgets: the AND function on 2 inputs, and the Inner Product on a constant number of inputs. Let $IP$ denote Inner Product on $2b$ bits.\n  - If $f$ is a total Boolean function that depends on all of its inputs, the bounded-error one-way quantum communication complexity of $f \\circ IP$ equals $Ω(n(b-1))$.\n  - ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns one-way communication complexity of composed functions f∘g (with gadgets like IP, AND, XOR) versus non-adaptive decision tree complexity, not the relationship between a function's own decision tree depth and its two-party communication complexity R_{1/3}(f) as stated in the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
