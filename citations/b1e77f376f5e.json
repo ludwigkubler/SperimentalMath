@@ -1,0 +1,40 @@
+{
+  "entry_id": "b1e77f376f5e",
+  "ts": 1779158907.4661968,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1904.12209",
+      "title": "Sandpile monomorphisms and limits",
+      "abstract_excerpt": "We introduce a tiling problem between bounded open convex polyforms $\\hat{P}\\subset\\mathbb{R}^2$ with directed and uniquely colored edges. If there exists a tiling of the polyform $\\hat{P}_2$ by $\\hat{P}_1$, we show that one can construct a monomorphism from the sandpile group $G_{Γ_1}=\\mathbb{Z}^{Γ_1}/Δ(\\mathbb{Z}^{Γ_1})$ on the domain (graph) $Γ_1=\\hat{P}_1\\cap\\mathbb{Z}^2$ to the respective group on $Γ_2=\\hat{P}_2\\cap\\mathbb{Z}^2$. We provide several examples of infinite series of such tiling",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'tiling problem between bounded open convex polyforms' and constructing 'monomorphism from the sandpile group' for planar lattice graphs and their scaling limits — it shares the sandpile-group vocabulary but says nothing about the largest invariant factor, 3-regular expanders, or Tseitin/resolution proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/hep-ph/0610012v1",
+      "title": "Tevatron-for-LHC Report of the QCD Working Group",
+      "abstract_excerpt": "The experiments at Run 2 of the Tevatron have each accumulated over 1 inverse femtobarn of high-transverse momentum data. Such a dataset allows for the first precision (i.e. comparisons between theory and experiment at the few percent level) tests of QCD at a hadron collider. While the Large Hadron ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract is about QCD precision tests at the Tevatron and LHC ('first precision...tests of QCD at a hadron collider'), which has no bearing on sandpile groups or Tseitin resolution complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2008.13672",
+      "title": "Computing sandpile configurations using integer linear programming",
+      "abstract_excerpt": "It is well known that recurrent sandpile configurations can be characterized as the optimal solution of certain optimization problems. In this article, we present two new integer linear programming models, one that computes recurrent configurations and other that computes the order of the configuration. Finally, by using duality of linear programming, we are able to compute the identity configuration for the cone of a regular graph.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes ILP models for computing recurrent sandpile configurations and identity configurations, which shares the sandpile vocabulary but does not address the largest invariant factor of the Laplacian nor Tseitin/resolution proof complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

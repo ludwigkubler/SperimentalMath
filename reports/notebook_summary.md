@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-19 02:40 UTC"
+date: "2026-05-19 03:40 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-19 02:40 UTC
+Generated 2026-05-19 03:40 UTC
 
-- Cycles recorded: **813**
-- Time span: 605.0h (~1.34 cycles/h)
+- Cycles recorded: **819**
+- Time span: 606.0h (~1.35 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 773 |
+| INCONCLUSIVE | 779 |
 | BARRIER_HIT | 20 |
 | FALSIFIED | 16 |
 | SUPPORTED | 4 |
@@ -36,7 +36,7 @@ Generated 2026-05-19 02:40 UTC
 | Schur-Weyl Duality | 28 |
 | Free Probability Theory | 19 |
 | Representation Theory of Symmetric Groups | 18 |
-| Matroid Theory | 16 |
+| Matroid Theory | 17 |
 | Free Probability | 14 |
 | Additive Combinatorics | 13 |
 | Noncommutative L^p Geometry | 10 |
@@ -67,12 +67,6 @@ Generated 2026-05-19 02:40 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-19 00:11 UTC | `INCONCLUSIVE` | Decision Tree Depth and Communication Complexity via Lifting |
-| 2026-05-19 00:24 UTC | `INCONCLUSIVE` | Laplacian Apolar Rank Caps Delorme-Poljak Max-CUT SoS-2 Gap |
-| 2026-05-19 00:32 UTC | `INCONCLUSIVE` | Cross-Read Kronecker Sum Rank Lower-Bounds Read-Twice BP for IP_2 |
-| 2026-05-19 00:39 UTC | `INCONCLUSIVE` | SoS Cone-Gram Stable Rank Caps AC⁰ Depth-d Size for PARITY |
-| 2026-05-19 00:46 UTC | `INCONCLUSIVE` | Talagrand L1 Influence Spread of Clause-Falsification Polynomial  |
-| 2026-05-19 01:09 UTC | `INCONCLUSIVE` | Border Rank Lower Bound for Communication Complexity of Disjointn |
 | 2026-05-19 01:23 UTC | `INCONCLUSIVE` | Communication Complexity Lower Bound for Disjointness Implies Mon |
 | 2026-05-19 01:33 UTC | `INCONCLUSIVE` | Cubical First-Betti Linearly Lower-Bounds DNF-MCSP |
 | 2026-05-19 01:40 UTC | `INCONCLUSIVE` | Fourier Spectral Entropy of Clause-Falsification Polynomial Bound |
@@ -82,6 +76,12 @@ Generated 2026-05-19 02:40 UTC
 | 2026-05-19 02:22 UTC | `INCONCLUSIVE` | Level-1 Fourier Mass Fraction of Term Family Bounds Monotone CLIQ |
 | 2026-05-19 02:31 UTC | `INCONCLUSIVE` | Dilworth Width of Gate-Cone Poset Lower-Bounds AC⁰ PARITY Size |
 | 2026-05-19 02:40 UTC | `INCONCLUSIVE` | Mean Log-Bias of Internal Gates Lower-Bounds AC⁰ PARITY Size |
+| 2026-05-19 02:48 UTC | `INCONCLUSIVE` | Sandpile Group Exponent Lower-Bounds Tseitin Tree-Resolution Size |
+| 2026-05-19 02:53 UTC | `INCONCLUSIVE` | SAW Connective Growth of Gate DAG Lower-Bounds ACC^0[2] for MOD_3 |
+| 2026-05-19 03:06 UTC | `INCONCLUSIVE` | Frobenius Fourier Defect of Barrington AND_n PBP Trajectory |
+| 2026-05-19 03:17 UTC | `INCONCLUSIVE` | Eigenvalue Gap in SOS Moment Matrices for Max-CUT Approximation |
+| 2026-05-19 03:33 UTC | `INCONCLUSIVE` | Matroid Rank Complexity of Monotone DNF for k-CLIQUE |
+| 2026-05-19 03:40 UTC | `INCONCLUSIVE` | Communication Complexity Lower Bound for AC⁰ PARITY via Real Alge |
 
 ## How to read the reports
 

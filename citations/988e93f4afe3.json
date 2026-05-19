@@ -1,0 +1,40 @@
+{
+  "entry_id": "988e93f4afe3",
+  "ts": 1779159251.087389,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1302.2796",
+      "title": "Endless self-avoiding walks",
+      "abstract_excerpt": "We introduce a self-avoiding walk model for which end-effects are completely eliminated. We enumerate the number of these walks for various lattices in dimensions two and three, and use these enumerations to study the properties of this model. We find that endless self-avoiding walks have the same connective constant as self-avoiding walks, and the same Flory exponent $ν$. However, there is no power law correction to the exponential number growth for this new model, i.e. the critical exponent $γ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'endless self-avoiding walks' on 2D/3D lattices, studying connective constants, Flory exponent ν, and critical exponent γ=1 — purely a statistical-mechanics SAW paper. It says nothing about ACC^0[2] circuits, MOD_3, or gate-incidence multigraphs, so it neither supports nor refutes the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1307.6288",
+      "title": "Self-avoiding quantum walks: realisations in subspaces and limit theorems",
+      "abstract_excerpt": "While completely self-avoiding quantum walks have the distinct property of leading to a trivial unidirectional transport of a quantum state, an interesting and non-trivial dynamics can be constructed by restricting the self-avoidance to a subspace of the complete Hilbert space. Here, we present a comprehensive study of three two-dimensional quantum walks, which are self-avoiding in coin space, in position space and in both, coin and position space. We discuss the properties of these walks and sh",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quantum walks on two-dimensional lattices with self-avoidance restricted to coin/position subspaces of Hilbert space, not Hammersley connective-constant enumeration on gate-incidence multigraphs of ACC^0[2] circuits. It shares the 'self-avoiding walk' vocabulary but does not interact with circuit lower bounds or MOD_3.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/hep-lat/9302003v1",
+      "title": "New Lower Bounds on the Self-Avoiding-Walk Connective Constant",
+      "abstract_excerpt": "We give an elementary new method for obtaining rigorous lower bounds on the connective constant for self-avoiding walks on the hypercubic lattice $Z^d$. The method is based on loop erasure and restoration, and does not require exact enumeration data. Our bounds are best for high $d$, and in fact agr",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes 'rigorous lower bounds on the connective constant for self-avoiding walks on the hypercubic lattice Z^d' via loop erasure — a mathematical physics result on infinite regular lattices, with no interaction with ACC^0[2] circuits, MOD_3, or gate-incidence multigraphs.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
