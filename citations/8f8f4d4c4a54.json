@@ -1,0 +1,40 @@
+{
+  "entry_id": "8f8f4d4c4a54",
+  "ts": 1779158431.5036268,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2304.02770",
+      "title": "Tight Correlation Bounds for Circuits Between AC0 and TC0",
+      "abstract_excerpt": "We initiate the study of generalized AC0 circuits comprised of negations and arbitrary unbounded fan-in gates that only need to be constant over inputs of Hamming weight $\\ge k$, which we denote GC0$(k)$. The gate set of this class includes biased LTFs like the $k$-$OR$ (output $1$ iff $\\ge k$ bits are 1) and $k$-$AND$ (output $0$ iff $\\ge k$ bits are 0), and thus can be seen as an interpolation between AC0 and TC0. We establish a tight multi-switching lemma for GC0$(k)$ circuits, which bounds t",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns multi-switching lemmas and correlation/PRG/Fourier-tail bounds for the generalized class GC0(k), extending classical AC0 results; it never mentions an information-geometric KL-divergence functional on internal-gate bias empirical measures. It shares the AC0/PARITY framework but does not interact with the specific ψ(C) invariant or its two-part bound.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2604.11744",
+      "title": "KL Divergence Between Gaussians: A Step-by-Step Derivation for the Variational Autoencoder Objective",
+      "abstract_excerpt": "Kullback-Leibler (KL) divergence is a fundamental concept in information theory that quantifies the discrepancy between two probability distributions. In the context of Variational Autoencoders (VAEs), it serves as a central regularization term, imposing structure on the latent space and thereby enabling the model to exhibit generative capabilities. In this work, we present a detailed derivation of the closed-form expression for the KL divergence between Gaussian distributions, a case of particu",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract derives the closed-form KL divergence between Gaussians for VAE training, sharing only the 'KL divergence' vocabulary; it makes no claim about AC⁰ circuits, gate biases, or PARITY lower bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2504.19966",
+      "title": "Quantum circuit lower bounds in the magic hierarchy",
+      "abstract_excerpt": "We introduce the magic hierarchy, a quantum circuit model that alternates between arbitrary-sized Clifford circuits and constant-depth circuits with two-qubit gates ($\\textsf{QNC}^0$). This model unifies existing circuit models, such as $\\textsf{QAC}^0_f$ and models with adaptive intermediate measurements. Despite its generality, we are able to prove nontrivial lower bounds.\n  We prove new lower bounds in the first level of the hierarchy, showing that certain explicit quantum states cannot be ap",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quantum circuit lower bounds in a 'magic hierarchy' of Clifford + QNC^0 circuits for state preparation, using stabilizer-code rigidity — it never addresses AC^0 PARITY size bounds via an information-geometric mean KL functional on internal gate biases.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

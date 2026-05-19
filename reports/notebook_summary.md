@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-19 01:40 UTC"
+date: "2026-05-19 02:40 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-19 01:40 UTC
+Generated 2026-05-19 02:40 UTC
 
-- Cycles recorded: **807**
-- Time span: 604.0h (~1.34 cycles/h)
+- Cycles recorded: **813**
+- Time span: 605.0h (~1.34 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 767 |
+| INCONCLUSIVE | 773 |
 | BARRIER_HIT | 20 |
 | FALSIFIED | 16 |
 | SUPPORTED | 4 |
@@ -67,12 +67,6 @@ Generated 2026-05-19 01:40 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-18 22:41 UTC | `INCONCLUSIVE` | FCA Antichain Width of Implicant Lattice Caps DNF-MCSP Within Fac |
-| 2026-05-18 22:48 UTC | `INCONCLUSIVE` | Schatten Stable Rank of Layer-Difference Stack Lower-Bounds RT-BP |
-| 2026-05-18 22:57 UTC | `INCONCLUSIVE` | Matousek Det-LB Submatrix Dispersion Lower-Bounds Friedman Sign R |
-| 2026-05-18 23:14 UTC | `INCONCLUSIVE` | Treewidth of Prime-Implicant Compatibility Graph Tracks DNF-MCSP |
-| 2026-05-18 23:25 UTC | `INCONCLUSIVE` | Kashin L1-Flatness of Top Laplacian Eigenvector Bounds Max-Cut So |
-| 2026-05-18 23:39 UTC | `INCONCLUSIVE` | Free 4-Cumulant Excess Capped by Stable Rank Lower-Bounds R(DISJ) |
 | 2026-05-19 00:11 UTC | `INCONCLUSIVE` | Decision Tree Depth and Communication Complexity via Lifting |
 | 2026-05-19 00:24 UTC | `INCONCLUSIVE` | Laplacian Apolar Rank Caps Delorme-Poljak Max-CUT SoS-2 Gap |
 | 2026-05-19 00:32 UTC | `INCONCLUSIVE` | Cross-Read Kronecker Sum Rank Lower-Bounds Read-Twice BP for IP_2 |
@@ -82,6 +76,12 @@ Generated 2026-05-19 01:40 UTC
 | 2026-05-19 01:23 UTC | `INCONCLUSIVE` | Communication Complexity Lower Bound for Disjointness Implies Mon |
 | 2026-05-19 01:33 UTC | `INCONCLUSIVE` | Cubical First-Betti Linearly Lower-Bounds DNF-MCSP |
 | 2026-05-19 01:40 UTC | `INCONCLUSIVE` | Fourier Spectral Entropy of Clause-Falsification Polynomial Bound |
+| 2026-05-19 01:51 UTC | `INCONCLUSIVE` | 2-Adic Cokernel Type of Sign Matrix Caps Randomized CC |
+| 2026-05-19 02:06 UTC | `INCONCLUSIVE` | vdW 3-AP Density of MAJ-Lifted NW Designs Tracks Overlap k |
+| 2026-05-19 02:13 UTC | `INCONCLUSIVE` | Lorentzian Defect of Cut Polynomial Lower-Bounds Max-CUT SoS-2 Ga |
+| 2026-05-19 02:22 UTC | `INCONCLUSIVE` | Level-1 Fourier Mass Fraction of Term Family Bounds Monotone CLIQ |
+| 2026-05-19 02:31 UTC | `INCONCLUSIVE` | Dilworth Width of Gate-Cone Poset Lower-Bounds AC⁰ PARITY Size |
+| 2026-05-19 02:40 UTC | `INCONCLUSIVE` | Mean Log-Bias of Internal Gates Lower-Bounds AC⁰ PARITY Size |
 
 ## How to read the reports
 

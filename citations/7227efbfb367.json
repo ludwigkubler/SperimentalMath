@@ -1,0 +1,40 @@
+{
+  "entry_id": "7227efbfb367",
+  "ts": 1779155563.691125,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/1703.01572v1",
+      "title": "The Smith normal form of a specialized Giambelli-type matrix",
+      "abstract_excerpt": "In the study of determinant formulas for Schur functions, Hamel and Goulden introduced a class of Giambelli-type matrices with respect to outside decompositions of partition diagrams, which unify the Jacobi-Trudi matrices, the Giambelli matrices and the Lascoux-Pragacz matrices. Stanley determined t",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Smith normal form of Giambelli-type matrices built from Schur function/partition diagram combinatorics, not sign matrices or communication complexity. It shares the 'Smith normal form' vocabulary but does not address 2-adic cokernel structure of {±1} matrices or any CC lower bound.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2211.09736",
+      "title": "Equidistributions of Sign Patterns of the Liouville Function and Normal Numbers",
+      "abstract_excerpt": "The equidistribution of the double sign patterns of the Liouville function $λ$ is proved unconditionally. As application, it is shown that the computable real number $$\\sum_{n \\geq 1} \\frac{1+λ(n)}{2^{n}}$$ is a simply normal number in base 4.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns equidistribution of sign patterns of the Liouville function and normality of a derived real number, with no mention of sign matrices, communication complexity, γ_2 norm, or 2-adic cokernel valuations. It shares only the superficial term 'sign' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1602.00166v2",
+      "title": "Smith Normal Form in Combinatorics",
+      "abstract_excerpt": "This paper surveys some combinatorial aspects of Smith normal form, and more generally, diagonal form. The discussion includes general algebraic properties and interpretations of Smith normal form, critical groups of graphs, and Smith normal form of random integer matrices. We then give some example",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract surveys Smith normal form, critical groups of graphs, and random integer matrices in combinatorics — sharing the SNF/cokernel vocabulary but saying nothing about sign matrices, γ_2-norm, or communication complexity lower bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "entry_id": "dad52f056827",
+  "ts": 1779156813.83292,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:ARXIV:2407.19905",
+      "title": "The Bidirected Cut Relaxation for Steiner Tree has Integrality Gap Smaller Than 2",
+      "abstract_excerpt": "The Steiner tree problem is one of the most prominent problems in network design. Given an edge-weighted undirected graph and a subset of the vertices, called terminals, the task is to compute a minimum-weight tree containing all terminals (and possibly further vertices). The best-known approximation algorithms for Steiner tree involve enumeration of a (polynomial but) very large number of candidate components and are therefore slow in practice. A promising ingredient for the design of fast and ",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the integrality gap of the bidirected cut relaxation for Steiner tree, bounding it below 2, with no mention of Max-CUT, SoS-2, Delorme–Poljak, or Lorentzian/log-concave polynomials. It shares only the generic 'integrality gap' vocabulary, not the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10.4230/LIPIcs.SWAT.2024.23",
+      "title": "A Logarithmic Integrality Gap for Generalizations of Quasi-Bipartite Instances of Directed Steiner Tree",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available for the cited paper, and the title concerns a logarithmic integrality gap for Directed Steiner Tree on quasi-bipartite instances, which is unrelated on its face to Lorentzian polynomial defects and Max-CUT SoS-2 gaps; cannot determine relevance from the abstract alone.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}
