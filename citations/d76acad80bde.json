@@ -1,0 +1,31 @@
+{
+  "entry_id": "d76acad80bde",
+  "ts": 1779152986.5815973,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:ARXIV:1608.07486",
+      "title": "A $2n^2-log(n)-1$ lower bound for the border rank of matrix multiplication",
+      "abstract_excerpt": "Let M_n denote the matrix multiplication tensor for nxn matrices. We use the border substitution method combined with Koszul flattenings to prove the border rank lower bound of 2n^2-log(n)-1 for M_n.",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns border rank lower bounds for the matrix multiplication tensor M_n via Koszul flattenings, not communication complexity of DISJ_n or any link between border rank and randomized communication complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10.1093/IMRN/RNX025",
+      "title": "A $2{\\mathbf{n}}^2-{\\text{log}}_2({\\mathbf{n}})-1$ lower bound for the border rank of matrix multiplication",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available to assess; the title concerns a border rank lower bound for matrix multiplication, which does not obviously address randomized communication complexity of DISJ_n.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}

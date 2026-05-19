@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-19 00:46 UTC"
+date: "2026-05-19 01:40 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-19 00:46 UTC
+Generated 2026-05-19 01:40 UTC
 
-- Cycles recorded: **803**
-- Time span: 603.1h (~1.33 cycles/h)
+- Cycles recorded: **807**
+- Time span: 604.0h (~1.34 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 763 |
+| INCONCLUSIVE | 767 |
 | BARRIER_HIT | 20 |
 | FALSIFIED | 16 |
 | SUPPORTED | 4 |
@@ -67,10 +67,6 @@ Generated 2026-05-19 00:46 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-18 19:09 UTC | `INCONCLUSIVE` | Dismantlability Core of Clause-Sharing Graph Bounds Tree-Res Size |
-| 2026-05-18 19:38 UTC | `INCONCLUSIVE` | Baker-Norine ω-Gonality Lower-Bounds Tseitin DPLL Size |
-| 2026-05-18 20:36 UTC | `INCONCLUSIVE` | Morse-Hedlund Factor Complexity of XOR-Lifted Rows Upper-Bounds D |
-| 2026-05-18 21:12 UTC | `INCONCLUSIVE` | Gromov 4-Point Hyperbolicity of Gate-Graph Caps ACC^0[2] Bias on  |
 | 2026-05-18 22:41 UTC | `INCONCLUSIVE` | FCA Antichain Width of Implicant Lattice Caps DNF-MCSP Within Fac |
 | 2026-05-18 22:48 UTC | `INCONCLUSIVE` | Schatten Stable Rank of Layer-Difference Stack Lower-Bounds RT-BP |
 | 2026-05-18 22:57 UTC | `INCONCLUSIVE` | Matousek Det-LB Submatrix Dispersion Lower-Bounds Friedman Sign R |
@@ -82,6 +78,10 @@ Generated 2026-05-19 00:46 UTC
 | 2026-05-19 00:32 UTC | `INCONCLUSIVE` | Cross-Read Kronecker Sum Rank Lower-Bounds Read-Twice BP for IP_2 |
 | 2026-05-19 00:39 UTC | `INCONCLUSIVE` | SoS Cone-Gram Stable Rank Caps AC⁰ Depth-d Size for PARITY |
 | 2026-05-19 00:46 UTC | `INCONCLUSIVE` | Talagrand L1 Influence Spread of Clause-Falsification Polynomial  |
+| 2026-05-19 01:09 UTC | `INCONCLUSIVE` | Border Rank Lower Bound for Communication Complexity of Disjointn |
+| 2026-05-19 01:23 UTC | `INCONCLUSIVE` | Communication Complexity Lower Bound for Disjointness Implies Mon |
+| 2026-05-19 01:33 UTC | `INCONCLUSIVE` | Cubical First-Betti Linearly Lower-Bounds DNF-MCSP |
+| 2026-05-19 01:40 UTC | `INCONCLUSIVE` | Fourier Spectral Entropy of Clause-Falsification Polynomial Bound |
 
 ## How to read the reports
 

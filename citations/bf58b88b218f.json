@@ -1,0 +1,31 @@
+{
+  "entry_id": "bf58b88b218f",
+  "ts": 1779153823.622506,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:2506.12420",
+      "title": "Deterministic Lifting Theorems for One-Way Number-on-Forehead Communication",
+      "abstract_excerpt": "Lifting theorems are one of the most powerful tools for proving communication lower bounds, with numerous downstream applications in proof complexity, monotone circuit lower bounds, data structures, and combinatorial optimization. However, to the best of our knowledge, prior lifting theorems have pr",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes general lifting theorems with applications to monotone circuit lower bounds, but does not address the specific claim linking deterministic communication complexity of disjointness to an Ω(2^{n/2}) monotone circuit size bound.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10.1145/3406325.3451069",
+      "title": "Lower bounds for monotone arithmetic circuits via communication complexity",
+      "abstract_excerpt": "Valiant (1980) showed that general arithmetic circuits with negation can be exponentially more powerful than monotone ones. We give the first improvement to this classical result: we construct a family of polynomials Pn in n variables, each of its monomials has non-negative coefficient, such that Pn can be computed by a polynomial-size depth-three formula but every monotone circuit computing it has size 2Ω(n1/4/log(n)). The polynomial Pn embeds the SINK∘ XOR function devised recently by Chattopa",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns monotone arithmetic circuit lower bounds derived from communication complexity techniques (corruption of rectangles via f∘XOR), not the Boolean disjointness function nor the specific deterministic communication complexity → monotone Boolean circuit size implication in the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 0
+  }
+}

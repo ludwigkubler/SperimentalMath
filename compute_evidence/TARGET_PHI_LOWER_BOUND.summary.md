@@ -1,24 +1,24 @@
 # Compute evidence: TARGET_PHI_LOWER_BOUND
 
-*Last update: 2026-05-18 17:11 UTC*
+*Last update: 2026-05-19 00:23 UTC*
 
 Instance class: `tseitin`
 
 ## Summary by n
 
-- `n=8`: median runtime = 0.0022s, median conflicts = 31
-- `n=10`: median runtime = 0.0022s, median conflicts = 43
-- `n=12`: median runtime = 0.0024s, median conflicts = 99
-- `n=14`: median runtime = 0.0025s, median conflicts = 95
-- `n=16`: median runtime = 0.0028s, median conflicts = 218
-- `n=18`: median runtime = 0.003s, median conflicts = 283
-- `n=20`: median runtime = 0.003s, median conflicts = 236
-- `n=22`: median runtime = 0.0032s, median conflicts = 333
-- `n=24`: median runtime = 0.005s, median conflicts = 1063
+- `n=8`: median runtime = 0.0015s, median conflicts = 31
+- `n=10`: median runtime = 0.0015s, median conflicts = 43
+- `n=12`: median runtime = 0.0017s, median conflicts = 99
+- `n=14`: median runtime = 0.0017s, median conflicts = 95
+- `n=16`: median runtime = 0.0019s, median conflicts = 218
+- `n=18`: median runtime = 0.002s, median conflicts = 283
+- `n=20`: median runtime = 0.002s, median conflicts = 236
+- `n=22`: median runtime = 0.0021s, median conflicts = 333
+- `n=24`: median runtime = 0.0034s, median conflicts = 1063
 
 ## Scaling (log-log)
 
-- runtime slope: **0.563**
+- runtime slope: **0.562**
 - conflicts slope: **2.828**
 
 (slope > 1 = super-linear; slope > 2 = polynomial-violating)

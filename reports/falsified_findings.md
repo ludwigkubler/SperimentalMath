@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — FALSIFIED conjectures"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-19 00:46 UTC"
+date: "2026-05-19 01:40 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -15,7 +15,7 @@ colorlinks: true
 
 > **⚠ AUDIT 2026-05-08**: this report has been filtered against `retractions.json`. Some entries previously listed here have been retracted following a code-level audit. See [`AUDIT_2026-05-08.md`](../AUDIT_2026-05-08.md) for the full audit document and [`MULTIAGENT_PIPELINE.md`](../MULTIAGENT_PIPELINE.md) for the new review pipeline.
 
-Compiled 2026-05-19 00:46 UTC. 10 conjectures falsified with counterexample.
+Compiled 2026-05-19 01:40 UTC. 10 conjectures falsified with counterexample.
 
 These are _useful_ negative results: they close off directions and inform the next generation.
 
