@@ -1,0 +1,40 @@
+{
+  "entry_id": "17e6b7435e5a",
+  "ts": 1779361989.2403886,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/1102.2932v2",
+      "title": "Applications of Monotone Rank to Complexity Theory",
+      "abstract_excerpt": "Raz's recent result \\cite{Raz2010} has rekindled people's interest in the study of \\emph{tensor rank}, the generalization of matrix rank to high dimensions, by showing its connections to arithmetic formulas. In this paper, we follow Raz's work and show that \\emph{monotone rank}, the monotone variant",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'monotone rank' as a tool connecting tensor rank to arithmetic formula complexity following Raz's work, with no mention of monotone DNF size, k-CLIQUE indicators, or instance-complexity certification depth. It shares the 'monotone' vocabulary but does not interact with the specific certificate-length bounds in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2211.03396v3",
+      "title": "Certificate Games and Consequences for the Classical Adversary Bound",
+      "abstract_excerpt": "We introduce and study Certificate Game complexity, a measure of complexity based on the probability of winning a game where two players are given inputs with different function values and are asked to output some index $i$ such that $x_i\\neq y_i$, in a zero-communication setting.\n  We study four ve",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes 'Certificate Game complexity' in a two-player zero-communication setting for general Boolean functions, which shares the 'certificate' vocabulary but does not address greedy DPLL certifier expected length on monotone DNFs nor k-CLIQUE DNF size bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/cs/0209032v3",
+      "title": "Complexity Results on DPLL and Resolution",
+      "abstract_excerpt": "DPLL and resolution are two popular methods for solving the problem of propositional satisfiability. Rather than algorithms, they are families of algorithms, as their behavior depend on some choices they face during execution: DPLL depends on the choice of the literal to branch on; resolution depend",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes DPLL and resolution as families of SAT-solving algorithms depending on branching/literal choices, with no mention of monotone DNF size, k-CLIQUE indicators, instance complexity, or certificate-length expectations under Hamming-weight distributions.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-21 10:32 UTC"
+date: "2026-05-21 11:40 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-21 10:32 UTC
+Generated 2026-05-21 11:40 UTC
 
-- Cycles recorded: **1010**
-- Time span: 660.9h (~1.53 cycles/h)
+- Cycles recorded: **1017**
+- Time span: 662.0h (~1.54 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 964 |
+| INCONCLUSIVE | 971 |
 | BARRIER_HIT | 26 |
 | FALSIFIED | 16 |
 | SUPPORTED | 4 |
@@ -67,13 +67,6 @@ Generated 2026-05-21 10:32 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-21 06:56 UTC | `INCONCLUSIVE` | Eigenvalue Count and SOS Degree for Max-CUT Approximation |
-| 2026-05-21 07:37 UTC | `INCONCLUSIVE` | Prime Density in Arithmetic Progressions and Seed Length of Nisan |
-| 2026-05-21 07:51 UTC | `INCONCLUSIVE` | Free Entropy Gap in Disjointness Communication Matrices |
-| 2026-05-21 08:09 UTC | `INCONCLUSIVE` | SOS Moment Matrix Spectral Gap and Max-CUT Approximation Ratio |
-| 2026-05-21 08:19 UTC | `INCONCLUSIVE` | Additive Energy of Fourier Coefficients and ACC⁰ Circuit Size |
-| 2026-05-21 08:33 UTC | `INCONCLUSIVE` | Betti Number Sum Lower Bound for SOS Max-CUT Degree |
-| 2026-05-21 08:47 UTC | `INCONCLUSIVE` | Asymptotic Dimension and Tseitin Resolution Length |
 | 2026-05-21 09:38 UTC | `INCONCLUSIVE` | Specht Block Spread of Perm Exceeds Det Under Random Linear Lift |
 | 2026-05-21 09:45 UTC | `INCONCLUSIVE` | Specht Character Support Bounds Monotone Permanental Formula Size |
 | 2026-05-21 09:52 UTC | `INCONCLUSIVE` | Möbius Mass of Rectangle Poset Lower-Bounds D^cc |
@@ -82,6 +75,13 @@ Generated 2026-05-21 10:32 UTC
 | 2026-05-21 10:14 UTC | `INCONCLUSIVE` | Slice-Fourier Variance Asymmetry of Perm vs Monotone Det Substitu |
 | 2026-05-21 10:22 UTC | `INCONCLUSIVE` | VC dimension of gadget row family tightly bounds lifted D^cc |
 | 2026-05-21 10:32 UTC | `INCONCLUSIVE` | Gromov 4-Point Hyperbolicity Gap Separates k-CLIQUE Monotone DNFs |
+| 2026-05-21 10:48 UTC | `INCONCLUSIVE` | Lorentzian Hessian Gap of Spanning-Tree Polynomial Bounds Max-CUT |
+| 2026-05-21 10:54 UTC | `INCONCLUSIVE` | NW-Design Slice Spectral Discrepancy Bound for DISJ |
+| 2026-05-21 11:03 UTC | `INCONCLUSIVE` | MST Persistence Entropy Lower-Bounds Log-Rank of Sign Matrices |
+| 2026-05-21 11:12 UTC | `INCONCLUSIVE` | Instance-Complexity Certification Depth Bounds Monotone DNF Size  |
+| 2026-05-21 11:23 UTC | `INCONCLUSIVE` | Cyclic Fourier Spread of Term-Vertex Incidence in Monotone k-CLIQ |
+| 2026-05-21 11:29 UTC | `INCONCLUSIVE` | Coboundary Spectral Gap Lower-Bounds DPLL Tree Size on Tseitin |
+| 2026-05-21 11:40 UTC | `INCONCLUSIVE` | Heilmann-Lieb Matching Root Gap Bounds Monotone k-CLIQUE DNF Size |
 
 ## How to read the reports
 

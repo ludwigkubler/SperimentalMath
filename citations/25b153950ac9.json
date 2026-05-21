@@ -1,0 +1,40 @@
+{
+  "entry_id": "25b153950ac9",
+  "ts": 1779360879.336118,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2401.14623",
+      "title": "Structure in Communication Complexity and Constant-Cost Complexity Classes",
+      "abstract_excerpt": "Several theorems and conjectures in communication complexity state or speculate that the complexity of a matrix in a given communication model is controlled by a related analytic or algebraic matrix parameter, e.g., rank, sign-rank, discrepancy, etc. The forward direction is typically easy as the structural implications of small complexity often imply a bound on some matrix parameter. The challenge lies in establishing the reverse direction, which requires understanding the structure of Boolean ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a general survey of research directions linking communication complexity to matrix parameters like discrepancy and rank, without stating any specific bound on NW-design slice matrices of DISJ or the spectral discrepancy quantity ρ(f, D_n) defined in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1505.03110",
+      "title": "Near-optimal bounds on bounded-round quantum communication complexity of disjointness",
+      "abstract_excerpt": "We prove a near optimal round-communication tradeoff for the two-party quantum communication complexity of disjointness. For protocols with $r$ rounds, we prove a lower bound of $\\tildeΩ(n/r + r)$ on the communication required for computing disjointness of input size $n$, which is optimal up to logarithmic factors. The previous best lower bound was $Ω(n/r^2 + r)$ due to Jain, Radhakrishnan and Sen [JRS03]. Along the way, we develop several tools for quantum information complexity, one of which i",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns bounded-round quantum communication complexity of disjointness and quantum information complexity bounds via generalized discrepancy, not Nisan–Wigderson design-slice spectral discrepancy matrices for randomized DISJ. It neither asserts nor refutes the specific σ_max/m bound on NW-design slices conjectured.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0801.3624",
+      "title": "Multiparty Communication Complexity of Disjointness",
+      "abstract_excerpt": "We obtain a lower bound of n^Omega(1) on the k-party randomized communication complexity of the Disjointness function in the `Number on the Forehead' model of multiparty communication when k is a constant. For k=o(loglog n), the bounds remain super-polylogarithmic i.e. (log n)^omega(1). The previous best lower bound for three players until recently was Omega(log n).\n  Our bound separates the communication complexity classes NP^{CC}_k and BPP^{CC}_k for k=o(loglog n). Furthermore, by the results ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns multiparty Number-on-the-Forehead lower bounds for Disjointness via approximate polynomial degree techniques, not Nisan-Wigderson design-slice matrices or spectral/discrepancy bounds of the specific form ρ(DISJ_n, D_n) ≤ C·m^{−1/2} proposed in the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

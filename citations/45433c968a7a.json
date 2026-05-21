@@ -1,0 +1,40 @@
+{
+  "entry_id": "45433c968a7a",
+  "ts": 1779360541.4634984,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2206.02759",
+      "title": "Polynomials with Lorentzian Signature, and Computing Permanents via Hyperbolic Programming",
+      "abstract_excerpt": "We study the class of polynomials whose Hessians evaluated at any point of a closed convex cone have Lorentzian signature. This class is a generalization to the remarkable class of Lorentzian polynomials. We prove that hyperbolic polynomials and conic stable polynomials belong to this class, and the set of polynomials with Lorentzian signature is closed. Finally, we develop a method for computing permanents of nonsingular matrices which belong to a class that includes nonsingular $k$-locally sin",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a generalization of Lorentzian polynomials and an algorithmic permanent computation via hyperbolic programming; it says nothing about spanning-tree polynomials, Max-Cut, or the Delorme–Poljak SOS slack bound.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2304.08399",
+      "title": "Dually Lorentzian Polynomials",
+      "abstract_excerpt": "We introduce and study a notion of dually Lorentzian polynomials, and show that if $s$ is non-zero and dually Lorentzian then the operator \\[s(\\partial_{x_1},\\ldots,\\partial_{x_n}):\\mathbb R[x_1,\\ldots,x_n] \\to \\mathbb R[x_1,\\ldots,x_n]\\] preserves (strictly) Lorentzian polynomials. From this we conclude that any theory that admits a mixed Alexandrov-Fenchel inequality also admits a generalized Alexandrov-Fenchel inequality involving dually Lorentzian polynomials. As such we deduce generalized A",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract introduces 'dually Lorentzian polynomials' and derives generalized Alexandrov-Fenchel inequalities for mixed discriminants, Kähler classes, mixed volumes, and valuations — it shares the Lorentzian framework but says nothing about spanning-tree polynomials, Hessian spectral gaps, or Max-CUT SOS slack.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2204.02097",
+      "title": "Simulated Annealing is a Polynomial-Time Approximation Scheme for the Minimum Spanning Tree Problem",
+      "abstract_excerpt": "We prove that Simulated Annealing with an appropriate cooling schedule computes arbitrarily tight constant-factor approximations to the minimum spanning tree problem in polynomial time. This result was conjectured by Wegener (2005). More precisely, denoting by $n, m, w_{\\max}$, and $w_{\\min}$ the number of vertices and edges as well as the maximum and minimum edge weight of the MST instance, we prove that simulated annealing with initial temperature $T_0 \\ge w_{\\max}$ and multiplicative cooling ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns simulated annealing approximation guarantees for the minimum spanning tree problem ('Simulated Annealing... computes arbitrarily tight constant-factor approximations to the minimum spanning tree problem'), which has no interaction with Lorentzian Hessian spectra, transfer currents, or Max-CUT SOS slack.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "f4d1273a6af3",
+  "ts": 1779362611.8013456,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0509044v2",
+      "title": "Decomposing symmetric powers of certain modular representations of cyclic groups",
+      "abstract_excerpt": "For a prime number p, we construct a generating set for the ring of invariants for the p+1 dimensional indecomposable modular representation of a cyclic group of order p^2. We then use the constructed invariants to describe the decomposition of the symmetric algebra as a module over the group ring, ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns modular invariant theory and symmetric power decompositions for cyclic groups of order p^2, with no mention of DNF formulas, k-CLIQUE, or Fourier spread of incidence matrices. It shares only the loose vocabulary of 'cyclic group representations' but does not address the specific combinatorial claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2005.06373",
+      "title": "Counting Schur Rings over Cyclic Groups of Semi-prime Order",
+      "abstract_excerpt": "In this paper, we continue the enumeration of Schur rings over cyclic groups. Cyclic groups of semiprime order $pq$, where $p$ and $q$ are distinct primes, are considered. Additionally, cyclic groups of order $4p$ are considered.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns enumeration of Schur rings over cyclic groups of order pq and 4p, which shares only the vocabulary of cyclic groups but does not address Fourier spread of incidence matrices for monotone DNFs computing k-CLIQUE.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1801.08709",
+      "title": "Adaptive Lower Bound for Testing Monotonicity on the Line",
+      "abstract_excerpt": "In the property testing model, the task is to distinguish objects possessing some property from the objects that are far from it. One of such properties is monotonicity, when the objects are functions from one poset to another. This is an active area of research. In this paper we study query complexity of $ε$-testing monotonicity of a function $f\\colon [n]\\to[r]$. All our lower bounds are for adaptive two-sided testers.\n  * We prove a nearly tight lower bound for this problem in terms of $r$. Th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns query complexity lower bounds for property testing of monotonicity of functions on [n]→[r] and hypergrids, not monotone DNF formula structure, k-CLIQUE, or cyclic Fourier spread of term-vertex incidence. The shared word 'monotonicity' is the only overlap.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
