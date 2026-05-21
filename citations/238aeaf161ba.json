@@ -1,0 +1,40 @@
+{
+  "entry_id": "238aeaf161ba",
+  "ts": 1779378810.5485299,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1612.01466",
+      "title": "Against free will in the contemporary natural sciences",
+      "abstract_excerpt": "The claim of the freedom of the will (understood as an individual who is transcendent to Nature) in the name of XXth century scientific knowledge, against the perspective of XVIIIth-XIXth century scientific materialism, is analysed and refuted in the present paper. The hypothesis of reductionism finds no obstacle within contemporary natural sciences. Determinism in classical physics is irrefutable, unless classical physics is itself refuted. From quantum mechanics, some authors argue that free w",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses free will, determinism, and quantum mechanics in philosophy of science, with no connection to free probability theory, branching programs, or CNF tautologies. The word 'free' appears only in the unrelated sense of 'free will'.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1607.03138",
+      "title": "What does a group algebra of a free group know about the group?",
+      "abstract_excerpt": "We describe solutions to the problem of elementary classification in the class of group algebras of free groups. We will show that unlike free groups, two group algebras of free groups over infinite fields are elementarily equivalent if and only if the groups are isomorphic and the fields are equivalent in the weak second order logic. We will show that the set of all free bases of a free group $F$ is 0-definable in the group algebra $K(F)$ when $K$ is an infinite field, the set of geodesics is d",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns elementary classification of group algebras of free groups and definability of free bases/geodesics ('two group algebras of free groups over infinite fields are elementarily equivalent if and only if...'), which has no interaction with free probability entanglement invariants or branching program proof size lower bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2511.02758",
+      "title": "Finite free probability and $S$ transforms of Jacobi processes",
+      "abstract_excerpt": "In this paper, we study the $S$ transforms of Jacobi processes in the frameworks of free and finite free probability theories. We begin by deriving a partial differential equation satisfied by the free $S$ transform of the free Jacobi process, and we provide a detailed analysis of its characteristic curves. We turn next our attention to the averaged characteristic polynomial of the Hermitian Jacobi process and to the dynamic of its roots, referred to as the \\emph{frozen Jacobi process}. In parti",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses S-transforms of Jacobi processes in free and finite free probability, with no mention of branching programs, CNF tautologies, proof complexity, or any 'minimal invariant' relevant to BP lower bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

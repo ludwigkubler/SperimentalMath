@@ -1,17 +1,17 @@
 {
-  "last_update_utc": "2026-05-21T15:47:02Z",
-  "total_cycles": 1076,
+  "last_update_utc": "2026-05-21T16:47:02Z",
+  "total_cycles": 1096,
   "verdict_counts": {
-    "INCONCLUSIVE": 1003,
+    "INCONCLUSIVE": 1013,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 53
+    "BARRIER_HIT": 63
   },
-  "unique_field_A": 641,
+  "unique_field_A": 649,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
-      64
+      65
     ],
     [
       "Schur-Weyl Duality",
@@ -31,7 +31,7 @@
     ],
     [
       "Free Probability Theory",
-      22
+      23
     ],
     [
       "Additive Combinatorics",
@@ -50,12 +50,12 @@
       11
     ],
     [
-      "Noncommutative Harmonic Analysis",
+      "Algebraic Geometry",
       10
     ],
     [
-      "Algebraic Geometry",
-      9
+      "Noncommutative Harmonic Analysis",
+      10
     ],
     [
       "Polymatroid Theory",

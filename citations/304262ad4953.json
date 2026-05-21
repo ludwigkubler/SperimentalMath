@@ -1,0 +1,22 @@
+{
+  "entry_id": "304262ad4953",
+  "ts": 1779381042.9899802,
+  "hits_evaluated": 1,
+  "verdicts": [
+    {
+      "paper_id": "s2:537b8f418572696a834ee62011e1dd55477b3ba3",
+      "title": "Cancer Therapy : Preclinical",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available ('no abstract available'), so I cannot assess whether the paper supports, refutes, or is orthogonal to the conjecture. Additionally, the title 'Cancer Therapy: Preclinical' appears unrelated to permutation groups or communication complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 1
+  }
+}
