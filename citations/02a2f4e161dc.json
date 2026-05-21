@@ -1,0 +1,40 @@
+{
+  "entry_id": "02a2f4e161dc",
+  "ts": 1779359005.044441,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1503.07648",
+      "title": "Sign rank versus VC dimension",
+      "abstract_excerpt": "This work studies the maximum possible sign rank of $N \\times N$ sign matrices with a given VC dimension $d$. For $d=1$, this maximum is {three}. For $d=2$, this maximum is $\\tildeΘ(N^{1/2})$. For $d &gt;2$, similar but slightly less accurate statements hold. {The lower bounds improve over previous ones by Ben-David et al., and the upper bounds are novel.}\n  The lower bounds are obtained by probabilistic constructions, using a theorem of Warren in real algebraic topology. The upper bounds are ob",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses sign rank vs VC dimension of sign matrices, not GF(2) rank lower bounds for Raz-McKenzie lifted functions; it never mentions decision-tree depth, gadget composition, or the D^cc(f∘g^n) ≥ (1/2)·D(f)·d − n bound.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1904.13056",
+      "title": "Query-to-Communication Lifting Using Low-Discrepancy Gadgets",
+      "abstract_excerpt": "Lifting theorems are theorems that relate the query complexity of a function $f:\\{0,1\\}^{n}\\to\\{0,1\\}$ to the communication complexity of the composed function $f \\circ g^{n}$, for some \"gadget\" $g:\\{0,1\\}^{b}\\times\\{0,1\\}^{b}\\to\\{0,1\\}$. Such theorems allow transferring lower bounds from query complexity to the communication complexity, and have seen numerous applications in the recent years. In addition, such theorems can be viewed as a strong generalization of a direct-sum theorem for the gad",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a lifting theorem parameterized by low discrepancy and logarithmic gadget length, not by VC dimension of the gadget's row family, and gives no explicit (1/2)·D(f)·d − n bound. It shares the lifting framework but does not address the specific VC-dimension inequality conjectured.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2001.02144",
+      "title": "Lifting with Simple Gadgets and Applications to Circuit and Proof Complexity",
+      "abstract_excerpt": "We significantly strengthen and generalize the theorem lifting Nullstellensatz degree to monotone span program size by Pitassi and Robere (2018) so that it works for any gadget with high enough rank, in particular, for useful gadgets such as equality and greater-than. We apply our generalized theorem to solve two open problems:\n  * We present the first result that demonstrates a separation in proof power for cutting planes with unbounded versus polynomially bounded coefficients. Specifically, we",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract discusses lifting theorems for 'any gadget with high enough rank' but does not specify the quantitative relationship between VC dimension of the row family and D^cc, so the precise (1/2)·D(f)·d − n bound cannot be confirmed or refuted from the abstract alone.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}

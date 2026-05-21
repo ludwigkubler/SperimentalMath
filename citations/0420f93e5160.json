@@ -1,0 +1,40 @@
+{
+  "entry_id": "0420f93e5160",
+  "ts": 1779359547.3150363,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1904.05483",
+      "title": "Parallels Between Phase Transitions and Circuit Complexity?",
+      "abstract_excerpt": "In many natural average-case problems, there are or there are believed to be critical values in the parameter space where the structure of the space of solutions changes in a fundamental way. These phase transitions are often believed to coincide with drastic changes in the computational complexity of the associated problem.\n  In this work, we study the circuit complexity of inference in the broadcast tree model, which has important applications in phylogenetic reconstruction and close connectio",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses circuit complexity (TC^0, NC^1) of inference in broadcast tree models and phase transitions in belief propagation, with no mention of Gromov hyperbolicity, symmetric-difference metrics on DNF clauses, or k-CLIQUE monotone DNF lower bounds. It shares only the broad 'circuit complexity' framework but does not interact with the specific 4-point hyperbolicity gap claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2311.04204",
+      "title": "Sharp Thresholds Imply Circuit Lower Bounds: from random 2-SAT to Planted Clique",
+      "abstract_excerpt": "We show that sharp thresholds for Boolean functions directly imply average-case circuit lower bounds. More formally we show that any Boolean function exhibiting a sharp enough threshold at \\emph{arbitrary} critical density cannot be computed by Boolean circuits of bounded depth and polynomial size. We also prove a partial converse: if a monotone graph invariant Boolean function does not have a sharp threshold then it can be computed on average by a Boolean circuit of bounded depth and polynomial",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses bounded-depth circuit lower bounds derived from sharp thresholds for k-clique and random k-SAT, but says nothing about Gromov 4-point δ-hyperbolicity of clause-support metrics in monotone DNFs. It shares the k-clique setting but does not interact with the specific hyperbolicity-gap claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1307.4308",
+      "title": "An Alternative Proof of the Exponential Monotone Complexity of the Clique Function",
+      "abstract_excerpt": "In 1985, Razborov discovered a proof that the monotone circuit complexity of the clique problem is super-polynomial. Alon and Boppana improved the result into exponential lower bound exp(Ω(n / \\log n)^{1/3})) of a monotone circuit C to compute cliques of size (1/4) (n / log n)^{2/3}, where n is the number of vertices in a graph. Both proofs are based on the method of approximations and Erdos and Rado's sunflower lemma. There has been an interest in further generalization of the proof scheme.\n  I",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses monotone circuit lower bounds for the clique function via a 'shift method' and sunflower-related structural theorems in Hamming space, but says nothing about Gromov 4-point hyperbolicity or the symmetric-difference metric on DNF clauses. It shares the k-CLIQUE/monotone complexity vocabulary without interacting with the specific δ* gap claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

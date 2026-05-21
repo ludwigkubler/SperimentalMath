@@ -1773,7 +1773,9 @@
 {"ts": 1779354002.692954, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1715, "cap": 2000, "fraction": 0.858, "weekly_budget": 2500}}
 {"ts": 1779355802.3578382, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 25}}
 {"ts": 1779355802.4567559, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1715, "cap": 2000, "fraction": 0.858, "weekly_budget": 2500}}
-{"ts": 1779358567.201967, "ts_iso": "2026-05-21T10:16:07.201967+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "DEGRADED", "to_status": "CRITICAL", "failing_checks": ["explorer_process"], "auto_fixed": false}
-{"ts": 1779358801.469288, "ts_iso": "2026-05-21T10:20:01.469288+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "CRITICAL", "to_status": "OK", "failing_checks": [], "auto_fixed": false}
-{"ts": 1779359411.622486, "ts_iso": "2026-05-21T10:30:11.622486+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "OK", "to_status": "DEGRADED", "failing_checks": ["gpu", "ram_above_1g", "mirror_git_fresh", "mirror_git_pushed"], "auto_fixed": false}
-{"ts": 1779359701.699277, "ts_iso": "2026-05-21T10:35:01.699277+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "DEGRADED", "to_status": "OK", "failing_checks": [], "auto_fixed": false}
+{"ts": 1779357601.7044365, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 25}}
+{"ts": 1779357601.8052044, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1753, "cap": 2000, "fraction": 0.876, "weekly_budget": 2500}}
+{"ts": 1779359454.0731285, "kind": "OLLAMA_DOWN", "auto_fixed": false, "detail": {"endpoints": ["local", "remote"]}}
+{"ts": 1779359460.6669946, "kind": "TAILSCALE_DOWN", "auto_fixed": false, "detail": {}}
+{"ts": 1779359461.819408, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 25}}
+{"ts": 1779359473.3659573, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1805, "cap": 2000, "fraction": 0.902, "weekly_budget": 2500}}

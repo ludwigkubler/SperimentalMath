@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-21 09:45 UTC"
+date: "2026-05-21 10:32 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-21 09:45 UTC
+Generated 2026-05-21 10:32 UTC
 
-- Cycles recorded: **1004**
-- Time span: 660.1h (~1.52 cycles/h)
+- Cycles recorded: **1010**
+- Time span: 660.9h (~1.53 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 958 |
+| INCONCLUSIVE | 964 |
 | BARRIER_HIT | 26 |
 | FALSIFIED | 16 |
 | SUPPORTED | 4 |
@@ -67,12 +67,6 @@ Generated 2026-05-21 09:45 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-21 04:29 UTC | `INCONCLUSIVE` | Matroid Rank Gap in Monotone DNF for k-CLIQUE |
-| 2026-05-21 04:56 UTC | `INCONCLUSIVE` | Algebraic Shifting Facet Count Bounds Tseitin Resolution Length |
-| 2026-05-21 05:31 UTC | `INCONCLUSIVE` | Symmetric Group Orbit Count Distinguishes Read-Twice BPs |
-| 2026-05-21 05:41 UTC | `INCONCLUSIVE` | Polynomial Threshold Function Degree Bounds Karchmer-Wigderson Pr |
-| 2026-05-21 06:02 UTC | `INCONCLUSIVE` | Fourier Coefficient Sum Bounds Monotone DNF Size for k-CLIQUE |
-| 2026-05-21 06:31 UTC | `INCONCLUSIVE` | Real Radical Dimension Bounds AC⁰ Circuit Size for PARITY |
 | 2026-05-21 06:56 UTC | `INCONCLUSIVE` | Eigenvalue Count and SOS Degree for Max-CUT Approximation |
 | 2026-05-21 07:37 UTC | `INCONCLUSIVE` | Prime Density in Arithmetic Progressions and Seed Length of Nisan |
 | 2026-05-21 07:51 UTC | `INCONCLUSIVE` | Free Entropy Gap in Disjointness Communication Matrices |
@@ -82,6 +76,12 @@ Generated 2026-05-21 09:45 UTC
 | 2026-05-21 08:47 UTC | `INCONCLUSIVE` | Asymptotic Dimension and Tseitin Resolution Length |
 | 2026-05-21 09:38 UTC | `INCONCLUSIVE` | Specht Block Spread of Perm Exceeds Det Under Random Linear Lift |
 | 2026-05-21 09:45 UTC | `INCONCLUSIVE` | Specht Character Support Bounds Monotone Permanental Formula Size |
+| 2026-05-21 09:52 UTC | `INCONCLUSIVE` | Möbius Mass of Rectangle Poset Lower-Bounds D^cc |
+| 2026-05-21 09:59 UTC | `INCONCLUSIVE` | Discrete Morse Number of Rejection Complex Bounds ACC^0[m] Size |
+| 2026-05-21 10:06 UTC | `INCONCLUSIVE` | Trace-Norm Capacity Conjecture for Read-Twice BP Communication Ma |
+| 2026-05-21 10:14 UTC | `INCONCLUSIVE` | Slice-Fourier Variance Asymmetry of Perm vs Monotone Det Substitu |
+| 2026-05-21 10:22 UTC | `INCONCLUSIVE` | VC dimension of gadget row family tightly bounds lifted D^cc |
+| 2026-05-21 10:32 UTC | `INCONCLUSIVE` | Gromov 4-Point Hyperbolicity Gap Separates k-CLIQUE Monotone DNFs |
 
 ## How to read the reports
 

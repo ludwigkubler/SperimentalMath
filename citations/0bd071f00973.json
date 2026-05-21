@@ -1,0 +1,40 @@
+{
+  "entry_id": "0bd071f00973",
+  "ts": 1779358026.5357041,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0809.3137",
+      "title": "The Frontiers of Nuclear Science, A Long Range Plan",
+      "abstract_excerpt": "This is a copy of the 2007 report prepared by the DOE/NSF Nuclear Science Advisory Committee in response to the charge from DOE and NSF to \"conduct a study of the opportunities and priorities for U.S. nuclear physics research and recommend a long range plan that will provide a framework for coordinated advancement of the nation's nuclear science research programs over the next decade.\"",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a DOE/NSF nuclear physics policy report ('long range plan' for 'nuclear science research'), which has no relation to the trace/nuclear norm of sign matrices or branching program complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0809.2093",
+      "title": "An approximation algorithm for approximation rank",
+      "abstract_excerpt": "One of the strongest techniques available for showing lower bounds on quantum communication complexity is the logarithm of the approximation rank of the communication matrix--the minimum rank of a matrix which is entrywise close to the communication matrix. This technique has two main drawbacks: it is difficult to compute, and it is not known to lower bound quantum communication complexity with entanglement.\n  Linial and Shraibman recently introduced a norm, called gamma_2^{alpha}, to quantum co",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns approximation rank and the γ_2^α norm as lower bounds for quantum communication complexity, not nuclear-norm upper bounds for read-twice branching programs. It shares the Linial–Shraibman γ_2 vocabulary but does not address trace-norm bounds on BP communication matrices.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1901.06841",
+      "title": "Consistency Examinations of Calculations of Nuclear Matrix Elements of Double-$β$ Decay by QRPA",
+      "abstract_excerpt": "The neutrinoless double-$β$ decay is a hypothetical rare nuclear decay, which can be used for determining the neutrino-mass scale. The scheme to use this decay for determining the neutrino-mass scale is one of few limited methods possible to determine that. Nuclear matrix element of this decay is an important input to this method, and this matrix element cannot be determined by experiment. I examine the validity of the transition density used for calculating the nuclear matrix element by compari",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns nuclear physics—'neutrinoless double-β decay' and 'nuclear matrix element' computed via 'quasiparticle random-phase approximation'—which is entirely unrelated to the trace/nuclear norm of sign matrices in communication complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
