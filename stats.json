@@ -1,13 +1,14 @@
 {
-  "last_update_utc": "2026-05-21T19:47:03Z",
-  "total_cycles": 1133,
+  "last_update_utc": "2026-05-21T20:47:02Z",
+  "total_cycles": 1146,
   "verdict_counts": {
-    "INCONCLUSIVE": 1041,
+    "INCONCLUSIVE": 1046,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 72
+    "BARRIER_HIT": 78,
+    "SCOOPED": 2
   },
-  "unique_field_A": 661,
+  "unique_field_A": 666,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
@@ -42,6 +43,10 @@
       12
     ],
     [
+      "Algebraic Combinatorics",
+      12
+    ],
+    [
       "Random Matrix Theory",
       11
     ],
@@ -55,10 +60,6 @@
     ],
     [
       "Noncommutative Harmonic Analysis",
-      10
-    ],
-    [
-      "Algebraic Combinatorics",
       10
     ],
     [

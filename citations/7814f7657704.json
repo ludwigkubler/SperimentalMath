@@ -1,0 +1,40 @@
+{
+  "entry_id": "7814f7657704",
+  "ts": 1779394257.880633,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1712.00861",
+      "title": "Exponential Lower Bounds on the Generalized Erdős-Ginzburg-Ziv Constant",
+      "abstract_excerpt": "For a finite abelian group $G$, the generalized Erdős--Ginzburg--Ziv constant $\\mathsf s_{k}(G)$ is the smallest $m$ such that a sequence of $m$ elements in $G$ always contains a $k$-element subsequence which sums to zero. If $n = \\exp(G)$ is the exponent of $G$, the previously best known bounds for $\\mathsf s_{kn}(C_n^r)$ were linear in $n$ and $r$ when $k\\ge 2$. Via a probabilistic argument, we produce the exponential lower bound \\[ \\mathsf s_{2n}(C_n^r) &gt; \\frac{n}{2}[1.25 - O(n^{-3/2})]^r ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns exponential lower bounds for the Erdős-Ginzburg-Ziv constant on finite abelian groups $C_n^r$, with no mention of Coxeter groups, automorphism groups, or AC^0 circuit complexity. It shares only the generic notion of 'exponential lower bound' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2007.07496",
+      "title": "Observations on Symmetric Circuits",
+      "abstract_excerpt": "We study symmetric arithmetic circuits and improve on lower bounds given by Dawar and Wilsenach (ArXiv 2020). Their result showed an exponential lower bound of the permanent computed by symmetric circuits. We extend this result to show a simpler proof of the permanent lower bound and show that a large class of polynomials have exponential lower bounds in this model. In fact, we prove that all polynomials that contain at least one monomial of the permanent have exponential size lower bounds in th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns symmetric arithmetic circuit lower bounds for polynomials like the permanent, not AC^0 circuit size bounds derived from Coxeter group automorphism sizes. It shares the general framework of symmetry-based circuit lower bounds but does not address the specific claim about Coxeter automorphism group sizes or AC^0 complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1610.06130",
+      "title": "Sizes of spaces of triangulations of 4-manifolds and balanced presentations of the trivial group",
+      "abstract_excerpt": "Let $M$ be any compact four-dimensional PL-manifold with or without boundary (e.g. the four-dimensional sphere or ball). Consider the space $T(M)$ of all simplicial isomorphism classes of triangulations of $M$ endowed with the metric defined as the minimal number of bistellar transformations required to transform one of two considered triangulations into the other. Our main result is the existence of an absolute constant $C&gt;1$ such that for every $m$ and all sufficiently large $N$ there exist",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns triangulations of 4-manifolds and balanced presentations of the trivial group under Tietze transformations, with no mention of Coxeter groups, automorphism groups, or AC^0 circuit complexity. It shares no specific claim with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
