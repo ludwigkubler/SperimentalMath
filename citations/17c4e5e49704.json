@@ -1,0 +1,31 @@
+{
+  "entry_id": "17c4e5e49704",
+  "ts": 1779401285.408914,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:2605.01637",
+      "title": "The Banach-Butterfly Invariant: Influence-Adaptive Walsh Geometry for Ternary Polynomial Threshold Functions",
+      "abstract_excerpt": "We introduce the Banach-Butterfly Invariant (BBT), an influence-adaptive Banach geometry on the Walsh-Hadamard butterfly factorization. For a Boolean function $f:\\{-1,+1\\}^n\\to\\{-1,+1\\}$ with coordinate influences $\\mathrm{Inf}_\\ell(f)$, BBT assigns exponent $p_\\ell = 1+\\mathrm{Inf}_\\ell(f)$ to butt",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a 'Banach-Butterfly Invariant' built on Walsh-Hadamard factorization and influence-adaptive geometry for ternary polynomial threshold functions, which shares the Boolean-function setting but does not address minimal generators of affine plane curves or 2^n/4 lower bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10.1007/s12095-020-00445-z",
+      "title": "Boolean Functions with Multiplicative Complexity 3 and 4",
+      "abstract_excerpt": "Multiplicative complexity (MC) is defined as the minimum number of AND gates required to implement a function with a circuit over the basis (AND, XOR, NOT). Boolean functions with MC 1 and 2 have been characterized in Fisher and Peralta (2002), and Find et al. (IJICoT 4(4), 222–236, 2017), respectively. In this work, we identify the affine equivalence classes for functions with MC 3 and 4. In order to achieve this, we utilize the notion of the dimension dim(f) of a Boolean function in relation t",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns multiplicative complexity (AND gate count) and affine equivalence classes of Boolean functions, not affine plane curve generators or AC⁰ circuit lower bounds; it neither states nor implies a 2^n/4 bound on generators of an affine plane curve representation.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 0
+  }
+}

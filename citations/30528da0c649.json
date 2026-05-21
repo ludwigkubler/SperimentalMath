@@ -1,0 +1,22 @@
+{
+  "entry_id": "30528da0c649",
+  "ts": 1779402130.3200505,
+  "hits_evaluated": 1,
+  "verdicts": [
+    {
+      "paper_id": "s2:6f234602ceea6022678a355ae683962b95691547",
+      "title": "The intersection of commutative algebra and algebraic geometry with combinatorics and discrete geometry is a rich and expanding field. Integral polytopes, purely discrete objects, provide enlight-",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available; the title fragment only mentions the intersection of commutative algebra, algebraic geometry, and combinatorics, which is too vague to assess relevance to the specific MCSP/tropical entropy claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 1
+  }
+}

@@ -1,18 +1,18 @@
 {
-  "last_update_utc": "2026-05-21T21:47:02Z",
-  "total_cycles": 1160,
+  "last_update_utc": "2026-05-21T22:47:03Z",
+  "total_cycles": 1175,
   "verdict_counts": {
-    "INCONCLUSIVE": 1056,
+    "INCONCLUSIVE": 1065,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 82,
+    "BARRIER_HIT": 88,
     "SCOOPED": 2
   },
-  "unique_field_A": 672,
+  "unique_field_A": 676,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
-      65
+      66
     ],
     [
       "Schur-Weyl Duality",
@@ -35,12 +35,12 @@
       24
     ],
     [
-      "Additive Combinatorics",
-      16
+      "Algebraic Combinatorics",
+      17
     ],
     [
-      "Algebraic Combinatorics",
-      15
+      "Additive Combinatorics",
+      16
     ],
     [
       "Noncommutative L^p Geometry",
@@ -63,11 +63,11 @@
       10
     ],
     [
-      "Polymatroid Theory",
-      9
+      "Tropical Geometry",
+      10
     ],
     [
-      "REAL_ALGEBRAIC_GEOMETRY",
+      "Polymatroid Theory",
       9
     ]
   ]
