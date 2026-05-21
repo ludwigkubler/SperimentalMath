@@ -1,0 +1,40 @@
+{
+  "entry_id": "58f59da8fda7",
+  "ts": 1779404023.3954937,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0405176v4",
+      "title": "Quantized symplectic oscillator algebras of rank one",
+      "abstract_excerpt": "A quantized symplectic oscillator algebra of rank 1 is a PBW deformation of the smash product of the quantum plane with U_q(sl_2). We study its representation theory, and in particular, its category O.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'quantized symplectic oscillator algebras' and 'category O' of a deformation involving U_q(sl_2), with no mention of quaternion algebras, branching programs, or representation rank bounds relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1309.4634",
+      "title": "Nichols algebras over groups with finite root system of rank two III",
+      "abstract_excerpt": "We compute the finite-dimensional Nichols algebras over the sum of two simple Yetter-Drinfeld modules V and W over non-abelian quotients of a certain central extension of the dihedral group of eight elements or SL(2,3), and such that the Weyl groupoid of the pair (V,W) is finite. These central extensions appear in the classification of non-elementary finite-dimensional Nichols algebras with finite Weyl groupoid of rank two. We deduce new information on the structure of primitive elements of fini",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Nichols algebras over non-abelian groups and Weyl groupoids of rank two, with no mention of quaternion algebras, branching programs, or representation rank bounds relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1305.1444",
+      "title": "The Green rings of the 2-rank Taft algebra and its two relatives twisted",
+      "abstract_excerpt": "In the paper, the representation rings (or the Green rings) for a family of Hopf algebras of tame type, the 2-rank Taft algebra (at $q=-1$) and its two relatives twisted by 2-cocycles are explicitly described via a representation theoretic analysis. It turns out that the Green rings can serve to detect effectively the twist-equivalent Hopf algebras here.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Green rings of 2-rank Taft Hopf algebras and 2-cocycle twists, with no mention of quaternion algebras, branching programs, or representation rank bounds tied to circuit/program size.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
