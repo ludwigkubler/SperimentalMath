@@ -1,25 +1,25 @@
 # SEC P-vs-NP — System Status: **🟡 DEGRADED**
 
-_Updated: 2026-05-21T09:25:01.888602+00:00 (auto-refresh every 5 min)_
+_Updated: 2026-05-21T09:45:01.819176+00:00 (auto-refresh every 5 min)_
 
 - CRITICAL failures: **0**
-- DEGRADED failures: **2**
+- DEGRADED failures: **1**
 
 ## Checks
 
 | Check | Result | Detail |
 |:------|:-------|:-------|
-| `explorer_process` | ✅ | pid 94236 |
+| `explorer_process` | ✅ | pid 2186335 |
 | `explorer_cycle_fresh` | ✅ | last activity 0.00h ago |
 | `sec_entity_service` | ✅ | active |
 | `cron_service` | ✅ | active |
 | `gpu` | 🟡 | Failed to initialize NVML: Driver/library version mismatch
 NVML library version: 595.71 |
 | `disk_under_90pct` | ✅ | 16% used |
-| `ram_above_1g` | ✅ | 12963 MB available |
-| `mirror_git_fresh` | ✅ | last commit 0.63h ago |
-| `mirror_git_pushed` | 🟡 | 42 commits ahead of origin/main (max 3) |
-| `notebook_growing` | ✅ | newest entry 0.86h ago |
+| `ram_above_1g` | ✅ | 13643 MB available |
+| `mirror_git_fresh` | ✅ | last commit 0.29h ago |
+| `mirror_git_pushed` | ✅ | 0 unpushed (within tolerance) |
+| `notebook_growing` | ✅ | newest entry 1.19h ago |
 | `entity_audit_log` | ✅ | dir ok, no entries today (chat-idle) |
 | `cron_logs_no_trace` | ✅ | all clean |
 | `watchdog_self_heartbeat` | ✅ | 5.0 min ago |

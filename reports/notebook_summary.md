@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-21 08:33 UTC"
+date: "2026-05-21 09:45 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,17 +13,17 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-21 08:33 UTC
+Generated 2026-05-21 09:45 UTC
 
-- Cycles recorded: **1001**
-- Time span: 658.9h (~1.52 cycles/h)
+- Cycles recorded: **1004**
+- Time span: 660.1h (~1.52 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 955 |
+| INCONCLUSIVE | 958 |
 | BARRIER_HIT | 26 |
 | FALSIFIED | 16 |
 | SUPPORTED | 4 |
@@ -67,9 +67,6 @@ Generated 2026-05-21 08:33 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-21 03:30 UTC | `INCONCLUSIVE` | Laplacian Eigenvalue and Resolution Length of Tseitin Formulas |
-| 2026-05-21 03:38 UTC | `INCONCLUSIVE` | Moment Matrix Spectral Gap and SOS Degree for Max-CUT |
-| 2026-05-21 03:52 UTC | `INCONCLUSIVE` | Free Entropy Gap in Read-Twice BP Transition Matrices |
 | 2026-05-21 04:29 UTC | `INCONCLUSIVE` | Matroid Rank Gap in Monotone DNF for k-CLIQUE |
 | 2026-05-21 04:56 UTC | `INCONCLUSIVE` | Algebraic Shifting Facet Count Bounds Tseitin Resolution Length |
 | 2026-05-21 05:31 UTC | `INCONCLUSIVE` | Symmetric Group Orbit Count Distinguishes Read-Twice BPs |
@@ -82,6 +79,9 @@ Generated 2026-05-21 08:33 UTC
 | 2026-05-21 08:09 UTC | `INCONCLUSIVE` | SOS Moment Matrix Spectral Gap and Max-CUT Approximation Ratio |
 | 2026-05-21 08:19 UTC | `INCONCLUSIVE` | Additive Energy of Fourier Coefficients and ACC⁰ Circuit Size |
 | 2026-05-21 08:33 UTC | `INCONCLUSIVE` | Betti Number Sum Lower Bound for SOS Max-CUT Degree |
+| 2026-05-21 08:47 UTC | `INCONCLUSIVE` | Asymptotic Dimension and Tseitin Resolution Length |
+| 2026-05-21 09:38 UTC | `INCONCLUSIVE` | Specht Block Spread of Perm Exceeds Det Under Random Linear Lift |
+| 2026-05-21 09:45 UTC | `INCONCLUSIVE` | Specht Character Support Bounds Monotone Permanental Formula Size |
 
 ## How to read the reports
 

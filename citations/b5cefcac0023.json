@@ -1,0 +1,31 @@
+{
+  "entry_id": "b5cefcac0023",
+  "ts": 1779356732.9710362,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:3232ed274e19727bb02719b0038eeab0dad190c7",
+      "title": "Stability in Topology, Arithmetic, and Representation Theory 2022",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available for this paper, so I cannot determine whether it supports, refutes, or is orthogonal to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:a386ca523f19c66f4e550fdeff35ca56408afaa6",
+      "title": "STACS 2006, 23rd Annual Symposium on Theoretical Aspects of Computer Science, Marseille, France, February 23-25, 2006, Proceedings",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available, so I cannot determine whether this conference proceedings volume contains any paper that addresses the specific conjecture about Specht support bounds and monotone permanental formula size.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 2
+  }
+}
