@@ -1,0 +1,40 @@
+{
+  "entry_id": "2deb9c6539ac",
+  "ts": 1779217367.934816,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1411.1698",
+      "title": "On the Max-Cut of Sparse Random Graphs",
+      "abstract_excerpt": "We consider the problem of estimating the size of a maximum cut (Max-Cut problem) in a random Erdős-Rényi graph on $n$ nodes and $\\lfloor cn \\rfloor$ edges. It is shown in Coppersmith et al. ~\\cite{Coppersmith2004} that the size of the maximum cut in this graph normalized by the number of nodes belongs to the asymptotic region $[c/2+0.37613\\sqrt{c},c/2+0.58870\\sqrt{c}]$ with high probability (w.h.p.) as $n$ increases, for all sufficiently large $c$.\n  In this paper we improve both upper and lowe",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns asymptotic bounds on Max-Cut sizes in sparse Erdős-Rényi and cubic graphs via local-optimality moment methods, with no mention of adjacency spectra, log-discriminants, or SDP/spectral slack correlations. It shares the Max-Cut topic but does not address the specific spectral/Hermite-Vandermonde correlation claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2109.02238",
+      "title": "Optimal solutions and ranks in the max-cut SDP",
+      "abstract_excerpt": "The max-cut problem is a classical graph theory problem which is NP-complete. The best polynomial time approximation scheme relies on \\emph{semidefinite programming} (SDP). We study the conditions under which graphs of certain classes have rank~1 solutions to the max-cut SDP. We apply these findings to look at how solutions to the max-cut SDP behave under simple combinatorial constructions. Our results determine when solutions to the max-cut SDP for cycle graphs are rank~1. We find the solutions",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract focuses on rank-1 solutions and combinatorial constructions (cycle graphs, vertex/edge sums) for the max-cut SDP, not on spectral slack correlations with log-discriminants of adjacency eigenvalues over random 3-regular graphs.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1207.5696",
+      "title": "Beyond Max-Cut: λ-Extendible Properties Parameterized Above the Poljak-Turzík Bound",
+      "abstract_excerpt": "Poljak and Turzík (Discrete Math. 1986) introduced the notion of λ-extendible properties of graphs as a generalization of the property of being bipartite. They showed that for any 0&lt;λ&lt;1 and λ-extendible property Π, any connected graph G on n vertices and m edges contains a subgraph H \\in Π with at least λm+ (1-λ)/2 (n-1) edges. The property of being bipartite is 1/2-extendible, and thus this bound generalizes the Edwards-Erdős bound for Max-Cut.\n  We define a variant, namely strong λ-exten",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns FPT algorithms for λ-extendible properties parameterized above the Poljak-Turzík bound, with no mention of adjacency spectra, log-discriminants, SDP/spectral slack, or correlation analyses on random 3-regular graphs. It shares only the Max-Cut vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

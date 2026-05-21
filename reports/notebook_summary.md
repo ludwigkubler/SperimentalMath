@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-19 17:34 UTC"
+date: "2026-05-21 08:33 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,18 +13,18 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-19 17:34 UTC
+Generated 2026-05-21 08:33 UTC
 
-- Cycles recorded: **884**
-- Time span: 619.9h (~1.43 cycles/h)
+- Cycles recorded: **1001**
+- Time span: 658.9h (~1.52 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 842 |
-| BARRIER_HIT | 22 |
+| INCONCLUSIVE | 955 |
+| BARRIER_HIT | 26 |
 | FALSIFIED | 16 |
 | SUPPORTED | 4 |
 
@@ -32,56 +32,56 @@ Generated 2026-05-19 17:34 UTC
 
 | Field | Cycles |
 |---|---|
-| Real Algebraic Geometry | 43 |
-| Schur-Weyl Duality | 33 |
-| Matroid Theory | 20 |
+| Real Algebraic Geometry | 59 |
+| Schur-Weyl Duality | 36 |
+| Free Probability | 26 |
+| Representation Theory of Symmetric Groups | 24 |
+| Matroid Theory | 23 |
 | Free Probability Theory | 19 |
-| Free Probability | 18 |
-| Representation Theory of Symmetric Groups | 18 |
-| Additive Combinatorics | 14 |
+| Additive Combinatorics | 15 |
 | Noncommutative L^p Geometry | 12 |
-| Spectral Graph Theory | 10 |
+| Random Matrix Theory | 11 |
+| Spectral Graph Theory | 11 |
+| Noncommutative Harmonic Analysis | 10 |
+| Polymatroid Theory | 9 |
 | REAL_ALGEBRAIC_GEOMETRY | 9 |
-| Random Matrix Theory | 8 |
-| Polymatroid Theory | 8 |
-| Algebraic Geometry | 7 |
+| Algebraic Geometry | 8 |
+| Persistent Homology | 8 |
+| Algebraic Topology | 7 |
 | Finite Geometry | 6 |
 | Schur-Weyl duality | 6 |
-| Persistent Homology | 6 |
-| Noncommutative Harmonic Analysis | 6 |
 | Plethysm Theory | 6 |
+| Invariant Theory | 6 |
+| Fourier Analysis on Boolean Functions | 5 |
+| Additive combinatorics | 5 |
+| Algebraic Geometry of Secant Varieties | 5 |
 | FOURIER_ANALYSIS | 5 |
 | Ergodic Circuit Framework (communication complexity via dynamical systems) | 4 |
 | {"framework_name": "Ergodic Circuit Framework", "math_branch": "COMM_COMPLEXITY"} | 4 |
-| Algebraic Topology | 4 |
-| Fourier Analysis on Boolean Functions | 4 |
 | Algebraic Geometry over Finite Fields | 4 |
 | Fourier Analysis of Boolean Functions | 4 |
-| Algebraic Geometry of Secant Varieties | 4 |
+| Non-Abelian Harmonic Analysis | 4 |
 | COMMUNICATION_COMPLEXITY | 4 |
-| Noncommutative Geometry | 4 |
-| Fourier analysis of boolean functions | 3 |
-| Algebraic geometry of secant varieties | 3 |
 
 ## Last 15 cycles (chronological)
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-19 13:55 UTC | `INCONCLUSIVE` | Additive Energy Inverse Proportionality to Karchmer-Wigderson Com |
-| 2026-05-19 14:14 UTC | `INCONCLUSIVE` | Polymatroid Rank Inverse Proportionality to SOS Refutation Size |
-| 2026-05-19 14:29 UTC | `INCONCLUSIVE` | Noncommutative Fourier Coefficient Inverse Proportionality to Com |
-| 2026-05-19 14:38 UTC | `INCONCLUSIVE` | Jordan Rank Lower Bound for Tseitin Resolution Width |
-| 2026-05-19 14:50 UTC | `INCONCLUSIVE` | Matroid Rank Inverse Proportionality to k-CLIQUE Communication Co |
-| 2026-05-19 15:23 UTC | `INCONCLUSIVE` | Real Rank Lower Bound for AC⁰ Communication Matrices of PARITY |
-| 2026-05-19 15:30 UTC | `INCONCLUSIVE` | Free Entropy Gap in Read-Twice Branching Programs for Inner Produ |
-| 2026-05-19 15:38 UTC | `INCONCLUSIVE` | Tensor Rank of Clause Incidence Matrix Bounds ACC^0 Circuit Size |
-| 2026-05-19 15:42 UTC | `BARRIER_HIT` | Schur-Weyl Component Count Separation in 3-CNF Incidence Tensors |
-| 2026-05-19 15:51 UTC | `INCONCLUSIVE` | Real Rank of SOS Moment Matrix and Max-CUT Approximation Ratio |
-| 2026-05-19 16:12 UTC | `INCONCLUSIVE` | Persistent Homology Betti Numbers and Communication Complexity of |
-| 2026-05-19 16:36 UTC | `INCONCLUSIVE` | Gröbner Basis Monomial Count and SAT Complexity |
-| 2026-05-19 17:04 UTC | `INCONCLUSIVE` | Free Entropy Lower Bound for Disjointness Communication Complexit |
-| 2026-05-19 17:21 UTC | `INCONCLUSIVE` | Schur Positivity of SOS Moment Matrices for 3-SAT |
-| 2026-05-19 17:34 UTC | `INCONCLUSIVE` | Plethysm Coefficient Exponential Gap in Symmetric Powers of Perma |
+| 2026-05-21 03:30 UTC | `INCONCLUSIVE` | Laplacian Eigenvalue and Resolution Length of Tseitin Formulas |
+| 2026-05-21 03:38 UTC | `INCONCLUSIVE` | Moment Matrix Spectral Gap and SOS Degree for Max-CUT |
+| 2026-05-21 03:52 UTC | `INCONCLUSIVE` | Free Entropy Gap in Read-Twice BP Transition Matrices |
+| 2026-05-21 04:29 UTC | `INCONCLUSIVE` | Matroid Rank Gap in Monotone DNF for k-CLIQUE |
+| 2026-05-21 04:56 UTC | `INCONCLUSIVE` | Algebraic Shifting Facet Count Bounds Tseitin Resolution Length |
+| 2026-05-21 05:31 UTC | `INCONCLUSIVE` | Symmetric Group Orbit Count Distinguishes Read-Twice BPs |
+| 2026-05-21 05:41 UTC | `INCONCLUSIVE` | Polynomial Threshold Function Degree Bounds Karchmer-Wigderson Pr |
+| 2026-05-21 06:02 UTC | `INCONCLUSIVE` | Fourier Coefficient Sum Bounds Monotone DNF Size for k-CLIQUE |
+| 2026-05-21 06:31 UTC | `INCONCLUSIVE` | Real Radical Dimension Bounds AC⁰ Circuit Size for PARITY |
+| 2026-05-21 06:56 UTC | `INCONCLUSIVE` | Eigenvalue Count and SOS Degree for Max-CUT Approximation |
+| 2026-05-21 07:37 UTC | `INCONCLUSIVE` | Prime Density in Arithmetic Progressions and Seed Length of Nisan |
+| 2026-05-21 07:51 UTC | `INCONCLUSIVE` | Free Entropy Gap in Disjointness Communication Matrices |
+| 2026-05-21 08:09 UTC | `INCONCLUSIVE` | SOS Moment Matrix Spectral Gap and Max-CUT Approximation Ratio |
+| 2026-05-21 08:19 UTC | `INCONCLUSIVE` | Additive Energy of Fourier Coefficients and ACC⁰ Circuit Size |
+| 2026-05-21 08:33 UTC | `INCONCLUSIVE` | Betti Number Sum Lower Bound for SOS Max-CUT Degree |
 
 ## How to read the reports
 

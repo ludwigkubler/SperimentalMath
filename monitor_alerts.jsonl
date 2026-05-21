@@ -1605,12 +1605,167 @@
 {"ts": 1779210002.8652534, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1500, "cap": 2000, "fraction": 0.75, "weekly_budget": 2500}}
 {"ts": 1779211801.8140926, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 23}}
 {"ts": 1779211801.9285007, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1500, "cap": 2000, "fraction": 0.75, "weekly_budget": 2500}}
-{"ts": 1779213601.184353, "ts_iso": "2026-05-19T18:00:01.184353+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "OK", "to_status": "DEGRADED", "failing_checks": ["mirror_git_fresh"], "auto_fixed": false}
-{"ts": 1779213704.764701, "ts_iso": "2026-05-19T18:01:44.764701+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "DEGRADED", "to_status": "OK", "failing_checks": [], "auto_fixed": false}
-{"ts": 1779213903.66927, "ts_iso": "2026-05-19T18:05:03.669270+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "OK", "to_status": "CRITICAL", "failing_checks": ["explorer_process"], "auto_fixed": false}
-{"ts": 1779214175.445421, "ts_iso": "2026-05-19T18:09:35.445421+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "CRITICAL", "to_status": "OK", "failing_checks": [], "auto_fixed": false}
-{"ts": 1779215443.435102, "ts_iso": "2026-05-19T18:30:43.435102+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "DEGRADED", "to_status": "OK", "failing_checks": [], "auto_fixed": false}
-{"ts": 1779215931.080889, "ts_iso": "2026-05-19T18:38:51.080889+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "OK", "to_status": "DEGRADED", "failing_checks": ["mirror_git_pushed"], "auto_fixed": false}
-{"ts": 1779215931.334112, "ts_iso": "2026-05-19T18:38:51.334112+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "DEGRADED", "to_status": "OK", "failing_checks": [], "auto_fixed": false}
-{"ts": 1779216327.211635, "ts_iso": "2026-05-19T18:45:27.211635+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "OK", "to_status": "DEGRADED", "failing_checks": ["mirror_git_pushed"], "auto_fixed": false}
-{"ts": 1779216397.082076, "ts_iso": "2026-05-19T18:46:37.082076+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "DEGRADED", "to_status": "OK", "failing_checks": [], "auto_fixed": false}
+{"ts": 1779213109.4779658, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 23}}
+{"ts": 1779213109.601162, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1500, "cap": 2000, "fraction": 0.75, "weekly_budget": 2500}}
+{"ts": 1779213601.8061528, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 23}}
+{"ts": 1779213601.9098754, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1520, "cap": 2000, "fraction": 0.76, "weekly_budget": 2500}}
+{"ts": 1779215401.7051032, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 23}}
+{"ts": 1779215401.8092349, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1545, "cap": 2000, "fraction": 0.772, "weekly_budget": 2500}}
+{"ts": 1779215468.8935132, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 23}}
+{"ts": 1779215468.996761, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1549, "cap": 2000, "fraction": 0.774, "weekly_budget": 2500}}
+{"ts": 1779217202.6010158, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 23}}
+{"ts": 1779217202.7037992, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1593, "cap": 2000, "fraction": 0.796, "weekly_budget": 2500}}
+{"ts": 1779219004.4036975, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 23}}
+{"ts": 1779219005.2934823, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1650, "cap": 2000, "fraction": 0.825, "weekly_budget": 2500}}
+{"ts": 1779220805.5879855, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 23}}
+{"ts": 1779220806.8871431, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1669, "cap": 2000, "fraction": 0.835, "weekly_budget": 2500}}
+{"ts": 1779222602.8776965, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 23}}
+{"ts": 1779222602.9868727, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1689, "cap": 2000, "fraction": 0.845, "weekly_budget": 2500}}
+{"ts": 1779224402.273661, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 23}}
+{"ts": 1779224402.3872373, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1690, "cap": 2000, "fraction": 0.845, "weekly_budget": 2500}}
+{"ts": 1779226202.7530937, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 23}}
+{"ts": 1779226202.866457, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1690, "cap": 2000, "fraction": 0.845, "weekly_budget": 2500}}
+{"ts": 1779228002.2491114, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 23}}
+{"ts": 1779228002.3610241, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1690, "cap": 2000, "fraction": 0.845, "weekly_budget": 2500}}
+{"ts": 1779229802.1345665, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 23}}
+{"ts": 1779229802.2374756, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1710, "cap": 2000, "fraction": 0.855, "weekly_budget": 2500}}
+{"ts": 1779231604.848383, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 23}}
+{"ts": 1779231605.1272688, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1710, "cap": 2000, "fraction": 0.855, "weekly_budget": 2500}}
+{"ts": 1779233401.6622453, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 23}}
+{"ts": 1779233401.7608707, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1710, "cap": 2000, "fraction": 0.855, "weekly_budget": 2500}}
+{"ts": 1779235202.0944068, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 23}}
+{"ts": 1779235202.2051852, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1710, "cap": 2000, "fraction": 0.855, "weekly_budget": 2500}}
+{"ts": 1779237001.8659322, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 23}}
+{"ts": 1779237001.9679596, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1710, "cap": 2000, "fraction": 0.855, "weekly_budget": 2500}}
+{"ts": 1779238801.8451138, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 23}}
+{"ts": 1779238801.9571009, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1713, "cap": 2000, "fraction": 0.857, "weekly_budget": 2500}}
+{"ts": 1779240602.6355505, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 23}}
+{"ts": 1779240602.7462132, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1713, "cap": 2000, "fraction": 0.857, "weekly_budget": 2500}}
+{"ts": 1779242402.5322988, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 23}}
+{"ts": 1779242402.6352184, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1713, "cap": 2000, "fraction": 0.857, "weekly_budget": 2500}}
+{"ts": 1779244202.1586173, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 23}}
+{"ts": 1779244202.271257, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1713, "cap": 2000, "fraction": 0.857, "weekly_budget": 2500}}
+{"ts": 1779246001.8959022, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 23}}
+{"ts": 1779246001.9956818, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1713, "cap": 2000, "fraction": 0.857, "weekly_budget": 2500}}
+{"ts": 1779247803.1126308, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 23}}
+{"ts": 1779247803.351619, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1713, "cap": 2000, "fraction": 0.857, "weekly_budget": 2500}}
+{"ts": 1779249602.2643194, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 23}}
+{"ts": 1779249602.3764162, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1714, "cap": 2000, "fraction": 0.857, "weekly_budget": 2500}}
+{"ts": 1779251402.047103, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 23}}
+{"ts": 1779251402.149949, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1713, "cap": 2000, "fraction": 0.857, "weekly_budget": 2500}}
+{"ts": 1779253202.7564309, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 23}}
+{"ts": 1779253202.8677225, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1713, "cap": 2000, "fraction": 0.857, "weekly_budget": 2500}}
+{"ts": 1779255002.1326535, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 23}}
+{"ts": 1779255002.369949, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1713, "cap": 2000, "fraction": 0.857, "weekly_budget": 2500}}
+{"ts": 1779256803.985064, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 24}}
+{"ts": 1779256804.0926294, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1713, "cap": 2000, "fraction": 0.857, "weekly_budget": 2500}}
+{"ts": 1779258602.0563912, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 24}}
+{"ts": 1779258602.168092, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1713, "cap": 2000, "fraction": 0.857, "weekly_budget": 2500}}
+{"ts": 1779260402.4777129, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 24}}
+{"ts": 1779260402.589135, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1712, "cap": 2000, "fraction": 0.856, "weekly_budget": 2500}}
+{"ts": 1779262203.1399002, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 24}}
+{"ts": 1779262203.357836, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1712, "cap": 2000, "fraction": 0.856, "weekly_budget": 2500}}
+{"ts": 1779264002.0709696, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 24}}
+{"ts": 1779264002.1823199, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1715, "cap": 2000, "fraction": 0.858, "weekly_budget": 2500}}
+{"ts": 1779265802.6034746, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 24}}
+{"ts": 1779265802.7133467, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1715, "cap": 2000, "fraction": 0.858, "weekly_budget": 2500}}
+{"ts": 1779267604.1151228, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 24}}
+{"ts": 1779267604.2177124, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1715, "cap": 2000, "fraction": 0.858, "weekly_budget": 2500}}
+{"ts": 1779269402.691166, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 24}}
+{"ts": 1779269402.803497, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1715, "cap": 2000, "fraction": 0.858, "weekly_budget": 2500}}
+{"ts": 1779271202.5803578, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 24}}
+{"ts": 1779271202.6861331, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1715, "cap": 2000, "fraction": 0.858, "weekly_budget": 2500}}
+{"ts": 1779273002.640428, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 24}}
+{"ts": 1779273002.7526248, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1715, "cap": 2000, "fraction": 0.858, "weekly_budget": 2500}}
+{"ts": 1779274801.858297, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 24}}
+{"ts": 1779274801.9692817, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1715, "cap": 2000, "fraction": 0.858, "weekly_budget": 2500}}
+{"ts": 1779276602.451052, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 24}}
+{"ts": 1779276602.6728852, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1715, "cap": 2000, "fraction": 0.858, "weekly_budget": 2500}}
+{"ts": 1779278405.7931144, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 24}}
+{"ts": 1779278406.03647, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1715, "cap": 2000, "fraction": 0.858, "weekly_budget": 2500}}
+{"ts": 1779280202.6066408, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 24}}
+{"ts": 1779280202.7161052, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1714, "cap": 2000, "fraction": 0.857, "weekly_budget": 2500}}
+{"ts": 1779282001.8343554, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 24}}
+{"ts": 1779282001.9547446, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1706, "cap": 2000, "fraction": 0.853, "weekly_budget": 2500}}
+{"ts": 1779283802.4734423, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 24}}
+{"ts": 1779283802.5851722, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1706, "cap": 2000, "fraction": 0.853, "weekly_budget": 2500}}
+{"ts": 1779285602.3122704, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 24}}
+{"ts": 1779285602.4230185, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1706, "cap": 2000, "fraction": 0.853, "weekly_budget": 2500}}
+{"ts": 1779287402.3900826, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 24}}
+{"ts": 1779287402.501322, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1706, "cap": 2000, "fraction": 0.853, "weekly_budget": 2500}}
+{"ts": 1779289201.659433, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 24}}
+{"ts": 1779289201.7587974, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1706, "cap": 2000, "fraction": 0.853, "weekly_budget": 2500}}
+{"ts": 1779291002.5582016, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 24}}
+{"ts": 1779291002.6696482, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1706, "cap": 2000, "fraction": 0.853, "weekly_budget": 2500}}
+{"ts": 1779292801.9326594, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 24}}
+{"ts": 1779292802.0374568, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1706, "cap": 2000, "fraction": 0.853, "weekly_budget": 2500}}
+{"ts": 1779294602.2282727, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 24}}
+{"ts": 1779294602.3392036, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1706, "cap": 2000, "fraction": 0.853, "weekly_budget": 2500}}
+{"ts": 1779296402.3513045, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 24}}
+{"ts": 1779296402.4618895, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1708, "cap": 2000, "fraction": 0.854, "weekly_budget": 2500}}
+{"ts": 1779298202.20925, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 24}}
+{"ts": 1779298202.3199975, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1708, "cap": 2000, "fraction": 0.854, "weekly_budget": 2500}}
+{"ts": 1779300002.1762528, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 24}}
+{"ts": 1779300002.2823637, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1708, "cap": 2000, "fraction": 0.854, "weekly_budget": 2500}}
+{"ts": 1779301802.649437, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 24}}
+{"ts": 1779301802.7612329, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1708, "cap": 2000, "fraction": 0.854, "weekly_budget": 2500}}
+{"ts": 1779303602.793454, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 24}}
+{"ts": 1779303602.9048512, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1708, "cap": 2000, "fraction": 0.854, "weekly_budget": 2500}}
+{"ts": 1779305402.2397587, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 24}}
+{"ts": 1779305402.3516288, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1708, "cap": 2000, "fraction": 0.854, "weekly_budget": 2500}}
+{"ts": 1779307202.5895548, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 24}}
+{"ts": 1779307202.6897552, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1708, "cap": 2000, "fraction": 0.854, "weekly_budget": 2500}}
+{"ts": 1779309002.3701947, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 24}}
+{"ts": 1779309002.4813695, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1708, "cap": 2000, "fraction": 0.854, "weekly_budget": 2500}}
+{"ts": 1779310803.200938, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 24}}
+{"ts": 1779310803.315979, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1708, "cap": 2000, "fraction": 0.854, "weekly_budget": 2500}}
+{"ts": 1779312601.7071452, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 24}}
+{"ts": 1779312601.8104334, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1708, "cap": 2000, "fraction": 0.854, "weekly_budget": 2500}}
+{"ts": 1779314402.4577942, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 24}}
+{"ts": 1779314402.5676951, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1708, "cap": 2000, "fraction": 0.854, "weekly_budget": 2500}}
+{"ts": 1779316202.293233, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 24}}
+{"ts": 1779316202.5120947, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1711, "cap": 2000, "fraction": 0.856, "weekly_budget": 2500}}
+{"ts": 1779318004.80249, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 24}}
+{"ts": 1779318004.9133332, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1717, "cap": 2000, "fraction": 0.859, "weekly_budget": 2500}}
+{"ts": 1779319805.7910135, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 24}}
+{"ts": 1779319806.0116723, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1717, "cap": 2000, "fraction": 0.859, "weekly_budget": 2500}}
+{"ts": 1779321602.572674, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 24}}
+{"ts": 1779321602.6858451, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1720, "cap": 2000, "fraction": 0.86, "weekly_budget": 2500}}
+{"ts": 1779323401.7503269, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 24}}
+{"ts": 1779323401.8483398, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1720, "cap": 2000, "fraction": 0.86, "weekly_budget": 2500}}
+{"ts": 1779325202.0282745, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 24}}
+{"ts": 1779325202.1383772, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1720, "cap": 2000, "fraction": 0.86, "weekly_budget": 2500}}
+{"ts": 1779327002.0451021, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 24}}
+{"ts": 1779327002.1570969, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1720, "cap": 2000, "fraction": 0.86, "weekly_budget": 2500}}
+{"ts": 1779328802.4109106, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 24}}
+{"ts": 1779328802.5230923, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1720, "cap": 2000, "fraction": 0.86, "weekly_budget": 2500}}
+{"ts": 1779330602.3704746, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 24}}
+{"ts": 1779330602.480715, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1720, "cap": 2000, "fraction": 0.86, "weekly_budget": 2500}}
+{"ts": 1779332401.9821725, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 24}}
+{"ts": 1779332402.0939658, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1720, "cap": 2000, "fraction": 0.86, "weekly_budget": 2500}}
+{"ts": 1779334201.9900653, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 24}}
+{"ts": 1779334202.092483, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1720, "cap": 2000, "fraction": 0.86, "weekly_budget": 2500}}
+{"ts": 1779336002.0432622, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 24}}
+{"ts": 1779336002.1421585, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1720, "cap": 2000, "fraction": 0.86, "weekly_budget": 2500}}
+{"ts": 1779337802.1769507, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 24}}
+{"ts": 1779337802.279204, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1720, "cap": 2000, "fraction": 0.86, "weekly_budget": 2500}}
+{"ts": 1779339603.3562706, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 24}}
+{"ts": 1779339603.6926033, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1720, "cap": 2000, "fraction": 0.86, "weekly_budget": 2500}}
+{"ts": 1779341449.2763095, "kind": "OLLAMA_DOWN", "auto_fixed": false, "detail": {"endpoints": ["local"]}}
+{"ts": 1779341454.4743338, "kind": "TAILSCALE_DOWN", "auto_fixed": false, "detail": {}}
+{"ts": 1779341454.734283, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 24}}
+{"ts": 1779341479.1701531, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1720, "cap": 2000, "fraction": 0.86, "weekly_budget": 2500}}
+{"ts": 1779343203.577899, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 25}}
+{"ts": 1779343203.6802, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1723, "cap": 2000, "fraction": 0.862, "weekly_budget": 2500}}
+{"ts": 1779345040.1046097, "kind": "OLLAMA_DOWN", "auto_fixed": false, "detail": {"endpoints": ["local"]}}
+{"ts": 1779345045.328246, "kind": "TAILSCALE_DOWN", "auto_fixed": false, "detail": {}}
+{"ts": 1779345045.5886347, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 25}}
+{"ts": 1779345063.2795107, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1723, "cap": 2000, "fraction": 0.862, "weekly_budget": 2500}}
+{"ts": 1779346802.222662, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 25}}
+{"ts": 1779346802.3216352, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1723, "cap": 2000, "fraction": 0.862, "weekly_budget": 2500}}
+{"ts": 1779348602.0183005, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 25}}
+{"ts": 1779348602.1274474, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1721, "cap": 2000, "fraction": 0.861, "weekly_budget": 2500}}
+{"ts": 1779350401.95493, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 25}}
+{"ts": 1779350402.0669503, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1715, "cap": 2000, "fraction": 0.858, "weekly_budget": 2500}}
+{"ts": 1779352202.3109055, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 25}}
+{"ts": 1779352202.4213583, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1715, "cap": 2000, "fraction": 0.858, "weekly_budget": 2500}}

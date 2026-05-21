@@ -1,0 +1,40 @@
+{
+  "entry_id": "6afd248521a0",
+  "ts": 1779219954.8950474,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2004.09833",
+      "title": "Expressing the largest eigenvalue of a singular beta F-matrix with heterogeneous hypergeometric functions",
+      "abstract_excerpt": "In this paper, the exact distribution of the largest eigenvalue of a singular random matrix for multivariate analysis of variance (MANOVA) is discussed. The key to developing the distribution theory of eigenvalues of a singular random matrix is to use heterogeneous hypergeometric functions with two matrix arguments. In this study, we define the singular beta F-matrix and extend the distributions of a nonsingular beta F -matrix to the singular case. We also give the joint density of eigenvalues a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'exact distribution of the largest eigenvalue of a singular random matrix for MANOVA' via heterogeneous hypergeometric functions, which shares only the generic vocabulary of eigenvalues/random matrices but does not address Sturm root counting, SOS/GW moment matrices, or max-CUT slack on 3-regular graphs.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2604.08367",
+      "title": "Per-Shot Evaluation of QAOA on Max-Cut: A Black-Box Implementation Comparison with Goemans-Williamson",
+      "abstract_excerpt": "The Quantum Approximate Optimization Algorithm (QAOA) has emerged as a promising approach for addressing combinatorial optimization problems on near-term quantum hardware. In this work, we conduct an empirical evaluation of QAOA on the Max-Cut problem, using the Goemans-Williamson (GW) algorithm as a classical baseline for comparison. Unlike many prior studies, our methodology treats QAOA implementations as black-box optimizers, relying solely on default parameter settings without manual fine-tu",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes an empirical per-shot comparison of QAOA versus the GW algorithm as a black-box baseline on Max-Cut; it makes no claim about Sturm/Hermite real-root counts, GW moment-matrix eigenvalue distributions, or any universal constant c⋆ governing R(G)/n.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2112.11354",
+      "title": "Warm-Started QAOA with Custom Mixers Provably Converges and Computationally Beats Goemans-Williamson's Max-Cut at Low Circuit Depths",
+      "abstract_excerpt": "We generalize the Quantum Approximate Optimization Algorithm (QAOA) of Farhi et al. (2014) to allow for arbitrary separable initial states with corresponding mixers such that the starting state is the most excited state of the mixing Hamiltonian. We demonstrate this version of QAOA, which we call QAOA-warmest, by simulating Max-Cut on weighted graphs. We initialize the starting state as a warm-start using $2$ and $3$-dimensional approximations obtained using randomized projections of solutions t",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns warm-started QAOA with custom mixers using SDP-based randomized projections for Max-Cut, not the Sturm/Hermite real-root counting of GW moment matrix eigenvalues or the concentration constant claim. It shares the GW/Max-Cut vocabulary but does not address the spectral interval count R(G)/n conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

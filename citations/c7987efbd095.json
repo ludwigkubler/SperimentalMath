@@ -1,0 +1,40 @@
+{
+  "entry_id": "c7987efbd095",
+  "ts": 1779238338.9776893,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1904.05483",
+      "title": "Parallels Between Phase Transitions and Circuit Complexity?",
+      "abstract_excerpt": "In many natural average-case problems, there are or there are believed to be critical values in the parameter space where the structure of the space of solutions changes in a fundamental way. These phase transitions are often believed to coincide with drastic changes in the computational complexity of the associated problem.\n  In this work, we study the circuit complexity of inference in the broadcast tree model, which has important applications in phylogenetic reconstruction and close connectio",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns circuit complexity of belief propagation in broadcast tree models and phase transitions, with no mention of matroid polytopes, integrality, or MCSP — it shares only the broad 'circuit complexity' vocabulary.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2404.09152",
+      "title": "A matroid polytope approach to sharp affine isoperimetric inequalities for volume decomposition functionals",
+      "abstract_excerpt": "New sharp affine isoperimetric inequalities for volume decomposition functionals $X_{2}$ and $X_{3}$ in $\\mathbb{R}^n$ are established. To fulfil this task, we prove the recursion formulas for volume decomposition functionals and find out the connection between the domains of these functionals and matroid polytopes. Applications of matroid theory to convex geometry are presented.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'sharp affine isoperimetric inequalities for volume decomposition functionals' connecting matroid polytopes to convex geometry, with no mention of polytope integrality, circuit complexity, or MCSP.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1608.04025",
+      "title": "Quasi-matroidal classes of ordered simplicial complexes",
+      "abstract_excerpt": "We introduce the notion of a quasi-matroidal class of ordered simplicial complexes: an approximation to the idea of a matroid cryptomorphism in the landscape of ordered simplicial complexes. A quasi-matroidal class contains pure shifted simplicial complexes and ordered matroid independence complexes. The essential property is that if a fixed simplicial complex belongs to this class for every ordering of its vertex set, then it is a matroid independence complex. Some examples of such classes appe",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'quasi-matroidal classes of ordered simplicial complexes' and Stanley's h-vector conjecture, with no mention of matroid polytope integrality, MCSP, or circuit complexity. It shares only the matroid vocabulary but does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

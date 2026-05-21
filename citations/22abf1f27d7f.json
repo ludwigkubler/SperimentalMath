@@ -1,0 +1,40 @@
+{
+  "entry_id": "22abf1f27d7f",
+  "ts": 1779222413.660247,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2209.05839",
+      "title": "On bounded depth proofs for Tseitin formulas on the grid; revisited",
+      "abstract_excerpt": "We study Frege proofs using depth-$d$ Boolean formulas for the Tseitin contradiction on $n \\times n$ grids. We prove that if each line in the proof is of size $M$ then the number of lines is exponential in $n/(\\log M)^{O(d)}$. This strengthens a recent result of Pitassi et al. [PRT22]. The key technical step is a multi-switching lemma extending the switching lemma of Håstad [Hås20] for a space of restrictions related to the Tseitin contradiction. The strengthened lemma also allows us to improve ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses bounded-depth Frege proof size lower bounds for Tseitin on grids via switching lemmas, not read-twice branching program size or real-rank of communication matrices for Tseitin on 3-regular expanders. It shares the Tseitin subject but does not interact with the specific rank/BP-size claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1709.08890",
+      "title": "Partial matching width and its application to lower bounds for branching programs",
+      "abstract_excerpt": "We introduce a new structural graph parameter called \\emph{partial matching width}. For each (sufficiently large) integer $k \\geq 1$, we introduce a class $\\mathcal{G}_k$ of graphs of treewidth at most $k$ and max-degree $7$ such that for each $G \\in \\mathcal{G}_k$ and each (sufficiently large) $V \\subseteq V(G)$, the partial matching width of $V$ is $Ω(k \\log |V|)$.\n  We use the above lower bound to establish a lower bound on the size of non-deterministic read-once branching programs (NROBPs). ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper proves lower bounds for non-deterministic read-once BPs on bounded-treewidth CNFs via 'partial matching width', not read-twice BPs for Tseitin formulas on 3-regular expanders via real-rank/edge-expansion. It shares the BP lower-bound framework but does not address the specific rank≥(1/4)h(G)m claim or the read-twice model.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1007.1875",
+      "title": "Lower Bounds for Quantum Oblivious Transfer",
+      "abstract_excerpt": "Oblivious transfer is a fundamental primitive in cryptography. While perfect information theoretic security is impossible, quantum oblivious transfer protocols can limit the dishonest players' cheating. Finding the optimal security parameters in such protocols is an important open question. In this paper we show that every 1-out-of-2 oblivious transfer protocol allows a dishonest party to cheat with probability bounded below by a constant strictly larger than 1/2. Alice's cheating is defined as ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quantum oblivious transfer cheating probabilities and Kitaev's coin flipping bound, with no connection to branching program size, Tseitin formulas, or real-rank lower bounds via edge expansion.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

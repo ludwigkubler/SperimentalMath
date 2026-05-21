@@ -1,0 +1,40 @@
+{
+  "entry_id": "dd47721574e1",
+  "ts": 1779213265.0187404,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1510.05486",
+      "title": "Two types of branching programs with bounded repetition that cannot efficiently compute monotone 3-CNFs",
+      "abstract_excerpt": "It is known that there are classes of 2-CNFs requiring exponential size non-deterministic read-once branching programs to compute them. However, to the best of our knowledge, there are no superpolynomial lower bounds for branching programs of a higher repetition computing a class of 2-CNFs. This work is an attempt to make a progress in this direction.\n  We consider a class of monotone 3-CNFs that are almost 2-CNFs in the sense that in each clause there is a literal occurring in this clause only.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns exponential size lower bounds for non-deterministic read-k-times branching programs computing monotone 3-CNFs, not equidistribution defects of A_5 Cayley walks via Barrington-style width-5 programs on random 3-CNFs near a density threshold.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1112.6285",
+      "title": "Singularities of theta divisors and the geometry of A_5",
+      "abstract_excerpt": "We study the codimension two locus H in A_g consisting of principally polarized abelian varieties whose theta divisor has a singularity that is not an ordinary double point. We compute the class of H in A_g for every g. For g=4, this turns out to be the locus of Jacobians with a vanishing theta-null. For g=5, via the Prym map we show that H in A_5 has two components, both unirational, which we completely describe. This gives a geometric classification of 5-dimensional ppav whose theta-divisor ha",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses A_5 as the moduli space of principally polarized abelian 5-folds and theta divisor singularities, completely unrelated to the alternating group A_5, Cayley walks, or 3-CNF formulas. The shared notation 'A_5' is purely coincidental.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2307.07683",
+      "title": "Single and Multi-Speaker Cloned Voice Detection: From Perceptual to Learned Features",
+      "abstract_excerpt": "Synthetic-voice cloning technologies have seen significant advances in recent years, giving rise to a range of potential harms. From small- and large-scale financial fraud to disinformation campaigns, the need for reliable methods to differentiate real and synthesized voices is imperative. We describe three techniques for differentiating a real from a cloned voice designed to impersonate a specific person. These three approaches differ in their feature extraction stage with low-dimensional perce",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns synthetic voice cloning detection via perceptual and learned features, sharing no vocabulary or subject matter with Cayley walks on A_5, Barrington branching programs, or 3-CNF density thresholds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

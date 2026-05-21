@@ -1,0 +1,40 @@
+{
+  "entry_id": "f6296d995ea7",
+  "ts": 1779263835.2321048,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1708.08132",
+      "title": "Topological Tutte Polynomial",
+      "abstract_excerpt": "This is a survey recent works on topological extensions of the Tutte polynomial.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a survey of 'topological extensions of the Tutte polynomial' with no mention of Tseitin formulas, resolution width, or proof complexity, so it shares only the Tutte polynomial vocabulary without interacting with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1906.02781",
+      "title": "Tutte Polynomial Activities",
+      "abstract_excerpt": "Unlike Whitney's definition of the corank-nullity generating function $T(G;x+1,y+1)$, Tutte's definition of his now eponymous polynomial $T(G;x,y)$ requires a total order on the edges of which the polynomial is a posteriori independent. Tutte presented his definition in terms of internal and external activities of maximal spanning forests. Although Tutte's original definition may appear somewhat ad hoc upon first inspection, subsequent work by various researchers has demonstrated that activity i",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract surveys notions of 'activity' for graphs/matroids and Tutte polynomial expansions, with connections to shellability and algebraic combinatorics, but says nothing about Tseitin formulas, resolution width, or proof complexity lower bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1705.10753",
+      "title": "Tutte Polynomials of Symmetric Hyperplane Arrangements",
+      "abstract_excerpt": "Originally in 1954 the Tutte polynomial was a bivariate polynomial associated to a graph in order to enumerate the colorings of this graph and of its dual graph at the same time. However the Tutte polynomial reveals more of the internal structure of a graph, and contains even other specializations from other sciences like the Jones polynomial in Knot theory, the partition function of the Pott model in statistical physics, and the reliability polynomial in network theory. In this article, we stud",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns computing Tutte polynomials of symmetric hyperplane arrangements (Catalan, Shi threshold, I_n), with no mention of Tseitin formulas, resolution width, spanning trees, or proof complexity bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

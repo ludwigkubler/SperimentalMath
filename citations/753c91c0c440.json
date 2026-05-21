@@ -1,0 +1,40 @@
+{
+  "entry_id": "753c91c0c440",
+  "ts": 1779215458.4424067,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0811.2800",
+      "title": "Parallel Chip-Firing on the Complete Graph: Devil's Staircase and Poincare Rotation Number",
+      "abstract_excerpt": "We study how parallel chip-firing on the complete graph K_n changes behavior as we vary the total number of chips. Surprisingly, the activity of the system, defined as the average number of firings per time step, does not increase smoothly in the number of chips; instead it remains constant over long intervals, punctuated by sudden jumps. In the large n limit we find a \"devil's staircase\" dependence of activity on the number of chips. The proof proceeds by reducing the chip-firing dynamics to it",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns parallel chip-firing dynamics on the complete graph K_n and its activity/rotation number, with no mention of Baker-Norine rank, Tseitin formulas, DPLL, or resolution width. It shares only the chip-firing vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2103.09609",
+      "title": "Characterizing Tseitin-formulas with short regular resolution refutations",
+      "abstract_excerpt": "Tseitin-formulas are systems of parity constraints whose structure is described by a graph. These formulas have been studied extensively in proof complexity as hard instances in many proof systems. In this paper, we prove that a class of unsatisfiable Tseitin-formulas of bounded degree has regular resolution refutations of polynomial length if and only if the treewidth of all underlying graphs $G$ for that class is in $O(\\log|V(G)|)$. To do so, we show that any regular resolution refutation of a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract characterizes regular resolution length of Tseitin formulas via treewidth tw(G), not via the Baker-Norine rank gap g(G) - r_BN(c); it makes no claim about DPLL leaf counts being 2^{D(G,c)/3} or width bounds tied to the rank gap.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2407.15889",
+      "title": "Periods and atomic firing sequences of parallel chip-firing games on directed graphs",
+      "abstract_excerpt": "In 1992, Bitar and Goles introduced the parallel chip-firing game on undirected graphs. Two years later, Prisner extended the game to directed graphs. While the properties of parallel chip-firing games on undirected graphs have been extensively studied, their analogs for parallel chip-firing games on directed graphs have been sporadic. In this paper, we prove the outstanding analogs of the core results of parallel chip-firing games on undirected graphs for those on directed graphs. We find the p",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns periods and atomic firing sequences of parallel chip-firing games on directed graphs, with no mention of Baker-Norine rank, Tseitin formulas, DPLL, or resolution width. It shares only the chip-firing framework but does not interact with the specific rank-gap/resolution-width claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

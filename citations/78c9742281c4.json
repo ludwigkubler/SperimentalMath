@@ -1,0 +1,40 @@
+{
+  "entry_id": "78c9742281c4",
+  "ts": 1779221010.7161644,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/1107.1630v3",
+      "title": "On the Integrality Gap of the Subtour LP for the 1,2-TSP",
+      "abstract_excerpt": "In this paper, we study the integrality gap of the subtour LP relaxation for the traveling salesman problem in the special case when all edge costs are either 1 or 2. For the general case of symmetric costs that obey triangle inequality, a famous conjecture is that the integrality gap is 4/3. Little",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the integrality gap of the subtour LP for the 1,2-TSP, with no mention of max-CUT, Tseitin graphs, Delorme-Poljak/GW bounds, Hankel matrices, or adjacency-spectrum eigenvalue counts. It shares only the generic notion of 'integrality gap' and does not interact with the specific conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1207.5696v1",
+      "title": "Beyond Max-Cut: λ-Extendible Properties Parameterized Above the Poljak-Turzík Bound",
+      "abstract_excerpt": "Poljak and Turzík (Discrete Math. 1986) introduced the notion of λ-extendible properties of graphs as a generalization of the property of being bipartite. They showed that for any 0&lt;λ&lt;1 and λ-extendible property Π, any connected graph G on n vertices and m edges contains a subgraph H \\in Π wit",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses λ-extendible graph properties and parameterized algorithms above the Poljak-Turzík bound, not the Delorme-Poljak SDP/GW slack, Hankel/Hermite signature, or eigenvalue multiplicity claims in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2605.14994v1",
+      "title": "Sharp Bounds on the Eigenvalues of Kikuchi Graphs and Applications to Quantum Max Cut",
+      "abstract_excerpt": "We prove that the maximum eigenvalue of the (both signed and unsigned) Laplacian of level $k$ Kikuchi graph of any graph $G$ with $m$ edges is at most $m+k$. This confirms four recent conjectures of Apte, Parekh, and Sud.   As applications, we obtain that tensor products of one and two qubit product states achieve an approximation ratio of $5/8$ for Quantum Max Cut and $5/7$ for the XY Hamiltonian. Moreover, combining our bounds with the algorithms analyzed by Apte, Parekh, and Sud, yields effic",
+      "abstract_source": "arxiv_local_mirror",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns eigenvalue bounds on Kikuchi graph Laplacians and approximation ratios for Quantum Max Cut/XY Hamiltonian, not the Delorme-Poljak SOS slack versus Hermite-Sylvester spectral-diversity rank on 3-regular Tseitin graphs. It shares the Max Cut vocabulary but does not address the specific S(G)/n ≥ c·ν(G)/n claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

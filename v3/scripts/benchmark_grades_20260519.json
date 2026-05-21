@@ -1,0 +1,244 @@
+{
+  "test_gen": {
+    "qwen3:8b": {
+      "score": 0,
+      "notes": [
+        "FAIL: no python code block"
+      ],
+      "latency_s": 152.03,
+      "tokens_per_sec": 24.6,
+      "eval_count": 1200,
+      "output_len_chars": 0
+    },
+    "qwen2.5-coder:7b": {
+      "score": 100,
+      "notes": [
+        "OK: has python block (+30)",
+        "OK: ast.parse (+20)",
+        "OK: defines run_trial (+20)",
+        "OK: stdlib only (+10)",
+        "OK: has RESULT: line (+10)",
+        "OK: has TRIAL marker (+10)"
+      ],
+      "latency_s": 17.74,
+      "tokens_per_sec": 68.3,
+      "eval_count": 881,
+      "output_len_chars": 3143
+    },
+    "deepseek-r1:8b": {
+      "score": 0,
+      "notes": [
+        "FAIL: no python code block"
+      ],
+      "latency_s": 151.23,
+      "tokens_per_sec": 24.6,
+      "eval_count": 1200,
+      "output_len_chars": 0
+    },
+    "glm4:latest": {
+      "score": 100,
+      "notes": [
+        "OK: has python block (+30)",
+        "OK: ast.parse (+20)",
+        "OK: defines run_trial (+20)",
+        "OK: stdlib only (+10)",
+        "OK: has RESULT: line (+10)",
+        "OK: has TRIAL marker (+10)"
+      ],
+      "latency_s": 61.98,
+      "tokens_per_sec": 92.4,
+      "eval_count": 1054,
+      "output_len_chars": 3674
+    },
+    "command-r7b:latest": {
+      "score": -1,
+      "notes": [
+        "ERROR: TimeoutError: timed out"
+      ],
+      "latency_s": 240.16,
+      "tokens_per_sec": null,
+      "eval_count": null
+    },
+    "mistral-nemo:latest": {
+      "score": -1,
+      "notes": [
+        "ERROR: TimeoutError: timed out"
+      ],
+      "latency_s": 240.1,
+      "tokens_per_sec": null,
+      "eval_count": null
+    },
+    "phi4:latest": {
+      "score": -1,
+      "notes": [
+        "ERROR: TimeoutError: timed out"
+      ],
+      "latency_s": 240.11,
+      "tokens_per_sec": null,
+      "eval_count": null
+    }
+  },
+  "propose": {
+    "qwen3:8b": {
+      "score": -1,
+      "notes": [
+        "ERROR: TimeoutError: timed out"
+      ],
+      "latency_s": 240.11,
+      "tokens_per_sec": null,
+      "eval_count": null
+    },
+    "qwen2.5-coder:7b": {
+      "score": 90,
+      "notes": [
+        "OK: JSON block found (+30)",
+        "OK: json.loads parses (+30)",
+        "OK: all required keys (+20)",
+        "OK: title length 43 (+10)"
+      ],
+      "latency_s": 171.42,
+      "tokens_per_sec": 1.7,
+      "eval_count": 210,
+      "output_len_chars": 893
+    },
+    "deepseek-r1:8b": {
+      "score": -1,
+      "notes": [
+        "ERROR: TimeoutError: timed out"
+      ],
+      "latency_s": 240.1,
+      "tokens_per_sec": null,
+      "eval_count": null
+    },
+    "glm4:latest": {
+      "score": 90,
+      "notes": [
+        "OK: JSON block found (+30)",
+        "OK: json.loads parses (+30)",
+        "OK: all required keys (+20)",
+        "OK: title length 40 (+10)"
+      ],
+      "latency_s": 197.04,
+      "tokens_per_sec": 2.1,
+      "eval_count": 289,
+      "output_len_chars": 1376
+    },
+    "command-r7b:latest": {
+      "score": 90,
+      "notes": [
+        "OK: JSON block found (+30)",
+        "OK: json.loads parses (+30)",
+        "OK: all required keys (+20)",
+        "OK: title length 82 (+10)"
+      ],
+      "latency_s": 124.91,
+      "tokens_per_sec": 3.6,
+      "eval_count": 241,
+      "output_len_chars": 1208
+    },
+    "mistral-nemo:latest": {
+      "score": -1,
+      "notes": [
+        "ERROR: TimeoutError: timed out"
+      ],
+      "latency_s": 240.2,
+      "tokens_per_sec": null,
+      "eval_count": null
+    },
+    "phi4:latest": {
+      "score": -1,
+      "notes": [
+        "ERROR: TimeoutError: timed out"
+      ],
+      "latency_s": 240.1,
+      "tokens_per_sec": null,
+      "eval_count": null
+    }
+  },
+  "judge": {
+    "qwen3:8b": {
+      "score": 100,
+      "notes": [
+        "OK: json parses (+40)",
+        "OK: verdict=INCONCLUSIVE (+30)",
+        "OK: has reason (+20)",
+        "OK: has next_direction (+10)"
+      ],
+      "latency_s": 107.32,
+      "tokens_per_sec": 25.7,
+      "eval_count": 266,
+      "output_len_chars": 245
+    },
+    "qwen2.5-coder:7b": {
+      "score": 100,
+      "notes": [
+        "OK: json parses (+40)",
+        "OK: verdict=INCONCLUSIVE (+30)",
+        "OK: has reason (+20)",
+        "OK: has next_direction (+10)"
+      ],
+      "latency_s": 29.27,
+      "tokens_per_sec": 106.5,
+      "eval_count": 37,
+      "output_len_chars": 126
+    },
+    "deepseek-r1:8b": {
+      "score": 0,
+      "notes": [
+        "FAIL: no JSON block"
+      ],
+      "latency_s": 104.11,
+      "tokens_per_sec": 25.6,
+      "eval_count": 400,
+      "output_len_chars": 0
+    },
+    "glm4:latest": {
+      "score": 100,
+      "notes": [
+        "OK: json parses (+40)",
+        "OK: verdict=INCONCLUSIVE (+30)",
+        "OK: has reason (+20)",
+        "OK: has next_direction (+10)"
+      ],
+      "latency_s": 40.67,
+      "tokens_per_sec": 94.5,
+      "eval_count": 67,
+      "output_len_chars": 282
+    },
+    "command-r7b:latest": {
+      "score": 100,
+      "notes": [
+        "OK: json parses (+40)",
+        "OK: verdict=INCONCLUSIVE (+30)",
+        "OK: has reason (+20)",
+        "OK: has next_direction (+10)"
+      ],
+      "latency_s": 95.25,
+      "tokens_per_sec": 3.6,
+      "eval_count": 51,
+      "output_len_chars": 196
+    },
+    "mistral-nemo:latest": {
+      "score": 100,
+      "notes": [
+        "OK: json parses (+40)",
+        "OK: verdict=INCONCLUSIVE (+30)",
+        "OK: has reason (+20)",
+        "OK: has next_direction (+10)"
+      ],
+      "latency_s": 132.15,
+      "tokens_per_sec": 0.9,
+      "eval_count": 47,
+      "output_len_chars": 172
+    },
+    "phi4:latest": {
+      "score": -1,
+      "notes": [
+        "ERROR: TimeoutError: timed out"
+      ],
+      "latency_s": 240.16,
+      "tokens_per_sec": null,
+      "eval_count": null
+    }
+  }
+}

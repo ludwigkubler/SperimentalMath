@@ -1,0 +1,40 @@
+{
+  "entry_id": "211ba56d901e",
+  "ts": 1779216396.7774932,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1402.4455",
+      "title": "Symbiosis of Search and Heuristics for Random 3-SAT",
+      "abstract_excerpt": "When combined properly, search techniques can reveal the full potential of sophisticated branching heuristics. We demonstrate this observation on the well-known class of random 3-SAT formulae. First, a new branching heuristic is presented, which generalizes existing work on this class. Much smaller search trees can be constructed by using this heuristic. Second, we introduce a variant of discrepancy search, called ALDS. Theoretical and practical evidence support that ALDS traverses the search tr",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a new branching heuristic and a discrepancy-search variant (ALDS) for random 3-SAT yielding 'much smaller search trees,' but says nothing about Fourier influence, KKL bounds, or the specific quantitative inequality log_2(τ+1) ≤ (1−I_max)(n−1)+5√n. It shares the random 3-SAT/DPLL framework but does not interact with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:cs/0506069",
+      "title": "A generating function method for the average-case analysis of DPLL",
+      "abstract_excerpt": "A method to calculate the average size of Davis-Putnam-Loveland-Logemann (DPLL) search trees for random computational problems is introduced, and applied to the satisfiability of random CNF formulas (SAT) and the coloring of random graph (COL) problems. We establish recursion relations for the generating functions of the average numbers of (variable or color) assignments at a given height in the search tree, which allow us to derive the asymptotics of the expected DPLL tree size, 2^{N w + o(N)},",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a generating-function method for computing average DPLL tree size as 2^{Nw+o(N)} under various branching heuristics, but it does not mention Fourier/KKL influence, maximum single-variable influence I_max, or the specific bound (1−I_max)(n−1)+5√n; it neither confirms nor contradicts the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1908.05361",
+      "title": "Placing quantified variants of 3-SAT and Not-All-Equal 3-SAT in the polynomial hierarchy",
+      "abstract_excerpt": "The complexity of variants of 3-SAT and Not-All-Equal 3-SAT is well studied. However, in contrast, very little is known about the complexity of the problems' quantified counterparts. In the first part of this paper, we show that $\\forall \\exists$ 3-SAT is $Π_2^P$-complete even if (1) each variable appears exactly twice unnegated and exactly twice negated, (2) each clause is a disjunction of exactly three distinct variables, and (3) the number of universal variables is equal to the number of exis",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns complexity classification (Π_2^P-completeness) of quantified 3-SAT variants, with no mention of DPLL leaf counts, Fourier influence, or random 3-CNF at specific clause densities. It shares the 3-SAT vocabulary but does not interact with the influence-greedy branching bound claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

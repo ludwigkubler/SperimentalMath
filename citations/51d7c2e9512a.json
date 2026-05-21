@@ -1,0 +1,40 @@
+{
+  "entry_id": "51d7c2e9512a",
+  "ts": 1779216733.7243528,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2511.07739",
+      "title": "A Lower Bound for the Fourier Entropy of Boolean Functions on the Biased Hypercube",
+      "abstract_excerpt": "We study Boolean functions on the $p$-biased hypercube $(\\{0,1\\}^n,μ_p^n)$ through the lens of Fourier (spectral) entropy, i.e. the Shannon entropy of the squared $p$-biased Fourier coefficients. Motivated by recent restriction-based advances on upper bounds toward the Fourier-Entropy-Influence (FEI) conjecture, we prove a complementary, sharp lower bound that decomposes the entropy into coordinate-wise contributions. Let $q:=4p(1-p)$ and define $Ψ:[0,\\tfrac12]\\to[0,\\ln 2]$ by $Ψ(t):=h\\left(\\fra",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The paper proves a lower bound on Fourier entropy on the biased hypercube via restriction-moment methods, while the conjecture concerns a doubling-set ratio of heavy Fourier supports under random restrictions for ACC[2] vs Sipser; the abstract addresses neither circuit complexity classes nor the specific HF doubling quantity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1712.07615",
+      "title": "A Plünnecke-Ruzsa inequality in compact abelian groups",
+      "abstract_excerpt": "The Plünnecke-Ruzsa inequality is a fundamental tool to control the growth of finite subsets of abelian groups under repeated addition and subtraction. Other tools to handle sumsets have gained applicability by being extended to more general subsets of more general groups. This motivates extending the Plünnecke-Ruzsa inequality, in particular to measurable subsets of compact abelian groups by replacing the cardinality with the Haar probability measure. This objective is related to the question o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns extending the Plünnecke-Ruzsa inequality to 'K-analytic sets in general compact (Hausdorff) abelian groups,' which shares the additive combinatorics vocabulary but does not address Fourier doubling of restricted Boolean functions, ACC[2] circuits, or the Sipser function.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0906.0693",
+      "title": "An improved lower bound on the counterfeit coins problem",
+      "abstract_excerpt": "In this paper, we will give an improvement on the lower bound for the counterfeit coins problem in the case that the number of false coins is unknown in advance",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns lower bounds for the counterfeit coins problem with an unknown number of false coins, which has no connection to Fourier doubling, ACC[2] circuits, or Sipser function lower bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,113 +1,301 @@
 {
-  "ts": 1779161581.939896,
+  "ts": 1779215471.7164106,
   "window_h": 24.0,
-  "n_conjectures": 54,
-  "n_papers": 28,
-  "n_scoops": 0,
-  "scoops": [],
+  "n_conjectures": 101,
+  "n_papers": 205,
+  "n_scoops": 31,
+  "scoops": [
+    {
+      "paper_id": "2605.16001v1",
+      "paper_title": "On the parameterized complexity of Broadcast Independence and Broadcast Packing",
+      "matched_eid": "1c724d8f6762",
+      "similarity": 0.7608726072807378
+    },
+    {
+      "paper_id": "2605.13488v1",
+      "paper_title": "The Gallai Vertex Problem is $Θ_2^p$-Complete",
+      "matched_eid": "988e93f4afe3",
+      "similarity": 0.7391445027623745
+    },
+    {
+      "paper_id": "2605.09872v2",
+      "paper_title": "Multi-Prover Interactive Proof Systems with Leakage",
+      "matched_eid": "b77a7e4e1eda",
+      "similarity": 0.7607696105627527
+    },
+    {
+      "paper_id": "2605.18335v1",
+      "paper_title": "A Note on Second-Order Expected Maximum-Load Bounds for Binary Linear Hashing",
+      "matched_eid": "cf05799b6ef2",
+      "similarity": 0.7236376087351721
+    },
+    {
+      "paper_id": "2605.17760v1",
+      "paper_title": "Tolerant Testing for Unique Games",
+      "matched_eid": "f2533eda1d01",
+      "similarity": 0.7391295248830072
+    },
+    {
+      "paper_id": "2605.17404v1",
+      "paper_title": "Module Lattice Security (Part III): Structured CVP Distance on the Log-Unit Lattice",
+      "matched_eid": "cf05799b6ef2",
+      "similarity": 0.7507246622133669
+    },
+    {
+      "paper_id": "2605.17396v1",
+      "paper_title": "Fast and Practical Single-Exponential Algorithms for Branchwidth",
+      "matched_eid": "1c724d8f6762",
+      "similarity": 0.7597849190934488
+    },
+    {
+      "paper_id": "2605.17251v1",
+      "paper_title": "Iterative Chow Filtering for Learning with Distribution Shift",
+      "matched_eid": "cf05799b6ef2",
+      "similarity": 0.7506487478170994
+    },
+    {
+      "paper_id": "2605.15859v1",
+      "paper_title": "Complexity of Non-Log-Concave Sampling in Fisher Information",
+      "matched_eid": "dad52f056827",
+      "similarity": 0.7333806662670492
+    },
+    {
+      "paper_id": "2605.15833v1",
+      "paper_title": "Exploration of $k$-edge-deficient temporal graphs in linear time",
+      "matched_eid": "1c724d8f6762",
+      "similarity": 0.7218083159079233
+    },
+    {
+      "paper_id": "2605.14093v2",
+      "paper_title": "New Algorithms for Parity-SAT and Its Bounded-Occurrence Versions",
+      "matched_eid": "a677f9fc0b8d",
+      "similarity": 0.7630715164952767
+    },
+    {
+      "paper_id": "2605.17390v1",
+      "paper_title": "NOETHER: A Constructive Framework for Metamorphic Pattern Discovery from Operator Algebras",
+      "matched_eid": "6010af3a708c",
+      "similarity": 0.7222444803247916
+    },
+    {
+      "paper_id": "2605.16985v1",
+      "paper_title": "On Variable-Bounded Non-Linear Expansions of Presburger Arithmetic",
+      "matched_eid": "d242f33fe08b",
+      "similarity": 0.7566250493446535
+    },
+    {
+      "paper_id": "2605.16421v1",
+      "paper_title": "Orthologic for SAT Solving",
+      "matched_eid": "d242f33fe08b",
+      "similarity": 0.740312588791228
+    },
+    {
+      "paper_id": "2605.18600v1",
+      "paper_title": "The Sharma-Mittal Entropy is Subadditive and Supermodular on the Majorization Lattice",
+      "matched_eid": "b4aca3359472",
+      "similarity": 0.7483488529553934
+    },
+    {
+      "paper_id": "2605.18487v1",
+      "paper_title": "The number of realisations of a random graph",
+      "matched_eid": "50287d06e16b",
+      "similarity": 0.7704216232063262
+    },
+    {
+      "paper_id": "2605.18308v1",
+      "paper_title": "The edit distance of word-representable and comparability graphs",
+      "matched_eid": "f2533eda1d01",
+      "similarity": 0.7315046061838449
+    },
+    {
+      "paper_id": "2605.18293v1",
+      "paper_title": "The base size of vertex-transitive cubic graphs",
+      "matched_eid": "9020e29f840c",
+      "similarity": 0.7250995227083217
+    },
+    {
+      "paper_id": "2605.18164v1",
+      "paper_title": "Explicit entropy bounds for symmetric nearest-neighbor subshifts",
+      "matched_eid": "363fda00c17f",
+      "similarity": 0.7294524051251655
+    },
+    {
+      "paper_id": "2605.18123v1",
+      "paper_title": "Fractional Helly property and combinatorics of forking in NTP$_2$ theories",
+      "matched_eid": "9dfcbea8b0a8",
+      "similarity": 0.735408009020931
+    },
+    {
+      "paper_id": "2605.17945v1",
+      "paper_title": "Note on the codegree version of the Erdős--Ko--Rado theorem",
+      "matched_eid": "f2533eda1d01",
+      "similarity": 0.7336299591174243
+    },
+    {
+      "paper_id": "2605.17880v1",
+      "paper_title": "Thrall's problem for two rows",
+      "matched_eid": "a677f9fc0b8d",
+      "similarity": 0.7697572863386689
+    },
+    {
+      "paper_id": "2605.17782v1",
+      "paper_title": "On the Failure of the Upper Bound in the Refined BMV Conjecture and a Pinching Correction",
+      "matched_eid": "a677f9fc0b8d",
+      "similarity": 0.7268859523712021
+    },
+    {
+      "paper_id": "2605.17529v1",
+      "paper_title": "Counterexamples to integer-coefficient criteria for recurrence along functions from a Hardy field",
+      "matched_eid": "cf05799b6ef2",
+      "similarity": 0.720120949490968
+    },
+    {
+      "paper_id": "2605.17430v1",
+      "paper_title": "Triangles in graphs without the expansion of $4$-cycle",
+      "matched_eid": "6653cb6e91d8",
+      "similarity": 0.7336908738398243
+    },
+    {
+      "paper_id": "2605.17412v1",
+      "paper_title": "Module Lattice Security (Part IV): Probabilistic Polynomial Quantum Attack on Module-LWE over 2-Power Cyclotomics",
+      "matched_eid": "f2533eda1d01",
+      "similarity": 0.7310684449450197
+    },
+    {
+      "paper_id": "2605.17218v1",
+      "paper_title": "Induced subdivisions in graphs of large girth",
+      "matched_eid": "b1e77f376f5e",
+      "similarity": 0.720656960389891
+    },
+    {
+      "paper_id": "2605.17122v1",
+      "paper_title": "Codes and designs in multivariate $Q$-polynomial association schemes",
+      "matched_eid": "4bcf619e2ecb",
+      "similarity": 0.7236020388622058
+    },
+    {
+      "paper_id": "2605.16852v1",
+      "paper_title": "Span capacities of graphs",
+      "matched_eid": "802deca2e3a4",
+      "similarity": 0.7409256773059697
+    },
+    {
+      "paper_id": "2605.16838v1",
+      "paper_title": "A Ridge-Saturation Characterization of $α$-Critical $\\mathbf {W}_p$ Graphs",
+      "matched_eid": "a8c40c3a34db",
+      "similarity": 0.756423874196408
+    },
+    {
+      "paper_id": "2605.16741v1",
+      "paper_title": "Hypermaps with hyperedges of length at most $3$",
+      "matched_eid": "dd0beadbf6d6",
+      "similarity": 0.7676761945825492
+    }
+  ],
   "top_overlap": [
     {
-      "score": 0.703,
-      "paper_id": "2605.16168v1",
-      "paper_title": "Supergravity flows, wormholes and their pseudo-Hermitian holographic duals",
-      "paper_category": "hep-th",
-      "matched_conjecture_eid": "0f748361fa5f",
-      "matched_conjecture_title": "Effective Resistance of Charged Vertex Pairs Bounds Tseitin DPLL Size"
+      "score": 0.77,
+      "paper_id": "2605.18487v1",
+      "paper_title": "The number of realisations of a random graph",
+      "paper_category": "math.CO",
+      "matched_conjecture_eid": "50287d06e16b",
+      "matched_conjecture_title": "Non-Abelian Fourier Analysis Determines Resolution Complexity for Tseitin Formulas"
     },
     {
-      "score": 0.701,
-      "paper_id": "2605.16119v1",
-      "paper_title": "Boundary anomalous dimensions from BCFT: $φ^{3}$ theories with a boundary and higher-derivative generalizations",
-      "paper_category": "hep-th",
-      "matched_conjecture_eid": "67ed17c63684",
-      "matched_conjecture_title": "p=3 Path-Family Modulus Lower-Bounds Tseitin Tree-Resolution"
+      "score": 0.77,
+      "paper_id": "2605.17880v1",
+      "paper_title": "Thrall's problem for two rows",
+      "paper_category": "math.CO",
+      "matched_conjecture_eid": "a677f9fc0b8d",
+      "matched_conjecture_title": "Hook-Length Dim of Tseitin T-Join Partition Lower-Bounds Tree-Res"
     },
     {
-      "score": 0.693,
-      "paper_id": "2605.16172v1",
-      "paper_title": "Background-Equivariant BRST Observables and i-Particle Propagators from an Auxiliary Quartet in SU(3) Yang-Mills",
-      "paper_category": "hep-th",
-      "matched_conjecture_eid": "4bcf619e2ecb",
-      "matched_conjecture_title": "vdW 3-AP Density of MAJ-Lifted NW Designs Tracks Overlap k"
+      "score": 0.768,
+      "paper_id": "2605.16741v1",
+      "paper_title": "Hypermaps with hyperedges of length at most $3$",
+      "paper_category": "math.CO",
+      "matched_conjecture_eid": "dd0beadbf6d6",
+      "matched_conjecture_title": "Gromov 4-Point Hyperbolicity of Gate-Graph Caps ACC^0[2] Bias on MOD_3"
     },
     {
-      "score": 0.687,
-      "paper_id": "2605.15268v1",
-      "paper_title": "Ising anyons in the $SU(2)_2$ Chern--Simons theory",
-      "paper_category": "hep-th",
-      "matched_conjecture_eid": "b6fc094b0a25",
-      "matched_conjecture_title": "Sidon B_2-Witness Failure of ACC⁰[2] for Sipser via MOD-Gate Outputs"
+      "score": 0.763,
+      "paper_id": "2605.14093v2",
+      "paper_title": "New Algorithms for Parity-SAT and Its Bounded-Occurrence Versions",
+      "paper_category": "cs.DS",
+      "matched_conjecture_eid": "a677f9fc0b8d",
+      "matched_conjecture_title": "Hook-Length Dim of Tseitin T-Join Partition Lower-Bounds Tree-Res"
     },
     {
-      "score": 0.686,
-      "paper_id": "2605.16254v1",
-      "paper_title": "Fortuity and Complexity in a Simple Quark Model",
-      "paper_category": "hep-th",
-      "matched_conjecture_eid": "1743ebcdf761",
-      "matched_conjecture_title": "Morse-Hedlund Factor Complexity of XOR-Lifted Rows Upper-Bounds D(f)"
+      "score": 0.761,
+      "paper_id": "2605.16001v1",
+      "paper_title": "On the parameterized complexity of Broadcast Independence and Broadcast Packing",
+      "paper_category": "cs.DS",
+      "matched_conjecture_eid": "1c724d8f6762",
+      "matched_conjecture_title": "Treewidth Exponential Lower Bound on Tseitin Resolution Length"
     },
     {
-      "score": 0.683,
-      "paper_id": "2605.15841v1",
-      "paper_title": "Critical quench dynamics of Wegner's $\\mathbb{Z}_2$ gauge model: a geometric perspective",
-      "paper_category": "cond-mat.stat-mech",
-      "matched_conjecture_eid": "0f748361fa5f",
-      "matched_conjecture_title": "Effective Resistance of Charged Vertex Pairs Bounds Tseitin DPLL Size"
-    },
-    {
-      "score": 0.676,
-      "paper_id": "2605.15267v1",
-      "paper_title": "Hierarchies from Higher Flavor Spin",
-      "paper_category": "hep-ph",
-      "matched_conjecture_eid": "63e0e3f43696",
-      "matched_conjecture_title": "SoS Cone-Gram Stable Rank Caps AC⁰ Depth-d Size for PARITY"
-    },
-    {
-      "score": 0.671,
-      "paper_id": "2605.16188v1",
-      "paper_title": "Non-Invertible Symmetries in Compactified Supergravities",
-      "paper_category": "hep-th",
-      "matched_conjecture_eid": "fd57783d2ed4",
-      "matched_conjecture_title": "Cross-Read Kronecker Sum Rank Lower-Bounds Read-Twice BP for IP_2"
-    },
-    {
-      "score": 0.669,
-      "paper_id": "2605.15272v1",
-      "paper_title": "A general proof of integer Rényi QNEC",
-      "paper_category": "hep-th",
-      "matched_conjecture_eid": "182e2d5f7a37",
-      "matched_conjecture_title": "Kashin L1-Flatness of Top Laplacian Eigenvector Bounds Max-Cut SoS-2 Gap"
-    },
-    {
-      "score": 0.665,
-      "paper_id": "2605.15420v1",
-      "paper_title": "Coherent States of Non-Null Torus Knots",
+      "score": 0.761,
+      "paper_id": "2605.09872v2",
+      "paper_title": "Multi-Prover Interactive Proof Systems with Leakage",
       "paper_category": "quant-ph",
-      "matched_conjecture_eid": "0f748361fa5f",
-      "matched_conjecture_title": "Effective Resistance of Charged Vertex Pairs Bounds Tseitin DPLL Size"
+      "matched_conjecture_eid": "b77a7e4e1eda",
+      "matched_conjecture_title": "Communication Complexity Lower Bound for AC⁰ PARITY via Real Algebraic Geometry"
+    },
+    {
+      "score": 0.76,
+      "paper_id": "2605.17396v1",
+      "paper_title": "Fast and Practical Single-Exponential Algorithms for Branchwidth",
+      "paper_category": "cs.DS",
+      "matched_conjecture_eid": "1c724d8f6762",
+      "matched_conjecture_title": "Treewidth Exponential Lower Bound on Tseitin Resolution Length"
+    },
+    {
+      "score": 0.757,
+      "paper_id": "2605.16985v1",
+      "paper_title": "On Variable-Bounded Non-Linear Expansions of Presburger Arithmetic",
+      "paper_category": "cs.LO",
+      "matched_conjecture_eid": "d242f33fe08b",
+      "matched_conjecture_title": "Separation of Bounded Arithmetic Theories via Proof System Strength"
+    },
+    {
+      "score": 0.756,
+      "paper_id": "2605.16838v1",
+      "paper_title": "A Ridge-Saturation Characterization of $α$-Critical $\\mathbf {W}_p$ Graphs",
+      "paper_category": "math.CO",
+      "matched_conjecture_eid": "a8c40c3a34db",
+      "matched_conjecture_title": "Super-Exponential Lower Bound on Extended Frege Proofs for Ramsey-Type Tautologies"
+    },
+    {
+      "score": 0.751,
+      "paper_id": "2605.17404v1",
+      "paper_title": "Module Lattice Security (Part III): Structured CVP Distance on the Log-Unit Lattice",
+      "paper_category": "cs.DS",
+      "matched_conjecture_eid": "cf05799b6ef2",
+      "matched_conjecture_title": "Continued-Fraction Depth of Greedy-Restriction Bias Sequence Bounds ACC⁰ Size"
     }
   ],
   "stats": {
-    "n_cycles": 54,
+    "n_cycles": 101,
     "verdicts": {
-      "INCONCLUSIVE": 54
+      "INCONCLUSIVE": 99,
+      "BARRIER_HIT": 2
     },
     "focus_distribution": {
-      "ACC_SIPSER": 6,
-      "GCT_DET_PERM": 4,
-      "AC0_PARITY": 4,
-      "BP_READTWICE": 3,
-      "TSEITIN_RES": 2,
-      "SOS_DEGREE": 5,
-      "MONOTONE_CLIQUE": 3,
-      "COMM_DISJ": 2
+      "GCT_DET_PERM": 11,
+      "BP_READTWICE": 6,
+      "SOS_DEGREE": 9,
+      "COMM_DISJ": 8,
+      "AC0_PARITY": 6,
+      "MONOTONE_CLIQUE": 7,
+      "TSEITIN_RES": 7,
+      "ACC_SIPSER": 6
     },
     "top_fields_A": {
-      "Character-theoretic mixing on S_5 — the L^1 distan": 1,
-      "Nisan–Wigderson combinatorial designs (set systems": 1,
-      "Coxeter-group combinatorics of S_5 — the inversion": 1,
-      "Birkhoff polytope / doubly-stochastic spectral the": 1,
-      "Fourier analysis of Boolean functions — specifical": 1
+      "REAL_ALGEBRAIC_GEOMETRY": 8,
+      "Schur-Weyl Duality": 5,
+      "Matroid Theory": 4,
+      "Free Probability": 4,
+      "COMMUNICATION_COMPLEXITY": 3
     }
   }
 }

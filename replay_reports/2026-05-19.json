@@ -1,0 +1,37 @@
+{
+  "ts": 1779216109.5940735,
+  "picked": 3,
+  "since_days": 7,
+  "image": "sec-pvsnp-replay",
+  "summary_counts": {
+    "crash": 1,
+    "match": 1,
+    "timeout": 1
+  },
+  "results": [
+    {
+      "tarball": "1743ebcdf761.tar.gz",
+      "rc": 1,
+      "elapsed_s": 0.5,
+      "result": "crash",
+      "first_line": "",
+      "stderr_tail": "cent call last):\n  File \"/tmp/sec_replay.zPug9n/replay_1743ebcdf761/run.py\", line 146, in <module>\n    first_failing_seed = next(r[\"seed\"] for r in results if not r[\"conjecture_holds\"])\n                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/sec_replay.zPug9n/replay_1743ebcdf761/run.py\", line 146, in <genexpr>\n    first_failing_seed = next(r[\"seed\"] for r in results if not r[\"conjecture_holds\"])\n                              ~^^^^^^^^\nKeyError: 'seed'\n"
+    },
+    {
+      "tarball": "907adf441a18.tar.gz",
+      "rc": 0,
+      "elapsed_s": 0.0,
+      "result": "match",
+      "first_line": "MATCH",
+      "stderr_tail": ""
+    },
+    {
+      "tarball": "b60e3f3f26e1.tar.gz",
+      "rc": 4,
+      "elapsed_s": 150.0,
+      "result": "timeout",
+      "first_line": "",
+      "stderr_tail": "RUNTIME_TIMEOUT rc=124 (>150s)\n"
+    }
+  ]
+}

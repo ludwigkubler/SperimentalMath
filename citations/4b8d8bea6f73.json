@@ -1,0 +1,40 @@
+{
+  "entry_id": "4b8d8bea6f73",
+  "ts": 1779216027.807362,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2107.05128",
+      "title": "Karchmer-Wigderson Games for Hazard-free Computation",
+      "abstract_excerpt": "We present a Karchmer-Wigderson game to study the complexity of hazard-free formulas. This new game is both a generalization of the monotone Karchmer-Wigderson game and an analog of the classical Boolean Karchmer-Wigderson game. Therefore, it acts as a bridge between the existing monotone and general games.\n  Using this game, we prove hazard-free formula size and depth lower bounds that are provably stronger than those possible by the standard technique of transferring results from monotone comp",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses a new Karchmer-Wigderson game variant for hazard-free formulas and proves formula size/depth lower bounds for specific functions like the multiplexer, but makes no claim about VC/dual-VC dimension of the KW conflict family or the specific inequality d(f) >= ceil(log2(dvc(f)+1)).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1503.07648",
+      "title": "Sign rank versus VC dimension",
+      "abstract_excerpt": "This work studies the maximum possible sign rank of $N \\times N$ sign matrices with a given VC dimension $d$. For $d=1$, this maximum is {three}. For $d=2$, this maximum is $\\tildeΘ(N^{1/2})$. For $d &gt;2$, similar but slightly less accurate statements hold. {The lower bounds improve over previous ones by Ben-David et al., and the upper bounds are novel.}\n  The lower bounds are obtained by probabilistic constructions, using a theorem of Warren in real algebraic topology. The upper bounds are ob",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses sign rank versus VC dimension of sign matrices, with connections to communication complexity, geometry, and learning theory; it does not mention Karchmer-Wigderson conflict families, dual VC dimension of L_f, or de Morgan formula depth bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2402.18250",
+      "title": "String Dimension: VC Dimension for Infinite Shattering",
+      "abstract_excerpt": "In computer science, combinatorics, and model theory, the VC dimension is a central notion underlying far-reaching topics such as error rate for decision rules, combinatorial measurements of classes of finite structures, and neo-stability theory. In all cases, it measures the capacity for a collection of sets $\\mathcal{F}\\subseteq\\mathscr{P}(X)$ to shatter subsets of $X$. The VC dimension of this class then takes values in $\\mathbb{N}\\cup\\{\\infty\\}$. We extend this notion to an infinitary framew",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract extends VC dimension to an 'infinitary framework' generating 'ideals on $2^κ$' with forcing/cardinal characteristics, never touching Karchmer-Wigderson games or de Morgan formula depth. It shares only the VC-dimension vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

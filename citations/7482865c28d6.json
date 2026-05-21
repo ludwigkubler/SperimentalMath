@@ -1,0 +1,40 @@
+{
+  "entry_id": "7482865c28d6",
+  "ts": 1779320397.4895191,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1001.1448",
+      "title": "Algebraic methods for parameterized codes and invariants of vanishing ideals over finite fields",
+      "abstract_excerpt": "Let K be a finite field with q elements and let X be a subset of a projective space P^{s-1}, over the field K, which is parameterized by Laurent monomials. Let I(X) be the vanishing ideal of X. Some of the main contributions of this paper are in determining the structure of I(X) and some of their invariants. It is shown that I(X) is a lattice ideal. We introduce the notion of a parameterized code arising from X and present algebraic methods to compute and study its dimension, length and minimum ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns vanishing ideals, parameterized codes, and minimum distances over finite fields for projective varieties parameterized by Laurent monomials, with no mention of monotone DNF formulas, k-CLIQUE, or clause incidence matrix rank. It shares only the broad 'finite fields' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1711.06392",
+      "title": "Linear combinations of primitive elements of a finite field",
+      "abstract_excerpt": "We examine linear sums of primitive roots and their inverses in finite fields. In particular, we refine a result by Li and Han, and show that every $p&gt; 13$ has a pair of primitive roots $a$ and $b$ such that $a+ b$ and $a^{-1} + b^{-1}$ are also primitive roots mod $p$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns linear sums of primitive roots and their inverses in finite fields ('every p>13 has a pair of primitive roots a and b such that a+b and a^{-1}+b^{-1} are also primitive roots'), which is unrelated to monotone DNF formulas, k-CLIQUE, or row rank of clause incidence matrices.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2004.08001",
+      "title": "Counting solutions of special linear equations over finite fields",
+      "abstract_excerpt": "Let $q$ be a prime power, let $\\mathbb F_q$ be the finite field with $q$ elements and let $d_1, \\ldots, d_k$ be positive integers. In this note we explore the number of solutions $(z_1, \\ldots, z_k)\\in\\overline{\\mathbb F}_q^k$ of the equation \\begin{equation*}L_1(x_1)+\\cdots+L_k(x_k)=b,\\end{equation*} with the restrictions $z_i\\in \\mathbb F_{q^{d_i}}$, where each $L_i(x)$ is a non zero polynomial of the form $\\sum_{j=0}^{m_i}a_{ij}x^{q^j}\\in \\mathbb F_q[x]$ and $b\\in \\overline{\\mathbb F}_q$. We ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns counting solutions to linearized polynomial equations over finite field extensions and sumset cardinalities, with no mention of monotone DNF, k-CLIQUE, or row rank of clause incidence matrices.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

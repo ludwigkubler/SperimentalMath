@@ -1,0 +1,33 @@
+{
+  "ts": 1779334382.2118165,
+  "window_h": 24.0,
+  "n_conjectures": 65,
+  "n_papers": 0,
+  "n_scoops": 0,
+  "scoops": [],
+  "top_overlap": [],
+  "stats": {
+    "n_cycles": 65,
+    "verdicts": {
+      "INCONCLUSIVE": 63,
+      "BARRIER_HIT": 2
+    },
+    "focus_distribution": {
+      "ACC_SIPSER": 3,
+      "BP_READTWICE": 6,
+      "TSEITIN_RES": 5,
+      "GCT_DET_PERM": 7,
+      "SOS_DEGREE": 9,
+      "AC0_PARITY": 2,
+      "MONOTONE_CLIQUE": 5,
+      "COMM_DISJ": 4
+    },
+    "top_fields_A": {
+      "Real Algebraic Geometry": 11,
+      "Representation Theory of Symmetric Groups": 6,
+      "Free Probability": 4,
+      "Noncommutative Harmonic Analysis": 2,
+      "Additive combinatorics": 2
+    }
+  }
+}

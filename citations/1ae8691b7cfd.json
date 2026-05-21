@@ -1,0 +1,40 @@
+{
+  "entry_id": "1ae8691b7cfd",
+  "ts": 1779218258.870157,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/1801.08709v2",
+      "title": "Adaptive Lower Bound for Testing Monotonicity on the Line",
+      "abstract_excerpt": "In the property testing model, the task is to distinguish objects possessing some property from the objects that are far from it. One of such properties is monotonicity, when the objects are functions from one poset to another. This is an active area of research. In this paper we study query complex",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns query complexity of property testing for monotonicity of functions on a poset, which shares only the word 'monotone' with the conjecture about polymatroid spectral gaps of monotone DNFs and k-clique lower bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2403.19550v2",
+      "title": "Spectral gap for surfaces of infinite volume with negative curvature",
+      "abstract_excerpt": "We prove that the imaginary parts of scattering resonances for negatively curved asymptotically hyperbolic surfaces are uniformly bounded away from zero and provide a resolvent bound in the resulting resonance-free strip. This provides an essential spectral gap without the pressure condition. This i",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'scattering resonances for negatively curved asymptotically hyperbolic surfaces' and an 'essential spectral gap' in geometric scattering theory, which shares only the term 'spectral gap' with the conjecture's combinatorial polymatroid/DNF setting.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1806.02734v3",
+      "title": "Spectral lower bounds for the orthogonal and projective ranks of a graph",
+      "abstract_excerpt": "The orthogonal rank of a graph $G=(V,E)$ is the smallest dimension $ξ$ such that there exist non-zero column vectors $x_v\\in\\mathbb{C}^ξ$ for $v\\in V$ satisfying the orthogonality condition $x_v^\\dagger x_w=0$ for all $vw\\in E$. We prove that many spectral lower bounds for the chromatic number, $χ$,",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses spectral lower bounds for orthogonal and projective ranks of graphs in relation to chromatic number, which shares the 'spectral' vocabulary but does not engage with monotone DNF size, Lasserre SOS gaps of term-variable incidence, or k-CLIQUE monotone circuit lower bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

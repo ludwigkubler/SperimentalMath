@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — Wall atlas"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-19 17:34 UTC"
+date: "2026-05-21 08:33 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,7 +13,7 @@ colorlinks: true
 
 # SEC P vs NP — Wall atlas
 
-Compiled 2026-05-19 17:34 UTC. 38 total barrier rejections logged.
+Compiled 2026-05-21 08:33 UTC. 42 total barrier rejections logged.
 
 This is the **map of known walls** encountered by the barrier filter. Each entry below was a proposed conjecture that, according to dual-LLM agreement, would fall to one of the four classical barriers. Patterns in this data tell us where the proposer keeps tripping.
 
@@ -21,8 +21,8 @@ This is the **map of known walls** encountered by the barrier filter. Each entry
 
 | Barrier | Rejections |
 |---------|-----------:|
-| `ALGEBRIZATION` | 15 |
-| `NATURAL_PROOFS` | 13 |
+| `ALGEBRIZATION` | 18 |
+| `NATURAL_PROOFS` | 14 |
 | `RELATIVIZATION` | 7 |
 | `KARP_LIPTON` | 3 |
 
@@ -34,19 +34,15 @@ This is the **map of known walls** encountered by the barrier filter. Each entry
 | Boolean function analysis | 4 | `RELATIVIZATION` |
 | Arithmetic interactive proofs | 4 | `ALGEBRIZATION` |
 | Meta-complexity | 3 | `KARP_LIPTON` |
+| Real Algebraic Geometry | 3 | `ALGEBRIZATION` |
 | {"framework_name": "Tropical Circuit Weight Analysis (TCWA)" | 2 | `ALGEBRIZATION` |
 | Representation Theory of Symmetric Groups | 2 | `ALGEBRIZATION` |
 | Abstract recursion | 1 | `RELATIVIZATION` |
 | Schur-Horn majorization theory (doubly-stochastic / diagonal | 1 | `NATURAL_PROOFS` |
 | Quantile statistics of random subcube restrictions (order-st | 1 | `NATURAL_PROOFS` |
-| Coarse Geometric Karchmer-Wigderson (CG-KW); coarse geometry | 1 | `NATURAL_PROOFS` |
 
 ## Recent rejections (last 15)
 
-- [2026-05-01 07:13 UTC] `ALGEBRIZATION` (conf 0.90) — Tropical Circuit Homotopy Stability under Weight Accumulation
-- [2026-05-01 07:17 UTC] `ALGEBRIZATION` (conf 0.90) — Orbit Closure Dimension vs. Boolean Circuit Size
-- [2026-05-01 17:19 UTC] `ALGEBRIZATION` (conf 0.85) — Moment Matrix Eigenvalue Gap and SOS Degree for Max-CUT
-- [2026-05-07 22:35 UTC] `NATURAL_PROOFS` (conf 0.78) — Leinster Magnitude of Hamming-Embedded Communication Matrices Lower-Bounds R(DIS
 - [2026-05-08 00:42 UTC] `NATURAL_PROOFS` (conf 0.88) — Stern-Brocot Rank of Truth Tables Lifts Average-to-Worst MCSP
 - [2026-05-08 06:17 UTC] `NATURAL_PROOFS` (conf 0.85) — Plunnecke Doubling of Top-Fourier Spectrum Bounds ACC0 Size
 - [2026-05-08 09:57 UTC] `NATURAL_PROOFS` (conf 0.78) — Bivariate Mahler Measure of Sign Polynomial Lower-Bounds R(DISJ)
@@ -58,3 +54,7 @@ This is the **map of known walls** encountered by the barrier filter. Each entry
 - [2026-05-17 10:38 UTC] `ALGEBRIZATION` (conf 0.78) — Cubic-Form Lie-Stabilizer Codim Lower-Bounds DISJ Communication
 - [2026-05-19 09:09 UTC] `ALGEBRIZATION` (conf 0.85) — SOS Moment Matrix Eigenvalue Decay and Approximation Ratio Trade-off
 - [2026-05-19 15:42 UTC] `ALGEBRIZATION` (conf 0.95) — Schur-Weyl Component Count Separation in 3-CNF Incidence Tensors
+- [2026-05-19 22:20 UTC] `NATURAL_PROOFS` (conf 0.78) — Restriction-Stable Fourier Tail Mass Excludes ACC0[2] Functions
+- [2026-05-20 02:21 UTC] `ALGEBRIZATION` (conf 0.95) — Resultant Degree Threshold for ACC^0 Circuit Size in 3-CNF
+- [2026-05-20 20:18 UTC] `ALGEBRIZATION` (conf 0.95) — Moment Matrix Rank Lower Bound for SOS Max-CUT
+- [2026-05-20 21:57 UTC] `ALGEBRIZATION` (conf 0.95) — SOS Degree Lower Bound via Moment Matrix Spectral Gap for Max-CUT
