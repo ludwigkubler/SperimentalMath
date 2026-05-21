@@ -1,0 +1,40 @@
+{
+  "entry_id": "065246f51ff9",
+  "ts": 1779384468.2664764,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/2103.09609v1",
+      "title": "Characterizing Tseitin-formulas with short regular resolution refutations",
+      "abstract_excerpt": "Tseitin-formulas are systems of parity constraints whose structure is described by a graph. These formulas have been studied extensively in proof complexity as hard instances in many proof systems. In this paper, we prove that a class of unsatisfiable Tseitin-formulas of bounded degree has regular r",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract characterizes short regular resolution refutations of Tseitin formulas via graph structure (bounded degree), with no mention of tropical geometry, tropical coordinates, or root separation bounds like 2^(min(t_i-t_j)).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2402.00542v1",
+      "title": "Hardness of Random Reordered Encodings of Parity for Resolution and CDCL",
+      "abstract_excerpt": "Parity reasoning is challenging for Conflict-Driven Clause Learning (CDCL) SAT solvers. This has been observed even for simple formulas encoding two contradictory parity constraints with different variable orders (Chew and Heule 2020). We provide an analytical explanation for their hardness by showi",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns hardness of parity encodings for resolution/CDCL via random reorderings, with no mention of tropical geometry, tropical coordinates, or root separation bounds, so it does not interact with the specific tropical-resolution claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2006.04124v1",
+      "title": "On the Complexity of Branching Proofs",
+      "abstract_excerpt": "We consider the task of proving integer infeasibility of a bounded convex $K$ in $\\mathbb{R}^n$ using a general branching proof system. In a general branching proof, one constructs a branching tree by adding an integer disjunction $\\mathbf{a} \\mathbf{x} \\leq b$ or $\\mathbf{a} \\mathbf{x} \\geq b+1$, $",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses branching proofs for integer infeasibility of convex bodies, not resolution proof length for Tseitin formulas nor tropical curve root separation. It shares the broad theme of proof complexity but does not interact with the specific conjecture's claims.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

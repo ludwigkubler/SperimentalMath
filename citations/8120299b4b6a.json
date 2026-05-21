@@ -1,0 +1,40 @@
+{
+  "entry_id": "8120299b4b6a",
+  "ts": 1779382040.099604,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0709.1296",
+      "title": "Twisted Symmetric Group Actions",
+      "abstract_excerpt": "We will show the raitonality of some twisted symmetric group actions.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract only mentions 'rationality of some twisted symmetric group actions,' which shares the vocabulary of symmetric group actions but does not address Coxeter-Dynkin diagrams, boolean functions, or polynomial bounds related to monotonicity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2001.07613",
+      "title": "Cut-Based Graph Learning Networks to Discover Compositional Structure of Sequential Video Data",
+      "abstract_excerpt": "Conventional sequential learning methods such as Recurrent Neural Networks (RNNs) focus on interactions between consecutive inputs, i.e. first-order Markovian dependency. However, most of sequential data, as seen with videos, have complex dependency structures that imply variable-length semantic flows and their compositions, and those are hard to be captured by conventional methods. Here, we propose Cut-Based Graph Learning Networks (CB-GLNs) for learning video data by discovering these complex ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes 'Cut-Based Graph Learning Networks' for video understanding via graph-cut and message passing, with no mention of Coxeter-Dynkin diagrams, boolean functions, monotonicity, or symmetry classes.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2403.10838",
+      "title": "Two-step Automated Cybercrime Coded Word Detection using Multi-level Representation Learning",
+      "abstract_excerpt": "In social network service platforms, crime suspects are likely to use cybercrime coded words for communication by adding criminal meanings to existing words or replacing them with similar words. For instance, the word 'ice' is often used to mean methamphetamine in drug crimes. To analyze the nature of cybercrime and the behavior of criminals, quickly detecting such words and further understanding their meaning are critical. In the automated cybercrime coded word detection problem, it is difficul",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract is about detecting cybercrime coded words using AutoEncoder models and language representations, with no mention of Coxeter-Dynkin diagrams, boolean functions, or symmetry classes.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

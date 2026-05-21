@@ -1,0 +1,22 @@
+{
+  "entry_id": "3f194adec2d6",
+  "ts": 1779384935.9969263,
+  "hits_evaluated": 1,
+  "verdicts": [
+    {
+      "paper_id": "s2:1608.04355",
+      "title": "Polynomial Representations of Threshold Functions and Algorithmic Applications",
+      "abstract_excerpt": "We design new polynomials for representing threshold functions in three different regimes: probabilistic polynomials of low degree, which need far less randomness than previous constructions, polynomial threshold functions (PTFs) with \"nice\" threshold behavior and degree almost as low as the probabi",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses polynomial representations of threshold functions (probabilistic polynomials and PTFs) for algorithmic applications, with no mention of tropical representation theory, tensor products of representations, or AC0 parity circuits in the sense of the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 0
+  }
+}

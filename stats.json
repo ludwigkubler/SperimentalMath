@@ -1,13 +1,13 @@
 {
-  "last_update_utc": "2026-05-21T16:47:02Z",
-  "total_cycles": 1096,
+  "last_update_utc": "2026-05-21T17:47:02Z",
+  "total_cycles": 1108,
   "verdict_counts": {
-    "INCONCLUSIVE": 1013,
+    "INCONCLUSIVE": 1023,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 63
+    "BARRIER_HIT": 65
   },
-  "unique_field_A": 649,
+  "unique_field_A": 650,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
@@ -26,16 +26,16 @@
       24
     ],
     [
+      "Free Probability Theory",
+      24
+    ],
+    [
       "Representation Theory of Symmetric Groups",
       24
     ],
     [
-      "Free Probability Theory",
-      23
-    ],
-    [
       "Additive Combinatorics",
-      15
+      16
     ],
     [
       "Noncommutative L^p Geometry",
@@ -66,8 +66,8 @@
       9
     ],
     [
-      "Algebraic Topology",
-      8
+      "Hypergeometric Functions",
+      9
     ]
   ]
 }

@@ -1,0 +1,40 @@
+{
+  "entry_id": "4b6a0dbb0f4e",
+  "ts": 1779382954.9229987,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/alg-geom/9612009v1",
+      "title": "The elliptic Gromov-Witten invariants of CP^3",
+      "abstract_excerpt": "We present two explicit recursions which determine the elliptic Gromov-Witten invariants of CP^3 in terms of the rational ones, and give a table up to degree 5. Unlike the rational Gromov-Witten invariants, the coefficients are negative and fractional.\n  In a further paper, we will prove that\n  N^1_",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns explicit recursions for elliptic Gromov-Witten invariants of CP^3 in terms of rational ones, with no mention of tropical curves, minimal local GW invariants, ACC⁰ circuits, or any complexity-theoretic connection.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2112.09180",
+      "title": "A new approach to the operator formalism for Gromov-Witten invariants of the cap and tube",
+      "abstract_excerpt": "Based on Johnson's operator formula for the equivariant Gromov-Witten theory of $\\mathbb{P}^1$-orbifolds, we give a new approach to the operator formalism by Okounkov and Pandharipande regarding the $\\mathbb{C}^*$-equivariant Gromov-Witten theory of $\\mathbb{P}^1$ relative to one or two points. We also extend their operator formalism in the non-equivariant specialization to the case where we allow negative contact orders.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns operator formalism for equivariant Gromov-Witten theory of P^1 relative to points, with no mention of tropical curves, circuit complexity, ACC⁰, or Boolean functions referenced in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1503.00460",
+      "title": "Quantum Reidemeister torsion, open Gromov-Witten invariants and a spectral sequence of Oh",
+      "abstract_excerpt": "We adapt classical Reidemeister torsion to monotone Lagrangian submanifolds using the pearl complex of Biran and Cornea. The definition involves generic choices of data and we identify a class of Lagrangians for which this torsion is invariant and can be computed in terms of genus zero open Gromov-Witten invariants. This class is defined by a vanishing property of a spectral sequence of Oh in Lagrangian Floer theory.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Reidemeister torsion of monotone Lagrangian submanifolds computed via genus zero open Gromov-Witten invariants, with no mention of tropical curves, ACC⁰ circuits, or Boolean complexity. It shares only the 'Gromov-Witten' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
