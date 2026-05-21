@@ -1,0 +1,40 @@
+{
+  "entry_id": "ec4e5d80da11",
+  "ts": 1779369457.694313,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1305.4696",
+      "title": "Tight Bounds for Set Disjointness in the Message Passing Model",
+      "abstract_excerpt": "In a multiparty message-passing model of communication, there are $k$ players. Each player has a private input, and they communicate by sending messages to one another over private channels. While this model has been used extensively in distributed computing and in multiparty computation, lower bounds on communication complexity in this model and related models have been somewhat scarce. In recent work \\cite{phillips12,woodruff12,woodruff13}, strong lower bounds of the form $Ω(n \\cdot k)$ were o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "```json\n{\n  \"verdict\": \"ORTHOGONAL\",\n  \"reasoning\": \"The abstract discusses lower bounds for the Set Disjointness problem in a message-passing model, but does not mention hypergeometric functions or t",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1807.06256",
+      "title": "Classical lower bounds from quantum upper bounds",
+      "abstract_excerpt": "We prove lower bounds on complexity measures, such as the approximate degree of a Boolean function and the approximate rank of a Boolean matrix, using quantum arguments. We prove these lower bounds using a quantum query algorithm for the combinatorial group testing problem.\n  We show that for any function f, the approximate degree of computing the OR of n copies of f is Omega(sqrt{n}) times the approximate degree of f, which is optimal. No such general result was known prior to our work, and eve",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses lower bounds on complexity measures and communication complexity, but does not mention hypergeometric functions or their moments, which are central to the conjecture, driven by phrases such as 'approximate degree of a Boolean function' and 'quantum query algorithm'.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:0902.1605",
+      "title": "Lower Bounds for Multi-Pass Processing of Multiple Data Streams",
+      "abstract_excerpt": "This paper gives a brief overview of computation models for data stream processing, and it introduces a new model for multi-pass processing of multiple streams, the so-called mp2s-automata. Two algorithms for solving the set disjointness problem wi th these automata are presented. The main technical contribution of this paper is the proof of a lower bound on the size of memory and the number of heads that are required for solvin g the set disjointness problem with mp2s-automata.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "```json\n{\n  \"verdict\": \"ORTHOGONAL\",\n  ",
+      "judge_provider": "google"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}

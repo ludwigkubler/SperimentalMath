@@ -1,0 +1,40 @@
+{
+  "entry_id": "3343232dbb80",
+  "ts": 1779367776.0654202,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1608.06580",
+      "title": "Communication complexity of approximate Nash equilibria",
+      "abstract_excerpt": "For a constant $ε$, we prove a poly(N) lower bound on the (randomized) communication complexity of $ε$-Nash equilibrium in two-player NxN games. For n-player binary-action games we prove an exp(n) lower bound for the (randomized) communication complexity of $(ε,ε)$-weak approximate Nash equilibrium, which is a profile of mixed actions such that at least $(1-ε)$-fraction of the players are $ε$-best replying.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses communication complexity of approximate Nash equilibria in games, which shares vocabulary with the conjecture, but does not interact with the specific claim about free probability entanglement invariants and the Disjointness problem.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2401.14623",
+      "title": "Structure in Communication Complexity and Constant-Cost Complexity Classes",
+      "abstract_excerpt": "Several theorems and conjectures in communication complexity state or speculate that the complexity of a matrix in a given communication model is controlled by a related analytic or algebraic matrix parameter, e.g., rank, sign-rank, discrepancy, etc. The forward direction is typically easy as the structural implications of small complexity often imply a bound on some matrix parameter. The challenge lies in establishing the reverse direction, which requires understanding the structure of Boolean ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "```json\n{\n  \"verdict\": \"ORTHOGONAL\",\n  ",
+      "judge_provider": "google"
+    },
+    {
+      "paper_id": "arxiv:2504.04416",
+      "title": "Meta-Mathematics of Computational Complexity Theory",
+      "abstract_excerpt": "We survey results on the formalization and independence of mathematical statements related to major open problems in computational complexity theory. Our primary focus is on recent findings concerning the (un)provability of complexity bounds within theories of bounded arithmetic. This includes the techniques employed and related open problems, such as the (non)existence of a feasible proof that P = NP.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "```json\n{\n  \"verdict\": \"ORTHOGONAL\",\n  \"",
+      "judge_provider": "google"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}
