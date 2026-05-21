@@ -1,0 +1,40 @@
+{
+  "entry_id": "df42659b5885",
+  "ts": 1779366140.572912,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1007.4036",
+      "title": "Symplectic reduction of quasi-morphisms and quasi-states",
+      "abstract_excerpt": "We prove that quasi-morphisms and quasi-states on a closed integral symplectic manifold descend under symplectic reduction to symplectic hyperplane sections. Along the way we show that quasi-morphisms that arise from spectral invariants are the Calabi homomorphism when restricted to Hamiltonians supported on stably displaceable sets.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses symplectic reduction of quasi-morphisms and quasi-states, but does not mention spectral gap of symplectic orthogonal matrices or monotone DNF formulas for k-CLIQUE, which are the key concepts in the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0405064v2",
+      "title": "Construction of spectral invariants of Hamiltonian paths on closed symplectic manifolds",
+      "abstract_excerpt": "In this paper, we develop a mini-max theory of the action functional over the semi-infinite cycles via the chain level Floer homology theory and construct spectral invariants of Hamiltonian diffeomorphisms on arbitrary, especially on {\\it non-exact and non-rational}, compact symplectic manifold $(M,",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "```json\n{\n  \"verdict\": \"ORTHOGONAL\",\n  \"reasoning\": \"The abstract discusses spectral invariants of Hamiltonian diffeomorphisms on symplectic manifolds, which shares vocabulary with the conjecture, but",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1505.07430",
+      "title": "Spectral invariants for monotone Lagrangians",
+      "abstract_excerpt": "Since spectral invariants were introduced in cotangent bundles via generating functions by Viterbo in the seminal paper \"Symplectic topology as the geometry of generating functions,\" they have been defined in various contexts, mainly via Floer homology theories, and then used in a great variety of applications.\n  In this paper we extend their definition to monotone Lagrangians, which is so far the most general case for which a \"classical\" Floer theory has been developed.\n  Then, we gather and pr",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "```json\n{\n  \"verdict\": \"ORTHOGONAL\",\n  ",
+      "judge_provider": "google"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}

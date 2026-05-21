@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — Wall atlas"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-21 11:40 UTC"
+date: "2026-05-21 12:07 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,7 +13,7 @@ colorlinks: true
 
 # SEC P vs NP — Wall atlas
 
-Compiled 2026-05-21 11:40 UTC. 42 total barrier rejections logged.
+Compiled 2026-05-21 12:07 UTC. 43 total barrier rejections logged.
 
 This is the **map of known walls** encountered by the barrier filter. Each entry below was a proposed conjecture that, according to dual-LLM agreement, would fall to one of the four classical barriers. Patterns in this data tell us where the proposer keeps tripping.
 
@@ -23,7 +23,7 @@ This is the **map of known walls** encountered by the barrier filter. Each entry
 |---------|-----------:|
 | `ALGEBRIZATION` | 18 |
 | `NATURAL_PROOFS` | 14 |
-| `RELATIVIZATION` | 7 |
+| `RELATIVIZATION` | 8 |
 | `KARP_LIPTON` | 3 |
 
 ## Rejections by field_A (top 10)
@@ -43,7 +43,6 @@ This is the **map of known walls** encountered by the barrier filter. Each entry
 
 ## Recent rejections (last 15)
 
-- [2026-05-08 00:42 UTC] `NATURAL_PROOFS` (conf 0.88) — Stern-Brocot Rank of Truth Tables Lifts Average-to-Worst MCSP
 - [2026-05-08 06:17 UTC] `NATURAL_PROOFS` (conf 0.85) — Plunnecke Doubling of Top-Fourier Spectrum Bounds ACC0 Size
 - [2026-05-08 09:57 UTC] `NATURAL_PROOFS` (conf 0.78) — Bivariate Mahler Measure of Sign Polynomial Lower-Bounds R(DISJ)
 - [2026-05-08 11:12 UTC] `NATURAL_PROOFS` (conf 0.78) — Lasserre Moment-Rank Gap of Accept Set Bounds AC0 PARITY Size
@@ -58,3 +57,4 @@ This is the **map of known walls** encountered by the barrier filter. Each entry
 - [2026-05-20 02:21 UTC] `ALGEBRIZATION` (conf 0.95) — Resultant Degree Threshold for ACC^0 Circuit Size in 3-CNF
 - [2026-05-20 20:18 UTC] `ALGEBRIZATION` (conf 0.95) — Moment Matrix Rank Lower Bound for SOS Max-CUT
 - [2026-05-20 21:57 UTC] `ALGEBRIZATION` (conf 0.95) — SOS Degree Lower Bound via Moment Matrix Spectral Gap for Max-CUT
+- [2026-05-21 12:07 UTC] `RELATIVIZATION` (conf 0.90) — A_5 Barrington-Hash Equidistribution Gap for DISJ

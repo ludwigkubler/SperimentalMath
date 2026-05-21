@@ -1,0 +1,40 @@
+{
+  "entry_id": "90dea97bbe27",
+  "ts": 1779364460.528202,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2105.00244",
+      "title": "l1-Norm Minimization with Regula Falsi Type Root Finding Methods",
+      "abstract_excerpt": "Sparse level-set formulations allow practitioners to find the minimum 1-norm solution subject to likelihood constraints. Prior art requires this constraint to be convex. In this letter, we develop an efficient approach for nonconvex likelihoods, using Regula Falsi root-finding techniques to solve the level-set formulation. Regula Falsi methods are simple, derivative-free, and efficient, and the approach provably extends level-set methods to the broader class of nonconvex inverse problems. Practi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Regula Falsi root-finding for nonconvex l1-norm minimization in sparse inverse problems ('Sparse level-set formulations... using Regula Falsi root-finding techniques'), which has no connection to Fourier l1 norms of Boolean functions or read-twice branching program lower bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0904.1710",
+      "title": "Comparison of matrix norms on bipartite spaces",
+      "abstract_excerpt": "Two non-commutative versions of the classical L^q(L^p) norm on the algebra of (mn)x(mn) matrices are compared. The first norm was defined recently by Carlen and Lieb, as a byproduct of their analysis of certain convex functions on matrix spaces. The second norm was defined by Pisier and others using results from the theory of operator spaces. It is shown that the second norm is upper bounded by a constant multiple of the first for all 1 &lt;= p &lt;= 2, q &gt;= 1. In one case (2 = p &lt; q) it i",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns comparing non-commutative L^q(L^p) matrix norms on bipartite spaces (Carlen-Lieb vs. Pisier operator-space norms), which has no interaction with Fourier ℓ¹ norms of Boolean functions or branching program size bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2603.18511",
+      "title": "Norm-trace and Kloosterman sums in finite semi-simple algebras",
+      "abstract_excerpt": "An asymptotic formula with a square root error term is obtained for the number of elements with given trace and norm in a finite semisimple algebra over a finite field. This extends previous results from finite etale algebras (commutative case) to finite semi-simple algebras (non-commutative case). The main idea is to apply the Eichler formula for Gauss sums over the general linear group and the Hasse-Davenport relation to reduce the problem to the classical geometric case where the result is kn",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns asymptotic counting of elements with given trace and norm in finite semisimple algebras and Kloosterman sum estimates, sharing no vocabulary or methodology with Fourier ℓ¹ norms of read-twice branching programs.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

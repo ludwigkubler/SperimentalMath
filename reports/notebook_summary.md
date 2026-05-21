@@ -1,7 +1,7 @@
 ---
 title: "SEC P vs NP — notebook summary"
 author: "SEC (autonomous) — attributed to Ludovico Kubler"
-date: "2026-05-21 11:40 UTC"
+date: "2026-05-21 12:07 UTC"
 mainfont: "DejaVu Serif"
 monofont: "DejaVu Sans Mono"
 sansfont: "DejaVu Sans"
@@ -13,18 +13,18 @@ colorlinks: true
 
 # SEC P vs NP — notebook summary
 
-Generated 2026-05-21 11:40 UTC
+Generated 2026-05-21 12:07 UTC
 
-- Cycles recorded: **1017**
-- Time span: 662.0h (~1.54 cycles/h)
+- Cycles recorded: **1020**
+- Time span: 662.4h (~1.54 cycles/h)
 - Notebook: `/home/ludo/Scrivania/SEC/research/pvsnp_notebook.jsonl`
 
 ## Verdict distribution
 
 | Verdict | Count |
 |---|---|
-| INCONCLUSIVE | 971 |
-| BARRIER_HIT | 26 |
+| INCONCLUSIVE | 973 |
+| BARRIER_HIT | 27 |
 | FALSIFIED | 16 |
 | SUPPORTED | 4 |
 
@@ -67,9 +67,6 @@ Generated 2026-05-21 11:40 UTC
 
 | Time | Verdict | Title |
 |---|---|---|
-| 2026-05-21 09:38 UTC | `INCONCLUSIVE` | Specht Block Spread of Perm Exceeds Det Under Random Linear Lift |
-| 2026-05-21 09:45 UTC | `INCONCLUSIVE` | Specht Character Support Bounds Monotone Permanental Formula Size |
-| 2026-05-21 09:52 UTC | `INCONCLUSIVE` | Möbius Mass of Rectangle Poset Lower-Bounds D^cc |
 | 2026-05-21 09:59 UTC | `INCONCLUSIVE` | Discrete Morse Number of Rejection Complex Bounds ACC^0[m] Size |
 | 2026-05-21 10:06 UTC | `INCONCLUSIVE` | Trace-Norm Capacity Conjecture for Read-Twice BP Communication Ma |
 | 2026-05-21 10:14 UTC | `INCONCLUSIVE` | Slice-Fourier Variance Asymmetry of Perm vs Monotone Det Substitu |
@@ -82,6 +79,9 @@ Generated 2026-05-21 11:40 UTC
 | 2026-05-21 11:23 UTC | `INCONCLUSIVE` | Cyclic Fourier Spread of Term-Vertex Incidence in Monotone k-CLIQ |
 | 2026-05-21 11:29 UTC | `INCONCLUSIVE` | Coboundary Spectral Gap Lower-Bounds DPLL Tree Size on Tseitin |
 | 2026-05-21 11:40 UTC | `INCONCLUSIVE` | Heilmann-Lieb Matching Root Gap Bounds Monotone k-CLIQUE DNF Size |
+| 2026-05-21 11:54 UTC | `INCONCLUSIVE` | Fourier L1 Norm Cubed-Polynomial Bound for Read-Twice BPs |
+| 2026-05-21 12:01 UTC | `INCONCLUSIVE` | Apolar Catalecticant Defect Bounds DISJ Randomized Communication |
+| 2026-05-21 12:07 UTC | `BARRIER_HIT` | A_5 Barrington-Hash Equidistribution Gap for DISJ |
 
 ## How to read the reports
 
