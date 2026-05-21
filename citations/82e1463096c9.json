@@ -1,0 +1,40 @@
+{
+  "entry_id": "82e1463096c9",
+  "ts": 1779391066.3914902,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2210.01601",
+      "title": "Quantum communication complexity of linear regression",
+      "abstract_excerpt": "Quantum computers may achieve speedups over their classical counterparts for solving linear algebra problems. However, in some cases -- such as for low-rank matrices -- dequantized algorithms demonstrate that there cannot be an exponential quantum speedup. In this work, we show that quantum computers have provable polynomial and exponential speedups in terms of communication complexity for some fundamental linear algebra problems \\update{if there is no restriction on the rank}. We mainly focus o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quantum vs classical communication complexity for linear regression and Hamiltonian simulation, with no mention of polyhedral sections, hyperplane geometric invariants, or the specific Ω(n log n) / O(log^2 n) bounds in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1709.04262",
+      "title": "Lower Bounds for Approximating Graph Parameters via Communication Complexity",
+      "abstract_excerpt": "In a celebrated work, Blais, Brody, and Matulef developed a technique for proving property testing lower bounds via reductions from communication complexity. Their work focused on testing properties of functions, and yielded new lower bounds as well as simplified analyses of known lower bounds. Here, we take a further step in generalizing the methodology of Blais et al. to analyze the query complexity of graph parameter estimation problems. In particular, our technique decouples the lower bound ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns reductions from communication complexity to graph parameter estimation lower bounds, with no mention of polyhedra, hyperplane sections, or geometric invariants. It shares the 'communication complexity' vocabulary but does not address the specific geometric claim in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1007.1841",
+      "title": "Communication Complexity",
+      "abstract_excerpt": "The first section starts with the basic definitions following mainly the notations of the book written by E. Kushilevitz and N. Nisan. At the end of the first section I examine tree-balancing.\n  In the second section I summarize the well-known lower bound methods and prove the exact complexity of certain functions.\n  In the first part of the third section I introduce the random complexity and prove the basic lemmas about it. In the second part I prove a better lower bound for the complexity of a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a general survey of communication complexity (definitions, lower bound methods, direct-sum conjecture, hierarchy classes) with no mention of polyhedral sections, geometric invariants, or the specific Ω(n log n)/O(log^2 n) bounds in the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

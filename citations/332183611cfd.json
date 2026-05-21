@@ -1,0 +1,40 @@
+{
+  "entry_id": "332183611cfd",
+  "ts": 1779392656.0916097,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2601.06868",
+      "title": "Complex Analysis and Riemann Surfaces: A Graduate Path to Algebraic Geometry",
+      "abstract_excerpt": "These lecture notes present a computation driven pathway from classical complex analysis to the theory of compact Riemann surfaces and their connections to algebraic geometry. The exposition follows a compute first then abstract philosophy, in which analytic and geometric structures are introduced through explicit calculations and local models before being organized into conceptual frameworks.\n  The notes begin with the foundations of complex analysis, including holomorphic functions, Cauchy the",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes graduate lecture notes on classical complex analysis, compact Riemann surfaces, Hodge theory, and Riemann-Roch — it makes no mention of geometric entropy, communication complexity, or disjointness, so it shares vocabulary (Riemann surfaces) but does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2506.08160",
+      "title": "Scattering theory on Riemann surfaces I: Schiffer operators, cohomology, and index theorems",
+      "abstract_excerpt": "We consider a compact Riemann surface $\\mathscr{R}$ with a complex of non-intersecting Jordan curves, whose complement is a pair of Riemann surfaces with boundary, each of which may be possibly disconnected. We investigate conformally invariant integral operators of Schiffer, which act on $L^{2}$ anti-holomorphic one-forms on one of these surfaces with boundary and produce holomorphic one-forms on the disjoint union. These operators arise in potential theory, boundary value problems, approximati",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Schiffer/Cauchy operators, cohomology, and index theorems on Riemann surfaces with Jordan curves — it makes no mention of geometric entropy, communication complexity, or disjointness, despite sharing the 'Riemann surface' vocabulary.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2311.04463",
+      "title": "Bases for Riemann--Roch spaces of linearized function fields with applications to generalized algebraic geometry codes",
+      "abstract_excerpt": "In this paper, we determine explicit bases for Riemann--Roch spaces of linearized function fields, and we give a lower bound for the minimum distance of generalized algebraic geometry codes. As a consequence, we construct generalized algebraic geometry codes with good parameters.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'explicit bases for Riemann-Roch spaces of linearized function fields' and 'generalized algebraic geometry codes,' with no mention of geometric entropy, genus bounds, or communication complexity/disjointness.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
