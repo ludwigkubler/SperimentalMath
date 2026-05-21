@@ -1775,3 +1775,4 @@
 {"ts": 1779355802.4567559, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1715, "cap": 2000, "fraction": 0.858, "weekly_budget": 2500}}
 {"ts": 1779358567.201967, "ts_iso": "2026-05-21T10:16:07.201967+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "DEGRADED", "to_status": "CRITICAL", "failing_checks": ["explorer_process"], "auto_fixed": false}
 {"ts": 1779358801.469288, "ts_iso": "2026-05-21T10:20:01.469288+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "CRITICAL", "to_status": "OK", "failing_checks": [], "auto_fixed": false}
+{"ts": 1779359411.622486, "ts_iso": "2026-05-21T10:30:11.622486+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "OK", "to_status": "DEGRADED", "failing_checks": ["gpu", "ram_above_1g", "mirror_git_fresh", "mirror_git_pushed"], "auto_fixed": false}
