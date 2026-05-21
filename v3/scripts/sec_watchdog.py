@@ -99,12 +99,44 @@ def check_explorer_process():
         return False, f"proc scan failed: {e}"
     if len(pids) == 0:
         return False, "no explorer process"
-    if len(pids) > 1:
-        return True, (
-            f"{len(pids)} pids (DUPLICATE — fix_kill_duplicates "
-            f"may auto-clean): {','.join(pids)}"
-        )
-    return True, f"pid {pids[0]}"
+    # Note: duplicate detection is now a separate check
+    # (check_explorer_singleton, DEGRADED severity) — see below.
+    return True, f"pid {pids[0]}" if len(pids) == 1 else f"pids {','.join(pids)}"
+
+
+def check_explorer_singleton():
+    """Verify exactly ONE explorer process is running. More than one =
+    DEGRADED (waste of GPU + race conditions on shared files). Caught
+    2026-05-21: the wrapper inherited fd 9 to the explorer process,
+    leaking the flock and preventing dedup-kill on future ticks."""
+    needle_mod = "src.research.pvsnp_explorer"
+    pids = []
+    try:
+        for entry in Path("/proc").iterdir():
+            if not entry.name.isdigit():
+                continue
+            try:
+                raw = (entry / "cmdline").read_bytes()
+            except (FileNotFoundError, PermissionError):
+                continue
+            argv = raw.split(b"\x00")
+            if len(argv) < 3:
+                continue
+            try:
+                argv0 = argv[0].decode("utf-8", "replace")
+            except Exception:
+                continue
+            argv0_base = argv0.rsplit("/", 1)[-1]
+            if argv0_base not in {"python", "python3", "python3.12"}:
+                continue
+            joined = b" ".join(argv).decode("utf-8", "replace")
+            if needle_mod in joined and "--loop" in joined:
+                pids.append(entry.name)
+    except Exception as e:
+        return False, f"proc scan failed: {e}"
+    if len(pids) <= 1:
+        return True, f"{len(pids)} explorer process(es)"
+    return False, f"DUPLICATE: {len(pids)} explorer processes ({','.join(pids)})"
 
 
 def check_explorer_cycle_fresh(max_age_h=2.0):
@@ -340,6 +372,7 @@ def check_watchdog_self_heartbeat(max_age_min: int = 10):
 CHECKS = [
     # (name, fn, severity_if_fails)
     ("explorer_process",       check_explorer_process,           "CRITICAL"),
+    ("explorer_singleton",     check_explorer_singleton,         "DEGRADED"),
     ("explorer_cycle_fresh",   check_explorer_cycle_fresh,       "DEGRADED"),
     ("sec_entity_service",     check_sec_entity_service,         "CRITICAL"),
     ("cron_service",           check_cron_service,               "CRITICAL"),

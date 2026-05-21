@@ -16,7 +16,11 @@
 #  4. Post-spawn: kills any duplicate explorer it finds (older PID kept,
 #     others terminated). Belt-and-suspenders to the flock.
 #
-# Sentinel: sec_explorer_respawn_wrapper_v2 — 2026-05-19
+# Sentinel: sec_explorer_respawn_wrapper_v3 — 2026-05-21
+#   v3 fix: close fd 9 in child (9<&-) to prevent flock inheritance leak.
+#   Previously the explorer process inherited fd 9 from the wrapper,
+#   holding the flock for its entire lifetime (hours/days), which made
+#   subsequent wrapper invocations fail flock and skip dedup-kill.
 
 set -u
 
@@ -90,8 +94,12 @@ if [ -f .env ]; then
     set +a
 fi
 
+# IMPORTANT: close fd 9 in the child process. Otherwise the explorer
+# inherits the flock and holds it for its entire lifetime (hours/days),
+# blocking subsequent wrapper invocations forever. Bug observed
+# 2026-05-21 — fixed by `9<&-` redirect that closes fd 9 in the child.
 nohup .venv/bin/python -m src.research.pvsnp_explorer --loop --interval 60 \
-    >> "$LOG" 2>&1 &
+    9<&- >> "$LOG" 2>&1 &
 spawned_pid=$!
 echo "[$(date -u '+%Y-%m-%d %H:%M:%S UTC')] spawned explorer PID $spawned_pid" >> "$LOG"
 exit 0
