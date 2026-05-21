@@ -1,0 +1,40 @@
+{
+  "entry_id": "40c3367facbb",
+  "ts": 1779396880.2753382,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/2312.00421v1",
+      "title": "A Semi-Tensor Product based Circuit Simulation for SAT-sweeping",
+      "abstract_excerpt": "In recent years, circuit simulators and Boolean satisfiability (SAT) solvers have been tightly integrated to provide efficient logic synthesis and verification. Circuit simulation can generate highly expressive simulation patterns that can either enumerate or filter out most candidates for synthesis",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a SAT-sweeping circuit simulator using semi-tensor products for logic synthesis/verification, which shares only superficial vocabulary ('tensor', 'circuit') with the conjecture about representation rank of S_3 tensor powers and monotone circuit lower bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2601.13117v2",
+      "title": "The Case for Cardinality Lower Bounds",
+      "abstract_excerpt": "Despite decades of research, cardinality estimation remains the optimizer's Achilles heel, with industrial-strength systems exhibiting a systemic tendency toward underestimation. At cloud scale, this is a severe production vulnerability: in Microsoft's Fabric Data Warehouse (DW), a mere 0.05% of ext",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns cardinality estimation in database query optimizers ('cardinality estimation remains the optimizer's Achilles heel'), which has no interaction with representation rank of symmetric group tensor powers or monotone circuit lower bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1302.3308v1",
+      "title": "Arithmetic Circuit Lower Bounds via MaxRank",
+      "abstract_excerpt": "We introduce the polynomial coefficient matrix and identify maximum rank of this matrix under variable substitution as a complexity measure for multivariate polynomials. We use our techniques to prove super-polynomial lower bounds against several classes of non-multilinear arithmetic circuits. In pa",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a MaxRank-based complexity measure for arithmetic (non-multilinear) circuit lower bounds, not monotone circuit complexity or the representation rank of S_3 tensor powers. It shares the general 'rank as complexity measure' vocabulary but does not address the specific claim linking ρ(T_n) to det_m or k-clique reductions.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

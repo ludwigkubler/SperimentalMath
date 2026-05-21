@@ -1,0 +1,40 @@
+{
+  "entry_id": "789449612a98",
+  "ts": 1779398397.8366973,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2004.03861",
+      "title": "Harry Kesten's work in probability theory",
+      "abstract_excerpt": "We survey the published work of Harry Kesten in probability theory, with emphasis on his contributions to random walks, branching processes, percolation, and related topics. A complete bibliography is included of his publications.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a survey of Harry Kesten's work on 'random walks, branching processes, percolation, and related topics' in probability theory, which shares no specific interaction with noncommutative tensor product rank or read-twice branching programs.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1204.6522",
+      "title": "Formal Groups, Witt vectors and Free Probability",
+      "abstract_excerpt": "We establish a link between free probability theory and Witt vectors, via the theory of formal groups. We derive an exponential isomorphism which expresses Voiculescu's free multiplicative convolution $\\boxtimes$ as a function of the free additive convolution $\\boxplus$. Subsequently we continue our previous discussion of the relation between complex cobordism and free probability. We show that the generic $n$th free cumulant corresponds to the cobordism class of the $(n-1)$-dimensional complex ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses free probability via Witt vectors, formal groups, and complex cobordism, with no mention of branching programs, tensor product rank, or computational complexity bounds relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2511.02758",
+      "title": "Finite free probability and $S$ transforms of Jacobi processes",
+      "abstract_excerpt": "In this paper, we study the $S$ transforms of Jacobi processes in the frameworks of free and finite free probability theories. We begin by deriving a partial differential equation satisfied by the free $S$ transform of the free Jacobi process, and we provide a detailed analysis of its characteristic curves. We turn next our attention to the averaged characteristic polynomial of the Hermitian Jacobi process and to the dynamic of its roots, referred to as the \\emph{frozen Jacobi process}. In parti",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract focuses on S-transforms of Jacobi processes in free and finite free probability, with no mention of branching programs, tensor product rank, or computational complexity bounds relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
