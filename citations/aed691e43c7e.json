@@ -1,0 +1,40 @@
+{
+  "entry_id": "aed691e43c7e",
+  "ts": 1779420195.653363,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0603539v2",
+      "title": "Characterizations of metric trees and Gromov hyperbolic spaces",
+      "abstract_excerpt": "In a recent paper Chatterji and Niblo proved that a geodesic metric space is Gromov hyperbolic if and only if the intersection of any two closed balls has uniformly bounded eccentricity. In their paper, the authors raise the question whether a geodesic metric space with the property that the interse",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns geometric characterizations of Gromov hyperbolic spaces via 'intersection of any two closed balls has uniformly bounded eccentricity,' with no mention of NP-completeness, resolution proof length, rank, or locally symmetric manifolds. It shares only the 'hyperbolic metric space' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2104.11944",
+      "title": "A simple proof of Dvoretzky-type theorem for Hausdorff dimension in doubling spaces",
+      "abstract_excerpt": "The ultrametric skeleton theorem [Mendel, Naor 2013] implies, among other things, the following nonlinear Dvoretzky-type theorem for Hausdorff dimension: For any $0&lt;β&lt;α$, any compact metric space $X$ of Hausdorff dimension $α$ contains a subset which is biLipschitz equivalent to an ultrametric and has Hausdorff dimension at least $β$. In this note we present a simple proof of the ultrametric skeleton theorem in doubling spaces using Bartal's Ramsey decompositions [Bartal 2021]. The same ge",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a Dvoretzky-type theorem about ultrametric subsets and Hausdorff dimension in doubling metric spaces, with no mention of resolution proof complexity, NP-complete problems, or rank of locally symmetric manifolds. It shares only the general 'metric space' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1702.00740",
+      "title": "New characterizations of Ricci curvature on RCD metric measure spaces",
+      "abstract_excerpt": "We prove that on a large family of metric measure spaces, if the $L^p$-gradient estimate for heat flows holds for some $p&gt;2$, then the $L^1$-gradient estimate also holds. This result extends Savaré's result on metric measure spaces, and provides a new proof to von Renesse-Sturm theorem on smooth metric measure spaces. As a consequence, we propose a new analysis object based on Gigli's measure-valued Ricci tensor, to characterize the Ricci curvature of ${\\rm RCD}$ space in a local way. The arg",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Ricci curvature characterizations and gradient estimates for heat flows on RCD metric measure spaces, with no mention of resolution proof complexity, NP-complete problems, or rank of hyperbolic spaces as required by the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
