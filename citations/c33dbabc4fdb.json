@@ -1,0 +1,40 @@
+{
+  "entry_id": "c33dbabc4fdb",
+  "ts": 1779486221.9871168,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2504.00931",
+      "title": "Moduli spaces of framed logarithmic and parabolic connections on a Riemann surface",
+      "abstract_excerpt": "We construct moduli spaces of framed logarithmic connections and also moduli spaces of framed parabolic connections. It is shown that these moduli spaces possess a natural algebraic symplectic structure. We also give an upper bound of the transcendence degree of the algebra of regular functions on the moduli space of parabolic connections.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses moduli spaces of framed logarithmic and parabolic connections, but does not mention lifting rank, communication complexity, or the disjointness function, which are central to the conjecture, as seen in phrases like 'minimal lifting rank from the incidence variety to the ambient space' and 'randomized communication complexity for the disjointness function'.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2212.03736",
+      "title": "On semi-ampleness of the moduli part",
+      "abstract_excerpt": "We discuss a conjecture of Shokurov on the semi-ampleness of the moduli part of a general fibration.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses semi-ampleness of the moduli part of a general fibration, which shares vocabulary with the conjecture, but does not interact with the specific claim about minimal lifting rank and communication complexity for disjointness, as seen in the phrase 'We discuss a conjecture of Shokurov on the semi-ampleness of the moduli part of a general fibration'.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1007.0787",
+      "title": "Arithmetic Moduli and Lifting of Enriques Surfaces",
+      "abstract_excerpt": "We construct the moduli space of Enriques surfaces in positive characteristic and eventually over the integers, and determine its local and global structure. As an application, we show lifting of Enriques surfaces to characteristic zero. The key observation is that the canonical double cover of an Enriques surface is birational to the complete intersection of three quadrics in IP^5, even in characteristic 2.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the moduli space of Enriques surfaces and its properties, but does not mention lifting rank or communication complexity, which are central to the conjecture; the shared vocabulary of 'moduli space' is not sufficient to establish a connection.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

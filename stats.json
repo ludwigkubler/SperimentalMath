@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-05-22T20:47:02Z",
-  "total_cycles": 1466,
+  "last_update_utc": "2026-05-22T21:47:02Z",
+  "total_cycles": 1480,
   "verdict_counts": {
-    "INCONCLUSIVE": 1226,
+    "INCONCLUSIVE": 1234,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 205,
-    "SCOOPED": 15
+    "BARRIER_HIT": 210,
+    "SCOOPED": 16
   },
-  "unique_field_A": 799,
+  "unique_field_A": 807,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
@@ -44,7 +44,7 @@
     ],
     [
       "Symplectic Geometry",
-      21
+      22
     ],
     [
       "Additive Combinatorics",

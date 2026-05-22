@@ -1,0 +1,40 @@
+{
+  "entry_id": "44e654af4924",
+  "ts": 1779483332.4474113,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2512.15901",
+      "title": "Closed-Form Optimal Quantum Circuits for Single-Query Identification of Boolean Functions",
+      "abstract_excerpt": "We study minimum-error identification of an unknown single-bit Boolean function given black-box (oracle) access with one allowed query. Rather than stopping at an abstract optimal measurement, we give a fully constructive solution: an explicit state preparation and an explicit measurement unitary whose computational-basis readout achieves the Helstrom-optimal success probability 3/4 for distinguishing the four possible functions. The resulting circuit is low depth, uses a fixed gate set, and (in",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses optimal quantum circuits for identifying Boolean functions, which shares vocabulary with complexity theory, but does not interact with the specific claim about the minimal rank of K-theory groups vs monotone circuit depth, as driven by phrases such as 'minimum-error identification of an unknown single-bit Boolean function' and 'optimal oracle discrimination'.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:0910.1427",
+      "title": "Balancing Bounded Treewidth Circuits",
+      "abstract_excerpt": "Algorithmic tools for graphs of small treewidth are used to address questions in complexity theory. For both arithmetic and Boolean circuits, it is shown that any circuit of size $n^{O(1)}$ and treewidth $O(\\log^i n)$ can be simulated by a circuit of width $O(\\log^{i+1} n)$ and size $n^c$, where $c = O(1)$, if $i=0$, and $c=O(\\log \\log n)$ otherwise. For our main construction, we prove that multiplicatively disjoint arithmetic circuits of size $n^{O(1)}$ and treewidth $k$ can be simulated by bou",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses balancing bounded treewidth circuits and its applications in complexity theory, but does not mention K-theory groups or monomial ideals, which are central to the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2407.01751",
+      "title": "Asymptotic theory for nonparametric testing of $k$-monotonicity in discrete distributions",
+      "abstract_excerpt": "In shape-constrained nonparametric inference, it is often necessary to perform preliminary tests to verify whether a probability mass function (p.m.f.) satisfies qualitative constraints such as monotonicity, convexity, or in general $k$-monotonicity. In this paper, we are interested in nonparametric testing of $k$-monotonicity of a finitely supported discrete distribution. We consider a unified testing framework based on a natural statistic which is directly derived from the very definition of $",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses nonparametric testing of $k$-monotonicity in discrete distributions, which shares vocabulary with the conjecture's mention of 'monotone circuit', but does not interact with the specific claim about the minimal rank of K-theory groups and monotone circuit depth.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
