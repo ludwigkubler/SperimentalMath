@@ -1,0 +1,31 @@
+{
+  "entry_id": "7e1e3d75a927",
+  "ts": 1779421940.0429394,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:2206.04871",
+      "title": "Secure multiparty quantum computation protocol for quantum circuits: The exploitation of triply even quantum error-correcting codes",
+      "abstract_excerpt": "Secure multi-party quantum computation (MPQC) protocol is a cryptographic primitive allowing error-free distributed quantum computation to a group of $n$ mutually distrustful quantum nodes even when some quantum nodes disobey the instructions of the protocol. Here we suggest a modified MPQC protocol",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes an MPQC protocol exploiting 'triply even quantum error-correcting codes' for secure distributed computation, but makes no claim about minimal rank bounds tied to query complexity of linear cryptographic protocols.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:3af3448de8b17773c6f8e78ff2e4037649f2d7c3",
+      "title": "Quantum Fuzzy Commitment and Biometric Authentication Scheme Based on Entanglement-Assisted Quantum Error-Correcting Codes",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available, so it is impossible to determine whether the paper addresses the specific claim about minimal rank of QECCs versus linear cryptographic protocol query complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}

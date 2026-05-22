@@ -1,0 +1,40 @@
+{
+  "entry_id": "d5a25b74d4ce",
+  "ts": 1779424909.1197166,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2509.14461",
+      "title": "Learning depth-3 circuits via quantum agnostic boosting",
+      "abstract_excerpt": "We initiate the study of quantum agnostic learning of phase states with respect to a function class $\\mathsf{C}\\subseteq \\{c:\\{0,1\\}^n\\rightarrow \\{0,1\\}\\}$: given copies of an unknown $n$-qubit state $|ψ\\rangle$ which has fidelity $\\textsf{opt}$ with a phase state $|φ_c\\rangle=\\frac{1}{\\sqrt{2^n}}\\sum_{x\\in \\{0,1\\}^n}(-1)^{c(x)}|x\\rangle$ for some $c\\in \\mathsf{C}$, output $|φ\\rangle$ which has fidelity $|\\langle φ| ψ\\rangle|^2 \\geq \\textsf{opt}-\\varepsilon$. To this end, we give agnostic learn",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quantum agnostic learning of phase states for decision trees, juntas, DNFs, and depth-3 circuits, with no mention of tropical geometry, tropical discriminants, k-CLIQUE, or monotone circuit lower bounds. It shares only the vague vocabulary of 'DNF formulas' but does not interact with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1311.1616",
+      "title": "Hardness Amplification and the Approximate Degree of Constant-Depth Circuits",
+      "abstract_excerpt": "We establish a generic form of hardness amplification for the approximability of constant-depth Boolean circuits by polynomials. Specifically, we show that if a Boolean circuit cannot be pointwise approximated by low-degree polynomials to within constant error in a certain one-sided sense, then an OR of disjoint copies of that circuit cannot be pointwise approximated even with very high error. As our main application, we show that for every sequence of degrees $d(n)$, there is an explicit depth-",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses hardness amplification and approximate degree of constant-depth circuits, which shares vocabulary with the conjecture's field of monotone circuit complexity, but does not interact with the specific claim about the minimal tropical discriminant of the characteristic polynomial of k-CLIQUE DNF formulas.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2209.01584",
+      "title": "The Approximate Degree of DNF and CNF Formulas",
+      "abstract_excerpt": "The approximate degree of a Boolean function $f\\colon\\{0,1\\}^n\\to\\{0,1\\}$ is the minimum degree of a real polynomial $p$ that approximates $f$ pointwise: $|f(x)-p(x)|\\leq1/3$ for all $x\\in\\{0,1\\}^n.$ For every $δ&gt;0,$ we construct CNF and DNF formulas of polynomial size with approximate degree $Ω(n^{1-δ}),$ essentially matching the trivial upper bound of $n.$ This improves polynomially on previous lower bounds and fully resolves the approximate degree of constant-depth circuits ($\\text{AC}^0$)",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns approximate degree of DNF/CNF formulas and its consequences for communication complexity of AC^0, not tropical discriminants, monotone circuit lower bounds, or the k-CLIQUE problem. It shares the DNF vocabulary but does not interact with the specific tropical-geometry claim about minimal tropical discriminants being Ω(n^{3/2}).",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

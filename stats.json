@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-05-22T03:47:11Z",
-  "total_cycles": 1233,
+  "last_update_utc": "2026-05-22T04:47:03Z",
+  "total_cycles": 1250,
   "verdict_counts": {
-    "INCONCLUSIVE": 1100,
+    "INCONCLUSIVE": 1109,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 109,
-    "SCOOPED": 4
+    "BARRIER_HIT": 115,
+    "SCOOPED": 6
   },
-  "unique_field_A": 702,
+  "unique_field_A": 708,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
@@ -36,7 +36,7 @@
     ],
     [
       "Algebraic Combinatorics",
-      17
+      21
     ],
     [
       "Additive Combinatorics",
@@ -44,7 +44,7 @@
     ],
     [
       "Tropical Geometry",
-      15
+      16
     ],
     [
       "Noncommutative L^p Geometry",
