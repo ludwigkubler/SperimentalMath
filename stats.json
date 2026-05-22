@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-05-22T09:47:03Z",
-  "total_cycles": 1309,
+  "last_update_utc": "2026-05-22T10:47:03Z",
+  "total_cycles": 1321,
   "verdict_counts": {
-    "INCONCLUSIVE": 1144,
+    "INCONCLUSIVE": 1152,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 137,
+    "BARRIER_HIT": 141,
     "SCOOPED": 8
   },
-  "unique_field_A": 735,
+  "unique_field_A": 739,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
@@ -40,7 +40,7 @@
     ],
     [
       "Tropical Geometry",
-      19
+      21
     ],
     [
       "Additive Combinatorics",
@@ -51,12 +51,12 @@
       13
     ],
     [
-      "Noncommutative L^p Geometry",
+      "Random Matrix Theory",
       12
     ],
     [
-      "Random Matrix Theory",
-      11
+      "Noncommutative L^p Geometry",
+      12
     ],
     [
       "Spectral Graph Theory",
