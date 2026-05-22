@@ -1,0 +1,40 @@
+{
+  "entry_id": "65906a2c4675",
+  "ts": 1779472881.61302,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1304.4272",
+      "title": "Free Convex Algebraic Geometry",
+      "abstract_excerpt": "This chapter is a tutorial on techniques and results in free convex algebraic geometry and free real algebraic geometry (RAG). The term free refers to the central role played by algebras of noncommutative polynomials R&lt;x&gt; in free (freely noncommuting) variables x=(x_1,...,x_g). The subject pertains to problems where the unknowns are matrices or Hilbert space operators as arise in linear systems engineering and quantum information theory.\n  The subject of free RAG flows in two branches. One",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses free convex algebraic geometry and its applications, but does not mention Hodge integrals, Tseitin formulas, or resolution proof complexity, which are the core concepts of the conjecture, as seen in phrases such as 'free convex algebraic geometry and free real algebraic geometry'.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1607.00933",
+      "title": "Degenerations of Hodge structure",
+      "abstract_excerpt": "Two interesting questions in algebraic geometry are: (i) how can a smooth projective varieties degenerate? and (ii) given two such degenerations, when can we say that one is \"more singular/degenerate\" than the other? Schmid's Nilpotent Orbit Theorem yields Hodge-theoretic analogs of these questions, and the Hodge-theoretic answers in turn provide insight into the motivating algebro-geometric questions, sometimes with applications to the study of moduli. Recently the Hodge-theoretic questions hav",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses degenerations of Hodge structure and their applications, but does not mention Tseitin formulas, resolution proof complexity, or bounding Hodge integrals, which are central to the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1801.10489",
+      "title": "Hodge level for weighted complete intersections",
+      "abstract_excerpt": "We give lower bounds for Hodge numbers of smooth well formed Fano weighted complete intersections. In particular, we compute their Hodge level, that is, the maximal distance between non-trivial Hodge numbers in the same row of the Hodge diamond. This allows us to classify varieties whose Hodge numbers are like that of a projective space, of a curve, or of a Calabi--Yau variety of low dimension.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Hodge numbers of smooth well formed Fano weighted complete intersections, which does not directly interact with the specific claim about Hodge integrals of Tseitin formulas and their relation to resolution proof length.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

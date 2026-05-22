@@ -1,0 +1,40 @@
+{
+  "entry_id": "1f57830c81ff",
+  "ts": 1779474856.4386017,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2512.13058",
+      "title": "Homomorphism Indistinguishability, Multiplicity Automata Equivalence, and Polynomial Identity Testing",
+      "abstract_excerpt": "Two graphs $G$ and $H$ are homomorphism indistinguishable over a graph class $\\mathcal{F}$ if they admit the same number of homomorphisms from every graph $F \\in \\mathcal{F}$. Many graph isomorphism relaxations such as (quantum) isomorphism and cospectrality can be characterised as homomorphism indistinguishability over specific graph classes. Thereby, the problems $\\textrm{HomInd}(\\mathcal{F})$ of deciding homomorphism indistinguishability over $\\mathcal{F}$ subsume diverse graph isomorphism re",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses homomorphism indistinguishability and graph isomorphism relaxations, which does not directly interact with the conjecture about noncommutative polynomial automata and ACC⁰ circuit size, driven by phrases such as 'homomorphism indistinguishability over a graph class' and 'multiplicity automata equivalence'.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/9809082v1",
+      "title": "Minimal polynomial identities for right-symmetric algebras",
+      "abstract_excerpt": "An algebra $A$ with multiplication $A\\times A \\to A, (a,b)\\mapsto a\\circ b$, is called right-symmetric, if $a\\circ(b\\circ c)-(a\\circ b)\\circ a\\circ (c\\circ b)-(a\\circ c)\\circ b,$ for any $a,b,c\\in A$. The multiplication of right-symmetric Witt algebras $W_n=\\{u\\der_i: u\\in U, U={\\cal K}[x_1^{\\pm 1},",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses right-symmetric algebras and their properties, but does not mention polynomial automata, ACC⁰ circuit complexity, or the relationship between the two, which are central to the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1712.04849",
+      "title": "Group algebras whose units satisfy a Laurent Polynomial Identity",
+      "abstract_excerpt": "Let $KG$ be the group algebra of a torsion group $G$ over a field $K$. We show that if the units of $KG$ satisfy a Laurent polynomial identity which is not satisfied by the units of the relative free algebra $K[α,β: α^2=β^2=0]$ then $KG$ satisfies a polynomial identity. This extends Hartley Conjecture which states that if the units of $KG$ satisfies a group identity then $KG$ satisfies a polynomial identity. As an application of our results we prove that if the units of $KG$ satisfies a Laurent ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses group algebras and polynomial identities, but does not mention polynomial automata or ACC⁰ circuit complexity, which are central to the conjecture.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

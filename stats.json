@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-05-22T17:47:02Z",
-  "total_cycles": 1421,
+  "last_update_utc": "2026-05-22T18:47:03Z",
+  "total_cycles": 1433,
   "verdict_counts": {
-    "INCONCLUSIVE": 1201,
+    "INCONCLUSIVE": 1207,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 188,
-    "SCOOPED": 12
+    "BARRIER_HIT": 193,
+    "SCOOPED": 13
   },
-  "unique_field_A": 779,
+  "unique_field_A": 782,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
@@ -24,7 +24,7 @@
     ],
     [
       "Free Probability Theory",
-      31
+      32
     ],
     [
       "Tropical Geometry",
@@ -44,7 +44,7 @@
     ],
     [
       "Symplectic Geometry",
-      18
+      19
     ],
     [
       "Additive Combinatorics",
