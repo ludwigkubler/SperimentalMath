@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-05-22T06:47:02Z",
-  "total_cycles": 1273,
+  "last_update_utc": "2026-05-22T07:47:03Z",
+  "total_cycles": 1283,
   "verdict_counts": {
-    "INCONCLUSIVE": 1123,
+    "INCONCLUSIVE": 1132,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
     "BARRIER_HIT": 123,
-    "SCOOPED": 7
+    "SCOOPED": 8
   },
-  "unique_field_A": 720,
+  "unique_field_A": 725,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
@@ -51,6 +51,10 @@
       12
     ],
     [
+      "Symplectic Geometry",
+      12
+    ],
+    [
       "Random Matrix Theory",
       11
     ],
@@ -64,10 +68,6 @@
     ],
     [
       "Noncommutative Harmonic Analysis",
-      10
-    ],
-    [
-      "Symplectic Geometry",
       10
     ]
   ]

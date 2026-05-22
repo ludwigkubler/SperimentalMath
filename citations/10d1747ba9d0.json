@@ -1,0 +1,22 @@
+{
+  "entry_id": "10d1747ba9d0",
+  "ts": 1779433555.4715595,
+  "hits_evaluated": 1,
+  "verdicts": [
+    {
+      "paper_id": "s2:7a655050139332ecea067d288fda1992da5383c8",
+      "title": "Optogenetic Acidification of Synaptic Vesicles and Lysosomes",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper's title and lack of abstract indicate that it is unrelated to the fields of Algebraic K-Theory and Boolean Circuit Complexity, and does not mention modular functions or Brauer groups.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 0
+  }
+}
