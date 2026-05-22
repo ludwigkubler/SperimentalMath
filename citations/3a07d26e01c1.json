@@ -1,0 +1,40 @@
+{
+  "entry_id": "3a07d26e01c1",
+  "ts": 1779461869.7667046,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2501.16039",
+      "title": "Complexity of Constructing Minimal Faithful Permutation Representations for Fitting-free Groups",
+      "abstract_excerpt": "In this paper, we investigate the complexity of computing minimal faithful permutation representations for groups without abelian normal subgroups (a.k.a. Fitting-free groups). When our groups are given as quotients of permutation groups, we exhibit a polynomial-time algorithm for constructing such representations. Furthermore, in the setting of permutation groups, we obtain an $\\textsf{NC}$ procedure for computing the minimal faithful permutation degree, and a randomized $\\textsf{NC}$ ($\\textsf",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses computing minimal faithful permutation representations for Fitting-free groups, which shares vocabulary with the conjecture, but does not interact with the specific claim about plethysm coefficients in symmetric group representation vs permutation circuit threshold.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1602.06546",
+      "title": "Plethysm and cohomology representations of external and symmetric products",
+      "abstract_excerpt": "We prove refined generating series formulae for characters of (virtual) cohomology representations of external products of suitable coefficients, e.g., (complexes of) constructible or coherent sheaves, or (complexes of) mixed Hodge modules on spaces such as (possibly singular) complex quasi-projective varieties. These formulae generalize our previous results for symmetric and alternating powers of such coefficients, and apply also to other Schur functors. The proofs of these results are reduced ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses plethysm and cohomology representations, but does not mention permutation circuit threshold or minimal rank of plethysm coefficients in the context of symmetric group representation, which are the key concepts in the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/hep-ph/0610012v1",
+      "title": "Tevatron-for-LHC Report of the QCD Working Group",
+      "abstract_excerpt": "The experiments at Run 2 of the Tevatron have each accumulated over 1 inverse femtobarn of high-transverse momentum data. Such a dataset allows for the first precision (i.e. comparisons between theory and experiment at the few percent level) tests of QCD at a hadron collider. While the Large Hadron ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract does not mention symmetric group representation, plethysm coefficients, or permutation circuit complexity, indicating no interaction with the conjecture; the paper appears to focus on particle physics experiments and QCD.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
