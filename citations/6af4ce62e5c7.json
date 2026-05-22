@@ -1,0 +1,40 @@
+{
+  "entry_id": "6af4ce62e5c7",
+  "ts": 1779481071.5441704,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2406.16142",
+      "title": "Nearly Optimal Circuit Size for Sparse Quantum State Preparation",
+      "abstract_excerpt": "Quantum state preparation is a fundamental and significant subroutine in quantum computing. In this paper, we conduct a systematic investigation on the circuit size (the total count of elementary gates in the circuit) for sparse quantum state preparation. A quantum state is said to be $d$-sparse if it has only $d$ non-zero amplitudes. For the task of preparing an $n$-qubit $d$-sparse quantum state, we obtain the following results:\n  \\textbf{Without ancillary qubits:} Any $n$-qubit $d$-sparse qua",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses quantum state preparation and circuit size, which does not directly interact with the specific claim about the minimal rank of symplectic leaves and its relation to circuit complexity for k-CNF tautologies.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:0708.2336",
+      "title": "Unsatisfiable Linear k-CNFs Exist, for every k",
+      "abstract_excerpt": "We call a CNF formula linear if any two clauses have at most one variable in common. Let Linear k-SAT be the problem of deciding whether a given linear k-CNF formula is satisfiable. Here, a k-CNF formula is a CNF formula in which every clause has size exactly k. It was known that for k &gt;= 3, Linear k-SAT is NP-complete if and only if an unsatisfiable linear k-CNF formula exists, and that they do exist for k &gt;= 4. We prove that unsatisfiable linear k-CNF formulas exist for every k. Let f(k)",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the existence and size of unsatisfiable linear k-CNF formulas, but does not mention symplectic leaves or circuit complexity, which are central to the conjecture, as seen in phrases like 'minRank(S(T)) = O(n^k)' and 'minRank(S(T)) ≤ c * s(C)'.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1403.6863",
+      "title": "Online Learning of k-CNF Boolean Functions",
+      "abstract_excerpt": "This paper revisits the problem of learning a k-CNF Boolean function from examples in the context of online learning under the logarithmic loss. In doing so, we give a Bayesian interpretation to one of Valiant's celebrated PAC learning algorithms, which we then build upon to derive two efficient, online, probabilistic, supervised learning algorithms for predicting the output of an unknown k-CNF Boolean function. We analyze the loss of our methods, and show that the cumulative log-loss can be upp",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses online learning of k-CNF Boolean functions under logarithmic loss, which does not interact with the specific claim about the minimal rank of symplectic leaves and its relation to circuit complexity.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

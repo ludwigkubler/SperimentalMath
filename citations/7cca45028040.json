@@ -1,0 +1,40 @@
+{
+  "entry_id": "7cca45028040",
+  "ts": 1779481943.7189195,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1708.00203",
+      "title": "Hochschild cohomology of algebras arising from categories and from bounded quivers",
+      "abstract_excerpt": "The main objective of this paper is to provide a theory for computing the Hochschild cohomology of algebras arising from a linear category with finitely many objects and zero compositions. For this purpose, we consider such a category using an ad hoc quiver $Q$, with an algebra associated to each vertex and a bimodule to each arrow. The computation relies on cohomological functors that we introduce, and on the combinatorics of the quiver. One point extensions are occurrences of this situation, a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Hochschild cohomology of algebras arising from categories and bounded quivers, but does not mention local cohomology rank, resolution proof length, or Tseitin formulas, which are central to the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0406355v1",
+      "title": "p-torsion elements in local cohomology modules. II",
+      "abstract_excerpt": "Lyubeznik conjectured that local cohomology modules of regular rings have finitely many associated primes. We examine this conjecture for polynomial rings over the integers, and record some equational identities that arise from studying special cases.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses local cohomology modules and associated primes, but does not mention quiver representations, resolution proof complexity, or Tseitin formulas, which are the key concepts in the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2102.04369",
+      "title": "Mixed Hodge structure on local cohomology with support in determinantal varieties",
+      "abstract_excerpt": "We employ the inductive structure of determinantal varieties to calculate the mixed Hodge module structure of local cohomology modules with determinantal support. We show that the weight of a simple composition factor is uniquely determined by its support and cohomological degree. As a consequence, we obtain the equivariant structure of the Hodge filtration on each local cohomology module. Finally, as an application, we provide a formula for the generation level of the Hodge filtration on these ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses mixed Hodge structure on local cohomology with support in determinantal varieties, which shares vocabulary with local cohomology, but does not interact with the specific claim about non-clausal Tseitin formulas, quiver representations, or resolution proof length.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
