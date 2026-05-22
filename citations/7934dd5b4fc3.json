@@ -1,0 +1,40 @@
+{
+  "entry_id": "7934dd5b4fc3",
+  "ts": 1779450367.5559168,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1006.0686",
+      "title": "Integer Sequences from Queueing Theory",
+      "abstract_excerpt": "Operators on probability distributions can be expressed as operators on the associated moment sequences, and so correspond to operators on integer sequences. Thus, there is an opportunity to apply each theory to the other. Moreover, probability models can be sources of integer sequences, both classical and new, as we show by considering the classical M/G/1 single-server queueing model. We identify moment sequences that are integer sequences. We establish connections between the M/M/1 busy period",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses integer sequences from queueing theory, which shares vocabulary with integer lattices, but does not interact with the specific claim about lattice width and monotone circuit lower bounds for k-CLIQUE, as seen in phrases like 'operators on integer sequences' that do not relate to the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1503.01218",
+      "title": "Maximizing Monotone Submodular Functions over the Integer Lattice",
+      "abstract_excerpt": "The problem of maximizing non-negative monotone submodular functions under a certain constraint has been intensively studied in the last decade. In this paper, we address the problem for functions defined over the integer lattice.\n  Suppose that a non-negative monotone submodular function $f:\\mathbb{Z}_+^n \\to \\mathbb{R}_+$ is given via an evaluation oracle. Assume further that $f$ satisfies the diminishing return property, which is not an immediate consequence of submodularity when the domain i",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses maximizing monotone submodular functions over the integer lattice, which shares vocabulary with the conjecture, but does not interact with the specific claim about lattice width and monotone circuit lower bounds for k-CLIQUE.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1504.00389",
+      "title": "Some Elementary Congruences for the Number of Weighted Integer Compositions",
+      "abstract_excerpt": "An integer composition of a nonnegative integer $n$ is a tuple $(π_1,\\ldots,π_k)$ of nonnegative integers whose sum is $n$; the $π_i$'s are called the parts of the composition. For fixed number $k$ of parts, the number of $f$-weighted integer compositions (also called $f$-colored integer compositions in the literature), in which each part size $s$ may occur in $f(s)$ different colors, is given by the extended binomial coefficient $\\binom{k}{n}_{f}$. We derive several congruence properties for $\\",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses integer compositions and their congruence properties, which shares vocabulary with integer lattices, but does not interact with the specific claim about lattice width and monotone circuit lower bounds for k-CLIQUE.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
