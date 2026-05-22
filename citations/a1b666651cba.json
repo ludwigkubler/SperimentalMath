@@ -1,0 +1,40 @@
+{
+  "entry_id": "a1b666651cba",
+  "ts": 1779486783.0183935,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0501315v2",
+      "title": "Taming the wild in impartial combinatorial games",
+      "abstract_excerpt": "We introduce a misere quotient semigroup construction in impartial combinatorial game theory, and argue that it is the long-sought natural generalization of the normal-play Sprague-Grundy theory to misere play. Along the way, we illustrate how to use the theory to describe complete analyses of two w",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses impartial combinatorial game theory and misere quotient semigroup construction, which does not interact with the specific claim about quandle operations in combinatorial species and ACC⁰ circuit lower bounds for XOR-AND networks.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0305031v2",
+      "title": "Random Combinatorial structures:the convergent case",
+      "abstract_excerpt": "This paper studies the distribution of the component spectrum of combinatorial structures such as uniform random forests, in which the classical generating function for the numbers of (irreducible) elements of the different sizes converges at the radius of convergence; here, this property is express",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the distribution of the component spectrum of combinatorial structures, but does not mention quandle operations, XOR-AND networks, or ACC⁰ circuit complexity, which are the key concepts in the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1109.1216",
+      "title": "Combinatorial representations",
+      "abstract_excerpt": "This paper introduces combinatorial representations, which generalise the notion of linear representations of matroids. We show that any family of subsets of the same cardinality has a combinatorial representation via matrices. We then prove that any graph is representable over all alphabets of size larger than some number depending on the graph. We also provide a characterisation of families representable over a given alphabet. Then, we associate a rank function and a rank operator to any repre",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses combinatorial representations and their properties, but does not mention quandle operations, XOR-AND networks, or ACC⁰ circuit complexity, which are central to the conjecture, driven by phrases such as 'combinatorial representations' and 'linear representations of matroids'.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
