@@ -1855,3 +1855,7 @@
 {"ts": 1779426004.2807634, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1995, "cap": 2000, "fraction": 0.998, "weekly_budget": 2500}}
 {"ts": 1779427803.293309, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 25}}
 {"ts": 1779427803.4067583, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1998, "cap": 2000, "fraction": 0.999, "weekly_budget": 2500}}
+{"ts": 1779429604.3152518, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 26}}
+{"ts": 1779429604.4144154, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 2000, "cap": 2000, "fraction": 1.0, "weekly_budget": 2500}}
+{"ts": 1779431403.2099264, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 26}}
+{"ts": 1779431403.3177834, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 2000, "cap": 2000, "fraction": 1.0, "weekly_budget": 2500}}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "f130baaf1a68",
+  "ts": 1779431876.858663,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1612.01265",
+      "title": "Branching trees I: Concatenation and infinite divisibility",
+      "abstract_excerpt": "The goal of this work is to decompose random populations with a genealogy in subfamilies of a given degree of kinship and to obtain a notion of infinitely divisible genealogies. We model the genealogical structure of a population by (equivalence classes of) ultrametric measure spaces (um-spaces) as elements of the Polish space U which we recall. In order to then analyze the family structure in this coding we introduce an algebraic structure on um-spaces (a consistent collection of semigroups). T",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses ultrametric measure spaces, genealogical structures, and infinitely divisible random variables, which share some vocabulary with semigroup theory, but does not interact with the specific claim about read-twice branching program complexity and minimal local dimension of semigroups.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2010.01573",
+      "title": "On the complete metrisability of spaces of contractive semigroups",
+      "abstract_excerpt": "The space of unitary $C_{0}$-semigroups on separable infinite dimensional Hilbert space, when viewed under the topology of uniform weak convergence on compact subsets of $\\mathbb{R}_{+}$, is known to admit various interesting residual subspaces. Before treating the contractive case, the problem of the complete metrisability of this space was raised in [Eisner, 2010]. Utilising Borel complexity computations and automatic continuity results for semigroups, we obtain a general result, which in part",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the complete metrisability of spaces of contractive semigroups, which shares vocabulary with the conjecture, but does not interact with the specific claim about the local dimension of semigroups and read-twice BP complexity, as seen in the phrase 'the space of unitary $C_{0}$-semigroups on separable infinite dimensional Hilbert space'.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2302.06539",
+      "title": "On the minimal faithful degree of Rhodes semisimple semigroups",
+      "abstract_excerpt": "In this paper we compute the minimum degree of a faithful representation by partial transformations of a finite semigroup admitting a faithful completely reducible matrix representation over the field of complex numbers. This includes all inverse semigroups, and hence our results generalize earlier results of Easdown and Schein on the minimal faithful degree of an inverse semigroup. It also includes well-studied monoids like full matrix monoids over finite fields and the monoid of binary relatio",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the minimal faithful degree of Rhodes semisimple semigroups, which does not directly interact with the specific claim about the local dimension of semigroups and read-twice BP complexity, despite sharing vocabulary related to semigroups.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

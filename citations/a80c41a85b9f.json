@@ -1,0 +1,40 @@
+{
+  "entry_id": "a80c41a85b9f",
+  "ts": 1779429023.9783664,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2103.09609",
+      "title": "Characterizing Tseitin-formulas with short regular resolution refutations",
+      "abstract_excerpt": "Tseitin-formulas are systems of parity constraints whose structure is described by a graph. These formulas have been studied extensively in proof complexity as hard instances in many proof systems. In this paper, we prove that a class of unsatisfiable Tseitin-formulas of bounded degree has regular resolution refutations of polynomial length if and only if the treewidth of all underlying graphs $G$ for that class is in $O(\\log|V(G)|)$. To do so, we show that any regular resolution refutation of a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the length of regular resolution refutations of Tseitin-formulas in terms of treewidth, but does not mention minimal local cohomology rank or the specific formula for Resolution proof length given in the conjecture, driven by the phrase 'length $2^{Ω(tw(G))}/|V(G)|$'.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2006.04124",
+      "title": "On the Complexity of Branching Proofs",
+      "abstract_excerpt": "We consider the task of proving integer infeasibility of a bounded convex $K$ in $\\mathbb{R}^n$ using a general branching proof system. In a general branching proof, one constructs a branching tree by adding an integer disjunction $\\mathbf{a} \\mathbf{x} \\leq b$ or $\\mathbf{a} \\mathbf{x} \\geq b+1$, $\\mathbf{a} \\in \\mathbb{Z}^n$, $b \\in \\mathbb{Z}$, at each node, such that the leaves of the tree correspond to empty sets (i.e., $K$ together with the inequalities picked up from the root to leaf is e",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses branching proofs and Tseitin formulas, but does not mention local cohomology rank or the specific claim about Resolution proof length for n-ary XOR functions, driven by phrases such as 'branching tree' and 'quasi-polynomial sized cutting plane refutations'.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2402.00542",
+      "title": "Hardness of Random Reordered Encodings of Parity for Resolution and CDCL",
+      "abstract_excerpt": "Parity reasoning is challenging for Conflict-Driven Clause Learning (CDCL) SAT solvers. This has been observed even for simple formulas encoding two contradictory parity constraints with different variable orders (Chew and Heule 2020). We provide an analytical explanation for their hardness by showing that they require exponential resolution refutations with high probability when the variable order is chosen at random. We obtain this result by proving that these formulas, which are known to be T",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the hardness of parity reasoning for Resolution and CDCL SAT solvers, but does not mention minimal local cohomology rank or provide a specific formula for Resolution proof length, thus it does not interact with the specific claim of the conjecture.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
