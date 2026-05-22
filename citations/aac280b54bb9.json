@@ -1,0 +1,40 @@
+{
+  "entry_id": "aac280b54bb9",
+  "ts": 1779411256.144001,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/0812.4685v2",
+      "title": "Three Crossed Modules",
+      "abstract_excerpt": "We introduce the notion of 3-crossed module, which extends the notions of 1-crossed module (Whitehead) and 2-crossed module (Conduché). We show that the category of 3-crossed modules is equivalent to the category of simplicial groups having a Moore complex of length 3. We make explicit the relations",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes extending crossed modules to '3-crossed modules' and equivalence with simplicial groups of Moore complex length 3, with no mention of Boolean formulas, DPLL, rank bounds, or solution sets.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1901.04274v1",
+      "title": "Ordinal Monte Carlo Tree Search",
+      "abstract_excerpt": "In many problem settings, most notably in game playing, an agent receives a possibly delayed reward for its actions. Often, those rewards are handcrafted and not naturally given. Even simple terminal-only rewards, like winning equals 1 and losing equals -1, can not be seen as an unbiased statement, ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Monte Carlo Tree Search with ordinal rewards in game-playing contexts, which has no bearing on crossed module ranks or DPLL search tree width for Boolean formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/0907.2566v3",
+      "title": "The fundamental Gray 3-groupoid of a smooth manifold and local 3-dimensional holonomy based on a 2-crossed module",
+      "abstract_excerpt": "We define the thin fundamental Gray 3-groupoid $S_3(M)$ of a smooth manifold $M$ and define (by using differential geometric data) 3-dimensional holonomies, to be smooth strict Gray 3-groupoid maps $S_3(M) \\to C(H)$, where $H$ is a 2-crossed module of Lie groups and $C(H)$ is the Gray 3-groupoid nat",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'thin fundamental Gray 3-groupoid' and '3-dimensional holonomies' on smooth manifolds using 2-crossed modules of Lie groups, with no mention of Boolean formulas, DPLL search trees, or solution-set ranks. It shares only the 'crossed module' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

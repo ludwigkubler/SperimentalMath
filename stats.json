@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-05-22T00:47:03Z",
-  "total_cycles": 1197,
+  "last_update_utc": "2026-05-22T01:47:02Z",
+  "total_cycles": 1207,
   "verdict_counts": {
-    "INCONCLUSIVE": 1077,
+    "INCONCLUSIVE": 1084,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 96,
+    "BARRIER_HIT": 99,
     "SCOOPED": 4
   },
-  "unique_field_A": 689,
+  "unique_field_A": 692,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
@@ -20,7 +20,7 @@
     ],
     [
       "Free Probability Theory",
-      27
+      28
     ],
     [
       "Free Probability",
@@ -43,11 +43,11 @@
       16
     ],
     [
-      "Noncommutative L^p Geometry",
-      12
+      "Tropical Geometry",
+      13
     ],
     [
-      "Tropical Geometry",
+      "Noncommutative L^p Geometry",
       12
     ],
     [
