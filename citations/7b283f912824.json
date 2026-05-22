@@ -1,0 +1,40 @@
+{
+  "entry_id": "7b283f912824",
+  "ts": 1779439717.1109092,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1810.06267",
+      "title": "Small Space Stream Summary for Matroid Center",
+      "abstract_excerpt": "In the matroid center problem, which generalizes the $k$-center problem, we need to pick a set of centers that is an independent set of a matroid with rank $r$. We study this problem in streaming, where elements of the ground set arrive in the stream. We first show that any randomized one-pass streaming algorithm that computes a better than $Δ$-approximation for partition-matroid center must use $Ω(r^2)$ bits of space, where $Δ$ is the aspect ratio of the metric and can be arbitrarily large. Thi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the matroid center problem and streaming algorithms for it, which does not directly interact with the specific claim about minimal matroid expansion as a monotone circuit lower bound for k-CLIQUE, as stated in the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1510.04532",
+      "title": "Internally Perfect Matroids",
+      "abstract_excerpt": "In 1977 Stanley proved that the $h$-vector of a matroid is an $\\mathcal{O}$-sequence and conjectured that it is a pure $\\mathcal{O}$-sequence. In the subsequent years the validity of this conjecture has been shown for a variety of classes of matroids, though the general case is still open. In this paper we use Las Vergnas' internal order to introduce a new class of matroids which we call internally perfect. We prove that these matroids satisfy Stanley's Conjecture and compare them to other class",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses internally perfect matroids and Stanley's Conjecture, which does not directly interact with the specific claim about minimal matroid expansion as a monotone circuit lower bound for k-CLIQUE.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1608.04025",
+      "title": "Quasi-matroidal classes of ordered simplicial complexes",
+      "abstract_excerpt": "We introduce the notion of a quasi-matroidal class of ordered simplicial complexes: an approximation to the idea of a matroid cryptomorphism in the landscape of ordered simplicial complexes. A quasi-matroidal class contains pure shifted simplicial complexes and ordered matroid independence complexes. The essential property is that if a fixed simplicial complex belongs to this class for every ordering of its vertex set, then it is a matroid independence complex. Some examples of such classes appe",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses quasi-matroidal classes of ordered simplicial complexes and their properties, but does not mention monotone DNF formulas, k-CLIQUE problem, or matroid expansion ranks, which are central to the conjecture.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

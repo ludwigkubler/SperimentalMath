@@ -1,0 +1,40 @@
+{
+  "entry_id": "ffe57178e4e3",
+  "ts": 1779442713.9891076,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2010.06158",
+      "title": "Tropical Geometric Variation of Phylogenetic Tree Shapes",
+      "abstract_excerpt": "We study the behavior of phylogenetic tree shapes in the tropical geometric interpretation of tree space. Tree shapes are formally referred to as tree topologies; a tree topology can also be thought of as a tree combinatorial type, which is given by the tree's branching configuration and leaf labeling. We use the tropical line segment as a framework to define notions of variance as well as invariance of tree topologies: we provide a combinatorial search theorem that describes all tree topologies",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses tropical geometric interpretation of tree space and phylogenetic tree shapes, which shares vocabulary with the conjecture's field of Tropical Geometry, but does not interact with the specific claim about the rank of tropical motives and communication complexity for AND-OR trees.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2507.00170",
+      "title": "SelvaBox: A high-resolution dataset for tropical tree crown detection",
+      "abstract_excerpt": "Detecting individual tree crowns in tropical forests is essential to study these complex and crucial ecosystems impacted by human interventions and climate change. However, tropical crowns vary widely in size, structure, and pattern and are largely overlapping and intertwined, requiring advanced remote sensing methods applied to high-resolution imagery. Despite growing interest in tropical tree crown detection, annotated datasets remain scarce, hindering robust model development. We introduce Se",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses tropical tree crown detection using remote sensing and machine learning, which does not interact with the specific claim about the minimal rank of tropical motives and communication complexity for AND-OR trees.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2010.15058",
+      "title": "Measuring non-trivial compositionality in emergent communication",
+      "abstract_excerpt": "Compositionality is an important explanatory target in emergent communication and language evolution. The vast majority of computational models of communication account for the emergence of only a very basic form of compositionality: trivial compositionality. A compositional protocol is trivially compositional if the meaning of a complex signal (e.g. blue circle) boils down to the intersection of meanings of its constituents (e.g. the intersection of the set of blue objects and the set of circle",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses compositionality in emergent communication, which does not directly interact with the specific claim about the minimal rank of tropical motives and communication complexity for AND-OR trees.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
