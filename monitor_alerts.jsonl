@@ -1847,3 +1847,4 @@
 {"ts": 1779418803.2521439, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1988, "cap": 2000, "fraction": 0.994, "weekly_budget": 2500}}
 {"ts": 1779420603.4927375, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 25}}
 {"ts": 1779420603.5987709, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1991, "cap": 2000, "fraction": 0.996, "weekly_budget": 2500}}
+{"ts": 1779421802.112823, "ts_iso": "2026-05-22T03:50:02.112823+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "CRITICAL", "to_status": "OK", "failing_checks": [], "auto_fixed": false}
