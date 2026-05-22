@@ -1,0 +1,40 @@
+{
+  "entry_id": "126b0e802451",
+  "ts": 1779471214.0079215,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1603.02493",
+      "title": "Clifford theory for glider representations",
+      "abstract_excerpt": "Classical Clifford theory studies the decomposition of simple $G$-modules into simple $H$-modules for some normal subgroup $H \\triangleleft G$. In this paper we deal with chains of normal subgroups $1 \\triangleleft G_1 \\triangleleft \\cdots \\triangleleft G_d =G$, which allow to consider fragments and in particular glider representations. These are given by a descending chain of vector spaces over some field $K$ and relate different representations of the groups appearing in the chain. Picking som",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Clifford theory for glider representations and normal subgroups, but does not mention tropicalization, character tables, or resolution proof lengths, which are key concepts in the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:0711.0795",
+      "title": "Finite-Dimensional Representations of Hyper Loop Algebras Over Non-Algebraically Closed Fields",
+      "abstract_excerpt": "We study finite-dimensional representations of hyper loop algebras over non-algebraically closed fields. The main results concern the classification of the irreducible representations, the construction of the Weyl modules, base change, tensor products of irreducible and Weyl modules, and the block decomposition of the underlying abelian category. Several results are interestingly related to the study of irreducible representations of polynomial algebras and Galois theory.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses finite-dimensional representations of hyper loop algebras, which shares vocabulary with representation theory, but does not interact with the specific claim about tropicalization and resolution proof lengths, driven by the phrase 'classification of the irreducible representations' which is unrelated to the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1101.2456",
+      "title": "Polynomial representations and categorifications of Fock Space",
+      "abstract_excerpt": "The rings of symmetric polynomials form an inverse system whose limit, the ring of symmetric functions, is the model for the bosonic Fock space representation of the affine Lie algebra. We categorify this construction by considering an inverse limit of categories of polynomial representation of general linear groups. We show that this limit naturally carries an action of the affine Lie algebra (in the sense of Rouquier), thereby obtaining a famiy of categorifications of the bosonic Fock space re",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses polynomial representations and categorifications of Fock Space, which shares vocabulary with representation theory, but does not interact with the specific claim about tropicalization of character tables and resolution proof lengths.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

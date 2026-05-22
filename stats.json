@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-05-22T16:47:03Z",
-  "total_cycles": 1411,
+  "last_update_utc": "2026-05-22T17:47:02Z",
+  "total_cycles": 1421,
   "verdict_counts": {
-    "INCONCLUSIVE": 1195,
+    "INCONCLUSIVE": 1201,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 184,
+    "BARRIER_HIT": 188,
     "SCOOPED": 12
   },
-  "unique_field_A": 775,
+  "unique_field_A": 779,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
@@ -44,7 +44,7 @@
     ],
     [
       "Symplectic Geometry",
-      17
+      18
     ],
     [
       "Additive Combinatorics",
@@ -56,7 +56,7 @@
     ],
     [
       "Algebraic Geometry",
-      12
+      13
     ],
     [
       "Random Matrix Theory",

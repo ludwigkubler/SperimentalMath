@@ -1,0 +1,40 @@
+{
+  "entry_id": "0c4b00963bda",
+  "ts": 1779469761.8923693,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/1307.5969v1",
+      "title": "An alternative description of braided monoidal categories",
+      "abstract_excerpt": "We give an alternative presentation of braided monoidal categories. Instead of the usual associativity and braiding we have just one constraint (the b-structure). In the unital case, the coherence conditions for a b-structure are shown to be equivalent to the usual associativity, unit and braiding a",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses an alternative presentation of braided monoidal categories, but does not mention Boolean circuit size or SAT problems, which are central to the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1405.4668v2",
+      "title": "Multiplier bialgebras in braided monoidal categories",
+      "abstract_excerpt": "Multiplier bimonoids (or bialgebras) in arbitrary braided monoidal categories are defined. They are shown to possess monoidal categories of comodules and modules. These facts are explained by the structures carried by their induced functors.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses multiplier bimonoids in braided monoidal categories, but does not mention Boolean circuit size or SAT problems, which are central to the conjecture, driven by phrases such as 'Multiplier bimonoids' and 'monoidal categories of comodules and modules'.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1301.1996",
+      "title": "A braided monoidal category for symplectic fermions",
+      "abstract_excerpt": "We describe a class of examples of braided monoidal categories which are built from Hopf algebras in symmetric categories. The construction is motivated by a calculation in two-dimensional conformal field theory and is tailored to contain the braided monoidal categories occurring in the study of the Ising model, their generalisation to Tamabara-Yamagami categories, and categories occurring for symplectic fermions.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses a construction of braided monoidal categories from Hopf algebras, but does not mention Boolean circuit size or SAT problems, which are central to the conjecture.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
