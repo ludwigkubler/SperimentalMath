@@ -1,0 +1,40 @@
+{
+  "entry_id": "d6756f053a72",
+  "ts": 1779410161.7141628,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math-ph/0512018v2",
+      "title": "On Phase Transitions for $P$-Adic Potts Model with Competing Interactions on a Cayley Tree",
+      "abstract_excerpt": "In the paper we considere three state $p$-adic Potts model with competing interactions on a Cayley tree of order two. We reduce a problem of describing of the $p$-adic Gibbs measures to the solution of certain recursive equation, and using it we will prove that a phase transition occurs if and only ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns p-adic Gibbs measures and phase transitions for a Potts model on a Cayley tree, which shares only the 'p-adic' vocabulary with the conjecture and does not address affine plane curves or AC^0 circuit complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1010.0349",
+      "title": "On p-adic lattices and Grassmannians",
+      "abstract_excerpt": "It is well-known that the coset spaces G(k((z)))/G(k[[z]]), for a reductive group G over a field k, carry the geometric structure of an inductive limit of projective k-schemes. This k-ind-scheme is known as the affine Grassmannian for G. From the point of view of number theory it would be interesting to obtain an analogous geometric interpretation of quotients of the form G(W(k)[1/p])/G(W(k)), where p is a rational prime, W denotes the ring scheme of p-typical Witt vectors, k is a perfect field ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the geometric structure of p-adic affine Grassmannians for SL_n via Witt vectors and Schubert varieties, with no mention of AC^0 circuits, characteristic functions of curves, or bounds on p-adic valuations of curve points.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2408.00810",
+      "title": "p-adic Equiangular Lines and p-adic van Lint-Seidel Relative Bound",
+      "abstract_excerpt": "We introduce the notion of p-adic equiangular lines and derive the first fundamental relation between common angle, dimension of the space and the number of lines. More precisely, we show that if $\\{τ_j\\}_{j=1}^n$ is p-adic $γ$-equiangular lines in $\\mathbb{Q}^d_p$, then \\begin{align*} (1) \\quad\\quad \\quad \\quad |n|^2\\leq |d|\\max\\{|n|, γ^2 \\}. \\end{align*} We call Inequality (1) as the p-adic van Lint-Seidel relative bound. We believe that this complements fundamental van Lint-Seidel \\textit{[In",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns p-adic equiangular lines and a van Lint-Seidel-type bound in Q_p^d, with no mention of affine plane curves over finite fields, p-adic valuations of coordinates, or AC^0 circuit complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

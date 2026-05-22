@@ -1,0 +1,40 @@
+{
+  "entry_id": "01fd875ec752",
+  "ts": 1779408545.0659826,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1206.1925",
+      "title": "Counting Algebraic Curves with Tropical Geometry",
+      "abstract_excerpt": "Tropical geometry is a piecewise linear \"shadow\" of algebraic geometry. It allows for the computation of several cohomological invariants of an algebraic variety. In particular, its application to enumerative algebraic geometry led to significant progress.\n  In this survey, we give an introduction to tropical geometry techniques for algebraic curve counting problems. We also survey some recent developments, with a particular emphasis on the computation of the degree of the Severi varieties of th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a survey on tropical geometry techniques for algebraic curve counting (Severi varieties, Hurwitz numbers, real enumerative geometry), with no mention of branching programs, read-twice complexity, or any index bound relating Riemann surfaces to BP size.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2307.15946",
+      "title": "Gamma conjecture and tropical geometry",
+      "abstract_excerpt": "Hodge-theoretic mirror symmetry for a Calabi-Yau mirror pair says that the variation of Hodge structure arising from quantum cohomology of a Calabi-Yau manifold and that arising from deformation of complex structures on the dual Calabi-Yau manifold can be identified with each other, and it has been conjectured (Gamma-conjecture) that the Gamma-integral structure in quantum cohomology corresponds to a natural integral structure on the mirror side. Here the Gamma-integral structure is defined via ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses tropical geometry in the context of Gamma-conjecture, mirror symmetry, and Calabi-Yau manifolds, with no mention of branching programs, read-twice complexity, or indices of tropical curves bounded by BP size. It shares only the vocabulary of 'tropical geometry' but does not interact with the specific claim about read-twice BP size.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1706.05401",
+      "title": "Counting curves on Hirzebruch surfaces: tropical geometry and the Fock space",
+      "abstract_excerpt": "We study the stationary descendant Gromov-Witten theory of toric surfaces by combining and extending a range of techniques - tropical curves, floor diagrams, and Fock spaces. A correspondence theorem is established between tropical curves and descendant invariants on toric surfaces using maximal toric degenerations. An intermediate degeneration is then shown to give rise to floor diagrams, giving a geometric interpretation of this well-known bookkeeping tool in tropical geometry. In the process,",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Gromov-Witten theory, tropical curves, floor diagrams, and Fock spaces on toric/Hirzebruch surfaces, with no mention of branching programs, read-twice complexity, or any 'index' bound tied to circuit size. It shares only the vocabulary of tropical curves with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

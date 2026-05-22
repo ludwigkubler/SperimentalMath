@@ -1,0 +1,31 @@
+{
+  "entry_id": "939c9435791b",
+  "ts": 1779410609.3977833,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:a647578e190c85f04e4b4751ff7434458f23add9",
+      "title": "UNiTE: Unitary N-body Tensor Equivariant Network with Applications to Quantum Chemistry",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available, so I cannot assess whether the paper interacts with the conjecture about symmetric tensor norms and AC⁰ circuits computing PARITY.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10.31219/osf.io/qu8rz",
+      "title": "Tensor volume exploration using attribute space representatives",
+      "abstract_excerpt": "While volume rendering for scalar fields has been advanced into a powerful visualisation method, similar volumetric representations for tensor fields are still rare. The complexity of the data challenges not only the rendering but also the design of the transfer function. In this paper we propose an interface using glyph widgets to design a transfer function for the rendering of tensor data sets. Thereby the transfer function (TF) controls a volume rendering which represents sought after tensor-",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes 'volume rendering for... tensor fields' and visualization via glyph widgets, with no connection to tensor norms, AC⁰ circuits, or PARITY complexity. Shared vocabulary ('tensor') only.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}
