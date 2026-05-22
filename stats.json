@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-05-22T07:47:03Z",
-  "total_cycles": 1283,
+  "last_update_utc": "2026-05-22T08:47:02Z",
+  "total_cycles": 1292,
   "verdict_counts": {
-    "INCONCLUSIVE": 1132,
+    "INCONCLUSIVE": 1136,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 123,
+    "BARRIER_HIT": 128,
     "SCOOPED": 8
   },
-  "unique_field_A": 725,
+  "unique_field_A": 730,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
@@ -39,11 +39,11 @@
       23
     ],
     [
-      "Additive Combinatorics",
-      16
+      "Tropical Geometry",
+      17
     ],
     [
-      "Tropical Geometry",
+      "Additive Combinatorics",
       16
     ],
     [
