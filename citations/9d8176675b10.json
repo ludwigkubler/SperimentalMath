@@ -1,0 +1,40 @@
+{
+  "entry_id": "9d8176675b10",
+  "ts": 1779428311.246434,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2311.04204",
+      "title": "Sharp Thresholds Imply Circuit Lower Bounds: from random 2-SAT to Planted Clique",
+      "abstract_excerpt": "We show that sharp thresholds for Boolean functions directly imply average-case circuit lower bounds. More formally we show that any Boolean function exhibiting a sharp enough threshold at \\emph{arbitrary} critical density cannot be computed by Boolean circuits of bounded depth and polynomial size. We also prove a partial converse: if a monotone graph invariant Boolean function does not have a sharp threshold then it can be computed on average by a Boolean circuit of bounded depth and polynomial",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses bounded-depth circuit lower bounds for k-clique via sharp thresholds, with no mention of symmetry/automorphism group orders of graphs or the specific Θ(n^{1/4}) / Ω(k^2) bounds in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1405.2700",
+      "title": "Zero Excess and Minimal Length in Finite Coxeter Groups",
+      "abstract_excerpt": "Let $\\mathcal{W}$ be the set of strongly real elements of $W$, a Coxeter group. Then for $w \\in \\mathcal{W}$, $e(w)$, the excess of $w$, is defined by $e(w) = \\min\\{\\ell(x) + \\ell(y) - \\ell(w) \\; | \\; w=xy, x^2 = y^2 = 1\\}$. When $W$ is finite we may also define $E(w)$, the reflection excess of $w$. The main result established here is that if $W$ is finite and $X$ is a $W$-conjugacy class, then there exists $w \\in X$ such that $w$ has minimal length in $X$ and $e(w) = 0 = E(w)$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses excess and reflection excess of elements in finite Coxeter groups ('there exists w in X such that w has minimal length in X and e(w) = 0 = E(w)'), which has no bearing on graph automorphism group orders or monotone circuit lower bounds for k-CLIQUE.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2504.19966",
+      "title": "Quantum circuit lower bounds in the magic hierarchy",
+      "abstract_excerpt": "We introduce the magic hierarchy, a quantum circuit model that alternates between arbitrary-sized Clifford circuits and constant-depth circuits with two-qubit gates ($\\textsf{QNC}^0$). This model unifies existing circuit models, such as $\\textsf{QAC}^0_f$ and models with adaptive intermediate measurements. Despite its generality, we are able to prove nontrivial lower bounds.\n  We prove new lower bounds in the first level of the hierarchy, showing that certain explicit quantum states cannot be ap",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses quantum circuit lower bounds and the magic hierarchy, which does not interact with the specific claim about minimal symmetry group order in graphs and monotone circuit lower bounds for k-CLIQUE.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
