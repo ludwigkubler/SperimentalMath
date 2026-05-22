@@ -1,0 +1,40 @@
+{
+  "entry_id": "a62ecea5349a",
+  "ts": 1779458449.630628,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1705.09379",
+      "title": "Tensor rank is not multiplicative under the tensor product",
+      "abstract_excerpt": "The tensor rank of a tensor t is the smallest number r such that t can be decomposed as a sum of r simple tensors. Let s be a k-tensor and let t be an l-tensor. The tensor product of s and t is a (k + l)-tensor. Tensor rank is sub-multiplicative under the tensor product. We revisit the connection between restrictions and degenerations. A result of our study is that tensor rank is not in general multiplicative under the tensor product. This answers a question of Draisma and Saptharishi. Specifica",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the properties of tensor rank under the tensor product, but does not mention communication complexity of XOR-AND networks or the specific relationship between tensor product algebra rank and communication complexity proposed in the conjecture, driven by phrases such as 'tensor rank is not in general multiplicative under the tensor product'.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1712.02454",
+      "title": "On the structures of hive algebras and tensor product algebras for general linear groups of low rank",
+      "abstract_excerpt": "The tensor product algebra TA(n) for the complex general linear group GL(n), introduced by Howe et al., describes the decomposition of tensor products of irreducible polynomial representations of GL(n). Using the hive model for the Littlewood-Richardson coefficients, we provide a finite presentation of the algebra TA(n) for n=2, 3, 4 in terms of generators and relations, thereby giving a description of highest weight vectors of irreducible representations in the tensor products. We also compute ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the structure of tensor product algebras for general linear groups, but does not mention communication complexity of XOR-AND networks or the minimal rank of tensor product algebras in relation to it, as stated in the conjecture phrase 'the minimal rank of the tensor product algebra associated with the instance is less than or equal to some constant c.'",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1102.2932",
+      "title": "Applications of Monotone Rank to Complexity Theory",
+      "abstract_excerpt": "Raz's recent result \\cite{Raz2010} has rekindled people's interest in the study of \\emph{tensor rank}, the generalization of matrix rank to high dimensions, by showing its connections to arithmetic formulas. In this paper, we follow Raz's work and show that \\emph{monotone rank}, the monotone variant of tensor rank and matrix rank, has applications in algebraic complexity, quantum computing and communication complexity. This paper differs from Raz's paper in that it leverages existing results to ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses monotone rank and its applications in algebraic complexity, quantum computing, and communication complexity, but does not specifically address the minimal rank of tensor product algebras and its relation to the communication complexity of XOR-AND networks, as stated in the conjecture.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

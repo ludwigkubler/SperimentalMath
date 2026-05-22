@@ -1,0 +1,40 @@
+{
+  "entry_id": "fa7bba91f17b",
+  "ts": 1779460136.954544,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1509.06942",
+      "title": "Symmetric Decompositions and the Strong Sperner Property for Noncrossing Partition Lattices",
+      "abstract_excerpt": "We prove that the noncrossing partition lattices associated with the complex reflection groups $G(d,d,n)$ for $d,n\\geq 2$ admit symmetric decompositions into Boolean subposets. As a result, these lattices have the strong Sperner property and their rank-generating polynomials are symmetric, unimodal, and $γ$-nonnegative. We use computer computations to complete the proof that every noncrossing partition lattice associated with a well-generated complex reflection group is strongly Sperner, thus an",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses symmetric decompositions and the strong Sperner property for noncrossing partition lattices, which shares vocabulary with the conjecture, but does not interact with the specific claim about the relationship between the minimal rank of noncrossing partitions and randomized communication complexity for tensor product disjointness.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2212.13799",
+      "title": "Noncrossing partitions of a marked surface",
+      "abstract_excerpt": "We define noncrossing partitions of a marked surface without punctures (interior marked points). We show that the natural partial order on noncrossing partitions is a graded lattice and describe its rank function topologically. Lower intervals in the lattice are isomorphic to products of noncrossing partition lattices of other surfaces. We similarly define noncrossing partitions of a symmetric marked surface with double points and prove some of the analogous results. The combination of symmetry ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses noncrossing partitions of a marked surface, but does not mention tensor product disjointness or communication complexity, which are the core concepts of the conjecture, driven by the phrase 'We define noncrossing partitions of a marked surface without punctures'.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1604.06009",
+      "title": "Oriented Flip Graphs and Noncrossing Tree Partitions",
+      "abstract_excerpt": "In this paper, we study the lattice properties of posets of torsion pairs in the module category of a family of representation-finite gentle algebras called tiling algebras, introduced by Coelho Simoes and Parsons. We present a combinatorial model for torsion pairs using polyogonal subdivisions of a convex polygon. We use this model and the lattice theory to classify 2-term simple-minded collections in the bounded derived category of the corresponding tiling algebra. As a consequence, we obtain ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses noncrossing tree partitions and their relation to lattice theory and quiver mutation, but does not mention communication complexity or tensor product disjointness, which are central to the conjecture.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
