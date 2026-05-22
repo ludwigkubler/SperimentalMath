@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-05-22T01:47:02Z",
-  "total_cycles": 1207,
+  "last_update_utc": "2026-05-22T02:47:03Z",
+  "total_cycles": 1221,
   "verdict_counts": {
-    "INCONCLUSIVE": 1084,
+    "INCONCLUSIVE": 1092,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 99,
+    "BARRIER_HIT": 105,
     "SCOOPED": 4
   },
-  "unique_field_A": 692,
+  "unique_field_A": 697,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
@@ -44,7 +44,7 @@
     ],
     [
       "Tropical Geometry",
-      13
+      14
     ],
     [
       "Noncommutative L^p Geometry",

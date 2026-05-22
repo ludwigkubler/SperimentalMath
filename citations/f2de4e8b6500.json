@@ -1,0 +1,22 @@
+{
+  "entry_id": "f2de4e8b6500",
+  "ts": 1779415215.3308957,
+  "hits_evaluated": 1,
+  "verdicts": [
+    {
+      "paper_id": "s2:hep-th/9808155",
+      "title": "Extended Iterative Scheme for QCD: the Four-Gluon Vertex",
+      "abstract_excerpt": "We study the self-consistency problem of the generalized Feynman rule ( nonperturbatively modified vertex of zeroth perturbative order ) for the 4-gluon vertex function in the framework of an extended perturbation scheme accounting for non-analytic coupling dependence through the Λ scale. Tensorial ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the 4-gluon vertex function in QCD and an extended perturbation scheme, which has no interaction with affine representations, minimal rank, or monotone circuit complexity for k-CLIQUE.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "8906f7dde118",
+  "ts": 1779416514.482234,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/hep-th/0203076v1",
+      "title": "Extremal Black Holes in Supergravity and the Bekenstein-Hawking Entropy",
+      "abstract_excerpt": "We review some results on the connection among supergravity central charges, BPS states and Bekenstein-Hawking entropy. In particular, N=2 supergravity in four dimensions is studied in detail. For higher N supergravities we just give an account of the general theory specializing the discussion to th",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses supergravity central charges, BPS states, and Bekenstein-Hawking entropy of extremal black holes, which has no bearing on tensor product entropy bounds for read-twice branching programs.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2107.06797v4",
+      "title": "Special Vinberg Cones and the Entropy of BPS Extremal Black Holes",
+      "abstract_excerpt": "We consider the static, spherically symmetric and asymptotically flat BPS extremal black holes in ungauged N = 2 D = 4 supergravity theories, in which the scalar manifold of the vector multiplets is homogeneous. By a result of Shmakova on the BPS attractor equations, the entropy of this kind of blac",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns BPS extremal black hole entropy in N=2 D=4 supergravity with homogeneous scalar manifolds, which shares no topical overlap with branching program complexity or tensor product entropy as defined in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1208.1820v2",
+      "title": "Holographic entanglement entropy of the near horizon 1/4 BPS F-D$p$ bound states",
+      "abstract_excerpt": "It was shown in Dey and Roy (2012) that the near horizon limit of the 1/4 BPS threshold F-D$p$ (for $0\\leq p \\leq 5$, $p \\neq 4$) bound state solutions of type II string theories give rise to space-time metrics endowed with Lifshitz scaling along with hyperscaling violation. Here we compute the holo",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns holographic entanglement entropy of BPS F-Dp bound states in string theory with Lifshitz scaling and hyperscaling violation, which shares no substantive interaction with read-twice branching program complexity or tensor product entropy bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
