@@ -1,0 +1,40 @@
+{
+  "entry_id": "68c92001b8ed",
+  "ts": 1779454924.5444808,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1302.3360",
+      "title": "Lower bounds for the circuit size of partially homogeneous polynomials",
+      "abstract_excerpt": "In this paper we associate to each multivariate polynomial $f$ that is homogeneous relative to a subset of its variables a series of polynomial families $P_λ(f)$ of $m$-tuples of homogeneous polynomials of equal degree such that the circuit size of any member in $P_λ(f)$ is bounded from above by the circuit size of $f$. This provides a method for obtaining lower bounds for the circuit size of $f$ by proving $(s,r)$-(weak) elusiveness of the polynomial mapping associated with $P_λ(f)$. We discuss",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses lower bounds for circuit size of partially homogeneous polynomials, but does not mention Schur algebras or permutation circuit thresholds, which are central to the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2006.14812",
+      "title": "Polynomial invariants on matrices and partition, Brauer algebra",
+      "abstract_excerpt": "We identify the dimension of the centralizer of the symmetric group $\\mathfrak{S}_d$ in the partition algebra $\\mathcal{A}_d(δ)$ and in the Brauer algebra $\\mathcal{B}_d(δ)$ with the number of multidigraphs with $d$ arrows and the number of disjoint union of directed cycles with $d$ arrows, respectively. Using Schur-Weyl duality as a fundamental theory, we conclude that each centralizer is related with the $G$-invariant space $P^d(M_n(\\mathbf{k}))^G$ of degree $d$ homogeneous polynomials on $n \\",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the dimension of centralizers in partition and Brauer algebras and their relation to homogeneous polynomials on matrices, but does not mention permutation circuit complexity or thresholds, which are central to the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/9211210v1",
+      "title": "Polynomial Schur and Polynomial Dunford-Pettis Properties",
+      "abstract_excerpt": "A Banach space is {\\it polynomially Schur} if sequential convergence against analytic polynomials implies norm convergence. Carne, Cole and Gamelin show that a space has this property and the Dunford-Pettis property if and only if it is Schur. Herein is defined a reasonable generalization of the Dun",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses polynomial Schur and Dunford-Pettis properties in the context of Banach spaces, which does not interact with the specific claim about the minimal rank of Schur algebras and permutation circuit thresholds.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

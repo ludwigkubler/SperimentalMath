@@ -1,18 +1,18 @@
 {
-  "last_update_utc": "2026-05-22T12:47:02Z",
-  "total_cycles": 1351,
+  "last_update_utc": "2026-05-22T13:47:03Z",
+  "total_cycles": 1364,
   "verdict_counts": {
-    "INCONCLUSIVE": 1168,
+    "INCONCLUSIVE": 1175,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 155,
-    "SCOOPED": 8
+    "BARRIER_HIT": 159,
+    "SCOOPED": 10
   },
-  "unique_field_A": 749,
+  "unique_field_A": 755,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
-      66
+      67
     ],
     [
       "Schur-Weyl Duality",
@@ -31,11 +31,11 @@
       26
     ],
     [
-      "Tropical Geometry",
-      25
+      "Algebraic Combinatorics",
+      26
     ],
     [
-      "Algebraic Combinatorics",
+      "Tropical Geometry",
       25
     ],
     [
@@ -63,11 +63,11 @@
       12
     ],
     [
-      "Spectral Graph Theory",
-      11
+      "p-adic Analysis",
+      12
     ],
     [
-      "p-adic Analysis",
+      "Spectral Graph Theory",
       11
     ]
   ]

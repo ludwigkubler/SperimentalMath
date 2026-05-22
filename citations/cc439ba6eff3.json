@@ -1,0 +1,40 @@
+{
+  "entry_id": "cc439ba6eff3",
+  "ts": 1779454443.6517253,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/alg-geom/9312001v2",
+      "title": "The Functor of a Smooth Toric Variety",
+      "abstract_excerpt": "A map Y -&gt; P^n is determined by a line bundle quotient of (O_Y)^{n+1}. In this paper, we generalize this description to the case of maps from Y to an arbitrary smooth toric variety. The data needed to determine such a map consists of a collection of line bundles on Y together with a section of ea",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses maps from a variety Y to a smooth toric variety, which shares vocabulary with the conjecture, but does not interact with the specific claim about geometric entropy and sum-of-squares hierarchy degree, as seen in the phrase 'A map Y -> P^n is determined by a line bundle quotient of (O_Y)^{n+1}'.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1407.6945",
+      "title": "Low degree hypersurfaces of projective toric varieties defined over a $C_1$ field have a rational point",
+      "abstract_excerpt": "Quasi algebraically closed fields, or $C_1$ fields, are defined in terms of a low degree condition. Namely, the field $K$ is $C_1$ if every degree $d$ hypersurface of the projective space $\\mathbb{P}_K^n$ contains a $K$-point as soon as $d\\leq n$. In this article we define a notion of low toric degree generalizing this condition for hypersurfaces of simplicial projective split toric varieties. This allows us to prove a particular case of the $C_1$ conjecture of Kollár, Lang and Manin : any smoot",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses rational points on hypersurfaces of projective toric varieties over $C_1$ fields, which does not interact with the specific claim about the relationship between geometric entropy and SOS hierarchy degree in the context of the max-CUT problem.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1312.6797",
+      "title": "Spaces of algebraic maps from real projective spaces to toric varieties",
+      "abstract_excerpt": "The problem of approximating the infinite dimensional space of all continuous maps from an algebraic variety $X$ to an algebraic variety $Y$ by finite dimensional spaces of algebraic maps arises in several areas of geometry and mathematical physics. An often considered formulation of the problem (sometimes called the Atiyah-Jones problem after \\cite{AJ}) is to determine a (preferably optimal) integer $n_D$ such that the inclusion from this finite dimensional algebraic space into the correspondin",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses algebraic maps from real projective spaces to toric varieties, which shares vocabulary with the conjecture, but does not interact with the specific claim about geometric entropy and sum-of-squares hierarchy degree.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

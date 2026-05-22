@@ -1,7 +1,7 @@
 {
   "node_id": "TARGET_MONOTONE_NP_GAP",
   "instance_class": "random_3sat",
-  "ts": 1779409381.9489224,
+  "ts": 1779452581.5517955,
   "result": {
     "instance_class": "random_3sat",
     "n_range": [
@@ -31,7 +31,7 @@
         "n": 8,
         "seed": 1,
         "sat": true,
-        "runtime_s": 0.0012,
+        "runtime_s": 0.0013,
         "conflicts": 0,
         "decisions": 0,
         "propagations": 8,
@@ -44,7 +44,7 @@
         "n": 12,
         "seed": 0,
         "sat": true,
-        "runtime_s": 0.0012,
+        "runtime_s": 0.0013,
         "conflicts": 0,
         "decisions": 0,
         "propagations": 35,
@@ -135,7 +135,7 @@
         "n": 24,
         "seed": 1,
         "sat": true,
-        "runtime_s": 0.0018,
+        "runtime_s": 0.0015,
         "conflicts": 0,
         "decisions": 0,
         "propagations": 181,
@@ -153,7 +153,7 @@
         "n_total": 2
       },
       "n=12": {
-        "median_runtime_s": 0.0012,
+        "median_runtime_s": 0.0013,
         "median_conflicts": 0,
         "n_timeout": 0,
         "n_total": 2
@@ -171,13 +171,13 @@
         "n_total": 2
       },
       "n=24": {
-        "median_runtime_s": 0.0017,
+        "median_runtime_s": 0.0015,
         "median_conflicts": 0,
         "n_timeout": 0,
         "n_total": 2
       },
       "fit": {
-        "runtime_loglog_slope": 0.24178540309287833,
+        "runtime_loglog_slope": 0.13314605595063383,
         "conflicts_loglog_slope": 0.0
       }
     }
