@@ -1,0 +1,40 @@
+{
+  "entry_id": "0ae0ecdc6acd",
+  "ts": 1779478957.1422882,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1406.3065",
+      "title": "Lower Bounds for Tropical Circuits and Dynamic Programs",
+      "abstract_excerpt": "Tropical circuits are circuits with Min and Plus, or Max and Plus operations as gates. Their importance stems from their intimate relation to dynamic programming algorithms. The power of tropical circuits lies somewhere between that of monotone boolean circuits and monotone arithmetic circuits. In this paper we present some lower bounds arguments for tropical circuits, and hence, for dynamic programs.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses lower bounds for tropical circuits and their relation to dynamic programming algorithms, but does not mention the minimal entropy of tropicalized boolean functions or ACC⁰ circuit complexity, which are the key concepts in the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2504.19966",
+      "title": "Quantum circuit lower bounds in the magic hierarchy",
+      "abstract_excerpt": "We introduce the magic hierarchy, a quantum circuit model that alternates between arbitrary-sized Clifford circuits and constant-depth circuits with two-qubit gates ($\\textsf{QNC}^0$). This model unifies existing circuit models, such as $\\textsf{QAC}^0_f$ and models with adaptive intermediate measurements. Despite its generality, we are able to prove nontrivial lower bounds.\n  We prove new lower bounds in the first level of the hierarchy, showing that certain explicit quantum states cannot be ap",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses quantum circuit lower bounds in the magic hierarchy, which does not interact with the specific claim about the relationship between the minimal entropy of tropicalized Boolean functions and ACC⁰ circuit lower bounds.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2511.07739",
+      "title": "A Lower Bound for the Fourier Entropy of Boolean Functions on the Biased Hypercube",
+      "abstract_excerpt": "We study Boolean functions on the $p$-biased hypercube $(\\{0,1\\}^n,μ_p^n)$ through the lens of Fourier (spectral) entropy, i.e. the Shannon entropy of the squared $p$-biased Fourier coefficients. Motivated by recent restriction-based advances on upper bounds toward the Fourier-Entropy-Influence (FEI) conjecture, we prove a complementary, sharp lower bound that decomposes the entropy into coordinate-wise contributions. Let $q:=4p(1-p)$ and define $Ψ:[0,\\tfrac12]\\to[0,\\ln 2]$ by $Ψ(t):=h\\left(\\fra",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Fourier entropy of Boolean functions on the biased hypercube, which shares vocabulary with the conjecture, but does not interact with the specific claim about the minimal entropy of tropicalized Boolean functions and ACC⁰ circuit lower bounds, as seen in phrases like 'Fourier (spectral) entropy' and 'Boolean functions on the $p$-biased hypercube'.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
