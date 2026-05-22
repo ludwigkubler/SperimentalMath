@@ -1,0 +1,40 @@
+{
+  "entry_id": "0a921072512c",
+  "ts": 1779492444.0380273,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1607.07232",
+      "title": "Completeness of projective special Kähler and quaternionic Kähler manifolds",
+      "abstract_excerpt": "We prove that every projective special Kähler manifold with \\emph{regular boundary behaviour} is complete and defines a family of complete quaternionic Kähler manifolds depending on a parameter $c\\ge 0$. We also show that, irrespective of its boundary behaviour, every complete projective special Kähler manifold with \\emph{cubic prepotential} gives rise to such a family. Examples include non-trivial deformations of non-compact symmetric quaternionic Kähler manifolds.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the completeness of projective special Kähler and quaternionic Kähler manifolds, which shares vocabulary with the conjecture, but does not interact with the specific claim about the minimal rank of tropicalized quaternionic Kähler manifolds and its relation to monotone circuit depth for k-CLIQUE.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1901.11166",
+      "title": "An analogue of the Gibbons-Hawking Ansatz for quaternionic Kähler spaces",
+      "abstract_excerpt": "We show that the geometry of $4n$-dimensional quaternionic Kähler spaces with a locally free $\\mathbb{R}^{n+1}$-action admits a Gibbons-Hawking-like description based on the Galicki-Lawson notion of quaternionic Kähler moment map. This generalizes to higher dimensions a four-dimensional construction, due to Calderbank and Pedersen, of self-dual Einstein manifolds with two linearly independent commuting Killing vector fields. As an application, we use this new Ansatz to give an explicit equivaria",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses quaternionic Kähler spaces and their geometric properties, but does not mention tropicalization, minimal rank, or monotone circuit complexity, which are the key concepts in the conjecture, driven by the phrase 'We show that the geometry of $4n$-dimensional quaternionic Kähler spaces...'.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2206.07946",
+      "title": "Hermitian structures on a class of quaternionic Kähler manifolds",
+      "abstract_excerpt": "Any quaternionic Kähler manifold $(\\bar N,g_{\\bar N},\\mathcal Q)$ equipped with a Killing vector field $X$ with nowhere vanishing quaternionic moment map carries an integrable almost complex structure $J_1$ that is a section of the quaternionic structure $\\mathcal Q$. Using the HK/QK correspondence, we study properties of the almost Hermitian structure $(g_{\\bar N},\\tilde J_1)$ obtained by changing the sign of $J_1$ on the distribution spanned by $X$ and $J_1X$. In particular, we derive necessar",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Hermitian structures on quaternionic Kähler manifolds, but does not mention tropicalization, minimal rank, or monotone circuit depth, which are key concepts in the conjecture.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

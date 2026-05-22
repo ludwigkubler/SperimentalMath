@@ -1,0 +1,40 @@
+{
+  "entry_id": "c1ce4a4a2e2e",
+  "ts": 1779491812.316972,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1807.06283",
+      "title": "Tropical Fano Schemes",
+      "abstract_excerpt": "We define a tropical version $\\F_d(\\trop X)$ of the Fano Scheme $\\F_d(X)$ of a projective variety $X\\subseteq \\mathbb P^n$ and prove that $\\F_d(\\trop X)$ is the support of a polyhedral complex contained in $\\trop \\Grp(d,n)$. In general $\\trop \\F_d(X)\\subseteq \\F_d(\\trop X)$ but we construct linear spaces $L$ such that $\\trop \\F_1(X)\\subsetneq \\F_1(\\trop X)$ and show that for a toric variety $\\trop \\F_d(X)=\\F_d(\\trop X)$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses tropical Fano schemes and their relation to projective varieties, but does not mention branching programs, geometric quantization, or complexity theory, which are central to the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2601.23259",
+      "title": "Geometric Quantization by Paths, Part III: The Metaplectic Anomaly",
+      "abstract_excerpt": "In the previous parts of this work, we established the Prequantum Groupoid $\\mathbf{T}_ω$ as the universal geometric container for quantum mechanics. This approach, which we call the \"Geometric Quantization by Paths\" (GQbP) framework, replaces the traditional construction of principal bundles with the distillation of the space of histories. In this third part, we cross the \"Threshold of Analysis\" by constructing the intrinsic observable algebra of the system. The harmonic oscillator is treated h",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses geometric quantization by paths and the metaplectic anomaly, but does not mention branching programs, tropicalized geometric quantization, or inner product mod 2, which are key components of the conjecture, as seen in phrases like 'Geometric Quantization by Paths' and 'intrinsic observable algebra'.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0511713v2",
+      "title": "Tropical Plane Geometric Constructions: a Transfer Technique in Tropical Geometry",
+      "abstract_excerpt": "The notion of geometric construction is introduced. This notion allows to compare incidence configurations in the algebraic and tropical plane. We provide an algorithm such that, given a tropical instance of a geometric construction, it computes sufficient conditions to have an algebraic counterpart",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses tropical plane geometric constructions and an algorithm for finding algebraic counterparts, but does not mention branching programs, geometric quantization, or minimal rank, which are key concepts in the conjecture.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

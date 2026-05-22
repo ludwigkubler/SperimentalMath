@@ -1,0 +1,40 @@
+{
+  "entry_id": "32ff8743153e",
+  "ts": 1779490518.2927942,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2407.15508",
+      "title": "Compensate Quantization Errors+: Quantized Models Are Inquisitive Learners",
+      "abstract_excerpt": "The quantization of large language models (LLMs) has been a prominent research area aimed at enabling their lightweight deployment in practice. Existing research about LLM's quantization has mainly explored the interplay between weights and activations, or employing auxiliary components while neglecting the necessity of adjusting weights during quantization. Consequently, original weight distributions frequently fail to yield desired results after round-to-nearest (RTN) quantization. Even though",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses quantization of large language models and techniques for improving weight quantization, which does not interact with the specific claim about the minimal rank of geometric quantization over manifolds and its relation to resolution proof length for non-clausal Tseitin formulas.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1912.08047",
+      "title": "The Benefits of Affine Quantization",
+      "abstract_excerpt": "Canonical quantization has served wonderfully for the quantization of a vast number of classical systems. That includes single classical variables, such as $p$ and $q$, and numerous classical Hamiltonians $H(p,q)$, as well as field theories, such as $π(x)$ and $ φ(x)$, and many classical Hamiltonians $H(π,φ)$. However, in all such systems there are situations for which canonical quantization fails. This includes certain particle and field theory problems. Affine quantization involves a simple re",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the benefits of affine quantization and its applications to various systems, but does not mention geometric quantization over manifolds, non-clausal Tseitin formulas, or resolution proof complexity, which are the key concepts in the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2406.16299",
+      "title": "Compensate Quantization Errors: Make Weights Hierarchical to Compensate Each Other",
+      "abstract_excerpt": "Emergent Large Language Models (LLMs) use their extraordinary performance and powerful deduction capacity to discern from traditional language models. However, the expenses of computational resources and storage for these LLMs are stunning, quantization then arises as a trending conversation. To address accuracy decay caused by quantization, two streams of works in post-training quantization methods stand out. One uses other weights to compensate existing quantization error, while the other tran",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses quantization in the context of Large Language Models and proposes a method to compensate for quantization errors, which is unrelated to geometric quantization over manifolds or resolution proof complexity for non-clausal Tseitin formulas.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

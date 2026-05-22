@@ -1,0 +1,40 @@
+{
+  "entry_id": "bb4250a93b9e",
+  "ts": 1779490138.439603,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1603.07248",
+      "title": "Flat vector bundles and open coverings",
+      "abstract_excerpt": "We establish a generic counting formula for the Euler number of a flat vector bundle of rank $2n$ over a $2n$ dimensional closed manifold, in terms of vertices of transversal open coverings of the underlying manifold. We use the Mathai-Quillen formalism to prove our result.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses flat vector bundles and Euler numbers over manifolds, which shares vocabulary with monodromy representations and vector bundles, but does not interact with the specific claim about Boolean circuit size for XOR-AND networks and minimal rank of monodromy representations, as driven by the phrase 'Euler number of a flat vector bundle of rank $2n$'.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1501.02540",
+      "title": "Equivariant vector bundles on complete symmetric varieties of minimal rank",
+      "abstract_excerpt": "Let $X$ be the wonderful compactification of a complex symmetric space $G/H$ of minimal rank. For a point $x\\,\\in\\, G$, denote by $Z$ be the closure of $BxH/H$ in $X$, where $B$ is a Borel subgroup of $G$. The universal cover of $G$ is denoted by $\\widetilde{G}$. Given a $\\widetilde{G}$ equivariant vector bundle $E$ on $X,$ we prove that $E$ is nef (respectively, ample) if and only if its restriction to $Z$ is nef (respectively, ample). Similarly, $E$ is trivial if and only if its restriction to",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses equivariant vector bundles on complete symmetric varieties of minimal rank, which shares vocabulary with algebraic geometry, but does not interact with the specific claim about Boolean circuit size for XOR-AND networks and monodromy representations.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1010.1825",
+      "title": "Equations for secant varieties via vector bundles",
+      "abstract_excerpt": "We introduce vector bundle techniques for finding equations of secant varieties. A test is established that determines when a secant variety is an irreducible component of the zero set of the equations found. We also prove an induction theorem for varieties that are not weakly defective, that allows one to conclude that the zero set of the equations found for s_{r-1}(X) have s_{r-1}(X) as an irreducible component when s_r(X) is an irreducible component of the equations found for it. The techniqu",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses vector bundle techniques for finding equations of secant varieties, which shares vocabulary with the conjecture, but does not interact with the specific claim about the minimal rank of monodromy representations and Boolean circuit size for XOR-AND networks, as seen in phrases like 'equations for secant varieties via vector bundles' that do not imply any relationship to Boolean circuits or monodromy representations.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
