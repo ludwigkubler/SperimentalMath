@@ -1,0 +1,40 @@
+{
+  "entry_id": "b2acbd351d58",
+  "ts": 1779452753.7132154,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1207.2443",
+      "title": "Tropical Teichmuller and Siegel spaces",
+      "abstract_excerpt": "In this paper, we present a unified study of the moduli space of tropical curves and Outer space which we link via period maps to the moduli space of tropical abelian varieties and the space of positive definite quadratic forms. Our work is a first step towards exhibiting Outer space and the space of positive definite quadratic forms as analogues of Teichmüller space and Siegel space, respectively, in tropical geometry. All these spaces and the maps among them are described within the category o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses moduli spaces and tropical geometry, but does not mention Resolution refutation length or Tseitin formulas, which are central to the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1306.3497",
+      "title": "The number of vertices of a tropical curve is bounded by its area",
+      "abstract_excerpt": "We introduce the notion of tropical area of a tropical curve defined in an open subset of $\\mathbb R^n$. We prove that the number of vertices of a tropical curve is bounded by the area of the curve. The approach is totally elementary yet tricky. Our proof employs ideas from intersection theory in algebraic geometry. The result can be interpreted as the fact that the moduli space of tropical curves with bounded area is of finite type.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the relationship between the number of vertices of a tropical curve and its area, which does not directly interact with the claim about the length of Resolution refutations and the rank of tropical curves.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1001.1554",
+      "title": "Tropical geometry and correspondence theorems via toric stacks",
+      "abstract_excerpt": "In this paper we generalize correspondence theorems of Mikhalkin and Nishinou-Siebert providing a correspondence between algebraic and parameterized tropical curves. We also give a description of a canonical tropicalization procedure for algebraic curves motivated by Berkovich's construction of skeletons of analytic curves. Under certain assumptions, we construct a one-to-one correspondence between algebraic curves satisfying toric constraints and certain combinatorially defined objects, called ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses correspondence theorems between algebraic and tropical curves, but does not mention Resolution refutation length or the rank of tropical curves, which are central to the conjecture.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "d30c82a84664",
+  "ts": 1779451534.1101954,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/2212.13799v6",
+      "title": "Noncrossing partitions of a marked surface",
+      "abstract_excerpt": "We define noncrossing partitions of a marked surface without punctures (interior marked points). We show that the natural partial order on noncrossing partitions is a graded lattice and describe its rank function topologically. Lower intervals in the lattice are isomorphic to products of noncrossing",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses noncrossing partitions of a marked surface, which shares vocabulary with the conjecture, but does not mention permutation circuit complexity, ranks of noncrossing partitions in relation to permutation size, or inversion counts, which are central to the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1604.06009v2",
+      "title": "Oriented Flip Graphs and Noncrossing Tree Partitions",
+      "abstract_excerpt": "In this paper, we study the lattice properties of posets of torsion pairs in the module category of a family of representation-finite gentle algebras called tiling algebras, introduced by Coelho Simoes and Parsons. We present a combinatorial model for torsion pairs using polyogonal subdivisions of a",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses lattice properties of posets of torsion pairs in module categories, which shares vocabulary with algebraic combinatorics but does not interact with the specific claim about minimal rank of noncrossing partitions and permutation circuit threshold, driven by the abstract phrase 'lattice properties of posets of torsion pairs'.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1904.05573v3",
+      "title": "$k$-Indivisible Noncrossing Partitions",
+      "abstract_excerpt": "For a fixed integer $k$, we consider the set of noncrossing partitions, where both the block sizes and the difference between adjacent elements in a block is $1\\bmod k$. We show that these $k$-indivisible noncrossing partitions can be recovered in the setting of subgroups of the symmetric group gene",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses $k$-indivisible noncrossing partitions, which shares vocabulary with the conjecture, but does not interact with the specific claim about the minimal rank of noncrossing partitions in relation to permutation circuit threshold, driven by the phrase 'we consider the set of noncrossing partitions, where both the block sizes and the difference between adjacent elements in a block is $1\bmod k$'.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
