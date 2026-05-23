@@ -2008,5 +2008,7 @@
 {"ts": 1779562804.128261, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 2000, "cap": 2000, "fraction": 1.0, "weekly_budget": 2500}}
 {"ts": 1779564603.7362058, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 27}}
 {"ts": 1779564603.855338, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 2000, "cap": 2000, "fraction": 1.0, "weekly_budget": 2500}}
-{"ts": 1779568501.3698, "ts_iso": "2026-05-23T20:35:01.369800+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "OK", "to_status": "CRITICAL", "failing_checks": ["explorer_process"], "auto_fixed": false}
-{"ts": 1779568801.889275, "ts_iso": "2026-05-23T20:40:01.889275+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "CRITICAL", "to_status": "OK", "failing_checks": [], "auto_fixed": false}
+{"ts": 1779566410.8089879, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 27}}
+{"ts": 1779566412.9377604, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1992, "cap": 2000, "fraction": 0.996, "weekly_budget": 2500}}
+{"ts": 1779568203.8322215, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 27}}
+{"ts": 1779568203.9417272, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1989, "cap": 2000, "fraction": 0.995, "weekly_budget": 2500}}

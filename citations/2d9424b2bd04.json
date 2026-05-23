@@ -1,0 +1,40 @@
+{
+  "entry_id": "2d9424b2bd04",
+  "ts": 1779568162.8561618,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2406.15089",
+      "title": "Sentences over Random Groups II: Sentences of Minimal Rank",
+      "abstract_excerpt": "Random groups of density d&lt;\\frac{1}{2} are infinite hyperbolic, and of density d&gt;\\frac{1}{2} are finite. We prove the existence of a uniform quantifier elimination procedure for formulas of minimal rank (probably the superstable part of the theory). Namely, given a minimal rank formula V(p), we prove the existence of a formula \\varphi(p) that belongs to the Boolean algebra of two quantifiers, so that the two formulas V(p) and \\varphi(p) define the same set over the free group F_{k} and ove",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'quantifier elimination procedure for formulas of minimal rank' over random groups and free groups—a model-theoretic result sharing only the term 'minimal rank' with the conjecture, with no connection to Kostant partition functions or monotone circuit complexity for k-CLIQUE.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1710.07343",
+      "title": "Fractional Minimal Rank",
+      "abstract_excerpt": "The notion of fractional minimal rank of a partial matrix is introduced, a quantity that lies between the triangular minimal rank and the minimal rank of a partial matrix. The fractional minimal rank of partial matrices whose bipartite graph is a minimal cycle are determined. Along the way, we determine the minimal rank of a partial block matrix with invertible given entries that lie on a minimal cycle. Some open questions are stated.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'fractional minimal rank' of partial matrices with bipartite graph structure, which shares only the vague word 'minimal rank' with the conjecture; it makes no mention of Kostant partition functions, symmetric group representations, or monotone circuit complexity for k-CLIQUE.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1004.2982",
+      "title": "A Theory of Transformation Monoids: Combinatorics and Representation Theory",
+      "abstract_excerpt": "The aim of this paper is to develop a theory of finite transformation monoids and in particular to study primitive transformation monoids.   We introduce the notion of orbitals and orbital digraphs for transformation monoids and prove a monoid version of D. Higman's celebrated theorem characterizing primitivity in terms of connectedness of orbital digraphs. A thorough study of the module (or representation) associated to a transformation monoid is initiated.  In particular, we compute the projec",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns transformation monoids, orbital digraphs, and representation modules — it mentions 'minimal rank' only in the context of a transformation's partition (Neumann's lemma), not Kostant partition functions or monotone circuit depth for k-CLIQUE.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
