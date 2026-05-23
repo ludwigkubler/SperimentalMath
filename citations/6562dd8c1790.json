@@ -1,0 +1,40 @@
+{
+  "entry_id": "6562dd8c1790",
+  "ts": 1779534406.444045,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/hep-th/0610278v4",
+      "title": "A Special Class of Rank 10 and 11 Coxeter Groups",
+      "abstract_excerpt": "In the course of investigating regular subalgebras of E(10) related to cosmological solutions of 11-dimensional supergravity supporting an electric 4-form field, a class of rank 10 Coxeter subgroups of the Weyl group of E(10) was uncovered (hep-th/0606123). These Coxeter groups all share the propert",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses a specific class of Coxeter groups related to E(10) and 11-dimensional supergravity, but does not mention monomial ideal complexity or boolean functions, which are central to the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1908.06409",
+      "title": "Schur multipliers of special p-groups of rank 2",
+      "abstract_excerpt": "A group G is called special p-group of rank k if the commutator subgroup [G,G] and centre Z(G) are equal, which is elementary abelian p-group of rank k and G/[G,G] is also elementary abelian p-group. In this article we determine the Schur multiplier of special p-groups of rank 2 explicitly.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses special p-groups and Schur multipliers, which does not interact with the specific claim about Coxeter group rank and monomial ideal complexity, despite both being related to group theory.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2303.14697",
+      "title": "The central tree property and algorithmic problems on subgroups of free groups",
+      "abstract_excerpt": "We study the average case complexity of the uniform membership problem for subgroups of free groups, and we show that it is orders of magnitude smaller than the worst case complexity of the best known algorithms. This applies to subgroups given by a fixed number of generators as well as to subgroups given by an exponential number of generators. The main idea behind this result is to exploit a generic property of tuples of words, called the central tree property. An application is given to the av",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited abstract discusses the average case complexity of the uniform membership problem for subgroups of free groups and relates it to the central tree property. This is unrelated to the conjecture which focuses on the rank of Coxeter groups associated with monomial ideals and their relation to the degree of boolean functions.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

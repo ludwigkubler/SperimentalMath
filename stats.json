@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-05-23T10:47:02Z",
-  "total_cycles": 1673,
+  "last_update_utc": "2026-05-23T11:47:03Z",
+  "total_cycles": 1684,
   "verdict_counts": {
-    "INCONCLUSIVE": 1338,
+    "INCONCLUSIVE": 1347,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 288,
-    "SCOOPED": 27
+    "BARRIER_HIT": 289,
+    "SCOOPED": 28
   },
-  "unique_field_A": 917,
+  "unique_field_A": 923,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
@@ -63,11 +63,11 @@
       12
     ],
     [
-      "Noncommutative L^p Geometry",
+      "Schur-Weyl duality",
       12
     ],
     [
-      "Noncommutative Geometry",
+      "Noncommutative L^p Geometry",
       12
     ]
   ]

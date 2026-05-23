@@ -1,0 +1,40 @@
+{
+  "entry_id": "4a2f66dbe193",
+  "ts": 1779536076.4507675,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1808.03891",
+      "title": "Configuration Space Metrics",
+      "abstract_excerpt": "When robot manipulators decide how to reach for an object, hand it over, or obey some task constraint, they implicitly assume a Euclidean distance metric in their configuration space. Their notion of what makes a configuration closer or further is dictated by this assumption. But different distance metrics will lead to different solutions. What is efficient under a Euclidean metric might not necessarily look the most efficient or natural to a person observing the robot. In this paper, we analyze",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the effect of different metrics on robot behavior, specifically mentioning Euclidean and non-Euclidean metrics. It does not address the relationship between Riemannian metric tensor ranks and Frege proof lengths for Tseitin formulas, which is the focus of the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:0709.2572",
+      "title": "The harmonic oscillator on Riemannian and Lorentzian configuration spaces of constant curvature",
+      "abstract_excerpt": "The harmonic oscillator as a distinguished dynamical system can be defined not only on the Euclidean plane but also on the sphere and on the hyperbolic plane, and more generally on any configuration space with constant curvature and with a metric of any signature, either Riemannian (definite positive) or Lorentzian (indefinite). In this paper we study the main properties of these `curved' harmonic oscillators simultaneously on any such configuration space, using a Cayley-Klein (CK) type approach",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses properties of the harmonic oscillator in various configuration spaces with constant curvature and Lorentzian metrics, but does not mention Tseitin formulas, Frege proof length, or any ranking of Riemannian metric tensors, which are key concepts in the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2109.03192",
+      "title": "Configuration spaces over singular spaces -- I. Dirichlet-Form and Metric Measure Geometry",
+      "abstract_excerpt": "We construct a canonical differential structure on the configuration space $Υ$ over a singular base space $X$ and with a general invariant measure $μ$ on $Υ$. We present an analytic structure on $Υ$, constructing a strongly local Dirichlet form $\\mathcal E$ on $L^2(Υ, μ)$ for $μ$ in a large class of probability measures. We then investigate the geometric structure of the extended metric measure space $Υ$ endowed with the $L^2$-transportation extended distance $\\mathsf{d}_Υ$ and with the measure ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract discusses the construction of a canonical differential structure on configuration spaces and properties related to metric measure geometry, but it does not provide any information regarding the relationship between Riemannian metrics on these spaces and Frege proof lengths for Tseitin formulas. The cited paper's content is orthogonal to the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}
