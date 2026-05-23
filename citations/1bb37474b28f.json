@@ -1,0 +1,22 @@
+{
+  "entry_id": "1bb37474b28f",
+  "ts": 1779575817.5875554,
+  "hits_evaluated": 1,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2012.07673",
+      "title": "Picard modular forms and the cohomology of local systems on a Picard modular surface",
+      "abstract_excerpt": "We formulate a detailed conjectural Eichler-Shimura type formula for the cohomology of local systems on a Picard modular surface associated to the group of unitary similitudes $\\mathrm{GU}(2,1,\\mathbb{Q}(\\sqrt{-3}))$. The formula is based on counting points over finite fields on curves of genus three which are cyclic triple covers of the projective line. Assuming the conjecture we are able to calculate traces of Hecke operators on spaces of Picard modular forms. We provide ample evidence for the",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns an Eichler-Shimura type formula for cohomology of local systems on a Picard modular surface and Hecke operator traces, with no mention of k-CNF formulas, AC0c circuit depth, or any complexity-theoretic claim about minimal ranks bounded by 2^n - O(n log n).",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 0
+  }
+}
