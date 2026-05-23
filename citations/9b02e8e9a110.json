@@ -1,0 +1,40 @@
+{
+  "entry_id": "9b02e8e9a110",
+  "ts": 1779563147.6940281,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1502.00357",
+      "title": "On Restricting No-Junta Boolean Function and Degree Lower Bounds by Polynomial Method",
+      "abstract_excerpt": "Let $\\mathcal{F}_{n}^*$ be the set of Boolean functions depending on all $n$ variables. We prove that for any $f\\in \\mathcal{F}_{n}^*$, $f|_{x_i=0}$ or $f|_{x_i=1}$ depends on the remaining $n-1$ variables, for some variable $x_i$. This existent result suggests a possible way to deal with general Boolean functions via its subfunctions of some restrictions.\n  As an application, we consider the degree lower bound of representing polynomials over finite rings. Let $f\\in \\mathcal{F}_{n}^*$ and denot",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses degree lower bounds of Boolean functions over finite rings and their dependence on variable restrictions, but does not mention p-adic divergence or randomized communication complexity for disjointness. The concepts of D_p(f) and C_DISJ(n) are not addressed or implied.",
+      "judge_provider": "cerebras"
+    },
+    {
+      "paper_id": "arxiv:2302.02473",
+      "title": "Level-p-complexity of Boolean Functions using Thinning, Memoization, and Polynomials",
+      "abstract_excerpt": "This paper describes a purely functional library for computing level-$p$-complexity of Boolean functions, and applies it to two-level iterated majority. Boolean functions are simply functions from $n$ bits to one bit, and they can describe digital circuits, voting systems, etc. An example of a Boolean function is majority, which returns the value that has majority among the $n$ input bits for odd $n$. The complexity of a Boolean function $f$ measures the cost of evaluating it: how many bits of t",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract discusses level-p-complexity $ D_p(f) $ as the minimum expected cost of decision trees under Bernoulli(p) inputs, but does not mention p-adic divergence, communication complexity, or the disjointness problem. There is no reference to $ C_{DISJ}(n) $ or any connection between $ D_p(f) $ and communication complexity, making it impossible to determine if the conjecture is supported, refuted, or related.",
+      "judge_provider": "cerebras"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0512459v1",
+      "title": "A p-adic Height Function Of Cryptanalytic Significance",
+      "abstract_excerpt": "It is noted that an efficient algorithm for calculating a $p$-adic height could have cryptanalytic applications.",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract mentions a p-adic height function and its potential cryptanalytic significance but does not discuss p-adic divergence, communication complexity, or the disjointness problem. There is no information to assess the relationship between D_p(f) and C_DISJ(n).",
+      "judge_provider": "cerebras"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}

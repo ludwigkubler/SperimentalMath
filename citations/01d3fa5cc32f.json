@@ -1,0 +1,40 @@
+{
+  "entry_id": "01d3fa5cc32f",
+  "ts": 1779562222.017717,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1405.6705",
+      "title": "A categorical equivalence between affine Yokonuma-Hecke algebras and some quiver Hecke algebras",
+      "abstract_excerpt": "Inspired by the work of Rostam, we establish an explicit categorical equivalence between affine Yokonuma-Hecke algebras and quiver Hecke algebras associated to disjoint copies of quivers of (affine) type $A,$ generalizing Rouquier's categorical equivalence theorem.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses a categorical equivalence between affine Yokonuma-Hecke algebras and quiver Hecke algebras, focusing on representation-theoretic structures. It does not mention CNF formulas, AC0 circuit depth, or any complexity-theoretic notions, nor does it connect Hecke algebra element orders to computational complexity measures.",
+      "judge_provider": "cerebras"
+    },
+    {
+      "paper_id": "arxiv:1310.6668",
+      "title": "Dirac cohomology for the degenerate affine Hecke Clifford algebra",
+      "abstract_excerpt": "We define an analogue of the Dirac operator for the degenerate affine Hecke-Clifford algebra. A main result is to relate the central characters of the degenerate affine Hecke-Clifford algebra with the central characters of the Sergeev algebra via Dirac cohomology. The action of the Dirac operator on certain modules is also computed. Results in this paper could be viewed as a projective version of the Dirac cohomology of the degenerate affine Hecke algebra.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Dirac cohomology and central characters in the context of the degenerate affine Hecke-Clifford algebra and Sergeev algebra, but does not mention CNF formulas, AC0 circuit depth, or any polynomial relationship between algebraic structures and computational complexity measures. The focus is on representation-theoretic results, not computational complexity.",
+      "judge_provider": "cerebras"
+    },
+    {
+      "paper_id": "arxiv:1311.3745",
+      "title": "Affine Hecke algebras and quiver Hecke algebras",
+      "abstract_excerpt": "We give a presentation of localized affine and degenerate affine Hecke algebras of arbitrary type in terms of weights of the polynomial subalgebra and varied Demazure-BGG type operators. We offer a definition of a graded algebra $\\mathcal{H}$ whose category of finite-dimensional ungraded nilpotent modules is equivalent to the category of finite-dimensional modules over an associated degenerate affine Hecke algebra. Moreover, unlike the traditional grading on degenerate affine Hecke algebras, thi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses presentations and gradings of affine Hecke algebras, but does not mention CNF formulas, AC0 circuit depth, or minimal order of elements in relation to circuit depth, which are the key components of the conjecture.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

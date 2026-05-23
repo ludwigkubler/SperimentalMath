@@ -1,0 +1,22 @@
+{
+  "entry_id": "2912a176bf4f",
+  "ts": 1779564325.2523038,
+  "hits_evaluated": 1,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.1038/43558",
+      "title": "Counting on our brains",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper has no abstract available, so it is impossible to determine whether its content supports, refutes, or is related to the conjecture.",
+      "judge_provider": "cerebras"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 1
+  }
+}

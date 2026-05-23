@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-05-23T18:47:04Z",
-  "total_cycles": 1782,
+  "last_update_utc": "2026-05-23T19:47:03Z",
+  "total_cycles": 1800,
   "verdict_counts": {
-    "INCONCLUSIVE": 1390,
+    "INCONCLUSIVE": 1399,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 337,
-    "SCOOPED": 35
+    "BARRIER_HIT": 345,
+    "SCOOPED": 36
   },
-  "unique_field_A": 972,
+  "unique_field_A": 984,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
@@ -39,11 +39,11 @@
       28
     ],
     [
-      "Representation Theory of Symmetric Groups",
-      24
+      "Symplectic Geometry",
+      25
     ],
     [
-      "Symplectic Geometry",
+      "Representation Theory of Symmetric Groups",
       24
     ],
     [
