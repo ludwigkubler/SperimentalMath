@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-05-23T14:47:03Z",
-  "total_cycles": 1729,
+  "last_update_utc": "2026-05-23T15:47:03Z",
+  "total_cycles": 1739,
   "verdict_counts": {
-    "INCONCLUSIVE": 1366,
+    "INCONCLUSIVE": 1372,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 310,
+    "BARRIER_HIT": 314,
     "SCOOPED": 33
   },
-  "unique_field_A": 940,
+  "unique_field_A": 945,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
@@ -28,7 +28,7 @@
     ],
     [
       "Tropical Geometry",
-      32
+      33
     ],
     [
       "Matroid Theory",
@@ -44,7 +44,7 @@
     ],
     [
       "Symplectic Geometry",
-      23
+      24
     ],
     [
       "Additive Combinatorics",

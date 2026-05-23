@@ -1,0 +1,40 @@
+{
+  "entry_id": "ea65fb839888",
+  "ts": 1779549242.5897343,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0808.1762",
+      "title": "Communication Complexities of XOR functions",
+      "abstract_excerpt": "We call $F:\\{0, 1\\}^n\\times \\{0, 1\\}^n\\to\\{0, 1\\}$ a symmetric XOR function if for a function $S:\\{0, 1, ..., n\\}\\to\\{0, 1\\}$, $F(x, y)=S(|x\\oplus y|)$, for any $x, y\\in\\{0, 1\\}^n$, where $|x\\oplus y|$ is the Hamming weight of the bit-wise XOR of $x$ and $y$.\n  We show that for any such function, (a) the deterministic communication complexity is always $Θ(n)$ except for four simple functions that have a constant complexity, and (b) up to a polylog factor, the error-bounded randomized and quantum",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses communication complexities of XOR functions, but does not mention tropical geometric quantization rank, which is a key concept in the conjecture, thus it does not interact with the specific claim.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1101.4555",
+      "title": "Tight bounds on the randomized communication complexity of symmetric XOR functions in one-way and SMP models",
+      "abstract_excerpt": "We study the communication complexity of symmetric XOR functions, namely functions $f: \\{0,1\\}^n \\times \\{0,1\\}^n \\rightarrow \\{0,1\\}$ that can be formulated as $f(x,y)=D(|x\\oplus y|)$ for some predicate $D: \\{0,1,...,n\\} \\rightarrow \\{0,1\\}$, where $|x\\oplus y|$ is the Hamming weight of the bitwise XOR of $x$ and $y$. We give a public-coin randomized protocol in the Simultaneous Message Passing (SMP) model, with the communication cost matching the known lower bound for the \\emph{quantum} and \\e",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses randomized communication complexity of symmetric XOR functions and provides a public-coin randomized protocol with the communication cost matching known lower bounds for quantum and two-way models. It does not mention tropical geometric quantization rank or its relation to communication complexity, which is central to the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2307.13926",
+      "title": "Fourier Growth of Communication Protocols for XOR Functions",
+      "abstract_excerpt": "The level-$k$ $\\ell_1$-Fourier weight of a Boolean function refers to the sum of absolute values of its level-$k$ Fourier coefficients. Fourier growth refers to the growth of these weights as $k$ grows. It has been extensively studied for various computational models, and bounds on the Fourier growth, even for the first few levels, have proven useful in learning theory, circuit lower bounds, pseudorandomness, and quantum-classical separations.\n  We investigate the Fourier growth of certain funct",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Fourier growth of communication protocols for XOR functions, which is related to the analysis of protocols but does not address the relationship between tropical geometric quantization rank and communication complexity of XOR. It focuses on improving bounds for XOR-fibers and their connection with lifting theorems, rather than providing a statement about the communication complexity being upper-bounded by the tropical geometric quantization rank.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

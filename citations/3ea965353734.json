@@ -1,0 +1,40 @@
+{
+  "entry_id": "3ea965353734",
+  "ts": 1779548532.7766376,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1310.1362",
+      "title": "Complexity of linear circuits and geometry",
+      "abstract_excerpt": "We use algebraic geometry to study matrix rigidity, and more generally, the complexity of computing a matrix-vector product, continuing a study initiated by Kumar, et. al. We (i) exhibit many non-obvious equations testing for (border) rigidity, (ii) compute degrees of varieties associated to rigidity, (iii) describe algebraic varieties associated to families of matrices that are expected to have super-linear rigidity, and (iv) prove results about the ideals and degrees of cones that are of inter",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses matrix rigidity and algebraic geometry, which shares vocabulary with the conjecture's field of noncommutative geometry and algebra, but does not interact with the specific claim about noncommutative crossed products over Boolean algebras and AC0 parity circuit complexity, as seen in phrases like 'matrix rigidity' and 'algebraic varieties associated to families of matrices'.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1711.08381",
+      "title": "Symplectic, product and complex structures on 3-Lie algebras",
+      "abstract_excerpt": "In this paper, first we introduce the notion of a phase space of a 3-Lie algebra and show that a 3-Lie algebra has a phase space if and only if it is sub-adjacent to a 3-pre-Lie algebra. Then we introduce the notion of a product structure on a 3-Lie algebra using the Nijenhuis condition as the integrability condition. A 3-Lie algebra enjoys a product structure if and only if it is the direct sum (as vector spaces) of two subalgebras. We find that there are four types special integrability condit",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper's abstract focuses on the structure of 3-Lie algebras, introducing phase spaces, product structures, complex structures, and compatibility conditions. This is orthogonal to the conjecture under review, which pertains to noncommutative crossed products over Boolean algebras and AC0 parity circuit complexity.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2211.07055",
+      "title": "Geometric complexity theory for product-plus-power",
+      "abstract_excerpt": "According to Kumar's recent surprising result (ToCT'20), a small border Waring rank implies that the polynomial can be approximated as a sum of a constant and a small product of linear polynomials. We prove the converse of Kumar's result and establish a tight connection between border Waring rank and the model of computation in Kumar's result. In this way, we obtain a new formulation of border Waring rank, up to a factor of the degree. We connect this new formulation to the orbit closure problem",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited abstract discusses border Waring rank and its connection to polynomial approximation, non-border algebraic branching programs, and orbit closure problems. It does not mention Boolean algebras, noncommutative crossed products, or AC0 parity circuit complexity, which are key concepts in the conjecture under review. Therefore, it is insufficient to determine whether the paper supports, refutes, or is orthogonal to the proposed conjecture based on the abstract alone.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}
