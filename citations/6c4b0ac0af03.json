@@ -1,0 +1,40 @@
+{
+  "entry_id": "6c4b0ac0af03",
+  "ts": 1779578706.4719067,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1710.07343",
+      "title": "Fractional Minimal Rank",
+      "abstract_excerpt": "The notion of fractional minimal rank of a partial matrix is introduced, a quantity that lies between the triangular minimal rank and the minimal rank of a partial matrix. The fractional minimal rank of partial matrices whose bipartite graph is a minimal cycle are determined. Along the way, we determine the minimal rank of a partial block matrix with invertible given entries that lie on a minimal cycle. Some open questions are stated.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'fractional minimal rank of a partial matrix' in the context of bipartite graphs and minimal cycles, with no mention of GIT, affine schemes, communication complexity, or Disjointness. It shares only the generic term 'minimal rank' without engaging the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2208.01392",
+      "title": "The Analytic Minimal Rank Sard Conjecture",
+      "abstract_excerpt": "We obtain, under an additional assumption on the subanalytic abnormal distribution constructed in [4], a proof of the minimal rank Sard conjecture in the analytic category. It establishes that from a given point the set of points accessible through singular horizontal curves of minimal rank, which corresponds to the rank of the distribution, has Lebesgue measure zero. The minimal rank Sard Conjecture is equivalent to the Sard Conjecture for co-rank 1 distributions.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper concerns the 'minimal rank Sard Conjecture' for subanalytic abnormal distributions and singular horizontal curves in sub-Riemannian geometry, which shares only the phrase 'minimal rank' with the conjecture. It has no interaction with GIT, affine schemes, or communication complexity for Disjointness.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2406.15089",
+      "title": "Sentences over Random Groups II: Sentences of Minimal Rank",
+      "abstract_excerpt": "Random groups of density d&lt;\\frac{1}{2} are infinite hyperbolic, and of density d&gt;\\frac{1}{2} are finite. We prove the existence of a uniform quantifier elimination procedure for formulas of minimal rank (probably the superstable part of the theory). Namely, given a minimal rank formula V(p), we prove the existence of a formula \\varphi(p) that belongs to the Boolean algebra of two quantifiers, so that the two formulas V(p) and \\varphi(p) define the same set over the free group F_{k} and ove",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quantifier elimination for 'minimal rank' formulas over random groups in model theory, which shares only the term 'minimal rank' with the conjecture but has no connection to GIT, affine schemes, or communication complexity of Disjointness.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

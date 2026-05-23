@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-05-23T22:47:03Z",
-  "total_cycles": 1841,
+  "last_update_utc": "2026-05-23T23:47:04Z",
+  "total_cycles": 1858,
   "verdict_counts": {
-    "INCONCLUSIVE": 1412,
+    "INCONCLUSIVE": 1421,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 370,
+    "BARRIER_HIT": 378,
     "SCOOPED": 39
   },
-  "unique_field_A": 1009,
+  "unique_field_A": 1014,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
@@ -40,7 +40,7 @@
     ],
     [
       "Symplectic Geometry",
-      27
+      28
     ],
     [
       "Representation Theory of Symmetric Groups",
@@ -63,11 +63,11 @@
       13
     ],
     [
-      "Random Matrix Theory",
-      12
+      "Noncommutative Geometry",
+      13
     ],
     [
-      "Schur-Weyl duality",
+      "Random Matrix Theory",
       12
     ]
   ]

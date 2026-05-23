@@ -1,0 +1,22 @@
+{
+  "entry_id": "c025cfbd6537",
+  "ts": 1779577718.9165368,
+  "hits_evaluated": 1,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0805.2977",
+      "title": "Tripartite entanglement transformations and tensor rank",
+      "abstract_excerpt": "Understanding the nature of multipartite entanglement is a central mission of quantum information theory. To this end, we investigate the question of tripartite entanglement convertibility. We find that there exists no easy criterion to determine whether a general tripartite transformation can be performed with a nonzero success probability and in fact, the problem is NP-hard. Our results are based on the connections between multipartite entanglement and tensor rank (also called Schmidt rank), a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses tripartite entanglement transformations and the connection between Schmidt/tensor rank and multipartite entanglement, but says nothing about geometric entanglement vs noncommutative crossed product tensor rank for k-CNF instances. It shares vocabulary (tensor rank, entanglement) but does not interact with the specific claim about an Ω(n^1.5) gap.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 0
+  }
+}

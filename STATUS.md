@@ -1,6 +1,6 @@
 # SEC P-vs-NP — System Status: **🟢 OK**
 
-_Updated: 2026-05-23T22:45:02.218834+00:00 (auto-refresh every 5 min)_
+_Updated: 2026-05-23T23:45:01.473511+00:00 (auto-refresh every 5 min)_
 
 - CRITICAL failures: **0**
 - DEGRADED failures: **0**
@@ -11,13 +11,13 @@ _Updated: 2026-05-23T22:45:02.218834+00:00 (auto-refresh every 5 min)_
 |:------|:-------|:-------|
 | `explorer_process` | ✅ | pid 448512 |
 | `explorer_singleton` | ✅ | 1 explorer process(es) |
-| `explorer_cycle_fresh` | ✅ | last activity 0.02h ago |
+| `explorer_cycle_fresh` | ✅ | last activity 0.00h ago |
 | `sec_entity_service` | ✅ | active |
 | `cron_service` | ✅ | active |
 | `gpu` | ✅ | NVIDIA GeForce RTX 3070 Ti |
 | `disk_under_90pct` | ✅ | 16% used |
-| `ram_above_1g` | ✅ | 14791 MB available |
-| `mirror_git_fresh` | ✅ | last commit 0.97h ago |
+| `ram_above_1g` | ✅ | 14098 MB available |
+| `mirror_git_fresh` | ✅ | last commit 0.96h ago |
 | `mirror_git_pushed` | ✅ | 0 unpushed (within tolerance) |
 | `notebook_growing` | ✅ | newest entry 1.14h ago |
 | `entity_audit_log` | ✅ | dir ok, no entries today (chat-idle) |

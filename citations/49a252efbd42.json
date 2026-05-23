@@ -1,0 +1,40 @@
+{
+  "entry_id": "49a252efbd42",
+  "ts": 1779579769.2779527,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1902.05441",
+      "title": "A Note on Entropy of Delone Sets",
+      "abstract_excerpt": "In this note we present that the patch counting entropy can be obtained as a limit and investigate which sequences of compact sets are suitable to define this quantity. We furthermore present a geometric definition of patch counting entropy for Delone sets of infinite local complexity and that the patch counting entropy of a Delone set equals the topological entropy of the corresponding Delone dynamical system. We present our results in the context of (non-compact) locally compact Abelian groups",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns patch counting entropy and topological entropy of Delone dynamical systems in locally compact Abelian groups, with no mention of triangulations, matrix rank, or circuit complexity for k-CLIQUE.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1405.4233",
+      "title": "Ergodicity and dynamical localization for Delone-Anderson operators",
+      "abstract_excerpt": "We study the ergodic properties of Delone-Anderson operators, using the framework of randomly coloured Delone sets and Delone dynamical systems. In particular, we show the existence of the integrated density of states and, under some assumptions on the geometric complexity of the underlying Delone sets, we obtain information on the almost-sure spectrum of the family of random operators. We then exploit these results to study the Lifshitz-tail behaviour of the integrated density of states of a De",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns ergodic properties, integrated density of states, and dynamical localization of Delone-Anderson operators, which shares only the 'Delone' vocabulary with the conjecture. It says nothing about triangulation matrix ranks or k-CLIQUE circuit lower bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1912.05379",
+      "title": "Chaotic Delone sets",
+      "abstract_excerpt": "We present a definition of chaotic Delone set, and establish the genericity of chaos in the space of $(ε,δ)$-Delone sets for $ε\\geq δ$. We also present a hyperbolic analogue of the cut-and-project method that naturally produces examples of chaotic Delone sets.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'chaotic Delone sets' and a 'hyperbolic analogue of the cut-and-project method,' which shares vocabulary (Delone) but does not address matrix rank of Delone triangulations or any connection to k-CLIQUE circuit lower bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
