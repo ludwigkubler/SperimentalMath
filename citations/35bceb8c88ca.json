@@ -1,0 +1,40 @@
+{
+  "entry_id": "35bceb8c88ca",
+  "ts": 1779537999.0010831,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/hep-th/9201009v1",
+      "title": "Large-Small Equivalence in String Theory",
+      "abstract_excerpt": "The simplest toroidally compactified string theories exhibit a duality between large and small radii: compactification on a circle, for example, is invariant under R goes to 1/R. Compactification on more general Lorentzian lattices (i.e. toroidal compactification in the presence of background metric",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses string theory and compactification, which does not interact with the specific claim about Morse theory and resolution proof complexity for k-CNF formulas.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2504.04416v1",
+      "title": "Meta-Mathematics of Computational Complexity Theory",
+      "abstract_excerpt": "We survey results on the formalization and independence of mathematical statements related to major open problems in computational complexity theory. Our primary focus is on recent findings concerning the (un)provability of complexity bounds within theories of bounded arithmetic. This includes the t",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the formalization and independence of mathematical statements in computational complexity theory, but does not mention Morse theory or the minimal rank of geometric invariants, which are central to the conjecture; the phrase 'major open problems in computational complexity theory' is too broad to imply a connection.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1311.1421v3",
+      "title": "Multiplicative differential algebraic K-theory and applications",
+      "abstract_excerpt": "We construct a version of Beilinson's regulator as a map of sheaves of commutative ring spectra and use it to define a multiplicative variant of differential algebraic K-theory. We use this theory to give an interpretation of Bloch's construction of K_3-classes and the relation with dilogarithms. Fu",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses differential algebraic K-theory and its applications, which does not interact with the specific claim about the minimal rank of Morse complexes in relation to k-CNF formulas, as stated in the conjecture.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

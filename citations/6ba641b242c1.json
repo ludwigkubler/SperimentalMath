@@ -1,0 +1,40 @@
+{
+  "entry_id": "6ba641b242c1",
+  "ts": 1779539824.461022,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0406486v2",
+      "title": "The Morse Complex for a Morse Function on a Manifold with Corners",
+      "abstract_excerpt": "A Morse function f on a manifold with corners M allows the characterization of the Morse data for a critical point by the Morse index. In fact, a modified gradient flow allows a proof of the Morse theorems in a manner similar to that of classical Morse theory. It follows that M is homotopy equivalen",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Morse functions on manifolds with corners and the characterization of Morse data, but does not mention communication complexity, disjoint sets, or the minimal rank of the Morse complex in relation to these concepts, as stated in the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:0805.2131",
+      "title": "Functoriality in Morse theory on closed manifolds",
+      "abstract_excerpt": "We develop functoriality for Morse theory, namely, to a pair of Morse-Smale systems and a generic smooth map between the underlying manifolds we associate a chain map between the corresponding Morse complexes, which descends to the correct map on homology. This association does not in general respect composition. We give sufficient conditions under which composition is preserved. As an application we provide a new proof that the cup product as defined in Morse theory on the chain level agrees wi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract discusses developments in Morse theory, specifically on functoriality and the relationship between Morse complexes and homology. However, it does not provide any information regarding the minimal rank of Morse complex for disjoint sets or its connection to communication complexity for Disjointness, which is the focus of the conjecture.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2504.15729",
+      "title": "Strong discrete Morse theory",
+      "abstract_excerpt": "The purpose of this work is to develop a version of Forman's discrete Morse theory for simplicial complexes, based on internal strong collapses. Classical discrete Morse theory can be viewed as a generalization of Whitehead's collapses, where each Morse function on a simplicial complex $K$ defines a sequence of elementary internal collapses. This reduction guarantees the existence of a CW-complex that is homotopy equivalent to $K$, with cells corresponding to the critical simplices of the Morse ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses the development of a version of discrete Morse theory, focusing on strong collapses and their combinatorial description. The abstract does not mention anything about the minimal rank of Morse complexes in relation to communication complexity for disjointness, which is the core of the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}
