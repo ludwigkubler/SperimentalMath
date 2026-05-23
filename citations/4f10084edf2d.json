@@ -1,0 +1,31 @@
+{
+  "entry_id": "4f10084edf2d",
+  "ts": 1779556337.3553207,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.1007/s00153-019-00681-y",
+      "title": "Polynomial time ultrapowers and the consistency of circuit lower bounds",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract is not available, making it impossible to determine the relationship between the cited paper and the conjecture under review.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "s2:10.1145/3801091",
+      "title": "Towards P≠NP from Extended Frege lower bounds",
+      "abstract_excerpt": "We give a new approach to the fundamental question of whether proof complexity lower bounds for concrete propositional proof systems imply super-polynomial Boolean circuit lower bounds. We observe that any general implication from proof complexity lower bounds for a propositional proof system to super-polynomial Boolean circuit lower bounds implies unconditionally that \\({\\sf NEXP}\\) does not have Boolean circuits of polynomial size. We explore connections that are possible to establish without ",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses proof complexity lower bounds, Boolean circuit lower bounds, and connections between them, but does not mention automorphism groups or ACC⁰ circuit complexity, which are central to the conjecture, as seen in phrases like 'propositional proof systems' and 'Boolean circuit lower bounds'.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}

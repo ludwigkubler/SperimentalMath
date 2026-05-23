@@ -1995,3 +1995,8 @@
 {"ts": 1779552003.3502338, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 2000, "cap": 2000, "fraction": 1.0, "weekly_budget": 2500}}
 {"ts": 1779553803.4057477, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 27}}
 {"ts": 1779553803.519566, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 2000, "cap": 2000, "fraction": 1.0, "weekly_budget": 2500}}
+{"ts": 1779555603.3657606, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 27}}
+{"ts": 1779555603.4767644, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 2000, "cap": 2000, "fraction": 1.0, "weekly_budget": 2500}}
+{"ts": 1779557408.1526403, "kind": "TAILSCALE_DOWN", "auto_fixed": false, "detail": {}}
+{"ts": 1779557408.670143, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 27}}
+{"ts": 1779557408.769561, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 2000, "cap": 2000, "fraction": 1.0, "weekly_budget": 2500}}

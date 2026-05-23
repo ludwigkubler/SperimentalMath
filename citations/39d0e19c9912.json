@@ -1,0 +1,40 @@
+{
+  "entry_id": "39d0e19c9912",
+  "ts": 1779558335.8792856,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/quant-ph/0305192v1",
+      "title": "Photon engineering for quantum information processing",
+      "abstract_excerpt": "We study distinguishing information in the context of quantum interference involving more than one parametric downconversion (PDC) source and in the context of polarization-entangled photon pairs based on PDC. We arrive at specific design criteria for two-photon sources so that when used as part of ",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract discusses quantum interference and design criteria for two-photon sources based on parametric downconversion, but does not mention Tseitin formulas, resolution proof complexity, or the minimal rank of quantum channels in relation to proof length. The content appears unrelated to the conjecture's specific claims.",
+      "judge_provider": "cerebras"
+    },
+    {
+      "paper_id": "arxiv:1108.5136",
+      "title": "Scalable Architecture for Quantum Information Processing with Atoms in Optical Micro-Structures",
+      "abstract_excerpt": "We review recent experimental progress towards quantum information processing and quantum simulation using neutral atoms in two-dimensional (2D) arrays of optical microtraps as 2D registers of qubits. We describe a scalable quantum information architecture based on micro-fabricated optical elements, simultaneously targeting the important issues of single-site addressability and scalability. This approach provides flexible and integrable configurations for quantum state storage, manipulation, and",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses experimental progress in scalable quantum architectures using neutral atoms in optical traps, focusing on qubit control and manipulation. It does not mention Tseitin formulas, resolution proof complexity, or the rank of quantum channels, so it does not interact with the conjecture's claim.",
+      "judge_provider": "cerebras"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/quant-ph/0402010v1",
+      "title": "Quantum computing and information extraction for a dynamical quantum system",
+      "abstract_excerpt": "We discuss the simulation of a complex dynamical system, the so-called quantum sawtooth map model, on a quantum computer. We show that a quantum computer can be used to efficiently extract relevant physical information for this model. It is possible to simulate the dynamical localization of classica",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract discusses quantum simulation of a dynamical system (quantum sawtooth map) and information extraction, but does not mention Tseitin formulas, resolution proof complexity, quantum channel rank, or entanglement requirements in the context of proof length. The connection to the conjecture is unclear from the abstract alone.",
+      "judge_provider": "cerebras"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}

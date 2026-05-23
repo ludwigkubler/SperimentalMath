@@ -1,0 +1,40 @@
+{
+  "entry_id": "7b3d3e51505e",
+  "ts": 1779555369.9988332,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/1904.03812v5",
+      "title": "A new approach to hypergeometric transformation formulas",
+      "abstract_excerpt": "We give a new method to prove in a uniform and easy way various transformation formulas for Gauss hypergeometric functions. The key is Jacobi's canonical form of the hypergeometric differential equation. Analogy for $q$-hypergeometric functions is also studied.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses transformation formulas for Gauss hypergeometric functions, but does not mention resolution proof length or k-CNF formulas, making it orthogonal to the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2506.09382v1",
+      "title": "On the exterior power structure of the cohomology groups for the general hypergeometric integral",
+      "abstract_excerpt": "In this article we study the exterior power structure of the algebraic de Rham cohomology group associated with the Gelfand hypergeometric function and its confluent family. The hypergeometric function F(z) is a function on the Zariski open subset $Z_{r+1}\\subset\\mat{r+1,N}$, called the generic stra",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract of the cited paper discusses the exterior power structure of cohomology groups for a general hypergeometric function and does not mention anything about resolution proof length, k-CNF formulas, or generalized hypergeometric series. The vocabulary and framework do not interact with the specific claim regarding the relationship between minimal rank of generalized hypergeometric series and resolution proof length for k-CNF.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0603646v2",
+      "title": "Uniform convergence of hypergeometric series",
+      "abstract_excerpt": "The considered problem is uniform convergence of sequences of hypergeometric series. We give necessary and sufficient conditions for uniformly dominated convergence of infinite sums of proper bivariate hypergeometric terms. These conditions can be checked algorithmically. Hence the results can be ap",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract of the cited paper discusses uniform convergence of hypergeometric series and provides necessary and sufficient conditions for their convergence, but it does not mention anything about resolution proof length or the relationship between the minimal rank of generalized hypergeometric series and k-CNF formulas' resolution proof complexity. Therefore, it is insufficient to determine whether the abstract supports, refutes, or is orthogonal to the proposed conjecture.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}
