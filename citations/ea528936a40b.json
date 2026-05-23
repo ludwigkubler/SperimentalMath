@@ -1,0 +1,40 @@
+{
+  "entry_id": "ea528936a40b",
+  "ts": 1779571236.4884982,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1001.2131",
+      "title": "Asymptotics of the probability minimizing a \"down-side\" risk",
+      "abstract_excerpt": "We consider a long-term optimal investment problem where an investor tries to minimize the probability of falling below a target growth rate. From a mathematical viewpoint, this is a large deviation control problem. This problem will be shown to relate to a risk-sensitive stochastic control problem for a sufficiently large time horizon. Indeed, in our theorem we state a duality in the relation between the above two problems. Furthermore, under a multidimensional linear Gaussian model we obtain e",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a 'long-term optimal investment problem' and 'large deviation control,' with no mention of free probability, branching programs, or circuit complexity — it does not interact with the conjecture's claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2204.11679",
+      "title": "Eigenstate Thermalization Hypothesis and Free Probability",
+      "abstract_excerpt": "Quantum thermalization is well understood via the Eigenstate Thermalization Hypothesis (ETH). The general form of ETH, describing all the relevant correlations of matrix elements, may be derived on the basis of a `typicality' argument of invariance with respect to local rotations involving nearby energy levels. In this work, we uncover the close relation between this perspective on ETH and Free Probability theory, as applied to a thermal ensemble or an energy shell. This mathematical framework a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract connects Free Probability to the Eigenstate Thermalization Hypothesis in quantum physics, with no mention of branching programs, circuit complexity, or rank bounds. It shares only the 'free probability' vocabulary but does not address the specific claim about read-twice branching programs.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1506.00166v2",
+      "title": "Optimal Investment to Minimize the Probability of Drawdown",
+      "abstract_excerpt": "We determine the optimal investment strategy in a Black-Scholes financial market to minimize the so-called {\\it probability of drawdown}, namely, the probability that the value of an investment portfolio reaches some fixed proportion of its maximum value to date. We assume that the portfolio is subj",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'optimal investment strategy in a Black-Scholes financial market to minimize the probability of drawdown,' which is about financial portfolio optimization and has no interaction with free probability rank or read-twice branching program circuit complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

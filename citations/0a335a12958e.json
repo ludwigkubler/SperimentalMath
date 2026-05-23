@@ -1,0 +1,40 @@
+{
+  "entry_id": "0a335a12958e",
+  "ts": 1779570306.3979812,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1506.02936",
+      "title": "Parity Decision Tree Complexity and 4-Party Communication Complexity of XOR-functions Are Polynomially Equivalent",
+      "abstract_excerpt": "In this note, we study the relation between the parity decision tree complexity of a boolean function $f$, denoted by $\\mathrm{D}_{\\oplus}(f)$, and the $k$-party number-in-hand multiparty communication complexity of the XOR functions $F(x_1,\\ldots, x_k)= f(x_1\\oplus\\cdots\\oplus x_k)$, denoted by $\\mathrm{CC}^{(k)}(F)$. It is known that $\\mathrm{CC}^{(k)}(F)\\leq k\\cdot\\mathrm{D}_{\\oplus}(f)$ because the players can simulate the parity decision tree that computes $f$. In this note, we show that \\[",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the polynomial equivalence between parity decision tree complexity and 4-party communication complexity of XOR-functions, with no mention of geometric entanglement, quantum states, or monotone XOR circuits relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2209.08042",
+      "title": "Decision Tree Complexity versus Block Sensitivity and Degree",
+      "abstract_excerpt": "Relations between the decision tree complexity and various other complexity measures of Boolean functions is a thriving topic of research in computational complexity. It is known that decision tree complexity is bounded above by the cube of block sensitivity, and the cube of polynomial degree. However, the widest separation between decision tree complexity and each of block sensitivity and degree that is witnessed by known Boolean functions is quadratic. In this work, we investigate the tightnes",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses relations between decision tree complexity and measures like block sensitivity, degree, and certificate complexity for Boolean functions, with no mention of geometric entanglement, quantum states, or monotone XOR circuits specifically. It shares the 'decision tree' vocabulary but does not interact with the conjecture's claim about bounding entanglement rank by decision tree width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1302.4207",
+      "title": "A composition theorem for decision tree complexity",
+      "abstract_excerpt": "We completely characterise the complexity in the decision tree model of computing composite relations of the form h = g(f^1,...,f^n), where each relation f^i is boolean-valued. Immediate corollaries include a direct sum theorem for decision tree complexity and a tight characterisation of the decision tree complexity of iterated boolean functions.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses a composition theorem for decision tree complexity of composite boolean relations, with no mention of quantum states, geometric entanglement, or monotone XOR circuits. It shares the 'decision tree complexity' vocabulary but does not interact with the specific claim about geometric entanglement bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
