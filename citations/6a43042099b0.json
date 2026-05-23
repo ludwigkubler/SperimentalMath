@@ -1,0 +1,40 @@
+{
+  "entry_id": "6a43042099b0",
+  "ts": 1779528220.009386,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0811.4033",
+      "title": "Computation of Grobner basis for systematic encoding of generalized quasi-cyclic codes",
+      "abstract_excerpt": "Generalized quasi-cyclic (GQC) codes form a wide and useful class of linear codes that includes thoroughly quasi-cyclic codes, finite geometry (FG) low density parity check (LDPC) codes, and Hermitian codes. Although it is known that the systematic encoding of GQC codes is equivalent to the division algorithm in the theory of Grobner basis of modules, there has been no algorithm that computes Grobner basis for all types of GQC codes. In this paper, we propose two algorithms to compute Grobner ba",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper focuses on the computation of Grobner basis for generalized quasi-cyclic codes and discusses algorithms for this purpose. It does not address the bounds on Grobner basis dimension or Resolution proof length for Tseitin formulas as stated in the conjecture.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0511695v3",
+      "title": "Local Properties of Richardson Varieties in the Grassmannian via a Bounded Robinson-Schensted-Knuth Correspondence",
+      "abstract_excerpt": "We give an explicit Grobner basis for the ideal of the tangent cone at any T-fixed point of a Richardson variety in the Grassmannian, thus generalizing a result of Kodiyalam-Raghavan and Kreiman-Lakshmibai. Our proof is based on a generalization of the Robinson-Schensted-Knuth (RSK) correspondence, ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses an explicit Grobner basis for tangent cones in the Grassmannian and its relation to the RSK correspondence. This is unrelated to the conjecture about the Grobner basis dimension of Tseitin formulas and Resolution proof length, as it focuses on a different mathematical object (Richardson varieties) and does not address the bounds for Tseitin formulas.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:0909.0564",
+      "title": "A Gröbner basis for Kazhdan-Lusztig ideals",
+      "abstract_excerpt": "Kazhdan-Lusztig ideals, a family of generalized determinantal ideals investigated in [Woo-Yong '08], provide an explicit choice of coordinates and equations encoding a neighbourhood of a torus-fixed point of a Schubert variety on a type A flag variety. Our main result is a Grobner basis for these ideals. This provides a single geometric setting to transparently explain the naturality of pipe dreams on the Rothe diagram of a permutation, and their appearance in:\n  * combinatorial formulas [Fomin-",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited abstract discusses Grobner bases for Kazhdan-Lusztig ideals, which is a different class of ideals than those described in the conjecture related to Tseitin formulas. The abstract does not provide information on the Grobner basis dimension or Resolution proof length for Tseitin formulas, which are the specific claims made in the conjecture.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}

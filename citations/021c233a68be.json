@@ -1,0 +1,40 @@
+{
+  "entry_id": "021c233a68be",
+  "ts": 1779528656.23536,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2603.01172",
+      "title": "Midterm Status Report of the ILC Technology Network Activities",
+      "abstract_excerpt": "The ILC Technology Network (ITN) was established in 2022 by the ILC International Development Team, a subcommittee of the International Committee for Future Accelerators, to advance engineering studies toward the realisation of the International Linear Collider (ILC). While the ITN work packages focus on engineering activities for the ILC, their topics are also relevant to a broad range of accelerator applications in particle physics and beyond. These work packages are being carried out now by l",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract from the cited paper does not provide any information related to quantum entanglement, tensor network theory, or BP_ReadTwice complexity. It discusses engineering studies for the International Linear Collider and its applications in particle physics, which is orthogonal to the specific conjecture under review.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2507.16475",
+      "title": "On two-dimensional tensor network group symmetries",
+      "abstract_excerpt": "We introduce two-dimensional tensor network representations of finite groups carrying a 4-cocycle index. We characterize the associated gapped (2+1)D phases that emerge when these anomalous symmetries act on tensor network ground states. We further develop related tensor network unitaries that generate symmetric states representing (3+1)D symmetry protected topological phases. Although aspects of these constructions have been previously addressed, our contribution unifies them within a single te",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses two-dimensional tensor network representations of finite groups and their symmetries, while the conjecture is about the entanglement entropy of tensor networks corresponding to BP_ReadTwice circuits. The abstract does not mention anything related to entanglement entropy or BP_ReadTwice circuit complexity.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1701.04778",
+      "title": "Tensor network state correspondence and holography",
+      "abstract_excerpt": "In recent years, tensor network states have emerged as a very useful conceptual and simulation framework to study quantum many-body systems at low energies. In this paper, we describe a particular way in which any given tensor network can be viewed as a representation of two different quantum many-body states. The two quantum many-body states are said to correspond to each other by means of the tensor network. We apply this \"tensor network state correspondence\"---a correspondence between quantum",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract discusses tensor network state correspondence and holography, particularly focusing on MERA representations of ground states of one-dimensional quantum many-body systems. It does not provide any information regarding the entanglement entropy in terms of log size(P) or the BP_ReadTwice Width for a BP with read-twice complexity, which are the specific claims made in the conjecture.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}

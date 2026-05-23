@@ -1,0 +1,40 @@
+{
+  "entry_id": "e4892e7b02c4",
+  "ts": 1779527957.0899549,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1001.2071",
+      "title": "Lie algebras and cohomology of congruence subgroups for SL_n(R)",
+      "abstract_excerpt": "Let $R$ be a commutative ring that is free of rank $k$ as an abelian group, $p$ a prime, and $SL(n,R)$ the special linear group. We show that the Lie algebra associated to the filtration of $SL(n,R)$ by $p$-congruence subgroups is isomorphic to the tensor product $\\mathfrak{sl}_n(R\\otimes_{\\Z}\\Z/p)\\otimes_{\\F_p}t\\F_p[t]$, the Lie algebra of polynomials with zero constant term and coefficients $n\\times n$ traceless matrices with entries polynomials in $k$ variables over $\\F_p$.\n  We use the Lie a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Lie algebras and cohomology of congruence subgroups for SL_n(R), but does not mention tropicalized cohomology, tensor product with Lie algebras, or DPLL search tree complexity, which are key components of the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1511.02015",
+      "title": "Graphical Tensor Product Reduction Scheme for the Lie Algebras so(5) = sp(2), su(3), and g(2)",
+      "abstract_excerpt": "We develop in detail a graphical tensor product reduction scheme, first described by Antoine and Speiser, for the simple rank 2 Lie algebras so(5) = sp(2), su(3), and g(2). This leads to an efficient practical method to reduce tensor products of irreducible representations into sums of such representations. For this purpose, the 2-dimensional weight diagram of a given representation is placed in a \"landscape\" of irreducible representations. We provide both the landscapes and the weight diagrams ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "```json\n{\n  \"verdict\": \"ORTHOGONAL\",\n  \"reason",
+      "judge_provider": "google"
+    },
+    {
+      "paper_id": "arxiv:2011.14100",
+      "title": "On the triple tensor product of nilpotent Lie algebras",
+      "abstract_excerpt": "In this paper, we give the explicit structure of $ \\otimes^{3} H $ and $ \\wedge^{3} H $ where $ H $ is a generalized Heisenberg Lie algebra of rank at most $ 2. $ Moreover, for a non-abelian nilpotent Lie algebra $ L, $ we obtain an upper bound for the dimension of $ \\otimes^{3} L.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract discusses the explicit structure of tensor products and upper bounds on dimensions for nilpotent Lie algebras, but it does not address the relationship between the minimal rank of tropicalized cohomology with Lie algebras and DPLL search tree width as specified in the conjecture.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}
