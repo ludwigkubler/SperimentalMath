@@ -1,0 +1,31 @@
+{
+  "entry_id": "46ee38ac1039",
+  "ts": 1779518317.0931206,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:ARXIV:2012.03883",
+      "title": "Monotone Circuit Lower Bounds from Robust Sunflowers",
+      "abstract_excerpt": "Robust sunflowers are a generalization of combinatorial sunflowers that have applications in monotone circuit complexity Rossman (SIAM J. Comput. 43:256–279, 2014), DNF sparsification Gopalan et al. (Comput. Complex. 22:275–310 2013), randomness extractors Li et al. (In: APPROX-RANDOM, LIPIcs 116:51:1–13, 2018), and recent advances on the Erdős-Rado sunflower conjecture Alweiss et al. (In: Proceedings of the 52nd Annual ACM SIGACT Symposium on Theory of Computing, STOC. Association for Computing",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper's abstract focuses on monotone circuit lower bounds and robust sunflowers, but it does not provide information about the minimal rank of quotient algebras or the relationship between them and k-CLIQUE monotone circuits. The specific conjecture regarding the upper bound on the minimal rank for k-CLIQUE instances is not addressed in the abstract.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "s2:2b3cdd1442e58a5bd6096d68f67f129cd64939c0",
+      "title": "Automata, languages and programming : 28th International Colloquium, ICALP 2001, Crete, Greece, July 8-12, 2001 : proceedings",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper does not contain an abstract, which is necessary to assess its relationship to the conjecture.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 2
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "324cadb0fb5c",
+  "ts": 1779515928.1717322,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2605.05444",
+      "title": "Searches for Binary Mergers with Sub-solar Mass Components in Data from the First Part of LIGO--Virgo--KAGRA's Fourth Observing Run",
+      "abstract_excerpt": "We report on a gravitational wave search for compact binary coalescences involving at least one component with mass between $0.2 M_\\odot$ to $1 M_\\odot$, and ratio of component masses between 0.1 and 1. The analysis uses data collected by the LIGO detectors between May 24 2023 15:00 UTC and January 16 2024 16:00 UTC. No statistically significant sub-solar mass candidates were identified by the participating search algorithms. We report the detection sensitivity of the current searches to the tar",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper discusses gravitational wave searches and upper limits on the merger rate of sub-solar mass black holes, which is orthogonal to the conjecture about communication complexity for k-CNF and quadratic forms. There is no mention of communication complexity or quadratic forms in the abstract.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2011.11054",
+      "title": "Consecutive Quadratic Residues And Quadratic Nonresidue Modulo $p$",
+      "abstract_excerpt": "Let $p$ be a large prime, and let $k\\ll \\log p$. A new proof of the existence of any pattern of $k$ consecutive quadratic residues and quadratic nonresidues is introduced in this note. Further, an application to the least quadratic nonresidues $n_p$ modulo $p$ shows that $n_p\\ll (\\log p)(\\log \\log p)$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract of the cited paper discusses consecutive quadratic residues and quadratic nonresidues modulo a prime, which is orthogonal to the conjecture about communication complexity for k-CNF. The vocabulary and framework do not interact with the specific claims regarding the minimal rank of quadratic forms and their relationship to communication complexity.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2412.14709",
+      "title": "Minimal rank of primitively $n$-universal integral quadratic forms over local rings",
+      "abstract_excerpt": "Let $F$ be a local field and let $R$ be its ring of integers. For a positive integer $n$, an integral quadratic form defined over $R$ is called primitively $n$-universal if it primitively represents all quadratic forms of rank $n$. It was proved in arXiv:2005.11268 that the minimal rank of primitively $1$-universal quadratic forms over the $p$-adic integer ring $\\mathbb{Z}_p$ is $2$ if $p$ is odd, and $3$ otherwise. In this article, we completely determine the minimal rank of primitively $n$-uni",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract of the cited paper discusses the minimal rank of primitively n-universal quadratic forms over various local rings, which does not directly address the communication complexity for k-CNF as defined in the conjecture. The connection between these two concepts is not established in the abstract provided.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 3
+  }
+}

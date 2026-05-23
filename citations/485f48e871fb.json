@@ -1,0 +1,40 @@
+{
+  "entry_id": "485f48e871fb",
+  "ts": 1779515533.7634704,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2401.11576",
+      "title": "Quantum Architecture Search with Unsupervised Representation Learning",
+      "abstract_excerpt": "Unsupervised representation learning presents new opportunities for advancing Quantum Architecture Search (QAS) on Noisy Intermediate-Scale Quantum (NISQ) devices. QAS is designed to optimize quantum circuits for Variational Quantum Algorithms (VQAs). Most QAS algorithms tightly couple the search space and search algorithm, typically requiring the evaluation of numerous quantum circuits, resulting in high computational costs and limiting scalability to larger quantum circuits. Predictor-based QA",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Quantum Architecture Search and unsupervised representation learning for optimizing quantum circuits, but does not mention tropicalized representation theory of quantum groups or ACC⁰ circuit lower bounds, which are the core concepts of the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2512.10504",
+      "title": "Tianyan: Cloud services with quantum advantage",
+      "abstract_excerpt": "Tianyan Quantum Cloud Platform offers cloud services demonstrating quantum advantage capabilities with a Zuchongzhi 3.0-like superconducting quantum processor. This cloud-accessible superconducting quantum prototype, named Tianyan-287, features 105 qubits and achieves high operational fidelities, with single-qubit gates, two-qubit gates, and readout fidelity at 99.90%, 99.56%, 98.7%, respectively. For a specific benchmark task involving random circuit sampling on a 74-qubit system over 24 cycles",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "```json\n{\n  \"verdict\": \"ORTHOGONAL\",\n  \"",
+      "judge_provider": "google"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/hep-ph/0610012v1",
+      "title": "Tevatron-for-LHC Report of the QCD Working Group",
+      "abstract_excerpt": "The experiments at Run 2 of the Tevatron have each accumulated over 1 inverse femtobarn of high-transverse momentum data. Such a dataset allows for the first precision (i.e. comparisons between theory and experiment at the few percent level) tests of QCD at a hadron collider. While the Large Hadron ",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited abstract is entirely unrelated to the conjecture about quantum group representations and ACC⁰ circuit lower bounds, focusing instead on experiments related to QCD at a hadron collider. There is no information provided that directly addresses or interacts with the specific claim of the conjecture.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}
