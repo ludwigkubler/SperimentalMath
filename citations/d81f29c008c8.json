@@ -1,0 +1,40 @@
+{
+  "entry_id": "d81f29c008c8",
+  "ts": 1779497431.2931852,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2307.06113",
+      "title": "Sublinear Time Shortest Path in Expander Graphs",
+      "abstract_excerpt": "Computing a shortest path between two nodes in an undirected unweighted graph is among the most basic algorithmic tasks. Breadth first search solves this problem in linear time, which is clearly also a lower bound in the worst case. However, several works have shown how to solve this problem in sublinear time in expectation when the input graph is drawn from one of several classes of random graphs. In this work, we extend these results by giving sublinear time shortest path (and short path) algo",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "```json\n{\n  \"verdict\": \"ORTHOGONAL\",\n  \"reason",
+      "judge_provider": "google"
+    },
+    {
+      "paper_id": "arxiv:1903.06267",
+      "title": "Keyed hash function from large girth expander graphs",
+      "abstract_excerpt": "In this paper we present an algorithm to compute keyed hash function (message authentication code MAC). Our approach uses a family of expander graphs of large girth denoted $D(n,q)$, where $n$ is a natural number bigger than one and $q$ is a prime power. Expander graphs are known to have excellent expansion properties and thus they also have very good mixing properties. All requirements for a good MAC are satisfied in our method and a discussion about collisions and preimage resistance is also p",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "```json\n{\n  \"verdict\": \"ORTHOGONAL\",\n  ",
+      "judge_provider": "google"
+    },
+    {
+      "paper_id": "arxiv:2002.07411",
+      "title": "Quasi-majority Functional Voting on Expander Graphs",
+      "abstract_excerpt": "Consider a distributed graph where each vertex holds one of two distinct opinions. In this paper, we are interested in synchronous voting processes where each vertex updates its opinion according to a predefined common local updating rule. For example, each vertex adopts the majority opinion among 1) itself and two randomly picked neighbors in best-of-two or 2) three randomly picked neighbors in best-of-three. Previous works intensively studied specific rules including best-of-two and best-of-th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "```json\n{\n  \"verdict\": \"ORTHOGONAL\",\n  \"reason",
+      "judge_provider": "google"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 3
+  }
+}

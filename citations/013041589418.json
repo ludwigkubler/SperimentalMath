@@ -1,0 +1,31 @@
+{
+  "entry_id": "013041589418",
+  "ts": 1779499306.3191175,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:math/0211300",
+      "title": "Schubert polynomials and quiver formulas",
+      "abstract_excerpt": "Fulton's universal Schubert polynomials [F3] represent degeneracy loci for morphisms of vector bundles with rank conditions coming from a permutation. The quiver formula of Buch and Fulton [BF] expresses these polynomials as an integer linear combination of products of Schur determinants. We present",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Schubert polynomials and quiver formulas, which do not interact with the specific claim about the relationship between algebraic Hodge structure and DPLL search tree width, as stated in the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "s2:1212.0106",
+      "title": "Fixed-Parameter Tractability of Satisfying Beyond the Number of Variables",
+      "abstract_excerpt": "We consider a CNF formula F as a multiset of clauses: F={c1,…,cm}. The set of variables of F will be denoted by V(F). Let BF denote the bipartite graph with partite sets V(F) and F and with an edge between v∈V(F) and c∈F if v∈c or \\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysy",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses CNF formulas and bipartite graphs, but does not mention algebraic Hodge structures or the relationship between DPLL search tree width and the rank of cohomology groups, which are central to the conjecture.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 0
+  }
+}
