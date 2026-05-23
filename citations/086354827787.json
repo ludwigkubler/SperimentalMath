@@ -1,0 +1,40 @@
+{
+  "entry_id": "086354827787",
+  "ts": 1779560208.930773,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2211.07055",
+      "title": "Geometric complexity theory for product-plus-power",
+      "abstract_excerpt": "According to Kumar's recent surprising result (ToCT'20), a small border Waring rank implies that the polynomial can be approximated as a sum of a constant and a small product of linear polynomials. We prove the converse of Kumar's result and establish a tight connection between border Waring rank and the model of computation in Kumar's result. In this way, we obtain a new formulation of border Waring rank, up to a factor of the degree. We connect this new formulation to the orbit closure problem",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses border Waring rank, algebraic branching programs, and geometric complexity theory in the context of orbit closures of specific polynomials, but does not mention Hodge structure rank, ReadTwice circuits, or any connection between algebraic curves and branching program complexity. The focus is on computational models for polynomials, not on graphs or their associated curves as in the conjecture.",
+      "judge_provider": "cerebras"
+    },
+    {
+      "paper_id": "arxiv:2604.00746",
+      "title": "An Unconditional Barrier for Proving Multilinear Algebraic Branching Program Lower Bounds",
+      "abstract_excerpt": "Since the breakthrough superpolynomial multilinear formula lower bounds of Raz (Theory of Computing 2006), proving such lower bounds against multilinear algebraic branching programs (mABPs) has been a longstanding open problem in algebraic complexity theory. All known multilinear lower bounds rely on the min-partition rank method, and the best bounds against mABPs have remained quadratic (Alon, Kumar, and Volk, Combinatorica 2020).\n  We show that the min-partition rank method cannot prove superp",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses multilinear algebraic branching programs and lower bounds in algebraic complexity, focusing on the limitations of the min-partition rank method. It does not mention Hodge structures, algebraic curves associated with graphs, or any connection between Hodge-theoretic invariants and branching program complexity, so it does not engage with the conjecture's core claim.",
+      "judge_provider": "cerebras"
+    },
+    {
+      "paper_id": "arxiv:2003.04834",
+      "title": "Algebraic Branching Programs, Border Complexity, and Tangent Spaces",
+      "abstract_excerpt": "Nisan showed in 1991 that the width of a smallest noncommutative single-(source,sink) algebraic branching program (ABP) to compute a noncommutative polynomial is given by the ranks of specific matrices. This means that the set of noncommutative polynomials with ABP width complexity at most $k$ is Zariski-closed, an important property in geometric complexity theory. It follows that approximations cannot help to reduce the required ABP width.\n  It was mentioned by Forbes that this result would pro",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses algebraic branching programs (ABPs), their width complexity, and closure properties in geometric complexity theory, focusing on noncommutative and commutative settings. While it touches on ABPs and geometric concepts like tangent spaces, it does not mention Hodge structure rank, ReadTwice circuits, or any specific connection between algebraic curves associated with graphs and branching program thresholds.",
+      "judge_provider": "cerebras"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

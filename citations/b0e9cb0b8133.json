@@ -1,0 +1,40 @@
+{
+  "entry_id": "b0e9cb0b8133",
+  "ts": 1779560604.3247738,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2401.11576",
+      "title": "Quantum Architecture Search with Unsupervised Representation Learning",
+      "abstract_excerpt": "Unsupervised representation learning presents new opportunities for advancing Quantum Architecture Search (QAS) on Noisy Intermediate-Scale Quantum (NISQ) devices. QAS is designed to optimize quantum circuits for Variational Quantum Algorithms (VQAs). Most QAS algorithms tightly couple the search space and search algorithm, typically requiring the evaluation of numerous quantum circuits, resulting in high computational costs and limiting scalability to larger quantum circuits. Predictor-based QA",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses quantum architecture search and unsupervised representation learning for optimizing quantum circuits, with no mention of quasi-groups, Boolean algebra representations, or DPLL search trees for k-CNF formulas. The content shares no logical or technical overlap with the conjecture.",
+      "judge_provider": "cerebras"
+    },
+    {
+      "paper_id": "arxiv:1006.5752",
+      "title": "Solomon's induction in quasi-elementary groups",
+      "abstract_excerpt": "Given a finite group G, we address the following question: which multiples of the trivial representation are linear combinations of inductions of trivial representations from proper subgroups of G? By Solomon's induction theorem, all multiples are if G is not quasi-elementary. We complement this by showing that all multiples of p are if G is p-quasi-elementary and not cyclic, and that this is best possible.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Solomon's induction theorem and linear combinations of induced representations in finite groups, focusing on quasi-elementary and p-quasi-elementary groups. It does not mention DPLL search trees, k-CNF formulas, Boolean representations, or ranks of quasi-group representations in the context of computational complexity.",
+      "judge_provider": "cerebras"
+    },
+    {
+      "paper_id": "arxiv:1110.6618",
+      "title": "Brauer relations in finite groups II - quasi-elementary groups of order p^aq",
+      "abstract_excerpt": "This is the second in a series of papers investigating the space of Brauer relations of a finite group, the kernel of the natural map from its Burnside ring to the rational representation ring. The first paper classified all primitive Brauer relations, that is those that do not come from proper subquotients. In the case of quasi-elementary groups the description is intricate, and it does not specify groups that have primitive relations in terms of generators and relations. In this paper we do th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Brauer relations and the structure of quasi-elementary groups in terms of representation theory, but does not mention DPLL search trees, k-CNF formulas, Boolean algebras, or any complexity-theoretic concepts. The focus on Burnside rings and rational representation rings is unrelated to the conjecture's claim about minimal rank of quasi-group representations over the Boolean algebra and DPLL tree depth.",
+      "judge_provider": "cerebras"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
