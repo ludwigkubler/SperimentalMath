@@ -1,0 +1,40 @@
+{
+  "entry_id": "0d84952171ff",
+  "ts": 1779511027.4613197,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1209.3595",
+      "title": "Noncommutative complex differential geometry",
+      "abstract_excerpt": "This paper defines and examines the basic properties of noncommutative analogues of almost complex structures, integrable almost complex structures, holomorphic curvature, cohomology, and holomorphic sheaves. The starting point is a differential structure on a noncommutative algebra defined in terms of a differential graded algebra. This is compared to current ideas on noncommutative algebraic geometry.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses noncommutative complex differential geometry, but does not mention Boolean algebras, Tseitin formulas, or resolution proof complexity, which are central to the conjecture. The paper appears to focus on the foundational aspects of noncommutative differential geometry, without addressing the specific relationship between noncommutative differential geometry and resolution proof complexity.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0610043v5",
+      "title": "Lecture Notes on Noncommutative Algebraic Geometry and Noncommutative Tori",
+      "abstract_excerpt": "The first part of these notes gives an introduction to noncommutative projective geometry after Artin--Zhang. The second part provides an overview of the work of Polishchuk that reconciles noncommutative two-tori having real multiplication with the Artin--Zhang setting.",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "```json\n{\n  \"verdict\": \"ORTHOGONAL\",\n  \"",
+      "judge_provider": "google"
+    },
+    {
+      "paper_id": "arxiv:1304.4062",
+      "title": "Superconformal nets and noncommutative geometry",
+      "abstract_excerpt": "This paper provides a further step in our program of studying superconformal nets over S^1 from the point of view of noncommutative geometry. For any such net A and any family Delta of localized endomorphisms of the even part A^gamma of A, we define the locally convex differentiable algebra A_Delta with respect to a natural Dirac operator coming from supersymmetry. Having determined its structure and properties, we study the family of spectral triples and JLO entire cyclic cocycles associated to",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "```json\n{\n  \"verdict\": \"ORTHOGONAL\",\n",
+      "judge_provider": "google"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}

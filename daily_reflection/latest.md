@@ -1,145 +1,145 @@
-# Daily Reflection — 2026-05-22
+# Daily Reflection — 2026-05-23
 
-*Generated: 2026-05-22 03:33 UTC*
+*Generated: 2026-05-23 03:33 UTC*
 
 ## Yesterday in numbers
-- **Cycles**: 243
-- **New arxiv papers (mirror, last 24h)**: 219
+- **Cycles**: 339
+- **New arxiv papers (mirror, last 24h)**: 80
 - **Verdict distribution**:
-    - INCONCLUSIVE: 157
-    - BARRIER_HIT: 82
-    - SCOOPED: 4
+    - INCONCLUSIVE: 175
+    - BARRIER_HIT: 145
+    - SCOOPED: 19
 - **Focus mode**:
-    - TSEITIN_RES: 25
-    - BP_READTWICE: 15
-    - AC0_PARITY: 15
-    - COMM_DISJ: 15
-    - MONOTONE_CLIQUE: 14
-    - GCT_DET_PERM: 12
-    - SOS_DEGREE: 8
-    - ACC_SIPSER: 8
+    - MONOTONE_CLIQUE: 21
+    - ACC_SIPSER: 18
+    - GCT_DET_PERM: 16
+    - BP_READTWICE: 14
+    - TSEITIN_RES: 14
+    - SOS_DEGREE: 13
+    - COMM_DISJ: 12
+    - AC0_PARITY: 8
 - **Top fields_A**:
-    - Algebraic Combinatorics: 16
+    - Algebraic Combinatorics: 18
+    - Symplectic Geometry: 15
     - Tropical Geometry: 14
-    - Real Algebraic Geometry: 9
-    - Hypergeometric Functions: 9
-    - Free Probability Theory: 9
+    - p-adic Analysis: 12
+    - Free Probability Theory: 7
 
-## ⚠ Potential scoops (61)
+## ⚠ Potential scoops (10)
 
 These new arxiv papers have **>0.72 cosine** to one of our recent conjectures.
 
-### `2605.21480v1` (sim=0.750)
-- **Paper**: Thresholds for geometric graphs
-- **Category**: math.CO
-- **Submitted**: 2026-05-20T17:58:24Z
-- **URL**: https://arxiv.org/abs/2605.21480v1
-- **Matches our conjecture** `0420f93e5160`: "Gromov 4-Point Hyperbolicity Gap Separates k-CLIQUE Monotone DNFs from Random"
-- **Abstract excerpt**: A metric probability space $M$ admits thresholds if the random geometric graph on $M$ has a threshold for every monotone graph property. We connect the existence of thresholds to the uniform expansion of $M$ and prove that all standard tori, spheres, and cubes admit thresholds.…
+### `2605.21267v1` (sim=0.735)
+- **Paper**: Towards Single Exponential Time for Temporal and Spatial Reasoning: A Study via Redundancy and Dynamic Programming
+- **Category**: cs.CC
+- **Submitted**: 2026-05-20T14:54:14Z
+- **URL**: https://arxiv.org/abs/2605.21267v1
+- **Matches our conjecture** `fa4ca6e56954`: "Minimal Local Index of Graphs and Sum-of-Squares Refutation Size for Random CSPs"
+- **Abstract excerpt**: The region connection calculus ($RCC$) and Allen's interval algebra ($IA$) are two well-known NP-hard spatial-temporal qualitative reasoning problems. They are solvable in $2^{O(n \log n)}$ time, where $n$ is the number of variables, and $IA$ is additionally known to be solvable in $o(n)^n$ time. Ho…
 
-### `2605.21471v1` (sim=0.780)
-- **Paper**: Ramsey properties for tilings in random graphs
-- **Category**: math.CO
-- **Submitted**: 2026-05-20T17:55:00Z
-- **URL**: https://arxiv.org/abs/2605.21471v1
-- **Matches our conjecture** `c0336452dd8d`: "Eigenvalue Count and SOS Degree for Max-CUT Approximation"
-- **Abstract excerpt**: Let $mH$ be the graph formed by $m$ vertex-disjoint copies of a graph $H$. Let $G \to (H)_r$ denote that, in any $r$-colouring of the edges of $G$, there exists a monochromatic copy of $H$. In 1975, Burr, Erdős, and Spencer showed that if $H$ is a graph on $k$ vertices whose independence number is $…
+### `2605.21546v1` (sim=0.767)
+- **Paper**: Resource bounded Kučera-Gács Theorems
+- **Category**: cs.CC
+- **Submitted**: 2026-05-20T10:13:55Z
+- **URL**: https://arxiv.org/abs/2605.21546v1
+- **Matches our conjecture** `c9fe395f21c4`: "Minimal Index of Quasi-Polynomial Approximation Spaces vs Communication Complexity for XOR"
+- **Abstract excerpt**: The Kučera--Gács theorem is a fundamental result in algorithmic randomness. It states that every infinite sequence $X$ is Turing reducible to a Martin-Löf random $R$. This paper studies resource-bounded analogues of the Kučera-Gács Theorem, at the resource bounds of polynomial-time and finite-state …
 
-### `2605.21208v1` (sim=0.760)
-- **Paper**: On degree bounds of $k$-uniform hypergraphs with bounded matching number
-- **Category**: math.CO
-- **Submitted**: 2026-05-20T14:04:54Z
-- **URL**: https://arxiv.org/abs/2605.21208v1
-- **Matches our conjecture** `4b37abf22009`: "Heilmann-Lieb Matching Root Gap Bounds Monotone k-CLIQUE DNF Size"
-- **Abstract excerpt**: We study the connection between the degree sequence of a $k$-uniform hypergraph and the size of its largest matching. Let $\mathcal{F}$ be a $k$-uniform hypergraph on $n$ vertices and let $d_1 \ge d_2 \ge \dots \ge d_n$ be the vertex degrees arranged in non-increasing order. For integers $k\ge 2$, $…
+### `2605.19944v1` (sim=0.767)
+- **Paper**: A Measure-Theoretic Analysis of Reasoning: Structural Generalization and Approximation Limits
+- **Category**: cs.LG
+- **Submitted**: 2026-05-19T15:00:51Z
+- **URL**: https://arxiv.org/abs/2605.19944v1
+- **Matches our conjecture** `a80e9a39aa1f`: "Minimal Rank of Free Probability Representations vs. Randomized Communication Complexity for Disjointness"
+- **Abstract excerpt**: While empirical scaling laws for LLM reasoning are well-documented, the theoretical mechanisms governing out-of-distribution (OOD) generalization remain elusive. We formalize reasoning via optimal transport, projecting discrete trajectories into a continuous metric space to quantify domain shifts us…
 
-### `2605.21077v1` (sim=0.772)
-- **Paper**: Exponential Lower Bounds for the Pfaffian Number of Graphs
-- **Category**: math.CO
-- **Submitted**: 2026-05-20T12:11:45Z
-- **URL**: https://arxiv.org/abs/2605.21077v1
-- **Matches our conjecture** `d368672522b6`: "Minimal Symmetry Invariant of Permutation Groups and Communication Complexity of Graph Isomorphism"
-- **Abstract excerpt**: Galluccio--Loebl and Tesler showed that the perfect-matching polynomial of a graph embedded in an orientable surface of genus $g$ can be written as a linear combination of at most $4^g$ Pfaffians. We show that, in general, exponentially many Pfaffians are necessary. More precisely, among all graphs …
+### `2605.19702v1` (sim=0.729)
+- **Paper**: A Hierarchy of Tinhofer Graphs: Separations and Membership Testing
+- **Category**: cs.CC
+- **Submitted**: 2026-05-19T11:38:21Z
+- **URL**: https://arxiv.org/abs/2605.19702v1
+- **Matches our conjecture** `c74c991b7cbd`: "Minimal Rank of Tropicalized Lie Algebras and Permutation Circuit Threshold"
+- **Abstract excerpt**: Color refinement is an important technique that works very well in practice for the graph isomorphism problem. Tinhofer graphs are the class of graphs for which refinement together with individualization correctly tests graph isomorphism against every other graph, irrespective of the choices of vert…
 
-### `2605.21015v1` (sim=0.737)
-- **Paper**: Treewidth of the $n \times n$ toroidal grid
-- **Category**: math.CO
-- **Submitted**: 2026-05-20T10:50:16Z
-- **URL**: https://arxiv.org/abs/2605.21015v1
-- **Matches our conjecture** `435c28c989af`: "Minimal Coxeter Group Rank Lower Bound for Monotone Circuit Size"
-- **Abstract excerpt**: In this paper, we show that the treewidth of the $n \times n$ toroidal grid is $2n-1$ for all $n \ge 5$. This closes the gap between the previously known upper bound of $2n-1$ (Ellis and Warren, DAM 2008) and the lower bound of $2n-2$ (Kiyomi, Okamoto, and Otachi, DAM 2016). To establish the matchin…
+### `2605.19181v1` (sim=0.758)
+- **Paper**: Risk of Bad Tails: CVaR-Aware Pandora's Box and Prophet Inequality
+- **Category**: cs.CC
+- **Submitted**: 2026-05-18T23:05:25Z
+- **URL**: https://arxiv.org/abs/2605.19181v1
+- **Matches our conjecture** `a80e9a39aa1f`: "Minimal Rank of Free Probability Representations vs. Randomized Communication Complexity for Disjointness"
+- **Abstract excerpt**: We study Conditional Value-at-Risk (CVaR) variants of two canonical sequential decision problems: Pandora's box and the prophet inequality. For Pandora's box, the risk-aware problem retains an exact Weitzman-style index solution after a one-dimensional variational reduction. For the prophet inequali…
 
-### `2605.20905v1` (sim=0.746)
-- **Paper**: Horizontal miniatures and normal-sized miniatures of convex lattice polytopes
-- **Category**: math.CO
-- **Submitted**: 2026-05-20T08:49:13Z
-- **URL**: https://arxiv.org/abs/2605.20905v1
-- **Matches our conjecture** `ce070d09a267`: "Minimal Volume of Intersection Body and ACC⁰ Parity Circuit Complexity"
-- **Abstract excerpt**: Let $d$ be a nonnegative integer, and let $P \subset \mathbb R^d$ be a $d$-dimensional convex lattice polytope. In this article, we prove that the ratio of the volume of a normal-sized miniature of $P$ to that of $P$ is $1:\binom{2d+1}{d},$ which generalizes the known results for the unit hypercube …
+### `2605.18885v1` (sim=0.756)
+- **Paper**: The Extremum Stack is a Minimal Sufficient Statistic for Rate-Independent Functionals: A Kolmogorov Complexity Characterisation
+- **Category**: cs.IT
+- **Submitted**: 2026-05-16T19:21:37Z
+- **URL**: https://arxiv.org/abs/2605.18885v1
+- **Matches our conjecture** `01de91bf4f4f`: "Minimal Lefschetz Threshholds for AC0 Circuit Lower Bounds"
+- **Abstract excerpt**: We prove that the extremum stack of a discrete sequence is a minimal sufficient statistic for the class of all computable, causal, rate-independent functionals, in the sense of Kolmogorov complexity. Specifically, we establish K(Pi_n) - O(1) <= K_R(u_{0:n}) <= K(Pi_n) + O(1), where K_R(u_{0:n}) is t…
 
-### `2605.20705v1` (sim=0.722)
-- **Paper**: Extremal structure in dense arrangements of $k$-intersecting curves
-- **Category**: math.CO
-- **Submitted**: 2026-05-20T05:03:17Z
-- **URL**: https://arxiv.org/abs/2605.20705v1
-- **Matches our conjecture** `4b37abf22009`: "Heilmann-Lieb Matching Root Gap Bounds Monotone k-CLIQUE DNF Size"
-- **Abstract excerpt**: Let $P$ be a set of $n$ points in the plane, and let $\mathcal C$ be a collection of $n$ simple $k$-intersecting curves, meaning that every two distinct curves of $\mathcal C$ meet in at most $k$ points. A classical theorem of Pach and Sharir from 1998 gives the upper bound $I(P,\mathcal C)=O_k(n^{(…
+### `2605.22560v1` (sim=0.748)
+- **Paper**: Shading A-polynomials via huge representations of $U_q(\mathfrak{su}_N)$
+- **Category**: hep-th
+- **Submitted**: 2026-05-21T14:42:19Z
+- **URL**: https://arxiv.org/abs/2605.22560v1
+- **Matches our conjecture** `ec774306d982`: "Minimal Rank of Algebraic K-Theory Groups vs Quantum Circuit Depth"
+- **Abstract excerpt**: Classical A-polynomials $A(\ell,m)$ define constraints on coordinates $\ell$ and $m$ in $SL(2,\mathbb{C})$ (a complexification of $SU(2)$) character varieties associated to knot complements $S^3\setminus K$. Quantum A-polynomials $\hat A(\hat \ell,\hat m)$ are difference operators annihilating Jones…
 
-### `2605.20691v1` (sim=0.781)
-- **Paper**: String C-groups of 2-power order project onto a common string C-group
-- **Category**: math.GR
-- **Submitted**: 2026-05-20T04:38:23Z
-- **URL**: https://arxiv.org/abs/2605.20691v1
-- **Matches our conjecture** `88307033055a`: "Minimal Symmetry Group Order and Monotone Circuit Lower Bounds for k-CLIQUE"
-- **Abstract excerpt**: String C-groups are precisely the automorphism groups of abstract regular polytopes. A certain regular d-polytope C_d with an automorphism group of order 2^{2d-1}, discovered by Conder and shown to have the smallest number of flags among all regular d-polytopes of high ranks, also has the important …
+### `2605.19708v1` (sim=0.730)
+- **Paper**: Reduction and inverse-reduction functors I: standard $\mathsf{V^k}(\mathfrak{sl}_2)$-modules
+- **Category**: math.QA
+- **Submitted**: 2026-05-19T11:46:08Z
+- **URL**: https://arxiv.org/abs/2605.19708v1
+- **Matches our conjecture** `ec774306d982`: "Minimal Rank of Algebraic K-Theory Groups vs Quantum Circuit Depth"
+- **Abstract excerpt**: Quantum hamiltonian reduction is a fundamental tool of conformal field theory and vertex algebra representation theory. It has traditionally been applied to study highest-weight modules. On the other hand, inverse quantum hamiltonian reduction lends itself to the study of fully relaxed highest-weigh…
 
-### `2605.20629v1` (sim=0.721)
-- **Paper**: An axiomatic framework from splitting and merging in MAT-labeled graphs, vines, and single-peaked domains
-- **Category**: math.CO
-- **Submitted**: 2026-05-20T02:25:56Z
-- **URL**: https://arxiv.org/abs/2605.20629v1
-- **Matches our conjecture** `4669bcbdcd15`: "Minimal Vertex Separability of Regular Graphs and Resolution Proofs"
-- **Abstract excerpt**: In recent work (Forum Math.~Sigma, 2024), we established a correspondence between MAT-labeled graphs arising from hyperplane arrangements and regular vines from probability theory. In this paper, we extend this connection to Arrow's single-peaked domains in social choice theory. We show that MAT-lab…
+### `2605.19706v1` (sim=0.731)
+- **Paper**: Finite-Precision Quantum Mechanics
+- **Category**: quant-ph
+- **Submitted**: 2026-05-19T11:43:32Z
+- **URL**: https://arxiv.org/abs/2605.19706v1
+- **Matches our conjecture** `b295834747fe`: "Minimal Tensor Rank of Quantum Logics vs BP_ReadTwice Circuit Size"
+- **Abstract excerpt**: Standard quantum mechanics is an idealisation based on infinite-precision objects: point states, exact probabilities, and sharp measurements. Yet every real experiment has finite resolution, and for macroscopic systems we never have access to the microscopic state. Following Heisenberg's call for a …
 
-### `2605.20579v1` (sim=0.735)
-- **Paper**: An explicit lower bound for the unit distance problem
-- **Category**: math.CO
-- **Submitted**: 2026-05-20T00:37:35Z
-- **URL**: https://arxiv.org/abs/2605.20579v1
-- **Matches our conjecture** `00c9cca92f1a`: "Minimal Root Separation of Algebraic Curves over Finite Fields to Frege Proof Depth"
-- **Abstract excerpt**: We show that there are sets of $n$ points in the plane with $n$ arbitrarily large that contain more than $n^{1.014}$ pairs of points separated by a distance exactly $1$. This improves on very recent work of a team at OpenAI, who proved the same result with an inexplicit exponent greater than $1$, dr…
+### `2605.22070v1` (sim=0.721)
+- **Paper**: Symmetry Breaking as Quantum Gate: Entropy and Weak Mixing Angle
+- **Category**: hep-ph
+- **Submitted**: 2026-05-21T07:09:14Z
+- **URL**: https://arxiv.org/abs/2605.22070v1
+- **Matches our conjecture** `2a85790e6d1a`: "Minimal Entropy of Quantum Channels vs DPLL Search Tree Width"
+- **Abstract excerpt**: We establish a correspondence between two independent entropic probes -- the variation of Rényi mutual information (RMI) across the electroweak symmetry breaking (EWSB) transition and the stabilizer Rényi entropy (SRE) -- in tree-level $2\to 2$ elastic scatterings. After angular averaging, the RMI (…
 
 ## Top 10 most-overlapping new papers (no threshold)
 
 Useful for compass / next-direction suggestions:
 
-- `2605.19055v1` (cs.DM, sim=0.787): Super-linear Lower Bounds for CSP Non-Redundancy via Shrinking Instances
-    matched conj `1e723876001a`: Minimal Rank of Tropical Curves and Sum-of-Squares Refutation Size for CSP
-- `2605.19157v1` (cs.DC, sim=0.784): Meta-Theorems for Cuttable Distributed Problems
-    matched conj `b782e0cb2c69`: Betti Number Sum Lower Bound for SOS Max-CUT Degree
-- `2605.20691v1` (math.GR, sim=0.781): String C-groups of 2-power order project onto a common string C-group
-    matched conj `88307033055a`: Minimal Symmetry Group Order and Monotone Circuit Lower Bounds for k-CLIQUE
-- `2605.21471v1` (math.CO, sim=0.78): Ramsey properties for tilings in random graphs
-    matched conj `c0336452dd8d`: Eigenvalue Count and SOS Degree for Max-CUT Approximation
-- `2605.22232v1` (math.CO, sim=0.773): Polylogarithmic Bounds for Nested Cycles without Geometric Crossings
-    matched conj `4669bcbdcd15`: Minimal Vertex Separability of Regular Graphs and Resolution Proofs
-- `2605.19857v1` (math.CO, sim=0.772): Divisibility of Trace Codes
-    matched conj `3bd652e0e894`: Minimal p-adic Order of Secant Varieties and Communication Complexity of Disjoin
-- `2605.20789v1` (quant-ph, sim=0.772): Circuits of Quantum Hashing and Quantum Fourier Transform for a Cactus as a Qubit Connectivity Graph
-    matched conj `995e2089f4fd`: Minimal Local Coherence and Quantum Query Complexity
-- `2605.21077v1` (math.CO, sim=0.772): Exponential Lower Bounds for the Pfaffian Number of Graphs
-    matched conj `d368672522b6`: Minimal Symmetry Invariant of Permutation Groups and Communication Complexity of
-- `2605.22307v1` (math.CO, sim=0.769): The weak $k$-metric dimension of the direct product of complete graphs
-    matched conj `76c3f329af51`: Minimal Gromov-Wasserstein Distance and Circuit Size for k-Clique
-- `2605.19078v1` (cs.DS, sim=0.766): Near-Resolution of the Tradeoff Conjecture in Distributed Proof Labeling Schemes
-    matched conj `75c675b56205`: Minimal Representation Rank and Monotone Circuit Lower Bounds for k-CLIQUE
+- `2605.21546v1` (cs.CC, sim=0.767): Resource bounded Kučera-Gács Theorems
+    matched conj `c9fe395f21c4`: Minimal Index of Quasi-Polynomial Approximation Spaces vs Communication Complexi
+- `2605.19944v1` (cs.LG, sim=0.767): A Measure-Theoretic Analysis of Reasoning: Structural Generalization and Approximation Limits
+    matched conj `a80e9a39aa1f`: Minimal Rank of Free Probability Representations vs. Randomized Communication Co
+- `2605.19181v1` (cs.CC, sim=0.758): Risk of Bad Tails: CVaR-Aware Pandora's Box and Prophet Inequality
+    matched conj `a80e9a39aa1f`: Minimal Rank of Free Probability Representations vs. Randomized Communication Co
+- `2605.18885v1` (cs.IT, sim=0.756): The Extremum Stack is a Minimal Sufficient Statistic for Rate-Independent Functionals: A Kolmogorov 
+    matched conj `01de91bf4f4f`: Minimal Lefschetz Threshholds for AC0 Circuit Lower Bounds
+- `2605.22560v1` (hep-th, sim=0.748): Shading A-polynomials via huge representations of $U_q(\mathfrak{su}_N)$
+    matched conj `ec774306d982`: Minimal Rank of Algebraic K-Theory Groups vs Quantum Circuit Depth
+- `2605.21267v1` (cs.CC, sim=0.735): Towards Single Exponential Time for Temporal and Spatial Reasoning: A Study via Redundancy and Dynam
+    matched conj `fa4ca6e56954`: Minimal Local Index of Graphs and Sum-of-Squares Refutation Size for Random CSPs
+- `2605.19706v1` (quant-ph, sim=0.731): Finite-Precision Quantum Mechanics
+    matched conj `b295834747fe`: Minimal Tensor Rank of Quantum Logics vs BP_ReadTwice Circuit Size
+- `2605.19708v1` (math.QA, sim=0.73): Reduction and inverse-reduction functors I: standard $\mathsf{V^k}(\mathfrak{sl}_2)$-modules
+    matched conj `ec774306d982`: Minimal Rank of Algebraic K-Theory Groups vs Quantum Circuit Depth
+- `2605.19702v1` (cs.CC, sim=0.729): A Hierarchy of Tinhofer Graphs: Separations and Membership Testing
+    matched conj `c74c991b7cbd`: Minimal Rank of Tropicalized Lie Algebras and Permutation Circuit Threshold
+- `2605.22070v1` (hep-ph, sim=0.721): Symmetry Breaking as Quantum Gate: Entropy and Weak Mixing Angle
+    matched conj `2a85790e6d1a`: Minimal Entropy of Quantum Channels vs DPLL Search Tree Width
 
 ## Recommendations
-- ⚠ Read the 61 flagged papers; consider mutating affected conjectures away from the overlap.
-  - [2605.21480v1](https://arxiv.org/abs/2605.21480v1) vs our `0420f93e5160`
-  - [2605.21471v1](https://arxiv.org/abs/2605.21471v1) vs our `c0336452dd8d`
-  - [2605.21208v1](https://arxiv.org/abs/2605.21208v1) vs our `4b37abf22009`
-- Closest non-scoop overlap: `2605.19055v1` (sim=0.787) — may be a useful reference if you publish.
+- ⚠ Read the 10 flagged papers; consider mutating affected conjectures away from the overlap.
+  - [2605.21267v1](https://arxiv.org/abs/2605.21267v1) vs our `fa4ca6e56954`
+  - [2605.21546v1](https://arxiv.org/abs/2605.21546v1) vs our `c9fe395f21c4`
+  - [2605.19944v1](https://arxiv.org/abs/2605.19944v1) vs our `a80e9a39aa1f`
+- Closest non-scoop overlap: `2605.21546v1` (sim=0.767) — may be a useful reference if you publish.
 
 ---
 

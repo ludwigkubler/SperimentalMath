@@ -1,0 +1,176 @@
+{
+  "ts": 1779507185.664167,
+  "window_h": 24.0,
+  "n_conjectures": 339,
+  "n_papers": 80,
+  "n_scoops": 10,
+  "scoops": [
+    {
+      "paper_id": "2605.21267v1",
+      "paper_title": "Towards Single Exponential Time for Temporal and Spatial Reasoning: A Study via Redundancy and Dynamic Programming",
+      "matched_eid": "fa4ca6e56954",
+      "similarity": 0.7353040105396702
+    },
+    {
+      "paper_id": "2605.21546v1",
+      "paper_title": "Resource bounded Kučera-Gács Theorems",
+      "matched_eid": "c9fe395f21c4",
+      "similarity": 0.7673320239470137
+    },
+    {
+      "paper_id": "2605.19944v1",
+      "paper_title": "A Measure-Theoretic Analysis of Reasoning: Structural Generalization and Approximation Limits",
+      "matched_eid": "a80e9a39aa1f",
+      "similarity": 0.7666083534878047
+    },
+    {
+      "paper_id": "2605.19702v1",
+      "paper_title": "A Hierarchy of Tinhofer Graphs: Separations and Membership Testing",
+      "matched_eid": "c74c991b7cbd",
+      "similarity": 0.7294306297058606
+    },
+    {
+      "paper_id": "2605.19181v1",
+      "paper_title": "Risk of Bad Tails: CVaR-Aware Pandora's Box and Prophet Inequality",
+      "matched_eid": "a80e9a39aa1f",
+      "similarity": 0.7579403957134684
+    },
+    {
+      "paper_id": "2605.18885v1",
+      "paper_title": "The Extremum Stack is a Minimal Sufficient Statistic for Rate-Independent Functionals: A Kolmogorov Complexity Characterisation",
+      "matched_eid": "01de91bf4f4f",
+      "similarity": 0.7563887502318722
+    },
+    {
+      "paper_id": "2605.22560v1",
+      "paper_title": "Shading A-polynomials via huge representations of $U_q(\\mathfrak{su}_N)$",
+      "matched_eid": "ec774306d982",
+      "similarity": 0.7484479467879165
+    },
+    {
+      "paper_id": "2605.19708v1",
+      "paper_title": "Reduction and inverse-reduction functors I: standard $\\mathsf{V^k}(\\mathfrak{sl}_2)$-modules",
+      "matched_eid": "ec774306d982",
+      "similarity": 0.7301500086880922
+    },
+    {
+      "paper_id": "2605.19706v1",
+      "paper_title": "Finite-Precision Quantum Mechanics",
+      "matched_eid": "b295834747fe",
+      "similarity": 0.7312600712881695
+    },
+    {
+      "paper_id": "2605.22070v1",
+      "paper_title": "Symmetry Breaking as Quantum Gate: Entropy and Weak Mixing Angle",
+      "matched_eid": "2a85790e6d1a",
+      "similarity": 0.7214740849814576
+    }
+  ],
+  "top_overlap": [
+    {
+      "score": 0.767,
+      "paper_id": "2605.21546v1",
+      "paper_title": "Resource bounded Kučera-Gács Theorems",
+      "paper_category": "cs.CC",
+      "matched_conjecture_eid": "c9fe395f21c4",
+      "matched_conjecture_title": "Minimal Index of Quasi-Polynomial Approximation Spaces vs Communication Complexity for XOR"
+    },
+    {
+      "score": 0.767,
+      "paper_id": "2605.19944v1",
+      "paper_title": "A Measure-Theoretic Analysis of Reasoning: Structural Generalization and Approximation Limits",
+      "paper_category": "cs.LG",
+      "matched_conjecture_eid": "a80e9a39aa1f",
+      "matched_conjecture_title": "Minimal Rank of Free Probability Representations vs. Randomized Communication Complexity for Disjointness"
+    },
+    {
+      "score": 0.758,
+      "paper_id": "2605.19181v1",
+      "paper_title": "Risk of Bad Tails: CVaR-Aware Pandora's Box and Prophet Inequality",
+      "paper_category": "cs.CC",
+      "matched_conjecture_eid": "a80e9a39aa1f",
+      "matched_conjecture_title": "Minimal Rank of Free Probability Representations vs. Randomized Communication Complexity for Disjointness"
+    },
+    {
+      "score": 0.756,
+      "paper_id": "2605.18885v1",
+      "paper_title": "The Extremum Stack is a Minimal Sufficient Statistic for Rate-Independent Functionals: A Kolmogorov Complexity Characterisation",
+      "paper_category": "cs.IT",
+      "matched_conjecture_eid": "01de91bf4f4f",
+      "matched_conjecture_title": "Minimal Lefschetz Threshholds for AC0 Circuit Lower Bounds"
+    },
+    {
+      "score": 0.748,
+      "paper_id": "2605.22560v1",
+      "paper_title": "Shading A-polynomials via huge representations of $U_q(\\mathfrak{su}_N)$",
+      "paper_category": "hep-th",
+      "matched_conjecture_eid": "ec774306d982",
+      "matched_conjecture_title": "Minimal Rank of Algebraic K-Theory Groups vs Quantum Circuit Depth"
+    },
+    {
+      "score": 0.735,
+      "paper_id": "2605.21267v1",
+      "paper_title": "Towards Single Exponential Time for Temporal and Spatial Reasoning: A Study via Redundancy and Dynamic Programming",
+      "paper_category": "cs.CC",
+      "matched_conjecture_eid": "fa4ca6e56954",
+      "matched_conjecture_title": "Minimal Local Index of Graphs and Sum-of-Squares Refutation Size for Random CSPs"
+    },
+    {
+      "score": 0.731,
+      "paper_id": "2605.19706v1",
+      "paper_title": "Finite-Precision Quantum Mechanics",
+      "paper_category": "quant-ph",
+      "matched_conjecture_eid": "b295834747fe",
+      "matched_conjecture_title": "Minimal Tensor Rank of Quantum Logics vs BP_ReadTwice Circuit Size"
+    },
+    {
+      "score": 0.73,
+      "paper_id": "2605.19708v1",
+      "paper_title": "Reduction and inverse-reduction functors I: standard $\\mathsf{V^k}(\\mathfrak{sl}_2)$-modules",
+      "paper_category": "math.QA",
+      "matched_conjecture_eid": "ec774306d982",
+      "matched_conjecture_title": "Minimal Rank of Algebraic K-Theory Groups vs Quantum Circuit Depth"
+    },
+    {
+      "score": 0.729,
+      "paper_id": "2605.19702v1",
+      "paper_title": "A Hierarchy of Tinhofer Graphs: Separations and Membership Testing",
+      "paper_category": "cs.CC",
+      "matched_conjecture_eid": "c74c991b7cbd",
+      "matched_conjecture_title": "Minimal Rank of Tropicalized Lie Algebras and Permutation Circuit Threshold"
+    },
+    {
+      "score": 0.721,
+      "paper_id": "2605.22070v1",
+      "paper_title": "Symmetry Breaking as Quantum Gate: Entropy and Weak Mixing Angle",
+      "paper_category": "hep-ph",
+      "matched_conjecture_eid": "2a85790e6d1a",
+      "matched_conjecture_title": "Minimal Entropy of Quantum Channels vs DPLL Search Tree Width"
+    }
+  ],
+  "stats": {
+    "n_cycles": 339,
+    "verdicts": {
+      "INCONCLUSIVE": 175,
+      "BARRIER_HIT": 145,
+      "SCOOPED": 19
+    },
+    "focus_distribution": {
+      "ACC_SIPSER": 18,
+      "GCT_DET_PERM": 16,
+      "BP_READTWICE": 14,
+      "MONOTONE_CLIQUE": 21,
+      "SOS_DEGREE": 13,
+      "TSEITIN_RES": 14,
+      "AC0_PARITY": 8,
+      "COMM_DISJ": 12
+    },
+    "top_fields_A": {
+      "Algebraic Combinatorics": 18,
+      "Symplectic Geometry": 15,
+      "Tropical Geometry": 14,
+      "p-adic Analysis": 12,
+      "Free Probability Theory": 7
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "0efb205efa91",
+  "ts": 1779508413.6924627,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1302.0092",
+      "title": "Quadric invariants and degeneration in smooth-etale cohomology",
+      "abstract_excerpt": "For a regular pair $(X,Y)$ of schemes of pure codimension 1 on which 2 is invertible, we consider quadric bundles on $X$ which are nondegenerate on $X-Y$, but are minimally degenerate on $Y$. We give a formula for the behaviour of the cohomological invariants (characteristic classes) of the nondegenerate quadric bundle on $X-Y$ under the Gysin boundary map to the etale cohomology of $Y$ with mod 2 coefficients.\n  The results here are the algebro-geometric analogs of topological results for compl",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses quadric bundles and their cohomological invariants in the context of smooth-etale cohomology, but does not mention satisfiability problems, DPLL search tree complexity, or bounds on the minimal rank of etale cohomology groups, which are central to the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0412478v3",
+      "title": "Etale groupoids and their quantales",
+      "abstract_excerpt": "We establish a close and previously unknown relation between quantales and groupoids, in terms of which the notion of etale groupoid is subsumed in a natural way by that of quantale. In particular, to each etale groupoid, either localic or topological, there is associated a unital involutive quantal",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the relation between quantales and groupoids in the context of etale groupoids, but does not mention satisfiability problems, DPLL search tree complexity, or bounds on the rank of etale cohomology groups, which are central to the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0205337v1",
+      "title": "Weil-etale motivic cohomology",
+      "abstract_excerpt": "We study Weil-etale cohomology, introduced by Lichtenbaum for varieties over finite fields. In the first half of the paper we give an explicit description of the base change from Weil-etale cohomology to etale cohomology. As a consequence, we get a long exact sequence relating Weil-etale cohomology ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Weil-etale cohomology and its relation to etale cohomology, but does not mention satisfiability problems, DPLL search tree complexity, or bounds on the minimal rank of etale cohomology groups, which are central to the conjecture.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

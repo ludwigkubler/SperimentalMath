@@ -1,0 +1,40 @@
+{
+  "entry_id": "03ec2444916e",
+  "ts": 1779508766.2993183,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1712.05268",
+      "title": "Belyi map for the sporadic group J2",
+      "abstract_excerpt": "We present a genus 0 Belyi map for the sporadic Janko group J2 of degree 280. As a consequence we obtain a polynomial having Aut(J2) as a Galois group over K(t) where K is a number field of degree 10.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes 'a genus 0 Belyi map for the sporadic Janko group J2' and a Galois group construction, which shares only the 'Belyi map' vocabulary but does not address tropicalization, Tseitin formulas, or resolution proof depth.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1704.06419",
+      "title": "Belyi map for the sporadic group J1",
+      "abstract_excerpt": "We compute the genus 0 Belyi map for the sporadic Janko group J1 of degree 266 and describe the applied method. This yields explicit polynomials having J1 as a Galois group over K(t), [K:Q] = 7.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses a specific Belyi map for the sporadic group J1, which does not interact with the conjecture's claim about tropicalized Belyi functions and resolution proof depth for Tseitin formulas.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1703.05200",
+      "title": "The sporadic group J2, Hauptmodul and Belyi map",
+      "abstract_excerpt": "Determining Fourier coefficients of modular forms of a finite index noncongruence subgroups of the modular group is still a non-trivial task. In this brief note we describe a new algorithm to reliably calculate an approximation for a modular form of a given weight. As an example we calculate the hauptmodul and Belyi map of a genus zero subgroup of the modular group defined via a canonical homomorphism by the second Janko group. Our main result is the field of definition of its Belyi map, the exp",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Belyi maps and modular forms, sharing vocabulary with the conjecture, but does not mention tropicalized Belyi functions, Tseitin formulas, or resolution proof complexity, indicating no interaction with the specific claim.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

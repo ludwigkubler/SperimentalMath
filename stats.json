@@ -1,18 +1,18 @@
 {
-  "last_update_utc": "2026-05-23T03:47:03Z",
-  "total_cycles": 1571,
+  "last_update_utc": "2026-05-23T04:47:03Z",
+  "total_cycles": 1584,
   "verdict_counts": {
-    "INCONCLUSIVE": 1275,
+    "INCONCLUSIVE": 1282,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 253,
-    "SCOOPED": 23
+    "BARRIER_HIT": 256,
+    "SCOOPED": 26
   },
-  "unique_field_A": 862,
+  "unique_field_A": 869,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
-      71
+      72
     ],
     [
       "Schur-Weyl Duality",
@@ -20,7 +20,7 @@
     ],
     [
       "Free Probability Theory",
-      35
+      36
     ],
     [
       "Algebraic Combinatorics",
@@ -28,7 +28,7 @@
     ],
     [
       "Tropical Geometry",
-      29
+      30
     ],
     [
       "Matroid Theory",

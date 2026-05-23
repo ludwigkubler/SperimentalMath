@@ -1,0 +1,40 @@
+{
+  "entry_id": "027f18151318",
+  "ts": 1779511538.734596,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2304.02372",
+      "title": "Explicit smooth real algebraic functions which may have both compact and non-compact preimages on smooth real algebraic manifolds",
+      "abstract_excerpt": "In our previous work, we have constructed explicit smooth real algebraic functions which may have both compact and non-compact preimages on smooth real algebraic manifolds. This paper presents its variant. Our result is new in obtaining non-proper smooth real algebraic functions on smooth real algebraic manifolds satisfying explicit conditions on (non-)compactness of preimages whereas previously the manifolds are only semi-algebraic. Explicitly, this mainly contributes to two different regions o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "```json\n{\n  \"verdict\": \"ORTHOGONAL\",\n",
+      "judge_provider": "google"
+    },
+    {
+      "paper_id": "arxiv:2304.07540",
+      "title": "On real algebraic maps whose images are domains surrounded by the products of hyperbolas and real affine spaces",
+      "abstract_excerpt": "Previously, we have systematically constructed explicit real algebraic functions which are represented as the compositions of smooth real algebraic maps whose images are domains surrounded by hypersurfaces of degree 1 or 2 with canonical projections. Here we give new examples with the hypersurfaces each of which is the product of a connected component of a hyperbola and a copy of the $1$-dimensional affine space explicitly. As a related future work we also discuss problems to obtain the zero set",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract discusses the construction of explicit real algebraic functions and their representation as compositions of smooth maps with images surrounded by specific hypersurfaces. It mentions problems related to constructing smooth functions with prescribed Reeb graphs, but does not provide information regarding the rank of geometric loci in real projective space or ACC0 circuit lower bounds for explicit functions.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0103170v1",
+      "title": "Minimizing Polynomial Functions",
+      "abstract_excerpt": "We compare algorithms for global optimization of polynomial functions in many variables. It is demonstrated that existing algebraic methods (Gröbner bases, resultants, homotopy methods) are dramatically outperformed by a relaxation technique, due to N.Z. Shor and the first author, which involves sum",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract of the cited paper discusses global optimization of polynomial functions and compares different algorithms, but it does not mention anything about the minimal rank of geometric loci in real projective space or ACC0 circuit lower bounds for explicit functions. Therefore, there is no direct interaction between the content of the abstract and the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 3
+  }
+}
