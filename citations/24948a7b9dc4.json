@@ -1,0 +1,40 @@
+{
+  "entry_id": "24948a7b9dc4",
+  "ts": 1779513479.349392,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2406.15089",
+      "title": "Sentences over Random Groups II: Sentences of Minimal Rank",
+      "abstract_excerpt": "Random groups of density d&lt;\\frac{1}{2} are infinite hyperbolic, and of density d&gt;\\frac{1}{2} are finite. We prove the existence of a uniform quantifier elimination procedure for formulas of minimal rank (probably the superstable part of the theory). Namely, given a minimal rank formula V(p), we prove the existence of a formula \\varphi(p) that belongs to the Boolean algebra of two quantifiers, so that the two formulas V(p) and \\varphi(p) define the same set over the free group F_{k} and ove",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses random groups, density, and quantifier elimination procedures, which do not interact with the specific claim about Hodge decomposition modules over Boolean algebras and AC0 parity circuit threshold, as stated in the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2104.14187",
+      "title": "On the multiplicity spaces for branching to a spherical subgroup of minimal rank",
+      "abstract_excerpt": "Let g be a complex semi-simple Lie algebra and g be a semisimple subalgebra of g. Consider the branching problem of decomposing the simple g-representations V as a sum of simple grepresentations V. When g = g x g, it is the tensor product decomposition. The multiplicity space Mult(V, V) satisfies V = $\\oplus$ V Mult(V, V) $\\otimes$ V, where the sum runs over the isomorphism classes of simple g-representations. In the case when g is spherical of minimal rank, we describe Mult(V, V) as the interse",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited abstract discusses the branching problem in complex semi-simple Lie algebras and the multiplicity spaces for spherical subgroups of minimal rank, which is unrelated to Boolean algebras, Hodge decomposition modules, or AC0 parity circuit complexity. The vocabulary and framework do not interact with the specific claim of the conjecture.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1811.03813",
+      "title": "The trouble with tensor ring decompositions",
+      "abstract_excerpt": "The tensor train decomposition decomposes a tensor into a \"train\" of 3-way tensors that are interconnected through the summation of auxiliary indices. The decomposition is stable, has a well-defined notion of rank and enables the user to perform various linear algebra operations on vectors and matrices of exponential size in a computationally efficient manner. The tensor ring decomposition replaces the train by a ring through the introduction of one additional auxiliary variable. This article di",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract of the cited paper discusses issues with tensor ring decompositions and their inability to compute exact minimal-rank decompositions, which is orthogonal to the conjecture about Hodge decomposition modules over Boolean algebras and AC0 parity circuit threshold. The cited paper does not directly address or interact with the specific claims made in the conjecture.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}

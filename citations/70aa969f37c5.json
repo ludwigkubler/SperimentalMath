@@ -1,0 +1,40 @@
+{
+  "entry_id": "70aa969f37c5",
+  "ts": 1779512131.2960835,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1607.03608",
+      "title": "On the tensor product of linear sites and Grothendieck categories",
+      "abstract_excerpt": "We define a tensor product of linear sites, and a resulting tensor product of Grothendieck categories based upon their representations as categories of linear sheaves. We show that our tensor product is a special case of the tensor product of locally presentable linear categories, and that the tensor product of locally coherent Grothendieck categories is locally coherent if and only if the Deligne tensor product of their abelian categories of finitely presented objects exists. We describe the te",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses tensor products of linear sites and Grothendieck categories, which shares vocabulary with the conjecture, but does not interact with the specific claim about noncommutative tensor product rank and BP_ReadTwice width, as seen in phrases like 'tensor product of linear sites' and 'tensor product of Grothendieck categories'.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2505.01899",
+      "title": "On functoriality and the tensor product property in noncommutative tensor-triangular geometry",
+      "abstract_excerpt": "Two pertinent questions for any support theory of a monoidal triangulated category are whether it is functorial and if the tensor product property holds. To this end, we consider the complete prime spectrum of an essentially small monoidal triangulated category, which we show is universal among support data satisfying the tensor product property, even if it is empty. The complete prime spectrum is functorial and parametrizes radical thick tensor-ideals, a noncommutative analogue of Balmer's reco",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited abstract discusses properties of monoidal triangulated categories and tensor product properties, which are related to noncommutative geometry. However, it does not address the specific conjecture regarding noncommutative tensor product rank and BP_ReadTwice width in complexity theory.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1808.10521",
+      "title": "Efficient quantum tensor product expanders and unitary t-designs via the zigzag product",
+      "abstract_excerpt": "A classical t-tensor product expander is a natural way of formalising correlated walks of t particles on a regular expander graph. A quantum t-tensor product expander is a completely positive trace preserving map that is a straightforward analogue of a classical t-tensor product expander. Interest in these maps arises from the fact that iterating a quantum t-tensor product expander gives us a unitary t-design, which has many applications to quantum computation and information. We show that the z",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract of the cited paper discusses quantum tensor product expanders and their applications to quantum computation, but it does not provide any information about noncommutative tensor product rank or BP_ReadTwice width, which are central to the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}

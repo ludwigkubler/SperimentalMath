@@ -1,0 +1,40 @@
+{
+  "entry_id": "76fe9d77dd18",
+  "ts": 1779512664.9459536,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/2310.12777v2",
+      "title": "Proximity and Remoteness in Graphs: a survey",
+      "abstract_excerpt": "The proximity $π= π(G)$ of a connected graph $G$ is the minimum, over all vertices, of the average distance from a vertex to all others. Similarly, the maximum is called the remoteness and denoted by $ρ= ρ(G)$. The concepts of proximity and remoteness, first defined in 2006, attracted the attention ",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper's abstract focuses on the concepts of proximity and remoteness for graphs, which are unrelated to the conjecture about Resolution proof length and Euler characteristic. The specific claim regarding Tseitin formulas is not addressed in the provided abstract.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2201.09269v3",
+      "title": "Proximity, remoteness and maximum degree in graphs",
+      "abstract_excerpt": "The average distance of a vertex $v$ of a connected graph $G$ is the arithmetic mean of the distances from $v$ to all other vertices of $G$. The proximity $π(G)$ and the remoteness $ρ(G)$ of $G$ are the minimum and the maximum of the average distances of the vertices of $G$, respectively.\n  In this ",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper's abstract discusses average distance, proximity, and remoteness in graphs, which are unrelated to resolution proof length or Euler characteristic. There is no mention of Tseitin formulas, Resolution proof length, or Euler characteristic, making it impossible to determine if the abstract supports, refutes, or is orthogonal to the proposed conjecture.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1610.00197v2",
+      "title": "Coherent structure coloring: identification of coherent structures from sparse data using graph theory",
+      "abstract_excerpt": "We present a frame-invariant method for detecting coherent structures from Lagrangian flow trajectories that can be sparse in number, as is the case in many fluid mechanics applications of practical interest. The method, based on principles used in graph coloring and spectral graph drawing algorithm",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited abstract discusses a method for detecting coherent structures using graph theory and does not provide any information about resolution proof length, Tseitin formulas, or Euler characteristic. Therefore, it is insufficient to determine if the paper supports, refutes, or is orthogonal to the conjecture.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 3
+  }
+}
