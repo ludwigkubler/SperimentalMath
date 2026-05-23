@@ -1,0 +1,40 @@
+{
+  "entry_id": "ac3b5aa63bfb",
+  "ts": 1779522697.9120066,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2604.09703",
+      "title": "Cayley Graph Optimization for Scalable Multi-Agent Communication Topologies",
+      "abstract_excerpt": "Large-scale multi-agent communication has long faced a scalability bottleneck: fully connected networks require quadratic complexity, yet existing sparse topologies rely on hand-crafted rules. This paper treats the communication graph itself as a design variable and proposes CayleyTopo, a family of circulant Cayley graphs whose generator sets are optimized to minimize diameter, directly targeting worst-case information propagation speed. To navigate the enormous search space of possible generato",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses optimizing communication graph topologies for multi-agent systems, which shares vocabulary with the conjecture, but does not interact with the specific claim about the minimal rank of configuration spaces and communication complexity for disjunctive normal form, as seen in phrases like 'CayleyTopo, a family of circulant Cayley graphs' and 'minimize diameter, directly targeting worst-case information propagation speed'.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1312.7368",
+      "title": "Totally normal cellular stratified spaces and applications to the configuration space of graphs",
+      "abstract_excerpt": "The notion of regular cell complexes plays a central role in topological combinatorics because of its close relationship with posets. A generalization, called totally normal cellular stratified spaces, was introduced by the third author by relaxing two conditions; face posets are replaced by acyclic categories and cells with incomplete boundaries are allowed. The aim of this article is to demonstrate the usefulness of totally normal cellular stratified spaces by constructing a combinatorial mode",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "```json\n{\n  \"verdict\": \"ORTHOGONAL\",\n",
+      "judge_provider": "google"
+    },
+    {
+      "paper_id": "arxiv:2503.22997",
+      "title": "Disjunctive Complexity",
+      "abstract_excerpt": "A recently introduced measure of Boolean functions complexity--disjunc\\-tive complexity (DC)--is compared with other complexity measures: the space complexity of streaming algorithms and the complexity of nondeterministic branching programs (NBP). We show that DC is incomparable with NBP. Specifically, we present a function that has low NBP but has subexponential DC. Conversely, we provide arguments based on computational complexity conjectures to show that DC can superpolynomially exceed NBP in",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "```json\n{\n  \"verdict\": \"ORTHOGONAL\",\n  \"reason",
+      "judge_provider": "google"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "2b7421ced93f",
+  "ts": 1779523877.6792874,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2208.03921",
+      "title": "Motivic integration on special rigid varieties and the motivic integral identity conjecture",
+      "abstract_excerpt": "We prove in this paper the original version of Kontsevich and Soibelman's motivic integral identity conjecture for formal functions by developing a novel framework for equivariant motivic integration on special rigid varieties. This theory is built upon our recent research on equivariant motivic integration within the realm of special formal schemes. The central element of our approach lies in demonstrating that two formal models of a given smooth rigid variety can be dominated by a third formal",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses motivic integration on special rigid varieties and the motivic integral identity conjecture, but does not mention Tseitin formulas, resolution proof tree width, or the relationship between motivic integrals and proof complexity, which are central to the conjecture under review.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1711.07883",
+      "title": "Note on the motivic DT/PT correspondence and the motivic Flop formula",
+      "abstract_excerpt": "We prove the motivic version of the DT/PT-correspondence in \\cite{PT} and the motivic flop formula of the curve counting invariants in the derived category of smooth Calabi-Yau threefold DM stacks. The main method we use is Bridgeland's Hall algebra identities and the motivic integration map of Bridgeland and Joyce from the motivic Hall algebra of the abelian category of coherent sheaves on a Calabi-Yau threefold DM stack $Y$ to the motivic quantum torus, which is a Poisson algebra homomorphism.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "```json\n{\n  \"verdict\": \"ORTHOGONAL\",\n  \"",
+      "judge_provider": "google"
+    },
+    {
+      "paper_id": "arxiv:1703.02849",
+      "title": "Motivic model categories and motivic derived algebraic geometry",
+      "abstract_excerpt": "In this paper, we develop an enhancement of derived algebraic geometry to apply to $\\mathbb{A}^1$-homotopy theory introduced by Morel and Voevodsky. We call the enhancement \"motivic derived algebraic geometry\". We shall actually formulate \"motivic\" versions of $\\infty$-categories, $\\infty$-topoi, spectral schemes and spectral Deligne--Mumford stacks established by Joyal, Lurie, Toën and Vezzosi.\n  By using the language of motivic derived algebraic geometry, we construct the Grassmannian and the ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "```json\n{\n  \"verdict\": \"ORTHOGONAL\",\n  \"reason",
+      "judge_provider": "google"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}

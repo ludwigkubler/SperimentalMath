@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-05-23T07:47:03Z",
-  "total_cycles": 1627,
+  "last_update_utc": "2026-05-23T08:47:03Z",
+  "total_cycles": 1641,
   "verdict_counts": {
-    "INCONCLUSIVE": 1308,
+    "INCONCLUSIVE": 1317,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 273,
+    "BARRIER_HIT": 278,
     "SCOOPED": 26
   },
-  "unique_field_A": 896,
+  "unique_field_A": 901,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
@@ -16,7 +16,7 @@
     ],
     [
       "Schur-Weyl Duality",
-      38
+      39
     ],
     [
       "Free Probability Theory",
@@ -36,7 +36,7 @@
     ],
     [
       "Free Probability",
-      26
+      27
     ],
     [
       "Representation Theory of Symmetric Groups",

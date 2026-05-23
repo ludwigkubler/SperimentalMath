@@ -1,0 +1,40 @@
+{
+  "entry_id": "e89c02140403",
+  "ts": 1779524483.2271183,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1802.08117",
+      "title": "Topological spaces of persistence modules and their properties",
+      "abstract_excerpt": "Persistence modules are a central algebraic object arising in topological data analysis. The notion of interleaving provides a natural way to measure distances between persistence modules. We consider various classes of persistence modules, including many of those that have been previously studied, and describe the relationships between them. In the cases where these classes are sets, interleaving distance induces a topology. We undertake a systematic study the resulting topological spaces and t",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses persistence modules and their topological properties, but does not mention Tseitin formulas, resolution proof length, or configuration spaces, which are central to the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1111.0731",
+      "title": "On Hawaiian Groups of Some Topological Spaces",
+      "abstract_excerpt": "The paper is devoted to study the structure of Hawaiian groups of some topological spaces. We present some behaviors of Hawaiian groups with respect to product spaces, weak join spaces, cone spaces, covering spaces and locally trivial bundles. In particular, we determine the structure of the $n$-dimensional Hawaiian group of the $m$-dimensional Hawaiian earring space, for all $1\\leq m\\leq n$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "```json\n{\n  \"verdict\": \"ORTHOGONAL\",\n  \"",
+      "judge_provider": "google"
+    },
+    {
+      "paper_id": "arxiv:1404.2594",
+      "title": "Some topological problems on the configuration spaces of Artin and Coxeter groups",
+      "abstract_excerpt": "In the first part we review some topological and algebraic aspects in the theory of Artin and Coxeter groups, both in the finite and infinite case (but still, finitely generated). In the following parts, among other things, we compute the Schwartz genus of the covering associated to the orbit space for all affine Artin groups. We also give a partial computation of the cohomology of the braid group with non-abelian coefficients coming from geometric representations. We introduce an interesting cl",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "```json\n{\n  \"verdict\": \"ORTHOGONAL\",\n  ",
+      "judge_provider": "google"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}

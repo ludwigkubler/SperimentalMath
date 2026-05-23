@@ -1,0 +1,40 @@
+{
+  "entry_id": "1be25b6973e0",
+  "ts": 1779525467.7227423,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1909.00549",
+      "title": "Multilevel Monte Carlo estimation of the expected value of sample information",
+      "abstract_excerpt": "We study Monte Carlo estimation of the expected value of sample information (EVSI) which measures the expected benefit of gaining additional information for decision making under uncertainty. EVSI is defined as a nested expectation in which an outer expectation is taken with respect to one random variable $Y$ and an inner conditional expectation with respect to the other random variable $θ$. Although the nested (Markov chain) Monte Carlo estimator has been often used in this context, a root-mean",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Monte Carlo estimation of the expected value of sample information, which does not interact with the specific claim about Riemann zeta function regularization and resolution proof length for Tseitin formulas, as stated in the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1105.5308",
+      "title": "Stress-energy Tensor Correlators of a Quantum Field in Euclidean $R^N$ and $AdS^N$ spaces via the generalized zeta-function method",
+      "abstract_excerpt": "In this paper we calculate the vacuum expectation values of the stress-energy bitensor of a massive quantum scalar field with general coupling to N-dimensional Euclidean spaces and hyperbolic spaces which are Euclidean sections of the anti-de Sitter (AdS) spaces. These correlators, also known as the noise kernel, act as sources in the Einstein-Langevin equations of stochastic gravity [1,2] which govern the induced metric fluctuations beyond the mean-field dynamics described by the semiclassical ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "```json\n{\n  \"verdict\": \"ORTHOGONAL\",\n  ",
+      "judge_provider": "google"
+    },
+    {
+      "paper_id": "arxiv:1406.4557",
+      "title": "Formal Zeta Function Expansions and the Frequency of Ramanujan Graphs",
+      "abstract_excerpt": "We show that logarithmic derivative of the Zeta function of any regular graph is given by a power series about infinity whose coefficients are given in terms of the traces of powers of the graph's Hashimoto matrix.\n  We then consider the expected value of this power series over random, $d$-regular graph on $n$ vertices, with $d$ fixed and $n$ tending to infinity. Under rather speculative assumptions, we make a formal calculation that suggests that for fixed $d$ and $n$ large, this expected value",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "```json\n{\n  \"verdict\": \"ORTHOGONAL\",\n",
+      "judge_provider": "google"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}
