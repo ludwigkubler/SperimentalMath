@@ -1,0 +1,40 @@
+{
+  "entry_id": "f6311e88496f",
+  "ts": 1779519861.247271,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1406.3065",
+      "title": "Lower Bounds for Tropical Circuits and Dynamic Programs",
+      "abstract_excerpt": "Tropical circuits are circuits with Min and Plus, or Max and Plus operations as gates. Their importance stems from their intimate relation to dynamic programming algorithms. The power of tropical circuits lies somewhere between that of monotone boolean circuits and monotone arithmetic circuits. In this paper we present some lower bounds arguments for tropical circuits, and hence, for dynamic programs.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses tropical circuits and their relation to dynamic programming, but does not mention quiver representations, minimal rank, or the k-CLIQUE problem, which are central to the conjecture, as seen in phrases like 'minimal rank of its tropicalized version' and 'k-CLIQUE indicator'.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2411.19889",
+      "title": "Tropical representations and valuated matroids",
+      "abstract_excerpt": "We explore several facets of tropical subrepresentations of a linear representation of a group over the tropical semifield $\\mathbb{T}$. A key role in the study of tropical subrepresentations is played by two types of modules over a semiring: weakly free and quasi-free modules. We also investigate subgroups of $\\text{GL}_n(K)$ for $K=\\mathbb{T}$, $ \\mathbb{R}_{\\geq 0}$, and automorphisms of weakly free modules and tropical prevarieties defined by tropical linear equations. As an application of o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses tropical subrepresentations and valuated matroids, but does not mention quiver representations, minimal rank, or monotone circuit complexity for k-CLIQUE, which are the core concepts of the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2410.08349",
+      "title": "Tropical subrepresentations of the boolean regular representation in low dimension",
+      "abstract_excerpt": "We study two dimensional and three dimensional tropical subrepresentations of the regular representation $\\mathbb{B}[G]$ of a finite group over the tropical booleans, utilizing the theory of group representations over a fixed idempotent semifield as developed by Giansiracusa--Manaker. In dimension two we completely classify all two dimensional tropical subrepresentations of $\\mathbb{B}[G]$, provide an explicit characterization for the set of bases of the corresponding matroids, and show an equiv",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "```json\n{\n  \"verdict\": \"ORTHOGONAL\",\n  \"reason",
+      "judge_provider": "google"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}
