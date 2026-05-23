@@ -1,0 +1,40 @@
+{
+  "entry_id": "ea85ec327d58",
+  "ts": 1779547384.5609941,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1207.2443",
+      "title": "Tropical Teichmuller and Siegel spaces",
+      "abstract_excerpt": "In this paper, we present a unified study of the moduli space of tropical curves and Outer space which we link via period maps to the moduli space of tropical abelian varieties and the space of positive definite quadratic forms. Our work is a first step towards exhibiting Outer space and the space of positive definite quadratic forms as analogues of Teichmüller space and Siegel space, respectively, in tropical geometry. All these spaces and the maps among them are described within the category o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses a study of moduli space of tropical curves and their relation to tropical abelian varieties, positive definite quadratic forms, and Teichmüller and Siegel spaces. This is orthogonal to the conjecture under review, which focuses on the relationship between tropical divisor rank and Tseitin formula resolution depth.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1506.04846",
+      "title": "Analytification and Tropicalization over non-archimedean fields",
+      "abstract_excerpt": "This paper provides an overview of recent progress on the interplay between tropical geometry and non-archimedean analytic geometry in the sense of Berkovich. After briefly discussing results by Baker, Payne and Rabinoff in the case of curves, we explain a result by Cueto, Häbich and the author comparing the tropical Grassmannian of planes to the analytic Grassmannian. We also give an overview of the general higher-dimensional theory developed by Gubler, Rabinoff and the author. In particular, w",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract of the cited paper discusses various aspects of tropical geometry and its relation to non-archimedean analytic geometry, including comparisons between tropical and analytic Grassmannians and polyhedral substructures. However, it does not provide any information regarding the relationship between tropical divisors, their rank, and the resolution depth of Tseitin formulas. Therefore, no conclusion can be drawn about whether the conjecture is supported or refuted based solely on the abstract.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1204.3875",
+      "title": "Tropicalizing vs Compactifying the Torelli morphism",
+      "abstract_excerpt": "In this paper, we compare the compactified Torelli morphism (as defined by V. Alexeev) and the tropical Torelli map (as defined by the author in a joint work with S. Brannetti and M. Melo, and furthered studied by M. Chan). Our aim is twofold: on one hand, we will review the construction and main properties of the above mentioned two Torelli maps, focusing in particular on the description of their fibers achieved by the author in joint works with L. Caporaso; on the other hand, we will clarify t",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper's abstract discusses the comparison and properties of the compactified and tropical Torelli morphisms, focusing on their fibers and relationship. It does not mention anything about tropical divisors, Tseitin formulas, or resolution depth, which are central concepts in the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}

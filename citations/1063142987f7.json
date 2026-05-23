@@ -1,0 +1,40 @@
+{
+  "entry_id": "1063142987f7",
+  "ts": 1779545147.3704019,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1603.04558",
+      "title": "An algebro-geometric study of special values of hypergeometric functions ${}_3F_2$",
+      "abstract_excerpt": "For certain class of hypergeometric functions ${}_3F_2$ with rational parameters, we give a sufficient condition for the special value at $1$ to be expressed in terms of logarithms of algebraic numbers. We give two proofs, both of which are algebro-geometric and related to higher regulators.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses hypergeometric functions and their special values, which does not interact with the specific claim about the minimal rank of algebro-geometric codes and SOS degree for Max-CUT, as stated in the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/quant-ph/9804043v2",
+      "title": "Dense Quantum Coding and a Lower Bound for 1-way Quantum Automata",
+      "abstract_excerpt": "We consider the possibility of encoding m classical bits into much fewer n quantum bits so that an arbitrary bit from the original m bits can be recovered with a good probability, and we show that non-trivial quantum encodings exist that have no classical counterparts. On the other hand, we show tha",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper's abstract discusses quantum coding and lower bounds for 1-way quantum automata, which is unrelated to the conjecture about algebro-geometric codes and SOS degree for Max-CUT. The specific claims regarding polynomial relationships between minimal rank and SOS degree are not addressed in the provided abstract.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2011.02044",
+      "title": "Circuit lower bounds for low-energy states of quantum code Hamiltonians",
+      "abstract_excerpt": "The No Low-energy Trivial States (NLTS) conjecture of Freedman and Hastings, 2014 -- which posits the existence of a local Hamiltonian with a super-constant quantum circuit lower bound on the complexity of all low-energy states -- identifies a fundamental obstacle to the resolution of the quantum PCP conjecture. In this work, we provide new techniques, based on entropic and local indistinguishability arguments, that prove circuit lower bounds for all the low-energy states of local Hamiltonians a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper discusses circuit lower bounds for quantum code Hamiltonians and the NLTS conjecture, which is unrelated to the conjecture under review about the minimal rank of algebro-geometric codes and SOS degree for Max-CUT. The abstract does not provide any information that supports or refutes the claim regarding polynomial relationships between minimal rank and SOS degree.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}
