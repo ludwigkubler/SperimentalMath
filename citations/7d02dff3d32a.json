@@ -1,0 +1,40 @@
+{
+  "entry_id": "7d02dff3d32a",
+  "ts": 1779553704.3521745,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1112.4251",
+      "title": "Average Case Tractability of Non-homogeneous Tensor Product Problems",
+      "abstract_excerpt": "We study d-variate approximation problems in the average case setting with respect to a zero-mean Gaussian measure. Our interest is focused on measures having a structure of non-homogeneous linear tensor product, where covariance kernel is a product of univariate kernels. We consider the normalized average error of algorithms that use finitely many evaluations of arbitrary linear functionals. The information complexity is defined as the minimal number n(h,d) of such evaluations for error in the ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses average case tractability of non-homogeneous tensor product problems, which shares vocabulary with the conjecture, but does not interact with the specific claim about tropicalization of configuration spaces and ACC⁰ circuit complexity.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2001.11740",
+      "title": "Exponential tractability of linear weighted tensor product problems in the worst-case setting for arbitrary linear functionals",
+      "abstract_excerpt": "We study the approximation of compact linear operators defined over certain weighted tensor product Hilbert spaces. The information complexity is defined as the minimal number of arbitrary linear functionals which is needed to obtain an $\\varepsilon$-approximation for the $d$-variate problem. It is fully determined in terms of the weights and univariate singular values. Exponential tractability means that the information complexity is bounded by a certain function which depends polynomially on $",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited abstract discusses the approximation of compact linear operators and their information complexity in weighted tensor product Hilbert spaces, which does not directly address the minimal rank of tropicalized configuration spaces or ACC⁰ circuit threshold for Tensor Product. The concepts of exponential tractability and information complexity are distinct from the conjecture's claims about minimal rank and ACC⁰ circuit complexity.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1708.04102",
+      "title": "Tractability of multivariate problems for standard and linear information in the worst case setting: part II",
+      "abstract_excerpt": "We study QPT (quasi-polynomial tractability) in the worst case setting for linear tensor product problems defined over Hilbert spaces. We assume that the domain space is a reproducing kernel Hilbert space so that function values are well defined. We prove QPT for algorithms that use only function values under the three assumptions:\n  1) the minimal errors for the univariate case decay polynomially fast to zero,\n  2) the largest singular value for the univariate case is simple and\n  3) the eigenf",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract discusses quasi-polynomial tractability of linear tensor product problems over Hilbert spaces and provides conditions under which this tractability holds. It does not directly address the minimal rank of tropicalized configuration spaces or the ACC⁰ circuit complexity for Tensor Product, as stated in the conjecture.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}

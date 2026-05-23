@@ -1,0 +1,40 @@
+{
+  "entry_id": "3d9cc1fcfc83",
+  "ts": 1779554393.1723669,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1207.2443",
+      "title": "Tropical Teichmuller and Siegel spaces",
+      "abstract_excerpt": "In this paper, we present a unified study of the moduli space of tropical curves and Outer space which we link via period maps to the moduli space of tropical abelian varieties and the space of positive definite quadratic forms. Our work is a first step towards exhibiting Outer space and the space of positive definite quadratic forms as analogues of Teichmüller space and Siegel space, respectively, in tropical geometry. All these spaces and the maps among them are described within the category o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper's abstract focuses on a study of moduli spaces in tropical geometry, specifically linking tropical curves and Outer space. There is no mention of the minimal rank of tropicalized affine sheaves or communication complexity for disjointness, which are central to the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2303.05618",
+      "title": "Tropical Geometry, Quantum Affine Algebras, and Scattering Amplitudes",
+      "abstract_excerpt": "The goal of this paper is to make a connection between tropical geometry, representations of quantum affine algebras, and scattering amplitudes in physics. The connection allows us to study important and difficult questions in these areas:\n  (1) We give a systematic construction of prime modules (including prime non-real modules) of quantum affine algebras using tropical geometry. We also introduce new objects which generalize positive tropical Grassmannians.\n  (2) We propose a generalization of",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper focuses on the connection between tropical geometry, quantum affine algebras, and scattering amplitudes in physics. It does not address the relationship between the minimal rank of tropicalized affine sheaves and communication complexity for disjointness instances, which is the core topic of the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:0802.4323",
+      "title": "Non-singular affine surfaces with self-maps",
+      "abstract_excerpt": "We classify surjective self-maps (of degree at least two) of affine surfaces according to the log Kodaira dimension.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper's abstract discusses classification of surjective self-maps of affine surfaces and does not provide any information related to tropicalization, communication complexity, or the minimal rank of affine sheaves. Therefore, it is insufficient to determine if it supports, refutes, or is orthogonal to the conjecture.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}

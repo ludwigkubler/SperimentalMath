@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-05-23T15:47:03Z",
-  "total_cycles": 1739,
+  "last_update_utc": "2026-05-23T16:47:03Z",
+  "total_cycles": 1757,
   "verdict_counts": {
-    "INCONCLUSIVE": 1372,
+    "INCONCLUSIVE": 1377,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 314,
-    "SCOOPED": 33
+    "BARRIER_HIT": 326,
+    "SCOOPED": 34
   },
-  "unique_field_A": 945,
+  "unique_field_A": 957,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
@@ -28,7 +28,7 @@
     ],
     [
       "Tropical Geometry",
-      33
+      34
     ],
     [
       "Matroid Theory",

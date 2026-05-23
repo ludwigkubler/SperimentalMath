@@ -1,0 +1,40 @@
+{
+  "entry_id": "7d536530206d",
+  "ts": 1779551583.837327,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2001.05888",
+      "title": "Tropical linear representations of the Chinese monoid",
+      "abstract_excerpt": "We introduce a faithful tropical linear representation of the Chinese monoid, and thus prove that this monoid admits all the semigroup identities satisfied by tropical triangular matrices.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses tropical linear representations of the Chinese monoid, which shares vocabulary with group representation theory, but does not interact with the specific claim about the minimal rank of linear representations of the monoid of boolean functions induced by a CNF instance's Tseitin matrix.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1701.06807",
+      "title": "Linear Representation of Symmetric Games",
+      "abstract_excerpt": "Using semi-tensor product of matrices, the structures of several kinds of symmetric games are investigated via the linear representation of symmetric group in the structure vector of games as its representation space. First of all, the symmetry, described as the action of symmetric group on payoff functions, is converted into the product of permutation matrices with structure vectors of payoff functions. Using the linear representation of the symmetric group in structure vectors, the algebraic c",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper focuses on the linear representation of symmetric group and its applications in game theory, specifically with Boolean games. It does not provide any information regarding the minimal rank of group representations or the DPLL search tree height for CNF instances, which are central to the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/9806050v1",
+      "title": "A Faithful Representation of the Singular Braid Monoid on Three Strands",
+      "abstract_excerpt": "We show that a certain linear representation of the singular braid monoid on three strands is faithful. Furthermore we will give a second - group theoretically motivated - solution to the word problem in this monoid.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited abstract discusses a linear representation of the singular braid monoid on three strands and provides a solution to the word problem, which is unrelated to the conjecture about the minimal rank of group representations and DPLL search tree height for CNF instances.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}

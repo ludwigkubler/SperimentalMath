@@ -1,0 +1,40 @@
+{
+  "entry_id": "c5e95083611c",
+  "ts": 1779552766.2566879,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1607.03608",
+      "title": "On the tensor product of linear sites and Grothendieck categories",
+      "abstract_excerpt": "We define a tensor product of linear sites, and a resulting tensor product of Grothendieck categories based upon their representations as categories of linear sheaves. We show that our tensor product is a special case of the tensor product of locally presentable linear categories, and that the tensor product of locally coherent Grothendieck categories is locally coherent if and only if the Deligne tensor product of their abelian categories of finitely presented objects exists. We describe the te",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses tensor products of linear sites and Grothendieck categories, but does not mention Boolean algebras, tropicalization, or branching program complexity, which are central to the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1610.00298",
+      "title": "Khovanskii bases, higher rank valuations and tropical geometry",
+      "abstract_excerpt": "Given a finitely generated algebra $A$, it is a fundamental question whether $A$ has a full rank discrete (Krull) valuation $\\mathfrak{v}$ with finitely generated value semigroup. We give a necessary and sufficient condition for this, in terms of tropical geometry of $A$. In the course of this we introduce the notion of a Khovanskii basis for $(A, \\mathfrak{v})$ which provides a framework for far extending Gröbner theory on polynomial algebras to general finitely generated algebras. In particula",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper's abstract discusses the tropical geometry of finitely generated algebras, Khovanskii bases, and their connections to Gröbner theory and Newton-Okounkov bodies. However, it does not provide any information about the minimal tensor product rank of tropicalized Boolean algebras or the depth of branching programs for Boolean functions, which are the specific claims in the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2604.11166",
+      "title": "Asymptotic Behavior of Tropical Rank Functions",
+      "abstract_excerpt": "We show that the asymptotic behavior of the two main competing notions of rank of a linear series on a tropical curve is governed by asymptotic invariants, closely paralleling the theory of volumes in algebraic geometry. We introduce and study tropical notions of volume associated to both divisors and tropical modules. We prove optimal asymptotic results for each case. In addition, we show that the tropical volume is compatible with the tropicalization of curves.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the asymptotic behavior of rank functions in tropical geometry and introduces tropical notions of volume, but it does not provide any information about the relationship between the minimal tensor product rank of tropicalized Boolean algebras and the depth of branching programs for Boolean functions.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}
