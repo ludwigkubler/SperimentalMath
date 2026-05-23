@@ -1939,4 +1939,7 @@
 {"ts": 1779501603.3004332, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 2000, "cap": 2000, "fraction": 1.0, "weekly_budget": 2500}}
 {"ts": 1779503403.4478202, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 26}}
 {"ts": 1779503403.5520399, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 2000, "cap": 2000, "fraction": 1.0, "weekly_budget": 2500}}
-{"ts": 1779507912.099017, "ts_iso": "2026-05-23T03:45:12.099017+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "OK", "to_status": "DEGRADED", "failing_checks": ["ram_above_1g"], "auto_fixed": false}
+{"ts": 1779505202.9421005, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 26}}
+{"ts": 1779505203.043563, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 2000, "cap": 2000, "fraction": 1.0, "weekly_budget": 2500}}
+{"ts": 1779507003.5540085, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 26}}
+{"ts": 1779507003.8085718, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 2000, "cap": 2000, "fraction": 1.0, "weekly_budget": 2500}}
