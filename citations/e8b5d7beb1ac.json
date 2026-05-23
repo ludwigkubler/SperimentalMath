@@ -1,0 +1,40 @@
+{
+  "entry_id": "e8b5d7beb1ac",
+  "ts": 1779531872.7056978,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2308.14302",
+      "title": "Finite simple characteristic quotients of the free group of rank 2",
+      "abstract_excerpt": "In this paper we describe how to explicitly construct infinitely many finite simple groups as characteristic quotients of the rank 2 free group $F_2$. This shows that a \"baby\" version of the Wiegold conjecture fails for $F_2$, and provides counterexamples to two conjectures in the theory of noncongruence subgroups of $\\text{SL}_2(\\mathbb{Z})$. Our main result explicitly produces, for every prime power $q\\ge 7$, the groups $\\text{SL}_3(\\mathbb{F}_q)$ and $\\text{SU}_3(\\mathbb{F}_q)$ as characteris",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper discusses the construction of finite simple groups as characteristic quotients and provides counterexamples to certain conjectures in group theory. It does not address the bounds on minimal rank of quotient modules over tropicalized Boolean algebras or resolution proof complexity for Tseitin formulas, which are the topics of the proposed conjecture.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1410.1732",
+      "title": "Induced and Coinduced Modules in Cluster-Tilted Algebras",
+      "abstract_excerpt": "We propose a new approach to study the relation between the module categories of a tilted algebra $C$ and the corresponding cluster-tilted algebra $B=C\\ltimes E$. This new approach consists of using the induction functor $-\\otimes_C B$ as well as the coinduction functor $D(B\\otimes_C D-)$. We show that $DE$ is a partial tilting and a $τ$-rigid $C$-module and that the induced module $DE\\otimes_C B$ is a partial tilting and a $τ$-rigid $B$-module. Furthermore, if $C=\\text{End}_A T$ for a tilting m",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper discusses induced and coinduced modules in cluster-tilted algebras and their relation to tilting modules, but it does not provide any information about the minimal rank of quotient modules over tropicalized Boolean algebras or resolution proof length. Therefore, it is insufficient to determine if the abstract supports, refutes, or is orthogonal to the conjecture.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2505.19661",
+      "title": "Bethe algebras for unitarizable modules over classical Lie (super)algebras and a duality",
+      "abstract_excerpt": "Let $\\mathfrak{g}$ denote the classical Lie algebra $\\mathfrak{gl}_d$, $\\mathfrak{sp}_{2d}$, or $\\mathfrak{so}_{2d}$ with a fixed $*$-structure $σ$. Let $M_1, \\ldots, M_\\ell$ be unitarizable $\\mathfrak{g}$-modules (with respect to $σ$), and let ${\\bf z}=(z_1, \\ldots, z_\\ell) \\in \\mathbb{C}^\\ell$. We investigate the action of the Bethe algebra $\\mathcal{B}_{\\mathfrak{g}}^μ$ for $\\mathfrak{g}$ with respect to $μ\\in \\mathfrak{g}^*$ on the tensor product $\\underline{M}({\\bf z}):=M_1(z_1) \\otimes \\cd",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses Bethe algebras for unitarizable modules over classical Lie (super)algebras and a duality, which is unrelated to the conjecture about minimal rank of quotient modules over tropicalized Boolean Algebras or resolution proof length. The abstract does not mention Tseitin formulas, quotient modules, or the function α(n).",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}

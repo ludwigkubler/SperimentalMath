@@ -1,0 +1,40 @@
+{
+  "entry_id": "edb6cb52515b",
+  "ts": 1779530265.6215615,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2305.06339",
+      "title": "Embeddability of joinpowers, and minimal rank of partial matrices",
+      "abstract_excerpt": "A general position map $f:K\\to M$ of a $k$-dimensional simplicial complex to a $2k$-dimensional manifold (for $k=1$, of a graph to a surface) is a $\\mathbb Z_2$-embedding if $|fσ\\cap fτ|$ is even for any non-adjacent $k$-faces $σ,τ$. We present criteria for $\\mathbb Z_2$-embeddability of certain $k$-dimensional complex (for $k=1$, of any graph) to $2k$-dimensional manifolds. These criteria are\n  $\\bullet$ a `Kuratowski-type' version of the Fulek-Kynčl-Bikeev criteria (for $k=1$), and\n  $\\bullet$",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses embeddability of simplicial complexes and manifolds, and calculation of generators in homology of certain configuration spaces, but does not mention Frege proof length or Tseitin formulas, which are central to the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:0905.0071",
+      "title": "Homological stability for classical groups",
+      "abstract_excerpt": "Associated to every group with a weak spherical Tits system of rank n+1 with an appropriate rank n subgroup, we construct a relative spectral sequence involving group homology of Levi subgroups of both groups. Using the fact that such Levi subgroups frequently split as semidirect products of smaller groups, we prove homological stability results for unitary groups over division rings with infinite centre as well as for special linear and special orthogonal groups over infinite fields.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper discusses homological stability for classical groups and constructs spectral sequences involving group homology, which is unrelated to the conjecture about the polynomial relationship between minimal rank of geometric invariants in algebraic topology and Frege proof length.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1108.6111",
+      "title": "The Magnus representation and homology cobordism groups of homology cylinders",
+      "abstract_excerpt": "A homology cylinder over a compact manifold is a homology cobordism between two copies of the manifold together with a boundary parametrization. We study abelian quotients of the homology cobordism group of homology cylinders. For homology cylinders over general surfaces, it was shown by Cha, Friedl and Kim that their homology cobordism groups have infinitely generated abelian quotient groups by using Reidemeister torsion invariants. In this paper, we first investigate their abelian quotients ag",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract discusses homology cobordism groups, the Magnus representation, and abelian quotients, which are related to algebraic topology. However, it does not mention Tseitin formulas, Frege proof length, or any polynomial relationship between the minimal rank of geometric invariants and proof length, as specified in the conjecture.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}

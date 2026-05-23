@@ -1,0 +1,40 @@
+{
+  "entry_id": "8563b8664090",
+  "ts": 1779529639.9676595,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0806.0606",
+      "title": "Toric Kähler metrics seen from infinity, quantization and compact tropical amoebas",
+      "abstract_excerpt": "We consider the metric space of all toric Kähler metrics on a compact toric manifold; when \"looking at it from infinity\" (following Gromov), we obtain the tangent cone at infinity, which is parametrized by equivalence classes of complete geodesics. In the present paper, we study the associated limit for the family of metrics on the toric variety, its quantization, and degeneration of generic divisors.\n  The limits of the corresponding Kähler polarizations become degenerate along the Lagrangian f",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses toric Kähler metrics, quantization, and compact tropical amoebas, but does not mention AC0 circuit threshold or the specific claim about the tropicalization of Kähler forms being logarithmic in the AC0 circuit threshold, as stated in the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2303.09809",
+      "title": "On tropical Hodge theory for tropical varieties",
+      "abstract_excerpt": "To prove log-concavity of the characteristic polynomials of matroids, Adiprasito-Huh-Katz proved the Kähler package (the hard Lefschetz theorem and the Hodge-Riemann bilinear relations) for their Chow rings. Amini-Piquerez generalized it to tropical cohomology of smooth projective tropical varieties. Their proofs were combinatorial. In this paper, we establish tropical Hodge theory except for regularity of solutions of Laplacian, and give a conditional proof of the Kähler package in the same way",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited abstract discusses tropical Hodge theory for tropical varieties, which is a different topic from the conjecture under review that deals with the tropicalization of Kähler forms and their relation to AC0 circuit thresholds.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2310.15367",
+      "title": "Hodge theory for tropical fans",
+      "abstract_excerpt": "This paper is the first in a series devoted to the development of a Hodge theory for tropical varieties. We introduce a notion of T-stability for tropical fans and prove that various geometric properties of tropical fans are T-stable. As a consequence, we establish Kähler properties for the Chow ring in a large class of tropical fans, going beyond the case of matroids and their Bergman fans. As a by-product, we obtain a new proof of the Kähler package for combinatorial geometries. The approach m",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses Hodge theory for tropical varieties and T-stability, which is orthogonal to the conjecture's focus on the tropicalization of Kähler forms and AC0 circuit thresholds. The abstract does not mention Kähler forms, CNF formulas, or AC0 circuit thresholds.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

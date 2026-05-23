@@ -1,0 +1,40 @@
+{
+  "entry_id": "a645df3d8b9c",
+  "ts": 1779530749.8623805,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1311.1421",
+      "title": "Multiplicative differential algebraic K-theory and applications",
+      "abstract_excerpt": "We construct a version of Beilinson's regulator as a map of sheaves of commutative ring spectra and use it to define a multiplicative variant of differential algebraic K-theory. We use this theory to give an interpretation of Bloch's construction of K_3-classes and the relation with dilogarithms. Furthermore, we provide a relation to Arakelov theory via the arithmetic degree of metrized line bundles, and we give a proof of the formality of the algebraic K-theory of number rings.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract of the cited paper discusses the construction of Beilinson's regulator, multiplicative differential algebraic K-theory, and its relation to Arakelov theory. It does not provide any information about resolution proof tree width, tropicalized Boolean algebras, or the minimal rank of K-theory over these algebras, which are central to the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1601.06285",
+      "title": "Twisted iterated algebraic K-theory and topological T-duality for sphere bundles",
+      "abstract_excerpt": "We introduce a periodic form of the iterated algebraic K-theory of ku, the (connective) complex K-theory spectrum, as well as a natural twisting of this cohomology theory by higher gerbes. Furthermore, we prove a form of topological T-duality for sphere bundles oriented with respect to this theory.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract focuses on the introduction of a periodic form of iterated algebraic K-theory and topological T-duality for sphere bundles, but it does not provide any information regarding resolution proof tree width or the relationship between K-theory over tropicalized Boolean algebras and the complexity of Tseitin formulas.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2001.01608",
+      "title": "The plethory of operations in complex topological K-theory",
+      "abstract_excerpt": "We provide a concrete introduction to the topologised, graded analogue of an algebraic structure known as a plethory, originally due to Tall and Wraith. Stacey and Whitehouse showed this structure is present on the cohomology operations for a suitable generalised cohomology theory. We compute an explicit expression for the plethory of operations for complex topological K-theory. This is formulated in terms of a plethory enhanced with structure corresponding to the looping of operations. In this ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the computation of the plethory of operations in complex topological K-theory and its structure, which is unrelated to the conjecture about the resolution proof tree width for Tseitin formulas. The two topics do not interact with each other.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}

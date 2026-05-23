@@ -1,0 +1,40 @@
+{
+  "entry_id": "52a8341d98f0",
+  "ts": 1779531614.720406,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0408006v2",
+      "title": "Some remarks on Brauer groups of K3 surfaces",
+      "abstract_excerpt": "We discuss the geometry of the genus one fibrations associated to an elliptic fibration on a K3 surface. We show that the two-torsion subgroup of the Brauer group of a general elliptic fibration is naturally isomorphic to the two-torsion of the Jacobian of a curve associated to the fibration. We rem",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Brauer groups of K3 surfaces, which shares vocabulary with the conjecture, but does not interact with the specific claim about tropicalized Brauer groups and SOS degree for Max-CUT, as it focuses on geometric aspects of elliptic fibrations on K3 surfaces.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2402.06620",
+      "title": "The Brauer groups of moduli of genus three curves, abelian threefolds and plane curves",
+      "abstract_excerpt": "We compute the $\\ell$-primary torsion of the Brauer group of the moduli stack of smooth curves of genus three over any field of characteristic different from two and the Brauer group of the moduli stacks of smooth plane curves of degree $d$ over any algebraically closed field of characteristic different from two, three and coprime to $d$. We achieve this result by computing the low degree cohomological invariants of these stacks. As a corollary we are additionally able to compute the $\\ell$-prim",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "{\n  \"verdict\": \"INSUFFICIENT\",\n  \"reasoning\": \"The cited paper's abstract focuses on computing $\\ell$-primary torsion of Brauer groups for specific types of curves and abelian varieties, without direc",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1404.5460",
+      "title": "Brauer groups on K3 surfaces and arithmetic applications",
+      "abstract_excerpt": "For a prime $p$, we study subgroups of order p of the Brauer group Br(S) of a general complex polarized K3 surface of degree 2d, generalizing earlier work of van Geemen. These groups correspond to sublattices of index p of the transcendental lattice T_S of S; we classify these lattices up to isomorphism using Nikulin's discriminant form technique. We then study geometric realizations of p-torsion Brauer elements as Brauer-Severi varieties in a few cases via projective duality. We use one of thes",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited abstract discusses Brauer groups on K3 surfaces and their arithmetic applications, which is related but does not directly address the bounds on the minimal rank of tropicalized Brauer groups for max-CUT instances or SOS degree as stated in the conjecture.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}

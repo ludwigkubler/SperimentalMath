@@ -1,0 +1,40 @@
+{
+  "entry_id": "c68538dc7ffd",
+  "ts": 1779530960.1146135,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2601.23259",
+      "title": "Geometric Quantization by Paths, Part III: The Metaplectic Anomaly",
+      "abstract_excerpt": "In the previous parts of this work, we established the Prequantum Groupoid $\\mathbf{T}_ω$ as the universal geometric container for quantum mechanics. This approach, which we call the \"Geometric Quantization by Paths\" (GQbP) framework, replaces the traditional construction of principal bundles with the distillation of the space of histories. In this third part, we cross the \"Threshold of Analysis\" by constructing the intrinsic observable algebra of the system. The harmonic oscillator is treated h",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract discusses the construction of the observable algebra and resolution of the Metaplectic Anomaly within the Geometric Quantization by Paths framework, but it does not provide information regarding the geometric quantization rank for CNF formulas or its relation to BP_ReadTwice circuit threshold.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1909.13144",
+      "title": "Additive Powers-of-Two Quantization: An Efficient Non-uniform Discretization for Neural Networks",
+      "abstract_excerpt": "We propose Additive Powers-of-Two~(APoT) quantization, an efficient non-uniform quantization scheme for the bell-shaped and long-tailed distribution of weights and activations in neural networks. By constraining all quantization levels as the sum of Powers-of-Two terms, APoT quantization enjoys high computational efficiency and a good match with the distribution of weights. A simple reparameterization of the clipping function is applied to generate a better-defined gradient for learning the clip",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract of the cited paper discusses Additive Powers-of-Two (APoT) quantization for neural networks and its performance on ImageNet. It does not mention geometric quantization, phase space rank, or BP_ReadTwice circuit threshold, which are central concepts in the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2403.13102",
+      "title": "Geometric methods in quantum information and entanglement variational principle",
+      "abstract_excerpt": "Geometrical methods in quantum information are very promising for both providing technical tools and intuition into difficult control or optimization problems. Moreover, they are of fundamental importance in connecting pure geometrical theories, like GR, to quantum mechanics, like in the AdS/CFT correspondence. In this paper, we first make a survey of the most important settings in which geometrical methods have proven useful to quantum information theory. Then, we lay down a general framework f",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses geometrical methods in quantum information theory and their application to pure geometrical theories like General Relativity (GR) and quantum mechanics, particularly in the context of AdS/CFT correspondence. It does not mention CNF formulas, geometric quantization rank, or BP_ReadTwice circuit threshold, which are central concepts in the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}
