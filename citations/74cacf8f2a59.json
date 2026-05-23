@@ -1,0 +1,40 @@
+{
+  "entry_id": "74cacf8f2a59",
+  "ts": 1779493677.1814392,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2408.15444",
+      "title": "Quantum games and synchronicity",
+      "abstract_excerpt": "In the flavour of categorical quantum mechanics, we extend nonlocal games to allow quantum questions and answers, using quantum sets (special symmetric dagger Frobenius algebras) and the quantum functions of Musto, Reutter, and Verdon [arXiv:1711.07945]. Equations are presented using a diagrammatic calculus for tensor categories. To this quantum question and answer setting, we extend the standard definitions, including strategies, correlations, and synchronicity, and we use these definitions to ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses quantum games and synchronicity in the context of categorical quantum mechanics, but does not mention quantum torsion, resolution proof length, or Tseitin formulas, which are central to the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2307.02593",
+      "title": "Superpositions of thermalisations in relativistic quantum field theory",
+      "abstract_excerpt": "Recent results in relativistic quantum information and quantum thermodynamics have independently shown that in the quantum regime, a system may fail to thermalise when subject to quantum-controlled application of the same, single thermalisation channel. For example, an accelerating system with fixed proper acceleration is known to thermalise to an acceleration-dependent temperature, known as the Unruh temperature. However, the same system in a superposition of spatially translated trajectories t",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses quantum field theory, thermalisation, and relativistic physics, which does not interact with the specific claim about quantum torsion and resolution proof length in the conjecture, despite sharing some vocabulary related to quantum systems.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2112.04501",
+      "title": "Achieving the quantum field theory limit in far-from-equilibrium quantum link models",
+      "abstract_excerpt": "Realizations of gauge theories in setups of quantum synthetic matter open up the possibility of probing salient exotic phenomena in condensed matter and high-energy physics, along with potential applications in quantum information and science technologies. In light of the impressive ongoing efforts to achieve such realizations, a fundamental question regarding quantum link model regularizations of lattice gauge theories is how faithfully they capture the quantum field theory limit of gauge theor",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "```json\n{\n  \"verdict\": \"ORTHOGONAL\",\n  ",
+      "judge_provider": "google"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}

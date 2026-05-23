@@ -1,0 +1,40 @@
+{
+  "entry_id": "bd496e2b7d12",
+  "ts": 1779496433.0303826,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0509293v3",
+      "title": "Lie elements in pre-Lie algebras, trees and cohomology operations",
+      "abstract_excerpt": "We give a simple characterization of Lie elements in free pre-Lie algebras as elements of the kernel of a map between spaces of trees. We explain how this result is related to natural operations on the Chevalley-Eilenberg complex of a Lie algebra. We also indicate a possible relation to Loday's theo",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Lie elements in pre-Lie algebras and their relation to the Chevalley-Eilenberg complex, but does not mention Kac-Moody Lie algebras, CNF formulas, or DPLL search tree complexity, which are central to the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:0706.4201",
+      "title": "Tree Diagram Lie Algebras of Differential Operators and Evolution Partial Differential Equations",
+      "abstract_excerpt": "A tree diagram is a tree with positive integral weight on each edge, which is a notion generalized from the Dynkin diagrams of finite-dimensional simple Lie algebras. We introduce two nilpotent Lie algebras and their extended solvable Lie algebras associated with each tree diagram. The solvable tree diagram Lie algebras turn out to be complete Lie algebras of maximal rank analogous to the Borel subalgebras of finite-dimensional simple Lie algebras. Their abelian ideals are completely determined.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "```json\n{\n  \"verdict\": \"ORTHOGONAL\",\n",
+      "judge_provider": "google"
+    },
+    {
+      "paper_id": "arxiv:2404.06045",
+      "title": "Bracket width of current Lie algebras",
+      "abstract_excerpt": "The length of an element $z$ of a Lie algebra $L$ is defined as the smallest number $s$ needed to represent $z$ as a sum of $s$ brackets. The bracket width of $L$ is defined as supremum of the lengths of its elements. Given a finite-dimensional simple Lie algebra $\\mathfrak g$ over an algebraically closed field $k$ of characteristic zero, we study the bracket width of current Lie algebras $L=\\mathfrak g\\otimes A$. We show that for an arbitrary $A$ the width is at most 2. For $A=k[[t]]$ and $A=k[",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "```json\n{\n  \"verdict\": \"ORTHOGONAL\",\n",
+      "judge_provider": "google"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}
