@@ -1,0 +1,40 @@
+{
+  "entry_id": "1e7b5e62f37d",
+  "ts": 1779501584.9619594,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2603.19020",
+      "title": "GWTC-4.0: Tests of General Relativity. II. Parameterized Tests",
+      "abstract_excerpt": "In this second of three papers on tests of general relativity (GR) applied to the compact binary coalescence signals in the fourth Gravitational-Wave Transient Catalog (GWTC-4.0), we present the results of the parameterized tests of GR and constraints on line-of-sight acceleration. We include events up to and including the first part of the fourth observing run (O4a) of the LIGO Virgo KAGRA detectors. As in the other two papers in this series, we restrict our analysis to the 42 confident signals",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses tests of general relativity and gravitational waves, which does not interact with the specific claim about tropical homology of graphs and circuit lower bounds for tropical arithmetic.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2010.14529",
+      "title": "Tests of General Relativity with Binary Black Holes from the second LIGO-Virgo Gravitational-Wave Transient Catalog",
+      "abstract_excerpt": "Gravitational waves enable tests of general relativity in the highly dynamical and strong-field regime. Using events detected by LIGO-Virgo up to 1 October 2019, we evaluate the consistency of the data with predictions from the theory. We first establish that residuals from the best-fit waveform are consistent with detector noise, and that the low- and high-frequency parts of the signals are in agreement. We then consider parametrized modifications to the waveform by varying post-Newtonian and p",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses tests of general relativity using gravitational waves and binary black holes, which does not interact with the specific claim about tropicalized homology of graphs and circuit lower bounds for tropical arithmetic.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2403.03004",
+      "title": "Ultralight vector dark matter search using data from the KAGRA O3GK run",
+      "abstract_excerpt": "Among the various candidates for dark matter (DM), ultralight vector DM can be probed by laser interferometric gravitational wave detectors through the measurement of oscillating length changes in the arm cavities. In this context, KAGRA has a unique feature due to differing compositions of its mirrors, enhancing the signal of vector DM in the length change in the auxiliary channels. Here we present the result of a search for $U(1)_{B-L}$ gauge boson DM using the KAGRA data from auxiliary length",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The conjecture is about tropical homology of graphs and circuit lower bounds for tropical arithmetic, while the abstract describes a search for ultralight vector dark matter using gravitational wave detectors. There is no overlap in subject matter, methodology, or terminology between the two.",
+      "judge_provider": "google"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

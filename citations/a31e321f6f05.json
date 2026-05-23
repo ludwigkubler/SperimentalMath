@@ -1,0 +1,40 @@
+{
+  "entry_id": "a31e321f6f05",
+  "ts": 1779502899.5207884,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1612.04764",
+      "title": "Cohomological aspects on complex and symplectic manifolds",
+      "abstract_excerpt": "We discuss how quantitative cohomological informations could provide qualitative properties on complex and symplectic manifolds. In particular we focus on the Bott-Chern and the Aeppli cohomology groups in both cases, since they represent useful tools in studying non Kähler geometry. We give an overview on the comparisons among the dimensions of the cohomology groups that can be defined and we show how we reach the $\\partial\\overline\\partial$-lemma in complex geometry and the Hard-Lefschetz cond",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses cohomological aspects of complex and symplectic manifolds, focusing on Bott-Chern and Aeppli cohomology groups, which does not interact with the specific claim about the minimal rank of symplectic matrices and resolution proof length for Tseitin formulas.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1811.09984",
+      "title": "Translated points for contactomorphisms of prequantization spaces over monotone symplectic toric manifolds",
+      "abstract_excerpt": "We prove a version of Sandon's conjecture on the number of translated points of contactomorphisms for the case of prequantization bundles over certain closed monotone symplectic toric manifolds. Namely we show that any contactomorphism of such a prequantization bundle lying in the identity component of the contactomorphism group possesses at least $N$ translated points, where $N$ is the minimal Chern number of the symplectic toric manifold. The proof relies on the theory of generating functions ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "```json\n{\n  \"verdict\": \"ORTHOGONAL\",\n  \"reason",
+      "judge_provider": "google"
+    },
+    {
+      "paper_id": "arxiv:1509.05854",
+      "title": "Residue formulas for push-forwards in equivariant cohomology - a symplectic approach",
+      "abstract_excerpt": "The aim of this paper is to describe how to obtain residue-type formulas for push-forwards in equivariant cohomology, using the Jeffrey-Kirwan nonabelian localization theorem and the related result of Guillemin and Kalkman. This paper relates the description of equivariant push-forwards for homogeneous spaces of classical Lie groups with the action of the maximal torus with symplectic geometry, using the example of projective spaces and classical Grassmannians.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "```json\n{\n  \"verdict\": \"ORTHOGONAL\",\n  \"",
+      "judge_provider": "google"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}
