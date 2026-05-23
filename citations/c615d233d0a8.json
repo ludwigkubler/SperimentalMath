@@ -1,0 +1,40 @@
+{
+  "entry_id": "c615d233d0a8",
+  "ts": 1779540873.9047587,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2108.04557",
+      "title": "Brauer diagrams, modular operads, and a graphical nerve theorem for circuit algebras",
+      "abstract_excerpt": "Circuit algebras, used in the study of finite-type knot invariants, are a symmetric analogue of Jones's planar algebras. They are very closely related to circuit operads, which are a variation of modular operads admitting an extra monoidal product. This paper gives a description of circuit algebras in terms categories of Brauer diagrams. An abstract nerve theorem for circuit operads -- and hence circuit algebras -- is proved using an iterated distributive law, and an existing nerve theorem for m",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses the relationship between circuit algebras, Brauer diagrams, and modular operads. It does not mention ACC⁰ circuit complexity or the minimal rank of Brauer groups over tropicalized Boolean algebras, which are the key concepts in the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1903.10609",
+      "title": "Circuit Complexity of Knot States in Chern-Simons theory",
+      "abstract_excerpt": "We compute an upper bound on the circuit complexity of quantum states in $3d$ Chern-Simons theory corresponding to certain classes of knots. Specifically, we deal with states in the torus Hilbert space of Chern-Simons that are the knot complements on the $3$-sphere of arbitrary torus knots. These can be constructed from the unknot state by using the Hilbert space representation of the $S$ and $T$ modular transformations of the torus as fundamental gates. The upper bound is saturated in the semic",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited abstract discusses the circuit complexity of quantum states in Chern-Simons theory and the relationship with knots, which is orthogonal to the conjecture about the minimal rank of Brauer groups over tropicalized Boolean algebras for ACC⁰ circuit complexity. The abstract does not provide any information regarding the ranks of Brauer groups or their relation to circuit complexity as defined in the conjecture.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1102.2932",
+      "title": "Applications of Monotone Rank to Complexity Theory",
+      "abstract_excerpt": "Raz's recent result \\cite{Raz2010} has rekindled people's interest in the study of \\emph{tensor rank}, the generalization of matrix rank to high dimensions, by showing its connections to arithmetic formulas. In this paper, we follow Raz's work and show that \\emph{monotone rank}, the monotone variant of tensor rank and matrix rank, has applications in algebraic complexity, quantum computing and communication complexity. This paper differs from Raz's paper in that it leverages existing results to ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper discusses monotone rank, its applications in algebraic complexity, and quantum computing but does not directly address the relationship between the minimal rank of Brauer groups over tropicalized Boolean algebras and ACC⁰ circuit complexity. The abstract does not provide enough information to support or refute the conjecture regarding the ranks of Brauer groups for explicit functions in P.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}

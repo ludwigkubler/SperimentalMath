@@ -1,0 +1,40 @@
+{
+  "entry_id": "40b4f5956878",
+  "ts": 1779542463.0191388,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2211.13473",
+      "title": "Communication Complexity of Inner Product in Symmetric Normed Spaces",
+      "abstract_excerpt": "We introduce and study the communication complexity of computing the inner product of two vectors, where the input is restricted w.r.t. a norm $N$ on the space $\\mathbb{R}^n$. Here, Alice and Bob hold two vectors $v,u$ such that $\\|v\\|_N\\le 1$ and $\\|u\\|_{N^*}\\le 1$, where $N^*$ is the dual norm. They want to compute their inner product $\\langle v,u \\rangle$ up to an $\\varepsilon$ additive term. The problem is denoted by $\\mathrm{IP}_N$.\n  We systematically study $\\mathrm{IP}_N$, showing the fol",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the communication complexity of computing the inner product of two vectors in symmetric normed spaces, which does not directly interact with the specific claim about the minimal rank of configuration spaces and the communication complexity of tensor products of binary strings.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1501.07474",
+      "title": "The higher topological complexity of subcomplexes of products of spheres---and related polyhedral product spaces",
+      "abstract_excerpt": "We construct \"higher\" motion planners for automated systems whose space of states are homotopy equivalent to a polyhedral product space $Z(K,\\{(S^{k_i},\\star)\\})$, e.g. robot arms with restrictions on the possible combinations of simultaneously moving nodes. Our construction is shown to be optimal by explicit cohomology calculations. The higher topological complexity of other families of polyhedral product spaces is also determined.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited abstract discusses the higher topological complexity of subcomplexes of products of spheres and does not mention anything about configuration spaces, communication complexity, or tensor products. Therefore, it does not support or refute the conjecture.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1808.08894",
+      "title": "Configuration space in a product",
+      "abstract_excerpt": "Given a finite graph G and a topological space Z, the graphical configuration space Conf(G, Z) is the space of functions V(G) -&gt; Z so that adjacent vertices map to distinct points. We provide a homotopy decomposition of Conf(G, X x Y) in terms of the graphical configuration spaces in X and Y individually. By way of application, we prove a stabilization result for homology of configuration space in X x C^p as p goes to infinity. We also compute the homology of Conf(K_3,T)/T, the space of order",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract does not provide any information about the relationship between the minimal rank of configuration spaces and communication complexity of tensor products, as stated in the conjecture.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}

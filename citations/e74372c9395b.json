@@ -1,0 +1,40 @@
+{
+  "entry_id": "e74372c9395b",
+  "ts": 1779541422.2193093,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1204.6522",
+      "title": "Formal Groups, Witt vectors and Free Probability",
+      "abstract_excerpt": "We establish a link between free probability theory and Witt vectors, via the theory of formal groups. We derive an exponential isomorphism which expresses Voiculescu's free multiplicative convolution $\\boxtimes$ as a function of the free additive convolution $\\boxplus$. Subsequently we continue our previous discussion of the relation between complex cobordism and free probability. We show that the generic $n$th free cumulant corresponds to the cobordism class of the $(n-1)$-dimensional complex ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the connection between free probability theory and various mathematical concepts, but does not mention boolean algebras, read-twice branching programs, or circuit thresholds, which are central to the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0403090v3",
+      "title": "Orthogonal polynomial ensembles in probability theory",
+      "abstract_excerpt": "We survey a number of models from physics, statistical mechanics, probability theory and combinatorics, which are each described in terms of an orthogonal polynomial ensemble. The most prominent example is apparently the Hermite ensemble, the eigenvalue distribution of the Gaussian Unitary Ensemble ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited abstract discusses orthogonal polynomial ensembles in probability theory and does not mention free probability spaces over boolean algebras or BP_ReadTwice circuit complexity, which are the specific topics addressed in the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1009.1510",
+      "title": "Analytic continuations of Fourier and Stieltjes transforms and generalized moments of probability measures",
+      "abstract_excerpt": "We consider analytic continuations of Fourier transforms and Stieltjes transforms. This enables us to define what we call complex moments for some class of probability measures which do not have moments in the usual sense. There are two ways to generalize moments accordingly to Fourier and Stieltjes transforms; however these two turn out to coincide. As applications, we give short proofs of the convergence of probability measures to Cauchy distributions with respect to tensor, free, Boolean and ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper's abstract discusses analytic continuations of Fourier and Stieltjes transforms, complex moments for probability measures, and convergence to Cauchy distributions. This is unrelated to the conjecture which focuses on free probability spaces over Boolean algebras and BP_ReadTwice circuit thresholds.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

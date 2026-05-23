@@ -1,0 +1,40 @@
+{
+  "entry_id": "dc98e63645dd",
+  "ts": 1779543488.1154065,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.1109/ACCESS.2025.3638801",
+      "title": "Design and Non-Intrusive Nearfield Calibration of a Low-Complexity, Modular, Wideband, and Circularly Polarized Active Electronically Scanned Array for SATCOM on-the-Move",
+      "abstract_excerpt": "In this paper, the design and non-intrusive nearfield calibration of a modular <inline-formula> <tex-math notation=\"LaTeX\">$8~\\mathrm {\\boldsymbol {\\times }}~8$ </tex-math></inline-formula> active electronically scanned transmit array at Ku-band (<inline-formula> <tex-math notation=\"LaTeX\">$14-14.5$ </tex-math></inline-formula> GHz) for satellite communication on-move (SOTM) applications are presented. The array elements are low-complexity wideband dual-polarized rectangular patch elements. The ",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper's abstract discusses the design of a modular active electronically scanned array for satellite communication, which is unrelated to the conjecture about the minimal rank of tropicalized configuration spaces and ACC⁰ circuit thresholds. The topics do not intersect, so it is insufficient to determine support or refutation from the abstract alone.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "s2:4525865e1ea6ceca6557f09b40eb657485598ecf",
+      "title": "Fast Circuit Satisfiability Algorithms and Applications",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper does not contain an abstract, which is necessary to assess its support for, refutation of, or orthogonality to the conjecture.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "s2:10.1007/s00020-014-2139-8",
+      "title": "Tensor Products of Subspace Lattices and Rank One Density",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper does not provide an abstract, which is necessary to assess whether it supports, refutes, or is orthogonal to the conjecture.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 3
+  }
+}

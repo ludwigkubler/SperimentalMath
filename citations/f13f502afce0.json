@@ -1,0 +1,40 @@
+{
+  "entry_id": "f13f502afce0",
+  "ts": 1779543842.972643,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1904.05483",
+      "title": "Parallels Between Phase Transitions and Circuit Complexity?",
+      "abstract_excerpt": "In many natural average-case problems, there are or there are believed to be critical values in the parameter space where the structure of the space of solutions changes in a fundamental way. These phase transitions are often believed to coincide with drastic changes in the computational complexity of the associated problem.\n  In this work, we study the circuit complexity of inference in the broadcast tree model, which has important applications in phylogenetic reconstruction and close connectio",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses circuit complexity in the context of phase transitions and inference in the broadcast tree model, which does not directly interact with the specific claim about the minimal order of automorphism groups of regular expressions describing the complement of a clique's induced subgraph.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1402.5652",
+      "title": "Compact presentability of tree almost automorphism groups",
+      "abstract_excerpt": "We establish compact presentability, i.e. the locally compact version of finite presentability, for an infinite family of tree almost automorphism groups. Examples covered by our results include Neretin's group of spheromorphisms, as well as the topologically simple group containing the profinite completion of the Grigorchuk group constructed by Barnea, Ershov and Weigel.\n  We additionally obtain an upper bound on the Dehn function of these groups in terms of the Dehn function of an embedded Hig",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited abstract discusses compact presentability and upper bounds on the Dehn function for certain groups, but does not provide information about the minimal order of automorphism groups or their relation to k-CLIQUE complexity. The vocabulary is related to automorphisms, but there is no direct interaction with the specific claims regarding the minimal order of automorphism groups in the context of formal language theory and monotone circuit lower bounds for k-CLIQUE.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1807.00547",
+      "title": "Realisation of groups as automorphism groups in categories",
+      "abstract_excerpt": "It is shown that in various categories, including many consisting of maps or hypermaps, oriented or unoriented, of a given hyperbolic type, every countable group $A$ is isomorphic to the automorphism group of uncountably many non-isomorphic objects, infinitely many of them finite if $A$ is finite. In particular, this applies to dessins d'enfants, regarded as finite oriented hypermaps. The proof, involving maximal subgroups of various triangle groups, yields a simple construction of a regular map",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract discusses the realization of groups as automorphism groups in various categories, but it does not provide any information regarding the minimal order of automorphism groups for regular expressions describing complement graphs or their relation to k-CLIQUE problem complexity.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}

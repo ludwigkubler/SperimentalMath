@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-05-23T12:47:03Z",
-  "total_cycles": 1701,
+  "last_update_utc": "2026-05-23T13:47:03Z",
+  "total_cycles": 1712,
   "verdict_counts": {
-    "INCONCLUSIVE": 1353,
+    "INCONCLUSIVE": 1359,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 299,
-    "SCOOPED": 29
+    "BARRIER_HIT": 302,
+    "SCOOPED": 31
   },
-  "unique_field_A": 931,
+  "unique_field_A": 932,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
@@ -36,7 +36,7 @@
     ],
     [
       "Free Probability",
-      27
+      28
     ],
     [
       "Representation Theory of Symmetric Groups",

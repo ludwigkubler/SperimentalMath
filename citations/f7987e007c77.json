@@ -1,0 +1,40 @@
+{
+  "entry_id": "f7987e007c77",
+  "ts": 1779540514.9352279,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1710.07343",
+      "title": "Fractional Minimal Rank",
+      "abstract_excerpt": "The notion of fractional minimal rank of a partial matrix is introduced, a quantity that lies between the triangular minimal rank and the minimal rank of a partial matrix. The fractional minimal rank of partial matrices whose bipartite graph is a minimal cycle are determined. Along the way, we determine the minimal rank of a partial block matrix with invertible given entries that lie on a minimal cycle. Some open questions are stated.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract introduces the concept of fractional minimal rank and discusses its determination for specific types of partial matrices, but does not mention graph cocomplexes or resolution proof length for Tseitin formulas, which are central to the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2208.01392",
+      "title": "The Analytic Minimal Rank Sard Conjecture",
+      "abstract_excerpt": "We obtain, under an additional assumption on the subanalytic abnormal distribution constructed in [4], a proof of the minimal rank Sard conjecture in the analytic category. It establishes that from a given point the set of points accessible through singular horizontal curves of minimal rank, which corresponds to the rank of the distribution, has Lebesgue measure zero. The minimal rank Sard Conjecture is equivalent to the Sard Conjecture for co-rank 1 distributions.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper discusses the Analytic Minimal Rank Sard Conjecture in the analytic category, which is unrelated to graph cocomplexes and resolution proof complexity for Tseitin formulas. The abstract does not provide information about the relationship between minimal rank of graph cocomplexes and resolution proof length for Tseitin formulas.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2406.15089",
+      "title": "Sentences over Random Groups II: Sentences of Minimal Rank",
+      "abstract_excerpt": "Random groups of density d&lt;\\frac{1}{2} are infinite hyperbolic, and of density d&gt;\\frac{1}{2} are finite. We prove the existence of a uniform quantifier elimination procedure for formulas of minimal rank (probably the superstable part of the theory). Namely, given a minimal rank formula V(p), we prove the existence of a formula \\varphi(p) that belongs to the Boolean algebra of two quantifiers, so that the two formulas V(p) and \\varphi(p) define the same set over the free group F_{k} and ove",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper discusses minimal rank formulas and their properties in the context of random groups, particularly focusing on hyperbolicity and quantifier elimination. The abstract does not mention graph cocomplexes, resolution proof length for Tseitin formulas, or any direct relationship to the minimal rank of graphs. Therefore, it is insufficient to determine whether it supports, refutes, or is orthogonal to the proposed conjecture.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}
