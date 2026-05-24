@@ -1,0 +1,40 @@
+{
+  "entry_id": "6078453bf12c",
+  "ts": 1779666006.7288253,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2504.09566",
+      "title": "Syzygy of Thoughts: Improving LLM CoT with the Minimal Free Resolution",
+      "abstract_excerpt": "Chain-of-Thought (CoT) prompting enhances the reasoning of large language models (LLMs) by decomposing problems into sequential steps, mimicking human logic and reducing errors. However, complex tasks with vast solution spaces and vague constraints often exceed the capacity of a single reasoning chain. Inspired by Minimal Free Resolution (MFR) in commutative algebra and algebraic geometry, we propose Syzygy of Thoughts (SoT)-a novel framework that extends CoT by introducing auxiliary, interrelat",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns using Minimal Free Resolution as an inspiration for LLM chain-of-thought prompting ('Syzygy of Thoughts (SoT)-a novel framework that extends CoT'), with no connection to quantum group representations, commutant rank, or entanglement communication complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/quant-ph/0610048v1",
+      "title": "Key distillation from quantum channels using two-way communication protocols",
+      "abstract_excerpt": "We provide a general formalism to characterize the cryptographic properties of quantum channels in the realistic scenario where the two honest parties employ prepare and measure protocols and the known two-way communication reconciliation techniques. We obtain a necessary and sufficient condition to",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns cryptographic key distillation from quantum channels via two-way communication reconciliation, not the rank of commutants of quantum group representations or entanglement communication complexity bounds. It shares the broad 'quantum channels/communication' vocabulary but does not address the specific representation-theoretic claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1104.5421",
+      "title": "Non-Entangling Channels for Multiple Collisions of Quantum Wave Packets",
+      "abstract_excerpt": "We consider multiple collisions of quantum wave packets in one dimension. The system under investigation consists of an impenetrable wall and of two hard-core particles with very different masses. The lighter particle bounces between the heavier one and the wall. Both particles are initially represented by narrow Gaussian wave packets. A complete analytical solution of this problem is presented on the basis of a new method. The idea of the method is to decompose the two-particle wave function in",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quantum wave packet collisions and decomposition into non-entangling channels in a physics setting, with no mention of quantum group representations, commutant rank, or communication complexity bounds. It shares only the loose vocabulary of 'entanglement' and 'channels' without engaging the conjecture's claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

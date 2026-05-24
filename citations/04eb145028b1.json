@@ -1,0 +1,40 @@
+{
+  "entry_id": "04eb145028b1",
+  "ts": 1779664511.7450125,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2412.14709",
+      "title": "Minimal rank of primitively $n$-universal integral quadratic forms over local rings",
+      "abstract_excerpt": "Let $F$ be a local field and let $R$ be its ring of integers. For a positive integer $n$, an integral quadratic form defined over $R$ is called primitively $n$-universal if it primitively represents all quadratic forms of rank $n$. It was proved in arXiv:2005.11268 that the minimal rank of primitively $1$-universal quadratic forms over the $p$-adic integer ring $\\mathbb{Z}_p$ is $2$ if $p$ is odd, and $3$ otherwise. In this article, we completely determine the minimal rank of primitively $n$-uni",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns minimal rank of primitively n-universal integral quadratic forms over local rings, a number-theoretic topic with no mention of qubits, entanglement, or BP_ReadTwice circuits. It shares only the phrase 'minimal rank' with the conjecture but does not interact with its claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2011.13195",
+      "title": "Average rank of quadratic twists with a rational point of almost minimal height",
+      "abstract_excerpt": "Given a family of quadratic twists of a fixed elliptic curve defined over $\\mathbb{Q}$, we investigate the average rank in the subfamily of twists having a nontorsion rational point of almost minimal height. We show in particular that the average analytic rank is greater than one.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns average analytic rank of quadratic twists of elliptic curves over Q, which shares only the word 'quadratic' with the conjecture and has nothing to do with entanglement patterns or circuit depth.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2507.23338",
+      "title": "Extending bounds on minimal ranks of universal quadratic lattices to larger number fields",
+      "abstract_excerpt": "There exist numerous results in the literature proving that within certain families of totally real number fields, the minimal rank of a universal quadratic lattice over such a field can be arbitrarily large. Kala introduced a technique of extending such results to larger fields -- e.g. from quadratic fields to fields of arbitrary even degree -- under some conditions. We present improvements to this technique by investigating the structure of subfields within composita of number fields, using ba",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns minimal ranks of universal quadratic lattices over totally real number fields, a number-theoretic/Galois-theoretic topic, with no connection to qubit entanglement patterns or BP_ReadTwice circuit depth. The shared phrase 'minimal rank of...quadratic' is purely lexical.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "08eb958cb85e",
+  "ts": 1779664783.850448,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1912.00347",
+      "title": "Equiresidual algebraic geometry I: The affine theory",
+      "abstract_excerpt": "In this first work dedicated to the generalisation of classic algebraic geometry to non algebraically closed fields and axiomatisable classes of fields, we develop the foundations for equiresidual algebraic geometry (EQAG), i.e. algebraic geometry over any commutative field $k$, algebraically closed or not. This is possible thanks to the existence in non algebraically closed fields of many normic forms, i.e. homogeneous polynomials with no non-trivial zero rational in $k$, and relies on an equir",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract focuses on 'equiresidual algebraic geometry' over non-algebraically closed fields, generalizing Hilbert's Nullstellensatz and radicals — it makes no mention of local systems on curves, DPLL proof complexity, or 3-CNF formulas, so it does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1311.2051",
+      "title": "Some results from algebraic geometry over complete discretely valued fields",
+      "abstract_excerpt": "This paper is concerned with algebraic geometry over complete discretely valued fields $K$ of equicharacteristic zero. Several results are given including: the canonical projection $K^{n} \\times K\\mathbb{P}^{m} \\longrightarrow K^{n}$ and blow-ups of the $K$-points of smooth $K$-varieties are definably closed maps, a descent principle, a version of the Lojasiewicz inequality for continuous rational functions, curve selection for semialgebraic sets and the theorem on extending continuous hereditar",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses algebraic geometry over complete discretely valued fields (definable closedness, Lojasiewicz inequality, curve selection for semialgebraic sets) with no mention of local systems on curves, DPLL proof complexity, or 3-CNF formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1312.2935",
+      "title": "Some results from algebraic geometry over Henselian real valued fields",
+      "abstract_excerpt": "This paper develops algebraic geometry over Henselian real valued (i.e. of rank 1) fields $K$, being a sequel to our paper about that over Henselian discretely valued fields. Several results are given including: a certain concept of fiber shrinking (a relaxed version of curve selection) for definable sets, the canonical projection $K^{n} \\times K\\mathbb{P}^{m} \\to K^{n}$ and blow-ups of the $K$-points of smooth $K$-varieties are definably closed maps, a descent property for blow-ups, a version o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns algebraic geometry over Henselian real valued fields (fiber shrinking, blow-ups, Lojasiewicz inequality), with no mention of local systems on curves, DPLL proof complexity, or 3-CNF formulas. It shares only the broad 'algebraic geometry' framework.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
