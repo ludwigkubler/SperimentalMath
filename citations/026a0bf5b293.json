@@ -1,0 +1,40 @@
+{
+  "entry_id": "026a0bf5b293",
+  "ts": 1779615832.7906506,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1610.00298",
+      "title": "Khovanskii bases, higher rank valuations and tropical geometry",
+      "abstract_excerpt": "Given a finitely generated algebra $A$, it is a fundamental question whether $A$ has a full rank discrete (Krull) valuation $\\mathfrak{v}$ with finitely generated value semigroup. We give a necessary and sufficient condition for this, in terms of tropical geometry of $A$. In the course of this we introduce the notion of a Khovanskii basis for $(A, \\mathfrak{v})$ which provides a framework for far extending Gröbner theory on polynomial algebras to general finitely generated algebras. In particula",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Khovanskii bases, valuations, and tropical geometry of finitely generated algebras (e.g., flag varieties, reductive groups), with no mention of XOR tautologies, resolution proof length, or any complexity-theoretic notion relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1306.3497",
+      "title": "The number of vertices of a tropical curve is bounded by its area",
+      "abstract_excerpt": "We introduce the notion of tropical area of a tropical curve defined in an open subset of $\\mathbb R^n$. We prove that the number of vertices of a tropical curve is bounded by the area of the curve. The approach is totally elementary yet tricky. Our proof employs ideas from intersection theory in algebraic geometry. The result can be interpreted as the fact that the moduli space of tropical curves with bounded area is of finite type.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses bounding the number of vertices of a tropical curve by its tropical area, with no mention of XOR tautologies, resolution proof length, or tropical derivatives. It shares only the 'tropical' vocabulary but does not interact with the specific complexity-theoretic claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2604.11166",
+      "title": "Asymptotic Behavior of Tropical Rank Functions",
+      "abstract_excerpt": "We show that the asymptotic behavior of the two main competing notions of rank of a linear series on a tropical curve is governed by asymptotic invariants, closely paralleling the theory of volumes in algebraic geometry. We introduce and study tropical notions of volume associated to both divisors and tropical modules. We prove optimal asymptotic results for each case. In addition, we show that the tropical volume is compatible with the tropicalization of curves.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses asymptotic behavior of tropical rank functions for linear series on tropical curves and tropical volumes of divisors/modules — it shares the 'tropical' vocabulary but says nothing about XOR tautologies, resolution proof length, or any complexity-theoretic quantity that would interact with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

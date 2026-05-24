@@ -1,0 +1,40 @@
+{
+  "entry_id": "3be5f7fa76e2",
+  "ts": 1779613280.8108146,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1102.2932",
+      "title": "Applications of Monotone Rank to Complexity Theory",
+      "abstract_excerpt": "Raz's recent result \\cite{Raz2010} has rekindled people's interest in the study of \\emph{tensor rank}, the generalization of matrix rank to high dimensions, by showing its connections to arithmetic formulas. In this paper, we follow Raz's work and show that \\emph{monotone rank}, the monotone variant of tensor rank and matrix rank, has applications in algebraic complexity, quantum computing and communication complexity. This paper differs from Raz's paper in that it leverages existing results to ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses monotone rank applications to algebraic complexity, quantum correlations, and communication complexity, but says nothing about local ring extensions over Boolean algebras or AC0 parity circuit size. It shares the general vocabulary of 'rank' and 'complexity' but does not address the specific conjectured connection.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1403.8106v1",
+      "title": "Recent advances on the log-rank conjecture in communication complexity",
+      "abstract_excerpt": "The log-rank conjecture is one of the fundamental open problems in communication complexity. It speculates that the deterministic communication complexity of any two-party function is equal to the log of the rank of its associated matrix, up to polynomial factors. Despite much research, we still kno",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the log-rank conjecture relating deterministic communication complexity to matrix rank in two-party communication, which shares the vocabulary 'rank' and 'log' but does not address local ring extensions over Boolean algebra or AC0 parity circuit size.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2211.06357v2",
+      "title": "Parity of ranks of Jacobians of curves",
+      "abstract_excerpt": "We investigate Selmer groups of Jacobians of curves that admit an action of a non-trivial group of automorphisms, and give applications to the study of the parity of Selmer ranks. Under the Shafarevich--Tate conjecture, we give an expression for the parity of the Mordell--Weil rank of an arbitrary J",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Selmer groups and Mordell-Weil ranks of Jacobians of curves under the Shafarevich-Tate conjecture, which shares only the superficial word 'parity' and 'rank' with the conjecture about AC0 parity circuits and local ring extensions over Boolean algebra.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
