@@ -1,0 +1,40 @@
+{
+  "entry_id": "3be89e395c3b",
+  "ts": 1779591531.4002824,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2212.02902",
+      "title": "A Univalent Formalization of Constructive Affine Schemes",
+      "abstract_excerpt": "We present a formalization of constructive affine schemes in the Cubical Agda proof assistant. This development is not only fully constructive and predicative, it also makes crucial use of univalence. By now schemes have been formalized in various proof assistants. However, most existing formalizations follow the inherently non-constructive approach of Hartshorne's classic \"Algebraic Geometry\" textbook, for which the construction of the so-called structure sheaf is rather straightforwardly forma",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a Cubical Agda formalization of constructive affine schemes via the Zariski lattice, with no mention of Hodge diamonds, hyperplane arrangements, CNF formulas, or resolution proof complexity. It shares only the broad 'affine schemes' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2406.15137",
+      "title": "A Tangent Category Perspective on Connections in Algebraic Geometry",
+      "abstract_excerpt": "There is an abstract notion of connection in any tangent category. In this paper, we show that when applied to the tangent category of affine schemes, this recreates the classical notion of a connection on a module (and similarly, in the tangent category of schemes, this recreates the notion of connection on a quasi-coherent sheaf of modules). By contrast, we also show that in the tangent category of algebras, there are no non-trivial connections.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns abstract notions of connections in tangent categories of affine schemes/algebras, with no mention of Hodge diamonds, hyperplane arrangements, CNF formulas, or resolution proof complexity. It shares only loose vocabulary ('affine schemes') with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2301.05542",
+      "title": "Differential Bundles in Commutative Algebra and Algebraic Geometry",
+      "abstract_excerpt": "In this paper, we explain how the abstract notion of a differential bundle in a tangent category provides a new way of thinking about the category of modules over a commutative ring and its opposite category. MacAdam previously showed that differential bundles in the tangent category of smooth manifolds are precisely smooth vector bundles. Here we provide characterizations of differential bundles in the tangent categories of commutative rings and (affine) schemes. For commutative rings, the cate",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns characterizations of differential bundles in tangent categories of commutative rings and (affine) schemes as equivalent to modules/quasi-coherent sheaves, with no mention of Hodge diamonds, hyperplane arrangements, CNF formulas, or resolution proof complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

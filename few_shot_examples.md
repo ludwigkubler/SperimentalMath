@@ -27,6 +27,23 @@ blacklist by construction. Use the FORM, not the content.
 - statement: For every TropicalPolynomial f on the discrete cube {0,1,...,N-1} with computable max-plus coefficients, let F = TropicalFourierTransform(f) and let MinimalFourierCoefficient(f) = min_k F[k]. Then DiscrepancyCalculation(f) is lower-bounded by MinimalFourierCoefficient(f) and upper-bounded by max_k |F[k]| (axiom A3). Equivalently: MinimalFourierCoefficient(f) <= DiscrepancyCalculation(f) <= max_k |F[k]|, with the lower inequality saturated whenever f is a tropical convolution of two identical TropicalPolynomials (a 'tropical autoconvolution'), giving query complexity Theta(N) to certify saturat
 - counterexample (witness of falsification): random poly N=8 seed=11: upper bound VIOLATED — Disc=3.776423 > max|F|=3.096445
 
+### Example 4  [tier 4: INCONCLUSIVE but well-tested (showcases test grain)]
+- title: Tusnady 2-Box Discrepancy of Clause-Polarity Cloud Bounds DPLL Size
+- field_A × field_B: Geometric combinatorial discrepancy — Tusnady's problem and the Chazelle–Matouse  ×  Tree-like Resolution / DPLL refutation size t*(F) for random unsatisfiable 3-CNF
+- statement: For an unsatisfiable 3-CNF F with m clauses on n variables, define the 2-marginal polarity discrepancy D_2(F) := max over 1 ≤ i < j ≤ n and (s,t) in {-,+}^2 of |c_{ij}^{st}(F) − mu_{ij}^{st}|, where c_{ij}^{st}(F) is the number of clauses of F containing literal x_i^s AND literal x_j^t, and mu_{ij}^{st} = m·(3/n)·(2/(n−1))·(1/4) is the expected count under the uniform random 3-CNF model with parameters (m,n). Conjecture: for unsat 3-CNFs F drawn at clause density alpha = 4.5 on n in {12, 14, 16, 18, 20} variables, the Spearman rank correlation between −D_2(F)/sqrt(m) and log_2 t*(F) across 30 
+- counterexample (witness of falsification): correlation=0.19999999999999996
+
+### Example 5  [tier 4: INCONCLUSIVE but well-tested (showcases test grain)]
+- title: Halász L^2 Spectrum Discrepancy Lower-Bounds Sign-Matrix Rigidity
+- field_A × field_B: Erdős–Turán / Halász L^2 discrepancy of empirical measures on [0,1] (Halász 1981  ×  Matrix rigidity R_M(r) for sign matrices M∈{±1}^{N×N} in the Valiant 1977 / Frie
+- statement: Let M∈{±1}^{N×N} have singular values σ_1≥…≥σ_N≥0; since ‖M‖_F^2=N^2 the weights p_i:=σ_i^2/N^2 form a probability distribution on [N]. Define the empirical descending-cumulative CDF F_M:[0,1]→[0,1] by F_M(t):=Σ_{i≤⌊tN⌋} p_i and the Halász L^2 discrepancy against the uniform-spectrum reference U(t)=t by D_2(M):=(∫_0^1 (F_M(t)−t)^2 dt)^{1/2}∈[0,1/√3]. Conjecture: there exists an absolute constant c>0 such that for every M∈{±1}^{N×N}, σ_{⌊N/2⌋+1}(M)^2 ≥ c·N·(1−4·D_2(M))_+ (where (x)_+:=max(0,x)); a single sign matrix exhibiting σ_{⌊N/2⌋+1}^2 < (c/2)·N·(1−4D_2)_+ falsifies it.
+
+### Example 6  [tier 4: INCONCLUSIVE but well-tested (showcases test grain)]
+- title: Bourgain-Tzafriri Sub-Column Spectral Excess Bounds DISJ CC_R
+- field_A × field_B: Bourgain–Tzafriri / Kashin restricted invertibility theory — average operator no  ×  Randomized two-party communication complexity CC_R(M) of N×N Boolean matrices, w
+- statement: Center M ∈ {0,1}^{N×N} to M̃ = 2M − J ∈ {±1}^{N×N}. Fix k = ⌈log_2 N⌉ and let S_1,…,S_{30} ⊂ [N] be uniformly random column subsets of size k drawn with seeds 1..30. Define the sub-column spectral excess ξ(M) := (1/30)·Σ_{s=1}^{30}(‖M̃|_{S_s}‖_op² / N − 1), where M̃|_S is the N×k column submatrix. We conjecture that for every Boolean matrix M with N ≤ 32: (i) ξ(M) ≥ 0; (ii) CC_R(M) ≥ ⌊log_2(1 + N·ξ(M)/k)⌋ − 1; (iii) ξ(M_PARITY_n) ≤ 0.05 (so the bound gives O(1), matching CC_R = O(1)) and ξ(M_DISJ_n) ≥ 0.5·k/n at n=3,4,5 (so the bound delivers Ω(log N) for DISJ). A single seed-30 ensemble at an
+- counterexample (witness of falsification): xi_parity=25.05 > 0.05
+
 ============================================================
 Now propose a NEW conjecture. Different field_A. Different
 statement. Same SHAPE: testable, falsifiable, ≤240s on n≤40.
