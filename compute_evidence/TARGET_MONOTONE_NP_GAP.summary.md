@@ -1,6 +1,6 @@
 # Compute evidence: TARGET_MONOTONE_NP_GAP
 
-*Last update: 2026-05-23 12:23 UTC*
+*Last update: 2026-05-24 00:23 UTC*
 
 Instance class: `random_3sat`
 
@@ -10,11 +10,11 @@ Instance class: `random_3sat`
 - `n=12`: median runtime = 0.0012s, median conflicts = 0
 - `n=16`: median runtime = 0.0014s, median conflicts = 0
 - `n=20`: median runtime = 0.0013s, median conflicts = 0
-- `n=24`: median runtime = 0.0015s, median conflicts = 0
+- `n=24`: median runtime = 0.0014s, median conflicts = 0
 
 ## Scaling (log-log)
 
-- runtime slope: **0.149**
+- runtime slope: **0.152**
 - conflicts slope: **0.000**
 
 (slope > 1 = super-linear; slope > 2 = polynomial-violating)
