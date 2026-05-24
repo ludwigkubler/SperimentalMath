@@ -1,0 +1,40 @@
+{
+  "entry_id": "3f2061c562a0",
+  "ts": 1779637815.1955307,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2204.10334",
+      "title": "Machine Learning Algebraic Geometry for Physics",
+      "abstract_excerpt": "We review some recent applications of machine learning to algebraic geometry and physics. Since problems in algebraic geometry can typically be reformulated as mappings between tensors, this makes them particularly amenable to supervised learning. Additionally, unsupervised methods can provide insight into the structure of such geometrical data. At the heart of this programme is the question of how geometry can be machine learned, and indeed how AI helps one to do mathematics. This is a chapter ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses machine learning applications to algebraic geometry and physics, with no mention of Hodge structures of Boolean functions or DPLL refutation complexity. It shares only the broad 'algebraic geometry' vocabulary but does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1912.00347",
+      "title": "Equiresidual algebraic geometry I: The affine theory",
+      "abstract_excerpt": "In this first work dedicated to the generalisation of classic algebraic geometry to non algebraically closed fields and axiomatisable classes of fields, we develop the foundations for equiresidual algebraic geometry (EQAG), i.e. algebraic geometry over any commutative field $k$, algebraically closed or not. This is possible thanks to the existence in non algebraically closed fields of many normic forms, i.e. homogeneous polynomials with no non-trivial zero rational in $k$, and relies on an equir",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'equiresidual algebraic geometry' over non-algebraically-closed fields, Nullstellensatz generalizations, and normic forms—it makes no mention of Hodge structures, Boolean functions, or DPLL refutation complexity. It shares only the broad framework of algebraic geometry without interacting with the specific rank/width claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0502387v3",
+      "title": "Multiplier ideals in algebraic geometry",
+      "abstract_excerpt": "In this expository introductory text we discuss the multiplier ideals in algebraic geometry. We state Kawamata-Viehweg's and Nadel's vanishing theorems, give a proof (following Ein and Lazarsfeld) of Kollár's bound on the maximal multiplicity of the theta divisor, and explain the asymptotic construc",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns multiplier ideals, vanishing theorems, and theta divisor multiplicity bounds in algebraic geometry — it makes no mention of Hodge structures of Boolean functions, DPLL refutation, or complexity-theoretic width bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

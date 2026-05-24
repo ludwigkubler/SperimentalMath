@@ -1,0 +1,40 @@
+{
+  "entry_id": "70e701d85c2e",
+  "ts": 1779640734.8297265,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2009.01139",
+      "title": "Circuit Satisfiability Problem for circuits of small complexity",
+      "abstract_excerpt": "The following problem is considered. A Turing machine $M$, that accepts a string of fixed length $t$ as input, runs for a time not exceeding a fixed value $n$ and is guaranteed to produce a binary output, is given. It's required to find a string $X$ such that $M(X) = 1$ effectively in terms of $t$, $n$, the size of the alphabet of $M$ and the number of states of $M$. The problem is close to the well-known Circuit Satisfiability Problem. The difference from Circuit Satisfiability Problem is that ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses a Turing-machine variant of Circuit Satisfiability with low Kolmogorov complexity circuits and proof systems for unsatisfiability, with no mention of manifold orientability, light paths, or the Θ(n^c) bound claimed in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:cs/0608100",
+      "title": "Similarity of Semantic Relations",
+      "abstract_excerpt": "There are at least two kinds of similarity. Relational similarity is correspondence between relations, in contrast with attributional similarity, which is correspondence between attributes. When two words have a high degree of attributional similarity, we call them synonyms. When two pairs of words have a high degree of relational similarity, we say that their relations are analogous. For example, the word pair mason:stone is analogous to the pair carpenter:wood. This paper introduces Latent Rel",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Latent Relational Analysis for measuring semantic similarity between word pairs, which has no interaction with manifold orientability, light paths, or circuit satisfiability as claimed in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2002.08626",
+      "title": "Intermediate problems in modular circuits satisfiability",
+      "abstract_excerpt": "In arXiv:1710.08163 a generalization of Boolean circuits to arbitrary finite algebras had been introduced and applied to sketch P versus NP-complete borderline for circuits satisfiability over algebras from congruence modular varieties. However the problem for nilpotent (which had not been shown to be NP-hard) but not supernilpotent algebras (which had been shown to be polynomial time) remained open.\n  In this paper we provide a broad class of examples, lying in this grey area, and show that, un",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses intermediate complexity of satisfiability over modular/nilpotent algebras under ETH, with no mention of geometric optics, manifolds, light paths, or orientability detection. It shares only the 'circuit satisfiability' vocabulary but does not address the specific Θ(n^c) equivalence claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
