@@ -1,0 +1,40 @@
+{
+  "entry_id": "ff3d362b19d2",
+  "ts": 1779609208.0109355,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2411.07955",
+      "title": "How To Discover Short, Shorter, and the Shortest Proofs of Unsatisfiability: A Branch-and-Bound Approach for Resolution Proof Length Minimization",
+      "abstract_excerpt": "Modern software for propositional satisfiability problems gives a powerful automated reasoning toolkit, capable of outputting not only a satisfiable/unsatisfiable signal but also a justification of unsatisfiability in the form of resolution proof (or a more expressive proof), which is commonly used for verification purposes. Empirically, modern SAT solvers produce relatively short proofs, however, there are no inherent guarantees that these proofs cannot be significantly reduced. This paper prop",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a branch-and-bound algorithm for empirically minimizing resolution proof length, with no mention of Coxeter groups, Tseitin formulas, or lower bounds tied to representation rank. It shares the 'resolution proof length' vocabulary but does not interact with the specific Ω(2^MinRank) claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:2411.07955",
+      "title": "How To Discover Short, Shorter, and the Shortest Proofs of Unsatisfiability: A Branch-and-Bound Approach for Resolution Proof Length Minimization",
+      "abstract_excerpt": "Modern software for propositional satisfiability problems gives a powerful automated reasoning toolkit, capable of outputting not only a satisfiable/unsatisfiable signal but also a justification of unsatisfiability in the form of resolution proof (or a more expressive proof), which is commonly used ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a branch-and-bound algorithm for minimizing resolution proof length in general SAT instances, with no mention of Tseitin formulas, Coxeter groups, or lower bounds tied to a minimal rank parameter.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:2411.18495",
+      "title": "On the trace of Coxeter elements",
+      "abstract_excerpt": "Let W be a Weyl group and let w be a Coxeter elememt of minimal length of W. In the early 1970's I.G.Macdonald stated that the trace of w on an irreducible representation of W is 0,1 or -1. In this paper we give a proof of this statement and of an Iwahori-Hecke algebra version of it.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the trace of Coxeter elements on irreducible representations of Weyl groups (Macdonald's 0, 1, -1 statement), which has no interaction with Tseitin formula resolution lengths or minimal rank bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "0ef1ef61998e",
+  "ts": 1779611151.2285688,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1807.06283",
+      "title": "Tropical Fano Schemes",
+      "abstract_excerpt": "We define a tropical version $\\F_d(\\trop X)$ of the Fano Scheme $\\F_d(X)$ of a projective variety $X\\subseteq \\mathbb P^n$ and prove that $\\F_d(\\trop X)$ is the support of a polyhedral complex contained in $\\trop \\Grp(d,n)$. In general $\\trop \\F_d(X)\\subseteq \\F_d(\\trop X)$ but we construct linear spaces $L$ such that $\\trop \\F_1(X)\\subsetneq \\F_1(\\trop X)$ and show that for a toric variety $\\trop \\F_d(X)=\\F_d(\\trop X)$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns tropical Fano schemes of projective varieties and their polyhedral structure, with no mention of sheaf minimal rank, circuit complexity, or ACC⁰ lower bounds. It shares only the vague 'tropical' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0811.1949",
+      "title": "Moduli Spaces of Semistable Sheaves on Projective Deligne-Mumford Stacks",
+      "abstract_excerpt": "We introduce a notion of Gieseker stability for coherent sheaves on tame Deligne-Mumford stacks with projective moduli scheme and some chosen generating sheaf on the stack in the sense of Olsson and Starr \\cite{MR2007396}. We prove that this stability condition is open, and pure dimensional semistable sheaves form a bounded family. We explicitly construct the moduli stack of semistable sheaves as a finite type global quotient, and study the moduli scheme of stable sheaves and its natural compact",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Gieseker stability and moduli of semistable sheaves on Deligne-Mumford stacks, with no mention of tropical geometry, minimal rank, circuit complexity, or ACC⁰ lower bounds. It shares only the generic vocabulary of 'sheaves' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2311.01864",
+      "title": "SortNet: Learning To Rank By a Neural-Based Sorting Algorithm",
+      "abstract_excerpt": "The problem of relevance ranking consists of sorting a set of objects with respect to a given criterion. Since users may prefer different relevance criteria, the ranking algorithms should be adaptable to the user needs. Two main approaches exist in literature for the task of learning to rank: 1) a score function, learned by examples, which evaluates the properties of each object yielding an absolute relevance value that can be used to order the objects or 2) a pairwise approach, where a \"prefere",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes SortNet, a neural-network-based learning-to-rank algorithm evaluated on LETOR, with no reference to tropical geometry, sheaf rank, or ACC⁰ circuit lower bounds. It does not interact with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

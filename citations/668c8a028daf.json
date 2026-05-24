@@ -1,0 +1,40 @@
+{
+  "entry_id": "668c8a028daf",
+  "ts": 1779610721.3105533,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2509.11226",
+      "title": "Foundational theory for optimal decision tree problems. I. Algorithmic and geometric foundations",
+      "abstract_excerpt": "In the first paper (part I) of this series of two, we introduce four novel definitions of the ODT problems: three for size-constrained trees and one for depth-constrained trees. These definitions are stated unambiguously through executable recursive programs, satisfying all criteria we propose for a formal specification. In this sense, they resemble the \"standard form\" used in the study of general-purpose solvers.\n  Grounded in algebraic programming theory-a relational formalism for deriving cor",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'novel definitions of the ODT problems' and 'optimal algorithms for ODT problems with arbitrary splitting rules' for general optimal decision tree construction — it does not address Kähler form rank, XOR tautologies, or DNF width relationships.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0909.3392",
+      "title": "On the communication complexity of XOR functions",
+      "abstract_excerpt": "An XOR function is a function of the form g(x,y) = f(x + y), for some boolean function f on n bits. We study the quantum and classical communication complexity of XOR functions. In the case of exact protocols, we completely characterise one-way communication complexity for all f. We also show that, when f is monotone, g's quantum and classical complexities are quadratically related, and that when f is a linear threshold function, g's quantum complexity is Theta(n). More generally, we make a stru",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns communication complexity (quantum and classical) of XOR functions and their Fourier spectra, with no mention of Kähler forms, decision tree width for tautologies, or DNF width. It shares only the 'XOR' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1209.3373",
+      "title": "On the structure of co-Kähler manifolds",
+      "abstract_excerpt": "By the work of Li, a compact co-Kähler manifold $M$ is a mapping torus $K_\\varphi$, where $K$ is a Kähler manifold and $\\varphi$ is a Hermitian isometry. We show here that there is always a finite cyclic cover $\\bar M$ of the form $\\bar M \\cong K \\times S^1$, where $\\cong$ is equivariant diffeomorphism with respect to an action of $S^1$ on $M$ and the action of $S^1$ on $K \\times S^1$ by translation on the second factor. Furthermore, the covering transformations act diagonally on $S^1$, $K$ and ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the topological structure of compact co-Kähler manifolds as mapping tori and finite covers of products with S^1, with no mention of rank of Kähler forms, XOR tautologies, DNF width, or decision tree complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

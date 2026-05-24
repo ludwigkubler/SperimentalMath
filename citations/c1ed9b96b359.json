@@ -1,0 +1,40 @@
+{
+  "entry_id": "c1ed9b96b359",
+  "ts": 1779611324.3050485,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0711.1529",
+      "title": "Lawvere-Tierney sheaves in algebraic set theory",
+      "abstract_excerpt": "We present a solution to the problem of defining a counterpart in Algebraic Set Theory of the construction of internal sheaves in Topos Theory. Our approach is general in that we consider sheaves as determined by Lawvere-Tierney coverages, rather than by Grothendieck coverages, and assume only a weakening of the axioms for small maps originally introduced by Joyal and Moerdijk, thus subsuming the existing topos-theoretic results.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Lawvere-Tierney sheaves in algebraic set theory and topos theory, with no mention of tropical geometry, DPLL refutation, 3-CNF formulas, or rank bounds relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2205.07490",
+      "title": "Graded Hecke algebras and equivariant constructible sheaves on the nilpotent cone",
+      "abstract_excerpt": "Graded Hecke algebras can be constructed geometrically, with constructible sheaves and equivariant cohomology. The input consists of a complex reductive group G (possibly disconnected) and a cuspidal local system on a nilpotent orbit for a Levi subgroup of G. We prove that every such \"geometric\" graded Hecke algebra is naturally isomorphic to the endomorphism algebra of a certain G x C*-equivariant semisimple complex of sheaves on the nilpotent cone $g_N$.\n  From there we provide an algebraic de",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns graded Hecke algebras and equivariant constructible sheaves on the nilpotent cone, with no mention of tropicalization, DPLL refutation, 3-CNF formulas, or rank bounds relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0705.1732",
+      "title": "Fibers of tropicalization",
+      "abstract_excerpt": "We use functoriality of tropicalization and the geometry of projections of subvarieties of tori to show that the fibers of the tropicalization map are dense in the Zariski topology. For subvarieties of tori over fields of generalized power series, points in each tropical fiber are obtained \"constructively\" using Kedlaya's transfinite version of Newton's method.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses fibers of the tropicalization map being Zariski-dense and constructive point-finding via Newton's method, with no mention of sheaf ranks, 3-CNF formulas, or DPLL refutation complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

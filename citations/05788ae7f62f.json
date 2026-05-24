@@ -1,0 +1,40 @@
+{
+  "entry_id": "05788ae7f62f",
+  "ts": 1779611637.917289,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1804.06429",
+      "title": "VC density of definable families over valued fields",
+      "abstract_excerpt": "We prove a tight bound on the number of realized $0/1$ patterns (or equivalently on the Vapnik-Chervonenkis codensity) of definable families in models of the theory of algebraically closed valued fields with a non-archimedean valuation. Our result improves the best known result in this direction proved by Aschenbrenner, Dolich, Haskell, Macpherson and Starchenko, who proved a weaker bound in the restricted case where the characteristics of the field $K$ and its residue field are both assumed to ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns VC density bounds and Betti numbers of Berkovich analytic spaces over non-archimedean valued fields; it makes no mention of Hodge classes, minimal rank, Tseitin formulas, or resolution proof depth, so it shares vocabulary (non-archimedean valuation) but does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1412.8746",
+      "title": "Characterizing Propositional Proofs as Non-Commutative Formulas",
+      "abstract_excerpt": "Does every Boolean tautology have a short propositional-calculus proof? Here, a propositional calculus (i.e. Frege) proof is a proof starting from a set of axioms and deriving new Boolean formulas using a set of fixed sound derivation rules. Establishing any super-polynomial size lower bound on Frege proofs (in terms of the size of the formula proved) is a major open problem in proof complexity, and among a handful of fundamental hardness questions in complexity theory by and large. Non-commutat",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses Frege proof complexity via non-commutative arithmetic formulas, not Tseitin resolution depth nor any connection to Hodge classes or non-archimedean valuations. It shares the broad 'proof complexity' framework but does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0704.0229",
+      "title": "Geometric Complexity Theory VI: the flip via saturated and positive integer programming in representation theory and algebraic geometry",
+      "abstract_excerpt": "This article belongs to a series on geometric complexity theory (GCT), an approach to the P vs. NP and related problems through algebraic geometry and representation theory. The basic principle behind this approach is called the flip. In essence, it reduces the negative hypothesis in complexity theory (the lower bound problems), such as the P vs. NP problem in characteristic zero, to the positive hypothesis in complexity theory (the upper bound problems): specifically, to showing that the proble",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Geometric Complexity Theory's 'flip' approach linking P vs NP to positivity in representation theory and the Riemann hypothesis over finite fields, with no mention of non-archimedean valuations, Hodge classes, Tseitin formulas, or resolution proof depth. It shares only the broad framework of connecting algebraic geometry to complexity theory but does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

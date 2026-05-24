@@ -1,0 +1,40 @@
+{
+  "entry_id": "8b94d4fadfb5",
+  "ts": 1779609008.9875479,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1802.02440",
+      "title": "Tropicalized quartics and canonical embeddings for tropical curves of genus 3",
+      "abstract_excerpt": "Brodsky, Joswig, Morrison and Sturmfels showed that not all abstract tropical curves of genus $3$ can be realized as a tropicalization of a quartic in the euclidean plane. In this article, we focus on the interior of the maximal cones in the moduli space and classify all curves which can be realized as a faithful tropicalization in a tropical plane. Reflecting the algebro-geometric world, we show that these are exactly those which are not realizably hyperelliptic.\n  Our approach is constructive:",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses faithful tropicalization of genus-3 quartic curves and realizability of tropical divisors, with no mention of branching programs, tensor width, communication complexity, or rank bounds tied to BP_ReadTwice — it shares only the 'tropical divisor' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2210.09696",
+      "title": "Tropical lifting problem for the intersection of plane curves",
+      "abstract_excerpt": "Given a tropical divisor $D$ in the intersection of two tropical plane curves, we study when it can be realized as the tropicalization of the intersection of two algebraic curves, and give a sufficient condition. We show that under a certain condition involving a graph determined by these tropical curves, we can algorithmically find algebraic curves such that the tropicalization of their intersection is $D$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses the tropical lifting problem—when a tropical divisor in the intersection of two tropical plane curves can be realized as the tropicalization of an algebraic intersection—and says nothing about minimal rank bounds, read-twice branching programs, or tensor width ρ(P). It shares the tropical-curve/divisor vocabulary but does not interact with the conjecture's specific MinRank ≤ c·ρ(P) claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1701.06579",
+      "title": "Brill-Noether theory for curves of a fixed gonality",
+      "abstract_excerpt": "We prove a generalization of the Brill-Noether theorem for the variety of special divisors $W^r_d(C)$ on a general curve $C$ of prescribed gonality. Our main theorem gives a closed formula for the dimension of $W^r_d(C)$. We build on previous work of Pflueger, who used an analysis of the tropical divisor theory of special chains of cycles to give upper bounds on the dimensions of Brill--Noether varieties on such curves. We prove his conjecture, that this upper bound is achieved for a general cur",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Brill-Noether theory, dimensions of special divisor varieties W^r_d(C), and tropical/logarithmic stable maps — it never mentions communication complexity, read-twice branching programs, or tensor width, so it shares only the 'tropical divisor' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
