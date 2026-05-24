@@ -1,0 +1,40 @@
+{
+  "entry_id": "ea45b50069b0",
+  "ts": 1779632670.988775,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2004.01492",
+      "title": "Tensor Rank and Complexity",
+      "abstract_excerpt": "These lecture notes are intended as an introduction to several notions of tensor rank and their connections to the asymptotic complexity of matrix multiplication. The latter is studied with the exponent of matrix multiplication, which will be expressed in terms of tensor (border) rank, (border) symmetric rank and the asymptotic rank of certain tensors. We introduce the multilinear rank of a tensor as well, deal with the concept of tensor equivalence and study prehomogeneous vector spaces with th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes lecture notes on tensor rank notions and matrix multiplication complexity, with no mention of algebraic curves over function fields or Frege proof systems. It shares vocabulary ('tensor rank', 'complexity') but does not engage with the specific cross-field claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2605.21784v1",
+      "title": "Constructions of Rank-Metric Codes of Small Tensor Rank",
+      "abstract_excerpt": "Rank-metric codes are subspaces of matrices over finite fields endowed with the rank metric and admit a natural tensorial representation. The tensor rank provides a measure of the minimal size of a decomposition of a code into rank-one tensors. Kruskal showed that the tensor rank of a rank-metric code of dimension $k$ and minimum rank distance $d$ is at least $k + d - 1$, and codes meeting this bound with equality are called minimal tensor rank (MTR) codes. It is known from algebraic complexity ",
+      "abstract_source": "arxiv_local_mirror",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns tensor rank of rank-metric codes and their constructions via AG codes, with Kruskal's bound 'k + d - 1'—it makes no statement about Frege proof systems or about tensor rank of algebraic curves being bounded below by log_2(q^D).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2103.07411",
+      "title": "A Normal Form Algorithm for Tensor Rank Decomposition",
+      "abstract_excerpt": "We propose a new numerical algorithm for computing the tensor rank decomposition or canonical polyadic decomposition of higher-order tensors subject to a rank and genericity constraint. Reformulating this computational problem as a system of polynomial equations allows us to leverage recent numerical linear algebra tools from computational algebraic geometry. We characterize the complexity of our algorithm in terms of an algebraic property of this polynomial system -- the multigraded regularity.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a numerical algorithm for tensor rank decomposition using multigraded regularity, with no mention of algebraic curves over function fields or Frege proof complexity. It shares only the 'tensor rank' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

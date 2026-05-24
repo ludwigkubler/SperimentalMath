@@ -1,0 +1,40 @@
+{
+  "entry_id": "840377f38f9c",
+  "ts": 1779633282.4158459,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1204.3878",
+      "title": "Analytic constructions of p-adic L-functions and Eisenstein series",
+      "abstract_excerpt": "The Fourier coefficients of the Siegel-Eisenstein series are p-adically continued for all primes p, as meromorphic functions, using the reciprocal of a product of L-functions. A construction of p-adic meromorphic families of such series is given in relation to the geometry of homogeneous spaces. Applications are given to p-adic L-functions, to Siegel's Mass Formula, to p-adic analytic families of automorphic representations. Based on author's talk for the Conference Automorphic Forms and Related",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses p-adic L-functions, Siegel-Eisenstein series, and automorphic representations — number-theoretic topics unrelated to noncommutative L^p norms of Boolean functions or communication complexity bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1901.01957",
+      "title": "($p$-adic) $L$-functions and ($p$-adic) (multiple) zeta values",
+      "abstract_excerpt": "The article is dedicated to the memory of George Voronoi. It is concerned with ($p$-adic) $L$-functions (in partially ($p$-adic) zeta functions) and cyclotomic ($p$-adic) (multiple) zeta values. The beginning of the article contains a short summary of the results on the Bernoulli numbers associated with the studies of George Voronoi.\n  Results on multiple zeta values have presented by D. Zagier, by P. Deligne and A.Goncharov, by A. Goncharov, by F. Brown, by C. Glanois and others. S. Ünver have ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns p-adic L-functions and multiple zeta values in number theory, with no mention of boolean functions, noncommutative L^p norms, or communication complexity. The shared 'p' notation is coincidental and unrelated to the conjecture's claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2111.12700",
+      "title": "Universality in long-distance geometry and quantum complexity",
+      "abstract_excerpt": "In physics, two systems that radically differ at short scales can exhibit strikingly similar macroscopic behaviour: they are part of the same long-distance universality class. Here we apply this viewpoint to geometry and initiate a program of classifying homogeneous metrics on group manifolds by their long-distance properties. We show that many metrics on low-dimensional Lie groups have markedly different short-distance properties but nearly identical distance functions at long distances, and pr",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'long-distance universality' of homogeneous metrics on Lie groups and quantum complexity geometry, not noncommutative L^p norms of Boolean function Fourier transforms or randomized communication complexity bounds. It shares only loose vocabulary ('complexity', 'geometry') with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

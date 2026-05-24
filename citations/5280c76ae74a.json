@@ -1,0 +1,31 @@
+{
+  "entry_id": "5280c76ae74a",
+  "ts": 1779633577.052814,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2009.05512",
+      "title": "Quantum State Complexity in Computationally Tractable Quantum Circuits",
+      "abstract_excerpt": "Characterizing the quantum complexity of local random quantum circuits is a very deep problem with implications to the seemingly disparate fields of quantum information theory, quantum many-body physics and high energy physics. While our theoretical understanding of these systems has progressed in recent years, numerical approaches for studying these models remains severely limited. In this paper, we discuss a special class of numerically tractable quantum circuits, known as quantum automaton ci",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'quantum state complexity' and 'design complexity' growth in automaton circuits, but does not address T-depth or the SVD-based minimal rank of quantum states. It shares the broad framework of quantum circuit complexity without engaging the specific MinRank vs. T-depth relationship.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2506.06595",
+      "title": "Emergent Holographic Spacetime from Quantum Information",
+      "abstract_excerpt": "Holographic duality describes gravitational theories in terms of quantum many-body systems. In holography, quantum information theory provides a crucial tool that directly connects microscopic structures of these systems to the geometries of gravitational spacetimes. One manifestation is that the entanglement entropy in quantum many-body systems can be calculated from the area of an extremal surface in the corresponding gravitational spacetime. This implies that a gravitational spacetime can eme",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses holographic duality, emergent spacetime, entanglement entropy, and pseudo-entropy in the context of quantum gravity, with no mention of T-depth, minimal rank of quantum states, or bounds relating circuit complexity to state rank.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 0
+  }
+}

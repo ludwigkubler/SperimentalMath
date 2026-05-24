@@ -1,0 +1,40 @@
+{
+  "entry_id": "d94ba6097066",
+  "ts": 1779630664.0443413,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2303.14697",
+      "title": "The central tree property and algorithmic problems on subgroups of free groups",
+      "abstract_excerpt": "We study the average case complexity of the uniform membership problem for subgroups of free groups, and we show that it is orders of magnitude smaller than the worst case complexity of the best known algorithms. This applies to subgroups given by a fixed number of generators as well as to subgroups given by an exponential number of generators. The main idea behind this result is to exploit a generic property of tuples of words, called the central tree property. An application is given to the av",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns average-case complexity of the uniform membership problem for subgroups of free groups via the 'central tree property,' with no mention of noncommutative Grothendieck groups, CNF formulas, or DPLL refutation width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0610043v5",
+      "title": "Lecture Notes on Noncommutative Algebraic Geometry and Noncommutative Tori",
+      "abstract_excerpt": "The first part of these notes gives an introduction to noncommutative projective geometry after Artin--Zhang. The second part provides an overview of the work of Polishchuk that reconciles noncommutative two-tori having real multiplication with the Artin--Zhang setting.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes 'noncommutative projective geometry' and 'noncommutative two-tori having real multiplication' — pure noncommutative algebraic geometry with no mention of Grothendieck group rank, Boolean formulas, CNF, or DPLL refutation width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0705.1265",
+      "title": "A noncommutative Bohnenblust-Spitzer identity for Rota-Baxter algebras solves Bogoliubov's recursion",
+      "abstract_excerpt": "The Bogoliubov recursion is a particular procedure appearing in the process of renormalization in perturbative quantum field theory. It provides convergent expressions for otherwise divergent integrals. We develop here a theory of functional identities for noncommutative Rota-Baxter algebras which is shown to encode, among others, this process in the context of Connes-Kreimer's Hopf algebra of renormalization. Our results generalize the seminal Cartier-Rota theory of classical Spitzer-type ident",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns noncommutative Rota-Baxter algebras, Bogoliubov's recursion, and renormalization in QFT — it shares the word 'noncommutative' but never mentions Grothendieck groups, CNF formulas, or DPLL refutation width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

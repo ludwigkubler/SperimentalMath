@@ -1,0 +1,40 @@
+{
+  "entry_id": "9becc24d016e",
+  "ts": 1779632490.2401736,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0610043v5",
+      "title": "Lecture Notes on Noncommutative Algebraic Geometry and Noncommutative Tori",
+      "abstract_excerpt": "The first part of these notes gives an introduction to noncommutative projective geometry after Artin--Zhang. The second part provides an overview of the work of Polishchuk that reconciles noncommutative two-tori having real multiplication with the Artin--Zhang setting.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes 'noncommutative projective geometry' and 'noncommutative two-tori having real multiplication'—pure mathematical exposition with no mention of K-theoretic rank bounds, XOR tautologies, or circuit complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0705.1265",
+      "title": "A noncommutative Bohnenblust-Spitzer identity for Rota-Baxter algebras solves Bogoliubov's recursion",
+      "abstract_excerpt": "The Bogoliubov recursion is a particular procedure appearing in the process of renormalization in perturbative quantum field theory. It provides convergent expressions for otherwise divergent integrals. We develop here a theory of functional identities for noncommutative Rota-Baxter algebras which is shown to encode, among others, this process in the context of Connes-Kreimer's Hopf algebra of renormalization. Our results generalize the seminal Cartier-Rota theory of classical Spitzer-type ident",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses noncommutative Rota-Baxter algebras, Bogoliubov's recursion in renormalization, and noncommutative symmetric functions — it makes no mention of K-theoretic rank, XOR tautologies, or circuit lower bounds. It shares only the broad 'noncommutative' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1411.6751",
+      "title": "The noncommutative infinitesimal equivariant index formula: part II",
+      "abstract_excerpt": "In this paper, we prove that infinitesimal equivariant Chern-Connes characters are well-defined. We decompose an equivariant index as a pairing of infinitesimal equivariant Chern-Connes characters with the Chern character of an idempotent matrix. We compute the limit of infinitesimal equivariant Chern- Connes characters when the time goes to zero by using the Getzler symbol calculus and then extend these theorems to the family case. We also prove that infinitesimal equivariant eta cochains are w",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns infinitesimal equivariant Chern-Connes characters and index formulas for manifolds with boundary, sharing only the 'noncommutative' vocabulary with the conjecture. It makes no claims about rank bounds of K-theoretic representations of polynomials or XOR tautology circuit complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
