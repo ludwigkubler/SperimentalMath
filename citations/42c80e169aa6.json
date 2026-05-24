@@ -1,0 +1,40 @@
+{
+  "entry_id": "42c80e169aa6",
+  "ts": 1779580691.1613123,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2512.10504",
+      "title": "Tianyan: Cloud services with quantum advantage",
+      "abstract_excerpt": "Tianyan Quantum Cloud Platform offers cloud services demonstrating quantum advantage capabilities with a Zuchongzhi 3.0-like superconducting quantum processor. This cloud-accessible superconducting quantum prototype, named Tianyan-287, features 105 qubits and achieves high operational fidelities, with single-qubit gates, two-qubit gates, and readout fidelity at 99.90%, 99.56%, 98.7%, respectively. For a specific benchmark task involving random circuit sampling on a 74-qubit system over 24 cycles",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a superconducting quantum cloud platform (Tianyan-287) and random circuit sampling benchmarks, with no mention of quantum logarithmic forms, sum-of-squares degree, max-CUT approximation, or minimal ranks over finite fields.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2601.14282",
+      "title": "Quantum scientists for disarmament: a manifesto",
+      "abstract_excerpt": "We, as researchers in quantum science and technology, are publishing this manifesto to express our deep concerns about the current geopolitical situation and the global race to rearm. We firmly oppose all forms of militarization in our societies and, in particular, within the academic world. We categorically reject the use of our research for military applications, population control, or surveillance. We stand against the practice of military funding for research. This manifesto is a call to act",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract is a political manifesto by quantum scientists opposing militarization of research, with no mathematical content related to quantum logarithmic forms, sum-of-squares degree, or Max-CUT approximation.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2307.02593",
+      "title": "Superpositions of thermalisations in relativistic quantum field theory",
+      "abstract_excerpt": "Recent results in relativistic quantum information and quantum thermodynamics have independently shown that in the quantum regime, a system may fail to thermalise when subject to quantum-controlled application of the same, single thermalisation channel. For example, an accelerating system with fixed proper acceleration is known to thermalise to an acceleration-dependent temperature, known as the Unruh temperature. However, the same system in a superposition of spatially translated trajectories t",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'relativistic quantum information and quantum thermodynamics' involving Unruh thermalisation and quantum field theory in noninertial frames, with no connection to logarithmic forms over finite fields, sum-of-squares degree, or max-CUT approximation.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

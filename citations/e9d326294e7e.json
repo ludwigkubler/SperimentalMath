@@ -1,0 +1,31 @@
+{
+  "entry_id": "e9d326294e7e",
+  "ts": 1779582272.873014,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:2503.19867",
+      "title": "Geometric Meta-Learning via Coupled Ricci Flow: Unifying Knowledge Representation and Quantum Entanglement",
+      "abstract_excerpt": "This paper establishes a unified framework integrating geometric flows with deep learning through three fundamental innovations. First, we propose a thermodynamically coupled Ricci flow that dynamically adapts parameter space geometry to loss landscape topology, formally proved to preserve isometric",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a 'thermodynamically coupled Ricci flow' framework for deep learning and meta-learning, sharing only loose vocabulary with quantum entanglement but not addressing geometric entanglement bounds or quantum query/communication complexity for Boolean functions.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:2510.07385",
+      "title": "Quantum Resources in Non-Abelian Lattice Gauge Theories: Nonstabilizerness, Multipartite Entanglement, and Fermionic Non-Gaussianity",
+      "abstract_excerpt": "Lattice gauge theories (LGTs) represent one of the most ambitious goals of quantum simulation. From a practical implementation perspective, non-Abelian theories present significantly tougher challenges than Abelian LGTs. However, it is unknown whether this is also reflected in increased values of qu",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quantum resources (nonstabilizerness, multipartite entanglement, fermionic non-Gaussianity) in non-Abelian lattice gauge theories, which shares the broad vocabulary of entanglement but does not address geometric entanglement bounds for Boolean functions or quantum query/communication complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 0
+  }
+}
