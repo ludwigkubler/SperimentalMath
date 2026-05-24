@@ -1,0 +1,40 @@
+{
+  "entry_id": "cf4edcf8020e",
+  "ts": 1779604369.6094131,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1207.2443",
+      "title": "Tropical Teichmuller and Siegel spaces",
+      "abstract_excerpt": "In this paper, we present a unified study of the moduli space of tropical curves and Outer space which we link via period maps to the moduli space of tropical abelian varieties and the space of positive definite quadratic forms. Our work is a first step towards exhibiting Outer space and the space of positive definite quadratic forms as analogues of Teichmüller space and Siegel space, respectively, in tropical geometry. All these spaces and the maps among them are described within the category o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns moduli spaces of tropical curves, Outer space, and period maps to tropical abelian varieties—a structural/moduli-theoretic study that does not address Jacobian rank of clause-defined curves or resolution proof complexity for k-CNF.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1306.3497",
+      "title": "The number of vertices of a tropical curve is bounded by its area",
+      "abstract_excerpt": "We introduce the notion of tropical area of a tropical curve defined in an open subset of $\\mathbb R^n$. We prove that the number of vertices of a tropical curve is bounded by the area of the curve. The approach is totally elementary yet tricky. Our proof employs ideas from intersection theory in algebraic geometry. The result can be interpreted as the fact that the moduli space of tropical curves with bounded area is of finite type.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract bounds the number of vertices of a tropical curve by its area and discusses moduli of tropical curves, with no mention of Jacobian rank, k-CNF formulas, or resolution proof complexity. It shares the 'tropical curve' vocabulary but does not interact with the specific Jacobian-rank/proof-size claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1001.1554",
+      "title": "Tropical geometry and correspondence theorems via toric stacks",
+      "abstract_excerpt": "In this paper we generalize correspondence theorems of Mikhalkin and Nishinou-Siebert providing a correspondence between algebraic and parameterized tropical curves. We also give a description of a canonical tropicalization procedure for algebraic curves motivated by Berkovich's construction of skeletons of analytic curves. Under certain assumptions, we construct a one-to-one correspondence between algebraic curves satisfying toric constraints and certain combinatorially defined objects, called ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses correspondence theorems between algebraic and tropical curves via toric stacks, with no mention of resolution proof complexity, k-CNF formulas, or Jacobian rank bounds of the form Θ(n^(k+1)/2). It shares only the general 'tropical curves' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

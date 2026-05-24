@@ -1,0 +1,40 @@
+{
+  "entry_id": "94235d052cdb",
+  "ts": 1779603957.7471693,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2106.15501",
+      "title": "Ramblings on the freeness of affine hypersurfaces",
+      "abstract_excerpt": "In this note we look at the freeness for complex affine hypersurfaces. If $X \\subset \\mathbb{C}^n$ is such a hypersurface, and $D$ denotes the associated projective hypersurface, obtained by taking the closure of $X$ in $\\mathbb{P}^n$, then we relate first the Jacobian syzygies of $D$ and those of $X$. Then we introduce two types of freeness for an affine hypersurface $X$, and prove various relations between them and the freeness of the projective hypersurface $D$. We write down a proof of the f",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns freeness of complex affine hypersurfaces, Jacobian syzygies, and Saito's local freeness — it makes no mention of CNF formulas, resolution proof complexity, or defect complexity of affine quotients. It shares only the loose vocabulary of 'affine' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1110.3028",
+      "title": "Acyclic curves and group actions on affine toric surfaces",
+      "abstract_excerpt": "We show that every irreducible, simply connected curve on a toric affine surface X over the field of complex numbers is an orbit closure of a multiplicative group action on X. It follows that up to the action of the automorphism group Aut(X) there are only finitely many non-equivalent embeddings of the affine line in X. A similar description is given for simply connected curves in the quotients of the affine plane by small finite linear groups. We provide also an analog of the Jung-van der Kulk ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns curves on toric affine surfaces, group actions, and embeddings of affine lines—pure algebraic geometry with no mention of CNF formulas, resolution proof complexity, or defect complexity measures relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1512.06713",
+      "title": "Local model for the moduli space of affine vortices",
+      "abstract_excerpt": "We show that the moduli space of regular affine vortices, which are solutions of the symplectic vortex equation over the complex plane, has the structure of a smooth manifold. The construction uses Ziltener's Fredholm theory results [31]. We also extend the result to the case of affine vortices over the upper half plane. These results are necessary ingredients in defining the \"open quantum Kirwan map\" proposed by Woodward [24].",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns moduli spaces of affine vortices and symplectic vortex equations, with no mention of CNF formulas, resolution proof complexity, or defect complexity of affine quotients. It shares only superficial vocabulary ('affine') with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

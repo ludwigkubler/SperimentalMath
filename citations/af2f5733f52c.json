@@ -1,0 +1,40 @@
+{
+  "entry_id": "af2f5733f52c",
+  "ts": 1779604540.31654,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2404.00641",
+      "title": "Polynomial Bogolyubov for special linear groups via tensor rank",
+      "abstract_excerpt": "We prove a polynomial Bogolyubov type lemma for the special linear group over finite fields. Specifically, we show that there exists an absolute constant $C&gt;0,$ such that if $A$ is a density $α$ subset of the special linear group, then the set $AA^{-1}AA^{-1}$ contains a subgroup $H$ of density $α^C$. Moreover, this subgroup is isomorphic to a special linear group of a smaller rank. We also show that if $A$ is an approximate subgroups then it can be covered by the union of few cosets of $H$. ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a polynomial Bogolyubov lemma for special linear groups using Gurevich-Howe tensor rank, with no mention of tropical geometry, communication complexity, or the disjointness problem. The shared word 'rank' is incidental and does not interact with the specific conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2510.12933",
+      "title": "On random matrices with large corank",
+      "abstract_excerpt": "Let $1\\le k\\le n$ and $M$ be a random $n\\times n$ matrix with independent uniformly random $\\{\\pm 1\\}$-entries. We show that there exists an absolute constant $c &gt; 0$ such that \\[\\mathbf{P}[\\operatorname{rank}(M)\\le n-k]\\le \\exp(-c nk).\\]",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the probability that a random ±1 matrix has large corank over the standard reals, with no mention of tropical rank, communication complexity, or disjointness. It shares only the generic vocabulary of 'rank' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2310.19136",
+      "title": "Outlier-robust additive matrix decomposition",
+      "abstract_excerpt": "We study least-squares trace regression when the parameter is the sum of a $r$-low-rank matrix and a $s$-sparse matrix and a fraction $ε$ of the labels is corrupted. For subgaussian distributions and feature-dependent noise, we highlight three needed design properties, each one derived from a different process inequality: a \"product process inequality\", \"Chevet's inequality\" and a \"multiplier process inequality\". These properties handle, simultaneously, additive decomposition, label contaminatio",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'least-squares trace regression' with low-rank plus sparse matrix decomposition and outlier-robust estimation, with no mention of tropical geometry, communication complexity, or disjointness lower bounds. It shares only the generic vocabulary of 'rank' with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

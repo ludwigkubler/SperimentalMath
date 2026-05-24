@@ -1,0 +1,40 @@
+{
+  "entry_id": "57639c301858",
+  "ts": 1779604150.5538352,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2006.02374",
+      "title": "On tensor rank and commuting matrices",
+      "abstract_excerpt": "Obtaining superlinear lower bounds on tensor rank is a major open problem in complexity theory. In this paper we propose a generalization of the approach used by Strassen in the proof of his 3n/2 border rank lower bound. Our approach revolves around a problem on commuting matrices:\n  Given matrices Z_1,...,Z_p of size n and an integer r&gt;n, are there commuting matrices Z'_1,...,Z'_p of size r such that every Z_k is embedded as a submatrix in the top-left corner of Z'_k?\n  As one of our main re",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses tensor rank lower bounds via commuting matrices and Strassen's approach, with no mention of quasi-orthogonal matrices, function fields, AC0 parity circuits, or CNF clause density. It shares only the general vocabulary of 'rank lower bounds' without interacting with the specific conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1501.01773",
+      "title": "Estimates for the growth of inverse determinant sums of quasi-orthogonal and number field lattices",
+      "abstract_excerpt": "Inverse determinant sums appear naturally as a tool for analyzing performance of space-time codes in Rayleigh fading channels. This work will analyze the growth of inverse determinant sums of a family of quasi-orthogonal codes and will show that the growths are in logarithmic class. This is considerably lower than that of comparable number field codes.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses inverse determinant sums of quasi-orthogonal codes for space-time coding in Rayleigh fading channels, which shares only the term 'quasi-orthogonal' with the conjecture but does not address matrix rank, Boolean functions, or AC0 parity circuit complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2403.03513",
+      "title": "Spectrum of random centrosymmetric matrices; CLT and Circular law",
+      "abstract_excerpt": "We analyze the asymptotic fluctuations of linear eigenvalue statistics of random centrosymmetric matrices with i.i.d. entries. We prove that for a complex analytic test function, the centered and normalized linear eigenvalue statistics of random centrosymmetric matrices converge to a normal distribution. We find the exact expression of the variance of the limiting normal distribution via combinatorial arguments. Moreover, we also argue that the limiting spectral distribution of properly scaled c",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns asymptotic spectral statistics (CLT, circular law) of random centrosymmetric matrices, which shares no interaction with the conjecture's claims about minimal rank bounds linking quasi-orthogonal matrices over function fields to AC0 parity circuit size.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

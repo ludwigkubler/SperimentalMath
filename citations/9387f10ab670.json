@@ -1,0 +1,40 @@
+{
+  "entry_id": "9387f10ab670",
+  "ts": 1779604706.455985,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2412.20260",
+      "title": "Functorial, operadic and modular operadic combinatorics of circuit algebras",
+      "abstract_excerpt": "Circuit algebras are a symmetric analogue of Jones's planar algebras introduced to study finite-type invariants of virtual knotted objects. Circuit algebra structures appear, in different forms, across mathematics. This paper provides a dictionary for translating between their diverse incarnations and describing their wider context. A formal definition of a broad class of circuit algebras is established and three equivalent descriptions of circuit algebras are provided: in terms of operads of wi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'circuit algebras' as a symmetric analogue of planar algebras for finite-type invariants of virtual knots, not Boolean tautology circuits or modular forms; it shares only the word 'circuit' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2106.02947",
+      "title": "Complexity of Modular Circuits",
+      "abstract_excerpt": "We study how the complexity of modular circuits computing AND depends on the depth of the circuits and the prime factorization of the modulus they use. In particular our construction of subexponential circuits of depth 2 for AND helps us to classify (modulo Exponential Time Hypothesis) modular circuits with respect to the complexity of their satisfiability. We also study a precise correlation between this complexity and the sizes of modular circuits realizing AND. On the other hand showing that ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses complexity of modular circuits computing AND and equation solving over groups of symmetries, with no mention of modular forms, first-order representation rank, or tautology circuits for AND-OR trees computing XOR. It shares only superficial vocabulary ('modular', 'circuits') with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2004.04716",
+      "title": "Modular forms, deformation of punctured spheres, and extensions of symmetric tensor representations",
+      "abstract_excerpt": "Let~$X=\\Po/Γ$ be an~$n$-punctured sphere, $n&gt;3$. We introduce and study~$n-3$ deformation operators on the space of modular forms~$M_*(Γ)$ based on the classical theory of uniformizing differential equations and accessory parameters. When restricting to modular functions, we recover a construction in Teichmüller theory related to the deformation of the complex structure of~$X$. We describe the deformation operators in terms of derivations with respect to Eichler integrals of weight-four cusp ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses deformation operators on modular forms via uniformizing differential equations and Eichler integrals on punctured spheres; it makes no mention of 'minimal rank', tautology circuits, AND-OR trees, or any complexity-theoretic quantity, so it neither supports nor refutes the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
