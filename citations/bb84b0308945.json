@@ -1,0 +1,40 @@
+{
+  "entry_id": "bb84b0308945",
+  "ts": 1779626585.3314598,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0212044v3",
+      "title": "Toric ideals, real toric varieties, and the algebraic moment map",
+      "abstract_excerpt": "This is a tutorial on some aspects of toric varieties related to their potential use in geometric modeling. We discuss projective toric varieties and their ideals, as well as real toric varieties and the algebraic moment map. In particular, we explain the relation between linear precision and the al",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a tutorial on toric varieties, toric ideals, and the algebraic moment map in the context of geometric modeling and linear precision, with no mention of DNFs, ACC⁰ circuits, or any complexity-theoretic claim relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1612.08190",
+      "title": "Scalar curvature as moment map in generalized Kahler geometry",
+      "abstract_excerpt": "It is known that the scalar curvature arises as the moment map in Kahler geometry. In pursuit of this analogy, we introduce the notion of a moment map in generalized Kahler geometry which gives the definition of a generalized scalar curvature on a generalized Kahler manifold. From the viewpoint of the moment map, we obtain the generalized Ricci form which is a representative of the first Chern class of the anticanonical line bundle. It turns out that infinitesimal deformations of generalized Kah",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns scalar curvature as a moment map in generalized Kähler geometry, with no mention of DNFs, boolean functions, ACC⁰ circuits, or symplectic rank bounds tied to circuit depth.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1408.6597",
+      "title": "The moment map on symplectic vector space and oscillator representation",
+      "abstract_excerpt": "The aim of this paper is to show that the canonical quantization of the moment maps on symplectic vector spaces naturally gives rise to the oscillator representations. More precisely, let $(W,ω)$ denote a real symplectic vector space, on which a Lie group $G$ acts symplectically on the left, where $G$ denotes a real reductive Lie group $\\mathrm{Sp}(n,\\mathbb R), \\mathrm U(p,q)$ or $\\mathrm O^*(2n)$ in this paper. Then we quantize the moment map $μ: W \\to \\mathfrak g_0^*$, where $\\mathfrak g_0^*$",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns canonical quantization of moment maps on symplectic vector spaces yielding oscillator representations of reductive Lie groups, with no mention of DNF formulas, boolean functions, or ACC⁰ circuit complexity. It shares only the term 'moment map' with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
