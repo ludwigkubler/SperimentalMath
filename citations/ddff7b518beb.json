@@ -1,0 +1,40 @@
+{
+  "entry_id": "ddff7b518beb",
+  "ts": 1779643309.7310288,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1410.4915",
+      "title": "Rankin-Selberg L-functions in cyclotomic towers, III",
+      "abstract_excerpt": "Let $π$ be a cuspidal automorphic representation of $\\operatorname{GL}_2$ over a totally real number field $F$. Let $K$ be a totally imaginary quadratic extension of $F$. We estimate central values of the $\\operatorname{GL}_2 \\times \\operatorname{GL}_2$ Rankin-Selberg $L$-functions associated to $π$ times representations induced from Hecke characters of $K$ which are ramified only at a given prime ideal $\\mathfrak{p}$ of $F$. More specifically, we use spectral decompositions of shifted convoluti",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Rankin-Selberg L-functions, automorphic representations, and Mordell-Weil ranks — number theory topics with no connection to Boolean functions, stochastic order, or resolution proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1710.05169",
+      "title": "Doubly Damped Stochastic Parallel Translations and Hessian Formulas",
+      "abstract_excerpt": "We study the Hessian of the solutions of time-independent Schrödinger equations, aiming to obtain as large a class as possible of complete Riemannian manifolds for which the estimate $C(\\frac 1 t +\\frac {d^2}{t^2})$ holds. For this purpose we introduce the doubly damped stochastic parallel transport equation, study them and make exponential estimates on them, deduce a second order Feynman-Kac formula and obtain the desired estimates. Our aim here is to explain the intuition, the basic techniques",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Hessian estimates for Schrödinger equation solutions via 'doubly damped stochastic parallel transport' on Riemannian manifolds, which has no interaction with Boolean functions, CNF formulas, or resolution proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1304.7603",
+      "title": "Cylindrical Algebraic Decompositions for Boolean Combinations",
+      "abstract_excerpt": "This article makes the key observation that when using cylindrical algebraic decomposition (CAD) to solve a problem with respect to a set of polynomials, it is not always the signs of those polynomials that are of paramount importance but rather the truth values of certain quantifier free formulae involving them. This motivates our definition of a Truth Table Invariant CAD (TTICAD). We generalise the theory of equational constraints to design an algorithm which will efficiently construct a TTICA",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Cylindrical Algebraic Decomposition and Truth Table Invariant CAD for polynomial systems, with no mention of resolution proof width, stochastic order, or CNF complexity bounds. It shares no specific claim with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

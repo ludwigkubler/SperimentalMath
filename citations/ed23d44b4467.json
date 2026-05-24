@@ -1,0 +1,40 @@
+{
+  "entry_id": "ed23d44b4467",
+  "ts": 1779643950.5256221,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1102.2932",
+      "title": "Applications of Monotone Rank to Complexity Theory",
+      "abstract_excerpt": "Raz's recent result \\cite{Raz2010} has rekindled people's interest in the study of \\emph{tensor rank}, the generalization of matrix rank to high dimensions, by showing its connections to arithmetic formulas. In this paper, we follow Raz's work and show that \\emph{monotone rank}, the monotone variant of tensor rank and matrix rank, has applications in algebraic complexity, quantum computing and communication complexity. This paper differs from Raz's paper in that it leverages existing results to ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses monotone/tensor rank applications to algebraic branching programs, quantum correlations, and communication complexity, with no mention of free probability distributions or read-twice branching programs. It shares the general vocabulary of 'rank' and complexity but does not address the specific claim about minimal rank of free probability matrix representations versus BP_ReadTwice size.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1204.6522",
+      "title": "Formal Groups, Witt vectors and Free Probability",
+      "abstract_excerpt": "We establish a link between free probability theory and Witt vectors, via the theory of formal groups. We derive an exponential isomorphism which expresses Voiculescu's free multiplicative convolution $\\boxtimes$ as a function of the free additive convolution $\\boxplus$. Subsequently we continue our previous discussion of the relation between complex cobordism and free probability. We show that the generic $n$th free cumulant corresponds to the cobordism class of the $(n-1)$-dimensional complex ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses links between free probability, Witt vectors, formal groups, and complex cobordism, with no mention of branching programs, circuit complexity, or minimal rank bounds relevant to the conjecture's claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1403.8106",
+      "title": "Recent advances on the log-rank conjecture in communication complexity",
+      "abstract_excerpt": "The log-rank conjecture is one of the fundamental open problems in communication complexity. It speculates that the deterministic communication complexity of any two-party function is equal to the log of the rank of its associated matrix, up to polynomial factors. Despite much research, we still know very little about this conjecture. Recently, there has been renewed interest in this conjecture and its relations to other fundamental problems in complexity theory. This survey describes some of th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the log-rank conjecture in communication complexity, relating deterministic communication complexity to matrix rank, but says nothing about free probability distributions or read-twice branching programs (BP_ReadTwice). It shares the vocabulary of 'rank' but does not interact with the specific claim about minimal rank of free probability distributions vs BP size.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
