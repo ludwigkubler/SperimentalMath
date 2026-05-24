@@ -1,0 +1,40 @@
+{
+  "entry_id": "57a918486ad4",
+  "ts": 1779636950.2336144,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1311.3745",
+      "title": "Affine Hecke algebras and quiver Hecke algebras",
+      "abstract_excerpt": "We give a presentation of localized affine and degenerate affine Hecke algebras of arbitrary type in terms of weights of the polynomial subalgebra and varied Demazure-BGG type operators. We offer a definition of a graded algebra $\\mathcal{H}$ whose category of finite-dimensional ungraded nilpotent modules is equivalent to the category of finite-dimensional modules over an associated degenerate affine Hecke algebra. Moreover, unlike the traditional grading on degenerate affine Hecke algebras, thi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses presentations and gradings of affine and degenerate affine Hecke algebras and their relation to quiver Hecke algebras, with no mention of boolean functions, Frege proof depth, or rank bounds connecting the two.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1102.1242",
+      "title": "A refinement of Stone duality to skew Boolean algebras",
+      "abstract_excerpt": "We establish two duality theorems which refine the classical Stone duality between generalized Boolean algebras and locally compact Boolean spaces. In the first theorem we prove that the category of left-handed skew Boolean algebras whose morphisms are proper skew Boolean algebra homomorphisms is equivalent to the category of étale spaces over locally compact Boolean spaces whose morphisms are étale space cohomomorphisms over continuous proper maps. In the second theorem we prove that the catego",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Stone duality refined to skew Boolean algebras and étale spaces, with no mention of Hecke algebras, Frege proof complexity, or depth bounds. It shares only the word 'Boolean' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1405.6705",
+      "title": "A categorical equivalence between affine Yokonuma-Hecke algebras and some quiver Hecke algebras",
+      "abstract_excerpt": "Inspired by the work of Rostam, we establish an explicit categorical equivalence between affine Yokonuma-Hecke algebras and quiver Hecke algebras associated to disjoint copies of quivers of (affine) type $A,$ generalizing Rouquier's categorical equivalence theorem.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a 'categorical equivalence between affine Yokonuma-Hecke algebras and quiver Hecke algebras,' a pure representation-theory result with no mention of boolean functions, ranks, or Frege proof complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
