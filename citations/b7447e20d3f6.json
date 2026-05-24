@@ -1,0 +1,40 @@
+{
+  "entry_id": "b7447e20d3f6",
+  "ts": 1779652627.1125832,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2201.07527",
+      "title": "The free compact closure of a symmetric monoidal category",
+      "abstract_excerpt": "We construct a compact closed category out of any symmetric monoidal category by freely adding adjoints to its objects. The morphisms of the completion are defined as string diagrams annotated by objects and morphisms from the original category. The symmetric monoidal category embeds via a faithful monoidal functor into its completion, but in contrast to the non-symmetric case, this embedding is not full. Our construction factors through the Int construction, which yields another free constructi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a free compact closure construction for symmetric monoidal categories via string diagrams and the Int construction, with no mention of Tseitin formulas, resolution proof complexity, or any rank-vs-proof-length bound.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1712.08276",
+      "title": "Braided skew monoidal categories",
+      "abstract_excerpt": "We introduce the notion of a braiding on a skew monoidal category, whose curious feature is that the defining isomorphisms involve three objects rather than two. These braidings are shown to arise from, and classify, cobraidings (also known as coquasitriangular structures) on bialgebras. Using a multicategorical approach we also describe examples of braidings on skew monoidal categories arising from 2-category theory.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'braidings on skew monoidal categories' and their relation to cobraidings on bialgebras, with no mention of rank, resolution proof complexity, or Tseitin formulas. It shares only the 'monoidal category' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2503.17274",
+      "title": "Composable Uncertainty in Symmetric Monoidal Categories for Design Problems (Extended Version)",
+      "abstract_excerpt": "Applied category theory often studies symmetric monoidal categories (SMCs) whose morphisms represent open systems. These structures naturally accommodate complex wiring patterns, leveraging (co)monoidal structures for splitting and merging wires, or compact closed structures for feedback. A key example is the compact closed SMC of design problems (DP), which enables a compositional approach to co-design in engineering. However, in practice, the systems of interest may not be fully known. Recentl",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns enriching symmetric monoidal categories with Markov-category-based uncertainty for design problems, with no mention of Tseitin formulas, resolution proof length, or any rank/proof-complexity bound. It shares only the broad 'monoidal category' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

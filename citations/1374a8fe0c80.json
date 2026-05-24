@@ -1,0 +1,40 @@
+{
+  "entry_id": "1374a8fe0c80",
+  "ts": 1779654250.1458707,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2504.04416",
+      "title": "Meta-Mathematics of Computational Complexity Theory",
+      "abstract_excerpt": "We survey results on the formalization and independence of mathematical statements related to major open problems in computational complexity theory. Our primary focus is on recent findings concerning the (un)provability of complexity bounds within theories of bounded arithmetic. This includes the techniques employed and related open problems, such as the (non)existence of a feasible proof that P = NP.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract surveys formalization and independence of complexity statements in bounded arithmetic ('formalization and independence of mathematical statements related to major open problems'), which does not interact with the specific claim about resolution proof width bounds for Tseitin formulas via spherical code volumes.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1301.6236",
+      "title": "Multi-Trial Guruswami--Sudan Decoding for Generalised Reed--Solomon Codes",
+      "abstract_excerpt": "An iterated refinement procedure for the Guruswami--Sudan list decoding algorithm for Generalised Reed--Solomon codes based on Alekhnovich's module minimisation is proposed. The method is parametrisable and allows variants of the usual list decoding approach. In particular, finding the list of \\emph{closest} codewords within an intermediate radius can be performed with improved average-case complexity while retaining the worst-case complexity.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns list decoding algorithms for Generalised Reed-Solomon codes via Alekhnovich's module minimisation, with no mention of spherical codes, Tseitin formulas, or resolution proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1611.00827",
+      "title": "Geometric complexity theory and matrix powering",
+      "abstract_excerpt": "Valiant's famous determinant versus permanent problem is the flagship problem in algebraic complexity theory. Mulmuley and Sohoni (Siam J Comput 2001, 2008) introduced geometric complexity theory, an approach to study this and related problems via algebraic geometry and representation theory. Their approach works by multiplying the permanent polynomial with a high power of a linear form (a process called padding) and then comparing the orbit closures of the determinant and the padded permanent. ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract is about geometric complexity theory, matrix powering, and the determinant-vs-permanent problem, with no mention of Tseitin formulas, resolution proof width, or spherical codes/volumes. It shares no specific claim with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

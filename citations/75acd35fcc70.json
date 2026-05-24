@@ -1,0 +1,31 @@
+{
+  "entry_id": "75acd35fcc70",
+  "ts": 1779653147.7645795,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.54254/2753-8818/43/20241036",
+      "title": "Representation of coxeter group and orthogonal group",
+      "abstract_excerpt": "The paper is primarily divided into two parts. The main focus of the first part is the construction of a representation of Coxeter groups. This begins with the definition of the Coxeter system and connected components, followed by the introduction of the length function and subsequent theorems. The faithfulness of this representation is then proven, allowing for the identification of isomorphisms that enable the final classification of finite Coxeter groups. This classification is achieved by le",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns construction and classification of Coxeter group representations and their link to orthogonal groups and harmonic polynomials, with no mention of Tseitin formulas, resolution proof complexity, or polynomial systems over F2.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10.1017/CBO9780511623646.008",
+      "title": "Reflection groups and Coxeter groups: Hecke algebras and Kazhdan–Lusztig polynomials",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available for the cited paper, so it is impossible to determine from the provided text whether it supports, refutes, or is orthogonal to the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}
