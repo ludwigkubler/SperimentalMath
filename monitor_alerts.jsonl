@@ -2071,3 +2071,4 @@
 {"ts": 1779620424.19356, "ts_iso": "2026-05-24T11:00:24.193560+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "OK", "to_status": "DEGRADED", "failing_checks": ["gpu", "ram_above_1g", "mirror_git_fresh"], "auto_fixed": false}
 {"ts": 1779620702.066107, "ts_iso": "2026-05-24T11:05:02.066107+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "DEGRADED", "to_status": "OK", "failing_checks": [], "auto_fixed": false}
 {"ts": 1779621327.03303, "ts_iso": "2026-05-24T11:15:27.033030+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "OK", "to_status": "DEGRADED", "failing_checks": ["gpu", "ram_above_1g", "mirror_git_fresh", "mirror_git_pushed"], "auto_fixed": false}
+{"ts": 1779621601.701215, "ts_iso": "2026-05-24T11:20:01.701215+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "DEGRADED", "to_status": "OK", "failing_checks": [], "auto_fixed": false}
