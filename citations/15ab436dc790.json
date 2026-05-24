@@ -1,0 +1,40 @@
+{
+  "entry_id": "15ab436dc790",
+  "ts": 1779650994.2619827,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0610043v5",
+      "title": "Lecture Notes on Noncommutative Algebraic Geometry and Noncommutative Tori",
+      "abstract_excerpt": "The first part of these notes gives an introduction to noncommutative projective geometry after Artin--Zhang. The second part provides an overview of the work of Polishchuk that reconciles noncommutative two-tori having real multiplication with the Artin--Zhang setting.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes 'noncommutative projective geometry' and 'noncommutative two-tori having real multiplication,' with no mention of CNF formulas, DPLL proofs, state ranks, or any complexity-theoretic content relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1604.00499",
+      "title": "From Monge to Higgs: a survey of distance computations in noncommutative geometry",
+      "abstract_excerpt": "This is a review of explicit computations of Connes distance in noncommutative geometry, covering finite dimensional spectral triples, almost-commutative geometries, and spectral triples on the algebra of compact operators. Several applications to physics are covered, like the metric interpretation of the Higgs field, and the comparison of Connes distance with the minimal length that emerges in various models of quantum spacetime. Links with other areas of mathematics are studied, in particular ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract surveys Connes distance computations in noncommutative geometry and applications to physics/optimal transport, with no mention of CNF formulas, DPLL proof length, or minimal rank of states encoding logical structure.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0205005v2",
+      "title": "The rings of noncommutative projective geometry",
+      "abstract_excerpt": "In the past 15 years a study of ``noncommutative projective geometry'' has flourished. By using and generalizing techniques of commutative projective geometry, one can study certain noncommutative graded rings and obtain results for which no purely algebraic proof is known. For instance, noncommutat",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes 'noncommutative projective geometry' studying 'noncommutative graded rings' via commutative projective geometry techniques, with no mention of CNF formulas, DPLL proofs, state ranks, or complexity theory. It shares only the 'noncommutative geometry' vocabulary without interacting with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "d6670829838b",
+  "ts": 1779648635.8649027,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1311.1421",
+      "title": "Multiplicative differential algebraic K-theory and applications",
+      "abstract_excerpt": "We construct a version of Beilinson's regulator as a map of sheaves of commutative ring spectra and use it to define a multiplicative variant of differential algebraic K-theory. We use this theory to give an interpretation of Bloch's construction of K_3-classes and the relation with dilogarithms. Furthermore, we provide a relation to Arakelov theory via the arithmetic degree of metrized line bundles, and we give a proof of the formality of the algebraic K-theory of number rings.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'multiplicative differential algebraic K-theory' with applications to Beilinson's regulator, dilogarithms, Arakelov theory, and number rings — it does not mention function fields, Tseitin formulas, local index, or resolution proof width, so it shares only the K-theory vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2104.04021",
+      "title": "A universal characterization of noncommutative motives and secondary algebraic K-theory",
+      "abstract_excerpt": "We provide a universal characterization of the construction taking a scheme $X$ to its stable $\\infty$-category $\\text{Mot}(X)$ of noncommutative motives, patterned after the universal characterization of algebraic K-theory due to Blumberg--Gepner--Tabuada. As a consequence, we obtain a corepresentability theorem for secondary K-theory. We envision this as a fundamental tool for the construction of trace maps from secondary K-theory.\n  Towards these main goals, we introduce a preliminary formali",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a universal characterization of noncommutative motives and secondary K-theory via stable (∞,2)-categories, with no mention of function fields, Tseitin formulas, resolution proof width, or any local index bound. It shares only the vocabulary 'K-theory' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1811.09564",
+      "title": "Dévissage for Waldhausen K-theory",
+      "abstract_excerpt": "A dévissage-type theorem in algebraic $K$-theory is a statement that identifies the $K$-theory of a Waldhausen category $\\mathscr{C}$ in terms of the $K$-theories of a collection of Waldhausen subcategories of $\\mathscr{C}$ when a dévissage condition about the existence of appropriate finite filtrations is satisfied. We distinguish between dévissage theorems of single type and of multiple type, depending on the number of Waldhausen subcategories and their properties. The main representative exam",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns dévissage theorems identifying K-theory of Waldhausen categories via subcategory filtrations, with no mention of local index, function fields, Tseitin formulas, or resolution proof complexity. It shares only the broad 'algebraic K-theory' vocabulary and does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

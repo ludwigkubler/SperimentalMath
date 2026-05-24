@@ -1,0 +1,40 @@
+{
+  "entry_id": "cf197e365a12",
+  "ts": 1779649967.1737115,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0610043v5",
+      "title": "Lecture Notes on Noncommutative Algebraic Geometry and Noncommutative Tori",
+      "abstract_excerpt": "The first part of these notes gives an introduction to noncommutative projective geometry after Artin--Zhang. The second part provides an overview of the work of Polishchuk that reconciles noncommutative two-tori having real multiplication with the Artin--Zhang setting.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes lecture notes on noncommutative projective geometry (Artin-Zhang) and noncommutative two-tori with real multiplication, with no mention of crossed products with module rank bounds, Boolean functions, or resolution proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1304.4062",
+      "title": "Superconformal nets and noncommutative geometry",
+      "abstract_excerpt": "This paper provides a further step in our program of studying superconformal nets over S^1 from the point of view of noncommutative geometry. For any such net A and any family Delta of localized endomorphisms of the even part A^gamma of A, we define the locally convex differentiable algebra A_Delta with respect to a natural Dirac operator coming from supersymmetry. Having determined its structure and properties, we study the family of spectral triples and JLO entire cyclic cocycles associated to",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses superconformal nets, Dirac operators, spectral triples, and JLO cocycles in noncommutative geometry — it makes no mention of crossed products of group rings, Boolean functions, module ranks, or resolution proof width. It shares only the broad 'noncommutative geometry' vocabulary.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1209.3595",
+      "title": "Noncommutative complex differential geometry",
+      "abstract_excerpt": "This paper defines and examines the basic properties of noncommutative analogues of almost complex structures, integrable almost complex structures, holomorphic curvature, cohomology, and holomorphic sheaves. The starting point is a differential structure on a noncommutative algebra defined in terms of a differential graded algebra. This is compared to current ideas on noncommutative algebraic geometry.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns noncommutative analogues of almost complex structures, holomorphic curvature, cohomology, and sheaves via differential graded algebras — it shares the 'noncommutative' vocabulary but does not address crossed products, module rank, Boolean functions, or resolution proof width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
