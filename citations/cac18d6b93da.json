@@ -1,0 +1,40 @@
+{
+  "entry_id": "cac18d6b93da",
+  "ts": 1779620685.6003222,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2311.01864",
+      "title": "SortNet: Learning To Rank By a Neural-Based Sorting Algorithm",
+      "abstract_excerpt": "The problem of relevance ranking consists of sorting a set of objects with respect to a given criterion. Since users may prefer different relevance criteria, the ranking algorithms should be adaptable to the user needs. Two main approaches exist in literature for the task of learning to rank: 1) a score function, learned by examples, which evaluates the properties of each object yielding an absolute relevance value that can be used to order the objects or 2) a pairwise approach, where a \"prefere",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes SortNet, a neural-network-based learning-to-rank algorithm evaluated on LETOR, with no mention of quasi-plurality matrices, communication complexity, or the disjointness problem. It shares no substantive content with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1901.11354",
+      "title": "The monic rank",
+      "abstract_excerpt": "We introduce the monic rank of a vector relative to an affine-hyperplane section of an irreducible Zariski-closed affine cone $X$. We show that the monic rank is finite and greater than or equal to the usual $X$-rank. We describe an algorithmic technique based on classical invariant theory to determine, in concrete situations, the maximal monic rank. Using this technique, we establish three new instances of a conjecture due to B. Shapiro which states that a binary form of degree $d\\cdot e$ is th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'monic rank' in algebraic geometry/invariant theory related to tensor and symmetric rank, with no mention of Boolean functions, quasi-plurality matrices, or communication complexity/disjointness.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2510.02583",
+      "title": "The Log-Rank Conjecture: New Equivalent Formulations",
+      "abstract_excerpt": "The log-rank conjecture is a longstanding open problem with multiple equivalent formulations in complexity theory and mathematics. In its linear-algebraic form, it asserts that the rank and partitioning number of a Boolean matrix are quasi-polynomially related.\n  We propose a relaxed but still equivalent version of the conjecture based on a new matrix parameter, signed rectangle rank: the minimum number of all-1 rectangles needed to express the Boolean matrix as a $\\pm 1$-sum. Signed rectangle r",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the log-rank conjecture relating Boolean matrix rank to partition number/communication complexity via 'signed rectangle rank,' not 'quasi-plurality matrices' or the disjointness problem specifically. It shares the rank/communication-complexity framework but does not address the specific claim about Q(f) and disjointness.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

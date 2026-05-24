@@ -1,0 +1,40 @@
+{
+  "entry_id": "f55cb842015c",
+  "ts": 1779619694.85524,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1207.2443",
+      "title": "Tropical Teichmuller and Siegel spaces",
+      "abstract_excerpt": "In this paper, we present a unified study of the moduli space of tropical curves and Outer space which we link via period maps to the moduli space of tropical abelian varieties and the space of positive definite quadratic forms. Our work is a first step towards exhibiting Outer space and the space of positive definite quadratic forms as analogues of Teichmüller space and Siegel space, respectively, in tropical geometry. All these spaces and the maps among them are described within the category o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns tropical moduli spaces (curves, abelian varieties, Teichmüller/Siegel analogues) and ideal stacky fans, with no mention of sheaf rank, affine schemes in the conjecture's sense, or monotone circuit complexity for k-CLIQUE.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1207.1925",
+      "title": "Introduction to tropical algebraic geometry",
+      "abstract_excerpt": "This is an expository introduction to tropical algebraic geometry based on my lectures at the Workshop on Tropical Geometry and Integrable Systems in Glasgow, July 4-8, 2011, and at the ELGA 2011 school on Algebraic Geometry and Applications in Buenos Aires, August 1-5, 2011.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes an 'expository introduction to tropical algebraic geometry' from lecture notes, with no mention of sheaf rank, monotone circuit complexity, or k-CLIQUE lower bounds. It shares vocabulary (tropical geometry) but does not engage with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1206.1925",
+      "title": "Counting Algebraic Curves with Tropical Geometry",
+      "abstract_excerpt": "Tropical geometry is a piecewise linear \"shadow\" of algebraic geometry. It allows for the computation of several cohomological invariants of an algebraic variety. In particular, its application to enumerative algebraic geometry led to significant progress.\n  In this survey, we give an introduction to tropical geometry techniques for algebraic curve counting problems. We also survey some recent developments, with a particular emphasis on the computation of the degree of the Severi varieties of th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes tropical geometry applied to enumerative algebraic curve counting (Severi varieties, Hurwitz numbers), with no mention of tropicalized sheaves' minimal rank, monotone circuit complexity, or k-CLIQUE. It shares only the broad 'tropical geometry' vocabulary without interacting with the specific claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

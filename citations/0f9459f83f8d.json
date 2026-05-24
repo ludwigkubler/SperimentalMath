@@ -1,0 +1,40 @@
+{
+  "entry_id": "0f9459f83f8d",
+  "ts": 1779622601.978703,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:cs/0209032",
+      "title": "Complexity Results on DPLL and Resolution",
+      "abstract_excerpt": "DPLL and resolution are two popular methods for solving the problem of propositional satisfiability. Rather than algorithms, they are families of algorithms, as their behavior depend on some choices they face during execution: DPLL depends on the choice of the literal to branch on; resolution depends on the choice of the pair of clauses to resolve at each step. The complexity of making the optimal choice is analyzed in this paper. Extending previous results, we prove that choosing the optimal li",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses the complexity of choosing optimal literals/clauses in DPLL and resolution (e.g., 'choosing the optimal literal to branch on in DPLL is Delta[log]^2-hard'), not any rank bound from quasipolynomial representations or DPLL tree diameter.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2404.04038",
+      "title": "Refutability as Recursive as Provability",
+      "abstract_excerpt": "Godel numbering is an arithmetization of sintax which defines provability by coding a primitive recursive predicate, Pf(x,v). A multiplicity of researches and results all around this well-known recursive predicate are today widespread in many areas of logic and AI. Not equally investigated is the refutability predicate defined by Godel numbering within the same primitive recursive status. Rf(x,v) can be defined as a recursive predicate meaning that x is the Godel number of a refutation in PA of ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Gödel numbering of provability/refutability predicates in Peano Arithmetic ('Pf(x,v)' and 'Rf(x,v)'), not DPLL refutation trees, CNF formulas, or quasipolynomial function ranks. It shares only the word 'refutation' with the conjecture and does not engage with the specific rank/diameter claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1701.07208",
+      "title": "A Quasi-Polynomial Approximation for the Restricted Assignment Problem",
+      "abstract_excerpt": "The Restricted Assignment Problem is a prominent special case of Scheduling on Parallel Unrelated Machines. For the strongest known linear programming relaxation, the configuration LP, we improve the non-constructive bound on its integrality gap from 1.9142 to 1.8334 and significantly simplify the proof. Then we give a constructive variant, yielding a 1.8334-approximation in quasi-polynomial time. This is the first quasi-polynomial algorithm for this problem improving on the long-standing approx",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a quasi-polynomial time approximation algorithm for the Restricted Assignment scheduling problem ('first quasi-polynomial algorithm for this problem improving on the long-standing approximation rate of 2'), which shares only the 'quasi-polynomial' vocabulary and has no connection to quasipolynomial function rank or DPLL refutation tree diameter.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
