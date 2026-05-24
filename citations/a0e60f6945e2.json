@@ -1,0 +1,40 @@
+{
+  "entry_id": "a0e60f6945e2",
+  "ts": 1779607266.264504,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0906.0693",
+      "title": "An improved lower bound on the counterfeit coins problem",
+      "abstract_excerpt": "In this paper, we will give an improvement on the lower bound for the counterfeit coins problem in the case that the number of false coins is unknown in advance",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns lower bounds for the counterfeit coins problem with unknown number of false coins, which has no apparent connection to free entropy, branching programs, or tensor width as posited by the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2511.07739",
+      "title": "A Lower Bound for the Fourier Entropy of Boolean Functions on the Biased Hypercube",
+      "abstract_excerpt": "We study Boolean functions on the $p$-biased hypercube $(\\{0,1\\}^n,μ_p^n)$ through the lens of Fourier (spectral) entropy, i.e. the Shannon entropy of the squared $p$-biased Fourier coefficients. Motivated by recent restriction-based advances on upper bounds toward the Fourier-Entropy-Influence (FEI) conjecture, we prove a complementary, sharp lower bound that decomposes the entropy into coordinate-wise contributions. Let $q:=4p(1-p)$ and define $Ψ:[0,\\tfrac12]\\to[0,\\ln 2]$ by $Ψ(t):=h\\left(\\fra",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Fourier/Shannon entropy lower bounds for Boolean functions on the biased hypercube (FEI conjecture), not free entropy of graphs, free probability, or tensor width of read-twice branching programs. It shares only the loose term 'entropy' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1201.0716",
+      "title": "Concavification of free entropy",
+      "abstract_excerpt": "We introduce a modification of Voiculescu's free entropy which coincides with the liminf variant of Voiculescu's free entropy on extremal states, but is a concave upper semi-continuous function on the trace state space. We also extend the orbital free entropy of Hiai, Miyamoto and Ueda to non-hyperfinite multivariables and prove freeness in case of additivity of Voiculescu's entropy (or vanishing of our extended orbital entropy).",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses a concavification of Voiculescu's free entropy and extensions of orbital free entropy in operator algebras, with no mention of branching programs, tensor width, or any complexity-theoretic lower bound. It shares only the 'free entropy' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

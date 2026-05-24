@@ -1,0 +1,22 @@
+{
+  "entry_id": "b295fec69486",
+  "ts": 1779607525.122969,
+  "hits_evaluated": 1,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2407.04618",
+      "title": "Encoding of algebraic geometry codes with quasi-linear complexity $O(N\\log N)$",
+      "abstract_excerpt": "Fast encoding and decoding of codes have been always an important topic in code theory as well as complexity theory. Although encoding is easier than decoding in general, designing an encoding algorithm of codes of length $N$ with quasi-linear complexity $O(N\\log N)$ is not an easy task. Despite the fact that algebraic geometry codes were discovered in the early of 1980s, encoding algorithms of algebraic geometry codes with quasi-linear complexity $O(N\\log N)$ have not been found except for the ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns fast encoding algorithms for algebraic geometry codes with quasi-linear complexity O(N log N), not Hodge structures, tropical realizations of k-CNF formulas, or resolution proof complexity. It shares no interaction with the conjecture's specific claim about MinRank of Hodge structures.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 0
+  }
+}
