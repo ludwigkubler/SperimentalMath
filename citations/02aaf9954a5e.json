@@ -1,0 +1,40 @@
+{
+  "entry_id": "02aaf9954a5e",
+  "ts": 1779662487.7423654,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1204.5159",
+      "title": "Two simulations about DPLL(T)",
+      "abstract_excerpt": "In this paper we relate different formulations of the DPLL(T) procedure. The first formulation is based on a system of rewrite rules, which we denote DPLL(T). The second formulation is an inference system of, which we denote LKDPLL(T). The third formulation is the application of a standard proof-search mechanism in a sequent calculus LKp(T) introduced here. We formalise an encoding from DPLL(T) to LKDPLL(T) that was, to our knowledge, never explicitly given and, in the case where DPLL(T) is exte",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns formal simulations between different DPLL(T) proof system formulations (rewrite rules, sequent calculus) and preservation of step complexity, with no mention of Hodge theory, polynomial systems, or refutation depth bounds relevant to the conjecture's specific rank inequality.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2306.07956",
+      "title": "Adaptive Monte Carlo Search for Conjecture Refutation in Graph Theory",
+      "abstract_excerpt": "Graph theory is an interdisciplinary field of study that has various applications in mathematical modeling and computer science. Research in graph theory depends on the creation of not only theorems but also conjectures. Conjecture-refuting algorithms attempt to refute conjectures by searching for counterexamples to those conjectures, often by maximizing certain score functions on graphs. This study proposes a novel conjecture-refuting algorithm, referred to as the adaptive Monte Carlo search (A",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a Monte Carlo search algorithm for refuting graph theory conjectures, with no mention of Hodge theory, polynomial systems, or DPLL proof complexity. It shares no substantive connection to the conjecture's claim about Hodge diamond ranks and DPLL refutation depth.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1907.07631",
+      "title": "On the Tour Towards DPLL(MAPF) and Beyond",
+      "abstract_excerpt": "We discuss milestones on the tour towards DPLL(MAPF), a multi-agent path finding (MAPF) solver fully integrated with the Davis-Putnam-Logemann-Loveland (DPLL) propositional satisfiability testing algorithm through satisfiability modulo theories (SMT). The task in MAPF is to navigate agents in an undirected graph in a non-colliding way so that each agent eventually reaches its unique goal vertex. At most one agent can reside in a vertex at a time. Agents can move instantaneously by traversing edg",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses integrating DPLL with multi-agent path finding via SMT ('a MAPF solver fully integrated with the Davis-Putnam-Logemann-Loveland (DPLL) propositional satisfiability testing algorithm'), with no mention of Hodge theory, polynomial systems, or DPLL refutation depth bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

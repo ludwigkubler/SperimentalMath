@@ -1,0 +1,40 @@
+{
+  "entry_id": "8383796bbc60",
+  "ts": 1779661476.1783473,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2603.00603",
+      "title": "Mirabolic Hecke algebras, Schur-Weyl duality and Frobenius character formulas",
+      "abstract_excerpt": "We first introduce a new presentation for the mirabolic Hecke algebra $\\mathscr{H}_{n,R}(q)$ over an arbitrary commutative ring $R$ and derive a new basis. Based on this presentation, specializing to the case of $\\mathscr{H}_n(q)$ over the field $\\mathbb{C}(q)$, we construct a basis for the cocenter of $\\mathscr{H}_n(q)$, which facilitates the definition of its character table. We further establish a Schur--Weyl duality between $\\mathscr{H}_n(q)$ and the quantum group $U_q(\\mathfrak{gl}_r)$. As ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a Schur-Weyl duality between the mirabolic Hecke algebra and the quantum group U_q(gl_r), with Frobenius character formulas and a Murnaghan-Nakayama rule—it makes no claims about minimal rank of representations of CNF clause-indicator polynomials or DPLL proof length.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2009.03007",
+      "title": "Affine Hecke algebras and their representations",
+      "abstract_excerpt": "This is a survey paper about affine Hecke algebras. We start from scratch and discuss some algebraic aspects of their representation theory, referring to the literature for proofs. We aim in particular at the classification of irreducible representations.\n  Only at the end we establish a new result: a natural bijection between the set of irreducible representations of an affine Hecke algebra with real parameters $\\geq 1$, and the set of irreducible representations of the affine Weyl group underl",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a survey of affine Hecke algebra representations and a bijection with affine Weyl group representations ('a natural bijection between the set of irreducible representations of an affine Hecke algebra...'), with no mention of Schur-Weyl tensor rank, CNF formulas, or DPLL proof length.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2307.06677",
+      "title": "Quantum Schur-Weyl duality and q-Frobenius formula related to Reflection Equation algebras",
+      "abstract_excerpt": "We establish a q-version of the Schur-Weyl duality, in which the role of the symmetric group is played by the Hecke algebra and the role of the enveloping algebra U(gl(N)) is played by the Reflection Equation algebra, associated with any skew-invertible Hecke symmetry. Also, in each Reflection Equation algebra we define analogues of the Schur polynomials and power sums in two forms: as polynomials in generators of a given Reflection Equation algebra and in terms of the so-called eigenvalues of t",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a q-version of Schur-Weyl duality involving Hecke algebras and Reflection Equation algebras, with Frobenius-style formulas, but says nothing about CNF formulas, DPLL proof length, or minimal rank bounds related to SAT instances.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

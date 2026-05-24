@@ -1,0 +1,40 @@
+{
+  "entry_id": "933cb1283eb7",
+  "ts": 1779659404.4955957,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1903.11185",
+      "title": "Motivic Steenrod operations in characteristic $p$",
+      "abstract_excerpt": "Using the recent work of Frankland and Spitzweck, we define Steenrod operations $P^{n}$ on the mod $p$ motivic cohomology of smooth varieties defined over a base field of characteristic $p$. We show that $P^{n}$ is the $p$th power on $H^{2n,n}(-,\\mathbb{F}_{p})\\cong CH^{n}(-)/p$ and prove an instability result for the operations. Restricted to mod $p$ Chow groups, we show that the operations satisfy the expected Adem relations and Cartan formula. For $p=2$, we use the new Steenrod squares to obt",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns motivic Steenrod operations and their application to quadratic forms over fields of characteristic 2, with no mention of Tseitin formulas, resolution proof complexity, or rank bounds tied to clause/variable counts. It shares only the vocabulary 'quadratic forms in characteristic p' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1204.1938",
+      "title": "Heights and quadratic forms: on Cassels' theorem and its generalizations",
+      "abstract_excerpt": "In this survey paper, we discuss the classical Cassels' theorem on existence of small-height zeros of quadratic forms over Q and its many extensions, to different fields and rings, as well as to more general situations, such as existence of totally isotropic small-height subspaces. We also discuss related recent results on effective structural theorems for quadratic spaces, as well as Cassels'-type theorems for small-height zeros of quadratic forms with additional conditions. We conclude with a ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract surveys Cassels'-type small-height zeros of quadratic forms over Q and related fields/rings, with no mention of positive-characteristic rank bounds, Tseitin formulas, or resolution proof complexity. It shares the 'quadratic forms' vocabulary but does not interact with the specific conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1207.0109",
+      "title": "Universal quadratic forms and Whitney tower intersection invariants",
+      "abstract_excerpt": "The first part of this paper exposits a simple geometric description of the Kirby-Siebenmann invariant of a 4--manifold in terms of a quadratic refinement of its intersection form. This is the first in a sequence of higher-order intersection invariants of Whitney towers studied by the authors, particularly for the 4--ball.\n  In the second part of this paper, a general theory of quadratic forms is developed and then specialized from the non-commutative to the commutative to finally, the symmetric",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses quadratic forms in the context of Whitney tower intersection invariants and 4-manifold topology (Kirby-Siebenmann invariant), with no mention of finite fields of characteristic p, Tseitin formulas, or resolution proof complexity. It shares only the vocabulary 'quadratic forms' but does not engage with the specific rank bound claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
