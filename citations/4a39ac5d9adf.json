@@ -1,0 +1,40 @@
+{
+  "entry_id": "4a39ac5d9adf",
+  "ts": 1779646389.7141042,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1501.05640",
+      "title": "Bell's theorem tells us NOT what quantum mechanics IS, but what quantum mechanics IS NOT",
+      "abstract_excerpt": "Non-locality, or quantum-non-locality, are buzzwords in the community of quantum foundation and information scientists, which purportedly describe the implications of Bell's theorem. When such phrases are treated seriously, that is it is claimed that Bell's theorem reveals non-locality as an inherent trait of the quantum description of the micro-world, this leads to logical contradictions, which will be discussed here. In fact, Bell's theorem, understood as violation of Bell inequalities by quan",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract is a foundational/philosophical discussion of Bell's theorem and non-locality vs. complementarity, with no mention of abelian varieties, function fields, or quantum query complexity. It shares only the 'Bell's theorem' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1912.05653",
+      "title": "Minimal abelian varieties of algebras, I",
+      "abstract_excerpt": "We show that any abelian variety that is not affine has a nontrivial strongly abelian subvariety. In later papers in this sequence we apply this result to the study of minimal abelian varieties.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'abelian varieties of algebras' in universal algebra (strongly abelian subvarieties of non-affine abelian varieties), not abelian varieties over function fields, Bell inequalities, or quantum query complexity. It shares only the term 'abelian variety' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1502.03923",
+      "title": "Bringing Bell's theorem back to the domain of Particle Physics &amp; Cosmology",
+      "abstract_excerpt": "John St. Bell was a physicist working most of his time at CERN and contributing intensively and sustainably to the development of Particle Physics and Collider Physics. As a hobby he worked on so-called \"foundations of quantum theory\", that was that time very unpopular, even considered to be scientifically taboo. His 1964-theorem, showing that predictions of local realistic theories are different to those of quantum theory, initiated a new field in quantum physics: quantum information theory. Th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Bell's theorem in particle physics, cryptography, and matter-antimatter asymmetry, with no mention of abelian varieties over function fields, minimal orders in G(K), or quantum query complexity bounds. It shares only the 'Bell's theorem' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

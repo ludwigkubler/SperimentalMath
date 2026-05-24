@@ -1,0 +1,40 @@
+{
+  "entry_id": "b6fcb6cbcf7b",
+  "ts": 1779647491.4151793,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1601.05351",
+      "title": "Semialgebraic Geometry of Nonnegative Tensor Rank",
+      "abstract_excerpt": "We study the semialgebraic structure of $D_r$, the set of nonnegative tensors of nonnegative rank not more than $r$, and use the results to infer various properties of nonnegative tensor rank. We determine all nonnegative typical ranks for cubical nonnegative tensors and show that the direct sum conjecture is true for nonnegative tensor rank. We show that nonnegative, real, and complex ranks are all equal for a general nonnegative tensor of nonnegative rank strictly less than the complex generic",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract studies semialgebraic structure, typical ranks, and identifiability of nonnegative tensor decompositions, with no mention of monotone circuit complexity or k-CLIQUE lower bounds. It shares only the 'nonnegative tensor rank' vocabulary but does not interact with the conjecture's specific bridge to circuit size.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2510.02583",
+      "title": "The Log-Rank Conjecture: New Equivalent Formulations",
+      "abstract_excerpt": "The log-rank conjecture is a longstanding open problem with multiple equivalent formulations in complexity theory and mathematics. In its linear-algebraic form, it asserts that the rank and partitioning number of a Boolean matrix are quasi-polynomially related.\n  We propose a relaxed but still equivalent version of the conjecture based on a new matrix parameter, signed rectangle rank: the minimum number of all-1 rectangles needed to express the Boolean matrix as a $\\pm 1$-sum. Signed rectangle r",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the log-rank conjecture, signed rectangle rank, and Boolean matrix/tensor decompositions — it does not address nonnegative tensor rank bounds for k-CLIQUE instances or monotone circuit size lower bounds, which is the specific claim under review.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/hep-th/9707234v2",
+      "title": "Variational Approach to Quantum Field Theory: Gaussian Approximation and the Perturbative Expansion around It",
+      "abstract_excerpt": "The functional Schrodinger picture formulation of quantum field theory and the variational Gaussian approximation method based on the formulation are briefly reviewed. After presenting recent attempts to improve the variational approximation, we introduce a new systematic method based on the backgro",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'variational Gaussian approximation' in 'quantum field theory' via the 'functional Schrodinger picture,' which has no interaction with nonnegative tensor rank or monotone circuit complexity for k-CLIQUE.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

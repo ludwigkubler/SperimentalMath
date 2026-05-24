@@ -1,0 +1,40 @@
+{
+  "entry_id": "92de8b1fd8cd",
+  "ts": 1779645959.5814402,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2107.11205",
+      "title": "On Boolean Functions with Low Polynomial Degree and Higher Order Sensitivity",
+      "abstract_excerpt": "Boolean functions are important primitives in different domains of cryptology, complexity and coding theory. In this paper, we connect the tools from cryptology and complexity theory in the domain of Boolean functions with low polynomial degree and high sensitivity. It is well known that the polynomial degree of of a Boolean function and its resiliency are directly connected. Using this connection we analyze the polynomial degree-sensitivity values through the lens of resiliency, demonstrating e",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'Boolean functions with low polynomial degree and high sensitivity' connected to resiliency and cryptology, with no mention of the Riemann Hypothesis, Riemann Zeta exponents, or randomized communication complexity for k-clique. It shares only the generic 'Boolean functions' vocabulary but does not address the specific conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1004.0436",
+      "title": "On the parity complexity measures of Boolean functions",
+      "abstract_excerpt": "The parity decision tree model extends the decision tree model by allowing the computation of a parity function in one step. We prove that the deterministic parity decision tree complexity of any Boolean function is polynomially related to the non-deterministic complexity of the function or its complement. We also show that they are polynomially related to an analogue of the block  sensitivity.  We further study parity decision trees in their relations with an intermediate variant of the decisio",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses parity decision tree complexity and its polynomial relations to non-deterministic complexity, block sensitivity, and communication complexity — it makes no claims about Riemann Hypothesis exponents of characteristic polynomials or k-clique randomized communication lower bounds of Ω(2^n / log n).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0912.3134",
+      "title": "Complexity of Propositional Abduction for Restricted Sets of Boolean Functions",
+      "abstract_excerpt": "Abduction is a fundamental and important form of non-monotonic reasoning. Given a knowledge base explaining how the world behaves it aims at finding an explanation for some observed manifestation. In this paper we focus on propositional abduction, where the knowledge base and the manifestation are represented by propositional formulae. The problem of deciding whether there exists an explanation has been shown to be SigmaP2-complete in general. We consider variants obtained by restricting the all",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the complexity classification of propositional abduction restricted to sets of Boolean functions, with no mention of the Riemann zeta function, Riemann Hypothesis exponents, or randomized communication complexity for k-clique. It shares only the generic vocabulary of 'Boolean functions' with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
