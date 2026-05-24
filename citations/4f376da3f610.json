@@ -1,0 +1,31 @@
+{
+  "entry_id": "4f376da3f610",
+  "ts": 1779597795.1931581,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:2869c6b4a2f0a54083666b76ceb6d916c9ee370c",
+      "title": "Precise and Accurate Processor Simulation",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available, and the title 'Precise and Accurate Processor Simulation' does not indicate any connection to quandle representations or read-twice branching programs. Without text to examine, no determination can be made.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:8ae61c51a45845b4307766f452a88f6958d8566c",
+      "title": "Precise and Accurate Processor Simulation Electrical and Computer Engineering",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available, and the title ('Precise and Accurate Processor Simulation') appears unrelated to quandle theory or branching program complexity, but without abstract content I cannot make a determination.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 2
+  }
+}

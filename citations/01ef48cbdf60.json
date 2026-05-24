@@ -1,0 +1,40 @@
+{
+  "entry_id": "01ef48cbdf60",
+  "ts": 1779595718.5344281,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1503.00138",
+      "title": "On the isotypic decomposition of cohomology modules of symmetric semi-algebraic sets: polynomial bounds on multiplicities",
+      "abstract_excerpt": "We consider symmetric (under the action of products of finite symmetric groups) real algebraic varieties and semi-algebraic sets, as well as symmetric complex varieties in affine and projective spaces, defined by polynomials of degrees bounded by a fixed constant $d$. We prove that if a Specht module, $\\mathbb{S}^λ$, appears with positive multiplicity in the isotypic decomposition of the cohomology modules of such sets, then the rank of the partition $λ$ is bounded by $O(d)$. This implies a poly",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns isotypic decompositions of cohomology modules of symmetric semi-algebraic sets and polynomial bounds on Specht module multiplicities, with no mention of DPLL refutation, k-CNF, or 'local defect complexity' of affine quotients. It shares only the broad algebraic-geometry vocabulary and does not address the specific conjectured bound.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1611.10315",
+      "title": "Removal Lemmas with Polynomial Bounds",
+      "abstract_excerpt": "A common theme in many extremal problems in graph theory is the relation between local and global properties of graphs. One of the most celebrated results of this type is the Ruzsa-Szemerédi triangle removal lemma, which states that if a graph is $\\varepsilon$-far from being triangle free, then most subsets of vertices of size $C(\\varepsilon)$ are not triangle free. Unfortunately, the best known upper bound on $C(\\varepsilon)$ is given by a tower-type function, and it is known that $C(\\varepsilo",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns polynomial bounds in graph removal lemmas (Ruzsa-Szemerédi type) and semi-algebraic graph properties, with no mention of affine quotients, defect complexity, DPLL refutation, or random k-CNF instances.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1005.3082",
+      "title": "Polynomial Bounds for Invariant Functions Separating Orbits",
+      "abstract_excerpt": "Consider the representations of an algebraic group G. In general, polynomial invariant functions may fail to separate orbits. The invariant subring may not be finitely generated, or the number and complexity of the generators may grow rapidly with the size of the representation. We instead study \"constructible\" functions defined by straight line programs in the polynomial ring, with a new \"quasi-inverse\" that computes the inverse of a function where defined. We write straight line programs defin",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses polynomial-length straight line programs for constructible invariant functions separating orbits of algebraic group representations, with no mention of k-CNF, DPLL refutation, affine quotients of CNF instances, or local defect complexity. It shares only generic vocabulary (polynomial bounds, generators) without engaging the specific claim linking L(F) and DPLL path length.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

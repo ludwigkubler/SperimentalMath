@@ -1,0 +1,34 @@
+{
+  "ts": 1779593582.816941,
+  "window_h": 24.0,
+  "n_conjectures": 336,
+  "n_papers": 0,
+  "n_scoops": 0,
+  "scoops": [],
+  "top_overlap": [],
+  "stats": {
+    "n_cycles": 336,
+    "verdicts": {
+      "INCONCLUSIVE": 170,
+      "BARRIER_HIT": 150,
+      "SCOOPED": 16
+    },
+    "focus_distribution": {
+      "TSEITIN_RES": 21,
+      "GCT_DET_PERM": 17,
+      "BP_READTWICE": 17,
+      "ACC_SIPSER": 14,
+      "AC0_PARITY": 11,
+      "MONOTONE_CLIQUE": 9,
+      "COMM_DISJ": 11,
+      "SOS_DEGREE": 11
+    },
+    "top_fields_A": {
+      "Tropical Geometry": 10,
+      "Algebraic Geometry (Hodge Theory)": 9,
+      "Algebraic Geometry (Tropicalization)": 8,
+      "Configuration Space Theory": 8,
+      "Coxeter Theory": 7
+    }
+  }
+}
