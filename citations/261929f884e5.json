@@ -1,0 +1,40 @@
+{
+  "entry_id": "261929f884e5",
+  "ts": 1779659076.9107707,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0706.3841",
+      "title": "Arithmetic lattices and weak spectral geometry",
+      "abstract_excerpt": "This note is an expansion of three lectures given at the workshop \"Topology, Complex Analysis and Arithmetic of Hyperbolic Spaces\" held at Kyoto University in December of 2006 and will appear in the proceedings for this workshop.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract only states this is an expansion of lectures on 'Topology, Complex Analysis and Arithmetic of Hyperbolic Spaces' without describing any specific results, so I cannot determine whether it addresses arithmetic Hodge index or ACC⁰ circuit bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1801.10489",
+      "title": "Hodge level for weighted complete intersections",
+      "abstract_excerpt": "We give lower bounds for Hodge numbers of smooth well formed Fano weighted complete intersections. In particular, we compute their Hodge level, that is, the maximal distance between non-trivial Hodge numbers in the same row of the Hodge diamond. This allows us to classify varieties whose Hodge numbers are like that of a projective space, of a curve, or of a Calabi--Yau variety of low dimension.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Hodge numbers and Hodge level of weighted complete intersections in algebraic geometry, with no mention of arithmetic Hodge index, ACC⁰ circuits, or complexity theory. It shares only the broad 'Hodge' vocabulary without engaging the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1304.3539",
+      "title": "The arithmetic Hodge index theorem for adelic line bundles II",
+      "abstract_excerpt": "This is the second paper of a series. It extends the results of the first paper from number fields to finitely generated fields, based on the recent theory of adelic line bundles of the same authors. We prove an arithmetic Hodge index theorem for these adelic line bundles, and apply the theorem to obtain a rigidity property of the sets of preperiodic points of polarizable algebraic dynamical systems over any field.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the arithmetic Hodge index theorem for adelic line bundles over finitely generated fields and applications to preperiodic points of algebraic dynamical systems, with no mention of ACC⁰ circuits, explicit functions, or complexity-theoretic lower bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}

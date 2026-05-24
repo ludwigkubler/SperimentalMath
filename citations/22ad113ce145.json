@@ -1,0 +1,40 @@
+{
+  "entry_id": "22ad113ce145",
+  "ts": 1779656109.2661953,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1908.03540",
+      "title": "Enriching MRI mean flow data of inclined jets in crossflow with Large Eddy Simulations",
+      "abstract_excerpt": "Measurement techniques such as Magnetic Resonance Velocimety (MRV) and Magnetic Resonance Concentration (MRC) are useful for obtaining 3D time-averaged flow quantities in complex turbulent flows, but cannot measure turbulent correlations or near-wall data. In this work, we use highly resolved Large Eddy Simulations (LES) to complement the experiments and bypass those limitations. Coupling LES and magnetic resonance experimental techniques is especially advantageous in complex non-homogeneous flo",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns fluid dynamics (Large Eddy Simulations of jets in crossflow combined with MRI measurements) and has no connection to resolution proof complexity, Tseitin formulas, or geometric flow rank invariants.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2301.01582",
+      "title": "Study on the Resolution of Large-Eddy Simulations for Supersonic Jet Flows",
+      "abstract_excerpt": "The present study is concerned with large-eddy simulations (LES) of supersonic jet flows. The work addresses, in particular, the simulation of a perfectly expanded free jet flow with an exit Mach number of 1.4 and an exit temperature equal to the ambient temperature. Calculations are performed using a nodal discontinuous Galerkin method. The present effort studies the effects of mesh and polynomial refinement on the solution. The present calculations consider computational meshes and polynomial ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns large-eddy simulations of supersonic jet flows and mesh/polynomial refinement effects ('effects of mesh and polynomial refinement on the solution'), which has no interaction with Tseitin formula resolution proof complexity or geometric flow rank.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2009.01541",
+      "title": "Sediment transport under oscillatory flows",
+      "abstract_excerpt": "The results of Direct Numerical Simulations of the oscillatory flow over a cohesionless bed of spherical particles, mimicking sediment grains, are described. The flow around the sediment particles is explicitly computed by using the immersed boundary method, which allows the force and torque acting on the particles to be evaluated along with their dynamics. Different values of the Reynolds number and different values of the ratio between the grain size and the thickness of the boundary layer are",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'Direct Numerical Simulations of the oscillatory flow over a cohesionless bed of spherical particles' for sediment transport, which has no connection to Tseitin formulas, resolution proof complexity, or geometric flow rank invariants.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

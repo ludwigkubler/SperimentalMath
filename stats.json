@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-05-24T20:47:05Z",
-  "total_cycles": 2154,
+  "last_update_utc": "2026-05-24T21:47:03Z",
+  "total_cycles": 2174,
   "verdict_counts": {
-    "INCONCLUSIVE": 1563,
+    "INCONCLUSIVE": 1571,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 516,
+    "BARRIER_HIT": 528,
     "SCOOPED": 55
   },
-  "unique_field_A": 1169,
+  "unique_field_A": 1181,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
@@ -44,7 +44,7 @@
     ],
     [
       "Algebraic Geometry (Hodge Theory)",
-      25
+      26
     ],
     [
       "Representation Theory of Symmetric Groups",
@@ -67,8 +67,8 @@
       14
     ],
     [
-      "Algebraic Geometry",
-      13
+      "Quandle Theory",
+      14
     ]
   ]
 }
