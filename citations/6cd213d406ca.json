@@ -1,0 +1,40 @@
+{
+  "entry_id": "6cd213d406ca",
+  "ts": 1779616543.9304755,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:cs/0301016",
+      "title": "Lower Bounds on the Bounded Coefficient Complexity of Bilinear Maps",
+      "abstract_excerpt": "We prove lower bounds of order $n\\log n$ for both the problem to multiply polynomials of degree $n$, and to divide polynomials with remainder, in the model of bounded coefficient arithmetic circuits over the complex numbers. These lower bounds are optimal up to order of magnitude. The proof uses a recent idea of R. Raz [Proc. 34th STOC 2002] proposed for matrix multiplication. It reduces the linear problem to multiply a random circulant matrix with a vector to the bilinear problem of cyclic conv",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses bounded coefficient arithmetic circuit lower bounds for polynomial multiplication and division, using singular values and Morgenstern's bound — it does not discuss quasi-quadratic forms, their rank, or AC0 parity circuit size as in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2506.01645",
+      "title": "The Price of Being Partial: Complexity of Partial Generalized Dominating Set on Bounded-Treewidth Graphs",
+      "abstract_excerpt": "For fixed sets $σ, ρ$ of non-negative integers, the $(σ, ρ)$-domination framework introduced by Telle [Nord. J. Comput. 1994] captures many classical graph problems. For a graph $G$, a $(σ,ρ)$-set is a set $S$ of vertices such that for every $v\\in V(G)$, we have (1) if $v \\in S$, then $|N(v) \\cap S| \\in σ$, and (2) if $v \\notin S$, then $|N(v) \\cap S| \\in ρ$. We initiate the study of a natural partial variant $(σ,ρ)$-MinParDomSet of the problem, in which the constraints given by $σ, ρ$ need not ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns $(\\sigma,\\rho)$-domination problems on bounded-treewidth graphs under SETH, with no mention of quasi-quadratic forms, AC0 circuits, or parity complexity. It shares no substantive content with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1401.4512",
+      "title": "A quadratically tight partition bound for classical communication complexity and query complexity",
+      "abstract_excerpt": "In this work we introduce, both for classical communication complexity and query complexity, a modification of the 'partition bound' introduced by Jain and Klauck [2010]. We call it the 'public-coin partition bound'. We show that (the logarithm to the base two of) its communication complexity and query complexity versions form, for all relations, a quadratically tight lower bound on the public-coin randomized communication complexity and randomized query complexity respectively.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a 'public-coin partition bound' as a quadratically tight lower bound for randomized communication and query complexity, with no mention of quasi-quadratic forms, AC0 parity circuits, or the rank-to-circuit-size relationship in the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

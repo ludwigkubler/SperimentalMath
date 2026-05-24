@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-05-24T09:47:04Z",
-  "total_cycles": 1991,
+  "last_update_utc": "2026-05-24T10:47:10Z",
+  "total_cycles": 2006,
   "verdict_counts": {
-    "INCONCLUSIVE": 1488,
+    "INCONCLUSIVE": 1494,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 436,
-    "SCOOPED": 47
+    "BARRIER_HIT": 443,
+    "SCOOPED": 49
   },
-  "unique_field_A": 1077,
+  "unique_field_A": 1090,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
@@ -16,7 +16,7 @@
     ],
     [
       "Tropical Geometry",
-      50
+      51
     ],
     [
       "Free Probability Theory",
