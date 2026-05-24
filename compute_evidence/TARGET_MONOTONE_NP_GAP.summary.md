@@ -1,6 +1,6 @@
 # Compute evidence: TARGET_MONOTONE_NP_GAP
 
-*Last update: 2026-05-24 00:23 UTC*
+*Last update: 2026-05-24 12:23 UTC*
 
 Instance class: `random_3sat`
 
@@ -14,7 +14,7 @@ Instance class: `random_3sat`
 
 ## Scaling (log-log)
 
-- runtime slope: **0.152**
+- runtime slope: **0.160**
 - conflicts slope: **0.000**
 
 (slope > 1 = super-linear; slope > 2 = polynomial-violating)

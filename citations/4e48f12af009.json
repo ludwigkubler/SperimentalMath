@@ -1,0 +1,40 @@
+{
+  "entry_id": "4e48f12af009",
+  "ts": 1779629433.5593245,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0906.4311",
+      "title": "A2-Planar Algebras II: Planar Modules",
+      "abstract_excerpt": "Generalizing Jones's notion of a planar algebra, we have previously introduced an A_2-planar algebra capturing the structure contained in the double complex pertaining to the subfactor for a finite SU(3) ADE graph with a flat cell system. We now introduce the notion of modules over an A_2-planar algebra, and describe certain irreducible Hilbert A_2-TL-modules. We construct an A_2-graph planar algebra associated to each pair (G,W) given by an SU(3) ADE graph G and a cell system W on G. A partial ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns A_2-planar algebras and modules associated to SU(3) ADE graphs in subfactor theory, with no mention of Alexander-Griffiths modules, resolution proof width, or SAT complexity. It shares only the loose vocabulary of 'planar' and 'modules' but does not interact with the conjecture's specific rank-vs-proof-width claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2001.01493",
+      "title": "Counting Maximum Matchings in Planar Graphs Is Hard",
+      "abstract_excerpt": "Here we prove that counting maximum matchings in planar, bipartite graphs is #P-complete. This is somewhat surprising in the light that the number of perfect matchings in planar graphs can be computed in polynomial time. We also prove that counting non-necessarily perfect matchings in planar graphs is already #P-complete if the problem is restricted to bipartite graphs. So far hardness was proved only for general, non-necessarily bipartite graphs.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the #P-completeness of counting maximum matchings in planar bipartite graphs, which shares only the 'planar graph' vocabulary but does not address Alexander-Griffiths modules or resolution proof tree width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2401.16831",
+      "title": "Maximal planar graphs that embed as centers",
+      "abstract_excerpt": "A maximal planar graph is a graph which can be embedded in the plane such that every face of the graph is a triangle. The center of a graph is the subgraph induced by the vertices of minimum eccentricity. We introduce the notion of quasi-eccentric vertices, and use this to characterize maximal planar graphs that are the center of some planar graph. We also present some easier to check only necessary / only sufficient conditions for planar and maximal planar graphs to be the center of a planar gr",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns maximal planar graphs as centers of planar graphs via 'quasi-eccentric vertices,' with no mention of Alexander-Griffiths modules, resolution proof width, or SAT complexity relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

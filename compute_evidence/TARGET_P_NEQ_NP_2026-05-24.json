@@ -1,7 +1,7 @@
 {
   "node_id": "TARGET_P_NEQ_NP",
   "instance_class": "random_3sat",
-  "ts": 1779582181.8584619,
+  "ts": 1779625382.1692183,
   "result": {
     "instance_class": "random_3sat",
     "n_range": [
@@ -18,7 +18,7 @@
         "n": 8,
         "seed": 0,
         "sat": true,
-        "runtime_s": 0.0114,
+        "runtime_s": 0.0103,
         "conflicts": 0,
         "decisions": 0,
         "propagations": 11,
@@ -70,7 +70,7 @@
         "n": 16,
         "seed": 0,
         "sat": true,
-        "runtime_s": 0.0014,
+        "runtime_s": 0.0013,
         "conflicts": 0,
         "decisions": 0,
         "propagations": 119,
@@ -83,7 +83,7 @@
         "n": 16,
         "seed": 1,
         "sat": true,
-        "runtime_s": 0.0015,
+        "runtime_s": 0.0014,
         "conflicts": 0,
         "decisions": 0,
         "propagations": 133,
@@ -147,7 +147,7 @@
     ],
     "summary": {
       "n=8": {
-        "median_runtime_s": 0.0064,
+        "median_runtime_s": 0.0058,
         "median_conflicts": 0,
         "n_timeout": 0,
         "n_total": 2
@@ -159,7 +159,7 @@
         "n_total": 2
       },
       "n=16": {
-        "median_runtime_s": 0.0015,
+        "median_runtime_s": 0.0014,
         "median_conflicts": 0,
         "n_timeout": 0,
         "n_total": 2
@@ -177,7 +177,7 @@
         "n_total": 2
       },
       "fit": {
-        "runtime_loglog_slope": -1.1971435083524937,
+        "runtime_loglog_slope": -1.1090640801379477,
         "conflicts_loglog_slope": 0.0
       }
     }

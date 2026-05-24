@@ -1,0 +1,40 @@
+{
+  "entry_id": "088253093df9",
+  "ts": 1779628298.134569,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:cs/0208006",
+      "title": "Rectangle Size Bounds and Threshold Covers in Communication Complexity",
+      "abstract_excerpt": "We investigate the power of the most important lower bound technique in randomized communication complexity, which is based on an evaluation of the maximal size of approximately monochromatic rectangles, minimized over all distributions on the inputs. While it is known that the 0-error version of this bound is polynomially tight for deterministic communication, nothing in this direction is known for constant error and randomized communication complexity. We first study a one-sided version of thi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses rectangle size bounds, threshold covers, and MA/AM-complexity lower bounds for randomized communication complexity (including disjointness), but never mentions noncrossing partitions or their minimal rank, so it does not interact with the specific claim linking τ(noncrossing_partition(support(f))) to C(f).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0909.5684",
+      "title": "Partition Arguments in Multiparty Communication Complexity",
+      "abstract_excerpt": "Consider the \"Number in Hand\" multiparty communication complexity model, where k players holding inputs x_1,...,x_k in {0,1}^n communicate to compute the value f(x_1,...,x_k) of a function f known to all of them. The main lower bound technique for the communication complexity of such problems is that of partition arguments: partition the k players into two disjoint sets of players and find a lower bound for the induced two-party communication complexity problem.\n  In this paper, we study the pow",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns partition arguments in multiparty communication complexity and the log-rank conjecture, not noncrossing partitions over Boolean algebras or any rank measure τ tied to the support of f. It shares the words 'partition' and 'communication complexity' but does not address the specific conjectured inequality or equivalence.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2201.05674",
+      "title": "Cut query algorithms with star contraction",
+      "abstract_excerpt": "We study the complexity of determining the edge connectivity of a simple graph with cut queries. We show that (i) there is a bounded-error randomized algorithm that computes edge connectivity with $O(n)$ cut queries, and (ii) there is a bounded-error quantum algorithm that computes edge connectivity with $Õ(\\sqrt{n})$ cut queries. We prove these results using a new technique called \"star contraction\" to randomly contract edges of a graph while preserving non-trivial minimum cuts. In star contrac",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses cut query complexity for edge connectivity and only tangentially mentions randomized communication complexity of connectivity; it makes no claim about noncrossing partitions or Boolean function rank, so it does not interact with the specific conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
