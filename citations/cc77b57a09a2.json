@@ -1,0 +1,40 @@
+{
+  "entry_id": "cc77b57a09a2",
+  "ts": 1779598540.877383,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1204.6522",
+      "title": "Formal Groups, Witt vectors and Free Probability",
+      "abstract_excerpt": "We establish a link between free probability theory and Witt vectors, via the theory of formal groups. We derive an exponential isomorphism which expresses Voiculescu's free multiplicative convolution $\\boxtimes$ as a function of the free additive convolution $\\boxplus$. Subsequently we continue our previous discussion of the relation between complex cobordism and free probability. We show that the generic $n$th free cumulant corresponds to the cobordism class of the $(n-1)$-dimensional complex ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses free probability in relation to Witt vectors, formal groups, and cobordism, with no mention of graph adjacency matrices, branching programs, or computational complexity. It shares only the 'free probability' vocabulary but does not interact with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2007.12819",
+      "title": "Support of Closed Walks and Second Eigenvalue Multiplicity of the Normalized Adjacency Matrix",
+      "abstract_excerpt": "We show that the multiplicity of the second normalized adjacency matrix eigenvalue of any connected graph of maximum degree $Δ$ is bounded by $O(n Δ^{7/5}/\\log^{1/5-o(1)}n)$ for any $Δ$, and by $O(n\\log^{1/2}d/\\log^{1/4-o(1)}n)$ for simple $d$-regular graphs when $d\\ge \\log^{1/4}n$. In fact, the same bounds hold for the number of eigenvalues in any interval of width $λ_2/\\log_Δ^{1-o(1)}n$ containing the second eigenvalue $λ_2$. The main ingredient in the proof is a polynomial (in $k$) lower boun",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns bounds on the multiplicity of the second eigenvalue of normalized adjacency matrices via random walk supports, with no mention of free probability rank or read-twice branching programs. It shares only the vague vocabulary of 'adjacency matrix' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2511.02758",
+      "title": "Finite free probability and $S$ transforms of Jacobi processes",
+      "abstract_excerpt": "In this paper, we study the $S$ transforms of Jacobi processes in the frameworks of free and finite free probability theories. We begin by deriving a partial differential equation satisfied by the free $S$ transform of the free Jacobi process, and we provide a detailed analysis of its characteristic curves. We turn next our attention to the averaged characteristic polynomial of the Hermitian Jacobi process and to the dynamic of its roots, referred to as the \\emph{frozen Jacobi process}. In parti",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns S-transforms of Jacobi processes in free and finite free probability, with no mention of graphs, adjacency matrices, branching programs, or any complexity-theoretic notion relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

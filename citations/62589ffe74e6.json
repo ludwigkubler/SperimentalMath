@@ -1,0 +1,40 @@
+{
+  "entry_id": "62589ffe74e6",
+  "ts": 1779598368.0094452,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1511.02288",
+      "title": "Thermodynamic law from the entanglement entropy bound",
+      "abstract_excerpt": "From black hole thermodynamics, the Bekenstein bound has been proposed as a universal thermal entropy bound. It has been further generalized to an entanglement entropy bound which is valid even in a quantum system. In a quantumly entangled system, the non-negativity of the relative entropy leads to the entanglement entropy bound. When the entanglement entropy bound is saturated, a quantum system satisfies the thermodynamics-like law with an appropriately defined entanglement temperature. We show",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the Bekenstein/entanglement entropy bound, entanglement temperature, and thermodynamic laws in quantum systems—not topological entanglement entropy of states produced by OR-AND interleaved circuits or any circuit complexity bound. It shares the vocabulary of 'entanglement entropy' but does not interact with the specific claim about TEE rank versus circuit depth.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2004.14263",
+      "title": "Entropy bounds for multiparty device-independent cryptography",
+      "abstract_excerpt": "Multiparty quantum cryptography based on distributed entanglement will find its natural application in the upcoming quantum networks. The security of many multipartite device-independent (DI) protocols, such as DI conference key agreement, relies on bounding the von Neumann entropy of the parties' outcomes conditioned on the eavesdropper's information, given the violation of a multipartite Bell inequality. We consider three parties testing the Mermin-Ardehali-Belinskii-Klyshko (MABK) inequality ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns von Neumann entropy bounds for device-independent multiparty cryptography using MABK Bell inequality violations, with no mention of topological entanglement entropy, OR-AND circuits, or circuit depth complexity. It shares only the broad vocabulary of 'entropy' and 'multipartite quantum' but does not interact with the conjecture's specific claims.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2302.00689",
+      "title": "Universal lower bound on topological entanglement entropy",
+      "abstract_excerpt": "Entanglement entropies of two-dimensional gapped ground states are expected to satisfy an area law, with a constant correction term known as the topological entanglement entropy (TEE). In many models, the TEE takes a universal value that characterizes the underlying topological phase. However, the TEE is not truly universal: it can differ even for two states related by constant-depth circuits, which are necessarily in the same phase. The difference between the TEE and the value predicted by the ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a universal lower bound on TEE for 2D gapped ground states and invariance under constant-depth quantum circuits, with no connection to OR-AND interleaved classical circuits or the specific f(n,d)=O(d·log²n) / Ω(d) bounds in the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
