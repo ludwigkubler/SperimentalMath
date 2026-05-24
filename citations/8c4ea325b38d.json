@@ -1,0 +1,40 @@
+{
+  "entry_id": "8c4ea325b38d",
+  "ts": 1779588614.6686862,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1210.2401",
+      "title": "Distributed Formal Concept Analysis Algorithms Based on an Iterative MapReduce Framework",
+      "abstract_excerpt": "While many existing formal concept analysis algorithms are efficient, they are typically unsuitable for distributed implementation. Taking the MapReduce (MR) framework as our inspiration we introduce a distributed approach for performing formal concept mining. Our method has its novelty in that we use a light-weight MapReduce runtime called Twister which is better suited to iterative algorithms than recent distributed approaches. First, we describe the theoretical foundations underpinning our di",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a distributed MapReduce-based algorithm for formal concept mining (MRGanter/MRGanter+), with no mention of AC0 circuits, formal context rank bounds, or circuit complexity encoding. It shares only the FCA vocabulary but does not interact with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1107.2822v1",
+      "title": "A Survey on how Description Logic Ontologies Benefit from Formal Concept Analysis",
+      "abstract_excerpt": "Although the notion of a concept as a collection of objects sharing certain properties, and the notion of a conceptual hierarchy are fundamental to both Formal Concept Analysis and Description Logics, the ways concepts are described and obtained differ significantly between these two research areas.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the conceptual overlap between Formal Concept Analysis and Description Logics, with no mention of AC0 circuits, boolean functions, or rank bounds. It shares FCA vocabulary but does not interact with the specific complexity-theoretic claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1809.09702v1",
+      "title": "The Origins Space Telescope (OST) Mission Concept Study Interim Report",
+      "abstract_excerpt": "The Origins Space Telescope (OST) will transform our understanding of the Universe, from formation of the earliest galaxies to the creation of habitable worlds. OST's Mission Concept 1, the subject of this report, features a cold (4 K) large-aperture telescope (9.1 m) and five powerful instruments, ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes the Origins Space Telescope, an astronomy mission concept ('cold large-aperture telescope... five powerful instruments'), which has no relation to formal concept analysis or AC0 circuit complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
