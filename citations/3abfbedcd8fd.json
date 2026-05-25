@@ -1,0 +1,40 @@
+{
+  "entry_id": "3abfbedcd8fd",
+  "ts": 1779666797.6711333,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1010.1747",
+      "title": "Topological recursion for symplectic volumes of moduli spaces of curves",
+      "abstract_excerpt": "We construct locally defined symplectic torus actions on ribbon graph complexes. Symplectic reduction techniques allow for a recursive formula for the symplectic volumes of these spaces. Taking the Laplace transform results in the Eynard-Orantin recursion formulas for the Airy curve x = y^2 / 2.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns symplectic volumes of moduli spaces of curves and Eynard-Orantin topological recursion, with no mention of Tseitin formulas, resolution proof complexity, or 'symplectic rank' of manifolds associated to Boolean formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2408.04937",
+      "title": "A topological proof of Wolpert's formula for the Weil-Petersson symplectic form in terms of the Fenchel-Nielsen coordinates",
+      "abstract_excerpt": "We introduce a natural cell decomposition of a closed oriented surface associated with a pants decomposition, and an explicit groupoid cocycle on the cell decomposition which represents each point of the Teichmüller space $\\mathcal{T}_g$. We call it the {\\it standard cocycle} of the point of $\\mathcal{T}_g$. As an application of the explicit description of the standard cocycle, we obtain a topological proof of Wolpert's formula for the Weil-Petersson symplectic form in terms of the Fenchel-Niels",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a topological proof of Wolpert's formula for the Weil-Petersson symplectic form on Teichmüller space, which shares only the general 'symplectic' vocabulary with the conjecture; it makes no claim about symplectic rank, Tseitin formulas, or resolution proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/9810046v1",
+      "title": "Intersection cohomology of $S^1$ symplectic quotients and small resolutions",
+      "abstract_excerpt": "We provided two explicit formulas for the intersection cohomology (as a graded vector space with pairing) of the symplectic quotient by a circle in terms of the $S^1$ equivariant cohomology of the original symplectic manifold and the fixed point data. The key idea is the construction of a small reso",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'intersection cohomology of symplectic quotients by a circle' and small resolutions of singularities — a purely geometric/topological topic with no mention of Tseitin formulas, resolution proof complexity, or symplectic rank bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

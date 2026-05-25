@@ -1,0 +1,40 @@
+{
+  "entry_id": "9d4e7ed1496a",
+  "ts": 1779668430.9785216,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1611.00805",
+      "title": "High harmonic generation from bulk diamond driven by intense femtosecond laser pulse",
+      "abstract_excerpt": "We present theoretical results on the high-harmonic generation (HHG) in bulk diamond induced by intense laser pulse of wavelength 800 nm and duration 15 fs. For laser intensity in the range $1 \\le I \\le 50 $ TW/cm$^2$ above bandgap harmonics are generated after the pulse peak. We find that the intensity of individual harmonics increases non-linearly with the peak laser intensity, following a non-perturbative trend. For moderate intensity the HHG spectrum exhibits a primary plateau with noisy odd",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'high-harmonic generation (HHG) in bulk diamond induced by intense laser pulse' — a physics topic about laser-driven harmonic generation, completely unrelated to Hodge theory, boolean algebras, or AC⁰ circuit complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1911.04516",
+      "title": "Boolean lattices in finite alternating and symmetric groups",
+      "abstract_excerpt": "Given a group $G$ and a subgroup $H$, we let $\\mathcal{O}_G(H)$ denote the lattice of subgroups of $G$ containing $H$. This paper provides a classification of the subgroups $H$ of $G$ such that $\\mathcal{O}_{G}(H)$ is Boolean of rank at least $3$, when $G$ is a finite alternating or symmetric group. Besides some sporadic examples and some twisted versions, there are two different types of such lattices. One type arises by taking stabilizers of chains of regular partitions, and the other type ari",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns classifying subgroups H of finite alternating/symmetric groups whose overgroup lattice is Boolean of rank ≥ 3, with no mention of Hodge theory, varieties, or AC⁰ circuit complexity. It shares only the word 'Boolean' with the conjecture and does not interact with its claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1712.03775",
+      "title": "A Serre weight conjecture for geometric Hilbert modular forms in characteristic p",
+      "abstract_excerpt": "Let p be a prime and F a totally real field in which p is unramified. We consider mod p Hilbert modular forms for F, defined as sections of automorphic line bundles on Hilbert modular varieties of level prime to p in characteristic p. For a mod p Hilbert modular Hecke eigenform of arbitrary weight (without parity hypotheses), we associate a two-dimensional representation of the absolute Galois group of F, and we give a conjectural description of the set of weights of all eigenforms from which it",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Serre weight conjectures for mod p Hilbert modular forms and Galois representations, with no mention of Hodge diamonds, boolean algebras, or AC⁰ circuit complexity. The phrase 'two-dimensional representation of the absolute Galois group' indicates this is number-theoretic and does not interact with the conjecture's claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
