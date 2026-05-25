@@ -1,0 +1,40 @@
+{
+  "entry_id": "7c11c0ce2104",
+  "ts": 1779735083.0169146,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2504.12989",
+      "title": "Query Complexity of Classical and Quantum Channel Discrimination",
+      "abstract_excerpt": "Quantum channel discrimination has been studied from an information-theoretic perspective, wherein one is interested in the optimal decay rate of error probabilities as a function of the number of unknown channel accesses. In this paper, we study the query complexity of quantum channel discrimination, wherein the goal is to determine the minimum number of channel uses needed to reach a desired error probability. To this end, we show that the query complexity of binary channel discrimination depe",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns query complexity of quantum channel discrimination and channel fidelity/divergence bounds, with no mention of Tseitin clauses, resolution refutation length, or quantum logarithm rank. It shares only superficial vocabulary (logarithms in quantum settings) with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2512.10504",
+      "title": "Tianyan: Cloud services with quantum advantage",
+      "abstract_excerpt": "Tianyan Quantum Cloud Platform offers cloud services demonstrating quantum advantage capabilities with a Zuchongzhi 3.0-like superconducting quantum processor. This cloud-accessible superconducting quantum prototype, named Tianyan-287, features 105 qubits and achieves high operational fidelities, with single-qubit gates, two-qubit gates, and readout fidelity at 99.90%, 99.56%, 98.7%, respectively. For a specific benchmark task involving random circuit sampling on a 74-qubit system over 24 cycles",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a superconducting quantum cloud platform (Tianyan-287) demonstrating random circuit sampling advantage; it makes no reference to Tseitin clauses, resolution refutation length, or quantum logarithm rank bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/quant-ph/0405018v2",
+      "title": "Improved Bounds on the Randomized and Quantum Complexity of Initial-Value Problems",
+      "abstract_excerpt": "We deal with the problem, initiated in [8], of finding randomized and quantum complexity of initial-value problems. We showed in [8] that a speed-up in both settings over the worst-case deterministic complexity is possible. In the present paper we prove, by defining new algorithms, that further impr",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns randomized and quantum complexity of initial-value problems (differential equations), not Tseitin formulas, resolution proof complexity, or quantum logarithm rank. The phrase 'randomized and quantum complexity of initial-value problems' shows no interaction with the conjecture's claims.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

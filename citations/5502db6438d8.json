@@ -1,0 +1,40 @@
+{
+  "entry_id": "5502db6438d8",
+  "ts": 1779736397.9065142,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2311.09985",
+      "title": "Measurement of forward charged hadron flow harmonics in peripheral PbPb collisions at $\\sqrt{s_{NN}}=5.02$ TeV with the LHCb detector",
+      "abstract_excerpt": "Flow harmonic coefficients, $v_n$, which are the key to studying the hydrodynamics of the quark-gluon plasma (QGP) created in heavy-ion collisions, have been measured in various collision systems and kinematic regions and using various particle species. The study of flow harmonics in a wide pseudorapidity range is particularly valuable to understand the temperature dependence of the shear viscosity to entropy density ratio of the QGP. This paper presents the first LHCb results of the second- and",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns flow harmonic coefficients of charged hadrons in PbPb collisions at LHCb, sharing only the word 'entropy' (in 'shear viscosity to entropy density ratio') with the conjecture and having no bearing on quantum entropy of SAT formulas or matrix rank bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math-ph/0102013v1",
+      "title": "Entropy, von Neumann and the von Neumann entropy",
+      "abstract_excerpt": "This paper is an introduction to the von Neumann entropy in a historic approach. Von Neumann's gedanken experiment is repeated, which led him to the formula of thermodynamic entropy of a statistical operator. In the analysis of his ideas we stress the role of superselection sectors and summarize von",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a historical introduction to von Neumann entropy and a gedanken experiment about thermodynamic entropy of a statistical operator, with no mention of SAT, 3-CNF formulas, or rank bounds related to complexity theory.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1809.06500",
+      "title": "Range entropy: A bridge between signal complexity and self-similarity",
+      "abstract_excerpt": "Approximate entropy (ApEn) and sample entropy (SampEn) are widely used for temporal complexity analysis of real-world phenomena. However, their relationship with the Hurst exponent as a measure of self-similarity is not widely studied. Additionally, ApEn and SampEn are susceptible to signal amplitude changes. A common practice for addressing this issue is to correct their input signal amplitude by its standard deviation. In this study, we first show, using simulations, that ApEn and SampEn are r",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns signal complexity measures (Approximate Entropy, Sample Entropy, Range Entropy) and their relation to the Hurst exponent for EEG analysis, with no mention of quantum entropy, density matrices, SAT formulas, or matrix rank bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

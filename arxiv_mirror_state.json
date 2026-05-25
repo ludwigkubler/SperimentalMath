@@ -1,40 +1,40 @@
 {
-  "last_update_ts": 1779704006.177158,
+  "last_update_ts": 1779732690.3768182,
   "by_category": {
     "cs.CC": {
-      "fetched": 0,
-      "new": 0,
-      "skipped": 0
-    },
-    "cs.DS": {
-      "fetched": 0,
-      "new": 0,
-      "skipped": 0
-    },
-    "cs.LO": {
-      "fetched": 0,
-      "new": 0,
-      "skipped": 0
-    },
-    "math.CO": {
-      "fetched": 0,
-      "new": 0,
-      "skipped": 0
-    },
-    "math.LO": {
       "fetched": 50,
       "new": 5,
       "skipped": 45
     },
-    "math-ph": {
+    "cs.DS": {
+      "fetched": 50,
+      "new": 8,
+      "skipped": 42
+    },
+    "cs.LO": {
       "fetched": 50,
       "new": 11,
       "skipped": 39
     },
+    "math.CO": {
+      "fetched": 50,
+      "new": 34,
+      "skipped": 16
+    },
+    "math.LO": {
+      "fetched": 50,
+      "new": 0,
+      "skipped": 50
+    },
+    "math-ph": {
+      "fetched": 50,
+      "new": 0,
+      "skipped": 50
+    },
     "hep-th": {
       "fetched": 50,
-      "new": 21,
-      "skipped": 29
+      "new": 0,
+      "skipped": 50
     }
   }
 }
