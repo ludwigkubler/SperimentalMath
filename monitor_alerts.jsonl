@@ -2170,3 +2170,4 @@
 {"ts": 1779715803.9060087, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 29}}
 {"ts": 1779717604.431553, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 29}}
 {"ts": 1779719404.8677757, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 29}}
+{"ts": 1779722150.368641, "ts_iso": "2026-05-25T15:15:50.368641+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "OK", "to_status": "DEGRADED", "failing_checks": ["ram_above_1g"], "auto_fixed": false}
