@@ -2186,5 +2186,5 @@
 {"ts": 1779744603.409018, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 29}}
 {"ts": 1779746404.3468614, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 29}}
 {"ts": 1779748204.5833948, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 29}}
-{"ts": 1779750635.757647, "ts_iso": "2026-05-25T23:10:35.757647+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "OK", "to_status": "CRITICAL", "failing_checks": ["gpu", "disk_under_90pct", "mirror_git_fresh"], "auto_fixed": false}
-{"ts": 1779750902.453477, "ts_iso": "2026-05-25T23:15:02.453477+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "CRITICAL", "to_status": "OK", "failing_checks": [], "auto_fixed": false}
+{"ts": 1779750005.5993123, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 29}}
+{"ts": 1779751805.338974, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 29}}

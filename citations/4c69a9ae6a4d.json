@@ -1,0 +1,40 @@
+{
+  "entry_id": "4c69a9ae6a4d",
+  "ts": 1779749552.3448856,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1011.5476",
+      "title": "Coxeter orbits and Brauer trees",
+      "abstract_excerpt": "We study the cohomology with modular coefficients of Deligne-Lusztig varieties associated to Coxeter elements. Under some torsion-free assumption on the cohomology we derive several results on the principal l-block of a finite reductive group G(F_q) when the order of q modulo l is assumed to be the Coxeter number. These results include the determination of the planar embedded Brauer tree of the block (as conjectured by Hiss, Lübeck and Malle) and the derived equivalence predicted by the geometri",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Brauer trees of principal l-blocks of finite reductive groups via Deligne-Lusztig varieties, with no mention of Tseitin formulas, Resolution refutation, or rank bounds on Brauer groups of expander graphs. It shares only the word 'Brauer' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0810.2409",
+      "title": "Graded Brauer Tree Algebras",
+      "abstract_excerpt": "In this paper we construct non-negative gradings on a basic Brauer tree algebra $A_Γ$ corresponding to an arbitrary Brauer tree $Γ$ of type $(m,e)$. We do this by transferring gradings via derived equivalence from a basic Brauer tree algebra $A_S$, whose tree is a star with the exceptional vertex in the middle, to $A_Γ$. The grading on $A_S$ comes from the tight grading given by the radical filtration. To transfer gradings via derived equivalence we use tilting complexes constructed by taking Gr",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns graded structures on Brauer tree algebras via derived equivalence and tilting complexes ('we construct non-negative gradings on a basic Brauer tree algebra'), with no mention of Tseitin formulas, Resolution refutation length, or rank bounds relating to proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1507.01884",
+      "title": "The Brauer trees of non-crystallographic groups of Lie type",
+      "abstract_excerpt": "In this article we determine the Brauer trees of the unipotent blocks with cyclic defect group in the `groups' $I_2(n,q)$, $H_3(q)$ and $H_4(q)$. The degrees of the unipotent characters of these objects were given by Lusztig, and using the general theory of perverse equivalences we can reconstruct the Brauer trees that would be consistent with Deligne--Lusztig theory and the geometric version of Broué's conjecture. We construct the trees using standard arguments whenever possible, and check that",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Brauer trees of unipotent blocks with cyclic defect groups in non-crystallographic groups of Lie type, citing 'Deligne--Lusztig theory and the geometric version of Broué's conjecture' — it does not address Tseitin formulas, Resolution refutation length, or any complexity-theoretic rank bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
