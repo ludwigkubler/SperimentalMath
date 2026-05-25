@@ -1,0 +1,40 @@
+{
+  "entry_id": "b72e3aa34be5",
+  "ts": 1779713039.7869859,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1112.2313",
+      "title": "QBF-Based Boolean Function Bi-Decomposition",
+      "abstract_excerpt": "Boolean function bi-decomposition is ubiquitous in logic synthesis. It entails the decomposition of a Boolean function using two-input simple logic gates. Existing solutions for bi-decomposition are often based on BDDs and, more recently, on Boolean Satisfiability. In addition, the partition of the input set of variables is either assumed, or heuristic solutions are considered for finding good partitions. In contrast to earlier work, this paper proposes the use of Quantified Boolean Formulas (QB",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes QBF-based bi-decomposition of Boolean functions for logic synthesis ('decomposition of a Boolean function using two-input simple logic gates'), which shares only the vocabulary 'Boolean function decomposition' with the conjecture but does not address Schur-Weyl modules, permanent/determinant complexity, or k-CLIQUE permutation circuits.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1805.08177",
+      "title": "A Polynomial Time Delta-Decomposition Algorithm for Positive DNFs",
+      "abstract_excerpt": "We consider the problem of decomposing a positive DNF into a conjunction of DNFs, which may share a (possibly empty) given set of variables Delta. This problem has interesting connections with traditional applications of positive DNFs, e.g., in game theory, and with the broad topic of minimization of boolean functions. We show that the finest Delta-decomposition components of a positive DNF can be computed in polynomial time and provide a decomposition algorithm based on factorization of multili",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses Delta-decomposition of positive DNFs via multilinear boolean polynomial factorization, which shares vocabulary (boolean functions, polynomials) but does not engage with Schur-Weyl module rank, permutation circuit complexity, or k-CLIQUE lower bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2407.04826",
+      "title": "Multi-strategy Based Quantum Cost Reduction of Quantum Boolean Circuits",
+      "abstract_excerpt": "The construction of quantum computers is based on the synthesis of low-cost quantum circuits. The quantum circuit of any Boolean function expressed in a Positive Polarity Reed-Muller $PPRM$ expansion can be synthesized using Multiple-Control Toffoli ($MCT$) gates. This paper proposes two algorithms to construct a quantum circuit for any Boolean function expressed in a Positive Polarity Reed-Muller $PPRM$ expansion. The Boolean function can be expressed with various algebraic forms, so there are ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns synthesizing low-cost quantum circuits for Boolean functions via Reed-Muller expansions and MCT/NCV gate decompositions, which shares no interaction with Schur-Weyl module rank or permutation circuit lower bounds for k-CLIQUE.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

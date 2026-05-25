@@ -1,18 +1,18 @@
 {
-  "last_update_utc": "2026-05-25T11:47:03Z",
-  "total_cycles": 2367,
+  "last_update_utc": "2026-05-25T12:47:04Z",
+  "total_cycles": 2382,
   "verdict_counts": {
-    "INCONCLUSIVE": 1671,
+    "INCONCLUSIVE": 1675,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 611,
-    "SCOOPED": 65
+    "BARRIER_HIT": 621,
+    "SCOOPED": 66
   },
-  "unique_field_A": 1265,
+  "unique_field_A": 1271,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
-      74
+      76
     ],
     [
       "Tropical Geometry",
@@ -27,12 +27,12 @@
       39
     ],
     [
-      "Algebraic Geometry (Hodge Theory)",
+      "Algebraic Combinatorics",
       37
     ],
     [
-      "Algebraic Combinatorics",
-      36
+      "Algebraic Geometry (Hodge Theory)",
+      37
     ],
     [
       "Symplectic Geometry",
@@ -52,11 +52,11 @@
     ],
     [
       "Additive Combinatorics",
-      17
+      18
     ],
     [
       "Quandle Theory",
-      17
+      18
     ],
     [
       "p-adic Analysis",
