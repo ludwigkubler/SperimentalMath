@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-05-25T19:47:04Z",
-  "total_cycles": 2464,
+  "last_update_utc": "2026-05-25T20:47:03Z",
+  "total_cycles": 2480,
   "verdict_counts": {
-    "INCONCLUSIVE": 1720,
+    "INCONCLUSIVE": 1728,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 657,
-    "SCOOPED": 67
+    "BARRIER_HIT": 664,
+    "SCOOPED": 68
   },
-  "unique_field_A": 1300,
+  "unique_field_A": 1309,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
@@ -64,10 +64,10 @@
     ],
     [
       "Configuration Space Theory",
-      16
+      17
     ],
     [
-      "p-adic Analysis",
+      "Noncommutative Geometry",
       15
     ]
   ]

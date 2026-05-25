@@ -1,0 +1,31 @@
+{
+  "entry_id": "411d9e5b8351",
+  "ts": 1779739783.0325603,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.1007/s00236-025-00489-9",
+      "title": "Row-column combination of Dyck words",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available for the cited paper, so I cannot determine whether it supports, refutes, or is orthogonal to the conjecture relating noncrossing partition tree heights to AC^0 circuit size.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:b24f4cd7d53c0566b3f07a216b160e1a06c25ccc",
+      "title": "Addressing signal electromigration ( EM ) in today ’ s complex digital designs",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available for this paper, and the title concerns signal electromigration in digital chip design, which appears unrelated to noncrossing partitions or AC^0 circuit complexity but cannot be confirmed without the abstract.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 2
+  }
+}

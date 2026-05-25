@@ -1,0 +1,40 @@
+{
+  "entry_id": "7c2651b7a3ab",
+  "ts": 1779741128.964385,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2512.10504",
+      "title": "Tianyan: Cloud services with quantum advantage",
+      "abstract_excerpt": "Tianyan Quantum Cloud Platform offers cloud services demonstrating quantum advantage capabilities with a Zuchongzhi 3.0-like superconducting quantum processor. This cloud-accessible superconducting quantum prototype, named Tianyan-287, features 105 qubits and achieves high operational fidelities, with single-qubit gates, two-qubit gates, and readout fidelity at 99.90%, 99.56%, 98.7%, respectively. For a specific benchmark task involving random circuit sampling on a 74-qubit system over 24 cycles",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a quantum cloud computing platform (Tianyan-287) and random circuit sampling benchmarks, with no mention of Tseitin formulas, resolution complexity, or logarithmic potentials of unitary determinants.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2307.02593",
+      "title": "Superpositions of thermalisations in relativistic quantum field theory",
+      "abstract_excerpt": "Recent results in relativistic quantum information and quantum thermodynamics have independently shown that in the quantum regime, a system may fail to thermalise when subject to quantum-controlled application of the same, single thermalisation channel. For example, an accelerating system with fixed proper acceleration is known to thermalise to an acceleration-dependent temperature, known as the Unruh temperature. However, the same system in a superposition of spatially translated trajectories t",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'superpositions of thermalisations' in relativistic quantum field theory and Unruh temperature effects, with no mention of Tseitin formulas, resolution complexity, or quantum logarithmic potential bounds. It shares only superficial quantum-information vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2408.15444",
+      "title": "Quantum games and synchronicity",
+      "abstract_excerpt": "In the flavour of categorical quantum mechanics, we extend nonlocal games to allow quantum questions and answers, using quantum sets (special symmetric dagger Frobenius algebras) and the quantum functions of Musto, Reutter, and Verdon [arXiv:1711.07945]. Equations are presented using a diagrammatic calculus for tensor categories. To this quantum question and answer setting, we extend the standard definitions, including strategies, correlations, and synchronicity, and we use these definitions to ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses quantum nonlocal games, quantum sets, and graph homomorphism games via categorical quantum mechanics, with no mention of Tseitin formulas, resolution length, or a 'quantum logarithmic potential' Φ_F = log₂det(U). It shares only loose 'quantum' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
