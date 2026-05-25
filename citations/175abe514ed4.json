@@ -1,0 +1,40 @@
+{
+  "entry_id": "175abe514ed4",
+  "ts": 1779698810.4336627,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/9811006v1",
+      "title": "Billiard knots in a cylinder",
+      "abstract_excerpt": "We define cylinder knots as billiard knots in a cylinder. We present a necessary condition for cylinder knots: after dividing cylinder knots by possible rotational symmetries we obtain ribbon knots. We obtain an upper bound for the number of cylinder knots with two fixed parameters (out of three). I",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns billiard knots in a cylinder and ribbon knot conditions, with no mention of Seifert matrices, Tseitin formulas, or resolution proof complexity. It shares only the broad 'knot' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0404143v1",
+      "title": "Groups of locally-flat disk knots and non-locally-flat sphere knots",
+      "abstract_excerpt": "The classical knot groups are the fundamental groups of the complements of smooth or piecewise-linear (PL) locally-flat knots. For PL knots that are not locally-flat, there is a pair of interesting groups to study: the fundamental group of the knot complement and that of the complement of the ``boun",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses fundamental groups of complements of PL knots (locally-flat and non-locally-flat), which shares the knot theory vocabulary but does not address Seifert matrices, counting bounds, or Tseitin formula resolution proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0806.3452",
+      "title": "Conjugate Generators of Knot and Link Groups",
+      "abstract_excerpt": "This note shows that if two elements of equal trace (e.g., conjugate elements) generate an arithmetic two-bridge knot or link group, then the elements are parabolic. This includes the figure-eight knot and Whitehead link groups. Similarly, if two conjugate elements generate the trefoil knot group, then the elements are peripheral.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses generators of specific knot/link groups (two-bridge, figure-eight, trefoil) being parabolic or peripheral, which has no bearing on Seifert matrix counts for graph-derived knots or on Tseitin resolution proof length.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
