@@ -1,0 +1,40 @@
+{
+  "entry_id": "b9210c441b90",
+  "ts": 1779705343.170224,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/0911.3482v5",
+      "title": "Complexity of Networks (reprise)",
+      "abstract_excerpt": "Network or graph structures are ubiquitous in the study of complex systems. Often, we are interested in complexity trends of these system as it evolves under some dynamic. An example might be looking at the complexity of a food web as species enter an ecosystem via migration or speciation, and leave",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns complexity of network/graph structures in complex systems (e.g., food webs), with no mention of boolean functions, quotient representations over GF(2), or entropic communication complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1810.08668v2",
+      "title": "Parity Decision Tree Complexity is Greater Than Granularity",
+      "abstract_excerpt": "We prove a new lower bound on the parity decision tree complexity $\\mathsf{D}_{\\oplus}(f)$ of a Boolean function $f$. Namely, granularity of the Boolean function $f$ is the smallest $k$ such that all Fourier coefficients of $f$ are integer multiples of $1/2^k$. We show that $\\mathsf{D}_{\\oplus}(f)\\g",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a lower bound relating parity decision tree complexity to Fourier granularity, which shares the GF(2)/boolean function setting but does not address minimal rank of quotient representations or entropic communication complexity as in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1501.01331v1",
+      "title": "DNF complexity of complete boolean functions",
+      "abstract_excerpt": "In this paper we analyse the complexity of boolean functions takes value 0 on a sufficiently small number of points. For many functions this leads to the analysis of a single function attains 0 only on unsigned representation of numbers from 1 to d for various d. Here we obtain a tight bounds on the",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses DNF complexity of boolean functions that take value 0 on a small number of points, with no mention of quotient representations over GF(2), entropic complexity, or any relationship between rank and entropy-based measures.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

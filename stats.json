@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-05-25T09:47:03Z",
-  "total_cycles": 2342,
+  "last_update_utc": "2026-05-25T10:47:03Z",
+  "total_cycles": 2350,
   "verdict_counts": {
-    "INCONCLUSIVE": 1657,
+    "INCONCLUSIVE": 1663,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 600,
+    "BARRIER_HIT": 602,
     "SCOOPED": 65
   },
-  "unique_field_A": 1258,
+  "unique_field_A": 1260,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
@@ -32,7 +32,7 @@
     ],
     [
       "Algebraic Geometry (Hodge Theory)",
-      35
+      36
     ],
     [
       "Symplectic Geometry",
@@ -55,6 +55,10 @@
       17
     ],
     [
+      "Quandle Theory",
+      16
+    ],
+    [
       "p-adic Analysis",
       15
     ],
@@ -64,10 +68,6 @@
     ],
     [
       "Noncommutative Geometry",
-      14
-    ],
-    [
-      "Quandle Theory",
       14
     ]
   ]
