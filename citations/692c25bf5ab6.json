@@ -1,0 +1,40 @@
+{
+  "entry_id": "692c25bf5ab6",
+  "ts": 1779682877.588796,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:cs/0608100",
+      "title": "Similarity of Semantic Relations",
+      "abstract_excerpt": "There are at least two kinds of similarity. Relational similarity is correspondence between relations, in contrast with attributional similarity, which is correspondence between attributes. When two words have a high degree of attributional similarity, we call them synonyms. When two pairs of words have a high degree of relational similarity, we say that their relations are analogous. For example, the word pair mason:stone is analogous to the pair carpenter:wood. This paper introduces Latent Rel",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract is about Latent Relational Analysis for measuring semantic similarity between word pairs in NLP, which has no interaction with tropicalized K-theory, communication complexity, or k-Clique lower bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0810.1207",
+      "title": "A Layered Grammar Model: Using Tree-Adjoining Grammars to Build a Common Syntactic Kernel for Related Dialects",
+      "abstract_excerpt": "This article describes the design of a common syntactic description for the core grammar of a group of related dialects. The common description does not rely on an abstract sub-linguistic structure like a metagrammar: it consists in a single FS-LTAG where the actual specific language is included as one of the attributes in the set of attribute types defined for the features. When the lang attribute is instantiated, the selected subset of the grammar is equivalent to the grammar of one dialect. W",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a linguistic grammar model for French-based Creole dialects using tree-adjoining grammars, which has no interaction with tropicalized K-theory, communication complexity, or k-Clique.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1310.8154",
+      "title": "Characteristic cohomology of the infinitesimal period relation",
+      "abstract_excerpt": "The infinitesimal period relation (also known as Griffiths' transversality) is the system of partial differential equations constraining variations of Hodge structure. This paper presents a study of the characteristic cohomology associated with that system of pde.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes characteristic cohomology of Griffiths' transversality in Hodge theory, with no mention of tropicalized K-theory, communication complexity, or k-Clique. It shares no specific claim with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

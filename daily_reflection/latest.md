@@ -1,29 +1,29 @@
-# Daily Reflection — 2026-05-24
+# Daily Reflection — 2026-05-25
 
-*Generated: 2026-05-24 03:33 UTC*
+*Generated: 2026-05-25 03:33 UTC*
 
 ## Yesterday in numbers
-- **Cycles**: 336
+- **Cycles**: 354
 - **New arxiv papers (mirror, last 24h)**: 0
 - **Verdict distribution**:
     - INCONCLUSIVE: 170
-    - BARRIER_HIT: 150
-    - SCOOPED: 16
+    - BARRIER_HIT: 164
+    - SCOOPED: 20
 - **Focus mode**:
-    - TSEITIN_RES: 21
-    - GCT_DET_PERM: 17
-    - BP_READTWICE: 17
-    - ACC_SIPSER: 14
+    - BP_READTWICE: 19
+    - TSEITIN_RES: 17
+    - GCT_DET_PERM: 14
+    - ACC_SIPSER: 13
+    - COMM_DISJ: 12
     - AC0_PARITY: 11
-    - COMM_DISJ: 11
-    - SOS_DEGREE: 11
+    - SOS_DEGREE: 10
     - MONOTONE_CLIQUE: 9
 - **Top fields_A**:
-    - Tropical Geometry: 10
-    - Algebraic Geometry (Hodge Theory): 9
-    - Algebraic Geometry (Tropicalization): 8
-    - Configuration Space Theory: 8
-    - Coxeter Theory: 7
+    - Algebraic Geometry (Hodge Theory): 19
+    - Tropical Geometry: 17
+    - Geometric Langlands Theory: 7
+    - Free Probability Theory: 5
+    - Quandle Theory: 4
 
 ## ✓ No scoops detected today
 
