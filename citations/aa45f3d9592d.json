@@ -1,0 +1,40 @@
+{
+  "entry_id": "aa45f3d9592d",
+  "ts": 1779720728.245573,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1501.00671",
+      "title": "On the Complexity of Noncommutative Polynomial Factorization",
+      "abstract_excerpt": "In this paper we study the complexity of factorization of polynomials in the free noncommutative ring $\\mathbb{F}\\langle x_1,x_2,\\dots,x_n\\rangle$ of polynomials over the field $\\mathbb{F}$ and noncommuting variables $x_1,x_2,\\ldots,x_n$. Our main results are the following.\n  Although $\\mathbb{F}\\langle x_1,x_2,\\dots,x_n \\rangle$ is not a unique factorization ring, we note that variable-disjoint factorization in $\\mathbb{F}\\langle x_1,x_2,\\dots,x_n \\rangle$ has the uniqueness property. Furthermo",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns noncommutative polynomial factorization complexity and its relation to Polynomial Identity Testing, not noncommutative L^p spaces, spectral radii, or DISJOINTNESS communication complexity. It shares only the loose 'noncommutative' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2006.13712",
+      "title": "Disjointness through the Lens of Vapnik-Chervonenkis Dimension: Sparsity and Beyond",
+      "abstract_excerpt": "The disjointness problem - where Alice and Bob are given two subsets of $\\{1, \\dots, n\\}$ and they have to check if their sets intersect - is a central problem in the world of communication complexity. While both deterministic and randomized communication complexities for this problem are known to be $Θ(n)$, it is also known that if the sets are assumed to be drawn from some restricted set systems then the communication complexity can be much lower. In this work, we explore how communication com",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract analyzes disjointness communication complexity via VC dimension of set systems, with bounds like Θ(d log(n/d)), making no mention of noncommutative L^p spaces or spectral radius. It shares the DISJOINTNESS topic but does not interact with the specific L^p spectral radius claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0412256v2",
+      "title": "Trapped submanifolds in Lorentzian geometry",
+      "abstract_excerpt": "The concept of closed trapped surface is of paramount importance in General Relativity and other gravitational theories. However, it is a purely geometrical object. With the aim of bringing this concept to closer attention by the mathematical community, I introduce the generalized idea of trapped su",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'trapped submanifolds in Lorentzian geometry' and 'closed trapped surface[s] in General Relativity,' which has no interaction with noncommutative L^p spaces or communication complexity of DISJOINTNESS.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

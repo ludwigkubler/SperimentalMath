@@ -1,0 +1,40 @@
+{
+  "entry_id": "a093c17d66aa",
+  "ts": 1779722689.561122,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2510.10838",
+      "title": "Survey on Cremona groups from a median geometric point of view",
+      "abstract_excerpt": "This expository article builds on lecture notes from a minicourse entitled \"Cremona groups and CAT(0) cube complexes\" and given by the author as part of the 2023 Riverside Workshop on Geometric Group Theory. It presents recent constructions of actions of Cremona groups on median graphs aimed at both geometric group theorists and algebraic geometers.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes 'actions of Cremona groups on median graphs' and CAT(0) cube complexes — geometric group theory content that shares no specific interaction with communication complexity of DISJOINTNESS or the τ(M) invariant in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1405.2700",
+      "title": "Zero Excess and Minimal Length in Finite Coxeter Groups",
+      "abstract_excerpt": "Let $\\mathcal{W}$ be the set of strongly real elements of $W$, a Coxeter group. Then for $w \\in \\mathcal{W}$, $e(w)$, the excess of $w$, is defined by $e(w) = \\min\\{\\ell(x) + \\ell(y) - \\ell(w) \\; | \\; w=xy, x^2 = y^2 = 1\\}$. When $W$ is finite we may also define $E(w)$, the reflection excess of $w$. The main result established here is that if $W$ is finite and $X$ is a $W$-conjugacy class, then there exists $w \\in X$ such that $w$ has minimal length in $X$ and $e(w) = 0 = E(w)$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns excess and minimal length of elements in finite Coxeter groups ('there exists w in X such that w has minimal length in X and e(w) = 0'), which has no interaction with manifold covering spaces or communication complexity of DISJOINTNESS.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2403.13102",
+      "title": "Geometric methods in quantum information and entanglement variational principle",
+      "abstract_excerpt": "Geometrical methods in quantum information are very promising for both providing technical tools and intuition into difficult control or optimization problems. Moreover, they are of fundamental importance in connecting pure geometrical theories, like GR, to quantum mechanics, like in the AdS/CFT correspondence. In this paper, we first make a survey of the most important settings in which geometrical methods have proven useful to quantum information theory. Then, we lay down a general framework f",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses geometric methods in quantum information, entanglement, and action principles for two-qubit systems, with no mention of communication complexity, DISJOINTNESS, or covering spaces of manifolds. It shares only the loose vocabulary of 'geometric methods' but does not interact with the specific claim about τ(M) and DISJ_n.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "e2fdb76135d2",
+  "ts": 1779722352.7213612,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2209.05839",
+      "title": "On bounded depth proofs for Tseitin formulas on the grid; revisited",
+      "abstract_excerpt": "We study Frege proofs using depth-$d$ Boolean formulas for the Tseitin contradiction on $n \\times n$ grids. We prove that if each line in the proof is of size $M$ then the number of lines is exponential in $n/(\\log M)^{O(d)}$. This strengthens a recent result of Pitassi et al. [PRT22]. The key technical step is a multi-switching lemma extending the switching lemma of Håstad [Hås20] for a space of restrictions related to the Tseitin contradiction. The strengthened lemma also allows us to improve ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses bounded-depth Frege proof size lower bounds for Tseitin formulas via switching lemmas, not resolution refutation length nor any 'configuration space metric' rank. It shares the Tseitin vocabulary but does not interact with the specific Ω(n^2 log n) rank/length claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1008.1789",
+      "title": "Understanding Space in Proof Complexity: Separations and Trade-offs via Substitutions",
+      "abstract_excerpt": "For current state-of-the-art DPLL SAT-solvers the two main bottlenecks are the amounts of time and memory used. In proof complexity, these resources correspond to the length and space of resolution proofs. There has been a long line of research investigating these proof complexity measures, but while strong results have been established for length, our understanding of space and how it relates to length has remained quite poor. In particular, the question whether resolution proofs can be optimiz",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses length-space trade-offs in resolution proof complexity via variable substitution on pebbling formulas, but says nothing about 'configuration space metrics,' their minimal rank, or Tseitin formulas in particular. It shares the proof-complexity framework but does not interact with the specific Ω(n^2 log n) rank/length claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1003.3047",
+      "title": "On the Relative Strength of Pebbling and Resolution",
+      "abstract_excerpt": "The last decade has seen a revival of interest in pebble games in the context of proof complexity. Pebbling has proven a useful tool for studying resolution-based proof systems when comparing the strength of different subsystems, showing bounds on proof space, and establishing size-space trade-offs. The typical approach has been to encode the pebble game played on a graph as a CNF formula and then argue that proofs of this formula must inherit (various aspects of) the pebbling properties of the ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses pebbling games and resolution proof complexity trade-offs, with no mention of Tseitin formulas, configuration space metrics, or rank lower bounds of the form Ω(n² log n). It shares the resolution proof complexity framework but does not interact with the specific claim about configuration space metric rank.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

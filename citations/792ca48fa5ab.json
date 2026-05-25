@@ -1,0 +1,40 @@
+{
+  "entry_id": "792ca48fa5ab",
+  "ts": 1779721517.3278205,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/quant-ph/0305192v1",
+      "title": "Photon engineering for quantum information processing",
+      "abstract_excerpt": "We study distinguishing information in the context of quantum interference involving more than one parametric downconversion (PDC) source and in the context of polarization-entangled photon pairs based on PDC. We arrive at specific design criteria for two-photon sources so that when used as part of ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns photon engineering for parametric downconversion sources and polarization-entangled photon pairs, which shares no interaction with CNF instances, DPLL proof length, or quantized phase space map rank bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1108.5136",
+      "title": "Scalable Architecture for Quantum Information Processing with Atoms in Optical Micro-Structures",
+      "abstract_excerpt": "We review recent experimental progress towards quantum information processing and quantum simulation using neutral atoms in two-dimensional (2D) arrays of optical microtraps as 2D registers of qubits. We describe a scalable quantum information architecture based on micro-fabricated optical elements, simultaneously targeting the important issues of single-site addressability and scalability. This approach provides flexible and integrable configurations for quantum state storage, manipulation, and",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns experimental quantum information processing with neutral atoms in optical microtraps, addressing qubit addressability and scalability. It has no bearing on quantized phase space maps, CNF instances, or DPLL proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/quant-ph/0402010v1",
+      "title": "Quantum computing and information extraction for a dynamical quantum system",
+      "abstract_excerpt": "We discuss the simulation of a complex dynamical system, the so-called quantum sawtooth map model, on a quantum computer. We show that a quantum computer can be used to efficiently extract relevant physical information for this model. It is possible to simulate the dynamical localization of classica",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes simulating a 'quantum sawtooth map model' on a quantum computer to extract physical information about dynamical localization, with no mention of CNF instances, DPLL proof length, or rank bounds connecting phase space maps to proof complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

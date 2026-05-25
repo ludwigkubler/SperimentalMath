@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-05-25T14:47:04Z",
-  "total_cycles": 2410,
+  "last_update_utc": "2026-05-25T15:47:03Z",
+  "total_cycles": 2427,
   "verdict_counts": {
-    "INCONCLUSIVE": 1688,
+    "INCONCLUSIVE": 1694,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 635,
+    "BARRIER_HIT": 646,
     "SCOOPED": 67
   },
-  "unique_field_A": 1277,
+  "unique_field_A": 1281,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
@@ -24,7 +24,7 @@
     ],
     [
       "Algebraic Geometry (Hodge Theory)",
-      40
+      42
     ],
     [
       "Schur-Weyl Duality",
@@ -60,15 +60,15 @@
     ],
     [
       "Noncommutative L^p Geometry",
-      16
+      17
     ],
     [
       "p-adic Analysis",
       15
     ],
     [
-      "Noncommutative Geometry",
-      14
+      "Configuration Space Theory",
+      15
     ]
   ]
 }
