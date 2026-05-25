@@ -1,0 +1,40 @@
+{
+  "entry_id": "3c38b1d67d89",
+  "ts": 1779680218.978885,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1609.04274",
+      "title": "Polymorphisms and Circuit Complexity",
+      "abstract_excerpt": "We present a framework for studying circuit complexity that is inspired by techniques that are used for analyzing the complexity of CSPs. We prove that the circuit complexity of a Boolean function $f$ is characterized by the partial polymorphisms of $f$'s truth table. Moreover, the non-deterministic circuit complexity of $f$ is characterized by the polymorphisms of $f$'s truth table.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract characterizes circuit complexity via (partial) polymorphisms of the truth table, an algebraic/CSP-inspired framework, with no mention of tropicalized homology, monotone circuits, or rank bounds tied to homology groups. It shares the broad topic of circuit complexity but does not address the specific homology-vs-monotone-circuit relation in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2511.21738",
+      "title": "On the Incompressibility of Truth With Application to Circuit Complexity",
+      "abstract_excerpt": "We revisit the fundamentals of Circuit Complexity and the nature of efficient computation from a fresh perspective. We present a framework for understanding Circuit Complexity through the lens of Information Theory with analogies to results in Kolmogorov Complexity, viewing circuits as descriptions of truth tables, encoded in logical gates and wires, rather than purely computational devices. From this framework, we re-prove some existing Circuit Complexity bounds, explain what the optimal circui",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses circuit complexity through an information-theoretic/Kolmogorov complexity lens and re-proves bounds, but makes no mention of tropicalized homology, Boolean ring coefficients, or any homological rank-vs-gate-count correspondence as posed in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0811.0699",
+      "title": "A Note on the Inversion Complexity of Boolean Functions in Boolean Formulas",
+      "abstract_excerpt": "In this note, we consider the minimum number of NOT operators in a Boolean formula representing a Boolean function. In circuit complexity theory, the minimum number of NOT gates in a Boolean circuit computing a Boolean function $f$ is called the inversion complexity of $f$. In 1958, Markov determined the inversion complexity of every Boolean function and particularly proved that $\\lceil \\log_2(n+1) \\rceil$ NOT gates are sufficient to compute any Boolean function on $n$ variables. As far as we kn",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'inversion complexity' (minimum number of NOT operators/gates) in Boolean formulas and circuits, which shares the Boolean function and circuit complexity framework but does not address tropicalized homology groups or monotone circuit gate-count lower bounds tied to homological rank.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

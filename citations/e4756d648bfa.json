@@ -1,0 +1,40 @@
+{
+  "entry_id": "e4756d648bfa",
+  "ts": 1779678783.2220404,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1304.1217",
+      "title": "On the communication complexity of sparse set disjointness and exists-equal problems",
+      "abstract_excerpt": "In this paper we study the two player randomized communication complexity of the sparse set disjointness and the exists-equal problems and give matching lower and upper bounds (up to constant factors) for any number of rounds for both of these problems. In the sparse set disjointness problem, each player receives a k-subset of [m] and the goal is to determine whether the sets intersect. For this problem, we give a protocol that communicates a total of O(k\\log^{(r)}k) bits over r rounds and errs ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses randomized communication complexity bounds for sparse set disjointness and exists-equal problems, with no mention of affine Grassmannians, tropicalization, or minimal rank of tropicalized structures. It shares the 'disjointness' vocabulary but does not interact with the conjecture's geometric claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1807.06256",
+      "title": "Classical lower bounds from quantum upper bounds",
+      "abstract_excerpt": "We prove lower bounds on complexity measures, such as the approximate degree of a Boolean function and the approximate rank of a Boolean matrix, using quantum arguments. We prove these lower bounds using a quantum query algorithm for the combinatorial group testing problem.\n  We show that for any function f, the approximate degree of computing the OR of n copies of f is Omega(sqrt{n}) times the approximate degree of f, which is optimal. No such general result was known prior to our work, and eve",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns approximate degree/rank lower bounds and quantum communication complexity of disjointness, with no mention of tropicalized affine Grassmannians or their minimal rank. It shares the 'disjointness' and 'rank' vocabulary but does not address the geometric conjecture relating τ(G) to CC_R(DISJ_n).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2006.13712",
+      "title": "Disjointness through the Lens of Vapnik-Chervonenkis Dimension: Sparsity and Beyond",
+      "abstract_excerpt": "The disjointness problem - where Alice and Bob are given two subsets of $\\{1, \\dots, n\\}$ and they have to check if their sets intersect - is a central problem in the world of communication complexity. While both deterministic and randomized communication complexities for this problem are known to be $Θ(n)$, it is also known that if the sets are assumed to be drawn from some restricted set systems then the communication complexity can be much lower. In this work, we explore how communication com",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract analyzes disjointness communication complexity through VC dimension of set systems, with no mention of affine Grassmannians, tropicalization, or minimal rank — the geometric framework in the conjecture is absent.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
