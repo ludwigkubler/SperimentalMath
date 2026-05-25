@@ -1,0 +1,40 @@
+{
+  "entry_id": "d7ab5ce6082b",
+  "ts": 1779694068.082507,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0912.2255",
+      "title": "Test ideals via algebras of $p^{-e}$-linear maps",
+      "abstract_excerpt": "Continuing ideas of a recent preprint of Schwede arXiv:0906.4313 we study test ideals by viewing them as minimal objects in a certain class of $F$-pure modules over algebras of p^{-e}-linear operators. This shift in the viewpoint leads to a simplified and generalized treatment, also allowing us to define test ideals in non-reduced settings.\n  In combining this with an observation of Anderson on the contracting property of p^{-e}-linear operators we obtain an elementary approach to test ideals in",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns test ideals, F-pure modules, and p^{-e}-linear operators in positive characteristic commutative algebra, with no mention of homology groups, simplicial complexes, k-clique, or communication complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1812.11710",
+      "title": "Geometric Satake correspondence for affine Kac-Moody Lie algebras of type $A$",
+      "abstract_excerpt": "This is an informal expository article on geometric Satake correspondence for affine Kac-Moody Lie algebras of type $A$ given in arXiv:1810.04293. We emphasize formal analogies between this result and the author's earlier results on geometric approaches to the representation via quiver varieties.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'geometric Satake correspondence for affine Kac-Moody Lie algebras of type A' and quiver varieties, which has no interaction with simplicial homology bounds or k-clique communication complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2602.11365",
+      "title": "The Topology of $k$-Robust Clique Complexes in Grid-like Graphs",
+      "abstract_excerpt": "We introduce $k$-robust clique complexes, a family of simplicial complexes that generalizes the traditional clique complex. Here, a subset of vertices forms a simplex provided it does not contain an independent set of size $k$.\n  We investigate these complexes for square sequence graphs, a class of bipartite graphs introduced here that are constructed by iteratively attaching $C_4$ cycles. This class includes rectangular grid graphs $G_{m,n}$. We show that for $k=2$ and $k=3$, the homotopy type ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract studies homotopy types (wedge of spheres) of k-robust clique complexes for specific grid-like graphs, with no mention of communication complexity or polynomial/exponential rank bounds tied to k-clique decision problems. It shares the 'clique complex' vocabulary but does not address the conjecture's rank-vs-communication-complexity claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
