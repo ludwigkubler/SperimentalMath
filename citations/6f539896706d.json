@@ -1,0 +1,40 @@
+{
+  "entry_id": "6f539896706d",
+  "ts": 1779748737.883325,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2605.11396",
+      "title": "MuonQ: Enhancing Low-Bit Muon Quantization via Directional Fidelity Optimization",
+      "abstract_excerpt": "The Muon optimizer has emerged as a compelling alternative to Adam for training large language models, achieving remarkable computational savings through gradient orthogonalization. However, Muon's optimizer state is more sensitive to quantization errors: because the orthogonalization discards the magnitudes of singular values and retains only directional information, even small quantization errors in singular vector directions are amplified in the update. In this work, we propose MuonQ, a low-b",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes MuonQ, a low-bit quantization framework for the Muon optimizer in LLM training, which shares only the word 'quantization' with the conjecture about geometric quantization bundles over Tseitin resolution trees.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1710.07343",
+      "title": "Fractional Minimal Rank",
+      "abstract_excerpt": "The notion of fractional minimal rank of a partial matrix is introduced, a quantity that lies between the triangular minimal rank and the minimal rank of a partial matrix. The fractional minimal rank of partial matrices whose bipartite graph is a minimal cycle are determined. Along the way, we determine the minimal rank of a partial block matrix with invertible given entries that lie on a minimal cycle. Some open questions are stated.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'fractional minimal rank of a partial matrix' with bipartite graphs forming minimal cycles, which shares only the generic term 'minimal rank' with the conjecture and has no connection to geometric quantization or Tseitin resolution trees.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2205.13954",
+      "title": "Geometer: Graph Few-Shot Class-Incremental Learning via Prototype Representation",
+      "abstract_excerpt": "With the tremendous expansion of graphs data, node classification shows its great importance in many real-world applications. Existing graph neural network based methods mainly focus on classifying unlabeled nodes within fixed classes with abundant labeling. However, in many practical scenarios, graph evolves with emergence of new nodes and edges. Novel classes appear incrementally along with few labeling due to its newly emergence or lack of exploration. In this paper, we focus on this challeng",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns graph few-shot class-incremental learning via prototype representation ('Geometer predicts the label of a node by finding the nearest class prototype'), which has no interaction with geometric quantization bundles or Tseitin resolution trees.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

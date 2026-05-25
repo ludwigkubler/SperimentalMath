@@ -1,0 +1,40 @@
+{
+  "entry_id": "5c394995c20e",
+  "ts": 1779748992.7661893,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1208.1599",
+      "title": "Algebraic K-theory of endomorphism rings",
+      "abstract_excerpt": "We establish formulas for computation of the higher algebraic $K$-groups of the endomorphism rings of objects linked by a morphism in an additive category. Let ${\\mathcal C}$ be an additive category, and let $Y\\ra X$ be a covariant morphism of objects in ${\\mathcal C}$. Then $K_n\\big(_{\\mathcal C}(X\\oplus Y)\\big)\\simeq K_n\\big(_{{\\mathcal C},Y}(X)\\big)\\oplus K_n\\big(_{\\mathcal C}(Y)\\big)$ for all $1\\le n\\in \\mathbb{N}$, where $_{{\\mathcal C},Y}(X)$ is the quotient ring of the endomorphism ring $",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract provides decomposition formulas for higher K-groups of endomorphism rings in additive categories, with no mention of Tseitin formulas, resolution trees, or proof complexity. It shares only the vocabulary 'algebraic K-theory' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2104.12736",
+      "title": "Deformation theory of perfect complexes and traces",
+      "abstract_excerpt": "We show that the deformation theory of a perfect complex and that of its determinant are related by the trace map, in a general setting of sheaves on a site. The key technical step, in passing from the setting of modules over a ring where one has global resolutions to the general setting, is achieved using $K$-theory and higher category theory.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'deformation theory of a perfect complex and that of its determinant... related by the trace map' using K-theory in a sheaf-theoretic setting, with no mention of Tseitin formulas, resolution trees, or rank bounds of K_1 for such combinatorial objects.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1006.1480",
+      "title": "Reduced Steenrod operations and resolution of singularities",
+      "abstract_excerpt": "We give a new construction of a weak form of Steenrod operations for Chow groups modulo a prime number p for a certain class of varieties. This class contains projective homogeneous varieties which are either split or over a field admitting some form of resolution of singularities, for example any field of characteristic not p. These reduced Steenrod operations are sufficient for some applications to the theory of quadratic forms.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'Steenrod operations for Chow groups' on projective homogeneous varieties and applications to quadratic forms, with no mention of algebraic K-theory ranks, Tseitin formulas, or resolution trees from proof complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

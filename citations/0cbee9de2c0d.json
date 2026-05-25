@@ -1,0 +1,40 @@
+{
+  "entry_id": "0cbee9de2c0d",
+  "ts": 1779748337.1620471,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/hep-th/9707234v2",
+      "title": "Variational Approach to Quantum Field Theory: Gaussian Approximation and the Perturbative Expansion around It",
+      "abstract_excerpt": "The functional Schrodinger picture formulation of quantum field theory and the variational Gaussian approximation method based on the formulation are briefly reviewed. After presenting recent attempts to improve the variational approximation, we introduce a new systematic method based on the backgro",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'variational Gaussian approximation' in quantum field theory via the functional Schrodinger picture, which has no interaction with twisted Hodge theory invariants or ACC⁰ circuit complexity lower bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1412.6019",
+      "title": "The Hodge Theory of maps (Lectures 4 and 5)",
+      "abstract_excerpt": "Lecture notes of lectures delivered at the Hodge Theory Summer School in ICTP Trieste, June 2010.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract merely identifies the paper as lecture notes from a Hodge Theory summer school, with no mention of twisted Hodge invariants, circuit complexity, or ACC⁰ — it shares only the broad 'Hodge theory' vocabulary.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1101.3647",
+      "title": "Notes on absolute Hodge classes",
+      "abstract_excerpt": "We survey the theory of absolute Hodge classes. The notes include a full proof of Deligne's theorem on absolute Hodge classes on abelian varieties as well as a discussion of other topics, such as the field of definition of Hodge loci and the Kuga-Satake construction.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a survey of absolute Hodge classes, Deligne's theorem on abelian varieties, and Kuga-Satake construction — it makes no mention of twisted Hodge invariants, circuit complexity, or ACC⁰ lower bounds, so it shares only the broad 'Hodge' vocabulary without interacting with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
