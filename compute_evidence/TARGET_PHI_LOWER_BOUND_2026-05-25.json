@@ -1,7 +1,7 @@
 {
   "node_id": "TARGET_PHI_LOWER_BOUND",
   "instance_class": "tseitin",
-  "ts": 1779668581.4397573,
+  "ts": 1779711781.6605496,
   "result": {
     "instance_class": "tseitin",
     "n_range": [
@@ -22,7 +22,7 @@
         "n": 8,
         "seed": 0,
         "sat": false,
-        "runtime_s": 0.0015,
+        "runtime_s": 0.0016,
         "conflicts": 27,
         "decisions": 25,
         "propagations": 236,
@@ -48,7 +48,7 @@
         "n": 10,
         "seed": 0,
         "sat": false,
-        "runtime_s": 0.0015,
+        "runtime_s": 0.0016,
         "conflicts": 43,
         "decisions": 35,
         "propagations": 335,
@@ -61,7 +61,7 @@
         "n": 10,
         "seed": 1,
         "sat": false,
-        "runtime_s": 0.0015,
+        "runtime_s": 0.0016,
         "conflicts": 43,
         "decisions": 37,
         "propagations": 375,
@@ -87,7 +87,7 @@
         "n": 12,
         "seed": 1,
         "sat": false,
-        "runtime_s": 0.0017,
+        "runtime_s": 0.0016,
         "conflicts": 99,
         "decisions": 75,
         "propagations": 645,
@@ -100,7 +100,7 @@
         "n": 14,
         "seed": 0,
         "sat": false,
-        "runtime_s": 0.0018,
+        "runtime_s": 0.0017,
         "conflicts": 119,
         "decisions": 115,
         "propagations": 815,
@@ -113,7 +113,7 @@
         "n": 14,
         "seed": 1,
         "sat": false,
-        "runtime_s": 0.0017,
+        "runtime_s": 0.0018,
         "conflicts": 72,
         "decisions": 64,
         "propagations": 688,
@@ -126,7 +126,7 @@
         "n": 16,
         "seed": 0,
         "sat": false,
-        "runtime_s": 0.0019,
+        "runtime_s": 0.0021,
         "conflicts": 222,
         "decisions": 174,
         "propagations": 1382,
@@ -139,7 +139,7 @@
         "n": 16,
         "seed": 1,
         "sat": false,
-        "runtime_s": 0.0018,
+        "runtime_s": 0.0019,
         "conflicts": 215,
         "decisions": 148,
         "propagations": 1371,
@@ -152,7 +152,7 @@
         "n": 18,
         "seed": 0,
         "sat": false,
-        "runtime_s": 0.0021,
+        "runtime_s": 0.0022,
         "conflicts": 357,
         "decisions": 309,
         "propagations": 2269,
@@ -165,7 +165,7 @@
         "n": 18,
         "seed": 1,
         "sat": false,
-        "runtime_s": 0.0018,
+        "runtime_s": 0.0019,
         "conflicts": 210,
         "decisions": 166,
         "propagations": 1226,
@@ -191,7 +191,7 @@
         "n": 20,
         "seed": 1,
         "sat": false,
-        "runtime_s": 0.0017,
+        "runtime_s": 0.0018,
         "conflicts": 128,
         "decisions": 116,
         "propagations": 836,
@@ -261,7 +261,7 @@
         "n_total": 2
       },
       "n=10": {
-        "median_runtime_s": 0.0015,
+        "median_runtime_s": 0.0016,
         "median_conflicts": 43,
         "n_timeout": 0,
         "n_total": 2
@@ -273,19 +273,19 @@
         "n_total": 2
       },
       "n=14": {
-        "median_runtime_s": 0.0017,
+        "median_runtime_s": 0.0018,
         "median_conflicts": 95,
         "n_timeout": 0,
         "n_total": 2
       },
       "n=16": {
-        "median_runtime_s": 0.0019,
+        "median_runtime_s": 0.002,
         "median_conflicts": 218,
         "n_timeout": 0,
         "n_total": 2
       },
       "n=18": {
-        "median_runtime_s": 0.002,
+        "median_runtime_s": 0.0021,
         "median_conflicts": 283,
         "n_timeout": 0,
         "n_total": 2
@@ -309,7 +309,7 @@
         "n_total": 2
       },
       "fit": {
-        "runtime_loglog_slope": 0.5386632055588648,
+        "runtime_loglog_slope": 0.540091532247343,
         "conflicts_loglog_slope": 2.8276112281628936
       }
     }

@@ -1,0 +1,40 @@
+{
+  "entry_id": "1a50f9a503f2",
+  "ts": 1779713342.1354387,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0410590v1",
+      "title": "Products of characters with few irreducible constituents",
+      "abstract_excerpt": "We study the solvable groups $G$ that have an irreducible character $χ\\in \\Irr(G)$ such that $χ\\barχ$ has at most two non-principal irreducible constituents.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses solvable groups with irreducible characters whose product χχ̄ has at most two non-principal irreducible constituents, which is purely a representation-theoretic question with no connection to SAT, k-CNF formulas, or bounds on irreducible constituent orders relative to formula dimension.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1311.7294",
+      "title": "Irreducible constituents of minimal degree in supercharacters of the finite unitriangular groups",
+      "abstract_excerpt": "Let $q$ be a prime power and $U$ the group of lower unitriangular matrices of order $n$ for some natural number $n$. We give a lower bound for the degrees of irreducible constituents of André-Yan supercharacters and classify the supercharacters having constituents whose degree assume this lower bound. Moreover we show that the number of distinct irreducible characters of $U$ meeting this condition is a polynomial in $(q-1)$ with nonnegative integral coefficients and exhibit monomial sources for ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns lower bounds for degrees of irreducible constituents of André-Yan supercharacters of unitriangular groups, with no mention of SAT, k-CNF formulas, or any complexity-theoretic construction connecting representations to satisfiability.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2503.14756",
+      "title": "SceneEval: Evaluating Semantic Coherence in Text-Conditioned 3D Indoor Scene Synthesis",
+      "abstract_excerpt": "Despite recent advances in text-conditioned 3D indoor scene generation, there remain gaps in the evaluation of these methods. Existing metrics often measure realism by comparing generated scenes to a set of ground-truth scenes, but they overlook how well scenes follow the input text and capture implicit expectations of plausibility. We present SceneEval, an evaluation framework designed to address these limitations. SceneEval introduces fine-grained metrics for explicit user requirements-includi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns SceneEval, an evaluation framework for text-conditioned 3D indoor scene generation, with no connection to group representation theory, SAT satisfiability, or irreducible constituents.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

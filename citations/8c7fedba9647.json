@@ -1,0 +1,40 @@
+{
+  "entry_id": "8c7fedba9647",
+  "ts": 1779716620.2536743,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/2011.04935v4",
+      "title": "Azumaya Loci Of The Quantum Euclidean $2n$-Space",
+      "abstract_excerpt": "This article delves into the Azumaya loci of quantum euclidean 2n-space, providing a comprehensive exploration. We introduce a significant class of maximal-dimensional simple modules associated with this algebra. Moreover, we establish a proof asserting that the maximal-dimensional simple modules ar",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Azumaya loci of quantum Euclidean 2n-space and maximal-dimensional simple modules, which shares only superficial vocabulary ('loci', 'Euclidean') with the conjecture and does not address Tseitin formulas, resolution refutation length, or expander graphs.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2403.13102v1",
+      "title": "Geometric methods in quantum information and entanglement variational principle",
+      "abstract_excerpt": "Geometrical methods in quantum information are very promising for both providing technical tools and intuition into difficult control or optimization problems. Moreover, they are of fundamental importance in connecting pure geometrical theories, like GR, to quantum mechanics, like in the AdS/CFT cor",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses geometric methods in quantum information, AdS/CFT, and control/optimization problems, with no mention of Tseitin formulas, resolution refutation length, expander graphs, or the specific notion of 'geometric loci complexity' in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2005.11899v3",
+      "title": "Geometric triangulations and highly twisted links",
+      "abstract_excerpt": "It is conjectured that every cusped hyperbolic 3-manifold admits a geometric triangulation, i.e. it is decomposed into positive volume ideal hyperbolic tetrahedra. Here, we show that sufficiently highly twisted knots admit a geometric triangulation. In addition, by extending work of Gueritaud and Sc",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns geometric triangulations of cusped hyperbolic 3-manifolds and highly twisted knots, which has no interaction with Tseitin formulas, resolution proof complexity, or the algebraic-geometric loci notion in the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

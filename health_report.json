@@ -1,6 +1,6 @@
 {
-  "ts": 1779689821,
-  "ts_human": "2026-05-25 06:17:01 UTC",
+  "ts": 1779711421,
+  "ts_human": "2026-05-25 12:17:01 UTC",
   "status": "OK",
   "issues": "(none)",
   "daemon_count": 1,
@@ -8,17 +8,17 @@
   "zombies": 0,
   "zombie_detail": "",
   "runaway": "",
-  "last_cycle_ts": 1779689757,
-  "last_cycle_age_h": 0.02,
-  "cycles_24h": 359,
-  "mem_used_pct": 15.9,
+  "last_cycle_ts": 1779711374,
+  "last_cycle_age_h": 0.01,
+  "cycles_24h": 353,
+  "mem_used_pct": 16.6,
   "disk_used_pct": 16,
-  "claude_calls_168h": 1485,
-  "claude_budget_pct": 59.4,
+  "claude_calls_168h": 1355,
+  "claude_budget_pct": 54.2,
   "skeptic_168h": {
     "hardened": 0,
     "downgrade": 0,
-    "not_invoked": 1533,
+    "not_invoked": 1596,
     "downgrade_reasons": {}
   }
 }
