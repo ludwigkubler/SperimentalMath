@@ -1,0 +1,40 @@
+{
+  "entry_id": "ad88d68b855b",
+  "ts": 1779724843.8006756,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1903.10609",
+      "title": "Circuit Complexity of Knot States in Chern-Simons theory",
+      "abstract_excerpt": "We compute an upper bound on the circuit complexity of quantum states in $3d$ Chern-Simons theory corresponding to certain classes of knots. Specifically, we deal with states in the torus Hilbert space of Chern-Simons that are the knot complements on the $3$-sphere of arbitrary torus knots. These can be constructed from the unknot state by using the Hilbert space representation of the $S$ and $T$ modular transformations of the torus as fundamental gates. The upper bound is saturated in the semic",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses circuit complexity of quantum states in Chern-Simons theory related to knot states and modular transformations, with no mention of boolean functions, ACC⁰ circuits, or groupoid action rank. The shared term 'circuit complexity' is used in a completely different (quantum gate) sense than the conjecture's classical ACC⁰ parity circuits.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2504.04416",
+      "title": "Meta-Mathematics of Computational Complexity Theory",
+      "abstract_excerpt": "We survey results on the formalization and independence of mathematical statements related to major open problems in computational complexity theory. Our primary focus is on recent findings concerning the (un)provability of complexity bounds within theories of bounded arithmetic. This includes the techniques employed and related open problems, such as the (non)existence of a feasible proof that P = NP.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract surveys formalization and (un)provability of complexity bounds in bounded arithmetic, with no mention of groupoid actions, minimal rank, or ACC⁰ parity circuit size bounds for boolean functions.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1611.00827",
+      "title": "Geometric complexity theory and matrix powering",
+      "abstract_excerpt": "Valiant's famous determinant versus permanent problem is the flagship problem in algebraic complexity theory. Mulmuley and Sohoni (Siam J Comput 2001, 2008) introduced geometric complexity theory, an approach to study this and related problems via algebraic geometry and representation theory. Their approach works by multiplying the permanent polynomial with a high power of a linear form (a process called padding) and then comparing the orbit closures of the determinant and the padded permanent. ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns geometric complexity theory, orbit closures, and lower bounds for the permanent via matrix powering — it says nothing about groupoid action ranks, ACC⁰ parity circuits, or boolean function complexity bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

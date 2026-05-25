@@ -1,0 +1,40 @@
+{
+  "entry_id": "b5838f9502ac",
+  "ts": 1779725443.0998516,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "s2:2106.05305",
+      "title": "Linear growth of quantum circuit complexity",
+      "abstract_excerpt": "The complexity of quantum states has become a key quantity of interest across various subfields of physics, from quantum computing to the theory of black holes. The evolution of generic quantum systems can be modelled by considering a collection of qubits subjected to sequences of random unitary gat",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'complexity of quantum states' and 'random unitary gates' on qubits, which shares the vocabulary of 'circuit complexity' but does not address algebraic stacks, Boolean functions, or randomized classical circuit complexity R(f).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:2501.12260",
+      "title": "Nonuniform Deterministic Finite Automata over finite algebraic structures",
+      "abstract_excerpt": "Nonuniform Deterministic Finite Automata (NUDFA) over monoids were invented by Barrington to study boundaries of nonuniform constant-memory computation. Later, results on these automata helped to indentify interesting classes of groups for which equation satisfiability problem is solvable in (probab",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses nonuniform finite automata over monoids and equation satisfiability in groups, not algebraic stacks or randomized circuit complexity of Boolean functions. It shares the broad theme of algebraic structures in complexity but does not address the specific MinRank/R(f) relationship.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:3540928c663bdf104f338ea4908330fc8f9f18cf",
+      "title": "Configuration spaces : geometry, combinatorics and topology",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available for the cited paper, so I cannot assess whether it supports, refutes, or is orthogonal to the conjecture relating algebraic stack rank to randomized circuit complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}
