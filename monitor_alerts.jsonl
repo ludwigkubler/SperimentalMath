@@ -2156,6 +2156,7 @@
 {"ts": 1779696003.9634862, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1456, "cap": 2000, "fraction": 0.728, "weekly_budget": 2500}}
 {"ts": 1779697804.5880222, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 29}}
 {"ts": 1779697804.7728467, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1438, "cap": 2000, "fraction": 0.719, "weekly_budget": 2500}}
-{"ts": 1779699901.823071, "ts_iso": "2026-05-25T09:05:01.823071+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "OK", "to_status": "DEGRADED", "failing_checks": ["mirror_git_pushed"], "auto_fixed": false}
-{"ts": 1779700501.28484, "ts_iso": "2026-05-25T09:15:01.284840+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "DEGRADED", "to_status": "OK", "failing_checks": [], "auto_fixed": false}
-{"ts": 1779702301.252626, "ts_iso": "2026-05-25T09:45:01.252626+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "OK", "to_status": "DEGRADED", "failing_checks": ["mirror_git_pushed"], "auto_fixed": false}
+{"ts": 1779699604.8514342, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 29}}
+{"ts": 1779699604.9977171, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1432, "cap": 2000, "fraction": 0.716, "weekly_budget": 2500}}
+{"ts": 1779701403.8497562, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 29}}
+{"ts": 1779701403.9494374, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1407, "cap": 2000, "fraction": 0.704, "weekly_budget": 2500}}
