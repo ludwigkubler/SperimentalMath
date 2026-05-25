@@ -1,0 +1,40 @@
+{
+  "entry_id": "8a25f5c2bd1c",
+  "ts": 1779708414.771022,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2311.04204",
+      "title": "Sharp Thresholds Imply Circuit Lower Bounds: from random 2-SAT to Planted Clique",
+      "abstract_excerpt": "We show that sharp thresholds for Boolean functions directly imply average-case circuit lower bounds. More formally we show that any Boolean function exhibiting a sharp enough threshold at \\emph{arbitrary} critical density cannot be computed by Boolean circuits of bounded depth and polynomial size. We also prove a partial converse: if a monotone graph invariant Boolean function does not have a sharp threshold then it can be computed on average by a Boolean circuit of bounded depth and polynomial",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses bounded-depth Boolean circuit lower bounds for k-clique via sharp thresholds, with no mention of quandles, quandle representation rank, or permutation circuits. It shares the k-CLIQUE vocabulary but does not interact with the conjecture's specific claim relating ρ(Q) to permutation circuit lower bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2012.15478",
+      "title": "N-quandles of links",
+      "abstract_excerpt": "The fundamental quandle is a powerful invariant of knots and links, but it is difficult to describe in detail. It is often useful to look at quotients of the quandle, especially finite quotients. One natural quotient introduced by Joyce is the $n$-quandle. Hoste and Shanahan gave a complete list of the knots and links which have finite $n$-quandles for some $n$. We introduce a generalization of $n$-quandles, denoted $N$-quandles (for a quandle with $k$ algebraic components, $N$ is a $k$-tuple of",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns N-quandles as finite quotients of fundamental quandles of links and their classification, with no mention of Boolean algebra representations, ranks, or circuit complexity for k-CLIQUE.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0808.0684",
+      "title": "9-variable Boolean Functions with Nonlinearity 242 in the Generalized Rotation Class",
+      "abstract_excerpt": "In 2006, 9-variable Boolean functions having nonlinearity 241, which is strictly greater than the bent concatenation bound of 240, have been discovered in the class of Rotation Symmetric Boolean Functions (RSBFs) by Kavut, Maitra and Yucel. To improve this nonlinearity result, we have firstly defined some subsets of the n-variable Boolean functions as the \"generalized classes of k-RSBFs and k-DSBFs (k-Dihedral Symmetric Boolean Functions)\", where k is a positive integer dividing n and k-RSBFs is",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns nonlinearity of 9-variable Boolean functions in rotation/dihedral symmetric classes and the covering radius of Reed-Muller codes, with no mention of quandles, representation rank, permutation circuits, or k-CLIQUE lower bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-05-25T10:47:03Z",
-  "total_cycles": 2350,
+  "last_update_utc": "2026-05-25T11:47:03Z",
+  "total_cycles": 2367,
   "verdict_counts": {
-    "INCONCLUSIVE": 1663,
+    "INCONCLUSIVE": 1671,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 602,
+    "BARRIER_HIT": 611,
     "SCOOPED": 65
   },
-  "unique_field_A": 1260,
+  "unique_field_A": 1265,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
@@ -27,16 +27,16 @@
       39
     ],
     [
+      "Algebraic Geometry (Hodge Theory)",
+      37
+    ],
+    [
       "Algebraic Combinatorics",
       36
     ],
     [
-      "Algebraic Geometry (Hodge Theory)",
-      36
-    ],
-    [
       "Symplectic Geometry",
-      33
+      34
     ],
     [
       "Matroid Theory",
@@ -56,7 +56,7 @@
     ],
     [
       "Quandle Theory",
-      16
+      17
     ],
     [
       "p-adic Analysis",

@@ -1,42 +1,42 @@
 {
-  "total": 2182,
+  "total": 2219,
   "by_category": {
     "math.CO": 429,
-    "hep-th": 309,
+    "hep-th": 325,
     "cs.DS": 191,
     "cs.LO": 164,
-    "math.LO": 115,
-    "quant-ph": 113,
-    "math-ph": 104,
-    "gr-qc": 92,
+    "math.LO": 117,
+    "quant-ph": 114,
+    "math-ph": 109,
+    "gr-qc": 93,
     "cs.CC": 59,
-    "hep-ph": 55,
+    "hep-ph": 57,
     "cs.LG": 43,
     "math.PR": 38,
     "cs.AI": 30,
-    "math.AG": 28,
+    "math.AG": 29,
+    "cond-mat.stat-mech": 24,
     "math.NT": 24,
-    "cond-mat.stat-mech": 23,
-    "math.AP": 20,
-    "astro-ph.CO": 19,
-    "math.GR": 16,
+    "astro-ph.CO": 21,
+    "math.AP": 21,
+    "math.GR": 18,
     "cs.FL": 15,
     "cs.IT": 13,
+    "math.DG": 13,
     "cond-mat.str-el": 12,
     "cs.CG": 12,
     "cs.DM": 12,
-    "math.DG": 12,
     "cs.CR": 11,
     "math.RT": 11,
     "math.AC": 10,
+    "math.CT": 10,
     "cs.PL": 9,
-    "math.CT": 9,
     "math.QA": 9,
     "math.RA": 9,
     "hep-lat": 8,
+    "math.FA": 8,
     "math.AT": 7,
     "math.DS": 7,
-    "math.FA": 7,
     "math.SP": 7,
     "nlin.SI": 7,
     "nucl-th": 7,
@@ -88,10 +88,10 @@
     "physics.hist-ph": 1,
     "physics.soc-ph": 1
   },
-  "embedded": 2177,
-  "fetched_span_h": 513.6253808108966,
+  "embedded": 2214,
+  "fetched_span_h": 577.644288570351,
   "last_update": {
-    "last_update_ts": 1779675174.8814166,
+    "last_update_ts": 1779704006.177158,
     "by_category": {
       "cs.CC": {
         "fetched": 0,
@@ -114,19 +114,19 @@
         "skipped": 0
       },
       "math.LO": {
-        "fetched": 0,
-        "new": 0,
-        "skipped": 0
+        "fetched": 50,
+        "new": 5,
+        "skipped": 45
       },
       "math-ph": {
-        "fetched": 0,
-        "new": 0,
-        "skipped": 0
+        "fetched": 50,
+        "new": 11,
+        "skipped": 39
       },
       "hep-th": {
-        "fetched": 0,
-        "new": 0,
-        "skipped": 0
+        "fetched": 50,
+        "new": 21,
+        "skipped": 29
       }
     }
   }

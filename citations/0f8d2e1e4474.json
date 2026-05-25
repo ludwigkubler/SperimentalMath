@@ -1,0 +1,40 @@
+{
+  "entry_id": "0f8d2e1e4474",
+  "ts": 1779707064.604823,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/1902.05441v2",
+      "title": "A Note on Entropy of Delone Sets",
+      "abstract_excerpt": "In this note we present that the patch counting entropy can be obtained as a limit and investigate which sequences of compact sets are suitable to define this quantity. We furthermore present a geometric definition of patch counting entropy for Delone sets of infinite local complexity and that the p",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'patch counting entropy' for Delone sets and its geometric definition, with no mention of matroid rank, boolean functions, or communication complexity for k-CLIQUE. It shares only the 'Delone sets' vocabulary without engaging the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1405.4233v3",
+      "title": "Ergodicity and dynamical localization for Delone-Anderson operators",
+      "abstract_excerpt": "We study the ergodic properties of Delone-Anderson operators, using the framework of randomly coloured Delone sets and Delone dynamical systems. In particular, we show the existence of the integrated density of states and, under some assumptions on the geometric complexity of the underlying Delone s",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'ergodic properties of Delone-Anderson operators' and 'integrated density of states' in the context of randomly coloured Delone sets, which shares only the 'Delone set' vocabulary with the conjecture but does not address matroid rank, boolean functions, or communication complexity of k-CLIQUE.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1912.05379v3",
+      "title": "Chaotic Delone sets",
+      "abstract_excerpt": "We present a definition of chaotic Delone set, and establish the genericity of chaos in the space of $(ε,δ)$-Delone sets for $ε\\geq δ$. We also present a hyperbolic analogue of the cut-and-project method that naturally produces examples of chaotic Delone sets.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'chaotic Delone sets' and a 'hyperbolic analogue of the cut-and-project method,' with no mention of matroid rank, boolean functions, or communication complexity for k-CLIQUE.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
