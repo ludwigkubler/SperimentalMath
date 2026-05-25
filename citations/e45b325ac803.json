@@ -1,0 +1,40 @@
+{
+  "entry_id": "e45b325ac803",
+  "ts": 1779670036.39095,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1102.1242",
+      "title": "A refinement of Stone duality to skew Boolean algebras",
+      "abstract_excerpt": "We establish two duality theorems which refine the classical Stone duality between generalized Boolean algebras and locally compact Boolean spaces. In the first theorem we prove that the category of left-handed skew Boolean algebras whose morphisms are proper skew Boolean algebra homomorphisms is equivalent to the category of étale spaces over locally compact Boolean spaces whose morphisms are étale space cohomomorphisms over continuous proper maps. In the second theorem we prove that the catego",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Stone duality refinements for skew Boolean algebras and étale spaces, with no mention of Schur-Weyl invariants, random boolean functions, or any ratio bounds relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2603.00603",
+      "title": "Mirabolic Hecke algebras, Schur-Weyl duality and Frobenius character formulas",
+      "abstract_excerpt": "We first introduce a new presentation for the mirabolic Hecke algebra $\\mathscr{H}_{n,R}(q)$ over an arbitrary commutative ring $R$ and derive a new basis. Based on this presentation, specializing to the case of $\\mathscr{H}_n(q)$ over the field $\\mathbb{C}(q)$, we construct a basis for the cocenter of $\\mathscr{H}_n(q)$, which facilitates the definition of its character table. We further establish a Schur--Weyl duality between $\\mathscr{H}_n(q)$ and the quantum group $U_q(\\mathfrak{gl}_r)$. As ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Schur-Weyl duality between mirabolic Hecke algebras and quantum groups, with Frobenius character formulas and a Murnaghan-Nakayama rule — it does not address random boolean functions, circuit complexity, or any ratio invariant ρ(f) of the conjectured form.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2006.13879",
+      "title": "Two dualities: Markov and Schur-Weyl",
+      "abstract_excerpt": "We show that quantum Schur-Weyl duality leads to Markov duality for a variety of asymmetric interacting particle systems. In particular, we consider three cases:\n  (1) Using a Schur-Weyl duality between a two-parameter quantum group and a two-parameter Hecke algebra from arXiv:math/0108038, we recover the Markov self-duality of multi-species ASEP previously discovered in arXiv:1605.00691 and arXiv:1606.04587.\n  (2) From a Schur-Weyl duality between a co-ideal subalgebra of a quantum group and a ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Schur-Weyl duality applied to Markov duality for asymmetric interacting particle systems (ASEP variants), with no mention of random boolean functions, circuit complexity, or invariant ratios ρ_s/ρ_t. It shares only the 'Schur-Weyl' vocabulary but does not interact with the specific conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
