@@ -1,0 +1,40 @@
+{
+  "entry_id": "ea4e3d230b48",
+  "ts": 1779734180.773605,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0502195v2",
+      "title": "Hopf algebra structure on topological Hochschild homology",
+      "abstract_excerpt": "The topological Hochschild homology THH(R) of a commutative S-algebra (E_infty ring spectrum) R naturally has the structure of a commutative R-algebra in the strict sense, and of a Hopf algebra over R in the homotopy category. We show, under a flatness assumption, that this makes the Boekstedt spect",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Hopf algebra structure on topological Hochschild homology of commutative S-algebras, which has no interaction with quasi-morphisms, graph invariants, or XOR circuit complexity lower bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0302340v2",
+      "title": "Pure homology of algebraic varieties",
+      "abstract_excerpt": "We show that for a complete complex algebraic variety the pure component of homology coincides with the image of intersection homology. Therefore pure homology is topologically invariant. To obtain slightly more general results we introduce \"image homology\" for noncomplete varieties.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns pure homology and intersection homology of complex algebraic varieties, with no mention of quasi-morphisms, graph invariants, XOR, or circuit complexity. It shares no substantive content with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1612.03133",
+      "title": "Topological Complexity of the Klein bottle",
+      "abstract_excerpt": "We show that the (normalized) topological complexity of the Klein bottle is $4$. We also show that, for any $g\\geq 2$, $TC(N_g)=4$. This completes the recent work by Dranishnikov on the topological complexity of non-orientable surfaces.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses 'topological complexity' of non-orientable surfaces (Klein bottle, N_g), a homotopy invariant unrelated to quasi-morphisms on graphs or XOR circuit lower bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

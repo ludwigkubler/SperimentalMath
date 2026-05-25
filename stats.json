@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-05-25T17:47:04Z",
-  "total_cycles": 2442,
+  "last_update_utc": "2026-05-25T18:47:15Z",
+  "total_cycles": 2453,
   "verdict_counts": {
-    "INCONCLUSIVE": 1703,
+    "INCONCLUSIVE": 1712,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 652,
+    "BARRIER_HIT": 654,
     "SCOOPED": 67
   },
-  "unique_field_A": 1289,
+  "unique_field_A": 1293,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
@@ -52,7 +52,7 @@
     ],
     [
       "Quandle Theory",
-      20
+      21
     ],
     [
       "Additive Combinatorics",
@@ -63,11 +63,11 @@
       17
     ],
     [
-      "p-adic Analysis",
-      15
+      "Configuration Space Theory",
+      16
     ],
     [
-      "Configuration Space Theory",
+      "p-adic Analysis",
       15
     ]
   ]

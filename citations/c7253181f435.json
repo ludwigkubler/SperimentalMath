@@ -1,0 +1,40 @@
+{
+  "entry_id": "c7253181f435",
+  "ts": 1779732708.3929675,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1204.1444",
+      "title": "Computing the minimum rank of a loop directed tree",
+      "abstract_excerpt": "The minimum rank of a graph is the minimum possible rank of a real matrix whose zero-nonzero pattern is described by the graph. The current algorithms can compute efficiently the minimum rank of undirected trees. This paper provides an algorithm to compute in polynomial time the minimum rank of directed trees allowing loops.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a polynomial-time algorithm for computing minimum rank of loop directed trees, with no mention of configuration space metrics, Tseitin formulas, resolution complexity, or expander properties relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0804.4433",
+      "title": "SPACE: the SPectroscopic All-sky Cosmic Explorer",
+      "abstract_excerpt": "We describe the scientific motivations, the mission concept and the instrumentation of SPACE, a class-M mission proposed for concept study at the first call of the ESA Cosmic-Vision 2015-2025 planning cycle. SPACE aims to produce the largest three-dimensional evolutionary map of the Universe over the past 10 billion years by taking near-IR spectra and measuring redshifts for more than half a billion galaxies at 0&lt;z&lt;2 down to AB~23 over 3πsr of the sky. In addition, SPACE will also target a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes an astronomical space mission for spectroscopic galaxy surveys ('largest three-dimensional evolutionary map of the Universe'), which has no connection to configuration space metrics, Tseitin formulas, or resolution proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1910.01506",
+      "title": "Whistler instability stimulated by the suprathermal electrons present in space plasmas",
+      "abstract_excerpt": "In the absence of efficient collisions, deviations from thermal equilibrium of plasma particle distributions are controlled by the self-generated instabilities. The whistler instability is a notorious example, usually responsible for the regulation of electron temperature anisotropy $A = T_{\\perp}/T_\\parallel&gt;$ (with $\\perp, \\parallel$ respective to the magnetic field direction) observed in space plasmas, e.g., solar wind and planetary magnetospheres. Suprathermal electrons present in these e",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns whistler instability in space plasmas and electron temperature anisotropy ('whistler instability is a notorious example, usually responsible for the regulation of electron temperature anisotropy'), which has no connection to configuration space metrics, Tseitin formulas, or resolution proof complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
