@@ -1,0 +1,40 @@
+{
+  "entry_id": "ec5822c23063",
+  "ts": 1779832430.3478837,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1311.1421",
+      "title": "Multiplicative differential algebraic K-theory and applications",
+      "abstract_excerpt": "We construct a version of Beilinson's regulator as a map of sheaves of commutative ring spectra and use it to define a multiplicative variant of differential algebraic K-theory. We use this theory to give an interpretation of Bloch's construction of K_3-classes and the relation with dilogarithms. Furthermore, we provide a relation to Arakelov theory via the arithmetic degree of metrized line bundles, and we give a proof of the formality of the algebraic K-theory of number rings.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'multiplicative differential algebraic K-theory,' Beilinson's regulator, dilogarithms, and Arakelov theory of number rings — it makes no mention of Frege proof systems, CNF formulas, or proof complexity, so it does not interact with the specific conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1510.06118",
+      "title": "G-theory of root stacks and equivariant K-theory",
+      "abstract_excerpt": "Using the description of the category of quasi-coherent sheaves on a root stack given in the paper of N. Borne and A. Vistoli, we study the G-theory of root stacks via localisation methods. We apply our results to the study of equivariant K-theory of algebraic varieties under certain conditions.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns G-theory of root stacks and equivariant K-theory of algebraic varieties via localisation methods, with no mention of Frege proof systems, CNF formulas, or proof complexity. It shares only the vocabulary 'K-theory' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0604540v4",
+      "title": "Enlargeability and index theory: Infinite covers",
+      "abstract_excerpt": "In a previous paper, we showed nonvaninishing of the universal index elements in the K-theory of the maximal C*-algebras of the fundamental groups of enlargeable spin manifolds. The underlying notion of enlargeability was the one from the first relevant paper of Gromov and Lawson, involving contract",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns nonvanishing of universal index elements in K-theory of C*-algebras of fundamental groups of enlargeable spin manifolds, which shares the 'K-theory' vocabulary but has no connection to Frege proof trees, CNF instances, or exterior power rank bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

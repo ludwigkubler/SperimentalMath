@@ -1,0 +1,31 @@
+{
+  "entry_id": "e8d775b04736",
+  "ts": 1779833305.286286,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:2205.05713",
+      "title": "Concise tensors of minimal border rank",
+      "abstract_excerpt": "We determine defining equations for the set of concise tensors of minimal border rank in $${\\mathbb {C}}^m{\\mathord { \\otimes } }{\\mathbb {C}}^m{\\mathord { \\otimes } }{\\mathbb {C}}^m$$ C m ⊗ C m ⊗ C m when $$m=5$$ m = 5 and the set of concise minimal border rank $$1_*$$ 1 ∗ -generic tensors when $$m",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns defining equations for concise tensors of minimal border rank in C^m⊗C^m⊗C^m, which is a tensor algebra/algebraic geometry topic unrelated to quantum entropy bounds on read-twice branching programs or XOR-AND trees.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10.1109/ACCESS.2023.3301571",
+      "title": "3-D Beamforming Training Using Mutually Unbiased Bases for Cell Discovery in mm-Wave Systems",
+      "abstract_excerpt": "Beamforming training or cell discovery (CD) is a fundamental procedure in millimeter wave communication systems in which the user detects the presence of a base station, acquires the identity of that base station, and finds suitable beamforming directions to establish the wireless link for the subsequent data transmission phase. We consider uniform planar array-based beamforming under both separable and non-separable configurations as it allows confined antenna placements and 3-D steering of bea",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns mm-wave beamforming/cell discovery using mutually unbiased bases for compressive sensing, with no mention of branching programs, XOR-AND tree width, or quantum entropy bounds. It shares only the loose vocabulary of 'quantum information theory' without addressing the conjecture's specific claims.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 0
+  }
+}

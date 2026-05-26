@@ -1,0 +1,40 @@
+{
+  "entry_id": "8698b8096f51",
+  "ts": 1779833095.2420194,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/1202.4918v2",
+      "title": "Quantum decision making by social agents",
+      "abstract_excerpt": "The influence of additional information on the decision making of agents, who are interacting members of a society, is analyzed within the mathematical framework based on the use of quantum probabilities. The introduction of social interactions, which influence the decisions of individual agents, le",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'quantum decision making by social agents' using quantum probabilities, which is unrelated to Hodge theory, Binary Decision Diagrams, or density rank claims in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1801.10489v3",
+      "title": "Hodge level for weighted complete intersections",
+      "abstract_excerpt": "We give lower bounds for Hodge numbers of smooth well formed Fano weighted complete intersections. In particular, we compute their Hodge level, that is, the maximal distance between non-trivial Hodge numbers in the same row of the Hodge diamond. This allows us to classify varieties whose Hodge numbe",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Hodge numbers and Hodge level of weighted complete intersections in algebraic geometry, with no mention of Boolean functions, Binary Decision Diagrams, or any 'Hodge theoretical density' tied to BDD edge counts.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/0906.4316v2",
+      "title": "Constructive Decision Theory",
+      "abstract_excerpt": "In most contemporary approaches to decision making, a decision problem is described by a sets of states and set of outcomes, and a rich set of acts, which are functions from states to outcomes over which the decision maker (DM) has preferences. Most interesting decision problems, however, do not com",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'Constructive Decision Theory' involving states, outcomes, and acts in decision making, which has no connection to Hodge theory, BDDs, or the specific density claim in the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

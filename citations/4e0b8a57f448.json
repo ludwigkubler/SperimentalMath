@@ -1,0 +1,40 @@
+{
+  "entry_id": "4e0b8a57f448",
+  "ts": 1779832102.2804754,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2106.13355",
+      "title": "Cohomology ring of tree braid groups and exterior face rings",
+      "abstract_excerpt": "For a tree $T$ and a positive integer $n$, let $B_nT$ denote the $n$-strand braid group on $T$. We use discrete Morse theory techniques to show that the cohomology ring $H^*(B_nT)$ is encoded by an explicit abstract simplicial complex $K_nT$ that measures $n$-local interactions among essential vertices of $T$. We show that, in many cases (for instance when $T$ is a binary tree), $H^*(B_nT)$ is the exterior face ring determined by $K_nT$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the cohomology ring of tree braid groups encoded by a simplicial complex ('the cohomology ring H^*(B_nT) is encoded by an explicit abstract simplicial complex K_nT'), with no mention of braid monodromy representations, XOR-AND tree width, or k-CLIQUE rank bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2510.04248",
+      "title": "Trisected Rainbows and Braids",
+      "abstract_excerpt": "New explicit procedures for passing among triplane diagrams, braid movies, and braid charts for knotted surfaces in $\\mathbb{R}^4$ are presented. To this end, rainbow diagrams, which lie between braid charts and triplanes, are introduced. Inequalities relating the braid index and the bridge index of 2-knots are obtained via these procedures. Another consequence is a 4-dimensional version of the classical result that ``the minimal number of Seifert circles equals the braid index of a link'' due t",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses braid charts, triplane diagrams, and braid/bridge indices for knotted surfaces in R^4, with no mention of monodromy rank, XOR-AND tree width, k-CLIQUE, or logarithmic complexity bounds. It shares only the 'braid' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2209.03860",
+      "title": "Graph of groups decompositions of graph braid groups",
+      "abstract_excerpt": "We provide an explicit construction that allows one to easily decompose a graph braid group as a graph of groups. This allows us to compute the braid groups of a wide range of graphs, as well as providing two general criteria for a graph braid group to split as a non-trivial free product, answering two questions of Genevois. We also use this to distinguish certain right-angled Artin groups and graph braid groups. Additionally, we provide an explicit example of a graph braid group that is relativ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'graph of groups decompositions' of graph braid groups and questions about free products and relative hyperbolicity, not rank bounds of braid monodromy representations or XOR-AND tree width / k-CLIQUE complexity claims.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
