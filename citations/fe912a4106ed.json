@@ -1,0 +1,40 @@
+{
+  "entry_id": "fe912a4106ed",
+  "ts": 1779814605.1766164,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1105.2538",
+      "title": "Van der Waals energy surface of carbon nanotubes sheet",
+      "abstract_excerpt": "The van der Walls interaction between a carbon nanotubes sheet (CNTS) and a rare gas atom, is studied using both atomistic and continuum approaches. We present analytical expressions for the van der Waals energy of continuous nanotubes interacting with a rare gas atom. It is found that the continuum approach dose not properly treat the effect of atomistic configurations on the energy surfaces. The energy barriers are small as compared to the thermal energy, which implies the free motion above th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns van der Waals interactions between carbon nanotubes and rare gas atoms, an unrelated physics topic with no mention of Eichler orders, Frege proofs, or clause indicator polynomials.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1902.02049",
+      "title": "On the faces of the tensor cone of symmetrizable Kac-Moody lie algebras",
+      "abstract_excerpt": "In this paper, we are interested in the decomposition of the tensor product of two representations ofa symmetrizable Kac-Moody Lie algebra ${\\mathfrak g}$, or more precisely in the tensor cone of~${\\mathfrak g}$.As usual, we parametrize the integrable, highest weight (irreducible) representations of~${\\mathfrak g}$ by their highest weights. Then, the triples of such representations such that the last one is contained in the tensor product of the  first two is a semigroup.This semigroup  generate",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the tensor cone of symmetrizable Kac-Moody Lie algebras and codimension-one faces of inequalities, with no mention of Eichler orders, Frege proof trees, clause indicator polynomials, or rank bounds mod p.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2006.00298",
+      "title": "Reconfiguration of District Heating Network for Operational Flexibility Enhancement in Power System Unit Commitment",
+      "abstract_excerpt": "Massive adoptions of combined heat and power (CHP) units necessitate the coordinated operation of power system and district heating system (DHS). Exploiting the reconfigurable property of district heating networks (DHNs) provides a cost-effective solution to enhance the flexibility of the power system by redistributing heat loads in DHS. In this paper, a unit commitment considering combined electricity and reconfigurable heating network (UC-CERHN) is proposed to coordinate the day-ahead scheduli",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'unit commitment considering combined electricity and reconfigurable heating network' in power systems, which has no relation to Eichler orders, Frege proof trees, or the algebraic/complexity-theoretic conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "54c1c0c0a66c",
+  "ts": 1779815702.1087954,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:cs/0406024",
+      "title": "Layout of Graphs with Bounded Tree-Width",
+      "abstract_excerpt": "A \\emph{queue layout} of a graph consists of a total order of the vertices, and a partition of the edges into \\emph{queues}, such that no two edges in the same queue are nested. The minimum number of queues in a queue layout of a graph is its \\emph{queue-number}. A \\emph{three-dimensional (straight-line grid) drawing} of a graph represents the vertices by points in $\\mathbb{Z}^3$ and the edges by non-crossing line-segments. This paper contributes three main results:\n  (1) It is proved that the m",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns queue-number, three-dimensional drawings, and tree-width of graphs, with no mention of quandles, XOR-AND trees, or minimal rank of quandle structures. It shares only the 'tree-width' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1506.07810",
+      "title": "Canonizing Graphs of Bounded Tree Width in Logspace",
+      "abstract_excerpt": "Graph canonization is the problem of computing a unique representative, a canon, from the isomorphism class of a given graph. This implies that two graphs are isomorphic exactly if their canons are equal. We show that graphs of bounded tree width can be canonized by logarithmic-space (logspace) algorithms. This implies that the isomorphism problem for graphs of bounded tree width can be decided in logspace. In the light of isomorphism for trees being hard for the complexity class logspace, this ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses graph canonization and isomorphism complexity for bounded tree width graphs in logspace, which shares the 'tree width' vocabulary but does not interact with quandle rank bounds or XOR-AND trees.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1211.7353",
+      "title": "Connected tree-width",
+      "abstract_excerpt": "The connected tree-width of a graph is the minimum width of a tree-decomposition whose parts induce connected subgraphs. Long cycles are examples of graphs that have small tree-width but large connected tree-width. We show that a graph has small connected tree-width if and only if it has small tree-width and contains no long geodesic cycle.\n  We further prove a connected analogue of the duality theorem for tree-width: a finite graph has small connected tree-width if and only if it has no bramble",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'connected tree-width' of graphs and its relation to geodesic cycles and hyperbolicity, with no mention of quandles, XOR-AND trees, or minimal rank of algebraic structures. It shares only the general 'tree-width' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

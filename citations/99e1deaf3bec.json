@@ -1,0 +1,40 @@
+{
+  "entry_id": "99e1deaf3bec",
+  "ts": 1779816802.9257457,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/quant-ph/0305192v1",
+      "title": "Photon engineering for quantum information processing",
+      "abstract_excerpt": "We study distinguishing information in the context of quantum interference involving more than one parametric downconversion (PDC) source and in the context of polarization-entangled photon pairs based on PDC. We arrive at specific design criteria for two-photon sources so that when used as part of ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns parametric downconversion photon sources and polarization-entangled photon pairs for quantum information processing, with no mention of Boolean functions, geometric quantization, XOR-AND tree width, or state ranks relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1108.5136",
+      "title": "Scalable Architecture for Quantum Information Processing with Atoms in Optical Micro-Structures",
+      "abstract_excerpt": "We review recent experimental progress towards quantum information processing and quantum simulation using neutral atoms in two-dimensional (2D) arrays of optical microtraps as 2D registers of qubits. We describe a scalable quantum information architecture based on micro-fabricated optical elements, simultaneously targeting the important issues of single-site addressability and scalability. This approach provides flexible and integrable configurations for quantum state storage, manipulation, and",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes an experimental quantum information processing architecture using neutral atoms in optical microtraps, with no mention of geometric quantization, Boolean function complexity, or XOR-AND tree width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2004.10708",
+      "title": "Geometric distinguishability measures limit quantum channel estimation and discrimination",
+      "abstract_excerpt": "Quantum channel estimation and discrimination are fundamentally related information processing tasks of interest in quantum information science. In this paper, we analyze these tasks by employing the right logarithmic derivative Fisher information and the geometric Rényi relative entropy, respectively, and we also identify connections between these distinguishability measures. A key result of our paper is that a chain-rule property holds for the right logarithmic derivative Fisher information an",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses 'geometric Rényi relative entropy' and Fisher information for quantum channel estimation/discrimination, with no mention of geometric quantization of Boolean functions, state rank, or XOR-AND tree width. It shares only loose 'geometric' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
