@@ -1,0 +1,31 @@
+{
+  "entry_id": "8eca55facc91",
+  "ts": 1779785430.854153,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/1004.2159v2",
+      "title": "Algebraic Proofs over Noncommutative Formulas",
+      "abstract_excerpt": "We study possible formulations of algebraic propositional proof systems operating with noncommutative formulas. We observe that a simple formulation gives rise to systems at least as strong as Frege---yielding a semantic way to define a Cook-Reckhow (i.e., polynomially verifiable) algebraic analog o",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses noncommutative algebraic proof systems and their relation to Frege, with no mention of resolution proof width, Tseitin formulas, or hypergeometric series ranks. It shares the broad framework of algebraic/propositional proof complexity but does not interact with the specific conjectured bound.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1710.03219v3",
+      "title": "Stabbing Planes",
+      "abstract_excerpt": "We develop a new semi-algebraic proof system called Stabbing Planes which formalizes modern branch-and-cut algorithms for integer programming and is in the style of DPLL-based modern SAT solvers. As with DPLL there is only a single rule: the current polytope can be subdivided by branching on an ineq",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a new semi-algebraic proof system 'Stabbing Planes' for branch-and-cut integer programming, with no mention of Tseitin formulas, resolution width, or hypergeometric series. It shares the broad proof-complexity framework but does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 0
+  }
+}

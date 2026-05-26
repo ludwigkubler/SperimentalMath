@@ -1,0 +1,40 @@
+{
+  "entry_id": "d5b1c6d3658c",
+  "ts": 1779788068.4318745,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2005.13011",
+      "title": "Exhaustive goodness-of-fit via smoothed inference and graphics",
+      "abstract_excerpt": "Classical tests of goodness-of-fit aim to validate the conformity of a postulated model to the data under study. Given their inferential nature, they can be considered a crucial step in confirmatory data analysis. In their standard formulation, however, they do not allow exploring how the hypothesized model deviates from the truth nor do they provide any insight into how the rejected model could be improved to better fit the data. The main goal of this work is to establish a comprehensive framew",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns statistical goodness-of-fit testing, smoothed bootstrap inference, and CD-plot graphics—no connection to graphical subgroup actions, Frege proof complexity, or SAT, as evidenced by phrases like 'Classical tests of goodness-of-fit' and 'smoothed bootstrap'.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1912.11696",
+      "title": "Orbit spaces of equivariantly formal torus actions of complexity one",
+      "abstract_excerpt": "Let a compact torus $T=T^{n-1}$ act on an orientable smooth compact manifold $X=X^{2n}$ effectively, with nonempty finite set of fixed points, and suppose that stabilizers of all points are connected. If $H^{odd}(X)=0$ and the weights of tangent representation at each fixed point are in general position, we prove that the orbit space $Q=X/T$ is a homology $(n+1)$-sphere. If, in addition, $π_1(X)=0$, then $Q$ is homeomorphic to $S^{n+1}$. We introduce the notion of $j$-generality of tangent weigh",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns torus actions on smooth manifolds, orbit spaces, and equivariant formality in algebraic topology—nothing about graphical subgroups, SAT instances, or Frege proof width. It shares no specific claim with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1511.06913",
+      "title": "Hyperbolic actions and 2nd bounded cohomology of subgroups of $\\text{Out}(F_n)$. Part I: Infinite lamination subgroups",
+      "abstract_excerpt": "In this two part work we prove that for every finitely generated subgroup $Γ&lt; \\text{Out}(F_n)$, either $Γ$ is virtually abelian or $H^2_b(Γ;\\mathbb{R})$ contains an embedding of $\\ell^1$. The method uses actions on hyperbolic spaces, for purposes of constructing quasimorphisms. Here in Part I, after presenting the general theory, we focus on the case of infinite lamination subgroups $Γ$ - those for which the set of all attracting laminations of all elements of $Γ$ is infinite - using actions ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns bounded cohomology of subgroups of Out(F_n) and hyperbolic actions on free splitting complexes, with no mention of graphical subgroup actions, SAT, or Frege proof complexity. It shares no substantive interaction with the conjecture's claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

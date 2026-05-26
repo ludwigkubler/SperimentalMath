@@ -1,0 +1,40 @@
+{
+  "entry_id": "acd6cc56e682",
+  "ts": 1779787615.7139573,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1412.3178",
+      "title": "Some approximation problems in semi-algebraic geometry",
+      "abstract_excerpt": "In this paper we deal with a best approximation of a vector with respect to a closed semi-algebraic set $C$ in the space $\\mathbb{R}^n$ endowed with a semi-algebraic norm $ν$. Under additional assumptions on $ν$ we prove semi-algebraicity of the set of points of unique approximation and other sets associated with the distance to $C$. For $C$ irreducible algebraic we study the critical point correspondence and introduce the $ν$- distance degree, generalizing the notion appearing in \\cite{DHOST} f",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses best approximation of vectors with respect to semi-algebraic sets and norms, including the 'ν-distance degree' — it shares vocabulary like 'approximation' and 'semi-algebraic' but does not address Max-CUT, the SoS hierarchy, quotient algebras Q(G), or 2-norm bounds on polynomials in those algebras.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0911.1783",
+      "title": "Numerical Algebraic Geometry for Macaulay2",
+      "abstract_excerpt": "Numerical Algebraic Geometry uses numerical data to describe algebraic varieties. It is based on the methods of numerical polynomial homotopy continuation, an alternative to the classical symbolic approaches of computational algebraic geometry. We present a package, the driving idea behind which is to interlink the existing symbolic methods of Macaulay2 and the powerful engine of numerical approximate computations. The core procedures of the package exhibit performance competitive with the other",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a Macaulay2 package for numerical polynomial homotopy continuation in algebraic geometry, with no mention of max-CUT, sum-of-squares hierarchies, quotient algebra norms, or approximation thresholds like 0.878.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1908.03713",
+      "title": "Convex Algebraic Geometry of Curvature Operators",
+      "abstract_excerpt": "We study the structure of the set of algebraic curvature operators satisfying a sectional curvature bound under the light of the emerging field of Convex Algebraic Geometry. More precisely, we determine in which dimensions $n$ this convex semialgebraic set is a spectrahedron or a spectrahedral shadow; in particular, for $n\\geq5$, these give new counter-examples to the Helton--Nie Conjecture. Moreover, efficient algorithms are provided if $n=4$ to test membership in such a set. For $n\\geq5$, algo",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns convex algebraic geometry of curvature operators and the Helton-Nie conjecture, with no mention of max-CUT, quotient algebras Q(G) over graphs, or norm bounds on polynomials. It shares only the broad 'algebraic geometry / semidefinite programming' framework but does not interact with the specific claim about c(α)n^(-1/2) bounds tied to the 0.878 approximation threshold.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
