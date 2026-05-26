@@ -1,0 +1,40 @@
+{
+  "entry_id": "13814a99e1d2",
+  "ts": 1779807121.5196874,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2305.06339",
+      "title": "Embeddability of joinpowers, and minimal rank of partial matrices",
+      "abstract_excerpt": "A general position map $f:K\\to M$ of a $k$-dimensional simplicial complex to a $2k$-dimensional manifold (for $k=1$, of a graph to a surface) is a $\\mathbb Z_2$-embedding if $|fσ\\cap fτ|$ is even for any non-adjacent $k$-faces $σ,τ$. We present criteria for $\\mathbb Z_2$-embeddability of certain $k$-dimensional complex (for $k=1$, of any graph) to $2k$-dimensional manifolds. These criteria are\n  $\\bullet$ a `Kuratowski-type' version of the Fulek-Kynčl-Bikeev criteria (for $k=1$), and\n  $\\bullet$",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses Z_2-embeddability of simplicial complexes into manifolds and minimal rank of partial matrices in a geometric-topology context, with no mention of cyclic homology, boolean formulas, or communication complexity. Despite the shared phrase 'minimal rank,' it does not interact with the specific claim relating cyclic homology rank to randomized communication complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2403.09453",
+      "title": "Combinatorics of Essential Sets for Positroids",
+      "abstract_excerpt": "Positroids are a family of matroids introduced by Postnikov in the study of non-negative Grassmannians. Postnikov identified several combinatorial objects in bijections with positroids, among which are bounded affine permutations. On the other hand, the notion of essential sets, introduced for permutations by Fulton, was used by Knutson in the study of the special family of interval rank positroids. We generalize Fulton's essential sets to bounded affine permutations. The bijection of the latter",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns combinatorics of essential sets for positroids and bounded affine permutations, with 'minimal rank conditions' referring to matroid rank on cyclic intervals — unrelated to cyclic homology, boolean formulas, or randomized communication complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2004.10219",
+      "title": "Approximate tensor decompositions: disappearance of many separations",
+      "abstract_excerpt": "It is well-known that tensor decompositions show separations, that is, that constraints on local terms (such as positivity) may entail an arbitrarily high cost in their representation. Here we show that many of these separations disappear in the approximate case. Specifically, for every approximation error $\\varepsilon$ and norm, we define the approximate rank as the minimum rank of an element in the $\\varepsilon$-ball with respect to that norm. For positive semidefinite matrices, we show that t",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses approximate tensor rank decompositions and separations between various rank notions (purification, separable, nonnegative rank), with only a passing mention of 'implications in...communication complexity.' It does not discuss cyclic homology or lower bounds on randomized communication complexity via homological rank.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

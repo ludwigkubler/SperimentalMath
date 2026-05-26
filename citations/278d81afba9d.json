@@ -1,0 +1,40 @@
+{
+  "entry_id": "278d81afba9d",
+  "ts": 1779808206.8689363,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1110.6618",
+      "title": "Brauer relations in finite groups II - quasi-elementary groups of order p^aq",
+      "abstract_excerpt": "This is the second in a series of papers investigating the space of Brauer relations of a finite group, the kernel of the natural map from its Burnside ring to the rational representation ring. The first paper classified all primitive Brauer relations, that is those that do not come from proper subquotients. In the case of quasi-elementary groups the description is intricate, and it does not specify groups that have primitive relations in terms of generators and relations. In this paper we do th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Brauer relations in quasi-elementary finite groups of order p^aq, classifying kernels of Burnside-to-representation-ring maps. It says nothing about symmetric Boolean functions, minimal rank bounds, or 2^n/log(n) vs n^2 dimension estimates.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1911.04516",
+      "title": "Boolean lattices in finite alternating and symmetric groups",
+      "abstract_excerpt": "Given a group $G$ and a subgroup $H$, we let $\\mathcal{O}_G(H)$ denote the lattice of subgroups of $G$ containing $H$. This paper provides a classification of the subgroups $H$ of $G$ such that $\\mathcal{O}_{G}(H)$ is Boolean of rank at least $3$, when $G$ is a finite alternating or symmetric group. Besides some sporadic examples and some twisted versions, there are two different types of such lattices. One type arises by taking stabilizers of chains of regular partitions, and the other type ari",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns classification of Boolean subgroup lattices in finite alternating/symmetric groups, not Brauer groups of symmetric boolean functions or their representation dimensions; the shared 'Boolean' and 'symmetric' vocabulary is coincidental.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1603.02493",
+      "title": "Clifford theory for glider representations",
+      "abstract_excerpt": "Classical Clifford theory studies the decomposition of simple $G$-modules into simple $H$-modules for some normal subgroup $H \\triangleleft G$. In this paper we deal with chains of normal subgroups $1 \\triangleleft G_1 \\triangleleft \\cdots \\triangleleft G_d =G$, which allow to consider fragments and in particular glider representations. These are given by a descending chain of vector spaces over some field $K$ and relate different representations of the groups appearing in the chain. Picking som",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Clifford theory for glider representations over chains of normal subgroups, with no mention of Brauer groups, symmetric boolean functions, or rank bounds like 2^n/log(n) or n^2.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
