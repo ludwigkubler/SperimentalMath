@@ -2210,3 +2210,4 @@
 {"ts": 1779787803.7494836, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 30}}
 {"ts": 1779789603.80755, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 30}}
 {"ts": 1779791404.731738, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 30}}
+{"ts": 1779792601.293581, "ts_iso": "2026-05-26T10:50:01.293581+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "DEGRADED", "to_status": "OK", "failing_checks": [], "auto_fixed": false}
