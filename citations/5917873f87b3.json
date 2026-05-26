@@ -1,0 +1,22 @@
+{
+  "entry_id": "5917873f87b3",
+  "ts": 1779837257.6156392,
+  "hits_evaluated": 1,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/1604.00284v2",
+      "title": "Riemann-Roch isometries in the non-compact orbifold setting",
+      "abstract_excerpt": "We generalize work of Deligne and Gillet-Soulé on a Riemann-Roch type isometry, to the case of the trivial sheaf on cusp compactifications of Riemann surfaces $Γ\\backslash\\mathbb{H}$, for $Γ\\subset PSL_{2}(\\mathbb{R})$ a fuchsian group of the first kind, equipped with the Poincaré metric. This metri",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a Riemann-Roch type isometry for the trivial sheaf on cusp compactifications of Riemann surfaces with the Poincaré metric, generalizing Deligne and Gillet-Soulé. It says nothing about Eichler-Shimura sheaf ranks, 3-CNF formulas, or XOR-AND tree width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 0
+  }
+}

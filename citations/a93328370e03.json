@@ -1,0 +1,31 @@
+{
+  "entry_id": "a93328370e03",
+  "ts": 1779836228.7462196,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:585f3ab9a4c040b8f9c440f771e2ba8ed18a633f",
+      "title": "Computer science -- theory and applications : 8th International Computer Science Symposium in Russia, CSR 2013, Ekaterinburg, Russia, June 25-29, 2013 : proceedings",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available; the cited item is a conference proceedings volume title with no content to evaluate against the conjecture's specific claims about twisted tensor product representations and Tseitin formula width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:12bd432f444c52e493a1c7ad8cd59208e1cd577e",
+      "title": "Proofs and Games Course Material",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available for the cited paper, so I cannot assess whether it supports, refutes, or is orthogonal to the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 2
+  }
+}
