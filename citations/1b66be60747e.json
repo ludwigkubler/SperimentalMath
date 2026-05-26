@@ -1,0 +1,22 @@
+{
+  "entry_id": "1b66be60747e",
+  "ts": 1779803902.3753397,
+  "hits_evaluated": 1,
+  "verdicts": [
+    {
+      "paper_id": "s2:ca44ef9be97a1c211295785ba4b0290db90a6bf2",
+      "title": "international workshop on functions in algebra and geometry 2nd-6th 2022",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available for this citation (it appears to be a workshop announcement), so I cannot assess whether it supports, refutes, or is orthogonal to the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 1
+  }
+}

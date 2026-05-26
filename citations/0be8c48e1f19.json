@@ -1,0 +1,40 @@
+{
+  "entry_id": "0be8c48e1f19",
+  "ts": 1779805362.380525,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2308.14302",
+      "title": "Finite simple characteristic quotients of the free group of rank 2",
+      "abstract_excerpt": "In this paper we describe how to explicitly construct infinitely many finite simple groups as characteristic quotients of the rank 2 free group $F_2$. This shows that a \"baby\" version of the Wiegold conjecture fails for $F_2$, and provides counterexamples to two conjectures in the theory of noncongruence subgroups of $\\text{SL}_2(\\mathbb{Z})$. Our main result explicitly produces, for every prime power $q\\ge 7$, the groups $\\text{SL}_3(\\mathbb{F}_q)$ and $\\text{SU}_3(\\mathbb{F}_q)$ as characteris",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'finite simple characteristic quotients of the free group of rank 2' and Burau representations of braid groups, which shares no interaction with Tseitin circuit valuations or quotient algebra rank bounds for CNF formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2412.20260",
+      "title": "Functorial, operadic and modular operadic combinatorics of circuit algebras",
+      "abstract_excerpt": "Circuit algebras are a symmetric analogue of Jones's planar algebras introduced to study finite-type invariants of virtual knotted objects. Circuit algebra structures appear, in different forms, across mathematics. This paper provides a dictionary for translating between their diverse incarnations and describing their wider context. A formal definition of a broad class of circuit algebras is established and three equivalent descriptions of circuit algebras are provided: in terms of operads of wi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes 'circuit algebras' as a symmetric analogue of Jones's planar algebras for studying finite-type invariants of virtual knots, not Tseitin circuit valuations or CNF formulas; the shared term 'circuit' is incidental and the paper does not address minimal rank bounds of quotient algebras over Boolean circuit valuations.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2108.04557",
+      "title": "Brauer diagrams, modular operads, and a graphical nerve theorem for circuit algebras",
+      "abstract_excerpt": "Circuit algebras, used in the study of finite-type knot invariants, are a symmetric analogue of Jones's planar algebras. They are very closely related to circuit operads, which are a variation of modular operads admitting an extra monoidal product. This paper gives a description of circuit algebras in terms categories of Brauer diagrams. An abstract nerve theorem for circuit operads -- and hence circuit algebras -- is proved using an iterated distributive law, and an existing nerve theorem for m",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'circuit algebras' in the sense of knot-theoretic Brauer diagrams and modular operads, which is unrelated to Tseitin circuit valuations or rank bounds on quotient algebras in complexity theory.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

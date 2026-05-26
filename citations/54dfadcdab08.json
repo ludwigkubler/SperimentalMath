@@ -1,0 +1,40 @@
+{
+  "entry_id": "54dfadcdab08",
+  "ts": 1779806484.8204288,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1009.2975",
+      "title": "2-plectic geometry, Courant algebroids, and categorified prequantization",
+      "abstract_excerpt": "A 2-plectic manifold is a manifold equipped with a closed nondegenerate 3-form, just as a symplectic manifold is equipped with a closed nondegenerate 2-form. In 2-plectic geometry we meet higher analogues of many structures familiar from symplectic geometry. For example, any 2-plectic manifold has a Lie 2-algebra consisting of smooth functions and Hamiltonian 1-forms. This is equipped with a Poisson-like bracket which only satisfies the Jacobi identity up to `coherent chain homotopy'. Over any 2",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 2-plectic geometry, Courant algebroids, and categorified prequantization, with no mention of symplectic leaves' rank or arithmetic circuit complexity. It shares only general symplectic vocabulary but does not interact with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1612.04764",
+      "title": "Cohomological aspects on complex and symplectic manifolds",
+      "abstract_excerpt": "We discuss how quantitative cohomological informations could provide qualitative properties on complex and symplectic manifolds. In particular we focus on the Bott-Chern and the Aeppli cohomology groups in both cases, since they represent useful tools in studying non Kähler geometry. We give an overview on the comparisons among the dimensions of the cohomology groups that can be defined and we show how we reach the $\\partial\\overline\\partial$-lemma in complex geometry and the Hard-Lefschetz cond",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Bott-Chern/Aeppli cohomology, the ∂∂̄-lemma, and the Hard-Lefschetz condition on complex/symplectic manifolds — it makes no mention of symplectic leaves, arithmetic circuits, or rank bounds relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1109.2952",
+      "title": "Upper bound on distance in the pants complex",
+      "abstract_excerpt": "The purpose of this paper is to establish an upper bound on the distance between two pants decompositions in the pants complex for a closed surface of genus g &gt;= 2. This is done by use of graph theory. First distance is found in the pants graph modulo the action of the mapping class group, and then between pants decompositions within an orbit of this action.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'an upper bound on the distance between two pants decompositions in the pants complex for a closed surface,' which is a topological/combinatorial result unrelated to symplectic leaves or arithmetic circuit complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

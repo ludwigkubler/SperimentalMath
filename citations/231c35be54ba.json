@@ -1,0 +1,40 @@
+{
+  "entry_id": "231c35be54ba",
+  "ts": 1779806014.3239005,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1611.09315",
+      "title": "Oddness of residually reducible Galois representations",
+      "abstract_excerpt": "We show that suitable congruences between polarized automorphic forms over a CM field always produce elements in the Selmer group for exactly the +/--Asai (aka tensor induction) representation that is critical in the sense of Deligne. For this we relate the oddness of the associated polarized Galois representations (in the sense of the Bellaïche-Chenevier sign being +1) to the parity condition for criticality. Under an assumption similar to Vandiver's conjecture this also provides evidence for t",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses oddness of polarized Galois representations, Selmer groups, and the Fontaine-Mazur conjecture over CM fields — it shares the 'Galois representation' vocabulary but has no interaction with Tseitin circuits, circuit-size bounds, or minimal order in 𝔽_p as defined in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2001.08287",
+      "title": "Wild Galois representations: a family of hyperelliptic curves with large inertia image",
+      "abstract_excerpt": "In this work we generalise the main result of arXiv:1812.05651 to the family of hyperelliptic curves with potentially good reduction over a $p$-adic field which have degree $p$ and the largest possible image of inertia under the $\\ell$-adic Galois representation associated to its Jacobian. We will prove that this Galois representation factors as the tensor product of an unramified character and an irreducible representation of a finite group, which can be either equal to the inertia image (in wh",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns ℓ-adic Galois representations of hyperelliptic Jacobians over p-adic fields and their inertia images, with no mention of Tseitin circuits, clause counts, or any complexity-theoretic quantity matching the conjectured Θ(m^{1/2}) bound.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1407.5802",
+      "title": "Galois representations and Galois groups over Q",
+      "abstract_excerpt": "In this paper we generalize results of P. Le Duff to genus n hyperelliptic curves. More precisely, let C/Q be a hyperelliptic genus n curve and let J(C) be the associated Jacobian variety. Assume that there exists a prime p such that J(C) has semistable reduction with toric dimension 1 at p. We provide an algorithm to compute a list of primes l (if they exist) such that the Galois representation attached to the l-torsion of J(C) is surjective onto the group GSp(2n, l). In particular we realize G",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns surjectivity of Galois representations attached to l-torsion of Jacobians of hyperelliptic curves onto GSp(2n,l), with no mention of Tseitin circuits, circuit size, or any complexity-theoretic object relevant to the conjecture's Θ(m^{1/2}) claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

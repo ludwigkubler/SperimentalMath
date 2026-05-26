@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-05-26T13:47:04Z",
-  "total_cycles": 2691,
+  "last_update_utc": "2026-05-26T14:47:04Z",
+  "total_cycles": 2707,
   "verdict_counts": {
-    "INCONCLUSIVE": 1857,
+    "INCONCLUSIVE": 1869,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 740,
+    "BARRIER_HIT": 744,
     "SCOOPED": 74
   },
-  "unique_field_A": 1393,
+  "unique_field_A": 1398,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
@@ -31,12 +31,12 @@
       39
     ],
     [
-      "Algebraic Combinatorics",
+      "Symplectic Geometry",
       37
     ],
     [
-      "Symplectic Geometry",
-      36
+      "Algebraic Combinatorics",
+      37
     ],
     [
       "Matroid Theory",

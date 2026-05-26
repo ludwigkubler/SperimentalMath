@@ -1,0 +1,40 @@
+{
+  "entry_id": "72f5d2e9bc93",
+  "ts": 1779804689.6849024,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1704.08965",
+      "title": "Decomposition of sets in real algebraic geometry",
+      "abstract_excerpt": "We present a new notion of decomposition of semialgebraic sets by introducing a mode of irreducibility based on arc-analytic functions. The result is a refinement of the decomposition of such sets with respect to the Zariski topology as well as a refinement of the decomposition in each of the recent approaches based on Nash and continuous rational functions. In addition, by pairing the ring of arc-analytic functions with semialgebraic sets, we obtain a theory of algebraic geometry equipped with ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses decomposition of semialgebraic sets via arc-analytic functions and tools like the Nullstellensatz, with no mention of Hodge decomposition, CNF formulas, Tseitin circuits, or Boolean complexity. It shares no substantive interaction with the conjecture's specific claims.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1611.00152",
+      "title": "New problems in universal algebraic geometry illustrated by boolean equations",
+      "abstract_excerpt": "We discuss new problems in universal algebraic geometry and explain them by boolean equations.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract mentions 'universal algebraic geometry' and 'boolean equations' but does not engage with Hodge decomposition, k-CNF formulas, or Tseitin circuit complexity bounds. Shared vocabulary only, no interaction with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2302.04014",
+      "title": "Extension of Hodge norms at infinity",
+      "abstract_excerpt": "It is a long-standing problem in Hodge theory to generalize the Satake--Baily--Borel (SBB) compactification of a locally Hermitian symmetric space to arbitrary period maps. A proper topological SBB-type completion has been constructed, and the problem of showing that the construction is algebraic has been reduced to showing that the compact fibres A of the completion admit neighborhoods X satisfying certain properties. All but one of those properties has been established; the outstanding problem",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns extending Hodge norms for pseudoconvex neighborhoods in SBB-type compactifications of period maps, with no mention of Boolean formulas, circuit complexity, or rank bounds related to k-CNF formulas. It shares only the 'Hodge' vocabulary but does not interact with the conjecture's specific claims.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

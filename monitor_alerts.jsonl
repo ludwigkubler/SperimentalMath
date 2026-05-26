@@ -2220,7 +2220,7 @@
 {"ts": 1779800406.1051545, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 30}}
 {"ts": 1779802204.164038, "kind": "NOTEBOOK_LARGE", "auto_fixed": false, "detail": {"size_mb": 50.24964}}
 {"ts": 1779802204.8418481, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 30}}
-{"ts": 1779804301.601596, "ts_iso": "2026-05-26T14:05:01.601596+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "OK", "to_status": "CRITICAL", "failing_checks": ["explorer_process"], "auto_fixed": false}
-{"ts": 1779804601.773501, "ts_iso": "2026-05-26T14:10:01.773501+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "CRITICAL", "to_status": "OK", "failing_checks": [], "auto_fixed": false}
-{"ts": 1779805204.779811, "ts_iso": "2026-05-26T14:20:04.779811+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "OK", "to_status": "DEGRADED", "failing_checks": ["ram_above_1g"], "auto_fixed": false}
-{"ts": 1779805501.057772, "ts_iso": "2026-05-26T14:25:01.057772+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "DEGRADED", "to_status": "OK", "failing_checks": [], "auto_fixed": false}
+{"ts": 1779804002.9723134, "kind": "NOTEBOOK_LARGE", "auto_fixed": false, "detail": {"size_mb": 50.400547}}
+{"ts": 1779804003.6837516, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 30}}
+{"ts": 1779805803.5410428, "kind": "NOTEBOOK_LARGE", "auto_fixed": false, "detail": {"size_mb": 50.556077}}
+{"ts": 1779805804.2348537, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 30}}

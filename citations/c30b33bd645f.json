@@ -1,0 +1,40 @@
+{
+  "entry_id": "c30b33bd645f",
+  "ts": 1779806196.9892426,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1404.3510",
+      "title": "Minimal Faithful Upper-Triangular Matrix Representations for Solvable Lie Algebras",
+      "abstract_excerpt": "A well-known result on Lie Theory states that every finite-dimensional complex solvable Lie algebra can be represented as a matrix Lie algebra, with upper-triangular square matrices as elements. However, this result does not specify which is the minimal order of the matrices involved in such representations. Hence, the main goal of this paper is to revisit and implement a method to compute both that minimal order and a matrix representative for a given solvable Lie algebra. As application of thi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns minimal-order upper-triangular matrix representations of finite-dimensional solvable Lie algebras, with no mention of Galois representations, quantum query complexity, or computational complexity classes like P/NP that the conjecture concerns.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2507.19571",
+      "title": "Minimal-order groups with an irreducible character of degree $p$ or $p^2$",
+      "abstract_excerpt": "We characterize the finite groups of minimal order that admit an irreducible complex character of degree $p$ or $p^2$, where $p$ is a prime.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract characterizes finite groups of minimal order admitting an irreducible character of degree p or p^2, a pure representation theory result with no mention of Galois representations, quantum query complexity, or polynomial-time functions referenced in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2603.20641",
+      "title": "Predictability of Observables of Dynamical Systems",
+      "abstract_excerpt": "We study the evolution of observables of dynamical systems. For linear systems, we show that observables satisfy a closed differential equation whose minimal order is determined by the dynamical system and observation operator. This yields a minimal order closure and an equivalent discrete delay representation of the observable dynamics. For nonlinear systems we introduce the notion of diminishing ambiguity, which provides a framework under which the instantaneous observable dynamics can be appr",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns minimal order of closed differential equations for observables of dynamical systems, not Galois representations, quantum query complexity, or algebraic K-theory. The shared term 'minimal order' is purely coincidental vocabulary overlap.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
