@@ -1,0 +1,40 @@
+{
+  "entry_id": "33444a7917ed",
+  "ts": 1779780184.1872704,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1102.2932",
+      "title": "Applications of Monotone Rank to Complexity Theory",
+      "abstract_excerpt": "Raz's recent result \\cite{Raz2010} has rekindled people's interest in the study of \\emph{tensor rank}, the generalization of matrix rank to high dimensions, by showing its connections to arithmetic formulas. In this paper, we follow Raz's work and show that \\emph{monotone rank}, the monotone variant of tensor rank and matrix rank, has applications in algebraic complexity, quantum computing and communication complexity. This paper differs from Raz's paper in that it leverages existing results to ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses monotone rank applications to algebraic complexity, quantum correlations, and a multiparty generalization of the log-rank conjecture in deterministic communication complexity — it makes no claim about Geometric Langlands duality or about randomized communication complexity tracking the rank of Langlands dual objects.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2302.00039",
+      "title": "Between Coherent and Constructible Local Langlands Correspondences",
+      "abstract_excerpt": "Refined forms of the local Langlands correspondence seek to relate representations of reductive groups over local fields with sheaves on stacks of Langlands parameters. But what kind of sheaves? Conjectures in the spirit of Kazhdan-Lusztig theory (due to Vogan and Soergel) describe representations of a group and its pure inner forms with fixed central character in terms of constructible sheaves. Conjectures in the spirit of geometric Langlands (due to Fargues, Zhu and Hellmann) describe represen",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses interpolating between coherent and constructible local Langlands correspondences via cyclic homology and circle actions, with no mention of Boolean functions, randomized communication complexity, or rank bounds tied to communication protocols.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1202.2110",
+      "title": "Langlands Program, Trace Formulas, and their Geometrization",
+      "abstract_excerpt": "The Langlands Program relates Galois representations and automorphic representations of reductive algebraic groups. The trace formula is a powerful tool in the study of this connection and the Langlands Functoriality Conjecture. After giving an introduction to the Langlands Program and its geometric version, which applies to curves over finite fields and over the complex field, I give a survey of my recent joint work with Robert Langlands and Ngo Bao Chau (arXiv:1003.4578 and arXiv:1004.5323) on",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the Langlands Program, trace formulas, and their geometrization in the context of Galois representations and automorphic representations of reductive algebraic groups, with no mention of Boolean functions, communication complexity, or any computational/rank correspondence to R(f).",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

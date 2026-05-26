@@ -1,0 +1,40 @@
+{
+  "entry_id": "c3063a12e8cb",
+  "ts": 1779780650.8783412,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0904.1347",
+      "title": "The product on smooth and generalized valuations",
+      "abstract_excerpt": "The product of smooth valuations on manifolds is described in terms of differential forms, Gelfand transforms and blow-up spaces. It is shown that the product extends partially to generalized valuations and corresponds geometrically to transversal intersections. This result is used to prove a general kinematic formula on compact rank one symmetric spaces.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes products of smooth/generalized valuations on manifolds via differential forms and kinematic formulas on symmetric spaces, which shares only the word 'valuation' with the conjecture and does not address quadratic form rank, Boolean matrices, or communication complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1008.3482",
+      "title": "Product numerical range in a space with tensor product structure",
+      "abstract_excerpt": "We study operators acting on a tensor product Hilbert space and investigate their product numerical range, product numerical radius and separable numerical range. Concrete bounds for the product numerical range for Hermitian operators are derived. Product numerical range of a non-Hermitian operator forms a subset of the standard numerical range containing the barycenter of the spectrum. While the latter set is convex, the product range needs not to be convex nor simply connected. The product num",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'product numerical range' of operators on tensor product Hilbert spaces and Minkowski products of numerical ranges, with no reference to Boolean matrices, quadratic form rank, or communication complexity. It shares only the loose term 'tensor product' but does not address the conjecture's claim about minimal rank Θ(log n).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1709.08394",
+      "title": "Contravariant Form on Tensor Product of Highest Weight Modules",
+      "abstract_excerpt": "We give a criterion for complete reducibility of tensor product $V\\otimes Z$ of two irreducible highest weight modules $V$ and $Z$ over a classical or quantum semi-simple group in terms of a contravariant symmetric bilinear form on $V\\otimes Z$. This form is the product of the canonical contravariant forms on $V$ and $Z$. Then $V\\otimes Z$ is completely reducible if and only if the form is non-degenerate when restricted to the sum of all highest weight submodules in $V\\otimes Z$ or equivalently ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns complete reducibility criteria for tensor products of highest weight modules over semi-simple groups via a contravariant bilinear form, with no mention of Boolean matrices, communication complexity, or minimal rank of quadratic forms scaling as Θ(log n).",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

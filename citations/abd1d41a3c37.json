@@ -1,0 +1,40 @@
+{
+  "entry_id": "abd1d41a3c37",
+  "ts": 1779781030.5181503,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1703.07521",
+      "title": "Lifting randomized query complexity to randomized communication complexity",
+      "abstract_excerpt": "We show that for a relation $f\\subseteq \\{0,1\\}^n\\times \\mathcal{O}$ and a function $g:\\{0,1\\}^{m}\\times \\{0,1\\}^{m} \\rightarrow \\{0,1\\}$ (with $m= O(\\log n)$), $$\\mathrm{R}_{1/3}(f\\circ g^n) = Ω\\left(\\mathrm{R}_{1/3}(f) \\cdot \\left(\\log\\frac{1}{\\mathrm{disc}(M_g)} - O(\\log n)\\right)\\right),$$ where $f\\circ g^n$ represents the composition of $f$ and $g^n$, $M_g$ is the sign matrix for $g$, $\\mathrm{disc}(M_g)$ is the discrepancy of $M_g$ under the uniform distribution and $\\mathrm{R}_{1/3}(f)$ (",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns lifting randomized query complexity to randomized communication complexity via composition with gadgets like Inner Product, with no mention of configuration spaces, cohomology, or disjointness specifically. It shares the 'randomized communication complexity' framework but does not interact with the claimed link to H^1(C(n), R).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2307.04441",
+      "title": "Randomized Communication and Implicit Representations for Matrices and Graphs of Small Sign-Rank",
+      "abstract_excerpt": "We prove a characterization of the structural conditions on matrices of sign-rank 3 and unit disk graphs (UDGs) which permit constant-cost public-coin randomized communication protocols. Therefore, under these conditions, these graphs also admit implicit representations.\n  The sign-rank of a matrix $M \\in \\{\\pm 1\\}^{N \\times N}$ is the smallest rank of a matrix $R$ such that $M_{i,j} = \\mathrm{sign}(R_{i,j})$ for all $i,j \\in [N]$; equivalently, it is the smallest dimension $d$ in which $M$ can ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns sign-rank, unit disk graphs, and the Greater-Than problem in randomized communication complexity, with no mention of configuration spaces, cohomology, or the Disjointness function. It shares the broad framework of communication complexity but does not interact with the specific claim relating H^1(C(n), R) to CC_R(DISJ_n).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1811.10525",
+      "title": "Quantum Log-Approximate-Rank Conjecture is also False",
+      "abstract_excerpt": "In a recent breakthrough result, Chattopadhyay, Mande and Sherif [ECCC TR18-17] showed an exponential separation between the log approximate rank and randomized communication complexity of a total function $f$, hence refuting the log approximate rank conjecture of Lee and Shraibman [2009]. We provide an alternate proof of their randomized communication complexity lower bound using the information complexity approach. Using the intuition developed there, we derive a polynomially-related quantum c",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the log-approximate-rank conjecture and quantum communication complexity separations, with no mention of configuration spaces or H^1 cohomology. It shares the 'communication complexity' vocabulary but does not address the specific link to configuration space cohomology rank.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
