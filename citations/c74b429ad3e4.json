@@ -1,0 +1,40 @@
+{
+  "entry_id": "c74b429ad3e4",
+  "ts": 1779813410.6526663,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2412.03444",
+      "title": "A new fidelity of quantum channel evolution and its geometric interpretation",
+      "abstract_excerpt": "Fidelity is crucial for characterizing transformations of quantum states under various quantum channels, which can be served as a fundamental tool in resource theories. Firstly, we define an $α$-$z$-fidelity as a significant quantity in quantum information theory and give the properties of the fidelity with orders $α$ and $z$. Secondly, by analyzing the $α$-$z$-fidelity under the evolution of different types of quantum channels (single orbit, all quantum channels, unitary quantum channels, and m",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns α-z-fidelity of quantum channel evolution and a geometric interpretation of distances between quantum states, with no mention of Tseitin formulas, circuit width, resolution refutations, or rank lower bounds of geometric quantizations.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2403.09252",
+      "title": "Reverse em-problem based on Bregman divergence and its application to classical and quantum information theory",
+      "abstract_excerpt": "The recent paper (IEEE Trans. IT 69, 1680) introduced an analytical method for calculating the channel capacity without the need for iteration. This method has certain limitations that restrict its applicability. Furthermore, the paper does not provide an explanation as to why the channel capacity can be solved analytically in this particular case. In order to broaden the scope of this method and address its limitations, we turn our attention to the reverse em-problem, proposed by Toyota (Inform",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'reverse em-problem based on Bregman divergence' for analytical computation of channel capacity, which does not interact with Tseitin formulas, resolution refutation lower bounds, or geometric quantization rank.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2406.19060",
+      "title": "Semi-definite optimization of the measured relative entropies of quantum states and channels",
+      "abstract_excerpt": "The measured relative entropies of quantum states and channels find operational significance in quantum information theory as achievable error rates in hypothesis testing tasks. They are of interest in the near term, as they correspond to hybrid quantum--classical strategies with technological requirements far less challenging to implement than required by the most general strategies allowed by quantum mechanics. In this paper, we prove that these measured relative entropies can be calculated ef",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses semi-definite programming for measured relative entropies in quantum hypothesis testing, which shares no specific connection to Tseitin formulas, resolution refutation lower bounds, or geometric quantization rank as defined in the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

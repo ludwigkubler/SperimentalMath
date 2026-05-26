@@ -1,0 +1,31 @@
+{
+  "entry_id": "f04e7389ce87",
+  "ts": 1779813584.6521704,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.1364/oe.27.035565",
+      "title": "Photonic quantization and encoding scheme with improved bit resolution based on waveform folding.",
+      "abstract_excerpt": "Taylor's scheme for photonic quantization and encoding based on Mach-Zehnder modulators (MZMs) requires that the employed MZMs have geometrically scaled half-wave voltages (Vπ), which is impractical even with the state-of-art photonic fabrication techniques when the desired bit resolution is greater than 3 or 4 bits. The approaches based on the phase-shifting of modulation transfer functions eliminate the need of geometrically scaled Vπ, but they realize lower resolution than Taylor's scheme as ",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a photonic analog-to-digital conversion scheme using Mach-Zehnder modulators and waveform folding for bit resolution, which shares only the word 'quantization' with the conjecture but has no connection to geometric quantization spaces or resolution proof trees in proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10.1007/s10596-025-10367-5",
+      "title": "Alternative dissolution-rate controlled model and time adaptive, high resolution scheme for site-scale subsurface carbon sequestration simulation",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available, and the title concerns subsurface carbon sequestration simulation, which appears unrelated to resolution proof complexity or geometric quantization, but without abstract content I cannot make a definitive assessment.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}

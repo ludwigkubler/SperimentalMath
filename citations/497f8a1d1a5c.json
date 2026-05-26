@@ -1,0 +1,40 @@
+{
+  "entry_id": "497f8a1d1a5c",
+  "ts": 1779813220.7984178,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2110.08774",
+      "title": "Nonlinear Transform Induced Tensor Nuclear Norm for Tensor Completion",
+      "abstract_excerpt": "The linear transform-based tensor nuclear norm (TNN) methods have recently obtained promising results for tensor completion. The main idea of this type of methods is exploiting the low-rank structure of frontal slices of the targeted tensor under the linear transform along the third mode. However, the low-rankness of frontal slices is not significant under linear transforms family. To better pursue the low-rank approximation, we propose a nonlinear transform-based TNN (NTTNN). More concretely, t",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses 'nonlinear transform-based tensor nuclear norm' for tensor completion of images/videos, with no mention of Frege proof depth, explicit functions in P, or minimal tensor rank bounds related to proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1911.04180",
+      "title": "Compositional Hierarchical Tensor Factorization: Representing Hierarchical Intrinsic and Extrinsic Causal Factors",
+      "abstract_excerpt": "Visual objects are composed of a recursive hierarchy of perceptual wholes and parts, whose properties, such as shape, reflectance, and color, constitute a hierarchy of intrinsic causal factors of object appearance. However, object appearance is the compositional consequence of both an object's intrinsic and extrinsic causal factors, where the extrinsic causal factors are related to illumination, and imaging conditions. Therefore, this paper proposes a unified tensor model of wholes and parts, an",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'compositional hierarchical tensor factorization' for visual object/face recognition, with no mention of Frege proof depth, complexity theory, or minimal tensor rank bounds for explicit functions in P.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1708.08633",
+      "title": "Remarks on the Crouzeix-Palencia proof that the numerical range is a $(1+\\sqrt2)$-spectral set",
+      "abstract_excerpt": "Crouzeix and Palencia recently showed that the numerical range of a Hilbert-space operator is a $(1+\\sqrt2)$-spectral set for the operator. One of the principal ingredients of their proof can be formulated as an abstract functional-analysis lemma. We give a new short proof of the lemma and show that, in the context of this lemma, the constant $(1+\\sqrt2)$ is sharp.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the Crouzeix-Palencia proof that the numerical range is a $(1+\\sqrt2)$-spectral set for Hilbert-space operators, which has no interaction with tensor ranks, Frege proof depth, or explicit functions in P.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
