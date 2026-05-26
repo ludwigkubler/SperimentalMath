@@ -1,25 +1,25 @@
-# SEC P-vs-NP — System Status: **🔴 CRITICAL**
+# SEC P-vs-NP — System Status: **🟢 OK**
 
-_Updated: 2026-05-26T14:05:01.601596+00:00 (auto-refresh every 5 min)_
+_Updated: 2026-05-26T14:10:01.773501+00:00 (auto-refresh every 5 min)_
 
-- CRITICAL failures: **1**
+- CRITICAL failures: **0**
 - DEGRADED failures: **0**
 
 ## Checks
 
 | Check | Result | Detail |
 |:------|:-------|:-------|
-| `explorer_process` | 🔴 | proc scan failed: [Errno 3] No such process |
+| `explorer_process` | ✅ | pid 448512 |
 | `explorer_singleton` | ✅ | 1 explorer process(es) |
 | `explorer_cycle_fresh` | ✅ | last activity 0.00h ago |
 | `sec_entity_service` | ✅ | active |
 | `cron_service` | ✅ | active |
 | `gpu` | ✅ | NVIDIA GeForce RTX 3070 Ti |
 | `disk_under_90pct` | ✅ | 16% used |
-| `ram_above_1g` | ✅ | 13615 MB available |
-| `mirror_git_fresh` | ✅ | last commit 0.30h ago |
+| `ram_above_1g` | ✅ | 13111 MB available |
+| `mirror_git_fresh` | ✅ | last commit 0.08h ago |
 | `mirror_git_pushed` | ✅ | 0 unpushed (within tolerance) |
-| `notebook_growing` | ✅ | newest entry 0.34h ago |
+| `notebook_growing` | ✅ | newest entry 0.43h ago |
 | `entity_audit_log` | ✅ | dir ok, no entries today (chat-idle) |
 | `cron_logs_no_trace` | ✅ | all clean |
 | `watchdog_self_heartbeat` | ✅ | 5.0 min ago |
