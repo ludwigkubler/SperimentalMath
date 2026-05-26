@@ -1,0 +1,40 @@
+{
+  "entry_id": "73f4cc5b7dc5",
+  "ts": 1779831899.4060814,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2102.01659",
+      "title": "Capacity and quantum geometry of parametrized quantum circuits",
+      "abstract_excerpt": "To harness the potential of noisy intermediate-scale quantum devices, it is paramount to find the best type of circuits to run hybrid quantum-classical algorithms. Key candidates are parametrized quantum circuits that can be effectively implemented on current devices. Here, we evaluate the capacity and trainability of these circuits using the geometric structure of the parameter space via the effective quantum dimension, which reveals the expressive power of circuits in general as well as of par",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses 'effective quantum dimension' and expressivity of parametrized quantum circuits for variational algorithms, not boolean circuits or noncommutative quantum entropy rank bounds in terms of log_2(m). It shares quantum-circuit vocabulary but does not interact with the specific conjectured bound.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2211.01525",
+      "title": "Exploring quantum geometry created by quantum matter",
+      "abstract_excerpt": "Exactly soluble models can serve as excellent tools to explore conceptual issues in non-perturbative quantum gravity. In perturbative approaches, it is only the two radiative modes of the linearized gravitational field that are quantized. The goal of this investigation is to probe the `Coulombic' aspects of quantum geometry that are governed entirely by matter sources. Since there are no gravitational waves in 3 dimensions, 3-d gravity coupled to matter provides an ideal arena for this task. Our",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns '3-d gravity coupled to matter' and 'Coulombic aspects of quantum geometry,' with no mention of boolean circuits, entropy rank bounds, or noncommutative quasiparticle representations. It shares no specific claim with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2210.10776",
+      "title": "Quantum Alchemy and Universal Orthogonality Catastrophe in One-Dimensional Anyons",
+      "abstract_excerpt": "Many-particle quantum systems with intermediate anyonic exchange statistics are supported in one spatial dimension. In this context, the anyon-anyon mapping is recast as a continuous transformation that generates shifts of the statistical parameter $κ$. We characterize the geometry of quantum states associated with different values of $κ$, i.e., different quantum statistics. While states in the bosonic and fermionic subspaces are always orthogonal, overlaps between anyonic states are generally f",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the geometry of anyonic quantum states and an 'orthogonality catastrophe governed by a fundamental statistical factor,' with no mention of boolean circuits, circuit complexity, or rank bounds on noncommutative quantum entropy. It shares only loose vocabulary (quantum, statistics) with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
