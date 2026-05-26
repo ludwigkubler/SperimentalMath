@@ -1,0 +1,31 @@
+{
+  "entry_id": "8bd3855d67fc",
+  "ts": 1779757342.3061743,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:1603.09235",
+      "title": "The Hodge theory of the Decomposition Theorem (after de Cataldo and Migliorini)",
+      "abstract_excerpt": "In its simplest form the Decomposition Theorem asserts that the rational intersection cohomology of a complex projective variety occurs as a summand of the cohomology of any resolution. This deep theorem has found important applications in algebraic geometry, representation theory, number theory and",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the Decomposition Theorem for rational intersection cohomology of complex projective varieties, which shares the 'Hodge' vocabulary but does not address Boolean functions or resolution proof width in the DPLL complexity sense.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:ARXIV:1811.03644",
+      "title": "Extending holomorphic forms from the regular locus of a complex space to a resolution of singularities",
+      "abstract_excerpt": "We investigate under what conditions holomorphic forms defined on the regular locus of a reduced complex space extend to holomorphic (or logarithmic) forms on a resolution of singularities. We give a simple necessary and sufficient condition for this, whose proof relies on the Decomposition Theorem and Saito’s theory of mixed Hodge modules. We use it to generalize the theorem of Greb-Kebekus-Kovács-Peternell to complex spaces with rational singularities, and to prove the existence of a functoria",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns extending holomorphic forms from regular loci to resolutions of singularities in complex geometry, with no mention of Boolean functions, resolution proof complexity, or width bounds. It shares only the loose vocabulary of 'Hodge' theory but does not interact with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 0
+  }
+}
