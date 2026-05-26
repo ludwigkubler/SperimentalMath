@@ -1,0 +1,40 @@
+{
+  "entry_id": "bc2ea1f29a82",
+  "ts": 1779776743.3574715,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2311.03041",
+      "title": "On the unitary representation theory of locally compact contraction groups",
+      "abstract_excerpt": "The unitary representation theory of locally compact contraction groups and their semi-direct products with $\\mathbb{Z}$ is studied. We put forward the problem of completely characterising such groups which are type I or CCR and this article provides a stepping stone towards a solution to this problem. In particular, we determine new examples of type I and non-type-I groups in this class, and we completely classify the irreducible unitary representations of the torsion-free groups, which are sho",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns unitary representation theory of locally compact contraction groups and their actions on regular trees, with no mention of Tseitin resolution, symmetric function rank, or proof complexity width. It shares only the superficial 'tree' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0609339v3",
+      "title": "On distinguishing trees by their chromatic symmetric functions",
+      "abstract_excerpt": "Let $T$ be an unrooted tree. The \\emph{chromatic symmetric function} $X_T$, introduced by Stanley, is a sum of monomial symmetric functions corresponding to proper colorings of $T$. The \\emph{subtree polynomial} $S_T$, first considered under a different name by Chaudhary and Gordon, is the bivariate",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns chromatic symmetric functions and subtree polynomials of unrooted trees (Stanley's invariant), which shares the 'symmetric function' and 'tree' vocabulary but does not address Tseitin resolution trees, rank of associated functions, or width-based complexity bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1902.01595",
+      "title": "Integral means inequalities, convolution, and univalent functions",
+      "abstract_excerpt": "We use the Baernstein star-function to investigate several questions about the integral means of the convolution of two analytic functions in the unit disc. The theory of univalent functions plays a basic role in our work.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns integral means, convolution, and univalent functions in the unit disc via the Baernstein star-function — entirely unrelated to symmetric function rank, Tseitin resolution trees, or proof complexity width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
