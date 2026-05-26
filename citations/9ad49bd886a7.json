@@ -1,0 +1,40 @@
+{
+  "entry_id": "9ad49bd886a7",
+  "ts": 1779772137.2958848,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2412.05161",
+      "title": "DNF: Unconditional 4D Generation with Dictionary-based Neural Fields",
+      "abstract_excerpt": "While remarkable success has been achieved through diffusion-based 3D generative models for shapes, 4D generative modeling remains challenging due to the complexity of object deformations over time. We propose DNF, a new 4D representation for unconditional generative modeling that efficiently models deformable shapes with disentangled shape and motion while capturing high-fidelity details in the deforming objects. To achieve this, we propose a dictionary learning approach to disentangle 4D motio",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes 'DNF', a 4D generative model using 'dictionary-based neural fields' for deformable shape generation, which shares only the acronym 'DNF' with monotone DNF formulas and has no connection to matroid rank or k-CLIQUE circuit complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0704.1574",
+      "title": "Retarded electric and magnetic fields of a moving charge: Feynman's derivation of Liénard-Wiechert potentials revisited",
+      "abstract_excerpt": "Retarded electromagnetic potentials are derived from Maxwell's equations and the Lorenz condition. The difference found between these potentials and the conventional Liénard-Wiechert ones is explained by neglect, for the latter, of the motion-dependence of the effective charge density. The corresponding retarded fields of a point-like charge in arbitary motion are compared with those given by the formulae of Heaviside, Feynman, Jefimenko and other authors. The fields of an accelerated charge giv",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns retarded electromagnetic potentials and Liénard-Wiechert fields in electrodynamics, which has no interaction with matroid rank bounds for monotone k-CLIQUE DNF formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2208.13728",
+      "title": "Compressible Topological Vector Spaces",
+      "abstract_excerpt": "The optimum subspace decomposition of the infinite-dimensional compressible random processes in the locally convex Hausdorff space has been propose and its dimension has been measured. We conduct topological analysis of finite- and infinite-dimensional compressible vector spaces. We prove that if there are a sufficient number of separating points in compressible topological vector space, the Banach Limit coincides the minimal linear functional. Then, optimum orthogonal decomposition of the compr",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns topological vector spaces, Banach limits, and Frechet distance metrics for compressible signal spaces, with no mention of matroids, monotone circuit complexity, or k-CLIQUE. It shares no substantive interaction with the conjecture's claim about matroid rank lower bounds for k-CLIQUE DNF formulas.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

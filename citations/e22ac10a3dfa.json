@@ -1,0 +1,40 @@
+{
+  "entry_id": "e22ac10a3dfa",
+  "ts": 1779774404.8706062,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/2311.03743v2",
+      "title": "A general framework for the analytic Langlands correspondence",
+      "abstract_excerpt": "We discuss a general framework for the analytic Langlands correspondence over an arbitrary local field F introduced and studied in our works arXiv:1908.09677, arXiv:2103.01509 and arXiv:2106.05243, in particular including non-split and twisted settings. Then we specialize to the archimedean cases (F",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses a 'general framework for the analytic Langlands correspondence over an arbitrary local field F' with no mention of branching programs, ranks, or complexity bounds. It shares vocabulary (Langlands) but does not interact with the conjecture's specific claim about read-twice BP gate functions.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1609.09030v2",
+      "title": "S-duality of boundary conditions and the Geometric Langlands program",
+      "abstract_excerpt": "Maximally supersymmetric gauge theory in four dimensions admits local boundary conditions which preserve half of the bulk supersymmetries. The S-duality of the bulk gauge theory can be extended in a natural fashion to act on such half-BPS boundary conditions. The purpose of this note is to explain t",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns S-duality of half-BPS boundary conditions in 4D supersymmetric gauge theory and its relation to Geometric Langlands, with no mention of read-twice branching programs, ranks, or complexity bounds relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2302.00039v1",
+      "title": "Between Coherent and Constructible Local Langlands Correspondences",
+      "abstract_excerpt": "Refined forms of the local Langlands correspondence seek to relate representations of reductive groups over local fields with sheaves on stacks of Langlands parameters. But what kind of sheaves? Conjectures in the spirit of Kazhdan-Lusztig theory (due to Vogan and Soergel) describe representations o",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses local Langlands correspondences relating representations to sheaves on stacks of Langlands parameters, with no mention of branching programs, rank bounds, or computational complexity measures invoked by the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

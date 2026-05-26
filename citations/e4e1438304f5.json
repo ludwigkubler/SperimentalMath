@@ -1,0 +1,40 @@
+{
+  "entry_id": "e4e1438304f5",
+  "ts": 1779773468.762863,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2004.01445",
+      "title": "Cox rings of algebraic stacks",
+      "abstract_excerpt": "We give a proper definition of the multiplicative structure of the following rings: the Cox ring of invertible sheaves on a general algebraic stack; and the Cox ring of rank one reflexive sheaves on a normal and excellent algebraic stack. We show that such Cox rings always exist and establish their (non-)uniqueness in terms of an Ext-group. Moreover, we compare our definition with the classical construction of a Cox ring on a variety. Finally, we give an application to the theory of Mori dream s",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Cox rings of invertible/reflexive sheaves on algebraic stacks and Mori dream stacks, with no mention of boolean functions, output complexity, or rank bounds of the kind in the conjecture. It shares only the generic vocabulary 'algebraic stack.'",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2311.09208",
+      "title": "Absolute noetherian approximation of algebraic stacks",
+      "abstract_excerpt": "We show that every quasi-compact and quasi-separated algebraic stack can be approximated by a noetherian algebraic stack. We give several applications such as eliminating noetherian hypotheses in the theory of good moduli spaces.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'absolute noetherian approximation' of quasi-compact, quasi-separated algebraic stacks and applications to good moduli spaces, which shares only the general framework of algebraic stacks with the conjecture and does not address ranks, boolean functions, or output complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0904.1166",
+      "title": "Finiteness theorems for the Picard objects of an algebraic stack",
+      "abstract_excerpt": "We prove some finiteness theorems for the Picard functor of an algebraic stack, in the spirit of SGA 6, exp. XII and XIII. In particular, we give a stacky version of Raynaud's relative representability theorem, we give sufficient conditions for the existence of the torsion component of the Picard functor, and for the finite generation of the Neron-Severi groups or of the Picard group itself. We give some examples and applications. In an appendix, we prove the semicontinuity theorem for a (non ne",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns finiteness theorems for Picard functors of algebraic stacks (Raynaud-style representability, Neron-Severi groups), with no mention of boolean functions, output complexity, or rank bounds tied to F_2 function spaces.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

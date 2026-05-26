@@ -1,0 +1,40 @@
+{
+  "entry_id": "a5e755d746ac",
+  "ts": 1779770886.7865007,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1502.02240",
+      "title": "On the K-theory of linear groups",
+      "abstract_excerpt": "We prove that for a finitely generated linear group G over a field of positive characteristic the family of quotients by finite subgroups has finite asymptotic dimension. We use this to show that the K-theoretic assembly map for the family of finite subgroups is split injective for every finitely generated linear group G over a commutative ring with unit under the assumption that G admits a finite-dimensional model for the classifying space for the family of finite subgroups. Furthermore, we pro",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns K-theoretic assembly maps and asymptotic dimension for linear groups, with no mention of communication complexity, entanglement dimension, or minimal rank bounds tied to such problems. It shares only the 'K-theory' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1311.1421",
+      "title": "Multiplicative differential algebraic K-theory and applications",
+      "abstract_excerpt": "We construct a version of Beilinson's regulator as a map of sheaves of commutative ring spectra and use it to define a multiplicative variant of differential algebraic K-theory. We use this theory to give an interpretation of Bloch's construction of K_3-classes and the relation with dilogarithms. Furthermore, we provide a relation to Arakelov theory via the arithmetic degree of metrized line bundles, and we give a proof of the formality of the algebraic K-theory of number rings.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns differential algebraic K-theory, Beilinson's regulator, and Arakelov theory of number rings — it never mentions communication complexity, entanglement dimension, or minimal rank bounds related to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1811.09564",
+      "title": "Dévissage for Waldhausen K-theory",
+      "abstract_excerpt": "A dévissage-type theorem in algebraic $K$-theory is a statement that identifies the $K$-theory of a Waldhausen category $\\mathscr{C}$ in terms of the $K$-theories of a collection of Waldhausen subcategories of $\\mathscr{C}$ when a dévissage condition about the existence of appropriate finite filtrations is satisfied. We distinguish between dévissage theorems of single type and of multiple type, depending on the number of Waldhausen subcategories and their properties. The main representative exam",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns dévissage theorems identifying K-theory of Waldhausen categories via subcategory filtrations, with no mention of communication complexity, entanglement dimensions, or rank lower bounds tied to such problems.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
