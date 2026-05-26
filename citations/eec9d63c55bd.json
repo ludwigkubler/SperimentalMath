@@ -1,0 +1,40 @@
+{
+  "entry_id": "eec9d63c55bd",
+  "ts": 1779819823.7667427,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1106.1543",
+      "title": "Heun's equation, generalized hypergeometric function and exceptional Jacobi polynomial",
+      "abstract_excerpt": "We study Heun's differential equation in the case that one of the singularities is apparent. In particular we conjecture a relationship with generalized hypergeometric differential equation and establish it in some cases. We apply our results to exceptional Jacobi polynomials.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Heun's equation, generalized hypergeometric differential equations, and exceptional Jacobi polynomials, but makes no mention of XOR-AND tree width, complexity theory, or rank bounds of solutions in terms of tree leaves. It shares only the 'generalized hypergeometric' vocabulary without addressing the specific complexity-theoretic claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0412065v2",
+      "title": "Hessian polyhedra, invariant theory and Appell hypergeometric partial differential equations",
+      "abstract_excerpt": "It is well-known that Klein's lectures on the icosahedron and the solution of equations of fifth degree is one of the most important and influential books of 19th-century mathematics. In the present paper, we will give the complex counterpart of Klein's book, i.e., a story about complex regular poly",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes 'complex regular polyhedra' and Appell hypergeometric PDEs as a complex counterpart to Klein's icosahedron work, with no mention of XOR-AND tree width, rank bounds, or complexity-theoretic connections relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2507.00027",
+      "title": "Conditions for solving polynomial equations using algebraic and hypergeometric functions",
+      "abstract_excerpt": "In this paper, we focus on clarifying the concept of solving equations of degree greater than six using continuous functions or hypergeometric functions and providing another proof of the non-existence of algebraic solutions for equations of degree greater than four. According to the Kolmogorov-Arnold theorem, we will prove that equations of degree greater than five cannot be solved without special conditions between their coefficients using hypergeometric functions. However, we prove that trino",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns solving polynomial equations via hypergeometric functions and the Kolmogorov-Arnold theorem, with no mention of XOR-AND tree width, ranks of solutions to (Dx)^k y = (1-x)y, or any complexity-theoretic bound like O(n^2 log n).",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

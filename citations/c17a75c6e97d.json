@@ -1,0 +1,40 @@
+{
+  "entry_id": "c17a75c6e97d",
+  "ts": 1779821132.9167058,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0402188v5",
+      "title": "Structures and Representations of Generalized Path Algebras",
+      "abstract_excerpt": "It is shown that an algebra $Λ$ can be lifted with nilpotent Jacobson radical $r = r(Λ)$ and has a generalized matrix unit $\\{e_{ii}\\}_I$ with each $\\bar e_{ii} $ in the center of $\\bar Λ= Λ/r$ iff $Λ$ is isomorphic to a generalized path algebra with weak relations. Representations of the generalize",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses lifting algebras with nilpotent Jacobson radical and generalized path algebras with weak relations, which shares no specific overlap with minimal rank bounds of Schur algebras parameterized by XOR-AND tree width and depth.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0711.0795",
+      "title": "Finite-Dimensional Representations of Hyper Loop Algebras Over Non-Algebraically Closed Fields",
+      "abstract_excerpt": "We study finite-dimensional representations of hyper loop algebras over non-algebraically closed fields. The main results concern the classification of the irreducible representations, the construction of the Weyl modules, base change, tensor products of irreducible and Weyl modules, and the block decomposition of the underlying abelian category. Several results are interestingly related to the study of irreducible representations of polynomial algebras and Galois theory.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns finite-dimensional representations of hyper loop algebras, Weyl modules, and block decompositions over non-algebraically closed fields, with no mention of Schur algebras, XOR-AND trees, tree width, or rank bounds relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1005.0140",
+      "title": "Representations of hom-Lie algebras",
+      "abstract_excerpt": "In this paper, we study representations of hom-Lie algebras. In particular, the adjoint representation and the trivial representation of hom-Lie algebras are studied in detail. Derivations, deformations, central extensions and derivation extensions of hom-Lie algebras are also studied as an application.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns representations of hom-Lie algebras, including derivations, deformations, and central extensions, with no mention of Schur algebras, XOR-AND trees, tree width, or minimal rank bounds. It shares no specific interaction with the conjecture's claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

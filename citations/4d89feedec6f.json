@@ -1,0 +1,40 @@
+{
+  "entry_id": "4d89feedec6f",
+  "ts": 1779820794.4554522,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0706.3841",
+      "title": "Arithmetic lattices and weak spectral geometry",
+      "abstract_excerpt": "This note is an expansion of three lectures given at the workshop \"Topology, Complex Analysis and Arithmetic of Hyperbolic Spaces\" held at Kyoto University in December of 2006 and will appear in the proceedings for this workshop.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes lecture notes on arithmetic lattices and weak spectral geometry of hyperbolic spaces, with no mention of arithmetic progressions, ACC⁰ lower bounds, or explicit functions in P. It shares no substantive content with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2410.10707",
+      "title": "Cusp types of arithmetic hyperbolic manifolds",
+      "abstract_excerpt": "We establish necessary and sufficient conditions for determining when a flat manifold can occur as a cusp cross-section within a given commensurability class of cusped arithmetic hyperbolic manifolds. This reduces the problem of identifying which commensurability classes of arithmetic hyperbolic manifolds can contain a specific flat manifold as a cusp cross-section to a question involving rational representations of the flat manifold's holonomy group. More generally we show that the holonomy rep",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns cusp cross-sections of arithmetic hyperbolic manifolds and holonomy representations of flat manifolds, with no connection to arithmetic progressions, ACC⁰ lower bounds, or minimal ranks of solution sets to systems defined by explicit functions in P.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2410.15580",
+      "title": "Language Models are Symbolic Learners in Arithmetic",
+      "abstract_excerpt": "The prevailing question in LM performing arithmetic is whether these models learn to truly compute or if they simply master superficial pattern matching. In this paper, we argues for the latter, presenting evidence that LMs act as greedy symbolic learners, prioritizing the simplest possible shortcuts to fit the stats of dataset to solve arithmetic tasks. To investigate this, we introduce subgroup induction, a practical framework adapted from Solomonoff Induction (SI), one of the most powerful un",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns how language models learn arithmetic via 'symbolic shortcuts' and 'subgroup induction', not about minimal ranks of arithmetic progressions or ACC⁰ complexity lower bounds. It shares no claims about the rank of AP solution sets or explicit functions in P.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "04a45b9fed58",
+  "ts": 1779819416.219246,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1308.2286",
+      "title": "A tau-conjecture for Newton polygons",
+      "abstract_excerpt": "One can associate to any bivariate polynomial P(X,Y) its Newton polygon. This is the convex hull of the points (i,j) such that the monomial X^i Y^j appears in P with a nonzero coefficient. We conjecture that when P is expressed as a sum of products of sparse polynomials, the number of edges of its Newton polygon is polynomially bounded in the size of such an expression. We show that this \"tau-conjecture for Newton polygons,\" even in a weak form, implies that the permanent polynomial is not compu",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a tau-conjecture about Newton polygons of bivariate polynomials and its implications for arithmetic circuit lower bounds for the permanent — it does not address Coxeter group orbit lengths or Tseitin formulas/resolution refutation size.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2209.07583",
+      "title": "Combinatorial geometry of neural codes, neural data analysis, and neural networks",
+      "abstract_excerpt": "This dissertation explores applications of discrete geometry in mathematical neuroscience. We begin with convex neural codes, which model the activity of hippocampal place cells and other neurons with convex receptive fields. In Chapter 4, we introduce order-forcing, a tool for constraining convex realizations of codes, and use it to construct new examples of non-convex codes with no local obstructions. In Chapter 5, we relate oriented matroids to convex neural codes, showing that a code has a r",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns convex neural codes, oriented matroids, underlying rank of matrices, and threshold-linear networks in mathematical neuroscience—it makes no mention of Coxeter groups, Tseitin formulas, or resolution refutations relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2111.05762",
+      "title": "Non-dimensional Newton-Puiseux Expansions",
+      "abstract_excerpt": "Recent results in the theory and application of Newton-Puiseux expansions, i.e. fractional power series solutions of equations, suggest further developments within a more abstract algebraic-geometric framework, involving in particular the theory of toric varieties and ideals. Here, we present a number of such developments, especially in relation to the equations of van der Pol, Riccati, and Schrödinger. Some pure mathematical concepts we are led to are Graver, Gröbner, lattice and circuit bases,",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Newton-Puiseux expansions, toric ideals, and dimensional analysis applied to differential equations like van der Pol and Schrödinger; it mentions 'combinatorial geometry' as vocabulary but does not address Coxeter group orbits, Tseitin formulas, or resolution refutation size.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
