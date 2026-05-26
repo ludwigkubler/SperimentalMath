@@ -1,0 +1,40 @@
+{
+  "entry_id": "de9120da4107",
+  "ts": 1779824379.422939,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1311.0326",
+      "title": "Bounds for the Stieltjes Transform and the Density of States of Wigner Matrices",
+      "abstract_excerpt": "We consider ensembles of Wigner matrices, whose entries are (up to the symmetry constraints) independent and identically distributed random variables. We show the convergence of the Stieltjes transform towards the Stieltjes transform of the semicircle law on optimal scales and with the optimal rate. Our bounds improve previous results, in particular from [22,10], by removing the logarithmic corrections. As applications, we establish the convergence of the eigenvalue counting functions with the r",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Stieltjes transforms and eigenvalue rigidity of Wigner random matrices, with no engagement with graph Laplacians, Boolean functions, or ACC⁰ lower bounds mentioned in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1701.08557",
+      "title": "Thin circulant matrices and lower bounds on the complexity of some Boolean operators",
+      "abstract_excerpt": "We prove a lower bound $Ω\\left(\\frac{k+l}{k^2l^2}N^{2-\\frac{k+l+2}{kl}}\\right)$ on the maximal possible weight of a $(k,l)$-free (that is, free of all-ones $k\\times l$ submatrices) Boolean circulant $N \\times N$ matrix. The bound is close to the known bound for the class of all $(k,l)$-free matrices. As a consequence, we obtain new bounds for several complexity measures of Boolean sums' systems and a lower bound $Ω(N^2\\log^{-6} N)$ on the monotone complexity of the Boolean convolution of order $",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses lower bounds on weights of (k,l)-free Boolean circulant matrices and monotone complexity of Boolean convolution, with no mention of graph Laplacian rank or ACC⁰ lower bounds for explicit functions.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2111.06135",
+      "title": "Decay bounds for Bernstein functions of Hermitian matrices with applications to the fractional graph Laplacian",
+      "abstract_excerpt": "For many functions of matrices $f(A)$, it is known that their entries exhibit a rapid -- often exponential or even superexponential -- decay away from the sparsity pattern of the matrix $A$. In this paper we specifically focus on the class of Bernstein functions, which contains the fractional powers $A^α$, $α\\in (0,1)$ as an important special case, and derive new decay bounds by exploiting known results for the matrix exponential in conjunction with the Lévy--Khintchine integral representation. ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns decay bounds for Bernstein functions of Hermitian matrices and fractional graph Laplacians in network dynamics, with no mention of Boolean functions, circuit complexity, or ACC⁰ lower bounds. It shares only the term 'graph Laplacian' but does not interact with the conjecture's claim about minimal Laplacian rank and complexity lower bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "3991253c57dc",
+  "ts": 1779822743.8203497,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2105.12016",
+      "title": "Waring ranks of sextic binary forms via geometric invariant theory",
+      "abstract_excerpt": "We determine the Waring ranks of all sextic binary forms with complex coefficients using a Geometric Invariant Theory approach. Using the five basic invariants for sextic binary forms, our results give a rapid method to determine the Waring rank of any given sextic binary form. In particular, we shed new light on a claim by E. B. Elliott at the end of the 19th century concerning the binary sextics with Waring rank 3. We show that for binary forms of arbitrary degree the cactus rank, a.k.a. schem",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Waring ranks of sextic binary forms via classical geometric invariant theory, with no mention of Boolean algebras, ACC⁰ complexity, or the Kahn-Smorodsky hierarchy. It shares only the generic term 'geometric invariant' but does not interact with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/quant-ph/0301144v2",
+      "title": "The Lie Algebra Rank Condition for Non-Bilinear Quantum System",
+      "abstract_excerpt": "The controllability condition for finite dimensional quantum systems, the\n Lie Algebra Rank Condition, has been stated assuming that the right invariant differential system under consideration is bilinear. We remark that this assumption is not necessary and discuss the extension to the general case.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the Lie Algebra Rank Condition for controllability of quantum systems, which shares only the generic word 'rank' with the conjecture about Kahn-Smorodsky invariants and ACC⁰ lower bounds. It has no interaction with Boolean algebra invariants or circuit complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0708.0766",
+      "title": "Invariant rigid geometric structures and smooth projective factors",
+      "abstract_excerpt": "We consider actions of non-compact simple Lie groups preserving an analytic rigid geometric structure of algebraic type on a compact manifold. The structure is not assumed to be unimodular, so an invariant measure may not exist. Ergodic stationary measures always exist, and when such a measure has full support, we show the following.\n  1) Either the manifold admits a smooth equivariant map onto a homogeneous projective variety, defined on an open dense conull invariant set, or the Lie algebra of",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Lie group actions preserving rigid geometric structures on compact manifolds and 'smooth projective factors,' with no mention of Boolean algebras, ACC⁰ complexity, or the Kahn-Smorodsky hierarchy. It shares no substantive interaction with the conjecture's claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

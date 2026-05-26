@@ -1,0 +1,40 @@
+{
+  "entry_id": "95d8ba0e68c2",
+  "ts": 1779821688.6930432,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1101.2456",
+      "title": "Polynomial representations and categorifications of Fock Space",
+      "abstract_excerpt": "The rings of symmetric polynomials form an inverse system whose limit, the ring of symmetric functions, is the model for the bosonic Fock space representation of the affine Lie algebra. We categorify this construction by considering an inverse limit of categories of polynomial representation of general linear groups. We show that this limit naturally carries an action of the affine Lie algebra (in the sense of Rouquier), thereby obtaining a famiy of categorifications of the bosonic Fock space re",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns categorification of bosonic Fock space via polynomial representations of general linear groups and affine Lie algebra actions, with no mention of Boolean functions, quaternionic representations, or XOR-AND tree width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2412.13827",
+      "title": "Bounds for the Zeros of Quaternionic Polynomials and Regular Functions Using Matrix Techniques",
+      "abstract_excerpt": "We investigate the problem of determining the zeros of quaternionic polynomials using matrix method. In a recent paper, Dar et al. \\cite{RD} proved that the zeros of a quaternionic polynomial and the left eigenvalues of the corresponding companion matrix are identical. Building on this, we employ various newly developed matrix techniques to establish several results concerning the location of the zeros of regular polynomials of a quaternionic variable with quaternionic coefficients. These findin",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'the zeros of quaternionic polynomials' and 'left eigenvalues of the corresponding companion matrix,' which is unrelated to Boolean function representation theory or XOR-AND tree width. The shared vocabulary is limited to 'quaternionic,' with no interaction with the specific conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0711.0795",
+      "title": "Finite-Dimensional Representations of Hyper Loop Algebras Over Non-Algebraically Closed Fields",
+      "abstract_excerpt": "We study finite-dimensional representations of hyper loop algebras over non-algebraically closed fields. The main results concern the classification of the irreducible representations, the construction of the Weyl modules, base change, tensor products of irreducible and Weyl modules, and the block decomposition of the underlying abelian category. Several results are interestingly related to the study of irreducible representations of polynomial algebras and Galois theory.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns finite-dimensional representations of hyper loop algebras over non-algebraically closed fields, with no mention of Boolean functions, quaternionic representations, or XOR-AND tree width. It shares no specific claim with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
