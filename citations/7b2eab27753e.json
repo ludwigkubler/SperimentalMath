@@ -1,0 +1,40 @@
+{
+  "entry_id": "7b2eab27753e",
+  "ts": 1779754935.5616896,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1410.8670",
+      "title": "Free-fermion Entanglement Spectrum through Wannier Interpolation",
+      "abstract_excerpt": "Quantum Entanglement plays an ubiquitous role in theoretical physics, from the characterization of novel phases of matter to understanding the efficacy of numerical algorithms. As such, there have been extensive studies on the entanglement spectrum (ES) of free-fermion systems, particularly in the relation between its spectral flow and topological charge pumping. However, far less has been studied about the \\emph{spacing} between adjacent entanglement eigenenergies, which affects the truncation ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns asymptotic bounds on entanglement spectrum spacings in free-fermion systems via Wannier interpolation, with no mention of noncommutative geometry, minimal index of entanglement, or algebra spectral degrees as in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1405.7816",
+      "title": "Fluctuations and Entanglement spectrum in quantum Hall states",
+      "abstract_excerpt": "The measurement of quantum entanglement in many-body systems remains challenging. One experimentally relevant fact about quantum entanglement is that in systems whose degrees of freedom map to free fermions with conserved total particle number, exact relations hold relating the Full Counting Statistics associated with the bipartite charge fluctuations and the sequence of R\\' enyi entropies. We draw a correspondence between the bipartite charge fluctuations and the entanglement spectrum, mediated",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns entanglement spectra and charge fluctuations in quantum Hall systems via Rényi entropies, with no claim about bounding a 'minimal index of entanglement' by the spectrum of a noncommutative algebra. It shares vocabulary (entanglement spectrum) but does not interact with the specific conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1108.2907",
+      "title": "Trace Index and Spectral Flow in the Entanglement Spectrum",
+      "abstract_excerpt": "We investigate the entanglement spectra of topological insulators which manifest edge states on a lattice with spatial boundaries. In the physical energy spectrum, a subset of the edge states that intersect the Fermi level translates to discontinuities in the trace of the single-particle entanglement spectrum, which we call a `trace index'. We find that any free-fermion topological insulator that exhibits spectral flow has a non-vanishing trace index, which provides us with a new description of ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'trace index' and 'spectral flow' in entanglement spectra of topological insulators, which shares vocabulary (index, spectrum, entanglement) but does not address bounds on a 'minimal index of entanglement' by spectral degrees of a noncommutative algebra.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

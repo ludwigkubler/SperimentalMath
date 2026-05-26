@@ -1,0 +1,40 @@
+{
+  "entry_id": "7dfe087dda98",
+  "ts": 1779753813.9658508,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2001.01608",
+      "title": "The plethory of operations in complex topological K-theory",
+      "abstract_excerpt": "We provide a concrete introduction to the topologised, graded analogue of an algebraic structure known as a plethory, originally due to Tall and Wraith. Stacey and Whitehouse showed this structure is present on the cohomology operations for a suitable generalised cohomology theory. We compute an explicit expression for the plethory of operations for complex topological K-theory. This is formulated in terms of a plethory enhanced with structure corresponding to the looping of operations. In this ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the plethory structure of cohomology operations in complex topological K-theory and lambda operations, with no mention of monomial ideals, random complexity, or K_0 of ideals over F_q. It shares only the 'K-theory' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1601.06285v3",
+      "title": "Twisted iterated algebraic K-theory and topological T-duality for sphere bundles",
+      "abstract_excerpt": "We introduce a periodic form of the iterated algebraic K-theory of ku, the (connective) complex K-theory spectrum, as well as a natural twisting of this cohomology theory by higher gerbes. Furthermore, we prove a form of topological T-duality for sphere bundles oriented with respect to this theory.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns iterated algebraic K-theory of the complex K-theory spectrum and topological T-duality for sphere bundles, with no mention of random monomial ideals, finite fields F_q, or complexity/probability bounds relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2207.08378",
+      "title": "Non-unital algebraic $K$-theory and almost mathematics",
+      "abstract_excerpt": "The Gersten conjecture is still an open problem of algebraic $K$-theory for mixed characteristic discrete valuation rings. In this paper, we establish non-unital algebraic $K$-theory which is modified to become an exact functor from the category of non-unital algebras to the stable\n  $\\infty$-category of spectra. We prove that for any almost unital algebra, the non-unital $K$-theory homotopically decomposes into the non-unital $K$-theory the corresponding ideal and the residue algebra, implying ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses non-unital algebraic K-theory, almost mathematics, and the Gersten conjecture for DVRs, with no mention of random monomial ideals, probabilistic complexity, or bounds on |K_0(I)| over F_q. It shares only the general vocabulary of 'K-theory' and 'ideals' without engaging the specific probabilistic claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
