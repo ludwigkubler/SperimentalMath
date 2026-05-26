@@ -2222,3 +2222,4 @@
 {"ts": 1779802204.8418481, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 30}}
 {"ts": 1779804301.601596, "ts_iso": "2026-05-26T14:05:01.601596+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "OK", "to_status": "CRITICAL", "failing_checks": ["explorer_process"], "auto_fixed": false}
 {"ts": 1779804601.773501, "ts_iso": "2026-05-26T14:10:01.773501+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "CRITICAL", "to_status": "OK", "failing_checks": [], "auto_fixed": false}
+{"ts": 1779805204.779811, "ts_iso": "2026-05-26T14:20:04.779811+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "OK", "to_status": "DEGRADED", "failing_checks": ["ram_above_1g"], "auto_fixed": false}
