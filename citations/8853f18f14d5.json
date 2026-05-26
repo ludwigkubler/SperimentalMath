@@ -1,0 +1,40 @@
+{
+  "entry_id": "8853f18f14d5",
+  "ts": 1779826330.7154624,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1403.8106",
+      "title": "Recent advances on the log-rank conjecture in communication complexity",
+      "abstract_excerpt": "The log-rank conjecture is one of the fundamental open problems in communication complexity. It speculates that the deterministic communication complexity of any two-party function is equal to the log of the rank of its associated matrix, up to polynomial factors. Despite much research, we still know very little about this conjecture. Recently, there has been renewed interest in this conjecture and its relations to other fundamental problems in complexity theory. This survey describes some of th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the log-rank conjecture relating communication complexity to matrix rank, not to dimensions of Weil representations or AND/OR trees specifically. It shares the 'communication complexity' framework but does not interact with the specific claim about Weil representation dimensions.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0808.2447",
+      "title": "Quadratic reciprocity and the sign of the Gauss sum via the finite Weil representation",
+      "abstract_excerpt": "We give new proofs of two basic results in number theory: The law of quadratic reciprocity and the sign of the Gauss sum. We show that these results are encoded in the relation between the discrete Fourier transform and the action of the Weyl element in the Weil representation modulo p,q and pq.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns proofs of quadratic reciprocity and Gauss sum signs via the finite Weil representation, with no mention of Boolean functions, communication complexity, or AND/OR trees—it shares only the 'Weil representation' vocabulary.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0902.0668",
+      "title": "Application of the Weil representation: diagonalization of the discrete Fourier transform",
+      "abstract_excerpt": "We survey a new application of the Weil representation to construct a canonical basis of eigenvectors for the discrete Fourier transform (DFT). The transition matrix from the standard basis to the canonical basis defines a novel transform which we call the discrete oscillator transform (DOT for short). In addition, we describe a fast algorithm for computing the DOT in certain cases.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes using Weil representations to construct eigenvector bases for the discrete Fourier transform and a fast DOT algorithm — it shares the 'Weil representation' vocabulary but says nothing about Boolean functions, communication complexity, or AND/OR trees.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

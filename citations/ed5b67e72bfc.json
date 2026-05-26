@@ -1,0 +1,40 @@
+{
+  "entry_id": "ed5b67e72bfc",
+  "ts": 1779825632.930932,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0705.1732",
+      "title": "Fibers of tropicalization",
+      "abstract_excerpt": "We use functoriality of tropicalization and the geometry of projections of subvarieties of tori to show that the fibers of the tropicalization map are dense in the Zariski topology. For subvarieties of tori over fields of generalized power series, points in each tropical fiber are obtained \"constructively\" using Kedlaya's transfinite version of Newton's method.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses density of fibers of the tropicalization map and constructive point-finding via Newton's method, with no mention of Hodge classes, BDDs, or rank bounds. It shares only the 'tropicalization' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1105.0509",
+      "title": "Implicitization of surfaces via geometric tropicalization",
+      "abstract_excerpt": "In this paper we further develop the theory of geometric tropicalization due to Hacking, Keel and Tevelev and we describe tropical methods for implicitization of surfaces. More precisely, we enrich this theory with a combinatorial formula for tropical multiplicities of regular points in arbitrary dimension and we prove a conjecture of Sturmfels and Tevelev regarding sufficient combinatorial conditions to compute tropical varieties via geometric tropicalization. Using these two results, we extend",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses 'tropical implicitization of surfaces' via geometric tropicalization and combinatorial multiplicity formulas, with no mention of Hodge classes, binary decision diagrams, characteristic polynomials mod p, or BDD width bounds. It shares only the vocabulary of tropicalization without interacting with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1907.08545",
+      "title": "Positively Hyperbolic Varieties, Tropicalization, and Positroids",
+      "abstract_excerpt": "A variety of codimension $c$ in complex affine space is called positively hyperbolic if the imaginary part of any point in it does not lie in any positive linear subspace of dimension $c$. Positively hyperbolic hypersurfaces are defined by stable polynomials. We give a new characterization of positively hyperbolic varieties using sign variations, and show that they are equivalently defined by being hyperbolic with respect to the positive part of the Grassmannian, in the sense of Shamovich and Vi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns tropicalizations of positively hyperbolic varieties, stable polynomials, and positroids—sharing only the vocabulary 'tropicalization' with the conjecture, but making no statement about BDDs, Hodge class ranks, or characteristic polynomials mod p.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
