@@ -1,0 +1,40 @@
+{
+  "entry_id": "c7247a2f14a0",
+  "ts": 1779789586.5883937,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2302.00039",
+      "title": "Between Coherent and Constructible Local Langlands Correspondences",
+      "abstract_excerpt": "Refined forms of the local Langlands correspondence seek to relate representations of reductive groups over local fields with sheaves on stacks of Langlands parameters. But what kind of sheaves? Conjectures in the spirit of Kazhdan-Lusztig theory (due to Vogan and Soergel) describe representations of a group and its pure inner forms with fixed central character in terms of constructible sheaves. Conjectures in the spirit of geometric Langlands (due to Fargues, Zhu and Hellmann) describe represen",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses interpolating between coherent and constructible local Langlands correspondences via cyclic homology and circle actions, with no mention of L-functions, Tseitin formulas, or resolution proof depth. It shares only the 'geometric Langlands' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1202.2110",
+      "title": "Langlands Program, Trace Formulas, and their Geometrization",
+      "abstract_excerpt": "The Langlands Program relates Galois representations and automorphic representations of reductive algebraic groups. The trace formula is a powerful tool in the study of this connection and the Langlands Functoriality Conjecture. After giving an introduction to the Langlands Program and its geometric version, which applies to curves over finite fields and over the complex field, I give a survey of my recent joint work with Robert Langlands and Ngo Bao Chau (arXiv:1003.4578 and arXiv:1004.5323) on",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes the Langlands Program, trace formulas, and their geometrization in connection with Functoriality and categorification, with no mention of Tseitin formulas, resolution proof complexity, or any lower bound relating L-functions to proof depth.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2311.03743",
+      "title": "A general framework for the analytic Langlands correspondence",
+      "abstract_excerpt": "We discuss a general framework for the analytic Langlands correspondence over an arbitrary local field F introduced and studied in our works arXiv:1908.09677, arXiv:2103.01509 and arXiv:2106.05243, in particular including non-split and twisted settings. Then we specialize to the archimedean cases (F=C and F=R) and give a (mostly conjectural) description of the spectrum of the Hecke operators in various cases in terms of opers satisfying suitable reality conditions, as predicted in part in arXiv:",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'a general framework for the analytic Langlands correspondence' over local fields, Hecke operator spectra, and the Gaudin model — it makes no claims about Tseitin formulas, resolution proof depth, or any complexity-theoretic lower bound.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

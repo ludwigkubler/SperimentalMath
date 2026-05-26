@@ -1,0 +1,40 @@
+{
+  "entry_id": "18f41f54e138",
+  "ts": 1779789278.0747523,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0912.2255",
+      "title": "Test ideals via algebras of $p^{-e}$-linear maps",
+      "abstract_excerpt": "Continuing ideas of a recent preprint of Schwede arXiv:0906.4313 we study test ideals by viewing them as minimal objects in a certain class of $F$-pure modules over algebras of p^{-e}-linear operators. This shift in the viewpoint leads to a simplified and generalized treatment, also allowing us to define test ideals in non-reduced settings.\n  In combining this with an observation of Anderson on the contracting property of p^{-e}-linear operators we obtain an elementary approach to test ideals in",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns test ideals, F-pure modules, and p^{-e}-linear operators in commutative algebra/positive characteristic—'study test ideals by viewing them as minimal objects.' It has no connection to algebraic K-theory ranks or communication complexity of disjointness.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1812.11710",
+      "title": "Geometric Satake correspondence for affine Kac-Moody Lie algebras of type $A$",
+      "abstract_excerpt": "This is an informal expository article on geometric Satake correspondence for affine Kac-Moody Lie algebras of type $A$ given in arXiv:1810.04293. We emphasize formal analogies between this result and the author's earlier results on geometric approaches to the representation via quiver varieties.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'geometric Satake correspondence for affine Kac-Moody Lie algebras of type A' and quiver varieties, which has no interaction with algebraic K-theory ranks or communication complexity of disjointness.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1705.03356",
+      "title": "Growth in varieties of multioperator algebras and Groebner bases in operads",
+      "abstract_excerpt": "We discuss algorithmic approach to growth of the codimension sequences of varieties of multilinear algebras, or, equivalently, the sequences of the component dimensions of algebraic operads. The (exponentional) generating functions of such sequences are called codimension series of varieties, or generating series of operads.\n  We show that in general there does not exist an algorithm to decide whether the growth exponent of a codimension sequence of a variety defined by given finite sets of oper",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns growth of codimension sequences of varieties of multilinear algebras and Groebner bases in operads, with no mention of algebraic K-theory, communication complexity, or the disjointness problem. It shares no interaction with the specific claim about τ(K_n) = Ω(n log n).",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
