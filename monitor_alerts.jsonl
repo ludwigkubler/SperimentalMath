@@ -2208,3 +2208,4 @@
 {"ts": 1779784207.9649377, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 30}}
 {"ts": 1779786011.0642989, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 30}}
 {"ts": 1779787803.7494836, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 30}}
+{"ts": 1779792307.293408, "ts_iso": "2026-05-26T10:45:07.293408+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "OK", "to_status": "DEGRADED", "failing_checks": ["gpu", "ram_above_1g"], "auto_fixed": false}
