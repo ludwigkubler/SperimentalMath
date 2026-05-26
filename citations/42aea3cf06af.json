@@ -1,0 +1,40 @@
+{
+  "entry_id": "42aea3cf06af",
+  "ts": 1779769979.1282318,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1509.06942",
+      "title": "Symmetric Decompositions and the Strong Sperner Property for Noncrossing Partition Lattices",
+      "abstract_excerpt": "We prove that the noncrossing partition lattices associated with the complex reflection groups $G(d,d,n)$ for $d,n\\geq 2$ admit symmetric decompositions into Boolean subposets. As a result, these lattices have the strong Sperner property and their rank-generating polynomials are symmetric, unimodal, and $γ$-nonnegative. We use computer computations to complete the proof that every noncrossing partition lattice associated with a well-generated complex reflection group is strongly Sperner, thus an",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns symmetric Boolean decompositions and the strong Sperner property of noncrossing partition lattices for complex reflection groups, with no mention of 3-CNF formulas, resolution proof complexity, or rank lower bounds tied to clause/variable counts.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0706.2778",
+      "title": "Chains in the noncrossing partition lattice",
+      "abstract_excerpt": "We establish recursions counting various classes of chains in the noncrossing partition lattice of a finite Coxeter group. The recursions specialize a general relation which is proven uniformly (i.e. without appealing to the classification of finite Coxeter groups) using basic facts about noncrossing partitions. We solve these recursions for each finite Coxeter group in the classification. Among other results, we obtain a simpler proof of a known uniform formula for the number of maximal chains ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'recursions counting various classes of chains in the noncrossing partition lattice of a finite Coxeter group' — a purely enumerative/combinatorial result with no connection to 3-CNF formulas, resolution proof complexity, or rank lower bounds for partitions associated with CNFs.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2212.13799",
+      "title": "Noncrossing partitions of a marked surface",
+      "abstract_excerpt": "We define noncrossing partitions of a marked surface without punctures (interior marked points). We show that the natural partial order on noncrossing partitions is a graded lattice and describe its rank function topologically. Lower intervals in the lattice are isomorphic to products of noncrossing partition lattices of other surfaces. We similarly define noncrossing partitions of a symmetric marked surface with double points and prove some of the analogous results. The combination of symmetry ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns noncrossing partitions of marked surfaces and their lattice/rank structure topologically, with no mention of 3-CNF formulas, resolution proofs, or complexity lower bounds. It shares the 'noncrossing partition' vocabulary but does not interact with the conjecture's complexity-theoretic claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
