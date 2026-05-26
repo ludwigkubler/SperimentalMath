@@ -1,7 +1,7 @@
 {
   "node_id": "TARGET_P_NEQ_NP",
   "instance_class": "random_3sat",
-  "ts": 1779754982.1886096,
+  "ts": 1779798181.6576219,
   "result": {
     "instance_class": "random_3sat",
     "n_range": [
@@ -18,7 +18,7 @@
         "n": 8,
         "seed": 0,
         "sat": true,
-        "runtime_s": 0.0215,
+        "runtime_s": 0.0112,
         "conflicts": 0,
         "decisions": 0,
         "propagations": 11,
@@ -31,7 +31,7 @@
         "n": 8,
         "seed": 1,
         "sat": true,
-        "runtime_s": 0.0058,
+        "runtime_s": 0.0029,
         "conflicts": 0,
         "decisions": 0,
         "propagations": 8,
@@ -44,7 +44,7 @@
         "n": 12,
         "seed": 0,
         "sat": true,
-        "runtime_s": 0.0012,
+        "runtime_s": 0.0032,
         "conflicts": 0,
         "decisions": 0,
         "propagations": 35,
@@ -57,7 +57,7 @@
         "n": 12,
         "seed": 1,
         "sat": true,
-        "runtime_s": 0.0012,
+        "runtime_s": 0.004,
         "conflicts": 0,
         "decisions": 0,
         "propagations": 17,
@@ -70,7 +70,7 @@
         "n": 16,
         "seed": 0,
         "sat": true,
-        "runtime_s": 0.0014,
+        "runtime_s": 0.0061,
         "conflicts": 0,
         "decisions": 0,
         "propagations": 119,
@@ -109,7 +109,7 @@
         "n": 20,
         "seed": 1,
         "sat": true,
-        "runtime_s": 0.0013,
+        "runtime_s": 0.0012,
         "conflicts": 0,
         "decisions": 0,
         "propagations": 71,
@@ -147,19 +147,19 @@
     ],
     "summary": {
       "n=8": {
-        "median_runtime_s": 0.0136,
+        "median_runtime_s": 0.007,
         "median_conflicts": 0,
         "n_timeout": 0,
         "n_total": 2
       },
       "n=12": {
-        "median_runtime_s": 0.0012,
+        "median_runtime_s": 0.0036,
         "median_conflicts": 0,
         "n_timeout": 0,
         "n_total": 2
       },
       "n=16": {
-        "median_runtime_s": 0.0015,
+        "median_runtime_s": 0.0038,
         "median_conflicts": 0,
         "n_timeout": 0,
         "n_total": 2
@@ -177,7 +177,7 @@
         "n_total": 2
       },
       "fit": {
-        "runtime_loglog_slope": -1.782561482755006,
+        "runtime_loglog_slope": -1.4786972568374634,
         "conflicts_loglog_slope": 0.0
       }
     }

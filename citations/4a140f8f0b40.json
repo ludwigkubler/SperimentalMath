@@ -1,0 +1,22 @@
+{
+  "entry_id": "4a140f8f0b40",
+  "ts": 1779801414.5916796,
+  "hits_evaluated": 1,
+  "verdicts": [
+    {
+      "paper_id": "s2:621a41dea6c4070e50de6c2b61c575cf77b7b667",
+      "title": "The Latex graphics companion - illustrating documents with Tex and PostScript",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited work is a LaTeX graphics typesetting reference ('illustrating documents with Tex and PostScript'), which has no bearing on graphical virtual knot rank or Tseitin formula resolution proof complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 0
+  }
+}

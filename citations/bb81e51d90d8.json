@@ -1,0 +1,40 @@
+{
+  "entry_id": "bb81e51d90d8",
+  "ts": 1779801815.3466587,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2401.14517",
+      "title": "Efficient List-decoding of Polynomial Ideal Codes with Optimal List Size",
+      "abstract_excerpt": "In a recent breakthrough [BGM23, GZ23, AGL23], it was shown that randomly punctured Reed-Solomon codes are list decodable with optimal list size with high probability, i.e., they attain the Singleton bound for list decoding [ST20, Rot22, GST22]. We extend this result to the family of polynomial ideal codes, a large class of error-correcting codes which includes several well-studied families of codes such as Reed-Solomon, folded Reed-Solomon, and multiplicity codes. More specifically, similarly t",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns list-decoding of polynomial ideal codes (Reed-Solomon, folded RS, multiplicity codes) achieving the Singleton bound, with no mention of AC0 circuits, XOR-AND trees, or rank/degree lower bounds on quotient algebras tied to circuit ideals.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0706.1952",
+      "title": "Canonical representatives for residue classes of a polynomial ideal and orthogonality",
+      "abstract_excerpt": "The aim of this paper is to unveil an unexpected relationship between the normal form of a polynomial with respect to a polynomial ideal and the more geometric concept of orthogonality. We present a new way to calculate the normal form of a polynomial with respect to a polynomial ideal I in the ring of multivariate polynomials over a field K, provided the field K is finite and the ideal I is a vanishing ideal. In order to use the concept of orthogonality, we introduce a symmetric bilinear form o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a method for computing normal forms with respect to vanishing ideals over finite fields using orthogonality, which shares the 'polynomial ideal/quotient' vocabulary but does not address rank lower bounds, AC0 circuits, or XOR-AND tree functions.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/alg-geom/9610006v1",
+      "title": "Bounds for the Hilbert function of polynomial ideals and for the degrees in the Nullstellensatz",
+      "abstract_excerpt": "We present a new effective Nullstellensatz with bounds for the degrees which depend not only on the number of variables and on the degrees of the input polynomials but also on an additional parameter called the {\\it geometric degree of the system of equations}. The obtained bound is polynomial in th",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses effective Nullstellensatz degree bounds parametrized by 'geometric degree of the system of equations,' which shares the polynomial-ideal vocabulary but does not address AC0 circuits, XOR-AND trees, or minimal rank/degree lower bounds for quotient algebras of circuit ideals.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

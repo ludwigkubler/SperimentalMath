@@ -1,0 +1,40 @@
+{
+  "entry_id": "8d27eac17909",
+  "ts": 1779802755.6300707,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2105.10886",
+      "title": "VS-Net: Voting with Segmentation for Visual Localization",
+      "abstract_excerpt": "Visual localization is of great importance in robotics and computer vision. Recently, scene coordinate regression based methods have shown good performance in visual localization in small static scenes. However, it still estimates camera poses from many inferior scene coordinates. To address this problem, we propose a novel visual localization framework that establishes 2D-to-3D correspondences between the query image and the 3D map with a series of learnable scene-specific landmarks. In the lan",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes 'VS-Net' for visual localization via segmentation and voting, with no connection to symplectic geometry, Grassmannians, or Tseitin circuits. It shares no relevant content with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2602.00982",
+      "title": "Navigating Simply, Aligning Deeply: Winning Solutions for Mouse vs. AI 2025",
+      "abstract_excerpt": "Visual robustness and neural alignment remain critical challenges in developing artificial agents that can match biological vision systems. We present the winning approaches from Team HCMUS_TheFangs for both tracks of the NeurIPS 2025 Mouse vs. AI: Robust Visual Foraging Competition. For Track 1 (Visual Robustness), we demonstrate that architectural simplicity combined with targeted components yields superior generalization, achieving 95.4% final score with a lightweight two-layer CNN enhanced b",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'Robust Visual Foraging Competition' with CNN architectures for visual robustness and neural alignment, which has no interaction with symplectic leaves, Grassmannians, or Tseitin circuit size for computing the permanent.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2504.07569",
+      "title": "Wide Binaries from Gaia DR3 : testing GR vs MOND with realistic triple modelling",
+      "abstract_excerpt": "We provide an updated test for modifications of gravity from a sample of wide-binary stars from Gaia DR3, and their sky-projected relative velocities. Here we extend on our earlier 2023 study, using several updated selection cuts aimed at reducing contamination from triple systems with an undetected third star. We also use improved mass estimates from Gaia FLAME, and we add refinements to previous modelling of the triple and other populations and the model-fitting. We fit histograms of observed ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns astrophysical tests of gravity (Newtonian vs MOND) using Gaia DR3 wide binary stars, which has no interaction with symplectic geometry, Grassmannians, or Tseitin circuit complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
