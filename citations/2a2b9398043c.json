@@ -1,0 +1,40 @@
+{
+  "entry_id": "2a2b9398043c",
+  "ts": 1779890593.858036,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/1810.06267v2",
+      "title": "Small Space Stream Summary for Matroid Center",
+      "abstract_excerpt": "In the matroid center problem, which generalizes the $k$-center problem, we need to pick a set of centers that is an independent set of a matroid with rank $r$. We study this problem in streaming, where elements of the ground set arrive in the stream. We first show that any randomized one-pass strea",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses the matroid center problem in a streaming model, focused on picking independent sets of bounded rank — it shares the word 'matroid' and 'rank' but does not address CNF formulas, matroid expansion M_F, or XOR-AND tree width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1510.04532v2",
+      "title": "Internally Perfect Matroids",
+      "abstract_excerpt": "In 1977 Stanley proved that the $h$-vector of a matroid is an $\\mathcal{O}$-sequence and conjectured that it is a pure $\\mathcal{O}$-sequence. In the subsequent years the validity of this conjecture has been shown for a variety of classes of matroids, though the general case is still open. In this p",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses h-vectors of matroids and Stanley's conjecture about pure O-sequences, which shares the 'matroid' vocabulary but does not interact with matroid rank bounds tied to CNF formulas or XOR-AND tree width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1608.04025v1",
+      "title": "Quasi-matroidal classes of ordered simplicial complexes",
+      "abstract_excerpt": "We introduce the notion of a quasi-matroidal class of ordered simplicial complexes: an approximation to the idea of a matroid cryptomorphism in the landscape of ordered simplicial complexes. A quasi-matroidal class contains pure shifted simplicial complexes and ordered matroid independence complexes",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'quasi-matroidal classes of ordered simplicial complexes' as an approximation to matroid cryptomorphism, with no mention of CNF formulas, XOR-AND tree width, matroid rank bounds, or k-CLIQUE indicator formulas relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
