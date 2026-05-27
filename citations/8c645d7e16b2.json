@@ -1,0 +1,40 @@
+{
+  "entry_id": "8c645d7e16b2",
+  "ts": 1779840165.7129447,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/1810.12657v1",
+      "title": "The effect of a country's name in the title of a publication on its visibility and citability",
+      "abstract_excerpt": "The objective of this research is to determine if the reference to a country in the title, keywords or abstract of a publication can influence its visibility (measured by the impact factor of the publishing journal) and citability (measured by the citations received). The study is based on Italian s",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns bibliometrics—how mentioning a country in a publication's title affects journal impact factor and citations—and has no connection to Schur polynomials, binary decision diagrams, or monotone circuit complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1503.01694v1",
+      "title": "An Algebraic Study of Multivariable Integration and Linear Substitution",
+      "abstract_excerpt": "We set up an algebraic theory of multivariable integration, based on a hierarchy of Rota-Baxter operators and an action of the matrix monoid as linear substitutions. Given a suitable coefficient domain with a bialgebra structure, this allows us to build an operator ring that acts naturally on the gi",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes an algebraic theory of multivariable integration using Rota-Baxter operators and matrix monoid linear substitutions, with no mention of Schur polynomials, Boolean functions, or monotone circuit complexity. Shared vocabulary ('linear substitution') does not interact with the conjecture's claim about ranks bounding circuit size.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/cs/0207003v1",
+      "title": "Analysis of Titles and Readers For Title Generation Centered on the Readers",
+      "abstract_excerpt": "The title of a document has two roles, to give a compact summary and to lead the reader to read the document. Conventional title generation focuses on finding key expressions from the author's wording in the document to give a compact summary and pays little attention to the reader's interest. To ma",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns title generation for documents and reader interest ('two roles, to give a compact summary and to lead the reader'), which has no relation to Schur polynomials, monotone circuits, or complexity lower bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
