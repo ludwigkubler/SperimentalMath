@@ -1,0 +1,40 @@
+{
+  "entry_id": "ffb7ed742253",
+  "ts": 1779903059.490424,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1607.03608",
+      "title": "On the tensor product of linear sites and Grothendieck categories",
+      "abstract_excerpt": "We define a tensor product of linear sites, and a resulting tensor product of Grothendieck categories based upon their representations as categories of linear sheaves. We show that our tensor product is a special case of the tensor product of locally presentable linear categories, and that the tensor product of locally coherent Grothendieck categories is locally coherent if and only if the Deligne tensor product of their abelian categories of finitely presented objects exists. We describe the te",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns tensor products of linear sites and Grothendieck categories, with applications to non-commutative projective schemes — it makes no statement about ranks bounded by tree-width parameters or XOR-AND trees, so it shares only the 'Grothendieck/tensor product' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2410.05768",
+      "title": "My view on and experience with Grothendieck's anabelian geometry",
+      "abstract_excerpt": "This paper is based on the author's talk at the Grothendieck conference at Chapman university on 26-05-2022. It is not a survey of anabelian geometry but rather exposes some of the personal views and experiences of the author with the topic.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a personal talk on anabelian geometry, not Grothendieck tensor products or XOR-AND tree complexity, sharing only the name 'Grothendieck' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2107.02219",
+      "title": "Grothendieck Rings of Queer Lie Superalgebras",
+      "abstract_excerpt": "We determine the Grothendieck rings of the category of finite-dimensional modules over Queer Lie superalgebras via their rings of characters. In particular, we show that the ring of characters of the Queer Lie supergroup $Q(n)$ is isomorphic to the ring of Laurent polynomials in $x_{1},\\ldots,x_{n}$ for which the evaluation $x_{n-1}=-x_{n}=t$ is independent of $t$. We thus complete the description of Grothendieck rings for all classical Lie superalgebras.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes Grothendieck rings of finite-dimensional modules over Queer Lie superalgebras and their character rings, with no mention of tensor product rank, XOR-AND trees, or complexity-theoretic bounds relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

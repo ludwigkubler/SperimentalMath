@@ -1,0 +1,40 @@
+{
+  "entry_id": "298e64462505",
+  "ts": 1779902871.7894497,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2407.04826",
+      "title": "Multi-strategy Based Quantum Cost Reduction of Quantum Boolean Circuits",
+      "abstract_excerpt": "The construction of quantum computers is based on the synthesis of low-cost quantum circuits. The quantum circuit of any Boolean function expressed in a Positive Polarity Reed-Muller $PPRM$ expansion can be synthesized using Multiple-Control Toffoli ($MCT$) gates. This paper proposes two algorithms to construct a quantum circuit for any Boolean function expressed in a Positive Polarity Reed-Muller $PPRM$ expansion. The Boolean function can be expressed with various algebraic forms, so there are ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quantum circuit synthesis from Positive Polarity Reed-Muller expansions and MCT/NCV gate decomposition for cost reduction; it makes no claim about XOR-AND tree width, real algebraic lattices, or bounds between them.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2306.12196",
+      "title": "Probabilistic estimation of the algebraic degree of Boolean functions",
+      "abstract_excerpt": "The algebraic degree is an important parameter of Boolean functions used in cryptography. When a function in a large number of variables is not given explicitly in algebraic normal form, it might not be feasible to compute its degree. Instead, one can try to estimate the degree using probabilistic tests.\n  We propose a probabilistic test for deciding whether the algebraic degree of a Boolean function $f$ is below a certain value $k$. The test involves picking an affine space of dimension $k$ and",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a probabilistic test for estimating the algebraic degree of Boolean functions in cryptography, with no mention of XOR-AND tree width, real algebraic geometry lattices, or minimal rank bounds relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1705.03356",
+      "title": "Growth in varieties of multioperator algebras and Groebner bases in operads",
+      "abstract_excerpt": "We discuss algorithmic approach to growth of the codimension sequences of varieties of multilinear algebras, or, equivalently, the sequences of the component dimensions of algebraic operads. The (exponentional) generating functions of such sequences are called codimension series of varieties, or generating series of operads.\n  We show that in general there does not exist an algorithm to decide whether the growth exponent of a codimension sequence of a variety defined by given finite sets of oper",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns growth of codimension sequences of varieties of multilinear algebras and Groebner bases in operads, with no mention of Boolean functions, XOR-AND tree width, or lattices of real algebraic integers associated to Boolean functions. It does not interact with the specific claim relating real algebraic lattice rank to circuit complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
