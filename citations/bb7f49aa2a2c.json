@@ -1,0 +1,40 @@
+{
+  "entry_id": "bb7f49aa2a2c",
+  "ts": 1779862274.8402736,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/2406.09757v2",
+      "title": "Evaluating LLM-driven User-Intent Formalization for Verification-Aware Languages",
+      "abstract_excerpt": "Verification-aware programming languages such as Dafny and F* provide means to formally specify and prove properties of a program. Although the problem of checking an implementation against a specification can be defined mechanically, there is no algorithmic way of ensuring the correctness of the {\\",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses verification-aware programming languages (Dafny, F*) and LLM-driven user-intent formalization, which has no connection to boolean function entropy, formal language rank, or finite automaton state bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/0903.3848v1",
+      "title": "Join-irreducible Boolean functions",
+      "abstract_excerpt": "This paper is a contribution to the study of a quasi-order on the set $Ω$ of Boolean functions, the \\emph{simple minor} quasi-order. We look at the join-irreducible members of the resulting poset $\\tildeΩ$. Using a two-way correspondence between Boolean functions and hypergraphs, join-irreducibility",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses a 'simple minor quasi-order' on Boolean functions and join-irreducibility via hypergraphs, with no mention of formal languages, automata states, entropy, or rank bounds relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/0808.0684v1",
+      "title": "9-variable Boolean Functions with Nonlinearity 242 in the Generalized Rotation Class",
+      "abstract_excerpt": "In 2006, 9-variable Boolean functions having nonlinearity 241, which is strictly greater than the bent concatenation bound of 240, have been discovered in the class of Rotation Symmetric Boolean Functions (RSBFs) by Kavut, Maitra and Yucel. To improve this nonlinearity result, we have firstly define",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses nonlinearity bounds of 9-variable Boolean functions in the Rotation Symmetric class, with no mention of formal languages, entropy, automata states, or rank — it shares only the broad 'Boolean functions' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

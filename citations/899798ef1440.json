@@ -1,0 +1,40 @@
+{
+  "entry_id": "899798ef1440",
+  "ts": 1779864281.806671,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math-ph/0512018v2",
+      "title": "On Phase Transitions for $P$-Adic Potts Model with Competing Interactions on a Cayley Tree",
+      "abstract_excerpt": "In the paper we considere three state $p$-adic Potts model with competing interactions on a Cayley tree of order two. We reduce a problem of describing of the $p$-adic Gibbs measures to the solution of certain recursive equation, and using it we will prove that a phase transition occurs if and only ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns p-adic Potts models and Gibbs measures on a Cayley tree, with no mention of Boolean function entropy, homomorphisms to complex numbers, or minimal orders of images relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2201.08874",
+      "title": "Note on $p$-adic Local Functional Equation",
+      "abstract_excerpt": "Given primes $\\ell\\ne p$, we record here a $p$-adic valued Fourier theory on a local field over $\\mathbf{Q}_\\ell$, which is developed under the perspective of group schemes. As an application, by substituting rigid analysis for complex analysis, it leads naturally to the $p$-adic local functional equation at $\\ell$, which strongly resembles the complex one in Tate's thesis.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a 'p-adic valued Fourier theory on a local field' and a 'p-adic local functional equation' analogous to Tate's thesis, which shares only the p-adic vocabulary but does not address Boolean function entropy or bounds on minimal orders of homomorphic images.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2207.11806",
+      "title": "P-adic incomplete gamma functions and Artin-Hasse-type series",
+      "abstract_excerpt": "We define and study a $p$-adic analogue of the incomplete gamma function related to Morita's $p$-adic gamma function. We also discuss a combinatorial identity related to the Artin-Hasse series, which is a special case of the exponential principle in combinatorics. From this we deduce a curious $p$-adic property of $|\\mathrm{Hom} (G,S_n)|$ for a topologically finitely generated group $G$, using a characterization of $p$-adic continuity for certain functions $f \\colon \\mathbb Z_{&gt;0} \\to \\mathbb",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses p-adic incomplete gamma functions, Artin-Hasse series, and a p-adic property of |Hom(G,S_n)|, with no mention of Boolean functions, entropy, or any homomorphism from p-adic integers to complex numbers tied to Boolean function complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "9339fa870971",
+  "ts": 1779862574.0033677,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/2001.01608v2",
+      "title": "The plethory of operations in complex topological K-theory",
+      "abstract_excerpt": "We provide a concrete introduction to the topologised, graded analogue of an algebraic structure known as a plethory, originally due to Tall and Wraith. Stacey and Whitehouse showed this structure is present on the cohomology operations for a suitable generalised cohomology theory. We compute an exp",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'plethory' structure on cohomology operations in complex topological K-theory, which shares the 'K-theory' vocabulary but does not address tropicalization, minimal rank bounds, or Sipser-function complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2311.02318v2",
+      "title": "The connecting homomorphism for Hermitian $K$-theory",
+      "abstract_excerpt": "We provide a geometric interpretation for the connecting homomorphism in the localization sequence of Hermitian $K$-theory. As an application, we compute the Hermitian $K$-theory of projective bundles and Grassmannians in the regular case. We provide an explicit basis for Hermitian $K$-theory of Gra",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the connecting homomorphism in Hermitian K-theory and computations for projective bundles and Grassmannians, with no mention of tropicalization, Sipser functions, or complexity-theoretic minimal rank bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1207.2443v2",
+      "title": "Tropical Teichmuller and Siegel spaces",
+      "abstract_excerpt": "In this paper, we present a unified study of the moduli space of tropical curves and Outer space which we link via period maps to the moduli space of tropical abelian varieties and the space of positive definite quadratic forms. Our work is a first step towards exhibiting Outer space and the space o",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses moduli spaces of tropical curves, Outer space, and tropical abelian varieties via period maps, which shares only the 'tropical' vocabulary with the conjecture and does not address K-theory rank bounds or Sipser function computation.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

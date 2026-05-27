@@ -1,0 +1,40 @@
+{
+  "entry_id": "d8b308c29f2d",
+  "ts": 1779863728.3566854,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2007.03539",
+      "title": "Corrections to Wigner-Eckart Relations by Spontaneous Symmetry Breaking",
+      "abstract_excerpt": "The matrix elements of operators transforming as irreducible representations of an unbroken symmetry group $G$ are governed by the well-known Wigner-Eckart relations. In the case of infinitely-extended systems, with $G$ spontaneously broken, we prove that the corrections to such relations are provided by symmetry breaking Ward identities, and simply reduce to a tadpole term involving Goldstone bosons. The analysis extends to the case in which an explicit symmetry breaking term is present in the ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Wigner-Eckart relations and spontaneous symmetry breaking in physics with Goldstone bosons, which shares only the vague vocabulary of 'symmetry' but does not interact with Boolean functions, Tseitin circuits, or complexity classes like ACC⁰.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2104.08930",
+      "title": "Construction of higher-order metric fluctuation terms in spacetime symmetry-breaking effective field theory",
+      "abstract_excerpt": "We examine the basic conservation laws for diffeomorphism symmetry in the context of spontaneous diffeomorphism and local Lorentz-symmetry breaking. The conservation laws are used as constraints on a generic series of terms in an expansion around a flat background. We find all such terms for a two-tensor coupling to cubic order in the metric and tensor field fluctuations. The results are presented in a form that can be used for phenomenological calculations. One key result is that if we preserve",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns diffeomorphism and Lorentz symmetry breaking in effective field theory for spacetime metric fluctuations, which shares only the generic word 'symmetry' with the conjecture about Boolean function automorphisms and Tseitin circuit width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2503.19628",
+      "title": "Center Symmetry Breaking in Calabi--Yau Compactifications",
+      "abstract_excerpt": "It is widely believed that global symmetries must be broken in Quantum Gravity. This includes higher-form symmetries, which are commonplace in supergravity coupled to vector multiplets. Recently, a quantitative criterion for the breaking of (higher-form) symmetries in effective field theories of gravity has been proposed. We studied this criterion in the context of center one-form symmetries broken by BPS states in Calabi--Yau compactifications of type IIA string theory and M-theory. In a simple",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'center one-form symmetries broken by BPS states in Calabi-Yau compactifications of type IIA string theory and M-theory,' which is unrelated to Boolean functions, Tseitin circuits, or complexity theory. It shares only the generic word 'symmetry' with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
