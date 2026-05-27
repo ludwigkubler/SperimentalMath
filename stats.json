@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-05-27T04:47:04Z",
-  "total_cycles": 2852,
+  "last_update_utc": "2026-05-27T05:47:03Z",
+  "total_cycles": 2863,
   "verdict_counts": {
-    "INCONCLUSIVE": 1972,
+    "INCONCLUSIVE": 1979,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 784,
+    "BARRIER_HIT": 788,
     "SCOOPED": 76
   },
-  "unique_field_A": 1459,
+  "unique_field_A": 1461,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
@@ -28,7 +28,7 @@
     ],
     [
       "Symplectic Geometry",
-      41
+      42
     ],
     [
       "Schur-Weyl Duality",
@@ -36,7 +36,7 @@
     ],
     [
       "Algebraic Combinatorics",
-      37
+      38
     ],
     [
       "Matroid Theory",
@@ -63,11 +63,11 @@
       18
     ],
     [
-      "Noncommutative L^p Geometry",
-      17
+      "p-adic Analysis",
+      18
     ],
     [
-      "Noncommutative Geometry",
+      "Noncommutative L^p Geometry",
       17
     ]
   ]

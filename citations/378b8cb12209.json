@@ -1,0 +1,40 @@
+{
+  "entry_id": "378b8cb12209",
+  "ts": 1779859087.332908,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2211.17129",
+      "title": "Ehrhart Limits",
+      "abstract_excerpt": "We introduce the definition of an Ehrhart limit, that is, a formal power series with integer coefficients that is the limit in the ring of formal power series of a sequence of Ehrhart $h^*$-polynomials. We identify a variety of examples of sequences of polytopes that yield Ehrhart limits, with a focus on reflexive polytopes and simplices.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'Ehrhart limits' as formal power series limits of h*-polynomial sequences for reflexive polytopes and simplices, with no mention of cohomology, complexity classes, or Boolean function computation. It shares only the 'Ehrhart' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2003.02679",
+      "title": "On the Ehrhart Polynomial of Minimal Matroids",
+      "abstract_excerpt": "We provide a formula for the Ehrhart polynomial of the connected matroid of size $n$ and rank $k$ with the least number of bases, also known as a minimal matroid. We prove that their polytopes are Ehrhart positive and $h^*$-real-rooted (and hence unimodal). We prove that the operation of circuit-hyperplane relaxation relates minimal matroids and matroid polytopes subdivisions, and also preserves Ehrhart positivity. We state two conjectures: that indeed all matroids are $h^*$-real-rooted, and tha",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Ehrhart polynomials of minimal matroid polytopes and properties like h*-real-rootedness and positivity, with no mention of Ehrhart cohomology, explicit function computation, or complexity-theoretic rank bounds. It shares only the vocabulary 'Ehrhart' and 'minimal' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0904.3035",
+      "title": "Additive number theory and inequalities in Ehrhart theory",
+      "abstract_excerpt": "We introduce a powerful connection between Ehrhart theory and additive number theory, and use it to produce infinitely many new classes of inequalities between the coefficients of the $h^*$-polynomial of a lattice polytope. This greatly improves upon the three known classes of inequalities, which were proved using techniques from commutative algebra and combinatorics. As an application, we deduce all possible `balanced' inequalities between the coefficients of the $h^*$-polynomial of a lattice p",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns inequalities between coefficients of the h*-polynomial of lattice polytopes via additive number theory, with no mention of cohomology rank, complexity classes, or function computation. It shares only the 'Ehrhart theory' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
