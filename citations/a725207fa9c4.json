@@ -1,0 +1,40 @@
+{
+  "entry_id": "a725207fa9c4",
+  "ts": 1779905977.2640257,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1207.2443",
+      "title": "Tropical Teichmuller and Siegel spaces",
+      "abstract_excerpt": "In this paper, we present a unified study of the moduli space of tropical curves and Outer space which we link via period maps to the moduli space of tropical abelian varieties and the space of positive definite quadratic forms. Our work is a first step towards exhibiting Outer space and the space of positive definite quadratic forms as analogues of Teichmüller space and Siegel space, respectively, in tropical geometry. All these spaces and the maps among them are described within the category o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses tropical moduli spaces (Teichmüller, Siegel, Outer space, abelian varieties) and stacky fans, with no mention of Lie algebras, 3-CNF formulas, DPLL search, or complexity theory. It shares only the broad 'tropical geometry' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1105.4284",
+      "title": "Lie algebras with given properties of subalgebras and elements",
+      "abstract_excerpt": "Results about the following classes of finite-dimensional Lie algebras over a field of characteristic zero are presented: anisotropic (i.e., Lie algebras for which each adjoint operator is semisimple), regular (i.e., Lie algebras in which each nonzero element is regular in the sense of Bourbaki), minimal nonabelian (i.e., nonabelian Lie algebras all whose proper subalgebras are abelian), and algebras of depth 2 (i.e., Lie algebras all whose proper subalgebras are abelian or minimal nonabelian).",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns classification of finite-dimensional Lie algebras by properties of subalgebras (anisotropic, regular, minimal nonabelian, depth 2), with no mention of tropicalization, rank bounds, 3-CNF formulas, or DPLL search trees.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1204.3875",
+      "title": "Tropicalizing vs Compactifying the Torelli morphism",
+      "abstract_excerpt": "In this paper, we compare the compactified Torelli morphism (as defined by V. Alexeev) and the tropical Torelli map (as defined by the author in a joint work with S. Brannetti and M. Melo, and furthered studied by M. Chan). Our aim is twofold: on one hand, we will review the construction and main properties of the above mentioned two Torelli maps, focusing in particular on the description of their fibers achieved by the author in joint works with L. Caporaso; on the other hand, we will clarify t",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns tropical and compactified Torelli maps in algebraic geometry, with no mention of Lie algebras, 3-CNF formulas, DPLL search trees, or complexity theory. It shares only the vague term 'tropical' with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

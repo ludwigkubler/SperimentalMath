@@ -1,0 +1,40 @@
+{
+  "entry_id": "9b2ebf8bb8d1",
+  "ts": 1779906242.324754,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2206.08165",
+      "title": "The $H \\underline{\\mathbb{F}}_2$-homology of $C_2$-equivariant Eilenberg-MacLane spaces",
+      "abstract_excerpt": "We extend Ravenel-Wilson Hopf ring techniques to $C_2$-equivariant homotopy theory. Our main application and motivation is a computation of the $RO(C_2)$-graded homology of $C_2$-equivariant Eilenberg-MacLane spaces. The result we obtain for $C_2$-equivariant Eilenberg-MacLane spaces associated to the constant Mackey functor $\\underline{\\mathbb{F}}_2$ gives a $C_2$-equivariant analogue of the classical computation due to Serre. We also investigate a twisted bar spectral sequence computing the ho",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes computing $RO(C_2)$-graded homology of $C_2$-equivariant Eilenberg-MacLane spaces via Hopf ring techniques, with no mention of complexity theory, k-CNF formulas, polynomial hierarchy, or rank bounds tied to such structures.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1201.6222",
+      "title": "Polynomial-time homology for simplicial Eilenberg-MacLane spaces",
+      "abstract_excerpt": "In an earlier paper of Cadek, Vokrinek, Wagner, and the present authors, we investigated an algorithmic problem in computational algebraic topology, namely, the computation of all possible homotopy classes of maps between two topological spaces, under suitable restriction on the spaces.\n  We aim at showing that, if the dimensions of the considered spaces are bounded by a constant, then the computations can be done in polynomial time. In this paper we make a significant technical step towards thi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes polynomial-time homology computations for K(Z,1) via discrete Morse theory, with applications to computing homotopy groups and Postnikov systems. It makes no claims about rank bounds of Eilenberg-MacLane spaces associated with k-CNF formulas or the polynomial hierarchy.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1111.7220",
+      "title": "Algebraic extensions of an Eilenberg-MacLane spectrum",
+      "abstract_excerpt": "The paper gives an answer to the question whether the Galois, separable or etale extension of an Eilenberg-MacLane spectrum in the category of ring spectra is again an Eilenberg-MacLane spectrum. We get a full answer in the Galois case. The question in separable and etale cases is answered only under additional hypothesis.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses whether Galois/separable/étale extensions of Eilenberg-MacLane spectra remain Eilenberg-MacLane spectra in ring spectra theory, with no reference to ranks, CNF formulas, or complexity classes like PH.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
