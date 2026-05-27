@@ -1,0 +1,40 @@
+{
+  "entry_id": "54a1dbfb4106",
+  "ts": 1779907849.620237,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2104.13209",
+      "title": "Parallel K-Clique Counting on GPUs",
+      "abstract_excerpt": "Counting k-cliques in a graph is an important problem in graph analysis with many applications such as community detection and graph partitioning. Counting k-cliques is typically done by traversing search trees starting at each vertex in the graph. Parallelizing k-clique counting has been well-studied on CPUs and many solutions exist. However, there are no performant solutions for k-clique counting on GPUs.\n  Parallelizing k-clique counting on GPUs comes with numerous challenges such as the need",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a GPU implementation for counting k-cliques ('first parallel GPU solution specialized for the k-clique counting problem'), with no mention of resolution proof complexity, Hodge structures, or lower bounds on proof size.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2401.13502",
+      "title": "Faster Combinatorial k-Clique Algorithms",
+      "abstract_excerpt": "Detecting if a graph contains a $k$-Clique is one of the most fundamental problems in computer science. The asymptotically fastest algorithm runs in time $O(n^{ωk/3})$, where $ω$ is the exponent of Boolean matrix multiplication. To date, this is the only technique capable of beating the trivial $O(n^k)$ bound by a polynomial factor. Due to this technique's various limitations, much effort has gone into designing \"combinatorial\" algorithms that improve over exhaustive search via other techniques.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes faster combinatorial algorithms for k-Clique detection and triangle listing, with no mention of resolution proof complexity, Hodge structures, or lower bounds on proof size for unsatisfiable formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2502.00317",
+      "title": "DIST: Efficient k-Clique Listing via Induced Subgraph Trie",
+      "abstract_excerpt": "Listing k-cliques plays a fundamental role in various data mining tasks, such as community detection and mining of cohesive substructures. Existing algorithms for the k-clique listing problem are built upon a general framework, which finds k-cliques by recursively finding (k-1)-cliques within subgraphs induced by the out-neighbors of each vertex. However, this framework has inherent inefficiency of finding smaller cliques within certain subgraphs repeatedly. In this paper, we propose an algorith",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes 'DIST for the k-clique listing problem' using an 'Induced Subgraph Trie' data structure for efficient enumeration on real-world networks; it makes no claim about resolution proof complexity or Hodge structures.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "7fd54f81c03b",
+  "ts": 1779908824.3968987,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0911.3482",
+      "title": "Complexity of Networks (reprise)",
+      "abstract_excerpt": "Network or graph structures are ubiquitous in the study of complex systems. Often, we are interested in complexity trends of these system as it evolves under some dynamic. An example might be looking at the complexity of a food web as species enter an ecosystem via migration or speciation, and leave via extinction.\n  In a previous paper, a complexity measure of networks was proposed based on the {\\em complexity is information content} paradigm. To apply this paradigm to any object, one must fix ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns information-content complexity measures for network/graph structures via representation languages, not quasi-group representation rank or ACC⁰ circuit size bounds. It shares no specific claim with the conjecture beyond vague use of 'complexity' and 'representation.'",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2501.16039",
+      "title": "Complexity of Constructing Minimal Faithful Permutation Representations for Fitting-free Groups",
+      "abstract_excerpt": "In this paper, we investigate the complexity of computing minimal faithful permutation representations for groups without abelian normal subgroups (a.k.a. Fitting-free groups). When our groups are given as quotients of permutation groups, we exhibit a polynomial-time algorithm for constructing such representations. Furthermore, in the setting of permutation groups, we obtain an $\\textsf{NC}$ procedure for computing the minimal faithful permutation degree, and a randomized $\\textsf{NC}$ ($\\textsf",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses the computational complexity of constructing minimal faithful permutation representations for Fitting-free groups, with no mention of quasi-groups, ACC⁰ circuits, or any bound relating representation rank to circuit size.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1005.2254",
+      "title": "On Universal Complexity Measures",
+      "abstract_excerpt": "We relate the computational complexity of finite strings to universal representations of their underlying symmetries. First, Boolean functions are classified using the universal covering topologies of the circuits which enumerate them. A binary string is classified as a fixed point of its automorphism group; the irreducible representation of this group is the string's universal covering group. Such a measure may be used to test the quasi-randomness of binary sequences with regard to first-order ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses universal representations of string symmetries and covering groups for Boolean function classification, but makes no claim relating quasi-group representation rank to ACC⁰ circuit size bounds. It shares vocabulary (representations, complexity) but does not address the specific rank-vs-circuit-size conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "f2ffcc038d8d",
+  "ts": 1779907649.9505868,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1206.1925",
+      "title": "Counting Algebraic Curves with Tropical Geometry",
+      "abstract_excerpt": "Tropical geometry is a piecewise linear \"shadow\" of algebraic geometry. It allows for the computation of several cohomological invariants of an algebraic variety. In particular, its application to enumerative algebraic geometry led to significant progress.\n  In this survey, we give an introduction to tropical geometry techniques for algebraic curve counting problems. We also survey some recent developments, with a particular emphasis on the computation of the degree of the Severi varieties of th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes tropical geometry applied to algebraic curve counting (Severi varieties, Hurwitz numbers, enumerative geometry), with no mention of quaternion algebras, Boolean satisfiability, resolution proof complexity, or minimal rank bounds. It shares only the broad 'tropical geometry' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2404.03765",
+      "title": "Differential geometry using quaternions",
+      "abstract_excerpt": "This paper establishes the basis of the quaternionic differential geometry ($\\mathbbm H$DG) initiated in a previous article. The usual concepts of curves and surfaces are generalized to quaternionic constraints, as well as the curvature and torsion concepts, differential forms, directional derivatives and the structural equations. The analogy between the quaternionic and the real geometries is obtained using a matrix representation of quaternions. The results evidences the quaternionic formalism",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'quaternionic differential geometry' generalizing curves, surfaces, curvature, and torsion to quaternionic constraints — it shares the keyword 'quaternion' but does not address tropicalization, minimal rank bounds, CNF formulas, or resolution proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0403015v1",
+      "title": "Amoebas of algebraic varieties and tropical geometry",
+      "abstract_excerpt": "This survey consists of two parts. Part 1 is devoted to amoebas. These are images of algebraic subvarieties in the complex torus under the logarithmic moment map. The amoebas have essentially piecewise-linear shape if viewed at large. Furthermore, they degenerate to certain piecewise-linear objects ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a general survey on amoebas and tropical geometry as piecewise-linear images of algebraic varieties, with no mention of quaternion algebras, Boolean satisfiability, or resolution proof complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
