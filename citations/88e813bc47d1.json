@@ -1,0 +1,31 @@
+{
+  "entry_id": "88e813bc47d1",
+  "ts": 1779920816.3032758,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.1109/FOCS63196.2025.00032",
+      "title": "Cryptography Meets Worst-case Complexity: Optimal Security and More From iO and Worst-case Assumptions",
+      "abstract_excerpt": "We study several problems in the intersection of cryptography and complexity theory based on the following highlevel thesis.1)Obfuscation can serve as a general-purpose worst-case to average-case reduction, reducing the existence of various forms of cryptography to corresponding worst-case assumptions.2)We can therefore hope to overcome barriers in cryptography and average-case complexity by (i) making worstcase hardness assumptions beyond $P \\neq N P$, and (ii) leveraging worst-case hardness re",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns cryptographic reductions from iO and worst-case SAT refutation hardness, with no mention of Hodge theory, characteristic p geometry, or resolution proof size lower bounds tied to Hodge rank.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:f0196cb751bc1fd97364b23c819e05bcfccb432e",
+      "title": "Theory and applications of satisfiability testing - SAT 2014 : 17th international conference, held as part of the Vienna Summer of Logic, VSL 2014, Vienna, Austria, July 14-17, 2014 : proceedings",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available for this conference proceedings volume, so I cannot assess whether any contained work addresses the proposed link between Hodge decomposition rank mod p^2 and resolution refutation size.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}

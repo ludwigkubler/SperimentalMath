@@ -1,0 +1,40 @@
+{
+  "entry_id": "a3bdc2ad46fb",
+  "ts": 1779921192.9380448,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1401.1642",
+      "title": "Singular del Pezzo fibrations and birational rigidity",
+      "abstract_excerpt": "A known conjecture of Grinenko in birational geometry asserts that a Mori fibre space with the structure of del Pezzo fibration of low degree is birationally rigid if and only if its anticanonical class is an interior point in the cone of mobile divisors. The conjecture is proved to be true for smooth models (with a generality assumption for degree 3). It is speculated that the conjecture holds for, at least, Gorenstein models in degree 1 and 2. In this article, I present a (Gorenstein) countere",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Grinenko's conjecture about birational rigidity of del Pezzo fibrations and mobile divisor cones, with no mention of circuit complexity, monotone circuits, or graph adjacency matrices that the conjecture links to.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1307.5490",
+      "title": "Birational automorphism groups of projective varieties of Picard number two",
+      "abstract_excerpt": "We slightly extend a result of Oguiso on birational or automorphism groups (resp. of Lazić - Peternell on Morrison-Kawamata cone conjecture) from Calabi-Yau manifolds of Picard number two to arbitrary singular varieties X (resp. to klt Calabi-Yau pairs in broad sense) of Picard number two. When X has only klt singularities and is not a complex torus, we show that either Aut(X) is almost cyclic, or it has only finitely many connected components.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns birational/automorphism groups of varieties of Picard number two and Calabi-Yau pairs, with no mention of graph realizations, ranks bounding monotone circuit size, or any connection to Boolean circuit complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1912.03305",
+      "title": "Induced birational transformations on O'Grady's sixfolds",
+      "abstract_excerpt": "We introduce the notion of induced birational transformations of irreducible holomorphic symplectic sixfolds of the sporadic deformation type discovered by O'Grady. We give a criterion to determine when a manifold of $OG_6$ type is birational to a moduli space of sheaves on an abelian surface. Then we determine when a birational transformation of the moduli space is induced by an automorphism of the abelian surface. Referring to the Mongardi--Rapagnetta--Saccá birational model of manifolds of $O",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'induced birational transformations of irreducible holomorphic symplectic sixfolds' of O'Grady type and moduli spaces of sheaves on abelian surfaces — it shares the term 'birational' but says nothing about graph adjacency matrices, monotone circuit complexity, or any rank bound relating to circuit size.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
