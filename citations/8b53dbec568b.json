@@ -1,0 +1,40 @@
+{
+  "entry_id": "8b53dbec568b",
+  "ts": 1779885021.8096592,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1609.06986",
+      "title": "More on Diophantine sextuples",
+      "abstract_excerpt": "A rational Diophantine m-tuple is a set of m nonzero rationals such that the product of any two of them increased by 1 is a perfect square. The first rational Diophantine quadruple was found by Diophantus, while Euler proved that there are infinitely many rational Diophantine quintuples. In 1999, Gibbs found the first example of a rational Diophantine sextuple, and Dujella, Kazalicki, Mikic and Szikszai recently proved that there exist infinitely many rational Diophantine sextuples.\n  In this pa",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns rational Diophantine sextuples (sets of rationals where pairwise products plus one are perfect squares), which shares only the word 'Diophantine' with the conjecture and does not address polynomial rank over GF(2) or communication complexity/Disjointness.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1603.03800",
+      "title": "Diophantine approximation on matrices and Lie groups",
+      "abstract_excerpt": "We study the general problem of extremality for metric Diophantine approximation on submanifolds of matrices. We formulate a criterion for extremality in terms of a certain family of algebraic obstructions and show that it is sharp. In general, the almost sure diophantine exponent of a submanifold is shown to depend only on its Zariski closure, and when the latter is defined over the rational numbers, we prove that the exponent is rational and give a method to effectively compute it. This method",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns metric Diophantine approximation exponents on submanifolds of matrices and Lie groups, with no mention of communication complexity, Disjointness, GF(2) polynomials, or polynomial rank. It shares only the loose vocabulary 'Diophantine' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1307.1489",
+      "title": "Diophantine properties of nilpotent Lie groups",
+      "abstract_excerpt": "A finitely generated subgroup Γ of a real Lie group G is said to be Diophantine if there is β&gt; 0 such that non-trivial elements in the word ball B_Γ(n) centered at the identity never approach the identity of G closer than |B_Γ (n)|^{-β}. A Lie group G is said to be Diophantine if for every k &gt; 0, a random k-tuple in G generates a Diophantine subgroup. Semi-simple Lie groups are conjectured to be Diophantine but very little is proven in this direction. We give a characterization of Diophant",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Diophantine properties of nilpotent Lie groups and their Lie algebra laws, with no connection to communication complexity, Disjointness, or polynomial rank over GF(2). The shared word 'Diophantine' is purely vocabulary overlap.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

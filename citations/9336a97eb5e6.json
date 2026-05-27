@@ -1,0 +1,40 @@
+{
+  "entry_id": "9336a97eb5e6",
+  "ts": 1779885639.952702,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1104.4279",
+      "title": "Satisfiability of Acyclic and Almost Acyclic CNF Formulas",
+      "abstract_excerpt": "We show that the Satisfiability (SAT) problem for CNF formulas with β-acyclic hypergraphs can be solved in polynomial time by using a special type of Davis-Putnam resolution in which each resolvent is a subset of a parent clause. We extend this class to CNF formulas for which this type of Davis-Putnam resolution still applies and show that testing membership in this class is NP-complete. We compare the class of β-acyclic formulas and this superclass with a number of known polynomial formula clas",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses SAT solvability for β-acyclic CNF formulas via Davis-Putnam resolution and parameterized complexity, with no mention of non-archimedean valuations or their rank relative to DPLL tree depth.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0807.1282",
+      "title": "Satisfiability of Almost Disjoint CNF Formulas",
+      "abstract_excerpt": "We call a CNF formula linear if any two clauses have at most one variable in common. Let m(k) be the largest integer m such that any linear k-CNF formula with &lt;= m clauses is satisfiable. We show that 4^k / (4e^2k^3) &lt;= m(k) &lt; ln(2) k^4 4^k. More generally, a (k,d)-CSP is a constraint satisfaction problem in conjunctive normal form where each variable can take on one of d values, and each constraint contains k variables and forbids exacty one of the d^k possible assignments to these var",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses satisfiability bounds for linear/almost-disjoint CNF and (k,d)-CSP formulas, with no mention of non-archimedean valuations, valuation rank, or DPLL search tree depth. It shares the CNF/SAT vocabulary but does not interact with the conjecture's specific claim relating valuation rank to DPLL tree depth.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1801.03588",
+      "title": "Deterministic search for CNF satisfying assignments in almost polynomial time",
+      "abstract_excerpt": "We consider the fundamental derandomization problem of deterministically finding a satisfying assignment to a CNF formula that has many satisfying assignments. We give a deterministic algorithm which, given an $n$-variable $\\mathrm{poly}(n)$-clause CNF formula $F$ that has at least $\\varepsilon 2^n$ satisfying assignments, runs in time \\[ n^{\\tilde{O}(\\log\\log n)^2} \\] for $\\varepsilon \\ge 1/\\mathrm{polylog}(n)$ and outputs a satisfying assignment of $F$. Prior to our work the fastest known algo",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses a deterministic derandomization algorithm for finding CNF satisfying assignments via approximate counting, with no mention of non-archimedean valuations, valuation ranks, or DPLL search tree depth. It shares only the general CNF/SAT vocabulary without engaging the specific claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

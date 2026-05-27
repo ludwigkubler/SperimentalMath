@@ -1,0 +1,40 @@
+{
+  "entry_id": "5178f9916795",
+  "ts": 1779885212.56748,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2103.09609",
+      "title": "Characterizing Tseitin-formulas with short regular resolution refutations",
+      "abstract_excerpt": "Tseitin-formulas are systems of parity constraints whose structure is described by a graph. These formulas have been studied extensively in proof complexity as hard instances in many proof systems. In this paper, we prove that a class of unsatisfiable Tseitin-formulas of bounded degree has regular resolution refutations of polynomial length if and only if the treewidth of all underlying graphs $G$ for that class is in $O(\\log|V(G)|)$. To do so, we show that any regular resolution refutation of a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract characterizes regular resolution refutation length of Tseitin formulas in terms of treewidth of the underlying graph, with no mention of quasi-monogenic sequences or their rank. It shares the Tseitin/resolution framework but does not address the specific rank-based bound in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2402.00542",
+      "title": "Hardness of Random Reordered Encodings of Parity for Resolution and CDCL",
+      "abstract_excerpt": "Parity reasoning is challenging for Conflict-Driven Clause Learning (CDCL) SAT solvers. This has been observed even for simple formulas encoding two contradictory parity constraints with different variable orders (Chew and Heule 2020). We provide an analytical explanation for their hardness by showing that they require exponential resolution refutations with high probability when the variable order is chosen at random. We obtain this result by proving that these formulas, which are known to be T",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses resolution lower bounds for Tseitin formulas via treewidth of the Tseitin graph, making no mention of 'quasi-monogenic sequences' or their rank, so it neither supports nor refutes the specific algebraic-number-theory claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2102.05019",
+      "title": "On the Power and Limitations of Branch and Cut",
+      "abstract_excerpt": "The Stabbing Planes proof system was introduced to model the reasoning carried out in practical mixed integer programming solvers. As a proof system, it is powerful enough to simulate Cutting Planes and to refute the Tseitin formulas -- certain unsatisfiable systems of linear equations mod 2 -- which are canonical hard examples for many algebraic proof systems. In a recent (and surprising) result, Dadush and Tiwari showed that these short refutations of the Tseitin formulas could be translated i",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Stabbing Planes, Cutting Planes, and Tseitin formula refutations in proof complexity, but makes no mention of quasi-monogenic sequences or their rank, which is the core algebraic-number-theoretic object in the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

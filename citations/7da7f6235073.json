@@ -1,0 +1,40 @@
+{
+  "entry_id": "7da7f6235073",
+  "ts": 1779883550.030698,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/2603.27466v1",
+      "title": "English translation of Frobenius' and Stickelberger's \"On the theory of elliptic functions\"",
+      "abstract_excerpt": "This is an English translation and digitisation of Frobenius' and Stickelberger's \"On the theory of elliptic functions\" first published in Journal fur die reine und angewandte Mathematik (Crelle's journal), 83, 175-179 (1877) with the title \"Zur Theorie der elliptischen Functionen\". The paper derive",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a translation of an 1877 paper on the theory of elliptic functions, which shares only the name 'Frobenius' with the conjecture and has no bearing on Boolean function complexity, XOR-AND tree width, or Frobenius norm rank.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2412.13909v2",
+      "title": "Graded Frobenius Algebras",
+      "abstract_excerpt": "We construct a PROP which encodes 2D-TQFTs with a grading. This defines a graded Frobenius algebra as algebras over this PROP. We also give a description of graded Frobenius algebras in terms of maps and relations. This structure naturally arises as the cohomology of manifolds, loop homology and Hoc",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns graded Frobenius algebras in the context of 2D-TQFTs, PROPs, and cohomology of manifolds, which shares only the surface-level term 'Frobenius' with the conjecture about Frobenius norms and Boolean function complexity. There is no interaction with XOR-AND tree width, ranks of Frobenius norms, or Boolean function bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2305.13803v1",
+      "title": "NORM: Knowledge Distillation via N-to-One Representation Matching",
+      "abstract_excerpt": "Existing feature distillation methods commonly adopt the One-to-one Representation Matching between any pre-selected teacher-student layer pair. In this paper, we present N-to-One Representation (NORM), a new two-stage knowledge distillation method, which relies on a simple Feature Transform (FT) mo",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a knowledge distillation method for neural networks using 'N-to-One Representation Matching' between teacher-student layers, which shares no substantive connection to Frobenius norm rank bounds, Boolean function complexity, or XOR-AND tree width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
