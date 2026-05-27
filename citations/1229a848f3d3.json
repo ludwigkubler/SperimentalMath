@@ -1,0 +1,40 @@
+{
+  "entry_id": "1229a848f3d3",
+  "ts": 1779849492.5747125,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2201.08874",
+      "title": "Note on $p$-adic Local Functional Equation",
+      "abstract_excerpt": "Given primes $\\ell\\ne p$, we record here a $p$-adic valued Fourier theory on a local field over $\\mathbf{Q}_\\ell$, which is developed under the perspective of group schemes. As an application, by substituting rigid analysis for complex analysis, it leads naturally to the $p$-adic local functional equation at $\\ell$, which strongly resembles the complex one in Tate's thesis.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a p-adic Fourier theory and local functional equation à la Tate's thesis, with no mention of tropicalization, differential degree, or ACC⁰ complexity. It shares only the 'p-adic' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1901.01957",
+      "title": "($p$-adic) $L$-functions and ($p$-adic) (multiple) zeta values",
+      "abstract_excerpt": "The article is dedicated to the memory of George Voronoi. It is concerned with ($p$-adic) $L$-functions (in partially ($p$-adic) zeta functions) and cyclotomic ($p$-adic) (multiple) zeta values. The beginning of the article contains a short summary of the results on the Bernoulli numbers associated with the studies of George Voronoi.\n  Results on multiple zeta values have presented by D. Zagier, by P. Deligne and A.Goncharov, by A. Goncharov, by F. Brown, by C. Glanois and others. S. Ünver have ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns p-adic L-functions, multiple zeta values, and Bernoulli numbers, with no mention of tropicalization, differential degree, or ACC⁰ complexity. It shares only the 'p-adic' vocabulary with the conjecture and does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1204.3878",
+      "title": "Analytic constructions of p-adic L-functions and Eisenstein series",
+      "abstract_excerpt": "The Fourier coefficients of the Siegel-Eisenstein series are p-adically continued for all primes p, as meromorphic functions, using the reciprocal of a product of L-functions. A construction of p-adic meromorphic families of such series is given in relation to the geometry of homogeneous spaces. Applications are given to p-adic L-functions, to Siegel's Mass Formula, to p-adic analytic families of automorphic representations. Based on author's talk for the Conference Automorphic Forms and Related",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses p-adic continuation of Siegel-Eisenstein series Fourier coefficients and p-adic L-functions, with no mention of tropicalization, differential degrees, ACC⁰ complexity, or any complexity-theoretic bounds relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
