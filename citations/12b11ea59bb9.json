@@ -1,0 +1,40 @@
+{
+  "entry_id": "12b11ea59bb9",
+  "ts": 1779924066.7004673,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2501.05375",
+      "title": "Some factorization results for formal power series",
+      "abstract_excerpt": "In this paper, we obtain some factorization results on formal power series over principle ideal domains with sharp bounds on number of irreducible factors. These factorization results correspondingly lead to irreducibility criteria for formal power series. The information about prime factorization of the constant term up to a unit and that of some higher order terms is utilized for the purpose. Further, using theory of Newton polygons for power series, we extend the classical Dumas irreducibilit",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns factorization and irreducibility criteria for formal power series over PIDs and discrete valuation domains, with no mention of Boolean circuits, circuit depth, GF(3), or coefficient order bounds. It shares only the 'formal power series' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1611.00827",
+      "title": "Geometric complexity theory and matrix powering",
+      "abstract_excerpt": "Valiant's famous determinant versus permanent problem is the flagship problem in algebraic complexity theory. Mulmuley and Sohoni (Siam J Comput 2001, 2008) introduced geometric complexity theory, an approach to study this and related problems via algebraic geometry and representation theory. Their approach works by multiplying the permanent polynomial with a high power of a linear form (a process called padding) and then comparing the orbit closures of the determinant and the padded permanent. ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns geometric complexity theory, orbit closures, and matrix powering in the determinant vs. permanent problem; it says nothing about formal power series over GF(3), minimal order of coefficients, or Boolean circuit depth with ternary operations.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:cs/0110040",
+      "title": "A New Approach to Formal Language Theory by Kolmogorov Complexity",
+      "abstract_excerpt": "We present a new approach to formal language theory using Kolmogorov complexity. The main results presented here are an alternative for pumping lemma(s), a new characterization for regular languages, and a new method to separate deterministic context-free languages and nondeterministic context-free languages. The use of the new `incompressibility arguments' is illustrated by many examples. The approach is also successful at the high end of the Chomsky hierarchy since one can quantify nonrecursiv",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Kolmogorov complexity applied to formal language theory (pumping lemmas, regular languages, Chomsky hierarchy), not formal power series over GF(3) or Boolean circuit depth bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
