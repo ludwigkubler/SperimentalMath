@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-05-27T08:47:04Z",
-  "total_cycles": 2899,
+  "last_update_utc": "2026-05-27T09:47:06Z",
+  "total_cycles": 2913,
   "verdict_counts": {
-    "INCONCLUSIVE": 1998,
+    "INCONCLUSIVE": 2005,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 804,
+    "BARRIER_HIT": 811,
     "SCOOPED": 77
   },
-  "unique_field_A": 1473,
+  "unique_field_A": 1478,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
@@ -47,11 +47,11 @@
       28
     ],
     [
-      "Representation Theory of Symmetric Groups",
-      24
+      "Quandle Theory",
+      26
     ],
     [
-      "Quandle Theory",
+      "Representation Theory of Symmetric Groups",
       24
     ],
     [
@@ -68,7 +68,7 @@
     ],
     [
       "Noncommutative L^p Geometry",
-      17
+      18
     ]
   ]
 }

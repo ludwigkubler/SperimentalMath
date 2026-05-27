@@ -1,0 +1,40 @@
+{
+  "entry_id": "855bcf9016af",
+  "ts": 1779874420.2372272,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2505.08722",
+      "title": "Properties of LCM Lattices of Monomial Ideals",
+      "abstract_excerpt": "LCM lattices were introduced by Gasharov, Peeva, and Welker as a way to study minimal free resolutions of monomial ideals. All LCM lattices are atomic and all atomic lattices arise as the LCM lattice of some monomial ideal. We systematically study other lattice properties of LCM lattices. For lattices associated to the edge ideal of a graph, we completely characterize the many standard lattice properties in terms of the associated graphs: Boolean, modular, upper semimodular, lower semimodular, s",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract focuses on lattice-theoretic properties (Boolean, modular, Cohen-Macaulayness, projective dimension) of LCM lattices of monomial ideals, with no mention of minimal rank, graph entropy, or communication complexity. It shares the vocabulary of monomial ideals and graphs but does not address the specific rank-vs-entropy bound claimed.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1310.5598",
+      "title": "The projective dimension of sequentially Cohen-Macaulay monomial ideals",
+      "abstract_excerpt": "In this short note we prove that the projective dimension of a sequentially Cohen-Macaulay square-free monomial ideal is equal to the maximal height of its minimal primes (also known as the big height), or equivalently, the maximal cardinality of a minimal vertex cover of its facet complex. This in particular gives a formula for the projective dimension of facet ideals of these classes of ideals, which are known to be sequentially Cohen-Macaulay: graph trees and simplicial trees, chordal graphs ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses projective dimension of sequentially Cohen-Macaulay monomial ideals via vertex cover/big height, with no mention of graph entropy, minimal rank bounds of the form 2^n/e^H(G), or communication complexity. It shares the 'monomial ideal' vocabulary but does not interact with the specific conjectured rank bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1501.06495",
+      "title": "On operator algebras associated with monomial ideals in noncommuting variables",
+      "abstract_excerpt": "We study operator algebras arising from monomial ideals in the ring of polynomials in noncommuting variables, through the apparatus of subproduct systems and C*-correspondences.\nWe provide a full comparison amongst the related operator algebras. For our analysis we isolate a partially defined dynamical system, to which we refer as the {\\em quantised dynamics} of the monomial ideal.\n\nIn addition we revisit several previously considered constructions. These include Matsumoto's subshift C*-algebras",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns operator algebras (subproduct systems, C*-correspondences, tensor algebras) associated with monomial ideals in noncommuting variables, with no mention of minimal rank bounds, graph entropy, or communication complexity. It shares the 'monomial ideal' vocabulary but does not address the specific quantitative claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
