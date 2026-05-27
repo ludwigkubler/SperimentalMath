@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-05-27T12:47:04Z",
-  "total_cycles": 2951,
+  "last_update_utc": "2026-05-27T13:47:04Z",
+  "total_cycles": 2966,
   "verdict_counts": {
-    "INCONCLUSIVE": 2033,
+    "INCONCLUSIVE": 2038,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 821,
-    "SCOOPED": 77
+    "BARRIER_HIT": 830,
+    "SCOOPED": 78
   },
-  "unique_field_A": 1496,
+  "unique_field_A": 1502,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
@@ -48,7 +48,7 @@
     ],
     [
       "Quandle Theory",
-      26
+      28
     ],
     [
       "Representation Theory of Symmetric Groups",
@@ -56,7 +56,7 @@
     ],
     [
       "p-adic Analysis",
-      20
+      21
     ],
     [
       "Noncommutative L^p Geometry",
