@@ -1,0 +1,40 @@
+{
+  "entry_id": "7667172ecf05",
+  "ts": 1779918042.17822,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1409.1534",
+      "title": "Algorithms in Real Algebraic Geometry: A Survey",
+      "abstract_excerpt": "We survey both old and new developments in the theory of algorithms in real algebraic geometry -- starting from effective quantifier elimination in the first order theory of reals due to Tarski and Seidenberg, to more recent algorithms for computing topological invariants of semi-algebraic sets. We emphasize throughout the complexity aspects of these algorithms and also discuss the computational hardness of the underlying problems. We also describe some recent results linking the computational h",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract surveys algorithms in real algebraic geometry (quantifier elimination, topological invariants of semi-algebraic sets), which shares only vague vocabulary with the conjecture; it makes no claim about algebraic cycle ranks bounding SAT/ETH complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0502387v3",
+      "title": "Multiplier ideals in algebraic geometry",
+      "abstract_excerpt": "In this expository introductory text we discuss the multiplier ideals in algebraic geometry. We state Kawamata-Viehweg's and Nadel's vanishing theorems, give a proof (following Ein and Lazarsfeld) of Kollár's bound on the maximal multiplicity of the theta divisor, and explain the asymptotic construc",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses multiplier ideals, vanishing theorems, and theta divisor multiplicity bounds in algebraic geometry, with no mention of Boolean satisfiability, complexity theory, or algebraic cycles associated with SAT instances.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0103170v1",
+      "title": "Minimizing Polynomial Functions",
+      "abstract_excerpt": "We compare algorithms for global optimization of polynomial functions in many variables. It is demonstrated that existing algebraic methods (Gröbner bases, resultants, homotopy methods) are dramatically outperformed by a relaxation technique, due to N.Z. Shor and the first author, which involves sum",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses algorithms for global optimization of polynomial functions using relaxation techniques and sum-of-squares methods, not algebraic cycles, SAT complexity, or the Exponential Time Hypothesis. It shares no substantive interaction with the conjecture's claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
