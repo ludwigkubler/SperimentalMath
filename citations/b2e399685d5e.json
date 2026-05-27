@@ -1,0 +1,40 @@
+{
+  "entry_id": "b2e399685d5e",
+  "ts": 1779854371.5998445,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/1710.07343v1",
+      "title": "Fractional Minimal Rank",
+      "abstract_excerpt": "The notion of fractional minimal rank of a partial matrix is introduced, a quantity that lies between the triangular minimal rank and the minimal rank of a partial matrix. The fractional minimal rank of partial matrices whose bipartite graph is a minimal cycle are determined. Along the way, we deter",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'fractional minimal rank of a partial matrix' in the context of bipartite graphs and triangular minimal rank, which shares only the vague vocabulary of 'minimal rank' but has no connection to twisted Poincaré duality groups, CNF formulas, or DPLL proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2208.01392v2",
+      "title": "The Analytic Minimal Rank Sard Conjecture",
+      "abstract_excerpt": "We obtain, under an additional assumption on the subanalytic abnormal distribution constructed in [4], a proof of the minimal rank Sard conjecture in the analytic category. It establishes that from a given point the set of points accessible through singular horizontal curves of minimal rank, which c",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the 'minimal rank Sard conjecture' for subanalytic abnormal distributions and singular horizontal curves in sub-Riemannian geometry, sharing only the phrase 'minimal rank' with the conjecture, and has no connection to twisted Poincaré duality groups or DPLL proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2406.15089v2",
+      "title": "Sentences over Random Groups II: Sentences of Minimal Rank",
+      "abstract_excerpt": "Random groups of density d&lt;\\frac{1}{2} are infinite hyperbolic, and of density d&gt;\\frac{1}{2} are finite. We prove the existence of a uniform quantifier elimination procedure for formulas of minimal rank (probably the superstable part of the theory). Namely, given a minimal rank formula V(p), w",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quantifier elimination for minimal rank formulas over random hyperbolic groups, which shares the phrase 'minimal rank' but does not address twisted Poincaré duality groups, CNF satisfiability, or DPLL proof depth bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

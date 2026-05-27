@@ -1,0 +1,152 @@
+{
+  "ts": 1779852785.8728852,
+  "window_h": 24.0,
+  "n_conjectures": 261,
+  "n_papers": 78,
+  "n_scoops": 6,
+  "scoops": [
+    {
+      "paper_id": "2605.25445v1",
+      "paper_title": "Cofinal types of topological groups",
+      "matched_eid": "7ed172cf4819",
+      "similarity": 0.7211008372741977
+    },
+    {
+      "paper_id": "2605.25650v1",
+      "paper_title": "Khovanov complexes for bipartite links",
+      "matched_eid": "7ebff963fc72",
+      "similarity": 0.7460589687855127
+    },
+    {
+      "paper_id": "2605.24237v1",
+      "paper_title": "A Matrix Model for Higher-Genus Fuss--Catalan Numbers",
+      "matched_eid": "8eca55facc91",
+      "similarity": 0.7484073587858672
+    },
+    {
+      "paper_id": "2605.25560v1",
+      "paper_title": "Finite-$N$ BMN index across all vacuum sectors",
+      "matched_eid": "76d3eff0508f",
+      "similarity": 0.7362516921995798
+    },
+    {
+      "paper_id": "2605.25473v1",
+      "paper_title": "The Diagrammar of Quantum Magnusian",
+      "matched_eid": "64d4e5033f85",
+      "similarity": 0.7525589452129038
+    },
+    {
+      "paper_id": "2605.25178v1",
+      "paper_title": "Pseudorandom Dynamics in the SYK Model and Cryptographic Censorship in JT Gravity",
+      "matched_eid": "1b66be60747e",
+      "similarity": 0.7285799102117182
+    }
+  ],
+  "top_overlap": [
+    {
+      "score": 0.753,
+      "paper_id": "2605.25473v1",
+      "paper_title": "The Diagrammar of Quantum Magnusian",
+      "paper_category": "hep-th",
+      "matched_conjecture_eid": "64d4e5033f85",
+      "matched_conjecture_title": "Minimal Rank of Geometric Quantization over Tseitin Circuit Width"
+    },
+    {
+      "score": 0.748,
+      "paper_id": "2605.24237v1",
+      "paper_title": "A Matrix Model for Higher-Genus Fuss--Catalan Numbers",
+      "paper_category": "hep-th",
+      "matched_conjecture_eid": "8eca55facc91",
+      "matched_conjecture_title": "Minimal Rank of Hypergeometric Series Coefficients over Resolution Proof Width"
+    },
+    {
+      "score": 0.746,
+      "paper_id": "2605.25650v1",
+      "paper_title": "Khovanov complexes for bipartite links",
+      "paper_category": "hep-th",
+      "matched_conjecture_eid": "7ebff963fc72",
+      "matched_conjecture_title": "Minimal Rank of Tropicalized Knot Invariants under Torus Linking Numbers Bounds DPLL Search Tree Width"
+    },
+    {
+      "score": 0.736,
+      "paper_id": "2605.25560v1",
+      "paper_title": "Finite-$N$ BMN index across all vacuum sectors",
+      "paper_category": "hep-th",
+      "matched_conjecture_eid": "76d3eff0508f",
+      "matched_conjecture_title": "Minimal Rank of Topological Insulator Indices in Quantum Query Complexity"
+    },
+    {
+      "score": 0.729,
+      "paper_id": "2605.25178v1",
+      "paper_title": "Pseudorandom Dynamics in the SYK Model and Cryptographic Censorship in JT Gravity",
+      "paper_category": "hep-th",
+      "matched_conjecture_eid": "1b66be60747e",
+      "matched_conjecture_title": "Minimal Rank of Tropicalized K-theory over Resolution Proof Trees"
+    },
+    {
+      "score": 0.721,
+      "paper_id": "2605.25445v1",
+      "paper_title": "Cofinal types of topological groups",
+      "paper_category": "math.GN",
+      "matched_conjecture_eid": "7ed172cf4819",
+      "matched_conjecture_title": "Minimal Rank of K-theoretic Index over Monotone Circuit Satisfiability"
+    },
+    {
+      "score": 0.715,
+      "paper_id": "2605.25908v1",
+      "paper_title": "Elliptic Generalization of Cherednik-Macdonald-Mehta identities",
+      "paper_category": "math.QA",
+      "matched_conjecture_eid": "74bf4c8173cf",
+      "matched_conjecture_title": "Minimal Rank of Eichler Coefficients over Quantum Circuit Amplitude"
+    },
+    {
+      "score": 0.714,
+      "paper_id": "2605.24778v1",
+      "paper_title": "Projectable reduced $f$-rings admitting elimination of quantifiers",
+      "paper_category": "math.LO",
+      "matched_conjecture_eid": "c39d46be9748",
+      "matched_conjecture_title": "Minimal Rank of Geometric Invariants in Monomial Ideals vs Resolution Proof Width"
+    },
+    {
+      "score": 0.713,
+      "paper_id": "2605.24563v1",
+      "paper_title": "ODE/IM Correspondence at the Free-Fermion Point. Laguerre Wronskians, Shifted Symmetric Functions, and Quantum KdV",
+      "paper_category": "math-ph",
+      "matched_conjecture_eid": "74bf4c8173cf",
+      "matched_conjecture_title": "Minimal Rank of Eichler Coefficients over Quantum Circuit Amplitude"
+    },
+    {
+      "score": 0.712,
+      "paper_id": "2605.25494v1",
+      "paper_title": "Compactified imaginary Toda theory",
+      "paper_category": "math-ph",
+      "matched_conjecture_eid": "c824f42d21af",
+      "matched_conjecture_title": "Minimal Rank of Topological Quantum Field Theories over Boolean Tensor Product Valuations"
+    }
+  ],
+  "stats": {
+    "n_cycles": 261,
+    "verdicts": {
+      "INCONCLUSIVE": 178,
+      "BARRIER_HIT": 76,
+      "SCOOPED": 7
+    },
+    "focus_distribution": {
+      "ACC_SIPSER": 16,
+      "COMM_DISJ": 18,
+      "SOS_DEGREE": 9,
+      "AC0_PARITY": 11,
+      "MONOTONE_CLIQUE": 14,
+      "BP_READTWICE": 13,
+      "GCT_DET_PERM": 13,
+      "TSEITIN_RES": 18
+    },
+    "top_fields_A": {
+      "Algebraic Geometry (Hodge Theory)": 16,
+      "Geometric Langlands Program": 8,
+      "Algebraic K-Theory (Groups)": 8,
+      "Symplectic Geometry": 7,
+      "Free Probability Theory": 6
+    }
+  }
+}
