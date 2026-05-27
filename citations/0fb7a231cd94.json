@@ -1,0 +1,31 @@
+{
+  "entry_id": "0fb7a231cd94",
+  "ts": 1779866674.8425722,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:2404.15546",
+      "title": "A Modular-Form Framework for Global Optimality in the Asymmetric Traveling-Salesman Problem",
+      "abstract_excerpt": "In this paper, we develop an alternate formulation of Asymmetric Traveling Salesman Problem (ATSP). The equivalent problem is to find the zeros of a holomorphic cusp form on the principal congruence subgroup, $\\Gamma(4) $. The resultant Poincar{\\'e} series gives a cusp form whose interior zeros are ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes an ATSP reformulation via zeros of a holomorphic cusp form on Γ(4), with no mention of Tseitin circuits, circuit width, or minimal rank bounds like m^2/4. It shares modular-form vocabulary but does not interact with the specific conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:2402.16659",
+      "title": "Towards efficient quantum computing for quantum chemistry: reducing circuit complexity with transcorrelated and adaptive ansatz techniques.",
+      "abstract_excerpt": "The near-term utility of quantum computers is hindered by hardware constraints in the form of noise. One path to achieving noise resilience in hybrid quantum algorithms is to decrease the required circuit depth - the number of applied gates - to solve a given problem. This work demonstrates how to r",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses reducing quantum circuit depth for quantum chemistry simulations via transcorrelated and adaptive ansatz techniques, which shares no substantive connection to modular forms, Tseitin circuits, or rank bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 0
+  }
+}
