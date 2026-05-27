@@ -1,0 +1,40 @@
+{
+  "entry_id": "ebe571bd094a",
+  "ts": 1779876546.9547803,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/2103.15474v4",
+      "title": "Hermitian K-theory via oriented Gorenstein algebras",
+      "abstract_excerpt": "We show that the hermitian K-theory space of a commutative ring R can be identified, up to A^1-homotopy, with the group completion of the groupoid of oriented finite Gorenstein R-algebras, i.e., finite locally free R-algebras with trivialized dualizing sheaf. We deduce that hermitian K-theory is uni",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses identifying hermitian K-theory with group completion of oriented Gorenstein algebras — a pure algebraic K-theory result with no mention of boolean functions, complexity bounds, or rank lower bounds tied to n/log n.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2011.11755v3",
+      "title": "Boolean algebras, Morita invariance, and the algebraic K-theory of Lawvere theories",
+      "abstract_excerpt": "The algebraic K-theory of Lawvere theories is a conceptual device to elucidate the stable homology of the symmetry groups of algebraic structures such as the permutation groups and the automorphism groups of free groups. In this paper, we fully address the question of how Morita equivalence classes ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses algebraic K-theory of Lawvere theories and Morita invariance for stable homology of symmetry groups, with no mention of boolean function complexity, rank lower bounds, or n/log n bounds tied to boolean functions. It shares the 'algebraic K-theory' and 'Boolean' vocabulary but does not engage with the specific complexity-theoretic claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2410.04531v1",
+      "title": "On the K-theory of magnetic algebras: Iwatsuka case",
+      "abstract_excerpt": "In the tight-binding approximation, an Iwatsuka magnetic field is modeled by a function on $\\mathbb{Z}^2$ with constant, but distinct values in the two parts of the lattice separated by a straight line of slope $α\\in [-\\infty,\\infty]$. In this paper, the $K$-theory of the magnetic $C^*$-algebras gen",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns K-theory of magnetic C*-algebras modeling Iwatsuka magnetic fields on a lattice, which shares the 'K-theory' vocabulary but has no connection to boolean function complexity or rank bounds of the form Ω(n/log n).",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
