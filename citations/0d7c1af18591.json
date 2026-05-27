@@ -1,0 +1,40 @@
+{
+  "entry_id": "0d7c1af18591",
+  "ts": 1779911237.4977052,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/2006.02374v2",
+      "title": "On tensor rank and commuting matrices",
+      "abstract_excerpt": "Obtaining superlinear lower bounds on tensor rank is a major open problem in complexity theory. In this paper we propose a generalization of the approach used by Strassen in the proof of his 3n/2 border rank lower bound. Our approach revolves around a problem on commuting matrices:\n  Given matrices ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses a generalization of Strassen's border rank lower bound approach via commuting matrices, with no mention of Hermitian matrices, branching programs, or inner product functions specific to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1912.07175v2",
+      "title": "Hermitian Tensor Decompositions",
+      "abstract_excerpt": "Hermitian tensors are generalizations of Hermitian matrices, but they have very different properties. Every complex Hermitian tensor is a sum of complex Hermitian rank-1 tensors. However, this is not true for the real case. We study basic properties for Hermitian tensors such as Hermitian decomposit",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes basic properties of Hermitian tensor decompositions ('Every complex Hermitian tensor is a sum of complex Hermitian rank-1 tensors'), but says nothing about branching programs, read-twice complexity, or inner product lower bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2401.14623v1",
+      "title": "Structure in Communication Complexity and Constant-Cost Complexity Classes",
+      "abstract_excerpt": "Several theorems and conjectures in communication complexity state or speculate that the complexity of a matrix in a given communication model is controlled by a related analytic or algebraic matrix parameter, e.g., rank, sign-rank, discrepancy, etc. The forward direction is typically easy as the st",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses general relationships between communication complexity and matrix parameters like rank and sign-rank, but does not address tensor rank of Hermitian matrices, read-twice branching programs, or the specific IP_2 lower bound claimed in the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

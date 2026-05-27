@@ -1,0 +1,40 @@
+{
+  "entry_id": "01e8ad761b13",
+  "ts": 1779914658.9215283,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1307.5490",
+      "title": "Birational automorphism groups of projective varieties of Picard number two",
+      "abstract_excerpt": "We slightly extend a result of Oguiso on birational or automorphism groups (resp. of Lazić - Peternell on Morrison-Kawamata cone conjecture) from Calabi-Yau manifolds of Picard number two to arbitrary singular varieties X (resp. to klt Calabi-Yau pairs in broad sense) of Picard number two. When X has only klt singularities and is not a complex torus, we show that either Aut(X) is almost cyclic, or it has only finitely many connected components.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns birational/automorphism groups of projective varieties of Picard number two and Calabi-Yau pairs, with no mention of AC0 circuits, PARITY, or any complexity-theoretic rank bound. It shares only the broad 'birational geometry' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1401.1642",
+      "title": "Singular del Pezzo fibrations and birational rigidity",
+      "abstract_excerpt": "A known conjecture of Grinenko in birational geometry asserts that a Mori fibre space with the structure of del Pezzo fibration of low degree is birationally rigid if and only if its anticanonical class is an interior point in the cone of mobile divisors. The conjecture is proved to be true for smooth models (with a generality assumption for degree 3). It is speculated that the conjecture holds for, at least, Gorenstein models in degree 1 and 2. In this article, I present a (Gorenstein) countere",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Grinenko's conjecture about birational rigidity of del Pezzo fibrations and presents a Gorenstein counterexample in degree 2; it has no connection to AC0 circuits, PARITY, or rank bounds on varieties associated to circuits.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2111.12700",
+      "title": "Universality in long-distance geometry and quantum complexity",
+      "abstract_excerpt": "In physics, two systems that radically differ at short scales can exhibit strikingly similar macroscopic behaviour: they are part of the same long-distance universality class. Here we apply this viewpoint to geometry and initiate a program of classifying homogeneous metrics on group manifolds by their long-distance properties. We show that many metrics on low-dimensional Lie groups have markedly different short-distance properties but nearly identical distance functions at long distances, and pr",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses universality of long-distance geometry on Lie group manifolds and its application to quantum complexity geometry, with no mention of AC0 circuits, PARITY, birational varieties, or rank bounds. It shares only loose vocabulary ('complexity', 'geometry') without addressing the specific conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

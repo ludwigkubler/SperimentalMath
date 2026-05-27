@@ -1,0 +1,40 @@
+{
+  "entry_id": "28c209382021",
+  "ts": 1779911393.9836252,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0601540v1",
+      "title": "Symplectic forms and surfaces of negative square",
+      "abstract_excerpt": "We introduce an analogue of the inflation technique of Lalonde-McDuff, allowing us to obtain new symplectic forms from symplectic surfaces of negative self-intersection in symplectic four-manifolds. We consider the implications of this construction for the symplectic cones of Kähler surfaces, provin",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns an 'inflation technique' for constructing symplectic forms from negative self-intersection surfaces in symplectic four-manifolds, with no connection to matrix rank, binary relations, or XOR-AND tree width complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1811.09984",
+      "title": "Translated points for contactomorphisms of prequantization spaces over monotone symplectic toric manifolds",
+      "abstract_excerpt": "We prove a version of Sandon's conjecture on the number of translated points of contactomorphisms for the case of prequantization bundles over certain closed monotone symplectic toric manifolds. Namely we show that any contactomorphism of such a prequantization bundle lying in the identity component of the contactomorphism group possesses at least $N$ translated points, where $N$ is the minimal Chern number of the symplectic toric manifold. The proof relies on the theory of generating functions ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns translated points of contactomorphisms and Sandon's conjecture on prequantization bundles, sharing only the vocabulary 'symplectic' with the conjecture; it makes no claim about ranks of symplectic forms induced by XOR-AND matrices or tree width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1007.4036",
+      "title": "Symplectic reduction of quasi-morphisms and quasi-states",
+      "abstract_excerpt": "We prove that quasi-morphisms and quasi-states on a closed integral symplectic manifold descend under symplectic reduction to symplectic hyperplane sections. Along the way we show that quasi-morphisms that arise from spectral invariants are the Calabi homomorphism when restricted to Hamiltonians supported on stably displaceable sets.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns symplectic reduction of quasi-morphisms and quasi-states on closed integral symplectic manifolds, which shares the term 'symplectic' but does not address minimal rank of symplectic forms or XOR-AND tree width complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

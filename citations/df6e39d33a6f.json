@@ -1,0 +1,40 @@
+{
+  "entry_id": "df6e39d33a6f",
+  "ts": 1779913362.3048244,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1206.1925",
+      "title": "Counting Algebraic Curves with Tropical Geometry",
+      "abstract_excerpt": "Tropical geometry is a piecewise linear \"shadow\" of algebraic geometry. It allows for the computation of several cohomological invariants of an algebraic variety. In particular, its application to enumerative algebraic geometry led to significant progress.\n  In this survey, we give an introduction to tropical geometry techniques for algebraic curve counting problems. We also survey some recent developments, with a particular emphasis on the computation of the degree of the Severi varieties of th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes 'tropical geometry techniques for algebraic curve counting problems' and enumerative geometry (Severi varieties, Hurwitz numbers), with no mention of circuit complexity, ACC⁰, or lower bounds on Boolean functions.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0403015v1",
+      "title": "Amoebas of algebraic varieties and tropical geometry",
+      "abstract_excerpt": "This survey consists of two parts. Part 1 is devoted to amoebas. These are images of algebraic subvarieties in the complex torus under the logarithmic moment map. The amoebas have essentially piecewise-linear shape if viewed at large. Furthermore, they degenerate to certain piecewise-linear objects ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a survey on amoebas and tropical geometry as piecewise-linear degenerations of algebraic varieties, with no mention of elliptic curve ranks or ACC⁰ circuit complexity lower bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1207.2443",
+      "title": "Tropical Teichmuller and Siegel spaces",
+      "abstract_excerpt": "In this paper, we present a unified study of the moduli space of tropical curves and Outer space which we link via period maps to the moduli space of tropical abelian varieties and the space of positive definite quadratic forms. Our work is a first step towards exhibiting Outer space and the space of positive definite quadratic forms as analogues of Teichmüller space and Siegel space, respectively, in tropical geometry. All these spaces and the maps among them are described within the category o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses moduli spaces of tropical curves, Outer space, and tropical abelian varieties via period maps — purely tropical geometry/moduli theory with no mention of circuit complexity, ACC⁰, or rank-based lower bounds on Boolean functions.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
