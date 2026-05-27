@@ -1,0 +1,40 @@
+{
+  "entry_id": "7bd3b640cb15",
+  "ts": 1779871406.4448233,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1811.09564",
+      "title": "Dévissage for Waldhausen K-theory",
+      "abstract_excerpt": "A dévissage-type theorem in algebraic $K$-theory is a statement that identifies the $K$-theory of a Waldhausen category $\\mathscr{C}$ in terms of the $K$-theories of a collection of Waldhausen subcategories of $\\mathscr{C}$ when a dévissage condition about the existence of appropriate finite filtrations is satisfied. We distinguish between dévissage theorems of single type and of multiple type, depending on the number of Waldhausen subcategories and their properties. The main representative exam",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns dévissage theorems identifying K-theory of Waldhausen categories via filtrations, with no mention of circuit satisfiability, complexity, or ranks of K-groups associated to computational instances.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1705.02295",
+      "title": "Vanishing theorems for the negative K-theory of stacks",
+      "abstract_excerpt": "We prove that the homotopy algebraic K-theory of tame quasi-DM stacks satisfies cdh-descent. We apply this descent result to prove that if X is a Noetherian tame quasi-DM stack and i &lt; -dim(X), then K_i(X)[1/n] = 0 (resp. K_i(X, Z/n) = 0) provided that n is nilpotent on X (resp. is invertible on X). Our descent and vanishing results apply more generally to certain Artin stacks whose stabilizers are extensions of finite group schemes by group schemes of multiplicative type.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns cdh-descent and vanishing of negative K-theory for tame quasi-DM stacks ('K_i(X)[1/n] = 0'), with no connection to randomized circuit satisfiability or rank bounds tied to SAT instances.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2407.10394",
+      "title": "Lambda-ring structures on the K-theory of algebraic stacks",
+      "abstract_excerpt": "In this paper we consider the K-theory of smooth algebraic stacks, establish lambda and gamma operations, and show that the higher K-theory of such stacks is always a pre-lambda-ring, and is a lambda-ring if every coherent sheaf is the quotient of a vector bundle. As a consequence, we are able to define Adams operations and absolute cohomology for smooth algebraic stacks satisfying this hypothesis. We also obtain a comparison of the absolute cohomology with the equivariant higher Chow groups in ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns lambda-ring structures, Adams operations, and absolute cohomology on K-theory of smooth algebraic stacks, with no mention of randomized circuit satisfiability, complexity bounds, or minimal rank computations. It shares only the vocabulary 'K-theory' with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
