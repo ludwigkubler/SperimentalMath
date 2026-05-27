@@ -1,0 +1,40 @@
+{
+  "entry_id": "7d357d6dad22",
+  "ts": 1779880959.559747,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0706.3841",
+      "title": "Arithmetic lattices and weak spectral geometry",
+      "abstract_excerpt": "This note is an expansion of three lectures given at the workshop \"Topology, Complex Analysis and Arithmetic of Hyperbolic Spaces\" held at Kyoto University in December of 2006 and will appear in the proceedings for this workshop.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract merely states the note expands on lectures about 'Topology, Complex Analysis and Arithmetic of Hyperbolic Spaces' without revealing any specific claims about Hodge-theoretic motives, Boolean circuits, or XOR-AND tree width. There is no content to evaluate against the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2503.13307",
+      "title": "On exact sequences of Hodge theoretic fundamental groups",
+      "abstract_excerpt": "The goal of this paper is to first define a Hodge theoretic fundamental group for smooth connected complex algebraic varieties and then prove and study a right exact sequence of Hodge theoretic fundamental groups associated to a smooth projective family of algebraic varieties $f\\colon X\\to B$. In particular, we study when this right exact sequence is exact, relate this question to some prior results in non-abelian Hodge theory, and give an obstruction to splitting in terms of étale fundamental g",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'a right exact sequence of Hodge theoretic fundamental groups' for smooth projective families, with no mention of Boolean circuits, XOR-AND tree width, or arithmetic heights of motives associated to circuits.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2603.05968",
+      "title": "A Note on Hodge theoretic anabelian geometry",
+      "abstract_excerpt": "Grothendieck's anabelian conjectures predict that certain classes of varieties over number fields are largely determined by their {é}tale fundamental groups. A theorem of Mochizuki shows that for hyperbolic curves over number fields or $p$-adic fields, dominant morphisms bijectively correspond to open homomorphisms between their {é}tale fundamental groups.\n  Motivated by non-abelian Hodge theory, we formulate a Hodge-theoretic version of the anabelian conjecture in which the Galois action is rep",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a Hodge-theoretic analog of Mochizuki's anabelian theorem for hyperbolic curves/manifolds via fundamental groups, with no mention of Boolean circuits, XOR-AND tree width, or arithmetic heights of motives associated with circuits.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}

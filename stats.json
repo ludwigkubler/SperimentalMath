@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-05-27T10:47:04Z",
-  "total_cycles": 2923,
+  "last_update_utc": "2026-05-27T11:47:04Z",
+  "total_cycles": 2940,
   "verdict_counts": {
-    "INCONCLUSIVE": 2014,
+    "INCONCLUSIVE": 2025,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 812,
+    "BARRIER_HIT": 818,
     "SCOOPED": 77
   },
-  "unique_field_A": 1483,
+  "unique_field_A": 1490,
   "top_fields_A": [
     [
       "Real Algebraic Geometry",
@@ -40,7 +40,7 @@
     ],
     [
       "Matroid Theory",
-      32
+      33
     ],
     [
       "Free Probability",
@@ -59,15 +59,15 @@
       20
     ],
     [
+      "Noncommutative L^p Geometry",
+      19
+    ],
+    [
       "Geometric Langlands Program",
       19
     ],
     [
       "Additive Combinatorics",
-      18
-    ],
-    [
-      "Noncommutative L^p Geometry",
       18
     ]
   ]

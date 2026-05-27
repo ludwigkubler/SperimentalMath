@@ -1,0 +1,40 @@
+{
+  "entry_id": "5eea1bb749c7",
+  "ts": 1779881871.1244483,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0208014v2",
+      "title": "Rational semimodules over the max-plus semiring and geometric approach of discrete event systems",
+      "abstract_excerpt": "We introduce rational semimodules over semirings whose addition is idempotent, like the max-plus semiring, in order to extend the geometric approach of linear control to discrete event systems. We say that a subsemimodule of the free semimodule S^n over a semiring S is rational if it has a generatin",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes 'rational semimodules over the max-plus semiring' for 'geometric approach of linear control to discrete event systems' — it shares the max-plus framework but says nothing about tensor products of tropical curves, CNF formulas, or XOR-AND tree width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1503.00822v2",
+      "title": "Product Ranks of the $3\\times 3$ Determinant and Permanent",
+      "abstract_excerpt": "We show that the product rank of the $3\\times 3$ determinant is $5$, and the product rank of the $3\\times 3$ permanent is $4$. As a corollary, we obtain that the tensor ranks of the $3 \\times 3$ determinant and permanent are $5$ and $4$, respectively. We show moreover that the border product rank of",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns product/tensor ranks of the 3x3 determinant and permanent, a specific algebraic-geometry computation, with no mention of tropicalizations, CNF formulas, or XOR-AND tree width. It shares only the loose vocabulary of 'tensor rank' but does not interact with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2407.09775",
+      "title": "Learning Weighted Finite Automata over the Max-Plus Semiring and its Termination",
+      "abstract_excerpt": "Active learning of finite automata has been vigorously pursued for the purposes of analysis and explanation of black-box systems. In this paper, we study an L*-style learning algorithm for weighted automata over the max-plus semiring. The max-plus setting exposes a \"consistency\" issue in the previously studied semiring-generic extension of L*: we show that it can fail to maintain consistency of tables, and can thus make equivalence queries on obviously wrong hypothesis automata. We present a the",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns L*-style active learning of weighted finite automata over the max-plus semiring, addressing a 'consistency' issue and termination — it does not discuss tropical curves of CNF formulas, tensor products, or XOR-AND tree width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "cf304e622e77",
+  "ts": 1779881422.7553742,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/0901.0512v4",
+      "title": "Expected Performance of the ATLAS Experiment - Detector, Trigger and Physics",
+      "abstract_excerpt": "A detailed study is presented of the expected performance of the ATLAS detector. The reconstruction of tracks, leptons, photons, missing energy and jets is investigated, together with the performance of b-tagging and the trigger. The physics potential for a variety of interesting physics processes, ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the ATLAS detector's expected performance for particle physics reconstruction and triggers, with no mention of tropical geometry, Deligne-Lusztig indicators, or communication complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2501.16555",
+      "title": "Euclid preparation. 3-dimensional galaxy clustering in configuration space. Part I. 2-point correlation function estimation",
+      "abstract_excerpt": "The 2-point correlation function of the galaxy spatial distribution is a major cosmological observable that enables constraints on the dynamics and geometry of the Universe. The Euclid mission aims at performing an extensive spectroscopic survey of approximately 20--30 million H$α$-emitting galaxies up to about redshift two. This ambitious project seeks to elucidate the nature of dark energy by mapping the 3-dimensional clustering of galaxies over a significant portion of the sky. This paper pre",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the Euclid mission's software for estimating the 3D galaxy 2-point correlation function in cosmology, with no mention of tropical geometry, Deligne-Lusztig indicators, or communication complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2303.17007v2",
+      "title": "Impact of cross-section uncertainties on supernova neutrino spectral parameter fitting in the Deep Underground Neutrino Experiment",
+      "abstract_excerpt": "A primary goal of the upcoming Deep Underground Neutrino Experiment (DUNE) is to measure the $\\mathcal{O}(10)$ MeV neutrinos produced by a Galactic core-collapse supernova if one should occur during the lifetime of the experiment. The liquid-argon-based detectors planned for DUNE are expected to be ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns neutrino measurements at the DUNE experiment ('measure the O(10) MeV neutrinos produced by a Galactic core-collapse supernova'), which has no connection to tropical geometry, Deligne-Lusztig indicators, or communication complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

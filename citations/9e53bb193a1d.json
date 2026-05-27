@@ -1,0 +1,40 @@
+{
+  "entry_id": "9e53bb193a1d",
+  "ts": 1779879469.2512987,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1610.00298",
+      "title": "Khovanskii bases, higher rank valuations and tropical geometry",
+      "abstract_excerpt": "Given a finitely generated algebra $A$, it is a fundamental question whether $A$ has a full rank discrete (Krull) valuation $\\mathfrak{v}$ with finitely generated value semigroup. We give a necessary and sufficient condition for this, in terms of tropical geometry of $A$. In the course of this we introduce the notion of a Khovanskii basis for $(A, \\mathfrak{v})$ which provides a framework for far extending Gröbner theory on polynomial algebras to general finitely generated algebras. In particula",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Khovanskii bases, valuations, and tropical geometry of finitely generated algebras, with no mention of group representation rank bounds, randomized circuits, or Boolean satisfiability complexity. It shares only the vague keyword 'tropical geometry' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1207.2443",
+      "title": "Tropical Teichmuller and Siegel spaces",
+      "abstract_excerpt": "In this paper, we present a unified study of the moduli space of tropical curves and Outer space which we link via period maps to the moduli space of tropical abelian varieties and the space of positive definite quadratic forms. Our work is a first step towards exhibiting Outer space and the space of positive definite quadratic forms as analogues of Teichmüller space and Siegel space, respectively, in tropical geometry. All these spaces and the maps among them are described within the category o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns moduli spaces of tropical curves, Outer space, tropical abelian varieties, and quadratic forms — it does not address group representations, tropicalization rank bounds, or randomized circuit satisfiability mentioned in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1611.01841",
+      "title": "Gröbner theory and tropical geometry on spherical varieties",
+      "abstract_excerpt": "Let $G$ be a connected reductive algebraic group. We develop a Gröbner theory for multiplicity-free $G$-algebras, as well as a tropical geometry for subschemes in a spherical homogeneous space $G/H$. We define the notion of a spherical tropical variety and prove a fundamental theorem of tropical geometry in this context. We also propose a definition for a spherical amoeba in $G/H$. Our work partly builds on the previous work of Vogiannou on spherical tropicalization and in some ways is complemen",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract develops Gröbner theory and tropical geometry for spherical varieties of reductive groups, with no mention of rank bounds for tropicalized representations, finite fields, randomized circuits, or SAT complexity. It shares the 'tropical' vocabulary but does not address the specific rank-vs-variable-count claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
