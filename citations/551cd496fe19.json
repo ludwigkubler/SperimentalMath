@@ -1,0 +1,40 @@
+{
+  "entry_id": "551cd496fe19",
+  "ts": 1779895908.282035,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1204.1444",
+      "title": "Computing the minimum rank of a loop directed tree",
+      "abstract_excerpt": "The minimum rank of a graph is the minimum possible rank of a real matrix whose zero-nonzero pattern is described by the graph. The current algorithms can compute efficiently the minimum rank of undirected trees. This paper provides an algorithm to compute in polynomial time the minimum rank of directed trees allowing loops.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns computing the minimum rank of directed trees with loops in graph theory ('minimum possible rank of a real matrix whose zero-nonzero pattern is described by the graph'), which shares the word 'rank' but does not address Eichler orders, XOR-AND tree width, or any arithmetic-geometric quantity in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1605.01727",
+      "title": "Ultraheavy Element Enrichment in Impulsive Solar Flares",
+      "abstract_excerpt": "Particle acceleration by cascading Alfven wave turbulence was suggested (Eichler, 1979b) as being responsible for energetic particle populations in $^3$He-rich solar flares. In particular, it was noted that the damping of the turbulence by the tail of the particle distribution in rigidity naturally leads to dramatic enhancement of pre-accelerated species - as $^3$He is posited to be - and superheavy elements. The subsequent detection of large enrichment of ultraheavies, relative to iron, has app",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns particle acceleration by Alfven wave turbulence in solar flares, citing 'Eichler, 1979b' as an author name, with no relation to Eichler orders, complexity theory, or XOR-AND tree width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1604.05721",
+      "title": "Ultrahigh Energy Cosmic Rays: A Galactic Origin?",
+      "abstract_excerpt": "It is suggested that essentially all of the UHECRs we detect, including those at the highest energy, originate in our Galaxy. It is shown that even if the density of sources decreases with Galactic radius, then the anisotropy and composition can be understood. Inward anisotropy, as recently reported by the Auger collaboration can be understood as drift along the current sheet of UHECRs originating outside the solar circle, as predicted in Kumar and Eichler (2014), while those originating within ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns ultrahigh energy cosmic rays and Galactic origins (mentioning 'Eichler' only as an author surname), with no connection to Eichler orders in arithmetic geometry or XOR-AND tree width complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

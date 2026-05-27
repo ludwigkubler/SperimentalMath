@@ -1,0 +1,31 @@
+{
+  "entry_id": "00a0dcab223f",
+  "ts": 1779895706.8742073,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.48550/arXiv.2308.10977",
+      "title": "Algebraic power series and their automatic complexity I: finite fields",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available, so I cannot assess whether the paper interacts with the specific claim relating Hodge decomposition rank to resolution refutation size.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:ARXIV:2406.12198",
+      "title": "On the BCSS Proof of the Fundamental Theorem of Algebra",
+      "abstract_excerpt": "Section 10.4 of the 1998 Springer-Verlag book {\\em Complexity and Real Computation}, by Blum, Cucker, Shub, and Smale, contains a particularly elegant proof of the Fundamental Theorem of Algebra: The central idea of the proof naturally leads to a homotopy continuation algorithm for finding the roots of univariate polynomials, and extends naturally to a proof of B\\'{e}zout's Theorem (on the number of roots of systems of $n$ equations in $n$ unknowns). We present a more detailed version of the BCS",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes an expository version of the BCSS proof of the Fundamental Theorem of Algebra and Bézout's Theorem, explicitly stating 'there are no new results' — it does not address Hodge decomposition rank, CNF formulas, or resolution proof complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}
