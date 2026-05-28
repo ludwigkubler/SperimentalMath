@@ -1,0 +1,40 @@
+{
+  "entry_id": "62453ad921a6",
+  "ts": 1779988020.442671,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2309.16111",
+      "title": "The relational complexity of linear groups acting on subspaces",
+      "abstract_excerpt": "The relational complexity of a subgroup $G$ of $\\mathrm{Sym}(Ω)$ is a measure of the way in which the orbits of $G$ on $Ω^k$ for various $k$ determine the original action of $G$. Very few precise values of relational complexity are known. This paper determines the exact relational complexity of all groups lying between $\\mathrm{PSL}_{n}(\\mathbb{F})$ and $\\mathrm{PGL}_{n}(\\mathbb{F})$, for an arbitrary field $\\mathbb{F}$, acting on the set of $1$-dimensional subspaces of $\\mathbb{F}^n$. We also b",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'relational complexity' of linear groups acting on subspaces — a permutation group invariant — and makes no mention of Brauer groups, k-CNF formulas, or monotone circuit complexity. It shares no specific claim with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2303.14697",
+      "title": "The central tree property and algorithmic problems on subgroups of free groups",
+      "abstract_excerpt": "We study the average case complexity of the uniform membership problem for subgroups of free groups, and we show that it is orders of magnitude smaller than the worst case complexity of the best known algorithms. This applies to subgroups given by a fixed number of generators as well as to subgroups given by an exponential number of generators. The main idea behind this result is to exploit a generic property of tuples of words, called the central tree property. An application is given to the av",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses average case complexity of membership problems for subgroups of free groups using the 'central tree property,' which has no connection to Brauer groups, CNF formulas, or monotone circuit complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1309.5314",
+      "title": "Conjugacy in Baumslag's group, generic case complexity, and division in power circuits",
+      "abstract_excerpt": "The conjugacy problem belongs to algorithmic group theory. It is the following question: given two words x, y over generators of a fixed group G, decide whether x and y are conjugated, i.e., whether there exists some z such that zxz^{-1} = y in G. The conjugacy problem is more difficult than the word problem, in general. We investigate the complexity of the conjugacy problem for two prominent groups: the Baumslag-Solitar group BS(1,2) and the Baumslag(-Gersten) group G(1,2). The conjugacy proble",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses the conjugacy problem in Baumslag-Solitar/Baumslag groups and division in power circuits, with no mention of Brauer groups, k-CNF formulas, or monotone circuit complexity. It shares no specific claim with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

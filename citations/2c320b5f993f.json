@@ -1,0 +1,40 @@
+{
+  "entry_id": "2c320b5f993f",
+  "ts": 1779989995.0839126,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0403015v1",
+      "title": "Amoebas of algebraic varieties and tropical geometry",
+      "abstract_excerpt": "This survey consists of two parts. Part 1 is devoted to amoebas. These are images of algebraic subvarieties in the complex torus under the logarithmic moment map. The amoebas have essentially piecewise-linear shape if viewed at large. Furthermore, they degenerate to certain piecewise-linear objects ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a survey on amoebas and their piecewise-linear (tropical) degenerations in algebraic geometry, with no mention of monotone circuits, k-CLIQUE, or circuit complexity bounds. It shares only the 'tropical geometry' vocabulary without engaging the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0306366v2",
+      "title": "First steps in tropical geometry",
+      "abstract_excerpt": "Tropical algebraic geometry is the geometry of the tropical semiring $(\\mathbb{R},\\min,+)$. Its objects are polyhedral cell complexes which behave like complex algebraic varieties. We give an introduction to this theory, with an emphasis on plane curves and linear spaces. New results include a compl",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes an introductory paper on tropical algebraic geometry focused on 'plane curves and linear spaces,' with no mention of vector bundles, circuit complexity, or k-CLIQUE. It shares the tropical geometry framework but does not address the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2504.11619",
+      "title": "Computing the Tropical Abel--Jacobi Transform and Tropical Distances for Metric Graphs",
+      "abstract_excerpt": "Metric graphs are important models for capturing the structure of complex data across various domains. While much effort has been devoted to extracting geometric and topological features from graph data, computational aspects of metric graphs as abstract tropical curves remains unexplored. In this paper, we present the first computational and machine learning-driven study of metric graphs from the perspective of tropical algebraic geometry. Specifically, we study the tropical Abel--Jacobi transf",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract focuses on computing the tropical Abel-Jacobi transform and distances on metric graphs, mentioning NP-hardness via lattice problems but never addressing tropical vector bundles, monotone circuit complexity, or k-CLIQUE lower bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
