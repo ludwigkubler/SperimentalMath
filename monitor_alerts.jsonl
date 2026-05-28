@@ -2405,3 +2405,4 @@
 {"ts": 1779967804.005774, "kind": "NOTEBOOK_LARGE", "auto_fixed": false, "detail": {"size_mb": 60.292182}}
 {"ts": 1779967804.829752, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 32}}
 {"ts": 1779969601.798455, "ts_iso": "2026-05-28T12:00:01.798455+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "OK", "to_status": "DEGRADED", "failing_checks": ["cron_logs_no_trace"], "auto_fixed": false}
+{"ts": 1779969901.40675, "ts_iso": "2026-05-28T12:05:01.406750+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "DEGRADED", "to_status": "OK", "failing_checks": [], "auto_fixed": false}
