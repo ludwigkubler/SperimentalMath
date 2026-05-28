@@ -1,0 +1,40 @@
+{
+  "entry_id": "eb6dc5e195c8",
+  "ts": 1779944401.3776052,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1606.00596",
+      "title": "Randomized Polynomial Time Identity Testing for Noncommutative Circuits",
+      "abstract_excerpt": "In this paper we show that the black-box polynomial identity testing for noncommutative polynomials $f\\in\\mathbb{F}\\langle z_1,z_2,\\cdots,z_n \\rangle$ of degree $D$ and sparsity $t$, can be done in randomized $\\poly(n,\\log t,\\log D)$ time. As a consequence, if the black-box contains a circuit $C$ of size $s$ computing $f\\in\\mathbb{F}\\langle z_1,z_2,\\cdots,z_n \\rangle$ which has at most $t$ non-zero monomials, then the identity testing can be done by a randomized algorithm with running time polyn",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses randomized polynomial identity testing for noncommutative circuits via automata-theoretic monomial isolation, with no mention of tensor product rank, Boolean circuit monotonicity, or any bound relating the two.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1611.07235",
+      "title": "Identity Testing for +-Regular Noncommutative Arithmetic Circuits",
+      "abstract_excerpt": "An efficient randomized polynomial identity test for noncommutative polynomials given by noncommutative arithmetic circuits remains an open problem. The main bottleneck to applying known techniques is that a noncommutative circuit of size $s$ can compute a polynomial of degree exponential in $s$ with a double-exponential number of nonzero monomials. In this paper, we report some progress by dealing with two natural subcases (both allow for polynomials of exponential degree and a double exponenti",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns polynomial identity testing for noncommutative arithmetic circuits, not tensor product ranks bounding Boolean circuit monotonicity. It shares vocabulary ('noncommutative', 'circuits') but does not address minimal rank of tensor products or monotonicity degree.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2011.02621",
+      "title": "Verifying Random Quantum Circuits with Arbitrary Geometry Using Tensor Network States Algorithm",
+      "abstract_excerpt": "The ability to efficiently simulate random quantum circuits using a classical computer is increasingly important for developing Noisy Intermediate-Scale Quantum devices. Here we present a tensor network states based algorithm specifically designed to compute amplitudes for random quantum circuits with arbitrary geometry. Singular value decomposition based compression together with a two-sided circuit evolution algorithm are used to further compress the resulting tensor network. To further accele",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a 'tensor network states based algorithm' for simulating random quantum circuits, sharing only the vocabulary of 'tensor' and 'circuits' with the conjecture; it makes no claim about noncommutative tensor product rank bounds or Boolean circuit monotonicity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
