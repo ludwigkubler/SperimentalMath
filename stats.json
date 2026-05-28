@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-05-28T20:47:04Z",
-  "total_cycles": 3368,
+  "last_update_utc": "2026-05-28T21:47:05Z",
+  "total_cycles": 3381,
   "verdict_counts": {
-    "INCONCLUSIVE": 2247,
+    "INCONCLUSIVE": 2255,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 1016,
+    "BARRIER_HIT": 1021,
     "SCOOPED": 85
   },
-  "unique_field_A": 1626,
+  "unique_field_A": 1630,
   "top_fields_A": [
     [
       "Algebraic Geometry (Hodge Theory)",
@@ -24,7 +24,7 @@
     ],
     [
       "Free Probability Theory",
-      64
+      65
     ],
     [
       "Symplectic Geometry",
@@ -63,11 +63,11 @@
       22
     ],
     [
-      "p-adic Analysis",
-      21
+      "Geometric Langlands Program",
+      22
     ],
     [
-      "Geometric Langlands Program",
+      "p-adic Analysis",
       21
     ]
   ]
