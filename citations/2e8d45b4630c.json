@@ -1,0 +1,40 @@
+{
+  "entry_id": "2e8d45b4630c",
+  "ts": 1779979823.1249642,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1804.08897",
+      "title": "Logic of left variable inclusion and Plonka sums of matrices",
+      "abstract_excerpt": "The paper aims at studying, in full generality, logics defined by imposing a variable inclusion condition on a given logic $\\vdash$. It turns out that the algebraic counterpart of the variable inclusion companion of a given logic $\\vdash$ is obtained by constructing the Plonka sum of the matrix models of $\\vdash$. This association allows to obtain a Hilbert-style axiomatization of the logics of variable inclusion and to describe the structure of their reduced models.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Plonka sums of matrix models in the context of variable-inclusion logics and Hilbert-style axiomatization, with no mention of Ramanujan sums, MSO logic, or quantifier depth. The shared word 'sums' is incidental and the paper does not interact with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0904.1226",
+      "title": "On an Asymptotic Series of Ramanujan",
+      "abstract_excerpt": "An asymptotic series in Ramanujan's second notebook (Entry 10, Chapter 3) is concerned with the behavior of the expected value of $φ(X)$ for large $λ$ where $X$ is a Poisson random variable with mean $λ$ and $φ$ is a function satisfying certain growth conditions. We generalize this by studying the asymptotics of the expected value of $φ(X)$ when the distribution of $X$ belongs to a suitable family indexed by a convolution parameter. Examples include the problem of inverse moments for distributio",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns asymptotic series for expected values of functions of Poisson/binomial random variables, with no mention of Ramanujan sums (the number-theoretic c_q(n)), MSO logic, or quantifier depth. The only connection is the name 'Ramanujan,' which is unrelated to the conjecture's subject.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2104.14266",
+      "title": "Axiomatizations and Computability of Weighted Monadic Second-Order Logic",
+      "abstract_excerpt": "Weighted monadic second-order logic is a weighted extension of monadic second-order logic that captures exactly the behaviour of weighted automata. Its semantics is parameterized with respect to a semiring on which the values that weighted formulas output are evaluated. Gastin and Monmege (2018) gave abstract semantics for a version of weighted monadic second-order logic to give a more general and modular proof of the equivalence of the logic with weighted automata. We focus on the abstract sema",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses axiomatization and decidability of weighted MSO over semirings, with no mention of Ramanujan sums, their rank, or any number-theoretic bound on quantifier depth. It shares only the MSO vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

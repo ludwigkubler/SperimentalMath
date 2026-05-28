@@ -1,0 +1,40 @@
+{
+  "entry_id": "67d9d6a3fd41",
+  "ts": 1779980457.277688,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1409.1534",
+      "title": "Algorithms in Real Algebraic Geometry: A Survey",
+      "abstract_excerpt": "We survey both old and new developments in the theory of algorithms in real algebraic geometry -- starting from effective quantifier elimination in the first order theory of reals due to Tarski and Seidenberg, to more recent algorithms for computing topological invariants of semi-algebraic sets. We emphasize throughout the complexity aspects of these algorithms and also discuss the computational hardness of the underlying problems. We also describe some recent results linking the computational h",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract surveys algorithms and complexity for real algebraic geometry problems (quantifier elimination, topological invariants of semi-algebraic sets); it makes no claim about AC⁰ circuits, PARITY, or bounding circuit depth via irreducible components of varieties.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1209.3595",
+      "title": "Noncommutative complex differential geometry",
+      "abstract_excerpt": "This paper defines and examines the basic properties of noncommutative analogues of almost complex structures, integrable almost complex structures, holomorphic curvature, cohomology, and holomorphic sheaves. The starting point is a differential structure on a noncommutative algebra defined in terms of a differential graded algebra. This is compared to current ideas on noncommutative algebraic geometry.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns noncommutative complex differential geometry (almost complex structures, holomorphic sheaves, DGAs), with no mention of Boolean circuits, AC⁰, PARITY, or real algebraic varieties associated to circuits. It shares no substantive interaction with the conjecture's specific claims.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0108225v1",
+      "title": "Amoebas of algebraic varieties",
+      "abstract_excerpt": "The amoebas associated to algebraic varieties are certain concave regions in the Euclidean space whose shape reminds biological amoebas. This term was formally introduced to Mathematics in 1994 by Gelfand, Kapranov and Zelevinski. Some traces of amoebas were appearing from time to time, even before ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes amoebas as 'concave regions in the Euclidean space' associated with algebraic varieties, a topic in real/tropical algebraic geometry with no mention of Boolean circuits, AC⁰, PARITY, or circuit complexity bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
