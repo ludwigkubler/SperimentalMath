@@ -1,0 +1,40 @@
+{
+  "entry_id": "5097e7a8ad5d",
+  "ts": 1779993604.8988295,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2504.19966",
+      "title": "Quantum circuit lower bounds in the magic hierarchy",
+      "abstract_excerpt": "We introduce the magic hierarchy, a quantum circuit model that alternates between arbitrary-sized Clifford circuits and constant-depth circuits with two-qubit gates ($\\textsf{QNC}^0$). This model unifies existing circuit models, such as $\\textsf{QAC}^0_f$ and models with adaptive intermediate measurements. Despite its generality, we are able to prove nontrivial lower bounds.\n  We prove new lower bounds in the first level of the hierarchy, showing that certain explicit quantum states cannot be ap",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quantum circuit lower bounds in a 'magic hierarchy' involving Clifford and QNC^0 circuits, with no mention of Ehrhart cohomology, randomized OR complexity, or boolean function complexity bounds tied to polytope invariants. It shares only the broad framing of 'circuit lower bounds' without interacting with the specific conjectured inequality.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1903.10609",
+      "title": "Circuit Complexity of Knot States in Chern-Simons theory",
+      "abstract_excerpt": "We compute an upper bound on the circuit complexity of quantum states in $3d$ Chern-Simons theory corresponding to certain classes of knots. Specifically, we deal with states in the torus Hilbert space of Chern-Simons that are the knot complements on the $3$-sphere of arbitrary torus knots. These can be constructed from the unknot state by using the Hilbert space representation of the $S$ and $T$ modular transformations of the torus as fundamental gates. The upper bound is saturated in the semic",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns circuit complexity of quantum states in Chern-Simons theory and knot complements, with no mention of Ehrhart cohomology, boolean functions, or randomized OR complexity. It shares only the generic term 'circuit complexity' but does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1407.6169",
+      "title": "Multiplicative Complexity of Vector Valued Boolean Functions",
+      "abstract_excerpt": "We consider the multiplicative complexity of Boolean functions with multiple bits of output, studying how large a multiplicative complexity is necessary and sufficient to provide a desired nonlinearity. For so-called $ΣΠΣ$ circuits, we show that there is a tight connection between error correcting codes and circuits computing functions with high nonlinearity. Combining this with known coding theory results, we show that functions with $n$ inputs and $n$ outputs with the highest possible nonlinea",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns multiplicative complexity (AND gate counts) and nonlinearity of Boolean functions via error correcting codes, with no mention of Ehrhart cohomology, randomized OR complexity, or the specific bound ROR_f(n) ≤ c·|H_1(f)|^2.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
