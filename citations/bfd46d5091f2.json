@@ -1,0 +1,40 @@
+{
+  "entry_id": "bfd46d5091f2",
+  "ts": 1779962305.0567806,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1611.00827",
+      "title": "Geometric complexity theory and matrix powering",
+      "abstract_excerpt": "Valiant's famous determinant versus permanent problem is the flagship problem in algebraic complexity theory. Mulmuley and Sohoni (Siam J Comput 2001, 2008) introduced geometric complexity theory, an approach to study this and related problems via algebraic geometry and representation theory. Their approach works by multiplying the permanent polynomial with a high power of a linear form (a process called padding) and then comparing the orbit closures of the determinant and the padded permanent. ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns geometric complexity theory, matrix powering, and the determinant vs. permanent problem—it makes no mention of continued fractions, 3-CNF formulas, or resolution proof complexity. It shares no specific claim with the conjecture about multivariate continued fraction rank bounding resolution proof length.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2504.04416",
+      "title": "Meta-Mathematics of Computational Complexity Theory",
+      "abstract_excerpt": "We survey results on the formalization and independence of mathematical statements related to major open problems in computational complexity theory. Our primary focus is on recent findings concerning the (un)provability of complexity bounds within theories of bounded arithmetic. This includes the techniques employed and related open problems, such as the (non)existence of a feasible proof that P = NP.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract focuses on formalization and (un)provability of complexity bounds within bounded arithmetic, with no mention of multivariate continued fractions or resolution proof length bounds, so it shares only the broad 'complexity theory' framework.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:cs/9811005",
+      "title": "Writing and Editing Complexity Theory: Tales and Tools",
+      "abstract_excerpt": "Each researcher should have a full shelf---physical or virtual---of books on writing and editing prose. Though we make no claim to any special degree of expertise, we recently edited a book of complexity theory surveys (Complexity Theory Retrospective II, Springer-Verlag, 1997), and in doing so we were brought into particularly close contact with the subject of this article, and with a number of the excellent resources available to writers and editors. In this article, we list some of these reso",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes an article about writing and editing resources for complexity theory researchers, with no engagement with continued fractions, resolution proof length, or 3-CNF formulas.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
