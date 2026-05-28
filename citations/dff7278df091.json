@@ -1,0 +1,40 @@
+{
+  "entry_id": "dff7278df091",
+  "ts": 1780000718.681874,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1609.05867",
+      "title": "Fully Dynamic Connectivity in $O(\\log n(\\log\\log n)^2)$ Amortized Expected Time",
+      "abstract_excerpt": "Dynamic connectivity is one of the most fundamental problems in dynamic graph algorithms. We present a randomized Las Vegas dynamic connectivity data structure with $O(\\log n(\\log\\log n)^2)$ amortized expected update time and $O(\\log n/\\log\\log\\log n)$ worst case query time, which comes very close to the cell probe lower bounds of Patrascu and Demaine (2006) and Patrascu and Thorup (2011).",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a dynamic graph connectivity data structure with $O(\\log n(\\log\\log n)^2)$ update time, sharing only superficial logarithmic asymptotic vocabulary with the conjecture; it makes no claim about geometric Langlands duality or Frege proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2603.25914",
+      "title": "An $Ω( (\\log n / \\log \\log n)^2 )$ Cell-Probe Lower Bound for Dynamic Boolean Data Structures",
+      "abstract_excerpt": "We resolve the long-standing open problem of Boolean dynamic data structure hardness, proving an unconditional lower bound of $Ω((\\log n / \\log\\log n)^2)$ for the Multiphase Problem of Patrascu [STOC 2010] (instantiated with Inner Product over $\\mathbb{F}_2$). This matches the celebrated barrier for weighted problems established by Larsen [STOC 2012] and closes the gap left by the $Ω(\\log^{1.5} n)$ Boolean bound of Larsen, Weinstein, and Yu [STOC 2018].\n  The previous barrier was methodological:",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns cell-probe lower bounds for dynamic Boolean data structures via a Multiphase Communication Game, with no mention of Frege proof systems or geometric Langlands duality; the shared 'log n / log log n' expression is incidental and does not interact with the conjecture's specific claim about minimal rank of Langlands dual objects bounding Frege proof length.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2503.14756",
+      "title": "SceneEval: Evaluating Semantic Coherence in Text-Conditioned 3D Indoor Scene Synthesis",
+      "abstract_excerpt": "Despite recent advances in text-conditioned 3D indoor scene generation, there remain gaps in the evaluation of these methods. Existing metrics often measure realism by comparing generated scenes to a set of ground-truth scenes, but they overlook how well scenes follow the input text and capture implicit expectations of plausibility. We present SceneEval, an evaluation framework designed to address these limitations. SceneEval introduces fine-grained metrics for explicit user requirements-includi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes 'SceneEval', an evaluation framework for text-conditioned 3D indoor scene generation, with no connection to Geometric Langlands duality or Frege proof complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

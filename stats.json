@@ -1,18 +1,18 @@
 {
-  "last_update_utc": "2026-05-28T19:47:04Z",
-  "total_cycles": 3349,
+  "last_update_utc": "2026-05-28T20:47:04Z",
+  "total_cycles": 3368,
   "verdict_counts": {
-    "INCONCLUSIVE": 2237,
+    "INCONCLUSIVE": 2247,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 1008,
-    "SCOOPED": 84
+    "BARRIER_HIT": 1016,
+    "SCOOPED": 85
   },
-  "unique_field_A": 1622,
+  "unique_field_A": 1626,
   "top_fields_A": [
     [
       "Algebraic Geometry (Hodge Theory)",
-      97
+      98
     ],
     [
       "Real Algebraic Geometry",
@@ -44,7 +44,7 @@
     ],
     [
       "Quandle Theory",
-      32
+      33
     ],
     [
       "Free Probability",
@@ -67,8 +67,8 @@
       21
     ],
     [
-      "Noncommutative L^p Geometry",
-      19
+      "Geometric Langlands Program",
+      21
     ]
   ]
 }

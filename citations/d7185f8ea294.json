@@ -1,0 +1,40 @@
+{
+  "entry_id": "d7185f8ea294",
+  "ts": 1779999632.8546512,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2602.17942",
+      "title": "Convergent Gate Elimination and Constructive Circuit Lower Bounds",
+      "abstract_excerpt": "Towards better understanding of gate elimination, the only method known that can prove complexity lower bounds for explicit functions against unrestricted Boolean circuits, this work contributes: (1) formalizing circuit simplifications as a convergent term graph rewriting system and (2) giving a simple and constructive proof of a classical lower bound using this system.\n  First, we show that circuit simplification is a convergent term graph rewriting system over the DeMorgan and $\\{\\land, \\lor, ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns gate elimination via term graph rewriting and constructive lower bounds against unrestricted Boolean circuits (Schnorr's XOR bound), with no mention of ACC⁰ circuits or Arithmetic Hodge theory. It shares the general framework of circuit complexity but does not interact with the specific Arithmetic Hodge index bound claimed.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2309.11229",
+      "title": "Trace Monomial Boolean Functions with Large High-Order Nonlinearities",
+      "abstract_excerpt": "Exhibiting an explicit Boolean function with a large high-order nonlinearity is an important problem in cryptography, coding theory, and computational complexity. We prove lower bounds on the second-order, third-order, and higher-order nonlinearities of some trace monomial Boolean functions.\n  We prove lower bounds on the second-order nonlinearities of functions $\\mathrm{tr}_n(x^7)$ and $\\mathrm{tr}_n(x^{2^r+3})$ where $n=2r$. Among all trace monomials, our bounds match the best second-order non",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns lower bounds on higher-order nonlinearities of trace monomial Boolean functions, with no mention of Arithmetic Hodge index, ACC⁰ circuit size, or any connection between arithmetic geometry and circuit complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1511.07860",
+      "title": "Super-Linear Gate and Super-Quadratic Wire Lower Bounds for Depth-Two and Depth-Three Threshold Circuits",
+      "abstract_excerpt": "In order to formally understand the power of neural computing, we first need to crack the frontier of threshold circuits with two and three layers, a regime that has been surprisingly intractable to analyze. We prove the first super-linear gate lower bounds and the first super-quadratic wire lower bounds for depth-two linear threshold circuits with arbitrary weights, and depth-three majority circuits computing an explicit function.\n  $\\bullet$ We prove that for all $ε\\gg \\sqrt{\\log(n)/n}$, the l",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns lower bounds for depth-two/three threshold circuits via random restrictions and Littlewood-Offord, with no mention of ACC⁰ circuits or any 'Arithmetic Hodge index'; it shares only the general 'circuit lower bounds for explicit functions' framing.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "e75b18046ed8",
+  "ts": 1779998402.163121,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2406.18700",
+      "title": "Structure of sparse Boolean functions over Abelian groups, and its application to testing",
+      "abstract_excerpt": "We study Fourier-sparse Boolean functions over general finite Abelian groups. A Boolean function $f : G \\to \\{-1,+1\\}$ is $s$-sparse if it has at most $s$ non-zero Fourier coefficients. We introduce a general notion of granularity of Fourier coefficients and prove that every non-zero coefficient of an $s$-sparse Boolean function has magnitude at least \\begin{equation*} \\frac{1}{2^{\\varphi(Δ)/2} \\, s^{\\varphi(Δ)/2}}, \\end{equation*} where $Δ$ denotes the exponent of the group $G$ (that is, the ma",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract focuses on Fourier-sparse Boolean functions over Abelian groups and sparsity testing algorithms, with no mention of monotone circuit size, k-CLIQUE, or Polya enumeration. It shares only general 'Boolean function' vocabulary but does not interact with monotone circuit lower bounds for k-CLIQUE.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1407.6169",
+      "title": "Multiplicative Complexity of Vector Valued Boolean Functions",
+      "abstract_excerpt": "We consider the multiplicative complexity of Boolean functions with multiple bits of output, studying how large a multiplicative complexity is necessary and sufficient to provide a desired nonlinearity. For so-called $ΣΠΣ$ circuits, we show that there is a tight connection between error correcting codes and circuits computing functions with high nonlinearity. Combining this with known coding theory results, we show that functions with $n$ inputs and $n$ outputs with the highest possible nonlinea",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract focuses on multiplicative complexity (AND-gate count) of vector-valued Boolean functions and its connection to nonlinearity/error-correcting codes, with no mention of monotone circuits, k-CLIQUE, or Polya enumeration. It shares the general framework of Boolean circuit complexity but does not interact with the specific claim about monotone circuit lower bounds via Polya enumeration rank.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0903.3848",
+      "title": "Join-irreducible Boolean functions",
+      "abstract_excerpt": "This paper is a contribution to the study of a quasi-order on the set $Ω$ of Boolean functions, the \\emph{simple minor} quasi-order. We look at the join-irreducible members of the resulting poset $\\tildeΩ$. Using a two-way correspondence between Boolean functions and hypergraphs, join-irreducibility translates into a combinatorial property of hypergraphs. We observe that among Steiner systems, those which yield join-irreducible members of $\\tildeΩ$ are the -2-monomorphic Steiner systems. We also",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract studies the 'simple minor quasi-order' on Boolean functions and join-irreducibility via hypergraph correspondences, with no mention of monotone circuit lower bounds, k-CLIQUE, or Polya enumeration. It shares only the broad 'Boolean functions' vocabulary without interacting with the specific claim about monotone circuit size.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
