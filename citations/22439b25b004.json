@@ -1,0 +1,31 @@
+{
+  "entry_id": "22439b25b004",
+  "ts": 1779984166.0246623,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:2410.20094",
+      "title": "The Communication Complexity of Approximating Matrix Rank",
+      "abstract_excerpt": "We fully determine the communication complexity of approximating matrix rank, over any finite field F. We study the most general version of this problem, where <tex>$0\\leqslant r < R\\leqslant n$</tex> are given integers and Alice and Bob need to determine whether their respective matrices <tex>$A, B",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns communication complexity of approximating matrix rank over finite fields, not the rank of affine varieties associated with AND functions or any birational geometry connection. It shares the keywords 'rank' and 'communication complexity' but does not address the specific claim about AND functions or affine varieties.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:2506.03466",
+      "title": "Minimizing the Arithmetic and Communication Complexity of Jacobi's Method for Eigenvalues and Singular Values",
+      "abstract_excerpt": "We analyze several versions of Jacobi's method for the symmetric eigenvalue problem. Our goal is to reduce the asymptotic cost of the algorithm as much as possible, as measured by the number of arithmetic operations performed and associated (serial or parallel) communication, i.e., the amount of dat",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses arithmetic and communication complexity of Jacobi's method for eigenvalue/SVD computation, which shares only the term 'communication' with the conjecture and has nothing to do with AND functions or birational geometry of affine varieties.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 0
+  }
+}

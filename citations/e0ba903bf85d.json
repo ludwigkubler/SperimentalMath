@@ -1,0 +1,31 @@
+{
+  "entry_id": "e0ba903bf85d",
+  "ts": 1779984592.30951,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.1007/978-3-662-04943-3_3",
+      "title": "Circuit Upper Bounds",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available, so I cannot assess whether the paper addresses braid group actions on boolean circuit automorphism groups or the specific polynomial bound claimed.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:1409.3898",
+      "title": "Protected gates for topological quantum field theories",
+      "abstract_excerpt": "We study restrictions on locality-preserving unitary logical gates for topological quantum codes in two spatial dimensions. A locality-preserving operation is one which maps local operators to local operators --- for example, a constant-depth quantum circuit of geometrically local gates, or evolutio",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses locality-preserving logical gates for topological quantum codes in 2D, mentioning 'constant-depth quantum circuit' but not braid group actions on Boolean circuit automorphism groups or polynomial bounds relating depth to automorphism group size.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}
