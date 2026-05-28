@@ -1,0 +1,40 @@
+{
+  "entry_id": "5fc15b60077d",
+  "ts": 1779977143.9661841,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/hep-th/0610278v4",
+      "title": "A Special Class of Rank 10 and 11 Coxeter Groups",
+      "abstract_excerpt": "In the course of investigating regular subalgebras of E(10) related to cosmological solutions of 11-dimensional supergravity supporting an electric 4-form field, a class of rank 10 Coxeter subgroups of the Weyl group of E(10) was uncovered (hep-th/0606123). These Coxeter groups all share the propert",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses rank 10/11 Coxeter subgroups of the Weyl group of E(10) in the context of 11-dimensional supergravity cosmology, with no mention of boolean functions, circuit complexity, or tensor rank bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0405176v4",
+      "title": "Quantized symplectic oscillator algebras of rank one",
+      "abstract_excerpt": "A quantized symplectic oscillator algebra of rank 1 is a PBW deformation of the smash product of the quantum plane with U_q(sl_2). We study its representation theory, and in particular, its category O.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses representation theory of quantized symplectic oscillator algebras and category O, with no mention of boolean circuits, tensor rank, or complexity bounds. It shares only loose algebraic vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1306.5684",
+      "title": "New Large-Rank Nichols Algebras Over Nonabelian Groups With Commutator Subgroup Z_2",
+      "abstract_excerpt": "In this article, we explicitly construct new finite-dimensional, link-indecomposable Nichols algebras with Dynkin diagrams of type An,Cn,Dn,E6,E7,E8,F4 over any group G with commutator subgroup isomorphic to Z_2.The construction is generic in the sense that the type just depends on the rank and center of G, and thus positively answers for all groups of this class a question raised by Susan Montgomory in 1995 [Mont95][AS02].\n  Our construction uses the new notion of a covering Nichols algebra as ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns construction of finite-dimensional Nichols algebras with Dynkin diagrams over nonabelian groups with commutator subgroup Z_2, which shares Lie-theoretic vocabulary but does not address tensor rank of boolean functions or circuit complexity bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

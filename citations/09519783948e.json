@@ -1,0 +1,40 @@
+{
+  "entry_id": "09519783948e",
+  "ts": 1779978610.8984594,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2204.02599",
+      "title": "Local theory of functions on tropical curves in $\\mathbb R^n$",
+      "abstract_excerpt": "We first develop the local theory of functions on $\\mathbb R^n$ defined by tropical Laurent polynomials. We study the structure of the semiring of functions, where two functions are identified when they coincide on a neighborhood of a fixed point. We see that this semiring is closely related to the semiring of functions defined by Boolean Laurent polynomials. Then we develop the local theory of functions on tropical curves. We construct a contravariant functor from the category of 1-dimensional ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the local theory of tropical Laurent polynomial functions and semiring structures on 1-dimensional tropical fans, with no mention of XOR CNF formulas, circuit depth, or rank bounds tied to Boolean complexity. The shared vocabulary ('tropical curves', 'Boolean Laurent polynomials') does not engage the specific claim about minimal rank bounding XOR circuit depth.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1507.05818",
+      "title": "The Scaling Site",
+      "abstract_excerpt": "We investigate the semi-ringed topos obtained by extension of scalars from the arithmetic site of our previous work, by replacing the smallest Boolean semifield by the tropical semifield of real numbers with the max-plus operations. The obtained site is the semi-direct product of the Euclidean half-line by the action of the monoid of positive integers by multiplication. Its points are the same as the points of the arithmetic site over the tropical semifield of real numbers, and coincide with the",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the 'scaling site' topos, tropical curves over the arithmetic site, and a Riemann-Roch formula — it makes no mention of XOR formulas, circuit depth, or rank bounds on tropical curves representing CNF instances.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1603.03191",
+      "title": "Geometry of the scaling site",
+      "abstract_excerpt": "We construct the scaling site S by implementing the extension of scalars on the arithmetic site, from the smallest Boolean semifield to the tropical semifield of positive real numbers. The obtained semiringed topos is the Grothendieck topos semi-direct product of the Euclidean half-line and the monoid of positive integers acting by multiplication, endowed with the structure sheaf of piecewise affine, convex functions with integral slopes. We show that the points of this topos coincide with the a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the 'scaling site,' tropical curves arising from the adele class space, Riemann-Roch, and theta functions — pure tropical/arithmetic geometry. It says nothing about XOR formulas, Boolean circuit depth, or rank bounds on tropical curves representing CNF instances.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

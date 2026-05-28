@@ -1,0 +1,40 @@
+{
+  "entry_id": "4f6b79e26549",
+  "ts": 1779977616.3812728,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1101.3647",
+      "title": "Notes on absolute Hodge classes",
+      "abstract_excerpt": "We survey the theory of absolute Hodge classes. The notes include a full proof of Deligne's theorem on absolute Hodge classes on abelian varieties as well as a discussion of other topics, such as the field of definition of Hodge loci and the Kuga-Satake construction.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a survey of absolute Hodge classes, Deligne's theorem on abelian varieties, Hodge loci, and the Kuga-Satake construction—none of which address graph invariants or geometric complexity theory width. It shares Hodge-theoretic vocabulary but does not interact with the specific bound claimed.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1803.01936",
+      "title": "Variations of Hodge Structures of Rank Three k-Higgs Bundles and Moduli Spaces of Holomorphic Triples",
+      "abstract_excerpt": "There is an isomorphism between the moduli spaces of $σ$-stable holomorphic triples and some of the critical submanifolds of the moduli space of $k$-Higgs bundles of rank three, whose elements $(E,\\varphi^k)$ correspond to variations of Hodge structure, VHS. There are special embeddings on the moduli spaces of $k$-Higgs bundles of rank three. The main objective here is to study the cohomology of the critical submanifolds of such moduli spaces, extending those embeddings to moduli spaces of holom",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns moduli spaces of k-Higgs bundles and holomorphic triples with variations of Hodge structure, with no mention of graph invariants, GCT width, or rank bounds on algebraic Hodge classes relevant to the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:cs/0312007",
+      "title": "Counting complexity classes for numeric computations II: algebraic and semialgebraic sets",
+      "abstract_excerpt": "We define counting classes #P_R and #P_C in the Blum-Shub-Smale setting of computations over the real or complex numbers, respectively. The problems of counting the number of solutions of systems of polynomial inequalities over R, or of systems of polynomial equalities over C, respectively, turn out to be natural complete problems in these classes. We investigate to what extent the new counting classes capture the complexity of computing basic topological invariants of semialgebraic sets (over R",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses complexity of computing topological invariants (Euler characteristic, geometric degree, Betti numbers) in the Blum-Shub-Smale model, with no mention of GCT width, graph invariants, or Hodge classes bounding combinatorial complexity measures.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
