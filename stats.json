@@ -1,18 +1,18 @@
 {
-  "last_update_utc": "2026-05-28T05:47:04Z",
-  "total_cycles": 3176,
+  "last_update_utc": "2026-05-28T06:47:09Z",
+  "total_cycles": 3188,
   "verdict_counts": {
-    "INCONCLUSIVE": 2152,
+    "INCONCLUSIVE": 2158,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 921,
+    "BARRIER_HIT": 927,
     "SCOOPED": 83
   },
-  "unique_field_A": 1570,
+  "unique_field_A": 1574,
   "top_fields_A": [
     [
       "Algebraic Geometry (Hodge Theory)",
-      85
+      86
     ],
     [
       "Real Algebraic Geometry",
@@ -40,7 +40,7 @@
     ],
     [
       "Matroid Theory",
-      34
+      35
     ],
     [
       "Free Probability",
@@ -63,11 +63,11 @@
       21
     ],
     [
-      "Noncommutative L^p Geometry",
-      19
+      "Algebraic K-Theory",
+      20
     ],
     [
-      "Algebraic K-Theory",
+      "Noncommutative L^p Geometry",
       19
     ]
   ]
