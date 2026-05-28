@@ -2408,3 +2408,4 @@
 {"ts": 1779969607.183474, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 32}}
 {"ts": 1779971404.6778045, "kind": "NOTEBOOK_LARGE", "auto_fixed": false, "detail": {"size_mb": 60.469034}}
 {"ts": 1779971405.567954, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 32}}
+{"ts": 1779973203.069027, "ts_iso": "2026-05-28T13:00:03.069027+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "OK", "to_status": "DEGRADED", "failing_checks": ["gpu", "ram_above_1g", "mirror_git_fresh", "mirror_git_pushed"], "auto_fixed": false}
