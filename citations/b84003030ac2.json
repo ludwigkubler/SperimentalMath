@@ -1,0 +1,31 @@
+{
+  "entry_id": "b84003030ac2",
+  "ts": 1779965351.8144102,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:ARXIV:1709.07851",
+      "title": "Universal points in the asymptotic spectrum of tensors",
+      "abstract_excerpt": "The asymptotic restriction problem for tensors s and t is to find the smallest β ≥ 0 such that the nth tensor power of t can be obtained from the (β n+o(n))th tensor power of s by applying linear maps to the tensor legs — this is called restriction — when n goes to infinity. Applications include computing the arithmetic complexity of matrix multiplication in algebraic complexity theory, deciding the feasibility of an asymptotic transformation between pure quantum states via stochastic local oper",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the asymptotic spectrum of tensors, spectral points, and the Coppersmith-Winograd method, with no mention of symmetric matrix eigenvalues bounding quantum communication complexity of XOR. The shared 'quantum' vocabulary does not interact with the specific claim about transforming integer symmetric matrices into unitaries with distinct eigenvalues.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10.1109/TIT.2013.2257936",
+      "title": "Entanglement Detection: Complexity and Shannon Entropic Criteria",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available to assess the paper's content against the conjecture, so I cannot determine relevance from the provided information.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}

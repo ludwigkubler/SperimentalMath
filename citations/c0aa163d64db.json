@@ -1,0 +1,40 @@
+{
+  "entry_id": "c0aa163d64db",
+  "ts": 1779967654.2172067,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1510.00068",
+      "title": "On the complete solution of the general quintic using Rogers-Ramanujan continued fraction",
+      "abstract_excerpt": "In this article we give solution of the general quintic equation by means of the Rogers-Ramanujan continued fraction. More precisely we express a root of the quintic as a known algebraic function of the Rogers-Ramanujan continued fraction.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses solving quintic equations via the Rogers-Ramanujan continued fraction, with no mention of multivariate continued fractions, quantum walks, or amplitude amplification. It shares only the broad 'continued fraction' vocabulary.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1111.6023",
+      "title": "On a General Sextic Equation Solved by the Rogers Ramanujan Continued Fraction",
+      "abstract_excerpt": "In this article we solve a general class of sextic equations. The solution follows if we consider the $j$-invariant and relate it with the polynomial equation's coefficients. The form of the solution is a relation of Rogers-Ramanujan continued fraction. The inverse technique can also be used for the evaluation of the Rogers-Ramanujan continued fraction, in which the equation is not now the depressed equation but another quite more simplified equation.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns solving sextic equations via the Rogers-Ramanujan continued fraction and the j-invariant, with no mention of multivariate continued fractions, rank bounds, quantum walks, or amplitude amplification.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1908.00121",
+      "title": "Continued fractions over non-Euclidean imaginary quadratic rings",
+      "abstract_excerpt": "We propose and study a generalized continued fraction algorithm that can be executed in an arbitrary imaginary quadratic field, the novelty being a non-restriction to the five Euclidean cases. Many hallmark properties of classical continued fractions are shown to be retained, including exponential convergence, best-of-the-second-kind approximation quality (up to a constant), periodicity of quadratic irrational expansions, and polynomial time complexity.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a generalized continued fraction algorithm over imaginary quadratic fields, focusing on convergence and approximation properties; it makes no mention of quantum walks, amplitude amplification, or multivariate continued fraction rank.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
