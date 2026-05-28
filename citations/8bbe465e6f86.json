@@ -1,0 +1,40 @@
+{
+  "entry_id": "8bbe465e6f86",
+  "ts": 1779970551.9428647,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1812.01419",
+      "title": "On existence of shift-type invariant subspaces for polynomially bounded operator",
+      "abstract_excerpt": "A particular case of results from [K2] is as follows. Let the unitary asymptote of a contraction $T$ contain the bilateral shift (of finite or infinite multiplicity). Then there exists an invariant subspace $\\mathcal M$ of $T$ such that $T|_{\\mathcal M}$ is similar to the unilateral shift of the same multiplicity. The proof is based on the Sz.-Nagy--Foias functional model for contractions. In the present paper this result is generalized to polynomially bounded operators, but in the simplest case",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns invariant subspaces of polynomially bounded operators and shift operators in functional analysis, with no connection to quantum entanglement, branching programs, or complexity bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2110.00278",
+      "title": "Polynomial bounds for chromatic number. IV. A near-polynomial bound for excluding the five-vertex path",
+      "abstract_excerpt": "A graph G is H-free if it has no induced subgraph isomorphic to H. We prove that a $P_5$-free graph with clique number $ω\\ge 3$ has chromatic number at most $ω^{\\log_2(ω)}$. The best previous result was an exponential upper bound $(5/27)3^ω$, due to Esperet, Lemoine, Maffray, and Morel. A polynomial bound would imply that the celebrated Erdos-Hajnal conjecture holds for $P_5$, which is the smallest open case. Thus there is great interest in whether there is a polynomial bound for $P_5$-free grap",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns chromatic number bounds for P_5-free graphs and the Erdos-Hajnal conjecture, which has no interaction with quantum entanglement indices or branching program complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1611.10315",
+      "title": "Removal Lemmas with Polynomial Bounds",
+      "abstract_excerpt": "A common theme in many extremal problems in graph theory is the relation between local and global properties of graphs. One of the most celebrated results of this type is the Ruzsa-Szemerédi triangle removal lemma, which states that if a graph is $\\varepsilon$-far from being triangle free, then most subsets of vertices of size $C(\\varepsilon)$ are not triangle free. Unfortunately, the best known upper bound on $C(\\varepsilon)$ is given by a tower-type function, and it is known that $C(\\varepsilo",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns graph-theoretic removal lemmas with polynomial bounds, not quantum entanglement indices or branching program size. It shares only the abstract notion of 'polynomial bounds' but does not interact with read-twice branching programs or entanglement measures.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
