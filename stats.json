@@ -1,18 +1,18 @@
 {
-  "last_update_utc": "2026-05-28T00:47:03Z",
-  "total_cycles": 3105,
+  "last_update_utc": "2026-05-28T01:47:04Z",
+  "total_cycles": 3121,
   "verdict_counts": {
-    "INCONCLUSIVE": 2117,
+    "INCONCLUSIVE": 2124,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 885,
+    "BARRIER_HIT": 894,
     "SCOOPED": 83
   },
-  "unique_field_A": 1548,
+  "unique_field_A": 1553,
   "top_fields_A": [
     [
       "Algebraic Geometry (Hodge Theory)",
-      80
+      81
     ],
     [
       "Real Algebraic Geometry",
@@ -28,7 +28,7 @@
     ],
     [
       "Symplectic Geometry",
-      47
+      49
     ],
     [
       "Schur-Weyl Duality",
@@ -67,7 +67,7 @@
       19
     ],
     [
-      "Geometric Quantization",
+      "Algebraic K-Theory",
       19
     ]
   ]

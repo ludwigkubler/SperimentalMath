@@ -1,0 +1,31 @@
+{
+  "entry_id": "0f4086585adb",
+  "ts": 1779930447.6025472,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.4230/LIPIcs.CCC.2020.12",
+      "title": "Search problems in algebraic complexity, GCT, and hardness of generators for invariant rings",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available to assess, so I cannot determine from the provided text whether the paper supports, refutes, or is orthogonal to the conjecture linking minimal order of geometric invariants to resolution proof size.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:1911.03990",
+      "title": "Implementing geometric complexity theory: on the separation of orbit closures via symmetries",
+      "abstract_excerpt": "Understanding the difference between group orbits and their closures is a key difficulty in geometric complexity theory (GCT): While the GCT program is set up to separate certain orbit closures (i.e., prove non-containment of one orbit closure in the other), many beautiful mathematical properties ar",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns geometric complexity theory and separation of orbit closures, sharing vocabulary like 'geometric' but not addressing resolution proof complexity bounds or SAT instances mentioned in the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}
