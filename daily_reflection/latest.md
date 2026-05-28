@@ -1,113 +1,145 @@
-# Daily Reflection — 2026-05-27
+# Daily Reflection — 2026-05-28
 
-*Generated: 2026-05-27 03:33 UTC*
+*Generated: 2026-05-28 03:33 UTC*
 
 ## Yesterday in numbers
-- **Cycles**: 261
-- **New arxiv papers (mirror, last 24h)**: 78
+- **Cycles**: 314
+- **New arxiv papers (mirror, last 24h)**: 153
 - **Verdict distribution**:
     - INCONCLUSIVE: 178
-    - BARRIER_HIT: 76
+    - BARRIER_HIT: 129
     - SCOOPED: 7
 - **Focus mode**:
-    - COMM_DISJ: 18
-    - TSEITIN_RES: 18
-    - ACC_SIPSER: 16
-    - MONOTONE_CLIQUE: 14
-    - BP_READTWICE: 13
-    - GCT_DET_PERM: 13
-    - AC0_PARITY: 11
-    - SOS_DEGREE: 9
+    - MONOTONE_CLIQUE: 18
+    - TSEITIN_RES: 17
+    - AC0_PARITY: 15
+    - BP_READTWICE: 14
+    - SOS_DEGREE: 13
+    - ACC_SIPSER: 10
+    - GCT_DET_PERM: 9
+    - COMM_DISJ: 9
 - **Top fields_A**:
-    - Algebraic Geometry (Hodge Theory): 16
-    - Geometric Langlands Program: 8
-    - Algebraic K-Theory (Groups): 8
-    - Symplectic Geometry: 7
-    - Free Probability Theory: 6
+    - Algebraic Geometry (Hodge Theory): 17
+    - Geometric Langlands Theory: 9
+    - Geometric Quantization: 8
+    - Symplectic Geometry: 8
+    - Free Probability Theory: 7
 
-## ⚠ Potential scoops (6)
+## ⚠ Potential scoops (46)
 
 These new arxiv papers have **>0.72 cosine** to one of our recent conjectures.
 
-### `2605.25445v1` (sim=0.721)
-- **Paper**: Cofinal types of topological groups
-- **Category**: math.GN
-- **Submitted**: 2026-05-25T05:49:59Z
-- **URL**: https://arxiv.org/abs/2605.25445v1
-- **Matches our conjecture** `7ed172cf4819`: "Minimal Rank of K-theoretic Index over Monotone Circuit Satisfiability"
-- **Abstract excerpt**: We investigate the local topological structure of non-metrizable topological groups through the lens of Tukey order and cofinal types. Motivated by recent advances in topological groups admitting an $ω^ω$-base, we introduce the \emph{fineness index}, denoted $\f(P)$, for arbitrary directed partially…
+### `2605.27305v1` (sim=0.745)
+- **Paper**: Explicit class of finite-dimensional polynomial algebras with Wronskians over $\mathbb{R}^d$ as $N$-ary Lie brackets: beyond $\mathfrak{sl}(2)$
+- **Category**: math.RA
+- **Submitted**: 2026-05-26T17:14:29Z
+- **URL**: https://arxiv.org/abs/2605.27305v1
+- **Matches our conjecture** `ffb7ed742253`: "Minimal Rank of Grothendieck-Tensor Product over XOR-AND Tree Width"
+- **Abstract excerpt**: Lie algebra $\mathfrak{sl}(2)$ can be realised by vector fields on $\mathbb{R}^1\ni x$ with polynomial coefficients $1$, $-2x$, $-x^2$; their Wronskian determinants yield the Lie bracket. Likewise, the monomials $1$, $\ldots$, $x^k/k!$, $\ldots$, $x^N/N!$ span finite-dimensional strong homotopy (SH)…
 
-### `2605.25650v1` (sim=0.746)
-- **Paper**: Khovanov complexes for bipartite links
-- **Category**: hep-th
-- **Submitted**: 2026-05-25T09:57:30Z
-- **URL**: https://arxiv.org/abs/2605.25650v1
-- **Matches our conjecture** `7ebff963fc72`: "Minimal Rank of Tropicalized Knot Invariants under Torus Linking Numbers Bounds DPLL Search Tree Width"
-- **Abstract excerpt**: Recently, for a limited class for bipartite links, the complicated Khovanov-Rozansky matrix factorization technique was reduced to an analogue of elementary Kauffman-Khovanov cycle calculus for an arbitrary $N$. In this note, we demonstrate the consistency of such reduction with the computation of t…
+### `2605.27198v1` (sim=0.720)
+- **Paper**: Bounds on relative modular Hamiltonians in general QFT
+- **Category**: math-ph
+- **Submitted**: 2026-05-26T15:50:46Z
+- **URL**: https://arxiv.org/abs/2605.27198v1
+- **Matches our conjecture** `ebcc6ccc6e5a`: "Minimal Rank of Quantum Topological Entanglement Entropy Bounds Tseitin Resolution Length"
+- **Abstract excerpt**: The relative entropy between two states is a key concept in quantum information theory and quantum field theory. In the setting of quantum field theory, its computation requires the handling of relative modular Hamiltonians, which are typically very difficult to compute explicitly. In this paper, we…
 
-### `2605.24237v1` (sim=0.748)
-- **Paper**: A Matrix Model for Higher-Genus Fuss--Catalan Numbers
-- **Category**: hep-th
-- **Submitted**: 2026-05-22T21:29:31Z
-- **URL**: https://arxiv.org/abs/2605.24237v1
-- **Matches our conjecture** `8eca55facc91`: "Minimal Rank of Hypergeometric Series Coefficients over Resolution Proof Width"
-- **Abstract excerpt**: The genus--g Fuss--Catalan (FC) number counts the number of ways to obtain a genus-g surface by identifying the edges of a pn--gon via p-valent hyperedges. For p=2 these are the genus--g Catalan numbers which are generated as the trace correlations in the Gaussian matrix model (GUE). Here we constru…
+### `2605.26920v1` (sim=0.738)
+- **Paper**: Extremal Marginal States of Maximal Rank in $(d, d+m)$
+- **Category**: quant-ph
+- **Submitted**: 2026-05-26T12:18:51Z
+- **URL**: https://arxiv.org/abs/2605.26920v1
+- **Matches our conjecture** `46a899e5eb6b`: "Minimal Rank of Quantum Cluster States over DPLL Proof Trees"
+- **Abstract excerpt**: We study the extreme points of the convex set $\mathcal{C}(ρ_1,ρ_2)$ of bipartite quantum states with fixed marginals $ρ_1$ and $ρ_2$. We construct extreme points in $(d,\,d+m)$ dimension, of rank $d+m$, matching the highest possible value, for all $d\geq 3$, $m > \frac{d^2-2d-2}{2}$ (when $d=2$, $m…
 
-### `2605.25560v1` (sim=0.736)
-- **Paper**: Finite-$N$ BMN index across all vacuum sectors
-- **Category**: hep-th
-- **Submitted**: 2026-05-25T08:16:18Z
-- **URL**: https://arxiv.org/abs/2605.25560v1
-- **Matches our conjecture** `76d3eff0508f`: "Minimal Rank of Topological Insulator Indices in Quantum Query Complexity"
-- **Abstract excerpt**: We compute the finite-$N$ Witten index of BMN matrix quantum mechanics after summing over all partition-labeled supersymmetric vacuum sectors. Starting from the unitary-matrix integral for each sector, we develop two complementary evaluation methods: a symmetric-group character expansion, which redu…
+### `2605.26272v1` (sim=0.733)
+- **Paper**: Kubo-Ando Means and Rigidity of Quantum Positivity Cones
+- **Category**: quant-ph
+- **Submitted**: 2026-05-25T18:57:05Z
+- **URL**: https://arxiv.org/abs/2605.26272v1
+- **Matches our conjecture** `f65e878a0d2d`: "Minimal Rank of Geometric Quantization Bounds AC0 Parity Depth"
+- **Abstract excerpt**: We investigate the stability of quantum positivity cones under nonlinear operator means. Specifically, we examine how Kubo--Ando means interact with the separable, positive partial transpose (PPT), and Schmidt-number cones. By analyzing the curvature of operator monotone functions at the identity, w…
 
-### `2605.25473v1` (sim=0.753)
-- **Paper**: The Diagrammar of Quantum Magnusian
-- **Category**: hep-th
-- **Submitted**: 2026-05-25T06:25:37Z
-- **URL**: https://arxiv.org/abs/2605.25473v1
-- **Matches our conjecture** `64d4e5033f85`: "Minimal Rank of Geometric Quantization over Tseitin Circuit Width"
-- **Abstract excerpt**: The logarithm of the time-evolution operator has been termed Magnusian, on account of the fact that its expansion describes the Magnus series. The diagrammatic expansion and computation of the classical Magnusian has been completely established in terms of tree graphs and their Hopf algebra. Recent …
+### `2605.24431v2` (sim=0.724)
+- **Paper**: AKLT State is Indeed the Observation Process of a causal Hidden quantum Markov Model
+- **Category**: math-ph
+- **Submitted**: 2026-05-23T06:56:29Z
+- **URL**: https://arxiv.org/abs/2605.24431v2
+- **Matches our conjecture** `6f6bb0a902de`: "Categorical Quantum Information Bounds BP Read-Twice Size"
+- **Abstract excerpt**: We present a rigorous formulation of the spin-1 Affleck--Kennedy--Lieb--Tasaki (AKLT) state within the framework of hidden quantum Markov models (HQMMs). We show that the AKLT ground state admits a natural representation as the observable output of a causal HQMM, thereby endowing it with an underlyi…
 
-### `2605.25178v1` (sim=0.729)
-- **Paper**: Pseudorandom Dynamics in the SYK Model and Cryptographic Censorship in JT Gravity
-- **Category**: hep-th
-- **Submitted**: 2026-05-24T17:19:08Z
-- **URL**: https://arxiv.org/abs/2605.25178v1
-- **Matches our conjecture** `1b66be60747e`: "Minimal Rank of Tropicalized K-theory over Resolution Proof Trees"
-- **Abstract excerpt**: We argue that the SYK model provides a conditional realization of Cryptographic Censorship in JT gravity. By using the Weingarten calculus and random matrix universality, we prove that the SYK disorder ensemble is an approximate unitary $k$-design for all $k=\poly(N)$, with deviation controlled by t…
+### `2605.26748v1` (sim=0.744)
+- **Paper**: Polynomial-time isomorphism test for groups with abelian Sylow subgroups
+- **Category**: math.GR
+- **Submitted**: 2026-05-26T09:21:56Z
+- **URL**: https://arxiv.org/abs/2605.26748v1
+- **Matches our conjecture** `68dfb2086a1c`: "Minimal Order of Group Representations Bounds Monotone Circuit Size for k-CLIQUE"
+- **Abstract excerpt**: The group isomorphism problem in computational complexity asks whether two finite groups given by their Cayley tables are isomorphic or not. Although polynomial-time isomorphism tests exist for many specific types of groups, no general polynomial-time algorithm is known, classes of solvable and nilp…
+
+### `2605.26450v1` (sim=0.758)
+- **Paper**: Low Soundness Linearity Testing on the Half-Slice
+- **Category**: cs.CC
+- **Submitted**: 2026-05-26T02:01:37Z
+- **URL**: https://arxiv.org/abs/2605.26450v1
+- **Matches our conjecture** `eee2b3628c76`: "Minimal Order of Monomial Ideals Bounds Quantum Query Complexity for XOR"
+- **Abstract excerpt**: Let $f: T\to \{ 0,1 \}$ be a Boolean function on the Boolean half-slice, $T$, \ie elements of $\{0,1\}^n$ with Hamming weight $n/2$. We show that if $f(x)+f(y)=f(x+y)$ holds with probability $\frac{1+δ}{2}$ over a uniform pair $(x,y)$ such that $x,y,x+y\in T$, then $f$ agrees with some linear functi…
+
+### `2605.26096v1` (sim=0.723)
+- **Paper**: Rounding Almost Commuting Hamiltonians
+- **Category**: quant-ph
+- **Submitted**: 2026-05-25T17:53:36Z
+- **URL**: https://arxiv.org/abs/2605.26096v1
+- **Matches our conjecture** `f65e878a0d2d`: "Minimal Rank of Geometric Quantization Bounds AC0 Parity Depth"
+- **Abstract excerpt**: Commuting Hamiltonians lie at the boundary between classical constraint satisfaction and quantum many-body physics, exhibiting rich quantum structure while remaining more tractable than general noncommuting models. In contrast, physical Hamiltonians are rarely exactly commuting, which naturally moti…
+
+### `2605.25464v1` (sim=0.767)
+- **Paper**: A Note on Approximability of Densest At-Least-k-Subgraph
+- **Category**: cs.DS
+- **Submitted**: 2026-05-25T06:14:39Z
+- **URL**: https://arxiv.org/abs/2605.25464v1
+- **Matches our conjecture** `5b9dbc90b6a9`: "Minimal Rank of Hodge Structure Bounds Monotone Circuit Size for k-CLIQUE"
+- **Abstract excerpt**: We study the Densest At-Least-$k$-Subgraph (DAL$k$S) problem, in which we are given an undirected graph $G$ and an integer $k$, and the goal is to find a subgraph of $G$ with at least $k$ vertices with maximum density. The best-known algorithm, independently discovered by Khuller and Saha (2009) and…
+
+### `2605.24240v1` (sim=0.734)
+- **Paper**: A Parameterized Algorithm for Testing whether the Limit of a Diagram is Empty
+- **Category**: math.CT
+- **Submitted**: 2026-05-22T21:32:24Z
+- **URL**: https://arxiv.org/abs/2605.24240v1
+- **Matches our conjecture** `ee001464294f`: "Minimal Rank of Algebraic K-Theory over Tseitin Circuit Width"
+- **Abstract excerpt**: A limit of a (small) diagram $d : J \to E$ in a complete category $E$ can be thought of as specifying a set of equations involving the objects of $E$. To motivate this intuitively, one can think of each object $d(j)$ as a "variable" and each morphism in $J$ as a "constraint" connecting these variabl…
 
 ## Top 10 most-overlapping new papers (no threshold)
 
 Useful for compass / next-direction suggestions:
 
-- `2605.25473v1` (hep-th, sim=0.753): The Diagrammar of Quantum Magnusian
-    matched conj `64d4e5033f85`: Minimal Rank of Geometric Quantization over Tseitin Circuit Width
-- `2605.24237v1` (hep-th, sim=0.748): A Matrix Model for Higher-Genus Fuss--Catalan Numbers
-    matched conj `8eca55facc91`: Minimal Rank of Hypergeometric Series Coefficients over Resolution Proof Width
-- `2605.25650v1` (hep-th, sim=0.746): Khovanov complexes for bipartite links
-    matched conj `7ebff963fc72`: Minimal Rank of Tropicalized Knot Invariants under Torus Linking Numbers Bounds 
-- `2605.25560v1` (hep-th, sim=0.736): Finite-$N$ BMN index across all vacuum sectors
-    matched conj `76d3eff0508f`: Minimal Rank of Topological Insulator Indices in Quantum Query Complexity
-- `2605.25178v1` (hep-th, sim=0.729): Pseudorandom Dynamics in the SYK Model and Cryptographic Censorship in JT Gravity
-    matched conj `1b66be60747e`: Minimal Rank of Tropicalized K-theory over Resolution Proof Trees
-- `2605.25445v1` (math.GN, sim=0.721): Cofinal types of topological groups
-    matched conj `7ed172cf4819`: Minimal Rank of K-theoretic Index over Monotone Circuit Satisfiability
-- `2605.25908v1` (math.QA, sim=0.715): Elliptic Generalization of Cherednik-Macdonald-Mehta identities
-    matched conj `74bf4c8173cf`: Minimal Rank of Eichler Coefficients over Quantum Circuit Amplitude
-- `2605.24778v1` (math.LO, sim=0.714): Projectable reduced $f$-rings admitting elimination of quantifiers
-    matched conj `c39d46be9748`: Minimal Rank of Geometric Invariants in Monomial Ideals vs Resolution Proof Widt
-- `2605.24563v1` (math-ph, sim=0.713): ODE/IM Correspondence at the Free-Fermion Point. Laguerre Wronskians, Shifted Symmetric Functions, a
-    matched conj `74bf4c8173cf`: Minimal Rank of Eichler Coefficients over Quantum Circuit Amplitude
-- `2605.25494v1` (math-ph, sim=0.712): Compactified imaginary Toda theory
-    matched conj `c824f42d21af`: Minimal Rank of Topological Quantum Field Theories over Boolean Tensor Product V
+- `2605.26237v1` (math.AT, sim=0.771): On modular inequalities for plane projective curves
+    matched conj `c075722c745c`: Minimal Rank of Hodge Classes on Algebraic Curves Bounds Circuit Depth for Modul
+- `2605.25464v1` (cs.DS, sim=0.767): A Note on Approximability of Densest At-Least-k-Subgraph
+    matched conj `5b9dbc90b6a9`: Minimal Rank of Hodge Structure Bounds Monotone Circuit Size for k-CLIQUE
+- `2605.25914v1` (math.CO, sim=0.766): Intervals of hypergraph Turán densities
+    matched conj `f8b92c82f382`: Minimal Rank of Quotient Spaces in Geometric Group Theory Bounds Resolution Proo
+- `2605.25303v1` (cs.DS, sim=0.766): Algorithms with Polynomially-Improved Approximation Factors for the $2 \rightarrow q$ Norm, and Appl
+    matched conj `eee2b3628c76`: Minimal Order of Monomial Ideals Bounds Quantum Query Complexity for XOR
+- `2605.26556v1` (math.CO, sim=0.764): Motivic Segre classes of Schubert cells and the connective formal group law
+    matched conj `a8a0153f1b9f`: Minimal Rank of Group Characters over Circuit Satisfiability
+- `2605.27307v1` (math.CO, sim=0.764): Triangle Families with Large Edge Up-Laplacian Spectral Gap
+    matched conj `f8b92c82f382`: Minimal Rank of Quotient Spaces in Geometric Group Theory Bounds Resolution Proo
+- `2605.26450v1` (cs.CC, sim=0.758): Low Soundness Linearity Testing on the Half-Slice
+    matched conj `eee2b3628c76`: Minimal Order of Monomial Ideals Bounds Quantum Query Complexity for XOR
+- `2605.26051v1` (math.CO, sim=0.751): Extremal $t$-intersecting Families of Permutations for Large $t$
+    matched conj `7aae537fa854`: Minimal Rank of Quasi-Commutative Algebras Bounds Monotone Circuit Size for k-CN
+- `2605.24386v1` (quant-ph, sim=0.746): Fermi-Dirac machines as quantizations of neurons
+    matched conj `0ddda1fa1022`: Minimal Rank of Geometric Quantization Bounds ACC⁰ Lower Bound for Explicit Func
+- `2605.27233v1` (math.NT, sim=0.745): Inhomogeneous Approximation by Sums of Roots
+    matched conj `987fd19025d0`: Minimal Rank of Hodge Diamond Invariants for Monotone Circuit Satisfiability
 
 ## Recommendations
-- ⚠ Read the 6 flagged papers; consider mutating affected conjectures away from the overlap.
-  - [2605.25445v1](https://arxiv.org/abs/2605.25445v1) vs our `7ed172cf4819`
-  - [2605.25650v1](https://arxiv.org/abs/2605.25650v1) vs our `7ebff963fc72`
-  - [2605.24237v1](https://arxiv.org/abs/2605.24237v1) vs our `8eca55facc91`
-- Closest non-scoop overlap: `2605.25473v1` (sim=0.753) — may be a useful reference if you publish.
+- ⚠ Read the 46 flagged papers; consider mutating affected conjectures away from the overlap.
+  - [2605.27305v1](https://arxiv.org/abs/2605.27305v1) vs our `ffb7ed742253`
+  - [2605.27198v1](https://arxiv.org/abs/2605.27198v1) vs our `ebcc6ccc6e5a`
+  - [2605.26920v1](https://arxiv.org/abs/2605.26920v1) vs our `46a899e5eb6b`
+- Closest non-scoop overlap: `2605.26237v1` (sim=0.771) — may be a useful reference if you publish.
 
 ---
 

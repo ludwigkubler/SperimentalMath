@@ -1,0 +1,40 @@
+{
+  "entry_id": "70edd52af45d",
+  "ts": 1779941854.4493484,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1403.7404",
+      "title": "Stability data, irregular connections and tropical curves",
+      "abstract_excerpt": "We study a class of meromorphic connections $\\nabla(Z)$ on $\\mathbb{P}^1$, parametrised by the central charge $Z$ of a stability condition, with values in a Lie algebra of formal vector fields on a torus. Their definition is motivated by the work of Gaiotto, Moore and Neitzke on wall-crossing and three-dimensional field theories. Our main results concern two limits of the families $\\nabla(Z)$ as we rescale the central charge $Z \\mapsto RZ$. In the $R \\to 0$ \"conformal limit\" we recover a version",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns meromorphic connections with values in Lie algebras of formal vector fields and their tropical limits relating to Gromov-Witten invariants, with no mention of communication complexity, triangle detection, or rank bounds on tropicalized Lie algebras. It shares only the vocabulary 'tropical' and 'Lie algebra' without addressing the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2504.01802",
+      "title": "Distributed Triangle Detection is Hard in Few Rounds",
+      "abstract_excerpt": "In the distributed triangle detection problem, we have an $n$-vertex network $G=(V,E)$ with one player for each vertex of the graph who sees the edges incident on the vertex. The players communicate in synchronous rounds using the edges of this network and have a limited bandwidth of $O(\\log{n})$ bits over each edge. The goal is to detect whether or not $G$ contains a triangle as a subgraph in a minimal number of rounds.\n  We prove that any protocol (deterministic or randomized) for distributed ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses distributed triangle detection round complexity lower bounds via information theoretic arguments and graph streaming techniques, with no mention of tropical geometry, Lie algebras, or rank-based bounds — it shares only the 'triangle detection' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2605.08588v1",
+      "title": "Node-Weighted Triangles: Faster and Simpler",
+      "abstract_excerpt": "Weighted variants of triangle detection are an important object of study because of their prominence in fine-grained complexity. We revisit the Node-Weighted Triangle problem, where the goal is to decide if a vertex-weighted graph contains a triangle whose node weights sum to zero. This problem has been the focus of a celebrated line of work, beginning with a subcubic-time algorithm [Vassilevska, Williams; STOC '06], and culminating in algorithms running almost in matrix multiplication time, $O(",
+      "abstract_source": "arxiv_local_mirror",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract focuses on time complexity of Node-Weighted Triangle detection via matrix multiplication ('new algorithm solving Node-Weighted Triangle in O(MM(n)) time'), and does not address tropicalized Lie algebra rank or communication complexity lower bounds for triangle detection.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "entry_id": "805c532063fe",
+  "ts": 1779941056.7157457,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/1809.04162v1",
+      "title": "A splitting of the virtual class for genus one stable maps",
+      "abstract_excerpt": "Moduli spaces of stable maps to a smooth projective variety typically have several components. We express the virtual class of the moduli space of genus one stable maps to a smooth projective variety as a sum of virtual classes of the components. The key ingredient is a generalised functoriality res",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'virtual class of the moduli space of genus one stable maps to a smooth projective variety' in algebraic geometry, with no mention of Boolean functions, Frege proofs, or proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1208.1229v3",
+      "title": "The Universal Kummer Threefold",
+      "abstract_excerpt": "The universal Kummer threefold is a 9-dimensional variety that represents the total space of the 6-dimensional family of Kummer threefolds in 7-dimensional projective space. We compute defining polynomials for three versions of this family, over the Satake hypersurface, over the Göpel variety, and o",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes computing defining polynomials for the universal Kummer threefold in algebraic geometry, with no mention of Boolean functions, Frege proofs, or proof complexity. It shares no interaction with the specific claim linking moduli space genus to Frege proof depth.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 0
+  }
+}
