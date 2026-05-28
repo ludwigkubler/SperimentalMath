@@ -1,0 +1,40 @@
+{
+  "entry_id": "e12adacb1893",
+  "ts": 1779996607.1826804,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0706.3841",
+      "title": "Arithmetic lattices and weak spectral geometry",
+      "abstract_excerpt": "This note is an expansion of three lectures given at the workshop \"Topology, Complex Analysis and Arithmetic of Hyperbolic Spaces\" held at Kyoto University in December of 2006 and will appear in the proceedings for this workshop.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes lecture notes on 'arithmetic lattices and weak spectral geometry' related to hyperbolic spaces, with no mention of CNF formulas, resolution proof width, or function field genus bounds relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/hep-th/0307066v2",
+      "title": "On Superconformal Field Theories Associated to Very Attractive Quartics",
+      "abstract_excerpt": "We study N=(4,4) superconformal field theories with left and right central charge c=6 which allow geometric interpretations on specific quartic hypersurfaces in CP^3. Namely, we recall the proof that the Gepner model (2)^4 admits a geometric interpretation on the Fermat quartic and give an independe",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns N=(4,4) superconformal field theories on quartic hypersurfaces in CP^3, which has no interaction with resolution proof width or arithmetic genus of CNF characteristic function fields.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1705.05818",
+      "title": "Noether's Theorem in Multisymplectic Geometry",
+      "abstract_excerpt": "We extend Noether's theorem to the setting of multisymplectic geometry by exhibiting a correspondence between conserved quantities and continuous symmetries on a multi-Hamiltonian system. We show that a homotopy co-momentum map interacts with this correspondence in a way analogous to the moment map in symplectic geometry.\n  We apply our results to generalize the theory of the classical momentum and position functions from the phase space of a given physical system to the multisymplectic phase sp",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Noether's theorem in multisymplectic geometry, conserved quantities, and G_2 structures—it makes no reference to function fields, CNF formulas, or resolution proof width. It shares no substantive content with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

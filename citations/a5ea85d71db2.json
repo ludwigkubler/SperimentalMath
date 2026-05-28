@@ -1,0 +1,40 @@
+{
+  "entry_id": "a5ea85d71db2",
+  "ts": 1779995601.2434452,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/quant-ph/0308033v3",
+      "title": "Minimal Universal Two-qubit Quantum Circuits",
+      "abstract_excerpt": "We give quantum circuits that simulate an arbitrary two-qubit unitary operator up to global phase. For several quantum gate libraries we prove that gate counts are optimal in worst and average cases. Our lower and upper bounds compare favorably to previously published results. Temporary storage is n",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns optimal gate counts for two-qubit quantum circuits simulating unitary operators, which shares no interaction with Schur algebra rank bounds on Boolean circuits computing F2 linear equations.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0911.4337",
+      "title": "Circuit Lower Bounds, Help Functions, and the Remote Point Problem",
+      "abstract_excerpt": "We investigate the power of Algebraic Branching Programs (ABPs) augmented with help polynomials, and constant-depth Boolean circuits augmented with help functions. We relate the problem of proving explicit lower bounds in both these models to the Remote Point Problem (introduced by Alon, Panigrahy, and Yekhanin (RANDOM '09)). More precisely, proving lower bounds for ABPs with help polynomials is related to the Remote Point Problem w.r.t. the rank metric, and for constant-depth circuits with help",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses circuit lower bounds via the Remote Point Problem (rank/Hamming metrics) for ABPs and constant-depth circuits with help functions, but says nothing about Schur algebras or a σ(f) ≥ D^3 bound for linear equations over F2.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/quant-ph/0407082v4",
+      "title": "Efficient Quantum Circuits for Schur and Clebsch-Gordan Transforms",
+      "abstract_excerpt": "The Schur basis on n d-dimensional quantum systems is a generalization of the total angular momentum basis that is useful for exploiting symmetry under permutations or collective unitary rotations. We present efficient (size poly(n,d,log(1/ε)) for accuracy ε) quantum circuits for the Schur transform",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes quantum circuits for the Schur transform on d-dimensional quantum systems exploiting permutation symmetry, which shares the 'Schur' vocabulary but does not address Schur algebra rank bounds or Boolean circuit depth lower bounds for F2 linear equations.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

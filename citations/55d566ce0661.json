@@ -1,0 +1,40 @@
+{
+  "entry_id": "55d566ce0661",
+  "ts": 1779994546.517093,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0706.3841",
+      "title": "Arithmetic lattices and weak spectral geometry",
+      "abstract_excerpt": "This note is an expansion of three lectures given at the workshop \"Topology, Complex Analysis and Arithmetic of Hyperbolic Spaces\" held at Kyoto University in December of 2006 and will appear in the proceedings for this workshop.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes lecture notes on 'arithmetic lattices and weak spectral geometry' from a hyperbolic spaces workshop, with no mention of Grothendieck-Witt classes, SAT refutation, or proof complexity bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2410.10707",
+      "title": "Cusp types of arithmetic hyperbolic manifolds",
+      "abstract_excerpt": "We establish necessary and sufficient conditions for determining when a flat manifold can occur as a cusp cross-section within a given commensurability class of cusped arithmetic hyperbolic manifolds. This reduces the problem of identifying which commensurability classes of arithmetic hyperbolic manifolds can contain a specific flat manifold as a cusp cross-section to a question involving rational representations of the flat manifold's holonomy group. More generally we show that the holonomy rep",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'cusp cross-sections within...commensurability class of cusped arithmetic hyperbolic manifolds' and holonomy representations—it shares no connection with Grothendieck-Witt classes, SAT refutation complexity, or arithmetic genus bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/alg-geom/9710007v3",
+      "title": "Inequalities for semistable families of arithmetic varieties",
+      "abstract_excerpt": "In this paper, we will consider a generalization of Bogomolov's inequality and Cornalba-Harris-Bost's inequality to semistable families of arithmetic varieties under the idea that geometric semistability implies a certain kind of arithmetic positivity. The first one is an arithmetic analogue of the ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns arithmetic analogues of Bogomolov and Cornalba-Harris-Bost inequalities for semistable families of arithmetic varieties, with no mention of Boolean formulas, SAT refutation, or Grothendieck-Witt classes of CNFs. It shares the broad 'arithmetic geometry' vocabulary but does not address the specific complexity-theoretic claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
