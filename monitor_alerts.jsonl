@@ -2489,5 +2489,7 @@
 {"ts": 1780043457.5142696, "kind": "OLLAMA_DOWN", "auto_fixed": false, "detail": {"endpoints": ["local"]}}
 {"ts": 1780043461.4475546, "kind": "NOTEBOOK_LARGE", "auto_fixed": false, "detail": {"size_mb": 65.309892}}
 {"ts": 1780043462.3400033, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 33}}
-{"ts": 1780044601.798451, "ts_iso": "2026-05-29T08:50:01.798451+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "OK", "to_status": "CRITICAL", "failing_checks": ["explorer_process"], "auto_fixed": false}
-{"ts": 1780044901.26248, "ts_iso": "2026-05-29T08:55:01.262480+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "CRITICAL", "to_status": "OK", "failing_checks": [], "auto_fixed": false}
+{"ts": 1780045203.974402, "kind": "NOTEBOOK_LARGE", "auto_fixed": false, "detail": {"size_mb": 65.485807}}
+{"ts": 1780045204.8615117, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 33}}
+{"ts": 1780047003.9728675, "kind": "NOTEBOOK_LARGE", "auto_fixed": false, "detail": {"size_mb": 65.608569}}
+{"ts": 1780047004.8991477, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 33}}

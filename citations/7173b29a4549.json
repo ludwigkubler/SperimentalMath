@@ -1,0 +1,31 @@
+{
+  "entry_id": "7173b29a4549",
+  "ts": 1780047324.3672729,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:1196bb270e8514d054c22d46934d95d4f32a59ca",
+      "title": "The optimality of Dantzig estimator for estimating low rank density matrices ∗",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available, so I cannot assess whether the paper supports, refutes, or is orthogonal to the conjecture. The title concerns density matrix estimation, which seems unrelated, but a verdict cannot be made from the title alone.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:1610.04811",
+      "title": "Estimation of low rank density matrices by Pauli measurements",
+      "abstract_excerpt": "Density matrices are positively semi-definite Hermitian matrices with unit trace that describe the states of quantum systems. Many quantum systems of physical interest can be represented as high-dimensional low rank density matrices. A popular problem in {\\it quantum state tomography} (QST) is to es",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns estimation of low-rank density matrices via Pauli measurements in quantum state tomography, which shares only the vocabulary of 'positive semi-definite matrices' with the conjecture but does not address free probability, communication complexity, or the disjointness problem.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}
