@@ -1,0 +1,40 @@
+{
+  "entry_id": "234a33e87f4f",
+  "ts": 1780097111.3642163,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0909.4822",
+      "title": "Quantum Phase Transitions in Spin-Boson Systems: Dissipation and Light Phenomena",
+      "abstract_excerpt": "Spin-boson models are essentially useful in the understanding of quantum optics, nuclear physics, quantum dissipation, and quantum computation. We discuss quantum phase transitions in various spin-boson Hamiltonians, compare, and contrast them. We summarize the theoretical concepts and results, open questions and implementations of those ideas in cold atomic and QED cavity systems are also addressed.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses quantum phase transitions in spin-boson Hamiltonians for quantum optics and dissipation, with no mention of boolean functions, resolution proof width, or characteristic polynomials over finite fields. It shares only the vague term 'quantum phase' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1904.01603",
+      "title": "Quantum phase properties of photon added and subtracted displaced Fock states",
+      "abstract_excerpt": "Quantum phase properties of photon added and subtracted displaced Fock states (and a set of quantum states which can be obtained as the limiting cases of these states) are investigated from a number of perspectives, and it is shown that the quantum phase properties are dependent on the quantum state engineering operations performed. Specifically, the analytic expressions for quantum phase distributions and angular $Q$ distribution as well as measures of quantum phase fluctuation and phase disper",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quantum phase distributions of photon-added/subtracted displaced Fock states in quantum optics, with no connection to boolean functions, resolution proof width, or characteristic polynomials over finite fields. It shares only the vocabulary 'quantum phase' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0909.2316",
+      "title": "Quantum Phase Transition, Dissipation, and Measurement",
+      "abstract_excerpt": "A selected set of topics in quantum phase transition is discussed. It includes dissipative quantum phase transitions, the role of disorder, and the relevance of quantum phase transition to measurement theory in quantum mechanics.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'dissipative quantum phase transitions' and 'measurement theory in quantum mechanics' — a physics topic that shares only the words 'quantum phase' with the conjecture and has no bearing on boolean functions or resolution proof width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

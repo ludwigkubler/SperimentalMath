@@ -1,0 +1,40 @@
+{
+  "entry_id": "ed27ce3e8e74",
+  "ts": 1780098315.8679934,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0302340v2",
+      "title": "Pure homology of algebraic varieties",
+      "abstract_excerpt": "We show that for a complete complex algebraic variety the pure component of homology coincides with the image of intersection homology. Therefore pure homology is topologically invariant. To obtain slightly more general results we introduce \"image homology\" for noncomplete varieties.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'pure homology' and 'intersection homology' of complex algebraic varieties, which shares the broad 'homology' vocabulary but does not address CNF formulas, resolution refutation size, or any complexity-theoretic bound relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2110.02458",
+      "title": "Magnitude homology of graphs and discrete Morse theory on Asao-Izumihara complexes",
+      "abstract_excerpt": "Recently, Asao and Izumihara introduced CW-complexes whose homology groups are isomorphic to direct summands of the graph magnitude homology group. In this paper, we study the homotopy type of the CW-complexes in connection with the diagonality of magnitude homology groups. We prove that the Asao-Izumihara complex is homotopy equivalent to a wedge of spheres for pawful graphs introduced by Y. Gu. The result can be considered as a homotopy type version of Gu's result. We also formulate a slight g",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns magnitude homology of graphs and Asao-Izumihara CW-complexes with homotopy equivalences to wedges of spheres for 'pawful graphs', with no mention of local homology, CNF formulas, or resolution refutation complexity. It shares only the broad vocabulary of homology and does not interact with the specific claim about resolution proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1512.04490",
+      "title": "Free factorization algebras and homology of configuration spaces in algebraic geometry",
+      "abstract_excerpt": "We provide a construction of free factorization algebras in algebraic geometry and link factorization homology of a scheme with coefficients in a free factorization algebra to the homology of its (unordered) configuration spaces. As an application, this construction allows for a purely algebro-geometric proof of homological stability of configuration spaces.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'free factorization algebras' and 'homology of configuration spaces' in algebraic geometry, with no mention of CNF formulas, resolution proofs, or local homology bounds on Boolean complexity. It shares only superficial vocabulary (homology, algebraic geometry) with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
