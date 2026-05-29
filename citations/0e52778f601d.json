@@ -1,0 +1,40 @@
+{
+  "entry_id": "0e52778f601d",
+  "ts": 1780015771.7514915,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/2501.03128v1",
+      "title": "C*-rigidity of bounded geometry metric spaces",
+      "abstract_excerpt": "We prove that uniformly locally finite metric spaces with isomorphic Roe algebras must be coarsely equivalent. As an application, we also prove that the outer automorphism group of the Roe algebra of a metric space of bounded geometry is canonically isomorphic to the group of coarse equivalences of ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses C*-rigidity of Roe algebras and coarse equivalences of bounded geometry metric spaces, with no mention of Riemannian curvature tensors, XOR functions, or communication complexity. It shares only the vague vocabulary of 'metric spaces' but does not interact with the specific bound claimed.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2504.03362v2",
+      "title": "Metric spaces with small rough angles and the rectifiability of rough self-contracting curves",
+      "abstract_excerpt": "The small rough angle ($\\mbox{SRA}$) condition, introduced by Zolotov in arXiv:1804.00234, captures the idea that all angles formed by triples of points in a metric space are small. In the first part of the paper, we develop the theory of metric spaces $(X,d)$ satisfying the $\\mbox{SRA}(α)$ conditio",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns metric spaces satisfying the 'small rough angle' condition and rectifiability of self-contracting curves, with no mention of Riemannian curvature tensors, XOR functions, or communication complexity. It shares only the general 'metric space' vocabulary but does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1710.11333v1",
+      "title": "Spectral geometries on a compact metric space",
+      "abstract_excerpt": "The notion of a spectral geometry on a compact metric space X is introduced. This notion serves as a discrete approximation of X motivated by the notion of a spectral triple from non-commutative geometry. A set of axioms charaterising spectral geometries is given. Bounded deformations of spectral ge",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses spectral geometries on compact metric spaces as a discrete approximation motivated by non-commutative geometry, with no mention of communication complexity, XOR functions, or Riemannian curvature tensor bounds related to such functions.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
