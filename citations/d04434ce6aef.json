@@ -1,0 +1,40 @@
+{
+  "entry_id": "d04434ce6aef",
+  "ts": 1780026724.0245519,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/0803.0499v2",
+      "title": "Abelian Hurwitz-Hodge integrals",
+      "abstract_excerpt": "Hodge classes on the moduli space of admissible covers with monodromy group G are associated to irreducible representations of G. We evaluate all linear Hodge integrals over moduli spaces of admissible covers with abelian monodromy in terms of multiplication in an associated wreath group algebra. In",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Hodge integrals on moduli of admissible covers with abelian monodromy, evaluated via wreath group algebras—it shares the 'Hodge' vocabulary but says nothing about Frege proof complexity, CNF formulas, or vanishing cycles of polynomials associated to formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1608.04797v1",
+      "title": "Theta-stratifications, Theta-reductive stacks, and applications",
+      "abstract_excerpt": "These are expanded notes on a lecture of the same title at the 2015 AMS summer institute in algebraic geometry. We give an introduction and overview of the \"beyond geometric invariant theory\" program for analyzing moduli problems in algebraic geometry. We discuss methods for analyzing stability in g",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'beyond geometric invariant theory' for moduli problems and stability analysis, with no mention of Hodge structures, vanishing cycles, Frege proof complexity, or CNF formulas. It shares only the broad framework of algebraic geometry but does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2508.17748v1",
+      "title": "Q-factoriality and Hodge-Du Bois theory",
+      "abstract_excerpt": "We prove Hodge-theoretic formulas for the $\\mathbb{Q}$-factoriality defect of a normal projective variety, and for the local analytic $\\mathbb{Q}$-factoriality defect of an analytic germ of a normal variety. These formulas lead to consequences ranging from a local analytic version of Samuel's conjec",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Hodge-theoretic formulas for Q-factoriality defects of normal varieties and Samuel's conjecture, with no mention of Frege proof complexity, CNF formulas, or Hodge rank bounds tied to proof complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "entry_id": "be38c781fde2",
+  "ts": 1780028499.6429405,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.1007/s10878-025-01284-5",
+      "title": "A sharp upper bound for the edge dominating number of hypergraphs with minimum degree",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available, and the title concerns edge dominating numbers of hypergraphs, which has no clear connection to resolution proof length or hypergeometric function moments. Without the abstract content, I cannot determine relevance.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:1611.01291",
+      "title": "Tighter Hard Instances for PPSZ",
+      "abstract_excerpt": "We construct uniquely satisfiable k-CNF formulas that are hard for the PPSZ algorithm, the currently best known algorithm solving k-SAT. This algorithm tries to generate a satisfying assignment by picking a random variable at a time and attempting to derive its value using some inference heuristic a",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses hard instances for the PPSZ k-SAT algorithm, not resolution proof length bounds nor hypergeometric/Gamma-function moment bounds. It shares the SAT/CNF vocabulary but does not address the specific O(n^(1/3) * Γ(2 + n/2)) resolution length claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}

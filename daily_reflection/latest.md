@@ -1,145 +1,145 @@
-# Daily Reflection — 2026-05-28
+# Daily Reflection — 2026-05-29
 
-*Generated: 2026-05-28 03:33 UTC*
+*Generated: 2026-05-29 03:33 UTC*
 
 ## Yesterday in numbers
 - **Cycles**: 314
-- **New arxiv papers (mirror, last 24h)**: 153
+- **New arxiv papers (mirror, last 24h)**: 110
 - **Verdict distribution**:
-    - INCONCLUSIVE: 178
-    - BARRIER_HIT: 129
-    - SCOOPED: 7
+    - BARRIER_HIT: 156
+    - INCONCLUSIVE: 156
+    - SCOOPED: 2
 - **Focus mode**:
-    - MONOTONE_CLIQUE: 18
-    - TSEITIN_RES: 17
-    - AC0_PARITY: 15
-    - BP_READTWICE: 14
-    - SOS_DEGREE: 13
-    - ACC_SIPSER: 10
-    - GCT_DET_PERM: 9
-    - COMM_DISJ: 9
+    - GCT_DET_PERM: 16
+    - TSEITIN_RES: 12
+    - BP_READTWICE: 12
+    - ACC_SIPSER: 12
+    - COMM_DISJ: 10
+    - SOS_DEGREE: 9
+    - MONOTONE_CLIQUE: 9
+    - AC0_PARITY: 6
 - **Top fields_A**:
-    - Algebraic Geometry (Hodge Theory): 17
-    - Geometric Langlands Theory: 9
-    - Geometric Quantization: 8
-    - Symplectic Geometry: 8
-    - Free Probability Theory: 7
+    - Algebraic Geometry (Hodge Theory): 21
+    - Quandle Theory: 8
+    - Algebraic Topology (Configuration Spaces): 8
+    - Combinatorial Geometry (Coxeter Groups): 7
+    - Combinatorial Algebra (Coxeter Groups): 6
 
-## ⚠ Potential scoops (46)
+## ⚠ Potential scoops (26)
 
 These new arxiv papers have **>0.72 cosine** to one of our recent conjectures.
 
-### `2605.27305v1` (sim=0.745)
-- **Paper**: Explicit class of finite-dimensional polynomial algebras with Wronskians over $\mathbb{R}^d$ as $N$-ary Lie brackets: beyond $\mathfrak{sl}(2)$
-- **Category**: math.RA
-- **Submitted**: 2026-05-26T17:14:29Z
-- **URL**: https://arxiv.org/abs/2605.27305v1
-- **Matches our conjecture** `ffb7ed742253`: "Minimal Rank of Grothendieck-Tensor Product over XOR-AND Tree Width"
-- **Abstract excerpt**: Lie algebra $\mathfrak{sl}(2)$ can be realised by vector fields on $\mathbb{R}^1\ni x$ with polynomial coefficients $1$, $-2x$, $-x^2$; their Wronskian determinants yield the Lie bracket. Likewise, the monomials $1$, $\ldots$, $x^k/k!$, $\ldots$, $x^N/N!$ span finite-dimensional strong homotopy (SH)…
+### `2605.28674v1` (sim=0.773)
+- **Paper**: Disjunctive Sum of Squares
+- **Category**: math.OC
+- **Submitted**: 2026-05-27T16:08:30Z
+- **URL**: https://arxiv.org/abs/2605.28674v1
+- **Matches our conjecture** `bdccddeb6c38`: "Minimal Rank of Macdonald Polynomials Bounds Exponential Time Hypothesis for Satisfiability"
+- **Abstract excerpt**: We introduce the concept of disjunctive sum of squares for certifying nonnegativity of polynomials. Unlike the popular sum of squares approach where nonnegativity is certified by a single algebraic identity, the disjunctive sum of squares approach certifies nonnegativity with multiple algebraic iden…
 
-### `2605.27198v1` (sim=0.720)
-- **Paper**: Bounds on relative modular Hamiltonians in general QFT
-- **Category**: math-ph
-- **Submitted**: 2026-05-26T15:50:46Z
-- **URL**: https://arxiv.org/abs/2605.27198v1
-- **Matches our conjecture** `ebcc6ccc6e5a`: "Minimal Rank of Quantum Topological Entanglement Entropy Bounds Tseitin Resolution Length"
-- **Abstract excerpt**: The relative entropy between two states is a key concept in quantum information theory and quantum field theory. In the setting of quantum field theory, its computation requires the handling of relative modular Hamiltonians, which are typically very difficult to compute explicitly. In this paper, we…
-
-### `2605.26920v1` (sim=0.738)
-- **Paper**: Extremal Marginal States of Maximal Rank in $(d, d+m)$
-- **Category**: quant-ph
-- **Submitted**: 2026-05-26T12:18:51Z
-- **URL**: https://arxiv.org/abs/2605.26920v1
-- **Matches our conjecture** `46a899e5eb6b`: "Minimal Rank of Quantum Cluster States over DPLL Proof Trees"
-- **Abstract excerpt**: We study the extreme points of the convex set $\mathcal{C}(ρ_1,ρ_2)$ of bipartite quantum states with fixed marginals $ρ_1$ and $ρ_2$. We construct extreme points in $(d,\,d+m)$ dimension, of rank $d+m$, matching the highest possible value, for all $d\geq 3$, $m > \frac{d^2-2d-2}{2}$ (when $d=2$, $m…
-
-### `2605.26272v1` (sim=0.733)
-- **Paper**: Kubo-Ando Means and Rigidity of Quantum Positivity Cones
-- **Category**: quant-ph
-- **Submitted**: 2026-05-25T18:57:05Z
-- **URL**: https://arxiv.org/abs/2605.26272v1
-- **Matches our conjecture** `f65e878a0d2d`: "Minimal Rank of Geometric Quantization Bounds AC0 Parity Depth"
-- **Abstract excerpt**: We investigate the stability of quantum positivity cones under nonlinear operator means. Specifically, we examine how Kubo--Ando means interact with the separable, positive partial transpose (PPT), and Schmidt-number cones. By analyzing the curvature of operator monotone functions at the identity, w…
-
-### `2605.24431v2` (sim=0.724)
-- **Paper**: AKLT State is Indeed the Observation Process of a causal Hidden quantum Markov Model
-- **Category**: math-ph
-- **Submitted**: 2026-05-23T06:56:29Z
-- **URL**: https://arxiv.org/abs/2605.24431v2
-- **Matches our conjecture** `6f6bb0a902de`: "Categorical Quantum Information Bounds BP Read-Twice Size"
-- **Abstract excerpt**: We present a rigorous formulation of the spin-1 Affleck--Kennedy--Lieb--Tasaki (AKLT) state within the framework of hidden quantum Markov models (HQMMs). We show that the AKLT ground state admits a natural representation as the observable output of a causal HQMM, thereby endowing it with an underlyi…
-
-### `2605.26748v1` (sim=0.744)
-- **Paper**: Polynomial-time isomorphism test for groups with abelian Sylow subgroups
-- **Category**: math.GR
-- **Submitted**: 2026-05-26T09:21:56Z
-- **URL**: https://arxiv.org/abs/2605.26748v1
-- **Matches our conjecture** `68dfb2086a1c`: "Minimal Order of Group Representations Bounds Monotone Circuit Size for k-CLIQUE"
-- **Abstract excerpt**: The group isomorphism problem in computational complexity asks whether two finite groups given by their Cayley tables are isomorphic or not. Although polynomial-time isomorphism tests exist for many specific types of groups, no general polynomial-time algorithm is known, classes of solvable and nilp…
-
-### `2605.26450v1` (sim=0.758)
-- **Paper**: Low Soundness Linearity Testing on the Half-Slice
-- **Category**: cs.CC
-- **Submitted**: 2026-05-26T02:01:37Z
-- **URL**: https://arxiv.org/abs/2605.26450v1
-- **Matches our conjecture** `eee2b3628c76`: "Minimal Order of Monomial Ideals Bounds Quantum Query Complexity for XOR"
-- **Abstract excerpt**: Let $f: T\to \{ 0,1 \}$ be a Boolean function on the Boolean half-slice, $T$, \ie elements of $\{0,1\}^n$ with Hamming weight $n/2$. We show that if $f(x)+f(y)=f(x+y)$ holds with probability $\frac{1+δ}{2}$ over a uniform pair $(x,y)$ such that $x,y,x+y\in T$, then $f$ agrees with some linear functi…
-
-### `2605.26096v1` (sim=0.723)
-- **Paper**: Rounding Almost Commuting Hamiltonians
-- **Category**: quant-ph
-- **Submitted**: 2026-05-25T17:53:36Z
-- **URL**: https://arxiv.org/abs/2605.26096v1
-- **Matches our conjecture** `f65e878a0d2d`: "Minimal Rank of Geometric Quantization Bounds AC0 Parity Depth"
-- **Abstract excerpt**: Commuting Hamiltonians lie at the boundary between classical constraint satisfaction and quantum many-body physics, exhibiting rich quantum structure while remaining more tractable than general noncommuting models. In contrast, physical Hamiltonians are rarely exactly commuting, which naturally moti…
-
-### `2605.25464v1` (sim=0.767)
-- **Paper**: A Note on Approximability of Densest At-Least-k-Subgraph
+### `2605.28138v1` (sim=0.726)
+- **Paper**: A Deterministic Separation Lemma
 - **Category**: cs.DS
-- **Submitted**: 2026-05-25T06:14:39Z
-- **URL**: https://arxiv.org/abs/2605.25464v1
-- **Matches our conjecture** `5b9dbc90b6a9`: "Minimal Rank of Hodge Structure Bounds Monotone Circuit Size for k-CLIQUE"
-- **Abstract excerpt**: We study the Densest At-Least-$k$-Subgraph (DAL$k$S) problem, in which we are given an undirected graph $G$ and an integer $k$, and the goal is to find a subgraph of $G$ with at least $k$ vertices with maximum density. The best-known algorithm, independently discovered by Khuller and Saha (2009) and…
+- **Submitted**: 2026-05-27T08:21:57Z
+- **URL**: https://arxiv.org/abs/2605.28138v1
+- **Matches our conjecture** `66e8a070f7bc`: "Minimal Rank of Free Lattice Modules Bounds Communication Complexity for Disjointness"
+- **Abstract excerpt**: The \emph{Separation Lemma} is a simple yet powerful tool, akin to the well-known \emph{Isolation Lemma}, that guarantees the uniqueness of certain set sums. Bandopadhyay et al.\ introduced this lemma to establish lower bounds for the \ALP problem with respect to certain structural parameters, relyi…
 
-### `2605.24240v1` (sim=0.734)
-- **Paper**: A Parameterized Algorithm for Testing whether the Limit of a Diagram is Empty
-- **Category**: math.CT
-- **Submitted**: 2026-05-22T21:32:24Z
-- **URL**: https://arxiv.org/abs/2605.24240v1
-- **Matches our conjecture** `ee001464294f`: "Minimal Rank of Algebraic K-Theory over Tseitin Circuit Width"
-- **Abstract excerpt**: A limit of a (small) diagram $d : J \to E$ in a complete category $E$ can be thought of as specifying a set of equations involving the objects of $E$. To motivate this intuitively, one can think of each object $d(j)$ as a "variable" and each morphism in $J$ as a "constraint" connecting these variabl…
+### `2605.27998v1` (sim=0.747)
+- **Paper**: Efficient Algorithms for Interdicting Facilities in Trees and Bounded Treewidth Graphs
+- **Category**: cs.DS
+- **Submitted**: 2026-05-27T05:41:29Z
+- **URL**: https://arxiv.org/abs/2605.27998v1
+- **Matches our conjecture** `3d3a15569524`: "Minimal Rank of Noncrossing Partitions Bounds Resolution Proof Length for Tseitin Formulas"
+- **Abstract excerpt**: Given a graph $G$ of $n$ nodes partitioned into facilities and customers, the $r$-edge interdiction covering problem (REIC) is to remove up to $r$ edges so as to maximize the total weight of customers disconnected from all facilities, which is called the covering objective function. While REIC is kn…
+
+### `2605.27594v1` (sim=0.725)
+- **Paper**: Proper Agnostic Learning of Functions of Halfspaces under Gaussian Marginals
+- **Category**: cs.DS
+- **Submitted**: 2026-05-26T19:07:06Z
+- **URL**: https://arxiv.org/abs/2605.27594v1
+- **Matches our conjecture** `81ff78943fcc`: "Minimal Rank of Free Probability Distributions Bounds Disjointness Communication Complexity"
+- **Abstract excerpt**: We study the problem of computationally efficient proper agnostic learning of multidimensional concept classes under the Gaussian distribution. In this setting, given i.i.d. labeled samples from an unknown distribution over $\mathbb{R}^d \times \{\pm 1\}$ whose marginal on $\mathbb{R}^d$ is Gaussian…
+
+### `2605.27490v1` (sim=0.723)
+- **Paper**: Tree Search With Predictions
+- **Category**: cs.DS
+- **Submitted**: 2026-05-26T16:19:48Z
+- **URL**: https://arxiv.org/abs/2605.27490v1
+- **Matches our conjecture** `6eff16b5c23d`: "Minimal Generators of Brauer Groups Bound DPLL Tree Depth"
+- **Abstract excerpt**: ``Algorithms with predictions'', or ``learning-augmented algorithms'', has proved to be an extremely useful paradigm for combining machine learning with traditional algorithms. One of the textbook settings for this is searching a sorted array. Without a prediction, classical binary search takes $O(\…
+
+### `2605.28602v1` (sim=0.747)
+- **Paper**: Satisfiability Solving with LLMs: A Matched-Pair Evaluation of Reasoning Capability
+- **Category**: cs.AI
+- **Submitted**: 2026-05-27T15:18:45Z
+- **URL**: https://arxiv.org/abs/2605.28602v1
+- **Matches our conjecture** `6866d4357334`: "Minimal Rank of Hodge Structures Bounds SAT Refutation Tree Width"
+- **Abstract excerpt**: Large language models (LLMs) are increasingly used for tasks that implicitly reduce to Boolean satisfiability (SAT), yet their reasoning ability on SAT remains unclear. We present a systematic study of LLMs on 2-SAT and 3-SAT, together with two canonical reductions, Vertex Cover and discrete 3D pack…
+
+### `2605.28781v1` (sim=0.753)
+- **Paper**: The sum-product conjecture is false for real numbers
+- **Category**: math.NT
+- **Submitted**: 2026-05-27T17:42:41Z
+- **URL**: https://arxiv.org/abs/2605.28781v1
+- **Matches our conjecture** `5adbb526b84d`: "Algebraic K-Theory Rank Bounds for Resolution Proof Width"
+- **Abstract excerpt**: We disprove the sum-product conjecture for real numbers by constructing arbitrarily large $A\subset \mathbb{R}$ (whose elements are algebraic integers in a number field of degree $\asymp \log\lvert A\rvert$) such that \[\max(\lvert A+A\rvert ,\lvert AA\rvert)\leq \lvert A\rvert^{2-c}\] where $c>0$ i…
+
+### `2605.28770v1` (sim=0.734)
+- **Paper**: Cutoff profiles for conjugacy invariant random walks on symmetric groups
+- **Category**: math.PR
+- **Submitted**: 2026-05-27T17:27:47Z
+- **URL**: https://arxiv.org/abs/2605.28770v1
+- **Matches our conjecture** `e75b18046ed8`: "Minimal Rank of Polya Enumeration Functions Bounds Monotone Circuit Size for k-CLIQUE"
+- **Abstract excerpt**: We prove asymptotic equivalents for finite-level representations of symmetric groups, that is, for Young diagrams having all but finitely many boxes on their first row. We deduce that random walks on symmetric groups generated by conjugacy classes with a macroscopic number of fixed points have a Poi…
+
+### `2605.28682v1` (sim=0.729)
+- **Paper**: A higher homological approach to the $q$-characters of representations of quantum affine algebras
+- **Category**: math.RT
+- **Submitted**: 2026-05-27T16:14:25Z
+- **URL**: https://arxiv.org/abs/2605.28682v1
+- **Matches our conjecture** `6b3fd4e89d8d`: "Algebraic Topology of Tensor Bundles Bounds Quantum Query Complexity"
+- **Abstract excerpt**: For any acyclic quiver $Q$ without multiple edges, we construct a monoidal category $\mathcal{R}_Q$ whose indecomposable objects are tensor products (over the base field) of finite-dimensional modules over the path algebra of $Q$. We show the existence and uniqueness up to homotopy of certain distin…
+
+### `2605.28537v1` (sim=0.726)
+- **Paper**: Vertex-critical $(P_5,\text{chair})$-free and $(P_5,\text{cricket})$-free graphs
+- **Category**: math.CO
+- **Submitted**: 2026-05-27T14:32:10Z
+- **URL**: https://arxiv.org/abs/2605.28537v1
+- **Matches our conjecture** `4f6b79e26549`: "Minimal Rank of Algebraic Hodge Classes Bounds Geometric Complexity Theory Width"
+- **Abstract excerpt**: For graphs $G, F_1$ and $F_2$, we say that $G$ is $(F_1,F_2)$-free if neither $F_1$ nor $F_2$ is an induced subgraph of $G$. We say that $G$ is $k$-vertex-critical if the chromatic number of $G$ is $k$, but every proper induced subgraph of $G$ has chromatic number at most $k-1$. The $\textit{chair}$…
 
 ## Top 10 most-overlapping new papers (no threshold)
 
 Useful for compass / next-direction suggestions:
 
-- `2605.26237v1` (math.AT, sim=0.771): On modular inequalities for plane projective curves
-    matched conj `c075722c745c`: Minimal Rank of Hodge Classes on Algebraic Curves Bounds Circuit Depth for Modul
-- `2605.25464v1` (cs.DS, sim=0.767): A Note on Approximability of Densest At-Least-k-Subgraph
-    matched conj `5b9dbc90b6a9`: Minimal Rank of Hodge Structure Bounds Monotone Circuit Size for k-CLIQUE
-- `2605.25914v1` (math.CO, sim=0.766): Intervals of hypergraph Turán densities
-    matched conj `f8b92c82f382`: Minimal Rank of Quotient Spaces in Geometric Group Theory Bounds Resolution Proo
-- `2605.25303v1` (cs.DS, sim=0.766): Algorithms with Polynomially-Improved Approximation Factors for the $2 \rightarrow q$ Norm, and Appl
-    matched conj `eee2b3628c76`: Minimal Order of Monomial Ideals Bounds Quantum Query Complexity for XOR
-- `2605.26556v1` (math.CO, sim=0.764): Motivic Segre classes of Schubert cells and the connective formal group law
-    matched conj `a8a0153f1b9f`: Minimal Rank of Group Characters over Circuit Satisfiability
-- `2605.27307v1` (math.CO, sim=0.764): Triangle Families with Large Edge Up-Laplacian Spectral Gap
-    matched conj `f8b92c82f382`: Minimal Rank of Quotient Spaces in Geometric Group Theory Bounds Resolution Proo
-- `2605.26450v1` (cs.CC, sim=0.758): Low Soundness Linearity Testing on the Half-Slice
-    matched conj `eee2b3628c76`: Minimal Order of Monomial Ideals Bounds Quantum Query Complexity for XOR
-- `2605.26051v1` (math.CO, sim=0.751): Extremal $t$-intersecting Families of Permutations for Large $t$
-    matched conj `7aae537fa854`: Minimal Rank of Quasi-Commutative Algebras Bounds Monotone Circuit Size for k-CN
-- `2605.24386v1` (quant-ph, sim=0.746): Fermi-Dirac machines as quantizations of neurons
-    matched conj `0ddda1fa1022`: Minimal Rank of Geometric Quantization Bounds ACC⁰ Lower Bound for Explicit Func
-- `2605.27233v1` (math.NT, sim=0.745): Inhomogeneous Approximation by Sums of Roots
-    matched conj `987fd19025d0`: Minimal Rank of Hodge Diamond Invariants for Monotone Circuit Satisfiability
+- `2605.28681v1` (hep-th, sim=0.783): Krylov complexity has it all
+    matched conj `950e4f02f66d`: Minimal Rank of Modular Forms Bounds Circuit Complexity for Quantum Algorithms
+- `2605.28784v1` (math.AG, sim=0.774): Complex abelian varieties and quantum error correction: a mathematical framework for GKP codes
+    matched conj `0d739d960283`: Minimal Rank of Tropicalized Lie Group Actions Bounds Quantum Circuit Size
+- `2605.28674v1` (math.OC, sim=0.773): Disjunctive Sum of Squares
+    matched conj `bdccddeb6c38`: Minimal Rank of Macdonald Polynomials Bounds Exponential Time Hypothesis for Sat
+- `2605.28195v1` (math.CO, sim=0.757): Counterexamples to Stanley's conjecture on dimer coverings
+    matched conj `132e828a9ebd`: Minimal Rank of Group Representations Bounds Resolution Proof Width
+- `2605.28781v1` (math.NT, sim=0.753): The sum-product conjecture is false for real numbers
+    matched conj `5adbb526b84d`: Algebraic K-Theory Rank Bounds for Resolution Proof Width
+- `2605.26865v2` (math.AC, sim=0.752): A palindromicity criterion for the $h$-polynomials of bipartite edge rings
+    matched conj `3e215381ba21`: Minimal Rank of Noncrossed Products Bounds BP Read-Twice Width
+- `2605.27998v1` (cs.DS, sim=0.747): Efficient Algorithms for Interdicting Facilities in Trees and Bounded Treewidth Graphs
+    matched conj `3d3a15569524`: Minimal Rank of Noncrossing Partitions Bounds Resolution Proof Length for Tseiti
+- `2605.28602v1` (cs.AI, sim=0.747): Satisfiability Solving with LLMs: A Matched-Pair Evaluation of Reasoning Capability
+    matched conj `6866d4357334`: Minimal Rank of Hodge Structures Bounds SAT Refutation Tree Width
+- `2605.28485v1` (hep-th, sim=0.745): Hilbert Space and Defect Hilbert Spaces Associated with Categorical Symmetries
+    matched conj `6b3fd4e89d8d`: Algebraic Topology of Tensor Bundles Bounds Quantum Query Complexity
+- `2605.28299v1` (math.LO, sim=0.744): Classification Theory and the Construction of PAC Fields
+    matched conj `6eff16b5c23d`: Minimal Generators of Brauer Groups Bound DPLL Tree Depth
 
 ## Recommendations
-- ⚠ Read the 46 flagged papers; consider mutating affected conjectures away from the overlap.
-  - [2605.27305v1](https://arxiv.org/abs/2605.27305v1) vs our `ffb7ed742253`
-  - [2605.27198v1](https://arxiv.org/abs/2605.27198v1) vs our `ebcc6ccc6e5a`
-  - [2605.26920v1](https://arxiv.org/abs/2605.26920v1) vs our `46a899e5eb6b`
-- Closest non-scoop overlap: `2605.26237v1` (sim=0.771) — may be a useful reference if you publish.
+- ⚠ Read the 26 flagged papers; consider mutating affected conjectures away from the overlap.
+  - [2605.28674v1](https://arxiv.org/abs/2605.28674v1) vs our `bdccddeb6c38`
+  - [2605.28138v1](https://arxiv.org/abs/2605.28138v1) vs our `66e8a070f7bc`
+  - [2605.27998v1](https://arxiv.org/abs/2605.27998v1) vs our `3d3a15569524`
+- Closest non-scoop overlap: `2605.28681v1` (sim=0.783) — may be a useful reference if you publish.
 
 ---
 
