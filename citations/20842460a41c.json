@@ -1,0 +1,40 @@
+{
+  "entry_id": "20842460a41c",
+  "ts": 1780090478.190553,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1812.02166",
+      "title": "On unbalanced Boolean functions with best correlation immunity",
+      "abstract_excerpt": "It is known that the order of correlation immunity of a nonconstant unbalanced Boolean function in $n$ variables cannot exceed $2n/3-1$; moreover, it is $2n/3-1$ if and only if the function corresponds to an equitable $2$-partition of the $n$-cube with an eigenvalue $-n/3$ of the quotient matrix. The known series of such functions have proportion $1:3$, $3:5$, or $7:9$ of the number of ones and zeros. We prove that if a nonconstant unbalanced Boolean function attains the correlation-immunity bou",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns correlation immunity bounds and equitable partitions of Boolean functions, with no mention of randomized query complexity, tropical geometry, or cycle rank in the max-plus semiring.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1401.2248",
+      "title": "Boolean Functions, Quantum Gates, Hamilton Operators, Spin Systems and Computer Algebra",
+      "abstract_excerpt": "We describe the construction of quantum gates (unitary operators) from boolean functions and give a number of applications. Both non-reversible and reversible boolean functions are considered. The construction of the Hamilton operator for a quantum gate is also described with the Hamilton operator expressed as spin system. Computer algebra implementations are provided.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses constructing quantum gates and Hamilton operators from Boolean functions, with no mention of tropical geometry, max-plus semirings, cycle rank, or randomized query complexity. It shares only the broad 'Boolean functions' vocabulary.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1004.1724",
+      "title": "A Class of lattices and boolean functions related to a Manickam-Miklös-Singhi Conjecture",
+      "abstract_excerpt": "The aim of this paper is to build a new family of lattices related to some combinatorial extremal sum problems, in particular to a conjecture of Manickam, Miklös and Singhi. We study the fundamentals properties of such lattices and of a particular class of boolean functions defined on them.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes lattices and boolean functions related to the Manickam-Miklös-Singhi combinatorial extremal sum conjecture, with no mention of randomized query complexity, XOR, tropical geometry, or max-plus semiring representations.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
