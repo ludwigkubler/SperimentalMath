@@ -1,0 +1,31 @@
+{
+  "entry_id": "8c38c25676b5",
+  "ts": 1780094605.5684595,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.1515/dma-2021-0031",
+      "title": "On the complexity of monotone circuits for threshold symmetric Boolean functions",
+      "abstract_excerpt": "Abstract The complexity of implementation of a threshold symmetric n-place Boolean function with threshold k = O(1) via circuits over the basis {∨, ∧} is shown not to exceed 2 log2 k ⋅ n + o(n). Moreover, the complexity of a threshold-2 function is proved to be 2n + Θ( n $\\begin{array}{} \\sqrt n \\end{array} $), and the complexity of a threshold-3 function is shown to be 3n + O(log n), the corresponding lower bounds are put forward.",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns monotone circuit complexity of threshold symmetric Boolean functions over {∨,∧}, with bounds like 2 log2 k · n + o(n); it makes no mention of hypergeometric functions or k-CNF representation orders, so it does not interact with the specific conjectured Θ(n^(k/2)) claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:e7576d204ed2ef40f290bc8b3444597fdfea5cf4",
+      "title": "Domain Reduction for Monotonicity Testing: A o(d) Tester for Boolean Functions on Hypergrids",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available to evaluate; the title concerns monotonicity testing on hypergrids, which appears unrelated to hypergeometric function order bounding k-CNF circuit size, but a verdict cannot be made from the title alone.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}
