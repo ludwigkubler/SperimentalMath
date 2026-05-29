@@ -1,0 +1,40 @@
+{
+  "entry_id": "ce0942b364f2",
+  "ts": 1780066331.672177,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1701.07208",
+      "title": "A Quasi-Polynomial Approximation for the Restricted Assignment Problem",
+      "abstract_excerpt": "The Restricted Assignment Problem is a prominent special case of Scheduling on Parallel Unrelated Machines. For the strongest known linear programming relaxation, the configuration LP, we improve the non-constructive bound on its integrality gap from 1.9142 to 1.8334 and significantly simplify the proof. Then we give a constructive variant, yielding a 1.8334-approximation in quasi-polynomial time. This is the first quasi-polynomial algorithm for this problem improving on the long-standing approx",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a quasi-polynomial time approximation algorithm for the Restricted Assignment scheduling problem and its LP integrality gap, not Boolean formulas, resolution proof width, or tropical semi-field ranks. The shared term 'quasi-polynomial' refers to runtime, not to polynomial extensions over a semi-field.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0811.1914",
+      "title": "A TLA+ Proof System",
+      "abstract_excerpt": "We describe an extension to the TLA+ specification language with constructs for writing proofs and a proof environment, called the Proof Manager (PM), to checks those proofs. The language and the PM support the incremental development and checking of hierarchically structured proofs. The PM translates a proof into a set of independent proof obligations and calls upon a collection of back-end provers to verify them. Different provers can be used to verify different obligations. The currently supp",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes the TLA+ proof system and its Proof Manager translating proofs into obligations for back-end provers like Zenon and Isabelle, which has no connection to quasi-polynomial extensions in tropical semi-fields or resolution proof width bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1211.2376",
+      "title": "Lee-Yang theorems and the complexity of computing averages",
+      "abstract_excerpt": "We study the complexity of computing average quantities related to spin systems, such as the mean magnetization and susceptibility in the ferromagnetic Ising model, and the average dimer count (or average size of a matching) in the monomer-dimer model. By establishing connections between the complexity of computing these averages and the location of the complex zeros of the partition function, we show that these averages are #P-hard to compute. In case of the Ising model, our approach requires u",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses #P-hardness of computing averages in spin systems via complex zeros of partition functions (Lee-Yang theorems), with no mention of quasi-polynomial extensions, tropical semi-fields, or resolution proof width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
