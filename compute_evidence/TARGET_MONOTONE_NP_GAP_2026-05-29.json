@@ -1,7 +1,7 @@
 {
   "node_id": "TARGET_MONOTONE_NP_GAP",
   "instance_class": "random_3sat",
-  "ts": 1780014182.1479888,
+  "ts": 1780057382.013184,
   "result": {
     "instance_class": "random_3sat",
     "n_range": [
@@ -18,7 +18,7 @@
         "n": 8,
         "seed": 0,
         "sat": true,
-        "runtime_s": 0.0012,
+        "runtime_s": 0.0063,
         "conflicts": 0,
         "decisions": 0,
         "propagations": 11,
@@ -31,7 +31,7 @@
         "n": 8,
         "seed": 1,
         "sat": true,
-        "runtime_s": 0.0012,
+        "runtime_s": 0.0062,
         "conflicts": 0,
         "decisions": 0,
         "propagations": 8,
@@ -44,7 +44,7 @@
         "n": 12,
         "seed": 0,
         "sat": true,
-        "runtime_s": 0.0012,
+        "runtime_s": 0.0062,
         "conflicts": 0,
         "decisions": 0,
         "propagations": 35,
@@ -57,7 +57,7 @@
         "n": 12,
         "seed": 1,
         "sat": true,
-        "runtime_s": 0.0012,
+        "runtime_s": 0.0062,
         "conflicts": 0,
         "decisions": 0,
         "propagations": 17,
@@ -70,7 +70,7 @@
         "n": 16,
         "seed": 0,
         "sat": true,
-        "runtime_s": 0.0014,
+        "runtime_s": 0.0071,
         "conflicts": 0,
         "decisions": 0,
         "propagations": 119,
@@ -83,7 +83,7 @@
         "n": 16,
         "seed": 1,
         "sat": true,
-        "runtime_s": 0.0014,
+        "runtime_s": 0.0073,
         "conflicts": 0,
         "decisions": 0,
         "propagations": 133,
@@ -96,7 +96,7 @@
         "n": 20,
         "seed": 0,
         "sat": true,
-        "runtime_s": 0.0014,
+        "runtime_s": 0.0077,
         "conflicts": 0,
         "decisions": 0,
         "propagations": 173,
@@ -109,7 +109,7 @@
         "n": 20,
         "seed": 1,
         "sat": true,
-        "runtime_s": 0.0012,
+        "runtime_s": 0.0062,
         "conflicts": 0,
         "decisions": 0,
         "propagations": 71,
@@ -122,7 +122,7 @@
         "n": 24,
         "seed": 0,
         "sat": false,
-        "runtime_s": 0.0014,
+        "runtime_s": 0.0059,
         "conflicts": 0,
         "decisions": 0,
         "propagations": 116,
@@ -147,37 +147,37 @@
     ],
     "summary": {
       "n=8": {
-        "median_runtime_s": 0.0012,
+        "median_runtime_s": 0.0062,
         "median_conflicts": 0,
         "n_timeout": 0,
         "n_total": 2
       },
       "n=12": {
-        "median_runtime_s": 0.0012,
+        "median_runtime_s": 0.0062,
         "median_conflicts": 0,
         "n_timeout": 0,
         "n_total": 2
       },
       "n=16": {
-        "median_runtime_s": 0.0014,
+        "median_runtime_s": 0.0072,
         "median_conflicts": 0,
         "n_timeout": 0,
         "n_total": 2
       },
       "n=20": {
-        "median_runtime_s": 0.0013,
+        "median_runtime_s": 0.0069,
         "median_conflicts": 0,
         "n_timeout": 0,
         "n_total": 2
       },
       "n=24": {
-        "median_runtime_s": 0.0014,
+        "median_runtime_s": 0.0037,
         "median_conflicts": 0,
         "n_timeout": 0,
         "n_total": 2
       },
       "fit": {
-        "runtime_loglog_slope": 0.1349393279755719,
+        "runtime_loglog_slope": -0.2681013118986284,
         "conflicts_loglog_slope": 0.0
       }
     }

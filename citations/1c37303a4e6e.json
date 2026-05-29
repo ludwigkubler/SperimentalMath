@@ -1,0 +1,40 @@
+{
+  "entry_id": "1c37303a4e6e",
+  "ts": 1780058853.786437,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2403.19550",
+      "title": "Spectral gap for surfaces of infinite volume with negative curvature",
+      "abstract_excerpt": "We prove that the imaginary parts of scattering resonances for negatively curved asymptotically hyperbolic surfaces are uniformly bounded away from zero and provide a resolvent bound in the resulting resonance-free strip. This provides an essential spectral gap without the pressure condition. This is done by adapting the methods of [arXiv:1004.3361], [arXiv:1012.4391] and [arXiv:2201.08259] and answers a question posed in [arXiv:1504.06589].",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses spectral gaps for negatively curved asymptotically hyperbolic surfaces, which shares vocabulary with the conjecture, but does not interact with the specific claim about Tseitin formulas and Kähler forms, driven by the phrase 'negatively curved asymptotically hyperbolic surfaces'.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2508.16353",
+      "title": "On the asymptotic behavior of the spectral gap for discrete Schrödinger operators",
+      "abstract_excerpt": "In this note we elaborate on the asymptotic behavior of the spectral gap of a class of discrete Schrödinger operators defined on a path graph in the limit of infinite volume. We confirm recent results and generalize them to a larger class of potentials using entirely different methods. Notably, we also resolve a conjecture previously proposed in this context. This then yields new insights into the rate at which the spectral gap tends to zero as the volume increases.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract discusses the asymptotic behavior of the spectral gap for discrete Schrödinger operators and generalizes previous results, but it does not explicitly mention Tseitin formulas or Kähler forms with respect to the conjecture's claims about their spectral gap and proof entropy. The paper might be relevant, but more information is needed from the full text to determine its relationship to the proposed conjecture.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1909.12241",
+      "title": "Spectral gap in mean-field $\\mathcal O(n)$-model",
+      "abstract_excerpt": "We study the dependence of the spectral gap for the generator of the Ginzburg-Landau dynamics for all \\emph{$\\mathcal O(n)$-models} with mean-field interaction and magnetic field, below and at the critical temperature on the number $N$ of particles. For our analysis of the Gibbs measure, we use a one-step renormalization approach and semiclassical methods to study the eigenvalue-spacing of an auxiliary Schrödinger operator.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "{\n  \"verdict\": \"INSUFFICIENT\",\n  \"reasoning\": \"The cited paper discusses the spectral gap in the context of $\\mathcal O(n)$-models, focusing on Ginzburg-Landau dynamics and mean-field interaction. How",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}

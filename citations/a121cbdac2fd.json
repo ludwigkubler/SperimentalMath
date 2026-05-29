@@ -1,0 +1,40 @@
+{
+  "entry_id": "a121cbdac2fd",
+  "ts": 1780059598.146964,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1207.2443",
+      "title": "Tropical Teichmuller and Siegel spaces",
+      "abstract_excerpt": "In this paper, we present a unified study of the moduli space of tropical curves and Outer space which we link via period maps to the moduli space of tropical abelian varieties and the space of positive definite quadratic forms. Our work is a first step towards exhibiting Outer space and the space of positive definite quadratic forms as analogues of Teichmüller space and Siegel space, respectively, in tropical geometry. All these spaces and the maps among them are described within the category o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper's abstract discusses a study of moduli space of tropical curves and Outer space within tropical geometry, focusing on the relationship between these spaces and Teichmüller and Siegel spaces. This is unrelated to the conjecture which deals with the minimal rank of quasi-polynomials and resolution proof size for Tseitin formulas.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1306.3497",
+      "title": "The number of vertices of a tropical curve is bounded by its area",
+      "abstract_excerpt": "We introduce the notion of tropical area of a tropical curve defined in an open subset of $\\mathbb R^n$. We prove that the number of vertices of a tropical curve is bounded by the area of the curve. The approach is totally elementary yet tricky. Our proof employs ideas from intersection theory in algebraic geometry. The result can be interpreted as the fact that the moduli space of tropical curves with bounded area is of finite type.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited abstract discusses the bounding of the number of vertices of a tropical curve by its area, which is orthogonal to the conjecture that deals with the minimal rank of quasi-polynomials and resolution proof size.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1001.1554",
+      "title": "Tropical geometry and correspondence theorems via toric stacks",
+      "abstract_excerpt": "In this paper we generalize correspondence theorems of Mikhalkin and Nishinou-Siebert providing a correspondence between algebraic and parameterized tropical curves. We also give a description of a canonical tropicalization procedure for algebraic curves motivated by Berkovich's construction of skeletons of analytic curves. Under certain assumptions, we construct a one-to-one correspondence between algebraic curves satisfying toric constraints and certain combinatorially defined objects, called ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses generalizations of correspondence theorems in tropical geometry and provides a description of a canonical tropicalization procedure. It does not mention anything about the minimal rank of quasi-polynomials, resolution proof size, or Tseitin formulas, which are central to the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}

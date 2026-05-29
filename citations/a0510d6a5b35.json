@@ -1,0 +1,40 @@
+{
+  "entry_id": "a0510d6a5b35",
+  "ts": 1780059147.6474094,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2010.11806",
+      "title": "On the Kontsevich geometry of the combinatorial Teichmüller space",
+      "abstract_excerpt": "For bordered surfaces S, we develop a complete parallel between the geometry of the combinatorial Teichmüller space $T_S^{comb}$ equipped with Kontsevich symplectic form $ω_K$, and then the usual Weil-Petersson geometry of Teichmüller space $T_S$. The basis for this is an identification of $T_S^{comb}$ with a space of measured foliations with transverse boundary conditions. We equip $T_S^{comb}$ with an analog of the Fenchel-Nielsen coordinates (defined similarly as Dehn-Thurston coordinates) an",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the geometry of combinatorial Teichmüller space and its relation to Weil-Petersson geometry, Kontsevich symplectic form, and mapping class group invariants. It does not mention anything about Boolean formulas, geometric lattices, or resolution proof complexity, which are central to the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:cs/0203026",
+      "title": "Conformal Geometry, Euclidean Space and Geometric Algebra",
+      "abstract_excerpt": "Projective geometry provides the preferred framework for most implementations of Euclidean space in graphics applications. Translations and rotations are both linear transformations in projective geometry, which helps when it comes to programming complicated geometrical operations. But there is a fundamental weakness in this approach - the Euclidean distance between points is not handled in a straightforward manner. Here we discuss a solution to this problem, based on conformal geometry. The lan",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses conformal geometry and its application in graphics, focusing on the handling of Euclidean distances within projective geometry. It does not mention geometric lattices or resolution proof complexity, which are key concepts in the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0011136v1",
+      "title": "Geometric Meanings of Curvatures in Finsler Geometry",
+      "abstract_excerpt": "In Finsler geometry, we use calculus to study the geometry of regular inner metric spaces. In this note I will briefly discuss various curvatures and their geometric meanings from the metric geometry point of view, without going into the forest of tensors.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses Finsler geometry and curvatures in metric spaces, which is unrelated to the conjecture about the minimal order of geometric lattices for resolution proof complexity. The abstract does not mention Boolean formulas, resolution proof width, or any related concepts.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
