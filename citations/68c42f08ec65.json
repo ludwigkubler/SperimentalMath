@@ -1,0 +1,31 @@
+{
+  "entry_id": "68c42f08ec65",
+  "ts": 1780055037.99125,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:ARXIV:2007.06896",
+      "title": "Component Order Connectivity in Directed Graphs",
+      "abstract_excerpt": "A directed graph D is semicomplete if for every pair x ,  y of vertices of D ,  there is at least one arc between x and y . Thus, a tournament is a semicomplete digraph. In the Directed Component Order Connectivity (DCOC) problem, given a digraph $$D=(V,A)$$ D = ( V , A ) and a pair of natural numbers k and $$\\ell $$ ℓ , we are to decide whether there is a subset X of V of size k such that the largest strongly connected component in $$D-X$$ D - X has at most $$\\ell $$ ℓ vertices. Note that DCOC ",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses the parameterized complexity of Directed Component Order Connectivity in directed graphs, which is a problem related to graph theory and algorithm complexity. The conjecture under review pertains to the relationship between tropical geometry and resolution proof size in complexity theory. There is no direct mention or interaction between these two topics in the abstract.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "s2:10.1007/s00453-022-01004-z",
+      "title": "Component Order Connectivity in Directed Graphs",
+      "abstract_excerpt": "A directed graph D is semicomplete if for every pair x, y of vertices of D, there is at least one arc between x and y. Thus, a tournament is a semicomplete digraph. In the Directed Component Order Connectivity (DCOC) problem, given a digraph D=(V,A)\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$$D=(V,A)$$\\end{documen",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses the Directed Component Order Connectivity (DCOC) problem in directed graphs and its parameterized complexity, which is unrelated to the conjecture about the minimal rank of tropical curves bounding resolution proof size for Boolean formulas. The abstract of the cited paper does not mention tropical geometry or complexity theory related to resolution proofs.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 0
+  }
+}
