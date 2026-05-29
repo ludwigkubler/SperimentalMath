@@ -1,0 +1,31 @@
+{
+  "entry_id": "79a155d0d0b5",
+  "ts": 1780021886.4884331,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:1904.05227",
+      "title": "Tensor Representation of Rank-Metric Codes",
+      "abstract_excerpt": "We present the theory of rank-metric codes with respect to the 3-tensors that generate them. We define the generator tensor and the parity check tensor of a matrix code, and describe the properties of a code through these objects. We define the tensor rank of a code to be the tensor rank of its gene",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses tensor representation of rank-metric codes via generator and parity-check tensors, with no mention of SAT, DPLL, or proof complexity. It shares only the vocabulary of 'tensor' and 'rank' without engaging the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:2504.05582",
+      "title": "Toeplitz subshifts of finite rank",
+      "abstract_excerpt": "In this paper we study some basic problems about Toeplitz subshifts of finite topological rank. We define the notion of a strong Toeplitz subshift of finite rank $K$ by combining the characterizations of Toeplitz-ness and of finite topological rank $K$ from the point of view of the Bratteli--Vershik",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Toeplitz subshifts of finite topological rank in dynamical systems/Bratteli-Vershik theory, which is unrelated to tensor product rank, SAT instances, or DPLL proof complexity. The shared word 'rank' is the only overlap.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "entry_id": "d51871d5748c",
+  "ts": 1780020013.9925694,
+  "hits_evaluated": 1,
+  "verdicts": [
+    {
+      "paper_id": "s2:0ef5914e5e00338bf3d883b0ea5c6a5724517d91",
+      "title": "Data Structures and Algorithms in Java, Second Edition",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available for the cited paper, and the title ('Data Structures and Algorithms in Java, Second Edition') gives no indication of relevance to quantum logarithmic capacity, communication complexity, or k-CNF satisfiability.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 1
+  }
+}
