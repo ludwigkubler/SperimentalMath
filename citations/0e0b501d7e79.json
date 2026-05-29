@@ -1,0 +1,40 @@
+{
+  "entry_id": "0e0b501d7e79",
+  "ts": 1780070266.815694,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2410.11220",
+      "title": "Tropicalizing Principal Minors of Positive Definite Matrices",
+      "abstract_excerpt": "We study the tropicalization of the image of the cone of positive definite matrices under the principal minors map. It is a polyhedral subset of the set of $M$-concave functions on the discrete $n$-dimensional cube. We show it coincides with the intersection of the affine tropical flag variety with the submodular cone. In particular, any cell in the regular subdivision of the cube induced by a point in this tropicalization can be subdivided into base polytopes of realizable matroids. We use this",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses tropicalization of principal minors of positive definite matrices and their connection to M-concave functions and matroid base polytopes, with no mention of Boolean functions, Coxeter matrices, or circuit complexity bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2404.08121",
+      "title": "The Tropical Variety of Symmetric Rank 2 Matrices",
+      "abstract_excerpt": "We study the tropicalization of the variety of symmetric rank two matrices. Analogously to the result of Markwig and Yu for general tropical rank two matrices, we show that it has a simplicial complex structure as the space of symmetric bicolored trees and that this simplicial complex is shellable. We also discuss some matroid structures arising from this space and present generating functions for the number of symmetric bicolored trees.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses tropicalization of symmetric rank-two matrices and bicolored trees, with no mention of Boolean functions, Coxeter matrices, or circuit complexity. It shares only the general 'tropical' vocabulary without interacting with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1710.02072",
+      "title": "On tropical and nonnegative factorization ranks of band matrices",
+      "abstract_excerpt": "Matrix factorization problems over various semirings naturally arise in different contexts of modern pure and applied mathematics. These problems are very hard in general and cause computational difficulties in applications. We give a survey of what is known on the algorithmic complexity of Boolean, fuzzy, tropical, nonnegative, and positive semidefinite factorizations, and we examine the behavior of the corresponding rank functions on matrices of bounded bandwidth. We show that the Boolean, fuz",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns algorithmic complexity of matrix factorization ranks (Boolean, tropical, nonnegative) for band matrices, with no mention of Coxeter matrices, boolean function circuit complexity, or a quantity like Φ(f) bounding circuit complexity by 2^Φ(f).",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
