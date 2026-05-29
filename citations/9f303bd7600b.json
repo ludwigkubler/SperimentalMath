@@ -1,0 +1,40 @@
+{
+  "entry_id": "9f303bd7600b",
+  "ts": 1780076674.564469,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1911.04516",
+      "title": "Boolean lattices in finite alternating and symmetric groups",
+      "abstract_excerpt": "Given a group $G$ and a subgroup $H$, we let $\\mathcal{O}_G(H)$ denote the lattice of subgroups of $G$ containing $H$. This paper provides a classification of the subgroups $H$ of $G$ such that $\\mathcal{O}_{G}(H)$ is Boolean of rank at least $3$, when $G$ is a finite alternating or symmetric group. Besides some sporadic examples and some twisted versions, there are two different types of such lattices. One type arises by taking stabilizers of chains of regular partitions, and the other type ari",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns classifying Boolean overgroup lattices in finite alternating/symmetric groups, with no mention of XOR Boolean functions, circuit complexity, or communication complexity. It shares only the vague vocabulary of 'lattices' and 'Boolean' but does not interact with the specific complexity claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0812.4546",
+      "title": "Maximal residuated lattices with lifting Boolean center",
+      "abstract_excerpt": "In this paper we define, inspired by ring theory, the class of maximal residuated lattices with lifting Boolean center and prove a structure theorem for them: any maximal residuated lattice with lifting Boolean center is isomorphic to a finite direct product of local residuated lattices.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns structure theorems for 'maximal residuated lattices with lifting Boolean center' in algebra, with no mention of automorphism order, XOR functions, circuit complexity, or communication complexity. It shares only the vague vocabulary of 'lattices' and 'Boolean' but does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1509.06942",
+      "title": "Symmetric Decompositions and the Strong Sperner Property for Noncrossing Partition Lattices",
+      "abstract_excerpt": "We prove that the noncrossing partition lattices associated with the complex reflection groups $G(d,d,n)$ for $d,n\\geq 2$ admit symmetric decompositions into Boolean subposets. As a result, these lattices have the strong Sperner property and their rank-generating polynomials are symmetric, unimodal, and $γ$-nonnegative. We use computer computations to complete the proof that every noncrossing partition lattice associated with a well-generated complex reflection group is strongly Sperner, thus an",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'noncrossing partition lattices' and 'complex reflection groups' with Sperner properties, which is unrelated to automorphic lattices bounding XOR communication complexity. It shares only the vague vocabulary of 'lattices' but does not interact with the specific claim about XOR circuit/communication complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
