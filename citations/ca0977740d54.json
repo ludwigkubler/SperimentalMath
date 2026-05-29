@@ -1,0 +1,31 @@
+{
+  "entry_id": "ca0977740d54",
+  "ts": 1780035930.1677358,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.1007/s00500-006-0142-y",
+      "title": "Improved heuristics for the bounded-diameter minimum spanning tree problem",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available, so I cannot determine whether this heuristics paper on bounded-diameter MSTs interacts with the conjecture's claim about MST diameter bounding monotone circuit size for k-CLIQUE.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:2510.04418",
+      "title": "Finding a HIST: Chordality, Structural Parameters, and Diameter",
+      "abstract_excerpt": "A homeomorphically irreducible spanning tree (HIST) is a spanning tree with no degree-2 vertices, serving as a structurally minimal backbone of a graph. While the existence of HISTs has been widely studied from a structural perspective, the algorithmic complexity of finding them remains less underst",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses homeomorphically irreducible spanning trees (HIST) and their algorithmic complexity, which shares spanning-tree vocabulary but does not address minimum spanning tree diameter bounds or monotone circuit lower bounds for k-CLIQUE.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}
