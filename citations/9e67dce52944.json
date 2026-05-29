@@ -1,0 +1,31 @@
+{
+  "entry_id": "9e67dce52944",
+  "ts": 1780030612.4298651,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.4230/LIPIcs.STACS.2025.8",
+      "title": "Tropical Proof Systems: Between R(CP) and Resolution",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available, so I cannot determine whether the paper addresses the specific depth bounds linking tropical categories to Frege proof depth claimed in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:1806.01835",
+      "title": "Geometry and algorithms for upper triangular tropical matrix identities",
+      "abstract_excerpt": "We provide geometric methods and algorithms to verify, construct and enumerate pairs of words (of specified length over a fixed $m$-letter alphabet) that form identities in the semigroup $\\ut{n}$ of $n\\times n$ upper triangular tropical matrices. In the case $n=2$ these identities are precisely thos",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns algorithms for verifying word identities in semigroups of upper triangular tropical matrices, with no mention of category depth, Boolean formulas, or Frege proof complexity. It shares only the broad 'tropical' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}
