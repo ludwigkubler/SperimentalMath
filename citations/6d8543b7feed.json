@@ -1,0 +1,40 @@
+{
+  "entry_id": "6d8543b7feed",
+  "ts": 1780058276.052009,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2208.01392",
+      "title": "The Analytic Minimal Rank Sard Conjecture",
+      "abstract_excerpt": "We obtain, under an additional assumption on the subanalytic abnormal distribution constructed in [4], a proof of the minimal rank Sard conjecture in the analytic category. It establishes that from a given point the set of points accessible through singular horizontal curves of minimal rank, which corresponds to the rank of the distribution, has Lebesgue measure zero. The minimal rank Sard Conjecture is equivalent to the Sard Conjecture for co-rank 1 distributions.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the minimal rank Sard conjecture in the analytic category, which shares vocabulary with the conjecture under review, but does not interact with the specific claim about symplectic matrices and resolution proof width, as evident from phrases like 'subanalytic abnormal distribution' and 'singular horizontal curves of minimal rank'.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:0904.1922",
+      "title": "The modularity of K3 surfaces with non-symplectic group actions",
+      "abstract_excerpt": "We consider complex K3 surfaces with a non-symplectic group acting trivially on the algebraic cycles. Vorontsov and Kondo classified those K3 surfaces with transcendental lattice of minimal rank. The purpose of this note is to study the Galois representations associated to these K3 surfaces. The rank of the transcendental lattices is even and varies from 2 to 20, excluding 8 and 14. We show that these K3 surfaces are dominated by Fermat surfaces, and hence they are all of CM type. We will establ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper discusses modularity of K3 surfaces and their Galois representations, which is unrelated to the conjecture about the minimal rank of symplectic forms for Tseitin formulas in resolution proof complexity. There is no mention of symplectic matrices, Tseitin formulas, or resolution proof width.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0407399v1",
+      "title": "Transitive Courant algebroids",
+      "abstract_excerpt": "We express any Courant algebroid bracket by means of a metric connection, and construct a Courant algebroid structure on any orthogonal Whitney sum $E\\oplus C$ where E is a given Courant algebroid and C is a flat, pseudo- Euclidean vector bundle. Then, we establish the general expression of the brac",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper's abstract discusses Courant algebroids and metric connections, which are unrelated to symplectic matrices or resolution proof width. There is no mention of Tseitin formulas, d-regular graphs, minimal rank of symplectic forms, or resolution proof complexity.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}

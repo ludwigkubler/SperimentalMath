@@ -1,0 +1,40 @@
+{
+  "entry_id": "4373dcb2e2d4",
+  "ts": 1780057377.3326306,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1101.2456",
+      "title": "Polynomial representations and categorifications of Fock Space",
+      "abstract_excerpt": "The rings of symmetric polynomials form an inverse system whose limit, the ring of symmetric functions, is the model for the bosonic Fock space representation of the affine Lie algebra. We categorify this construction by considering an inverse limit of categories of polynomial representation of general linear groups. We show that this limit naturally carries an action of the affine Lie algebra (in the sense of Rouquier), thereby obtaining a famiy of categorifications of the bosonic Fock space re",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses symmetric polynomials, inverse systems, and categorifications of Fock space representations for affine Lie algebras, which is unrelated to the conjecture's focus on Tseitin formula proof entropy and minimal representation rank bounds.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:0711.0795",
+      "title": "Finite-Dimensional Representations of Hyper Loop Algebras Over Non-Algebraically Closed Fields",
+      "abstract_excerpt": "We study finite-dimensional representations of hyper loop algebras over non-algebraically closed fields. The main results concern the classification of the irreducible representations, the construction of the Weyl modules, base change, tensor products of irreducible and Weyl modules, and the block decomposition of the underlying abelian category. Several results are interestingly related to the study of irreducible representations of polynomial algebras and Galois theory.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper's abstract discusses finite-dimensional representations of hyper loop algebras over non-algebraically closed fields, focusing on irreducible representations and related topics. There is no mention of Tseitin formulas, proof entropy, or the minimal representation rank of matrices associated with such formulas, which are crucial to the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0402188v5",
+      "title": "Structures and Representations of Generalized Path Algebras",
+      "abstract_excerpt": "It is shown that an algebra $Λ$ can be lifted with nilpotent Jacobson radical $r = r(Λ)$ and has a generalized matrix unit $\\{e_{ii}\\}_I$ with each $\\bar e_{ii} $ in the center of $\\bar Λ= Λ/r$ iff $Λ$ is isomorphic to a generalized path algebra with weak relations. Representations of the generalize",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited abstract discusses structures and representations of generalized path algebras, which does not directly relate to the conjecture about minimal representation rank bounds for Tseitin formulas and their proof entropy. The vocabulary and framework are different.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "0ad6b6e48ff0",
+  "ts": 1780056600.4107018,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1111.0860",
+      "title": "Clause/Term Resolution and Learning in the Evaluation of Quantified Boolean Formulas",
+      "abstract_excerpt": "Resolution is the rule of inference at the basis of most procedures for automated reasoning. In these procedures, the input formula is first translated into an equisatisfiable formula in conjunctive normal form (CNF) and then represented as a set of clauses. Deduction starts by inferring new clauses by resolution, and goes on until the empty clause is generated or satisfiability of the set of clauses is proven, e.g., because no new clauses can be generated.\n In this paper, we restrict our attent",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses resolution and learning in the evaluation of Quantified Boolean Formulas, but does not mention geometric complexity groups or the relationship between the rank of these groups and resolution proof width, which is the focus of the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2103.09609",
+      "title": "Characterizing Tseitin-formulas with short regular resolution refutations",
+      "abstract_excerpt": "Tseitin-formulas are systems of parity constraints whose structure is described by a graph. These formulas have been studied extensively in proof complexity as hard instances in many proof systems. In this paper, we prove that a class of unsatisfiable Tseitin-formulas of bounded degree has regular resolution refutations of polynomial length if and only if the treewidth of all underlying graphs $G$ for that class is in $O(\\log|V(G)|)$. To do so, we show that any regular resolution refutation of a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the length of regular resolution refutations of Tseitin-formulas in terms of treewidth, but does not mention geometric complexity groups or their minimal rank, which are central to the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2209.05839",
+      "title": "On bounded depth proofs for Tseitin formulas on the grid; revisited",
+      "abstract_excerpt": "We study Frege proofs using depth-$d$ Boolean formulas for the Tseitin contradiction on $n \\times n$ grids. We prove that if each line in the proof is of size $M$ then the number of lines is exponential in $n/(\\log M)^{O(d)}$. This strengthens a recent result of Pitassi et al. [PRT22]. The key technical step is a multi-switching lemma extending the switching lemma of Håstad [Hås20] for a space of restrictions related to the Tseitin contradiction. The strengthened lemma also allows us to improve ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited abstract discusses bounded depth proofs for Tseitin formulas on grids and improves lower bounds for standard proof sizes, while the conjecture relates to the minimal rank of geometric complexity groups and resolution proof width. The two topics are related to proof complexity but do not directly support or refute each other.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
