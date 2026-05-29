@@ -1,0 +1,31 @@
+{
+  "entry_id": "e74f224c3e4c",
+  "ts": 1780078088.436527,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.1007/s00037-025-00276-5",
+      "title": "Lifting Dichotomies",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available, so I cannot determine whether the paper's content supports, refutes, or is orthogonal to the conjecture linking matroidal cycle rank to XOR communication complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10.1137/S0895480103428338",
+      "title": "On the Complexity of Some Enumeration Problems for Matroids",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available ('(no abstract available)'), so I cannot determine whether the paper's content supports, refutes, or is orthogonal to the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 2
+  }
+}
