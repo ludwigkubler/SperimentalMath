@@ -1,0 +1,40 @@
+{
+  "entry_id": "182fa938b6f7",
+  "ts": 1780064252.4622788,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/1407.3454v1",
+      "title": "Critical Phase in Complex Networks: a Numerical Study",
+      "abstract_excerpt": "We compare phase transition and critical phenomena of bond percolation on Euclidean lattices, nonamenable graphs, and complex networks. On a Euclidean lattice, percolation shows a phase transition between the nonpercolating phase and percolating phase at the critical point. The critical point is str",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses phase transition and critical phenomena of bond percolation on various networks, but does not mention resolution proof width or Tseitin formulas, which are central to the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1002.0739v1",
+      "title": "Gradual sub-lattice reduction and a new complexity for factoring polynomials",
+      "abstract_excerpt": "We present a lattice algorithm specifically designed for some classical applications of lattice reduction. The applications are for lattice bases with a generalized knapsack-type structure, where the target vectors are boundably short. For such applications, the complexity of the algorithm improves ",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract does not provide enough information to determine if it supports, refutes, or is orthogonal to the conjecture. It discusses a lattice algorithm for specific applications with generalized knapsack-type structures but does not mention anything about resolution proof width or Tseitin formulas.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2406.16196v2",
+      "title": "Torsion-Free Lattices in Baumslag-Solitar Complexes",
+      "abstract_excerpt": "This paper classifies the pairs of nonzero integers $(m,n)$ for which the locally compact group of combinatorial automorphisms, Aut$(X_{m,n})$, contains incommensurable torsion-free lattices, where $X_{m,n}$ is the combinatorial model for Baumslag-Solitar group $BS(m,n)$. In particular, we show that",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses the classification of torsion-free lattices in Baumslag-Solitar complexes and their automorphisms, which is unrelated to the conjecture about resolution proof width bounding by geometrically independent lattices.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}

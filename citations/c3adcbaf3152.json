@@ -1,0 +1,40 @@
+{
+  "entry_id": "c3adcbaf3152",
+  "ts": 1780063247.7298584,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/1306.3497v2",
+      "title": "The number of vertices of a tropical curve is bounded by its area",
+      "abstract_excerpt": "We introduce the notion of tropical area of a tropical curve defined in an open subset of $\\mathbb R^n$. We prove that the number of vertices of a tropical curve is bounded by the area of the curve. The approach is totally elementary yet tricky. Our proof employs ideas from intersection theory in al",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the relationship between the number of vertices of a tropical curve and its area, which does not directly interact with the conjecture's claim about the tropical order of a tropical curve and its relation to resolution proof width, as stated in the phrase 'the number of vertices of a tropical curve is bounded by the area of the curve'.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1207.2443v2",
+      "title": "Tropical Teichmuller and Siegel spaces",
+      "abstract_excerpt": "In this paper, we present a unified study of the moduli space of tropical curves and Outer space which we link via period maps to the moduli space of tropical abelian varieties and the space of positive definite quadratic forms. Our work is a first step towards exhibiting Outer space and the space o",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the moduli space of tropical curves and its relation to other mathematical concepts, but does not mention resolution proof complexity or Tseitin formulas, which are central to the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1709.08594v2",
+      "title": "Upper bounds on Betti numbers of tropical prevarieties",
+      "abstract_excerpt": "We prove upper bounds on the sum of Betti numbers of tropical prevarieties in dense and sparse settings. In the dense setting the bound is in terms of the volume of Minkowski sum of Newton polytopes of defining tropical polynomials, or, alternatively, via the maximal degree of these polynomials. In ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses upper bounds on Betti numbers of tropical prevarieties, which shares vocabulary with tropical geometry, but does not interact with the specific claim about the tropical order of tropical curves and its relation to resolution proof width, as stated in the conjecture.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "entry_id": "552478e26c63",
+  "ts": 1780063027.996992,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:1409.7782",
+      "title": "Recommended isolated-line profile for representing high-resolution spectroscopic transitions (IUPAC Technical Report)",
+      "abstract_excerpt": "Abstract The report of an IUPAC Task Group, formed in 2011 on “Intensities and line shapes in high-resolution spectra of water isotopologues from experiment and theory” (Project No. 2011-022-2-100), on line profiles of isolated high-resolution rotational-vibrational transitions perturbed by neutral ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses high-resolution spectroscopic transitions and line profiles, which does not interact with the specific claim about Tseitin formulas, Hodge modules, and resolution proof complexity.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "s2:10.1177/09670106241284172",
+      "title": "Organizing for future war and warfare: Complexity as ‘folk theory’ in NATO policy",
+      "abstract_excerpt": "Geopolitical and societal changes are increasingly narrated using the concept of complexity. In a range of policy contexts, from climate to finance and peacekeeping to defence and security, complexity is often prominent. This article explores the contemporary expressions of complexity in defence and security scholarship and policy. To understand the expressions of complexity, we view it as a ‘folk theory’ – what others have called a category of practice. We illustrate how this folk theory has ga",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses complexity in the context of NATO policy and defence, with no mention of Hodge theory, Tseitin formulas, or resolution proof complexity, which are the core concepts of the conjecture.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 0
+  }
+}
