@@ -1,0 +1,31 @@
+{
+  "entry_id": "e77e39b2f840",
+  "ts": 1780037305.6274097,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.1017/S147474802300021X",
+      "title": "p-ADIC L-FUNCTIONS AND RATIONAL POINTS ON CM ELLIPTIC CURVES AT INERT PRIMES",
+      "abstract_excerpt": "Abstract Let K be an imaginary quadratic field and \n$p\\geq 5$\n a rational prime inert in K. For a \n$\\mathbb {Q}$\n -curve E with complex multiplication by \n$\\mathcal {O}_K$\n and good reduction at p, K. Rubin introduced a p-adic L-function \n$\\mathscr {L}_{E}$\n which interpolates special values of L-functions of E twisted by anticyclotomic characters of K. In this paper, we prove a formula which links certain values of \n$\\mathscr {L}_{E}$\n outside its defining range of interpolation with rational p",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns p-adic L-functions, CM elliptic curves, and rational points (Gross-Zagier/Kolyvagin p-converse), with no mention of resolution proof complexity, Tseitin formulas, or proof-length bounds. It shares only the broad vocabulary of 'L-functions' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:7352378af4da61ed67859ea8ae62b0165031fa86",
+      "title": "A Note on Natural-Proofs for Super-Linear Lower Bounds for Linear Functions",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available, so I cannot determine whether the paper's content supports, refutes, or is orthogonal to the conjecture linking L-function minimal order to Resolution proof length.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}

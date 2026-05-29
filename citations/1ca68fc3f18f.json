@@ -1,0 +1,31 @@
+{
+  "entry_id": "1ca68fc3f18f",
+  "ts": 1780037672.2538676,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.31650/2618-0650-2026-8-1-151-161",
+      "title": "Analysis of multiset dimension in fuzzy zero-divisor graphs associated with commutative rings",
+      "abstract_excerpt": "The article provides a thorough analysis of the concept of multiset dimension in fuzzy graphs of zero divisors that model the internal structure of commutative rings. Both classical approaches to constructing zero divisor graphs and modern modifications that take into account both the multiplicative and additive structures of rings are considered. Formal definitions of multi-set dimension in fuzzy graphs constructed on the basis of fuzzy membership functions are introduced, allowing the degree o",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'multiset dimension in fuzzy graphs of zero divisors' for commutative rings, which has no interaction with planar graph minimal polynomial degrees or DPLL search tree height bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:6f234602ceea6022678a355ae683962b95691547",
+      "title": "The intersection of commutative algebra and algebraic geometry with combinatorics and discrete geometry is a rich and expanding field. Integral polytopes, purely discrete objects, provide enlight-",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available ('no abstract available'), so I cannot assess whether the paper supports, refutes, or is orthogonal to the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}
