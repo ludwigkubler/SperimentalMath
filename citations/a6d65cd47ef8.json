@@ -1,0 +1,40 @@
+{
+  "entry_id": "a6d65cd47ef8",
+  "ts": 1780043860.5739067,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/hep-th/9809072v1",
+      "title": "Complex Monopoles in the Path Integral",
+      "abstract_excerpt": "Complex monopole configurations dominate in the path integral in the Georgi-Glashow-Chern-Simons model and disorder the Higgs vacuum. No cancellation is expected among Gribov copies of the monopole configurations.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'complex monopole configurations' in the Georgi-Glashow-Chern-Simons model path integral, which has no connection to integral quotient sheaves, communication complexity, or k-CNF satisfiability.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1510.08876v2",
+      "title": "Feynman integral in $\\mathbb R^1\\oplus\\mathbb R^m$ and complex expansion of $_2F_1$",
+      "abstract_excerpt": "Closed form expressions are proposed for the Feynman integral\n  $$\n  I_{D, m}(p,q) = \\int\\frac{d^my}{(2π)^m}\\int\\frac{d^Dx}{(2π)^D}\n  \\frac1{(x-p/2)^2+(y-q/2)^4}\n  \\frac1{(x+p/2)^2+(y+q/2)^4}\n  $$ over $d=D+m$ dimensional space with $(x,y),\\,(p,q)\\in \\mathbb R^D \\oplus \\mathbb R^m$, in the special c",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Feynman integrals over R^D⊕R^m and hypergeometric function expansions, which has no connection to integral quotient sheaves, k-CNF satisfiability, or communication complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2405.05873v4",
+      "title": "Duality for Cohen--Macaulay Complexes through Combinatorial Sheaves",
+      "abstract_excerpt": "We prove a duality theorem for Cohen--Macaulay simplicial complexes. This is a generalisation of Poincaré Duality, framed in the language of combinatorial sheaves. Our treatment is self-contained and accessible for readers with a working knowledge of simplicial complexes and (co)homology. The main m",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a duality theorem for Cohen-Macaulay simplicial complexes via combinatorial sheaves, generalizing Poincaré Duality. It makes no mention of communication complexity, k-CNF/SAT, or integral quotient sheaves associated with formulas.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

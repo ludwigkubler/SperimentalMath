@@ -1,0 +1,31 @@
+{
+  "entry_id": "d6ceec40f3c8",
+  "ts": 1780044419.5747867,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.1007/s00037-021-00213-2",
+      "title": "Near-Optimal Lower Bounds on Regular Resolution Refutations of Tseitin Formulas for All Constant-Degree Graphs",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available, so I cannot determine from the provided text whether the paper supports, refutes, or is orthogonal to the conjecture's specific claim linking root system length to Tseitin resolution lower bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10.55544/sjmars.4.2.10",
+      "title": "Resolution of the Chicken-or-Egg Paradox: A Multidisciplinary Analysis of Ontological Precedence Theories",
+      "abstract_excerpt": "The chicken-or-egg paradox, first documented by Plutarch in the 1st century CE, represents an archetypal circular causality dilemma with profound implications spanning epistemology, ontology, metaphysics, and information theory. This ancient conundrum transcends simple biological inquiry to become what Hofstadter terms a \"strange loop\"—a self-referential paradox illuminating the boundaries of linear causality frameworks across knowledge domains. This paper synthesizes findings from 237 studies a",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a philosophical meta-analysis of the chicken-or-egg paradox across epistemology and ontology, with no engagement with root systems, reflection groups, Tseitin formulas, or resolution proof complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}
