@@ -1,0 +1,31 @@
+{
+  "entry_id": "824d4bf2f928",
+  "ts": 1780026011.5098345,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.1007/978-3-642-13182-0_37",
+      "title": "An Encoding Invariant Version of Polynomial Time Computable Distributions",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available for the cited paper, so I cannot determine whether it supports, refutes, or is orthogonal to the conjecture about algebraic topology bounding monotone circuit size.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:2209.09400",
+      "title": "Polynomial-Time Reachability for LTI Systems With Two-Level Lattice Neural Network Controllers",
+      "abstract_excerpt": "In this letter, we consider the computational complexity of bounding the reachable set of a Linear Time-Invariant (LTI) system controlled by a Rectified Linear Unit (ReLU) Two-Level Lattice (TLL) Neural Network (NN) controller. In particular, we show that for such a system and controller, it is poss",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns polynomial-time reachability for LTI systems with ReLU TLL neural network controllers, which shares no substantive connection to fundamental groups of state spaces or monotone Boolean circuit size bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}
