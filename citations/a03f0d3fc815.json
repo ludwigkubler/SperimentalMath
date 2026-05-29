@@ -1,0 +1,40 @@
+{
+  "entry_id": "a03f0d3fc815",
+  "ts": 1780081258.1571193,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1306.5577",
+      "title": "A Note on Elementary Cellular Automata Classification",
+      "abstract_excerpt": "We overview and compare classifications of elementary cellular automata, including Wolfram's, Wuensche's, Li and Packard, communication complexity, power spectral, topological, surface, compression, lattices, and morphological diversity classifications. This paper summarises several classifications of elementary cellular automata (ECA) and compares them with a newly proposed one, that induced by endowing rules with memory.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract surveys classifications of elementary cellular automata (Wolfram, Wuensche, etc.), which shares only the broad 'automata' vocabulary but does not address minimal generality bounds or circuit depth for boolean functions.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1208.2766",
+      "title": "Topological properties of cellular automata on trees",
+      "abstract_excerpt": "We prove that there do not exist positively expansive cellular automata defined on the full k-ary tree shift (for k&gt;=2). Moreover, we investigate some topological properties of these automata and their relationships, namely permutivity, surjectivity, preinjectivity, right-closingness and openness.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns topological properties of cellular automata on tree shifts (expansivity, permutivity, surjectivity), which shares no substantive interaction with the conjecture's claim about minimal generality bounds of automata over Boolean algebras accepting Boolean functions.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1503.03318",
+      "title": "On the decomposition of stochastic cellular automata",
+      "abstract_excerpt": "In this paper we present two interesting properties of stochastic cellular automata that can be helpful in analyzing the dynamical behavior of such automata. The first property allows for calculating cell-wise probability distributions over the state set of a stochastic cellular automaton, i.e. images that show the average state of each cell during the evolution of the stochastic cellular automaton. The second property shows that stochastic cellular automata are equivalent to so-called stochasti",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'stochastic cellular automata' and their decomposition into 'stochastic mixtures of deterministic cellular automata,' which has no bearing on the generality measure of automata over Boolean algebras or circuit depth bounds for n-variable Boolean functions.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
