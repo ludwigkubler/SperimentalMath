@@ -1,0 +1,22 @@
+{
+  "entry_id": "40464810d1c0",
+  "ts": 1780085007.8908882,
+  "hits_evaluated": 1,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1001.2052",
+      "title": "Block Sensitivity of Minterm-Transitive Functions",
+      "abstract_excerpt": "Boolean functions with symmetry properties are interesting from a complexity theory perspective; extensive research has shown that these functions, if nonconstant, must have high `complexity' according to various measures.\n  In recent work of this type, Sun gave bounds on the block sensitivity of nonconstant Boolean functions invariant under a transitive permutation group. Sun showed that all such functions satisfy bs(f) = Omega(N^{1/3}), and that there exists such a function for which bs(f) = O",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns block sensitivity bounds for transitively-invariant/minterm-transitive Boolean functions, not tree-like resolution proof width nor arithmetic progression symmetry. It shares the general theme of symmetry-and-complexity but does not address the specific claim about t*(f) = O(log|S|^2).",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 0
+  }
+}

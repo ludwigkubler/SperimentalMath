@@ -1,0 +1,31 @@
+{
+  "entry_id": "9254c5112fbd",
+  "ts": 1780084573.4502633,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:83ab0f7b804d184f8af92fe4ba3b0f7217e64be2",
+      "title": "Computation and logic in the real world : Third Conference on Computability in Europe, CiE 2007 Siena, Italy, June 18-23, 2007 : proceedings",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available for this conference proceedings volume, so I cannot determine whether any contained work addresses the specific link between Coxeter group order and tree-like resolution proof depth.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:3966cf8ba2f2da4d328ffc22bb34dcb1d4ac3840",
+      "title": "Mathematical software - ICMS 2014 : 4th International Congress, Seoul, South Korea, August 5-9, 2014 : proceedings",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available for this conference proceedings volume, so I cannot assess whether it addresses the specific claim linking Coxeter group order to tree-like resolution proof depth.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 2
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "f7d7d196e00e",
+  "ts": 1780085387.1943495,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0912.2255",
+      "title": "Test ideals via algebras of $p^{-e}$-linear maps",
+      "abstract_excerpt": "Continuing ideas of a recent preprint of Schwede arXiv:0906.4313 we study test ideals by viewing them as minimal objects in a certain class of $F$-pure modules over algebras of p^{-e}-linear operators. This shift in the viewpoint leads to a simplified and generalized treatment, also allowing us to define test ideals in non-reduced settings.\n  In combining this with an observation of Anderson on the contracting property of p^{-e}-linear operators we obtain an elementary approach to test ideals in",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns test ideals, F-pure modules, and p^{-e}-linear operators in positive characteristic commutative algebra, with no mention of Boolean functions, resolution proof complexity, or rank bounds on matrices from curves over GF(2^k). It shares no interaction with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/dg-ga/9708009v1",
+      "title": "Tree-like curves and their inflection points",
+      "abstract_excerpt": "We give a criterion when a planar tree-like curve, i.e. a generic immersed plane curve each double point of which cuts it into two disjoint parts, can be send by a diffeomorphism of the plane onto a curve with no inflection points. We also present some upper and lower bounds for the minimal number o",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns planar tree-like curves and inflection points in differential geometry, sharing only the word 'tree-like' with the conjecture but having no connection to resolution proof complexity, Boolean functions, or algebraic curve rank bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1812.11710",
+      "title": "Geometric Satake correspondence for affine Kac-Moody Lie algebras of type $A$",
+      "abstract_excerpt": "This is an informal expository article on geometric Satake correspondence for affine Kac-Moody Lie algebras of type $A$ given in arXiv:1810.04293. We emphasize formal analogies between this result and the author's earlier results on geometric approaches to the representation via quiver varieties.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns geometric Satake correspondence for affine Kac-Moody Lie algebras and quiver varieties, which shares no interaction with tree-like resolution width or algebraic curve rank bounds for Boolean functions.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

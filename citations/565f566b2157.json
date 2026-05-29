@@ -1,0 +1,40 @@
+{
+  "entry_id": "565f566b2157",
+  "ts": 1780087006.8311903,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1604.04253",
+      "title": "On Period Relations for Automorphic L-functions II",
+      "abstract_excerpt": "We study Hecke algebras for pairs $({\\mathfrak g},K)$ over arbitrary fields $E$ of characteristic $0$, define the Bernstein functor and give another definition of the Zuckerman functor over $E$. Building on this and the author's previous work on rational structures on automorphic representations, we show that hard duality remains valid over $E$ and apply this result to the study of rationality properties of Sun's cohomologically induced functionals. Our main application are period relations for ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Hecke algebras, Zuckerman functors, and period relations for automorphic L-functions of GL(2n), with no mention of lattices, Boolean functions, or resolution proof width. It shares no substantive content with the conjecture's claim about MinOrderLat(φ) and proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1212.6525",
+      "title": "Automorphic Integral Transforms for Classical Groups I: Endoscopy Correspondences",
+      "abstract_excerpt": "A general framework of constructions of endoscopy correspondences via automorphic integral transforms for classical groups is formulated in terms of the Arthur classification of the discrete spectrum of square-integrable automorphic forms. This suggests a principle, which is called the $(τ,b)$-theory of automorphic forms of classical groups, to reorganize and extend the series of work of Piatetski-Shapiro, Rallis, Kudla and others on standard $L$-functions of classical groups and theta correspon",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'endoscopy correspondences via automorphic integral transforms for classical groups' and the Arthur classification of automorphic forms — a representation-theoretic topic with no connection to Boolean functions, lattice orders, or resolution proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1511.00586",
+      "title": "Strong local-global phenomena for Galois and automorphic representations",
+      "abstract_excerpt": "Many results are known regarding how much local information is required to determine a global object, such as a modular form, or a Galois or automorphic representation. We survey some things that are known and expected, and then explain recent joint work with Dinakar Ramakrishnan about comparing degree 2 Artin and automorphic representations which a priori may not correspond at certain infinite sets of places.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns local-global principles for Galois and automorphic representations (e.g., 'comparing degree 2 Artin and automorphic representations'), with no mention of lattices, Boolean functions, or resolution proof width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
