@@ -1,0 +1,40 @@
+{
+  "entry_id": "ad820eaf3f47",
+  "ts": 1780167064.7098145,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1908.02829",
+      "title": "Kitaev's quantum double model as an error correcting code",
+      "abstract_excerpt": "Kitaev's quantum double models in 2D provide some of the most commonly studied examples of topological quantum order. In particular, the ground space is thought to yield a quantum error-correcting code. We offer an explicit proof that this is the case for arbitrary finite groups. Actually a stronger claim is shown: any two states with zero energy density in some contractible region must have the same reduced state in that region. Alternatively, the local properties of a gauge-invariant state are",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Kitaev's quantum double model, topological entanglement entropy, and error-correcting codes, but says nothing about resolution proof trees or bounding entanglement of proof structures by O(n log n). It shares the 'topological entanglement' vocabulary but does not interact with the specific conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1610.07628",
+      "title": "Higher Categories and Topological Quantum Field Theories",
+      "abstract_excerpt": "We construct a state-sum type invariant of smooth closed oriented $4$-manifolds out of a $G$-crossed braided spherical fusion category ($G$-BSFC) for $G$ a finite group. The construction can be extended to obtain a $(3+1)$-dimensional topological quantum field theory (TQFT). The invariant of $4$-manifolds generalizes several known invariants in literature such as the Crane-Yetter invariant from a ribbon fusion category and Yetter's invariant from homotopy $2$-types. If the $G$-BSFC is concentrat",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes state-sum invariants of 4-manifolds from G-crossed braided spherical fusion categories and (3+1)-TQFTs, with no reference to resolution proof trees, clause complexity, or any entanglement bound. It shares only the broad 'topological quantum' vocabulary and does not interact with the O(n log n) TQE claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2512.10504",
+      "title": "Tianyan: Cloud services with quantum advantage",
+      "abstract_excerpt": "Tianyan Quantum Cloud Platform offers cloud services demonstrating quantum advantage capabilities with a Zuchongzhi 3.0-like superconducting quantum processor. This cloud-accessible superconducting quantum prototype, named Tianyan-287, features 105 qubits and achieves high operational fidelities, with single-qubit gates, two-qubit gates, and readout fidelity at 99.90%, 99.56%, 98.7%, respectively. For a specific benchmark task involving random circuit sampling on a 74-qubit system over 24 cycles",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a quantum cloud computing platform with a superconducting processor for random circuit sampling ('Tianyan Quantum Cloud Platform... 105 qubits'), with no mention of resolution proof trees, topological quantum entanglement, or any complexity bound relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

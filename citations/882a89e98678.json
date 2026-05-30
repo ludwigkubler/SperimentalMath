@@ -1,0 +1,40 @@
+{
+  "entry_id": "882a89e98678",
+  "ts": 1780169915.981575,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1511.09051",
+      "title": "On automorphism groups of affine surfaces",
+      "abstract_excerpt": "This is a survey on the automorphism groups in various classes of affine algebraic surfaces and the algebraic group actions on such surfaces. Being infinite-dimensional, these automorphism groups share some important features of algebraic groups. At the same time, they can be studied from the viewpoint of the combinatorial group theory, so we put a special accent on group-theoretical aspects (ind-groups, amalgams, etc.). We provide different approaches to classification, prove certain new result",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract is a survey on automorphism groups of affine algebraic surfaces and ind-groups/amalgams, which shares only the vocabulary 'automorphism groups' with the conjecture about automorphism counts of Frege proof trees — no interaction with proof complexity or tree automorphism bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1810.12657",
+      "title": "The effect of a country's name in the title of a publication on its visibility and citability",
+      "abstract_excerpt": "The objective of this research is to determine if the reference to a country in the title, keywords or abstract of a publication can influence its visibility (measured by the impact factor of the publishing journal) and citability (measured by the citations received). The study is based on Italian scientific production indexed in the Web of Science over the period 2004-2011. The analysis is conducted by comparing the values of four impact indicators for two subsets: i) the indexed publications w",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns bibliometric analysis of country names in publication titles and their effect on citation impact, which has no connection to automorphism groups, Frege proof trees, or any mathematical/complexity-theoretic claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1710.00286",
+      "title": "DTATG: An Automatic Title Generator based on Dependency Trees",
+      "abstract_excerpt": "We study automatic title generation for a given block of text and present a method called DTATG to generate titles. DTATG first extracts a small number of central sentences that convey the main meanings of the text and are in a suitable structure for conversion into a title. DTATG then constructs a dependency tree for each of these sentences and removes certain branches using a Dependency Tree Compression Model we devise. We also devise a title test to determine if a sentence can be used as a ti",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes 'automatic title generation' using 'dependency trees' for NLP, with no connection to Frege proof trees, automorphism groups, or complexity bounds. It shares only the generic word 'tree' with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

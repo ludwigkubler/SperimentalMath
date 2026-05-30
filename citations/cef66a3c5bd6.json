@@ -1,0 +1,40 @@
+{
+  "entry_id": "cef66a3c5bd6",
+  "ts": 1780167947.5693452,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2503.14756",
+      "title": "SceneEval: Evaluating Semantic Coherence in Text-Conditioned 3D Indoor Scene Synthesis",
+      "abstract_excerpt": "Despite recent advances in text-conditioned 3D indoor scene generation, there remain gaps in the evaluation of these methods. Existing metrics often measure realism by comparing generated scenes to a set of ground-truth scenes, but they overlook how well scenes follow the input text and capture implicit expectations of plausibility. We present SceneEval, an evaluation framework designed to address these limitations. SceneEval introduces fine-grained metrics for explicit user requirements-includi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes 'SceneEval, an evaluation framework' for 'text-conditioned 3D indoor scene generation,' which has no connection to hypergeometric functions, resolution proof trees, or Coxeter groups in SAT instances.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2408.02211",
+      "title": "SceneMotifCoder: Example-driven Visual Program Learning for Generating 3D Object Arrangements",
+      "abstract_excerpt": "Despite advances in text-to-3D generation methods, generation of multi-object arrangements remains challenging. Current methods exhibit failures in generating physically plausible arrangements that respect the provided text description. We present SceneMotifCoder (SMC), an example-driven framework for generating 3D object arrangements through visual program learning. SMC leverages large language models (LLMs) and program synthesis to overcome these challenges by learning visual programs from exa",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a framework for generating 3D object arrangements via visual program learning ('SceneMotifCoder... for generating 3D object arrangements through visual program learning'), which has no interaction with hypergeometric functions, SAT instances, resolution proof trees, or Coxeter groups.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2604.18946",
+      "title": "Reasoning Structure Matters for Safety Alignment of Reasoning Models",
+      "abstract_excerpt": "Large reasoning models (LRMs) achieve strong performance on complex reasoning tasks but often generate harmful responses to malicious user queries. This paper investigates the underlying cause of these safety risks and shows that the issue lies in the reasoning structure itself. Based on this insight, we claim that effective safety alignment can be achieved by altering the reasoning structure. We propose AltTrain, a simple yet effective post training method that explicitly alters the reasoning s",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses safety alignment of large reasoning models via altering reasoning structure (AltTrain method), which has no connection to hypergeometric functions, Coxeter groups, or resolution proof trees for SAT instances.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

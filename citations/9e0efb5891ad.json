@@ -1,0 +1,40 @@
+{
+  "entry_id": "9e0efb5891ad",
+  "ts": 1780170414.3825455,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0012264v2",
+      "title": "Koszul duality and equivalences of categories",
+      "abstract_excerpt": "Let A and A! be dual Koszul algebras. By Positselski a filtered algebra U with gr U = A is Koszul dual to differential graded algebra (A!,d). We relate the module categories of this dual pair by a tensor-Hom adjunction. This descends to give an equivalence of suitable quotient categories and general",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Koszul duality and equivalences between module categories of Koszul algebras, with no mention of SAT, clause complexity, or generator bounds. It shares only the 'Koszul' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2604.20177",
+      "title": "Koszul Duality for Quadratic Monomial Algebras",
+      "abstract_excerpt": "This paper provides a new class of examples for the Koszul dualities established in~\\cite{5}. We study quadratic monomial algebras from the perspective of Koszul duality, with particular emphasis on finitely presented and finitely copresented graded modules over the Koszul dual algebra. For a finite-dimensional quadratic monomial algebra \\(Λ\\), we prove that the Koszul dual \\(Λ^{!}\\) is both left coherent and left co-coherent, and that finitely presented (resp.\\ finitely copresented) modules coi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Koszul duality for quadratic monomial algebras, finitely presented modules, and BGG correspondence — it shares the 'Koszul' vocabulary but says nothing about SAT instances, refutation length, or generator-count bounds of the form O(m^(2/3)n^(1/6)).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0301233v1",
+      "title": "Noncommutative Koszul filtrations",
+      "abstract_excerpt": "We study associative graded algebras which have a ``complete flag'' of cyclic modules with linear free resolutions, i.e., algebras over which there is a cyclic Koszul module with every admissible number of relations (from zero up to the number of generators of the algebra). Commutative algebras with",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses noncommutative graded algebras with cyclic Koszul modules and linear free resolutions, with no mention of SAT, Boolean formulas, or refutation length bounds like O(m^(2/3)n^(1/6)).",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
