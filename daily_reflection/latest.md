@@ -1,145 +1,149 @@
-# Daily Reflection — 2026-05-29
+# Daily Reflection — 2026-05-30
 
-*Generated: 2026-05-29 03:33 UTC*
+*Generated: 2026-05-30 03:33 UTC*
 
 ## Yesterday in numbers
-- **Cycles**: 314
-- **New arxiv papers (mirror, last 24h)**: 110
+- **Cycles**: 250
+- **New arxiv papers (mirror, last 24h)**: 117
 - **Verdict distribution**:
-    - BARRIER_HIT: 156
-    - INCONCLUSIVE: 156
-    - SCOOPED: 2
+    - INCONCLUSIVE: 155
+    - BARRIER_HIT: 94
+    - SCOOPED: 1
 - **Focus mode**:
-    - GCT_DET_PERM: 16
-    - TSEITIN_RES: 12
-    - BP_READTWICE: 12
-    - ACC_SIPSER: 12
-    - COMM_DISJ: 10
-    - SOS_DEGREE: 9
-    - MONOTONE_CLIQUE: 9
-    - AC0_PARITY: 6
+    - cg_kw_andreev: 50
+    - c003b_cumulative_entropy: 50
+    - TSEITIN_RES: 7
+    - ACC_SIPSER: 5
+    - tropical_discrepancy_finite_beta: 5
+    - forman_ricci_dnf: 5
+    - SOS_DEGREE: 3
+    - COMM_DISJ: 3
+    - BP_READTWICE: 2
+    - MONOTONE_CLIQUE: 2
+    - GCT_DET_PERM: 2
+    - AC0_PARITY: 1
 - **Top fields_A**:
-    - Algebraic Geometry (Hodge Theory): 21
-    - Quandle Theory: 8
-    - Algebraic Topology (Configuration Spaces): 8
-    - Combinatorial Geometry (Coxeter Groups): 7
-    - Combinatorial Algebra (Coxeter Groups): 6
+    - Tropical Geometry: 14
+    - Symplectic Geometry: 12
+    - Algebraic Geometry (Hodge Theory): 9
+    - Combinatorial Geometry (Coxeter Groups): 9
+    - Automorphic Lattice Theory: 7
 
-## ⚠ Potential scoops (26)
+## ⚠ Potential scoops (33)
 
 These new arxiv papers have **>0.72 cosine** to one of our recent conjectures.
 
-### `2605.28674v1` (sim=0.773)
-- **Paper**: Disjunctive Sum of Squares
-- **Category**: math.OC
-- **Submitted**: 2026-05-27T16:08:30Z
-- **URL**: https://arxiv.org/abs/2605.28674v1
-- **Matches our conjecture** `bdccddeb6c38`: "Minimal Rank of Macdonald Polynomials Bounds Exponential Time Hypothesis for Satisfiability"
-- **Abstract excerpt**: We introduce the concept of disjunctive sum of squares for certifying nonnegativity of polynomials. Unlike the popular sum of squares approach where nonnegativity is certified by a single algebraic identity, the disjunctive sum of squares approach certifies nonnegativity with multiple algebraic iden…
+### `2605.30113v1` (sim=0.752)
+- **Paper**: Low-degree estimation thresholds in planted hypergraphs and tensor PCA
+- **Category**: math.ST
+- **Submitted**: 2026-05-28T15:49:59Z
+- **URL**: https://arxiv.org/abs/2605.30113v1
+- **Matches our conjecture** `3f2150244a9c`: "Minimal Tensor Rank of Graph Laplacians Bounds Resolution Proof Length"
+- **Abstract excerpt**: A central question in high-dimensional statistics is to understand statistical--computational gaps: regimes in which recovering a hidden signal is information-theoretically possible but conjectured to be computationally intractable. The low-degree framework offers a concrete way to study this gap by…
 
-### `2605.28138v1` (sim=0.726)
-- **Paper**: A Deterministic Separation Lemma
+### `2605.29537v1` (sim=0.748)
+- **Paper**: The Complexity of Verifying Feedforward Neural Networks in Quantised Settings
+- **Category**: cs.CC
+- **Submitted**: 2026-05-28T07:52:29Z
+- **URL**: https://arxiv.org/abs/2605.29537v1
+- **Matches our conjecture** `79a2459f4b63`: "Minimal Rank of Quandle Representations Bounds Resolution Proof Width"
+- **Abstract excerpt**: We investigate the computational complexity of neural network verification in quantised settings. We distinguish three classes of Feedforward Neural Networks (FNNs): rational FNNs with exact rational weights, quantised FNNs whose weights come from a finite-width arithmetic, and dynamically quantised…
+
+### `2605.30053v1` (sim=0.801)
+- **Paper**: A Radius-Sensitive Approximation Algorithm for Connected Submodular Maximization
 - **Category**: cs.DS
-- **Submitted**: 2026-05-27T08:21:57Z
-- **URL**: https://arxiv.org/abs/2605.28138v1
-- **Matches our conjecture** `66e8a070f7bc`: "Minimal Rank of Free Lattice Modules Bounds Communication Complexity for Disjointness"
-- **Abstract excerpt**: The \emph{Separation Lemma} is a simple yet powerful tool, akin to the well-known \emph{Isolation Lemma}, that guarantees the uniqueness of certain set sums. Bandopadhyay et al.\ introduced this lemma to establish lower bounds for the \ALP problem with respect to certain structural parameters, relyi…
+- **Submitted**: 2026-05-28T15:05:08Z
+- **URL**: https://arxiv.org/abs/2605.30053v1
+- **Matches our conjecture** `ca0977740d54`: "Minimal Spanning Tree Diameter Bounds Monotone Circuit Size for k-CLIQUE"
+- **Abstract excerpt**: Connected Submodular Maximization (CSM) is a graph problem with important applications to wireless network deployment, path planning, epidemic outbreaks, and cancer genome studies. In CSM, we are given a graph $G$, a non-negative monotone submodular function $f$ on subsets of the vertex set of $G$, …
 
-### `2605.27998v1` (sim=0.747)
-- **Paper**: Efficient Algorithms for Interdicting Facilities in Trees and Bounded Treewidth Graphs
+### `2605.29944v1` (sim=0.757)
+- **Paper**: Quadratic Sums-of-Powers for Fixed-Parameter Tractable Quantum-Circuit Simulation
+- **Category**: quant-ph
+- **Submitted**: 2026-05-28T13:54:42Z
+- **URL**: https://arxiv.org/abs/2605.29944v1
+- **Matches our conjecture** `2176d7f5488d`: "Quantum State Entanglement Complexity Bound for DPLL Tree Height"
+- **Abstract excerpt**: Strongly simulating a quantum circuit, that is, computing an output amplitude, amounts to summing the circuit's Feynman paths, a weighted count over assignments to the Boolean ``path'' variables. The circuit's gates induce correlations among these variables, forming a graph whose structure determine…
+
+### `2605.29566v1` (sim=0.733)
+- **Paper**: Sampling Directed Eulerian Tours in $\widetilde O(m^{3/2})$ Time
 - **Category**: cs.DS
-- **Submitted**: 2026-05-27T05:41:29Z
-- **URL**: https://arxiv.org/abs/2605.27998v1
-- **Matches our conjecture** `3d3a15569524`: "Minimal Rank of Noncrossing Partitions Bounds Resolution Proof Length for Tseitin Formulas"
-- **Abstract excerpt**: Given a graph $G$ of $n$ nodes partitioned into facilities and customers, the $r$-edge interdiction covering problem (REIC) is to remove up to $r$ edges so as to maximize the total weight of customers disconnected from all facilities, which is called the covering objective function. While REIC is kn…
+- **Submitted**: 2026-05-28T08:17:10Z
+- **URL**: https://arxiv.org/abs/2605.29566v1
+- **Matches our conjecture** `3a252f3f760e`: "Quadratic Cumulative Entropy for Min-Occurrence DP on 3-Regular Tseitin"
+- **Abstract excerpt**: We give a randomized algorithm that samples a nearly uniform Eulerian tour of a directed Eulerian multigraph with $m$ arcs in $\widetilde O(m^{3/2})$ time. The guarantee is worst-case, applies to arbitrary directed Eulerian multigraphs, and breaks the $mn$-type arborescence-sampling barrier on spars…
 
-### `2605.27594v1` (sim=0.725)
-- **Paper**: Proper Agnostic Learning of Functions of Halfspaces under Gaussian Marginals
+### `2605.25303v2` (sim=0.749)
+- **Paper**: Algorithms with Polynomially-Improved Approximation Factors for the $2 \rightarrow q$ Norm, and Applications
 - **Category**: cs.DS
-- **Submitted**: 2026-05-26T19:07:06Z
-- **URL**: https://arxiv.org/abs/2605.27594v1
-- **Matches our conjecture** `81ff78943fcc`: "Minimal Rank of Free Probability Distributions Bounds Disjointness Communication Complexity"
-- **Abstract excerpt**: We study the problem of computationally efficient proper agnostic learning of multidimensional concept classes under the Gaussian distribution. In this setting, given i.i.d. labeled samples from an unknown distribution over $\mathbb{R}^d \times \{\pm 1\}$ whose marginal on $\mathbb{R}^d$ is Gaussian…
+- **Submitted**: 2026-05-24T23:56:06Z
+- **URL**: https://arxiv.org/abs/2605.25303v2
+- **Matches our conjecture** `c32c28fc2190`: "Arithmetic-Geometric Mean Invariant Bounds Tree-Like Resolution Proof Size"
+- **Abstract excerpt**: The $2 \rightarrow q$ norm of a matrix $X \in \mathbb{R}^{n \times d}$ is defined as $\lVert X \rVert_{2 \rightarrow q} = \sup_{\lVert v \rVert_2 = 1} \lVert Xv \rVert_q$. We give polynomial-time multiplicative approximation algorithms for this norm when $q > 2$ (i.e. in the hypercontractive setting…
 
-### `2605.27490v1` (sim=0.723)
-- **Paper**: Tree Search With Predictions
-- **Category**: cs.DS
-- **Submitted**: 2026-05-26T16:19:48Z
-- **URL**: https://arxiv.org/abs/2605.27490v1
-- **Matches our conjecture** `6eff16b5c23d`: "Minimal Generators of Brauer Groups Bound DPLL Tree Depth"
-- **Abstract excerpt**: ``Algorithms with predictions'', or ``learning-augmented algorithms'', has proved to be an extremely useful paradigm for combining machine learning with traditional algorithms. One of the textbook settings for this is searching a sorted array. Without a prediction, classical binary search takes $O(\…
-
-### `2605.28602v1` (sim=0.747)
-- **Paper**: Satisfiability Solving with LLMs: A Matched-Pair Evaluation of Reasoning Capability
-- **Category**: cs.AI
-- **Submitted**: 2026-05-27T15:18:45Z
-- **URL**: https://arxiv.org/abs/2605.28602v1
-- **Matches our conjecture** `6866d4357334`: "Minimal Rank of Hodge Structures Bounds SAT Refutation Tree Width"
-- **Abstract excerpt**: Large language models (LLMs) are increasingly used for tasks that implicitly reduce to Boolean satisfiability (SAT), yet their reasoning ability on SAT remains unclear. We present a systematic study of LLMs on 2-SAT and 3-SAT, together with two canonical reductions, Vertex Cover and discrete 3D pack…
-
-### `2605.28781v1` (sim=0.753)
-- **Paper**: The sum-product conjecture is false for real numbers
-- **Category**: math.NT
-- **Submitted**: 2026-05-27T17:42:41Z
-- **URL**: https://arxiv.org/abs/2605.28781v1
-- **Matches our conjecture** `5adbb526b84d`: "Algebraic K-Theory Rank Bounds for Resolution Proof Width"
-- **Abstract excerpt**: We disprove the sum-product conjecture for real numbers by constructing arbitrarily large $A\subset \mathbb{R}$ (whose elements are algebraic integers in a number field of degree $\asymp \log\lvert A\rvert$) such that \[\max(\lvert A+A\rvert ,\lvert AA\rvert)\leq \lvert A\rvert^{2-c}\] where $c>0$ i…
-
-### `2605.28770v1` (sim=0.734)
-- **Paper**: Cutoff profiles for conjugacy invariant random walks on symmetric groups
-- **Category**: math.PR
-- **Submitted**: 2026-05-27T17:27:47Z
-- **URL**: https://arxiv.org/abs/2605.28770v1
-- **Matches our conjecture** `e75b18046ed8`: "Minimal Rank of Polya Enumeration Functions Bounds Monotone Circuit Size for k-CLIQUE"
-- **Abstract excerpt**: We prove asymptotic equivalents for finite-level representations of symmetric groups, that is, for Young diagrams having all but finitely many boxes on their first row. We deduce that random walks on symmetric groups generated by conjugacy classes with a macroscopic number of fixed points have a Poi…
-
-### `2605.28682v1` (sim=0.729)
-- **Paper**: A higher homological approach to the $q$-characters of representations of quantum affine algebras
-- **Category**: math.RT
-- **Submitted**: 2026-05-27T16:14:25Z
-- **URL**: https://arxiv.org/abs/2605.28682v1
-- **Matches our conjecture** `6b3fd4e89d8d`: "Algebraic Topology of Tensor Bundles Bounds Quantum Query Complexity"
-- **Abstract excerpt**: For any acyclic quiver $Q$ without multiple edges, we construct a monoidal category $\mathcal{R}_Q$ whose indecomposable objects are tensor products (over the base field) of finite-dimensional modules over the path algebra of $Q$. We show the existence and uniqueness up to homotopy of certain distin…
-
-### `2605.28537v1` (sim=0.726)
-- **Paper**: Vertex-critical $(P_5,\text{chair})$-free and $(P_5,\text{cricket})$-free graphs
+### `2605.30092v1` (sim=0.749)
+- **Paper**: Short proofs of three combinatorial results in the Johnson scheme
 - **Category**: math.CO
-- **Submitted**: 2026-05-27T14:32:10Z
-- **URL**: https://arxiv.org/abs/2605.28537v1
-- **Matches our conjecture** `4f6b79e26549`: "Minimal Rank of Algebraic Hodge Classes Bounds Geometric Complexity Theory Width"
-- **Abstract excerpt**: For graphs $G, F_1$ and $F_2$, we say that $G$ is $(F_1,F_2)$-free if neither $F_1$ nor $F_2$ is an induced subgraph of $G$. We say that $G$ is $k$-vertex-critical if the chromatic number of $G$ is $k$, but every proper induced subgraph of $G$ has chromatic number at most $k-1$. The $\textit{chair}$…
+- **Submitted**: 2026-05-28T15:37:54Z
+- **URL**: https://arxiv.org/abs/2605.30092v1
+- **Matches our conjecture** `9f9b0630ec72`: "Algebraic Topology Dimension Bound for Resolution Proof Length"
+- **Abstract excerpt**: In this note, we give short proofs of three theorems concerning extremal problems in the Johnson scheme, or, in other terminology, on $(n,k,L)$-systems.   The main result is a proof of the Aljohani--Bamberg--Cameron conjecture which claims that if $n > n_0(k)$ and there are an $(n,k,L)$-system and a…
+
+### `2605.30048v1` (sim=0.728)
+- **Paper**: Linear and matrix generalizations of some combinatorial min-max theorems
+- **Category**: math.RA
+- **Submitted**: 2026-05-28T15:00:06Z
+- **URL**: https://arxiv.org/abs/2605.30048v1
+- **Matches our conjecture** `1b2b197d7d32`: "Minimal Rank of Coxeter Matrix Associated to Graph Automorphism Group Bound by Resolution Proof Length"
+- **Abstract excerpt**: We review known linear and matrix generalizations of Hall's classic ``marriage theorem'' and Kőnig's theorem on partial matchings in bipartite graphs, and relate them to linear and matrix generalizations of Dilworth's theorem about chains and antichains in posets and Menger's theorem about disjoint …
+
+### `2605.29680v1` (sim=0.741)
+- **Paper**: Sumsets of random sets
+- **Category**: math.CO
+- **Submitted**: 2026-05-28T09:41:52Z
+- **URL**: https://arxiv.org/abs/2605.29680v1
+- **Matches our conjecture** `697b15d893cd`: "Riemann Hypothesis for Random Fields Bound DPLL Tree Depth"
+- **Abstract excerpt**: Given $m \in \mathbb{N}$ and a $p$-random subset $A \subseteq \mathbb{N}$, we asymptotically determine $\log \Pr(|\mathbb{N} \setminus (A + A)| \ge m)$ for $p$ above the threshold for this property. The proof is based on a bespoke container argument.…
+
+### `2605.29658v1` (sim=0.737)
+- **Paper**: A Computational Study of Limited Augmented Zarankiewicz Numbers in the Incidence-Graph Family of Complete Graphs
+- **Category**: math.CO
+- **Submitted**: 2026-05-28T09:21:03Z
+- **URL**: https://arxiv.org/abs/2605.29658v1
+- **Matches our conjecture** `1ca68fc3f18f`: "Minimal Polynomial Degree of Planar Graphs and DPLL Search Tree Height"
+- **Abstract excerpt**: Let $G_1$ denote the incidence graph of the complete graph $K_{q+1}$. We study limited augmented Zarankiewicz numbers in this family by combining exact 0--1 ILP computations for the smallest cases with a constructive search procedure followed by exact admissibility verification in the larger cases c…
 
 ## Top 10 most-overlapping new papers (no threshold)
 
 Useful for compass / next-direction suggestions:
 
-- `2605.28681v1` (hep-th, sim=0.783): Krylov complexity has it all
-    matched conj `950e4f02f66d`: Minimal Rank of Modular Forms Bounds Circuit Complexity for Quantum Algorithms
-- `2605.28784v1` (math.AG, sim=0.774): Complex abelian varieties and quantum error correction: a mathematical framework for GKP codes
-    matched conj `0d739d960283`: Minimal Rank of Tropicalized Lie Group Actions Bounds Quantum Circuit Size
-- `2605.28674v1` (math.OC, sim=0.773): Disjunctive Sum of Squares
-    matched conj `bdccddeb6c38`: Minimal Rank of Macdonald Polynomials Bounds Exponential Time Hypothesis for Sat
-- `2605.28195v1` (math.CO, sim=0.757): Counterexamples to Stanley's conjecture on dimer coverings
-    matched conj `132e828a9ebd`: Minimal Rank of Group Representations Bounds Resolution Proof Width
-- `2605.28781v1` (math.NT, sim=0.753): The sum-product conjecture is false for real numbers
-    matched conj `5adbb526b84d`: Algebraic K-Theory Rank Bounds for Resolution Proof Width
-- `2605.26865v2` (math.AC, sim=0.752): A palindromicity criterion for the $h$-polynomials of bipartite edge rings
-    matched conj `3e215381ba21`: Minimal Rank of Noncrossed Products Bounds BP Read-Twice Width
-- `2605.27998v1` (cs.DS, sim=0.747): Efficient Algorithms for Interdicting Facilities in Trees and Bounded Treewidth Graphs
-    matched conj `3d3a15569524`: Minimal Rank of Noncrossing Partitions Bounds Resolution Proof Length for Tseiti
-- `2605.28602v1` (cs.AI, sim=0.747): Satisfiability Solving with LLMs: A Matched-Pair Evaluation of Reasoning Capability
-    matched conj `6866d4357334`: Minimal Rank of Hodge Structures Bounds SAT Refutation Tree Width
-- `2605.28485v1` (hep-th, sim=0.745): Hilbert Space and Defect Hilbert Spaces Associated with Categorical Symmetries
-    matched conj `6b3fd4e89d8d`: Algebraic Topology of Tensor Bundles Bounds Quantum Query Complexity
-- `2605.28299v1` (math.LO, sim=0.744): Classification Theory and the Construction of PAC Fields
-    matched conj `6eff16b5c23d`: Minimal Generators of Brauer Groups Bound DPLL Tree Depth
+- `2605.30053v1` (cs.DS, sim=0.801): A Radius-Sensitive Approximation Algorithm for Connected Submodular Maximization
+    matched conj `ca0977740d54`: Minimal Spanning Tree Diameter Bounds Monotone Circuit Size for k-CLIQUE
+- `2605.29246v1` (math.LO, sim=0.764): The Q-Calculus: A Quaternion-Based Laws of Form System
+    matched conj `eb9c85dcae82`: Minimal Order of Quaternion Algebras Bounds Resolution Proof Length
+- `2605.29176v1` (math.CO, sim=0.764): Tightness of a MaxCut Lower Bound via Vector Chromatic Number
+    matched conj `3f2150244a9c`: Minimal Tensor Rank of Graph Laplacians Bounds Resolution Proof Length
+- `2605.29080v1` (math.CO, sim=0.762): A stability theorem for embedding bounded degree spanning trees
+    matched conj `1ca68fc3f18f`: Minimal Polynomial Degree of Planar Graphs and DPLL Search Tree Height
+- `2605.29204v1` (math.CO, sim=0.76): Comparative monotonicity of linear codes by Hermitian and symplectic hull dimensions
+    matched conj `66af9a73b2dc`: Coxeter Matrix Entanglement Bounds Monotone Circuit Size
+- `2605.29457v1` (math.CO, sim=0.758): Diameter Thresholds of Random Cayley Graphs
+    matched conj `4733b7e2ccbe`: Minimal Spanning Tree Diameter and Monomial Ideal Complexity
+- `2605.29944v1` (quant-ph, sim=0.757): Quadratic Sums-of-Powers for Fixed-Parameter Tractable Quantum-Circuit Simulation
+    matched conj `2176d7f5488d`: Quantum State Entanglement Complexity Bound for DPLL Tree Height
+- `2605.30113v1` (math.ST, sim=0.752): Low-degree estimation thresholds in planted hypergraphs and tensor PCA
+    matched conj `3f2150244a9c`: Minimal Tensor Rank of Graph Laplacians Bounds Resolution Proof Length
+- `2605.28518v2` (math.CO, sim=0.75): Counterexamples to Clique Immersion Conjecture for Direct Products
+    matched conj `f38c863e071f`: Coxeter-Dynkin Diagram Symmetry Measures Davis-Putnam Resolution Proof Complexit
+- `2605.30092v1` (math.CO, sim=0.749): Short proofs of three combinatorial results in the Johnson scheme
+    matched conj `9f9b0630ec72`: Algebraic Topology Dimension Bound for Resolution Proof Length
 
 ## Recommendations
-- ⚠ Read the 26 flagged papers; consider mutating affected conjectures away from the overlap.
-  - [2605.28674v1](https://arxiv.org/abs/2605.28674v1) vs our `bdccddeb6c38`
-  - [2605.28138v1](https://arxiv.org/abs/2605.28138v1) vs our `66e8a070f7bc`
-  - [2605.27998v1](https://arxiv.org/abs/2605.27998v1) vs our `3d3a15569524`
-- Closest non-scoop overlap: `2605.28681v1` (sim=0.783) — may be a useful reference if you publish.
+- ⚠ Read the 33 flagged papers; consider mutating affected conjectures away from the overlap.
+  - [2605.30113v1](https://arxiv.org/abs/2605.30113v1) vs our `3f2150244a9c`
+  - [2605.29537v1](https://arxiv.org/abs/2605.29537v1) vs our `79a2459f4b63`
+  - [2605.30053v1](https://arxiv.org/abs/2605.30053v1) vs our `ca0977740d54`
+- Closest non-scoop overlap: `2605.30053v1` (sim=0.801) — may be a useful reference if you publish.
 
 ---
 

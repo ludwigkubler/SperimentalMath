@@ -1,0 +1,40 @@
+{
+  "entry_id": "7ddc922145c6",
+  "ts": 1780115078.5585837,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2211.02710",
+      "title": "Moduli spaces and algebraic cycles in real algebraic geometry",
+      "abstract_excerpt": "This thesis intends to make a contribution to the theories of algebraic cycles and moduli spaces over the real numbers. In the study of the subvarieties of a projective algebraic variety, smooth over the field of real numbers, the cycle class map between the Chow ring and the equivariant cohomology ring plays an important role. The image of the cycle class map remains difficult to describe in general; we study this group in detail in the case of real abelian varieties. To do so, we construct int",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns algebraic cycles, moduli spaces of real abelian varieties, and identifying the moduli of stable real binary quintics with a 'non-arithmetic ball quotient' — it makes no claim about Davis-Putnam refutation complexity or k-CNF, so it shares only the 'non-arithmetic' vocabulary without interacting with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1710.04463",
+      "title": "A new non-arithmetic lattice in PU(3,1)",
+      "abstract_excerpt": "We study the arithmeticity of the Couwenberg-Heckman-Looijenga lattices in PU(n,1), and show that they contain a non-arithmetic lattice in PU(3,1) which is not commensurable to the non-arithmetic Deligne-Mostow lattice in PU(3,1).",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the arithmeticity of Couwenberg-Heckman-Looijenga lattices in PU(3,1) and constructs a new non-arithmetic lattice, with no mention of k-CNF, Davis-Putnam refutation, or any connection to Boolean complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1605.03846",
+      "title": "Non-arithmetic lattices and the Klein quartic",
+      "abstract_excerpt": "We give an algebro-geometric construction of some of the non-arithmetic ball quotients constructed by the author, Parker and Paupert. The new construction reveals a relationship between the corresponding orbifold fundamental groups and the automorphism group of the Klein quartic, and also with groups constructed by Barthel-Hirzebruch-Höfer and Couwenberg-Heckman-Looijenga.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes an 'algebro-geometric construction of non-arithmetic ball quotients' relating to the Klein quartic and orbifold fundamental groups, with no mention of k-CNF, Davis-Putnam refutation, or any complexity-theoretic bound. It shares only the 'non-arithmetic' vocabulary but does not interact with Boolean function complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

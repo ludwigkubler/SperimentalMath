@@ -1,0 +1,40 @@
+{
+  "entry_id": "f4d3a6b651ec",
+  "ts": 1780114609.81471,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1609.01155",
+      "title": "The Transform of a line of Desargues Affine Plane in an additive Group of its Points",
+      "abstract_excerpt": "In this paper we present a set transformation of points in a line of the Desargues affine plane in a additive group. For this, the first stop on the meaning of the Desargues affine plane, formulating first axiom of his that show proposition D1. Afterwards we show that little Pappus theorem, which we use in the construction of group proofs in additions of points on a line on desargues plane, also applies in the Desargues affine plane.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a set transformation of points on a line of the Desargues affine plane into an additive group, using the little Pappus theorem—it has no connection to L^p distances, Boolean functions, or resolution proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2106.15501",
+      "title": "Ramblings on the freeness of affine hypersurfaces",
+      "abstract_excerpt": "In this note we look at the freeness for complex affine hypersurfaces. If $X \\subset \\mathbb{C}^n$ is such a hypersurface, and $D$ denotes the associated projective hypersurface, obtained by taking the closure of $X$ in $\\mathbb{P}^n$, then we relate first the Jacobian syzygies of $D$ and those of $X$. Then we introduce two types of freeness for an affine hypersurface $X$, and prove various relations between them and the freeness of the projective hypersurface $D$. We write down a proof of the f",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses freeness of affine hypersurfaces, Jacobian syzygies, and Tjurina numbers — it never mentions L^p distances, Boolean functions, or resolution proof width. The shared phrase 'affine plane curves' is purely vocabulary overlap with no interaction with the conjecture's claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/dg-ga/9708009v1",
+      "title": "Tree-like curves and their inflection points",
+      "abstract_excerpt": "We give a criterion when a planar tree-like curve, i.e. a generic immersed plane curve each double point of which cuts it into two disjoint parts, can be send by a diffeomorphism of the plane onto a curve with no inflection points. We also present some upper and lower bounds for the minimal number o",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'planar tree-like curves' in differential geometry (generic immersed curves with double points) and their inflection points under diffeomorphisms, which shares only the word 'tree-like' with the conjecture and does not address resolution proof width, Boolean functions, or L^p distances to hyperplanes.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

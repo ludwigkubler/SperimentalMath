@@ -1,0 +1,40 @@
+{
+  "entry_id": "4178ef46c68d",
+  "ts": 1780114894.6173363,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0610043v5",
+      "title": "Lecture Notes on Noncommutative Algebraic Geometry and Noncommutative Tori",
+      "abstract_excerpt": "The first part of these notes gives an introduction to noncommutative projective geometry after Artin--Zhang. The second part provides an overview of the work of Polishchuk that reconciles noncommutative two-tori having real multiplication with the Artin--Zhang setting.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes 'noncommutative projective geometry' and 'noncommutative two-tori having real multiplication' — pure algebraic geometry with no mention of resolution proof complexity, width bounds, or any proof-complexity notion.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1605.06944",
+      "title": "Computing minimal free resolutions of right modules over noncommutative algebras",
+      "abstract_excerpt": "In this paper we propose a general method for computing a minimal free right resolution of a finitely presented graded right module over a finitely presented graded noncommutative algebra. In particular, if such module is the base field of the algebra then one obtains its graded homology. The approach is based on the possibility to obtain the resolution via the computation of syzygies for modules over commutative algebras. The method behaves algorithmically if one bounds the degree of the requir",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns algorithms for computing minimal free resolutions of modules over noncommutative algebras and degree bounds for Betti numbers, with no mention of resolution proof complexity, proof width, or any logical/SAT proof system. It shares the word 'resolution' but in the homological-algebra sense, not the proof-complexity sense of the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0810.4836",
+      "title": "Simplicial complexes and minimal free resolution of monomial algebras",
+      "abstract_excerpt": "This paper is concerned with the combinatorial description of the graded minimal free resolution of certain monomial algebras which includes toric rings. Concretely, we explicitly describe how the graded minimal free resolution of those algebras is related to the combinatorics of some simplicial complexes. Our description may be interpreted as an algorithmic procedure to partially compute this resolution.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns combinatorial descriptions of graded minimal free resolutions of monomial/toric algebras via simplicial complexes, with no mention of noncommutative algebras, 'minimal generality', or resolution proof complexity width bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
