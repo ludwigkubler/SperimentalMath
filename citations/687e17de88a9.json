@@ -1,0 +1,40 @@
+{
+  "entry_id": "687e17de88a9",
+  "ts": 1780102873.5007532,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/1612.04764v1",
+      "title": "Cohomological aspects on complex and symplectic manifolds",
+      "abstract_excerpt": "We discuss how quantitative cohomological informations could provide qualitative properties on complex and symplectic manifolds. In particular we focus on the Bott-Chern and the Aeppli cohomology groups in both cases, since they represent useful tools in studying non Kähler geometry. We give an over",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Bott-Chern and Aeppli cohomology on complex/symplectic manifolds for non-Kähler geometry, with no mention of CNF formulas, resolution proofs, or symplectic form rank bounds related to proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1811.09984v4",
+      "title": "Translated points for contactomorphisms of prequantization spaces over monotone symplectic toric manifolds",
+      "abstract_excerpt": "We prove a version of Sandon's conjecture on the number of translated points of contactomorphisms for the case of prequantization bundles over certain closed monotone symplectic toric manifolds. Namely we show that any contactomorphism of such a prequantization bundle lying in the identity component",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Sandon's conjecture on translated points of contactomorphisms over prequantization bundles—a purely symplectic/contact geometry result with no mention of CNF formulas, resolution proofs, or symplectic rank bounds tied to Boolean complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1002.3099v3",
+      "title": "Tamed Symplectic forms and SKT metrics",
+      "abstract_excerpt": "Symplectic forms taming complex structures on compact manifolds are strictly related to Hermitian metrics having the fundamental form $\\partial \\bar \\partial $-closed, i.e. to strong Kähler with torsion (${\\rm SKT}$) metrics. It is still an open problem to exhibit a compact example of a complex mani",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses symplectic forms taming complex structures and SKT metrics on compact manifolds, with no mention of CNF formulas, resolution proofs, or proof complexity. It shares only the term 'symplectic' with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

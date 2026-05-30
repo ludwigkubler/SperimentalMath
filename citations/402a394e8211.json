@@ -1,0 +1,40 @@
+{
+  "entry_id": "402a394e8211",
+  "ts": 1780102108.8751295,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2511.08780",
+      "title": "Around a class version of the Hodge index theorem for singular varieties",
+      "abstract_excerpt": "We give an overview of recent developments around a characteristic class version of the Hodge index theorem for singular complex algebraic varieties. This was formulated by Brasselet-Schuermann-Yokura as a conjecture expressing the Goresky-MacPherson homology L-classes in terms of suitable Hodge-theoretic L-classes. Along the way, we clarify the relationship between several notions of L-classes appearing in the literature, but we also include many new cases for which the conjecture is true, e.g.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses a characteristic class version of the Hodge index theorem for singular complex algebraic varieties (L-classes, toric/Schubert varieties), which shares the 'Hodge index' vocabulary but has no connection to curves in characteristic p, k-CNF formulas, or resolution proof size.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1001.4788",
+      "title": "Positivity of heights of codimension 2 cycles over function field of characteristic 0",
+      "abstract_excerpt": "In this note, we show how the classical Hodge index theorem implies the Hodge index conjecture of Beilinson for height pairing of homologically trivial codimension two cycles over function field of characteristic 0. Such an index conjecture has been used in our paper on Gross-Schoen cycles to deduce the Bogomolov conjecture and a lower bound for Hodge class (or Faltings height) from some conjectures about metrized graphs which have just been recently proved by Zubeyir Cinkir.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the Hodge index conjecture of Beilinson for height pairings of codimension two cycles over function fields of characteristic 0, with no mention of characteristic p curves, k-CNFs, or resolution proof complexity. It shares only the 'Hodge index' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2601.07933",
+      "title": "p-Curvature and Non-Abelian Cohomology",
+      "abstract_excerpt": "Let $X\\to S$ be a smooth projective morphism. Katz proved the Grothendieck-Katz $p$-curvature conjecture for the Gauss-Manin connection on the $i$-th cohomology of $X/S$: if its $p$-curvature vanishes mod $p$ for infinitely many $p$, then the action of $π_1(S,s)$ on $H^i(X_s, \\mathbb{Z})$ factors through a finite group. We prove a non-abelian analogue of this statement: if the $p$-curvature of the isomonodromy foliation on the moduli of flat bundles of rank $r$ on $X/S$ vanishes mod $p$ for infi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns p-curvature, the Grothendieck-Katz conjecture, and a non-abelian Hodge index theorem for flat bundles—it makes no mention of k-CNF, resolution proof size, or any connection between curve invariants and Boolean complexity. Shared vocabulary (Hodge index, characteristic p) does not interact with the specific claim about bounding t*(F).",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
