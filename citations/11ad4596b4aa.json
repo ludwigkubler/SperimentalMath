@@ -1,0 +1,40 @@
+{
+  "entry_id": "11ad4596b4aa",
+  "ts": 1780145132.065175,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1609.06986",
+      "title": "More on Diophantine sextuples",
+      "abstract_excerpt": "A rational Diophantine m-tuple is a set of m nonzero rationals such that the product of any two of them increased by 1 is a perfect square. The first rational Diophantine quadruple was found by Diophantus, while Euler proved that there are infinitely many rational Diophantine quintuples. In 1999, Gibbs found the first example of a rational Diophantine sextuple, and Dujella, Kazalicki, Mikic and Szikszai recently proved that there exist infinitely many rational Diophantine sextuples.\n  In this pa",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns rational Diophantine m-tuples (sets where pairwise products plus one are perfect squares), which is unrelated to diophantine exponents, circuit complexity, or k-CNF formulas. It shares only the word 'Diophantine' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2406.18700",
+      "title": "Structure of sparse Boolean functions over Abelian groups, and its application to testing",
+      "abstract_excerpt": "We study Fourier-sparse Boolean functions over general finite Abelian groups. A Boolean function $f : G \\to \\{-1,+1\\}$ is $s$-sparse if it has at most $s$ non-zero Fourier coefficients. We introduce a general notion of granularity of Fourier coefficients and prove that every non-zero coefficient of an $s$-sparse Boolean function has magnitude at least \\begin{equation*} \\frac{1}{2^{\\varphi(Δ)/2} \\, s^{\\varphi(Δ)/2}}, \\end{equation*} where $Δ$ denotes the exponent of the group $G$ (that is, the ma",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Fourier-sparse Boolean functions over Abelian groups and sparsity testing algorithms, with no mention of random k-CNF formulas, circuit complexity, or Diophantine exponents. It shares only the broad 'Boolean functions' vocabulary without addressing the specific conjecture's claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2103.08351",
+      "title": "Initial nonrepetitive complexity of regular episturmian words and their Diophantine exponents",
+      "abstract_excerpt": "Regular episturmian words are episturmian words whose directive words have a regular and restricted form making them behave more like Sturmian words than general episturmian words. We present a method to evaluate the initial nonrepetitive complexity of regular episturmian words extending the work of Wojcik on Sturmian words. For this, we develop a theory of generalized Ostrowski numeration systems and show how to associate with each episturmian word a unique sequence of numbers written in this n",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Diophantine exponents of regular episturmian words and irrationality exponents of associated real numbers; it makes no mention of k-CNF formulas, circuit complexity, or Boolean function complexity, so it shares only the vocabulary 'Diophantine exponent' without interacting with the conjecture's claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
