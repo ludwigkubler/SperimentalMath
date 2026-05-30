@@ -1,0 +1,40 @@
+{
+  "entry_id": "4c299a6c5f86",
+  "ts": 1780122822.4152892,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/astro-ph/0208243v7",
+      "title": "Measurement of the Flux of Ultrahigh Energy Cosmic Rays from Monocular Observations by the High Resolution Fly's Eye Experiment",
+      "abstract_excerpt": "We have measured the cosmic ray spectrum above 10^17.2 eV using the two air fluorescence detectors of the High Resolution Fly's Eye observatory operating in monocular mode. We describe the detector, photo-tube and atmospheric calibrations, as well as the analysis techniques for the two detectors. We",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a cosmic ray flux measurement by an air fluorescence detector ('measured the cosmic ray spectrum above 10^17.2 eV'), which has no interaction with formal groups or resolution proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/astro-ph/0407622v3",
+      "title": "A Study of the Composition of Ultra High Energy Cosmic Rays Using the High Resolution Fly's Eye",
+      "abstract_excerpt": "The composition of Ultra High Energy Cosmic Rays (UHECR) is measured with the High Resolution Fly's Eye cosmic ray observatory (HiRes) data using the Xmax technique. Data were collected in stereo between 1999 November and 2001 September. The data are reconstructed with well-determined geometry. Meas",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes measurement of Ultra High Energy Cosmic Rays composition using the HiRes observatory, which has no connection to formal groups or resolution proof complexity despite the shared word 'resolution' (referring to detector resolution, not proof width).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1812.10481v4",
+      "title": "Commutators of Sylow subgroups of alternating and symmetric groups, commutator width in the wreath product of groups",
+      "abstract_excerpt": "This paper investigate bounds of the commutator width \\cite {Mur} of a wreath product of two groups.\n  The commutator width of direct limit of wreath product of cyclic groups are found.\n  For given a permutational wreath product sequence of cyclic groups we investigate its commutator width and some ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses commutator width in wreath products of cyclic groups, which shares no substantive connection with formal groups or resolution proof complexity (CNF width bounds). The vocabulary 'width' is the only overlap.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

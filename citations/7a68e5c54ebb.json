@@ -1,0 +1,40 @@
+{
+  "entry_id": "7a68e5c54ebb",
+  "ts": 1780121278.0489283,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/2312.05014v2",
+      "title": "On the complexity of meander-like diagrams of knots",
+      "abstract_excerpt": "It is known that each knot has a semimeander diagram (i. e. a diagram composed of two smooth simple arcs), however the number of crossings in such a diagram can only be roughly estimated. In the present paper we provide a new estimate of the complexity of the semimeander diagrams. We prove that for ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns estimates of crossing numbers in semimeander diagrams of knots, with no mention of geometric entropy, CNF formulas, or resolution proof width. It shares only the broad 'knot complexity' framework but does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/9811006v1",
+      "title": "Billiard knots in a cylinder",
+      "abstract_excerpt": "We define cylinder knots as billiard knots in a cylinder. We present a necessary condition for cylinder knots: after dividing cylinder knots by possible rotational symmetries we obtain ribbon knots. We obtain an upper bound for the number of cylinder knots with two fixed parameters (out of three). I",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns billiard knots in a cylinder, ribbon knots, and counting bounds — it makes no mention of geometric entropy, CNF formulas, or resolution proof width. It shares only the broad 'knot theory' framework with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0411115v2",
+      "title": "Knot theory of complex plane curves",
+      "abstract_excerpt": "The primary objects of study in the ``knot theory of complex plane curves'' are C-links: links (or knots) cut out of a 3-sphere in the complex plane by complex plane transverse and totally tangential. Transverse C-links are naturally oriented. There are many natural classes of examples: links of sin",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes C-links cut from complex plane curves in knot theory, with no mention of geometric entropy, CNF formulas, or resolution proof complexity. It shares only the broad 'knot theory' vocabulary but does not engage with the specific bound claimed.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

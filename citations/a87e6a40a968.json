@@ -1,0 +1,40 @@
+{
+  "entry_id": "a87e6a40a968",
+  "ts": 1780121815.2696297,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1004.4781",
+      "title": "Automorphism groups of positive entropy on minimal projective varieties",
+      "abstract_excerpt": "We determine the geometric structure of a minimal projective threefold having two `independent and commutative' automorphisms of positive topological entropy, and generalize this result to higher-dimensional smooth minimal pairs  (X, G). As a consequence, we give an effective lower bound for the first dynamical degree of these automorphisms of  X  fitting the `boundary case'.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'geometric structure of a minimal projective threefold' with automorphisms of positive topological entropy and dynamical degrees — it shares the vocabulary of 'minimal projective varieties' and 'entropy' but does not address Tseitin formulas, resolution proof width, or any bound relating geometric entropy to proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2403.13102",
+      "title": "Geometric methods in quantum information and entanglement variational principle",
+      "abstract_excerpt": "Geometrical methods in quantum information are very promising for both providing technical tools and intuition into difficult control or optimization problems. Moreover, they are of fundamental importance in connecting pure geometrical theories, like GR, to quantum mechanics, like in the AdS/CFT correspondence. In this paper, we first make a survey of the most important settings in which geometrical methods have proven useful to quantum information theory. Then, we lay down a general framework f",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses geometric methods in quantum information theory and an action principle for quantum resources like entanglement and coherence in a two-qubit system, with no mention of Tseitin formulas, projective varieties of Boolean formulas, or resolution proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0304388v2",
+      "title": "Entropy and collapsing of compact complex surfaces",
+      "abstract_excerpt": "We study the problem of existence of F-structures on compact complex surfaces, giving a complete classification modulo the gap in the classification of surfaces of class VII. We then use these results to study the minimal entropy problem for compact complex surfaces. For instance we prove that compa",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'minimal entropy problem for compact complex surfaces' and F-structures, sharing only the vocabulary 'minimal entropy' with the conjecture but having no connection to Tseitin formulas, projective varieties of CNF formulas, or resolution proof width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

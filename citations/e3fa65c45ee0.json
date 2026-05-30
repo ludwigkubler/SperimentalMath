@@ -1,0 +1,40 @@
+{
+  "entry_id": "e3fa65c45ee0",
+  "ts": 1780121637.2678204,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1004.2159",
+      "title": "Algebraic Proofs over Noncommutative Formulas",
+      "abstract_excerpt": "We study possible formulations of algebraic propositional proof systems operating with noncommutative formulas. We observe that a simple formulation gives rise to systems at least as strong as Frege---yielding a semantic way to define a Cook-Reckhow (i.e., polynomially verifiable) algebraic analog of Frege proofs, different from that given in [BIKPRS96,GH03]. We then turn to an apparently weaker system, namely, polynomial calculus (PC) where polynomials are written as ordered formulas (PC over o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns algebraic proof systems (noncommutative formulas, polynomial calculus) and mentions Tseitin formulas only as a target for polynomial-size refutations; it says nothing about Hodge theory, Hodge rank, or an associated algebraic variety of Tseitin formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1710.03219",
+      "title": "Stabbing Planes",
+      "abstract_excerpt": "We develop a new semi-algebraic proof system called Stabbing Planes which formalizes modern branch-and-cut algorithms for integer programming and is in the style of DPLL-based modern SAT solvers. As with DPLL there is only a single rule: the current polytope can be subdivided by branching on an inequality and its \"integer negation.\" That is, we can (nondeterministically choose) a hyperplane $ax \\geq b$ with integer coefficients, which partitions the polytope into three pieces: the points in the ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Tseitin formulas in the context of the Stabbing Planes proof system and communication complexity lower bounds, with no mention of Hodge theory, algebraic varieties, or Hodge rank as posited by the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1912.00347",
+      "title": "Equiresidual algebraic geometry I: The affine theory",
+      "abstract_excerpt": "In this first work dedicated to the generalisation of classic algebraic geometry to non algebraically closed fields and axiomatisable classes of fields, we develop the foundations for equiresidual algebraic geometry (EQAG), i.e. algebraic geometry over any commutative field $k$, algebraically closed or not. This is possible thanks to the existence in non algebraically closed fields of many normic forms, i.e. homogeneous polynomials with no non-trivial zero rational in $k$, and relies on an equir",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract develops 'equiresidual algebraic geometry' over non-algebraically-closed fields, with no mention of Hodge theory, Tseitin formulas, or rank bounds of the form Θ(n^(1/3)·m^(2/3)). It shares only the broad framework of algebraic geometry and does not interact with the specific conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
