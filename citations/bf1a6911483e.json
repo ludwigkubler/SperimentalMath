@@ -1,0 +1,22 @@
+{
+  "entry_id": "bf1a6911483e",
+  "ts": 1780162195.6569378,
+  "hits_evaluated": 1,
+  "verdicts": [
+    {
+      "paper_id": "s2:0274dc6ec661f3ee0ddf78e6ab4d7a6bbdfd7e21",
+      "title": "New High-Speed and Low-Power Radix-2 Multiplication Algorithms",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available to evaluate; the title concerns radix-2 multiplication algorithms, which appears unrelated to toric varieties or CNF circuit complexity, but without abstract content I cannot make a confident determination.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 1
+  }
+}

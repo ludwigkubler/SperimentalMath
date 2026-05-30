@@ -1,0 +1,31 @@
+{
+  "entry_id": "e945a38a700b",
+  "ts": 1780161821.4417706,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:ARXIV:2205.14424",
+      "title": "Topological aspects of Boolean functions",
+      "abstract_excerpt": "We discuss ways in which tools from topology can be used to derive lower bounds for the circuit complexity of Boolean functions.",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses topology for circuit complexity lower bounds, not communication complexity, and makes no mention of Čech complexes, Euler characteristics, or the Θ(C(n)) relationship claimed in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:9412c6e66560861b172a6c37c94e55f956b46be3",
+      "title": "Functional Inversion and Communication Complexity",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available ('no abstract available'), so I cannot determine whether the paper addresses Euler characteristics of Čech complexes in relation to deterministic communication complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}

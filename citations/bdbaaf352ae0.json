@@ -1,0 +1,40 @@
+{
+  "entry_id": "bdbaaf352ae0",
+  "ts": 1780160915.6407516,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/1812.00850v1",
+      "title": "Dyadic harmonic analysis and weighted inequalities: the sparse revolution",
+      "abstract_excerpt": "We will introduce the basics of dyadic harmonic analysis and how it can be used to obtain weighted estimates for classical Calderón-Zygmund singular integral operators and their commutators. Harmonic analysts have used dyadic models for many years as a first step towards the understanding of more co",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes dyadic harmonic analysis applied to 'weighted estimates for classical Calderón-Zygmund singular integral operators and their commutators,' with no mention of resolution proofs, proof depth, or entropy bounds. It shares only the 'dyadic harmonic analysis' vocabulary without interacting with the specific claim about resolution proof trees.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1604.02789v1",
+      "title": "An alternative proof of a sharp generalization of an integral inequality for the dyadic maximal operator and applications",
+      "abstract_excerpt": "We give an alternative proof of a sharp generalization of an integral inequality for the dyadic maximal operator due to which the evaluation of the Bellman function of this operator with respect to two variables, is possible. This last mentioned inequality, which was first noticed in [3],also genera",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns an integral inequality for the dyadic maximal operator and its Bellman function evaluation, with no mention of entropy, resolution proofs, proof depth, or clause/variable complexity. It shares only the 'dyadic' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/astro-ph/0208243v7",
+      "title": "Measurement of the Flux of Ultrahigh Energy Cosmic Rays from Monocular Observations by the High Resolution Fly's Eye Experiment",
+      "abstract_excerpt": "We have measured the cosmic ray spectrum above 10^17.2 eV using the two air fluorescence detectors of the High Resolution Fly's Eye observatory operating in monocular mode. We describe the detector, photo-tube and atmospheric calibrations, as well as the analysis techniques for the two detectors. We",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a cosmic ray flux measurement using the High Resolution Fly's Eye observatory, which shares no substantive connection with dyadic spectrum entropy or resolution proof depth despite the word 'Resolution' appearing in the detector's name.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
