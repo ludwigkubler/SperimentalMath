@@ -1,0 +1,40 @@
+{
+  "entry_id": "cdc3be155314",
+  "ts": 1780150786.3234198,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2103.09609",
+      "title": "Characterizing Tseitin-formulas with short regular resolution refutations",
+      "abstract_excerpt": "Tseitin-formulas are systems of parity constraints whose structure is described by a graph. These formulas have been studied extensively in proof complexity as hard instances in many proof systems. In this paper, we prove that a class of unsatisfiable Tseitin-formulas of bounded degree has regular resolution refutations of polynomial length if and only if the treewidth of all underlying graphs $G$ for that class is in $O(\\log|V(G)|)$. To do so, we show that any regular resolution refutation of a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract characterizes regular resolution refutation length via treewidth (2^Ω(tw(G))/|V(G)|), but says nothing about min-occurrence DP elimination or the Φ(π) cumulative-entropy measure on 3-regular Tseitin instances. It shares the Tseitin/proof-complexity framework but does not address the specific log-log exponent claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2411.03398",
+      "title": "DP-HLS: A High-Level Synthesis Framework for Accelerating Dynamic Programming Algorithms in Bioinformatics",
+      "abstract_excerpt": "Dynamic programming (DP) based algorithms are essential yet compute-intensive parts of numerous bioinformatics pipelines, which typically involve populating a 2-D scoring matrix based on a recursive formula, optionally followed by a traceback step to get the optimal alignment path. DP algorithms are used in a wide spectrum of bioinformatics tasks, including read assembly, homology search, gene annotation, basecalling, and phylogenetic inference. So far, specialized hardware like ASICs and FPGAs ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes 'DP-HLS,' a High-Level Synthesis framework for dynamic programming algorithms in bioinformatics, sharing only the acronym 'DP' with Davis-Putnam elimination; it has no connection to Tseitin formulas, resolution proof complexity, or Φ(π) scaling.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/astro-ph/0407622v3",
+      "title": "A Study of the Composition of Ultra High Energy Cosmic Rays Using the High Resolution Fly's Eye",
+      "abstract_excerpt": "The composition of Ultra High Energy Cosmic Rays (UHECR) is measured with the High Resolution Fly's Eye cosmic ray observatory (HiRes) data using the Xmax technique. Data were collected in stereo between 1999 November and 2001 September. The data are reconstructed with well-determined geometry. Meas",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns ultra-high-energy cosmic ray composition measured by the HiRes observatory using the Xmax technique, which has no connection to resolution proof complexity, DP elimination, or Tseitin formulas.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

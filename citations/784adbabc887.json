@@ -1,0 +1,31 @@
+{
+  "entry_id": "784adbabc887",
+  "ts": 1780149062.7037127,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:197a93387c36142847b026fb0034c1b509cd72d2",
+      "title": "An improved version of width restricted resolution",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available for the cited paper, so I cannot determine whether it supports, refutes, or is orthogonal to the width-aware cumulative weight conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10.4230/LIPIcs.MFCS.2019.49",
+      "title": "Bounded-depth Frege complexity of Tseitin formulas for all graphs",
+      "abstract_excerpt": "We prove that there is a constant K such that Tseitin formulas for an undirected graph G requires proofs of size 2twpGq Ωp1{dq in depth-d Frege systems for d ă K logn log logn , where twpGq is the treewidth of G. This extends H̊astad recent lower bound for the grid graph to any graph. Furthermore, we prove tightness of our bound up to a multiplicative constant in the top exponent. Namely, we show that if a Tseitin formula for a graph G has size s, then for all large enough d, it has a depth-d Fr",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses bounded-depth Frege proof size lower/upper bounds in terms of treewidth (2^{tw(G)^Ω(1/d)}), not the comparison of cumulative literal-weight vs count-based Φ exponents in resolution dynamics that the conjecture concerns.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}

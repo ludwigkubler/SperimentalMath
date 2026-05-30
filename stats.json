@@ -1,11 +1,11 @@
 {
-  "last_update_utc": "2026-05-30T13:47:05Z",
-  "total_cycles": 3831,
+  "last_update_utc": "2026-05-30T14:47:05Z",
+  "total_cycles": 3852,
   "verdict_counts": {
-    "INCONCLUSIVE": 2534,
+    "INCONCLUSIVE": 2553,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 1191,
+    "BARRIER_HIT": 1193,
     "SCOOPED": 86
   },
   "unique_field_A": 1796,
@@ -47,6 +47,10 @@
       36
     ],
     [
+      "Resolution proof complexity",
+      34
+    ],
+    [
       "Free Probability",
       28
     ],
@@ -64,10 +68,6 @@
     ],
     [
       "Noncommutative Geometry",
-      23
-    ],
-    [
-      "Geometric Langlands Program",
       23
     ]
   ]

@@ -1,0 +1,31 @@
+{
+  "entry_id": "8ac172502e08",
+  "ts": 1780150325.2149534,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:2104.02563",
+      "title": "Proof Complexity of Symbolic QBF Reasoning",
+      "abstract_excerpt": "We introduce and investigate symbolic proof systems for Quantified Boolean Formulas (QBF) operating on Ordered Binary Decision Diagrams (OBDDs). These systems capture QBF solvers that perform symbolic quantifier elimination, and as such admit short proofs of formulas of bounded path-width and quanti",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses OBDD-based symbolic QBF proof systems and path-width, with no mention of cumulative entropy Φ, elimination-order sensitivity, or max-vs-min occurrence orderings for Tseitin formulas. It shares the general theme of variable ordering but does not address the specific quantitative claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10.4230/LIPIcs.ITCS.2017.38",
+      "title": "Cumulative Space in Black-White Pebbling and Resolution",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available, so I cannot assess whether the paper addresses order-sensitivity of cumulative entropy/space under elimination orders for Tseitin formulas.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}

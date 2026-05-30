@@ -1,0 +1,40 @@
+{
+  "entry_id": "1879604b5a38",
+  "ts": 1780150621.028283,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2209.05839",
+      "title": "On bounded depth proofs for Tseitin formulas on the grid; revisited",
+      "abstract_excerpt": "We study Frege proofs using depth-$d$ Boolean formulas for the Tseitin contradiction on $n \\times n$ grids. We prove that if each line in the proof is of size $M$ then the number of lines is exponential in $n/(\\log M)^{O(d)}$. This strengthens a recent result of Pitassi et al. [PRT22]. The key technical step is a multi-switching lemma extending the switching lemma of Håstad [Hås20] for a space of restrictions related to the Tseitin contradiction. The strengthened lemma also allows us to improve ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses bounded-depth Frege proof size lower bounds via switching lemmas for Tseitin on grids, with no mention of DP (Davis-Putnam) steps, a potential function Φ, or per-step active weight monotonicity. It shares the Tseitin vocabulary but does not interact with the specific 'shadow heavier than the body' claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1606.05050",
+      "title": "Proof Complexity Lower Bounds from Algebraic Circuit Complexity",
+      "abstract_excerpt": "We give upper and lower bounds on the power of subsystems of the Ideal Proof System (IPS), the algebraic proof system recently proposed by Grochow and Pitassi, where the circuits comprising the proof come from various restricted algebraic circuit classes. This mimics an established research direction in the boolean setting for subsystems of Extended Frege proofs, where proof-lines are circuits from restricted boolean circuit classes. Except one, all of the subsystems considered in this paper can",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns algebraic proof systems (IPS subsystems) and lower bounds via algebraic circuit complexity, with no mention of DP steps, Tseitin formulas, or a per-step Φ/proof_size monotonicity measure relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1110.6876",
+      "title": "Lower bounds for topological complexity",
+      "abstract_excerpt": "We introduce fibrewise Whitehead- and fibrewise Ganea definitions of monoidal topological complexity. We then define several lower bounds for the topological complexity, which improve on the standard lower bound in terms of nilpotency of the cohomology ring. The relationships between these lower bounds are studied.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'fibrewise Whitehead- and fibrewise Ganea definitions of monoidal topological complexity' and cohomology ring nilpotency — an algebraic topology context with no interaction with DP/resolution proof size or Tseitin formulas.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

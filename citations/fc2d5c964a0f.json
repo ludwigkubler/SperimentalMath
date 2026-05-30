@@ -1,0 +1,40 @@
+{
+  "entry_id": "fc2d5c964a0f",
+  "ts": 1780151594.3294306,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2103.09609",
+      "title": "Characterizing Tseitin-formulas with short regular resolution refutations",
+      "abstract_excerpt": "Tseitin-formulas are systems of parity constraints whose structure is described by a graph. These formulas have been studied extensively in proof complexity as hard instances in many proof systems. In this paper, we prove that a class of unsatisfiable Tseitin-formulas of bounded degree has regular resolution refutations of polynomial length if and only if the treewidth of all underlying graphs $G$ for that class is in $O(\\log|V(G)|)$. To do so, we show that any regular resolution refutation of a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract characterizes regular resolution refutation *length* of Tseitin formulas via treewidth (2^Ω(tw(G))), not the cumulative-entropy measure Φ(π) nor a separation specifically by graph expansion. While related in spirit (graph-parameter-based separations on Tseitin), it does not address the specific Φ(π) quantity in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/gr-qc/0003089v1",
+      "title": "A Spacetime Foam Approach to the Schwarzschild-de Sitter Entropy",
+      "abstract_excerpt": "The entropy for a black hole in a de Sitter space is approached within the framework of spacetime foam. A simple model, made by $N$ wormholes in a semiclassical approximation, is taken under examination to compute the entropy for such a case. An extension to the extreme case when the black hole and ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper concerns black hole entropy in de Sitter space via spacetime foam (general relativity), entirely unrelated to resolution proof complexity or Tseitin formulas on expander graphs.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1612.05917",
+      "title": "Linear Quantum Entropy and Non-Hermitian Hamiltonians",
+      "abstract_excerpt": "We consider the description of open quantum systems with probability sinks (or sources) in terms of general non-Hermitian Hamiltonians.~Within such a framework, we study novel possible definitions of the quantum linear entropy as an indicator of the flow of information during the dynamics. Such linear entropy functionals are necessary in the case of a partially Wigner-transformed non-Hermitian Hamiltonian (which is typically useful within a mixed quantum-classical representation). Both the case ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'quantum linear entropy' and 'non-Hermitian Hamiltonians' in open quantum systems, which shares only the word 'entropy' with the conjecture about resolution proof complexity on Tseitin formulas — there is no interaction with proof complexity, expanders, or Tseitin tautologies.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
