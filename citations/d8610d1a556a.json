@@ -1,0 +1,40 @@
+{
+  "entry_id": "d8610d1a556a",
+  "ts": 1780166817.6698775,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1309.7265",
+      "title": "Computing individual Kazhdan-Lusztig basis elements",
+      "abstract_excerpt": "In well-known work, Kazhdan and Lusztig (1979) defined a new set of Hecke algebra basis elements (actually two such sets) associated to elements in any Coxeter group. Often these basis elements are computed by a standard recursive algorithm which, for Coxeter group elements of long length, generally involves computing most basis elements corresponding to Coxeter group elements of smaller length. Thus, many calculations simply compute all basis elements associated to a given length or less, even ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns an algorithm for computing individual Kazhdan-Lusztig basis elements in Hecke algebras of Coxeter groups, with no mention of Tseitin tensor products, 3-CNF formulas, or enumeration complexity bounds like O(n^2 log n). It shares the Coxeter group vocabulary but does not interact with the specific complexity claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0710.0173",
+      "title": "Eriksson's numbers game and finite Coxeter groups",
+      "abstract_excerpt": "The numbers game is a one-player game played on a finite simple graph with certain ``amplitudes'' assigned to its edges and with an initial assignment of real numbers to its nodes. The moves of the game successively transform the numbers at the nodes using the amplitudes in a certain way. This game and its interactions with Coxeter/Weyl group theory and Lie theory have been studied by many authors. In particular, Eriksson connects certain geometric representations of Coxeter groups with games on",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Eriksson's numbers game, reduced decompositions, and Dynkin diagram classifications for finite Coxeter groups—it does not address Tseitin tensor products, 3-CNF formulas, or any O(n^2 log n) enumeration complexity bound. It shares only the general 'Coxeter group' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1510.05636",
+      "title": "From the weak Bruhat order to crystal posets",
+      "abstract_excerpt": "We investigate the ways in which fundamental properties of the weak Bruhat order on a Weyl group can be lifted (or not) to a corresponding highest weight crystal graph, viewed as a partially ordered set; the latter projects to the weak order via the key map. First, a crystal theoretic analogue of the statement that any two reduced expressions for the same Coxeter group element are related by Coxeter moves is proven for all lower intervals in a simply or doubly laced crystal. On the other hand, i",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the weak Bruhat order, crystal posets, Möbius functions, and the key map in Coxeter/Weyl group theory — it never mentions Tseitin formulas, 3-CNF, tensor products, or enumeration complexity bounds like O(n^2 log n). It shares only the 'Coxeter group' vocabulary with the conjecture but does not address the specific complexity claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

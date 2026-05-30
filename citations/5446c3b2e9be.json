@@ -1,0 +1,40 @@
+{
+  "entry_id": "5446c3b2e9be",
+  "ts": 1780164414.7640202,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1112.4523",
+      "title": "Complexity and Algorithms for Euler Characteristic of Simplicial Complexes",
+      "abstract_excerpt": "We consider the problem of computing the Euler characteristic of an abstract simplicial complex given by its vertices and facets. We show that this problem is #P-complete and present two new practical algorithms for computing Euler characteristic. The two new algorithms are derived using combinatorial commutative algebra and we also give a second description of them that requires no algebra. We present experiments showing that the two new algorithms can be implemented to be faster than previous ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the computational complexity (#P-completeness) and algorithms for computing Euler characteristic of simplicial complexes, with no mention of resolution proof trees, CNF formulas, or width bounds. It shares only the 'Euler characteristic of simplicial complex' vocabulary without engaging the specific conjectured inequality.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1808.00038",
+      "title": "Formal Barycenter Spaces with Weights: The Euler Characteristic",
+      "abstract_excerpt": "We compute the Euler characteristic with compact supports $χ_c$ of the formal barycenter spaces with weights of a finite CW complex, connected or not. This reduces to the topological Euler characteristic $χ$ when the weights of the singular points are less than one. As foresighted by A. Malchiodi, our formula is related to the Leray-Schauder degree for mean field equations on a compact Riemann surface obtained by C.C. Chen and C.S. Lin.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the Euler characteristic of 'formal barycenter spaces with weights of a finite CW complex' and its relation to the Leray-Schauder degree for mean field equations — it makes no mention of resolution proof trees, CNF formulas, or proof width, so it does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1711.09527",
+      "title": "One can hear the Euler characteristic of a simplicial complex",
+      "abstract_excerpt": "We prove that that the number p of positive eigenvalues of the connection Laplacian L of a finite abstract simplicial complex G matches the number b of even dimensional simplices in G and that the number n of negative eigenvalues matches the number f of odd-dimensional simplices in G. The Euler characteristic X(G) of G therefore can be spectrally described as X(G)=p-n. This is in contrast to the more classical Hodge Laplacian H which acts on the same Hilbert space, where X(G) is not yet known to",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses spectral characterization of Euler characteristic via the connection Laplacian of abstract simplicial complexes ('X(G)=p-n'), with no mention of resolution proof trees, CNF formulas, or proof width. It shares the vocabulary of Euler characteristic and simplicial complexes but does not address any lower bound relating χ to proof width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

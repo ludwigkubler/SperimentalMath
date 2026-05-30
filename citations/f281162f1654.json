@@ -1,0 +1,40 @@
+{
+  "entry_id": "f281162f1654",
+  "ts": 1780166093.3770194,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/astro-ph/0407622v3",
+      "title": "A Study of the Composition of Ultra High Energy Cosmic Rays Using the High Resolution Fly's Eye",
+      "abstract_excerpt": "The composition of Ultra High Energy Cosmic Rays (UHECR) is measured with the High Resolution Fly's Eye cosmic ray observatory (HiRes) data using the Xmax technique. Data were collected in stereo between 1999 November and 2001 September. The data are reconstructed with well-determined geometry. Meas",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns measuring the composition of Ultra High Energy Cosmic Rays using the HiRes observatory, which has no relation to noncommutative geometry, Boolean functions, or resolution proof length.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2603.03026",
+      "title": "Any Resolution Any Geometry: From Multi-View To Multi-Patch",
+      "abstract_excerpt": "Joint estimation of surface normals and depth is essential for holistic 3D scene understanding, yet high-resolution prediction remains difficult due to the trade-off between preserving fine local detail and maintaining global consistency. To address this challenge, we propose the Ultra Resolution Geometry Transformer (URGT), which adapts the Visual Geometry Grounded Transformer (VGGT) into a unified multi-patch transformer for monocular high-resolution depth--normal estimation. A single high-res",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a computer vision transformer for monocular depth and normal estimation ('Ultra Resolution Geometry Transformer (URGT)'), which shares only the word 'geometry' with the conjecture and has no bearing on noncommutative geometry or resolution proof length in CNF formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0205005v2",
+      "title": "The rings of noncommutative projective geometry",
+      "abstract_excerpt": "In the past 15 years a study of ``noncommutative projective geometry'' has flourished. By using and generalizing techniques of commutative projective geometry, one can study certain noncommutative graded rings and obtain results for which no purely algebraic proof is known. For instance, noncommutat",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses noncommutative projective geometry of graded rings, with no mention of Boolean functions, CNF formulas, or resolution proof complexity. It shares only the broad 'noncommutative' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

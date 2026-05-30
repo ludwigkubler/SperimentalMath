@@ -1,0 +1,40 @@
+{
+  "entry_id": "3f03d410dd20",
+  "ts": 1780165258.3886533,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0205005v2",
+      "title": "The rings of noncommutative projective geometry",
+      "abstract_excerpt": "In the past 15 years a study of ``noncommutative projective geometry'' has flourished. By using and generalizing techniques of commutative projective geometry, one can study certain noncommutative graded rings and obtain results for which no purely algebraic proof is known. For instance, noncommutat",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses noncommutative projective geometry and graded rings, with no mention of Kähler manifolds, moduli spaces of complex structures, resolution proofs, or CNF formulas—it shares no specific claim with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2603.03026",
+      "title": "Any Resolution Any Geometry: From Multi-View To Multi-Patch",
+      "abstract_excerpt": "Joint estimation of surface normals and depth is essential for holistic 3D scene understanding, yet high-resolution prediction remains difficult due to the trade-off between preserving fine local detail and maintaining global consistency. To address this challenge, we propose the Ultra Resolution Geometry Transformer (URGT), which adapts the Visual Geometry Grounded Transformer (VGGT) into a unified multi-patch transformer for monocular high-resolution depth--normal estimation. A single high-res",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a 'Ultra Resolution Geometry Transformer (URGT)' for monocular depth-normal estimation in computer vision, with no mention of Kähler manifolds, 3-CNF formulas, or resolution proof width. Shared vocabulary ('resolution', 'geometry') is coincidental and unrelated to the conjecture's claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1209.3373",
+      "title": "On the structure of co-Kähler manifolds",
+      "abstract_excerpt": "By the work of Li, a compact co-Kähler manifold $M$ is a mapping torus $K_\\varphi$, where $K$ is a Kähler manifold and $\\varphi$ is a Hermitian isometry. We show here that there is always a finite cyclic cover $\\bar M$ of the form $\\bar M \\cong K \\times S^1$, where $\\cong$ is equivariant diffeomorphism with respect to an action of $S^1$ on $M$ and the action of $S^1$ on $K \\times S^1$ by translation on the second factor. Furthermore, the covering transformations act diagonally on $S^1$, $K$ and ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the topological structure of compact co-Kähler manifolds as mapping tori/products with S^1, with no mention of resolution proof trees, 3-CNF formulas, proof width, or moduli space areas bounded by combinatorial quantities.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
