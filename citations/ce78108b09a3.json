@@ -1,0 +1,40 @@
+{
+  "entry_id": "ce78108b09a3",
+  "ts": 1780156953.2215116,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1109.2952",
+      "title": "Upper bound on distance in the pants complex",
+      "abstract_excerpt": "The purpose of this paper is to establish an upper bound on the distance between two pants decompositions in the pants complex for a closed surface of genus g &gt;= 2. This is done by use of graph theory. First distance is found in the pants graph modulo the action of the mapping class group, and then between pants decompositions within an orbit of this action.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses pants decompositions and the pants complex, which does not interact with the specific claim about Kähler manifolds and resolution tree width, as stated in the conjecture 'W(φ) ≤ c·K_X(φ)'.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1803.07376",
+      "title": "Sub-exponential Upper Bound for #XSAT of some CNF Classes",
+      "abstract_excerpt": "We derive an upper bound on the number of models for exact satisfiability (XSAT) of arbitrary CNF formulas F. The bound can be calculated solely from the distribution of positive and negated literals in the formula. For certain subsets of CNF instances the new bound can be computed in sub-exponential time, namely in at most O(exp(sqrt(n))) , where n is the number of variables of F. A wider class of SAT problems beyond XSAT is defined to which the method can be extended.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper discusses an upper bound on the number of models for exact satisfiability (XSAT) and defines a class of SAT problems that can be solved in sub-exponential time. However, it does not directly address the relationship between resolution tree width and Kähler potential as stated in the conjecture.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/hep-ph/0612133v4",
+      "title": "The upper bound on the lightest Higgs mass in the NMSSM revisited",
+      "abstract_excerpt": "We update the upper bound on the lightest CP even Higgs mass in the NMSSM, which is given as a function of tan(beta) and lambda. We include the available one and two loop corrections to the NMSSM Higgs masses, and constraints from the absence of Landau singularities below the GUT scale as well as fr",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper's abstract discusses upper bounds on the lightest Higgs mass in the NMSSM and includes corrections to Higgs masses, but it does not mention resolution tree width or Kähler manifolds. Therefore, there is no information provided that directly supports, refutes, or is orthogonal to the conjecture about resolution tree width and Kähler potential.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}

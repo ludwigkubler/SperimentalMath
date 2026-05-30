@@ -1,0 +1,40 @@
+{
+  "entry_id": "a2b0e2b6bd54",
+  "ts": 1780158370.263496,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/quant-ph/0510050v2",
+      "title": "Constant communication complexity protocols for multiparty accumulative boolean functions",
+      "abstract_excerpt": "Generalizing a boolean function from Cleve and Buhrman \\cite{cb:sqec}, we consider the class of {\\it accumulative boolean functions} of the form $f_B(X_1,X_2,..., X_m)=\\bigoplus_{i=1}^n t_B(x_i^1x_i^2... x_i^m)$, where $X_j=(x^j_1,x^j_2,..., x^j_n), 1\\leq j\\leq m$ and $t_B(x_i^1x_i^2... x_i^m)=1$ fo",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns communication complexity protocols for a specific class of 'accumulative boolean functions' computed via XOR aggregation, with no mention of entanglement entropy bounds or qubit counts for polynomial-time circuits as stated in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0906.2946",
+      "title": "Bi-partite entanglement entropy in massive 1+1-dimensional quantum field theories",
+      "abstract_excerpt": "This manuscript is a review of the main results obtained in a series of papers involving the present authors and their collaborator J.L. Cardy over the last two years. In our work we have developed and applied a new approach for the computation of the bi-partite entanglement entropy in massive 1+1-dimensional quantum field theories. In most of our work we have considered these theories to be also integrable. Our approach combines two main ingredients: the \"replica trick\" and form factors for int",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns bi-partite entanglement entropy in 1+1-dimensional quantum field theories using the replica trick and form factors for integrable models, with no connection to boolean functions or circuit complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2407.04826",
+      "title": "Multi-strategy Based Quantum Cost Reduction of Quantum Boolean Circuits",
+      "abstract_excerpt": "The construction of quantum computers is based on the synthesis of low-cost quantum circuits. The quantum circuit of any Boolean function expressed in a Positive Polarity Reed-Muller $PPRM$ expansion can be synthesized using Multiple-Control Toffoli ($MCT$) gates. This paper proposes two algorithms to construct a quantum circuit for any Boolean function expressed in a Positive Polarity Reed-Muller $PPRM$ expansion. The Boolean function can be expressed with various algebraic forms, so there are ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract focuses on synthesizing low-cost quantum circuits for Boolean functions via PPRM expansions and MCT-to-NCV gate mappings, with no mention of entanglement entropy or qubit-count bounds like O(n log n). It shares the 'quantum circuits for Boolean functions' framework but does not address the conjecture's specific entropy claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

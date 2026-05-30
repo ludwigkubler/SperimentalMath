@@ -1,0 +1,40 @@
+{
+  "entry_id": "7c14f2dad553",
+  "ts": 1780159617.1408923,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2204.02507",
+      "title": "Co-optimization of power line shutoff and restoration under high wildfire ignition risk",
+      "abstract_excerpt": "Electric power infrastructure has ignited several of the most destructive wildfires in recent history. Preemptive power shutoffs are an effective tool to mitigate the risk of ignitions from power lines, but at the same time can cause widespread power outages. This work proposes a mathematical optimization problem to help utilities decide where and when to implement these shutoffs, as well as how to most efficiently restore power once the wildfire risk is lower. Specifically, our model co-optimiz",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns power grid optimization for wildfire risk mitigation ('co-optimizes the power shutoff... as well as the post-event restoration efforts'), which has no connection to arithmetic Hodge theory or resolution proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2110.07348",
+      "title": "A Framework for Risk Assessment and Optimal Line Upgrade Selection to Mitigate Wildfire Risk",
+      "abstract_excerpt": "As wildfires in the United States are becoming more frequent and severe, mitigating wildfire ignition risk from power line faults is an increasingly crucial effort. Long-term ignition prevention strategies, especially converting overhead lines to underground cables, are expensive. Thus, it is important to prioritize upgrades on lines that will reduce wildfire ignition risk the most. However, since so many factors contribute to ignition risk, it is difficult to quantify the wildfire risk associat",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns wildfire risk mitigation via power line upgrades ('mitigating wildfire ignition risk from power line faults'), with no connection to arithmetic Hodge theory or resolution proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2112.12972",
+      "title": "Holomorphic maps from complex discs intersecting families of hypersurfaces",
+      "abstract_excerpt": "In this paper, we establish second main theorems for holomorphic maps with finite growth index on complex discs intersecting families of hypersurfaces (moving and fixed) in projective varieties, where the small term is detailed estimate for various cases. Our results are generalizations and extensions of many previous second main theorems for holomorphic maps from $\\mathbb C$ intersecting with hypersurfaces (moving and fixed) or moving hyperplanes.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns second main theorems for holomorphic maps from complex discs intersecting hypersurfaces in projective varieties—a Nevanlinna theory result. It says nothing about CNF formulas, resolution proof complexity, or arithmetic Hodge ranks of Hodge bundles.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "0d89b3d099a5",
+  "ts": 1780158795.8510299,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1102.1242",
+      "title": "A refinement of Stone duality to skew Boolean algebras",
+      "abstract_excerpt": "We establish two duality theorems which refine the classical Stone duality between generalized Boolean algebras and locally compact Boolean spaces. In the first theorem we prove that the category of left-handed skew Boolean algebras whose morphisms are proper skew Boolean algebra homomorphisms is equivalent to the category of étale spaces over locally compact Boolean spaces whose morphisms are étale space cohomomorphisms over continuous proper maps. In the second theorem we prove that the catego",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns category-theoretic duality results refining 'Stone duality between generalized Boolean algebras and locally compact Boolean spaces' — it makes no claim about topological entropy, circuit depth, or any lower bound function α(D).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1612.04878",
+      "title": "Free Boolean Topological Groups",
+      "abstract_excerpt": "Known and new results on free Boolean topological groups are collected. An account of properties which these groups share with free or free Abelian topological groups and properties specific of free Boolean groups is given. Special emphasis is placed on the application of set-theoretic methods to the study of Boolean topological groups.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes 'free Boolean topological groups' and set-theoretic methods applied to them, which shares only the vocabulary 'Boolean' and 'topological' with the conjecture; it makes no mention of circuit depth, topological entropy, or complexity lower bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1703.08540",
+      "title": "Depth-Optimal Quantum Circuit Placement for Arbitrary Topologies",
+      "abstract_excerpt": "A significant hurdle towards realization of practical and scalable quantum computing is to protect the quantum states from inherent noises during the computation. In physical implementation of quantum circuits, a long-distance interaction between two qubits is undesirable since, it can be interpreted as a noise. Therefore, multiple quantum technologies and quantum error correcting codes strongly require the interacting qubits to be arranged in a nearest neighbor (NN) fashion. The current literat",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns ILP-based placement of quantum circuits on nearest-neighbor qubit topologies to minimize logical depth, with no mention of lattice-valued topology, topological entropy, or Boolean circuit depth lower bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
