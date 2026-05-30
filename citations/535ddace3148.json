@@ -1,0 +1,31 @@
+{
+  "entry_id": "535ddace3148",
+  "ts": 1780106047.6723692,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.1117/12.3109413",
+      "title": "Optimization of quantum neuron based on repeat-until-success circuit",
+      "abstract_excerpt": "Although the Repeat-Until-Success (RUS) neuron is functionally analogous to the activation function in classical neural networks, its practical application still faces limitations such as high operational complexity and the requirement for binary input states. To address these issues, this paper optimizes the RUS neuron. By merging specific quantum gate sequences into CNOT gates, we propose an optimized RUS neuron, which significantly reduces quantum resource overhead while maintaining functiona",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns optimizing a Repeat-Until-Success quantum neuron and applying it to the XOR classification problem and Hopfield networks, with no mention of L^2 coherence bounds, bipartite decompositions, or communication complexity lower bounds for XOR functions.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:0804.4859",
+      "title": "The communication complexity of non-signaling distributions",
+      "abstract_excerpt": "We study a model of communication complexity that encompasses many well-studied problems, including classical and quantum communication complexity, the complexity of simulating distributions arising from bipartite measurements of shared quantum states, and XOR games. In this model, Alice gets an inp",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a general model encompassing quantum/classical communication complexity and XOR games, but does not address coherence of quantum states or lower bounds tied to L^2 norm/discrepancy of XOR functions as stated in the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 0
+  }
+}
