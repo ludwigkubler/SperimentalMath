@@ -1,0 +1,22 @@
+{
+  "entry_id": "99691e96eed1",
+  "ts": 1780177595.8905697,
+  "hits_evaluated": 1,
+  "verdicts": [
+    {
+      "paper_id": "s2:c33660f74ad2cb933fb6b8c972e58593877e7af8",
+      "title": "Making a Case for Spatial Prompting in Human-Robot Communication",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available for the cited paper, so I cannot assess whether it supports, refutes, or is orthogonal to the conjecture. The title ('Spatial Prompting in Human-Robot Communication') suggests it is likely unrelated, but without the abstract a definitive judgment cannot be made.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 1
+  }
+}
