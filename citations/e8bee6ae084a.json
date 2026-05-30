@@ -1,0 +1,40 @@
+{
+  "entry_id": "e8bee6ae084a",
+  "ts": 1780183888.6847198,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1405.3051",
+      "title": "Involution Products in Coxeter Groups",
+      "abstract_excerpt": "For $W$ a Coxeter group, let $\\mathcal{W} = \\{ w \\in W \\;| \\; w = xy \\; \\mbox{where} \\; x, y \\in W \\; \\mbox{and} \\; x^2 = 1 = y^2 \\}$. If $W$ is finite, then it is well known that $W = \\mathcal{W}$. Suppose that $w \\in \\mathcal{W}$. Then the minimum value of $\\ell(x) + \\ell(y) - \\ell(w)$, where $x, y \\in W$ with $w = xy$ and $x^2 = 1 = y^2$, is called the \\textit{excess} of $w$ ($\\ell$ is the length function of $W$). The main result established here is that $w$ is always $W$-conjugate to an elem",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns involution products and 'excess' (minimum length difference) in Coxeter groups, with no mention of boolean functions, entropy, invariant generators, or asymptotic counting of order Θ(n^(1/2) log n). It shares only the Coxeter group framework without addressing the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/hep-ph/0610012v1",
+      "title": "Tevatron-for-LHC Report of the QCD Working Group",
+      "abstract_excerpt": "The experiments at Run 2 of the Tevatron have each accumulated over 1 inverse femtobarn of high-transverse momentum data. Such a dataset allows for the first precision (i.e. comparisons between theory and experiment at the few percent level) tests of QCD at a hadron collider. While the Large Hadron ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns QCD precision tests at the Tevatron and LHC hadron colliders, which has no connection to Coxeter groups or Boolean function entropy. As stated: 'precision...tests of QCD at a hadron collider.'",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1911.04516",
+      "title": "Boolean lattices in finite alternating and symmetric groups",
+      "abstract_excerpt": "Given a group $G$ and a subgroup $H$, we let $\\mathcal{O}_G(H)$ denote the lattice of subgroups of $G$ containing $H$. This paper provides a classification of the subgroups $H$ of $G$ such that $\\mathcal{O}_{G}(H)$ is Boolean of rank at least $3$, when $G$ is a finite alternating or symmetric group. Besides some sporadic examples and some twisted versions, there are two different types of such lattices. One type arises by taking stabilizers of chains of regular partitions, and the other type ari",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns classification of Boolean lattices of subgroup overgroups in alternating/symmetric groups ('classification of the subgroups H of G such that O_G(H) is Boolean'), not Coxeter group invariant generators or boolean function entropy asymptotics Θ(n^(1/2) log n).",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
