@@ -1,0 +1,22 @@
+{
+  "entry_id": "cdf70115aa6c",
+  "ts": 1780100899.5669324,
+  "hits_evaluated": 1,
+  "verdicts": [
+    {
+      "paper_id": "s2:f20a88ba0e49b27e8c1c2a823a020085076654ee",
+      "title": "Linköping Studies in Science and Technology an On-chip Network Architecture for Hard Real Time Systems an On-chip Network Architecture for Hard Real Time Systems ¯ Daniel Wiklund, \" Implementation of ",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available ('(no abstract available)'), and the title concerns on-chip network architecture for hard real-time systems, which appears unrelated but cannot be confirmed without more content.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 1
+  }
+}

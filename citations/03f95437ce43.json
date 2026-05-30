@@ -1,0 +1,40 @@
+{
+  "entry_id": "03f95437ce43",
+  "ts": 1780099319.7323785,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/2510.26931v1",
+      "title": "GW241011 and GW241110: Exploring Binary Formation and Fundamental Physics with Asymmetric, High-Spin Black Hole Coalescence",
+      "abstract_excerpt": "We report the observation of gravitational waves from two binary black hole coalescences during the fourth observing run of the LIGO--Virgo--KAGRA detector network, GW241011 and GW241110. The sources of these two signals are characterized by rapid and precisely measured primary spins, non-negligible",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes gravitational wave observations of binary black hole coalescences ('gravitational waves from two binary black hole coalescences'), which has no interaction with quadratic forms, tensor product rank, or Frege proof depth.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2507.08219v3",
+      "title": "GW231123: a Binary Black Hole Merger with Total Mass 190-265 $M_{\\odot}$",
+      "abstract_excerpt": "On 2023 November 23 the two LIGO observatories both detected GW231123, a gravitational-wave signal consistent with the merger of two black holes with masses $137^{+23}_{-18}\\, M_\\odot$ and $101^{+22}_{-50}\\, M_\\odot$ (90\\% credible intervals), at luminosity distance 0.7-4.1 Gpc and redshift of $0.40",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a gravitational-wave detection of a binary black hole merger ('GW231123, a gravitational-wave signal consistent with the merger of two black holes'), which has no connection to quadratic forms, tensor rank, or Frege proof depth.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2508.18079v3",
+      "title": "Open Data from LIGO, Virgo, and KAGRA through the First Part of the Fourth Observing Run",
+      "abstract_excerpt": "LIGO, Virgo, and KAGRA form a network of gravitational-wave observatories. Data and analysis results from this network are made publicly available through the Gravitational Wave Open Science Center. This paper describes open data from this network, including the addition of data from the first part ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes gravitational-wave observatory open data from LIGO/Virgo/KAGRA, which has no connection to quadratic forms, tensor product rank, or Frege proof depth.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
