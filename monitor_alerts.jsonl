@@ -2568,3 +2568,4 @@
 {"ts": 1780110005.7306342, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 33}}
 {"ts": 1780111804.9919224, "kind": "NOTEBOOK_LARGE", "auto_fixed": false, "detail": {"size_mb": 69.747809}}
 {"ts": 1780111806.0027645, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 33}}
+{"ts": 1780113001.700011, "ts_iso": "2026-05-30T03:50:01.700011+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "DEGRADED", "to_status": "OK", "failing_checks": [], "auto_fixed": false}
