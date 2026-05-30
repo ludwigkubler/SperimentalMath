@@ -1,0 +1,40 @@
+{
+  "entry_id": "ef0ce3d68d4d",
+  "ts": 1780147425.8312356,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.1007/3-540-48168-0_26",
+      "title": "Lower Bounds for Space in Resolution",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available, so I cannot assess whether the paper addresses the entropy/expansion separation for Tseitin formulas claimed in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:2005.11589",
+      "title": "MaxSAT Resolution and Subcube Sums",
+      "abstract_excerpt": "We study the MaxSAT Resolution (MaxRes) rule in the context of certifying unsatisfiability. We show that it can be exponentially more powerful than tree-like resolution, and when augmented with weakening (the system MaxResW), p-simulates tree-like resolution. In devising a lower bound technique spec",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses MaxSAT Resolution and its relation to tree-like resolution via subcube sums, not entropy measures Φ(π) on Tseitin formulas separated by graph expansion. It shares the resolution proof complexity framework but does not address the specific expander-vs-tree Tseitin entropy claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10.1007/s00037-011-0033-1",
+      "title": "Satisfiability, Branch-Width and Tseitin tautologies",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available, so I cannot determine whether the paper addresses the specific entropy separation Φ(π) between expander and path/tree Tseitin instances.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}
