@@ -1,9 +1,9 @@
-# SEC P-vs-NP — System Status: **🟡 DEGRADED**
+# SEC P-vs-NP — System Status: **🟢 OK**
 
-_Updated: 2026-05-30T02:40:01.473138+00:00 (auto-refresh every 5 min)_
+_Updated: 2026-05-30T02:45:01.246268+00:00 (auto-refresh every 5 min)_
 
 - CRITICAL failures: **0**
-- DEGRADED failures: **1**
+- DEGRADED failures: **0**
 
 ## Checks
 
@@ -16,12 +16,12 @@ _Updated: 2026-05-30T02:40:01.473138+00:00 (auto-refresh every 5 min)_
 | `cron_service` | ✅ | active |
 | `gpu` | ✅ | NVIDIA GeForce RTX 3070 Ti |
 | `disk_under_90pct` | ✅ | 16% used |
-| `ram_above_1g` | ✅ | 12984 MB available |
-| `mirror_git_fresh` | ✅ | last commit 0.83h ago |
+| `ram_above_1g` | ✅ | 12963 MB available |
+| `mirror_git_fresh` | ✅ | last commit 0.08h ago |
 | `mirror_git_pushed` | ✅ | 0 unpushed (within tolerance) |
-| `notebook_growing` | ✅ | newest entry 1.08h ago |
+| `notebook_growing` | ✅ | newest entry 1.16h ago |
 | `entity_audit_log` | ✅ | dir ok, no entries today (chat-idle) |
-| `cron_logs_no_trace` | 🟡 | pvsnp_explorer.log |
+| `cron_logs_no_trace` | ✅ | all clean |
 | `watchdog_self_heartbeat` | ✅ | 5.0 min ago |
 
 ---
