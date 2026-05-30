@@ -1,0 +1,31 @@
+{
+  "entry_id": "c2cb726f1ee2",
+  "ts": 1780131940.4715652,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.5220/0012839300003767",
+      "title": "Graph-Based Modelling of Maximum Period Property for Nonlinear Feedback Shift Registers",
+      "abstract_excerpt": ": NonLinear Feedback Shift Registers (NLFSRs) are key primitives to design pseudorandom generators in modern stream ciphers, especially when the feedback function is of low degree. Contrary to their linear counter-parts (LFSRs) for which a general and comprehensive theory has been established, many fundamental problems related to NLFSRs remain open. In particular ﬁnding a systematic procedure of acceptable complexity for constructing NLFSRs with a guaranteed long period is still a general open p",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns modelling NonLinear Feedback Shift Registers as graphs via incidence matrices to study maximum period properties, with no mention of Coxeter groups, 3-CNF formulas, or resolution proof complexity. It shares only the loose vocabulary of 'incidence' graphs but does not interact with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:ARXIV:2311.12994",
+      "title": "Sum-of-Squares Lower Bounds for the Minimum Circuit Size Problem",
+      "abstract_excerpt": "We prove lower bounds for the Minimum Circuit Size Problem (MCSP) in the Sum-of-Squares (SoS) proof system. Our main result is that for every Boolean function $f: \\{0,1\\}^n \\rightarrow \\{0,1\\}$, SoS requires degree $\\Omega(s^{1-\\epsilon})$ to prove that $f$ does not have circuits of size $s$ (for any $s>\\mathrm{poly}(n)$). As a corollary we obtain that there are no low degree SoS proofs of the statement NP $\\not \\subseteq $ P/poly. We also show that for any $0<\\alpha<1$ there are Boolean functio",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Sum-of-Squares lower bounds for MCSP and mentions 'constraint-variable incidence graph' expansion, but it does not address Coxeter group generators or resolution proof size bounds on 3-CNFs. The shared vocabulary (incidence graph, proof complexity) does not interact with the specific conjectured |Γ(φ)| ≤ Θ(log² t*(φ)) relationship.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 0
+  }
+}

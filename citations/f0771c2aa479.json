@@ -1,0 +1,40 @@
+{
+  "entry_id": "f0771c2aa479",
+  "ts": 1780133804.6315336,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1606.05050",
+      "title": "Proof Complexity Lower Bounds from Algebraic Circuit Complexity",
+      "abstract_excerpt": "We give upper and lower bounds on the power of subsystems of the Ideal Proof System (IPS), the algebraic proof system recently proposed by Grochow and Pitassi, where the circuits comprising the proof come from various restricted algebraic circuit classes. This mimics an established research direction in the boolean setting for subsystems of Extended Frege proofs, where proof-lines are circuits from restricted boolean circuit classes. Except one, all of the subsystems considered in this paper can",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns algebraic proof systems (Ideal Proof System and Nullstellensatz) with circuit-class restrictions, not Hodge theory or Hodge loci, and it does not relate resolution width to any Hodge-theoretic invariant. It shares the general 'algebraic methods in proof complexity' framework but does not interact with the specific Hodge lattice claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1607.00443",
+      "title": "Algebraic Proof Complexity: Progress, Frontiers and Challenges",
+      "abstract_excerpt": "We survey recent progress in the proof complexity of strong proof systems and its connection to algebraic circuit complexity, showing how the synergy between the two gives rise to new approaches to fundamental open questions, solutions to old problems, and new directions of research. In particular, we focus on tight connections between proof complexity lower bounds (namely, lower bounds on the size of proofs of certain tautologies), algebraic circuit lower bounds, and the Polynomial Identity Tes",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract surveys connections between algebraic circuit complexity, proof complexity lower bounds, and Polynomial Identity Testing, but makes no mention of Hodge theory, Hodge loci, or resolution width bounds on random k-CNFs. It shares the broad 'algebraic + proof complexity' framing but does not interact with the specific Hodge-lattice claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0701895v1",
+      "title": "An algebraic proof of Deligne's regularity criterion for integrable connections",
+      "abstract_excerpt": "Deligne's regularity criterion for an integrable connection $\\nabla$ on a smooth complex algebraic variety $X$ says that $\\nabla$ is regular along the irreducible divisors at infinity in some fixed normal compactification of $X$ if and only if the restriction of $\\nabla$ to every smooth curve on $X$",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Deligne's regularity criterion for integrable connections on complex algebraic varieties, with no mention of Hodge loci, k-CNF formulas, or resolution proof complexity. It shares only the broad algebraic geometry framework but does not interact with the specific claim about Hodge lattice zeros bounding resolution width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
