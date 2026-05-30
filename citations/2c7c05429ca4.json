@@ -1,0 +1,40 @@
+{
+  "entry_id": "2c7c05429ca4",
+  "ts": 1780116515.0831296,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1109.1745",
+      "title": "A Categorification of Quantum sl_3 Projectors and the sl_3 Reshetikhin-Turaev Invariant of Tangles",
+      "abstract_excerpt": "We construct a categorification of the quantum sl_3 projectors, the sl_3 analog of the Jones-Wenzl projectors, as the stable limit of the complexes assigned to k-twist torus braids (as k goes to infinity) in a suitably shifted version of Morrison and Nieh's geometric formulation of sl_3 link homology (math.GT/0612754). We use these projectors to give a categorification of the sl_3 Reshetikhin-Turaev invariant of framed tangles.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses categorification of quantum sl_3 projectors and the Reshetikhin-Turaev invariant of tangles, with no mention of CNF formulas, resolution proof width, or Boolean complexity. It shares only the vague 'categorification/quantum' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2103.10009",
+      "title": "Categorification of DAHA and Macdonald polynomials",
+      "abstract_excerpt": "We describe a categorification of the Double Affine Hecke Algebra (${\\mathcal{H}\\kern -.4em\\mathcal{H}}$) associated with an affine Lie algebra $\\widehat{\\mathfrak{g}}$, including a categorification of the polynomial representation and Macdonald polynomials.\n  Our categorification results are presented in the derived setting, focusing on the derived category of graded modules over the Lie superalgebra ${\\mathfrak I}[ξ]$, where ${\\mathfrak I} \\subset \\widehat{\\mathfrak{g}}$ is the Iwahori subalge",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns categorification of the Double Affine Hecke Algebra and Macdonald polynomials via Lie superalgebra modules, with no mention of CNF formulas, resolution proof width, or quantum states associated with Boolean functions.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1806.06873",
+      "title": "String diagrams and categorification",
+      "abstract_excerpt": "These are lectures notes for a mini-course given at the conference Interactions of Quantum Affine Algebras with Cluster Algebras, Current Algebras, and Categorification in June 2018. The goal is to introduce the reader to string diagram techniques for monoidal categories, with an emphasis on their role in categorification.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes lecture notes introducing string diagram techniques for monoidal categories in categorification, with no mention of resolution proof complexity, k-CNF formulas, or proof width bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

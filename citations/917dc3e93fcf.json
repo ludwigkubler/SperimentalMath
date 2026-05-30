@@ -1,0 +1,40 @@
+{
+  "entry_id": "917dc3e93fcf",
+  "ts": 1780119196.301861,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0406355v1",
+      "title": "p-torsion elements in local cohomology modules. II",
+      "abstract_excerpt": "Lyubeznik conjectured that local cohomology modules of regular rings have finitely many associated primes. We examine this conjecture for polynomial rings over the integers, and record some equational identities that arise from studying special cases.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Lyubeznik's conjecture on associated primes of local cohomology modules of polynomial rings over integers, with no mention of CNF formulas, term-overlap graphs, resolution width, or proof complexity. It shares only the term 'local cohomology' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2102.04369",
+      "title": "Mixed Hodge structure on local cohomology with support in determinantal varieties",
+      "abstract_excerpt": "We employ the inductive structure of determinantal varieties to calculate the mixed Hodge module structure of local cohomology modules with determinantal support. We show that the weight of a simple composition factor is uniquely determined by its support and cohomological degree. As a consequence, we obtain the equivariant structure of the Hodge filtration on each local cohomology module. Finally, as an application, we provide a formula for the generation level of the Hodge filtration on these ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns mixed Hodge module structure on local cohomology with determinantal support and Hodge filtration generation levels, with no mention of CNF formulas, term-overlap graphs, resolution proof width, or rank bounds connecting to proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1403.8106",
+      "title": "Recent advances on the log-rank conjecture in communication complexity",
+      "abstract_excerpt": "The log-rank conjecture is one of the fundamental open problems in communication complexity. It speculates that the deterministic communication complexity of any two-party function is equal to the log of the rank of its associated matrix, up to polynomial factors. Despite much research, we still know very little about this conjecture. Recently, there has been renewed interest in this conjecture and its relations to other fundamental problems in complexity theory. This survey describes some of th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the log-rank conjecture in communication complexity (relating deterministic communication complexity to matrix rank), which shares the 'log-rank' vocabulary but does not address local cohomology rank of term-overlap graphs or resolution proof width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "8467e1146ba4",
+  "ts": 1780117585.996238,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2107.09263",
+      "title": "Local entropy theory and descriptive complexity",
+      "abstract_excerpt": "We investigate local entropy theory, particularly the property of having completely positive entropy (CPE), from a descriptive set-theoretic point of view. We aim to determine descriptive complexity of different families of dynamical systems with CPE.\n  For a large class of compact $X$, we show that the family of dynamical systems on $X$ with CPE is complete coanalytic and hence not Borel. When we restrict our attention to dynamical systems having special properties such as the mixing property o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses descriptive set-theoretic complexity of dynamical systems with completely positive entropy (e.g., 'complete coanalytic and hence not Borel'), with no mention of k-CNF formulas, resolution proofs, or proof width. It shares the vocabulary of 'entropy' but does not interact with the specific claim about bounding resolution proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1908.01380",
+      "title": "A countable partition for singular flows, and its application on the entropy theory",
+      "abstract_excerpt": "In this paper, we construct a countable partition $\\mathscr{A}$ for flows with hyperbolic singularities by introducing a new cross section at each singularity. Such partition forms a Kakutani tower in a neighborhood of the singularity, and turns out to have finite metric entropy for every invariant probability measure. Moreover, each element of $\\mathscr{A}^\\infty$ will stay in a scaled tubular neighborhood for arbitrarily long time.\n  This new construction enables us to study entropy theory for",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns constructing a countable partition for singular flows and proving upper semi-continuity of the entropy function, with no mention of Boolean formulas, CNF, or resolution proof complexity. It shares only the general vocabulary of 'entropy' but does not interact with the claim linking topological entropy to resolution proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1106.0150",
+      "title": "Local Entropy Theory of a Random Dynamical System",
+      "abstract_excerpt": "In this paper we extend the notion of a continuous bundle random dynamical system to the setting where the action of $\\R$ or $\\N$ is replaced by the action of an infinite countable discrete amenable group.\n  Given such a system, and a monotone sub-additive invariant family of random continuous functions, we introduce the concept of local fiber topological pressure and establish an associated variational principle, relating it to measure-theoretic entropy. We also discuss some variants of this va",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns local entropy theory for continuous bundle random dynamical systems over amenable groups and variational principles, with no mention of k-CNF formulas, resolution proof width, or any connection to Boolean function complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
