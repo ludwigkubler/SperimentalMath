@@ -1,0 +1,40 @@
+{
+  "entry_id": "7524986cf0b4",
+  "ts": 1780152980.530427,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2103.09609",
+      "title": "Characterizing Tseitin-formulas with short regular resolution refutations",
+      "abstract_excerpt": "Tseitin-formulas are systems of parity constraints whose structure is described by a graph. These formulas have been studied extensively in proof complexity as hard instances in many proof systems. In this paper, we prove that a class of unsatisfiable Tseitin-formulas of bounded degree has regular resolution refutations of polynomial length if and only if the treewidth of all underlying graphs $G$ for that class is in $O(\\log|V(G)|)$. To do so, we show that any regular resolution refutation of a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract characterizes regular resolution refutation length of Tseitin formulas via treewidth (2^Ω(tw(G))), not via the entropy measure Φ(π) or expansion specifically; while expanders have high treewidth and paths/trees low treewidth, the abstract makes no claim about the cumulative entropy Φ(π) of refutations.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1910.02445",
+      "title": "Enhanced Human-Machine Interaction by Combining Proximity Sensing with Global Perception",
+      "abstract_excerpt": "The raise of collaborative robotics has led to wide range of sensor technologies to detect human-machine interactions: at short distances, proximity sensors detect nontactile gestures virtually occlusion-free, while at medium distances, active depth sensors are frequently used to infer human intentions. We describe an optical system for large workspaces to capture human pose based on a single panoramic color camera. Despite the two-dimensional input, our system is able to predict metric 3D pose ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns human-machine interaction via proximity and optical pose sensing in robotics, with no relation to resolution proof complexity, Tseitin formulas, or graph expansion.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2008.13454",
+      "title": "Complex-valued embeddings of generic proximity data",
+      "abstract_excerpt": "Proximities are at the heart of almost all machine learning methods. If the input data are given as numerical vectors of equal lengths, euclidean distance, or a Hilbertian inner product is frequently used in modeling algorithms. In a more generic view, objects are compared by a (symmetric) similarity or dissimilarity measure, which may not obey particular mathematical properties. This renders many machine learning methods invalid, leading to convergence problems and the loss of guarantees, like ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns complex-valued embeddings of proximity data for machine learning, with no mention of resolution proof complexity, Tseitin formulas, or graph expansion. It shares no substantive content with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

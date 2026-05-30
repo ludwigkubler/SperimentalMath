@@ -1,0 +1,40 @@
+{
+  "entry_id": "1236eaeb1a5d",
+  "ts": 1780153646.2701294,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/hep-ex/0202036v4",
+      "title": "This paper has been withdrawn by the author(s)",
+      "abstract_excerpt": "This paper has been withdrawn by the author(s)",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract states only 'This paper has been withdrawn by the author(s)', providing no content to evaluate against the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1506.04891",
+      "title": "Author Identification using Multi-headed Recurrent Neural Networks",
+      "abstract_excerpt": "Recurrent neural networks (RNNs) are very good at modelling the flow of text, but typically need to be trained on a far larger corpus than is available for the PAN 2015 Author Identification task. This paper describes a novel approach where the output layer of a character-level RNN language model is split into several independent predictive sub-models, each representing an author, while the recurrent layer is shared by all. This allows the recurrent layer to model the language as a whole without",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a character-level RNN for author identification (PAN 2015), with no connection to resolution proof complexity, Tseitin formulas, cumulative entropy, or balanced separators.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1808.00525",
+      "title": "The impact of imbalanced training data on machine learning for author name disambiguation",
+      "abstract_excerpt": "In supervised machine learning for author name disambiguation, negative training data are often dominantly larger than positive training data. This paper examines how the ratios of negative to positive training data can affect the performance of machine learning algorithms to disambiguate author names in bibliographic records. On multiple labeled datasets, three classifiers - Logistic Regression, Naïve Bayes, and Random Forest - are trained through representative features such as coauthor names,",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns machine learning for author name disambiguation with imbalanced training data, completely unrelated to resolution proof complexity, Tseitin formulas, or cumulative entropy lower bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}
