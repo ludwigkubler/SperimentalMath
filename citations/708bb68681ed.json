@@ -1,0 +1,40 @@
+{
+  "entry_id": "708bb68681ed",
+  "ts": 1780171423.0532544,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2407.04826",
+      "title": "Multi-strategy Based Quantum Cost Reduction of Quantum Boolean Circuits",
+      "abstract_excerpt": "The construction of quantum computers is based on the synthesis of low-cost quantum circuits. The quantum circuit of any Boolean function expressed in a Positive Polarity Reed-Muller $PPRM$ expansion can be synthesized using Multiple-Control Toffoli ($MCT$) gates. This paper proposes two algorithms to construct a quantum circuit for any Boolean function expressed in a Positive Polarity Reed-Muller $PPRM$ expansion. The Boolean function can be expressed with various algebraic forms, so there are ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract focuses on synthesizing low-cost quantum circuits from Boolean functions via PPRM/MCT/NCV gate decomposition, with no mention of algebraic varieties, quantum deformation degree, or circuit depth bounds. It shares vocabulary ('quantum', 'Boolean circuit') but does not interact with the QDD(C) ≤ D(C) claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2102.01659",
+      "title": "Capacity and quantum geometry of parametrized quantum circuits",
+      "abstract_excerpt": "To harness the potential of noisy intermediate-scale quantum devices, it is paramount to find the best type of circuits to run hybrid quantum-classical algorithms. Key candidates are parametrized quantum circuits that can be effectively implemented on current devices. Here, we evaluate the capacity and trainability of these circuits using the geometric structure of the parameter space via the effective quantum dimension, which reveals the expressive power of circuits in general as well as of par",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'effective quantum dimension' and 'quantum geometry of the parameter space' for parametrized quantum circuits in NISQ devices, not algebraic varieties associated with Boolean circuits or any bound relating deformation degree to Boolean circuit depth. It shares vocabulary ('quantum', 'circuits', 'depth') but does not address the specific QDD(C) ≤ D(C) claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1904.05483",
+      "title": "Parallels Between Phase Transitions and Circuit Complexity?",
+      "abstract_excerpt": "In many natural average-case problems, there are or there are believed to be critical values in the parameter space where the structure of the space of solutions changes in a fundamental way. These phase transitions are often believed to coincide with drastic changes in the computational complexity of the associated problem.\n  In this work, we study the circuit complexity of inference in the broadcast tree model, which has important applications in phylogenetic reconstruction and close connectio",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses circuit complexity (TC^0, NC^1) in the context of phase transitions in the broadcast tree model, with no mention of quantum deformations, algebraic varieties, or any bound relating deformation degree to circuit depth.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

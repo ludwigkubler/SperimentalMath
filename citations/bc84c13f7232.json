@@ -1,0 +1,40 @@
+{
+  "entry_id": "bc84c13f7232",
+  "ts": 1780171344.420789,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2011.07504",
+      "title": "Probability density functions attached to random Euler products for automorphic $L$-functions",
+      "abstract_excerpt": "In this paper, we study the value-distributions of $L$-functions of holomorphic primitive cusp forms in the level aspect. We associate such automorphic $L$-functions with probabilistic models called the random Euler products. First, we prove the existence of probability density functions attached to the random Euler products. Then various mean values of automorphic $L$-functions are expressed as integrals involving the density functions. Moreover, we estimate the discrepancies between the distri",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns value-distributions of automorphic L-functions via random Euler product models and discrepancy estimates, with no mention of SAT, clause density, or Selberg sieve bounds on |L(1/2)|. It shares vocabulary (automorphic L-functions) but does not interact with the specific conjectured inequality.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1604.04253",
+      "title": "On Period Relations for Automorphic L-functions II",
+      "abstract_excerpt": "We study Hecke algebras for pairs $({\\mathfrak g},K)$ over arbitrary fields $E$ of characteristic $0$, define the Bernstein functor and give another definition of the Zuckerman functor over $E$. Building on this and the author's previous work on rational structures on automorphic representations, we show that hard duality remains valid over $E$ and apply this result to the study of rationality properties of Sun's cohomologically induced functionals. Our main application are period relations for ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns period relations and rationality properties for special values of automorphic L-functions of GL(2n) with Shalika models, not bounds involving SAT clause density or Selberg sieves. It shares only the general vocabulary of 'automorphic L-functions' without addressing the specific conjectured inequality.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1707.04382",
+      "title": "On the density function for the value-distribution of automorphic $L$-functions",
+      "abstract_excerpt": "The Bohr-Jessen limit theorem is a probabilistic limit theorem on the value-distribution of the Riemann zeta-function in the critical strip. Moreover their limit measure can be written as an integral involving a certaindensity function. The existence of the limit measure is now known for a quite general class of zeta-functions, but the integral expression has been proved only for some special cases (such as Dedekind zeta-functions). In this paper we give an alternative proof of the existence of ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Bohr-Jessen-type limit measures and density functions for the value-distribution of automorphic L-functions, with no mention of SAT, clause density, or bounds on |L(1/2)| in terms of combinatorial parameters.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-05-30T19:47:05Z",
-  "total_cycles": 3926,
+  "last_update_utc": "2026-05-30T20:47:09Z",
+  "total_cycles": 3935,
   "verdict_counts": {
-    "INCONCLUSIVE": 2593,
+    "INCONCLUSIVE": 2596,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 1227,
+    "BARRIER_HIT": 1233,
     "SCOOPED": 86
   },
-  "unique_field_A": 1820,
+  "unique_field_A": 1824,
   "top_fields_A": [
     [
       "Algebraic Geometry (Hodge Theory)",
@@ -36,7 +36,7 @@
     ],
     [
       "Algebraic Combinatorics",
-      41
+      42
     ],
     [
       "Schur-Weyl Duality",
