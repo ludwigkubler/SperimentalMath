@@ -1,0 +1,40 @@
+{
+  "entry_id": "381a7626353c",
+  "ts": 1780178616.2257526,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0611649v2",
+      "title": "The Distribution of the Largest Non-trivial Eigenvalues in Families of Random Regular Graphs",
+      "abstract_excerpt": "Recently Friedman proved Alon's conjecture for many families of d-regular graphs, namely that given any epsilon &gt; 0 `most' graphs have their largest non-trivial eigenvalue at most 2 sqrt{d-1}+epsilon in absolute value; if the absolute value of the largest non-trivial eigenvalue is at most 2 sqrt{",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the distribution of largest non-trivial eigenvalues in random d-regular graphs (Alon's conjecture, bound 2√(d-1)+ε), not Tseitin graphs of 3-CNF formulas or the specific smallest-eigenvalue bound |λ_min - 1/2| ≤ C/n claimed in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0911.3482",
+      "title": "Complexity of Networks (reprise)",
+      "abstract_excerpt": "Network or graph structures are ubiquitous in the study of complex systems. Often, we are interested in complexity trends of these system as it evolves under some dynamic. An example might be looking at the complexity of a food web as species enter an ecosystem via migration or speciation, and leave via extinction.\n  In a previous paper, a complexity measure of networks was proposed based on the {\\em complexity is information content} paradigm. To apply this paradigm to any object, one must fix ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses a complexity measure for networks based on information content and representation languages, with no mention of Tseitin graphs, 3-CNF formulas, spectral gaps, or adjacency matrix eigenvalues. It shares only the loose vocabulary of 'complexity' and 'networks' without interacting with the specific spectral claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0602191v4",
+      "title": "On the maximum number of cliques in a graph",
+      "abstract_excerpt": "A \\emph{clique} is a set of pairwise adjacent vertices in a graph. We determine the maximum number of cliques in a graph for the following graph classes: (1) graphs with $n$ vertices and $m$ edges; (2) graphs with $n$ vertices, $m$ edges, and maximum degree $Δ$; (3) $d$-degenerate graphs with $n$ ve",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract is about counting cliques in graph classes ('determine the maximum number of cliques in a graph'), which has no interaction with spectral gaps of Tseitin graph adjacency matrices or 3-CNF formulas.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

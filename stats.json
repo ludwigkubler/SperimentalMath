@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-05-30T21:47:06Z",
-  "total_cycles": 3941,
+  "last_update_utc": "2026-05-30T22:47:07Z",
+  "total_cycles": 3954,
   "verdict_counts": {
-    "INCONCLUSIVE": 2601,
+    "INCONCLUSIVE": 2607,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 1234,
+    "BARRIER_HIT": 1241,
     "SCOOPED": 86
   },
-  "unique_field_A": 1825,
+  "unique_field_A": 1831,
   "top_fields_A": [
     [
       "Algebraic Geometry (Hodge Theory)",
@@ -59,16 +59,16 @@
       28
     ],
     [
+      "Hypergeometric Functions",
+      25
+    ],
+    [
       "Representation Theory of Symmetric Groups",
       24
     ],
     [
       "Algebraic K-Theory",
       24
-    ],
-    [
-      "Noncommutative Geometry",
-      23
     ]
   ]
 }

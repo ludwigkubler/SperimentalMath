@@ -1,0 +1,40 @@
+{
+  "entry_id": "480b666a471f",
+  "ts": 1780178833.289317,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1206.3093",
+      "title": "Sub-riemannian geometry from intrinsic viewpoint",
+      "abstract_excerpt": "Gromov proposed to extract the (differential) geometric content of a sub-riemannian space exclusively from its Carnot-Carathéodory distance. One of the most striking features of a regular sub-riemannian space is that it has at any point a metric tangent space with the algebraic structure of a Carnot group, hence a homogeneous Lie group. Siebert characterizes homogeneous Lie groups as locally compact groups admitting a contracting and continuous one-parameter group of automorphisms. Siebert resul",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses sub-Riemannian geometry, Carnot-Carathéodory distance, and dilation structures — it does not address SAT instances, constraint graphs, or embeddings into positively curved manifolds mentioned in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1301.6370",
+      "title": "The rolling problem: overview and challenges",
+      "abstract_excerpt": "In the present paper we give a historical account -ranging from classical to modern results- of the problem of rolling two Riemannian manifolds one on the other, with the restrictions that they cannot instantaneously slip or spin one with respect to the other. On the way we show how this problem has profited from the development of intrinsic Riemannian geometry, from geometric control theory and sub-Riemannian geometry. We also mention how other areas -such as robotics and interpolation theory- ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the rolling problem of two Riemannian manifolds and its connections to control theory and robotics, with no mention of SAT, constraint graphs, embedding volumes, or curvature bounds relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/hep-th/0612128v2",
+      "title": "Riemannian Geometry of Noncommutative Surfaces",
+      "abstract_excerpt": "A Riemannian geometry of noncommutative n-dimensional surfaces is developed as a first step towards the construction of a consistent noncommutative gravitational theory. Historically, as well, Riemannian geometry was recognized to be the underlying structure of Einstein's theory of general relativit",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'Riemannian geometry of noncommutative n-dimensional surfaces' as groundwork for noncommutative gravity, with no mention of SAT, constraint graphs, hyperbolic volume bounds, or graph embeddings.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "ee06dd3b6a0d",
+  "ts": 1780180155.5694337,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0801.3139",
+      "title": "Existence of broken Lefschetz fibrations",
+      "abstract_excerpt": "We prove that every closed oriented smooth 4-manifold X admits a broken Lefschetz fibration (aka singular Lefschetz fibration) over the 2-sphere. Given any closed orientable surface F of square zero in X, we can choose the fibration so that F is a fiber. Moreover, we can arrange it so that there is only one Lefschetz critical point when the Euler characteristic e(X) is odd, and none when e(X) is even. We make use of topological modifications of smooth maps with fold and cusp singularities due to",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns broken Lefschetz fibrations on smooth 4-manifolds, with no mention of Lefschetz duality, communication complexity, configuration spaces, or homological bounds related to protocols. It shares only the name 'Lefschetz' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2405.05873",
+      "title": "Duality for Cohen--Macaulay Complexes through Combinatorial Sheaves",
+      "abstract_excerpt": "We prove a duality theorem for Cohen--Macaulay simplicial complexes. This is a generalisation of Poincaré Duality, framed in the language of combinatorial sheaves. Our treatment is self-contained and accessible for readers with a working knowledge of simplicial complexes and (co)homology. The main motivation is a link with Bieri-Eckmann duality for discrete groups, which is explored in a companion paper.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a duality theorem for Cohen-Macaulay simplicial complexes generalizing Poincaré Duality via combinatorial sheaves, with motivation toward Bieri-Eckmann duality for discrete groups. It makes no mention of communication complexity, configuration spaces, or protocol bounds, so it shares only the broad 'duality' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1111.0728",
+      "title": "Lefschetz type formulas for dg-categories",
+      "abstract_excerpt": "We prove an analog of the holomorphic Lefschetz formula for endofunctors of smooth compact dg-categories. We deduce from it a generalization of the Lefschetz formula of V. Lunts that takes the form of a reciprocity law for a pair of commuting endofunctors. As an application, we prove a version of Lefschetz formula proposed by Frenkel and Ngo. Also, we compute explicitly the ingredients of the holomorphic Lefschetz formula for the dg-category of matrix factorizations of an isolated singularity w(",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'holomorphic Lefschetz formula for endofunctors of smooth compact dg-categories' and matrix factorizations, with no mention of communication complexity, configuration spaces, or protocol bit bounds. It shares only the 'Lefschetz' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

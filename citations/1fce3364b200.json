@@ -1,0 +1,31 @@
+{
+  "entry_id": "1fce3364b200",
+  "ts": 1780179798.1322017,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:ARXIV:1808.01137",
+      "title": "When Does Hillclimbing Fail on Monotone Functions: An entropy compression argument",
+      "abstract_excerpt": "Hillclimbing is an essential part of any optimization algorithm. An important benchmark for hillclimbing algorithms on pseudo-Boolean functions $f: \\{0,1\\}^n \\to \\mathbb{R}$ are (strictly) montone functions, on which a surprising number of hillclimbers fail to be efficient. For example, the $(1+1)$-Evolutionary Algorithm is a standard hillclimber which flips each bit independently with probability $c/n$ in each round. Perhaps surprisingly, this algorithm shows a phase transition: it optimizes an",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns runtime analysis of the (1+1)-Evolutionary Algorithm on monotone pseudo-Boolean functions via 'Moser's entropy compression argument', which shares only superficial vocabulary ('entropy', 'Boolean functions') with the conjecture about Coxeter group generators and an n^(1/3) entropy bound.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:2311.07438",
+      "title": "Hardest Monotone Functions for Evolutionary Algorithms",
+      "abstract_excerpt": "In this paper we revisit the question how hard it can be for the (1+1)\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$$",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the hardness of monotone functions for the (1+1) evolutionary algorithm, which has no apparent connection to Coxeter group actions on Boolean function homomorphisms or entropy rate bounds of the form O(n^(1/3)).",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 0
+  }
+}

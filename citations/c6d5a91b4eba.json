@@ -1,0 +1,40 @@
+{
+  "entry_id": "c6d5a91b4eba",
+  "ts": 1780180410.3544762,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1607.00933",
+      "title": "Degenerations of Hodge structure",
+      "abstract_excerpt": "Two interesting questions in algebraic geometry are: (i) how can a smooth projective varieties degenerate? and (ii) given two such degenerations, when can we say that one is \"more singular/degenerate\" than the other? Schmid's Nilpotent Orbit Theorem yields Hodge-theoretic analogs of these questions, and the Hodge-theoretic answers in turn provide insight into the motivating algebro-geometric questions, sometimes with applications to the study of moduli. Recently the Hodge-theoretic questions hav",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes an expository survey on Hodge-theoretic degenerations of smooth projective varieties via Schmid's Nilpotent Orbit Theorem, with no mention of resolution proof trees, clauses, or combinatorial complexity bounds like Θ(n log n).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1801.10489",
+      "title": "Hodge level for weighted complete intersections",
+      "abstract_excerpt": "We give lower bounds for Hodge numbers of smooth well formed Fano weighted complete intersections. In particular, we compute their Hodge level, that is, the maximal distance between non-trivial Hodge numbers in the same row of the Hodge diamond. This allows us to classify varieties whose Hodge numbers are like that of a projective space, of a curve, or of a Calabi--Yau variety of low dimension.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Hodge numbers and Hodge level of weighted complete intersections in algebraic geometry, with no mention of resolution proof trees, clauses, or logical/combinatorial complexity claims. It shares only the 'Hodge' vocabulary but does not interact with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2102.03481",
+      "title": "Noncommutative Hodge conjecture",
+      "abstract_excerpt": "The paper provides a version of the rational Hodge conjecture for $\\3\\dg$ categories. The noncommutative Hodge conjecture is equivalent to the version proposed in \\cite{perry2020integral} for admissible subcategories. We obtain examples of evidence of the Hodge conjecture by techniques of noncommutative geometry. Finally, we show that the noncommutative Hodge conjecture for smooth proper connective $\\3\\dg$ algebras is true.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses a noncommutative version of the rational Hodge conjecture for dg categories, with no reference to resolution proof trees, clause counts, or proof-depth invariants. It shares only the vocabulary 'Hodge' with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
