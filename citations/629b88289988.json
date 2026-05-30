@@ -1,0 +1,40 @@
+{
+  "entry_id": "629b88289988",
+  "ts": 1780138499.719282,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/2604.21709v1",
+      "title": "Residues of a tropical zeta function for convex domains",
+      "abstract_excerpt": "We define an $\\operatorname{SL}_n(\\mathbb{Z})$-invariant tropical zeta function of a convex domain. In dimension 2 it admits boundary Dirichlet-series representation with summands indexed by Farey pairs. For $C^3$ strictly convex domains, it extends meromorphically to $\\Re(s)&gt;3/5$, holomorphic th",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns an SL_n(Z)-invariant tropical zeta function of convex domains with Dirichlet-series and meromorphic continuation properties, which shares only the word 'tropical' with the conjecture and does not address Boolean functions, Hodge indices, or resolution proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1901.05780v2",
+      "title": "Hodge filtration, minimal exponent, and local vanishing",
+      "abstract_excerpt": "We bound the generation level of the Hodge filtration on the localization along a hypersurface in terms of its minimal exponent. As a consequence, we obtain a local vanishing theorem for sheaves of forms with log poles. These results are extended to Q-divisors, and are derived from a result of indep",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Hodge filtration generation level bounded by minimal exponent of a hypersurface and local vanishing theorems for log-pole forms, with no mention of tropical geometry, Boolean functions, k-CNF, or resolution proof complexity. It shares only the word 'Hodge' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/0903.1378v2",
+      "title": "Mirror symmetry for P^2 and tropical geometry",
+      "abstract_excerpt": "This paper explores the relationship between mirror symmetry for P^2, at the level of big quantum cohomology, and tropical geometry. The mirror of P^2 is typically taken to be ((C^*)^2,W), where W is a Landau-Ginzburg potential of the form x+y+1/xy. The complex moduli space of the mirror is the univ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses mirror symmetry for P^2 and Landau-Ginzburg potentials in tropical geometry, with no mention of Boolean functions, k-CNF formulas, Hodge indices in the conjecture's sense, or resolution proof width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

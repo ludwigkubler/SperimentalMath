@@ -1,18 +1,18 @@
 {
-  "last_update_utc": "2026-05-30T10:47:10Z",
-  "total_cycles": 3797,
+  "last_update_utc": "2026-05-30T11:47:05Z",
+  "total_cycles": 3808,
   "verdict_counts": {
-    "INCONCLUSIVE": 2511,
+    "INCONCLUSIVE": 2515,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 1180,
+    "BARRIER_HIT": 1187,
     "SCOOPED": 86
   },
-  "unique_field_A": 1791,
+  "unique_field_A": 1794,
   "top_fields_A": [
     [
       "Algebraic Geometry (Hodge Theory)",
-      115
+      116
     ],
     [
       "Tropical Geometry",
@@ -52,7 +52,7 @@
     ],
     [
       "Combinatorial Geometry (Coxeter Groups)",
-      25
+      26
     ],
     [
       "Representation Theory of Symmetric Groups",

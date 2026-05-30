@@ -1,0 +1,31 @@
+{
+  "entry_id": "7890ffec5d38",
+  "ts": 1780140468.1132393,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.1109/TNS.2025.3602984",
+      "title": "A Compton Camera Resolution Enhancement by Increasing the Number of Sensors per Readout Channel",
+      "abstract_excerpt": "Compton camera (CC) detectors are widely used for gamma-ray source imaging. Various applications employing CC, such as in astronomy and homeland security (HLS), demand high spatial resolution in the reconstructed images. Spatial resolution is typically determined by the uncertainty in the positions of Compton scattering events within the camera, which depends on the size of the camera’s voxels. Enhancing resolution typically requires a large number of small voxels, which in turn requires a high ",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Compton camera spatial resolution enhancement via voxel grouping and MLEM reconstruction for gamma-ray imaging, with no connection to Coxeter groups, Boolean formulas, or resolution proof width. The word 'resolution' here refers to image resolution, not proof-system resolution.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:1602.04412",
+      "title": "Reductive groups, the loop Grassmannian, and the Springer resolution",
+      "abstract_excerpt": "In this paper we prove equivalences of categories relating the derived category of a block of the category of representations of a connected reductive algebraic group over an algebraically closed field of characteristic p bigger than the Coxeter number and a derived category of equivariant coherent ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns equivalences of derived categories for reductive algebraic groups, the loop Grassmannian, and the Springer resolution—it mentions the Coxeter number only as a characteristic bound and does not address local dimension of Coxeter groups or resolution proof width in Boolean complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 0
+  }
+}
