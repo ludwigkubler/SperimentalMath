@@ -1,0 +1,40 @@
+{
+  "entry_id": "1a6ddf451309",
+  "ts": 1780125503.3506043,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2501.06483",
+      "title": "Study of light-meson resonances decaying to $K^0_{\\rm S} K π$ in the $B \\to (K^0_{\\rm S} K π) K$ channels",
+      "abstract_excerpt": "A study is presented of $B^+ \\to K^0_{\\rm S} K^- π^+ K^-$ and $B^+ \\to K^0_{\\rm S} K^+ π^- K^+$ decays based on the analysis of proton-proton collision data collected with the LHCb detector at centre-of-mass energies of 7, 8 and 13 TeV, corresponding to an integrated luminosity of $9 fb^{-1}$. The $K^0_{\\rm S} K π$ invariant-mass distributions of both $B^+$ decay modes show, in the $m(K^0_{\\rm S} K π)&lt;1.85$ GeV mass region, large activity which is resolved using an amplitude analysis. A simpl",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes an LHCb particle physics study of B meson decays and light-meson resonances, with no connection to Tseitin formulas, treewidth, resolution proof complexity, or geometric invariants in the algebraic sense of the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:cs/0608054",
+      "title": "Dispersion of Mass and the Complexity of Randomized Geometric Algorithms",
+      "abstract_excerpt": "How much can randomness help computation? Motivated by this general question and by volume computation, one of the few instances where randomness provably helps, we analyze a notion of dispersion and connect it to asymptotic convex geometry. We obtain a nearly quadratic lower bound on the complexity of randomized volume algorithms for convex bodies in R^n (the current best algorithm has complexity roughly n^4, conjectured to be n^3). Our main tools, dispersion of random determinants and dispersi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses dispersion in randomized volume algorithms for convex bodies and lower bounds for matrix/property testing problems, with no mention of Tseitin formulas, treewidth, resolution proof width, or geometric invariants in the proof-complexity sense.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1210.6465",
+      "title": "Black-Box Complexity: Breaking the $O(n \\log n)$ Barrier of LeadingOnes",
+      "abstract_excerpt": "We show that the unrestricted black-box complexity of the $n$-dimensional XOR- and permutation-invariant LeadingOnes function class is $O(n \\log (n) / \\log \\log n)$. This shows that the recent natural looking $O(n\\log n)$ bound is not tight.\n  The black-box optimization algorithm leading to this bound can be implemented in a way that only 3-ary unbiased variation operators are used. Hence our bound is also valid for the unbiased black-box complexity recently introduced by Lehre and Witt (GECCO 2",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns black-box complexity of the LeadingOnes function class with bounds like O(n log n / log log n), which shares no interaction with Tseitin formulas, treewidth, resolution proof width, or geometric invariants.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

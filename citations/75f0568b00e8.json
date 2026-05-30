@@ -1,0 +1,40 @@
+{
+  "entry_id": "75f0568b00e8",
+  "ts": 1780125289.0143363,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2008.08529",
+      "title": "Non-commutative Geometry Indomitable",
+      "abstract_excerpt": "This paper is a very brief and gentle introduction to non-commutative geometry geared primarily towards physicists and geometers. It starts with a brief historical description of the motivation for non-commutative geometry and then goes on to motivate the subject from the point of view of the the understanding of local symmetries affordee by the theory of groupoids. The paper ends with a very rapid survey of recent developments and applications such as non-commutative toric geometry, the standar",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a 'brief and gentle introduction to non-commutative geometry' covering groupoids, toric geometry, the standard model, and the Riemann Hypothesis, with no mention of resolution proof complexity, random k-CNF, or cross section rank bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0303304v2",
+      "title": "Canonical systems and non-commutative geometry",
+      "abstract_excerpt": "Inspired by ideas from non-commutative geometry, unions of moduli spaces of linear control systems are identified as open subsets of infinite Grassmannians.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses moduli spaces of linear control systems as open subsets of infinite Grassmannians, with no mention of resolution proof complexity, k-CNF formulas, or cross section rank bounds. It shares only the 'non-commutative geometry' vocabulary.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1409.1337",
+      "title": "Categorical Non-commutative Geometry",
+      "abstract_excerpt": "The purpose of this short note was to outline the current status, then in 2011, of some research programs aiming at a categorification of parts of A.Connes' non-commutative geometry and to provide an outlook on some possible subsequent developments in categorical non-commutative geometry.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a survey of categorification programs in non-commutative geometry circa 2011, with no mention of random k-CNF formulas, resolution proof width, or local cross section rank bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
