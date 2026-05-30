@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-05-30T07:47:06Z",
-  "total_cycles": 3779,
+  "last_update_utc": "2026-05-30T08:47:05Z",
+  "total_cycles": 3788,
   "verdict_counts": {
-    "INCONCLUSIVE": 2500,
+    "INCONCLUSIVE": 2506,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 1173,
+    "BARRIER_HIT": 1176,
     "SCOOPED": 86
   },
-  "unique_field_A": 1783,
+  "unique_field_A": 1789,
   "top_fields_A": [
     [
       "Algebraic Geometry (Hodge Theory)",
@@ -59,15 +59,15 @@
       24
     ],
     [
+      "Combinatorial Geometry (Coxeter Groups)",
+      23
+    ],
+    [
       "Geometric Langlands Program",
       23
     ],
     [
       "Noncommutative Geometry",
-      22
-    ],
-    [
-      "p-adic Analysis",
       22
     ]
   ]
