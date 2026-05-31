@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-05-31T14:47:06Z",
-  "total_cycles": 4100,
+  "last_update_utc": "2026-05-31T15:47:06Z",
+  "total_cycles": 4115,
   "verdict_counts": {
-    "INCONCLUSIVE": 2694,
+    "INCONCLUSIVE": 2703,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 1300,
+    "BARRIER_HIT": 1306,
     "SCOOPED": 86
   },
-  "unique_field_A": 1886,
+  "unique_field_A": 1890,
   "top_fields_A": [
     [
       "Algebraic Geometry (Hodge Theory)",
@@ -24,7 +24,7 @@
     ],
     [
       "Symplectic Geometry",
-      75
+      77
     ],
     [
       "Free Probability Theory",
@@ -32,7 +32,7 @@
     ],
     [
       "Resolution proof complexity",
-      58
+      65
     ],
     [
       "Algebraic Combinatorics",

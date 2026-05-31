@@ -1,0 +1,40 @@
+{
+  "entry_id": "e696a3b5545e",
+  "ts": 1780241358.7875688,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1511.09051",
+      "title": "On automorphism groups of affine surfaces",
+      "abstract_excerpt": "This is a survey on the automorphism groups in various classes of affine algebraic surfaces and the algebraic group actions on such surfaces. Being infinite-dimensional, these automorphism groups share some important features of algebraic groups. At the same time, they can be studied from the viewpoint of the combinatorial group theory, so we put a special accent on group-theoretical aspects (ind-groups, amalgams, etc.). We provide different approaches to classification, prove certain new result",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns automorphism groups of affine algebraic surfaces and ind-group/amalgam structure, with no mention of twisted group representations, SAT instances, or clause complexity bounds. It shares only the generic vocabulary 'automorphism groups' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1505.06927",
+      "title": "Automorphism Groups of Configuration Spaces and Discriminant Varieties",
+      "abstract_excerpt": "The configuration space $\\mathcal{C}^n(X)$ of an algebraic curve $X$ is the algebraic variety consisting of all $n$-point subsets $Q\\subset X$. We describe the automorphisms of $\\mathcal{C}^n(\\mathbb{C})$, deduce that the (infinite dimensional) group Aut$\\,\\mathcal{C}^n(\\mathbb{C})$ is solvable, and obtain an analog of the Mostow decomposition in this group. The Lie algebra and the Makar-Limanov invariant of $\\mathcal{C}^n(\\mathbb{C})$ are also computed. We obtain similar results for the level h",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns automorphism groups of configuration spaces of algebraic curves and discriminant varieties, with no mention of twisted group representations, SAT instances, or clause complexity. It shares only the generic term 'automorphism groups' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1306.5842",
+      "title": "Automorphism groups of smooth plane curves",
+      "abstract_excerpt": "The author determines the structure of automorphism groups of smooth plane curves of degree at least four. Furthermore, he gives some upper bounds for the order of automorphism groups of smooth plane curves and classifies the cases with large automorphism groups. This paper also contains a simple proof of the uniqueness of smooth plane curves with the full automorphism group of maximal order for each degree.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns automorphism groups of smooth plane curves in algebraic geometry, with no mention of twisted group representations, SAT instances, or clause complexity. It shares only the generic term 'automorphism groups' but does not interact with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

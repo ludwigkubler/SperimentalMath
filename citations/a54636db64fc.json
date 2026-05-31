@@ -1,0 +1,40 @@
+{
+  "entry_id": "a54636db64fc",
+  "ts": 1780239344.5662699,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2012.15478",
+      "title": "N-quandles of links",
+      "abstract_excerpt": "The fundamental quandle is a powerful invariant of knots and links, but it is difficult to describe in detail. It is often useful to look at quotients of the quandle, especially finite quotients. One natural quotient introduced by Joyce is the $n$-quandle. Hoste and Shanahan gave a complete list of the knots and links which have finite $n$-quandles for some $n$. We introduce a generalization of $n$-quandles, denoted $N$-quandles (for a quandle with $k$ algebraic components, $N$ is a $k$-tuple of",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses N-quandles as quotient invariants of knots and links and their finiteness classification, with no mention of SAT instances, DPLL search trees, or complexity-theoretic bounds. It shares the 'quandle' vocabulary but does not interact with the conjecture's claim about minimal index and DPLL path length.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0905.3374",
+      "title": "Symmetric Extensions of Dihedral Quandles and Triple Points of Non-orientable Surfaces",
+      "abstract_excerpt": "Quandles with involutions that satisfy certain conditions, called good involutions, can be used to color non-orientable surface-knots. We use subgroups of signed permutation matrices to construct non-trivial good involutions on extensions of odd order dihedral quandles.\n  For the smallest example of order 6 that is an extension of the three-element dihedral quandle, various symmetric quandle homology groups are computed, and applications to the minimal triple point number of surface-knots are gi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns good involutions on dihedral quandle extensions and applications to triple point numbers of non-orientable surface-knots, with no mention of SAT, DPLL, or minimal index of quandle actions on assignments.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1808.06276",
+      "title": "On the knot quandle of the twist-spun trefoil",
+      "abstract_excerpt": "We show that the knot quandle of the $3$-, $4$-, or $5$-twist-spun trefoil is isomorphic to a quandle related to the $16$-, $24$-, or $600$-cell respectively. We further show that the cardinality of the knot quandle of the $m$-twist-spun trefoil is finite if and only if $1 \\leq m \\leq 5$. This phenomenon is attributable to the fact that the regular tessellation $\\{ 3, m \\}$, in the sense of the Schläfli symbol, consists of infinite triangles if $m$ is greater than or equal to 6.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the knot quandle of twist-spun trefoils and their relation to regular tessellations/polytopes ('isomorphic to a quandle related to the 16-, 24-, or 600-cell'), with no mention of SAT, DPLL, or computational complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

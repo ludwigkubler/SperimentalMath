@@ -1,0 +1,40 @@
+{
+  "entry_id": "ad371ca66afc",
+  "ts": 1780240844.5171852,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1904.05483",
+      "title": "Parallels Between Phase Transitions and Circuit Complexity?",
+      "abstract_excerpt": "In many natural average-case problems, there are or there are believed to be critical values in the parameter space where the structure of the space of solutions changes in a fundamental way. These phase transitions are often believed to coincide with drastic changes in the computational complexity of the associated problem.\n  In this work, we study the circuit complexity of inference in the broadcast tree model, which has important applications in phylogenetic reconstruction and close connectio",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns circuit complexity of belief propagation in broadcast tree models and phase transitions, with no mention of cubic surfaces, integer points, or CNF-associated arithmetic varieties. It shares only the broad theme of complexity but does not interact with the specific claim about #P(φ) bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2407.04826",
+      "title": "Multi-strategy Based Quantum Cost Reduction of Quantum Boolean Circuits",
+      "abstract_excerpt": "The construction of quantum computers is based on the synthesis of low-cost quantum circuits. The quantum circuit of any Boolean function expressed in a Positive Polarity Reed-Muller $PPRM$ expansion can be synthesized using Multiple-Control Toffoli ($MCT$) gates. This paper proposes two algorithms to construct a quantum circuit for any Boolean function expressed in a Positive Polarity Reed-Muller $PPRM$ expansion. The Boolean function can be expressed with various algebraic forms, so there are ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract is about synthesizing low-cost quantum circuits from Boolean functions in PPRM form using MCT/NCV gates, with no mention of cubic surfaces, integer points, or CNF point-counting bounds. It shares only the broad 'Boolean function' vocabulary and does not interact with the conjecture's claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0902.3203",
+      "title": "On the α-Invariants of Cubic Surfaces with Eckardt Points",
+      "abstract_excerpt": "In this paper, we show that the α_{m,2}-invariant of a smooth cubic surface with Eckardt points is strictly bigger than 2/3. This can be used to simplify Tian's original proof of the existence of Kaehler-Einstein metrics on such manifolds. We also sketch the computations on cubic surfaces with one ordinary double points, and outline the analytic difficulties to prove the existence of orbifold Kaehler-Einstein metrics.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns α-invariants and Kähler-Einstein metrics on smooth cubic surfaces with Eckardt points, a differential geometry/algebraic geometry topic with no mention of integer points, CNF formulas, or Boolean complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
