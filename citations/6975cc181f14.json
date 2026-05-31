@@ -1,0 +1,40 @@
+{
+  "entry_id": "6975cc181f14",
+  "ts": 1780249999.2042835,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2103.09609",
+      "title": "Characterizing Tseitin-formulas with short regular resolution refutations",
+      "abstract_excerpt": "Tseitin-formulas are systems of parity constraints whose structure is described by a graph. These formulas have been studied extensively in proof complexity as hard instances in many proof systems. In this paper, we prove that a class of unsatisfiable Tseitin-formulas of bounded degree has regular resolution refutations of polynomial length if and only if the treewidth of all underlying graphs $G$ for that class is in $O(\\log|V(G)|)$. To do so, we show that any regular resolution refutation of a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract characterizes regular resolution refutation length of Tseitin formulas via treewidth (2^Ω(tw(G))), but says nothing about comparing a width-aware cumulative literal weight Σ|C| against a count-based Φ or their scaling exponents.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2006.04124",
+      "title": "On the Complexity of Branching Proofs",
+      "abstract_excerpt": "We consider the task of proving integer infeasibility of a bounded convex $K$ in $\\mathbb{R}^n$ using a general branching proof system. In a general branching proof, one constructs a branching tree by adding an integer disjunction $\\mathbf{a} \\mathbf{x} \\leq b$ or $\\mathbf{a} \\mathbf{x} \\geq b+1$, $\\mathbf{a} \\in \\mathbb{Z}^n$, $b \\in \\mathbb{Z}$, at each node, such that the leaves of the tree correspond to empty sets (i.e., $K$ together with the inequalities picked up from the root to leaf is e",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses coefficient bit-size in stabbing planes, quasi-polynomial CP refutations of Tseitin formulas, and lower bounds for branching proofs — none of which discuss resolution width vs. clause-count exponents or a 'totalLiteralWeight' scaling comparison.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2402.00542",
+      "title": "Hardness of Random Reordered Encodings of Parity for Resolution and CDCL",
+      "abstract_excerpt": "Parity reasoning is challenging for Conflict-Driven Clause Learning (CDCL) SAT solvers. This has been observed even for simple formulas encoding two contradictory parity constraints with different variable orders (Chew and Heule 2020). We provide an analytical explanation for their hardness by showing that they require exponential resolution refutations with high probability when the variable order is chosen at random. We obtain this result by proving that these formulas, which are known to be T",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses exponential resolution lower bounds for random reordered parity/Tseitin formulas via linear treewidth, with no discussion of comparing a width-aware total literal weight exponent versus a count-based Φ exponent. It shares the Tseitin/resolution vocabulary but does not interact with the specific claim about width amplifying cumulative weight scaling.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

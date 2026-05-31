@@ -1,0 +1,40 @@
+{
+  "entry_id": "c6d096039c04",
+  "ts": 1780253110.4963353,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1204.1444",
+      "title": "Computing the minimum rank of a loop directed tree",
+      "abstract_excerpt": "The minimum rank of a graph is the minimum possible rank of a real matrix whose zero-nonzero pattern is described by the graph. The current algorithms can compute efficiently the minimum rank of undirected trees. This paper provides an algorithm to compute in polynomial time the minimum rank of directed trees allowing loops.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'minimum rank of a loop directed tree' as a graph-theoretic matrix problem, sharing only the vague vocabulary of 'minimum rank' with the conjecture; it does not address Hodge modules, Boolean circuits, or DPLL search trees.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1901.05780",
+      "title": "Hodge filtration, minimal exponent, and local vanishing",
+      "abstract_excerpt": "We bound the generation level of the Hodge filtration on the localization along a hypersurface in terms of its minimal exponent. As a consequence, we obtain a local vanishing theorem for sheaves of forms with log poles. These results are extended to Q-divisors, and are derived from a result of independent interest on the generation level of the Hodge filtration on nearby and vanishing cycles.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses bounding the generation level of the Hodge filtration via minimal exponents and local vanishing theorems for hypersurfaces and Q-divisors, with no mention of Boolean circuits, DPLL, or SAT-solving complexity. It shares only the 'Hodge' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1801.10489",
+      "title": "Hodge level for weighted complete intersections",
+      "abstract_excerpt": "We give lower bounds for Hodge numbers of smooth well formed Fano weighted complete intersections. In particular, we compute their Hodge level, that is, the maximal distance between non-trivial Hodge numbers in the same row of the Hodge diamond. This allows us to classify varieties whose Hodge numbers are like that of a projective space, of a curve, or of a Calabi--Yau variety of low dimension.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses Hodge numbers and Hodge level of weighted complete intersections in algebraic geometry, with no reference to Boolean circuits, DPLL search, or computational complexity. It shares the 'Hodge' vocabulary but does not interact with the conjectured correlation.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

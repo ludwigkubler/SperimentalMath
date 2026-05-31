@@ -1,0 +1,40 @@
+{
+  "entry_id": "0a136269a2dc",
+  "ts": 1780252631.8455248,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2510.02249",
+      "title": "Explore Briefly, Then Decide: Mitigating LLM Overthinking via Cumulative Entropy Regulation",
+      "abstract_excerpt": "Large Language Models (LLMs) have demonstrated remarkable reasoning abilities on complex problems using long Chain-of-Thought (CoT) reasoning. However, they often suffer from overthinking, meaning generating unnecessarily lengthy reasoning steps for simpler problems. This issue may degrade the efficiency of the models and make them difficult to adapt the reasoning depth to the complexity of problems. To address this, we introduce a novel metric Token Entropy Cumulative Average (TECA), which meas",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns LLM reasoning efficiency via a 'Token Entropy Cumulative Average' metric, sharing only the surface vocabulary 'cumulative entropy' with the conjecture about Tseitin formula proof complexity and balanced separator size bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2603.12040",
+      "title": "Entropic signatures of market response under concentrated policy communication",
+      "abstract_excerpt": "The first 100 days of Donald Trump second presidential term (January 20th - April 30th, 2025) featured policy actions with potential market repercussions, constituting a well-suited case study of a concentrated policy scenario. Here, we provide a first look at this period, rooted in the information theory, by analyzing major stock indices across the Americas, Europe as well as Asia and Oceania. Our approach jointly examines dispersion (standard deviation) and information complexity (entropy), bu",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'sliding window cumulative entropy' applied to financial market indices under policy events, sharing only the vocabulary 'cumulative entropy' with the conjecture about resolution proof complexity and balanced separators in Tseitin formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2603.22248",
+      "title": "Confidence-Based Decoding is Provably Efficient for Diffusion Language Models",
+      "abstract_excerpt": "Diffusion language models (DLMs) have emerged as a promising alternative to autoregressive (AR) models for language modeling, allowing flexible generation order and parallel generation of multiple tokens. However, this flexibility introduces a challenge absent in AR models: the \\emph{decoding strategy} -- which determines the order and number of tokens generated at each iteration -- critically affects sampling efficiency. Among decoding strategies explored in practice, confidence-based methods, ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns confidence-based decoding for diffusion language models and uses 'cumulative entropy' as a sampling threshold, sharing only superficial vocabulary with the conjecture about cumulative entropy Φ(π) in resolution proof complexity for Tseitin formulas with balanced separators.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

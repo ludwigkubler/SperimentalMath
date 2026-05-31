@@ -1,0 +1,40 @@
+{
+  "entry_id": "8b1e34132025",
+  "ts": 1780250703.4548225,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.4230/LIPIcs.MFCS.2019.49",
+      "title": "Bounded-depth Frege complexity of Tseitin formulas for all graphs",
+      "abstract_excerpt": "We prove that there is a constant K such that Tseitin formulas for an undirected graph G requires proofs of size 2twpGq Ωp1{dq in depth-d Frege systems for d ă K logn log logn , where twpGq is the treewidth of G. This extends H̊astad recent lower bound for the grid graph to any graph. Furthermore, we prove tightness of our bound up to a multiplicative constant in the top exponent. Namely, we show that if a Tseitin formula for a graph G has size s, then for all large enough d, it has a depth-d Fr",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses bounded-depth Frege proof size lower/upper bounds in terms of treewidth, not the entropy measure Φ(π) of resolution proofs or a separation by graph expansion between expanders and path/tree graphs.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:2103.09609",
+      "title": "Characterizing Tseitin-formulas with short regular resolution refutations",
+      "abstract_excerpt": "Tseitin-formulas are systems of parity constraints whose structure is described by a graph. These formulas have been studied extensively in proof complexity as hard instances in many proof systems. In this paper, we prove that a class of unsatisfiable Tseitin-formulas of bounded degree has regular r",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract mentions a class of bounded-degree Tseitin formulas having regular resolution refutations of some size, but is truncated before stating the bound or whether it characterizes the expander vs. tree separation in terms of the entropy measure Φ(π). Cannot determine support or refutation of the specific exp(Ω(n)) vs poly(n) entropy claim from this snippet.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10.1007/978-3-642-38536-0_14",
+      "title": "Graph Expansion, Tseitin Formulas and Resolution Proofs for CSP",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available ('no abstract available'), so I cannot assess whether the paper's content supports, refutes, or is orthogonal to the conjecture about Φ(π) separation by graph expansion.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "entry_id": "e0e6b0e49868",
+  "ts": 1780251361.5315804,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:d91fb493871789d35aa7f87997ce538c1320dfc7",
+      "title": "Quantitative imaging of the complexity in liquid bubblesâ€TM evolution reveals the dynamics of film retraction",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper concerns physical imaging of liquid bubble film retraction dynamics, which has no relation to resolution proof complexity or Tseitin formulas. No abstract is available, but the title alone makes clear the topics do not interact.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10.24033/BSMF.2220",
+      "title": "Complexity of sequences defined by billiard in the cube",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available for the cited paper, and the title ('Complexity of sequences defined by billiard in the cube') concerns combinatorics on words/symbolic dynamics rather than resolution proof complexity, so I cannot assess interaction with the conjecture from the provided material.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}
