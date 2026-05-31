@@ -2714,3 +2714,4 @@
 {"ts": 1780209011.5100868, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 35}}
 {"ts": 1780209012.182863, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1777, "cap": 2000, "fraction": 0.888, "weekly_budget": 2500}}
 {"ts": 1780210235.118476, "ts_iso": "2026-05-31T06:50:35.118476+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "OK", "to_status": "DEGRADED", "failing_checks": ["gpu"], "auto_fixed": false}
+{"ts": 1780210503.485432, "ts_iso": "2026-05-31T06:55:03.485432+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "DEGRADED", "to_status": "OK", "failing_checks": [], "auto_fixed": false}
