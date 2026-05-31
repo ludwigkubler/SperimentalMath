@@ -1,0 +1,40 @@
+{
+  "entry_id": "887e0a8e37b8",
+  "ts": 1780261727.2422,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/0709.0640v1",
+      "title": "Algebraic theta functions and Eisenstein-Kronecker numbers",
+      "abstract_excerpt": "In this paper, we give an overview of our previous paper concerning the investigation of the algebraic and $p$-adic properties of Eisenstein-Kronecker numbers using Mumford's theory of algebraic theta functions.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses algebraic theta functions and Eisenstein-Kronecker numbers, with no mention of Boolean functions, communication complexity, or root separability of varieties associated with Boolean functions.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0404268v2",
+      "title": "Simultaneous approximation by conjugate algebraic numbers in fields of transcendence degree one",
+      "abstract_excerpt": "We present a general result of simultaneous approximation to several transcendental real, complex or p-adic numbers xi_1,...,xi_t by conjugate algebraic numbers of bounded degree over Q, provided that the given transcendental numbers xi_1,...,xi_t generate over Q a field of transcendence degree one.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'simultaneous approximation to several transcendental real, complex or p-adic numbers by conjugate algebraic numbers,' which concerns Diophantine approximation, not communication complexity of Boolean functions or root separability of varieties associated with them.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1611.00827v2",
+      "title": "Geometric complexity theory and matrix powering",
+      "abstract_excerpt": "Valiant's famous determinant versus permanent problem is the flagship problem in algebraic complexity theory. Mulmuley and Sohoni (Siam J Comput 2001, 2008) introduced geometric complexity theory, an approach to study this and related problems via algebraic geometry and representation theory. Their ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses geometric complexity theory applied to Valiant's determinant vs permanent problem in algebraic complexity, not communication complexity nor root separability of Boolean function varieties. It shares the broad 'algebra meets complexity' framing but does not interact with the specific C(f) = Θ(min_root_separability(V_f)) claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

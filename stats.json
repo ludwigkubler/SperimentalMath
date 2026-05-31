@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-05-31T20:47:06Z",
-  "total_cycles": 4203,
+  "last_update_utc": "2026-05-31T21:47:05Z",
+  "total_cycles": 4218,
   "verdict_counts": {
-    "INCONCLUSIVE": 2761,
+    "INCONCLUSIVE": 2766,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 1336,
+    "BARRIER_HIT": 1346,
     "SCOOPED": 86
   },
-  "unique_field_A": 1892,
+  "unique_field_A": 1895,
   "top_fields_A": [
     [
       "Resolution proof complexity",
@@ -20,7 +20,7 @@
     ],
     [
       "Tropical Geometry",
-      96
+      97
     ],
     [
       "Real Algebraic Geometry",
@@ -36,7 +36,7 @@
     ],
     [
       "Algebraic Combinatorics",
-      42
+      43
     ],
     [
       "Schur-Weyl Duality",

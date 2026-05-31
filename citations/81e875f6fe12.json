@@ -1,0 +1,31 @@
+{
+  "entry_id": "81e875f6fe12",
+  "ts": 1780262540.414111,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:2411.02936",
+      "title": "Conditional Complexity Hardness: Monotone Circuit Size, Matrix Rigidity, and Tensor Rank Under NSETH and Beyond",
+      "abstract_excerpt": "Proving complexity lower bounds remains a challenging task: we only know how to prove conditional uniform lower bounds and nonuniform lower bounds in restricted circuit models. Williams (STOC 2010) showed how to derive nonuniform lower bounds from uniform upper bounds: by designing a fast algorithm ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses conditional complexity lower bounds for monotone circuit size, matrix rigidity, and tensor rank via uniform upper bounds (Williams' technique), with no mention of Coxeter groups or generator counts. It shares the 'boolean circuit complexity' framework but does not interact with the specific claim about g(C) = Θ(m^{0.5}).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:ARXIV:2302.03977",
+      "title": "On the circuit diameter conjecture for counterexamples to the Hirsch conjecture",
+      "abstract_excerpt": "Circuit diameters of polyhedra are a fundamental tool for studying the complexity of circuit augmentation schemes for linear programming and for finding lower bounds on combinatorial diameters. The main open problem in this area is the circuit diameter conjecture, the analogue of the Hirsch conjecture in the circuit setting. A natural question is whether the well-known counterexamples to the Hirsch conjecture carry over. Previously, Stephen and Yusun showed that the Klee-Walkup counterexample to",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns circuit diameters of polyhedra and the Hirsch conjecture in linear programming, not Boolean circuit complexity or Coxeter group generators. The shared word 'circuit' refers to a different mathematical concept entirely.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 0
+  }
+}
