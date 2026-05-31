@@ -1,0 +1,40 @@
+{
+  "entry_id": "20d7b79b9bd5",
+  "ts": 1780214737.7487829,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2112.04791",
+      "title": "Kähler-Einstein metrics and Archimedean zeta functions",
+      "abstract_excerpt": "While the existence of a unique Kähler-Einstein metric on a canonically polarized manifold X was established by Aubin and Yau already in the 70s there are only a few explicit formulas available. In previous work a probabilistic construction of the Kähler-Einstein metric was introduced - involving canonical random point processes on X - which yields canonical approximations of the Kähler-Einstein metric, expressed as explicit period integrals over a large number of products of X. Here it is shown",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Archimedean zeta functions in the context of Kähler-Einstein metrics, Fano varieties, and Langlands program L-functions, with no mention of SAT, DPLL, or computational complexity. It shares the 'zeta function' vocabulary but does not interact with the claim about DPLL path length.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2008.08149",
+      "title": "The Distribution Relation and Inverse Function Theorem in Arithmetic Geometry",
+      "abstract_excerpt": "We study arithmetic distribution relations and the inverse function theorem in algebraic and arithmetic geometry, with an emphasis on versions that can be applied uniformly across families of varieties and maps. In particular, we prove two explicit versions of the inverse function theorem, the first via general distribution and separation inequalities that may be of independent interest, the second via a careful implementation of classical Newton iteration.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'arithmetic distribution relations and the inverse function theorem in algebraic and arithmetic geometry,' with no mention of local zeta functions, SAT, or DPLL search trees. It shares only the broad 'arithmetic geometry' framework but does not interact with the specific conjectured correlation.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1305.3933",
+      "title": "Truncated Infinitesimal Shifts, Spectral Operators and Quantized Universality of the Riemann Zeta Function",
+      "abstract_excerpt": "We survey some of the universality properties of the Riemann zeta function $ζ(s)$ and then explain how to obtain a natural quantization of Voronin's universality theorem (and of its various extensions). Our work builds on the theory of complex fractal dimensions for fractal strings developed by the second author and M. van Frankenhuijsen in \\cite{La-vF4}. It also makes an essential use of the functional analytic framework developed by the authors in \\cite{HerLa1} for rigorously studying the spec",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses quantization of universality theorems for the Riemann zeta function and spectral operators on fractal strings, with no mention of SAT instances, DPLL search trees, or local zeta function size as a complexity measure. It shares only the vocabulary 'zeta function' with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

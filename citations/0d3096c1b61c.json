@@ -1,0 +1,40 @@
+{
+  "entry_id": "0d3096c1b61c",
+  "ts": 1780215716.4419942,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1511.09051",
+      "title": "On automorphism groups of affine surfaces",
+      "abstract_excerpt": "This is a survey on the automorphism groups in various classes of affine algebraic surfaces and the algebraic group actions on such surfaces. Being infinite-dimensional, these automorphism groups share some important features of algebraic groups. At the same time, they can be studied from the viewpoint of the combinatorial group theory, so we put a special accent on group-theoretical aspects (ind-groups, amalgams, etc.). We provide different approaches to classification, prove certain new result",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns automorphism groups of affine algebraic surfaces studied as ind-groups and amalgams, sharing only the vocabulary 'automorphism groups' with the conjecture; it makes no contact with finite graphs, Tseitin formulas, or formula size.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/q-alg/9712029v3",
+      "title": "Quasi-Hopf twistors for elliptic quantum groups",
+      "abstract_excerpt": "The Yang-Baxter equation admits two classes of elliptic solutions, the vertex type and the face type. On the basis of these solutions, two types of elliptic quantum groups have been introduced (Foda et al., Felder). Fronsdal made a penetrating observation that both of them are quasi-Hopf algebras, o",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Yang-Baxter equations, elliptic quantum groups, and quasi-Hopf algebras, which has no interaction with automorphism group orders of regular graphs or Tseitin formula complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2104.14760",
+      "title": "Automorphism and outer automorphism groups of Right-angled Artin groups are not relatively hyperbolic",
+      "abstract_excerpt": "We show that the automorphism groups of right-angled Artin groups whose defining graphs have at least 3 vertices are not relatively hyperbolic. We then show that the outer automorphism groups are not relatively hyperbolic, if they are not virtually isomorphic to a right-angled Artin group whose defining graph is either a single vertex or disconnected.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses relative hyperbolicity of automorphism groups of right-angled Artin groups, which shares the 'automorphism group' vocabulary but does not address minimal orders of automorphism groups of finite d-regular graphs or Tseitin formula complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

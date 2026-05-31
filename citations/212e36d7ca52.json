@@ -1,0 +1,40 @@
+{
+  "entry_id": "212e36d7ca52",
+  "ts": 1780215399.3963165,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2103.09609",
+      "title": "Characterizing Tseitin-formulas with short regular resolution refutations",
+      "abstract_excerpt": "Tseitin-formulas are systems of parity constraints whose structure is described by a graph. These formulas have been studied extensively in proof complexity as hard instances in many proof systems. In this paper, we prove that a class of unsatisfiable Tseitin-formulas of bounded degree has regular resolution refutations of polynomial length if and only if the treewidth of all underlying graphs $G$ for that class is in $O(\\log|V(G)|)$. To do so, we show that any regular resolution refutation of a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract characterizes regular resolution refutation length for Tseitin formulas via treewidth and DNNF size ('length $2^{Ω(tw(G))}/|V(G)|$'), but says nothing about resolution width or about root separation of an associated polynomial, so it neither supports nor refutes the specific width/root-count correlation claimed.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0803.2311",
+      "title": "A bijective proof of a factorization formula for Macdonald polynomials at roots of unity",
+      "abstract_excerpt": "We give a combinatorial proof of the factorization formula of modified Macdonald polynomials when the parameter t is specialized at a primitive root of unity. Our proof is restricted to the special case of partitions with 2 columns. We mainly use the combinatorial interpretation of Haglund, Haiman and Loehr giving the expansion of the modified Macdonald polynomials on the monomial basis.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a combinatorial proof of a factorization formula for Macdonald polynomials at roots of unity, with no mention of Tseitin formulas, resolution proof width, or root separation of associated polynomials.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1606.04613",
+      "title": "A Nekrasov-Okounkov formula for Macdonald polynomials",
+      "abstract_excerpt": "We prove a Macdonald polynomial analogue of the celebrated Nekrasov-Okounkov hook-length formula from the theory of random partitions. As an application we obtain a proof of one of the main conjectures of Hausel and Rodriguez-Villegas from their work on mixed Hodge polynomials of the moduli space of stable Higgs bundles on Riemann surfaces.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a Macdonald polynomial analogue of the Nekrasov-Okounkov hook-length formula and its application to mixed Hodge polynomials of Higgs bundle moduli spaces, with no mention of Tseitin formulas, resolution proof width, or root separation of associated polynomials.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
