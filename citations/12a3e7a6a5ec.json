@@ -1,0 +1,40 @@
+{
+  "entry_id": "12a3e7a6a5ec",
+  "ts": 1780202644.6016624,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1902.04564",
+      "title": "Time's Arrow in a Quantum Universe: On the Status of Statistical Mechanical Probabilities",
+      "abstract_excerpt": "In a quantum universe with a strong arrow of time, it is standard to postulate that the initial wave function started in a particular macrostate--the special low-entropy macrostate selected by the Past Hypothesis. Moreover, there is an additional postulate about statistical mechanical probabilities according to which the initial wave function is a \"typical\" choice in the macrostate (the Statistical Postulate). Together, they support a probabilistic version of the Second Law of Thermodynamics: ty",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses quantum statistical mechanics, the Past Hypothesis, and density matrices for the initial state of the universe, with no mention of Boolean functions, satisfying assignments, or computational complexity. It shares only the broad word 'entropy' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1011.3516",
+      "title": "A statistical-mechanical view on source coding: physical compression and data compression",
+      "abstract_excerpt": "We draw a certain analogy between the classical information-theoretic problem of lossy data compression (source coding) of memoryless information sources and the statistical mechanical behavior of a certain model of a chain of connected particles (e.g., a polymer) that is subjected to a contracting force. The free energy difference pertaining to such a contraction turns out to be proportional to the rate-distortion function in the analogous data compression model, and the contracting force is pr",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses an analogy between lossy data compression (rate-distortion) and statistical mechanics of a contracting polymer chain, with no mention of Boolean functions, satisfying assignments, or entropic complexity measures of Boolean functions.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2401.02977",
+      "title": "Open Problems within Nonextensive Statistical Mechanics",
+      "abstract_excerpt": "Nonextensive Statistical Mechanics has developed into an important framework for modeling the thermodynamics of complex systems and the information of complex signals. Upon the 80th birthday of the field's founder, Constantino Tsallis, a review of open problems that can stimulate future research is provided. Over the thirty-year development of NSM a variety of criticisms have been published ranging from questions about the justification for generalizing the entropy function to interpretation of ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses open problems in nonextensive statistical mechanics (Tsallis q-statistics, generalized entropy, Fourier transforms) with no mention of Boolean functions, satisfying assignments, or complexity-theoretic claims about logarithmic growth rates. The shared 'entropy/complexity' vocabulary does not interact with the specific conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

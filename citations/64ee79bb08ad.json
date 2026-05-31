@@ -1,0 +1,40 @@
+{
+  "entry_id": "64ee79bb08ad",
+  "ts": 1780201722.8803692,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2112.04791",
+      "title": "Kähler-Einstein metrics and Archimedean zeta functions",
+      "abstract_excerpt": "While the existence of a unique Kähler-Einstein metric on a canonically polarized manifold X was established by Aubin and Yau already in the 70s there are only a few explicit formulas available. In previous work a probabilistic construction of the Kähler-Einstein metric was introduced - involving canonical random point processes on X - which yields canonical approximations of the Kähler-Einstein metric, expressed as explicit period integrals over a large number of products of X. Here it is shown",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Kähler-Einstein metrics, Archimedean zeta functions, and zero-free properties relevant to Fano varieties and the Langlands program — it makes no statement about CNF formulas, communication complexity, or size bounds on local zeta functions of Boolean formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2111.12700",
+      "title": "Universality in long-distance geometry and quantum complexity",
+      "abstract_excerpt": "In physics, two systems that radically differ at short scales can exhibit strikingly similar macroscopic behaviour: they are part of the same long-distance universality class. Here we apply this viewpoint to geometry and initiate a program of classifying homogeneous metrics on group manifolds by their long-distance properties. We show that many metrics on low-dimensional Lie groups have markedly different short-distance properties but nearly identical distance functions at long distances, and pr",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses long-distance universality in Riemannian complexity geometry for quantum computation, with no mention of local zeta functions, CNF formulas, communication complexity, or PSPACE bounds. It shares only the broad word 'complexity' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0903.1238",
+      "title": "Motivic Zeta Functions for Curve Singularities",
+      "abstract_excerpt": "Let X be a complete, geometrically irreducible, singular, algebraic curve defined over a field of characteristic p big enough. Given a local ring O_{P,X} at a rational singular point P of X, we attached a universal zeta function which is a rational function and admits a functional equation if O_{P,X} is Gorenstein. This universal zeta function specializes to other known zeta functions and Poincare series attached to singular points of algebraic curves. In particular, for the local ring attached ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns universal/motivic zeta functions for singular points on algebraic curves and their functional equations under Gorenstein conditions, with no mention of CNF formulas, communication complexity, or PSPACE. It shares only the 'local zeta function' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
