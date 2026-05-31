@@ -1,0 +1,40 @@
+{
+  "entry_id": "d9aac1dcdf11",
+  "ts": 1780227730.3429992,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2512.02348",
+      "title": "Adjoint motives of modular forms and the Tamagawa number conjecture",
+      "abstract_excerpt": "Let $f$ be a newform of weight $k\\geq 2$, level $N$ with coefficients in a number field $K$, and $A$ the adjoint motive of the motive $M$ associated to $f$. We carefully discuss the construction of the realisations of $M$ and $A$, as well as natural integral structures in these realisations. We then use the method of Taylor and Wiles to verify the $λ$-part of the Tamagawa number conjecture of Bloch and Kato for $L(A,0)$ and $L(A,1)$. Here $λ$ is any prime of $K$ not dividing $Nk!$, and so that t",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the Tamagawa number conjecture for adjoint motives of modular forms via Taylor-Wiles methods; it says nothing about CNF formulas, SAT clause counts, or any combinatorial bound like |L| = Θ(m^(1/3)).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1004.0653",
+      "title": "Exact Ramsey Theory: Green-Tao numbers and SAT",
+      "abstract_excerpt": "We consider the links between Ramsey theory in the integers, based on van der Waerden's theorem, and (boolean, CNF) SAT solving. We aim at using the problems from exact Ramsey theory, concerned with computing Ramsey-type numbers, as a rich source of test problems, where especially methods for solving hard problems can be developed. In order to control the growth of the problem instances, we introduce \"transversal extensions\" as a natural way of constructing mixed parameter tuples (k_1, ..., k_m)",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Ramsey-type numbers (van der Waerden, Green-Tao) and SAT encodings, with no mention of modular forms, cusp forms, or levels associated with CNF formulas. It shares only the SAT vocabulary and does not interact with the specific modular-form claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1505.03340",
+      "title": "HordeSat: A Massively Parallel Portfolio SAT Solver",
+      "abstract_excerpt": "A simple yet successful approach to parallel satisfiability (SAT) solving is to run several different (a portfolio of) SAT solvers on the input problem at the same time until one solver finds a solution. The SAT solvers in the portfolio can be instances of a single solver with different configuration settings. Additionally the solvers can exchange information usually in the form of clauses. In this paper we investigate whether this approach is applicable in the case of massively parallel SAT sol",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a massively parallel portfolio SAT solver (HordeSat) and its empirical scalability, with no mention of modular forms, cusp form levels, or asymptotic clause-to-level relationships.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

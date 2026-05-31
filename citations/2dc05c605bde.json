@@ -1,0 +1,40 @@
+{
+  "entry_id": "2dc05c605bde",
+  "ts": 1780225855.8066027,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1611.00805",
+      "title": "High harmonic generation from bulk diamond driven by intense femtosecond laser pulse",
+      "abstract_excerpt": "We present theoretical results on the high-harmonic generation (HHG) in bulk diamond induced by intense laser pulse of wavelength 800 nm and duration 15 fs. For laser intensity in the range $1 \\le I \\le 50 $ TW/cm$^2$ above bandgap harmonics are generated after the pulse peak. We find that the intensity of individual harmonics increases non-linearly with the peak laser intensity, following a non-perturbative trend. For moderate intensity the HHG spectrum exhibits a primary plateau with noisy odd",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns high-harmonic generation in bulk diamond crystals driven by femtosecond lasers, sharing only the word 'diamond' with the conjecture; it has no relation to Hodge diamonds, Tseitin formulas, or resolution proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1801.10489v3",
+      "title": "Hodge level for weighted complete intersections",
+      "abstract_excerpt": "We give lower bounds for Hodge numbers of smooth well formed Fano weighted complete intersections. In particular, we compute their Hodge level, that is, the maximal distance between non-trivial Hodge numbers in the same row of the Hodge diamond. This allows us to classify varieties whose Hodge numbe",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Hodge numbers and Hodge level of smooth Fano weighted complete intersections, with no mention of Tseitin formulas, resolution proof width, or graph-associated constructions. It shares only the 'Hodge diamond' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2102.03481v3",
+      "title": "Noncommutative Hodge conjecture",
+      "abstract_excerpt": "The paper provides a version of the rational Hodge conjecture for $\\3\\dg$ categories. The noncommutative Hodge conjecture is equivalent to the version proposed in \\cite{perry2020integral} for admissible subcategories. We obtain examples of evidence of the Hodge conjecture by techniques of noncommuta",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a noncommutative version of the rational Hodge conjecture for dg categories, with no mention of Tseitin formulas, resolution proof width, or any connection to propositional proof complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

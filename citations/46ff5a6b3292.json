@@ -1,0 +1,22 @@
+{
+  "entry_id": "46ff5a6b3292",
+  "ts": 1780227426.474398,
+  "hits_evaluated": 1,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2209.08813",
+      "title": "Cactus groups, twin groups, and right-angled Artin groups",
+      "abstract_excerpt": "Cactus groups Jn are currently attracting considerable interest from diverse mathematical communities. This work explores their relations to right-angled Coxeter groups, and in particular twin groups Twn and Mostovoy's Gauss diagram groups Dn, which are better understood. Concretely, we construct an injective group 1-cocycle from Jn to Dn, and show that Twn (and its k-leaf generalisations) inject into Jn. As a corollary, we solve the word problem for cactus groups, determine their torsion (which",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses cactus groups, twin groups, and right-angled Coxeter groups with results on word problems, torsion, and center—it shares the 'Coxeter group' vocabulary but says nothing about communication complexity or generator-count bounds related to Ackermann functions.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 0
+  }
+}

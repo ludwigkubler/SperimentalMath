@@ -1,0 +1,40 @@
+{
+  "entry_id": "39d8c2bee6d2",
+  "ts": 1780225081.40035,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0510146v2",
+      "title": "Matrix Representation of Operators Using Frames",
+      "abstract_excerpt": "In this paper it is investigated how to find a matrix representation of operators on a Hilbert space with Bessel sequences, frames and Riesz bases. In many applications these sequences are often preferable to orthonormal bases (ONBs). Therefore it is useful to extend the known method of matrix repre",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns matrix representations of operators on Hilbert spaces using frames, Bessel sequences, and Riesz bases — it does not address algebraic K-theory rank, Boolean circuits, or d-regular graphs. It shares only the generic term 'matrix representation' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2312.00361",
+      "title": "Matrix representations of linear transformations on bicomplex space",
+      "abstract_excerpt": "An algebraic investigation on bicomplex numbers is carried out here. Particularly matrices and linear maps defined on them are discussed. A new kind of cartesian product, referred to as an idempotent product, is introduced and studied. The elements of this space are linear maps of a special form. These linear maps are examined with respect to usual notions like kernel, range, and singularity. Their matrix representation is also discussed.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses matrix representations of linear maps on bicomplex numbers and an 'idempotent product,' with no mention of algebraic K-theory rank, d-regular graphs, or boolean circuit entanglement complexity. It shares only the generic term 'matrix representation' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:cs/0701105",
+      "title": "A Delta Debugger for ILP Query Execution",
+      "abstract_excerpt": "Because query execution is the most crucial part of Inductive Logic Programming (ILP) algorithms, a lot of effort is invested in developing faster execution mechanisms. These execution mechanisms typically have a low-level implementation, making them hard to debug. Moreover, other factors such as the complexity of the problems handled by ILP algorithms and size of the code base of ILP data mining systems make debugging at this level a very difficult job. In this work, we present the trace-based ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a delta debugger for ILP query execution in the hipP engine, which shares no vocabulary or subject matter with algebraic K-theory, d-regular graphs, or boolean circuit entanglement complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

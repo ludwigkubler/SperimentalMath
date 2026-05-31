@@ -1,0 +1,22 @@
+{
+  "entry_id": "d7c8c75e5a56",
+  "ts": 1780226922.785664,
+  "hits_evaluated": 1,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2505.18460",
+      "title": "Mapping between Spin-Glass Three-Dimensional (3D) Ising Model and Boolean Satisfiability Problem",
+      "abstract_excerpt": "The common feature for a nontrivial hard problem is the existence of nontrivial topological structures, non-planarity graphs, nonlocalities, or long-range spin entanglements in a model system with randomness. For instance, the Boolean satisfiability (K-SAT) problems are nontrivial, due to the existence of non-planarity graphs, nonlocalities, and the randomness. In this work, the relation between a spin-glass three-dimensional (3D) Ising model with the lattice size N = mnl and the K-SAT problems ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns mapping spin-glass 3D Ising models to K-SAT via Clifford algebra representations and proving equivalences about the 'absolute minimum core' model, not the rank of noncommutative polynomial representations of CNF formulas or its relation to clause complexity c(φ).",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 0
+  }
+}
