@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-05-31T00:47:05Z",
-  "total_cycles": 3969,
+  "last_update_utc": "2026-05-31T01:47:13Z",
+  "total_cycles": 3975,
   "verdict_counts": {
-    "INCONCLUSIVE": 2616,
+    "INCONCLUSIVE": 2621,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 1247,
+    "BARRIER_HIT": 1248,
     "SCOOPED": 86
   },
-  "unique_field_A": 1835,
+  "unique_field_A": 1837,
   "top_fields_A": [
     [
       "Algebraic Geometry (Hodge Theory)",
@@ -48,7 +48,7 @@
     ],
     [
       "Matroid Theory",
-      36
+      37
     ],
     [
       "Free Probability",
