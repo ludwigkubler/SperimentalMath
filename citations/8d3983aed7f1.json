@@ -1,0 +1,40 @@
+{
+  "entry_id": "8d3983aed7f1",
+  "ts": 1780212286.7013679,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0610166v2",
+      "title": "Generic vanishing and minimal cohomology classes on abelian varieties",
+      "abstract_excerpt": "We establish a, and conjecture further, relationship between the existence of subvarieties representing minimal cohomology classes on principally polarized abelian varieties, and the generic vanishing of certain sheaf cohomology. The main ingredient is the Generic Vanishing criterion of math.AG/0608",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'minimal cohomology classes on principally polarized abelian varieties' and generic vanishing of sheaf cohomology, with no mention of resolution proof complexity, Tseitin formulas, or proof width. It shares only the vocabulary of abelian varieties but does not interact with the specific complexity-theoretic claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1912.05653",
+      "title": "Minimal abelian varieties of algebras, I",
+      "abstract_excerpt": "We show that any abelian variety that is not affine has a nontrivial strongly abelian subvariety. In later papers in this sequence we apply this result to the study of minimal abelian varieties.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'abelian varieties of algebras' in universal algebra (strongly abelian subvarieties), which is unrelated to resolution proof width of Tseitin formulas. There is no interaction with proof complexity or the claimed Θ(d^(1/2)) bound.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1205.5945",
+      "title": "On the Iwasawa Main conjecture of abelian varieties over function fields",
+      "abstract_excerpt": "We study a geometric analogue of the Iwasawa Main Conjecture for abelian varieties in the two following cases: constant ordinary abelian varieties over $Z_p^d$-extensions of function fields ($d\\geq 1$) ramified at a finite set of places, and semistable abelian varieties over the arithmetic $Z_p$-extension of a function field. One of the tools we use in our proof is a pseudo-isomorphism relating the duals of the Selmer groups of $A$ and its dual abelian variety $A^t$. This holds as well over numb",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the Iwasawa Main Conjecture for abelian varieties over function fields, Selmer groups, and pseudo-isomorphisms — it makes no statement about Tseitin formulas, resolution proof width, or any connection to proof complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

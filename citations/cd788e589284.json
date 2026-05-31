@@ -1,0 +1,40 @@
+{
+  "entry_id": "cd788e589284",
+  "ts": 1780211950.6812794,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1206.1925",
+      "title": "Counting Algebraic Curves with Tropical Geometry",
+      "abstract_excerpt": "Tropical geometry is a piecewise linear \"shadow\" of algebraic geometry. It allows for the computation of several cohomological invariants of an algebraic variety. In particular, its application to enumerative algebraic geometry led to significant progress.\n  In this survey, we give an introduction to tropical geometry techniques for algebraic curve counting problems. We also survey some recent developments, with a particular emphasis on the computation of the degree of the Severi varieties of th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes tropical geometry applied to 'algebraic curve counting problems' such as 'Severi varieties' and 'Hurwitz numbers,' with no mention of Tseitin formulas, resolution proof width, or local indices of tropical curves relevant to proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1207.2443",
+      "title": "Tropical Teichmuller and Siegel spaces",
+      "abstract_excerpt": "In this paper, we present a unified study of the moduli space of tropical curves and Outer space which we link via period maps to the moduli space of tropical abelian varieties and the space of positive definite quadratic forms. Our work is a first step towards exhibiting Outer space and the space of positive definite quadratic forms as analogues of Teichmüller space and Siegel space, respectively, in tropical geometry. All these spaces and the maps among them are described within the category o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses moduli spaces of tropical curves, Outer space, and period maps to tropical abelian varieties — it makes no mention of local indices, Tseitin formulas, or resolution proof width, sharing only the 'tropical curve' vocabulary.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2309.17302",
+      "title": "Geometry of tropical extensions of hyperfields",
+      "abstract_excerpt": "We study the geometry of tropical extensions of hyperfields, including the ordinary, signed and complex tropical hyperfields. We introduce the framework of 'enriched valuations' as hyperfield homomorphisms to tropical extensions, and show that a notable family of them are relatively algebraically closed. Our main results are hyperfield analogues of Kapranov's theorem and the Fundamental theorem of tropical geometry. Utilising these theorems, we introduce fine tropical varieties and prove a struc",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'tropical extensions of hyperfields,' 'enriched valuations,' and analogues of Kapranov's theorem—pure tropical/algebraic geometry with no mention of Tseitin formulas, resolution proof width, or local indices of tropical curves.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

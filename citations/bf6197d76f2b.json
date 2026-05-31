@@ -1,0 +1,40 @@
+{
+  "entry_id": "bf6197d76f2b",
+  "ts": 1780212533.5265217,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0911.3482",
+      "title": "Complexity of Networks (reprise)",
+      "abstract_excerpt": "Network or graph structures are ubiquitous in the study of complex systems. Often, we are interested in complexity trends of these system as it evolves under some dynamic. An example might be looking at the complexity of a food web as species enter an ecosystem via migration or speciation, and leave via extinction.\n  In a previous paper, a complexity measure of networks was proposed based on the {\\em complexity is information content} paradigm. To apply this paradigm to any object, one must fix ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a network complexity measure based on information content of graph representations, with no mention of topological entropy, shift dynamical systems, CNF formulas, or communication complexity. It shares only the vague vocabulary of 'complexity' but does not interact with the specific conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1710.08147",
+      "title": "A 3D Human Body Blockage Model for Outdoor Millimeter-Wave Cellular Communication",
+      "abstract_excerpt": "Blocking is one of the most important challenges in exploiting millimeter-wave for fifth-generation (5G) cellular communication systems. Compared to blockages caused by buildings or terrains, human body blockage exhibits a higher complexity due to the mobility and dynamic statistics of humans. To support development of outdoor millimeter-wave cellular systems, in this paper we present a novel 3D physical model of human body blockage. Based on the proposed model, the impact of human body blockage",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a '3D physical model of human body blockage' for millimeter-wave 5G cellular communication, which has no interaction with topological entropy, CNF formulas, or communication complexity in the theoretical CS sense.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:cs/0412058",
+      "title": "Clustering Categorical Data Streams",
+      "abstract_excerpt": "The data stream model has been defined for new classes of applications involving massive data being generated at a fast pace. Web click stream analysis and detection of network intrusions are two examples. Cluster analysis on data streams becomes more difficult, because the data objects in a data stream must be accessed in order and can be read only once or few times with limited resources. Recently, a few clustering algorithms have been developed for analyzing numeric data streams. However, to ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns clustering algorithms for categorical data streams ('we propose an efficient clustering algorithm for analyzing categorical data streams'), with no connection to topological entropy, CNF formulas, or communication complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
