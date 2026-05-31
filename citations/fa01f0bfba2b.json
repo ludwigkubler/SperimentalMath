@@ -1,0 +1,40 @@
+{
+  "entry_id": "fa01f0bfba2b",
+  "ts": 1780207160.1939304,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1712.01659",
+      "title": "Shifted Poisson geometry and meromorphic matrix algebras over an elliptic curve",
+      "abstract_excerpt": "In this paper we classify symplectic leaves of the regular part of the projectivization of the space of meromorphic endomorphisms of a stable vector bundle on an elliptic curve, using the study of shifted Poisson structures on the moduli of complexes from our previous work \\cite{HP17}. This Poisson ind-scheme is closely related to the ind Poisson-Lie group associated to Belavin's elliptic $r$-matrix, studied by Sklyanin, Cherednik and Reyman and Semenov-Tian-Shansky. Our result leads to a classi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns symplectic leaves, Poisson structures, and meromorphic matrix algebras over elliptic curves — it never mentions monodromy indices, boolean functions, or communication complexity, so it shares only the 'elliptic curve' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2407.00692",
+      "title": "The motivic fundamental group of a punctured elliptic curve and algebraic cycles",
+      "abstract_excerpt": "In this paper, we consider the motivic fundamental group of the punctured elliptic curves as a DG complex in the DG category of elliptic motives and describe its resolution via Schur complexes. During this process, we find the algebraic cycles analogous to the Bloch-Totaro cycles.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the motivic fundamental group of punctured elliptic curves and algebraic cycles (Bloch-Totaro), with no mention of monodromy indices, boolean functions, or communication complexity. It shares only the loose vocabulary of 'elliptic curves' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0508553v2",
+      "title": "On the Hall algebra of an elliptic curve, II",
+      "abstract_excerpt": "This paper is a sequel to math.AG/0505148, where the Hall algebra U^+_E of the category of coherent sheaves on an elliptic curve E defined over a finite field was explicitly described, and shown to be a two-parameter deformation of the ring of diagonal invariants R^+=C[x_1^{\\pm 1}, ..., y_1,...]^{S_",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the Hall algebra of coherent sheaves on an elliptic curve as a deformation of diagonal invariants, with no mention of monodromy representations, boolean functions, or communication complexity. It shares only the vocabulary 'elliptic curve' with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
