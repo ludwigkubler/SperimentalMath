@@ -1,0 +1,40 @@
+{
+  "entry_id": "d0f609ebc4a7",
+  "ts": 1780230368.7906394,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1511.09051",
+      "title": "On automorphism groups of affine surfaces",
+      "abstract_excerpt": "This is a survey on the automorphism groups in various classes of affine algebraic surfaces and the algebraic group actions on such surfaces. Being infinite-dimensional, these automorphism groups share some important features of algebraic groups. At the same time, they can be studied from the viewpoint of the combinatorial group theory, so we put a special accent on group-theoretical aspects (ind-groups, amalgams, etc.). We provide different approaches to classification, prove certain new result",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a survey on automorphism groups of affine algebraic surfaces and ind-group/amalgam structures, with no mention of Lie algebras associated to Tseitin formulas, SAT clauses, or minimal index bounds. It shares only the generic term 'automorphism groups' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2104.14760",
+      "title": "Automorphism and outer automorphism groups of Right-angled Artin groups are not relatively hyperbolic",
+      "abstract_excerpt": "We show that the automorphism groups of right-angled Artin groups whose defining graphs have at least 3 vertices are not relatively hyperbolic. We then show that the outer automorphism groups are not relatively hyperbolic, if they are not virtually isomorphic to a right-angled Artin group whose defining graph is either a single vertex or disconnected.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses relative hyperbolicity of automorphism groups of right-angled Artin groups, which shares only the vocabulary 'automorphism groups' with the conjecture but does not address Lie algebras, Tseitin formulas, SAT clause complexity, or minimal index bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2001.07570",
+      "title": "Hom 3-Lie-Rinehart Algebras",
+      "abstract_excerpt": "After endowing with a 3-Lie-Rinehart structure on Hom 3-Lie algebras, we obtain a class of special\n  Hom 3-Lie algebras, which have close relationships with representations of commutative associative algebras. We provide a special class of Hom 3-Lie-Rinehart algebras, called split regular Hom 3-Lie-Rinehart algebras, and we then characterize their structures by means of root systems and weight systems associated to a splitting Cartan subalgebra.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Hom 3-Lie-Rinehart algebras characterized via root and weight systems, with no mention of automorphism group indices, SAT/Tseitin formulas, or clause complexity. It shares only the broad 'Lie algebra' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

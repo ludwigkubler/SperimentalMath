@@ -1,0 +1,40 @@
+{
+  "entry_id": "9e0b465ad4cf",
+  "ts": 1780228101.420886,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2507.23008",
+      "title": "Exponential Lower Bounds on the Size of ResLin Proofs of Nearly Quadratic Depth",
+      "abstract_excerpt": "Itsykson and Sokolov [IS14] identified resolution over parities, denoted by $\\text{Res}(\\oplus)$, as a natural and simple fragment of $\\text{AC}^0[2]$-Frege for which no super-polynomial lower bounds on size of proofs are known. Building on a recent line of work ([EGI24], [BCD24], [AI25]), Efremenko and Itsykson [EI25] proved lower bounds of the form $\\text{exp}(N^{Ω(1)})$, on the size of $\\text{Res}(\\oplus)$ proofs whose depth is upper bounded by $O(N\\log N)$, where $N$ is the number of variabl",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns proof-size lower bounds for Res(⊕) refutations of Tseitin formulas on expanders, with no mention of Hodge theory, Hodge diamond dimension, or communication complexity characterizations. It shares only the vocabulary 'Tseitin formula' with the conjecture and does not interact with the specific HDD = Θ(c(φ)) claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0905.1587",
+      "title": "Unsatisfiable Linear CNF Formulas Are Large and Complex",
+      "abstract_excerpt": "We call a CNF formula linear if any two clauses have at most one variable in common. We show that there exist unsatisfiable linear k-CNF formulas with at most 4k^2 4^k clauses, and on the other hand, any linear k-CNF formula with at most 4^k/(8e^2k^2) clauses is satisfiable. The upper bound uses probabilistic means, and we have no explicit construction coming even close to it. One reason for this is that unsatisfiable linear formulas exhibit a more complex structure than general (non-linear) for",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses size bounds and resolution refutation complexity of unsatisfiable linear k-CNF formulas, with no mention of Hodge diamonds, Tseitin formulas, or communication complexity. It shares the CNF/complexity vocabulary but does not interact with the specific HDD = Θ(c(φ)) claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/hep-ph/0101024v2",
+      "title": "Analysis of the nature of the $φ\\toγπη$ and $φ\\toγπ^0π^0$ decays",
+      "abstract_excerpt": "We study interference patterns in the $φ\\to(γa_0+π^0ρ)\\toγπη$ and $φ\\to(γf_0+π^0ρ)\\toγπ^0π^0$ reactions. Taking into account the interference, we fit the experimental data and show that the background reaction does not distort the $π^0η$ spectrum in the decay $φ\\toγπη$ everywhere over the energy reg",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns particle physics decays of the φ meson into γπη and γπ⁰π⁰ final states, with no connection to Hodge diamonds, CNF formulas, or communication complexity. The shared symbol 'φ' is purely coincidental notation.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
