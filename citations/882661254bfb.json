@@ -1,0 +1,31 @@
+{
+  "entry_id": "882661254bfb",
+  "ts": 1780254636.7130861,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:ca44ef9be97a1c211295785ba4b0290db90a6bf2",
+      "title": "international workshop on functions in algebra and geometry 2nd-6th 2022",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available ('no abstract available'), so I cannot assess whether the paper addresses the relationship between local algebraic geometric rank and resolution proof size.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10.4171/OWR/2016/57",
+      "title": "Asymptotic Phenomena in Local Algebra and Singularity Theory",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available ('no abstract available'), so I cannot assess whether the paper addresses the specific linear correlation between mlag(φ) and resolution proof size.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 2
+  }
+}

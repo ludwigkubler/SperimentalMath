@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-05-31T18:47:05Z",
-  "total_cycles": 4180,
+  "last_update_utc": "2026-05-31T19:47:05Z",
+  "total_cycles": 4190,
   "verdict_counts": {
-    "INCONCLUSIVE": 2750,
+    "INCONCLUSIVE": 2755,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 1324,
+    "BARRIER_HIT": 1329,
     "SCOOPED": 86
   },
-  "unique_field_A": 1890,
+  "unique_field_A": 1891,
   "top_fields_A": [
     [
       "Resolution proof complexity",
@@ -67,7 +67,7 @@
       25
     ],
     [
-      "Representation Theory of Symmetric Groups",
+      "Algebraic Topology",
       24
     ]
   ]
