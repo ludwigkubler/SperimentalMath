@@ -1,0 +1,31 @@
+{
+  "entry_id": "91e85c135ecc",
+  "ts": 1780196265.7584438,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.1137/S0097539700375944",
+      "title": "Communication Complexity of Simultaneous Messages",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available ('no abstract available'), so I cannot assess whether the paper supports, refutes, or is orthogonal to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:778b3a7e9ba9eafb2c4e12c7f2c0fc558602af4c",
+      "title": "Recent Perspectives in Random Matrix Theory and Number Theory",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available for the cited paper, so I cannot assess whether it supports, refutes, or is orthogonal to the conjecture about Grothendieck-Teichmüller groups and Boolean function complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 2
+  }
+}

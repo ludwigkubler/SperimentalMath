@@ -1,0 +1,93 @@
+{
+  "ts": 1780196554.8896906,
+  "picked": 10,
+  "since_days": 7,
+  "image": "sec-pvsnp-replay",
+  "summary_counts": {
+    "crash": 7,
+    "drift": 2,
+    "timeout": 1
+  },
+  "results": [
+    {
+      "tarball": "2a2a243cfc59.tar.gz",
+      "rc": 1,
+      "elapsed_s": 1.0,
+      "result": "crash",
+      "first_line": "",
+      "stderr_tail": "RUNTIME_CRASH rc=1\nTraceback (most recent call last):\n  File \"/tmp/sec_replay.By71TG/replay_2a2a243cfc59/run.py\", line 80, in <module>\n    seeds = [int(x) for x in sys.argv[1:]] or [random.randint(1000, 9999) for _ in range(30)]\n                             ^^^\nNameError: name 'sys' is not defined. Did you forget to import 'sys'?\n"
+    },
+    {
+      "tarball": "40cb6711ac46.tar.gz",
+      "rc": 1,
+      "elapsed_s": 0.1,
+      "result": "crash",
+      "first_line": "",
+      "stderr_tail": "RUNTIME_CRASH rc=1\nTraceback (most recent call last):\n  File \"/tmp/sec_replay.IMryRf/replay_40cb6711ac46/run.py\", line 42, in <module>\n    seeds = [int(arg) for arg in sys.argv[1:]] or list(range(2, 30))  # Default to first 29 primes if no seeds provided\n                                 ^^^\nNameError: name 'sys' is not defined. Did you forget to import 'sys'?\n"
+    },
+    {
+      "tarball": "60871d321cb3.tar.gz",
+      "rc": 1,
+      "elapsed_s": 0.7,
+      "result": "crash",
+      "first_line": "",
+      "stderr_tail": "  File \"/tmp/sec_replay.KgOevG/replay_60871d321cb3/run.py\", line 57, in <genexpr>\n    correlation_coefficient = sum((ranks[i] - mean_rank) * (resolution_refutation_sizes[i] - mean(resolution_refutation_sizes)) for i in range(len(ranks))) / (len(ranks) * std_rank * math.sqrt(sum((x - mean(resolution_refutation_sizes)) ** 2 for x in resolution_refutation_sizes)))\n                                                                                             ^^^^\nNameError: name 'mean' is not defined\n"
+    },
+    {
+      "tarball": "5b9705c1d348.tar.gz",
+      "rc": 2,
+      "elapsed_s": 0.2,
+      "result": "drift",
+      "first_line": "",
+      "stderr_tail": "ric_name\": \"ratio\", \"metric_value\": 1729.8291007878997, \"instances_tested\": 1, \"conjecture_holds\": True, \"counterexample\": \"\"}\nTRIAL: {\"seed\": 53, \"metric_name\": \"ratio\", \"metric_value\": 1543.8821310584367, \"instances_tested\": 1, \"conjecture_holds\": True, \"counterexample\": \"\"}\nTRIAL: {\"seed\": 71, \"metric_name\": \"ratio\", \"metric_value\": 1393.0761077883462, \"instances_tested\": 1, \"conjecture_holds\": True, \"counterexample\": \"\"}\nRESULT: SUPPORTED mean=1594.1294842007735 std=0.0 support_fraction=1.0\n"
+    },
+    {
+      "tarball": "f908e3ffe94c.tar.gz",
+      "rc": 2,
+      "elapsed_s": 0.1,
+      "result": "drift",
+      "first_line": "",
+      "stderr_tail": "& x4 & x15 & x6 & x12 & x10 & x7 & x19 & x9 & x17 & x14 & x11 & x18 & x5 | x19 & x2 & x8 & x6 & x16 & x11 & x0 & x1 & x4 & x15 & x7 & x3 & x13 & x9 & x12 & x18 & x14 & x17 | x4 & x2 & x11 & x19 & x14 & x5 & x10 & x17 & x12 & x8 & x9 & x18 & x0 & x7 & x3 & x13 & x16 & x6 & x15 | x2 & x15 & x19 & x9 & x10 & x17 & x1 & x13 & x7 & x8 & x5 & x0 & x14 & x6 & x11 & x16 & x18 & x4 & x12 & x3 | x0 & x15 & x19 & x12 & x16 & x9 & x17 & x14 & x1 & x11 & x10 & x18 & x4 & x3, rho(φ) = 1\" first_failing_seed=0\n"
+    },
+    {
+      "tarball": "f2c664829946.tar.gz",
+      "rc": 1,
+      "elapsed_s": 0.1,
+      "result": "crash",
+      "first_line": "",
+      "stderr_tail": "RUNTIME_CRASH rc=1\nTraceback (most recent call last):\n  File \"/tmp/sec_replay.HYBL4z/replay_f2c664829946/run.py\", line 55, in <module>\n    seeds = [int(x) for x in sys.argv[1:]] or [2, 3, 5, 7, 11, 13, 17, 19, 23, 29] * 3\n                             ^^^\nNameError: name 'sys' is not defined. Did you forget to import 'sys'?\n"
+    },
+    {
+      "tarball": "7bb575a192c9.tar.gz",
+      "rc": 4,
+      "elapsed_s": 150.0,
+      "result": "timeout",
+      "first_line": "",
+      "stderr_tail": "RUNTIME_TIMEOUT rc=124 (>150s)\n"
+    },
+    {
+      "tarball": "565f566b2157.tar.gz",
+      "rc": 1,
+      "elapsed_s": 0.4,
+      "result": "crash",
+      "first_line": "",
+      "stderr_tail": "RUNTIME_CRASH rc=1\nTraceback (most recent call last):\n  File \"/tmp/sec_replay.JjCWc1/replay_565f566b2157/run.py\", line 42, in <module>\n    result = run_trial(seed)\n             ^^^^^^^^^^^^^^^\n  File \"/tmp/sec_replay.JjCWc1/replay_565f566b2157/run.py\", line 31, in run_trial\n    \"n_max\": n,\n             ^\nNameError: name 'n' is not defined\n"
+    },
+    {
+      "tarball": "234a33e87f4f.tar.gz",
+      "rc": 1,
+      "elapsed_s": 0.1,
+      "result": "crash",
+      "first_line": "",
+      "stderr_tail": "y_234a33e87f4f/run.py\", line 110, in <module>\n    result = run_trial(seed)\n             ^^^^^^^^^^^^^^^\n  File \"/tmp/sec_replay.g2Frt3/replay_234a33e87f4f/run.py\", line 69, in run_trial\n    poly = characteristic_polynomial(clauses, variables)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/sec_replay.g2Frt3/replay_234a33e87f4f/run.py\", line 27, in characteristic_polynomial\n    poly[j][i + 1] = poly[j + 1][i]\n    ~~~~~~~^^^^^^^\nIndexError: list assignment index out of range\n"
+    },
+    {
+      "tarball": "86590a3e84b8.tar.gz",
+      "rc": 1,
+      "elapsed_s": 0.1,
+      "result": "crash",
+      "first_line": "",
+      "stderr_tail": "': 49, 'conjecture_holds': False, 'counterexample': ''}}\nTRIAL: {\"seed\": 71, **{'metric_name': 'mean_local_dim', 'metric_value': 0.9639911383403262, 'instances_tested': 3, 'n_max': 30, 'conjecture_holds': False, 'counterexample': ''}}\nTraceback (most recent call last):\n  File \"/tmp/sec_replay.CNv1g5/replay_86590a3e84b8/run.py\", line 82, in <module>\n    counterexample = f\"m={result['results'][0]['m']}, n={result['results'][0]['n']}\"\n                          ~~~~~~^^^^^^^^^^^\nKeyError: 'results'\n"
+    }
+  ]
+}

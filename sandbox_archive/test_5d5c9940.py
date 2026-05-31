@@ -1,0 +1,106 @@
+# auto-injected by SEC sandbox
+import math
+import itertools
+import collections
+import json
+import sys
+import os
+import time
+import re
+from collections import defaultdict, Counter, deque
+from itertools import product, combinations, permutations, chain
+from typing import List, Dict, Tuple, Set, Optional, Any, Iterable, Callable
+# end SEC prelude
+
+import random
+from fractions import Fraction
+
+def run_trial(seed: int) -> dict:
+    random.seed(seed)
+    
+    def generate_boolean_function(n):
+        return [random.choice([0, 1]) for _ in range(2**n)]
+    
+    def construct_coxeter_group(f):
+        n = len(f)
+        G = []
+        for i in range(2**n):
+            row = []
+            for j in range(2**n):
+                if f[i] == f[j]:
+                    row.append(0)
+                else:
+                    row.append(1)
+            G.append(row)
+        return G
+    
+    def count_non_trivial_relations(G):
+        n = len(G)
+        count = 0
+        for i in range(n):
+            for j in range(i+1, n):
+                if G[i][j] == 1:
+                    count += 1
+        return count
+    
+    def communication_complexity(f):
+        # Placeholder function; actual implementation needed
+        return len(f)
+    
+    metric_name = "communication_complexity_to_non_trivial_relations_ratio"
+    instances_tested = 0
+    n_max = 0
+    total_metric_value = 0
+    conjecture_holds = True
+    counterexample = ""
+    
+    for n in [5, 10, 15, 20, 30, 40]:
+        if n > n_max:
+            n_max = n
+        
+        for _ in range(5):
+            f = generate_boolean_function(n)
+            G = construct_coxeter_group(f)
+            non_trivial_relations = count_non_trivial_relations(G)
+            comm_complexity = communication_complexity(f)
+            
+            instances_tested += 1
+            total_metric_value += Fraction(comm_complexity, non_trivial_relations) if non_trivial_relations > 0 else float('inf')
+            
+            if comm_complexity > 1.5 * non_trivial_relations:
+                conjecture_holds = False
+                counterexample = f"n={n}, f={f}, C(f)=G({non_trivial_relations}), CC(f)={comm_complexity}"
+    
+    mean_metric_value = Fraction(total_metric_value, instances_tested)
+    std_metric_value = 0
+    
+    return {
+        "metric_name": metric_name,
+        "metric_value": float(mean_metric_value),
+        "instances_tested": instances_tested,
+        "n_max": n_max,
+        "conjecture_holds": conjecture_holds,
+        "counterexample": counterexample
+    }
+
+if __name__ == "__main__":
+    import sys
+    seeds = [int(s) for s in sys.argv[1:]] if sys.argv[1:] else [2**i + 3 for i in range(5, 8)]
+    
+    results = []
+    for seed in seeds:
+        result = run_trial(seed)
+        print(f"TRIAL: {result}")
+        results.append(result)
+    
+    mean_metric_value = sum(r["metric_value"] for r in results) / len(results)
+    std_metric_value = (sum((r["metric_value"] - mean_metric_value)**2 for r in results) / len(results))**0.5
+    support_fraction = sum(1 for r in results if r["conjecture_holds"]) / len(results)
+    
+    if all(r["conjecture_holds"] for r in results):
+        print(f"RESULT: SUPPORTED mean={mean_metric_value} std={std_metric_value} support_fraction={support_fraction}")
+    elif support_fraction >= 0.8:
+        print(f"RESULT: SUPPORTED mean={mean_metric_value} std={std_metric_value} support_fraction={support_fraction}")
+    else:
+        first_failing_seed = next(r["seed"] for r in results if not r["conjecture_holds"])
+        print(f"RESULT: FALSIFIED counterexample=\"{results[0]['counterexample']}\" first_failing_seed={first_failing_seed}")

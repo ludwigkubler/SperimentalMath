@@ -1,0 +1,31 @@
+{
+  "entry_id": "5d03b372048e",
+  "ts": 1780198011.977605,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.1145/28395.28404",
+      "title": "Algebraic methods in the theory of lower bounds for Boolean circuit complexity",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available, so I cannot determine whether the paper addresses Khinchin's constant or any entropy bound on Boolean circuits.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:2511.21738",
+      "title": "On the Incompressibility of Truth With Application to Circuit Complexity",
+      "abstract_excerpt": "We revisit the fundamentals of Circuit Complexity and the nature of efficient computation from a fresh perspective. We present a framework for understanding Circuit Complexity through the lens of Information Theory with analogies to results in Kolmogorov Complexity, viewing circuits as descriptions ",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract mentions a framework linking Circuit Complexity to Information Theory and Kolmogorov Complexity, but says nothing about Khinchin's constant or the specific inequality |H(C) - 2/H(π_0)| ≤ 1/π_0, so the abstract alone cannot confirm or refute the claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 2
+  }
+}
