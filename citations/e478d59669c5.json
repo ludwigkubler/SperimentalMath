@@ -1,0 +1,40 @@
+{
+  "entry_id": "e478d59669c5",
+  "ts": 1780270344.8687794,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1510.06849",
+      "title": "Virtual harmony",
+      "abstract_excerpt": "This article serves a few purposes. First of all, it reviews polyfold--Kuranishi correspondence I (http://arxiv.org/abs/1402.7008) and previews and samples some results from four papers I have been preparing. It is also a written-up and expanded version of a talk I gave at a symplectic conference in Chengdu on June 28, 2015, and it intends to provide bridges and compatibility between various pairs of virtual techniques and to demonstrate some unity among various technical viewpoints in the const",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses virtual/perturbative structures on moduli spaces in symplectic geometry and polyfold-Kuranishi correspondence, with no mention of symplectic volume, communication complexity, or any bound relating the two.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2110.11295",
+      "title": "Toric Symplectic Geometry and Full Spark Frames",
+      "abstract_excerpt": "The collection of $d \\times N$ complex matrices with prescribed column norms and prescribed (nonzero) singular values forms a compact algebraic variety, which we refer to as a frame space. Elements of frame spaces -- i.e., frames -- are used to give robust representations of complex-valued signals, so that geometrical and measure-theoretic properties of frame spaces are of interest to the signal processing community. This paper is concerned with the following question: what is the probability th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns toric symplectic geometry of frame spaces and probabilistic properties of full spark frames in signal processing, with no mention of communication complexity, k-party protocols, or volume lower bounds for communication. It shares the 'symplectic' vocabulary but does not interact with the specific conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1108.0328",
+      "title": "Symplectic bifurcation theory for integrable systems",
+      "abstract_excerpt": "This paper develops a symplectic bifurcation theory for integrable systems in dimension four. We prove that if an integrable system has no hyperbolic singularities and its bifurcation diagram has no vertical tangencies, then the fibers of the induced singular Lagrangian fibration are connected. The image of this singular Lagrangian fibration is, up to smooth deformations, a planar region bounded by the graphs of two continuous functions. The bifurcation diagram consists of the boundary points in",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns symplectic bifurcation theory for integrable systems in dimension four, focusing on Lagrangian fibrations and bifurcation diagrams; it makes no mention of communication complexity, protocols, or symplectic volume bounds related to information-theoretic quantities.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

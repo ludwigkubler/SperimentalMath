@@ -1,0 +1,40 @@
+{
+  "entry_id": "5848c55fb4b2",
+  "ts": 1780270688.816268,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0211278v7",
+      "title": "Patchworking singular algebraic curves, non-Archimedean amoebas and enumerative geometry",
+      "abstract_excerpt": "We prove a new patchworking theorem for singular algebraic curves, which states the following. Given a complex toric threefold $Y$ which fibers over ${\\mathbb C}$ with a reduced reducible zero fiber $Y_0$ and other fibers $Y_t$ smooth, and given a reduced curve $C_0\\subset Y_0$, the theorem provides",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a 'patchworking theorem for singular algebraic curves' in toric threefolds and non-Archimedean amoebas, with no mention of automorphic rank, line arrangements in projective space, or communication complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0710.1443",
+      "title": "Variations on themes of Kostant",
+      "abstract_excerpt": "Let g be a complex semisimple Lie algebra and let G' be the Langlands dual group. We give a description of the cohomology algebra of an arbitrary spherical Schubert variety in the loop Grassmannian for G' as a quotient of the form Sym(g^e)/J. Here, J is an appropriate ideal in the symmetric algebra of g^e, the centralizer of a principal nilpotent in g.\n  We also discuss a `topological' proof of Kostant's famous result on the structure of the polynomial algebra on g.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns cohomology of spherical Schubert varieties in loop Grassmannians and Kostant's theorem on polynomial algebras — it makes no mention of automorphic rank, line arrangements, or communication complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1403.8106",
+      "title": "Recent advances on the log-rank conjecture in communication complexity",
+      "abstract_excerpt": "The log-rank conjecture is one of the fundamental open problems in communication complexity. It speculates that the deterministic communication complexity of any two-party function is equal to the log of the rank of its associated matrix, up to polynomial factors. Despite much research, we still know very little about this conjecture. Recently, there has been renewed interest in this conjecture and its relations to other fundamental problems in complexity theory. This survey describes some of th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the log-rank conjecture relating deterministic communication complexity to the log of matrix rank, which shares the 'rank/communication complexity' vocabulary but does not address automorphic rank or affine line arrangements in projective space.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
