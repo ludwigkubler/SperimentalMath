@@ -2806,3 +2806,4 @@
 {"ts": 1780263006.642181, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1859, "cap": 2000, "fraction": 0.929, "weekly_budget": 2500}}
 {"ts": 1780264210.805057, "ts_iso": "2026-05-31T21:50:10.805057+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "OK", "to_status": "DEGRADED", "failing_checks": ["gpu", "mirror_git_fresh", "mirror_git_pushed"], "auto_fixed": false}
 {"ts": 1780264501.334388, "ts_iso": "2026-05-31T21:55:01.334388+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "DEGRADED", "to_status": "OK", "failing_checks": [], "auto_fixed": false}
+{"ts": 1780266012.470272, "ts_iso": "2026-05-31T22:20:12.470272+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "OK", "to_status": "DEGRADED", "failing_checks": ["ram_above_1g"], "auto_fixed": false}
