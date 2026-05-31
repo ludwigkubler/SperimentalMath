@@ -1,0 +1,40 @@
+{
+  "entry_id": "f47bc8ea626a",
+  "ts": 1780231828.8015149,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1509.07076",
+      "title": "Graphic Realizations of Joint-Degree Matrices",
+      "abstract_excerpt": "In this paper we introduce extensions and modifications of the classical degree sequence graphic realization problem studied by Erdős-Gallai and Havel-Hakimi, as well as of the corresponding connected graphic realization version. We define the joint-degree matrix graphic (resp. connected graphic) realization problem, where in addition to the degree sequence, the exact number of desired edges between vertices of different degree classes is also specified. We give necessary and sufficient conditio",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns graphic realizations of joint-degree matrices and Markov chains over realizations, with no mention of Hodge diamond dimensions or communication complexity. It shares only the broad 'graph' vocabulary and does not interact with the specific bound claimed.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1301.7523",
+      "title": "Constructing, sampling and counting graphical realizations of restricted degree sequences",
+      "abstract_excerpt": "With the current burst of network theory (especially in connection with social and biological networks) there is a renewed interest on realizations of given degree sequences. In this paper we propose an essentially new degree sequence problem: we want to find graphical realizations of a given degree sequence on labeled vertices, where certain would-be edges are {\\em forbidden}. Then we want to sample uniformly and efficiently all these possible realizations. (This problem can be considered as a ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns sampling and counting graphical realizations of restricted degree sequences via FPAUS/FPRAS, with no mention of Hodge diamond dimensions or communication complexity. It shares only the generic notion of 'graphical realizations' with the conjecture and does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2503.14756",
+      "title": "SceneEval: Evaluating Semantic Coherence in Text-Conditioned 3D Indoor Scene Synthesis",
+      "abstract_excerpt": "Despite recent advances in text-conditioned 3D indoor scene generation, there remain gaps in the evaluation of these methods. Existing metrics often measure realism by comparing generated scenes to a set of ground-truth scenes, but they overlook how well scenes follow the input text and capture implicit expectations of plausibility. We present SceneEval, an evaluation framework designed to address these limitations. SceneEval introduces fine-grained metrics for explicit user requirements-includi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'SceneEval, an evaluation framework' for 'text-conditioned 3D indoor scene generation' and has no connection to Hodge diamond dimensions, graph theory, or communication complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

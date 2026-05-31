@@ -1,0 +1,40 @@
+{
+  "entry_id": "55152203cbbd",
+  "ts": 1780235138.02918,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0412478v3",
+      "title": "Etale groupoids and their quantales",
+      "abstract_excerpt": "We establish a close and previously unknown relation between quantales and groupoids, in terms of which the notion of etale groupoid is subsumed in a natural way by that of quantale. In particular, to each etale groupoid, either localic or topological, there is associated a unital involutive quantal",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'a close and previously unknown relation between quantales and groupoids' regarding etale groupoids, with no mention of SAT, CNF clauses, or cohomological bounds related to satisfiability complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1810.08028",
+      "title": "Rigidity in etale motivic stable homotopy theory",
+      "abstract_excerpt": "For a scheme X, denote by SH(X_et^hyp) the stabilization of the hypercompletion of its etale infty-topos, and by SH_et(X) the localization of the stable motivic homotopy category SH(X) at the (desuspensions of) etale hypercovers. For a stable infty-category C, write C_p^comp for the p-completion of C. We prove that under suitable finiteness hypotheses, and assuming that p is invertible on X, the canonical functor e_p^comp: SH(X_et^hyp)_p^comp -&gt; SH_et(X)_p^comp is an equivalence of infty-cate",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns an equivalence of infty-categories between p-completed etale motivic stable homotopy categories, with no mention of SAT, CNF clauses, or any combinatorial complexity bound like 'minimal local index' tied to clause size.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1509.03868",
+      "title": "Etale extensions with finitely many subextensions",
+      "abstract_excerpt": "We study etale extensions of rings that have FIP.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns etale ring extensions having the 'finitely many intermediate extensions' (FIP) property, with no mention of SAT, CNF formulas, clause complexity, or any 'minimal local index' associated with arithmetic schemes from Boolean formulas.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

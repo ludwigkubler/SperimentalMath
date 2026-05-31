@@ -1,0 +1,40 @@
+{
+  "entry_id": "f6d7fc2253ff",
+  "ts": 1780233810.916773,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2111.12700",
+      "title": "Universality in long-distance geometry and quantum complexity",
+      "abstract_excerpt": "In physics, two systems that radically differ at short scales can exhibit strikingly similar macroscopic behaviour: they are part of the same long-distance universality class. Here we apply this viewpoint to geometry and initiate a program of classifying homogeneous metrics on group manifolds by their long-distance properties. We show that many metrics on low-dimensional Lie groups have markedly different short-distance properties but nearly identical distance functions at long distances, and pr",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses 'long-distance universality' of homogeneous metrics on Lie group manifolds and quantum computational complexity geometry, not communication complexity nor automorphism classes of hyperbolic geometries bounding c(φ). It shares the broad vocabulary of geometry/complexity but does not interact with the specific bound Θ(log n) ≤ min_aut(φ) ≤ O(n²).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0905.3237",
+      "title": "Hyperbolic geometry and non-Kahler manifolds with trivial canonical bundle",
+      "abstract_excerpt": "We use hyperbolic geometry to construct simply-connected symplectic or complex manifolds with trivial canonical bundle and with no compatible Kahler structure. We start with the desingularisations of the quadric cone in C^4: the smoothing is a natural S^3-bundle over H^3, its holomorphic geometry is determined by the hyperbolic metric; the small-resolution is a natural S^2-bundle over H^4 with symplectic geometry determined by the metric. Using hyperbolic geometry, we find orbifold quotients wit",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns using hyperbolic geometry to construct symplectic/complex manifolds with trivial canonical bundle, with no mention of communication complexity, automorphism classes, or computational bounds. It shares only the term 'hyperbolic geometry' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0504212v3",
+      "title": "On the residual finiteness of outer automorphisms of relatively hyperbolic groups",
+      "abstract_excerpt": "We show that every virtually torsion-free subgroup of the outer automorphism group of a conjugacy separable hyperbolic group is residually finite. As a result, we are able to prove that the group of outer automorphisms of every finitely generated Fuchsian group and of every free-by-finite group is r",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns residual finiteness of outer automorphism groups of relatively hyperbolic groups (e.g., Fuchsian, free-by-finite), making no reference to communication complexity or to bounding it by automorphism class counts. It shares only the loose vocabulary of 'hyperbolic' and 'automorphism' with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

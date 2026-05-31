@@ -1,0 +1,40 @@
+{
+  "entry_id": "2e208f9659c3",
+  "ts": 1780234884.5806155,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1610.07628",
+      "title": "Higher Categories and Topological Quantum Field Theories",
+      "abstract_excerpt": "We construct a state-sum type invariant of smooth closed oriented $4$-manifolds out of a $G$-crossed braided spherical fusion category ($G$-BSFC) for $G$ a finite group. The construction can be extended to obtain a $(3+1)$-dimensional topological quantum field theory (TQFT). The invariant of $4$-manifolds generalizes several known invariants in literature such as the Crane-Yetter invariant from a ribbon fusion category and Yetter's invariant from homotopy $2$-types. If the $G$-BSFC is concentrat",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes constructing state-sum invariants of 4-manifolds from G-crossed braided spherical fusion categories and (3+1)-TQFTs; it makes no mention of bipartite quantum states, entanglement rank, communication complexity, or any bound relating them.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1708.04619",
+      "title": "Quantum Field Theory of X-Cube Fracton Topological Order and Robust Degeneracy from Geometry",
+      "abstract_excerpt": "We propose a quantum field theory description of the X-cube model of fracton topological order. The field theory is not (and cannot be) a topological quantum field theory (TQFT), since unlike the X-cube model, TQFTs are invariant (i.e. symmetric) under continuous spacetime transformations. However, the theory is instead invariant under a certain subgroup of the conformal group. We describe how braiding statistics and ground state degeneracy are reproduced by the field theory, and how the the X-c",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a field theory for the X-cube fracton model and its ground state degeneracy from geometry, with no mention of communication complexity, bipartite state distribution, or any 'minimal local index' bound relating entanglement to communication protocols.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1811.02143",
+      "title": "Symmetry defects and their application to topological quantum computing",
+      "abstract_excerpt": "We describe the mathematical theory of topological quantum computing with symmetry defects in the language of fusion categories and unitary representations. Symmetry defects together with anyons are modeled by G-crossed braided extensions of unitary modular tensor categories. The algebraic data of these categories afford projective unitary representations of the braid group. Elements in the image of such representations correspond to quantum gates arising from exchanging anyons and symmetry defe",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'symmetry defects' in topological quantum computing via fusion categories and braid group representations, with no mention of communication complexity, entanglement rank indices, or bipartite state distribution protocols that the conjecture concerns.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
