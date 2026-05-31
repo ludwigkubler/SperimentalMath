@@ -1,0 +1,40 @@
+{
+  "entry_id": "8fe493b1e5ca",
+  "ts": 1780245046.1914434,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2103.09609",
+      "title": "Characterizing Tseitin-formulas with short regular resolution refutations",
+      "abstract_excerpt": "Tseitin-formulas are systems of parity constraints whose structure is described by a graph. These formulas have been studied extensively in proof complexity as hard instances in many proof systems. In this paper, we prove that a class of unsatisfiable Tseitin-formulas of bounded degree has regular resolution refutations of polynomial length if and only if the treewidth of all underlying graphs $G$ for that class is in $O(\\log|V(G)|)$. To do so, we show that any regular resolution refutation of a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "SUPPORTS",
+      "judge_reasoning": "The abstract establishes that regular resolution refutations of bounded-degree Tseitin formulas have length 2^Ω(tw(G)), giving exp lower bounds for high-treewidth (expander) graphs and poly upper bounds for low-treewidth (path/tree) graphs — directly matching the conjectured separation by graph expansion.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2209.05839",
+      "title": "On bounded depth proofs for Tseitin formulas on the grid; revisited",
+      "abstract_excerpt": "We study Frege proofs using depth-$d$ Boolean formulas for the Tseitin contradiction on $n \\times n$ grids. We prove that if each line in the proof is of size $M$ then the number of lines is exponential in $n/(\\log M)^{O(d)}$. This strengthens a recent result of Pitassi et al. [PRT22]. The key technical step is a multi-switching lemma extending the switching lemma of Håstad [Hås20] for a space of restrictions related to the Tseitin contradiction. The strengthened lemma also allows us to improve ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns bounded-depth Frege size lower bounds for Tseitin on grids via switching lemmas, not Resolution and not the conjecture's quantity Φ(π) or any explicit expander-vs-tree entropy separation.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2501.18019",
+      "title": "An exact closed walks series formula for the complexity of regular graphs and some related bounds",
+      "abstract_excerpt": "The complexity of a graph is the number of its labeled spanning trees. In this work complexity is studied in settings that admit regular graphs. An exact formula is established linking complexity of the complement of a regular graph to numbers of closed walks in the graph by way of an infinite alternating series. Some consequences of this result yield infinite classes of lower and upper bounds on the complexity of such graphs. Applications of these mathematical results to biological problems on ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns graph complexity defined as the number of labeled spanning trees and closed walk formulas for regular graphs, with applications to neuronal activity — it does not address Resolution proof complexity, Tseitin formulas, or any entropy measure Φ(π) of refutations.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 1,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 0
+  }
+}

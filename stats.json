@@ -1,11 +1,11 @@
 {
-  "last_update_utc": "2026-05-31T15:47:06Z",
-  "total_cycles": 4115,
+  "last_update_utc": "2026-05-31T16:47:06Z",
+  "total_cycles": 4137,
   "verdict_counts": {
-    "INCONCLUSIVE": 2703,
+    "INCONCLUSIVE": 2719,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 1306,
+    "BARRIER_HIT": 1312,
     "SCOOPED": 86
   },
   "unique_field_A": 1890,
@@ -19,6 +19,10 @@
       96
     ],
     [
+      "Resolution proof complexity",
+      87
+    ],
+    [
       "Real Algebraic Geometry",
       83
     ],
@@ -29,10 +33,6 @@
     [
       "Free Probability Theory",
       68
-    ],
-    [
-      "Resolution proof complexity",
-      65
     ],
     [
       "Algebraic Combinatorics",

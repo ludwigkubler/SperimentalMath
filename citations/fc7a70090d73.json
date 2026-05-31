@@ -1,0 +1,40 @@
+{
+  "entry_id": "fc7a70090d73",
+  "ts": 1780242823.2503915,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1606.01763",
+      "title": "A Constructive Proof of Cut Elimination for a System of Full Second Order Logic",
+      "abstract_excerpt": "In this paper we present a constructive proof of cut elimination for a system of full second order logic with the structural rules absorbed and using sets instead of sequences. The standard problem of the cutrank growth is avoided by using a new parameter for the induction, the cutweight. This technique can also be applied to first order logic.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns cut elimination in second-order logic with a 'cutweight' induction parameter, which is unrelated to DP elimination on 3-regular Tseitin formulas or measuring Φ(π) growth exponents in resolution proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2104.02563",
+      "title": "Proof Complexity of Symbolic QBF Reasoning",
+      "abstract_excerpt": "We introduce and investigate symbolic proof systems for Quantified Boolean Formulas (QBF) operating on Ordered Binary Decision Diagrams (OBDDs). These systems capture QBF solvers that perform symbolic quantifier elimination, and as such admit short proofs of formulas of bounded path-width and quantifier complexity. As a consequence, we obtain exponential separations from standard clausal proof systems, specifically (long-distance) QU-Resolution and IR-Calc.\n  We further develop a lower bound tec",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns symbolic QBF proof systems based on OBDDs and lower bounds via strategy extraction, not min-occurrence DP elimination on 3-regular Tseitin formulas or the scaling exponent of Φ(π). No interaction with the specific conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2312.12792",
+      "title": "Cut elimination for propositional cyclic proof systems with fixed-point operators",
+      "abstract_excerpt": "Infinitary and cyclic proof systems are proof systems for logical formulas with fixed-point operators or inductive definitions. A cyclic proof system is a restriction of the corresponding infinitary proof system. Hence, these proof systems are generally not the same, as in the cyclic system may be weaker than the infinitary system. For several logics, the infinitary proof systems are shown to be cut-free complete. However, cyclic proof systems are characterized with many unknown problems on the ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses cut elimination in cyclic/infinitary proof systems for propositional logics with fixed-point operators, which shares no specific content with min-occurrence DP elimination on 3-regular Tseitin formulas or its scaling exponent.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
