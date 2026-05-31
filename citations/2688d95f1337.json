@@ -1,0 +1,22 @@
+{
+  "entry_id": "2688d95f1337",
+  "ts": 1780260362.1729834,
+  "hits_evaluated": 1,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1002.4687",
+      "title": "A counterexample to the Alon-Saks-Seymour conjecture and related problems",
+      "abstract_excerpt": "Consider a graph obtained by taking edge disjoint union of $k$ complete bipartite graphs. Alon, Saks and Seymour conjectured that such graph has chromatic number at most $k+1$. This well known conjecture remained open for almost twenty years. In this paper, we construct a counterexample to this conjecture and discuss several related problems in combinatorial geometry and communication complexity.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses a counterexample to the Alon-Saks-Seymour conjecture about chromatic numbers of edge-disjoint unions of bipartite graphs, with mentions of 'combinatorial geometry and communication complexity' as related areas, but makes no claim about CNF satisfiability, Coxeter diagrams, or entropy-based lower bounds on communication complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 0
+  }
+}

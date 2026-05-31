@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-05-31T19:47:05Z",
-  "total_cycles": 4190,
+  "last_update_utc": "2026-05-31T20:47:06Z",
+  "total_cycles": 4203,
   "verdict_counts": {
-    "INCONCLUSIVE": 2755,
+    "INCONCLUSIVE": 2761,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 1329,
+    "BARRIER_HIT": 1336,
     "SCOOPED": 86
   },
-  "unique_field_A": 1891,
+  "unique_field_A": 1892,
   "top_fields_A": [
     [
       "Resolution proof complexity",
@@ -51,11 +51,11 @@
       37
     ],
     [
-      "Free Probability",
-      28
+      "Hypergeometric Functions",
+      29
     ],
     [
-      "Hypergeometric Functions",
+      "Free Probability",
       28
     ],
     [
@@ -67,8 +67,8 @@
       25
     ],
     [
-      "Algebraic Topology",
-      24
+      "Algebraic K-Theory",
+      25
     ]
   ]
 }

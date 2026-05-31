@@ -1,0 +1,31 @@
+{
+  "entry_id": "c6cc8034e7cc",
+  "ts": 1780258436.9439433,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:ARXIV:2407.21003",
+      "title": "Hamiltonian elements in algebraic K-theory",
+      "abstract_excerpt": "A Hamiltonian bundle $M \\hookrightarrow P \\to X$ (with monotone compact fibers) induces via Floer theory a type of ``bundle of $A _{\\infty}$ categories''over $X$, with fiber given by the Fukaya category of $M$. Morita theory of $A _{\\infty} $ categories, the above picture for $X=S ^{m}$, and geometric representation theory yield the following: if $G$ is a compact Lie group and $R$ is a commutative ring then there is a natural group homomorphism $\\pi _{m} (BG) \\to K ^{Cat}_{m}(R) $, where $K ^{Ca",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Hamiltonian bundles, Fukaya categories, and homomorphisms from π_m(BG) to categorified algebraic K-theory groups; it makes no mention of SAT, DPLL search trees, or Tseitin formulas, so it does not interact with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10.3390/e27050531",
+      "title": "Higher Algebraic K-Theory of Causality",
+      "abstract_excerpt": "Causal discovery involves searching intractably large spaces. Decomposing the search space into classes of observationally equivalent causal models is a well-studied avenue to making discovery tractable. This paper studies the topological structure underlying causal equivalence to develop a categorical formulation of Chickering’s transformational characterization of Bayesian networks. A homotopic generalization of the Meek–Chickering theorem on the connectivity structure within causal equivalenc",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract develops higher algebraic K-theory for causal models (cPROPs, Bayesian network equivalence classes, Meek-Chickering), with no mention of DPLL search trees, SAT instances, Tseitin encodings, or bounds on search-tree diameter.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 0
+  }
+}
