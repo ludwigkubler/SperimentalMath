@@ -1,0 +1,31 @@
+{
+  "entry_id": "47cf417110e0",
+  "ts": 1780238577.430947,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.24857/rgsa.v18n12-044",
+      "title": "The Complexity of Communication in the Sustainable Utilization of Coconut Waste for Local Economic Development",
+      "abstract_excerpt": "Objective: This research analyzes effective communication strategies to optimize the sustainable utilization of coconut waste, aiming to support local economic development through enhanced collaboration among industry, government, and the community.\n \nTheoretical Framework: Using a stakeholder theory approach, this study identifies the challenges and communication dynamics among various parties, focusing on differences in interests, goals, and perspectives that influence collaboration. Effective",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'communication strategies' for stakeholder collaboration regarding coconut waste utilization, not the mathematical notion of communication complexity C(φ) or group-theoretic local indices. It shares only the word 'communication' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10.1002/nme.70249",
+      "title": "A Parallel Variational Integrator for Simulating Dynamics of Large‐Scale Geometrically Exact Beam Systems on SE(3)",
+      "abstract_excerpt": "An efficient MPI‐based parallel algorithm that preserves geometric structure is proposed, utilizing the field theory variational integrator (FTVI). The FTVI employs space‐time finite elements for geometrically exact beams formulated on the Lie group SE(3), and the formulation has been validated to be naturally free of shear locking. Simulation results demonstrate that the FTVI offers good numerical convergence, and excellent long‐term energy behavior. To further improve computational efficiency ",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns an MPI-based parallel variational integrator for beam dynamics on SE(3), with no mention of group actions' local indices or communication complexity bounds. It shares only superficial vocabulary ('geometrically exact', 'parallel/MPI') with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 0
+  }
+}
