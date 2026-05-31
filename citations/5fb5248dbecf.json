@@ -1,0 +1,40 @@
+{
+  "entry_id": "5fb5248dbecf",
+  "ts": 1780203101.1714525,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1808.00038",
+      "title": "Formal Barycenter Spaces with Weights: The Euler Characteristic",
+      "abstract_excerpt": "We compute the Euler characteristic with compact supports $χ_c$ of the formal barycenter spaces with weights of a finite CW complex, connected or not. This reduces to the topological Euler characteristic $χ$ when the weights of the singular points are less than one. As foresighted by A. Malchiodi, our formula is related to the Leray-Schauder degree for mean field equations on a compact Riemann surface obtained by C.C. Chen and C.S. Lin.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Euler characteristics of formal barycenter spaces and their relation to Leray-Schauder degree for mean field equations on Riemann surfaces, with no mention of Tseitin formulas, communication complexity, or SAT-related moduli spaces.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2306.15598",
+      "title": "The ${\\mathbb S}_n$-equivariant Euler characteristic of the moduli space of graphs",
+      "abstract_excerpt": "We prove a formula for the ${\\mathbb S}_n$-equivariant Euler characteristic of the moduli space of graphs $\\mathcal{MG}_{g,n}$. Moreover, we prove that the rational ${\\mathbb S}_n$-invariant cohomology of $\\mathcal{MG}_{g,n}$ stabilizes for large $n$. That means, if $n \\geq g \\geq 2$, then there are isomorphisms $H^k(\\mathcal{MG}_{g,n};\\mathbb{Q})^{{\\mathbb S}_n} \\rightarrow H^k(\\mathcal{MG}_{g,n+1};\\mathbb{Q})^{{\\mathbb S}_{n+1}}$ for all $k$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the S_n-equivariant Euler characteristic and rational cohomology stabilization of the moduli space of graphs MG_{g,n}, with no mention of Tseitin formulas, communication complexity, or embeddings of CNF formulas into the plane.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2501.02456",
+      "title": "Keeping Score: A Quantitative Analysis of How the CHI Community Appreciates Its Milestones",
+      "abstract_excerpt": "The ACM CHI Conference has a tradition of citing its intellectual heritage. At the same time, we know CHI is highly diverse and evolving. In this highly dynamic context, it is not clear how the CHI community continues to appreciate its milestones (within and outside of CHI). We present an investigation into how the community's citations to milestones have evolved over 43 years of CHI Proceedings (1981-2024). Forgetting curves plotted for each year suggest that milestones are slowly fading from t",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns citation patterns and milestone analysis at the ACM CHI Conference (HCI bibliometrics), with no connection to Tseitin formulas, Euler characteristic, or communication complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

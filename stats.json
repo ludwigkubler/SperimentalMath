@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-05-31T04:47:13Z",
-  "total_cycles": 4005,
+  "last_update_utc": "2026-05-31T05:47:27Z",
+  "total_cycles": 4015,
   "verdict_counts": {
-    "INCONCLUSIVE": 2639,
+    "INCONCLUSIVE": 2644,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 1260,
+    "BARRIER_HIT": 1265,
     "SCOOPED": 86
   },
-  "unique_field_A": 1850,
+  "unique_field_A": 1854,
   "top_fields_A": [
     [
       "Algebraic Geometry (Hodge Theory)",
@@ -16,7 +16,7 @@
     ],
     [
       "Tropical Geometry",
-      90
+      92
     ],
     [
       "Real Algebraic Geometry",

@@ -1,0 +1,40 @@
+{
+  "entry_id": "1d9163fa810a",
+  "ts": 1780203871.8606637,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/1807.07005v2",
+      "title": "Quantified boolean formula problem",
+      "abstract_excerpt": "This paper is devoted to the complexity of the quantified boolean formula problem. We describe a simple deterministic algorithm that, for a given quantified boolean formula $F$, stops in time bounded by $O(|F|^4)$ and answers yes if $F$ is true and no otherwise.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a deterministic algorithm for the QBF problem with O(|F|^4) runtime, making no mention of Galois groups, GF(2), or clause-count bounds on algebraic invariants. It shares only the general SAT/Boolean formula vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/0811.0699v1",
+      "title": "A Note on the Inversion Complexity of Boolean Functions in Boolean Formulas",
+      "abstract_excerpt": "In this note, we consider the minimum number of NOT operators in a Boolean formula representing a Boolean function. In circuit complexity theory, the minimum number of NOT gates in a Boolean circuit computing a Boolean function $f$ is called the inversion complexity of $f$. In 1958, Markov determine",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses 'inversion complexity' — the minimum number of NOT operators/gates in Boolean formulas/circuits — which shares the Boolean formula vocabulary but does not engage with Galois groups over GF(2) or clause-count bounds on CNF formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1404.3801v2",
+      "title": "Shortest reconfiguration paths in the solution space of Boolean formulas",
+      "abstract_excerpt": "Given a Boolean formula and a satisfying assignment, a flip is an operation that changes the value of a variable in the assignment so that the resulting assignment remains satisfying. We study the problem of computing the shortest sequence of flips (if one exists) that transforms a given satisfying ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'shortest sequence of flips' between satisfying assignments in Boolean formula reconfiguration, which shares the SAT framework but does not discuss Galois groups or clause-count bounds on any algebraic degree.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

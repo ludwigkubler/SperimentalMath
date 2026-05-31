@@ -1,0 +1,40 @@
+{
+  "entry_id": "4baf27774ab4",
+  "ts": 1780205824.898953,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0712.2614",
+      "title": "Characters of unipotent groups over finite fields",
+      "abstract_excerpt": "Let G be a connected unipotent group over a finite field F_q with q elements. In this article we propose a definition of L-packets of complex irreducible representations of the finite group G(F_q) and give an explicit description of L-packets in terms of the so-called \"admissible pairs\" for G. We then apply our results to show that if the centralizer of every geometric point of G is connected, then the dimension of every complex irreducible representation of G(F_q) is a power of q, confirming a ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns L-packets and irreducible representations of unipotent groups over finite fields, with no mention of tropical curves, local indices, Boolean functions, or communication complexity. It shares only the 'finite field F_q' vocabulary but does not interact with the conjecture's claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1712.00669",
+      "title": "Drinfeld Modules with Complex Multiplication, Hasse Invariants and Factoring Polynomials over Finite Fields",
+      "abstract_excerpt": "We present a novel randomized algorithm to factor polynomials over a finite field $\\F_q$ of odd characteristic using rank $2$ Drinfeld modules with complex multiplication. The main idea is to compute a lift of the Hasse invariant (modulo the polynomial $f \\in \\F_q[x]$ to be factored) with respect to a random Drinfeld module $φ$ with complex multiplication. Factors of $f$ supported on prime ideals with supersingular reduction at $φ$ have vanishing Hasse invariant and can be separated from the res",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a polynomial factoring algorithm over finite fields using Drinfeld modules and Hasse invariants, with no mention of tropical curves, local indices, Boolean functions, or communication complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1105.2426",
+      "title": "Algebraic versus topological entropy for surfaces over finite fields",
+      "abstract_excerpt": "We show that, as in de Rham cohomology over the complex numbers, the value of the entropy of an automorphism of the surface over a finite field $\\F_q $ is taken on the span of the Néron-Severi group inside of $\\ell$-adic cohomology. v2: (some) typos removed, exposition (partly) improved.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns entropy of surface automorphisms over finite fields and its realization on the Néron-Severi span in ℓ-adic cohomology, which has no interaction with tropical curves, local indices, or communication complexity of Boolean functions.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
