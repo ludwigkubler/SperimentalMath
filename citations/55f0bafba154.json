@@ -1,0 +1,40 @@
+{
+  "entry_id": "55f0bafba154",
+  "ts": 1780265126.9101148,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/2501.04451v2",
+      "title": "Observation of the $W$-annihilation process $D_s^+ \\to ωρ^+$ and measurement of $D_s^+ \\to φρ^+$ in $D^+_s\\to π^+π^+π^-π^0π^0$ decays",
+      "abstract_excerpt": "We present the first amplitude analysis and branching fraction measurement of the decay $D^+_s\\to π^+π^+π^-π^0π^0$, using $e^+e^-$ collision data collected with the BESIII detector at center-of-mass energies between 4.128 and 4.226 GeV corresponding to an integrated luminosity of 7.33 fb$^{-1}$, and",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes an amplitude analysis of charm meson decays at BESIII, which has no relation to automorphic L-functions or resolution proof complexity. It shares no vocabulary or framework with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2309.02774v4",
+      "title": "First Measurement of the Decay Asymmetry in the pure W-boson-exchange Decay $Λ_{c}^{+}\\toΞ^{0}K^{+}$",
+      "abstract_excerpt": "Based on $4.4~\\text{fb}^{-1}$ of $e^{+}e^{-}$ annihilation data collected at the center-of-mass energies between $4.60$ and $4.70~\\text{GeV}$ with the BESIII detector at the BEPCII collider, the pure \\textit{W}-boson-exchange decay $Λ_{c}^{+}\\toΞ^{0}K^{+}$ is studied with a full angular analysis. Th",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a particle physics measurement of a baryon decay asymmetry at BESIII, which has no connection to automorphic L-functions or resolution proof complexity for CNF formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2106.13536v2",
+      "title": "Study of the Decay $D^{+}_{s}\\rightarrow π^{+}π^{+}π^{-}η$ and Observation of the W-annihilation Decay $D^{+}_{s}\\rightarrow a_0(980)^+ρ^0$",
+      "abstract_excerpt": "The decay $D^{+}_{s}\\rightarrow π^{+}π^{+}π^{-}η$ is observed for the first time, using $e^+e^-$ collision data corresponding to an integrated luminosity of 6.32 fb$^{-1}$, collected by the BESIII detector at center-of-mass energies between 4.178 and 4.226 GeV. The absolute branching fraction for th",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a particle physics experiment measuring branching fractions of D_s meson decays at BESIII, which has no relation to automorphic L-functions, CNF formulas, or resolution proof width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
