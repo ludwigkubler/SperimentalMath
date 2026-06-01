@@ -1,9 +1,9 @@
-# SEC P-vs-NP — System Status: **🟢 OK**
+# SEC P-vs-NP — System Status: **🔴 CRITICAL**
 
-_Updated: 2026-06-01T22:20:03.706031+00:00 (auto-refresh every 5 min)_
+_Updated: 2026-06-01T22:25:12.192361+00:00 (auto-refresh every 5 min)_
 
-- CRITICAL failures: **0**
-- DEGRADED failures: **0**
+- CRITICAL failures: **1**
+- DEGRADED failures: **3**
 
 ## Checks
 
@@ -11,15 +11,15 @@ _Updated: 2026-06-01T22:20:03.706031+00:00 (auto-refresh every 5 min)_
 |:------|:-------|:-------|
 | `explorer_process` | ✅ | pid 1976423 |
 | `explorer_singleton` | ✅ | 1 explorer process(es) |
-| `explorer_cycle_fresh` | ✅ | last activity 0.04h ago |
-| `sec_entity_service` | ✅ | active |
+| `explorer_cycle_fresh` | ✅ | last activity 0.05h ago |
+| `sec_entity_service` | 🔴 | inactive |
 | `cron_service` | ✅ | active |
-| `gpu` | ✅ | NVIDIA GeForce RTX 3070 Ti |
+| `gpu` | 🟡 | TIMEOUT |
 | `disk_under_90pct` | ✅ | 17% used |
-| `ram_above_1g` | ✅ | 10155 MB available |
-| `mirror_git_fresh` | ✅ | last commit 0.17h ago |
-| `mirror_git_pushed` | ✅ | 0 unpushed (within tolerance) |
-| `notebook_growing` | ✅ | newest entry 0.59h ago |
+| `ram_above_1g` | ✅ | 9362 MB available |
+| `mirror_git_fresh` | 🟡 | parse fail: out='' |
+| `mirror_git_pushed` | 🟡 | git fetch failed (network?) |
+| `notebook_growing` | ✅ | newest entry 0.67h ago |
 | `entity_audit_log` | ✅ | dir ok, no entries today (chat-idle) |
 | `cron_logs_no_trace` | ✅ | all clean |
 | `watchdog_self_heartbeat` | ✅ | 5.0 min ago |
