@@ -1,0 +1,31 @@
+{
+  "entry_id": "97be69dd8c4f",
+  "ts": 1780284942.593308,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:a6ae230cef877cad863a11d41c6234830c905733",
+      "title": "Algorithms and computation : 16th International Symposium, ISAAC 2005, Sanya, Hainan, China, December 19-21, 2005 : proceedings",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available; the title only identifies a conference proceedings volume, providing no information about claims regarding hyperbolic graphs or communication complexity bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:e5bc32d507cc9074a0edbe512fd183193f8ac605",
+      "title": "Euro-Par'96 : parallel processing : Second International Euro-Par Conference, Lyon, France, August 26-29, 1996 : proceedings",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available ('no abstract available'), so I cannot assess whether the paper supports, refutes, or is orthogonal to the conjecture about communication complexity on hyperbolic graphs.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 2
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "df31c2a1aaf1",
+  "ts": 1780282479.7317414,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1605.01678",
+      "title": "The geometry of rank-one tensor completion",
+      "abstract_excerpt": "The geometry of the set of restrictions of rank-one tensors to some of their coordinates is studied. This gives insight into the problem of rank-one completion of partial tensors. Particular emphasis is put on the semialgebraic nature of the problem, which arises for real tensors with constraints on the parameters. The algebraic boundary of the completable region is described for tensors parametrized by probability distributions and where the number of observed entries equals the number of param",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the geometry of rank-one tensor completion and semialgebraic descriptions of completable regions, with no mention of matroid local system rank, SAT clauses, or clause set complexity. It shares no specific claim with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0810.5165",
+      "title": "Some computations about Kazhdan-Lusztig cells in affine Weyl groups of rank 2",
+      "abstract_excerpt": "In the last section of the paper \"Generalized induction of Kazhdan-Lusztig cells\" and in \"Kazhdan-Lusztig cells in affine Weyl groups of rank 2\" the author described the partition into Kazhdan-Lusztig cells of the affine Weyl groups of rank 2 for all choices of parameters. The proof of these results relies on some explicit computations with GAP. In these notes we give some details of these computations.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Kazhdan-Lusztig cells in affine Weyl groups of rank 2 and GAP computations, which has no bearing on matroid local system rank or SAT clause set complexity. It shares only the loose term 'rank 2' and 'affine,' not the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0802.4323",
+      "title": "Non-singular affine surfaces with self-maps",
+      "abstract_excerpt": "We classify surjective self-maps (of degree at least two) of affine surfaces according to the log Kodaira dimension.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses 'surjective self-maps of affine surfaces' classified by log Kodaira dimension, which has no interaction with matroid local system rank or SAT clause complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
