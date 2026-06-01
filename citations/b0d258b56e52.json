@@ -1,0 +1,40 @@
+{
+  "entry_id": "b0d258b56e52",
+  "ts": 1780279946.7707026,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1612.04764",
+      "title": "Cohomological aspects on complex and symplectic manifolds",
+      "abstract_excerpt": "We discuss how quantitative cohomological informations could provide qualitative properties on complex and symplectic manifolds. In particular we focus on the Bott-Chern and the Aeppli cohomology groups in both cases, since they represent useful tools in studying non Kähler geometry. We give an overview on the comparisons among the dimensions of the cohomology groups that can be defined and we show how we reach the $\\partial\\overline\\partial$-lemma in complex geometry and the Hard-Lefschetz cond",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Bott-Chern/Aeppli cohomology, the ∂∂̄-lemma, and Hard-Lefschetz on complex/symplectic manifolds, with no mention of symplectic leaves, d-regular graphs, or monotone circuit complexity. It shares only the broad 'symplectic' vocabulary and does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1002.3099",
+      "title": "Tamed Symplectic forms and SKT metrics",
+      "abstract_excerpt": "Symplectic forms taming complex structures on compact manifolds are strictly related to Hermitian metrics having the fundamental form $\\partial \\bar \\partial $-closed, i.e. to strong Kähler with torsion (${\\rm SKT}$) metrics. It is still an open problem to exhibit a compact example of a complex manifold having a tamed symplectic structure but non-admitting Kähler structures. We show some negative results for the existence of symplectic forms taming complex structures on compact quotients of Lie ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns symplectic forms taming complex structures and SKT metrics on nilmanifolds, with no mention of symplectic leaves, affine varieties of graphs, or monotone circuit complexity. It shares only the word 'symplectic' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0601540v1",
+      "title": "Symplectic forms and surfaces of negative square",
+      "abstract_excerpt": "We introduce an analogue of the inflation technique of Lalonde-McDuff, allowing us to obtain new symplectic forms from symplectic surfaces of negative self-intersection in symplectic four-manifolds. We consider the implications of this construction for the symplectic cones of Kähler surfaces, provin",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns symplectic forms, inflation techniques, and surfaces of negative self-intersection in four-manifolds—it makes no mention of symplectic leaves, affine varieties of regular graphs, or monotone circuit complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

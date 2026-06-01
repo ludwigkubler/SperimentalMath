@@ -1,0 +1,40 @@
+{
+  "entry_id": "6fea9b7d7457",
+  "ts": 1780281509.0546181,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0103014v3",
+      "title": "Triplets and Symmetries of Arithmetic mod p^k",
+      "abstract_excerpt": "The finite ring Z_k = Z(+,.) mod p^k of residue arithmetic with odd prime power modulus is analysed. The cyclic group of units G_k in Z_k(.) has order (p-1)p^{k-1}, implying product structure G_k = A_k B_k. Here core A_k of order p-1 is an extension for k &gt;1 of Fermat's Small Theorem (FST*), wher",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the structure of the unit group of Z mod p^k and arithmetic symmetries (FST extension), with no mention of SAT clauses, indicator polynomials, or modular function rank. It shares only the vague concept of 'mod p' arithmetic with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2303.06883",
+      "title": "The mod 2 Seiberg-Witten invariants of spin structures and spin families",
+      "abstract_excerpt": "We completely determine the mod $2$ Seiberg-Witten invariants for any spin structure on any closed, oriented, smooth $4$-manifold $X$. Our computation confirms the validity of the simple type conjecture mod $2$ for spin structures. Our proof also works for families of spin $4$-manifolds and thus computes the mod $2$ Seiberg-Witten invariants for spin families. The proof of our main result uses $Pin(2)$-symmetry to define an enhancement of the mod $2$ Seiberg-Witten invariants. We prove a connect",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns mod 2 Seiberg-Witten invariants of spin 4-manifolds, with no mention of modular function rank, SAT instances, or clause indicator polynomials. It shares no substantive content with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2412.04449",
+      "title": "p-MoD: Building Mixture-of-Depths MLLMs via Progressive Ratio Decay",
+      "abstract_excerpt": "Despite the remarkable performance of multimodal large language models (MLLMs) across diverse tasks, the substantial training and inference costs impede their advancement. In this paper, we propose p-MoD, an efficient MLLM architecture that significantly reduces training and inference costs while maintaining model performance. The majority of computation in MLLMs stems from the overwhelming volume of vision tokens processed by the transformer-based LLM. Accordingly, we leverage the Mixture-of-De",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'p-MoD, an efficient MLLM architecture' using Mixture-of-Depths for vision tokens, which has no connection to modular function rank or SAT clause indicator polynomials.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-06-01T01:47:05Z",
-  "total_cycles": 4264,
+  "last_update_utc": "2026-06-01T02:47:05Z",
+  "total_cycles": 4282,
   "verdict_counts": {
-    "INCONCLUSIVE": 2791,
+    "INCONCLUSIVE": 2801,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 1367,
+    "BARRIER_HIT": 1375,
     "SCOOPED": 86
   },
-  "unique_field_A": 1901,
+  "unique_field_A": 1905,
   "top_fields_A": [
     [
       "Resolution proof complexity",
@@ -24,11 +24,11 @@
     ],
     [
       "Real Algebraic Geometry",
-      83
+      84
     ],
     [
       "Symplectic Geometry",
-      82
+      84
     ],
     [
       "Free Probability Theory",
@@ -51,12 +51,12 @@
       37
     ],
     [
-      "Hypergeometric Functions",
+      "Algebraic Geometry",
       30
     ],
     [
-      "Algebraic Geometry",
-      29
+      "Hypergeometric Functions",
+      30
     ],
     [
       "Free Probability",
@@ -67,7 +67,7 @@
       28
     ],
     [
-      "Noncommutative Geometry",
+      "Algebraic Topology",
       25
     ]
   ]

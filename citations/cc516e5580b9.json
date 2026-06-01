@@ -1,0 +1,40 @@
+{
+  "entry_id": "cc516e5580b9",
+  "ts": 1780281265.0792954,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2304.07540",
+      "title": "On real algebraic maps whose images are domains surrounded by the products of hyperbolas and real affine spaces",
+      "abstract_excerpt": "Previously, we have systematically constructed explicit real algebraic functions which are represented as the compositions of smooth real algebraic maps whose images are domains surrounded by hypersurfaces of degree 1 or 2 with canonical projections. Here we give new examples with the hypersurfaces each of which is the product of a connected component of a hyperbola and a copy of the $1$-dimensional affine space explicitly. As a related future work we also discuss problems to obtain the zero set",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns explicit construction of real algebraic maps with images bounded by hyperbola products, motivated by Reeb graph realization problems — it makes no claim about root separability of planar graph varieties or communication complexity bounds like Θ(n^(1/3)) or Ω(n^(2/3)).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1408.5939",
+      "title": "Planar Induced Subgraphs of Sparse Graphs",
+      "abstract_excerpt": "We show that every graph has an induced pseudoforest of at least $n-m/4.5$ vertices, an induced partial 2-tree of at least $n-m/5$ vertices, and an induced planar subgraph of at least $n-m/5.2174$ vertices. These results are constructive, implying linear-time algorithms to find the respective induced subgraphs. We also show that the size of the largest $K_h$-minor-free graph in a given graph can sometimes be at most $n-m/6+o(m)$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns extremal bounds on induced pseudoforests, partial 2-trees, and planar subgraphs in sparse graphs ('every graph has an induced pseudoforest of at least n-m/4.5 vertices'), with no mention of algebraic varieties, root separability, or communication complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1907.12134",
+      "title": "On local real algebraic geometry and applications to kinematics",
+      "abstract_excerpt": "We address the question of identifying non-smooth points in affine real algebraic varieties. A simple algebraic criterion will be formulated and proven. As an application we can answer several questions about the configuration spaces of some class of planar linkages.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses identifying non-smooth points in real algebraic varieties with application to planar linkage configuration spaces, with no mention of root separability bounds, communication complexity, or graph isomorphism distinguishing. It shares only the 'real algebraic geometry' and 'planar' vocabulary but does not interact with the specific Θ(n^(1/3))/Ω(n^(2/3)) claims.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
