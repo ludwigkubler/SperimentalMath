@@ -1,0 +1,31 @@
+{
+  "entry_id": "08de5d8cea7e",
+  "ts": 1780298528.5594862,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.1007/s10601-018-9299-0",
+      "title": "N-level Modulo-Based CNF encodings of Pseudo-Boolean constraints for MaxSAT",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available, so I cannot assess whether the paper addresses minimal modular form rank or its relationship to clause counts in k-regular graphs.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:26ffe7a8bd90b2e805b4d94babaf8a7c4ce8e138",
+      "title": "ARITHMETIC CLASSIFICATION OF PERFECT MODELS OF STRATIFIED PROGRAMS ON DOWNWARD CLOSURE ORDINALS OF LOGIC PROGRAMS",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available ('no abstract available'), so I cannot assess whether the paper supports, refutes, or is orthogonal to the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 2
+  }
+}
