@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-06-01T16:47:09Z",
-  "total_cycles": 4398,
+  "last_update_utc": "2026-06-01T17:47:06Z",
+  "total_cycles": 4406,
   "verdict_counts": {
-    "INCONCLUSIVE": 2886,
+    "INCONCLUSIVE": 2891,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 1406,
+    "BARRIER_HIT": 1409,
     "SCOOPED": 86
   },
-  "unique_field_A": 1922,
+  "unique_field_A": 1923,
   "top_fields_A": [
     [
       "Resolution proof complexity",
@@ -39,11 +39,11 @@
       43
     ],
     [
-      "Schur-Weyl Duality",
-      39
+      "Quandle Theory",
+      40
     ],
     [
-      "Quandle Theory",
+      "Schur-Weyl Duality",
       39
     ],
     [

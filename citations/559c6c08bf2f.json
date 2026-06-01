@@ -1,0 +1,40 @@
+{
+  "entry_id": "559c6c08bf2f",
+  "ts": 1780335033.0354414,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/1108.6261v2",
+      "title": "The complexity of admissible rules of Łukasiewicz logic",
+      "abstract_excerpt": "We investigate the computational complexity of admissibility of inference rules in infinite-valued Łukasiewicz propositional logic (Ł). It was shown in [13] that admissibility in Ł is checkable in PSPACE. We establish that this result is optimal, i.e., admissible rules of Ł are PSPACE-complete. In c",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns PSPACE-completeness of admissible rules in Łukasiewicz logic, which shares no interaction with quantum logic rank or resolution proof width as stated in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/cs/0404023v2",
+      "title": "Propositional computability logic I",
+      "abstract_excerpt": "In the same sense as classical logic is a formal theory of truth, the recently initiated approach called computability logic is a formal theory of computability. It understands (interactive) computational problems as games played by a machine against the environment, their computability as existence",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes 'computability logic' as a formal theory of computability via games, with no mention of quantum logic rank or resolution proof width. It shares only the broad 'logic' vocabulary and does not interact with the specific rank-width correlation claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/0805.3521v4",
+      "title": "Towards applied theories based on computability logic",
+      "abstract_excerpt": "Computability logic (CL) (see http://www.cis.upenn.edu/~giorgi/cl.html) is a recently launched program for redeveloping logic as a formal theory of computability, as opposed to the formal theory of truth that logic has more traditionally been. Formulas in it represent computational problems, \"truth\"",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes 'computability logic' as a formal theory of computability, with no mention of quantum logic, CNF formulas, resolution proof width, or rank — it shares only the broad word 'logic' with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
