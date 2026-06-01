@@ -1,0 +1,40 @@
+{
+  "entry_id": "07a95b1fe6d5",
+  "ts": 1780273705.3502517,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1612.04764",
+      "title": "Cohomological aspects on complex and symplectic manifolds",
+      "abstract_excerpt": "We discuss how quantitative cohomological informations could provide qualitative properties on complex and symplectic manifolds. In particular we focus on the Bott-Chern and the Aeppli cohomology groups in both cases, since they represent useful tools in studying non Kähler geometry. We give an overview on the comparisons among the dimensions of the cohomology groups that can be defined and we show how we reach the $\\partial\\overline\\partial$-lemma in complex geometry and the Hard-Lefschetz cond",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Bott-Chern/Aeppli cohomology, the ∂∂̄-lemma, and Hard-Lefschetz conditions on complex/symplectic manifolds — it makes no claim about symplectic volumes of affine varieties associated with SAT instances or resolution proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1002.3099",
+      "title": "Tamed Symplectic forms and SKT metrics",
+      "abstract_excerpt": "Symplectic forms taming complex structures on compact manifolds are strictly related to Hermitian metrics having the fundamental form $\\partial \\bar \\partial $-closed, i.e. to strong Kähler with torsion (${\\rm SKT}$) metrics. It is still an open problem to exhibit a compact example of a complex manifold having a tamed symplectic structure but non-admitting Kähler structures. We show some negative results for the existence of symplectic forms taming complex structures on compact quotients of Lie ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses symplectic forms taming complex structures on nilmanifolds and SKT metrics, with no mention of satisfiability, resolution proof width, or affine varieties associated with SAT instances. It shares only the vocabulary 'symplectic' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0611768v5",
+      "title": "The Invariant Symplectic Action and Decay for Vortices",
+      "abstract_excerpt": "The (local) invariant symplectic action functional $\\A$ is associated to a Hamiltonian action of a compact connected Lie group $\\G$ on a symplectic manifold $(M,ω)$, endowed with a $\\G$-invariant Riemannian metric $&lt;\\cdot,\\cdot&gt;_M$. It is defined on the set of pairs of loops $(x,ξ):S^1\\to M\\x\\",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes an invariant symplectic action functional for Hamiltonian group actions and vortex decay, with no mention of satisfiability instances, affine varieties of SAT problems, or resolution proof width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

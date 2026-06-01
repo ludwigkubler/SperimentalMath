@@ -1,0 +1,40 @@
+{
+  "entry_id": "2b8c15d516fe",
+  "ts": 1780274292.675672,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/2406.11937v3",
+      "title": "Using graph neural networks to reconstruct charged pion showers in the CMS High Granularity Calorimeter",
+      "abstract_excerpt": "A novel method to reconstruct the energy of hadronic showers in the CMS High Granularity Calorimeter (HGCAL) is presented. The HGCAL is a sampling calorimeter with very fine transverse and longitudinal granularity. The active media are silicon sensors and scintillator tiles readout by SiPMs and the ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns reconstructing hadronic shower energy in the CMS calorimeter using graph neural networks, which has no interaction with quadratic residues, communication complexity, or planar graph edge-weight residue counts.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1408.5939v2",
+      "title": "Planar Induced Subgraphs of Sparse Graphs",
+      "abstract_excerpt": "We show that every graph has an induced pseudoforest of at least $n-m/4.5$ vertices, an induced partial 2-tree of at least $n-m/5$ vertices, and an induced planar subgraph of at least $n-m/5.2174$ vertices. These results are constructive, implying linear-time algorithms to find the respective induce",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns induced subgraph extraction bounds (pseudoforests, partial 2-trees, planar subgraphs) in sparse graphs, with no mention of quadratic residues, prime moduli, edge weights, or communication complexity. It shares only the 'planar graph' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2410.13515v2",
+      "title": "Observation of a rare beta decay of the charmed baryon with a Graph Neural Network",
+      "abstract_excerpt": "The beta decay of the lightest charmed baryon $Λ_c^+$ provides unique insights into the fundamental mechanism of strong and electro-weak interactions, serving as a testbed for investigating non-perturbative quantum chromodynamics and constraining the Cabibbo-Kobayashi-Maskawa (CKM) matrix parameters",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns beta decay of charmed baryons and CKM matrix parameters in particle physics, with no relation to quadratic residues, planar graphs, or communication complexity. The 'Graph Neural Network' mention is methodological and unrelated to the conjecture's graph-theoretic claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

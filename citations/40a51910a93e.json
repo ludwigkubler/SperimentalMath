@@ -1,0 +1,31 @@
+{
+  "entry_id": "40a51910a93e",
+  "ts": 1780274581.468321,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.3390/e25050763",
+      "title": "Visualizing Quantum Circuit Probability: Estimating Quantum State Complexity for Quantum Program Synthesis",
+      "abstract_excerpt": "This work applies concepts from algorithmic probability to Boolean and quantum combinatorial logic circuits. The relations among the statistical, algorithmic, computational, and circuit complexities of states are reviewed. Thereafter, the probability of states in the circuit model of computation is defined. Classical and quantum gate sets are compared to select some characteristic sets. The reachability and expressibility in a space-time-bounded setting for these gate sets are enumerated and vis",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'reachability and expressibility in a space-time-bounded setting' for circuit gate sets and circuit probabilities, but makes no claim about a lower bound relating circuit depth to a geometric entropy of the input space. It shares vocabulary (circuits, complexity) but does not interact with the specific log(2)*d(C) ≤ H_geo(I_C) inequality.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10.37648/ijrst.v16i02.004",
+      "title": "Unconditional Closure of P versus NP: Fourier–Entropy Obstruction, Spectral Saturation, and Curvature-Guided Descent",
+      "abstract_excerpt": "This manuscript presents a claimed first-principles closure route for P versus NP, organized around a Fourier–geometric obstruction to polynomial-size circuit representation of satisfiability. The argument develops five interlocking layers: Fourier–Walsh analysis of Boolean functions, hypercontractive and random-restriction control of polynomial-size circuits, phase-transition cluster geometry for random satisfiability, a curvature-based saturation index on the Fourier cluster hypergraph, and a ",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a Fourier-entropy/spectral obstruction yielding a P vs NP separation via circuit size lower bounds for SAT, not a depth-vs-geometric-entropy inequality for arbitrary Boolean circuits. It shares vocabulary (entropy, Boolean circuits) but does not address the specific claim log(2)·d(C) ≤ H_geo(I_C).",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 0
+  }
+}

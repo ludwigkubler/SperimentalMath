@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-05-31T23:47:05Z",
-  "total_cycles": 4235,
+  "last_update_utc": "2026-06-01T00:47:06Z",
+  "total_cycles": 4252,
   "verdict_counts": {
-    "INCONCLUSIVE": 2777,
+    "INCONCLUSIVE": 2783,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 1352,
+    "BARRIER_HIT": 1363,
     "SCOOPED": 86
   },
-  "unique_field_A": 1898,
+  "unique_field_A": 1901,
   "top_fields_A": [
     [
       "Resolution proof complexity",
@@ -28,7 +28,7 @@
     ],
     [
       "Symplectic Geometry",
-      79
+      81
     ],
     [
       "Free Probability Theory",
@@ -63,11 +63,11 @@
       28
     ],
     [
-      "Noncommutative Geometry",
-      25
+      "Algebraic Geometry",
+      26
     ],
     [
-      "Algebraic K-Theory",
+      "Noncommutative Geometry",
       25
     ]
   ]
