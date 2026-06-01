@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-06-01T11:47:05Z",
-  "total_cycles": 4360,
+  "last_update_utc": "2026-06-01T12:47:09Z",
+  "total_cycles": 4364,
   "verdict_counts": {
-    "INCONCLUSIVE": 2860,
+    "INCONCLUSIVE": 2864,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
     "BARRIER_HIT": 1394,
     "SCOOPED": 86
   },
-  "unique_field_A": 1917,
+  "unique_field_A": 1918,
   "top_fields_A": [
     [
       "Resolution proof complexity",
@@ -51,15 +51,15 @@
       37
     ],
     [
+      "Affine Geometry",
+      31
+    ],
+    [
       "Algebraic Geometry",
       30
     ],
     [
       "Hypergeometric Functions",
-      30
-    ],
-    [
-      "Affine Geometry",
       30
     ],
     [

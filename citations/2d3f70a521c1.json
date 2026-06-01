@@ -1,0 +1,40 @@
+{
+  "entry_id": "2d3f70a521c1",
+  "ts": 1780316299.2765083,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1709.00630",
+      "title": "Unitarizability in generalized rank three for classical p-adic groups",
+      "abstract_excerpt": "In an earlier paper we propose an approach to the unitarizability problem in the case of classical groups over a p-adic field of characteristic zero based on cuspidal reducibility points. We have reduced earlier the unitarizability for these groups to the case of so called weakly real representations. Following C. Jantzen, to an irreducible weakly real representation $π$ of a classical group one can attach a sequence ($π_1,\\dots,π_k)$ of irreducible representations of classical groups, each of t",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'unitarizability problem for irreducible subquotients' of representations of classical p-adic groups and 'generalized rank three'—a representation-theoretic notion unrelated to valuation ring rank or Frege proof complexity of CNFs. Shared vocabulary ('p-adic', 'rank') does not engage the conjecture's claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1601.00010",
+      "title": "On pairs of p-adic L-functions for weight two modular forms",
+      "abstract_excerpt": "The point of this paper is to give an explicit p-adic analytic construction of two Iwasawa functions L_p^\\sharp(f,T) and L_p^\\flat(f,T) for a weight two modular form \\sum a_n q^n and a good prime p. This generalizes work of Pollack who worked in the supersingular case and also assumed a_p=0. The Iwasawa functions work in tandem to shed some light on the Birch and Swinnerton-Dyer conjectures in the cyclotomic direction: We bound the rank and estimate the growth of the Tate-Shafarevich group in th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses p-adic L-functions for modular forms and Birch-Swinnerton-Dyer conjectures ('bound the rank and estimate the growth of the Tate-Shafarevich group'), which shares only superficial vocabulary ('p-adic', 'rank') with the conjecture about CNF formulas and Frege proof length.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1102.2932",
+      "title": "Applications of Monotone Rank to Complexity Theory",
+      "abstract_excerpt": "Raz's recent result \\cite{Raz2010} has rekindled people's interest in the study of \\emph{tensor rank}, the generalization of matrix rank to high dimensions, by showing its connections to arithmetic formulas. In this paper, we follow Raz's work and show that \\emph{monotone rank}, the monotone variant of tensor rank and matrix rank, has applications in algebraic complexity, quantum computing and communication complexity. This paper differs from Raz's paper in that it leverages existing results to ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses monotone tensor rank applications to algebraic complexity, quantum correlations, and communication complexity (log-rank conjecture), with no mention of p-adic valuation rings, CNF formulas, or Frege proof complexity. It shares only the generic word 'rank' with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "b8267acb7157",
+  "ts": 1780317058.4805326,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1405.2700",
+      "title": "Zero Excess and Minimal Length in Finite Coxeter Groups",
+      "abstract_excerpt": "Let $\\mathcal{W}$ be the set of strongly real elements of $W$, a Coxeter group. Then for $w \\in \\mathcal{W}$, $e(w)$, the excess of $w$, is defined by $e(w) = \\min\\{\\ell(x) + \\ell(y) - \\ell(w) \\; | \\; w=xy, x^2 = y^2 = 1\\}$. When $W$ is finite we may also define $E(w)$, the reflection excess of $w$. The main result established here is that if $W$ is finite and $X$ is a $W$-conjugacy class, then there exists $w \\in X$ such that $w$ has minimal length in $X$ and $e(w) = 0 = E(w)$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns excess and minimal length in finite Coxeter groups, with no mention of affine varieties, local ring norms, or Frege proof complexity. It shares only the word 'minimal length' superficially with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1911.04262",
+      "title": "A Short Proof of Köthe's Conjecture for Compact Rings",
+      "abstract_excerpt": "We provide a new proof that the upper nilradical of a compact ring coincides with the sum of its left nil ideals using the properties of orthogonal idempotents in compact rings.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'the upper nilradical of a compact ring' and Köthe's conjecture for compact rings, which has no interaction with affine variety norms or Frege proof length.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/9810010v5",
+      "title": "A local proof of Petri's conjecture at the general curve",
+      "abstract_excerpt": "A proof of Petri's general conjecture on the unobstructedness of linear systems on a general curve is proposed, using only the local properties of the deformation space of the pair (curve, line bundle).",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'Petri's general conjecture on the unobstructedness of linear systems on a general curve' using deformation theory, which shares no interaction with minimal local ring norms of affine varieties or Frege proof length.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

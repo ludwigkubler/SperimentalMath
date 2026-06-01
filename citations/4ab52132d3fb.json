@@ -1,0 +1,40 @@
+{
+  "entry_id": "4ab52132d3fb",
+  "ts": 1780314663.9865131,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1303.4051",
+      "title": "The failure risk analysis of digital circuits",
+      "abstract_excerpt": "To analyze the failure risk of asynchronous digital circuits the time-parameter is introduced into the Boolean algebra replacing the arithmetic operations by logical operations. There considered an example of construction of signals passing through the logical elements, using the described below mathematical apparatus.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses failure risk analysis of asynchronous digital circuits using time-parameterized Boolean algebra, which shares only the broad 'circuits' vocabulary but does not address monotone width, Diophantine properties, or CNF complexity bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1110.2998",
+      "title": "Equivalent Quantum Circuits",
+      "abstract_excerpt": "Quantum algorithms and protocols are often presented as quantum circuits for a better understanding. We give a list of equivalence rules which can help in the analysis and design of quantum circuits. As example applications we study quantum teleportation and dense coding protocols in terms of a simple XOR swapping circuit and give an intuitive picture of a basic gate teleportation circuit.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns equivalence rules for quantum circuits (teleportation, dense coding), with no mention of Diophantine properties, CNF formulas, or monotone circuit width. It shares only the generic word 'circuits' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1609.06986",
+      "title": "More on Diophantine sextuples",
+      "abstract_excerpt": "A rational Diophantine m-tuple is a set of m nonzero rationals such that the product of any two of them increased by 1 is a perfect square. The first rational Diophantine quadruple was found by Diophantus, while Euler proved that there are infinitely many rational Diophantine quintuples. In 1999, Gibbs found the first example of a rational Diophantine sextuple, and Dujella, Kazalicki, Mikic and Szikszai recently proved that there exist infinitely many rational Diophantine sextuples.\n  In this pa",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes parametric formulas for rational Diophantine sextuples (sets where products plus 1 are perfect squares), which shares the word 'Diophantine' but has no connection to CNF formulas, circuit monotone width, or the claimed O(m log m) bound.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
