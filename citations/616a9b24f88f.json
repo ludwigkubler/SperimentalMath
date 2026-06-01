@@ -1,0 +1,40 @@
+{
+  "entry_id": "616a9b24f88f",
+  "ts": 1780318117.4443321,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1007.4036",
+      "title": "Symplectic reduction of quasi-morphisms and quasi-states",
+      "abstract_excerpt": "We prove that quasi-morphisms and quasi-states on a closed integral symplectic manifold descend under symplectic reduction to symplectic hyperplane sections. Along the way we show that quasi-morphisms that arise from spectral invariants are the Calabi homomorphism when restricted to Hamiltonians supported on stably displaceable sets.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'quasi-morphisms and quasi-states' descending under 'symplectic reduction to symplectic hyperplane sections,' with no mention of SAT formulas, clause complexity, or symplectic leaf orders in hyperkähler moduli spaces.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0904.1245",
+      "title": "Towards Generalizing Schubert Calculus in the Symplectic Category",
+      "abstract_excerpt": "The main purpose of this article is to extend some of the ideas from Schubert calculus to the more general setting of Hamiltonian torus actions on compact symplectic manifolds with isolated fixed points. Given a generic component of the moment map, we define a canonical class α_p in the equivariant cohomology of the manifold M for each fixed point p of M. When they exist, canonical classes form a natural basis of the equivariant cohomology of M; in particular, when M is a flag variety, these cla",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Schubert calculus, equivariant cohomology, and Hamiltonian torus actions on symplectic manifolds, with no mention of SAT formulas, clause complexity, hyperkähler moduli, or symplectic leaves — it shares only the broad 'symplectic' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0601540v1",
+      "title": "Symplectic forms and surfaces of negative square",
+      "abstract_excerpt": "We introduce an analogue of the inflation technique of Lalonde-McDuff, allowing us to obtain new symplectic forms from symplectic surfaces of negative self-intersection in symplectic four-manifolds. We consider the implications of this construction for the symplectic cones of Kähler surfaces, provin",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses an inflation technique for symplectic forms from surfaces of negative self-intersection in four-manifolds and symplectic cones of Kähler surfaces, with no mention of symplectic leaves, hyperkähler moduli, CNF formulas, or SAT clause complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
