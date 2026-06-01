@@ -2877,3 +2877,4 @@
 {"ts": 1780306206.3962069, "kind": "NOTEBOOK_LARGE", "auto_fixed": false, "detail": {"size_mb": 83.235125}}
 {"ts": 1780306207.5843513, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 36}}
 {"ts": 1780306208.4366596, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1863, "cap": 2000, "fraction": 0.931, "weekly_budget": 2500}}
+{"ts": 1780309520.35165, "ts_iso": "2026-06-01T10:25:20.351650+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "OK", "to_status": "DEGRADED", "failing_checks": ["mirror_git_pushed"], "auto_fixed": false}
