@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-06-01T18:47:08Z",
-  "total_cycles": 4409,
+  "last_update_utc": "2026-06-01T19:47:07Z",
+  "total_cycles": 4417,
   "verdict_counts": {
-    "INCONCLUSIVE": 2894,
+    "INCONCLUSIVE": 2899,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 1409,
+    "BARRIER_HIT": 1412,
     "SCOOPED": 86
   },
-  "unique_field_A": 1924,
+  "unique_field_A": 1925,
   "top_fields_A": [
     [
       "Resolution proof complexity",
@@ -20,7 +20,7 @@
     ],
     [
       "Tropical Geometry",
-      103
+      105
     ],
     [
       "Symplectic Geometry",
@@ -40,7 +40,7 @@
     ],
     [
       "Quandle Theory",
-      40
+      41
     ],
     [
       "Schur-Weyl Duality",

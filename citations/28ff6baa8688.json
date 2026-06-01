@@ -1,0 +1,40 @@
+{
+  "entry_id": "28ff6baa8688",
+  "ts": 1780340290.788642,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1208.0785",
+      "title": "Estimating topological entropy from the motion of stirring rods",
+      "abstract_excerpt": "Stirring a two-dimensional viscous fluid with rods is often an effective way to mix. The topological features of periodic rod motions give a lower bound on the topological entropy of the induced flow map, since material lines must `catch' on the rods. But how good is this lower bound? We present examples from numerical simulations and speculate on what affects the 'gap' between the lower bound and the measured topological entropy. The key is the sign of the rod motion's action on first homology ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses topological entropy of fluid flows induced by stirring rods and lower bounds from rod braiding, with no mention of SAT instances, clause set complexity, or planar embeddings of logical formulas. It shares only the vocabulary 'topological entropy' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2208.14597",
+      "title": "A comparison of categorical and topological entropies on Weinstein manifolds",
+      "abstract_excerpt": "Let $W$ be a symplectic manifold, and let $φ:W \\to W$ be a symplectic automorphism. Then, $φ$ induces an auto-equivalence $Φ$ defined on the Fukaya category of $W$. In this paper, we prove that the categorical entropy of $Φ$ bounds the topological entropy of $φ$ from below where $W$ is a Weinstein manifold and $φ$ is compactly supported. Moreover, being motivated by the work of Cineli, Ginzburg, and Gurel, we propose a conjecture which generalizes a result in dynamical system.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns categorical vs topological entropy on Weinstein manifolds via Fukaya categories of symplectic automorphisms, which shares the term 'topological entropy' but does not address planar embeddings of SAT instances or clause set complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1607.07412",
+      "title": "Étale dynamical systems and topological entropy",
+      "abstract_excerpt": "In this paper, we consider two questions about topological entropy of dynamical systems. We propose to resolve these questions by the same approach of using étale analogs of topological and algebraic dynamical systems.\n  The first question is to define topological entropy for a topological dynamical system $(f,X,Ω)$. The main idea is to make use - in addition to invariant compact subspaces of $(X,Ω)$ - of compactifications of étale covers $π:(f',X',Ω')\\rightarrow (f,X,Ω)$, that is $π\\circ f'=f\\c",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns defining topological entropy via étale covers for topological and algebraic dynamical systems, with no mention of SAT, clause set complexity, or planar embeddings of logical instances. It shares only the vocabulary 'topological entropy' with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

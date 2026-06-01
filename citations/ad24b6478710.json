@@ -1,0 +1,40 @@
+{
+  "entry_id": "ad24b6478710",
+  "ts": 1780339688.3020291,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/9910001v1",
+      "title": "Classification of Equivariant Complex Vector Bundles over a Circle",
+      "abstract_excerpt": "In this paper we characterize the fiber representations of equivariant complex vector bundles over a circle and classify these bundles. We also treat the triviality of equivariant complex vector bundles over a circle by investigating the extensions of representations. As a corollary of our results, ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns classification of equivariant complex vector bundles over a circle and 'extensions of representations,' with no mention of Kostant cohomology, Boolean functions, or communication complexity. It shares only the loose 'equivariant' framework vocabulary.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2203.13119v1",
+      "title": "A GL-Equivariant Complex Inducing Character Identities for Schur Modules",
+      "abstract_excerpt": "In this paper we construct a GL-equivariant complex of Schur modules over a ring of positive characteristic that can be used to deduce classical alternating sum identities for Schur polynomials. This complex globalizes to a complex of vector bundles and can also be used to give an explicit construct",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a GL-equivariant complex of Schur modules used for character identities in representation theory, with no mention of Boolean functions, communication complexity, or Kostant cohomology rank. It shares only the general 'equivariant complex' vocabulary without engaging with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1607.07916v2",
+      "title": "$\\mathbb{Z}/m\\mathbb{Z}$-graded Lie algebras and perverse sheaves, III: graded double affine Hecke algebra",
+      "abstract_excerpt": "In this paper we construct representations of certain graded double affine Hecke algebras (DAHA) with possibly unequal parameters from geometry. More precisely, starting with a simple Lie algebra $\\mathfrak{g}$ together with a $\\mathbb{Z}/m\\mathbb{Z}$-grading $\\oplus_{i}\\mathfrak{g}_{i}$ and a block",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses constructing representations of graded double affine Hecke algebras from Z/mZ-graded Lie algebras, with no mention of Kostant cohomology, Boolean functions, or communication complexity. It shares the broad 'Lie algebra' vocabulary but does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

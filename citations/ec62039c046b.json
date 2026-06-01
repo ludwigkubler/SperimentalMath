@@ -1,0 +1,40 @@
+{
+  "entry_id": "ec62039c046b",
+  "ts": 1780342660.894153,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2110.06718",
+      "title": "The 2-parity conjecture for elliptic curves with isomorphic 2-torsion",
+      "abstract_excerpt": "The Birch and Swinnerton--Dyer conjecture famously predicts that the rank of an elliptic curve can be computed from its $L$-function. In this article we consider a weaker version of this conjecture called the parity conjecture and prove the following. Let $E_1$ and $E_2$ be two elliptic curves defined over a number field $K$ whose 2-torsion groups are isomorphic as Galois modules.\n  Assuming finiteness of the Shafarevich-Tate groups of $E_1$ and $E_2$, we show that the Birch and Swinnerton-Dyer ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the parity conjecture for elliptic curves' ranks via L-functions and Shafarevich-Tate groups ('we show that the Birch and Swinnerton-Dyer conjecture correctly predicts the parity of the rank'), with no connection to CNF formulas, resolution proof width, or finite-field curve orders.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1807.03761",
+      "title": "The second moment of the number of integral points on elliptic curves is bounded",
+      "abstract_excerpt": "Let $K$ be a number field and $S$ a finite set of places of $K$ containing all archimedean places. In this paper, we show that the second moment of the number of $S$-integral points on elliptic curves over $K$ is bounded. In particular, we prove that, for any positive real number $r\\leq \\log_2 5 = 2.3219 \\ldots$, the $r$-th moment of the number of $S$-integral points is bounded for the family of all integral short Weierstrass curves ordered by height, or for any positive density subfamily thereo",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns bounds on moments of integral points on elliptic curves over number fields, with no mention of CNF formulas, resolution proof width, or any connection to proof complexity. It shares only the 'elliptic curve' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1203.0809",
+      "title": "Average rank of elliptic curves",
+      "abstract_excerpt": "Bhargava and Shankar prove that as E varies over all elliptic curves over Q, the average rank of the finitely generated abelian group E(Q) is bounded. This result follows from an exact formula for the average size of the 2-Selmer group, which in turn follows from an asymptotic formula for the number of binary quartic forms over Z with bounded invariants. We explain their proof, as well as other arithmetic applications.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the average rank of elliptic curves over Q via 2-Selmer groups and binary quartic forms, which shares the 'elliptic curve' vocabulary but does not interact with CNF formulas, projective plane representations, or resolution proof width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
