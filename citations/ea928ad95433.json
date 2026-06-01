@@ -1,0 +1,40 @@
+{
+  "entry_id": "ea928ad95433",
+  "ts": 1780329143.4029648,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0904.3035",
+      "title": "Additive number theory and inequalities in Ehrhart theory",
+      "abstract_excerpt": "We introduce a powerful connection between Ehrhart theory and additive number theory, and use it to produce infinitely many new classes of inequalities between the coefficients of the $h^*$-polynomial of a lattice polytope. This greatly improves upon the three known classes of inequalities, which were proved using techniques from commutative algebra and combinatorics. As an application, we deduce all possible `balanced' inequalities between the coefficients of the $h^*$-polynomial of a lattice p",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses inequalities between coefficients of the h*-polynomial via additive number theory, with no mention of Boolean functions, 2CNF, Frege proof depth, or any complexity-theoretic notion. It shares only the Ehrhart theory vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2402.10351",
+      "title": "Quantum Automating $\\mathbf{TC}^0$-Frege Is LWE-Hard",
+      "abstract_excerpt": "We prove the first hardness results against efficient proof search by quantum algorithms. We show that under Learning with Errors (LWE), the standard lattice-based cryptographic assumption, no quantum algorithm can weakly automate $\\mathbf{TC}^0$-Frege. This extends the line of results of Krajíček and Pudlák (Information and Computation, 1998), Bonet, Pitassi, and Raz (FOCS, 1997), and Bonet, Domingo, Gavaldà, Maciel, and Pitassi (Computational Complexity, 2004), who showed that Extended Frege, ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses quantum hardness of automating TC^0-Frege under LWE, with no mention of Ehrhart theory, polytope quotients, 2CNF varieties, or Frege proof depth correlations. It shares only the 'Frege' vocabulary but does not address the specific conjectured linear correlation.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2211.17129",
+      "title": "Ehrhart Limits",
+      "abstract_excerpt": "We introduce the definition of an Ehrhart limit, that is, a formal power series with integer coefficients that is the limit in the ring of formal power series of a sequence of Ehrhart $h^*$-polynomials. We identify a variety of examples of sequences of polytopes that yield Ehrhart limits, with a focus on reflexive polytopes and simplices.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'Ehrhart limits' as formal power series limits of h*-polynomial sequences, focusing on reflexive polytopes and simplices, with no mention of Boolean functions, 2CNF, Frege proof depth, or any correlation with proof complexity measures.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

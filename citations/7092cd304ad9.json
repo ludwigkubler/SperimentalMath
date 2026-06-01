@@ -1,0 +1,40 @@
+{
+  "entry_id": "7092cd304ad9",
+  "ts": 1780330433.9071982,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/1607.05594v2",
+      "title": "Poincaré series of compressed local Artinian rings with odd top socle degree",
+      "abstract_excerpt": "We define a notion of compressed local Artinian ring that does not require the ring to contain a field. Let $(R,\\mathfrak m)$ be a compressed local Artinian ring with odd top socle degree $s$, at least five, and $\\operatorname{socle}(R)\\cap \\mathfrak m^{s-1}=\\mathfrak m^s$. We prove that the Poincar",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Poincaré series of compressed local Artinian rings with odd top socle degree, with no mention of boolean circuits, monotone width, or any circuit complexity measure. It shares the 'local ring' vocabulary but does not interact with the conjecture's claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/astro-ph/0405128v1",
+      "title": "Probing the Evolution of the Galaxy Interaction/Merger Rate Using Collisional Ring Galaxies",
+      "abstract_excerpt": "We present the results from our program to determine the evolution of the galaxy interaction/merger rate with redshift using the unique star-forming characteristics of collisional ring galaxies. We have identified 25 distant collisional ring galaxy candidates (CRGCs) in a total of 162 deep Hubble Sp",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns astrophysical 'collisional ring galaxies' and galaxy merger rates, sharing only the word 'ring' with the conjecture about local rings in algebra and boolean circuits.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1902.08221v2",
+      "title": "Compact minimal hypersurfaces of index one and the width of real projective spaces",
+      "abstract_excerpt": "We characterize the first min-max width of real projective spaces of any dimension. The width is the minimum area over the Clifford hypersurfaces. We also compute the Morse index of the Clifford hypersurfaces in the complex and quaternionic projective spaces.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'min-max width of real projective spaces' and 'Morse index' of minimal hypersurfaces in differential geometry, which shares only the vocabulary 'width' and 'index' but has no interaction with local ring theory or boolean circuits.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
