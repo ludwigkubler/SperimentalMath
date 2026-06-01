@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-06-01T10:48:08Z",
-  "total_cycles": 4348,
+  "last_update_utc": "2026-06-01T11:47:05Z",
+  "total_cycles": 4360,
   "verdict_counts": {
-    "INCONCLUSIVE": 2851,
+    "INCONCLUSIVE": 2860,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 1391,
+    "BARRIER_HIT": 1394,
     "SCOOPED": 86
   },
-  "unique_field_A": 1914,
+  "unique_field_A": 1917,
   "top_fields_A": [
     [
       "Resolution proof complexity",
@@ -24,7 +24,7 @@
     ],
     [
       "Symplectic Geometry",
-      87
+      88
     ],
     [
       "Real Algebraic Geometry",
@@ -60,7 +60,7 @@
     ],
     [
       "Affine Geometry",
-      29
+      30
     ],
     [
       "Free Probability",

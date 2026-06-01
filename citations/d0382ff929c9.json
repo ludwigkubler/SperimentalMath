@@ -1,0 +1,40 @@
+{
+  "entry_id": "d0382ff929c9",
+  "ts": 1780311519.5472615,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0601540v1",
+      "title": "Symplectic forms and surfaces of negative square",
+      "abstract_excerpt": "We introduce an analogue of the inflation technique of Lalonde-McDuff, allowing us to obtain new symplectic forms from symplectic surfaces of negative self-intersection in symplectic four-manifolds. We consider the implications of this construction for the symplectic cones of Kähler surfaces, provin",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses an inflation technique for symplectic forms on four-manifolds and Kähler surfaces, with no mention of symplectic leaves, toric quotients, SAT, or clause complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0611768v5",
+      "title": "The Invariant Symplectic Action and Decay for Vortices",
+      "abstract_excerpt": "The (local) invariant symplectic action functional $\\A$ is associated to a Hamiltonian action of a compact connected Lie group $\\G$ on a symplectic manifold $(M,ω)$, endowed with a $\\G$-invariant Riemannian metric $&lt;\\cdot,\\cdot&gt;_M$. It is defined on the set of pairs of loops $(x,ξ):S^1\\to M\\x\\",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes an 'invariant symplectic action functional' for Hamiltonian group actions and vortex decay — it shares the symplectic vocabulary but says nothing about symplectic leaves, toric quotients, or SAT clause complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1811.09984",
+      "title": "Translated points for contactomorphisms of prequantization spaces over monotone symplectic toric manifolds",
+      "abstract_excerpt": "We prove a version of Sandon's conjecture on the number of translated points of contactomorphisms for the case of prequantization bundles over certain closed monotone symplectic toric manifolds. Namely we show that any contactomorphism of such a prequantization bundle lying in the identity component of the contactomorphism group possesses at least $N$ translated points, where $N$ is the minimal Chern number of the symplectic toric manifold. The proof relies on the theory of generating functions ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns translated points of contactomorphisms on prequantization bundles over symplectic toric manifolds (Sandon's conjecture), not symplectic leaves of symplectic quotients or any connection to SAT clause complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

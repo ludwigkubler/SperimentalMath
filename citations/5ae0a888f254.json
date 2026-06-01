@@ -1,0 +1,40 @@
+{
+  "entry_id": "5ae0a888f254",
+  "ts": 1780313079.493466,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2409.14352",
+      "title": "Centraliser algebras of monomial representations and applications in combinatorics",
+      "abstract_excerpt": "Centraliser algebras of monomial representations of finite groups may be constructed and studied using methods similar to those employed in the study of permutation groups. Guided by results of D. G. Higman and others, we give an explicit construction for a basis of the centraliser algebra of a monomial representation. The character table of this algebra is then constructed via character sums over double cosets. We locate the theory of group-developed and cocyclic-developed Hadamard matrices wit",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses centraliser algebras of monomial representations of finite groups and applications to Hadamard matrices, with no mention of Boolean formulas, local ring norms, or resolution proof width. It shares only the vocabulary 'monomial representation' but does not interact with the specific complexity claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2410.03444",
+      "title": "Factoring through monomial representations: arithmetic characterizations and ambiguity of weighted automata",
+      "abstract_excerpt": "We characterize group representations that factor through monomial representations, respectively, block-triangular representations with monomial diagonal blocks, by arithmetic properties. Similar results are obtained for semigroup representations by invertible transformations. The characterizations use results on unit equations from Diophantine number theory (by Evertse, van der Poorten, and Schlickewei in characteristic zero, and by Derksen and Masser in positive characteristic).\n  Specialized ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns characterizing group/semigroup representations that factor through monomial representations via Diophantine arithmetic properties and weighted automata ambiguity, with no mention of Boolean formulas, local ring norms, or resolution proof width. It shares only the term 'monomial representation' with the conjecture but does not address the claimed correlation.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2406.14513v3",
+      "title": "On fibered Burnside rings, fiber change maps and cyclic fiber groups",
+      "abstract_excerpt": "Fibered Burnside rings appear as Grothendieck rings of fibered permutation representations of a finite group, generalizing Burnside rings and monomial representation rings. Their species, primitive idempotents and their conductors are of particular interest in representation theory as they encode in",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'fibered Burnside rings' and 'monomial representations' in representation theory, sharing only the vocabulary 'monomial representation' with the conjecture but not addressing local ring norms, Boolean formulas, or resolution proof width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

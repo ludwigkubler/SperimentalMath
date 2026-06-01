@@ -1,0 +1,31 @@
+{
+  "entry_id": "b7b7aa110a2e",
+  "ts": 1780313830.7728481,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.3390/e22040388",
+      "title": "A Low Complexity Near-Optimal Iterative Linear Detector for Massive MIMO in Realistic Radio Channels of 5G Communication Systems",
+      "abstract_excerpt": "Massive multiple-input multiple-output (M-MIMO) is a substantial pillar in fifth generation (5G) mobile communication systems. Although the maximum likelihood (ML) detector attains the optimum performance, it has an exponential complexity. Linear detectors are one of the substitutions and they are comparatively simple to implement. Unfortunately, they sustain a considerable performance loss in high loaded systems. They also include a matrix inversion which is not hardware-friendly. In addition, ",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns iterative linear detectors for massive MIMO in 5G systems (a signal processing/communications engineering topic), with no mention of quaternionic automorphism groups, boolean functions, or deterministic communication complexity. It shares only the loose term 'communication' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10.1109/CSNT64827.2025.10968044",
+      "title": "Security Evaluation of Two-Dimensional Chaotic Function for Cryptographic Primitives Element",
+      "abstract_excerpt": "Technologies in Industry 4.0 leverage various cryptographic systems to enhance the security of data and communication networks. Among these systems, primitive cryptographic methods, such as symmetric cryptography, play a crucial role. These include block ciphers, stream ciphers, hash functions, and pseudorandom number generators, all of which rely on core properties like randomness, confusion, and diffusion. In this context, chaos functions emerge as an effective solution for achieving these pro",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns two-dimensional chaotic functions for cryptographic primitives (e.g., Tinker Bell Map, NIST SP800-22 randomness testing), with no mention of quaternionic automorphism groups, boolean function hypercubes, or deterministic communication complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 0
+  }
+}
