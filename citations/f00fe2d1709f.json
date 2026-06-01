@@ -1,0 +1,40 @@
+{
+  "entry_id": "f00fe2d1709f",
+  "ts": 1780291497.2124846,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2407.04826",
+      "title": "Multi-strategy Based Quantum Cost Reduction of Quantum Boolean Circuits",
+      "abstract_excerpt": "The construction of quantum computers is based on the synthesis of low-cost quantum circuits. The quantum circuit of any Boolean function expressed in a Positive Polarity Reed-Muller $PPRM$ expansion can be synthesized using Multiple-Control Toffoli ($MCT$) gates. This paper proposes two algorithms to construct a quantum circuit for any Boolean function expressed in a Positive Polarity Reed-Muller $PPRM$ expansion. The Boolean function can be expressed with various algebraic forms, so there are ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns synthesizing low-cost quantum circuits from Reed-Muller expansions using MCT/NCV gates, with no mention of modular function extensions, minimal order, or monotone circuit complexity. It shares the broad 'Boolean circuit' vocabulary but does not address the specific conjectured relationship min_order(C) = Θ(m(C)).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/quant-ph/0207001v4",
+      "title": "Reversible Logic Circuit Synthesis",
+      "abstract_excerpt": "Reversible or information-lossless circuits have applications in digital signal processing, communication, computer graphics and cryptography. They are also a fundamental requirement in the emerging field of quantum computation. We investigate the synthesis of reversible circuits that employ a minim",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns synthesis of reversible/information-lossless circuits for quantum computation and signal processing, with no mention of modular function extensions or monotone circuit complexity. It shares only the broad 'circuits' vocabulary but does not interact with the specific claim about min_order(C) = Θ(m(C)).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0710.0664",
+      "title": "Synthesis and Optimization of Reversible Circuits for Homogeneous Boolean Functions",
+      "abstract_excerpt": "Homogenous Boolean function is an essential part of any cryptographic system. The ability to construct an optimized reversible circuits for homogeneous Boolean functions might arise the possibility of building cryptographic system on novel computing paradigms such as quantum computers. This paper shows a factorization algorithm to synthesize such circuits.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns synthesizing reversible circuits for homogeneous Boolean functions via factorization, with no mention of modular function extensions, monotone complexity, or any Θ(m(C)) relationship.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

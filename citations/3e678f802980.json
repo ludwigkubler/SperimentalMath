@@ -1,0 +1,40 @@
+{
+  "entry_id": "3e678f802980",
+  "ts": 1780290868.1676774,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2411.09343",
+      "title": "Measurement of $φ(1020)$ meson production in fixed-target $\\textit{p}$Ne collisions at $\\sqrt{s_{NN}}$ = 68.5 GeV",
+      "abstract_excerpt": "The first measurement of $φ(1020)$ meson production in fixed-target $p$Ne collisions at $\\sqrt{s_{NN}}=68.5$ GeV is presented. The $φ(1020)$ mesons are reconstructed in their $K^{+}K^{-}$ decay in a data sample consisting of proton collisions on neon nuclei at rest, corresponding to an integrated luminosity of $21.7 \\pm 1.4$ nb$^{-1}$, collected by the LHCb detector at CERN. The $φ(1020)$ production cross-section in the centre-of-mass rapidity range of $-1.8&lt;y^*&lt;0$ and transverse momentum ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a particle physics measurement of φ(1020) meson production in proton-neon collisions, which shares no conceptual overlap with local ring norms, CNF formulas, or DPLL search trees. The 'φ' symbol is the only superficial connection.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2411.10219",
+      "title": "Constraints on the photon polarisation in $b \\to s γ$ transitions using $B_s^0 \\rightarrow φe^+e^-$ decays",
+      "abstract_excerpt": "An angular analysis of the $B_s^0 \\rightarrow φe^+e^-$ decay is performed using the proton-proton collision dataset collected between 2011 and 2018 by the LHCb experiment, corresponding to an integrated luminosity of $9\\,{\\rm fb}^{-1}$ at centre-of-mass energies of 7, 8 and $13\\,{\\rm TeV}$. The analysis is performed in the very low dielectron invariant mass-squared region between $0.0009$ and $0.2615\\,{\\rm GeV}^2\\!/c^4$. The longitudinal polarisation fraction of the $φ$ meson is measured to be l",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns an LHCb particle physics measurement of photon polarisation in B meson decays, which has no connection to local ring norms, CNF formulas, or DPLL search trees mentioned in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1805.09869",
+      "title": "Measurement of $D_s^{\\pm}$ production asymmetry in $pp$ collisions at $\\sqrt{s} =7$ and 8 TeV",
+      "abstract_excerpt": "The inclusive $D_s^{\\pm}$ production asymmetry is measured in $pp$ collisions collected by the LHCb experiment at centre-of-mass energies of $\\sqrt{s} =7$ and 8 TeV. Promptly produced $D_s^{\\pm}$ mesons are used, which decay as $D_s^{\\pm}\\toφπ^{\\pm}$, with $φ\\to K^+K^-$. The measurement is performed in bins of transverse momentum, $p_{\\rm T}$, and rapidity, $y$, covering the range $2.5&lt;p_{\\rm T}&lt;25.0$ GeV$/c$ and $2.0&lt;y&lt;4.5$. No kinematic dependence is observed. Evidence of nonzero $",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns LHCb measurement of $D_s^{\\pm}$ meson production asymmetry in $pp$ collisions, which has no relation to local ring norms, CNF formulas, or DPLL search trees.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

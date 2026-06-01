@@ -1,0 +1,22 @@
+{
+  "entry_id": "cc842b0435e6",
+  "ts": 1780290568.1761408,
+  "hits_evaluated": 1,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2003.08816",
+      "title": "Minimum Scan Cover with Angular Transition Costs",
+      "abstract_excerpt": "We provide a comprehensive study of a natural geometric optimization problem motivated by questions in the context of satellite communication and astrophysics. In the problem Minimum Scan Cover with Angular Costs (MSC), we are given a graph $G$ that is embedded in Euclidean space. The edges of $G$ need to be scanned, i.e., probed from both of their vertices. In order to scan their edge, two vertices need to face each other; changing the heading of a vertex takes some time proportional to the cor",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a geometric scheduling problem (Minimum Scan Cover with angular costs) related to graph coloring and cut covers, with no mention of local ring norms or communication complexity/rank as defined in the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 0
+  }
+}

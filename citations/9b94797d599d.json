@@ -1,0 +1,40 @@
+{
+  "entry_id": "9b94797d599d",
+  "ts": 1780290145.7099195,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1706.01577",
+      "title": "Characterization of Spherical and Plane Curves Using Rotation Minimizing Frames",
+      "abstract_excerpt": "In this work, we study plane and spherical curves in Euclidean and Lorentz-Minkowski 3-spaces by employing rotation minimizing (RM) frames. By conveniently writing the curvature and torsion for a curve on a sphere, we show how to find the angle between the principal normal and an RM vector field for spherical curves. Later, we characterize plane and spherical curves as curves whose position vector lies, up to a translation, on a moving plane spanned by their unit tangent and an RM vector field. ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns differential geometry of plane and spherical curves using 'rotation minimizing frames,' Bertrand curves, and helices—it makes no mention of Boolean functions, communication complexity, or algebraic degree of curves representing functions.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1609.01155",
+      "title": "The Transform of a line of Desargues Affine Plane in an additive Group of its Points",
+      "abstract_excerpt": "In this paper we present a set transformation of points in a line of the Desargues affine plane in a additive group. For this, the first stop on the meaning of the Desargues affine plane, formulating first axiom of his that show proposition D1. Afterwards we show that little Pappus theorem, which we use in the construction of group proofs in additions of points on a line on desargues plane, also applies in the Desargues affine plane.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a 'set transformation of points in a line of the Desargues affine plane in a additive group' using Pappus's theorem — pure affine geometry foundations with no mention of Boolean functions, curve degree, or communication complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1808.03244",
+      "title": "Higher Order Degrees of Affine Plane Curve Complements",
+      "abstract_excerpt": "We study finiteness (and vanishing) properties of the higher order degrees associated to complements of complex affine plane curves with mild singularities at infinity. Our results impose new obstructions on the class of groups that can be realized as fundamental groups of affine plane curve complements. We also clarify the relationship between the higher order degrees and the multivariable Alexander polynomial of a non-irreducible plane curve.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'higher order degrees associated to complements of complex affine plane curves' and fundamental groups / Alexander polynomials — it shares the 'affine plane curve' vocabulary but says nothing about Boolean functions or communication complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
