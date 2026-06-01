@@ -1,0 +1,40 @@
+{
+  "entry_id": "7700b14ddbdb",
+  "ts": 1780294372.7179363,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0502387v3",
+      "title": "Multiplier ideals in algebraic geometry",
+      "abstract_excerpt": "In this expository introductory text we discuss the multiplier ideals in algebraic geometry. We state Kawamata-Viehweg's and Nadel's vanishing theorems, give a proof (following Ein and Lazarsfeld) of Kollár's bound on the maximal multiplicity of the theta divisor, and explain the asymptotic construc",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses multiplier ideals, vanishing theorems, and theta divisor multiplicity bounds — it makes no mention of Lefschetz Fitting Ideals, CNF formulas, or DPLL search trees, so it shares only the broad 'ideals in algebraic geometry' vocabulary without addressing the conjectured correlation.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0912.2255",
+      "title": "Test ideals via algebras of $p^{-e}$-linear maps",
+      "abstract_excerpt": "Continuing ideas of a recent preprint of Schwede arXiv:0906.4313 we study test ideals by viewing them as minimal objects in a certain class of $F$-pure modules over algebras of p^{-e}-linear operators. This shift in the viewpoint leads to a simplified and generalized treatment, also allowing us to define test ideals in non-reduced settings.\n  In combining this with an observation of Anderson on the contracting property of p^{-e}-linear operators we obtain an elementary approach to test ideals in",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'test ideals' via algebras of p^{-e}-linear maps in positive characteristic commutative algebra, with no mention of Lefschetz Fitting Ideals, CNF formulas, or DPLL search trees. It shares no specific claim with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2510.19707",
+      "title": "Open Neighborhood Ideals of Well-Totally Dominated Trees are Cohen-Macaulay",
+      "abstract_excerpt": "We introduce and investigate the open neighborhood ideal $\\mathcal{N}(G)$ of a finite simple graph $G$. We describe the minimal primary decomposition of $\\mathcal{N}(G)$ in terms of the minimal total dominating sets (TDSs) of $G$. Then we prove that the open neighborhood ideal of a tree is Cohen-Macaulay if and only if the tree is well-totally dominated (WTD) and calculate the Cohen-Macaulay type.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'open neighborhood ideals' of graphs and their Cohen-Macaulay property for well-totally dominated trees, with no mention of Lefschetz Fitting Ideals, CNF formulas, or DPLL search trees.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

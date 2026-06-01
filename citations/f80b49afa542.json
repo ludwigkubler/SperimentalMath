@@ -1,0 +1,40 @@
+{
+  "entry_id": "f80b49afa542",
+  "ts": 1780295537.7423837,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2405.05594",
+      "title": "Expected Work Search: Combining Win Rate and Proof Size Estimation",
+      "abstract_excerpt": "We propose Expected Work Search (EWS), a new game solving algorithm. EWS combines win rate estimation, as used in Monte Carlo Tree Search, with proof size estimation, as used in Proof Number Search. The search efficiency of EWS stems from minimizing a novel notion of Expected Work, which predicts the expected computation required to solve a position. EWS outperforms traditional solving algorithms on the games of Go and Hex. For Go, we present the first solution to the empty 5x5 board with the co",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a game-solving algorithm combining win rate and 'proof size estimation' for Go and Hex, with no connection to Frege proof complexity, Morse theory, or geometric entropy. The shared term 'proof size' refers to game-tree proof number search, not propositional proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2503.14756",
+      "title": "SceneEval: Evaluating Semantic Coherence in Text-Conditioned 3D Indoor Scene Synthesis",
+      "abstract_excerpt": "Despite recent advances in text-conditioned 3D indoor scene generation, there remain gaps in the evaluation of these methods. Existing metrics often measure realism by comparing generated scenes to a set of ground-truth scenes, but they overlook how well scenes follow the input text and capture implicit expectations of plausibility. We present SceneEval, an evaluation framework designed to address these limitations. SceneEval introduces fine-grained metrics for explicit user requirements-includi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes 'SceneEval,' a framework for evaluating text-conditioned 3D indoor scene synthesis, which has no connection to Morse theory, geometric entropy, or Frege proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2408.02211",
+      "title": "SceneMotifCoder: Example-driven Visual Program Learning for Generating 3D Object Arrangements",
+      "abstract_excerpt": "Despite advances in text-to-3D generation methods, generation of multi-object arrangements remains challenging. Current methods exhibit failures in generating physically plausible arrangements that respect the provided text description. We present SceneMotifCoder (SMC), an example-driven framework for generating 3D object arrangements through visual program learning. SMC leverages large language models (LLMs) and program synthesis to overcome these challenges by learning visual programs from exa",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns '3D object arrangements through visual program learning' using LLMs, with no mention of Morse theory, Frege proof complexity, or geometric entropy. It shares no substantive content with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
