@@ -1,0 +1,40 @@
+{
+  "entry_id": "b8c708298cbd",
+  "ts": 1780343819.9878347,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1409.5893",
+      "title": "Fast evaluation of far-field signals for time-domain wave propagation",
+      "abstract_excerpt": "Time-domain simulation of wave phenomena on a finite computational domain often requires a fictitious outer boundary. An important practical issue is the specification of appropriate boundary conditions on this boundary, often conditions of complete transparency. Attention to this issue has been paid elsewhere, and here we consider a different, although related, issue: far-field signal recovery. Namely, from smooth data recorded on the outer boundary we wish to recover the far-field signal which",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns time-domain wave propagation, far-field signal recovery, and sum-of-exponentials kernel compression — it has no connection to number field traces, CNF satisfiability, or monotone circuit width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:cs/0604089",
+      "title": "Evolutionary Socioeconomics: a Schumpeterian Computer Simulation",
+      "abstract_excerpt": "The following note contains a computer simulation concerning the struggle between two companies: the first one is \"the biggest zaibatsu of all\", while the second one is \"small, fast, ruthless\". The model is based on a neo-Schumpeterian framework operating in a Darwinian evolutionary environment. After running the program a large number of times, two characteristics stand out: -- There is always a winner which takes it all, while the loser disappears. -- The key to success is the ability to emplo",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a Schumpeterian computer simulation of competition between two companies in an evolutionary economic framework, with no connection to number field traces, Boolean circuits, or CNF formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0704.1574",
+      "title": "Retarded electric and magnetic fields of a moving charge: Feynman's derivation of Liénard-Wiechert potentials revisited",
+      "abstract_excerpt": "Retarded electromagnetic potentials are derived from Maxwell's equations and the Lorenz condition. The difference found between these potentials and the conventional Liénard-Wiechert ones is explained by neglect, for the latter, of the motion-dependence of the effective charge density. The corresponding retarded fields of a point-like charge in arbitary motion are compared with those given by the formulae of Heaviside, Feynman, Jefimenko and other authors. The fields of an accelerated charge giv",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns electromagnetic potentials and retarded fields of a moving charge (Liénard-Wiechert, Jefimenko formulae), with no connection to number field traces, Boolean circuits, or CNF formulas.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

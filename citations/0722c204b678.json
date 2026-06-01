@@ -1,0 +1,40 @@
+{
+  "entry_id": "0722c204b678",
+  "ts": 1780346236.6410186,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/1410.5374v2",
+      "title": "Cluster algebras of infinite rank as colimits",
+      "abstract_excerpt": "We formalize the way in which one can think about cluster algebras of infinite rank by showing that every rooted cluster algebra of infinite rank can be written as a colimit of rooted cluster algebras of finite rank. Relying on the proof of the posivity conjecture for skew-symmetric cluster algebras",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses expressing infinite-rank cluster algebras as colimits of finite-rank ones, which shares the 'cluster algebra' vocabulary but does not address minimal rank of cluster algebras associated to d-regular graphs nor communication complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1101.4803",
+      "title": "Lifting defects for nonstable K_0-theory of exchange rings and C*-algebras",
+      "abstract_excerpt": "The assignment (nonstable K_0-theory), that to a ring R associates the monoid V(R) of Murray-von Neumann equivalence classes of idempotent infinite matrices with only finitely nonzero entries over R, extends naturally to a functor. We prove the following lifting properties of that functor: (1) There is no functor F, from simplicial monoids with order-unit with normalized positive homomorphisms to exchange rings, such that VF is equivalent to the identity. (2) There is no functor F, from simplici",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns nonstable K_0-theory, exchange rings, and C*-algebras, with no mention of cluster algebras, communication complexity, d-regular graphs, or the rank correspondence in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1008.1829",
+      "title": "On cluster variables of rank two acyclic cluster algebras",
+      "abstract_excerpt": "In this note, we find an explicit formula for the Laurent expression of cluster variables of coefficient-free rank two cluster algebras associated with the matrix $\\left(\\begin{array}{cc} 0 &amp; c -c &amp; 0 \\end{array}\\right)$, and show that a large number of coefficients are non-negative. As a corollary, we obtain an explicit expression for the Euler-Poincaré characteristics of the corresponding quiver Grassmannians.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns explicit Laurent expressions for cluster variables of rank two acyclic cluster algebras and Euler-Poincaré characteristics of quiver Grassmannians, with no mention of d-regular graphs, communication complexity, or minimal rank bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

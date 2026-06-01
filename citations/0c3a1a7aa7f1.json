@@ -1,0 +1,40 @@
+{
+  "entry_id": "0c3a1a7aa7f1",
+  "ts": 1780345421.0914807,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0711.2699",
+      "title": "Quaternionic Analysis, Representation Theory and Physics",
+      "abstract_excerpt": "We develop quaternionic analysis using as a guiding principle representation theory of various real forms of the conformal group. We first review the Cauchy-Fueter and Poisson formulas and explain their representation theoretic meaning. The requirement of unitarity of representations leads us to the extensions of these formulas in the Minkowski space, which can be viewed as another real form of quaternions. Representation theory also suggests a quaternionic version of the Cauchy formula for the ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract focuses on quaternionic analysis via representation theory of the conformal group and connections to four-dimensional physics (Maxwell equations, hydrogen atom spectrum), with no mention of quaternionic Kähler manifolds, communication protocols, or complexity bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/hep-th/9607152v2",
+      "title": "Quaternion Analysis",
+      "abstract_excerpt": "Quaternion analysis is considered in full details where a new analyticity condition in complete analogy to complex analysis is found. The extension to octonions is also worked out.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses an analyticity condition for quaternion analysis and its octonion extension, with no mention of quaternionic Kähler manifolds, communication protocols, or complexity bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1110.2106",
+      "title": "Quaternionic Analysis and the Schrodinger Model for the Minimal Representation of O(3,3)",
+      "abstract_excerpt": "In the series of papers [FL,FL2] we approach quaternionic analysis from the point of view of representation theory of the conformal group SL(4,C) and its real forms. This approach has proven very fruitful and pushed further the parallel with complex analysis and develop a rich theory. In [FL2] we study the counterparts of Cauchy-Fueter and Poisson formulas on the spaces of split quaternions H_R and Minkowski space M and show that they solve the problem of separation of the discrete and continuou",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quaternionic analysis via representation theory of O(p,q) and Plancherel measure computations, with no mention of quaternionic Kähler manifolds, communication protocols, or complexity bounds like O(log n).",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
