@@ -1,0 +1,40 @@
+{
+  "entry_id": "b22e25230e66",
+  "ts": 1780325205.6028721,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/1901.01180v2",
+      "title": "Decomposing tropical rational functions",
+      "abstract_excerpt": "An algorithm is designed which decomposes a tropical univariate rational function into a composition of tropical binomials and trinomials. When a function is monotone, the composition consists just of binomials. Similar algorithms are designed for decomposing tropical algebraic rational functions be",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes an algorithm for decomposing tropical rational functions into binomials/trinomials, which shares the 'tropical' vocabulary but does not address local ring norms, Boolean circuits, or monotone circuit width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1406.3065v2",
+      "title": "Lower Bounds for Tropical Circuits and Dynamic Programs",
+      "abstract_excerpt": "Tropical circuits are circuits with Min and Plus, or Max and Plus operations as gates. Their importance stems from their intimate relation to dynamic programming algorithms. The power of tropical circuits lies somewhere between that of monotone boolean circuits and monotone arithmetic circuits. In t",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract mentions tropical circuits and their relation to monotone boolean circuits ('power of tropical circuits lies somewhere between that of monotone boolean circuits and monotone arithmetic circuits'), but does not mention 'minimal local ring norm', 'tropical dual', or 'monotone width' — the specific Θ(w(φ)) correlation cannot be assessed from the abstract alone.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2401.00252v2",
+      "title": "Cluster algebras and monotone Lagrangian tori",
+      "abstract_excerpt": "Motivated by the construction of Newton--Okounkov bodies and toric degenerations via cluster algebras in [GHKK18, FO25], we consider a family of Newton--Okounkov polytopes of a complex smooth Fano variety $X$ related by a composition of tropicalized cluster mutations. According to the work of [HK15]",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Newton-Okounkov polytopes, cluster algebras, and monotone Lagrangian tori on Fano varieties—sharing only the vague 'tropical' vocabulary with the conjecture but not engaging with Boolean circuits, monotone width, or local ring norms.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}
