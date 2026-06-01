@@ -1,0 +1,40 @@
+{
+  "entry_id": "881a213ae900",
+  "ts": 1780301751.0334854,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/1407.6169v3",
+      "title": "Multiplicative Complexity of Vector Valued Boolean Functions",
+      "abstract_excerpt": "We consider the multiplicative complexity of Boolean functions with multiple bits of output, studying how large a multiplicative complexity is necessary and sufficient to provide a desired nonlinearity. For so-called $ΣΠΣ$ circuits, we show that there is a tight connection between error correcting c",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'multiplicative complexity' of vector-valued Boolean functions and ΣΠΣ circuits tied to error-correcting codes, with no mention of monotone complexity or quasi-crystals. It shares the Boolean circuit framework but does not interact with the specific claim about quasi-crystal order.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2202.09350v4",
+      "title": "Complexity of warped conformal field theory",
+      "abstract_excerpt": "Warped conformal field theories in two dimensions are exotic nonlocal, Lorentz violating field theories characterized by Virasoro-Kac-Moody symmetries and have attracted a lot of attention as candidate boundary duals to warped AdS$_3$ spacetimes, thereby expanding the scope of holography beyond asym",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'warped conformal field theories in two dimensions' and holography in warped AdS$_3$ spacetimes, which has no connection to Boolean circuit monotone complexity or integer-valued quasi-crystals.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/0811.0699v1",
+      "title": "A Note on the Inversion Complexity of Boolean Functions in Boolean Formulas",
+      "abstract_excerpt": "In this note, we consider the minimum number of NOT operators in a Boolean formula representing a Boolean function. In circuit complexity theory, the minimum number of NOT gates in a Boolean circuit computing a Boolean function $f$ is called the inversion complexity of $f$. In 1958, Markov determine",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses inversion complexity (number of NOT gates/operators) in Boolean formulas, which shares the Boolean circuit framework but does not address monotone complexity or any connection to quasi-crystals.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

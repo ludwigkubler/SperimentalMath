@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-06-01T07:47:06Z",
-  "total_cycles": 4323,
+  "last_update_utc": "2026-06-01T08:47:14Z",
+  "total_cycles": 4333,
   "verdict_counts": {
-    "INCONCLUSIVE": 2832,
+    "INCONCLUSIVE": 2839,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 1385,
+    "BARRIER_HIT": 1388,
     "SCOOPED": 86
   },
-  "unique_field_A": 1912,
+  "unique_field_A": 1914,
   "top_fields_A": [
     [
       "Resolution proof complexity",
@@ -63,12 +63,12 @@
       28
     ],
     [
-      "Combinatorial Geometry (Coxeter Groups)",
+      "Affine Geometry",
       28
     ],
     [
-      "Affine Geometry",
-      27
+      "Combinatorial Geometry (Coxeter Groups)",
+      28
     ]
   ]
 }
