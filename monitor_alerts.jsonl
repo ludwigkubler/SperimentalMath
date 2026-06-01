@@ -2859,3 +2859,4 @@
 {"ts": 1780295428.0721545, "kind": "NOTEBOOK_LARGE", "auto_fixed": false, "detail": {"size_mb": 82.747956}}
 {"ts": 1780295429.335199, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 36}}
 {"ts": 1780295431.8105326, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1874, "cap": 2000, "fraction": 0.937, "weekly_budget": 2500}}
+{"ts": 1780297501.502702, "ts_iso": "2026-06-01T07:05:01.502702+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "OK", "to_status": "DEGRADED", "failing_checks": ["cron_logs_no_trace"], "auto_fixed": false}
