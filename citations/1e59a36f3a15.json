@@ -1,0 +1,40 @@
+{
+  "entry_id": "1e59a36f3a15",
+  "ts": 1780353483.9293714,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1410.4915",
+      "title": "Rankin-Selberg L-functions in cyclotomic towers, III",
+      "abstract_excerpt": "Let $π$ be a cuspidal automorphic representation of $\\operatorname{GL}_2$ over a totally real number field $F$. Let $K$ be a totally imaginary quadratic extension of $F$. We estimate central values of the $\\operatorname{GL}_2 \\times \\operatorname{GL}_2$ Rankin-Selberg $L$-functions associated to $π$ times representations induced from Hecke characters of $K$ which are ramified only at a given prime ideal $\\mathfrak{p}$ of $F$. More specifically, we use spectral decompositions of shifted convoluti",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Rankin-Selberg L-functions, nonvanishing of central values, and Mordell-Weil rank bounds via Iwasawa theory — it shares vocabulary (modular forms, weight k) with the conjecture but makes no claim about Boolean functions or communication complexity rank.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2509.20895",
+      "title": "A family of Hecke eigenforms for Drinfeld modular forms of arbitrary rank",
+      "abstract_excerpt": "We aim to provide a family of Drinfeld-Hecke eigenforms given in terms of a determinant of twisted Eisenstein series. Our main tool is the theory of vectorial Drinfeld modular forms, previously introduced by Pellarin [18] and extensively studied by Pellarin [19] as well as in his joint work with Perkins [20] in the rank two setting. We will develop this theory in the present paper for the arbitrary rank setting by using a particular representation.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes constructing Drinfeld-Hecke eigenforms via determinants of twisted Eisenstein series in arbitrary rank, with no mention of Boolean functions, communication complexity, or any complexity-theoretic correlation. It shares only the vocabulary 'eigenform' and 'rank' with the conjecture but does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1405.2700",
+      "title": "Zero Excess and Minimal Length in Finite Coxeter Groups",
+      "abstract_excerpt": "Let $\\mathcal{W}$ be the set of strongly real elements of $W$, a Coxeter group. Then for $w \\in \\mathcal{W}$, $e(w)$, the excess of $w$, is defined by $e(w) = \\min\\{\\ell(x) + \\ell(y) - \\ell(w) \\; | \\; w=xy, x^2 = y^2 = 1\\}$. When $W$ is finite we may also define $E(w)$, the reflection excess of $w$. The main result established here is that if $W$ is finite and $X$ is a $W$-conjugacy class, then there exists $w \\in X$ such that $w$ has minimal length in $X$ and $e(w) = 0 = E(w)$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns excess and minimal length in finite Coxeter groups ('there exists w in X such that w has minimal length... and e(w) = 0'), which is unrelated to modular forms, eigenforms, or communication complexity rank.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

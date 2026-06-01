@@ -2951,7 +2951,9 @@
 {"ts": 1780349404.897636, "kind": "NOTEBOOK_LARGE", "auto_fixed": false, "detail": {"size_mb": 84.977096}}
 {"ts": 1780349406.0781488, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 36}}
 {"ts": 1780349406.1850462, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1860, "cap": 2000, "fraction": 0.93, "weekly_budget": 2500}}
-{"ts": 1780351801.698627, "ts_iso": "2026-06-01T22:10:01.698627+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "OK", "to_status": "DEGRADED", "failing_checks": ["cron_logs_no_trace"], "auto_fixed": false}
-{"ts": 1780352403.706031, "ts_iso": "2026-06-01T22:20:03.706031+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "DEGRADED", "to_status": "OK", "failing_checks": [], "auto_fixed": false}
-{"ts": 1780352712.192361, "ts_iso": "2026-06-01T22:25:12.192361+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "OK", "to_status": "CRITICAL", "failing_checks": ["sec_entity_service", "gpu", "mirror_git_fresh", "mirror_git_pushed"], "auto_fixed": false}
-{"ts": 1780353004.405315, "ts_iso": "2026-06-01T22:30:04.405315+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "CRITICAL", "to_status": "OK", "failing_checks": [], "auto_fixed": false}
+{"ts": 1780351209.0148532, "kind": "NOTEBOOK_LARGE", "auto_fixed": false, "detail": {"size_mb": 85.09174}}
+{"ts": 1780351210.217969, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 36}}
+{"ts": 1780351210.33405, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1869, "cap": 2000, "fraction": 0.934, "weekly_budget": 2500}}
+{"ts": 1780353022.7003326, "kind": "NOTEBOOK_LARGE", "auto_fixed": false, "detail": {"size_mb": 85.131118}}
+{"ts": 1780353024.0138435, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 36}}
+{"ts": 1780353026.8655055, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1870, "cap": 2000, "fraction": 0.935, "weekly_budget": 2500}}

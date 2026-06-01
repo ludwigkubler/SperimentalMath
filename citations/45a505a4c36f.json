@@ -1,0 +1,40 @@
+{
+  "entry_id": "45a505a4c36f",
+  "ts": 1780350857.2670376,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/astro-ph/9705063v1",
+      "title": "NLTE effects of Ti~I in M dwarfs and giants",
+      "abstract_excerpt": "We present detailed NLTE Ti~I calculations in model atmospheres of cool dwarf and giant stars. A fully self-consistent NLTE treatment for a Ti~I model atom with 395 levels and 5279 primary bound-bound transitions is included, and we discuss the implication of departures from LTE in this atom for the",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes 'NLTE Ti~I calculations in model atmospheres of cool dwarf and giant stars,' an astrophysics topic with no connection to geometric complexity theory, tensors, or communication complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2307.04643",
+      "title": "MultiQG-TI: Towards Question Generation from Multi-modal Sources",
+      "abstract_excerpt": "We study the new problem of automatic question generation (QG) from multi-modal sources containing images and texts, significantly expanding the scope of most of the existing work that focuses exclusively on QG from only textual sources. We propose a simple solution for our new problem, called MultiQG-TI, which enables a text-only question generator to process visual input in addition to textual input. Specifically, we leverage an image-to-text model and an optical character recognition model to",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns multi-modal question generation using image-to-text and OCR models for the ScienceQA dataset, which has no connection to geometric complexity theory, tensor representations, or communication rank of Boolean functions.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2511.19117",
+      "title": "3M-TI: High-Quality Mobile Thermal Imaging via Calibration-free Multi-Camera Cross-Modal Diffusion",
+      "abstract_excerpt": "The miniaturization of thermal sensors for mobile platforms inherently limits their spatial resolution and textural fidelity, leading to blurry and less informative images. Existing thermal super-resolution (SR) methods can be grouped into single-image and RGB-guided approaches: the former struggles to recover fine structures from limited information, while the latter relies on accurate and laborious cross-camera calibration, which hinders practical deployment and robustness. Here, we propose 3M",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns mobile thermal image super-resolution via a cross-modal diffusion framework ('calibration-free Multi-camera cross-Modality diffusion framework for Mobile Thermal Imaging'), with no connection to geometric complexity theory, tensor rank, or communication complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

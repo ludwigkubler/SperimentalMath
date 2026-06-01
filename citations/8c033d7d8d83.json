@@ -1,0 +1,40 @@
+{
+  "entry_id": "8c033d7d8d83",
+  "ts": 1780351685.183238,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1907.08545",
+      "title": "Positively Hyperbolic Varieties, Tropicalization, and Positroids",
+      "abstract_excerpt": "A variety of codimension $c$ in complex affine space is called positively hyperbolic if the imaginary part of any point in it does not lie in any positive linear subspace of dimension $c$. Positively hyperbolic hypersurfaces are defined by stable polynomials. We give a new characterization of positively hyperbolic varieties using sign variations, and show that they are equivalently defined by being hyperbolic with respect to the positive part of the Grassmannian, in the sense of Shamovich and Vi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns positively hyperbolic varieties, tropicalization, and positroids — it makes no mention of local ring unit groups or communication complexity rank, so it shares only the buzzword 'tropicalization' with the conjecture without interacting with its specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1807.00609",
+      "title": "The ring of local tropical fans and tropical nearby monodromy eigenvalues",
+      "abstract_excerpt": "We extend the tropical intersection theory to tropicalizations of germs of analytic sets. In particular, we construct a (not entirely obvious) local version of the ring of tropical fans with a nondegenerate intersection pairing.\n  As an application, we study nearby monodromy eigenvalues -- the eigenvalues of the monodromy operators of singularities, adjacent to a given singularity of a holomorphic function $f$. More precisely, we express some of such values in terms of certain resolutions of $f$",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns tropical intersection theory, monodromy eigenvalues, and the Igusa/Denef-Loeser monodromy conjectures — it never mentions local ring unit groups, communication complexity, or any rank/size bound relating them. It shares only the loose vocabulary of 'local' and 'tropical' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1204.6154",
+      "title": "Local Tropicalization",
+      "abstract_excerpt": "In this paper we propose a general functorial definition of the operation of \\emph{local tropicalization} in commutative algebra. Let $R$ be a commutative ring, $Γ$ a finitely generated subsemigroup of a lattice, $γ: Γ\\rightarrow R/ R^*$ a morphism of semigroups, and $\\V(R)$ the topological space of valuations on $R$ taking values in $\\R \\cup \\infty$. Then we may \\emph{tropicalize} with respect to $γ$ any subset $\\W$ of the space of valuations $\\V(R)$. By definition, we get a subset of a rationa",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a functorial definition of local tropicalization in commutative algebra involving valuations and polyhedral fans, with no mention of communication complexity, unit group orders, or any bound relating these quantities. It shares the 'tropicalization' and 'local ring' vocabulary but does not address the specific inequality in the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
