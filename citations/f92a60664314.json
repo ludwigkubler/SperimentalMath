@@ -1,0 +1,31 @@
+{
+  "entry_id": "f92a60664314",
+  "ts": 1780355768.2669415,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.2989/16073606.2025.2544235",
+      "title": "On automorphism groups of the conjugacy class type Cayley graphs on the symmetric and alternating groups",
+      "abstract_excerpt": "Abstract The automorphism groups of Cayley graphs on symmetric groups, Cay(G, S), where S is a complete set of transpositions have been determined. In a similar spirit, automorphism groups of Cayley graphs Cay(An, S) on alternating groups An, where S is a set of all 3-cycles have also been determined. It has, in addition, been shown that these graphs are not normal. In all these Cayley graphs, one observes that their corresponding Cayley sets are a union of conjugacy classes. In this paper, we d",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract determines automorphism groups of specific Cayley graphs on symmetric/alternating groups but says nothing about Boolean circuits, monotone circuit width, or any correlation between automorphism group counts and circuit complexity measures.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10.1017/s0008439500029453",
+      "title": "Lectures on Boolean algebras, by P.R. Halmos. Van Nostrand. iv + 147 pages. $2.95.",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available for this cited paper (a book review of Halmos's 'Lectures on Boolean algebras'), so I cannot assess whether it supports, refutes, or is orthogonal to the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}

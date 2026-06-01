@@ -1,0 +1,31 @@
+{
+  "entry_id": "4e51a02ee039",
+  "ts": 1780356279.1608357,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:2307.01109",
+      "title": "Complexity Dichotomies for the Maximum Weighted Digraph Partition Problem",
+      "abstract_excerpt": "We introduce and study a new optimization problem on digraphs, termed Maximum Weighted Digraph Partition (MWDP) problem. We prove three complexity dichotomies for MWDP: on arbitrary digraphs, on oriented digraphs, and on symmetric digraphs. We demonstrate applications of the dichotomies for binary-a",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns complexity dichotomies for a Maximum Weighted Digraph Partition optimization problem, with no mention of integral points on curves, genus, communication complexity rank, or d-regular graphs. It shares no specific claim with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10.1007/s00453-017-0277-5",
+      "title": "New Bounds for the CLIQUE-GAP Problem Using Graph Decomposition Theory",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available, so I cannot assess whether the paper supports, refutes, or is orthogonal to the conjecture linking integral points on curves to communication complexity rank.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}

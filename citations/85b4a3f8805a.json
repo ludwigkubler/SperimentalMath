@@ -1,0 +1,40 @@
+{
+  "entry_id": "85b4a3f8805a",
+  "ts": 1780357047.106263,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2508.15582",
+      "title": "High-Frequency First: A Two-Stage Approach for Improving Image INR",
+      "abstract_excerpt": "Implicit Neural Representations (INRs) have emerged as a powerful alternative to traditional pixel-based formats by modeling images as continuous functions over spatial coordinates. A key challenge, however, lies in the spectral bias of neural networks, which tend to favor low-frequency components while struggling to capture high-frequency (HF) details such as sharp edges and fine textures. While prior approaches have addressed this limitation through architectural modifications or specialized a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Implicit Neural Representations for image reconstruction and spectral bias in neural networks ('we propose an orthogonal direction by directly guiding the training process'), with no connection to Hodge-Tate degenerations or communication complexity rank.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2201.05437",
+      "title": "50 years INR: Exploring the High-Energy Universe",
+      "abstract_excerpt": "This article is an attempt to review 50 years of high-energy cosmic particle physics at the Institute for Nuclear Research of the Russian Academy of Sciences. It is written by an outsider whose scientific career, to a large part, was formed by collaborating with INR scientists in the late 1980s and 1990s. The review covers the fields of cosmic-ray, gamma-ray and high-energy neutrino physics. The main focus will be on INR's large infrastructures in the Baksan Valley and at Lake Baikal. Research a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract reviews 50 years of high-energy cosmic particle physics at INR (cosmic-ray, gamma-ray, neutrino physics at Baksan and Lake Baikal), which has no interaction with Hodge-Tate degenerations or communication complexity rank.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2405.13389",
+      "title": "HR-INR: Continuous Space-Time Video Super-Resolution via Event Camera",
+      "abstract_excerpt": "Continuous space-time video super-resolution (C-STVSR) aims to simultaneously enhance video resolution and frame rate at an arbitrary scale. Recently, implicit neural representation (INR) has been applied to video restoration, representing videos as implicit fields that can be decoded at an arbitrary scale. However, existing INR-based C-STVSR methods typically rely on only two frames as input, leading to insufficient inter-frame motion information. Consequently, they struggle to capture fast, co",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns video super-resolution via implicit neural representations and event cameras, with no mention of Hodge-Tate degenerations, polynomial rings, or communication complexity rank.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

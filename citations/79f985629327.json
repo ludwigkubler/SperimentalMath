@@ -1,0 +1,40 @@
+{
+  "entry_id": "79f985629327",
+  "ts": 1780355002.154346,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/1911.04516v1",
+      "title": "Boolean lattices in finite alternating and symmetric groups",
+      "abstract_excerpt": "Given a group $G$ and a subgroup $H$, we let $\\mathcal{O}_G(H)$ denote the lattice of subgroups of $G$ containing $H$. This paper provides a classification of the subgroups $H$ of $G$ such that $\\mathcal{O}_{G}(H)$ is Boolean of rank at least $3$, when $G$ is a finite alternating or symmetric group.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'lattice of subgroups' that are 'Boolean of rank at least 3' in alternating and symmetric groups, which shares only the word 'Boolean' with the conjecture and has no bearing on circuit monotone width or Alexander-Dirac invariants.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1406.3065v2",
+      "title": "Lower Bounds for Tropical Circuits and Dynamic Programs",
+      "abstract_excerpt": "Tropical circuits are circuits with Min and Plus, or Max and Plus operations as gates. Their importance stems from their intimate relation to dynamic programming algorithms. The power of tropical circuits lies somewhere between that of monotone boolean circuits and monotone arithmetic circuits. In t",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses tropical circuits and their relation to monotone boolean/arithmetic circuits and dynamic programming, with no mention of Alexander-Dirac invariants, 2-manifolds, or circuit monotone width on d-regular graphs. It shares the 'monotone circuit' vocabulary but does not interact with the specific conjectured correlation.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2406.18700v4",
+      "title": "Structure of sparse Boolean functions over Abelian groups, and its application to testing",
+      "abstract_excerpt": "We study Fourier-sparse Boolean functions over general finite Abelian groups. A Boolean function $f : G \\to \\{-1,+1\\}$ is $s$-sparse if it has at most $s$ non-zero Fourier coefficients. We introduce a general notion of granularity of Fourier coefficients and prove that every non-zero coefficient of ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Fourier-sparse Boolean functions over Abelian groups and granularity of Fourier coefficients, which shares no specific content with circuit monotone width, Alexander-Dirac invariants, or 2-manifolds tied to d-regular graphs.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
