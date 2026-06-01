@@ -2,12 +2,19 @@
 
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
-\usepackage[margin=1in]{geometry}
+\usepackage[top=1in,bottom=1in,left=1.1in,right=1.1in,
+            includehead,includefoot,heightrounded]{geometry}
 \usepackage{amsmath,amssymb,amsthm,mathtools}
 \usepackage{graphicx}
 \usepackage{booktabs}
 \usepackage{tabularx}
 \usepackage{array}
+\usepackage{makecell}
+\usepackage{float}
+\usepackage{bm}
+\renewcommand\tabularxcolumn[1]{>{\raggedright\arraybackslash}p{#1}}
+\setlength\heavyrulewidth{.08em}
+\setlength\lightrulewidth{.05em}
 \usepackage{seqsplit}
 \newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
 \usepackage{xcolor}
@@ -20,6 +27,24 @@
 \usepackage{pgfplots}
 \pgfplotsset{compat=1.18}
 \usepackage{tikz}
+
+% --- v5 typography hardening (Defect 3 fix) ---
+\widowpenalty=10000
+\clubpenalty=10000
+\displaywidowpenalty=10000
+\brokenpenalty=10000
+\frenchspacing
+\raggedbottom
+\setlength{\parskip}{0.35em plus 0.1em minus 0.05em}
+\setlength{\emergencystretch}{3em}
+\hyphenpenalty=50
+\tolerance=400
+\hbadness=2000
+% microtype features (override defaults explicitly)
+\microtypesetup{protrusion=true,expansion=true,
+                tracking=true,kerning=true,spacing=true,
+                factor=1100,stretch=20,shrink=20}
+% --- end typography hardening ---
 
 % Theorem environments
 \newtheorem{lemma}{Lemma}
@@ -65,7 +90,7 @@ Cumulative Space: An Honest Empirical Localisation on Tseitin and Structured
 Families}
 
 \author{Ludovico Kubler\thanks{Independent researcher;
-ludwigkubler.ia at gmail dot com}}
+ludolandoffreedom at gmail dot com}}
 
 \date{June 2026}
 
@@ -74,6 +99,7 @@ ludwigkubler.ia at gmail dot com}}
 \maketitle
 
 \begin{abstract}
+\sloppypar
 We study a computable, per-trace functional
 $\Phi_{\mathrm{count}}(\pi) := \sum_t |M_t|$ --- the sum over a
 Davis--Putnam refutation trace of the active-clause-set size at each step ---
@@ -121,7 +147,7 @@ across all three seeds; the $Q_5$ slope is therefore
 \textbf{not measurable} under this heuristic, and the v3 ``treewidth not
 degree'' framing is reframed as a structural negative.
 (vi) On random-4-regular Tseitin (DP-infeasible: 5/5 \texttt{BLEW\_UP} at
-$n=16$), kissat-DRAT gives slope 7.69 on $n \in \{16, 20, 24, 28\}$; this
+$n=16$), kissat-DRAT~\cite{kissat,WHH2014} gives slope 7.69 on $n \in \{16, 20, 24, 28\}$; this
 closes the v3 symmetric-comparison defect at the cost of a proof-system
 confound (DP on $Q_4$ vs DRAT on rand\_4reg), which we acknowledge rather
 than wave away. The headline reading of this paper is: \textbf{a
@@ -209,7 +235,7 @@ sense precisely.
 
 \section{Definitions}
 
-\subsection{The Lean anchor (verbatim from \texttt{Conjecture003.lean} lines 369--411)}
+\subsection{The Lean anchor (Kubler, \texttt{Conjecture003.lean} lines 369--411~\cite{KublerSperimentalMath,Mathlib2020})}
 
 \begin{lstlisting}[language=lean]
 structure ProofState (V : Type) [DecidableEq V] where
@@ -229,7 +255,14 @@ noncomputable def totalLiteralWeight (sigma : ProofState V) : Nat :=
 \texttt{activeClauses} is a \texttt{Finset} (no multiplicities);
 \texttt{step} is a pure index. \texttt{cumulativeEntropy} is the sum over a
 \texttt{List ProofState} of \texttt{proofStateEntropy}. This is the
-Lean-side definition we point at.
+Lean-side definition we point at. The file
+\texttt{TseitinTw/Conjecture003.lean} is Kubler's mechanisation
+(this work; lines 369--411), available at
+\url{https://github.com/ludwigkubler/SperimentalMath/tree/main/papers/phi_tseitin}.
+The mathematical SUM coincides with ADRNV's
+$\mathrm{CSpace}_{\mathrm{cum}}$ on a fixed trace~\cite{ADRNV2017}, but
+the Lean mechanisation is Kubler's (this work) and no ADRNV semantics
+are mechanised by it (see Lemma A part i, \S3).
 
 \subsection{ADRNV side}
 
@@ -246,21 +279,29 @@ and the \textbf{formula-level} invariant is
 \]
 Footnote 1 (p.~38:3) confirms the $\sum_t |M_t|$ reading.
 
-\subsection{The measurement $\Phi_{\mathrm{count}}(\pi)$ we report}
+\subsection{The measurement $\Phi_{\mathrm{count}}(\pi)$ we report (this work)}
 
-For a fixed DP refutation with min-occurrence elimination, we record the
-sequence of \texttt{ProofState}s $\sigma_0, \sigma_1, \ldots, \sigma_T$ and
-define
+For a fixed Davis--Putnam~\cite{DavisPutnam1960} refutation with
+min-occurrence elimination (cf.\ Dechter~\cite{Dechter2003}), we
+(Kubler, this work) record the sequence of \texttt{ProofState}s
+$\sigma_0, \sigma_1, \ldots, \sigma_T$ and define
 \[
 \Phi_{\mathrm{count}}(\pi) := \sum_{t=0}^{T} |\mathrm{activeClauses}(\sigma_t)|.
 \]
+The DP procedure itself is Davis--Putnam's~\cite{DavisPutnam1960}; the
+min-occurrence elimination ordering, the per-step recording of
+\texttt{activeClauses}, and the resulting $\Phi_{\mathrm{count}}$
+measurement protocol are Kubler's contribution (this work; harness at
+\url{https://github.com/ludwigkubler/SperimentalMath/tree/main/papers/phi_tseitin}).
 Numerically \texttt{Phi\_count($\pi$) = cumulativeEntropy(states)} on the
 Lean side.
 
 \subsection{The load-bearing distinction}
 
-\begin{center}
-\begin{tabular}{lll}
+\begin{table}[H]
+\centering
+\small
+\begin{tabularx}{\textwidth}{@{}lXl@{}}
 \toprule
 Object & Type & Quantifier \\
 \midrule
@@ -269,8 +310,10 @@ $\mathrm{CSpace}_{\mathrm{cum}}(\pi)$ & per-trace, ADRNV's Def 11 & none (fixed 
 $\mathrm{CSpace}_{\mathrm{cum}}(F)$ & formula-level, ADRNV's invariant & \textbf{min over $\pi$} \\
 $\Phi_{\mathrm{count}}(\mathrm{DP}, \mathrm{min\text{-}occ})(F)$ & formula-level under heuristic & DP min-occ fixes $\pi$ \\
 \bottomrule
-\end{tabular}
-\end{center}
+\end{tabularx}
+\caption{Load-bearing distinction between per-trace and formula-level objects.}
+\label{tab:loadbearing}
+\end{table}
 
 The v5 corrected relation is the schedule-bookkeeping inequality
 $\Phi_{\mathrm{count}}^{\mathrm{DP},h}(F) \le
@@ -280,7 +323,7 @@ $\Phi_{\mathrm{count}}(\mathrm{DP},\mathrm{min\text{-}occ})(F)$ and the
 formula-level $\mathrm{CSpace}_{\mathrm{cum}}(F)$. The v1/v2 conflation
 and the v4 reverse direction are retracted in \S3.5.
 
-\section{Lemma A (honest two-part statement, v5 corrected)}
+\section{Lemma A (Kubler, this work; honest two-part statement, v5 corrected)}
 
 \begin{lemma}[part i --- per-trace identity, near-tautology]
 \sloppy
@@ -307,7 +350,10 @@ which conflated coarse-grained DP elimination steps with primitive
 resolution-with-memory steps in the sense of ADRNV Definition 11.
 \end{lemma}
 
-\textit{Setup.} ADRNV's resolution-with-memory
+\begingroup\sloppy
+\textit{Setup} (the model is ADRNV's~\cite{ADRNV2017}; the re-scheduling
+argument and the corrected bookkeeping inequality below are Kubler's,
+this work). ADRNV's resolution-with-memory
 model~\cite{ADRNV2017} has three primitive operations:
 (a) \textbf{download} a clause of $F$ into the memory configuration $M$,
 (b) \textbf{inference}, which adjoins to $M$ a resolvent of two clauses
@@ -355,7 +401,7 @@ $\Phi_{\mathrm{count}}^{\mathrm{DP},h}(F) \ge
 (``immediate from min-over-traces: DP under any fixed $h$ realises one
 specific admissible trace'') is wrong: the DP trace is not, qua sum, a
 res-with-memory trace, and its primitive expansion has strictly more
-summands than $\Phi_{\mathrm{count}}$ counts.
+summands than $\Phi_{\mathrm{count}}$ counts.\endgroup
 
 \textit{Restated formula-level relation (corrected, v5).} The strongest
 defensible statement is the \textbf{weaker} schedule-specific one:
@@ -383,6 +429,7 @@ Both quantities are lower-bounded by the same admissible-trace cumulative
 space, but they are \textbf{not} ordered with respect to one another by
 this argument.
 
+\begingroup\sloppy
 \textit{Honest cascade into Corollary C2.} The v4 Corollary C2 chain
 \[
 \Phi_{\mathrm{count}}^{\mathrm{DP},\mathrm{min\text{-}occ}}(F_n) \;\ge\;
@@ -398,7 +445,7 @@ a measured exponent on a fixed heuristic with \textbf{no formal ordering}
 to $\mathrm{CSpace}_{\mathrm{cum}}(F_n)$. The empirical
 $\alpha_{\Phi} \approx 4.43$ being \textbf{larger} than $2$ is consistent
 with $\Phi_{\mathrm{count}}$ sitting above $\mathrm{CSpace}_{\mathrm{cum}}$
-on this regime, but it is not a proof of the ordering.
+on this regime, but it is not a proof of the ordering.\endgroup
 
 \paragraph{Honesty disclosure.} Path A (showing the DP-trace sum
 \emph{equals} a primitive res-with-memory cumulative space) does not close
@@ -450,8 +497,8 @@ $\mathrm{CSpace}_{\mathrm{cum}}(\mathrm{Tseitin}_n) = \Omega(n)$ via
 Esteban--Tor\'an~\cite{EstebanToran1999} alone (\S9).
 \end{quote}
 
-\begin{corollary}[consequences for the empirical claims of this paper, v5
-corrected]
+\begin{corollary}[Kubler, this work; consequences for the empirical claims
+of this paper, v5 corrected]
 \noindent\textit{(C1, restated)} Every empirical exponent we report for
 $\Phi_{\mathrm{count}}(\mathrm{DP}, \mathrm{min\text{-}occ})$ is a
 \textbf{schedule-specific measurement} with no formal ordering to the
@@ -466,7 +513,7 @@ $\pi'_{\mathrm{DP},h}$ is the canonical primitive expansion of the DP
 macro-trace; this expansion is one admissible refutation, not the
 min-achieving one in general.
 
-\noindent\textit{(C2, v5 revised --- see \S9 for full text)} On
+\begingroup\sloppy\noindent\textit{(C2, v5 revised --- see \S9 for full text)} On
 bounded-degree expander Tseitin formulas $\{F_n\}$,
 Esteban--Tor\'an~\cite{EstebanToran1999} gives
 $\mathrm{clause\text{-}space}(F_n) \ge n - O(1)$, hence per-trace
@@ -480,7 +527,7 @@ only guarantees the \emph{peak} is $\Omega(n)$, not a sustained
 formulas (Thm 14--15) to Tseitin is the open problem stated by
 ADRNV~\cite{ADRNV2017} (p.~38:19 lines 996--998), and remains open. The
 measured $\Phi$-exponent of \S7 has \textbf{no formal relation} to either
-bound under v5-corrected Lemma A.
+bound under v5-corrected Lemma A.\endgroup
 \end{corollary}
 
 \paragraph{Caveat.} All exponents above 2 that we report on Tseitin-like
@@ -623,31 +670,44 @@ details: panel concerns \textbf{N4} and \textbf{R5}.
 
 ADRNV~\cite{ADRNV2017} introduce cumulative clause-space and prove
 quadratic lower bounds on pebbling-type formulas, leaving Tseitin as an
-open problem (p.~38:19). Esteban--Tor\'an~\cite{EstebanToran1999} give
+open problem (p.~38:19); see also
+Galesi--Itsykson--Riazanov--Sofronova~\cite{GIRS2023} for related
+bounded-depth Frege Tseitin lower bounds. Esteban--Tor\'an~\cite{EstebanToran1999} give
 the linear clause-space lower bound for Tseitin on expanders. The
-Nordstr\"om space-width trade-off~\cite{BSW2001} and the line of
+Nordstr\"om space-width framework~\cite{Nordstrom2013} (built on the
+Ben-Sasson--Wigderson width-length trade-off~\cite{BSW2001}) and the line of
 Urquhart~\cite{Urquhart1987} hard instances are the closest theoretical
-antecedents. Solver-level measurement of resolution-resource proxies
-(J\"arvisalo--Heule--Biere, Elffers et al.) are the closest empirical
+antecedents. The width-resolution combinatorial characterisation of
+Atserias and Dalmau~\cite{AtseriasDalmau2008} underlies the
+space-width connections invoked in our \S9 corrected C2.
+Solver-level measurement of resolution-resource proxies
+(J\"arvisalo--Heule--Biere~\cite{JHB2012},
+Elffers et al.~\cite{Elffers2018}) are the closest empirical
 antecedents --- but to our knowledge no prior work has measured
 $\Phi_{\mathrm{count}}(\mathrm{DP}, \mathrm{min\text{-}occ})$
 systematically with the pre-registered statistical apparatus we use here.
 We do \textbf{not} claim to outperform these works empirically; we offer
 a complementary, hedged-by-design measurement on a different functional
 ($\Phi$ vs solver-step proxies). Closing panel concern \textbf{R10}
-(side-by-side empirical comparison with J\"arvisalo--Heule--Biere or
-Elffers et al.) is a stated \textbf{open task} (\S12); the present draft
-does not include such a head-to-head.
+(side-by-side empirical comparison with
+J\"arvisalo--Heule--Biere~\cite{JHB2012} or
+Elffers et al.~\cite{Elffers2018}) is a stated \textbf{open task} (\S12);
+the present draft does not include such a head-to-head.
 
-\section{Pre-registration (SC1--SC6, verbatim from the registry)}
+\clearpage
+\section{Pre-registration (SC1--SC6, verbatim from Kubler's registry)}
 
-The success criteria below are reproduced \textbf{verbatim} from the
-project registry (workflow log b82c4fb62). They were registered prior to
+The success criteria SC1--SC6 below are Kubler's pre-registration
+(this work) and are reproduced \textbf{verbatim} from Kubler's
+project registry (\texttt{programmes\_registry.json}, workflow log
+b82c4fb62)~\cite{KublerSperimentalMath}. They were registered prior to
 the v2 measurement campaign and have not been edited since.
 
-\begin{center}
+\begin{table}[!htbp]
+\centering
 \footnotesize
-\begin{tabularx}{\textwidth}{@{}c X l l@{}}
+\renewcommand{\arraystretch}{1.15}
+\begin{tabularx}{\textwidth}{@{}c >{\raggedright\arraybackslash}X l l@{}}
 \toprule
 \# & Verbatim SC text (registry) & STATUS in v5 & Adjudication \\
 \midrule
@@ -674,7 +734,9 @@ $\Phi_{\mathrm{count}}(\mathrm{DP}, \mathrm{min\text{-}occ})(F) \ge
 refuted in v5 & \S3 \\
 \bottomrule
 \end{tabularx}
-\end{center}
+\caption{SC1--SC6 pre-registration adjudication (Kubler, this work; v5).}
+\label{tab:sc-adjudication}
+\end{table}
 
 \textbf{SC1 detail:} super-linearity met; the $\Omega(n^2)$ lower bound
 from v4 C2 is \textbf{withdrawn} in v5 and replaced by $\Omega(n)$; the
@@ -709,19 +771,19 @@ one-sided bound. This closes panel concerns \textbf{N4} and \textbf{R5}.
 
 \section{Empirical setup and statistical apparatus}
 
-\subsection{Families measured}
+\subsection{Families measured (treewidth definitions follow Bodlaender~\cite{Bodlaender1998})}
 
-\begin{center}
+\begin{table}[H]
+\centering
 \small
-\begin{tabularx}{\textwidth}{@{}l X X@{}}
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{4.0cm} X X@{}}
 \toprule
 Family & Description & n-grid in v4/v5 \\
 \midrule
 Tseitin (girth-5 3-regular, certified expander) & vertex expansion $\ge
 0.71$ over $n \le 24$ & 10, 12, 14, 16, 18, 20, 22, 24 \\
 Plain random 3-regular Tseitin (baseline) & uncertified & 10, 12, \ldots, 36 \\
-$Q_4$, $Q_5$ hypercube Tseitin & charges parity-summing & $Q_4$: 16;
-$Q_5$: 32 (det.\ abort) \\
+$Q_4$, $Q_5$ hypercube Tseitin & charges parity-summing & \makecell[tl]{$Q_4$: 16\\$Q_5$: 32 (det.\ abort)} \\
 Random 4-regular Tseitin (DRAT only) & DP-infeasible (5/5 BLEW\_UP) &
 16, 20, 24, 28 \\
 2D grid Tseitin & $m \times m$ grid, $n = m^2$ & 9, 16, 25 (m=6,7 def.) \\
@@ -729,20 +791,27 @@ Path, cycle, tree (structured baselines) & tw = 1, 2, $\le \log$ & up to
 $n = 30, 31$ \\
 5 elim.~orders $\times$ DP corpus & min-occ, max-occ, lex, deg-asc,
 deg-desc & 127 instances \\
-DRAT flag-by-flag mechanism corpus & default, no-inproc, no-restart,
+DRAT flag-by-flag corpus & default, no-inproc, no-restart,
 no-eliminate & $n \in \{10..60\}$, 5 seeds \\
 \bottomrule
 \end{tabularx}
-\end{center}
+\caption{Families measured in v4 and v5 across the n-grids.}
+\label{tab:families}
+\end{table}
 
-\subsection{Pre-registered DP (min-occ) heuristic}
+\subsection{Pre-registered DP (min-occ) heuristic (Kubler, this work)}
 
 {\sloppy
-Pure stdlib Python implementation with forward subsumption and indexed
-clause set; per-instance budget 180 s (B.1, paired), $\mathrm{MAX\_DB} =
-1.5 \times 10^6$ clauses (B.1, A.1); $\mathrm{MAX\_DB} = 4 \times 10^6$
-for the $Q_5$ attempt (A.2). Imported from
-\texttt{\textasciitilde/Scrivania/SEC/\allowbreak research/\allowbreak programme\_harnesses/\allowbreak data/\allowbreak push\_n.py}.
+Pure stdlib Python implementation by Kubler (this work) with forward
+subsumption and indexed clause set; per-instance budget 180 s (B.1,
+paired), $\mathrm{MAX\_DB} = 1.5 \times 10^6$ clauses (B.1, A.1);
+$\mathrm{MAX\_DB} = 4 \times 10^6$ for the $Q_5$ attempt (A.2). The
+DP elimination procedure itself is Davis--Putnam's~\cite{DavisPutnam1960};
+the min-occurrence ordering~\cite{Dechter2003}, the budget/MAX\_DB regime,
+the seed scheme, and the stdlib indexed-clause-set implementation are
+Kubler's contribution (this work). Harness file
+\texttt{push\_n.py} is available with the SperimentalMath
+repository~\cite{KublerSperimentalMath}.
 \par}
 
 \subsection{Bootstrap stratification}
@@ -793,8 +862,9 @@ these as missing; v3 fits a Tobit-style model with left-censoring at the
 per-instance $\Phi$-floor implied by the budget. In v4/v5 the headline
 n = 36 row carries 3 out of 10 censored instances; a Tobit-corrected
 slope on the combined B.1 + A.1 window is \textbf{explicitly flagged as
-future work} (\S11). The coordinate-descent + golden-section MLE is in
-\texttt{/tmp/struct\_v3.py}.
+future work} (\S11). The coordinate-descent + golden-section MLE
+implementation (\texttt{struct\_v3.py}) is distributed with the project
+harness~\cite{KublerSperimentalMath}.
 
 \subsection{Slopes with $\le 3$ data points (closes N1)}
 
@@ -806,6 +876,7 @@ and lets the rand-3-reg slope be reported on a six-point window
 $n \in \{14, 22, 30, 32, 34, 36\}$; we still mark the $n=36$ point as
 censored.
 
+\clearpage
 \section{Results}
 
 \subsection{The single-headline exponent --- updated (M2)}
@@ -824,20 +895,24 @@ rand\_3reg Tseitin, $n \in \{14, 22, 30, 32, 34, 36\}$:}
 
 The progression across n-windows is
 
-\begin{center}
-\begin{tabular}{@{}lrl@{}}
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{@{}lr>{\raggedright\arraybackslash}p{6.0cm}@{}}
 \toprule
 Window & Slope $\widehat\alpha$ & Source \\
 \midrule
 $n \le 16$ & 2.42 & v1 \\
 $n \le 28$ & 2.93 & v2 \\
 $n = 10\text{--}30$ & 3.43 & v3 \S7.1 \\
-$n = 14\text{--}30$ (B.1 paired alone) & 4.256 & v4/v5 \texttt{b1\_paired\_drat.jsonl} \\
-$n = 32\text{--}36$ (A.1 push-n alone) & 8.667 & v4/v5 \texttt{a1\_push\_n.jsonl} (3 points, censored at n=36) \\
+$n = 14\text{--}30$ (B.1 paired alone) & 4.256 & v4/v5 \texttt{b1\_\allowbreak{}paired\_\allowbreak{}drat.jsonl} \\
+$n = 32\text{--}36$ (A.1 push-n alone) & 8.667 & \makecell[tl]{v4/v5 \texttt{a1\_\allowbreak{}push\_\allowbreak{}n.jsonl}\\(3 points, censored at $n{=}36$)} \\
 \textbf{$n = 14\text{--}36$ (combined)} & \textbf{4.433} & v4/v5 \\
 \bottomrule
 \end{tabular}
-\end{center}
+\caption{Progression of $\widehat\alpha$ across nested fit-windows v1--v5.}
+\label{tab:slope-window}
+\end{table}
 
 \textbf{The slope continues to drift upward} as the window extends; we
 observe \textbf{no asymptotic stabilisation in the computable window}.
@@ -860,7 +935,9 @@ work in \S11.
 On girth-5 3-regular Tseitin with \textbf{certified} finite-n vertex
 expansion $c_n \in [0.71, 1.67]$:
 
-\begin{center}
+\begin{table}[H]
+\centering
+\small
 \begin{tabular}{@{}rcrrc@{}}
 \toprule
 $n$ & $c_n$ (cert) & $\Phi$ med (cert) & $\Phi$ med (plain 3-reg) &
@@ -870,13 +947,16 @@ cert $>$ plain? \\
 12 & 1.250 & 1247 & 768 & yes \\
 14 & 1.250 & 1832 & 1115 & yes \\
 16 & 1.000 & 3535 & 2031 & yes \\
-18 & 0.833 & 4911 & 4911 & tie (suspected seed contamination) \\
+18 & 0.833 & 4911 & 4911 & tie\textsuperscript{a} \\
 20 & 0.833 & 8472 & 5106 & yes \\
 22 & 0.714 & 12903 & 7841 & yes \\
 24 & 0.714 & 18554 & 10872 & yes \\
+\multicolumn{5}{l}{\footnotesize\textsuperscript{a} Suspected seed contamination across the supposedly independent baselines.} \\
 \bottomrule
 \end{tabular}
-\end{center}
+\caption{Certified vs plain 3-regular Tseitin: median $\Phi_{\mathrm{count}}$ at matched $n$.}
+\label{tab:cert-vs-plain}
+\end{table}
 
 \begin{itemize}
 \item Bootstrap slope (cert): \textbf{3.60 [3.04, 4.02]} (full n-range).
@@ -907,18 +987,22 @@ DP-infeasible at $n \ge 16$ (5/5 \texttt{BLEW\_UP} at $n=16$, 5/5 at
 $n=20$; v3.5 \S C). On kissat-DRAT at $n \in \{16, 20, 24, 28\}$, 10
 seeds each:
 
-\begin{center}
+\begin{table}[H]
+\centering
+\small
 \begin{tabular}{@{}rr@{}}
 \toprule
 $n$ & mean $\Phi_{\mathrm{count}}$ (DRAT) \\
 \midrule
-16 & $1.13 \times 10^7$ \\
-20 & $5.97 \times 10^7$ \\
-24 & $3.29 \times 10^8$ \\
-28 & $7.43 \times 10^8$ \\
+16 & $1.13{\times}10^7$ \\
+20 & $5.97{\times}10^7$ \\
+24 & $3.29{\times}10^8$ \\
+28 & $7.43{\times}10^8$ \\
 \bottomrule
 \end{tabular}
-\end{center}
+\caption{Mean $\Phi_{\mathrm{count}}$ on random-4-regular Tseitin under kissat-DRAT~\cite{kissat,WHH2014}.}
+\label{tab:rand4reg}
+\end{table}
 
 \begin{itemize}
 \item $\widehat\alpha_{\Phi_{\mathrm{count}}}^{\mathrm{DRAT}} = 7.688$ on
@@ -940,18 +1024,21 @@ both under DRAT is the natural v6 experiment (\S12).
 A.2 ran $Q_5$ hypercube Tseitin (n = 32) with $\mathrm{MAX\_DB} = 4 \times
 10^6$, 600s/instance budget, three seeds:
 
-\begin{center}
-\begin{tabular}{@{}rrrrrrr@{}}
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{@{}rrrrrcc@{}}
 \toprule
-Trial & seed & $\Phi_{\mathrm{count}}$ & steps & final DB & BLEW\_UP &
-derived\_empty \\
+Trial & seed & $\Phi_{\mathrm{count}}$ & steps & final DB & blew up & derived $\bot$ \\
 \midrule
-0 & 32000 & $6.132 \times 10^6$ & 37 & 1{,}048{,}576 & yes & no \\
-1 & 32001 & $6.132 \times 10^6$ & 37 & 1{,}048{,}576 & yes & no \\
-2 & 32002 & $6.132 \times 10^6$ & 37 & 1{,}048{,}576 & yes & no \\
+0 & 32000 & $6.132{\times}10^6$ & 37 & 1{,}048{,}576 & yes & no \\
+1 & 32001 & $6.132{\times}10^6$ & 37 & 1{,}048{,}576 & yes & no \\
+2 & 32002 & $6.132{\times}10^6$ & 37 & 1{,}048{,}576 & yes & no \\
 \bottomrule
 \end{tabular}
-\end{center}
+\caption{$Q_5$ hypercube Tseitin under DP-min-occ: three seeds, all abort deterministically at step 37.}
+\label{tab:q5}
+\end{table}
 
 \textbf{All three trials abort at the same step (37) with the same final
 DB size ($2^{20}$).} This is \emph{not} a noisy \texttt{BLEW\_UP}; it is
@@ -976,18 +1063,22 @@ This is itself the v4 headline for the v3 D6/D7 defect.
 
 \subsection{Structured baselines with optimised DP (R3 partial)}
 
-\begin{center}
+\begin{table}[H]
+\centering
+\small
 \begin{tabular}{@{}lll@{}}
 \toprule
 Family & n-grid & $\Phi_{\mathrm{count}}$ (median) \\
 \midrule
-path (tw = 1) & 10, 16, 24, 30 & 83, 227, 531, 843 \\
-cycle (tw = 2) & 10, 16, 24, 30 & 111, 273, 601, 931 \\
-tree (tw $\le \log n$) & 7, 15, 31 & 34.4, 187.2, 859.2 \\
-grid\_2D (tw = $\sqrt{n}$) & 9, 16, 25 & 243, 2147, 9155 \\
+path ($tw = 1$) & 10, 16, 24, 30 & 83, 227, 531, 843 \\
+cycle ($tw = 2$) & 10, 16, 24, 30 & 111, 273, 601, 931 \\
+tree ($tw \le \log n$) & 7, 15, 31 & 34.4, 187.2, 859.2 \\
+grid\_2D ($tw = \sqrt{n}$) & 9, 16, 25 & 243, 2147, 9155 \\
 \bottomrule
 \end{tabular}
-\end{center}
+\caption{Structured-baseline DP-min-occ medians: path, cycle, tree, 2D grid.}
+\label{tab:structured}
+\end{table}
 
 Per-trial dispersion (tree $n=31$): \{860, 809, 920, 874, 833\}. A log-log
 slope on path gives $\sim$2.1. R3 is partially closed: the path/cycle no
@@ -998,8 +1089,10 @@ nice-to-have list (\S12).
 
 Stretched-exponential $\gamma$ across three fit windows:
 
-\begin{center}
-\begin{tabular}{@{}lll@{}}
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{@{}lrl@{}}
 \toprule
 Window & $\gamma$ point & 95\% bootstrap CI \\
 \midrule
@@ -1008,7 +1101,9 @@ $n = 10$ to $30$ & 0.451 & [0.124, 1.223] \\
 $n = 6$ to $24$ & 0.238 & [0.085, 0.400] \\
 \bottomrule
 \end{tabular}
-\end{center}
+\caption{Stretched-exponential $\gamma$ point estimate and CI across three fit-windows.}
+\label{tab:gamma-windows}
+\end{table}
 
 The stretched-exp model wins $\Delta$AICc$_{\mathrm{eff}}$ at every
 window; the \textbf{parameter $\gamma$ is window-sensitive}. The wide CI
@@ -1019,6 +1114,7 @@ headline is therefore: \emph{stretched-exponential wins model selection
 across windows; the parameter is not pinned to better than half a decimal
 point on present data}. SC5 is \textbf{partial (drift)}.
 
+\clearpage
 \section{Figure 1 --- inline tikz/pgfplots (M6)}
 
 \textbf{Figure 1.} Log-log plot of $\Phi_{\mathrm{count}}$ vs $n$ for the
@@ -1028,14 +1124,22 @@ kissat-DRAT flag-variant curves on $n \in \{10, \ldots, 60\}$ (B.2
 mechanism corpus). Reference $n$ and $n^3$ overlays for the (revised)
 $\Omega(n)$ Esteban--Tor\'an lower bound and a polynomial-3 baseline.
 
-\begin{figure}[t]
+\begin{figure}[!htbp]
 \centering
+\resizebox{\textwidth}{!}{%
 \begin{tikzpicture}
 \begin{loglogaxis}[
-  width=12cm, height=9cm,
+  width=10.5cm, height=8cm,
   xlabel={$n$ (Tseitin formula size)},
   ylabel={$\Phi_{\mathrm{count}}$ (median across seeds)},
-  legend pos=north west, grid=both,
+  legend style={
+    at={(1.03,1.0)}, anchor=north west,
+    draw=none, fill=none,
+    font=\footnotesize,
+    nodes={right},
+    row sep=1pt
+  },
+  grid=both,
   xmin=8, xmax=70, ymin=1e2, ymax=2e9
 ]
 % DP min-occ on rand_3reg (B.1 paired + A.1 push-n)
@@ -1080,28 +1184,29 @@ $\Omega(n)$ Esteban--Tor\'an lower bound and a polynomial-3 baseline.
 \addplot[domain=10:60, dotted, gray] {x^3};
 \addlegendentry{$n^3$ (reference)}
 \end{loglogaxis}
-\end{tikzpicture}
-\caption{$\Phi_{\mathrm{count}}$ vs $n$ on a log-log scale.  DP min-occ on
-  rand\_3reg (filled circles) over the combined B.1 paired + A.1 push-n
-  window $n \in \{14,22,30,32,34,36\}$: combined slope
-  $\widehat\alpha = 4.43$.  The $n=36$ point is downward-biased: 3 of 10
-  instances were censored at $\mathrm{MAX\_DB} = 1.5 \times 10^6$.
-  Four DRAT flag variants on $n \in \{10,\ldots,60\}$ overlap at
-  $n \le 26$ and separate visibly at $n \ge 30$; the dominant flag
-  effect is \texttt{--restart=false} (top at $n=60$, $9.38 \times 10^8$),
-  giving slope $7.011$ vs DRAT-default $6.688$ ($+0.323$, full-range
-  bootstrap CI $[+0.213, +0.435]$, but the signal concentrates at $n=60$).
-  Reference $n$ (the revised $\Omega(n)$ literature lower bound on
-  $\mathrm{CSpace}_{\mathrm{cum}}(\mathrm{Tseitin}_n)$ via Esteban--Tor\'an)
-  and $n^3$ lines included.  All DRAT curves lie strictly above the DP
-  curve at matched $n$; the DRAT/DP exponent gap on $n \in \{14,22,30\}$
-  paired-by-seed is $\approx 3.28 \pm 0.4$.  Per v5-corrected Lemma A
-  (\S3) the measured $\Phi$ exponent has no formal ordering to
-  $\mathrm{CSpace}_{\mathrm{cum}}(F)$.}
+\end{tikzpicture}%
+}
+\caption{$\Phi_{\mathrm{count}}$ vs $n$ on a log-log scale. DP min-occ on
+  rand\_3reg over $n \in \{14, 22, 30, 32, 34, 36\}$ (filled circles,
+  slope $\widehat\alpha = 4.43$); four DRAT flag variants on $n \in [10,60]$;
+  reference lines $n$ ($\Omega(n)$ from Esteban--Tor\'an) and $n^3$.
+  See body text below for numerical details.}
 \label{fig:phi-vs-n}
 \end{figure}
 
-\paragraph{Textual reading.} The DP min-occ curve on rand\_3reg sits
+\paragraph{Textual reading.}
+{\sloppy
+The $n=36$ point is downward-biased: 3 of 10 instances were censored at
+$\mathrm{MAX\_DB} = 1.5 \times 10^6$. Four DRAT flag variants on
+$n \in [10,60]$ overlap at $n \le 26$ and separate visibly at $n \ge 30$;
+the dominant flag effect is \texttt{--restart=false} (top at $n=60$,
+$9.38 \times 10^8$), giving slope $7.011$ vs DRAT-default $6.688$
+($+0.323$, full-range bootstrap CI $[+0.213, +0.435]$, but the signal
+concentrates at $n=60$). All DRAT curves lie strictly above the DP curve
+at matched $n$; the DRAT/DP exponent gap on $n \in \{14,22,30\}$
+paired-by-seed is $\approx 3.28 \pm 0.4$. Per v5-corrected Lemma~A
+(\S3) the measured $\Phi$ exponent has no formal ordering to
+$\mathrm{CSpace}_{\mathrm{cum}}(F)$. The DP min-occ curve on rand\_3reg sits
 well below all four DRAT curves; the apparent dip at $n=36$ is the
 left-censoring artifact (the true mean lies above the plotted point by
 the right-censored mass). All four DRAT flag-variant curves are
@@ -1116,6 +1221,7 @@ an $n^2$ reference in v5, because the $\Omega(n^2)$ lower bound on
 $\mathrm{CSpace}_{\mathrm{cum}}(\mathrm{Tseitin}_n)$ asserted by v4's C2
 is withdrawn (\S9).
 
+\clearpage
 \section{Theoretical position (v5: ADRNV chain corrected)}
 
 \paragraph{(i) ADRNV Lemma 12, stated precisely.} ADRNV~\cite{ADRNV2017}
@@ -1158,7 +1264,7 @@ resolution-with-memory model. The models do match, but the
 Esteban--Tor\'an bound is on the \textbf{peak}, not on a sustained
 plateau.
 
-\paragraph{(iii) Where the chain breaks.} Na\"ive composition gives, for
+\paragraph{(iii) Where the chain breaks.} \begingroup\sloppy Na\"ive composition gives, for
 every $\pi$,
 \[
 \mathrm{CSpace}_{\mathrm{cum}}(\pi) \;\ge\;
@@ -1178,7 +1284,7 @@ XOR-pebbling formulas of ADRNV Theorems 14--15 are engineered precisely
 to force the plateau; Tseitin is not known to do so. Hence the ADRNV
 open problem on p.~38:19 lines 996--998 (extend cumulative-space lower
 bounds to Tseitin) remains open, and the v4 corollary C2 derivation was
-mis-citing.
+mis-citing.\endgroup
 
 \paragraph{(iv) Weakest defensible $\mathrm{CSpace}_{\mathrm{cum}}$ lower
 bound on Tseitin via this route.} The only bound that survives is the
@@ -1190,7 +1296,7 @@ trivial one:
 i.e.\ $\mathrm{CSpace}_{\mathrm{cum}}(\mathrm{Tseitin}_n) = \Omega(n)$,
 \textbf{linear}, not quadratic.
 
-\begin{corollary}[C2, v5 revised, honest form]
+\begin{corollary}[C2, Kubler this work; v5 revised, honest form]
 \sloppy
 For Tseitin formulas on 3-regular expander graphs on $n$ vertices, every
 resolution refutation $\pi$ satisfies
@@ -1232,6 +1338,7 @@ claim beyond it. The ADRNV open problem on Tseitin (p.~38:19) is
 cumulative-space lower bound on Tseitin, and our work bears on neither
 the Esteban--Tor\'an nor the ADRNV lower-bound side.
 
+\clearpage
 \section{DRAT vs DP mechanism --- restart, not inprocessing (M4, v5: paired bootstrap)}
 
 \paragraph{v3 hypothesis (retracted, \S3.5 item 6).} ``DRAT's lower $\Phi$
@@ -1244,25 +1351,28 @@ inprocessing), \texttt{--restart=false}, \texttt{--eliminate=false} (no
 variable elimination during inprocessing). Mean $\Phi_{\mathrm{count}}$
 per (flag, $n$):
 
-\begin{center}
+\begin{table}[H]
+\centering
 \small
 \begin{tabular}{@{}rrrrrr@{}}
 \toprule
-$n$ & default & no-inproc & no-restart & no-eliminate & restart-effect \\
+$n$ & \makecell[c]{default} & \makecell[c]{no-\\inproc} & \makecell[c]{no-\\restart} & \makecell[c]{no-\\eliminate} & \makecell[c]{restart\\-effect} \\
 \midrule
-10 & 3.51e3 & 3.51e3 & 3.51e3 & 3.51e3 & 1.000 \\
-14 & 1.20e4 & 1.20e4 & 1.20e4 & 1.20e4 & 1.000 \\
-18 & 2.55e4 & 2.55e4 & 2.55e4 & 2.55e4 & 1.000 \\
-22 & 2.12e5 & 2.12e5 & 2.12e5 & 2.12e5 & 1.000 \\
-26 & 8.19e5 & 8.19e5 & 8.19e5 & 8.19e5 & 1.000 \\
-30 & 3.62e6 & 3.62e6 & 4.06e6 & 3.62e6 & 1.122 \\
-40 & 9.87e6 & 1.04e7 & 1.20e7 & 9.87e6 & 1.218 \\
-50 & 7.57e7 & 1.05e8 & 7.66e7 & 7.52e7 & 1.012 \\
-\textbf{60} & \textbf{3.66e8} & \textbf{4.36e8} & \textbf{9.38e8} &
-\textbf{4.07e8} & \textbf{2.560} \\
+10 & $3.51{\times}10^3$ & $3.51{\times}10^3$ & $3.51{\times}10^3$ & $3.51{\times}10^3$ & 1.000 \\
+14 & $1.20{\times}10^4$ & $1.20{\times}10^4$ & $1.20{\times}10^4$ & $1.20{\times}10^4$ & 1.000 \\
+18 & $2.55{\times}10^4$ & $2.55{\times}10^4$ & $2.55{\times}10^4$ & $2.55{\times}10^4$ & 1.000 \\
+22 & $2.12{\times}10^5$ & $2.12{\times}10^5$ & $2.12{\times}10^5$ & $2.12{\times}10^5$ & 1.000 \\
+26 & $8.19{\times}10^5$ & $8.19{\times}10^5$ & $8.19{\times}10^5$ & $8.19{\times}10^5$ & 1.000 \\
+30 & $3.62{\times}10^6$ & $3.62{\times}10^6$ & $4.06{\times}10^6$ & $3.62{\times}10^6$ & 1.122 \\
+40 & $9.87{\times}10^6$ & $1.04{\times}10^7$ & $1.20{\times}10^7$ & $9.87{\times}10^6$ & 1.218 \\
+50 & $7.57{\times}10^7$ & $1.05{\times}10^8$ & $7.66{\times}10^7$ & $7.52{\times}10^7$ & 1.012 \\
+\textbf{60} & $\bm{3.66{\times}10^8}$ & $\bm{4.36{\times}10^8}$ & $\bm{9.38{\times}10^8}$ &
+$\bm{4.07{\times}10^8}$ & \textbf{2.560} \\
 \bottomrule
 \end{tabular}
-\end{center}
+\caption{Mean $\Phi_{\mathrm{count}}$ per (flag, $n$) on the B.2 mechanism corpus.}
+\label{tab:mechanism-means}
+\end{table}
 
 \paragraph{v5 paired-by-seed cluster bootstrap (B=2000).}
 {\sloppy
@@ -1275,15 +1385,18 @@ cluster-bootstrap resamples $k$ with replacement and applies the
 for each resample we recompute mean $\log \phi_{c,\mathrm{drat}}$ per
 (flag, $n$), refit the OLS log-log slope on the 9 $\log n$ values, and
 take $\mathrm{slope}_{\mathrm{flag}} - \mathrm{slope}_{\mathrm{default}}$.
-Full numerics at \texttt{/tmp/\allowbreak{}e3\_bootstrap.txt} on the SEC server;
-script at \texttt{/tmp/\allowbreak{}e3\_bootstrap.py} on the SEC server and
-\texttt{/tmp/\allowbreak{}e3\_bootstrap\_\allowbreak{}local.py} locally.
+Full numerics and the bootstrap script (\texttt{e3\_bootstrap.py},
+\texttt{paired\_drat\_dp.py}, \texttt{c003b\_harness.py},
+\texttt{drat\_phi.py}) are Kubler's (this work) and are mirrored at
+\url{https://github.com/ludwigkubler/SperimentalMath/tree/main/papers/phi_tseitin}.
 \par}
 
 \paragraph{Headline result on the full 9-point fit.}
 
-\begin{center}
-\begin{tabular}{@{}lllll@{}}
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{@{}lrrcc@{}}
 \toprule
 Contrast & Point & Boot median & 95\% percentile CI & Excludes zero? \\
 \midrule
@@ -1292,7 +1405,9 @@ no-inprocessing $-$ default & $+0.137$ & $+0.123$ & $[+0.070, +0.179]$ & yes \\
 no-eliminate $-$ default & $+0.030$ & $+0.029$ & $[-0.005, +0.073]$ & no \\
 \bottomrule
 \end{tabular}
-\end{center}
+\caption{Paired cluster-bootstrap headline: slope-difference per flag contrast on $n\in 10..60$.}
+\label{tab:boot-headline}
+\end{table}
 
 Taken at face value, the v4 \S10 $+0.323$ finding for no-restart
 \textbf{survives} the paired bootstrap on the full 9-point fit (CI
@@ -1312,18 +1427,21 @@ at $n=60$.
 \paragraph{Leave-$n=60$-out reweighting (refit on 8 $n$ values
 $\{10..50\}$).}
 
-\begin{center}
-\begin{tabular}{@{}llll@{}}
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{@{}lrl>{\raggedright\arraybackslash}p{4.5cm}@{}}
 \toprule
 Contrast & Point & 95\% CI & Verdict \\
 \midrule
-no-restart & $+0.073$ & $[+0.031, +0.111]$ & still excludes zero, but
-4$\times$ smaller \\
+no-restart & $+0.073$ & $[+0.031, +0.111]$ & \makecell[tl]{still excludes zero,\\but 4$\times$ smaller} \\
 no-inprocessing & $+0.138$ & $[-0.048, +0.316]$ & CI now crosses zero \\
 no-eliminate & $-0.003$ & $[-0.006, +0.000]$ & null \\
 \bottomrule
 \end{tabular}
-\end{center}
+\caption{Leave-$n{=}60$-out cluster bootstrap on 8 $n$-values $\{10..50\}$.}
+\label{tab:leave-out}
+\end{table}
 
 \paragraph{Leave-$n \ge 50$-out (b2 only, 6 $n$ values $\{10..40\}$).}
 No-restart slope difference is $+0.128$ with CI $[0.000, +0.390]$ ---
@@ -1340,7 +1458,9 @@ be read with that caveat.
 \paragraph{Log-log slopes per flag, full window $n = 10\text{--}60$
 (point estimates).}
 
-\begin{center}
+\begin{table}[H]
+\centering
+\small
 \begin{tabular}{@{}lrr@{}}
 \toprule
 Flag & Slope & Slope $-$ default \\
@@ -1348,10 +1468,12 @@ Flag & Slope & Slope $-$ default \\
 default & 6.688 & 0 \\
 no-eliminate & 6.718 & $+0.030$ \\
 no-inprocessing & 6.826 & $+0.138$ \\
-\textbf{no-restart} & \textbf{7.011} & \textbf{$+0.323$} \\
+\textbf{no-restart} & \textbf{7.011} & $\bm{+0.323}$ \\
 \bottomrule
 \end{tabular}
-\end{center}
+\caption{Per-flag log-log slope estimates on $n\in 10..60$.}
+\label{tab:flag-slopes}
+\end{table}
 
 \paragraph{Paired-by-seed DRAT\_default vs DP\_min\_occ slope difference
 on $n \in \{14, 22, 30\}$:} $\widehat\alpha_{\mathrm{DRAT,default}} -
@@ -1411,7 +1533,7 @@ partial mechanism}: restart contributes $\approx$10\% of the exponent gap
 on the full-range fit, concentrated at $n=60$; the residual $\approx$90\%
 is intrinsic CDCL-vs-DP and is \emph{not} localisable to any single
 inprocessing stage on this corpus. The paired-by-seed DP vs DRAT
-bootstrap is at \texttt{b1\_paired\_drat.jsonl} (60 instances across 6
+bootstrap is at \texttt{b1\_\allowbreak{}paired\_\allowbreak{}drat.jsonl}~\cite{KublerSperimentalMath} (60 instances across 6
 modes), closing panel concern \textbf{N5}.
 
 \section{Limitations: what $\Phi$ is not}
@@ -1477,33 +1599,39 @@ abort at step 37 with final DB $2^{20}$ at $\mathrm{MAX\_DB} = 4 \times
 structural negative (\S7.4).
 
 \item \textbf{No quantitative Nordstr\"om space-width trade-off
-experiment.} Panel concern \textbf{R9} is \textbf{not closed} in v5;
-deferred to v6.
+experiment~\cite{Nordstrom2013,Nordstrom2015survey}.} Panel concern
+\textbf{R9} is \textbf{not closed} in v5; deferred to v6.
 
-\item \textbf{No side-by-side comparison with J\"arvisalo--Heule--Biere
-/ Elffers et al.} Panel concern \textbf{R10} is \textbf{not closed} in v5.
+\item \textbf{No side-by-side comparison with
+J\"arvisalo--Heule--Biere~\cite{JHB2012} or
+Elffers et al.~\cite{Elffers2018}.} Panel concern \textbf{R10} is
+\textbf{not closed} in v5.
 
 \item \textbf{Random-4-regular and grid\_2D at $m \in \{6,7\}$, hypercube
 $Q_5$ remain partially or fully censored.} v3.5 \S C full censoring
 report carried through:
 
-\begin{center}
+\begin{table}[!htbp]
+\centering
 \footnotesize
-\begin{tabular}{@{}lrrrrr@{}}
+\begin{tabular}{@{}lrrrr>{\raggedleft\arraybackslash}p{3.4cm}@{}}
 \toprule
 family & $n$ & trials & compl. & \texttt{BLEW\_UP} & mean $\Phi$ (compl.) \\
 \midrule
 rand\_3reg & 28 & 5 & 3 & 2 & 19{,}847 \\
 \textbf{rand\_3reg} & \textbf{36} & \textbf{10} & \textbf{7} & \textbf{3}
-& \textbf{$\approx 6.5{\times}10^4$ (DOWNWARD BIASED)} \\
+& $\bm{\approx 6.5{\times}10^4}$\textsuperscript{a} \\
 rand\_4reg & 16 & 5 & 0 & 5 & --- \\
 rand\_4reg & 20 & 5 & 0 & 5 & --- \\
 grid\_2D & 36 & 5 & 0 & 5 & --- \\
-grid\_2D & 49, 64 & 5 & 0 & 5 & --- \\
+grid\_2D & \makecell{49\\64} & 5 & 0 & 5 & --- \\
 hypercube $Q_5$ & 32 & 3 & 0 & 3 (det.\ abort) & --- \\
+\multicolumn{6}{l}{\footnotesize\textsuperscript{a} Mean over 7 completed instances; downward biased by the 3 censored instances.} \\
 \bottomrule
 \end{tabular}
-\end{center}
+\caption{Censoring report carried from v3.5 \S C through v5.}
+\label{tab:censoring}
+\end{table}
 
 Where a cell has zero completions we do \textbf{not} apply Tobit ---
 Tobit needs at least one completed data point. The $n=36$ rand\_3reg row
@@ -1527,9 +1655,14 @@ Each item maps an outstanding defect to a runnable experiment with
 estimated server-hours on the project's RTX 3070 Ti / 32 GB RAM /
 kissat 4.0.4 single-core baseline.
 
-\begin{center}
+\begin{table}[H]
+\centering
 \small
-\begin{tabular}{@{}p{3.2cm}p{3.5cm}rl@{}}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}X
+                              >{\raggedright\arraybackslash}X
+                              r
+                              >{\raggedright\arraybackslash}p{2.0cm}@{}}
 \toprule
 Item & Closes & Est.\ h & Status \\
 \midrule
@@ -1544,14 +1677,16 @@ expansion certification & v3 R2 partial & $\sim$12 & nice-to-have \\
 100\}$ $\ge$10 seeds, default + no-restart + no-inprocessing, paired-by-seed
 & v5 \S10 concentration-at-$n=60$ fragility & $\sim$24 & yes (obligated) \\
 \textbf{C.1} Lean port of ADRNV Definition 11 + primitive-expansion
-construction & Lemma A (ii) \texttt{sorry} & 0 ($\sim$10 human-h) & yes \\
+construction & Lemma A (ii) \texttt{sorry} & 0 & yes ($\sim$10 human-h) \\
 \textbf{STAT.1} Tobit fit for the $n=36$ left-censored DP instances &
-\S11 item 4 & 0 (statistical) & yes \\
+\S11 item 4 & 0 & yes (statistical) \\
 \textbf{STAT.2} Per-seed paired bootstrap CI for DRAT\_default $-$
-DP\_min\_occ exponent difference & \S11 item 5 & 0 (statistical) & yes \\
+DP\_min\_occ exponent difference & \S11 item 5 & 0 & yes (statistical) \\
 \bottomrule
-\end{tabular}
-\end{center}
+\end{tabularx}
+\caption{Compute budget for the v6 outstanding-defect roadmap.}
+\label{tab:v6-budget}
+\end{table}
 
 Items previously listed in the v3.5 \S D compute budget that are now
 \textbf{closed in v4/v5}: A.1 (push-n at $n \in \{32, 34, 36\}$ ---
@@ -1562,13 +1697,37 @@ D6/D7 as a structural negative), A.3 (rand\_4reg under DRAT at $n \in
 and the v5 bootstrap (closes E3). All five v4 items completed within the
 $\sim$21 h budget projected by v3.5.
 
+\clearpage
 \section*{Author and attribution}
 \addcontentsline{toc}{section}{Author and attribution}
 
-\textbf{Ludovico Kubler.} All rights reserved. Correspondence:
-ludwigkubler.ia at gmail dot com. \copyright\ 2026 Ludovico Kubler.
+\textbf{Author: Ludovico Kubler} (independent researcher). All
+sub-conjectures SC1--SC6, the $\Phi_{\mathrm{count}}$ measurement
+protocol on rand-3-regular Tseitin, the DP-min-occurrence heuristic
+harness, the seed scheme, the paired-by-seed bootstrap design, the
+negative findings on SC2 / SC4 / restart contribution, the corrected
+Lemma A (part ii) re-scheduling argument, and the walkback of
+Corollary C2 from $\Omega(n^2)$ to $\Omega(n)$ are Kubler's contribution
+(this work). The Lean mechanisation (file
+\texttt{TseitinTw/Conjecture003.lean}, lines 369--411) is
+Kubler's~\cite{KublerSperimentalMath}.
+All harness code (\texttt{c003b\_harness.py}, \texttt{drat\_phi.py},
+\texttt{paired\_drat\_dp.py}, \texttt{e3\_bootstrap.py},
+\texttt{push\_n.py}) is Kubler's and is available at
+\url{https://github.com/ludwigkubler/SperimentalMath/tree/main/papers/phi_tseitin}.
+External results cited herein: cumulative clause-space and
+Lemma 12 / Theorems 14--15 are Alwen--de Rezende--Nordstr\"om--Vinyals
+(ADRNV)~\cite{ADRNV2017}; the linear clause-space lower bound for
+Tseitin on expanders is Esteban--Tor\'an~\cite{EstebanToran1999}; the
+space-width trade-off is Ben-Sasson--Wigderson~\cite{BSW2001} (with
+Nordstr\"om's space-width framework~\cite{Nordstrom2013}); the hard
+examples on the $\mathbb{Z}_3$ incidence construction are
+Urquhart~\cite{Urquhart1987}; the DP elimination procedure is
+Davis--Putnam~\cite{DavisPutnam1960}. All rights reserved.
+Correspondence: ludolandoffreedom at gmail dot com.
+\copyright\ 2026 Ludovico Kubler.
 
-\section*{Version history}
+\section*{Version history (all drafts authored by Ludovico Kubler)}
 \addcontentsline{toc}{section}{Version history}
 
 \begin{itemize}
@@ -1621,36 +1780,50 @@ campaign $n \in \{70..100\}$ added to v6 plan as obligated continuation.
 
 \medskip
 
-\noindent\emph{End of v5 draft. The paper is offered as a methodology
-contribution; no complexity-theoretic separation is claimed. All
-exponents reported are heuristic-conditional and schedule-specific, with
-no formal ordering to $\mathrm{CSpace}_{\mathrm{cum}}$ per v5-corrected
-Lemma A. The ADRNV open problem on Tseitin (p.~38:19, lines 996--998) is
-reaffirmed as open.}
+\noindent\emph{End of v5 draft by Ludovico Kubler (\copyright\ 2026).
+The paper is offered as a methodology contribution; no
+complexity-theoretic separation is claimed. All exponents reported
+are heuristic-conditional and schedule-specific, with no formal ordering
+to $\mathrm{CSpace}_{\mathrm{cum}}$ per v5-corrected Lemma A
+(Kubler, this work). The ADRNV~\cite{ADRNV2017} open problem on
+Tseitin (p.~38:19, lines 996--998) is reaffirmed as open.}
 
 \begin{thebibliography}{99}
 
 \bibitem{ADRNV2017}
 Joel Alwen, Susanna F.\ de Rezende, Jakob Nordstr\"om, and Marc Vinyals.
 \newblock Cumulative space in black-white pebbling and resolution.
-\newblock In \emph{8th Innovations in Theoretical Computer Science
-Conference (ITCS 2017)}, paper 38, pages 38:1--38:21. Leibniz International
-Proceedings in Informatics (LIPIcs), 2017.
+\newblock In Christos H.\ Papadimitriou, editor, \emph{8th Innovations in
+Theoretical Computer Science Conference (ITCS 2017)}, volume~67 of
+\emph{Leibniz International Proceedings in Informatics (LIPIcs)}, pages
+38:1--38:21. Schloss Dagstuhl --- Leibniz-Zentrum f\"ur Informatik, 2017.
 \newblock \href{https://doi.org/10.4230/LIPIcs.ITCS.2017.38}{doi:10.4230/LIPIcs.ITCS.2017.38}.
 
 \bibitem{EstebanToran1999}
 Juan Luis Esteban and Jacobo Tor\'an.
 \newblock Space bounds for resolution.
-\newblock In \emph{Computer Science Logic, 13th International Workshop,
-CSL '99}, volume 1683 of \emph{Lecture Notes in Computer Science}, pages
-551--560. Springer, 1999.
-\newblock \href{https://doi.org/10.1007/3-540-48168-0_39}{doi:10.1007/3-540-48168-0\_39}.
+\newblock \emph{Information and Computation}, 171(1):84--97, 2001.
+\newblock \href{https://doi.org/10.1006/inco.2001.2921}{doi:10.1006/inco.2001.2921}.
+\newblock Conference version: CSL '99, LNCS 1683, pages 551--560, Springer 1999,
+\href{https://doi.org/10.1007/3-540-48168-0_39}{doi:10.1007/3-540-48168-0\_39}.
 
 \bibitem{BSW2001}
 Eli Ben-Sasson and Avi Wigderson.
 \newblock Short proofs are narrow --- resolution made simple.
 \newblock \emph{Journal of the ACM}, 48(2):149--169, 2001.
 \newblock \href{https://doi.org/10.1145/375827.375835}{doi:10.1145/375827.375835}.
+
+\bibitem{Nordstrom2013}
+Jakob Nordstr\"om.
+\newblock Pebble games, proof complexity, and time-space trade-offs.
+\newblock \emph{Logical Methods in Computer Science}, 9(3):15:1--15:63, 2013.
+\newblock \href{https://doi.org/10.2168/LMCS-9(3:15)2013}{doi:10.2168/LMCS-9(3:15)2013}.
+
+\bibitem{Nordstrom2015survey}
+Jakob Nordstr\"om.
+\newblock On the interplay between proof complexity and SAT solving.
+\newblock \emph{ACM SIGLOG News}, 2(3):19--44, 2015.
+\newblock \href{https://doi.org/10.1145/2815493.2815497}{doi:10.1145/2815493.2815497}.
 
 \bibitem{Urquhart1987}
 Alasdair Urquhart.
@@ -1663,6 +1836,88 @@ Martin Davis and Hilary Putnam.
 \newblock A computing procedure for quantification theory.
 \newblock \emph{Journal of the ACM}, 7(3):201--215, 1960.
 \newblock \href{https://doi.org/10.1145/321033.321034}{doi:10.1145/321033.321034}.
+
+\bibitem{AtseriasDalmau2008}
+Albert Atserias and V\'\i ctor Dalmau.
+\newblock A combinatorial characterization of resolution width.
+\newblock \emph{Journal of Computer and System Sciences}, 74(3):323--334, 2008.
+\newblock \href{https://doi.org/10.1016/j.jcss.2007.06.025}{doi:10.1016/j.jcss.2007.06.025}.
+
+\bibitem{GIRS2023}
+Nicola Galesi, Dmitry Itsykson, Artur Riazanov, and Anastasia Sofronova.
+\newblock Bounded-depth Frege complexity of Tseitin formulas for all graphs.
+\newblock \emph{Annals of Pure and Applied Logic}, 174(1):103166, 2023.
+\newblock \href{https://doi.org/10.1016/j.apal.2022.103166}{doi:10.1016/j.apal.2022.103166}.
+
+\bibitem{Bodlaender1998}
+Hans L.\ Bodlaender.
+\newblock A partial $k$-arboretum of graphs with bounded treewidth.
+\newblock \emph{Theoretical Computer Science}, 209(1-2):1--45, 1998.
+\newblock \href{https://doi.org/10.1016/S0304-3975(97)00228-4}{doi:10.1016/S0304-3975(97)00228-4}.
+
+\bibitem{Dechter2003}
+Rina Dechter.
+\newblock \emph{Constraint Processing}.
+\newblock Morgan Kaufmann Series in Artificial Intelligence. Morgan Kaufmann,
+San Francisco, CA, 2003.
+\newblock ISBN 978-1-55860-890-0.
+
+\bibitem{JHB2012}
+Matti J\"arvisalo, Marijn J.~H.\ Heule, and Armin Biere.
+\newblock Inprocessing rules.
+\newblock In \emph{Automated Reasoning, 6th International Joint Conference,
+IJCAR 2012}, volume 7364 of \emph{Lecture Notes in Computer Science}, pages
+355--370. Springer, 2012.
+\newblock \href{https://doi.org/10.1007/978-3-642-31365-3_28}{doi:10.1007/978-3-642-31365-3\_28}.
+
+\bibitem{HHW2013}
+Marijn J.~H.\ Heule, Warren A.\ Hunt~Jr., and Nathan Wetzler.
+\newblock Trimming while checking clausal proofs.
+\newblock In \emph{2013 Formal Methods in Computer-Aided Design (FMCAD)},
+pages 181--188. IEEE, 2013.
+\newblock \href{https://doi.org/10.1109/FMCAD.2013.6679408}{doi:10.1109/FMCAD.2013.6679408}.
+
+\bibitem{WHH2014}
+Nathan Wetzler, Marijn J.~H.\ Heule, and Warren A.\ Hunt~Jr.
+\newblock DRAT-trim: Efficient checking and trimming using expressive clausal
+proofs.
+\newblock In \emph{Theory and Applications of Satisfiability Testing -- SAT
+2014}, volume 8561 of \emph{Lecture Notes in Computer Science}, pages
+422--429. Springer, 2014.
+\newblock \href{https://doi.org/10.1007/978-3-319-09284-3_31}{doi:10.1007/978-3-319-09284-3\_31}.
+
+\bibitem{kissat}
+Armin Biere, Katalin Fazekas, Mathias Fleury, and Maximilian Heisinger.
+\newblock CaDiCaL, Kissat, Paracooba, Plingeling and Treengeling entering
+the SAT Competition 2020.
+\newblock In Tomas Balyo, Nils Froleyks, Marijn Heule, Markus Iser, Matti
+J\"arvisalo, and Martin Suda, editors, \emph{Proc.\ of SAT Competition
+2020 -- Solver and Benchmark Descriptions}, volume B-2020-1 of
+\emph{Department of Computer Science Report Series B}, pages 51--53.
+University of Helsinki, 2020.
+
+\bibitem{Elffers2018}
+Jan Elffers, Jes\'us Gir\'aldez-Cru, Stephan Gocht, Jakob Nordstr\"om, and
+Laurent Simon.
+\newblock Seeking practical CDCL insights from theoretical SAT benchmarks.
+\newblock In \emph{Proceedings of the 27th International Joint Conference on
+Artificial Intelligence (IJCAI 2018)}, pages 1300--1308, 2018.
+\newblock \href{https://doi.org/10.24963/ijcai.2018/181}{doi:10.24963/ijcai.2018/181}.
+
+\bibitem{KublerSperimentalMath}
+Ludovico Kubler.
+\newblock \emph{SperimentalMath / TseitinTw: Lean~4 formalisation of the
+cumulative entropy functional} (\texttt{Conjecture003.lean}).
+\newblock Available at
+\href{https://github.com/ludwigkubler/SperimentalMath}{https://github.com/ludwigkubler/SperimentalMath},
+commit relevant to v5 draft (June 2026).
+
+\bibitem{Mathlib2020}
+The mathlib Community.
+\newblock The Lean Mathematical Library.
+\newblock In \emph{Proceedings of the 9th ACM SIGPLAN International Conference
+on Certified Programs and Proofs (CPP 2020)}, pages 367--381. ACM, 2020.
+\newblock \href{https://doi.org/10.1145/3372885.3373824}{doi:10.1145/3372885.3373824}.
 
 \end{thebibliography}
 
