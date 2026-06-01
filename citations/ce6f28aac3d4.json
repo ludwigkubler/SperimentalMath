@@ -1,0 +1,40 @@
+{
+  "entry_id": "ce6f28aac3d4",
+  "ts": 1780349877.6379752,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1908.06409",
+      "title": "Schur multipliers of special p-groups of rank 2",
+      "abstract_excerpt": "A group G is called special p-group of rank k if the commutator subgroup [G,G] and centre Z(G) are equal, which is elementary abelian p-group of rank k and G/[G,G] is also elementary abelian p-group. In this article we determine the Schur multiplier of special p-groups of rank 2 explicitly.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Schur multipliers of special p-groups of rank 2, which has no interaction with ideal class groups of local rings or communication complexity rank. The only connection is the shared word 'rank,' which is used in a completely different sense.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/hep-ph/0610012v1",
+      "title": "Tevatron-for-LHC Report of the QCD Working Group",
+      "abstract_excerpt": "The experiments at Run 2 of the Tevatron have each accumulated over 1 inverse femtobarn of high-transverse momentum data. Such a dataset allows for the first precision (i.e. comparisons between theory and experiment at the few percent level) tests of QCD at a hadron collider. While the Large Hadron ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes QCD precision tests at the Tevatron and LHC hadron colliders, which has no relation to local ring ideal class groups or communication complexity rank.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1304.2668",
+      "title": "Andrews-Curtis and Nielsen equivalence relations on some infinite groups",
+      "abstract_excerpt": "The Andrews-Curtis conjecture asserts that, for a free group $F_n$ of rank $n$ and a free basis $(x_1,...,x_n)$, any normally generating tuple $(y_1,...,y_n)$ is Andrews-Curtis equivalent to $(x_1,...,x_n)$. This equivalence corresponds to the actions of $\\operatorname{Aut}F_n$ and of $F_n$ on normally generating $n$-tuples. The equivalence corresponding to the action of $\\operatorname{Aut}F_n$ on generating $n$-tuples is called Nielsen equivalence. The conjecture for arbitrary finitely generate",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses Andrews-Curtis and Nielsen equivalence in finitely generated groups (nilpotent, Grigorchuk), with no mention of ideal class groups, local rings, or communication complexity. It shares no claim about the conjectured Θ(r) correlation.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

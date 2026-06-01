@@ -1,0 +1,40 @@
+{
+  "entry_id": "129161a9a513",
+  "ts": 1780349080.5863795,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1505.06503",
+      "title": "Monotone orbifold Hurwitz numbers",
+      "abstract_excerpt": "In general, Hurwitz numbers count branched covers of the Riemann sphere with prescribed ramification data, or equivalently, factorisations in the symmetric group with prescribed cycle structure data. In this paper, we initiate the study of monotone orbifold Hurwitz numbers. These are simultaneously variations of the orbifold case and generalisations of the monotone case, both of which have been previously studied in the literature. We derive a cut-and-join recursion for monotone orbifold Hurwitz",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns monotone orbifold Hurwitz numbers, branched covers, and topological recursion — it shares only the word 'monotone' with the conjecture and says nothing about elliptic curve orders, boolean circuits, or L-function arithmetic.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2506.03318",
+      "title": "Validation of Quantum Elliptic Curve Point Addition Circuits",
+      "abstract_excerpt": "Specific quantum algorithms exist to-in theory-break elliptic curve cryptographic protocols. Implementing these algorithms requires designing quantum circuits that perform elliptic curve arithmetic. To accurately judge a cryptographic protocol's resistance against future quantum computers, researchers figure out minimal resource-count circuits for performing these operations while still being correct. To assure the correctness of a circuit, it is integral to restore all ancilla qubits used to th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns validation and correctness fixes for quantum circuits performing elliptic curve point addition ('surfaced four inconsistencies in the state-of-the-art quantum circuit for elliptic curve point addition'), not any relationship between elliptic curve orders, L-functions, and monotone circuit width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1304.2315",
+      "title": "Generalized Elliptic Integrals and Applications",
+      "abstract_excerpt": "We use some general properties, presented in previous work, to evaluate special cases of integrals relating Rogers-Ramanujan continued fraction, eta function and elliptic integrals.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'elliptic integrals,' 'Rogers-Ramanujan continued fraction,' and 'eta function' — purely analytic number theory with no mention of elliptic curve orders, L-functions, boolean circuits, or monotone width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

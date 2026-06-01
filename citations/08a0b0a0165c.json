@@ -1,0 +1,40 @@
+{
+  "entry_id": "08a0b0a0165c",
+  "ts": 1780349556.8885236,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1607.05594",
+      "title": "Poincaré series of compressed local Artinian rings with odd top socle degree",
+      "abstract_excerpt": "We define a notion of compressed local Artinian ring that does not require the ring to contain a field. Let $(R,\\mathfrak m)$ be a compressed local Artinian ring with odd top socle degree $s$, at least five, and $\\operatorname{socle}(R)\\cap \\mathfrak m^{s-1}=\\mathfrak m^s$. We prove that the Poincaré series of all finitely generated modules over $R$ are rational, sharing a common denominator, and that there is a Golod homomorphism from a complete intersection onto $R$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Poincaré series and Golod homomorphisms for compressed local Artinian rings with odd top socle degree; it makes no mention of unit groups, Boolean circuits, monotone width, or Frobenius endomorphisms relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/astro-ph/0405128v1",
+      "title": "Probing the Evolution of the Galaxy Interaction/Merger Rate Using Collisional Ring Galaxies",
+      "abstract_excerpt": "We present the results from our program to determine the evolution of the galaxy interaction/merger rate with redshift using the unique star-forming characteristics of collisional ring galaxies. We have identified 25 distant collisional ring galaxy candidates (CRGCs) in a total of 162 deep Hubble Sp",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'collisional ring galaxies' in astrophysics and galaxy merger rates, which shares only the word 'ring' with the conjecture about local ring theory and Boolean circuits; there is no interaction with the mathematical claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2506.06785",
+      "title": "Extending dependencies to the taggedPBC: Word order in transitive clauses",
+      "abstract_excerpt": "The taggedPBC (Ring 2025a) contains more than 1,800 sentences of pos-tagged parallel text data from over 1,500 languages, representing 133 language families and 111 isolates. While this dwarfs previously available resources, and the POS tags achieve decent accuracy, allowing for predictive crosslinguistic insights (Ring 2025b), the dataset was not initially annotated for dependencies. This paper reports on a CoNLLU-formatted version of the dataset which transfers dependency information along wit",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a linguistics dataset on word order in transitive clauses ('taggedPBC... pos-tagged parallel text data') and has no connection to local ring theory, Boolean circuits, or monotone width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

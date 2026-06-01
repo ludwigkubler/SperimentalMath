@@ -1,0 +1,40 @@
+{
+  "entry_id": "cd6421b70ca9",
+  "ts": 1780347844.4191978,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1912.05653",
+      "title": "Minimal abelian varieties of algebras, I",
+      "abstract_excerpt": "We show that any abelian variety that is not affine has a nontrivial strongly abelian subvariety. In later papers in this sequence we apply this result to the study of minimal abelian varieties.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'abelian varieties of algebras' in universal algebra (strongly abelian subvarieties), which is unrelated to abelian integrals or communication complexity of Boolean functions. It shares only the word 'abelian' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1410.4915",
+      "title": "Rankin-Selberg L-functions in cyclotomic towers, III",
+      "abstract_excerpt": "Let $π$ be a cuspidal automorphic representation of $\\operatorname{GL}_2$ over a totally real number field $F$. Let $K$ be a totally imaginary quadratic extension of $F$. We estimate central values of the $\\operatorname{GL}_2 \\times \\operatorname{GL}_2$ Rankin-Selberg $L$-functions associated to $π$ times representations induced from Hecke characters of $K$ which are ramified only at a given prime ideal $\\mathfrak{p}$ of $F$. More specifically, we use spectral decompositions of shifted convoluti",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Rankin-Selberg L-functions, automorphic representations, and Mordell-Weil ranks of abelian varieties—it makes no mention of abelian integrals, Boolean functions, or communication complexity, so it does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/quant-ph/0405018v2",
+      "title": "Improved Bounds on the Randomized and Quantum Complexity of Initial-Value Problems",
+      "abstract_excerpt": "We deal with the problem, initiated in [8], of finding randomized and quantum complexity of initial-value problems. We showed in [8] that a speed-up in both settings over the worst-case deterministic complexity is possible. In the present paper we prove, by defining new algorithms, that further impr",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'randomized and quantum complexity of initial-value problems' for ODEs, which has no connection to abelian integral order or Boolean function communication complexity. It shares no specific claim with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

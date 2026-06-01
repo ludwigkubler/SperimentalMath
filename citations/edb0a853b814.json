@@ -1,0 +1,40 @@
+{
+  "entry_id": "edb0a853b814",
+  "ts": 1780346904.937198,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/1112.2313v2",
+      "title": "QBF-Based Boolean Function Bi-Decomposition",
+      "abstract_excerpt": "Boolean function bi-decomposition is ubiquitous in logic synthesis. It entails the decomposition of a Boolean function using two-input simple logic gates. Existing solutions for bi-decomposition are often based on BDDs and, more recently, on Boolean Satisfiability. In addition, the partition of the ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Boolean function bi-decomposition via QBF/SAT for logic synthesis, with no mention of meromorphic functions, root counts, or communication complexity rank.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2111.08793v3",
+      "title": "The Stochastic Boolean Function Evaluation Problem for Symmetric Boolean Functions",
+      "abstract_excerpt": "We give two approximation algorithms solving the Stochastic Boolean Function Evaluation (SBFE) problem for symmetric Boolean functions. The first is an $O(\\log n)$-approximation algorithm, based on the submodular goal-value approach of Deshpande, Hellerstein and Kletenik. Our second algorithm, which",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns approximation algorithms for Stochastic Boolean Function Evaluation on symmetric Boolean functions, which shares only the 'boolean function' vocabulary but says nothing about meromorphic functions, root counts, or communication complexity rank.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2407.04826v1",
+      "title": "Multi-strategy Based Quantum Cost Reduction of Quantum Boolean Circuits",
+      "abstract_excerpt": "The construction of quantum computers is based on the synthesis of low-cost quantum circuits. The quantum circuit of any Boolean function expressed in a Positive Polarity Reed-Muller $PPRM$ expansion can be synthesized using Multiple-Control Toffoli ($MCT$) gates. This paper proposes two algorithms ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quantum circuit synthesis using MCT gates for Boolean functions in PPRM form, with no mention of meromorphic functions, root counts, or communication complexity rank.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

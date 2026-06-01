@@ -1,0 +1,40 @@
+{
+  "entry_id": "bd06a87fc8f9",
+  "ts": 1780348376.8761876,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2412.20260",
+      "title": "Functorial, operadic and modular operadic combinatorics of circuit algebras",
+      "abstract_excerpt": "Circuit algebras are a symmetric analogue of Jones's planar algebras introduced to study finite-type invariants of virtual knotted objects. Circuit algebra structures appear, in different forms, across mathematics. This paper provides a dictionary for translating between their diverse incarnations and describing their wider context. A formal definition of a broad class of circuit algebras is established and three equivalent descriptions of circuit algebras are provided: in terms of operads of wi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'circuit algebras' as a symmetric analogue of planar algebras for studying finite-type invariants of virtual knots, with no mention of modular forms' q-expansion order or Boolean circuit monotone width. The shared word 'circuit' refers to an entirely different mathematical structure than Boolean circuits.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/alg-geom/9506017v2",
+      "title": "Minimal Siegel modular threefolds",
+      "abstract_excerpt": "In this paper we study the maximal extension $Γ_t^*$ of the subgroup $Γ_t$ of $\\operatorname{Sp}_4 (\\bq)$ which is conjugate to the paramodular group. The index of this extension is $2^{ν(t)}$ where $ν(t)$ is the number of prime divisors of $t$. The group $Γ_t^*$ defines the minimal modular threefol",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the maximal extension of paramodular subgroups of Sp_4(Q) and the resulting minimal Siegel modular threefolds, with no mention of q-expansion orders, Boolean circuits, or monotone width. It shares only the word 'minimal' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1806.05207",
+      "title": "Interpolated sequences and critical $L$-values of modular forms",
+      "abstract_excerpt": "Recently, Zagier expressed an interpolated version of the Apéry numbers for $ζ(3)$ in terms of a critical $L$-value of a modular form of weight 4. We extend this evaluation in two directions. We first prove that interpolations of Zagier's six sporadic sequences are essentially critical $L$-values of modular forms of weight 3. We then establish an infinite family of evaluations between interpolations of leading coefficients of Brown's cellular integrals and critical $L$-values of modular forms of",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses interpolated sequences and critical L-values of modular forms (Apéry numbers, Zagier's sporadic sequences), with no mention of q-expansion minimal order, Boolean circuits, or monotone width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
