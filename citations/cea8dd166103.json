@@ -1,0 +1,40 @@
+{
+  "entry_id": "cea8dd166103",
+  "ts": 1780286077.8453064,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1902.05441",
+      "title": "A Note on Entropy of Delone Sets",
+      "abstract_excerpt": "In this note we present that the patch counting entropy can be obtained as a limit and investigate which sequences of compact sets are suitable to define this quantity. We furthermore present a geometric definition of patch counting entropy for Delone sets of infinite local complexity and that the patch counting entropy of a Delone set equals the topological entropy of the corresponding Delone dynamical system. We present our results in the context of (non-compact) locally compact Abelian groups",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'patch counting entropy' for Delone sets and its equality with topological entropy of Delone dynamical systems—it makes no mention of CNF formulas, SAT clause sets, or minimal geometric entropy in the conjecture's sense. Shared 'entropy/geometric' vocabulary only; no interaction with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1809.07407",
+      "title": "Unfolding the complexity of the global value chain: Strengths and entropy in the single-layer, multiplex, and multi-layer international trade networks",
+      "abstract_excerpt": "The worldwide trade network has been widely studied through different data sets and network representations with a view to better understanding interactions among countries and products. Here we investigate international trade through the lenses of the single-layer, multiplex, and multi-layer networks. We discuss differences among the three network frameworks in terms of their relative advantages in capturing salient topological features of trade. We draw on the World Input-Output Database to bu",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns entropy in international trade networks ('strength distribution and entropy in each network'), with no mention of SAT formulas, CNF clause sets, or geometric entropy of clause sets.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1608.00145",
+      "title": "Inspecting non-perturbative contributions to the Entanglement Entropy via wavefunctions",
+      "abstract_excerpt": "In this paper, we would like to systematically explore the implications of non-perturbative effects on entanglement in a many body system. Instead of pursuing the usual path-integral method in a singular space, we attempt to study the wavefunctions in detail. We begin with a toy model of multiple particles whose interaction potential admits multiple minima. We study the entanglement of the true ground state after taking the tunnelling effects into account and find some simple patterns. Notably, ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns entanglement entropy in many-body quantum systems with tunneling/instanton effects and field theory, with no mention of SAT clause sets, CNF formulas, or any combinatorial complexity measure relevant to the conjecture's claim about mge(φ) = Θ(c(φ)).",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

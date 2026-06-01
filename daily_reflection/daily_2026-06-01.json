@@ -1,0 +1,136 @@
+{
+  "ts": 1780284785.5082157,
+  "window_h": 24.0,
+  "n_conjectures": 230,
+  "n_papers": 90,
+  "n_scoops": 5,
+  "scoops": [
+    {
+      "paper_id": "2605.31269v1",
+      "paper_title": "Aspects of Coherence in Dependence Logic",
+      "matched_eid": "a205b849f8ac",
+      "similarity": 0.7213398644323731
+    },
+    {
+      "paper_id": "2605.30564v1",
+      "paper_title": "Listing Even Cycles Faster than the Submodular-Width Barrier",
+      "matched_eid": "47c66c91b2c2",
+      "similarity": 0.7382003980977585
+    },
+    {
+      "paper_id": "2605.31546v1",
+      "paper_title": "Ramsey-Turán theory for partially-ordered sets",
+      "matched_eid": "86ccf8b95619",
+      "similarity": 0.721296971160374
+    },
+    {
+      "paper_id": "2605.30402v1",
+      "paper_title": "Improved Lower Bounds on the General Reduced Second Zagreb Index of Trees and Unicyclic Graphs",
+      "matched_eid": "cd788e589284",
+      "similarity": 0.743463410271029
+    },
+    {
+      "paper_id": "2605.30401v1",
+      "paper_title": "A Counterexample to a basis conjecture of Brualdi, Friedland, and Pothen",
+      "matched_eid": "796fca78b143",
+      "similarity": 0.7260307074368965
+    }
+  ],
+  "top_overlap": [
+    {
+      "score": 0.743,
+      "paper_id": "2605.30402v1",
+      "paper_title": "Improved Lower Bounds on the General Reduced Second Zagreb Index of Trees and Unicyclic Graphs",
+      "paper_category": "math.CO",
+      "matched_conjecture_eid": "cd788e589284",
+      "matched_conjecture_title": "Minimal Local Index of Tropical Curve Bounds Resolution Proof Width"
+    },
+    {
+      "score": 0.738,
+      "paper_id": "2605.30564v1",
+      "paper_title": "Listing Even Cycles Faster than the Submodular-Width Barrier",
+      "paper_category": "cs.DB",
+      "matched_conjecture_eid": "47c66c91b2c2",
+      "matched_conjecture_title": "Coxeter-Diagram Enumeration Complexity Bounds for Resolution Proof Width"
+    },
+    {
+      "score": 0.726,
+      "paper_id": "2605.30401v1",
+      "paper_title": "A Counterexample to a basis conjecture of Brualdi, Friedland, and Pothen",
+      "paper_category": "math.CO",
+      "matched_conjecture_eid": "796fca78b143",
+      "matched_conjecture_title": "Minimal Rank of Symmetric Matrices over Finite Fields Bounds Resolution Proof Width"
+    },
+    {
+      "score": 0.721,
+      "paper_id": "2605.31269v1",
+      "paper_title": "Aspects of Coherence in Dependence Logic",
+      "paper_category": "cs.LO",
+      "matched_conjecture_eid": "a205b849f8ac",
+      "matched_conjecture_title": "Minimal Local Coherence Rank Correlation with Communication Complexity"
+    },
+    {
+      "score": 0.721,
+      "paper_id": "2605.31546v1",
+      "paper_title": "Ramsey-Turán theory for partially-ordered sets",
+      "paper_category": "math.CO",
+      "matched_conjecture_eid": "86ccf8b95619",
+      "matched_conjecture_title": "Coxeter Group Complexity of SAT Proof Trees via Reflection Posets"
+    },
+    {
+      "score": 0.717,
+      "paper_id": "2605.31417v1",
+      "paper_title": "An Optimal Algorithm for Binary Closest String",
+      "paper_category": "cs.DS",
+      "matched_conjecture_eid": "9b484fb91c3e",
+      "matched_conjecture_title": "Arithmetic Progression Count Correlation with Communication Complexity"
+    },
+    {
+      "score": 0.717,
+      "paper_id": "2605.30798v1",
+      "paper_title": "Eigenstate chaos in the presence of non-Abelian symmetries",
+      "paper_category": "quant-ph",
+      "matched_conjecture_eid": "bf6197d76f2b",
+      "matched_conjecture_title": "Minimal Topological Entropy Bounds Communication Complexity"
+    },
+    {
+      "score": 0.715,
+      "paper_id": "2605.30781v1",
+      "paper_title": "The NF-operator and the NF-Numbers of Simplicial Complexes",
+      "paper_category": "math.CO",
+      "matched_conjecture_eid": "554b32d8b3e7",
+      "matched_conjecture_title": "Coxeter Complexes and Communication Complexity Growth"
+    },
+    {
+      "score": 0.715,
+      "paper_id": "2605.30397v1",
+      "paper_title": "On Modular Invariants of Truncated Polynomial Rings",
+      "paper_category": "math.CO",
+      "matched_conjecture_eid": "d0f609ebc4a7",
+      "matched_conjecture_title": "Minimal Index of Automorphism Groups in Lie Algebras Bounds SAT Clause Size"
+    },
+    {
+      "score": 0.711,
+      "paper_id": "2605.30523v1",
+      "paper_title": "Revisiting Padded Transformer Expressivity: Which Architectural Choices Matter and Which Don't",
+      "paper_category": "cs.LG",
+      "matched_conjecture_eid": "69ec6b7b24ff",
+      "matched_conjecture_title": "Coxeter Group Enumeration and Circuit Depth"
+    }
+  ],
+  "stats": {
+    "n_cycles": 230,
+    "verdicts": {
+      "INCONCLUSIVE": 128,
+      "BARRIER_HIT": 102
+    },
+    "focus_distribution": {},
+    "top_fields_A": {
+      "Algebraic Geometry": 15,
+      "Combinatorial Geometry": 13,
+      "Symplectic Geometry": 12,
+      "Affine Geometry": 11,
+      "Combinatorial Group Theory (specifically, Coxeter ": 7
+    }
+  }
+}

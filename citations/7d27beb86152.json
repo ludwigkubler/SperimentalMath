@@ -1,0 +1,40 @@
+{
+  "entry_id": "7d27beb86152",
+  "ts": 1780288583.2712102,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2002.11069",
+      "title": "Minimal volume entropy of simplicial complexes",
+      "abstract_excerpt": "This article deals with topological assumptions under which the minimal volume entropy of a closed manifold, and more generally of a finite simplicial complex, vanishes or is positive. In the first part of the article, we present complementing topological conditions expressed in terms of the growth of the fundamental group of the fibers of maps from a given finite simplicial complex to simplicial complexes of lower dimension which ensure that the minimal volume entropy of the simplicial complex ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'minimal volume entropy of a closed manifold... finite simplicial complex' tied to fundamental group growth and topology, not affine quotients of d-regular graphs nor monotone circuit complexity. It shares the 'minimal entropy' vocabulary but does not interact with the conjectured bound mge(Q_G) = O(c_m(G)).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2005.12856",
+      "title": "Topological Entropy for Arbitrary Subsets of Infinite Product Spaces",
+      "abstract_excerpt": "In this note a notion of generalized topological entropy for arbitrary subsets of the space of all sequences in a compact topological space is introduced. It is shown that for a continuous map on a compact space the generalized topological entropy of the set of all orbits of the map coincides with the classical topological entropy of the map. Some basic properties of this new notion of entropy are considered; among them are: the behavior of the entropy with respect to disjoint union, cartesian p",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns generalized topological entropy for subsets of infinite product spaces and Bowen entropy on metric spaces, with no mention of affine quotients, d-regular graphs, or monotone circuit complexity. It shares only the generic term 'entropy' but does not interact with the specific conjectured inequality.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2002.12814",
+      "title": "On estimating the entropy of shallow circuit outputs",
+      "abstract_excerpt": "Estimating the entropy of probability distributions and quantum states is a fundamental task in information processing. Here, we examine the hardness of this task for the case of probability distributions or quantum states produced by shallow circuits. Specifically, we show that entropy estimation for distributions or states produced by either log-depth circuits or constant-depth circuits with gates of bounded fan-in and unbounded fan-out is at least as hard as the Learning with Errors (LWE) pro",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses the computational hardness of estimating entropy of distributions from shallow quantum/classical circuits (linked to LWE), not the relationship between geometric entropy of affine quotient spaces and monotone circuit complexity of regular graphs. It shares the vocabulary 'entropy' and 'circuit' but does not interact with the specific mge(Q_G) = O(c_m(G)) claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

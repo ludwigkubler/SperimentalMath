@@ -1,0 +1,101 @@
+# auto-injected by SEC sandbox
+import itertools
+import collections
+import json
+import sys
+import os
+import time
+import re
+from collections import defaultdict, Counter, deque
+from itertools import product, combinations, permutations, chain
+from typing import List, Dict, Tuple, Set, Optional, Any, Iterable, Callable
+# end SEC prelude
+
+import random
+import math
+from fractions import Fraction
+
+def generate_random_boolean_function(n):
+    return [random.choice([0, 1]) for _ in range(2**n)]
+
+def construct_circuit(f):
+    n = int(math.log2(len(f)))
+    circuit = []
+    for i in range(n):
+        layer = []
+        for j in range(2**(n-i-1)):
+            if f[2*j] == f[2*j+1]:
+                layer.append((f[2*j], 'AND'))
+            else:
+                layer.append((f[2*j], 'OR'))
+        circuit.append(layer)
+    return circuit
+
+def p_adic_divergence(f):
+    n = int(math.log2(len(f)))
+    count = 0
+    for i in range(1, n+1):
+        for j in range(2**(n-i)):
+            if f[2*j] != f[2*j+1]:
+                count += 1
+    return Fraction(count, 2**n)
+
+def communication_complexity(circuit):
+    return max(len(set(gate[1] for gate in layer)) for layer in circuit)
+
+def run_trial(seed: int) -> dict:
+    random.seed(seed)
+    results = []
+    n_values = [5, 10, 15, 20, 30, 40]
+    
+    for n in n_values:
+        f = generate_random_boolean_function(n)
+        circuit = construct_circuit(f)
+        min_d_f = p_adic_divergence(f)
+        c_f = communication_complexity(circuit)
+        results.append((min_d_f, c_f))
+    
+    if not results:
+        return {
+            "metric_name": "p-adic Divergence vs Communication Complexity",
+            "metric_value": None,
+            "instances_tested": 0,
+            "n_max": 0,
+            "conjecture_holds": False,
+            "counterexample": "mapping_undefined"
+        }
+    
+    min_d_values, c_values = zip(*results)
+    correlation_coefficient = sum((min_d - sum(min_d_values) / len(min_d_values)) * (c - sum(c_values) / len(c_values))
+                                  for min_d, c in zip(min_d_values, c_values)) / (len(results) * sum((min_d - sum(min_d_values) / len(min_d_values))**2 for min_d in min_d_values) * sum((c - sum(c_values) / len(c_values))**2 for c in c_values))
+    mean_difference = abs(sum(min_d - c for min_d, c in zip(min_d_values, c_values)) / len(results))
+    
+    return {
+        "metric_name": "p-adic Divergence vs Communication Complexity",
+        "metric_value": correlation_coefficient,
+        "instances_tested": len(results),
+        "n_max": max(n_values),
+        "conjecture_holds": correlation_coefficient >= 0.7 and mean_difference <= 3,
+        "counterexample": ""
+    }
+
+if __name__ == "__main__":
+    import sys
+    seeds = [int(s) for s in sys.argv[1:]] or [2**i + 1 for i in range(5, 8)]
+    
+    results = []
+    for seed in seeds:
+        result = run_trial(seed)
+        print(f"TRIAL: {{\"seed\": {seed}, \"metric_name\": \"{result['metric_name']}\", \"metric_value\": {result['metric_value']}, \"instances_tested\": {result['instances_tested']}, \"n_max\": {result['n_max']}, \"conjecture_holds\": {result['conjecture_holds']}, \"counterexample\": \"{result['counterexample']}\"}}")
+        results.append(result)
+    
+    if all(result["conjecture_holds"] for result in results):
+        mean_value = sum(result["metric_value"] for result in results) / len(results)
+        std_dev = math.sqrt(sum((result["metric_value"] - mean_value)**2 for result in results) / len(results))
+        support_fraction = 1.0
+        print(f"RESULT: SUPPORTED mean={mean_value} std={std_dev} support_fraction={support_fraction}")
+    elif any(not result["conjecture_holds"] for result in results):
+        first_failing_seed = next(seed for seed, result in zip(seeds, results) if not result["conjecture_holds"])
+        print(f"RESULT: FALSIFIED counterexample=\"\" first_failing_seed={first_failing_seed}")
+    else:
+        print("RESULT: INCONCLUSIVE")

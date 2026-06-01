@@ -1,0 +1,40 @@
+{
+  "entry_id": "cf699491a30a",
+  "ts": 1780288991.0236418,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1107.4977",
+      "title": "Gamma-Ray and Parsec-Scale Jet Properties of a Complete Sample of Blazars From the MOJAVE Program",
+      "abstract_excerpt": "We investigate the Fermi LAT gamma-ray and 15 GHz VLBA radio properties of a joint gamma-ray- and radio-selected sample of AGNs obtained during the first 11 months of the Fermi mission (2008 Aug 4 - 2009 Jul 5). Our sample contains the brightest 173 AGNs in these bands above declination -30 deg. during this period, and thus probes the full range of gamma-ray loudness (gamma-ray to radio band luminosity ratio) in the bright blazar population. The latter quantity spans at least four orders of magn",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns gamma-ray and radio properties of blazars (AGNs) from the Fermi/MOJAVE program, with no connection to symplectic leaves, moment maps, planar graphs, or communication complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1610.03311",
+      "title": "Characterizing the gamma-ray long-term variability of PKS 2155-304 with H.E.S.S. and Fermi-LAT",
+      "abstract_excerpt": "Studying the temporal variability of BL Lac objects at the highest energies provides unique insights into the extreme physical processes occurring in relativistic jets and in the vicinity of super-massive black holes. To this end, the long-term variability of the BL Lac object PKS 2155-304 is analyzed in the high (HE, 100 MeV &lt; E &lt; 300 GeV) and very high energy (VHE, E &gt; 200 GeV) gamma-ray domain. Over the course of ~9 yr of H.E.S.S observations the VHE light curve in the quiescent stat",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns gamma-ray variability of the BL Lac object PKS 2155-304, with no connection to symplectic leaves, moment maps, communication complexity, or planar graphs. It is entirely unrelated to the conjecture's subject matter.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2409.10306",
+      "title": "Identifying activity induced RV periodicities and correlations using Central Line Moments",
+      "abstract_excerpt": "The radial velocity (RV) method of exoplanet detection requires mitigation of nuisance signals arising from stellar activity. Using analytic cool and facular spot models, we explore the use of central line moments (CLMs) for recovering and monitoring rotation induced RV variability. Different spot distribution patterns, photosphere-spot contrast ratios and the presence or absence of the convective blueshift lead to differences in CLM signals between M dwarfs and G dwarfs. Harmonics of the rotati",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'central line moments' for stellar radial velocity activity monitoring in astrophysics, with no connection to symplectic leaves, moment maps, planar graphs, or communication complexity. The shared word 'moment' is purely coincidental terminology.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
