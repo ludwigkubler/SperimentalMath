@@ -1,0 +1,40 @@
+{
+  "entry_id": "5599c41978b0",
+  "ts": 1780275500.469087,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0802.4323",
+      "title": "Non-singular affine surfaces with self-maps",
+      "abstract_excerpt": "We classify surjective self-maps (of degree at least two) of affine surfaces according to the log Kodaira dimension.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns classification of surjective self-maps of affine surfaces by log Kodaira dimension, with no mention of symplectic volume, Boolean circuits, or monotone complexity. It shares only the broad 'affine' vocabulary.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1806.08513",
+      "title": "Affine differential geometry and affine rotation surfaces: algebraic surfaces invariant under non-Euclidean affine rotations",
+      "abstract_excerpt": "Affine rotation surfaces are a generalization of the well-known surfaces of revolution. Affine rotation surfaces arise naturally within the framework of affine differential geometry, a field started by Blaschke in the first decades of the past century. Affine rotations are the affine equivalents of Euclidean rotations, and include certain shears as well as Euclidean rotations. Affine rotation surfaces are surfaces invariant under affine rotations. In this paper, we analyze several properties of ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'algebraic affine rotation surfaces' and affine differential geometry algorithms, with no mention of symplectic volume, Boolean circuits, or monotone complexity. It shares only the 'affine' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2106.15501",
+      "title": "Ramblings on the freeness of affine hypersurfaces",
+      "abstract_excerpt": "In this note we look at the freeness for complex affine hypersurfaces. If $X \\subset \\mathbb{C}^n$ is such a hypersurface, and $D$ denotes the associated projective hypersurface, obtained by taking the closure of $X$ in $\\mathbb{P}^n$, then we relate first the Jacobian syzygies of $D$ and those of $X$. Then we introduce two types of freeness for an affine hypersurface $X$, and prove various relations between them and the freeness of the projective hypersurface $D$. We write down a proof of the f",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses freeness of affine hypersurfaces, Jacobian syzygies, and Tjurina numbers — it makes no mention of symplectic volume, Boolean circuits, or monotone complexity, so it shares only loose vocabulary ('affine') with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "d0d1e79f744e",
+  "ts": 1780274973.3036814,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0312530v4",
+      "title": "Enumerative tropical algebraic geometry in R2",
+      "abstract_excerpt": "The paper establishes a formula for enumeration of curves of arbitrary genus in toric surfaces. It turns out that such curves can be counted by means of certain lattice paths in the Newton polygon. The formula was announced earlier in http://arxiv.org/abs/math.AG/0209253.\n  The result is established",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'enumeration of curves of arbitrary genus in toric surfaces' via 'lattice paths in the Newton polygon,' which has no interaction with local system rank, planar graphs, or communication complexity lower bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2503.14715",
+      "title": "Some NP Complete Problems Based on Algebra and Algebraic Geometry",
+      "abstract_excerpt": "This paper describes several new problems and ideas concerning algebraic geometry and complexity theory. It first uses the idea of coloring graphs with elements of finite fields. This procedure then shows that graph coloring problems can be converted into membership problems for a new family of algebraic varieties, coloring varieties, which are closely related to determinantal varieties. This in turn shows that the problem of NP vs P can be converted into questions of if certain polynomials of l",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses converting graph coloring into membership problems for algebraic varieties and relating NP vs P to multiplicative complexity of polynomials, with no mention of planar graphs, local system rank, or communication complexity lower bounds of Ω(n^(3/2)).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1808.09727",
+      "title": "Towards Massively Parallel Computations in Algebraic Geometry",
+      "abstract_excerpt": "Introducing parallelism and exploring its use is still a fundamental challenge for the computer algebra community. In high performance numerical simulation, on the other hand, transparent environments for distributed computing which follow the principle of separating coordination and computation have been a success story for many years. In this paper, we explore the potential of using this principle in the context of computer algebra. More precisely, we combine two well-established systems: The ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a parallel computing framework combining Singular and GPI-Space for computer algebra and a smoothness test for algebraic varieties; it makes no claims about planar graphs, local system rank, or communication complexity lower bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
