@@ -6,6 +6,10 @@
 \usepackage{amsmath,amssymb,amsthm,mathtools}
 \usepackage{graphicx}
 \usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{seqsplit}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
 \usepackage{xcolor}
 \usepackage{listings}
 \usepackage{tcolorbox}
@@ -279,18 +283,21 @@ and the v4 reverse direction are retracted in \S3.5.
 \section{Lemma A (honest two-part statement, v5 corrected)}
 
 \begin{lemma}[part i --- per-trace identity, near-tautology]
+\sloppy
 For any list of \texttt{ProofState V} instances $\pi = (\sigma_0, \ldots,
-\sigma_T)$, the Lean function \texttt{cumulativeEntropy : List (ProofState
-V) $\to$ Nat} from \S2.1 satisfies
+\sigma_T)$, the Lean function \texttt{cumulativeEntropy} from \S2.1 satisfies
 \[
 \texttt{cumulativeEntropy}(\sigma_0, \ldots, \sigma_T) \;=\;
 \sum_{t=0}^{T} |\sigma_t.\texttt{activeClauses}|
 \]
-by definitional unfolding of \texttt{cumulativeEntropy = ($\cdot$.map
-proofStateEntropy).sum} and \texttt{proofStateEntropy $\sigma$ :=
-$\sigma$.activeClauses.card}. \textbf{No ADRNV semantics are mechanised by
-this statement.} It is a near-tautology of the Lean definitions and is
-included for record-keeping, not for content.
+by definitional unfolding of the two Lean definitions:
+\begin{lstlisting}[basicstyle=\ttfamily\small]
+cumulativeEntropy = (List.map proofStateEntropy) |>.sum
+proofStateEntropy sigma := sigma.activeClauses.card
+\end{lstlisting}
+\textbf{No ADRNV semantics are mechanised by this statement.} It is a
+near-tautology of the Lean definitions and is included for record-keeping,
+not for content.
 \end{lemma}
 
 \begin{lemma}[part ii --- formula-level relation, schedule-bookkeeping
@@ -640,9 +647,9 @@ the v2 measurement campaign and have not been edited since.
 
 \begin{center}
 \footnotesize
-\begin{tabular}{@{}clll@{}}
+\begin{tabularx}{\textwidth}{@{}c X l l@{}}
 \toprule
-\# & Verbatim SC text (registry) & STATUS in v5 & Adjudication section \\
+\# & Verbatim SC text (registry) & STATUS in v5 & Adjudication \\
 \midrule
 SC1 & \textit{``$\Phi_{\mathrm{count}}$ grows super-linearly in $n$ on at
 least one Tseitin-like expander family, with a bootstrap slope CI
@@ -654,8 +661,8 @@ SC3 & \textit{``On a degree-matched random-3-regular baseline, the
 Tseitin family has a strictly higher $\Phi$-level at matched $n$ in a
 sign-test sense.''} & supported (aligned) & \S7.2 \\
 SC4 & \textit{``The $\Phi$ exponent is invariant within a multiplicative
-factor under change of refutation back-end (DP vs DRAT).''} & REFUTED
-with partial mechanism (downgraded in v5) & \S10 \\
+factor under change of refutation back-end (DP vs DRAT).''} & refuted
+(downgraded in v5) & \S10 \\
 SC5 & \textit{``The selected single-model fit (power, exponential, or
 stretched-exp) is stable to the choice of $n$-grid window.''} & partial
 (drift) & \S7.5 \\
@@ -666,7 +673,7 @@ $\Phi_{\mathrm{count}}(\mathrm{DP}, \mathrm{min\text{-}occ})(F) \ge
 \mathrm{CSpace}_{\mathrm{cum}}(F)$ is stated correctly.''} & partially
 refuted in v5 & \S3 \\
 \bottomrule
-\end{tabular}
+\end{tabularx}
 \end{center}
 
 \textbf{SC1 detail:} super-linearity met; the $\Omega(n^2)$ lower bound
@@ -706,7 +713,7 @@ one-sided bound. This closes panel concerns \textbf{N4} and \textbf{R5}.
 
 \begin{center}
 \small
-\begin{tabular}{@{}lll@{}}
+\begin{tabularx}{\textwidth}{@{}l X X@{}}
 \toprule
 Family & Description & n-grid in v4/v5 \\
 \midrule
@@ -714,10 +721,10 @@ Tseitin (girth-5 3-regular, certified expander) & vertex expansion $\ge
 0.71$ over $n \le 24$ & 10, 12, 14, 16, 18, 20, 22, 24 \\
 Plain random 3-regular Tseitin (baseline) & uncertified & 10, 12, \ldots, 36 \\
 $Q_4$, $Q_5$ hypercube Tseitin & charges parity-summing & $Q_4$: 16;
-$Q_5$: 32 (deterministic abort) \\
+$Q_5$: 32 (det.\ abort) \\
 Random 4-regular Tseitin (DRAT only) & DP-infeasible (5/5 BLEW\_UP) &
 16, 20, 24, 28 \\
-2D grid Tseitin & $m \times m$ grid, $n = m^2$ & 9, 16, 25 (m=6,7 deferred) \\
+2D grid Tseitin & $m \times m$ grid, $n = m^2$ & 9, 16, 25 (m=6,7 def.) \\
 Path, cycle, tree (structured baselines) & tw = 1, 2, $\le \log$ & up to
 $n = 30, 31$ \\
 5 elim.~orders $\times$ DP corpus & min-occ, max-occ, lex, deg-asc,
@@ -725,16 +732,18 @@ deg-desc & 127 instances \\
 DRAT flag-by-flag mechanism corpus & default, no-inproc, no-restart,
 no-eliminate & $n \in \{10..60\}$, 5 seeds \\
 \bottomrule
-\end{tabular}
+\end{tabularx}
 \end{center}
 
 \subsection{Pre-registered DP (min-occ) heuristic}
 
+{\sloppy
 Pure stdlib Python implementation with forward subsumption and indexed
 clause set; per-instance budget 180 s (B.1, paired), $\mathrm{MAX\_DB} =
 1.5 \times 10^6$ clauses (B.1, A.1); $\mathrm{MAX\_DB} = 4 \times 10^6$
 for the $Q_5$ attempt (A.2). Imported from
-\texttt{$\sim$/Scrivania/SEC/research/programme\_harnesses/data/push\_n.py}.
+\texttt{\textasciitilde/Scrivania/SEC/\allowbreak research/\allowbreak programme\_harnesses/\allowbreak data/\allowbreak push\_n.py}.
+\par}
 
 \subsection{Bootstrap stratification}
 
@@ -1182,6 +1191,7 @@ i.e.\ $\mathrm{CSpace}_{\mathrm{cum}}(\mathrm{Tseitin}_n) = \Omega(n)$,
 \textbf{linear}, not quadratic.
 
 \begin{corollary}[C2, v5 revised, honest form]
+\sloppy
 For Tseitin formulas on 3-regular expander graphs on $n$ vertices, every
 resolution refutation $\pi$ satisfies
 \[
@@ -1254,18 +1264,21 @@ $n$ & default & no-inproc & no-restart & no-eliminate & restart-effect \\
 \end{tabular}
 \end{center}
 
-\paragraph{v5 paired-by-seed cluster bootstrap (B=2000).} We loaded 180
+\paragraph{v5 paired-by-seed cluster bootstrap (B=2000).}
+{\sloppy
+We loaded 180
 rows from \texttt{b2\_mechanism.jsonl} ($n \in \{10,14,18,22,26,30\}$)
-and \texttt{b2\_dprime\_mechanism.jsonl} ($n \in \{40,50,60\}$), 4 flag
+and \texttt{b2\_dprime\_\allowbreak{}mechanism.jsonl} ($n \in \{40,50,60\}$), 4 flag
 sets $\times$ 5 seeds (indexed $k \in 0..4$ within each $n$). The
 cluster-bootstrap resamples $k$ with replacement and applies the
 \textbf{same} $k$-resample across all 9 $n$ values (paired structure);
 for each resample we recompute mean $\log \phi_{c,\mathrm{drat}}$ per
 (flag, $n$), refit the OLS log-log slope on the 9 $\log n$ values, and
 take $\mathrm{slope}_{\mathrm{flag}} - \mathrm{slope}_{\mathrm{default}}$.
-Full numerics at \texttt{/tmp/e3\_bootstrap.txt} on the SEC server;
-script at \texttt{/tmp/e3\_bootstrap.py} on the SEC server and
-\texttt{/tmp/e3\_bootstrap\_local.py} locally.
+Full numerics at \texttt{/tmp/\allowbreak{}e3\_bootstrap.txt} on the SEC server;
+script at \texttt{/tmp/\allowbreak{}e3\_bootstrap.py} on the SEC server and
+\texttt{/tmp/\allowbreak{}e3\_bootstrap\_\allowbreak{}local.py} locally.
+\par}
 
 \paragraph{Headline result on the full 9-point fit.}
 
@@ -1475,19 +1488,19 @@ $Q_5$ remain partially or fully censored.} v3.5 \S C full censoring
 report carried through:
 
 \begin{center}
+\footnotesize
 \begin{tabular}{@{}lrrrrr@{}}
 \toprule
-family & $n$ & trials & completed & \texttt{BLEW\_UP} & mean $\Phi$
-(completed) \\
+family & $n$ & trials & compl. & \texttt{BLEW\_UP} & mean $\Phi$ (compl.) \\
 \midrule
 rand\_3reg & 28 & 5 & 3 & 2 & 19{,}847 \\
 \textbf{rand\_3reg} & \textbf{36} & \textbf{10} & \textbf{7} & \textbf{3}
-& \textbf{$\approx 6.5 \times 10^4$ (DOWNWARD BIASED)} \\
+& \textbf{$\approx 6.5{\times}10^4$ (DOWNWARD BIASED)} \\
 rand\_4reg & 16 & 5 & 0 & 5 & --- \\
 rand\_4reg & 20 & 5 & 0 & 5 & --- \\
 grid\_2D & 36 & 5 & 0 & 5 & --- \\
 grid\_2D & 49, 64 & 5 & 0 & 5 & --- \\
-hypercube $Q_5$ & 32 & 3 & 0 & 3 (deterministic abort) & --- \\
+hypercube $Q_5$ & 32 & 3 & 0 & 3 (det.\ abort) & --- \\
 \bottomrule
 \end{tabular}
 \end{center}
