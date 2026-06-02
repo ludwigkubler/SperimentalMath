@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-06-02T21:47:06Z",
-  "total_cycles": 4640,
+  "last_update_utc": "2026-06-02T22:47:41Z",
+  "total_cycles": 4649,
   "verdict_counts": {
-    "INCONCLUSIVE": 3037,
+    "INCONCLUSIVE": 3041,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 1497,
+    "BARRIER_HIT": 1502,
     "SCOOPED": 86
   },
-  "unique_field_A": 2010,
+  "unique_field_A": 2013,
   "top_fields_A": [
     [
       "Resolution proof complexity",
@@ -68,7 +68,7 @@
     ],
     [
       "Algebraic K-Theory",
-      29
+      30
     ]
   ]
 }
