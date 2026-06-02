@@ -1,0 +1,31 @@
+{
+  "entry_id": "b69aa406f2e0",
+  "ts": 1780418934.3771527,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:2502.10590",
+      "title": "Optimal Bounds for the Number of Pieces of Near-Circuit Hypersurfaces",
+      "abstract_excerpt": "Suppose $f$ is a polynomial in $n$ variables with real coefficients, exactly $n+k$ monomial terms, and Newton polytope of positive volume. Estimating the number of connected components of the positive zero set of $f$ is a fundamental problem in real algebraic geometry, with applications in computati",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns bounding connected components of positive zero sets of sparse polynomials ('number of connected components of the positive zero set of f'), which shares the algebraic geometry framework but does not address arithmetic cycle orders, k-CNF formulas, or communication complexity rank.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:1608.02198",
+      "title": "A General Characterization of the Statistical Query Complexity",
+      "abstract_excerpt": "Statistical query (SQ) algorithms are algorithms that have access to an {\\em SQ oracle} for the input distribution $D$ instead of i.i.d.~ samples from $D$. Given a query function $\\phi:X \\rightarrow [-1,1]$, the oracle returns an estimate of ${\\bf E}_{ x\\sim D}[\\phi(x)]$ within some tolerance $\\tau_",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns statistical query (SQ) algorithms and oracle access for distribution estimation, with no mention of arithmetic cycles, algebraic varieties, k-CNF formulas, or communication complexity rank. It shares no specific claim with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "entry_id": "32e9d12a0f6b",
+  "ts": 1780419421.5465267,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:ae0084dcfa086e256748949e123ecde9090d84dd",
+      "title": "Automata, languages and programming : 29th International Colloquium, ICALP 2002, Málaga, Spain, July 8-13, 2002 : proceedings",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available, so I cannot assess whether the cited proceedings volume contains any result bearing on the conjectured mli(φ)=Θ(w(φ)) relationship.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:c3a58173be97fb1a14e703981245d332086b997d",
+      "title": "Stanford Department of Mathematics Colloquium A p-adic approach to Hilbert ’ s 12 th problem",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available ('no abstract available'), so I cannot assess whether the paper supports, refutes, or is orthogonal to the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 2
+  }
+}

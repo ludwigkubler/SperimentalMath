@@ -1,0 +1,40 @@
+{
+  "entry_id": "9181d97b8a54",
+  "ts": 1780421122.1530676,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2005.06373",
+      "title": "Counting Schur Rings over Cyclic Groups of Semi-prime Order",
+      "abstract_excerpt": "In this paper, we continue the enumeration of Schur rings over cyclic groups. Cyclic groups of semiprime order $pq$, where $p$ and $q$ are distinct primes, are considered. Additionally, cyclic groups of order $4p$ are considered.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns enumeration of Schur rings over cyclic groups of order pq and 4p, with no mention of circuit complexity, gate weights, or minimal element orders linked to representations. It shares only the vocabulary of 'cyclic groups' but does not address the conjecture's claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/hep-ph/0610012v1",
+      "title": "Tevatron-for-LHC Report of the QCD Working Group",
+      "abstract_excerpt": "The experiments at Run 2 of the Tevatron have each accumulated over 1 inverse femtobarn of high-transverse momentum data. Such a dataset allows for the first precision (i.e. comparisons between theory and experiment at the few percent level) tests of QCD at a hadron collider. While the Large Hadron ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract is about precision QCD tests at the Tevatron/LHC hadron colliders ('precision...tests of QCD at a hadron collider'), which has no connection to cyclic group orders in representation theory or Boolean circuit gate weights.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/quant-ph/0507236v3",
+      "title": "Quantum search processes in the cyclic group state spaces",
+      "abstract_excerpt": "The hardness to solve an unstructured quantum search problem by a standard quantum search algorithm mainly originates from the low efficiency to amplify the amplitude of the marked state by the oracle unitary operation associated with other known quantum operations. In order to bypass the square spe",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'quantum search processes' and amplitude amplification in cyclic group state spaces, which shares only the 'cyclic group' vocabulary with the conjecture but does not address representation orders, Boolean circuits, or gate weights.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

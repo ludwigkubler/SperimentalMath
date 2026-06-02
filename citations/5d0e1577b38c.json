@@ -1,0 +1,31 @@
+{
+  "entry_id": "5d0e1577b38c",
+  "ts": 1780420595.660903,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.20295/2412-9186-2025-11-02-178-193",
+      "title": "Research into the Properties of Modular Weight-Based Sum Codes in Concurrent Error-Detection Circuits Based on Boolean Signals Correction",
+      "abstract_excerpt": "This paper describes the design principles of modular weight-based sum codes, focusing primarily on cases with m = 5 data symbols and M = 4, 8, 16, 32, 64 modulus values. The total number of variants with a sequence of weighting coefficient and the number of those providing uniform distribution of data vectors between check vectors have been determined for each code class considered. The conditions for selecting weighting coefficients that ensure a uniform distribution have been formulated. An a",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'modular weight-based sum codes' for error-detection circuits using MCNC benchmarks — it shares vocabulary like 'modular,' 'weight,' and 'Boolean' but concerns coding theory for self-checking circuits, not modular forms (eigenforms) or any correlation between minimal eigenform order and boolean circuit weight.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10.1002/cta.4265",
+      "title": "Lightweight High‐Throughput TRNG Based on Single‐Node Boolean Chaotic Structure",
+      "abstract_excerpt": "With the rise of the Internet and electronic devices, the security of network information is gaining attention, and the true random number generator (TRNG) is playing an increasingly crucial role in information security. TRNG, based on Boolean chaotic entropy source, has drawn significant interest due to its uncomplicated circuit design and minimal hardware resource usage. However, most existing structures consist of two‐input or three‐input logic devices, forming a complex multinode, geometrica",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a hardware TRNG based on a Boolean chaotic structure on FPGAs ('entropy source based on Boolean chaos utilizing single-node and four-input XOR gates'), with no mention of modular forms, eigenforms, or any correlation between circuit weight and minimal order.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 0
+  }
+}
