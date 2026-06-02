@@ -1,0 +1,40 @@
+{
+  "entry_id": "caffc262c8b4",
+  "ts": 1780402381.9276736,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1403.6863",
+      "title": "Online Learning of k-CNF Boolean Functions",
+      "abstract_excerpt": "This paper revisits the problem of learning a k-CNF Boolean function from examples in the context of online learning under the logarithmic loss. In doing so, we give a Bayesian interpretation to one of Valiant's celebrated PAC learning algorithms, which we then build upon to derive two efficient, online, probabilistic, supervised learning algorithms for predicting the output of an unknown k-CNF Boolean function. We analyze the loss of our methods, and show that the cumulative log-loss can be upp",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns online Bayesian learning of k-CNF Boolean functions under logarithmic loss, with no mention of quasi-group representations, noncommutative rank, or circuit weight bounds. It shares only the vague vocabulary of 'CNF' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2112.06062",
+      "title": "A Critique of Kumar's \"Necessary and Sufficient Condition for Satisfiability of a Boolean Formula in CNF and Its Implications on P versus NP problem.\"",
+      "abstract_excerpt": "In this paper, we analyze the argument made by Kumar in the technical report \"Necessary and Sufficient Condition for Satisfiability of a Boolean Formula in CNF and Its Implications on P versus NP problem.\" The paper claims to present a polynomial-time algorithm that decides CNF-SAT. We show that the paper's analysis is flawed and that the fundamental underpinning of its algorithm requires an exponential number of steps on infinitely many inputs.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract critiques a specific CNF-SAT polynomial-time algorithm claim by Kumar, showing it requires exponential steps; it makes no statement about quasi-group representation ranks or correlations with circuit weights.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2504.06476",
+      "title": "Accelerating Hybrid XOR$-$CNF Boolean Satisfiability Problems Natively with In-Memory Computing",
+      "abstract_excerpt": "The Boolean satisfiability (SAT) problem is a computationally challenging decision problem central to many industrial applications. For SAT problems in cryptanalysis, circuit design, and telecommunication, solutions can often be found more efficiently by representing them with a combination of exclusive OR (XOR) and conjunctive normal form (CNF) clauses. We propose a hardware accelerator architecture that natively embeds and solves such hybrid XOR--CNF problems using in-memory computing hardware",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a hardware accelerator for hybrid XOR-CNF SAT problems using in-memory computing ('hardware accelerator architecture that natively embeds and solves such hybrid XOR--CNF problems'), with no discussion of quasi-group representations, minimal rank, or circuit weight bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
