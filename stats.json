@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-06-02T05:47:06Z",
-  "total_cycles": 4502,
+  "last_update_utc": "2026-06-02T06:47:22Z",
+  "total_cycles": 4510,
   "verdict_counts": {
-    "INCONCLUSIVE": 2955,
+    "INCONCLUSIVE": 2960,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 1441,
+    "BARRIER_HIT": 1444,
     "SCOOPED": 86
   },
-  "unique_field_A": 1951,
+  "unique_field_A": 1955,
   "top_fields_A": [
     [
       "Resolution proof complexity",
@@ -20,7 +20,7 @@
     ],
     [
       "Tropical Geometry",
-      106
+      107
     ],
     [
       "Symplectic Geometry",

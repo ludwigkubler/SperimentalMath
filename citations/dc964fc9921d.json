@@ -1,0 +1,22 @@
+{
+  "entry_id": "dc964fc9921d",
+  "ts": 1780380506.3716552,
+  "hits_evaluated": 1,
+  "verdicts": [
+    {
+      "paper_id": "s2:2ba520736fa9f9a8a12733c78038a5e442f8a2cc",
+      "title": "Automorphisms of Rings and Applications to Complexity",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available ('no abstract available'), so I cannot assess whether the paper supports, refutes, or is orthogonal to the conjecture about Frobenius monomial rank and Frege proof length.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 1
+  }
+}

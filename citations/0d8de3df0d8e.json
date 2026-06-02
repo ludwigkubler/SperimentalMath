@@ -1,0 +1,40 @@
+{
+  "entry_id": "0d8de3df0d8e",
+  "ts": 1780382686.895966,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1812.04171",
+      "title": "Finite unitary ring with minimal non-nilpotent group of units",
+      "abstract_excerpt": "Let $R$ be a finite unitary ring such that $R=R_0[R^*]$ where $R_0$ is the prime ring and $R^*$ is not a nilpotent group. We show that if all proper subgroups of $R^*$ are nilpotent groups, then the cardinal of $R$ is a power of prime number 2. In addition, if $(R/Jac(R))^*$ is not a $p-$group, then either $R\\cong M_2(GF(2))$ or $R\\cong M_2(GF(2))\\oplus A$ where $M_2(GF(2))$ is the ring of $2\\times 2$ matrices over the finite field $GF(2)$ and $A$ is a direct sum of finite field $GF(2)$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns finite unitary rings whose unit groups are minimal non-nilpotent, mentioning GF(2) only as a coefficient field for matrix rings; it says nothing about Grothendieck-Witt classes, boolean functions, or communication complexity rank.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2509.19568",
+      "title": "Knock-Knock: Black-Box, Platform-Agnostic DRAM Address-Mapping Reverse Engineering",
+      "abstract_excerpt": "Modern Systems-on-Chip (SoCs) employ undocumented linear address-scrambling functions to obfuscate DRAM addressing, which complicates DRAM-aware performance optimizations and hinders proactive security analysis of DRAM-based attacks; most notably, Rowhammer. Although previous work tackled the issue of reversing physical-to-DRAM mapping, existing heuristic-based reverse-engineering approaches are partial, costly, and impractical for comprehensive recovery. This paper establishes a rigorous theore",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns DRAM address-mapping reverse engineering using 'a linear algebraic model over the finite field GF(2),' sharing only the GF(2) vocabulary with the conjecture but addressing neither Grothendieck-Witt classes nor communication complexity rank of boolean functions.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1405.1018",
+      "title": "Generalized Fourier coefficients of multiplicative functions",
+      "abstract_excerpt": "We introduce and analyse a general class of not necessarily bounded multiplicative functions, examples of which include the function $n \\mapsto δ^{ω(n)}$, where $δ\\neq 0$ and where $ω$ counts the number of distinct prime factors of $n$, as well as the function $n \\mapsto |λ_f(n)|$, where $λ_f(n)$ denotes the Fourier coefficients of a primitive holomorphic cusp form.\n  For this class of functions we show that after applying a `$W$-trick' their elements become orthogonal to polynomial nilsequences",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns multiplicative number-theoretic functions, nilsequences, and uniformity norms (Green-Tao-Ziegler), with no mention of Grothendieck-Witt theory, boolean functions, or communication complexity rank. It shares no substantive contact with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
