@@ -1,0 +1,40 @@
+{
+  "entry_id": "6b6d05999252",
+  "ts": 1780378836.3649952,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1401.4438",
+      "title": "Integral closure of rings of integer-valued polynomials on algebras",
+      "abstract_excerpt": "Let $D$ be an integrally closed domain with quotient field $K$. Let $A$ be a torsion-free $D$-algebra that is finitely generated as a $D$-module. For every $a$ in $A$ we consider its minimal polynomial $μ_a(X)\\in D[X]$, i.e. the monic polynomial of least degree such that $μ_a(a)=0$. The ring ${\\rm Int}_K(A)$ consists of polynomials in $K[X]$ that send elements of $A$ back to $A$ under evaluation. If $D$ has finite residue rings, we show that the integral closure of ${\\rm Int}_K(A)$ is the ring o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns integral closure of rings of integer-valued polynomials on algebras and minimal polynomials of elements in D-algebras, with no mention of root separability distances, monomials, or Boolean/monotone circuit width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/astro-ph/0405128v1",
+      "title": "Probing the Evolution of the Galaxy Interaction/Merger Rate Using Collisional Ring Galaxies",
+      "abstract_excerpt": "We present the results from our program to determine the evolution of the galaxy interaction/merger rate with redshift using the unique star-forming characteristics of collisional ring galaxies. We have identified 25 distant collisional ring galaxy candidates (CRGCs) in a total of 162 deep Hubble Sp",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns astrophysical 'collisional ring galaxies' and galaxy merger rates, sharing only the word 'ring' with the conjecture about polynomial rings and circuit width. It has no bearing on polynomial root separability or monotone circuit complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1410.8212",
+      "title": "PBW deformations of skew polynomial rings and their group extensions",
+      "abstract_excerpt": "We examine PBW deformations of finite group extensions of skew polynomial rings, in particular the quantum Drinfeld orbifold algebras defined by the first author. We give a homological interpretation, in terms of Gerstenhaber brackets, of the necessary and sufficient conditions on parameter functions to define a quantum Drinfeld orbifold algebra, thus clarifying the conditions. In case the acting group is trivial, we determine conditions under which such a PBW deformation is a generalized envelo",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'PBW deformations of skew polynomial rings' and 'quantum Drinfeld orbifold algebras', which shares only the vague vocabulary of 'polynomial rings' with the conjecture but does not address root separability, monomial distances, or Boolean circuit monotone width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

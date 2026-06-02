@@ -1,0 +1,40 @@
+{
+  "entry_id": "f396eea2e602",
+  "ts": 1780378185.9438636,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2102.03481",
+      "title": "Noncommutative Hodge conjecture",
+      "abstract_excerpt": "The paper provides a version of the rational Hodge conjecture for $\\3\\dg$ categories. The noncommutative Hodge conjecture is equivalent to the version proposed in \\cite{perry2020integral} for admissible subcategories. We obtain examples of evidence of the Hodge conjecture by techniques of noncommutative geometry. Finally, we show that the noncommutative Hodge conjecture for smooth proper connective $\\3\\dg$ algebras is true.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses a noncommutative version of the rational Hodge conjecture for dg categories, with no mention of Tseitin formulas, SAT clause sets, entropy, or d-regular graphs. It shares only the term 'Hodge' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0707.3937",
+      "title": "Cohomology theories for homotopy algebras and noncommutative geometry",
+      "abstract_excerpt": "This paper builds a general framework in which to study cohomology theories of strongly homotopy algebras, namely $A_\\infty, C_\\infty$ and $L_\\infty$-algebras. This framework is based on noncommutative geometry as expounded by Connes and Kontsevich. The developed machinery is then used to establish a general form of Hodge decomposition of Hochschild and cyclic cohomology of $C_\\infty$-algebras. This generalizes and puts in a conceptual framework previous work by Loday and Gerstenhaber-Schack.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Hodge decomposition of Hochschild/cyclic cohomology for C_∞-algebras in noncommutative geometry, with no mention of Tseitin formulas, SAT, graphs, or clause set entropy. It shares only the word 'Hodge' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1602.06607",
+      "title": "Why should one compute periods of algebraic cycles?",
+      "abstract_excerpt": "In this article we show how the data of integrals of algebraic differential forms over algebraic cycles can be used in order to prove that algebraic and Hodge cycle deformations of a given algebraic cycle are equivalent. As an example, we prove that most of the Hodge and algebraic cycles of the Fermat sextic fourfold cannot be deformed in the underlying parameter space. We then take a difference of two linear cycles inside the Fermat variety, and gather evidences that the Hodge locus correspondi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses periods of algebraic cycles, Hodge loci, and the Hodge conjecture for Fermat hypersurfaces — it makes no mention of Tseitin formulas, SAT clause sets, entropy, or any combinatorial graph invariant, so it does not interact with the specific correlation claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

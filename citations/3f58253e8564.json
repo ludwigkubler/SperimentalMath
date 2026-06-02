@@ -1,0 +1,40 @@
+{
+  "entry_id": "3f58253e8564",
+  "ts": 1780377440.3094356,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1604.04253",
+      "title": "On Period Relations for Automorphic L-functions II",
+      "abstract_excerpt": "We study Hecke algebras for pairs $({\\mathfrak g},K)$ over arbitrary fields $E$ of characteristic $0$, define the Bernstein functor and give another definition of the Zuckerman functor over $E$. Building on this and the author's previous work on rational structures on automorphic representations, we show that hard duality remains valid over $E$ and apply this result to the study of rationality properties of Sun's cohomologically induced functionals. Our main application are period relations for ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract focuses on Hecke algebras, Zuckerman functors, and period relations for automorphic L-functions of GL(2n), with no mention of resolution proofs, SAT instances, or proof width. It shares only the 'automorphic' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2512.23823",
+      "title": "A new kind of automorphic form and a proof of the essential transformation laws",
+      "abstract_excerpt": "We utilize the structure of quasiautomorphic forms over an arbitrary Hecke triangle group to define a new vector analogue of an automorphic form. We supply a proof of the functional equations that hold for these functions modulo the group generators.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'quasiautomorphic forms over an arbitrary Hecke triangle group' and defines a 'new vector analogue of an automorphic form' with functional equations — it makes no mention of satisfiability, resolution proofs, or proof width, so it shares only the 'automorphic form' vocabulary without interacting with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1212.6525",
+      "title": "Automorphic Integral Transforms for Classical Groups I: Endoscopy Correspondences",
+      "abstract_excerpt": "A general framework of constructions of endoscopy correspondences via automorphic integral transforms for classical groups is formulated in terms of the Arthur classification of the discrete spectrum of square-integrable automorphic forms. This suggests a principle, which is called the $(τ,b)$-theory of automorphic forms of classical groups, to reorganize and extend the series of work of Piatetski-Shapiro, Rallis, Kudla and others on standard $L$-functions of classical groups and theta correspon",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes 'endoscopy correspondences via automorphic integral transforms for classical groups' and the Arthur classification framework, with no mention of satisfiability, resolution proofs, or proof complexity. It shares only the vocabulary 'automorphic forms' with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
