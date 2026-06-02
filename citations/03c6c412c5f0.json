@@ -1,0 +1,31 @@
+{
+  "entry_id": "03c6c412c5f0",
+  "ts": 1780417232.0188098,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:e8b22f93b5f2611c0c5d621556fb1d5b02b7f532",
+      "title": "Private Laconic Oblivious Transfer with Preprocessing",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available for the cited paper, so I cannot assess whether it relates to Hodge indices, communication complexity rank, or the stated correlation.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10.58346/jisis.2024.i4.027",
+      "title": "Lightweight Image Encryption Using Chacha20 and Serpent Algorithm",
+      "abstract_excerpt": "Data security is prominent today primarily due to the numerous applications of digital images in the contemporary world. Innovations in lightweight encryption are being perceived as the solutions that would allow enhancing the levels of protection while incurring minimal impact on the size of the data and the speed of the processes. The lightweight encryption of images having lower complexities is a good choice in different suites, namely, in cloud computing systems and using social networks for",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a 'lightweight image encryption technique that utilizes the ChaCha20 keys generator with the 16-round Serpent algorithm,' which has no interaction with Hodge indices, algebraic curves, or communication complexity rank of CNF formulas.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}
