@@ -1,0 +1,40 @@
+{
+  "entry_id": "29a7a7350450",
+  "ts": 1780441896.9736917,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/1207.2443v2",
+      "title": "Tropical Teichmuller and Siegel spaces",
+      "abstract_excerpt": "In this paper, we present a unified study of the moduli space of tropical curves and Outer space which we link via period maps to the moduli space of tropical abelian varieties and the space of positive definite quadratic forms. Our work is a first step towards exhibiting Outer space and the space o",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses moduli spaces of tropical curves, Outer space, tropical abelian varieties, and period maps — it makes no mention of Brauer groups, CNF formulas, or resolution proof complexity, so it does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1204.3875v2",
+      "title": "Tropicalizing vs Compactifying the Torelli morphism",
+      "abstract_excerpt": "In this paper, we compare the compactified Torelli morphism (as defined by V. Alexeev) and the tropical Torelli map (as defined by the author in a joint work with S. Brannetti and M. Melo, and furthered studied by M. Chan). Our aim is twofold: on one hand, we will review the construction and main pr",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns comparing 'the compactified Torelli morphism' and 'the tropical Torelli map' in algebraic/tropical geometry, with no mention of Brauer groups, CNF formulas, or resolution proof width. It shares only the 'tropical' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1204.6154v2",
+      "title": "Local Tropicalization",
+      "abstract_excerpt": "In this paper we propose a general functorial definition of the operation of \\emph{local tropicalization} in commutative algebra. Let $R$ be a commutative ring, $Γ$ a finitely generated subsemigroup of a lattice, $γ: Γ\\rightarrow R/ R^*$ a morphism of semigroups, and $\\V(R)$ the topological space of",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a 'general functorial definition of local tropicalization in commutative algebra' involving rings, semigroups, and lattices, with no mention of Brauer groups, CNF formulas, or resolution proof width. It shares the tropical vocabulary but does not interact with the specific conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

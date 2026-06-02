@@ -1,0 +1,40 @@
+{
+  "entry_id": "b2e755ecf7d6",
+  "ts": 1780440667.1814737,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1411.4413",
+      "title": "Observation of the rare $B^0_s\\toμ^+μ^-$ decay from the combined analysis of CMS and LHCb data",
+      "abstract_excerpt": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence f",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a particle physics measurement of B meson decay branching fractions at CMS and LHCb, with no connection to Brauer groups, communication complexity, or representation theory of CNF formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2312.03130",
+      "title": "The DUNE Far Detector Vertical Drift Technology, Technical Design Report",
+      "abstract_excerpt": "DUNE is an international experiment dedicated to addressing some of the questions at the forefront of particle physics and astrophysics, including the mystifying preponderance of matter over antimatter in the early universe. The dual-site experiment will employ an intense neutrino beam focused on a near and a far detector as it aims to determine the neutrino mass hierarchy and to make high-precision measurements of the PMNS matrix parameters, including the CP-violating phase. It will also stand ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes the DUNE neutrino experiment's liquid argon time-projection chamber technology, which has no connection to Brauer groups, communication complexity, or representation theory of CNF formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2501.01495",
+      "title": "Search for continuous gravitational waves from known pulsars in the first part of the fourth LIGO-Virgo-KAGRA observing run",
+      "abstract_excerpt": "Continuous gravitational waves (CWs) emission from neutron stars carries information about their internal structure and equation of state, and it can provide tests of General Relativity. We present a search for CWs from a set of 45 known pulsars in the first part of the fourth LIGO--Virgo--KAGRA observing run, known as O4a. We conducted a targeted search for each pulsar using three independent analysis methods considering the single-harmonic and the dual-harmonic emission models. We find no evid",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a LIGO-Virgo-KAGRA search for continuous gravitational waves from known pulsars, with no relation to Brauer groups, CNF formulas, or communication complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

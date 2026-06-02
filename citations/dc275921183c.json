@@ -1,0 +1,40 @@
+{
+  "entry_id": "dc275921183c",
+  "ts": 1780442267.0221422,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1405.2700",
+      "title": "Zero Excess and Minimal Length in Finite Coxeter Groups",
+      "abstract_excerpt": "Let $\\mathcal{W}$ be the set of strongly real elements of $W$, a Coxeter group. Then for $w \\in \\mathcal{W}$, $e(w)$, the excess of $w$, is defined by $e(w) = \\min\\{\\ell(x) + \\ell(y) - \\ell(w) \\; | \\; w=xy, x^2 = y^2 = 1\\}$. When $W$ is finite we may also define $E(w)$, the reflection excess of $w$. The main result established here is that if $W$ is finite and $X$ is a $W$-conjugacy class, then there exists $w \\in X$ such that $w$ has minimal length in $X$ and $e(w) = 0 = E(w)$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns excess and minimal length in finite Coxeter groups ('there exists w in X such that w has minimal length in X and e(w) = 0'), with no mention of local cohomology, CNF formulas, or Frege proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0406355v1",
+      "title": "p-torsion elements in local cohomology modules. II",
+      "abstract_excerpt": "Lyubeznik conjectured that local cohomology modules of regular rings have finitely many associated primes. We examine this conjecture for polynomial rings over the integers, and record some equational identities that arise from studying special cases.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses Lyubeznik's conjecture on associated primes of local cohomology modules over polynomial rings over the integers, with no mention of CNF formulas, Frege proof complexity, or any propositional proof system. It shares only the 'local cohomology' vocabulary without interacting with the specific correlation claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2102.04369",
+      "title": "Mixed Hodge structure on local cohomology with support in determinantal varieties",
+      "abstract_excerpt": "We employ the inductive structure of determinantal varieties to calculate the mixed Hodge module structure of local cohomology modules with determinantal support. We show that the weight of a simple composition factor is uniquely determined by its support and cohomological degree. As a consequence, we obtain the equivariant structure of the Hodge filtration on each local cohomology module. Finally, as an application, we provide a formula for the generation level of the Hodge filtration on these ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'mixed Hodge module structure of local cohomology modules with determinantal support' and Hodge filtration generation levels, with no mention of CNF formulas, Frege proof complexity, or any connection between local cohomology order and proof length.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

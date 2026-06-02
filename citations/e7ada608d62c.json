@@ -1,0 +1,40 @@
+{
+  "entry_id": "e7ada608d62c",
+  "ts": 1780443041.9942021,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1407.1593",
+      "title": "A Constructive Algorithm for Decomposing a Tensor into a Finite Sum of Orthonormal Rank-1 Terms",
+      "abstract_excerpt": "We propose a constructive algorithm that decomposes an arbitrary real tensor into a finite sum of orthonormal rank-1 outer products. The algorithm, named TTr1SVD, works by converting the tensor into a tensor-train rank-1 (TTr1) series via the singular value decomposition (SVD). TTr1SVD naturally generalizes the SVD to the tensor regime with properties such as uniqueness for a fixed order of indices, orthogonal rank-1 outer product terms, and easy truncation error quantification. Using an outer p",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a tensor decomposition algorithm (TTr1SVD) for real tensors into orthonormal rank-1 terms, with no mention of Boolean formulas, DPLL proofs, or symmetric tensor rank of formula-associated polynomials. It shares only the general 'tensor rank' vocabulary.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1204.1444",
+      "title": "Computing the minimum rank of a loop directed tree",
+      "abstract_excerpt": "The minimum rank of a graph is the minimum possible rank of a real matrix whose zero-nonzero pattern is described by the graph. The current algorithms can compute efficiently the minimum rank of undirected trees. This paper provides an algorithm to compute in polynomial time the minimum rank of directed trees allowing loops.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'minimum rank of a loop directed tree' in the graph-matrix sense, with no mention of symmetric tensor rank, Boolean formulas, or DPLL proof depth. It shares only the vague 'rank' vocabulary and does not interact with the conjecture's claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1606.04200",
+      "title": "The Chasm at Depth Four, and Tensor Rank : Old results, new insights",
+      "abstract_excerpt": "Agrawal and Vinay [AV08] showed how any polynomial size arithmetic circuit can be thought of as a depth four arithmetic circuit of subexponential size. The resulting circuit size in this simulation was more carefully analyzed by Korian [Koiran] and subsequently by Tavenas [Tav13]. We provide a simple proof of this chain of results. We then abstract the main ingredient to apply it to formulas and constant depth circuits, and show more structured depth reductions for them.\n  In an apriori surprisi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses tensor rank in the context of arithmetic circuit/formula depth reductions and lower bounds (Agrawal-Vinay, Raz), with no mention of symmetric tensor rank, Boolean formulas, or DPLL proof trees. It shares the 'tensor rank' vocabulary but does not address the specific STR(φ) = Θ(d(φ)) correlation conjectured.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

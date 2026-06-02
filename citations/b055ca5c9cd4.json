@@ -1,0 +1,40 @@
+{
+  "entry_id": "b055ca5c9cd4",
+  "ts": 1780442825.3151462,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2403.13102",
+      "title": "Geometric methods in quantum information and entanglement variational principle",
+      "abstract_excerpt": "Geometrical methods in quantum information are very promising for both providing technical tools and intuition into difficult control or optimization problems. Moreover, they are of fundamental importance in connecting pure geometrical theories, like GR, to quantum mechanics, like in the AdS/CFT correspondence. In this paper, we first make a survey of the most important settings in which geometrical methods have proven useful to quantum information theory. Then, we lay down a general framework f",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses geometric methods for quantum information, entanglement, and a variational action principle for quantum resources — it makes no mention of CNF formulas, DPLL search trees, proof depth, or rank of any quantization matrix tied to SAT instances.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2005.11899",
+      "title": "Geometric triangulations and highly twisted links",
+      "abstract_excerpt": "It is conjectured that every cusped hyperbolic 3-manifold admits a geometric triangulation, i.e. it is decomposed into positive volume ideal hyperbolic tetrahedra. Here, we show that sufficiently highly twisted knots admit a geometric triangulation. In addition, by extending work of Gueritaud and Schleimer, we also give quantified versions of this result for infinite families of examples.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns geometric triangulations of hyperbolic 3-manifolds and twisted knots, with no mention of geometric quantization, CNF formulas, DPLL search, or proof depth. It shares no substantive content with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0110001v3",
+      "title": "A geometric interpretation of Milnor's triple linking numbers",
+      "abstract_excerpt": "Milnor's triple linking numbers of a link in the 3-sphere are interpreted geometrically in terms of the pattern of intersections of the Seifert surfaces of the components of the link. This generalizes the well known formula as an algebraic count of triple points when the pairwise linking numbers van",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Milnor's triple linking numbers and Seifert surface intersections in the 3-sphere, which has no relation to geometric quantization matrices, CNF formulas, or DPLL proof depth.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
