@@ -1,0 +1,40 @@
+{
+  "entry_id": "bb305220144e",
+  "ts": 1780413577.5604215,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2501.05375",
+      "title": "Some factorization results for formal power series",
+      "abstract_excerpt": "In this paper, we obtain some factorization results on formal power series over principle ideal domains with sharp bounds on number of irreducible factors. These factorization results correspondingly lead to irreducibility criteria for formal power series. The information about prime factorization of the constant term up to a unit and that of some higher order terms is utilized for the purpose. Further, using theory of Newton polygons for power series, we extend the classical Dumas irreducibilit",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns factorization and irreducibility criteria for formal power series over PIDs and discrete valuation domains ('factorization results on formal power series over principle ideal domains'), with no mention of CNF formulas, truth tables, minimal order, or Frege proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1203.2236",
+      "title": "On Quotients of Formal Power Series",
+      "abstract_excerpt": "Quotient is a basic operation of formal languages, which plays a key role in the construction of minimal deterministic finite automata (DFA) and the universal automata. In this paper, we extend this operation to formal power series and systemically investigate its implications in the study of weighted automata. In particular, we define two quotient operations for formal power series that coincide when calculated by a word. We term the first operation as (left or right) \\emph{quotient}, and the s",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quotient operations on formal power series and their use in constructing minimal/universal weighted automata, with no mention of CNF formulas, truth tables, or Frege proof complexity. It shares the 'formal power series' vocabulary but does not interact with the specific min_order vs. Frege proof length claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1705.08630",
+      "title": "Geometric location of periodic points of 2-ramified power series",
+      "abstract_excerpt": "In this paper we study the geometric location of periodic points of power series defined over fields of prime characteristic $p$. More specifically, we find a lower bound for the absolute value of all periodic points in the open unit disk of minimal period $p^n$ of 2-ramified power series. We prove that this bound is optimal for a large class of power series. Our main technical result is a computation of the first significant terms of the $p^n$th iterate of 2-ramified power series. As a by-produ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'geometric location of periodic points' of power series over fields of prime characteristic, with no mention of CNF formulas, Frege proof complexity, or truth table representations relevant to the conjecture's claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
