@@ -1,0 +1,40 @@
+{
+  "entry_id": "7e3ee8bbbac5",
+  "ts": 1780398988.3126605,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2303.13145",
+      "title": "Normalized Laplacian eigenvalues of hypergraphs",
+      "abstract_excerpt": "In this paper, we give tight bounds for the normalized Laplacian eigenvalues of hypergraphs that are not necessarily uniform, and provide an edge version interlacing theorem, a Cheeger inequality, and a discrepancy inequality that are related to the normalized Laplacian eigenvalues for uniform hypergraphs.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'tight bounds for the normalized Laplacian eigenvalues of hypergraphs' along with Cheeger and discrepancy inequalities, but makes no claim about communication complexity functions or the specific Ω(log n) eigenvalue ratio in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1611.05311",
+      "title": "On graphs with three or four distinct normalized Laplacian eigenvalues",
+      "abstract_excerpt": "In this paper, we characterize all connected graphs with exactly three distinct normalized Laplacian eigenvalues of which one is equal to $1$, determine all connected bipartite graphs with at least one vertex of degree $1$ having exactly four distinct normalized Laplacian eigenvalues, and find all unicyclic graphs with three or four distinct normalized Laplacian eigenvalues.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract focuses on characterizing graphs with three or four distinct normalized Laplacian eigenvalues, which shares the 'normalized Laplacian' vocabulary but does not address eigenvalue bounds Ω(log n) or any connection to communication complexity rank.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1506.05762",
+      "title": "Remarks on Bounds of Normalized Laplacian Eigenvalues of Graphs",
+      "abstract_excerpt": "Let $G$ be a connected undirected graph with $n$, $n\\ge 3$, vertices and $m$ edges. Denote by $ρ_1 \\ge ρ_2 \\ge \\cdots &gt; ρ_n =0$ the normalized Laplacian eigenvalues of $G$. Upper and lower bounds of $ρ_i$, $i=1,2,\\ldots , n-1$, are determined in terms of $n$ and general Randi\\' c index, $R_{-1}$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes bounds on normalized Laplacian eigenvalues in terms of n and the Randić index R_{-1}, with no mention of communication complexity, interaction graphs, or the Ω(log n) ratio claimed in the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
