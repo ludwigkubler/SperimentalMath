@@ -1,0 +1,40 @@
+{
+  "entry_id": "5a80bda4199a",
+  "ts": 1780386567.6144984,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1906.03960",
+      "title": "Distributive biracks and solutions of the Yang-Baxter equation",
+      "abstract_excerpt": "We investigate a class of non-involutive solutions of the Yang-Baxter equation which generalize self-distributive (derived) solutions. In particular, we study generalized multipermutation solutions in this class. We show that the Yang-Baxter (permutation) groups of such solutions are nilpotent. We formulate the results in the language of biracks.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses non-involutive solutions of the Yang-Baxter equation via biracks and nilpotency of permutation groups, with no mention of minimal rank, Boolean circuits, or monotone width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1710.06784",
+      "title": "Classical Yang-Baxter Equation from Supergravity",
+      "abstract_excerpt": "We promote the open-closed string map, originally formulated by Seiberg \\&amp; Witten, to a solution generating prescription in generalized supergravity. The approach hinges on a knowledge of an antisymmetric bivector $Θ$, built from antisymmetric products of Killing vectors, which is specified by the equations of motion. In the cases we study, the equations of motion reproduce the Classical Yang-Baxter equation (CYBE) and $Θ$ is the most general $r$-matrix solution. Our work generalizes Yang-Ba",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns generating r-matrix solutions to the Classical Yang-Baxter Equation via supergravity and Killing vectors, with no mention of noncommutative YBE rank, Boolean circuits, or monotone width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0206255v2",
+      "title": "Homology Theory for the Set-Theoretic Yang-Baxter Equation and Knot Invariants from Generalizations of Quandles",
+      "abstract_excerpt": "A homology theory is developed for set-theoretic Yang-Baxter equations, and knot invariants are constructed by generalized colorings by biquandles and Yang-Baxter cocycles.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a homology theory for set-theoretic Yang-Baxter equations and knot invariants via biquandles, with no mention of minimal rank, Boolean circuits, or monotone width. It shares only the Yang-Baxter vocabulary without addressing the specific complexity-theoretic claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

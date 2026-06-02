@@ -1,0 +1,40 @@
+{
+  "entry_id": "6039a53390cb",
+  "ts": 1780389984.9915652,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1311.6192",
+      "title": "Ordered Biclique Partitions and Communication Complexity Problems",
+      "abstract_excerpt": "An ordered biclique partition of the complete graph $K_n$ on $n$ vertices is a collection of bicliques (i.e., complete bipartite graphs) such that (i) every edge of $K_n$ is covered by at least one and at most two bicliques in the collection, and (ii) if an edge $e$ is covered by two bicliques then each endpoint of $e$ is in the first class in one of these bicliques and in the second class in other one. In this note, we give an explicit construction of such a collection of size $n^{1/2+o(1)}$, w",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'ordered biclique partitions' and their consequences for rank vs. fooling set gaps and clique-vs-independent-set communication complexity lower bounds, with no mention of noncrossing partitions or any Order(n,φ) = Θ(Rank(φ)) relationship.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2004.00788",
+      "title": "Ordered set partitions, Garsia-Procesi modules, and rank varieties",
+      "abstract_excerpt": "We introduce a family of ideals $I_{n,λ,s}$ in $\\mathbb{Q}[x_1,\\dots,x_n]$ for $λ$ a partition of $k\\leq n$ and an integer $s \\geq \\ell(λ)$. This family contains both the Tanisaki ideals $I_λ$ and the ideals $I_{n,k}$ of Haglund-Rhoades-Shimozono as special cases. We study the corresponding quotient rings $R_{n,λ,s}$ as symmetric group modules. When $n=k$ and $s$ is arbitrary, we recover the Garsia-Procesi modules, and when $λ=(1^k)$ and $s=k$, we recover the generalized coinvariant algebras of ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns algebraic combinatorics (ideals, Garsia-Procesi modules, rank varieties, ordered set partitions) and makes no mention of noncrossing partitions or communication complexity, so it shares only superficial vocabulary ('rank', 'partitions') with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2511.05300",
+      "title": "Entropy-Rank Ratio: A Novel Entropy-Based Perspective for DNA Complexity and Classification",
+      "abstract_excerpt": "Shannon entropy is widely used to measure the complexity of DNA sequences but suffers from saturation effects that limit its discriminative power for long uniform segments. We introduce a novel metric, the entropy rank ratio R, which positions a target sequence within the full distribution of all possible sequences of the same length by computing the proportion of sequences that have an entropy value equal to or lower than that of the target. In other words, R expresses the relative position of ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns an entropy-rank ratio for DNA sequence complexity and CNN data augmentation, with no mention of noncrossing partitions or communication complexity rank. It shares no substantive interaction with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
