@@ -1,0 +1,111 @@
+# auto-injected by SEC sandbox
+import collections
+import json
+import sys
+import os
+import time
+import re
+from collections import defaultdict, Counter, deque
+from fractions import Fraction
+from typing import List, Dict, Tuple, Set, Optional, Any, Iterable, Callable
+# end SEC prelude
+
+import random
+import math
+from itertools import combinations
+
+def run_trial(seed: int) -> dict:
+    random.seed(seed)
+    
+    def generate_protocol_instances(n):
+        ranks = [random.randint(1, 5) for _ in range(n)]
+        return list(zip(range(n), ranks))
+    
+    def construct_lattice(rank):
+        if rank == 1:
+            return [(0,), (1,)]
+        lattice = set()
+        for i in range(-rank, rank + 1):
+            for j in range(-rank, rank + 1):
+                if i**2 + j**2 <= rank**2:
+                    lattice.add((i, j))
+        return list(lattice)
+    
+    def count_lattice_points(lattice):
+        return len(lattice)
+    
+    def measure_rank(protocol_instance):
+        _, rank = protocol_instance
+        return rank
+    
+    def pearson_correlation_coefficient(x, y):
+        n = len(x)
+        if n == 0:
+            return None
+        mean_x = sum(x) / n
+        mean_y = sum(y) / n
+        cov_xy = sum((x[i] - mean_x) * (y[i] - mean_y) for i in range(n)) / n
+        std_dev_x = math.sqrt(sum((x[i] - mean_x)**2 for i in range(n)) / n)
+        std_dev_y = math.sqrt(sum((y[i] - mean_y)**2 for i in range(n)) / n)
+        return cov_xy / (std_dev_x * std_dev_y) if std_dev_x > 0 and std_dev_y > 0 else None
+    
+    instances_tested = 0
+    lattice_points = []
+    ranks = []
+    
+    for n in [5, 10, 15, 20, 30, 40]:
+        protocols = generate_protocol_instances(n)
+        for protocol in protocols:
+            rank = measure_rank(protocol)
+            lattice = construct_lattice(rank)
+            lattice_points.append(count_lattice_points(lattice))
+            ranks.append(rank**2)
+            instances_tested += 1
+    
+    if instances_tested == 0:
+        return {
+            "metric_name": "Pearson correlation coefficient",
+            "metric_value": None,
+            "instances_tested": 0,
+            "n_max": 0,
+            "conjecture_holds": False,
+            "counterexample": "No instances tested"
+        }
+    
+    metric_value = pearson_correlation_coefficient(lattice_points, ranks)
+    conjecture_holds = metric_value is not None and metric_value > 0.7
+    counterexample = "" if conjecture_holds else f"Pearson correlation coefficient: {metric_value}"
+    
+    return {
+        "metric_name": "Pearson correlation coefficient",
+        "metric_value": metric_value,
+        "instances_tested": instances_tested,
+        "n_max": 40,
+        "conjecture_holds": conjecture_holds,
+        "counterexample": counterexample
+    }
+
+if __name__ == "__main__":
+    import sys
+    seeds = [int(s) for s in sys.argv[1:]] or [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113]
+    
+    results = []
+    for seed in seeds:
+        result = run_trial(seed)
+        print(f"TRIAL: {result}")
+        results.append(result)
+    
+    if not all(r["instances_tested"] > 0 for r in results):
+        mean_metric_value = None
+        support_fraction = None
+    else:
+        mean_metric_value = sum(r["metric_value"] for r in results) / len(results)
+        support_fraction = sum(1 for r in results if r["conjecture_holds"]) / len(results)
+    
+    if all(r["instances_tested"] > 0 and r["conjecture_holds"] for r in results):
+        print(f"RESULT: SUPPORTED mean={mean_metric_value} std=None support_fraction={support_fraction}")
+    elif any(not r["conjecture_holds"] for r in results):
+        first_failing_seed = next(r["seed"] for r in results if not r["conjecture_holds"])
+        print(f"RESULT: FALSIFIED counterexample=\"Pearson correlation coefficient < 0.7\" first_failing_seed={first_failing_seed}")
+    else:
+        print("RESULT: INCONCLUSIVE reason=not_enough_support")

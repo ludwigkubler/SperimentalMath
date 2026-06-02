@@ -1,0 +1,40 @@
+{
+  "entry_id": "b8f0f59832d0",
+  "ts": 1780393895.3239944,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2210.01601",
+      "title": "Quantum communication complexity of linear regression",
+      "abstract_excerpt": "Quantum computers may achieve speedups over their classical counterparts for solving linear algebra problems. However, in some cases -- such as for low-rank matrices -- dequantized algorithms demonstrate that there cannot be an exponential quantum speedup. In this work, we show that quantum computers have provable polynomial and exponential speedups in terms of communication complexity for some fundamental linear algebra problems \\update{if there is no restriction on the rank}. We mainly focus o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract focuses on 'quantum communication complexity' for 'linear regression and Hamiltonian simulation' with no mention of p-adic Hodge theory or algebraic varieties associated with Boolean functions. It shares only the 'communication complexity' vocabulary without addressing the specific log(h(f)) = Θ(r(f)) claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1403.8106",
+      "title": "Recent advances on the log-rank conjecture in communication complexity",
+      "abstract_excerpt": "The log-rank conjecture is one of the fundamental open problems in communication complexity. It speculates that the deterministic communication complexity of any two-party function is equal to the log of the rank of its associated matrix, up to polynomial factors. Despite much research, we still know very little about this conjecture. Recently, there has been renewed interest in this conjecture and its relations to other fundamental problems in complexity theory. This survey describes some of th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the log-rank conjecture relating communication complexity to matrix rank, with no mention of p-adic Hodge theory or algebraic varieties associated to Boolean functions. It shares the 'communication complexity rank' vocabulary but does not interact with the specific p-adic Hodge class claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0909.5684",
+      "title": "Partition Arguments in Multiparty Communication Complexity",
+      "abstract_excerpt": "Consider the \"Number in Hand\" multiparty communication complexity model, where k players holding inputs x_1,...,x_k in {0,1}^n communicate to compute the value f(x_1,...,x_k) of a function f known to all of them. The main lower bound technique for the communication complexity of such problems is that of partition arguments: partition the k players into two disjoint sets of players and find a lower bound for the induced two-party communication complexity problem.\n  In this paper, we study the pow",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses partition arguments and the log-rank conjecture in multiparty communication complexity, but makes no mention of p-adic Hodge theory or any algebraic-geometric invariant tied to Boolean functions. It shares the 'communication complexity rank' vocabulary but does not interact with the specific claim about p-adic Hodge classes.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

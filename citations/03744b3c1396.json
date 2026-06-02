@@ -1,0 +1,40 @@
+{
+  "entry_id": "03744b3c1396",
+  "ts": 1780394252.4254594,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1209.3595",
+      "title": "Noncommutative complex differential geometry",
+      "abstract_excerpt": "This paper defines and examines the basic properties of noncommutative analogues of almost complex structures, integrable almost complex structures, holomorphic curvature, cohomology, and holomorphic sheaves. The starting point is a differential structure on a noncommutative algebra defined in terms of a differential graded algebra. This is compared to current ideas on noncommutative algebraic geometry.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes noncommutative analogues of complex differential geometry structures (almost complex structures, holomorphic curvature, cohomology) with no mention of von Neumann algebras, local indefinite integrals, boolean circuits, or communication complexity. It shares only the broad 'noncommutative geometry' framework but does not interact with the specific LII-vs-rank_comm claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2005.10140",
+      "title": "On the geometry of null hypersurfaces of indefinite complex contact manifolds",
+      "abstract_excerpt": "We study the geometry of null hypersurfaces in indefinite complex contact manifolds. We prove several classification results for a variety of well-known null hypersurfaces, including the totally umbilic, totally screen umbilic, and the screen conformal ones. Furthermore, a characterization of the ambient space is given in case the underlying null hypersurface is totally contact umbilic, totally contact screen umbilic or contact screen conformal, i.e. we have proved that the ambient complex conta",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'null hypersurfaces in indefinite complex contact manifolds' and classifications of umbilic hypersurfaces in differential geometry, with no mention of von Neumann algebras, boolean circuits, or communication complexity. It shares only the word 'indefinite' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0212372v1",
+      "title": "Geometries and Symmetries of Soliton equations and Integrable Elliptic equations",
+      "abstract_excerpt": "We give a review of the systematic construction of hierarchies of soliton flows and integrable elliptic equations associated to a complex semi-simple Lie algebra and finite order automorphisms. For example, the non-linear Schrödinger equation, the n-wave equation, and the sigma-model are soliton flo",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns soliton hierarchies and integrable elliptic equations from Lie algebras and automorphisms; it makes no mention of von Neumann algebras, indefinite integrals in NCG, boolean circuits, or communication complexity rank.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

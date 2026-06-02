@@ -1,0 +1,40 @@
+{
+  "entry_id": "ab358a8d3f4d",
+  "ts": 1780396620.8287055,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/hep-th/9809072v1",
+      "title": "Complex Monopoles in the Path Integral",
+      "abstract_excerpt": "Complex monopole configurations dominate in the path integral in the Georgi-Glashow-Chern-Simons model and disorder the Higgs vacuum. No cancellation is expected among Gribov copies of the monopole configurations.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses complex monopoles in the path integral, which does not directly relate to the conjecture about the correlation between minimal local indefinite integral and resolution proof width in noncommutative geometry and algebra.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1510.08876",
+      "title": "Feynman integral in $\\mathbb R^1\\oplus\\mathbb R^m$ and complex expansion of $_2F_1$",
+      "abstract_excerpt": "Closed form expressions are proposed for the Feynman integral\n  $$\n  I_{D, m}(p,q) = \\int\\frac{d^my}{(2π)^m}\\int\\frac{d^Dx}{(2π)^D}\n  \\frac1{(x-p/2)^2+(y-q/2)^4}\n  \\frac1{(x+p/2)^2+(y+q/2)^4}\n  $$ over $d=D+m$ dimensional space with $(x,y),\\,(p,q)\\in \\mathbb R^D \\oplus \\mathbb R^m$, in the special case $D=1$. We show that $I_{1,m}(p,q)$ can be expressed in different forms involving real and imaginary parts of the complex variable Gauss hypergeometric function $_2F_1$, as well as generalized hype",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses closed-form expressions for a specific Feynman integral involving hypergeometric functions, with no mention of noncommutative geometry, CNF formulas, or resolution proof width as referenced in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/quant-ph/0405018v2",
+      "title": "Improved Bounds on the Randomized and Quantum Complexity of Initial-Value Problems",
+      "abstract_excerpt": "We deal with the problem, initiated in [8], of finding randomized and quantum complexity of initial-value problems. We showed in [8] that a speed-up in both settings over the worst-case deterministic complexity is possible. In the present paper we prove, by defining new algorithms, that further impr",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns randomized/quantum complexity of initial-value problems for differential equations, which has no apparent connection to noncommutative geometry, CNF formulas, or resolution proof width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
