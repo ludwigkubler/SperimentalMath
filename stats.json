@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-06-02T03:47:05Z",
-  "total_cycles": 4479,
+  "last_update_utc": "2026-06-02T04:47:06Z",
+  "total_cycles": 4489,
   "verdict_counts": {
-    "INCONCLUSIVE": 2942,
+    "INCONCLUSIVE": 2951,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 1431,
+    "BARRIER_HIT": 1432,
     "SCOOPED": 86
   },
-  "unique_field_A": 1944,
+  "unique_field_A": 1947,
   "top_fields_A": [
     [
       "Resolution proof complexity",
@@ -67,7 +67,7 @@
       28
     ],
     [
-      "Combinatorial Geometry (Coxeter Groups)",
+      "Algebraic K-Theory",
       28
     ]
   ]

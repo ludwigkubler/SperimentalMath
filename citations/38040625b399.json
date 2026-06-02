@@ -1,0 +1,40 @@
+{
+  "entry_id": "38040625b399",
+  "ts": 1780373744.286959,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2407.04826",
+      "title": "Multi-strategy Based Quantum Cost Reduction of Quantum Boolean Circuits",
+      "abstract_excerpt": "The construction of quantum computers is based on the synthesis of low-cost quantum circuits. The quantum circuit of any Boolean function expressed in a Positive Polarity Reed-Muller $PPRM$ expansion can be synthesized using Multiple-Control Toffoli ($MCT$) gates. This paper proposes two algorithms to construct a quantum circuit for any Boolean function expressed in a Positive Polarity Reed-Muller $PPRM$ expansion. The Boolean function can be expressed with various algebraic forms, so there are ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quantum circuit synthesis and cost reduction for Boolean functions in PPRM form using MCT/NCV gates, with no mention of Galois groups, Brauer groups, or monotone circuit width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/nlin/0208039v1",
+      "title": "Effects of RF Stimulus and Negative Feedback on Nonlinear Circuits",
+      "abstract_excerpt": "We investigate the combined effect of rectification and nonlinear dynamics on the behavior of several simple nonlinear circuits. We consider the classic Resistor-Inductor-Diode (RLD) circuit driven by a low frequency source when an operational amplifier with negative feedback is added to the circuit",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns nonlinear analog circuits (RLD with op-amp feedback) and 'rectification and nonlinear dynamics,' which has no bearing on Galois groups or monotone width of Boolean circuits.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2405.20178",
+      "title": "Non-intrusive data-driven model order reduction for circuits based on Hammerstein architectures",
+      "abstract_excerpt": "We demonstrate that system identification techniques can provide a basis for effective, non-intrusive model order reduction (MOR) for common circuits that are key building blocks in microelectronics. Our approach is motivated by the practical operation of these circuits and utilizes a canonical Hammerstein architecture. To demonstrate the approach we develop parsimonious Hammerstein models for a nonlinear CMOS differential amplifier and an operational amplifier circuit. We train these models on ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns model order reduction for analog CMOS circuits using Hammerstein architectures, with no mention of Galois groups, Boolean circuits, or monotone width. It shares only the word 'circuit' with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "810624ff41b4",
+  "ts": 1780372857.0416846,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2510.26252",
+      "title": "Non-commutative crepant resolutions of toric singularities with divisor class group of rank one",
+      "abstract_excerpt": "We prove the existence and give a classification of toric non-commutative crepant resolutions (NCCRs) of Gorenstein toric singularities with divisor class group of rank one. We prove that they correspond bijectively to non-trivial upper sets in a certain quotient of the divisor class group equipped with a certain partial order. This classification allows us to prove that all toric NCCRs of such toric singularities are connected by iterated Iyama-Wemyss mutations, and hence are derived equivalent",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns toric non-commutative crepant resolutions and divisor class groups of rank one in toric singularities, with no mention of CNF formulas, SAT, or clause set complexity—it shares only the 'divisor class group' vocabulary.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/0801.3995v2",
+      "title": "Cox rings and combinatorics II",
+      "abstract_excerpt": "We study varieties with a finitely generated Cox ring. In a first part, we generalize a combinatorial approach developed in earlier work for varieties with a torsion free divisor class group to the case of torsion. Then we turn to modifications, e.g., blow ups, and the question how the Cox ring chan",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Cox rings, divisor class groups (with torsion), and blow-ups in algebraic geometry, with no mention of CNF formulas, SAT, or clause set complexity. It shares only the 'divisor class group' vocabulary without engaging the conjecture's specific correlation claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2302.03653v5",
+      "title": "Toric rings attached to simplicial complexes",
+      "abstract_excerpt": "We consider standard graded toric rings $R_Δ$ whose generators correspond to the faces of a simplicial complex $Δ$. When $R_Δ$ is normal, it is shown that its divisor class group is free. For a flag complex $Δ$ which is the clique complex of a perfect graph, a nice description for the class group an",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns divisor class groups of toric rings attached to simplicial complexes (flag/clique complexes of perfect graphs), with no mention of CNF formulas, SAT clause set complexity, or rings of integers of number fields. It shares the vocabulary 'divisor class group' but does not address the conjectured correlation.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

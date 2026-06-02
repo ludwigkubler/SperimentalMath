@@ -1,0 +1,40 @@
+{
+  "entry_id": "e0cc94f0e2ee",
+  "ts": 1780374879.708761,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0610043v5",
+      "title": "Lecture Notes on Noncommutative Algebraic Geometry and Noncommutative Tori",
+      "abstract_excerpt": "The first part of these notes gives an introduction to noncommutative projective geometry after Artin--Zhang. The second part provides an overview of the work of Polishchuk that reconciles noncommutative two-tori having real multiplication with the Artin--Zhang setting.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes 'noncommutative projective geometry' and 'noncommutative two-tori having real multiplication,' with no mention of crossed products' minimal order, clause sets, resolution proofs, or proof width. It shares only loose vocabulary (noncommutative algebra) with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0705.1265",
+      "title": "A noncommutative Bohnenblust-Spitzer identity for Rota-Baxter algebras solves Bogoliubov's recursion",
+      "abstract_excerpt": "The Bogoliubov recursion is a particular procedure appearing in the process of renormalization in perturbative quantum field theory. It provides convergent expressions for otherwise divergent integrals. We develop here a theory of functional identities for noncommutative Rota-Baxter algebras which is shown to encode, among others, this process in the context of Connes-Kreimer's Hopf algebra of renormalization. Our results generalize the seminal Cartier-Rota theory of classical Spitzer-type ident",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns noncommutative Rota-Baxter algebras and Bogoliubov's recursion in perturbative renormalization, with no mention of crossed products, clause sets, regular graphs, or resolution proof width. It shares only the broad 'noncommutative algebra' vocabulary and does not interact with the conjecture's claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1310.5673",
+      "title": "The Bell states in noncommutative algebraic geometry",
+      "abstract_excerpt": "We introduce new mathematical aspects of the Bell states using matrix factorizations, nonnoetherian singularities, and noncommutative blowups. A matrix factorization of a polynomial $p$ consists of two matrices $φ_1,φ_2$ such that $φ_1φ_2 = φ_2φ_1 = p \\operatorname{id}$. Using this notion, we show how the Bell states emerge from the separable product of two mixtures, by defining pure states over complex matrices rather than just the complex numbers.\n  We then show in an idealized algebraic setti",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Bell states, matrix factorizations, and noncommutative blowups in algebraic geometry/quantum mechanics — it never mentions crossed products, clause sets, resolution proofs, or proof width, so it shares only the broad 'noncommutative' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

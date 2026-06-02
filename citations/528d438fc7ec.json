@@ -1,0 +1,31 @@
+{
+  "entry_id": "528d438fc7ec",
+  "ts": 1780375349.198059,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.1177/09544089251325921",
+      "title": "Efficient microsink design to maximize the thermal performance",
+      "abstract_excerpt": "\n The indigenous design of the microsink with its geometric structures provides efficient cooling at minimal pressure drop for small electronic devices. A comprehensive three-dimensional numerical analysis of conjugate heat transfer has been carried out with the disruptive structures in a rectangular microchannel to propose a microsink. The rectangular microchannel has been designed with fan-shaped cavities (FC), secondary branches (SB), and blockage (B) and uses water as a working fluid. The ef",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses microchannel heat transfer design with 'secondary branches (SB)' and uses φ as a geometric angle variable, sharing only superficial vocabulary with the conjecture about symmetric braid groups and SAT resolution proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10.1016/J.PHYSLETB.2021.136146",
+      "title": "First measurement of quarkonium polarization in nuclear collisions at the LHC",
+      "abstract_excerpt": "Abstract The polarization of inclusive J / ψ and ϒ ( 1 S ) produced in Pb–Pb collisions at s NN = 5.02 TeV at the LHC is measured with the ALICE detector. The study is carried out by reconstructing the quarkonium through its decay to muon pairs in the rapidity region 2.5 y 4 and measuring the polar and azimuthal angular distributions of the muons. The polarization parameters λ θ , λ ϕ and λ θ ϕ are measured in the helicity and Collins-Soper reference frames, in the transverse momentum interval 2",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quarkonium polarization measurements in Pb-Pb collisions at the LHC ('polarization of inclusive J/ψ and ϒ(1S) produced in Pb–Pb collisions'), which has no relation to symmetric braid groups or resolution proof width in SAT.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 0
+  }
+}
