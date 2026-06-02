@@ -1,0 +1,40 @@
+{
+  "entry_id": "ba41a8ef1093",
+  "ts": 1780435401.2211175,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1806.05207",
+      "title": "Interpolated sequences and critical $L$-values of modular forms",
+      "abstract_excerpt": "Recently, Zagier expressed an interpolated version of the Apéry numbers for $ζ(3)$ in terms of a critical $L$-value of a modular form of weight 4. We extend this evaluation in two directions. We first prove that interpolations of Zagier's six sporadic sequences are essentially critical $L$-values of modular forms of weight 3. We then establish an infinite family of evaluations between interpolations of leading coefficients of Brown's cellular integrals and critical $L$-values of modular forms of",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses interpolations of Apéry-like sequences and critical L-values of modular forms over the rationals, with no mention of function fields F_p(T), minimal indices, Boolean circuits, or monotone width. It shares only the vocabulary 'modular forms' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2406.18700",
+      "title": "Structure of sparse Boolean functions over Abelian groups, and its application to testing",
+      "abstract_excerpt": "We study Fourier-sparse Boolean functions over general finite Abelian groups. A Boolean function $f : G \\to \\{-1,+1\\}$ is $s$-sparse if it has at most $s$ non-zero Fourier coefficients. We introduce a general notion of granularity of Fourier coefficients and prove that every non-zero coefficient of an $s$-sparse Boolean function has magnitude at least \\begin{equation*} \\frac{1}{2^{\\varphi(Δ)/2} \\, s^{\\varphi(Δ)/2}}, \\end{equation*} where $Δ$ denotes the exponent of the group $G$ (that is, the ma",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Fourier-sparsity of Boolean functions over Abelian groups and sparsity testing, with no mention of modular forms over function fields, minimal indices, or monotone circuit width. It shares no specific claim with the conjecture's correlation between min_idx_{p,N} and CNF monotone width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1807.00842",
+      "title": "From modular forms to differential equations for Feynman integrals",
+      "abstract_excerpt": "In these proceedings we discuss a representation for modular forms that is more suitable for their application to the calculation of Feynman integrals in the context of iterated integrals and the differential equation method. In particular, we show that for every modular form we can find a representation in terms of powers of complete elliptic integrals of the first kind multiplied by algebraic functions. We illustrate this result on several examples. In particular, we show how to explicitly rew",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses representing modular forms via complete elliptic integrals for Feynman integral calculations, with no mention of function fields F_p(T), minimal indices, Boolean circuits, or monotone width. It shares only the vocabulary 'modular forms' with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

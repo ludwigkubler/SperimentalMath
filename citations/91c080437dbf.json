@@ -1,0 +1,40 @@
+{
+  "entry_id": "91c080437dbf",
+  "ts": 1780436628.0775905,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0810.2983",
+      "title": "Polyhedral Methods in Numerical Algebraic Geometry",
+      "abstract_excerpt": "In numerical algebraic geometry witness sets are numerical representations of positive dimensional solution sets of polynomial systems. Considering the asymptotics of witness sets we propose certificates for algebraic curves. These certificates are the leading terms of a Puiseux series expansion of the curve starting at infinity. The vector of powers of the first term in the series is a tropism. For proper algebraic curves, we relate the computation of tropisms to the calculation of mixed volume",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses numerical algebraic geometry, witness sets, Puiseux series, and tropisms for polynomial systems — it shares the 'monomial' vocabulary but says nothing about Boolean functions, communication complexity, or minimal order of monomial ideals as related to comm_rank.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1703.05377",
+      "title": "Smith Ideals of Operadic Algebras in Monoidal Model Categories",
+      "abstract_excerpt": "Building upon Hovey's work on Smith ideals for monoids, we develop a homotopy theory of Smith ideals for general operads in a symmetric monoidal category. For a sufficiently nice stable monoidal model category and an operad satisfying a cofibrancy condition, we show that there is a Quillen equivalence between a model structure on Smith ideals and a model structure on algebra maps induced by the cokernel and the kernel. For symmetric spectra, this applies to the commutative operad and all Sigma-c",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'homotopy theory of Smith ideals for general operads in a symmetric monoidal category' and Quillen equivalences, which has no interaction with Boolean function communication complexity rank or minimal order of monomial ideals.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0504259v1",
+      "title": "Multiplier ideal sheaves in complex and algebraic geometry",
+      "abstract_excerpt": "This article discusses the geometric application of the method of multiplier ideal sheaves. It first briefly describes its application to effective problems in algebraic geometry and then presents and explains its application to the deformational invariance of plurigenera for general compact algebra",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'multiplier ideal sheaves' applied to 'effective problems in algebraic geometry' and 'deformational invariance of plurigenera,' which shares no interaction with monomial ideals tied to Boolean functions or communication complexity rank.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

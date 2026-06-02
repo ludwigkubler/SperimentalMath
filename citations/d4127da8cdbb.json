@@ -1,0 +1,40 @@
+{
+  "entry_id": "d4127da8cdbb",
+  "ts": 1780433958.2386925,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2507.16123",
+      "title": "Einstein's Electron and Local Unitary Branching: Boundaries of Islands of Coherence and Quantum Nonlocality",
+      "abstract_excerpt": "The Branched Hilbert Subspace Interpretation (BHSI) aims to provide a unitary account of quantum measurement while maintaining a single-world ontology. The framework reexamines scenarios such as Einstein 1927 electron-diffraction thought experiment by treating measurement as a finite dynamical process of information recording, comprising a sequence of unitary operations: branching, engaging, and disengaging. This perspective motivates a testable proposal: a dual-layer experiment in which the par",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'Island of Coherence' in the context of quantum measurement interpretation (BHSI) and Local Hilbert Subspaces, with no mention of vertex operator algebras, Boolean circuits, or circuit depth. The shared vocabulary ('coherence', 'local') is superficial and does not interact with the specific mlc(φ) = Θ(d(φ)) claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1702.06061",
+      "title": "Generalized Coherence Concurrence and Path distinguishability",
+      "abstract_excerpt": "We propose a new family of coherence monotones, named the \\emph{generalized coherence concurrence} (or coherence $k$-concurrence), which is an analogous concept to the generalized entanglement concurrence. The coherence $k$-concurrence of a state is nonzero if and only if the coherence number (a recently introduced discrete coherence monotone) of the state is not smaller than $k$, and a state can be converted to a state with nonzero entanglement $k$-concurrence via incoherent operations if and o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'generalized coherence concurrence' as a quantum coherence monotone applied to wave-particle duality and path distinguishability, with no connection to vertex operator algebras, Boolean circuits, or circuit depth. It shares only the superficial word 'coherence' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1702.03219",
+      "title": "Coherence number as a discrete quantum resource",
+      "abstract_excerpt": "We introduce a new discrete coherence monotone named the \\emph{coherence number}, which is a generalization of the coherence rank to mixed states. After defining the coherence number in a similar manner to the Schmidt number in entanglement theory, we present a necessary and sufficient condition of the coherence number for a coherent state to be converted to an entangled state of nonzero $k$-concurrence (a member of the generalized concurrence family with $2\\le k \\le d$). It also turns out that ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'coherence number' as a quantum coherence monotone related to Grover's algorithm and entanglement, not 'minimal local coherence' of vertex operator algebras or Boolean circuit depth. It shares only the vague vocabulary of 'coherence' without addressing VOAs or circuit complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
