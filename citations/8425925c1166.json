@@ -1,0 +1,40 @@
+{
+  "entry_id": "8425925c1166",
+  "ts": 1780427452.0803778,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1003.1544",
+      "title": "Linear Mappings of Free Algebra",
+      "abstract_excerpt": "For arbitrary F-algebra, in which the operation of addition is defined, I explore biring of matrices of mappings. The sum of matrices is determined by the sum in F-algebra, and the product of matrices is determined by the product of mappings. The system of equations, whose matrix is a matrix of mappings, is called a system of additive equations. I considered the methods of solving system of additive equations. As an example, I consider the solution of a system of linear equations over the comple",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns linear mappings, biring of matrices, and systems of additive equations over F-algebras, with no mention of quaternionic Kähler manifolds, quantum states, or communication complexity rank. It shares no specific claim with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1006.1021",
+      "title": "A Gruss inequality for n-positive linear maps",
+      "abstract_excerpt": "Let $\\mathscr{A}$ be a unital $C^*$-algebra and let $Φ: \\mathscr{A} \\to {\\mathbb B}({\\mathscr H})$ be a unital $n$-positive linear map between $C^*$-algebras for some $n \\geq 3$. We show that $$\\|Φ(AB)-Φ(A)Φ(B)\\| \\leq Δ(A,||\\cdot||)\\,Δ(B,||\\cdot||)$$ for all operators $A, B \\in \\mathscr{A}$, where $Δ(C,\\|\\cdot\\|)$ denotes the operator norm distance of $C$ from the scalar operators.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a Grüss-type inequality for n-positive linear maps between C*-algebras, with no mention of quaternionic Kähler manifolds, quantum states, or communication complexity rank.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2407.16096",
+      "title": "Extended invariant cones as Nonlinear Normal Modes of inhomogeneous piecewise linear systems",
+      "abstract_excerpt": "The aim of this paper is to explore the relationship between invariant cones and nonlinear normal modes in piecewise linear mechanical systems. As a key result, we extend the invariant cone concept, originally established for homogeneous piecewise linear systems, to a class of inhomogeneous continuous piecewise linear systems. The inhomogeneous terms can be constant and/or time-dependent, modeling nonsmooth mechanical systems with a clearance gap and external harmonic forcing, respectively. Usin",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns invariant cones and nonlinear normal modes in piecewise linear mechanical systems, with no mention of quaternionic Kähler manifolds, quantum states, or communication complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

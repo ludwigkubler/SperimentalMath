@@ -1,0 +1,40 @@
+{
+  "entry_id": "4b56c2ce3d5c",
+  "ts": 1780427692.984825,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0502195v2",
+      "title": "Hopf algebra structure on topological Hochschild homology",
+      "abstract_excerpt": "The topological Hochschild homology THH(R) of a commutative S-algebra (E_infty ring spectrum) R naturally has the structure of a commutative R-algebra in the strict sense, and of a Hopf algebra over R in the homotopy category. We show, under a flatness assumption, that this makes the Boekstedt spect",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Hopf algebra structure on topological Hochschild homology of commutative S-algebras, which shares no specific interaction with Poincaré duality indices or communication complexity rank. The phrase 'topological Hochschild homology' indicates a completely different subfield.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1612.03133",
+      "title": "Topological Complexity of the Klein bottle",
+      "abstract_excerpt": "We show that the (normalized) topological complexity of the Klein bottle is $4$. We also show that, for any $g\\geq 2$, $TC(N_g)=4$. This completes the recent work by Dranishnikov on the topological complexity of non-orientable surfaces.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'topological complexity' (Farber's TC invariant) of non-orientable surfaces, which is unrelated to the conjecture's claim about Poincaré duality indices being linearly correlated with communication complexity rank.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1504.04733",
+      "title": "On the geometry and topology of partial configuration spaces of Riemann surfaces",
+      "abstract_excerpt": "We examine complements (inside products of a smooth projective complex curve of arbitrary genus) of unions of diagonals indexed by the edges of an arbitrary simple graph. We use Gysin models associated to these quasi-projective manifolds to compute pairs of analytic germs at the origin, both for rank 1 and 2 representation varieties of their fundamental groups, and for degree 1 topological Green--Lazarsfeld loci. As a corollary, we describe all regular surjections with connected generic fiber, d",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Gysin models, representation varieties, and Malcev Lie algebras of partial configuration spaces of Riemann surfaces — it makes no mention of Poincaré duality indices, lattices, communication complexity, or formula rank.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
