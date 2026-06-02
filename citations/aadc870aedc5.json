@@ -1,0 +1,22 @@
+{
+  "entry_id": "aadc870aedc5",
+  "ts": 1780384271.3292687,
+  "hits_evaluated": 1,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/1506.00318v3",
+      "title": "Kontsevich-Zagier Integrals for Automorphic Green's Functions. II",
+      "abstract_excerpt": "We introduce interaction entropies, which can be represented as logarithmic couplings of certain cycles on a class of algebraic curves of arithmetic interest. In particular, via interaction entropies for Legendre-Ramanujan curves $ Y^n=(1-X)^{n-1}X(1-αX)$ ($ n\\in\\{6,4,3,2\\}$), we reformulate the Kon",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'interaction entropies' as logarithmic couplings of cycles on Legendre-Ramanujan curves for Kontsevich-Zagier integrals, with no mention of communication complexity, protocol rank, or bounds relating geometric entropy to communication complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 0
+  }
+}

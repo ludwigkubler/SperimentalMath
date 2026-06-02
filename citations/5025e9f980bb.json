@@ -1,0 +1,40 @@
+{
+  "entry_id": "5025e9f980bb",
+  "ts": 1780383317.3504035,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1504.04733",
+      "title": "On the geometry and topology of partial configuration spaces of Riemann surfaces",
+      "abstract_excerpt": "We examine complements (inside products of a smooth projective complex curve of arbitrary genus) of unions of diagonals indexed by the edges of an arbitrary simple graph. We use Gysin models associated to these quasi-projective manifolds to compute pairs of analytic germs at the origin, both for rank 1 and 2 representation varieties of their fundamental groups, and for degree 1 topological Green--Lazarsfeld loci. As a corollary, we describe all regular surjections with connected generic fiber, d",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns configuration spaces of Riemann surfaces, Gysin models, representation varieties, and Malcev Lie algebras — it makes no reference to Lefschetz thimbles, boolean functions, or communication complexity. It shares only loose algebraic-topology vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1412.2802",
+      "title": "Structure of Lefschetz thimbles in simple fermionic systems",
+      "abstract_excerpt": "The Picard-Lefschetz theory offers a promising tool to solve the sign problem in QCD and other field theories with complex path-integral weight. In this paper the Lefschetz-thimble approach is examined in simple fermionic models which share some features with QCD. In zero-dimensional versions of the Gross-Neveu model and the Nambu-Jona-Lasinio model, we study the structure of Lefschetz thimbles and its variation across the chiral phase transition. We map out a phase diagram in the complex four-f",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Lefschetz thimbles in fermionic field theory models (Gross-Neveu, Nambu-Jona-Lasinio, Chern-Simons) to address the sign problem in QCD path integrals, with no mention of boolean functions, communication complexity, or any algebraic variety rank tied to complexity measures.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/9909028v3",
+      "title": "Lefschetz Coincidence Theory for Maps Between Spaces of Different Dimensions",
+      "abstract_excerpt": "For a given pair of maps f,g:X-&gt;M from an arbitrary topological space to an n-manifold, the Lefschetz homomorphism is a certain graded homomorphism L:H(X)-&gt;H(M) of degree (-n). We prove a Lefschetz-type coincidence theorem: if the Lefschetz homomorphism is nontrivial then there is an x in X su",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses a Lefschetz coincidence theorem for maps between topological spaces and n-manifolds, with no mention of Lefschetz thimbles, boolean functions, or communication complexity. It shares only the name 'Lefschetz' with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
