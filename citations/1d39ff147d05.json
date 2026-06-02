@@ -1,0 +1,40 @@
+{
+  "entry_id": "1d39ff147d05",
+  "ts": 1780368471.404519,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math-ph/0512018v2",
+      "title": "On Phase Transitions for $P$-Adic Potts Model with Competing Interactions on a Cayley Tree",
+      "abstract_excerpt": "In the paper we considere three state $p$-adic Potts model with competing interactions on a Cayley tree of order two. We reduce a problem of describing of the $p$-adic Gibbs measures to the solution of certain recursive equation, and using it we will prove that a phase transition occurs if and only ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns p-adic Gibbs measures and phase transitions for a Potts model on a Cayley tree, sharing only the 'p-adic' vocabulary with the conjecture but not addressing p-adic Hodge theory rank or Boolean circuit monotone width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1908.08424",
+      "title": "An introduction to p-adic period rings",
+      "abstract_excerpt": "This paper is the augmented notes of a course I gave jointly with Laurent Berger in Rennes in 2014. Its aim was to introduce the periods rings B crys and B dR and state several comparison theorems between{é}tale and crystalline or de Rham cohomologies for p-adic varieties.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes an introductory exposition of p-adic period rings (B_crys, B_dR) and comparison theorems between étale and crystalline/de Rham cohomologies, with no mention of Boolean circuits, monotone width, or any computational complexity notion.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2408.00810v3",
+      "title": "p-adic Equiangular Lines and p-adic van Lint-Seidel Relative Bound",
+      "abstract_excerpt": "We introduce the notion of p-adic equiangular lines and derive the first fundamental relation between common angle, dimension of the space and the number of lines. More precisely, we show that if $\\{τ_j\\}_{j=1}^n$ is p-adic $γ$-equiangular lines in $\\mathbb{Q}^d_p$, then \\begin{align*} (1) \\quad\\qua",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns p-adic equiangular lines and a bound relating angle, dimension, and number of lines in Q_p^d, with no mention of p-adic Hodge theory, Boolean circuits, or monotone width. It shares only the 'p-adic' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

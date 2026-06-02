@@ -1,0 +1,31 @@
+{
+  "entry_id": "7b7baa1d664f",
+  "ts": 1780371488.3839834,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.1007/s10601-024-09375-6",
+      "title": "Computing aperiodic tiling rhythmic canons via SAT models",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available ('no abstract available'), so I cannot assess whether the paper supports, refutes, or is orthogonal to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:f0196cb751bc1fd97364b23c819e05bcfccb432e",
+      "title": "Theory and applications of satisfiability testing - SAT 2014 : 17th international conference, held as part of the Vienna Summer of Logic, VSL 2014, Vienna, Austria, July 14-17, 2014 : proceedings",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available ('no abstract available'), so I cannot determine whether the paper interacts with the conjectured Hodge-rank bound for SAT formulas.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 2
+  }
+}

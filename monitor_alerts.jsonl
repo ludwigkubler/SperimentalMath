@@ -2981,5 +2981,11 @@
 {"ts": 1780367405.6167822, "kind": "NOTEBOOK_LARGE", "auto_fixed": false, "detail": {"size_mb": 85.69151}}
 {"ts": 1780367406.7802744, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 36}}
 {"ts": 1780367407.5029411, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1868, "cap": 2000, "fraction": 0.934, "weekly_budget": 2500}}
-{"ts": 1780369237.396554, "ts_iso": "2026-06-02T03:00:37.396554+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "OK", "to_status": "DEGRADED", "failing_checks": ["gpu", "mirror_git_fresh", "mirror_git_pushed"], "auto_fixed": false}
-{"ts": 1780369502.237803, "ts_iso": "2026-06-02T03:05:02.237803+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "DEGRADED", "to_status": "OK", "failing_checks": [], "auto_fixed": false}
+{"ts": 1780369328.2736938, "kind": "OLLAMA_DOWN", "auto_fixed": false, "detail": {"endpoints": ["local"]}}
+{"ts": 1780369333.4939902, "kind": "TAILSCALE_DOWN", "auto_fixed": false, "detail": {}}
+{"ts": 1780369333.4944165, "kind": "NOTEBOOK_LARGE", "auto_fixed": false, "detail": {"size_mb": 85.745197}}
+{"ts": 1780369334.6610994, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 36}}
+{"ts": 1780369341.8519006, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1873, "cap": 2000, "fraction": 0.936, "weekly_budget": 2500}}
+{"ts": 1780371005.5664637, "kind": "NOTEBOOK_LARGE", "auto_fixed": false, "detail": {"size_mb": 85.838029}}
+{"ts": 1780371006.8205416, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 36}}
+{"ts": 1780371007.057296, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1873, "cap": 2000, "fraction": 0.936, "weekly_budget": 2500}}
