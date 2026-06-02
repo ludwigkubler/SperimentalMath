@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-06-02T17:47:06Z",
-  "total_cycles": 4607,
+  "last_update_utc": "2026-06-02T18:47:09Z",
+  "total_cycles": 4619,
   "verdict_counts": {
-    "INCONCLUSIVE": 3019,
+    "INCONCLUSIVE": 3024,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 1482,
+    "BARRIER_HIT": 1489,
     "SCOOPED": 86
   },
-  "unique_field_A": 1992,
+  "unique_field_A": 1997,
   "top_fields_A": [
     [
       "Resolution proof complexity",
@@ -16,7 +16,7 @@
     ],
     [
       "Algebraic Geometry (Hodge Theory)",
-      120
+      121
     ],
     [
       "Tropical Geometry",
@@ -59,11 +59,11 @@
       31
     ],
     [
-      "Hypergeometric Functions",
-      30
+      "Modular Form Theory",
+      31
     ],
     [
-      "Modular Form Theory",
+      "Hypergeometric Functions",
       30
     ],
     [

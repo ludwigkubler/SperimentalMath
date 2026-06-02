@@ -1,0 +1,40 @@
+{
+  "entry_id": "3431a0a96113",
+  "ts": 1780423407.9778745,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/9806161v1",
+      "title": "Chern Classes in Alexander-Spanier Cohomology",
+      "abstract_excerpt": "In this article we construct explicit cocycles in the Alexander-Spanier cohomological complex, representing the Chern character of an element in K-theory.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns constructing cocycles in Alexander-Spanier cohomology representing Chern characters, which shares only the name 'Alexander' but does not address Alexander modules, communication protocols, or interaction graphs.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1403.8106v1",
+      "title": "Recent advances on the log-rank conjecture in communication complexity",
+      "abstract_excerpt": "The log-rank conjecture is one of the fundamental open problems in communication complexity. It speculates that the deterministic communication complexity of any two-party function is equal to the log of the rank of its associated matrix, up to polynomial factors. Despite much research, we still kno",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the log-rank conjecture relating deterministic communication complexity to matrix rank, with no mention of Alexander modules or their minimal order. It shares the 'communication complexity' vocabulary but does not interact with the specific claim about Alexander module orders.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1102.2932v2",
+      "title": "Applications of Monotone Rank to Complexity Theory",
+      "abstract_excerpt": "Raz's recent result \\cite{Raz2010} has rekindled people's interest in the study of \\emph{tensor rank}, the generalization of matrix rank to high dimensions, by showing its connections to arithmetic formulas. In this paper, we follow Raz's work and show that \\emph{monotone rank}, the monotone variant",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'monotone rank' and 'tensor rank' in the context of arithmetic formulas and complexity theory, with no mention of Alexander modules, communication protocols, or interaction graphs relevant to the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

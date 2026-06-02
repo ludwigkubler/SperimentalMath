@@ -1,0 +1,40 @@
+{
+  "entry_id": "1b941866984f",
+  "ts": 1780425838.8314092,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2109.11753",
+      "title": "Pullback formula for vector valued Siegel modular forms and its applications",
+      "abstract_excerpt": "Let $E_n$ be the Siegel Eisenstein series of degree $n$ and weight $k$ with a complex parameter $s$. In this paper, using a differential operator $D$ by Ibukiyama which sends a scalar valued Siegel modular form to the tensor product of two vector valued Siegel modular forms, under a certain condition, we give a formula of $DE_{p+q}$ on $H_p\\times H_q$, where $H_n$ is the Siegel upper half space of degree $n$. Furthermore, we give some applications of this formula, i.e., analytic properies of sta",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns pullback formulas for Siegel Eisenstein series via Ibukiyama's differential operator and applications to L-functions and Klingen Eisenstein series, with no mention of minimal index, Boolean functions, or communication complexity rank.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2305.00836",
+      "title": "On the existence of Siegel modular forms with extra twists",
+      "abstract_excerpt": "In this paper, we study Siegel modular forms with extra twists. We provide conditions on the level and genus of the forms that is necessary for the existence of extra twists for Siegel modular forms. We also give explicit examples of Siegel modular forms with extra twists that are different from the complex conjugation",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'conditions on the level and genus' for 'extra twists' of Siegel modular forms, with no mention of minimal index, Boolean functions, or communication complexity rank. It shares only the Siegel modular form vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2502.06841",
+      "title": "Constructing Arithmetic Siegel Modular Forms: Theta Lifting and Explicit Methods for Real Multiplication Abelian Surfaces",
+      "abstract_excerpt": "We present an explicit and computationally actionable blueprint for constructing vector-valued Siegel modular forms associated to real multiplication (RM) abelian surfaces, leveraging the theta correspondence for the unitary dual pair $(\\U(2,2), \\Sp_4)$. Starting from the modularity theorem, we furnish explicit local Schwartz functions: Gaussian functions modulated by harmonic polynomials at archimedean places and characteristic functions of lattices at non-archimedean places, with a significant",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns constructing vector-valued Siegel modular forms via theta lifting for RM abelian surfaces and discusses local zeta integrals and Langlands functoriality; it makes no mention of Boolean functions, communication complexity, or any 'minimal index' bound tied to such complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
