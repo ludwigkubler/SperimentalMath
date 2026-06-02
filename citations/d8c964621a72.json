@@ -1,0 +1,31 @@
+{
+  "entry_id": "d8c964621a72",
+  "ts": 1780364598.1211398,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.1007/s11042-015-2973-y",
+      "title": "A secure image encryption scheme based on chaotic maps and affine transformation",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available ('no abstract available'), so it is impossible to assess whether the paper interacts with the conjecture. Additionally, the title concerns image encryption via chaotic maps, which appears unrelated, but without abstract content a definitive judgment cannot be made.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10.3390/computers15020106",
+      "title": "High-Security Image Encryption Using Baker Map Confusion and Extended PWAM Chaotic Diffusion",
+      "abstract_excerpt": "The heavy use of digital images across network systems has become a major concern regarding data confidentiality and unauthorized access. Conventional image encryption techniques hardly achieve high security levels efficiently, especially in real-time and resource-constrained environments. These challenges motivate the development of more robust and efficient encryption mechanisms. In this paper, a dual-chaotic image encryption framework is developed where two complementary chaotic systems are c",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns chaotic image encryption using Baker maps and piecewise affine chaotic diffusion, with no engagement with affine schemes, geometric entropy, Boolean circuits, or communication complexity rank. The shared term 'affine' is incidental.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}
