@@ -1,0 +1,40 @@
+{
+  "entry_id": "1bfa454d60f2",
+  "ts": 1780432647.6162708,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0906.3415",
+      "title": "Quivers, Quasi-Quantum Groups and Finite Tensor Categories",
+      "abstract_excerpt": "We study finite quasi-quantum groups in their quiver setting developed recently by the first author in arXiv:0902.1620 and arXiv:0903.1472. We obtain a classification of finite-dimensional pointed Majid algebras of finite corepresentation type, or equivalently a classification of elementary quasi-Hopf algebras of finite representation type, over the field of complex numbers. By the Tannaka-Krein duality principle, this provides a classification of the finite tensor categories in which every simp",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns classification of finite-dimensional pointed Majid algebras and finite tensor categories over the complex numbers via quiver methods, with no mention of minimal rank, finite fields, or communication complexity. It shares only the 'quiver representation' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2111.02551",
+      "title": "Bigraded Betti numbers and Generalized Persistence Diagrams",
+      "abstract_excerpt": "Commutative diagrams of vector spaces and linear maps over $\\mathbb{Z}^2$ are objects of interest in topological data analysis (TDA) where this type of diagrams are called 2-parameter persistence modules. Given that quiver representation theory tells us that such diagrams are of wild type, studying informative invariants of a 2-parameter persistence module $M$ is of central importance in TDA. One of such invariants is the generalized rank invariant, recently introduced by Kim and Mémoli. Via the",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 2-parameter persistence modules, generalized rank invariants, and bigraded Betti numbers in topological data analysis — it does not address minimal rank of quiver representations over finite fields nor communication complexity rank.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2201.12319",
+      "title": "Arithmetic Representation Growth of Virtually Free Groups",
+      "abstract_excerpt": "We adapt methods from quiver representation theory and Hall algebra techniques to the counting of representations of virtually free groups over finite fields. This gives rise to the computation of the E-polynomials of $\\mathbf{GL}_d(\\mathbb{C})$-character varieties of virtually free groups. As examples we discuss the representation theory of $\\mathbb{D}_\\infty$ , $\\mathbf{PSL}_2(\\mathbb{Z})$ , $\\mathbf{SL}_2(\\mathbb{Z})$ , $\\mathbf{GL}_2(\\mathbb{Z})$ and $\\mathbf{PGL}_2(\\mathbb{Z})$ .",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'quiver representation theory and Hall algebra techniques' for counting representations of virtually free groups and computing E-polynomials, with no mention of minimal rank or communication complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
