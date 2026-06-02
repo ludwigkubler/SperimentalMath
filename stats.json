@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-06-01T23:47:06Z",
-  "total_cycles": 4449,
+  "last_update_utc": "2026-06-02T00:47:08Z",
+  "total_cycles": 4458,
   "verdict_counts": {
-    "INCONCLUSIVE": 2920,
+    "INCONCLUSIVE": 2926,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 1423,
+    "BARRIER_HIT": 1426,
     "SCOOPED": 86
   },
-  "unique_field_A": 1935,
+  "unique_field_A": 1939,
   "top_fields_A": [
     [
       "Resolution proof complexity",
@@ -52,7 +52,7 @@
     ],
     [
       "Algebraic Geometry",
-      31
+      32
     ],
     [
       "Affine Geometry",
