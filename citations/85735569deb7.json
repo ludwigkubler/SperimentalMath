@@ -1,0 +1,31 @@
+{
+  "entry_id": "85735569deb7",
+  "ts": 1780367600.965365,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:202773104af18c35f559dae75a8d3c8b78be3660",
+      "title": "Physician Order Entry Systems Should Be Integrated",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available for this paper, and the title ('Physician Order Entry Systems Should Be Integrated') appears entirely unrelated to twistor theory or communication complexity, making it impossible to assess relevance to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:8434e21e3437058af1808065c41e71fcbc963577",
+      "title": "Dynamics of N-fold Integration of Disparate Cognitive Modalities",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available ('no abstract available'), so I cannot assess whether the paper supports, refutes, or is orthogonal to the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 2
+  }
+}
