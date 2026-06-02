@@ -1,0 +1,40 @@
+{
+  "entry_id": "f178e1879769",
+  "ts": 1780410631.2173336,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1611.05956",
+      "title": "Galois and Cartan Cohomology of Real Groups",
+      "abstract_excerpt": "Real forms of a complex reductive group are classified by Galois cohomology H^1(Gamma,G_ad) where G_ad is the adjoint group. Cartan's classification of real forms in terms of maximal compact subgroups can be stated in terms of H^(Z/2Z,G_ad) where the action is by a (holomorphic) Cartan involution. The main result is that for any complex reductive group, possibly disconnected, there is a canonical isomorphism between H^1(Gamma,G) and H^1(Z/2Z,G). As applications we give short proofs of some well ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Galois cohomology H^1(Gamma,G) of real reductive groups and its isomorphism with Cartan cohomology H^1(Z/2Z,G), with no mention of CNF formulas, communication complexity, or rank bounds. It shares only the 'Galois cohomology' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1102.2932",
+      "title": "Applications of Monotone Rank to Complexity Theory",
+      "abstract_excerpt": "Raz's recent result \\cite{Raz2010} has rekindled people's interest in the study of \\emph{tensor rank}, the generalization of matrix rank to high dimensions, by showing its connections to arithmetic formulas. In this paper, we follow Raz's work and show that \\emph{monotone rank}, the monotone variant of tensor rank and matrix rank, has applications in algebraic complexity, quantum computing and communication complexity. This paper differs from Raz's paper in that it leverages existing results to ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses monotone/tensor rank and the log-rank conjecture in communication complexity, but makes no mention of Galois cohomology or any connection between cohomological dimension and communication complexity rank as the conjecture claims.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1503.07648",
+      "title": "Sign rank versus VC dimension",
+      "abstract_excerpt": "This work studies the maximum possible sign rank of $N \\times N$ sign matrices with a given VC dimension $d$. For $d=1$, this maximum is {three}. For $d=2$, this maximum is $\\tildeΘ(N^{1/2})$. For $d &gt;2$, similar but slightly less accurate statements hold. {The lower bounds improve over previous ones by Ben-David et al., and the upper bounds are novel.}\n  The lower bounds are obtained by probabilistic constructions, using a theorem of Warren in real algebraic topology. The upper bounds are ob",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns sign rank versus VC dimension and mentions only general 'connections to communication complexity, geometry, learning theory, and combinatorics' — it does not address Galois cohomology dimension of varieties from CNF formulas or any linear correlation with communication complexity rank.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

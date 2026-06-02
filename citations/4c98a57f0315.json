@@ -1,0 +1,40 @@
+{
+  "entry_id": "4c98a57f0315",
+  "ts": 1780408464.5467675,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1609.06986",
+      "title": "More on Diophantine sextuples",
+      "abstract_excerpt": "A rational Diophantine m-tuple is a set of m nonzero rationals such that the product of any two of them increased by 1 is a perfect square. The first rational Diophantine quadruple was found by Diophantus, while Euler proved that there are infinitely many rational Diophantine quintuples. In 1999, Gibbs found the first example of a rational Diophantine sextuple, and Dujella, Kazalicki, Mikic and Szikszai recently proved that there exist infinitely many rational Diophantine sextuples.\n  In this pa",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns rational Diophantine m-tuples (sets where products plus 1 are perfect squares) and parametric formulas for sextuples, with no mention of Tseitin formulas, resolution proof width, or any connection to proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1310.8140",
+      "title": "Primes Solutions Of Linear Diophantine Equations",
+      "abstract_excerpt": "Let k =&gt; 1, m =&gt; 1 be small fixed integers, gcd(k, m) = 1. This note develops some techniques for proving the existence of infinitely many primes solutions x = p, and y = q of the linear Diophantine equation y = mx + k.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'infinitely many primes solutions' of a linear Diophantine equation y = mx + k, which is a pure number theory result with no connection to Tseitin formulas or resolution proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2306.00922",
+      "title": "Sur la Resolution des Equations de Troisime et Quatrieme Degre",
+      "abstract_excerpt": "The paper deals with the resolution of third and fourth degree equations by means of radicals. It is a survey of some historical details about this fundamental problem. Moreover, it explains practical methods for the resolution of third and fourth degree equation through the algebraic side and we introduce some results about the equations of greater degree. Mathematicians and complex numbers and the results of rules of calculations as well as having completed the theory of equations model Mathem",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes 'a survey of some historical details' and 'practical methods for the resolution of third and fourth degree equation through the algebraic side' via radicals, which has no interaction with Tseitin formulas, resolution proof width, or Diophantine solution sets.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

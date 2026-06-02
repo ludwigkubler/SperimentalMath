@@ -1,0 +1,40 @@
+{
+  "entry_id": "e3f5a8708c5c",
+  "ts": 1780410260.5687342,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1601.06285",
+      "title": "Twisted iterated algebraic K-theory and topological T-duality for sphere bundles",
+      "abstract_excerpt": "We introduce a periodic form of the iterated algebraic K-theory of ku, the (connective) complex K-theory spectrum, as well as a natural twisting of this cohomology theory by higher gerbes. Furthermore, we prove a form of topological T-duality for sphere bundles oriented with respect to this theory.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns iterated algebraic K-theory of ku and topological T-duality for sphere bundles, with no mention of boolean circuits, topological entropy, minimal polynomials over GF(2^m), or circuit complexity. It shares only the vocabulary 'algebraic K-theory' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0903.3983",
+      "title": "Algebraic v. topological K-theory: a friendly match",
+      "abstract_excerpt": "These notes evolved from the lecture notes of a minicourse given in Swisk, the Sedano Winter School on K-theory held in Sedano, Spain, during the week January 22--27 of 2007, and from those of a longer course given in the University of Buenos Aires, during the second half of 2006. They intend to be an introduction to $K$-theory, with emphasis in the comparison between its algebraic and topological variants. We have tried to keep as elementary as possible.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes an introductory minicourse comparing algebraic and topological K-theory, with no mention of boolean circuits, topological entropy, or minimal polynomials over GF(2^m). It shares only the K-theory vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2001.01608",
+      "title": "The plethory of operations in complex topological K-theory",
+      "abstract_excerpt": "We provide a concrete introduction to the topologised, graded analogue of an algebraic structure known as a plethory, originally due to Tall and Wraith. Stacey and Whitehouse showed this structure is present on the cohomology operations for a suitable generalised cohomology theory. We compute an explicit expression for the plethory of operations for complex topological K-theory. This is formulated in terms of a plethory enhanced with structure corresponding to the looping of operations. In this ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns plethories of cohomology operations in complex topological K-theory and lambda operations, with no mention of boolean circuits, topological entropy, GF(2^m), or circuit complexity. It shares only the loose 'K-theory' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
