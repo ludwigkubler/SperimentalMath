@@ -1,0 +1,40 @@
+{
+  "entry_id": "23933cb261da",
+  "ts": 1780448201.7535155,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/0710.1443v2",
+      "title": "Variations on themes of Kostant",
+      "abstract_excerpt": "Let g be a complex semisimple Lie algebra and let G' be the Langlands dual group. We give a description of the cohomology algebra of an arbitrary spherical Schubert variety in the loop Grassmannian for G' as a quotient of the form Sym(g^e)/J. Here, J is an appropriate ideal in the symmetric algebra ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes cohomology of spherical Schubert varieties in the loop Grassmannian via Sym(g^e)/J, with no mention of Boolean circuits, monotone width, or any complexity-theoretic claim. It shares only the 'Kostant' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1907.12964v2",
+      "title": "Admissible restrictions of irreducible representations of reductive Lie groups: symplectic geometry and discrete decomposability",
+      "abstract_excerpt": "Let $G$ be a real reductive Lie group, $L$ a compact subgroup, and $π$ an irreducible admissible representation of $G$. In this article we prove a necessary and sufficient condition for the finiteness of the multiplicities of $L$-types occurring in $π$ based on symplectic techniques. This leads us t",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns finiteness of L-type multiplicities in admissible representations of reductive Lie groups via symplectic geometry, with no reference to Kostant cohomology orders, Boolean circuits, or monotone width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2203.03476v1",
+      "title": "Monotone cohomologies and oriented matchings",
+      "abstract_excerpt": "In this paper, we extend the definition of cohomology associated to monotone graph properties, to encompass twisted functor coefficients. We introduce oriented matchings on graphs, and focus on their (twisted) cohomology groups. We characterise oriented matchings in terms of induced free-flow pseudo",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses cohomology of monotone graph properties and oriented matchings with twisted functor coefficients, sharing only the vague vocabulary of 'monotone' and 'cohomology' but not addressing Kostant cohomology, Boolean circuits, depth, or monotone circuit width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
