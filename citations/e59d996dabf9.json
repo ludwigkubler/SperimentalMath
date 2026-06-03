@@ -1,0 +1,40 @@
+{
+  "entry_id": "e59d996dabf9",
+  "ts": 1780444096.5857337,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1809.06500",
+      "title": "Range entropy: A bridge between signal complexity and self-similarity",
+      "abstract_excerpt": "Approximate entropy (ApEn) and sample entropy (SampEn) are widely used for temporal complexity analysis of real-world phenomena. However, their relationship with the Hurst exponent as a measure of self-similarity is not widely studied. Additionally, ApEn and SampEn are susceptible to signal amplitude changes. A common practice for addressing this issue is to correct their input signal amplitude by its standard deviation. In this study, we first show, using simulations, that ApEn and SampEn are r",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns signal-processing entropy measures (ApEn, SampEn, RangeEn) and their relation to the Hurst exponent for time-series complexity, with no mention of Frege proof systems, proof width, or geometric entropy of search spaces.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1807.02622",
+      "title": "Rényi Entropy Power Inequalities via Normal Transport and Rotation",
+      "abstract_excerpt": "Following a recent proof of Shannon's entropy power inequality (EPI), a comprehensive framework for deriving various EPIs for the Rényi entropy is presented that uses transport arguments from normal densities and a change of variable by rotation. Simple arguments are given to recover the previously known Rényi EPIs and derive new ones, by unifying a multiplicative form with constant c and a modification with exponent α of previous works. In particular, for log-concave densities, we obtain a simp",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Rényi entropy power inequalities via transport arguments and log-concave densities, with no connection to Frege proof complexity, proof width, or geometric entropy of search spaces.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/nlin/0101006v1",
+      "title": "On Complexity and Emergence",
+      "abstract_excerpt": "Numerous definitions for complexity have been proposed over the last half century, with little consensus achieved on how to use the term. A definition of complexity is supplied here that is closely related to the Kolmogorov Complexity and Shannon Entropy measures widely used as complexity measures, ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses general definitions of complexity related to Kolmogorov Complexity and Shannon Entropy, with no mention of Frege proof systems, proof width, or geometric entropy of search spaces.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

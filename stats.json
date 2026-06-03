@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-06-02T23:47:06Z",
-  "total_cycles": 4660,
+  "last_update_utc": "2026-06-03T00:47:06Z",
+  "total_cycles": 4670,
   "verdict_counts": {
-    "INCONCLUSIVE": 3048,
+    "INCONCLUSIVE": 3054,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 1506,
+    "BARRIER_HIT": 1510,
     "SCOOPED": 86
   },
-  "unique_field_A": 2017,
+  "unique_field_A": 2022,
   "top_fields_A": [
     [
       "Resolution proof complexity",
@@ -16,7 +16,7 @@
     ],
     [
       "Algebraic Geometry (Hodge Theory)",
-      121
+      122
     ],
     [
       "Tropical Geometry",

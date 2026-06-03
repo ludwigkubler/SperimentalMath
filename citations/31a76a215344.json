@@ -1,0 +1,40 @@
+{
+  "entry_id": "31a76a215344",
+  "ts": 1780444427.850721,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1912.11835",
+      "title": "Bacteria display optimal transport near surfaces -- bacteria as intermittent active chiral particles: trapped by hydrodynamics, escaping by adhesion",
+      "abstract_excerpt": "The near-surface swimming patterns of bacteria are strongly determined by the hydrodynamic interactions between bacteria and the surface, which trap bacteria in smooth circular trajectories that lead to inefficient surface exploration. Here, we show by combining experiments and a data-driven mathematical model that surface exploration of enterohemorrhagic Escherichia coli (EHEC) -- a pathogenic strain of E. coli causing serious illnesses such as bloody diarrhea -- results from a complex interpla",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns bacterial surface swimming dynamics and hydrodynamic-adhesion interactions in E. coli, with no connection to CNF formulas, DPLL search trees, or geometric loci theory.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2104.13138",
+      "title": "Finding Good Proofs for Description Logic Entailments Using Recursive Quality Measures (Extended Technical Report)",
+      "abstract_excerpt": "Logic-based approaches to AI have the advantage that their behavior can in principle be explained to a user. If, for instance, a Description Logic reasoner derives a consequence that triggers some action of the overall system, then one can explain such an entailment by presenting a proof of the consequence in an appropriate calculus. How comprehensible such a proof is depends not only on the employed calculus, but also on the properties of the particular proof, such as its overall size, its dept",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses complexity of generating proofs in Description Logic calculi using recursive quality measures including proof depth, with no mention of CNF formulas, DPLL search trees, or geometric loci. It shares only the vocabulary of 'proof depth' but does not interact with the specific claim about geometric loci encoding DPLL trees.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1605.06523",
+      "title": "TensorLog: A Differentiable Deductive Database",
+      "abstract_excerpt": "Large knowledge bases (KBs) are useful in many tasks, but it is unclear how to integrate this sort of knowledge into \"deep\" gradient-based learning systems. To address this problem, we describe a probabilistic deductive database, called TensorLog, in which reasoning uses a differentiable process. In TensorLog, each clause in a logical theory is first converted into certain type of factor graph. Then, for each type of query to the factor graph, the message-passing steps required to perform belief",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes TensorLog, a differentiable deductive database using factor graphs and belief propagation, with complexity 'linear in theory size and proof depth' — this concerns probabilistic logic inference, not DPLL search trees or geometric loci encodings of CNF formulas.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "a822a9b61c04",
+  "ts": 1780447569.9308655,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1004.0653",
+      "title": "Exact Ramsey Theory: Green-Tao numbers and SAT",
+      "abstract_excerpt": "We consider the links between Ramsey theory in the integers, based on van der Waerden's theorem, and (boolean, CNF) SAT solving. We aim at using the problems from exact Ramsey theory, concerned with computing Ramsey-type numbers, as a rich source of test problems, where especially methods for solving hard problems can be developed. In order to control the growth of the problem instances, we introduce \"transversal extensions\" as a natural way of constructing mixed parameter tuples (k_1, ..., k_m)",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Ramsey-type numbers (van der Waerden, Green-Tao) and SAT solver benchmarking/encodings, with no mention of formal power series, order of power series, or SAT proof width complexity measures.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2501.05375",
+      "title": "Some factorization results for formal power series",
+      "abstract_excerpt": "In this paper, we obtain some factorization results on formal power series over principle ideal domains with sharp bounds on number of irreducible factors. These factorization results correspondingly lead to irreducibility criteria for formal power series. The information about prime factorization of the constant term up to a unit and that of some higher order terms is utilized for the purpose. Further, using theory of Newton polygons for power series, we extend the classical Dumas irreducibilit",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract focuses on 'factorization results on formal power series over principle ideal domains' and irreducibility criteria via Newton polygons, with no mention of SAT proof width, Boolean formulas, or minimal order correlations. It shares only the 'formal power series' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1203.2236",
+      "title": "On Quotients of Formal Power Series",
+      "abstract_excerpt": "Quotient is a basic operation of formal languages, which plays a key role in the construction of minimal deterministic finite automata (DFA) and the universal automata. In this paper, we extend this operation to formal power series and systemically investigate its implications in the study of weighted automata. In particular, we define two quotient operations for formal power series that coincide when calculated by a word. We term the first operation as (left or right) \\emph{quotient}, and the s",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quotient/residual operations on formal power series and their connection to weighted automata minimization, with no mention of SAT, proof complexity, proof width, or order of power series over GF(2). It shares the 'formal power series' vocabulary but does not interact with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
