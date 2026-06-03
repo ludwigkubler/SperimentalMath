@@ -1,0 +1,22 @@
+{
+  "entry_id": "a0a9c95c53d9",
+  "ts": 1780491288.801379,
+  "hits_evaluated": 1,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.1639/0007-2745(1998)101[398:ACAOTG]2.0.CO;2",
+      "title": "A CLADISTIC ANALYSIS OF THE GENUS DIPLOSCHISTES (ASCOMYCOTINA, THELOTREMATACEAE)",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper is a cladistic analysis of a lichen genus (Diploschistes) in fungal taxonomy, which has no connection to group theory or DPLL proof complexity. No abstract is available, but the title alone makes clear the subject matter is unrelated.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 0
+  }
+}
