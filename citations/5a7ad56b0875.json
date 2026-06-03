@@ -1,0 +1,31 @@
+{
+  "entry_id": "5a7ad56b0875",
+  "ts": 1780508238.8816342,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:2601.04446",
+      "title": "Optimal Depth-Three Circuits for Inner Product",
+      "abstract_excerpt": "We show that Inner Product in $2n$ variables, $\\mathbf{IP}_n(x, y) = x_1y_1 \\oplus \\ldots \\oplus x_ny_n$, can be computed by depth-3 bottom fan-in 2 circuits of size $\\mathsf{poly}(n)\\cdot (9/5)^n$, matching the lower bound of G\\\"o\\\"os, Guan, and Mosnoi (Inform. Comput.'24). Our construction is obta",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns depth-3 circuit size bounds for Inner Product, matching a lower bound by Göös et al. It does not address automorphism groups of k-CNF formulas or the claimed Ω(n² log n) bound.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:2411.00466",
+      "title": "Semirigidity and the enumeration of nilpotent semigroups of index three",
+      "abstract_excerpt": "There is strong evidence for the belief that ‘almost all’ finite semigroups, whether we consider multiplication operations on a fixed set or their isomorphism classes, are nilpotent of index 3 (3-nilpotent for short). The only known method for counting all semigroups of given order is exhaustive tes",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses enumeration of 3-nilpotent semigroups and 'semirigidity,' which has no bearing on automorphism groups of k-CNF formulas or communication complexity rank bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "entry_id": "355f0858694a",
+  "ts": 1780506072.1497462,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.1007/s00026-020-00498-0",
+      "title": "Kostant’s Partition Function and Magic Multiplex Juggling Sequences",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available to evaluate; the title alone ('Kostant's Partition Function and Magic Multiplex Juggling Sequences') does not indicate any connection to communication complexity or matrix rank bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:ARXIV:2108.07217",
+      "title": "On Kostant’s weight q-multiplicity formula for sp6(C)\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$${{\\mathfrak {s}}}",
+      "abstract_excerpt": "Kostant’s weight q-multiplicity formula is an alternating sum over a finite group known as the Weyl group, whose terms involve the q-analog of Kostant’s partition function. The q-analog of the partition function is a polynomial-valued function defined by ℘q(ξ)=∑i=0kciqi\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$$",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a closed formula for Kostant's q-partition function specialized to sp_6(C), purely within Lie representation theory, with no mention of Boolean functions, communication complexity, or matrix rank.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}
