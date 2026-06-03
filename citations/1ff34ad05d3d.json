@@ -1,0 +1,40 @@
+{
+  "entry_id": "1ff34ad05d3d",
+  "ts": 1780461239.2973607,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "s2:2502.10590",
+      "title": "Optimal Bounds for the Number of Pieces of Near-Circuit Hypersurfaces",
+      "abstract_excerpt": "Suppose $f$ is a polynomial in $n$ variables with real coefficients, exactly $n+k$ monomial terms, and Newton polytope of positive volume. Estimating the number of connected components of the positive zero set of $f$ is a fundamental problem in real algebraic geometry, with applications in computati",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns bounds on connected components of real zero sets of sparse polynomials ('Newton polytope of positive volume'), which does not address monodromy representations of curves or communication complexity rank in any way.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:1002.0145",
+      "title": "From Sylvester-Gallai Configurations to Rank Bounds: Improved Black-Box Identity Test for Depth-3 Circuits",
+      "abstract_excerpt": "We study the problem of identity testing for depth-3 circuits of top fanin k and degree d. We give a new structure theorem for such identities. A direct application of our theorem improves the known deterministic d^{k^k}-time black-box identity test over rationals (Kayal & Saraf, FOCS 2009) to one t",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses identity testing and rank bounds for depth-3 arithmetic circuits via Sylvester-Gallai configurations, with no mention of monodromy representations, Hodge theory, or communication complexity. It shares only the general vocabulary of 'rank' and 'circuits' but does not interact with the specific claim linking monodromy group order to communication complexity rank.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10.1145/3548606.3559389",
+      "title": "Fast Fully Secure Multi-Party Computation over Any Ring with Two-Thirds Honest Majority",
+      "abstract_excerpt": "We introduce a new MPC protocol to securely compute any functionality over an arbitrary black-box finite ring (which may not be commutative), tolerating t < n/3 active corruptions whileguaranteeing output delivery (G.O.D.). Our protocol is based on replicated secret-sharing, whose share size is known to grow exponentially with the number of parties n. However, even though the internal storage and computation in our protocol remains exponential, the communication complexity of our protocol is con",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes an MPC protocol with constant communication complexity over finite rings ('communication complexity of our protocol is constant'), with no reference to monodromy representations, Hodge theory, or circuit complexity rank in the conjectured sense.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-06-03T03:47:15Z",
-  "total_cycles": 4684,
+  "last_update_utc": "2026-06-03T04:47:05Z",
+  "total_cycles": 4696,
   "verdict_counts": {
-    "INCONCLUSIVE": 3065,
+    "INCONCLUSIVE": 3071,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 1513,
+    "BARRIER_HIT": 1519,
     "SCOOPED": 86
   },
-  "unique_field_A": 2028,
+  "unique_field_A": 2031,
   "top_fields_A": [
     [
       "Resolution proof complexity",
@@ -16,7 +16,7 @@
     ],
     [
       "Algebraic Geometry (Hodge Theory)",
-      122
+      123
     ],
     [
       "Tropical Geometry",
@@ -24,7 +24,7 @@
     ],
     [
       "Symplectic Geometry",
-      89
+      90
     ],
     [
       "Real Algebraic Geometry",
@@ -55,6 +55,10 @@
       33
     ],
     [
+      "Noncommutative Geometry",
+      32
+    ],
+    [
       "Affine Geometry",
       31
     ],
@@ -63,12 +67,8 @@
       31
     ],
     [
-      "Noncommutative Geometry",
-      30
-    ],
-    [
-      "Hypergeometric Functions",
-      30
+      "Algebraic K-Theory",
+      31
     ]
   ]
 }

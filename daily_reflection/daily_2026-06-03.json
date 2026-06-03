@@ -1,0 +1,184 @@
+{
+  "ts": 1780457587.3196378,
+  "window_h": 24.0,
+  "n_conjectures": 206,
+  "n_papers": 182,
+  "n_scoops": 13,
+  "scoops": [
+    {
+      "paper_id": "2606.02492v1",
+      "paper_title": "$O(n +f(k))$: Truly Linear FPT",
+      "matched_eid": "590a2eb90a54",
+      "similarity": 0.7224633980763993
+    },
+    {
+      "paper_id": "2606.00770v1",
+      "paper_title": "Search-space Reduction for Boolean MinCSPs via Essential Constraints",
+      "matched_eid": "d8e276954b26",
+      "similarity": 0.730598662853403
+    },
+    {
+      "paper_id": "2606.00292v1",
+      "paper_title": "High-Dimensional Expanders, the Sparsest Cut Problem, and Steurer's Conjecture",
+      "matched_eid": "74374bb75e90",
+      "similarity": 0.7346517962256797
+    },
+    {
+      "paper_id": "2605.25280v2",
+      "paper_title": "Approximate Algorithms for Chamfer Distance Under Translation",
+      "matched_eid": "6b6d05999252",
+      "similarity": 0.7247236195110331
+    },
+    {
+      "paper_id": "2606.00996v1",
+      "paper_title": "Constant-Stretch Rounding on the Hypersimplex",
+      "matched_eid": "6a4d43844ba8",
+      "similarity": 0.7234211262698206
+    },
+    {
+      "paper_id": "2606.00247v1",
+      "paper_title": "An Upper Bound on Grothendieck's Constant",
+      "matched_eid": "768dcaf6f5d5",
+      "similarity": 0.7329202592550639
+    },
+    {
+      "paper_id": "2606.02143v1",
+      "paper_title": "On Proof Systems for #QBF",
+      "matched_eid": "590a2eb90a54",
+      "similarity": 0.7278574178453203
+    },
+    {
+      "paper_id": "2606.02160v1",
+      "paper_title": "Pancyclicity of graphs perturbed by a random $F$-factor",
+      "matched_eid": "ffcfbea6e44b",
+      "similarity": 0.7231416220831657
+    },
+    {
+      "paper_id": "2606.01780v1",
+      "paper_title": "Hitting Arithmetic Progressions at the Square-Root Scale",
+      "matched_eid": "ef864ba1b749",
+      "similarity": 0.7301206379020164
+    },
+    {
+      "paper_id": "2606.01761v1",
+      "paper_title": "A note on the Ratio and Inertia Bounds for the $k$-Independence Number",
+      "matched_eid": "eae2b1272bca",
+      "similarity": 0.7353635541089943
+    },
+    {
+      "paper_id": "2606.00719v1",
+      "paper_title": "Characterization of the structure of $k$-edge-maximal graphs",
+      "matched_eid": "eae2b1272bca",
+      "similarity": 0.735489899923752
+    },
+    {
+      "paper_id": "2606.01163v1",
+      "paper_title": "Minimization Principle for Polynomial-Time Predicates and Forcing in Bounded Arithmetic",
+      "matched_eid": "6df293bf0287",
+      "similarity": 0.7442229899656219
+    },
+    {
+      "paper_id": "2606.00749v1",
+      "paper_title": "Quantum Ergodicity and Thermalization in Interval Quantum Mechanics",
+      "matched_eid": "8b1ca19981e2",
+      "similarity": 0.723611896366592
+    }
+  ],
+  "top_overlap": [
+    {
+      "score": 0.744,
+      "paper_id": "2606.01163v1",
+      "paper_title": "Minimization Principle for Polynomial-Time Predicates and Forcing in Bounded Arithmetic",
+      "paper_category": "math.LO",
+      "matched_conjecture_eid": "6df293bf0287",
+      "matched_conjecture_title": "Minimal Local Ring Unit Group Size and Resolution Proof Width Correlation via Ideal Theory"
+    },
+    {
+      "score": 0.735,
+      "paper_id": "2606.00719v1",
+      "paper_title": "Characterization of the structure of $k$-edge-maximal graphs",
+      "paper_category": "math.CO",
+      "matched_conjecture_eid": "eae2b1272bca",
+      "matched_conjecture_title": "Minimal Rank of K-theory and Communication Complexity Rank Correlation"
+    },
+    {
+      "score": 0.735,
+      "paper_id": "2606.01761v1",
+      "paper_title": "A note on the Ratio and Inertia Bounds for the $k$-Independence Number",
+      "paper_category": "math.CO",
+      "matched_conjecture_eid": "eae2b1272bca",
+      "matched_conjecture_title": "Minimal Rank of K-theory and Communication Complexity Rank Correlation"
+    },
+    {
+      "score": 0.735,
+      "paper_id": "2606.00292v1",
+      "paper_title": "High-Dimensional Expanders, the Sparsest Cut Problem, and Steurer's Conjecture",
+      "paper_category": "cs.DS",
+      "matched_conjecture_eid": "74374bb75e90",
+      "matched_conjecture_title": "Minimal Norm of Hodge Classes in Kähler Geometry and Circuit Monotone Width Correlation"
+    },
+    {
+      "score": 0.733,
+      "paper_id": "2606.00247v1",
+      "paper_title": "An Upper Bound on Grothendieck's Constant",
+      "paper_category": "math.FA",
+      "matched_conjecture_eid": "768dcaf6f5d5",
+      "matched_conjecture_title": "Minimal Diophantine Degree Correlation with Communication Complexity Rank"
+    },
+    {
+      "score": 0.731,
+      "paper_id": "2606.00770v1",
+      "paper_title": "Search-space Reduction for Boolean MinCSPs via Essential Constraints",
+      "paper_category": "cs.CC",
+      "matched_conjecture_eid": "d8e276954b26",
+      "matched_conjecture_title": "Minimal Order of Formal Groups and DPLL Search Tree Depth"
+    },
+    {
+      "score": 0.73,
+      "paper_id": "2606.01780v1",
+      "paper_title": "Hitting Arithmetic Progressions at the Square-Root Scale",
+      "paper_category": "math.CO",
+      "matched_conjecture_eid": "ef864ba1b749",
+      "matched_conjecture_title": "Minimal Local Ring Unit Group Size and Resolution Proof Width Correlation via Hensel Lifting"
+    },
+    {
+      "score": 0.728,
+      "paper_id": "2606.02143v1",
+      "paper_title": "On Proof Systems for #QBF",
+      "paper_category": "cs.LO",
+      "matched_conjecture_eid": "590a2eb90a54",
+      "matched_conjecture_title": "Minimal Number of Braided Monoidal Categories and Resolution Proof Width Correlation"
+    },
+    {
+      "score": 0.725,
+      "paper_id": "2605.25280v2",
+      "paper_title": "Approximate Algorithms for Chamfer Distance Under Translation",
+      "paper_category": "cs.DS",
+      "matched_conjecture_eid": "6b6d05999252",
+      "matched_conjecture_title": "Minimal Root Separability in Polynomial Rings vs. Circuit Monotone Width"
+    },
+    {
+      "score": 0.724,
+      "paper_id": "2606.00749v1",
+      "paper_title": "Quantum Ergodicity and Thermalization in Interval Quantum Mechanics",
+      "paper_category": "quant-ph",
+      "matched_conjecture_eid": "8b1ca19981e2",
+      "matched_conjecture_title": "Minimal Local Indefinite Integral and Circuit Monotone Width via Quantization"
+    }
+  ],
+  "stats": {
+    "n_cycles": 206,
+    "verdicts": {
+      "INCONCLUSIVE": 124,
+      "BARRIER_HIT": 82
+    },
+    "focus_distribution": {},
+    "top_fields_A": {
+      "Algebraic Geometry (Hodge Theory)": 6,
+      "Modular Form Theory": 6,
+      "Tropical Geometry": 4,
+      "Algebraic Topology (specifically, Brauer groups)": 4,
+      "Local Ring Theory": 3
+    }
+  }
+}
