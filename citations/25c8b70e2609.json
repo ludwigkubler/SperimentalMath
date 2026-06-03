@@ -1,0 +1,40 @@
+{
+  "entry_id": "25c8b70e2609",
+  "ts": 1780486202.2197473,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/1910.12458v3",
+      "title": "On the Degree of Boolean Functions as Polynomials over $\\mathbb{Z}_m$",
+      "abstract_excerpt": "Polynomial representations of Boolean functions over various rings such as $\\mathbb{Z}$ and $\\mathbb{Z}_m$ have been studied since Minsky and Papert (1969). From then on, they have been employed in a large variety of fields including communication complexity, circuit complexity, learning theory, cod",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses polynomial representations of Boolean functions over rings like $\\mathbb{Z}_m$ and mentions applications to communication complexity, but does not address Ehrhart polynomials, zonotopes, or the specific rank-vs-degree relationship claimed in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1307.1157v1",
+      "title": "Representing Boolean Functions Using Polynomials: More Can Offer Less",
+      "abstract_excerpt": "Polynomial threshold gates are basic processing units of an artificial neural network. When the input vectors are binary vectors, these gates correspond to Boolean functions and can be analyzed via their polynomial representations. In practical applications, it is desirable to find a polynomial repr",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses polynomial representations of Boolean functions for threshold gates in neural networks, with no mention of Ehrhart polynomials, zonotopes, or communication matrix rank. It shares the vocabulary of 'polynomials' and 'Boolean functions' but does not address the specific conjectured relationship.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1803.09947v3",
+      "title": "Periodic Fourier representation of Boolean functions",
+      "abstract_excerpt": "In this work, we consider a new type of Fourier-like representation of Boolean function $f\\colon\\{+1,-1\\}^n\\to\\{+1,-1\\}$ \\[ f(x) = \\cos\\left(π\\sum_{S\\subseteq[n]}φ_S \\prod_{i\\in S} x_i\\right). \\] This representation, which we call the periodic Fourier representation, of Boolean function is closely r",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a 'periodic Fourier representation' of Boolean functions using cosine/product expansions, with no mention of Ehrhart polynomials, zonotopes, or communication matrix rank — it shares only the general 'Boolean function representation' framework.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
