@@ -1,0 +1,40 @@
+{
+  "entry_id": "39ffcdc3bc28",
+  "ts": 1780527038.1309936,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2112.12010",
+      "title": "Algebraic geometry in mixed characteristic",
+      "abstract_excerpt": "Fix a prime number $p$. We report on some recent developments in algebraic geometry (broadly construed) over $p$-adically complete commutative rings. These developments include foundational advances within the subject as well as external applications.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes 'recent developments in algebraic geometry over p-adically complete commutative rings,' with no mention of Grothendieck groups of Boolean functions or circuit complexity. It shares only the broad framework of algebraic geometry and does not interact with the specific conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2505.02264",
+      "title": "A note on gluing: a pillar of algebraic geometry",
+      "abstract_excerpt": "This paper examines the concept of gluing, placing it within its most general categorical context and tracing its foundational role in the broader architecture of algebraic geometry.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes 'the concept of gluing' in 'categorical context' within 'algebraic geometry,' with no mention of Grothendieck groups, Boolean functions, or circuit complexity. It shares only the broad field label with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2002.06154",
+      "title": "Epsilon local rigidity and numerical algebraic geometry",
+      "abstract_excerpt": "A well-known combinatorial algorithm can decide generic rigidity in the plane by determining if the graph is of Pollaczek-Geiringer-Laman type. Methods from matroid theory have been used to prove other interesting results, again under the assumption of generic configurations. However, configurations arising in applications may not be generic. We present Theorem 5 and its corresponding Algorithm 1 which decide if a configuration is epsilon-locally rigid, a notion we define. A configuration which ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses epsilon-local rigidity of geometric configurations and numerical algebraic geometry algorithms, with no mention of Grothendieck groups, boolean functions, or circuit complexity. It does not interact with the conjecture's specific claim about |G_f| and monotone width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

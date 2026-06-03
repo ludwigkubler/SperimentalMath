@@ -1,0 +1,40 @@
+{
+  "entry_id": "66678383559c",
+  "ts": 1780527653.622114,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/9804136v2",
+      "title": "Traces on algebras of parameter dependent pseudodifferential operators and the eta-invariant",
+      "abstract_excerpt": "We identify Melrose's suspended algebra of pseudodifferential operators with a subalgebra of the algebra of parametric pseudodifferential operators with parameter space $\\R$. For a general algebra of parametric pseudodifferential operators, where the parameter space may now be a cone $Γ\\subset\\R^p$,",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses traces on algebras of parametric pseudodifferential operators and the eta-invariant in the analytic/operator-algebraic sense (Melrose's suspended algebra), with no mention of graphs, vertex orbit spaces, or communication complexity rank. It shares only the term 'eta-invariant' with the conjecture but does not address the claimed relationship.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1101.1371",
+      "title": "The Eta invariant on the Milnor fibration of a quasihomogeneous polynomial",
+      "abstract_excerpt": "We calculate the eta-invariant for the odd signature operator relative to a specific submersion metric on the Milnor fibration of a quasihomogeneous hypersurface singularity using certain global boundary conditions in terms of the data of its fibre intersection form, monodromy and variation mapping resp. the monomial data of its Milnor algebra. This is done by representing this eta-invariant as the eta-invariant of the odd signature operator on a certain closed fibrewise double of the original b",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns calculating the eta-invariant of the odd signature operator on Milnor fibrations of quasihomogeneous singularities, with no mention of graphs, vertex orbit spaces, or communication complexity rank. It shares only the term 'eta-invariant' with the conjecture but does not interact with the claimed inequality.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1403.2030",
+      "title": "The universal eta-invariant for manifolds with boundary",
+      "abstract_excerpt": "We extend the theory of the universal eta-invariant to the case of relative bordism groups of manifolds with boundaries. This allows the construction of secondary descendants of the universal eta-invariant. We obtain an interpretation of Laures' f-invariant as an example of this general construction. As an aside we improve a recent result of Han-Zhang on the modularity of a certain power series of eta invariants.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the universal eta-invariant for manifolds with boundary and Laures' f-invariant in differential/algebraic topology, with no mention of graphs, communication complexity, or matrix rank. It shares only the term 'eta-invariant' but does not interact with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
