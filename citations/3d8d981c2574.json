@@ -1,0 +1,40 @@
+{
+  "entry_id": "3d8d981c2574",
+  "ts": 1780462702.8678536,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1505.04682",
+      "title": "Geometry of quantum state space and quantum correlations",
+      "abstract_excerpt": "Quantum state space is endowed with a metric structure and Riemannian monotone metric is an important geometric entity defined on such a metric space. Riemannian monotone metrics are very useful for information-theoretic and statistical considerations on the quantum state space. In this article, considering the quantum state space being spanned by 2x2 density matrices, we determine a particular Riemannian metric for a state \\r{ho} and show that if \\r{ho} gets entangled with another quantum state",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses a Riemannian metric on 2x2 density matrices and its relation to negativity as an entanglement measure, but says nothing about CNF formulas, resolution proof width, or any 'minimal local indeterminacy' quantity tied to proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1805.11292",
+      "title": "Geometry of quantum state space and entanglement",
+      "abstract_excerpt": "Recently, an explicit relation between a measure of entanglement and a geometric entity has been reported in Quantum Inf. Process. (2016) 15:1629-1638. It has been shown that if a qubit gets entangled with another ancillary qubit then negativity, up to a constant factor, is equal to square root of a specific Riemannian metric defined on the metric space corresponding to the state space of the qubit. In this article, we consider the different class of bi-partite entangled states and show explicit",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses relations between entanglement measures (negativity) and Riemannian metrics on quantum state space, but says nothing about CNF formulas, resolution proof width, or any link to proof complexity — only shared vocabulary of 'quantum state space' and 'entanglement.'",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1804.04515",
+      "title": "Quantifying entanglement in a 68-billion dimensional quantum state space",
+      "abstract_excerpt": "Entanglement is the powerful and enigmatic resource central to quantum information processing, which promises capabilities in computing, simulation, secure communication, and metrology beyond what is possible for classical devices. Exactly quantifying the entanglement of an unknown system requires completely determining its quantum state, a task which demands an intractable number of measurements even for modestly-sized systems. Here we demonstrate a method for rigorously quantifying high-dimens",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes an experimental method for quantifying high-dimensional entanglement of photons via compressed measurements ('a method for rigorously quantifying high-dimensional entanglement from extremely limited data'), with no connection to CNF formulas, resolution proof width, or the proposed MLI quantity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "4bacba9fe06f",
+  "ts": 1780463237.9463422,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/2112.04256v2",
+      "title": "Solving graph equipartition SDPs on an algebraic variety",
+      "abstract_excerpt": "Semidefinite programs are generally challenging to solve due to their high dimensionality. Burer and Monteiro developed a non-convex approach to solve linear SDP problems by applying its low rank property. Their approach is fast because they used factorization to reduce the problem size. In this pap",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a numerical optimization method for SDPs over algebraic varieties (Burer-Monteiro factorization for graph equipartition), with no mention of Hodge theory, Hodge diamond width, or Boolean circuit monotone complexity. It shares only the loose vocabulary 'graph' and 'algebraic variety' but does not address the conjectured correlation.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0606655v3",
+      "title": "Hodge genera of algebraic varieties, I",
+      "abstract_excerpt": "The aim of this paper is to study the behavior of Hodge-theoretic (intersection homology) genera and their associated characteristic classes under proper morphisms of complex algebraic varieties. We obtain formulae that relate (parametrized families of) global invariants of a complex algebraic varie",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Hodge-theoretic genera and characteristic classes under proper morphisms of complex algebraic varieties, with no mention of Boolean circuit complexity, monotone width, or graph-associated varieties relevant to the hdw/w_m correlation claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/0706.2204v1",
+      "title": "Gorenstein Multiple Structures on Smooth Algebraic Varieties",
+      "abstract_excerpt": "We characterize the Gorenstein nilpotent scheme structures on a smooth algebraic variety as support, in terms of a duality property of the graded objects associated to two canonical filtrations.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Gorenstein nilpotent scheme structures and duality of graded objects on smooth varieties, with no mention of Hodge diamond width, circuit complexity, or any connection between algebraic geometry invariants and Boolean circuit measures.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "b3173a582d9e",
+  "ts": 1780465132.751816,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1708.04361",
+      "title": "A short proof that the free associative algebra is Hopfian",
+      "abstract_excerpt": "A short proof is given of the fact that various classes of algebras including the free associative algebra are Hopfian, i.e., every epimorphism is an automorphism. This further simplifies the Dicks-Lewin solution of the Jacobian conjecture for the free associative algebra.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Hopfian property of free associative algebras and the Jacobian conjecture, with no mention of quasi-Frobenius algebras, Boolean satisfiability, or DPLL proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2401.03308",
+      "title": "On von Neumann regularity of ample groupoid algebras",
+      "abstract_excerpt": "We completely characterize when the algebra of an ample groupoid with coefficients in an arbitrary unital ring is von Neumann regular and, more generally, when the algebra of a graded ample groupoid is graded von Neumann regular. Our main application is to resolve the question, open since 1970, of when the algebra of an inverse semigroup is von Neumann regular. As applications, we recover known results on regularity and graded regularity of Leavitt path algebras, and prove a number of new result",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns von Neumann regularity of ample groupoid algebras and inverse semigroup algebras, with no mention of quasi-Frobenius algebras, Boolean satisfiability, or DPLL proof width. It shares no specific claim with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1802.07219",
+      "title": "Leibniz algebras as non-associative algebras",
+      "abstract_excerpt": "In this paper we define the basic concepts for left or right Leibniz algebras and prove some of the main results. Our proofs are often variations of the known proofs and several results seem to be new.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns foundational results on Leibniz algebras as non-associative algebras, with no mention of quasi-Frobenius algebras, Boolean satisfiability, or DPLL proof width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
