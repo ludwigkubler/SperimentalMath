@@ -3145,3 +3145,4 @@
 {"ts": 1780461009.6724374, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 37}}
 {"ts": 1780461010.8410223, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1879, "cap": 2000, "fraction": 0.94, "weekly_budget": 2500}}
 {"ts": 1780463401.855962, "ts_iso": "2026-06-03T05:10:01.855962+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "OK", "to_status": "DEGRADED", "failing_checks": ["cron_logs_no_trace"], "auto_fixed": false}
+{"ts": 1780463701.88463, "ts_iso": "2026-06-03T05:15:01.884630+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "DEGRADED", "to_status": "OK", "failing_checks": [], "auto_fixed": false}
