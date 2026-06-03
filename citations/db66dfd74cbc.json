@@ -1,0 +1,40 @@
+{
+  "entry_id": "db66dfd74cbc",
+  "ts": 1780515222.304346,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1511.09051",
+      "title": "On automorphism groups of affine surfaces",
+      "abstract_excerpt": "This is a survey on the automorphism groups in various classes of affine algebraic surfaces and the algebraic group actions on such surfaces. Being infinite-dimensional, these automorphism groups share some important features of algebraic groups. At the same time, they can be studied from the viewpoint of the combinatorial group theory, so we put a special accent on group-theoretical aspects (ind-groups, amalgams, etc.). We provide different approaches to classification, prove certain new result",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a survey on automorphism groups of affine algebraic surfaces from algebraic and combinatorial group theory viewpoints (ind-groups, amalgams), with no mention of CNF formulas, Boolean circuits, or monotone width. It shares the 'automorphism groups of affine' vocabulary but does not interact with the specific complexity-theoretic claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2001.09848",
+      "title": "Reduced expression of minimal infinite reduced words of affine Weyl groups",
+      "abstract_excerpt": "For an infinite Coxeter system, one can extend the weak right order to the set of infinite reduced words. This is called limit weak order. In [Transformation Groups 18(1), 2013, 179-231], Lam and Pylyavskyy showed that for affine Weyl groups of type $\\widetilde{A}_n$ minimal infinite reduced words under the limit weak order are precisely those infinite Coxeter elements and asked the question of characterization, in terms of infinite reduced words, of the minimal elements of the limit weak order ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns characterizing minimal infinite reduced words in affine Weyl groups under limit weak order, which shares no interaction with automorphism groups of affine schemes or circuit monotone width of CNF formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1505.06927",
+      "title": "Automorphism Groups of Configuration Spaces and Discriminant Varieties",
+      "abstract_excerpt": "The configuration space $\\mathcal{C}^n(X)$ of an algebraic curve $X$ is the algebraic variety consisting of all $n$-point subsets $Q\\subset X$. We describe the automorphisms of $\\mathcal{C}^n(\\mathbb{C})$, deduce that the (infinite dimensional) group Aut$\\,\\mathcal{C}^n(\\mathbb{C})$ is solvable, and obtain an analog of the Mostow decomposition in this group. The Lie algebra and the Makar-Limanov invariant of $\\mathcal{C}^n(\\mathbb{C})$ are also computed. We obtain similar results for the level h",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns automorphism groups of configuration spaces of algebraic curves and discriminant varieties, with no mention of CNF formulas, affine schemes associated to Boolean formulas, or circuit monotone width. It shares only the general vocabulary of 'automorphism groups' without engaging the specific conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

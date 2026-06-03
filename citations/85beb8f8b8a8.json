@@ -1,0 +1,31 @@
+{
+  "entry_id": "85beb8f8b8a8",
+  "ts": 1780512550.5447066,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.26565/2312-4334-2025-1-44",
+      "title": "Anisotropic Cosmological Model in a Modified Theory of Gravitation",
+      "abstract_excerpt": "In this research, spatially homogeneous and anisotropic LRS Bianchi type-I cosmological model in f(R, T) theory is discussed by choosing the specific form as f(R, T) = R + μe-γR + λT, here R is the Ricci scalar, T is the trace of the energy-momentum tensor, μ, γ, and λ are constants. In this research the functional form consists of an exponential function which is more generalised than linear, quadratic and other polynomials. The solutions of the field equations are derived by considering the fo",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses an anisotropic cosmological model in f(R,T) modified gravity theory, with no mention of matroids, communication complexity, or representation theory. It is entirely unrelated to the conjecture's subject matter.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10.1021/acs.joc.4c02653",
+      "title": "Diastereospecific Synthesis of Vicinally Substituted 2-Oxazolidinones via Oxidative Rearrangement of α,β-Unsaturated γ-Lactams",
+      "abstract_excerpt": "A diastereospecific synthesis of vicinally substituted 2-oxazolidinones from α,β-unsaturated lactams using m-chloroperoxybenzoic acid is reported. Several highly substituted 2-oxazolidinones were obtained in 19–46% yields in a one-pot reaction with complete control over the relative stereochemistry. The proposed reaction sequence consists of a Baeyer–Villiger oxidation, an epoxidation, and a concerted rearrangement. Experimental results and density functional theory calculations indicate that a ",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes organic chemistry synthesis of 2-oxazolidinones via oxidative rearrangement, with no connection to matroid theory or communication complexity. The phrase 'Diastereospecific Synthesis of Vicinally Substituted 2-Oxazolidinones' confirms the paper is entirely outside the conjecture's domain.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 0
+  }
+}

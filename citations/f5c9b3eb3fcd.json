@@ -1,0 +1,40 @@
+{
+  "entry_id": "f5c9b3eb3fcd",
+  "ts": 1780513684.2186666,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2311.04204",
+      "title": "Sharp Thresholds Imply Circuit Lower Bounds: from random 2-SAT to Planted Clique",
+      "abstract_excerpt": "We show that sharp thresholds for Boolean functions directly imply average-case circuit lower bounds. More formally we show that any Boolean function exhibiting a sharp enough threshold at \\emph{arbitrary} critical density cannot be computed by Boolean circuits of bounded depth and polynomial size. We also prove a partial converse: if a monotone graph invariant Boolean function does not have a sharp threshold then it can be computed on average by a Boolean circuit of bounded depth and polynomial",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns sharp thresholds implying bounded-depth circuit lower bounds for problems like random 2-SAT and planted clique; it never discusses geometric invariant theory, tropical moduli spaces, or monotone circuit width, so it neither supports nor refutes the Θ(w(φ)) correspondence in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2108.04557",
+      "title": "Brauer diagrams, modular operads, and a graphical nerve theorem for circuit algebras",
+      "abstract_excerpt": "Circuit algebras, used in the study of finite-type knot invariants, are a symmetric analogue of Jones's planar algebras. They are very closely related to circuit operads, which are a variation of modular operads admitting an extra monoidal product. This paper gives a description of circuit algebras in terms categories of Brauer diagrams. An abstract nerve theorem for circuit operads -- and hence circuit algebras -- is proved using an iterated distributive law, and an existing nerve theorem for m",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'circuit algebras' in the knot-theoretic/operadic sense (Brauer diagrams, modular operads), which shares the word 'circuit' with Boolean circuit complexity but has no connection to circuit monotone width or geometric invariant theory of tropical moduli spaces.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2412.20262",
+      "title": "Modular operads, iterated distributive laws and a nerve theorem for circuit algebras",
+      "abstract_excerpt": "Circuit algebras are a symmetric version of Jones's planar algebras. They originated in quantum topology as a framework for encoding virtual crossings. This paper extends existing results for modular operads to construct a graphical calculus and monad for general circuit algebras and prove an abstract nerve theorem. The proof relies on a subtle interplay between distributive laws and abstract nerve theory, and provides extra insights into the underlying structures. Oriented circuit algebras are ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'circuit algebras' as a symmetric version of Jones's planar algebras in quantum topology, with modular operads and nerve theorems — unrelated to Boolean circuit monotone width or geometric invariant theory of tropical curve moduli. The shared word 'circuit' is coincidental vocabulary.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
