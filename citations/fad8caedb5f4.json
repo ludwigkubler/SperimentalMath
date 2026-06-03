@@ -1,0 +1,40 @@
+{
+  "entry_id": "fad8caedb5f4",
+  "ts": 1780525610.3195765,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1411.5306",
+      "title": "The Simplicial EHP Sequence in A1-Algebraic Topology",
+      "abstract_excerpt": "We give a tool for understanding simplicial desuspension in A1-algebraic topology: we show that $X \\to Ω(S^1 \\wedge X)\\to Ω(S^1 \\wedge X \\wedge X)$ is a fiber sequence up to homotopy in 2-localized A1-algebraic topology for $X = (S^1)^m \\wedge G_m^{\\wedge q}$ with $m&gt;1$. It follows that there is an EHP sequence spectral sequence $$Z_{(2)} \\otimes π_{n+1+i}^{A1} (S^{2n+2m+1} \\wedge (G_m)^{\\wedge 2q}) \\Rightarrow Z_{(2)} \\otimes π_{i}^{A1, s} (S^{m} \\wedge (G_m)^{\\wedge q}).$$",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the EHP fiber sequence and a spectral sequence in A1-algebraic topology for specific motivic spheres, with no mention of CNF formulas, satisfiability, or simplicial generator bounds. It shares only the broad vocabulary of 'simplicial' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2309.11304",
+      "title": "A new quantum computational set-up for algebraic topology via simplicial sets",
+      "abstract_excerpt": "In this paper, a quantum computational framework for algebraic topology based on simplicial set theory is presented. This extends previous work, which was limited to simplicial complexes and aimed mostly to topological data analysis. The proposed set--up applies to any parafinite simplicial set and proceeds by associating with it a finite dimensional simplicial Hilbert space, whose simplicial operator structure is studied in some depth. It is shown in particular how the problem of determining th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a 'quantum computational framework for algebraic topology based on simplicial set theory' aimed at computing simplicial homology and Betti numbers, with no mention of Boolean satisfiability, CNF formulas, or bounds on simplicial generators for SAT verification.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2306.16951",
+      "title": "Applying language models to algebraic topology: generating simplicial cycles using multi-labeling in Wu's formula",
+      "abstract_excerpt": "Computing homotopy groups of spheres has long been a fundamental objective in algebraic topology. Various theoretical and algorithmic approaches have been developed to tackle this problem. In this paper we take a step towards the goal of comprehending the group-theoretic structure of the generators of these homotopy groups by leveraging the power of machine learning. Specifically, in the simplicial group setting of Wu's formula, we reformulate the problem of generating simplicial cycles as a pro",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns generating simplicial cycles for homotopy groups of spheres via language models in Wu's formula, with no mention of Boolean satisfiability, CNF formulas, or complexity bounds like O(n^{1.5}). It shares only the general vocabulary of simplicial structures.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
