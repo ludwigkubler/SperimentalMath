@@ -1,0 +1,40 @@
+{
+  "entry_id": "6a4d43844ba8",
+  "ts": 1780455057.4612777,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/1604.06009v2",
+      "title": "Oriented Flip Graphs and Noncrossing Tree Partitions",
+      "abstract_excerpt": "In this paper, we study the lattice properties of posets of torsion pairs in the module category of a family of representation-finite gentle algebras called tiling algebras, introduced by Coelho Simoes and Parsons. We present a combinatorial model for torsion pairs using polyogonal subdivisions of a",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses lattice properties of torsion pairs in tiling algebras with a combinatorial model via polygonal subdivisions; it makes no mention of Frege proof complexity or Boolean functions, so it shares only the noncrossing-partition vocabulary.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1402.2589v3",
+      "title": "Partitioning Perfect Graphs into Stars",
+      "abstract_excerpt": "The partition of graphs into \"nice\" subgraphs is a central algorithmic problem with strong ties to matching theory. We study the partitioning of undirected graphs into same-size stars, a problem known to be NP-complete even for the case of stars on three vertices. We perform a thorough computational",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns partitioning perfect graphs into same-size stars, an algorithmic graph partitioning problem, with no mention of noncrossing partitions, Boolean functions, or Frege proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/0905.0205v1",
+      "title": "Euler characteristic of the truncated order complex of generalized noncrossing partitions",
+      "abstract_excerpt": "The purpose of this note is to complete the study, begun in the first author's PhD thesis, of the topology of the poset of generalized noncrossing partitions associated to real reflection groups. In particular, we calculate the Euler characteristic of this poset with the maximal and minimal elements",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the Euler characteristic of the poset of generalized noncrossing partitions associated to real reflection groups, with no mention of Boolean functions, graphs of formulas, or Frege proof complexity. It shares only the 'noncrossing partitions' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
