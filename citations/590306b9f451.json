@@ -1,0 +1,31 @@
+{
+  "entry_id": "590306b9f451",
+  "ts": 1780474331.89382,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:2306.13916",
+      "title": "Parametrized systems of generalized polynomial inequalities via linear algebra and convex geometry",
+      "abstract_excerpt": "We provide fundamental results on positive solutions to parametrized systems of generalized polynomial inequalities (with real exponents and positive parameters), including generalized polynomial equations. In doing so, we also offer a new perspective on fewnomials and (generalized) mass-action syst",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses positive solutions to parametrized generalized polynomial inequalities and fewnomials/mass-action systems, with no mention of CNF formulas, resolution proof complexity, or root counts of polynomials dividing clauses. It shares only loose vocabulary ('polynomial') with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:04e8dbb3f6b6ae7d1c09bdb4a0c6d48bea6f5485",
+      "title": "Kac-Rice formulas for random fields and theirs applications in: random geometry, roots of random polynomials and some engineering problems",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available, so I cannot assess whether the paper interacts with the specific claim relating polynomial root counts to k-CNF resolution proof width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}
