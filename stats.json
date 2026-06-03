@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-06-03T08:47:06Z",
-  "total_cycles": 4731,
+  "last_update_utc": "2026-06-03T09:47:06Z",
+  "total_cycles": 4741,
   "verdict_counts": {
-    "INCONCLUSIVE": 3090,
+    "INCONCLUSIVE": 3095,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 1535,
+    "BARRIER_HIT": 1540,
     "SCOOPED": 86
   },
-  "unique_field_A": 2040,
+  "unique_field_A": 2044,
   "top_fields_A": [
     [
       "Resolution proof complexity",
@@ -63,11 +63,11 @@
       33
     ],
     [
-      "Modular Form Theory",
-      31
+      "Algebraic K-Theory",
+      32
     ],
     [
-      "Algebraic K-Theory",
+      "Modular Form Theory",
       31
     ]
   ]
