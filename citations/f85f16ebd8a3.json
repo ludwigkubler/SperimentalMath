@@ -1,0 +1,40 @@
+{
+  "entry_id": "f85f16ebd8a3",
+  "ts": 1780516997.8268425,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/1002.3099v3",
+      "title": "Tamed Symplectic forms and SKT metrics",
+      "abstract_excerpt": "Symplectic forms taming complex structures on compact manifolds are strictly related to Hermitian metrics having the fundamental form $\\partial \\bar \\partial $-closed, i.e. to strong Kähler with torsion (${\\rm SKT}$) metrics. It is still an open problem to exhibit a compact example of a complex mani",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'symplectic forms taming complex structures' and SKT metrics on compact manifolds, which shares only the vocabulary 'symplectic forms' with the conjecture but does not engage with SAT, resolution proof width, or rank-based complexity bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0601540v1",
+      "title": "Symplectic forms and surfaces of negative square",
+      "abstract_excerpt": "We introduce an analogue of the inflation technique of Lalonde-McDuff, allowing us to obtain new symplectic forms from symplectic surfaces of negative self-intersection in symplectic four-manifolds. We consider the implications of this construction for the symplectic cones of Kähler surfaces, provin",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns an 'inflation technique' for constructing symplectic forms on four-manifolds via surfaces of negative self-intersection, with no mention of SAT, resolution proof width, or rank bounds on symplectic forms associated to Boolean formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1811.09984v4",
+      "title": "Translated points for contactomorphisms of prequantization spaces over monotone symplectic toric manifolds",
+      "abstract_excerpt": "We prove a version of Sandon's conjecture on the number of translated points of contactomorphisms for the case of prequantization bundles over certain closed monotone symplectic toric manifolds. Namely we show that any contactomorphism of such a prequantization bundle lying in the identity component",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Sandon's conjecture on translated points of contactomorphisms for prequantization bundles over monotone symplectic toric manifolds, with no mention of SAT, resolution proof width, or rank of symplectic forms.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

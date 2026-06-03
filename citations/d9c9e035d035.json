@@ -1,0 +1,40 @@
+{
+  "entry_id": "d9c9e035d035",
+  "ts": 1780516679.6255732,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1005.3677",
+      "title": "Groupoid cocycles and K-theory",
+      "abstract_excerpt": "Let $c:\\mathcal{G}\\to\\R$ be a cocycle on a locally compact Hausdorff groupoid $\\mathcal{G}$ with Haar system. Under some mild conditions (satisfied by all integer valued cocycles on étale groupoids), $c$ gives rise to an unbounded odd $\\R$-equivariant bimodule $(\\mathpzc{E},D)$ for the pair of $C^{*}$-algebras $(C^{*}(\\mathcal{G}),C^{*}(\\mathcal{H}))$. If the cocycle comes from a continuous quasi-invariant measure on the unit space $\\mathcal{G}^{(0)}$, the corresponding element in $KK_{1}^{\\R}(C",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses groupoid cocycles in the context of C*-algebras, KK-theory, and index maps—it makes no mention of Tseitin formulas, resolution proof width, or any notion of 'minimal rank' relevant to proof complexity. It shares only the vocabulary 'groupoid cocycle' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1712.05094",
+      "title": "The groupoid structure of groupoid morphisms",
+      "abstract_excerpt": "In this paper we construct two groupoids from morphisms of groupoids, with one from a categorical viewpoint and the other from a geometric viewpoint. We show that for each pair of groupoids, the two kinds of groupoids of morphisms are equivalent. Then we study the automorphism groupoid of a groupoid.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses constructing groupoids from groupoid morphisms and automorphism groupoids, with no mention of cocycles, rank, Tseitin formulas, or resolution proof width. It shares only the 'groupoid' vocabulary without interacting with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2508.17484",
+      "title": "Groupoids in Diffeology",
+      "abstract_excerpt": "This expository paper recounts the development and application of the concept of the diffeological groupoid, from its introduction in 1985 to its use in current research. We demonstrate how this single concept has served as a powerful and unifying tool for defining fundamental structures, analyzing the stratification of complex spaces like orbifolds, building a bridge to noncommutative geometry, and, most recently, forging new approaches to geometric quantization. The paper aims to provide a coh",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns diffeological groupoids in geometry/physics (orbifolds, noncommutative geometry, geometric quantization) and makes no mention of cocycle rank, Tseitin formulas, or resolution proof width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

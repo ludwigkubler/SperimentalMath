@@ -1,0 +1,40 @@
+{
+  "entry_id": "8ba312c3c50b",
+  "ts": 1780518846.750067,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/2111.12700v2",
+      "title": "Universality in long-distance geometry and quantum complexity",
+      "abstract_excerpt": "In physics, two systems that radically differ at short scales can exhibit strikingly similar macroscopic behaviour: they are part of the same long-distance universality class. Here we apply this viewpoint to geometry and initiate a program of classifying homogeneous metrics on group manifolds by the",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'long-distance universality classes' for 'homogeneous metrics on group manifolds' in a physics/quantum complexity context, which shares no specific interaction with quasi-projective varieties of CNFs or monotone circuit width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2212.12225v3",
+      "title": "Hyperbolicity and fundamental groups of complex quasi-projective varieties",
+      "abstract_excerpt": "This paper investigates the relationship between the hyperbolicity of complex quasi-projective varieties $X$ and the (topological) fundamental group $π_1(X)$ in the presence of a linear representation $\\varrho: π_1(X) \\to {\\rm GL}_N(\\mathbb{C})$. We present our main results in three parts.\n  Firstly",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses hyperbolicity and fundamental groups of complex quasi-projective varieties under linear representations, which shares the 'quasi-projective variety' vocabulary but does not address 'local indeterminacy' or any connection to Boolean circuit monotone width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1209.3595v2",
+      "title": "Noncommutative complex differential geometry",
+      "abstract_excerpt": "This paper defines and examines the basic properties of noncommutative analogues of almost complex structures, integrable almost complex structures, holomorphic curvature, cohomology, and holomorphic sheaves. The starting point is a differential structure on a noncommutative algebra defined in terms",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns noncommutative analogues of almost complex structures, holomorphic curvature, and sheaves — it makes no mention of CNF formulas, quasi-projective varieties V(φ), local indeterminacy, or circuit monotone width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
