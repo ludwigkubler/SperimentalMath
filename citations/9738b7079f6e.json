@@ -1,0 +1,40 @@
+{
+  "entry_id": "9738b7079f6e",
+  "ts": 1780467321.5316215,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/1403.8106v1",
+      "title": "Recent advances on the log-rank conjecture in communication complexity",
+      "abstract_excerpt": "The log-rank conjecture is one of the fundamental open problems in communication complexity. It speculates that the deterministic communication complexity of any two-party function is equal to the log of the rank of its associated matrix, up to polynomial factors. Despite much research, we still kno",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the log-rank conjecture relating deterministic communication complexity to log of matrix rank, but says nothing about 'minimal local indeterminacy' or quantum information geometry. It shares the 'communication complexity' and 'rank' vocabulary but does not address the specific IL = Θ(r(f)) claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2205.13984v4",
+      "title": "Information measures and geometry of the hyperbolic exponential families of Poincaré and hyperboloid distributions",
+      "abstract_excerpt": "We study various information-theoretic measures and the information geometry of the Poincaré distributions and the related hyperboloid distributions, and prove that their statistical mixture models are universal density estimators of smooth densities in hyperbolic spaces. The Poincaré and the hyperb",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns information geometry of Poincaré/hyperboloid distributions and density estimation in hyperbolic spaces, with no mention of Boolean functions, communication complexity, or quantum information measures relevant to the conjecture's IL = Θ(r(f)) claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/quant-ph/0305192v1",
+      "title": "Photon engineering for quantum information processing",
+      "abstract_excerpt": "We study distinguishing information in the context of quantum interference involving more than one parametric downconversion (PDC) source and in the context of polarization-entangled photon pairs based on PDC. We arrive at specific design criteria for two-photon sources so that when used as part of ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract focuses on 'distinguishing information in the context of quantum interference' from parametric downconversion sources and photon engineering design, which shares no substantive connection to communication complexity rank or minimal local indeterminacy bounds for Boolean functions.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
