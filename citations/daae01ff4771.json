@@ -1,0 +1,31 @@
+{
+  "entry_id": "daae01ff4771",
+  "ts": 1780553427.697632,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.37661/1816-0301-2024-21-4-7-23",
+      "title": "Algorithms for extracting subsystems from a multilevel representation of a system of Boolean functions for joint minimization",
+      "abstract_excerpt": "Objectives. The purpose of experimental research is to determine the effectiveness of new algorithms for extracting the so-called connected subsystems from formula descriptions of the original system of Boolean functions. Subsequently each of the extracted subsystems is minimized independently of the others, but the functions that make up each connected subsystem are minimized jointly.Methods. Minimization of subsystems is performed in the class of multilevel BDD representations (BDD – Binary De",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns practical algorithms for minimizing BDD/Boolean network representations for CMOS ASIC synthesis ('minimization of BDD representations... minimization of Boolean networks'), with no engagement with GIT degree, projective varieties, or monotone circuit width bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:2305.08103",
+      "title": "A Unifying Formal Approach to Importance Values in Boolean Functions",
+      "abstract_excerpt": "Boolean functions and their representation through logics, circuits, machine learning classifiers, or binary decision diagrams (BDDs) play a central role in the design and analysis of computing systems. Quantifying the relative impact of variables on the truth value by means of importance values can",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'importance values' quantifying variable impact on Boolean function truth values across representations like circuits and BDDs, which shares the Boolean-function vocabulary but does not address GIT degree, monotone circuit width, or any algebraic-geometric representation bound.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 0
+  }
+}
