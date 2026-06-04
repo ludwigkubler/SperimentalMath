@@ -1,0 +1,40 @@
+{
+  "entry_id": "79f0e705d4d7",
+  "ts": 1780548397.3333201,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0010079v1",
+      "title": "A theory of quaternionic algebra, with applications to hypercomplex geometry",
+      "abstract_excerpt": "In this paper we introduce a new algebraic device, which enables us to treat the quaternions as though they were a commutative field. This is of interest both for its own sake, and because it can be applied to develop an \"algebraic geometry\" of noncompact hypercomplex manifolds.\n  The basic building",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses quaternionic algebra applied to hypercomplex geometry ('algebraic geometry of noncompact hypercomplex manifolds'), with no mention of CNF formulas, resolution proof width, or any connection to proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2111.12700",
+      "title": "Universality in long-distance geometry and quantum complexity",
+      "abstract_excerpt": "In physics, two systems that radically differ at short scales can exhibit strikingly similar macroscopic behaviour: they are part of the same long-distance universality class. Here we apply this viewpoint to geometry and initiate a program of classifying homogeneous metrics on group manifolds by their long-distance properties. We show that many metrics on low-dimensional Lie groups have markedly different short-distance properties but nearly identical distance functions at long distances, and pr",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns long-distance universality of homogeneous metrics on Lie groups and quantum complexity geometry, with no mention of quaternionic Kähler forms, CNF formulas, or resolution proof width. It shares no specific claim with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2412.10301",
+      "title": "Complex quaternionic manifolds and c-projective structures",
+      "abstract_excerpt": "We discuss complex quaternionic manifolds, i.e., those that have holonomy $GL(n,\\mathbb{H})U(1)$, which naturally arise via quaternionic Feix--Kaledin construction. We show that for a fixed c-projective class, any real analytic connection with type $(1,1)$ curvature induces, via quaternionic Feix--Kaledin construction, an $S^1$-invariant connection with holonomy contained in $GL(n,\\mathbb{H})U(1)$. As an application, we characterize in this setting the distinguished $U^*(2n):=SL(n,\\mathbb{H})U(1",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses complex quaternionic manifolds with holonomy GL(n,H)U(1) and c-projective structures via the Feix-Kaledin construction, with no mention of CNF formulas, resolution proof width, or any connection to proof complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

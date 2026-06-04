@@ -1,0 +1,31 @@
+{
+  "entry_id": "92c2a982baae",
+  "ts": 1780547220.1285896,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:57580be407bd2588fbcbbe29c1d600c2bf468f3d",
+      "title": "Automata, languages and programming : 18th International Colloquium, Madrid, Spain, July 8-12, 1991 : proceedings",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available for the cited proceedings volume, so it is impossible to assess whether it supports, refutes, or is orthogonal to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:c9b0f275a72e8cf2ea10146e9e626f6494978997",
+      "title": "Automata, languages and programming : 18th International Colloquium, Madrid, Spain, July 8-12, 1991 : proceedings",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available ('no abstract available'), so I cannot determine whether the paper addresses p-adic L-functions, SAT clause subsets, or the specific bounds in the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 2
+  }
+}
