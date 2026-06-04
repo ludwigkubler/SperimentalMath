@@ -1,0 +1,40 @@
+{
+  "entry_id": "39831ff7bba7",
+  "ts": 1780534923.6725373,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/nlin/0101006v1",
+      "title": "On Complexity and Emergence",
+      "abstract_excerpt": "Numerous definitions for complexity have been proposed over the last half century, with little consensus achieved on how to use the term. A definition of complexity is supplied here that is closely related to the Kolmogorov Complexity and Shannon Entropy measures widely used as complexity measures, ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses general definitions of complexity related to Kolmogorov Complexity and Shannon Entropy, with no mention of eta-invariants, algebraic varieties, CNF formulas, or resolution proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/0911.3482v5",
+      "title": "Complexity of Networks (reprise)",
+      "abstract_excerpt": "Network or graph structures are ubiquitous in the study of complex systems. Often, we are interested in complexity trends of these system as it evolves under some dynamic. An example might be looking at the complexity of a food web as species enter an ecosystem via migration or speciation, and leave",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns complexity trends of network/graph structures in complex systems (e.g., food webs), with no mention of eta-invariants, CNF formulas, or resolution proof width. It shares no substantive content with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1607.00443v1",
+      "title": "Algebraic Proof Complexity: Progress, Frontiers and Challenges",
+      "abstract_excerpt": "We survey recent progress in the proof complexity of strong proof systems and its connection to algebraic circuit complexity, showing how the synergy between the two gives rise to new approaches to fundamental open questions, solutions to old problems, and new directions of research. In particular, ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a survey of algebraic proof complexity and its connection to algebraic circuit complexity, with no mention of eta-invariants, varieties, or resolution proof width specifically. It shares the broad framework of algebra-meets-proof-complexity but does not engage with the specific claim relating η(φ) to w(φ).",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
