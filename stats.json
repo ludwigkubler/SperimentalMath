@@ -1,18 +1,18 @@
 {
-  "last_update_utc": "2026-06-04T11:47:06Z",
-  "total_cycles": 4960,
+  "last_update_utc": "2026-06-04T12:47:05Z",
+  "total_cycles": 4967,
   "verdict_counts": {
-    "INCONCLUSIVE": 3236,
+    "INCONCLUSIVE": 3241,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 1618,
+    "BARRIER_HIT": 1620,
     "SCOOPED": 86
   },
-  "unique_field_A": 2124,
+  "unique_field_A": 2127,
   "top_fields_A": [
     [
       "Algebraic Geometry (Hodge Theory)",
-      137
+      138
     ],
     [
       "Resolution proof complexity",
@@ -24,7 +24,7 @@
     ],
     [
       "Symplectic Geometry",
-      97
+      98
     ],
     [
       "Real Algebraic Geometry",
