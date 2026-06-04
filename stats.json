@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-06-04T21:47:14Z",
-  "total_cycles": 5048,
+  "last_update_utc": "2026-06-04T22:47:06Z",
+  "total_cycles": 5059,
   "verdict_counts": {
-    "INCONCLUSIVE": 3300,
+    "INCONCLUSIVE": 3306,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 1642,
+    "BARRIER_HIT": 1647,
     "SCOOPED": 86
   },
-  "unique_field_A": 2156,
+  "unique_field_A": 2160,
   "top_fields_A": [
     [
       "Algebraic Geometry (Hodge Theory)",
@@ -20,11 +20,11 @@
     ],
     [
       "Tropical Geometry",
-      114
+      115
     ],
     [
       "Symplectic Geometry",
-      100
+      101
     ],
     [
       "Real Algebraic Geometry",
@@ -63,11 +63,11 @@
       36
     ],
     [
-      "Algebraic Geometry",
-      33
+      "Modular Form Theory",
+      34
     ],
     [
-      "Modular Form Theory",
+      "Algebraic Geometry",
       33
     ]
   ]

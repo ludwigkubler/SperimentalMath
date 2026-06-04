@@ -1,0 +1,22 @@
+{
+  "entry_id": "92f8c4dcf484",
+  "ts": 1780612712.0887873,
+  "hits_evaluated": 1,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.1017/bsl.2018.13",
+      "title": "2017 EUROPEAN SUMMER MEETING OF THE ASSOCIATION FOR SYMBOLIC LOGIC LOGIC COLLOQUIUM ’17 Stockholm, Sweden August 14–20, 2017",
+      "abstract_excerpt": "s of invited and contributed talks given in person or by title by members of the Association follow. For the Program Committee Mirna Džamonja Abstracts of Invited Talkss of Invited Talks DAVID ASPERÓ, Generic absoluteness for Chang models. School of Mathematics, University of East Anglia, Norwich Research Park, Norwich NR4 7TJ, UK. E-mail: d.aspero@uea.ac.uk. URL Address: https://archive.uea.ac.uk/∼bfe12ncu/ The main focus of the talk will be on extensions of Woodin’s classical result that, in t",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract is a collection of talks from a symbolic logic colloquium covering topics like generic absoluteness, Chang models, and surreal differential calculus — none of which address tropical geometry, communication complexity, or rank correlations between them.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 0
+  }
+}

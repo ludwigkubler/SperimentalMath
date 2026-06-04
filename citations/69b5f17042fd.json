@@ -1,0 +1,22 @@
+{
+  "entry_id": "69b5f17042fd",
+  "ts": 1780612195.2715158,
+  "hits_evaluated": 1,
+  "verdicts": [
+    {
+      "paper_id": "s2:910323219ec465b5647fe56e424077432ec769e1",
+      "title": "Plenary Lectures and Ceremonies",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available ('(no abstract available)'), so I cannot determine whether the paper addresses the conjectured link between Gromov-Witten invariants and communication complexity rank.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 1
+  }
+}

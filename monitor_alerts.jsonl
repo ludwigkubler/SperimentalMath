@@ -3393,8 +3393,9 @@
 {"ts": 1780608605.365599, "kind": "NOTEBOOK_LARGE", "auto_fixed": false, "detail": {"size_mb": 96.105722}}
 {"ts": 1780608606.7246475, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 39}}
 {"ts": 1780608606.9820807, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1779, "cap": 2000, "fraction": 0.889, "weekly_budget": 2500}}
-{"ts": 1780609803.74871, "ts_iso": "2026-06-04T21:50:03.748710+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "DEGRADED", "to_status": "OK", "failing_checks": [], "auto_fixed": false}
-{"ts": 1780610701.55982, "ts_iso": "2026-06-04T22:05:01.559820+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "OK", "to_status": "DEGRADED", "failing_checks": ["cron_logs_no_trace"], "auto_fixed": false}
-{"ts": 1780611001.469359, "ts_iso": "2026-06-04T22:10:01.469359+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "DEGRADED", "to_status": "OK", "failing_checks": [], "auto_fixed": false}
-{"ts": 1780611901.201369, "ts_iso": "2026-06-04T22:25:01.201369+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "OK", "to_status": "DEGRADED", "failing_checks": ["cron_logs_no_trace"], "auto_fixed": false}
-{"ts": 1780612201.121447, "ts_iso": "2026-06-04T22:30:01.121447+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "DEGRADED", "to_status": "OK", "failing_checks": [], "auto_fixed": false}
+{"ts": 1780610405.8338265, "kind": "NOTEBOOK_LARGE", "auto_fixed": false, "detail": {"size_mb": 96.189733}}
+{"ts": 1780610407.205392, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 39}}
+{"ts": 1780610407.4769552, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1776, "cap": 2000, "fraction": 0.888, "weekly_budget": 2500}}
+{"ts": 1780612204.3891602, "kind": "NOTEBOOK_LARGE", "auto_fixed": false, "detail": {"size_mb": 96.262497}}
+{"ts": 1780612205.710676, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 39}}
+{"ts": 1780612205.817915, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1779, "cap": 2000, "fraction": 0.889, "weekly_budget": 2500}}
