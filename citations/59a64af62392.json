@@ -1,0 +1,40 @@
+{
+  "entry_id": "59a64af62392",
+  "ts": 1780549733.7910147,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2103.03623",
+      "title": "The Clifford algebra of $R^{n,n}$ and the Boolean Satisfiability Problem",
+      "abstract_excerpt": "We formulate a Boolean algebra in the set of idempotents of Clifford algebra Cl($R^{n,n}$) and within this frame we examine different formulations of the Boolean Satisfiability Problem in Clifford algebra. Exploiting the isomorphism between null subspaces of $R^{n,n}$ associated to simple spinors and the orthogonal group O(n) we ultimately give a continuous formulation of the Boolean Satisfiability Problem within this group that opens unexplored perspectives.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes formulating SAT within Clifford algebra Cl(R^{n,n}) and via the orthogonal group O(n), with no mention of integral points on algebraic curves or resolution proof width. It shares only the SAT vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1904.02629",
+      "title": "The Boolean SATisfiability Problem and the orthogonal group $O(n)$",
+      "abstract_excerpt": "We explore the relations between the Boolean Satisfiability Problem with $n$ Boolean variables and the orthogonal group $\\mbox{O}(n)$. We show that all $2^n$ possible solutions induce involutions of $\\mathbb{R}^n$ that lie in the compact, disconnected real manifold of dimension $n (n-1)/2$ of $\\mbox{O}(n)$. This result in turn gives a new unsatisfiability test within group $\\mbox{O}(n)$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract relates SAT solutions to involutions in the orthogonal group O(n) and proposes an unsatisfiability test, with no mention of integral points on algebraic curves or resolution proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1602.06867",
+      "title": "Lower bound for the Complexity of the Boolean Satisfiability Problem",
+      "abstract_excerpt": "This paper depicts algorithms for solving the decision Boolean Satisfiability Problem. An extreme problem is formulated to analyze the complexity of algorithms and the complexity for solving it. A novel and easy reformulation as a lottery for an extreme case is presented to determine a stable complexity around $2^n$. The reformulation point out that the decision Boolean Satisfiability Problem can only be solved in exponential time. This implies there is not an efficient algorithm for the NP Clas",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses SAT decision complexity via a 'lottery' reformulation aiming at a $2^n$ lower bound, with no mention of resolution proof width or integral points on algebraic curves. It shares only the SAT vocabulary and does not interact with the specific Θ(w(φ)) claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

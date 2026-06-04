@@ -1,0 +1,40 @@
+{
+  "entry_id": "827731e68ead",
+  "ts": 1780551812.2194395,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2503.14756",
+      "title": "SceneEval: Evaluating Semantic Coherence in Text-Conditioned 3D Indoor Scene Synthesis",
+      "abstract_excerpt": "Despite recent advances in text-conditioned 3D indoor scene generation, there remain gaps in the evaluation of these methods. Existing metrics often measure realism by comparing generated scenes to a set of ground-truth scenes, but they overlook how well scenes follow the input text and capture implicit expectations of plausibility. We present SceneEval, an evaluation framework designed to address these limitations. SceneEval introduces fine-grained metrics for explicit user requirements-includi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'SceneEval, an evaluation framework' for 'text-conditioned 3D indoor scene generation,' which has no connection to arithmetic hierarchy complexity or boolean circuit monotone width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2408.02211",
+      "title": "SceneMotifCoder: Example-driven Visual Program Learning for Generating 3D Object Arrangements",
+      "abstract_excerpt": "Despite advances in text-to-3D generation methods, generation of multi-object arrangements remains challenging. Current methods exhibit failures in generating physically plausible arrangements that respect the provided text description. We present SceneMotifCoder (SMC), an example-driven framework for generating 3D object arrangements through visual program learning. SMC leverages large language models (LLMs) and program synthesis to overcome these challenges by learning visual programs from exa",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'SceneMotifCoder' for generating 3D object arrangements via visual program learning, with no mention of arithmetic hierarchy, boolean functions, or circuit monotone width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2509.13291",
+      "title": "Towards an Embodied Composition Framework for Organizing Immersive Computational Notebooks",
+      "abstract_excerpt": "As immersive technologies evolve, immersive computational notebooks offer new opportunities for interacting with code, data, and outputs. However, scaling these environments remains a challenge, particularly when analysts manually arrange large numbers of cells to maintain both execution logic and visual coherence. To address this, we introduce an embodied composition framework, facilitating organizational processes in the context of immersive computational notebooks. To evaluate the effectivene",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'embodied composition framework' for 'immersive computational notebooks' — an HCI topic with no connection to arithmetic hierarchy complexity or boolean circuit monotone width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
