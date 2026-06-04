@@ -1,0 +1,31 @@
+{
+  "entry_id": "003527ecfac5",
+  "ts": 1780585934.7393742,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:1110.6841",
+      "title": "Complexity and heights of tori",
+      "abstract_excerpt": "We prove detailed asymptotics for the number of spanning trees, called complexity, for a general class of discrete tori as the parame- ters tend to infinity. The proof uses in particular certain ideas and techniques from an earlier paper [CJK10]. Our asymptotic formula provides a link between the co",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns asymptotics for the number of spanning trees ('complexity') of discrete tori, which is unrelated to Ehrhart quotients of Boolean formula polytopes or DPLL proof tree heights despite sharing the word 'complexity'.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:d9ea8ba418ebc5790d484a0daf40aa86c775c6a6",
+      "title": "0 . 68 41 v 1 [ m at hph ] 3 1 O ct 2 01 1 Complexity and heights of tori",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available for this paper, so I cannot determine whether it supports, refutes, or is orthogonal to the conjecture about Ehrhart quotients and DPLL proof tree heights.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}
