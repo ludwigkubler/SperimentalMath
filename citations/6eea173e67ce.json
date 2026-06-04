@@ -1,0 +1,40 @@
+{
+  "entry_id": "6eea173e67ce",
+  "ts": 1780537999.5667772,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.1016/j.ffa.2020.101733",
+      "title": "Classification of quadratic APN functions with coefficients in F2 for dimensions up to 9",
+      "abstract_excerpt": "Abstract Almost perfect nonlinear (APN) and almost bent (AB) functions are integral components of modern block ciphers and play a fundamental role in symmetric cryptography. In this paper, we describe a procedure for searching for quadratic APN functions with coefficients in F 2 over the finite field F 2 n and apply this procedure to classify all such functions over F 2 n with n ≤ 9 . We discover two new APN functions (which are also AB) over F 2 9 that are CCZ-inequivalent to any known APN func",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns classification of quadratic APN functions over F2^n for cryptographic purposes, with no mention of Grothendieck-Suslin dimension, CNF ideals, or Frege proof complexity. It shares only the F2 vocabulary but does not interact with the conjecture's claims.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10.1007/978-3-319-16277-5_7",
+      "title": "Affine Equivalency and Nonlinearity Preserving Bijective Mappings over 𝔽2",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available, so I cannot determine whether the paper addresses Grothendieck-Suslin dimension, Frege proof complexity, or the conjectured bounds. The title alone (on affine equivalency and nonlinearity preserving mappings over F2) does not clearly engage with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10.1090/chel/383.h/07",
+      "title": "Unique Factorization",
+      "abstract_excerpt": "Division Algorithm [Lang, Theorem 4.1, p. 190]. Let f ∈ R[X] and let 0 = g be a monic polynomial in R[X]. Then there exists a unique polynomial r ∈ R[X] with degree strictly less than the degree of g such that f ≡ r (mod (g)). If R is a commutative ring and r ∈ R , then the principal ideal (X − r) in R[X] is the kernel of the evaluation map ϕ r : f → f (r) from R[X] into R. (2) [remainder theorem] For any f ∈ R[X], f ≡ f (r) (mod (X − r)). (3) If R is an integral domain, then the ideal (X − r) i",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses elementary commutative algebra (division algorithm, prime ideals, height) with no mention of Grothendieck-Suslin dimension, symmetric functions over F2, CNF formulas, or Frege proof complexity. It shares no specific claim with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}
