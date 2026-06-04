@@ -1,18 +1,18 @@
 {
-  "last_update_utc": "2026-06-04T16:47:06Z",
-  "total_cycles": 5005,
+  "last_update_utc": "2026-06-04T17:47:06Z",
+  "total_cycles": 5015,
   "verdict_counts": {
-    "INCONCLUSIVE": 3268,
+    "INCONCLUSIVE": 3274,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 1631,
+    "BARRIER_HIT": 1635,
     "SCOOPED": 86
   },
-  "unique_field_A": 2138,
+  "unique_field_A": 2143,
   "top_fields_A": [
     [
       "Algebraic Geometry (Hodge Theory)",
-      141
+      143
     ],
     [
       "Resolution proof complexity",
@@ -68,7 +68,7 @@
     ],
     [
       "Modular Form Theory",
-      32
+      33
     ]
   ]
 }

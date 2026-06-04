@@ -1,0 +1,22 @@
+{
+  "entry_id": "c62a4e620c21",
+  "ts": 1780592971.398318,
+  "hits_evaluated": 1,
+  "verdicts": [
+    {
+      "paper_id": "s2:1905.02110",
+      "title": "On the Entanglement Cost of One-Shot Compression",
+      "abstract_excerpt": "We revisit the task of visible compression of an ensemble of quantum states with entanglement assistance in the one-shot setting. The protocols achieving the best compression use many more qubits of shared entanglement than the number of qubits in the states in the ensemble. Other compression protoc",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'visible compression of an ensemble of quantum states with entanglement assistance' in a one-shot information-theoretic setting, which shares the vocabulary of 'entanglement' but does not address TQFT topological entanglement order or its relation to communication complexity rank of Boolean functions.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 0
+  }
+}

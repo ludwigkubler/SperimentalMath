@@ -1,0 +1,31 @@
+{
+  "entry_id": "57e4310b682b",
+  "ts": 1780594932.1487496,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:6f234602ceea6022678a355ae683962b95691547",
+      "title": "The intersection of commutative algebra and algebraic geometry with combinatorics and discrete geometry is a rich and expanding field. Integral polytopes, purely discrete objects, provide enlight-",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available; the title fragment only mentions intersections of commutative algebra, algebraic geometry, combinatorics, and integral polytopes, with no discernible connection to Hodge decomposition or communication complexity rank.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:2502.10590",
+      "title": "Optimal Bounds for the Number of Pieces of Near-Circuit Hypersurfaces",
+      "abstract_excerpt": "Suppose $f$ is a polynomial in $n$ variables with real coefficients, exactly $n+k$ monomial terms, and Newton polytope of positive volume. Estimating the number of connected components of the positive zero set of $f$ is a fundamental problem in real algebraic geometry, with applications in computati",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns bounding connected components of positive zero sets of sparse real polynomials ('number of connected components of the positive zero set of $f$'), which is unrelated to Hodge decompositions of varieties or communication complexity matrix rank.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}
