@@ -1,0 +1,40 @@
+{
+  "entry_id": "c2528146623d",
+  "ts": 1780556516.1492093,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/1908.01624v1",
+      "title": "Learned Clause Minimization in Parallel SAT Solvers",
+      "abstract_excerpt": "Learned clauses minimization (LCM) let to performance improvements of modern SAT solvers especially in solving hard SAT instances. Despite the success of LCM approaches in sequential solvers, they are not widely incorporated in parallel SAT solvers. In this paper we explore the potential of LCM for ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'Learned Clause Minimization (LCM)' as a heuristic technique for parallel SAT solvers, which shares SAT vocabulary but does not address geometric quantization invariants or any O(n^2) complexity bound on polynomial representations.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2207.13577v2",
+      "title": "Scalable Proof Producing Multi-Threaded SAT Solving with Gimsatul through Sharing instead of Copying Clauses",
+      "abstract_excerpt": "We give a first account of our new parallel SAT solver Gimsatul. Its key feature is to share clauses physically in memory instead of copying them, which is the method of other state-of-the-art multi-threaded SAT solvers to exchange clauses logically. Our approach keeps information about which litera",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a parallel SAT solver that shares clauses physically in memory rather than copying them, with no mention of geometric quantization, polynomial representations, or complexity bounds on invariants.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1505.03340v2",
+      "title": "HordeSat: A Massively Parallel Portfolio SAT Solver",
+      "abstract_excerpt": "A simple yet successful approach to parallel satisfiability (SAT) solving is to run several different (a portfolio of) SAT solvers on the input problem at the same time until one solver finds a solution. The SAT solvers in the portfolio can be instances of a single solver with different configuratio",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a parallel portfolio SAT solver ('run several different (a portfolio of) SAT solvers'), which shares no connection to geometric quantization invariants or polynomial representations of clause sets.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
