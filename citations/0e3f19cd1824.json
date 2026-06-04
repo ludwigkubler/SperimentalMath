@@ -1,0 +1,40 @@
+{
+  "entry_id": "0e3f19cd1824",
+  "ts": 1780530798.381445,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1305.1672",
+      "title": "Kervaire invariants and selfcoincidences",
+      "abstract_excerpt": "Minimum numbers decide e.g. whether a given map f: S^m --&gt; S^n/G from a sphere into a spherical space form can be deformed to a map f' such that f(x) not equal f'(x) for all x in S^m. In this paper we compare minimum numbers to (geometrically defined) Nielsen numbers (which are more computable). In the stable dimension range these numbers coincide. But already in the first nonstable range (when m=2n-2) the Kervaire invariant appears as a decisive additional obstruction which detects interesti",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Kervaire invariants, Nielsen numbers, and selfcoincidences of maps between spheres — topology unrelated to monomial ideals, affine schemes, or DPLL proof length. The shared word 'minimum numbers' refers to a topological deformation concept, not algebraic generators.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0602373v2",
+      "title": "On Differential equation of invariants of binary forms",
+      "abstract_excerpt": "An explicit form of first order PDE for invariants of binary form are found. By solving the equation a minimal generation set for a ring of invariants and theirs syzygies are calculated in the cases $n\\leq 6$ and $n=8.$",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses PDEs for invariants of binary forms and computes minimal generating sets for rings of invariants in low degrees, with no mention of Boolean satisfiability, DPLL proofs, or monomial ideals defining SAT instances.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2112.07476",
+      "title": "Invariant integrals on coideals and their Drinfeld doubles",
+      "abstract_excerpt": "Let $A$ be a CQG Hopf $*$-algebra, i.e. a Hopf $*$-algebra with a positive invariant state. Given a unital right coideal $*$-subalgebra $B$ of $A$, we provide conditions for the existence of a quasi-invariant integral on the stabilizer coideal $B^{\\perp}$ inside the dual discrete multiplier Hopf $*$-algebra of $A$. Given such a quasi-invariant integral, we show how it can be extended to a quasi-invariant integral on the Drinfeld double coideal. We moreover show that the representation theory of ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Hopf *-algebras, coideals, and Drinfeld doubles in quantum group theory — entirely unrelated to monomial generators of ideals in affine schemes or DPLL proof length for SAT instances.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

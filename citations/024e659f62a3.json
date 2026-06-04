@@ -1,0 +1,31 @@
+{
+  "entry_id": "024e659f62a3",
+  "ts": 1780531758.3580983,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:f967aa0ca1f492ac652ddabe8266fe8d9f491dbb",
+      "title": "Explicit Formula of Kähler-Einstein Metric on CartanHartogs Domains",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available, so I cannot assess whether the paper interacts with the conjecture's claim linking Kähler-Einstein metric counts to Frege proof length.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10.1007/s12220-026-02401-4",
+      "title": "Kähler-Einstein Metrics",
+      "abstract_excerpt": "We recall a simple formula for a Kähler-Einstein metric on the unit ball and on the Siegel upper half space, both together with real holomorphic vector fields and consider generalized complex ellipsoids in \\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$$\\mathbb {C}^n$$\\end{document}Cn and show that the logarithm of t",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses explicit Kähler-Einstein metrics on unit balls, Siegel upper half spaces, and complex ellipsoids with real holomorphic vector fields — it makes no mention of Boolean formulas, Frege proof complexity, or counting Kähler-Einstein metrics associated to logical formulas.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}
