@@ -1,0 +1,31 @@
+{
+  "entry_id": "79e17b977914",
+  "ts": 1780583165.272163,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:d52e959a7093edf79a9b43577cc9a2c249117513",
+      "title": "Algebraic K-theory of discrete subgroups of Lie groups",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available for the cited paper, so I cannot assess whether it interacts with the conjecture's claim linking coadjoint algebraic index to resolution proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10.48175/ijarsct-31208",
+      "title": "Group Theory Used in Computer Graphics: Innovative Topics & Applications",
+      "abstract_excerpt": "Group theory provides a rigorous algebraic framework for modelling symmetry and transformation structures arising in applied mathematical systems. In this paper, we investigate the role of finite and continuous transformation groups in computer graphics, with particular emphasis on cyclic and dihedral groups, as well as the Lie groups SO(3) and SE(3). A group-action-based formulation is developed to describe geometric transformations used in object modelling and animation.\nFurthermore, Cayley gr",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses group theory applications in computer graphics (cyclic/dihedral groups, SO(3), SE(3), Cayley graphs for transformation modeling), with no mention of coadjoint representations, resolution proof complexity, or CNF formulas.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}
