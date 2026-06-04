@@ -1,0 +1,40 @@
+{
+  "entry_id": "a36cf21a5bfd",
+  "ts": 1780599096.2395878,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1807.03761",
+      "title": "The second moment of the number of integral points on elliptic curves is bounded",
+      "abstract_excerpt": "Let $K$ be a number field and $S$ a finite set of places of $K$ containing all archimedean places. In this paper, we show that the second moment of the number of $S$-integral points on elliptic curves over $K$ is bounded. In particular, we prove that, for any positive real number $r\\leq \\log_2 5 = 2.3219 \\ldots$, the $r$-th moment of the number of $S$-integral points is bounded for the family of all integral short Weierstrass curves ordered by height, or for any positive density subfamily thereo",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract bounds moments of S-integral points on elliptic curves over number fields using rank and Selmer group averages, with no mention of Boolean satisfiability, resolution proof complexity, or conflict sets. It shares only the vague vocabulary of 'integral points' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0808.2476",
+      "title": "Algebraic points of small height missing a union of varieties",
+      "abstract_excerpt": "Let $K$ be a number field, $\\overline{\\mathbb Q}$, or the field of rational functions on a smooth projective curve over a perfect field, and let $V$ be a subspace of $K^N$, $N \\geq 2$. Let $Z_K$ be a union of varieties defined over $K$ such that $V \\nsubseteq Z_K$. We prove the existence of a point of small height in $V \\setminus Z_K$, providing an explicit upper bound on the height of such a point in terms of the height of $V$ and the degree of a hypersurface containing $Z_K$, where dependence ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns height bounds for algebraic points avoiding subvarieties in number fields and function fields ('existence of a point of small height in V \\ Z_K'), which shares no interaction with Boolean satisfiability conflict sets or resolution proof tree height.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2408.07631",
+      "title": "Counting rational points on Hirzebruch-Kleinschmidt varieties over global function fields",
+      "abstract_excerpt": "Inspired by Bourqui's work on anticanonical height zeta functions on Hirzebruch surfaces, we study height zeta functions of split toric varieties with Picard rank 2 over global function fields, with respect to height functions associated with big metrized line bundles. We show that these varieties can be naturally decomposed into a finite disjoint union of subvarieties, where precise analytic properties of the corresponding height zeta functions can be given. As application, we obtain asymptotic",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'asymptotic formulas for the number of rational points of large height' on Hirzebruch-Kleinschmidt toric varieties over function fields, which shares the vocabulary of counting points on varieties but does not address Boolean satisfiability, conflict sets, or resolution proof tree height.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
