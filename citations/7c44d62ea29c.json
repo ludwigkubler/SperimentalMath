@@ -1,0 +1,31 @@
+{
+  "entry_id": "7c44d62ea29c",
+  "ts": 1780563894.9349334,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.1017/S0022481200046351",
+      "title": "Index of contributed papers",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available ('(no abstract available)'), so I cannot assess whether the cited paper supports, refutes, or is orthogonal to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:2b3cdd1442e58a5bd6096d68f67f129cd64939c0",
+      "title": "Automata, languages and programming : 28th International Colloquium, ICALP 2001, Crete, Greece, July 8-12, 2001 : proceedings",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available for this proceedings volume, so I cannot determine whether any contained work addresses the conjecture linking Brauer group index to resolution proof width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 2
+  }
+}
