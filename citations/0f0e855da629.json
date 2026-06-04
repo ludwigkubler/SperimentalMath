@@ -1,0 +1,31 @@
+{
+  "entry_id": "0f0e855da629",
+  "ts": 1780615300.3076751,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:2512.21451",
+      "title": "An approach to Fisher-Rao metric for infinite dimensional non-parametric information geometry",
+      "abstract_excerpt": "Being infinite dimensional, non-parametric information geometry has long faced an\"intractability barrier\"due to the fact that the Fisher-Rao metric is now a functional incurring difficulties in defining its inverse. This paper introduces a novel framework to resolve the intractability with an Orthog",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the Fisher-Rao metric in infinite-dimensional non-parametric information geometry, with no mention of geometric entropy, Boolean functions, or communication complexity rank. It shares no substantive overlap with the conjecture beyond the broad notion of 'geometry'.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10.1101/2020.07.23.218289",
+      "title": "On Rank Deficiency in Phenotypic Covariance Matrices",
+      "abstract_excerpt": "This paper is concerned with rank deficiency in phenotypic covariance matrices: first to establish it is a problem by measuring it, and then proposing methods to treat for it. Significant rank deficiency can mislead current measures of whole-shape phenotypic integration, because they rely on eigenvalues of the covariance matrix, and highly rank deficient matrices will have a large percentage of meaningless eigenvalues. This paper has three goals. The first is to examine a typical geometric morph",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns rank deficiency in phenotypic covariance matrices in geometric morphometrics, using Shannon entropy to measure 'relative dispersion' of eigenvalues — it shares vocabulary (entropy, rank) but does not address geometric entropy of metric spaces or communication complexity matrix rank for Boolean functions.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 0
+  }
+}

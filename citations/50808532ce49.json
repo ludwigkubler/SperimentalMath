@@ -1,0 +1,31 @@
+{
+  "entry_id": "50808532ce49",
+  "ts": 1780613254.1742296,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.1112/j.1469-7750.2008.tb09228.x",
+      "title": "Tables of Contents",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited entry is a 'Tables of Contents' with no abstract available, so there is no content to evaluate against the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10.1017/bsl.2018.13",
+      "title": "2017 EUROPEAN SUMMER MEETING OF THE ASSOCIATION FOR SYMBOLIC LOGIC LOGIC COLLOQUIUM ’17 Stockholm, Sweden August 14–20, 2017",
+      "abstract_excerpt": "s of invited and contributed talks given in person or by title by members of the Association follow. For the Program Committee Mirna Džamonja Abstracts of Invited Talkss of Invited Talks DAVID ASPERÓ, Generic absoluteness for Chang models. School of Mathematics, University of East Anglia, Norwich Research Park, Norwich NR4 7TJ, UK. E-mail: d.aspero@uea.ac.uk. URL Address: https://archive.uea.ac.uk/∼bfe12ncu/ The main focus of the talk will be on extensions of Woodin’s classical result that, in t",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract is from a symbolic logic colloquium covering topics like generic absoluteness, Chang models, and surreal differential calculus — none of which address Alexander-defect invariants, 2-complexes of graphs, or communication complexity rank.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}

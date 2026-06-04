@@ -1,0 +1,22 @@
+{
+  "entry_id": "c3471d87796d",
+  "ts": 1780614814.326704,
+  "hits_evaluated": 1,
+  "verdicts": [
+    {
+      "paper_id": "s2:e1b53d0f6a0eba426d2786c6abd6795c4c136ed5",
+      "title": "2. Birational Geometry of Log Surfaces",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available for this paper, so it is impossible to determine whether it supports, refutes, or is orthogonal to the conjecture from the provided information.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 1
+  }
+}
