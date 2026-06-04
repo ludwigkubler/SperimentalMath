@@ -1,0 +1,22 @@
+{
+  "entry_id": "10ae0a5c5991",
+  "ts": 1780571570.7870262,
+  "hits_evaluated": 1,
+  "verdicts": [
+    {
+      "paper_id": "s2:f00d943cea727962981a17afc4650e9510d2008f",
+      "title": "How a Math Class Can Be Two Places at Once: A Proposed Mathematical/Philosophical Collaboration",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available, so I cannot assess whether the paper supports, refutes, or is orthogonal to the conjecture relating Hodge-theoretic index to Frege proof depth.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 1
+  }
+}

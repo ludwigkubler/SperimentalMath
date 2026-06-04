@@ -1,0 +1,31 @@
+{
+  "entry_id": "fbeafc6486eb",
+  "ts": 1780573076.621455,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.1007/978-3-540-79719-7_10",
+      "title": "Complexity and Algorithms for Well-Structured k-SAT Instances",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available, so I cannot determine whether the paper addresses Coxeter group generators or the specific O(m^(1/3)n^(2/3)) bound from the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10.1146/ANNUREV.PY.17.090179.002413",
+      "title": "RELATION OF SMALL SOIL FAUNA TO PLANT DISEASE",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper's title concerns soil fauna and plant disease, which has no relationship to Coxeter groups or circuit complexity. No abstract is available, but the title alone makes clear the paper is unrelated to the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}
