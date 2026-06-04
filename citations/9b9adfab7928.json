@@ -1,0 +1,40 @@
+{
+  "entry_id": "9b9adfab7928",
+  "ts": 1780541570.3038359,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/1403.8106v1",
+      "title": "Recent advances on the log-rank conjecture in communication complexity",
+      "abstract_excerpt": "The log-rank conjecture is one of the fundamental open problems in communication complexity. It speculates that the deterministic communication complexity of any two-party function is equal to the log of the rank of its associated matrix, up to polynomial factors. Despite much research, we still kno",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the log-rank conjecture relating deterministic communication complexity to matrix rank, but makes no mention of symplectic geometry, symplectic Grassmannians, or leaf orders. It shares only the 'communication complexity rank' vocabulary without addressing the specific symplectic correlation claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2210.01601v2",
+      "title": "Quantum communication complexity of linear regression",
+      "abstract_excerpt": "Quantum computers may achieve speedups over their classical counterparts for solving linear algebra problems. However, in some cases -- such as for low-rank matrices -- dequantized algorithms demonstrate that there cannot be an exponential quantum speedup. In this work, we show that quantum computer",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses quantum communication complexity for linear regression and dequantized algorithms for low-rank matrices, with no mention of symplectic Grassmannians, symplectic leaves, or symmetric Boolean function rank as in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2103.16512v2",
+      "title": "The tropical symplectic Grassmannian",
+      "abstract_excerpt": "We launch the study of the tropicalization of the symplectic Grassmannian, that is, the space of all linear subspaces that are isotropic with respect to a fixed symplectic form. We formulate tropical analogues of several equivalent characterizations of the symplectic Grassmannian and determine all i",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes tropicalization of the symplectic Grassmannian as a geometric/combinatorial object ('space of all linear subspaces that are isotropic with respect to a fixed symplectic form'), with no mention of Boolean functions, communication complexity, or matrix rank.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
