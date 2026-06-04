@@ -1,0 +1,31 @@
+{
+  "entry_id": "75b4a63dbfab",
+  "ts": 1780604061.0567286,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.1007/jhep07(2025)086",
+      "title": "Differential cross-section measurements of D± and $$ {D}_s^{\\pm } $$ meson production in proton-proton collisions at $$ \\sqrt{s} $$ = 13 TeV with the ATLAS detector",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available to assess the paper's content. Additionally, the title concerns experimental particle physics (D meson production at ATLAS), which appears unrelated to birational geometry or communication complexity, but without the abstract a definitive call cannot be made.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10.1103/PhysRevLett.125.152001",
+      "title": "Observation of the B_{s}^{0}→X(3872)ϕ Decay.",
+      "abstract_excerpt": "Using a data sample of proton-proton collisions at sqrt[s]=13  TeV, corresponding to an integrated luminosity of 140  fb^{-1} collected by the CMS experiment in 2016-2018, the B_{s}^{0}→X(3872)ϕ decay is observed. Decays into J/ψπ^{+}π^{-} and K^{+}K^{-} are used to reconstruct, respectively, the X(3872) and ϕ. The ratio of the product of branching fractions B[B_{s}^{0}→X(3872)ϕ]B[X(3872)→J/ψπ^{+}π^{-}] to the product B[B_{s}^{0}→ψ(2S)ϕ]B[ψ(2S)→J/ψπ^{+}π^{-}] is measured to be [2.21±0.29(stat)±0",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes an experimental particle physics observation of the B_s^0 decay into X(3872)ϕ at CMS, which has no interaction with birational geometry or communication complexity rank as referenced in the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}
