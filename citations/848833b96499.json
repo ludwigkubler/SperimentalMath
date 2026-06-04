@@ -1,0 +1,40 @@
+{
+  "entry_id": "848833b96499",
+  "ts": 1780577696.805425,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0806.0919",
+      "title": "Calculus on Lie algebroids, Lie groupoids and Poisson manifolds",
+      "abstract_excerpt": "We begin with a short presentation of the basic concepts related to Lie groupoids and Lie algebroids, but the main part of this paper deals with Lie algebroids. A Lie algebroid over a manifold is a vector bundle over that manifold whose properties are very similar to those of a tangent bundle. Its dual bundle has properties very similar to those of a cotangent bundle: in the graded algebra of sections of its external powers, one can define an operator similar to the exterior derivative. We prese",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes general calculus on Lie algebroids (Lie derivatives, Schouten-Nijenhuis brackets, exterior derivatives) applied to Poisson manifolds, with no mention of CNF formulas, resolution proof complexity, or any width/order correspondence relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1212.5380",
+      "title": "On properties of principal elements of Frobenius Lie algebras",
+      "abstract_excerpt": "We investigate the properties of principal elements of Frobenius Lie algebras, following the work of M. Gerstenhaber and A. Giaquinto. We prove that any Lie algebra with a left symmetric algebra structure can be embedded, in a natural way, as a subalgebra of some sl(m,K), for K= R or C. Hence, the work of Belavin and Drinfeld on solutions of the Classical Yang-Baxter Equation on simple Lie algebras, applied to the particular case of sl(m, K) alone, paves the way to the complete classification of",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns principal elements of Frobenius Lie algebras and their embedding into sl(m,K), with no mention of Lie algebroids, CNF formulas, or resolution proof width. It shares only general Lie-theoretic vocabulary and does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2401.05274",
+      "title": "On Complex Lie Algebroids with Constant Real Rank",
+      "abstract_excerpt": "We associate a real distribution to any complex Lie algebroid that we call distribution of real elements and a new invariant that we call real rank, given by the pointwise rank of this distribution. When the real rank is constant, we obtain a real Lie algebroid inside the original complex Lie algebroid. Under another regularity condition, we associate a complex Lie subalgebroid that we call the minimal complex subalgebroid. We also provide a local splitting for complex Lie algebroids with consta",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns complex Lie algebroids, real rank invariants, and complexification of vector bundles, with no mention of CNF formulas, resolution proof width, or any connection to proof complexity. It shares only the 'Lie algebroid' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

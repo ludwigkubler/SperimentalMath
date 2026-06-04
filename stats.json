@@ -1,18 +1,18 @@
 {
-  "last_update_utc": "2026-06-04T12:47:05Z",
-  "total_cycles": 4967,
+  "last_update_utc": "2026-06-04T13:47:05Z",
+  "total_cycles": 4974,
   "verdict_counts": {
-    "INCONCLUSIVE": 3241,
+    "INCONCLUSIVE": 3247,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 1620,
+    "BARRIER_HIT": 1621,
     "SCOOPED": 86
   },
-  "unique_field_A": 2127,
+  "unique_field_A": 2129,
   "top_fields_A": [
     [
       "Algebraic Geometry (Hodge Theory)",
-      138
+      139
     ],
     [
       "Resolution proof complexity",
@@ -55,11 +55,11 @@
       36
     ],
     [
-      "Noncommutative Geometry",
-      35
+      "Algebraic K-Theory",
+      36
     ],
     [
-      "Algebraic K-Theory",
+      "Noncommutative Geometry",
       35
     ],
     [

@@ -1,0 +1,40 @@
+{
+  "entry_id": "4d2d4b3e1041",
+  "ts": 1780579908.0743926,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/1102.1242v2",
+      "title": "A refinement of Stone duality to skew Boolean algebras",
+      "abstract_excerpt": "We establish two duality theorems which refine the classical Stone duality between generalized Boolean algebras and locally compact Boolean spaces. In the first theorem we prove that the category of left-handed skew Boolean algebras whose morphisms are proper skew Boolean algebra homomorphisms is eq",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Stone duality refinements for skew Boolean algebras ('duality theorems which refine the classical Stone duality'), with no mention of Kostant sections, Hermitian forms, SAT clauses, or dimension bounds relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/0903.3848v1",
+      "title": "Join-irreducible Boolean functions",
+      "abstract_excerpt": "This paper is a contribution to the study of a quasi-order on the set $Ω$ of Boolean functions, the \\emph{simple minor} quasi-order. We look at the join-irreducible members of the resulting poset $\\tildeΩ$. Using a two-way correspondence between Boolean functions and hypergraphs, join-irreducibility",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a quasi-order on Boolean functions and join-irreducible members studied via hypergraph correspondence; it makes no mention of Kostant sections, Lie algebras, Hermitian forms, or clause-count dimension bounds relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2407.04826v1",
+      "title": "Multi-strategy Based Quantum Cost Reduction of Quantum Boolean Circuits",
+      "abstract_excerpt": "The construction of quantum computers is based on the synthesis of low-cost quantum circuits. The quantum circuit of any Boolean function expressed in a Positive Polarity Reed-Muller $PPRM$ expansion can be synthesized using Multiple-Control Toffoli ($MCT$) gates. This paper proposes two algorithms ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns synthesis of low-cost quantum Boolean circuits via MCT gates and Reed-Muller expansions, with no mention of Kostant sections, Hermitian forms, or clause-count bounds. It shares only the loose 'Boolean' vocabulary and does not interact with the conjecture's claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
