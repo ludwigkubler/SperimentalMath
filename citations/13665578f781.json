@@ -1,0 +1,40 @@
+{
+  "entry_id": "13665578f781",
+  "ts": 1780598410.3962407,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0311029v1",
+      "title": "Zeta functions over zeros of general zeta and $L$-functions",
+      "abstract_excerpt": "We describe in detail three distinct families of generalized zeta functions built over the (nontrivial) zeros of a rather general arithmetic zeta or L-function, extending the scope of two earlier works that treated the Riemann zeros only. Explicit properties are also displayed more clearly than befo",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes 'generalized zeta functions built over the (nontrivial) zeros of a rather general arithmetic zeta or L-function,' which concerns analytic properties of zeta zeros, not local zeta function orders of Tseitin formulas or Frege proof depth. It shares zeta-function vocabulary but does not interact with the conjectured complexity-theoretic claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0903.1238",
+      "title": "Motivic Zeta Functions for Curve Singularities",
+      "abstract_excerpt": "Let X be a complete, geometrically irreducible, singular, algebraic curve defined over a field of characteristic p big enough. Given a local ring O_{P,X} at a rational singular point P of X, we attached a universal zeta function which is a rational function and admits a functional equation if O_{P,X} is Gorenstein. This universal zeta function specializes to other known zeta functions and Poincare series attached to singular points of algebraic curves. In particular, for the local ring attached ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'universal zeta functions' for singular points on algebraic curves and their specialization to Poincaré series, with no mention of Tseitin formulas, Frege proof depth, or graph-theoretic complexity measures. It shares only the vocabulary of 'zeta functions' but does not interact with the proof-complexity claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1712.05169",
+      "title": "Zeros and the functional equation of the quadrilateral zeta function",
+      "abstract_excerpt": "In this paper, we show that all real zeros of the bilateral Hurwitz zeta function $Z(s,a):=ζ(s,a) + ζ(s,1-a)$ with $1/4 \\le a \\le 1/2$ are on only the non-positive even integers exactly same as in the case of $(2^s-1) ζ(s)$. We also prove that all real zeros of the bilateral periodic zeta function $P(s,a):={\\rm{Li}}_s (e^{2πia}) + {\\rm{Li}}_s (e^{2πi(1-a)})$ with $1/4 \\le a \\le 1/2$ are on only the negative even integers just like $ζ(s)$. Moreover, we show that all real zeros of the quadrilatera",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses zeros and functional equations of Hurwitz/periodic/quadrilateral zeta functions in analytic number theory, with no mention of local zeta functions, Tseitin formulas, Frege proof depth, or graph complexity measures.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

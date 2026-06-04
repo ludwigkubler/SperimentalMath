@@ -1,0 +1,40 @@
+{
+  "entry_id": "38f40fce7be0",
+  "ts": 1780595610.5014198,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1512.07347",
+      "title": "Galois Self-Dual Constacyclic Codes",
+      "abstract_excerpt": "Generalizing Euclidean inner product and Hermitian inner product, we introduce Galois inner products, and study the Galois self-dual constacyclic codes in a very general setting by a uniform method. The conditions for existence of Galois self-dual and isometrically Galois self-dual constacyclic codes are obtained. As consequences, the results on self-dual, iso-dual and Hermitian self-dual constacyclic codes are derived.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Galois self-dual constacyclic codes and existence conditions via inner products, with no mention of SAT, clause subsets, or entropy correlations as required by the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/quant-ph/0503236v1",
+      "title": "On Self-Dual Quantum Codes, Graphs, and Boolean Functions",
+      "abstract_excerpt": "A short introduction to quantum error correction is given, and it is shown that zero-dimensional quantum codes can be represented as self-dual additive codes over GF(4) and also as graphs. We show that graphs representing several such codes with high minimum distance can be described as nested regul",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses representing zero-dimensional quantum codes as self-dual additive codes over GF(4) and as graphs, with no mention of SAT instances, clause subsets, or entropy correlations. It shares the 'self-dual code' vocabulary but does not address the conjectured |S| = Θ(2^H(S)) relationship.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1203.1527",
+      "title": "Optimum Subcodes of Self-Dual Codes and Their Optimum Distance Profiles",
+      "abstract_excerpt": "Binary optimal codes often contain optimal or near-optimal subcodes. In this paper we show that this is true for the family of self-dual codes. One approach is to compute the optimum distance profiles (ODPs) of linear codes, which was introduced by Luo, et. al. (2010). One of our main results is the development of general algorithms, called the Chain Algorithms, for finding ODPs of linear codes. Then we determine the ODPs for the Type II codes of lengths up to 24 and the extremal Type II codes o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses optimum distance profiles and subcodes of self-dual codes (e.g., Type II codes, q_{48}), with no mention of SAT instances, clause subsets, or entropy correlations. It shares only the 'self-dual codes' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

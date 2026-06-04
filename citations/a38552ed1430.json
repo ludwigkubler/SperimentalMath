@@ -1,0 +1,40 @@
+{
+  "entry_id": "a38552ed1430",
+  "ts": 1780596932.9220757,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/2407.10394v1",
+      "title": "Lambda-ring structures on the K-theory of algebraic stacks",
+      "abstract_excerpt": "In this paper we consider the K-theory of smooth algebraic stacks, establish lambda and gamma operations, and show that the higher K-theory of such stacks is always a pre-lambda-ring, and is a lambda-ring if every coherent sheaf is the quotient of a vector bundle. As a consequence, we are able to de",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'lambda and gamma operations' on 'K-theory of smooth algebraic stacks' with no mention of Brauer groups, SAT, entropy, or resolution proof width. It shares only the broad framework of algebraic K-theory but does not address the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1705.02295v3",
+      "title": "Vanishing theorems for the negative K-theory of stacks",
+      "abstract_excerpt": "We prove that the homotopy algebraic K-theory of tame quasi-DM stacks satisfies cdh-descent. We apply this descent result to prove that if X is a Noetherian tame quasi-DM stack and i &lt; -dim(X), then K_i(X)[1/n] = 0 (resp. K_i(X, Z/n) = 0) provided that n is nilpotent on X (resp. is invertible on ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns cdh-descent and vanishing of negative K-theory for tame quasi-DM stacks, with no mention of Brauer groups, SAT instances, clause entropy, or resolution proof width. It shares no interaction with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1209.4791v2",
+      "title": "The lower algebraic $K$-theory of virtually cyclic subgroups of the braid groups of the sphere and of $\\mathbb{Z}[B\\_4(\\mathbb{S}^2)]$",
+      "abstract_excerpt": "We study $K$-theoretical aspects of the braid groups $B\\_n(\\mathbb{S}^{2})$ on $n$ strings of the $2$-sphere, which by results of the second two authors, are known to satisfy the Farrell-Jones fibred isomorphism conjecture~\\cite{JM}. In light of this, in order to determine the algebraic $K$-theory o",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns K-theory of braid groups on the 2-sphere and the Farrell-Jones isomorphism conjecture, with no mention of Brauer groups, SAT, clause entropy, or resolution proof width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

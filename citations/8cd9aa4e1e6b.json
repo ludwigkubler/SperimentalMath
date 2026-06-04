@@ -1,0 +1,40 @@
+{
+  "entry_id": "8cd9aa4e1e6b",
+  "ts": 1780598177.3159325,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1102.1242",
+      "title": "A refinement of Stone duality to skew Boolean algebras",
+      "abstract_excerpt": "We establish two duality theorems which refine the classical Stone duality between generalized Boolean algebras and locally compact Boolean spaces. In the first theorem we prove that the category of left-handed skew Boolean algebras whose morphisms are proper skew Boolean algebra homomorphisms is equivalent to the category of étale spaces over locally compact Boolean spaces whose morphisms are étale space cohomomorphisms over continuous proper maps. In the second theorem we prove that the catego",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a Stone duality refinement between skew Boolean algebras and étale spaces, with no mention of quaternion algebras, SAT formulas, clause entropy, or any polynomial relation between them.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1710.01374",
+      "title": "Free-Boolean independence for pairs of algebras",
+      "abstract_excerpt": "We construct pairs of algebras with mixed independence relations by using truncations of reduced free products of algebras. For example, we construct free-Boolean pairs of algebras and free-monotone pairs of algebras. We also introduce free-Boolean cumulants and show that free-Boolean independence is equivalent to the vanishing of mixed cumulants.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'free-Boolean independence' for pairs of algebras using free products and cumulants, which shares the word 'Boolean' but has no connection to CNF satisfiability, quaternion algebras, or clause entropy.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2412.13827",
+      "title": "Bounds for the Zeros of Quaternionic Polynomials and Regular Functions Using Matrix Techniques",
+      "abstract_excerpt": "We investigate the problem of determining the zeros of quaternionic polynomials using matrix method. In a recent paper, Dar et al. \\cite{RD} proved that the zeros of a quaternionic polynomial and the left eigenvalues of the corresponding companion matrix are identical. Building on this, we employ various newly developed matrix techniques to establish several results concerning the location of the zeros of regular polynomials of a quaternionic variable with quaternionic coefficients. These findin",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses 'zeros of quaternionic polynomials' and 'left eigenvalues of the corresponding companion matrix,' which shares only the quaternion vocabulary with the conjecture but does not engage with minimal index, SAT, or clause entropy.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

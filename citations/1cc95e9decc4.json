@@ -1,0 +1,40 @@
+{
+  "entry_id": "1cc95e9decc4",
+  "ts": 1780597706.4437528,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2504.00151",
+      "title": "cozy: Comparative Symbolic Execution for Binary Programs",
+      "abstract_excerpt": "This paper introduces cozy, a tool for analyzing and visualizing differences between two versions of a software binary. The primary use case for cozy is validating \"micropatches\": small binary or assembly-level patches inserted into existing compiled binaries. To perform this task, cozy leverages the Python-based angr symbolic execution framework. Our tool analyzes the output of symbolic execution to find end states for the pre- and post-patched binaries that are compatible (reachable from the s",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes 'cozy', a symbolic execution tool for comparing binary program versions and validating micropatches, which has no interaction with Frobenius norms of binary forms or resolution proof width. The shared word 'binary' refers to compiled software, not binary forms in number theory.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0710.3550",
+      "title": "Free frobenius algebra on the differential forms of a manifold",
+      "abstract_excerpt": "We construct an action of a free resolution of the Frobenius properad on the differential forms of a closed oriented manifold. As a consequence, the forms of a manifold with values in a semi-simple Lie algebra have an additional structure given by an action of a free resolution of the properad describing Lie di-algebras with module compatibility.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'free resolution of the Frobenius properad' acting on differential forms of manifolds — it shares only the words 'Frobenius' and 'resolution' with the conjecture, with no connection to Frobenius norms of binary forms or resolution proof width in SAT complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/astro-ph/0412185v1",
+      "title": "Evolutionary Memory in Binary Systems?",
+      "abstract_excerpt": "Correlation between the spins (rotational velocities) in binaries has previously been established. We now continue and show that the degree of spin correlation is independent of the components' separation. Such a result might be related for example to Zhang's non-linear model for the formation of bi",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns astrophysical binary star systems and spin correlations ('Correlation between the spins (rotational velocities) in binaries'), which has no interaction with Frobenius norms of binary forms or resolution proof complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
