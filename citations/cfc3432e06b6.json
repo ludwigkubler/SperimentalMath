@@ -1,0 +1,40 @@
+{
+  "entry_id": "cfc3432e06b6",
+  "ts": 1780588625.520909,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/2103.09609v1",
+      "title": "Characterizing Tseitin-formulas with short regular resolution refutations",
+      "abstract_excerpt": "Tseitin-formulas are systems of parity constraints whose structure is described by a graph. These formulas have been studied extensively in proof complexity as hard instances in many proof systems. In this paper, we prove that a class of unsatisfiable Tseitin-formulas of bounded degree has regular r",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses regular resolution refutations of Tseitin formulas characterized by graph structure and treewidth-like parameters, with no mention of monodromy groups, algebraic varieties, or normal subgroup orders bounding proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2209.05839v3",
+      "title": "On bounded depth proofs for Tseitin formulas on the grid; revisited",
+      "abstract_excerpt": "We study Frege proofs using depth-$d$ Boolean formulas for the Tseitin contradiction on $n \\times n$ grids. We prove that if each line in the proof is of size $M$ then the number of lines is exponential in $n/(\\log M)^{O(d)}$. This strengthens a recent result of Pitassi et al. [PRT22]. The key techn",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses bounded-depth Frege proof size lower bounds for Tseitin formulas on grids ('the number of lines is exponential in n/(log M)^O(d)'), with no mention of monodromy groups, algebraic varieties, or resolution proof width upper bounds tied to group orders.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1909.06347v3",
+      "title": "Steiner's formula and a variational proof of the isoperimetric inequality",
+      "abstract_excerpt": "We give a new proof of the isoperimetric inequality in the plane, based on Steiner's formula for the area of a convex neighborhood. This proof establishes the isoperimetric inequality directly, without requiring that we separately establish the existence of an optimal domain. In doing so, this proof",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a variational proof of the isoperimetric inequality in the plane via Steiner's formula, which has no connection to monodromy groups, Tseitin formulas, or resolution proof complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
