@@ -1,0 +1,40 @@
+{
+  "entry_id": "af2c169a0f02",
+  "ts": 1780559787.7096646,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/1511.09051v3",
+      "title": "On automorphism groups of affine surfaces",
+      "abstract_excerpt": "This is a survey on the automorphism groups in various classes of affine algebraic surfaces and the algebraic group actions on such surfaces. Being infinite-dimensional, these automorphism groups share some important features of algebraic groups. At the same time, they can be studied from the viewpo",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns automorphism groups of affine algebraic surfaces and algebraic group actions, which shares only the word 'automorphism' with the conjecture about regular languages and circuit monotone width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2104.14760v4",
+      "title": "Automorphism and outer automorphism groups of Right-angled Artin groups are not relatively hyperbolic",
+      "abstract_excerpt": "We show that the automorphism groups of right-angled Artin groups whose defining graphs have at least 3 vertices are not relatively hyperbolic. We then show that the outer automorphism groups are not relatively hyperbolic, if they are not virtually isomorphic to a right-angled Artin group whose defi",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses relative hyperbolicity of automorphism groups of right-angled Artin groups, which shares only the term 'automorphism groups' with the conjecture but does not interact with regular languages or circuit monotone width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1010.3612v2",
+      "title": "Explicit examples of equivalence relations and factors with prescribed fundamental group and outer automorphism group",
+      "abstract_excerpt": "In this paper we give a number of explicit constructions for II$_1$ factors and II$_1$ equivalence relations that have prescribed fundamental group and outer automorphism group. We construct factors and relations that have uncountable fundamental group different from $\\IRpos$. In fact, given any II$",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns II_1 factors and equivalence relations with prescribed fundamental and outer automorphism groups in operator algebra, not regular languages or circuit monotone width. It shares only the generic term 'automorphism group' with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
