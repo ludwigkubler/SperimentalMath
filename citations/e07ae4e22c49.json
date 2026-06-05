@@ -1,0 +1,31 @@
+{
+  "entry_id": "e07ae4e22c49",
+  "ts": 1780644645.6956222,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:2407.01802",
+      "title": "An XOR Lemma for Deterministic Communication Complexity",
+      "abstract_excerpt": "We prove a lower bound on the communication complexity of computing the <tex>$n$</tex> -fold xor of an arbitrary function <tex>$f$</tex>, in terms of the communication complexity and rank of <tex>$f$</tex>. We prove that <tex>$D(f^{\\oplus n}) \\geq n\\cdot(\\frac{\\Omega(D(f))}{\\log \\mathrm{r}\\mathrm{k}",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a lower bound on deterministic communication complexity of XOR-composed functions in terms of D(f) and rank, with no mention of Ehrhart theory, semialgebras, or an O(n log n) upper bound on communication rank. It shares the 'rank' and 'communication complexity' vocabulary but does not address the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:ARXIV:2310.03355",
+      "title": "A Note on the LogRank Conjecture in Communication Complexity",
+      "abstract_excerpt": "The LogRank conjecture of Lovász and Saks (1988) is the most famous open problem in communication complexity theory. The statement is as follows: suppose that two players intend to compute a Boolean function f(x,y) when x is known for the first and y for the second player, and they may send and receive messages encoded with bits, then they can compute f(x,y) with exchanging (log rank(Mf))c bits, where Mf is a Boolean matrix, determined by function f. The problem is widely open and very popular, ",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses the LogRank conjecture via a protocol computing a 'related quantity' tied to low-degree multilinear polynomials mod composites, and explicitly notes 'we cannot prove the conjecture' — it neither establishes nor refutes an O(n log n) rank bound, and makes no mention of Ehrhart theory or semialgebra rank.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 0
+  }
+}
