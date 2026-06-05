@@ -1,0 +1,40 @@
+{
+  "entry_id": "448a846e67ce",
+  "ts": 1780696795.4754303,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:cs/0301022",
+      "title": "Homomorphic public-key cryptosystems and encrypting boolean circuits",
+      "abstract_excerpt": "In this paper homomorphic cryptosystems are designed for the first time over any finite group. Applying Barrington's construction we produce for any boolean circuit of the logarithmic depth its encrypted simulation of a polynomial size over an appropriate finitely generated group.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns homomorphic encryption of boolean circuits via Barrington's construction over finite groups, with no mention of minimal group representation order, circuit entanglement, or any quantitative relation between them. It shares the 'group + boolean circuit' vocabulary but does not address the conjectured Θ(ε(C)) relationship.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2411.10481",
+      "title": "Boolean-aware Boolean Circuit Classification: A Comprehensive Study on Graph Neural Network",
+      "abstract_excerpt": "Boolean circuit is a computational graph that consists of the dynamic directed graph structure and static functionality. The commonly used logic optimization and Boolean matching-based transformation can change the behavior of the Boolean circuit for its graph structure and functionality in logic synthesis. The graph structure-based Boolean circuit classification can be grouped into the graph classification task, however, the functionality-based Boolean circuit classification remains an open pro",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract focuses on GNN-based classification of Boolean circuits via 'Boolean-aware' matching-equivalent classes, with no mention of group representations, minimal order, or circuit entanglement. It shares only the 'Boolean circuit' vocabulary and does not interact with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2402.06740",
+      "title": "Nearest Neighbor Complexity and Boolean Circuits",
+      "abstract_excerpt": "A nearest neighbor representation of a Boolean function $f$ is a set of vectors (anchors) labeled by $0$ or $1$ such that $f(\\vec{x}) = 1$ if and only if the closest anchor to $\\vec{x}$ is labeled by $1$. This model was introduced by Hajnal, Liu, and Turán (2022), who studied bounds on the number of anchors required to represent Boolean functions under different choices of anchors (real vs. Boolean vectors) as well as the more expressive model of $k$-nearest neighbors.\n  We initiate the study of",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'nearest neighbor representations' of Boolean functions and their connection to circuit complexity via 'min-plus polynomial threshold functions,' with no mention of group representations, minimal group order, or quantum/circuit entanglement. It shares only the generic 'Boolean circuits' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "180c1ed1473b",
+  "ts": 1780696573.5142982,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1012.5117",
+      "title": "Giant vacant component left by a random walk in a random d-regular graph",
+      "abstract_excerpt": "We study the trajectory of a simple random walk on a d-regular graph with d&gt;2 and locally tree-like structure as the number n of vertices grows. Examples of such graphs include random d-regular graphs and large girth expanders. For these graphs, we investigate percolative properties of the set of vertices not visited by the walk until time un, where u&gt;0 is a fixed positive parameter. We show that this so-called vacant set exhibits a phase transition in u in the following sense: there exist",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses random walks on d-regular graphs and percolation of vacant sets, with no mention of Hodge decomposition, circuit entanglement, or any connection between algebraic geometry and quantum information. It shares only the 'd-regular graph' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2111.11757",
+      "title": "The contact process over a dynamical d-regular graph",
+      "abstract_excerpt": "We consider the contact process on a dynamic graph defined as a random $d$-regular graph with a stationary edge-switching dynamics. In this graph dynamics, independently of the contact process state, each pair $\\{e_1,e_2\\}$ of edges of the graph is replaced by new edges $\\{e_1',e_2'\\}$ in a crossing fashion: each of $e_1',e_2'$ contains one vertex of $e_1$ and one vertex of $e_2$. As the number of vertices of the graph is taken to infinity, we scale the rate of switching in a way that any fixed ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the contact process (an epidemic-like stochastic process) on dynamic d-regular graphs, with no mention of Hodge decomposition, circuit entanglement, or quantum information. It shares only the 'd-regular graph' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2306.03479",
+      "title": "Extremal spectral behavior of weighted random $d$-regular graphs",
+      "abstract_excerpt": "Analyzing the spectral behavior of random matrices with dependency among entries is a challenging problem. The adjacency matrix of the random $d$-regular graph is a prominent example that has attracted immense interest. A crucial spectral observable is the extremal eigenvalue, which reveals useful geometric properties of the graph. According to the Alon's conjecture, which was verified by Friedman, the (nontrivial) extremal eigenvalue of the random $d$-regular graph is approximately $2\\sqrt{d-1}",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns extremal eigenvalues and eigenvector localization of weighted random d-regular graphs, with no mention of Hodge decomposition rank or quantum circuit entanglement. It shares only the 'd-regular graph' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

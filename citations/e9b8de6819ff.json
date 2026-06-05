@@ -1,0 +1,40 @@
+{
+  "entry_id": "e9b8de6819ff",
+  "ts": 1780696347.9347384,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1207.2443",
+      "title": "Tropical Teichmuller and Siegel spaces",
+      "abstract_excerpt": "In this paper, we present a unified study of the moduli space of tropical curves and Outer space which we link via period maps to the moduli space of tropical abelian varieties and the space of positive definite quadratic forms. Our work is a first step towards exhibiting Outer space and the space of positive definite quadratic forms as analogues of Teichmüller space and Siegel space, respectively, in tropical geometry. All these spaces and the maps among them are described within the category o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns moduli spaces of tropical curves, Outer space, and tropical abelian varieties via period maps — it makes no mention of Tseitin formulas, Hodge dimension invariants of graphs, or circuit depth, so it shares only the broad 'tropical geometry' framework without engaging the specific mhd/circuit-depth claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1712.05384",
+      "title": "Simulation of low-depth quantum circuits as complex undirected graphical models",
+      "abstract_excerpt": "Near term quantum computers with a high quantity (around 50) and quality (around 0.995 fidelity for two-qubit gates) of qubits will approximately sample from certain probability distributions beyond the capabilities of known classical algorithms on state-of-the-art computers, achieving the first milestone of so-called quantum supremacy. This has stimulated recent progress in classical algorithms to simulate quantum circuits. Classical simulations are also necessary to approximate the fidelity of",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns classical simulation of low-depth quantum circuits via treewidth-based methods, with no mention of tropical Hodge dimension, Tseitin formulas, or Boolean circuit depth lower bounds. It shares only the loose vocabulary of 'depth' and 'graphs' but does not address the conjectured mhd(G) = Θ(d(φ_G)) relationship.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1204.3875",
+      "title": "Tropicalizing vs Compactifying the Torelli morphism",
+      "abstract_excerpt": "In this paper, we compare the compactified Torelli morphism (as defined by V. Alexeev) and the tropical Torelli map (as defined by the author in a joint work with S. Brannetti and M. Melo, and furthered studied by M. Chan). Our aim is twofold: on one hand, we will review the construction and main properties of the above mentioned two Torelli maps, focusing in particular on the description of their fibers achieved by the author in joint works with L. Caporaso; on the other hand, we will clarify t",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the comparison of compactified and tropical Torelli maps in algebraic/tropical geometry, with no mention of Tseitin formulas, circuit depth, Hodge dimension, or Boolean complexity. It shares the 'tropical' vocabulary but does not interact with the specific mhd(G) vs d(φ_G) claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
