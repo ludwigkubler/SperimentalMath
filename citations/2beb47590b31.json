@@ -1,0 +1,22 @@
+{
+  "entry_id": "2beb47590b31",
+  "ts": 1780674706.9516294,
+  "hits_evaluated": 1,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.1007/978-3-030-58150-3_40",
+      "title": "Succinct Monotone Circuit Certification: Planarity and Parameterized Complexity",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available, so I cannot assess whether the paper addresses any link between eta-invariants and monotone width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 1
+  }
+}
