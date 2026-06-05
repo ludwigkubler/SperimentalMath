@@ -1,0 +1,40 @@
+{
+  "entry_id": "4245f560c026",
+  "ts": 1780626387.0429304,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.1007/s00453-012-9726-3",
+      "title": "Efficient Fully-Compressed Sequence Representations",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available, and the title ('Efficient Fully-Compressed Sequence Representations') suggests data structures rather than group representation theory or communication complexity, but without the abstract I cannot determine relevance to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:ea274a008cb4b5f7c6610ecc2053491d92dfcf9f",
+      "title": "An intersubjective measure of organizational complexity Œ Emergence: Complexity and Organization",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available for this paper, and the title ('An intersubjective measure of organizational complexity') suggests organizational/management theory rather than representation theory or communication complexity, but without the abstract I cannot determine relevance to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:2312.05909",
+      "title": "On the rank of the communication matrix for deterministic two-way finite automata",
+      "abstract_excerpt": "The communication matrix for two-way deterministic finite automata (2DFA) with $n$ states is defined for an automaton over a full alphabet of all $(2n+1)^n$ possible symbols: its rows and columns are indexed by strings, and the entry $(u, v)$ is $1$ if $uv$ is accepted by the automaton, and $0$ othe",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes the rank of a communication matrix for 2DFAs over strings, not the minimal order of faithful group representations or matrix product problems for groups. It shares the 'communication matrix rank' vocabulary but does not address the conjecture's link to group representation theory.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}
