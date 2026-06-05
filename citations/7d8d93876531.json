@@ -1,0 +1,40 @@
+{
+  "entry_id": "7d8d93876531",
+  "ts": 1780658075.2405689,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2503.14117",
+      "title": "Boolean Circuit Complexity and Two-Dimensional Cover Problems",
+      "abstract_excerpt": "We reduce the problem of proving deterministic and nondeterministic Boolean circuit size lower bounds to the analysis of certain two-dimensional combinatorial cover problems. This is obtained by combining results of Razborov (1989), Karchmer (1993), and Wigderson (1993) in the context of the fusion method for circuit lower bounds with the graph complexity framework of Pudlák, Rödl, and Savický (1988). For convenience, we formalize these ideas in the more general setting of \"discrete complexity\",",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses circuit lower bounds via combinatorial cover problems, graph complexity, and the fusion method — it makes no mention of twisted Brauer groups or any algebraic order bounding communication complexity rank. It shares the general vocabulary of circuit/communication complexity but does not interact with the specific Brauer-group claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2412.14933",
+      "title": "Cirbo: A New Tool for Boolean Circuit Analysis and Synthesis",
+      "abstract_excerpt": "We present an open-source tool for manipulating Boolean circuits. It implements efficient algorithms, both existing and novel, for a rich variety of frequently used circuit tasks such as satisfiability, synthesis, and minimization. We tested the tool on a wide range of practically relevant circuits (computing, in particular, symmetric and arithmetic functions) that have been optimized intensively by the community for the last three years. The tool helped us to win the IWLS 2024 Programming Conte",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a software tool for Boolean circuit satisfiability, synthesis, and minimization, with no mention of Brauer groups, communication complexity, or matrix rank bounds. It shares only the general vocabulary of 'Boolean circuits' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1910.11923",
+      "title": "Learning Boolean Circuits with Neural Networks",
+      "abstract_excerpt": "While on some natural distributions, neural-networks are trained efficiently using gradient-based algorithms, it is known that learning them is computationally hard in the worst-case. To separate hard from easy to learn distributions, we observe the property of local correlation: correlation between local patterns of the input and the target label. We focus on learning deep neural-networks using a gradient-based algorithm, when the target function is a tree-structured Boolean circuit. We show th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses learning Boolean circuits with neural networks and uses communication complexity only as a reduction tool for a depth separation result; it makes no claim about twisted Brauer groups or bounding circuit communication rank by Brauer group order.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

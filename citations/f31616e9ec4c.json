@@ -1,0 +1,40 @@
+{
+  "entry_id": "f31616e9ec4c",
+  "ts": 1780659641.4553702,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1110.2956",
+      "title": "Brauer spaces for commutative rings and structured ring spectra",
+      "abstract_excerpt": "Using an analogy between the Brauer groups in algebra and the Whitehead groups in topology, we first use methods of algebraic K-theory to give a natural definition of Brauer spectra for commutative rings, such that their homotopy groups are given by the Brauer group, the Picard group and the group of units. Then, in the context of structured ring spectra, the same idea leads to two-fold non-connected deloopings of the spectra of units.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Brauer spectra for commutative rings and structured ring spectra via algebraic K-theory analogies with Whitehead groups, with no mention of Boolean circuits, monotone width, or any complexity-theoretic notion. It shares only the 'Brauer group' vocabulary without interacting with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2412.20260",
+      "title": "Functorial, operadic and modular operadic combinatorics of circuit algebras",
+      "abstract_excerpt": "Circuit algebras are a symmetric analogue of Jones's planar algebras introduced to study finite-type invariants of virtual knotted objects. Circuit algebra structures appear, in different forms, across mathematics. This paper provides a dictionary for translating between their diverse incarnations and describing their wider context. A formal definition of a broad class of circuit algebras is established and three equivalent descriptions of circuit algebras are provided: in terms of operads of wi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'circuit algebras' as a symmetric analogue of planar algebras for knot theory, and mentions 'Brauer diagrams' as a categorical framework — not Brauer groups of Boolean circuits nor any complexity-theoretic width bound. The shared vocabulary ('circuit', 'Brauer') is coincidental and the paper does not address the conjecture's claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2509.25737",
+      "title": "Involutive Brauer groups and Poincaré rings",
+      "abstract_excerpt": "We use the formalism of Poincaré $ \\infty $-categories, as developed by Calmès-Dotto-Harpaz-Hebestreit-Land-Moi-Nardin-Nikolaus-Steimle, to define and study moduli stacks of line bundles with $ λ$-hermitian pairings and of Morita equivalence classes of Azumaya algebras equipped with an involution. Our moduli spaces give rise to enhancements of the ordinary Picard and Brauer groups which incorporate the data of an involution on the base; we will refer to these new invariants as the Poincaré Picar",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Poincaré ∞-categories, involutive Brauer groups, and moduli stacks of Azumaya algebras — a purely algebraic/homotopical setting with no mention of Boolean circuits, monotone width, or any complexity-theoretic bound relating Brauer group order to circuit parameters.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
