@@ -1,0 +1,40 @@
+{
+  "entry_id": "e264fe6d0d8b",
+  "ts": 1780646165.6450365,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2209.05839",
+      "title": "On bounded depth proofs for Tseitin formulas on the grid; revisited",
+      "abstract_excerpt": "We study Frege proofs using depth-$d$ Boolean formulas for the Tseitin contradiction on $n \\times n$ grids. We prove that if each line in the proof is of size $M$ then the number of lines is exponential in $n/(\\log M)^{O(d)}$. This strengthens a recent result of Pitassi et al. [PRT22]. The key technical step is a multi-switching lemma extending the switching lemma of Håstad [Hås20] for a space of restrictions related to the Tseitin contradiction. The strengthened lemma also allows us to improve ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses bounded-depth Frege proof size lower bounds for Tseitin formulas on grids via switching lemmas, not resolution proof width or any connection to minimal generators of affine algebraic groups. It shares the 'Tseitin formula' vocabulary but does not interact with the specific Ω(n²) width claim or the algebraic-group equivalence.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2006.04124",
+      "title": "On the Complexity of Branching Proofs",
+      "abstract_excerpt": "We consider the task of proving integer infeasibility of a bounded convex $K$ in $\\mathbb{R}^n$ using a general branching proof system. In a general branching proof, one constructs a branching tree by adding an integer disjunction $\\mathbf{a} \\mathbf{x} \\leq b$ or $\\mathbf{a} \\mathbf{x} \\geq b+1$, $\\mathbf{a} \\in \\mathbb{Z}^n$, $b \\in \\mathbb{Z}$, at each node, such that the leaves of the tree correspond to empty sets (i.e., $K$ together with the inequalities picked up from the root to leaf is e",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses branching/cutting plane proofs and Tseitin formulas (showing quasi-polynomial CP refutations), but says nothing about resolution proof width lower bounds or any connection to affine algebraic groups or their minimal generators.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2402.00542",
+      "title": "Hardness of Random Reordered Encodings of Parity for Resolution and CDCL",
+      "abstract_excerpt": "Parity reasoning is challenging for Conflict-Driven Clause Learning (CDCL) SAT solvers. This has been observed even for simple formulas encoding two contradictory parity constraints with different variable orders (Chew and Heule 2020). We provide an analytical explanation for their hardness by showing that they require exponential resolution refutations with high probability when the variable order is chosen at random. We obtain this result by proving that these formulas, which are known to be T",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses exponential resolution refutation size (length) lower bounds for Tseitin formulas via treewidth arguments, not resolution proof width Ω(n^2) bounds, and makes no mention of affine algebraic groups or minimal generators. It shares the Tseitin-formula vocabulary but does not interact with the specific width/generator claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

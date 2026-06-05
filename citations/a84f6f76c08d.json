@@ -1,0 +1,40 @@
+{
+  "entry_id": "a84f6f76c08d",
+  "ts": 1780646927.6929243,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/0911.3482v5",
+      "title": "Complexity of Networks (reprise)",
+      "abstract_excerpt": "Network or graph structures are ubiquitous in the study of complex systems. Often, we are interested in complexity trends of these system as it evolves under some dynamic. An example might be looking at the complexity of a food web as species enter an ecosystem via migration or speciation, and leave",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns complexity trends of network/graph structures in evolving systems (e.g., food webs), with no mention of Gröbner bases, Boolean circuits, or characteristic polynomials. It shares only the generic word 'complexity' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2210.06739v1",
+      "title": "Computing the Best Case Energy Complexity of Satisfying Assignments in Monotone Circuits",
+      "abstract_excerpt": "Measures of circuit complexity are usually analyzed to ensure the computation of Boolean functions with economy and efficiency. One of these measures is energy complexity, which is related to the number of gates that output true in a circuit for an assignment. The idea behind energy complexity comes",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses energy complexity (number of true-output gates) in monotone circuits, which shares the circuit-complexity framework but does not address Gröbner basis representations or polynomial order bounds of characteristic polynomials.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1908.01979v1",
+      "title": "Non-Invasive Reverse Engineering of Finite State Machines Using Power Analysis and Boolean Satisfiability",
+      "abstract_excerpt": "In this paper, we present a non-invasive reverse engineering attack based on a novel approach that combines functional and power analysis to recover finite state machines from their synchronous sequential circuit implementations. The proposed technique formulates the machine exploration and state id",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a reverse-engineering attack on finite state machines using power analysis and Boolean satisfiability, with no mention of Gröbner bases, characteristic polynomials, or complexity bounds like O(n^2 log n). It shares only the loose vocabulary of 'circuits' and 'satisfiability' without addressing the specific algebraic claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
