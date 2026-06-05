@@ -1,0 +1,40 @@
+{
+  "entry_id": "35e2148a9a07",
+  "ts": 1780691531.5661268,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1203.3322",
+      "title": "A note on Shannon entropy",
+      "abstract_excerpt": "We present a somewhat different way of looking on Shannon entropy. This leads to an axiomatisation of Shannon entropy that is essentially equivalent to that of Fadeev. In particular we give a new proof of Fadeev theorem.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns an axiomatization of Shannon entropy and a new proof of Fadeev's theorem, with no mention of communication complexity, protocols, or geometric entropy bounds. It shares only the general vocabulary of 'Shannon entropy' without interacting with the specific Θ(n log n) claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/quant-ph/0305062v2",
+      "title": "Renyi extrapolation of Shannon entropy",
+      "abstract_excerpt": "Relations between Shannon entropy and Renyi entropies of integer order are discussed. For any N-point discrete probability distribution for which the Renyi entropies of order two and three are known, we provide an lower and an upper bound for the Shannon entropy. The average of both bounds provide a",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses bounds relating Shannon entropy to Renyi entropies of integer order for discrete probability distributions, with no mention of communication complexity, protocols, or geometric entropy of metric spaces. It shares only the general vocabulary of 'Shannon entropy' but does not interact with the specific claim about communication protocols.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1706.07735",
+      "title": "Shannon Entropy Reinterpreted",
+      "abstract_excerpt": "In this paper we remark that Shannon entropy can be expressed as a function of the self-information (i.e. the logarithm) and the inverse of the Lambert $W$ function. It means that we consider that Shannon entropy has the trace form: $-k \\sum_{i} W^{-1} \\circ \\mathsf{ln}(p_{i})$. Based on this remark we define a generalized entropy which has as a limit the Shannon entropy. In order to facilitate the reasoning this generalized entropy is obtained by a one-parameter deformation of the logarithmic f",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract reinterprets Shannon entropy via the Lambert W function and defines a generalized deformed entropy with connections to thermodynamics and t-norms; it makes no claim about communication protocols, geometric entropy of metric spaces, or O(n log n) bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
