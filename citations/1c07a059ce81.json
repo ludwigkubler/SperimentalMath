@@ -1,0 +1,31 @@
+{
+  "entry_id": "1c07a059ce81",
+  "ts": 1780672531.7174075,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:43c7f278c330d459c79bbf83b07fc4d18d5afb3b",
+      "title": "Kähler manifolds and extrinsic shapes of curves through isometric immersions",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available, so I cannot determine whether the paper addresses the conjecture's specific claim linking Kähler metric structure to Boolean circuit depth.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:5233c42b87e4dc651f7163ec5afc4ba2374fe434",
+      "title": "Conference on Several Complex Variables on the occasion of",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available for this citation, so I cannot assess whether the paper supports, refutes, or is orthogonal to the conjecture linking Kähler manifold complex structures to circuit depth.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 2
+  }
+}
