@@ -1,0 +1,40 @@
+{
+  "entry_id": "eadd43cabe3d",
+  "ts": 1780693304.5249372,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2011.11054",
+      "title": "Consecutive Quadratic Residues And Quadratic Nonresidue Modulo $p$",
+      "abstract_excerpt": "Let $p$ be a large prime, and let $k\\ll \\log p$. A new proof of the existence of any pattern of $k$ consecutive quadratic residues and quadratic nonresidues is introduced in this note. Further, an application to the least quadratic nonresidues $n_p$ modulo $p$ shows that $n_p\\ll (\\log p)(\\log \\log p)$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses patterns of consecutive quadratic residues/nonresidues mod p and bounds on the least quadratic nonresidue, with no mention of DPLL, CNF, or proof complexity. It shares the 'quadratic residue' vocabulary but does not interact with the conjecture's claim about DPLL proof length.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2304.07644",
+      "title": "Chain Lemma, Quadratic Forms and Symbol Length",
+      "abstract_excerpt": "We want to bound the symbol length of classes in ${_{2^{m-1}}Br}(F)$ which are represented by tensor products of 5 or 6 cyclic algebras of degree $2^m$. The main ingredients are the chain lemma for quadratic forms, a form of a generalized Clifford invariant and Pfister's and Rost's descriptions of 12- and 14-dimensional forms in $I^3 F$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns bounding symbol length in the Brauer group via tensor products of cyclic algebras and quadratic forms — it makes no reference to DPLL, CNF proofs, or proof complexity, so it shares only loose vocabulary ('quadratic', 'symbol length') with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2405.13159",
+      "title": "Small Prime $k$th Power Residues and Nonresidues in Arithmetic Progressions",
+      "abstract_excerpt": "Let $p$ be a large odd prime, let $x=\\log p)(\\log\\log p)^{3+\\varepsilon}$ and let $q\\ll\\log\\log p$ be an integer, where $\\varepsilon&gt;0$ is a small number. This note proves the existence of small prime quadratic residues and small prime quadratic nonresidues in the arithmetic progression $a+qm\\ll x$, with relatively prime $1\\leq a&lt;q$, unconditionally. The same results are generalized to small prime $k$th power residues and nonresidues, where $k\\mid p-1$ and $k\\ll\\log\\log p$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the existence of small prime kth power residues and nonresidues in arithmetic progressions, an analytic number theory result with no connection to DPLL proof complexity or CNF formulas. It shares only the vocabulary 'quadratic residue' with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

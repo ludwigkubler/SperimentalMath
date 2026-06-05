@@ -1,0 +1,40 @@
+{
+  "entry_id": "b2e575bf6928",
+  "ts": 1780693064.7803342,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1607.05594",
+      "title": "Poincaré series of compressed local Artinian rings with odd top socle degree",
+      "abstract_excerpt": "We define a notion of compressed local Artinian ring that does not require the ring to contain a field. Let $(R,\\mathfrak m)$ be a compressed local Artinian ring with odd top socle degree $s$, at least five, and $\\operatorname{socle}(R)\\cap \\mathfrak m^{s-1}=\\mathfrak m^s$. We prove that the Poincaré series of all finitely generated modules over $R$ are rational, sharing a common denominator, and that there is a Golod homomorphism from a complete intersection onto $R$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Poincaré series, Golod homomorphisms, and compressed local Artinian rings — it makes no mention of induction ring rank, SAT instances, or clause subset complexity, so it shares only the vague 'local ring' vocabulary without interacting with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/astro-ph/0405128v1",
+      "title": "Probing the Evolution of the Galaxy Interaction/Merger Rate Using Collisional Ring Galaxies",
+      "abstract_excerpt": "We present the results from our program to determine the evolution of the galaxy interaction/merger rate with redshift using the unique star-forming characteristics of collisional ring galaxies. We have identified 25 distant collisional ring galaxy candidates (CRGCs) in a total of 162 deep Hubble Sp",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns astrophysical 'collisional ring galaxies' and galaxy merger rates, sharing only the superficial word 'ring' with the conjecture's algebraic 'local induction ring rank.' It has no bearing on SAT complexity or ring theory.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1911.04516",
+      "title": "Boolean lattices in finite alternating and symmetric groups",
+      "abstract_excerpt": "Given a group $G$ and a subgroup $H$, we let $\\mathcal{O}_G(H)$ denote the lattice of subgroups of $G$ containing $H$. This paper provides a classification of the subgroups $H$ of $G$ such that $\\mathcal{O}_{G}(H)$ is Boolean of rank at least $3$, when $G$ is a finite alternating or symmetric group. Besides some sporadic examples and some twisted versions, there are two different types of such lattices. One type arises by taking stabilizers of chains of regular partitions, and the other type ari",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns classification of Boolean subgroup lattices in finite alternating/symmetric groups (a group-theoretic combinatorics result), with no mention of local induction rings, SAT instances, clause subset complexity, or any computational complexity measure relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

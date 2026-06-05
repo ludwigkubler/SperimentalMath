@@ -1,0 +1,40 @@
+{
+  "entry_id": "cced13a3c0cc",
+  "ts": 1780694026.9032717,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1612.05917",
+      "title": "Linear Quantum Entropy and Non-Hermitian Hamiltonians",
+      "abstract_excerpt": "We consider the description of open quantum systems with probability sinks (or sources) in terms of general non-Hermitian Hamiltonians.~Within such a framework, we study novel possible definitions of the quantum linear entropy as an indicator of the flow of information during the dynamics. Such linear entropy functionals are necessary in the case of a partially Wigner-transformed non-Hermitian Hamiltonian (which is typically useful within a mixed quantum-classical representation). Both the case ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'quantum linear entropy' for open quantum systems with non-Hermitian Hamiltonians, which shares the vocabulary of 'entropy' and 'flow' but does not address geometric flows of boolean functions or Shannon entropy of boolean functions.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1407.5475",
+      "title": "Control Volume Analysis, Entropy Balance and the Entropy Production in Flow Systems",
+      "abstract_excerpt": "This chapter concerns \"control volume analysis\", the standard engineering tool for the analysis of flow systems, and its application to entropy balance calculations. Firstly, the principles of control volume analysis are enunciated and applied to flows of conserved quantities (e.g. mass, momentum, energy) through a control volume, giving integral (Reynolds transport theorem) and differential forms of the conservation equations. Several definitions of steady state are discussed. The concept of \"e",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns thermodynamic entropy production in fluid flow systems via control volume analysis, with no reference to boolean functions, Shannon entropy of boolean functions, or circuit/geometric flow complexity. It shares only the surface vocabulary 'flow' and 'entropy' but does not interact with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1506.08519",
+      "title": "Information flow and entropy production on Bayesian networks",
+      "abstract_excerpt": "In this article, we review a general theoretical framework of thermodynamics of information on the basis of Bayesian networks. This framework can describe a broad class of nonequilibrium dynamics of multiple interacting systems with complex information exchanges. For such situations, we discuss a generalization of the second law of thermodynamics including information contents. The key concept here is an informational quantity called the transfer entropy, which describes the directional informat",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses thermodynamics of information on Bayesian networks, transfer entropy, and the second law — it does not address geometric flows of boolean functions or Shannon entropy of boolean functions. Shared vocabulary ('entropy', 'flow') but no interaction with the specific claim about O(GF(f)) = Θ(H(f)).",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
