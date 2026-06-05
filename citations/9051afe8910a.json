@@ -1,0 +1,31 @@
+{
+  "entry_id": "9051afe8910a",
+  "ts": 1780702334.0103335,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.1038/s41598-023-36865-z",
+      "title": "Dual-functional metalenses for the polarization-controlled generation of focalized vector beams in the telecom infrared",
+      "abstract_excerpt": "The availability of static tiny optical devices is mandatory to reduce the complexity of optical paths that typically use dynamic optical components and/or many standard elements for the generation of complex states of light, leading to unprecedented levels of miniaturization and compactness of optical systems. In particular, the design of flat and integrated optical elements capable of multiple vector beams generation with high resolution in the visible and infrared range is very attractive in ",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes dielectric metalenses for generating focused vector beams in telecom infrared optics, sharing only superficial vocabulary ('vector beams', 'communication') with the conjecture; it makes no claim about holonomy representation rank or communication complexity rank.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10.1017/S0963548308009656",
+      "title": "Learning Complexity vs. Communication Complexity",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available for the cited paper, so I cannot determine whether it addresses the specific link between holonomy representation rank and communication complexity rank claimed by the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}

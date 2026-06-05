@@ -1,0 +1,40 @@
+{
+  "entry_id": "71a6dbf6983b",
+  "ts": 1780701104.8985703,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1401.4438",
+      "title": "Integral closure of rings of integer-valued polynomials on algebras",
+      "abstract_excerpt": "Let $D$ be an integrally closed domain with quotient field $K$. Let $A$ be a torsion-free $D$-algebra that is finitely generated as a $D$-module. For every $a$ in $A$ we consider its minimal polynomial $μ_a(X)\\in D[X]$, i.e. the monic polynomial of least degree such that $μ_a(a)=0$. The ring ${\\rm Int}_K(A)$ consists of polynomials in $K[X]$ that send elements of $A$ back to $A$ under evaluation. If $D$ has finite residue rings, we show that the integral closure of ${\\rm Int}_K(A)$ is the ring o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns integral closure of rings of integer-valued polynomials on matrix algebras over integrally closed domains, with no mention of circuits, communication complexity, rank variance, or local induction rings. It shares only superficial vocabulary (matrix algebras, rings) with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1501.07530",
+      "title": "Some algebras similar to the 2x2 Jordanian matrix algebras",
+      "abstract_excerpt": "The impetus for this study is the work of Dumas and Rigal on the Jordanian deformation of the ring of coordinate functions on $2\\times 2$ matrices. We are also motivated by current interest in birational equivalence of noncommutative rings. Recognizing the construction of the Jordanian matrix algebra as a skew polynomial ring, we construct a family of algebras relative to differential operator rings over a polynomial ring in one variable which are birationally equivalent to the Weyl algebra over",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Jordanian deformations of matrix coordinate rings and birational equivalence to Weyl algebras, which shares no contact with circuit evaluation variance or communication complexity matrix rank. It neither addresses 'local induction ring rank' nor variance bounds over circuit evaluations.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1305.1444",
+      "title": "The Green rings of the 2-rank Taft algebra and its two relatives twisted",
+      "abstract_excerpt": "In the paper, the representation rings (or the Green rings) for a family of Hopf algebras of tame type, the 2-rank Taft algebra (at $q=-1$) and its two relatives twisted by 2-cocycles are explicitly described via a representation theoretic analysis. It turns out that the Green rings can serve to detect effectively the twist-equivalent Hopf algebras here.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Green rings (representation rings) of 2-rank Taft Hopf algebras and twist-equivalence, with no mention of circuits, evaluation variance, communication complexity, or matrix rank bounds like O(n log n).",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

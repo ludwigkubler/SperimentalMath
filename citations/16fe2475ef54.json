@@ -1,0 +1,40 @@
+{
+  "entry_id": "16fe2475ef54",
+  "ts": 1780700619.7267768,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2004.05156",
+      "title": "Generating series of all modular graph forms from iterated Eisenstein integrals",
+      "abstract_excerpt": "We study generating series of torus integrals that contain all so-called modular graph forms relevant for massless one-loop closed-string amplitudes. By analysing the differential equation of the generating series we construct a solution for its low-energy expansion to all orders in the inverse string tension $α'$. Our solution is expressed through initial data involving multiple zeta values and certain real-analytic functions of the modular parameter of the torus. These functions are built from",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses modular graph forms in the context of string amplitudes, iterated Eisenstein integrals, and α'-expansions — it makes no mention of Tseitin formulas, resolution proof complexity, or any connection between modular form order and proof length. The shared vocabulary of 'modular forms' and 'graph' is incidental and does not interact with the specific conjectured Θ(L(φ_G)) correlation.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1908.05124",
+      "title": "Minimal Representations of Order Types by Geometric Graphs",
+      "abstract_excerpt": "In order to have a compact visualization of the order type of a given point set S, we are interested in geometric graphs on S with few edges that unambiguously display the order type of S. We introduce the concept of exit edges, which prevent the order type from changing under continuous motion of vertices. That is, in the geometric graph on S whose edges are the exit edges, in order to change the order type of S, at least one vertex needs to move across an exit edge. Exit edges have a natural d",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns geometric graphs and 'exit edges' for visualizing order types of point sets, which has no interaction with modular forms, Tseitin formulas, or resolution proof complexity. The shared word 'minimal' and 'order' is purely lexical.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0804.4681",
+      "title": "$d$-Regular graphs of acyclic chromatic index at least $d+2$",
+      "abstract_excerpt": "An $acyclic$ edge coloring of a graph is a proper edge coloring such that there are no bichromatic cycles. The \\emph{acyclic chromatic index} of a graph is the minimum number k such that there is an acyclic edge coloring using k colors and is denoted by $a'(G)$. It was conjectured by Alon, Sudakov and Zaks\n  (and earlier by Fiamcik) that $a'(G)\\le Δ+2$, where $Δ=Δ(G)$ denotes the maximum degree of the graph. Alon et.al also raised the question whether the complete graphs of even order are the on",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns acyclic edge coloring and chromatic index of d-regular graphs ('acyclic chromatic index... a'(G)≤Δ+2'), with no mention of modular forms, Tseitin formulas, or resolution proof complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

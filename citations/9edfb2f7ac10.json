@@ -1,0 +1,40 @@
+{
+  "entry_id": "9edfb2f7ac10",
+  "ts": 1780701822.196694,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2110.01541",
+      "title": "Dynamical entropy of probability measures on infinite product spaces",
+      "abstract_excerpt": "The aim of this note is to introduce a notion of dynamical entropy, which we call infinite-product entropy, for probability measures on (countable) infinite cartesian product of any measurable space with itself. The idea behind the definition is that any infinite product space may be considered as a type of dynamical object. We have considered in a previous note a similar idea in topological dynamics to define a notion of dynamical entropy for arbitrary subsets of infinite products of compact to",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract introduces 'infinite-product entropy' for probability measures on infinite product spaces and relates it to shift transformations and topological entropy of subsets — it shares the 'topological entropy' vocabulary but says nothing about decision trees, SAT formulas, or clause subset complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1612.05917",
+      "title": "Linear Quantum Entropy and Non-Hermitian Hamiltonians",
+      "abstract_excerpt": "We consider the description of open quantum systems with probability sinks (or sources) in terms of general non-Hermitian Hamiltonians.~Within such a framework, we study novel possible definitions of the quantum linear entropy as an indicator of the flow of information during the dynamics. Such linear entropy functionals are necessary in the case of a partially Wigner-transformed non-Hermitian Hamiltonian (which is typically useful within a mixed quantum-classical representation). Both the case ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'quantum linear entropy' for open quantum systems with non-Hermitian Hamiltonians, which shares only the word 'entropy' with the conjecture but does not address topological entropy, decision trees, or SAT complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1801.02665",
+      "title": "Symbolic relative entropy in quantifying nonlinear dynamics of equalities-involved heartbeats",
+      "abstract_excerpt": "Symbolic relative entropy, an efficient nonlinear complexity parameter measuring probabilistic divergences of symbolic sequences, is proposed in our nonlinear dynamics analysis of heart rates considering equal states. Equalities are not rare in discrete heartbeats because of the limits of resolution of signals collection, and more importantly equal states contain underlying important cardiac regulation information which is neglected by some chaotic deterministic parameters and temporal asymmetri",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns symbolic relative entropy applied to heart rate signal analysis, with no mention of decision trees, SAT, topological entropy, or clause subset complexity. It shares only the general vocabulary of 'entropy' but does not interact with the specific conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
