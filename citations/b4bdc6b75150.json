@@ -1,0 +1,40 @@
+{
+  "entry_id": "b4bdc6b75150",
+  "ts": 1780685378.7558968,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1712.05384",
+      "title": "Simulation of low-depth quantum circuits as complex undirected graphical models",
+      "abstract_excerpt": "Near term quantum computers with a high quantity (around 50) and quality (around 0.995 fidelity for two-qubit gates) of qubits will approximately sample from certain probability distributions beyond the capabilities of known classical algorithms on state-of-the-art computers, achieving the first milestone of so-called quantum supremacy. This has stimulated recent progress in classical algorithms to simulate quantum circuits. Classical simulations are also necessary to approximate the fidelity of",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns classical simulation of low-depth quantum circuits via graphical-model/treewidth methods ('scales exponentially in the depth times the smaller lateral dimension, or the treewidth'), not topological entropy of boolean circuit dynamics. It shares the 'circuit depth' vocabulary but does not address the conjectured entropy bound H(C)=O(α(n)).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1811.02956",
+      "title": "Sample entropy of sEMG signals at different stages of rectal cancer treatment",
+      "abstract_excerpt": "Information theory provides a spectrum of nonlinear methods capable of grasping an internal structure of a signal together with an insight into its complex nature. In this work, we discuss the usefulness of the selected entropy techniques for a description of the information carried by the surface electromyography signals during colorectal cancer treatment. The electrical activity of the external anal sphincter can serve as a potential source of knowledge of the actual state of the patient who u",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Sample Entropy of electromyography signals in rectal cancer patients ('surface electromyography signals during colorectal cancer treatment'), which shares only the generic vocabulary of 'entropy' with the conjecture and has no bearing on topological entropy of boolean circuit dynamics.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2002.12814",
+      "title": "On estimating the entropy of shallow circuit outputs",
+      "abstract_excerpt": "Estimating the entropy of probability distributions and quantum states is a fundamental task in information processing. Here, we examine the hardness of this task for the case of probability distributions or quantum states produced by shallow circuits. Specifically, we show that entropy estimation for distributions or states produced by either log-depth circuits or constant-depth circuits with gates of bounded fan-in and unbounded fan-out is at least as hard as the Learning with Errors (LWE) pro",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses the computational hardness of estimating Shannon/von Neumann entropy of distributions or quantum states produced by shallow circuits ('entropy estimation ... is at least as hard as the Learning with Errors (LWE) problem'), not the topological entropy of a dynamical system induced by circuit computation. It neither bounds nor refutes any H(C) = O(α(n)) claim from topological dynamics.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

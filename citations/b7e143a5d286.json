@@ -1,0 +1,40 @@
+{
+  "entry_id": "b7e143a5d286",
+  "ts": 1780686513.2556508,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1004.3561",
+      "title": "Topos Quantum Logic and Mixed States",
+      "abstract_excerpt": "The topos approach to the formulation of physical theories includes a new form of quantum logic. We present this topos quantum logic, including some new results, and compare it to standard quantum logic, all with an eye to conceptual issues. In particular, we show that topos quantum logic is distributive, multi-valued, contextual and intuitionistic. It incorporates superposition without being based on linear structures, has a built-in form of coarse-graining which automatically avoids interpreta",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns topos-theoretic quantum logic (distributive, multi-valued, intuitionistic) and its handling of states, with no mention of Boolean formula entailment rank or circuit entanglement measures. It shares the broad 'logic + quantum' vocabulary but does not address the specific r(L(φ)) = Θ(E(φ)) claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/quant-ph/0008019v2",
+      "title": "Operational quantum logic: An overview",
+      "abstract_excerpt": "The term quantum logic has different connotations for different people, having been considered as everything from a metaphysical attack on classical reasoning to an exercise in abstract algebra. Our aim here is to give a uniform presentation of what we call operational quantum logic, highlighting bo",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes 'operational quantum logic' as an overview of foundational/algebraic approaches to quantum logic, with no mention of Boolean formula entailment rank or circuit entanglement measures. It shares the broad vocabulary of 'logic' and 'quantum' but does not engage with the specific r(L(φ)) = Θ(E(φ)) claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/quant-ph/0305192v1",
+      "title": "Photon engineering for quantum information processing",
+      "abstract_excerpt": "We study distinguishing information in the context of quantum interference involving more than one parametric downconversion (PDC) source and in the context of polarization-entangled photon pairs based on PDC. We arrive at specific design criteria for two-photon sources so that when used as part of ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns experimental photon engineering and parametric downconversion sources for two-photon interference, with no mention of Boolean formulas, entailment languages, or circuit entanglement measures relevant to the conjecture's claim r(L(φ)) = Θ(E(φ)).",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

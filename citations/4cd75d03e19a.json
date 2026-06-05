@@ -1,0 +1,40 @@
+{
+  "entry_id": "4cd75d03e19a",
+  "ts": 1780685579.6583629,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1905.01545",
+      "title": "A Logic Framework for P2P Deductive Databases",
+      "abstract_excerpt": "This paper presents a logic framework for modeling the interaction among deductive databases in a P2P (Peer to Peer) environment. Each peer joining a P2P system provides or imports data from its neighbors by using a set of mapping rules, i.e. a set of semantic correspondences to a set of peers belonging to the same environment. Two different types of mapping rules are defined: mapping rules allowing to import a maximal set of atoms not leading to inconsistency (called maximal mapping rules) and ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a logic framework for P2P deductive databases with mapping rules and weak model semantics, with no mention of formal grammar entailment order, SAT clause entropy, or any correlation between them.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1309.6883",
+      "title": "Predicate Logic as a Modeling Language: Modeling and Solving some Machine Learning and Data Mining Problems with IDP3",
+      "abstract_excerpt": "This paper provides a gentle introduction to problem solving with the IDP3 system. The core of IDP3 is a finite model generator that supports first order logic enriched with types, inductive definitions, aggregates and partial functions. It offers its users a modeling language that is a slight extension of predicate logic and allows them to solve a wide range of search problems. Apart from a small introductory example, applications are selected from problems that arose within machine learning an",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes the IDP3 system for declarative modeling of stemmatology, phylogenetics, and automaton learning problems, with no mention of formal grammar entailment order, SAT clause entropy, or any inequality between them.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1912.00010",
+      "title": "A Restricted Second-Order Logic for Non-deterministic Poly-Logarithmic Time",
+      "abstract_excerpt": "We introduce a restricted second-order logic $\\mathrm{SO}^{\\mathit{plog}}$ for finite structures where second-order quantification ranges over relations of size at most poly-logarithmic in the size of the structure. We demonstrate the relevance of this logic and complexity class by several problems in database theory. We then prove a Fagin's style theorem showing that the Boolean queries which can be expressed in the existential fragment of $\\mathrm{SO}^{\\mathit{plog}}$ corresponds exactly to th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a restricted second-order logic capturing non-deterministic poly-logarithmic time complexity ('Boolean queries which can be expressed in the existential fragment of SO^plog corresponds exactly to... non-deterministic poly-logarithmic time'), which shares no interaction with grammar entailment order or SAT clause entropy correlations.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
