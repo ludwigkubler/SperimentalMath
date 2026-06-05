@@ -1,18 +1,18 @@
 {
-  "last_update_utc": "2026-06-05T08:47:06Z",
-  "total_cycles": 5151,
+  "last_update_utc": "2026-06-05T09:47:06Z",
+  "total_cycles": 5164,
   "verdict_counts": {
-    "INCONCLUSIVE": 3371,
+    "INCONCLUSIVE": 3377,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 1674,
+    "BARRIER_HIT": 1681,
     "SCOOPED": 86
   },
-  "unique_field_A": 2186,
+  "unique_field_A": 2189,
   "top_fields_A": [
     [
       "Algebraic Geometry (Hodge Theory)",
-      148
+      149
     ],
     [
       "Resolution proof complexity",
@@ -20,7 +20,7 @@
     ],
     [
       "Tropical Geometry",
-      120
+      121
     ],
     [
       "Symplectic Geometry",
@@ -47,6 +47,10 @@
       39
     ],
     [
+      "Algebraic K-Theory",
+      38
+    ],
+    [
       "Matroid Theory",
       37
     ],
@@ -56,10 +60,6 @@
     ],
     [
       "Affine Geometry",
-      36
-    ],
-    [
-      "Algebraic K-Theory",
       36
     ],
     [
