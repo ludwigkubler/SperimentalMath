@@ -1,0 +1,31 @@
+{
+  "entry_id": "d250507a8cfc",
+  "ts": 1780617756.722225,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.7916/D8ZP45KT",
+      "title": "Unconditional Lower Bounds in Complexity Theory",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available for the cited paper, so it is impossible to determine from the provided text whether it supports, refutes, or is orthogonal to the conjecture linking quaternionic K-theory order to circuit size.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10.1007/11537311",
+      "title": "Fundamentals of Computation Theory, 15th International Symposium, FCT 2005, Lübeck, Germany, August 17-20, 2005, Proceedings",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available, so I cannot determine whether the cited proceedings volume contains material that supports, refutes, or is orthogonal to the specific claim relating quaternionic K-theory order to circuit size.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 2
+  }
+}
