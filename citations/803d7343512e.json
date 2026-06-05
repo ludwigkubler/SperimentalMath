@@ -1,0 +1,31 @@
+{
+  "entry_id": "803d7343512e",
+  "ts": 1780640919.4064906,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:2509.15833",
+      "title": "Single-shot sorting of M\\\"ossbauer time-domain data at X-ray free-electron lasers",
+      "abstract_excerpt": "M\\\"ossbauer spectroscopy is widely used to study structure and dynamics of matter with remarkably high energy resolution, provided by the narrow nuclear resonance line widths. However, the narrow width implies low count rates, such that experiments commonly average over extended measurement times or",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes Mössbauer spectroscopy at X-ray free-electron lasers, which has no connection to groupoid categorical dimensions or resolution proof width in Boolean satisfiability.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:d0d995160a399bb372267bc86b388a9b87d40696",
+      "title": "THE RANKS OF m x n x ( mn2 ) TENSORS *",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available; the title 'The Ranks of m x n x (mn-2) Tensors' concerns tensor rank and gives no indication of any connection to groupoid categorical dimension or resolution proof width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}
