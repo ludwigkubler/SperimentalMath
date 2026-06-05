@@ -1,0 +1,40 @@
+{
+  "entry_id": "5c4941ff27cf",
+  "ts": 1780685165.5814652,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0201037v1",
+      "title": "Finiteness of conformal blocks over compact Riemann surfaces",
+      "abstract_excerpt": "We study conformal blocks (the space of correlation functions) over compact Riemann surfaces associated to vertex operator algebras which are the sum of highest weight modules for the underlying Virasoro algebra. Under the fairly general condition, for instance, $C_2$-finiteness, we prove that confo",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns finiteness of conformal blocks over Riemann surfaces via vertex operator algebras and $C_2$-finiteness, with no mention of local system indices, k-SAT, or communication complexity rank. It shares only the 'Riemann surface' vocabulary without engaging the specific Index=Θ(Rank) claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2412.11563",
+      "title": "Generic properties of minimal surfaces",
+      "abstract_excerpt": "Let $M$ be an open Riemann surface and $n\\ge 3$ be an integer. In this paper we establish some generic properties (in Baire category sense) in the space of all conformal minimal immersions $M\\to\\mathbb{R}^n$ endowed with the compact-open topology, pointing out that a generic such immersion is chaotic in many ways. For instance, we show that a generic conformal minimal immersion $u\\colon M\\to \\mathbb{R}^n$ is non-proper, almost proper, and $g$-complete with respect to any given Riemannian metric ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns generic properties of conformal minimal immersions of Riemann surfaces into R^n (chaos, non-properness, infinite stability index), with no mention of local systems, k-SAT, or communication complexity rank. It shares only the 'Riemann surface' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2004.02243",
+      "title": "The local index density of the perturbed de Rham complex",
+      "abstract_excerpt": "A closed 1-form $Θ$ on a manifold induces a perturbation $d_Θ$ of the de~Rham complex. This perturbation was originally introduced Witten for exact $Θ$, and later extended by Novikov to the case of arbitrary closed $Θ$. Once a Riemannian metric is chosen, one obtains a perturbed Laplacian $Δ_Θ$ on a Riemannian manifold and a corresponding perturbed local index density for the de~Rham complex. Invariance theory is used to show that this local index density in fact does not depend on $Θ$; it vanis",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns local index density of perturbed de Rham/Dolbeault complexes on manifolds and Riemann surfaces, with no mention of k-SAT, communication complexity, or matrix rank. It shares only the surface vocabulary of 'index' and 'Riemann surface' but does not interact with the conjectured Index(L) = Θ(Rank) relation.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

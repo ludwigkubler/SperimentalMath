@@ -1,0 +1,40 @@
+{
+  "entry_id": "6a68d29181d9",
+  "ts": 1780684546.9122415,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1612.03393",
+      "title": "Exact recovery low-rank matrix via transformed affine matrix rank minimization",
+      "abstract_excerpt": "The goal of affine matrix rank minimization problem is to reconstruct a low-rank or approximately low-rank matrix under linear constraints. In general, this problem is combinatorial and NP-hard. In this paper, a nonconvex fraction function is studied to approximate the rank of a matrix and translate this NP-hard problem into a transformed affine matrix rank minimization problem. The equivalence between these two problems is established, and we proved that the uniqueness of the global minimizer o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses 'affine matrix rank minimization' for low-rank matrix recovery via a nonconvex fraction function and DC algorithm, which shares only the vocabulary 'matrix rank' with the conjecture but does not engage with Frobenius-Schur indicators or communication complexity rank inequalities.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0906.3499",
+      "title": "Convergence of fixed-point continuation algorithms for matrix rank minimization",
+      "abstract_excerpt": "The matrix rank minimization problem has applications in many fields such as system identification, optimal control, low-dimensional embedding, etc. As this problem is NP-hard in general, its convex relaxation, the nuclear norm minimization problem, is often solved instead. Recently, Ma, Goldfarb and Chen proposed a fixed-point continuation algorithm for solving the nuclear norm minimization problem. By incorporating an approximate singular value decomposition technique in this algorithm, the so",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns convergence of fixed-point continuation algorithms for nuclear norm/matrix rank minimization, which shares only the vocabulary 'matrix rank' with the conjecture but does not address Frobenius-Schur indicators or communication complexity rank inequalities.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1902.06476",
+      "title": "Sylvester matrix rank functions on crossed products",
+      "abstract_excerpt": "In this paper we consider the algebraic crossed product $\\mathcal A := C_K(X) \\rtimes_T \\mathbb{Z}$ induced by a homeomorphism $T$ on the Cantor set $X$, where $K$ is an arbitrary field and $C_K(X)$ denotes the $K$-algebra of locally constant $K$-valued functions on $X$. We investigate the possible Sylvester matrix rank functions that one can construct on $\\mathcal A$ by means of full ergodic $T$-invariant probability measures $μ$ on $X$. To do so, we present a general construction of an approxi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Sylvester matrix rank functions on algebraic crossed products of C(X) by Z-actions on the Cantor set, which shares only the generic vocabulary of 'matrix rank' with the conjecture and does not address Frobenius-Schur indicators or communication complexity rank of binary matrices.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
