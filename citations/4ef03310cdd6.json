@@ -1,0 +1,31 @@
+{
+  "entry_id": "4ef03310cdd6",
+  "ts": 1780620984.918023,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:2508.00396",
+      "title": "Proof complexity of Mal'tsev CSP",
+      "abstract_excerpt": "Constraint Satisfaction Problems (CSPs) form a broad class of combinatorial problems, which can be formulated as homomorphism problems between relational structures. The CSP dichotomy theorem classifies all such problems over finite domains into two categories: NP-complete and polynomial-time, see Z",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses CSP dichotomy and Mal'tsev constraints in proof complexity, with no mention of Tseitin formulas, Frege proof width, or Lefschetz finiteness/free algebra generators. It shares the broad 'proof complexity' framework but does not interact with the specific mLef-w_F correlation claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10.1109/FOCS61266.2024.00044",
+      "title": "Jump Operators, Interactive Proofs and Proof Complexity Generators",
+      "abstract_excerpt": "A jump operator $J$ in proof complexity is a function such that for any proof system $P, J(P)$ is a proof system that $P$ cannot simulate. Some candidate jump operators were proposed by Krajicek and Pudlak [63] and Krajicek [57], but it is an open problem whether computable jump operators exist or not. In this regard, we introduce a new candidate jump operator based on the power of interactive proofs which given a proof system $P$, [I P, $P]$ (I P-randomized implicit proof system based on $P)$ i",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses jump operators, interactive proofs, and implicit Extended Frege systems, with no mention of Tseitin formulas, Frege proof width, or Lefschetz finiteness / algebraic geometry generators. It shares the broad 'proof complexity' framework but does not interact with the specific mLef(φ) = Θ(w_F(φ)) claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 0
+  }
+}

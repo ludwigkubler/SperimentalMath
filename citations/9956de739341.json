@@ -1,0 +1,40 @@
+{
+  "entry_id": "9956de739341",
+  "ts": 1780620730.2254431,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.1007/978-3-642-12200-2",
+      "title": "LATIN 2010: Theoretical Informatics, 9th Latin American Symposium, Oaxaca, Mexico, April 19-23, 2010. Proceedings",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available for this conference proceedings volume, so I cannot determine whether any contained paper addresses the conjecture's specific link between lattice point counts and matrix rank.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:12bf5fa50a22abca567ba21cf0ad5ba4908a9826",
+      "title": "Computing and combinatorics : 14th annual international conference, COCOON 2008, Dalian, China, June 27-29, 2008 : proceedings",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available; the cited item is a conference proceedings volume, so its relevance to the specific lattice-point/rank inequality cannot be determined without further inspection.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:edb976a1b7c29e5ab325ed016a26e03f0b324a5f",
+      "title": "A Short History of Symplectic Dynamic",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available for the cited paper ('A Short History of Symplectic Dynamic'), so it is impossible to assess whether it supports, refutes, or is orthogonal to the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 3
+  }
+}
