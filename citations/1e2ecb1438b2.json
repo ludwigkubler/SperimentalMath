@@ -1,0 +1,31 @@
+{
+  "entry_id": "1e2ecb1438b2",
+  "ts": 1780652972.212613,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:e3cce2d7e072e01fa4e6518c8cef76de0fe22886",
+      "title": "Workshop on Computational , Descriptive and Proof Complexity , and Algorithms Independent",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available ('no abstract available'), so I cannot assess whether the paper addresses the specific link between geometric entropy of algebraic curves and DPLL proof path length.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10.1002/anie.9117281",
+      "title": "Sequence-Defined Oligourethane Isomeric Mixtures for Irreversible Encryption.",
+      "abstract_excerpt": "Sequence-defined polymers (SDPs) offer a promising molecular medium for information storage and encryption, yet current strategies for enhancing security typically depend on extending chain length or increasing monomer diversity-approaches that impose substantial synthetic complexity. Here, we introduce a fundamentally different encryption mechanism based on isomeric mixtures of sequence-defined oligourethanes (SDOs). Because isomeric SDOs share identical molecular weights, their mixtures collap",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns sequence-defined oligourethane isomeric mixtures for molecular encryption via MALDI-TOF MS, with no mention of algebraic curves, geometric entropy, CNF formulas, or DPLL proof complexity. It shares no substantive overlap with the conjecture beyond the generic notion of 'information theory.'",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}
