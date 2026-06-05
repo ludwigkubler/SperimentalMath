@@ -1,0 +1,40 @@
+{
+  "entry_id": "dc89358e260a",
+  "ts": 1780668295.3481028,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/cs/0608100v1",
+      "title": "Similarity of Semantic Relations",
+      "abstract_excerpt": "There are at least two kinds of similarity. Relational similarity is correspondence between relations, in contrast with attributional similarity, which is correspondence between attributes. When two words have a high degree of attributional similarity, we call them synonyms. When two pairs of words ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses relational vs attributional similarity between words/semantics, which has no interaction with twisted derivative modules or Boolean circuit monotone width bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/0810.1207v1",
+      "title": "A Layered Grammar Model: Using Tree-Adjoining Grammars to Build a Common Syntactic Kernel for Related Dialects",
+      "abstract_excerpt": "This article describes the design of a common syntactic description for the core grammar of a group of related dialects. The common description does not rely on an abstract sub-linguistic structure like a metagrammar: it consists in a single FS-LTAG where the actual specific language is included as ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a tree-adjoining grammar model for syntactic descriptions of related dialects, which has no connection to twisted derivative modules or Boolean circuit complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1310.8154v3",
+      "title": "Characteristic cohomology of the infinitesimal period relation",
+      "abstract_excerpt": "The infinitesimal period relation (also known as Griffiths' transversality) is the system of partial differential equations constraining variations of Hodge structure. This paper presents a study of the characteristic cohomology associated with that system of pde.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'characteristic cohomology of the infinitesimal period relation' (Griffiths' transversality in Hodge theory), which shares no contact with twisted derivative modules of Boolean circuits or circuit monotone width bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
