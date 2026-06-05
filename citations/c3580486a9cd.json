@@ -1,0 +1,31 @@
+{
+  "entry_id": "c3580486a9cd",
+  "ts": 1780628412.0277512,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.1007/s00440-025-01359-8",
+      "title": "Moderate deviations of triangle counts in sparse Erdős-Rényi random graphs G(n, m) and G(n, p)",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available, so I cannot assess whether the paper interacts with the conjecture's claims about symplectic form degree or monotone circuit width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:1604.03084",
+      "title": "A Nearly Tight Sum-of-Squares Lower Bound for the Planted Clique Problem",
+      "abstract_excerpt": "We prove that with high probability over the choice of a random graph G from the Erdös-Rényi distribution G(n,1/2), the nO(d)-time degree d Sum-of-Squares semidefinite programming relaxation for the clique problem will give a value of at least n1/2-c(d/log n)1/2 for some constant c > 0. This yield",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a Sum-of-Squares SDP lower bound for planted clique on Erdős-Rényi graphs, with no mention of symplectic form degree, d-regular graphs' associated matrices, or monotone circuit width. Shared vocabulary (graphs, degree) does not interact with the specific conjectured equivalence.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}
