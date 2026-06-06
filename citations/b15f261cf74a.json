@@ -1,0 +1,40 @@
+{
+  "entry_id": "b15f261cf74a",
+  "ts": 1780736693.5141413,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2312.09712",
+      "title": "Geometric conservation in curved spacetime and entropy",
+      "abstract_excerpt": "We provide an improved definition of new conserved quantities derived from the energy-momentum tensor in curved spacetime by introducing an additional scalar function. We find that the conserved current and the associated conserved charge become geometric under a certain initial condition of the scalar function, and show that such a conserved geometric current generally exists in curved spacetime. Furthermore, we demonstrate that the geometric conserved current agrees with the entropy current in",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns conserved currents and entropy in curved spacetime fluid dynamics ('the geometric conserved current agrees with the entropy current in an effective theory of a perfect fluid'), which shares only the word 'entropy' with the conjecture about CNF clause-tensor entropy and DPLL proof length.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2403.13102",
+      "title": "Geometric methods in quantum information and entanglement variational principle",
+      "abstract_excerpt": "Geometrical methods in quantum information are very promising for both providing technical tools and intuition into difficult control or optimization problems. Moreover, they are of fundamental importance in connecting pure geometrical theories, like GR, to quantum mechanics, like in the AdS/CFT correspondence. In this paper, we first make a survey of the most important settings in which geometrical methods have proven useful to quantum information theory. Then, we lay down a general framework f",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses geometrical methods for quantum information resources like entanglement and coherence in a two-qubit system, with no mention of CNF formulas, DPLL proof complexity, or clause-tensor geometric entropy. It shares only loose vocabulary ('geometric') without engaging the specific conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1005.2327",
+      "title": "Black hole entropy in scalar-tensor and f(R) gravity: an overview",
+      "abstract_excerpt": "A short overview of black hole entropy in alternative gravitational theories is presented. Motivated by the recent attempts to explain the cosmic acceleration without dark energy, we focus on metric and Palatini     f(R) gravity and on scalar-tensor theories.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns black hole entropy in f(R) and scalar-tensor gravity theories motivated by cosmic acceleration, with no connection to CNF formulas, DPLL proof complexity, or geometric entropy of clause-tensor products.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

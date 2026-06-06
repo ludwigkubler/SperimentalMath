@@ -1,0 +1,31 @@
+{
+  "entry_id": "a1249b579b58",
+  "ts": 1780738734.060471,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:ARXIV:2304.00343",
+      "title": "Extrapolation from hypergeometric functions, continued functions and Borel-Leroy transformation; Resummation of perturbative renormalization functions from field theories",
+      "abstract_excerpt": "Physically relevant field-theoretic quantities are usually derived from perturbation techniques. These quantities are solved in the form of an asymptotic series in powers of small perturbation parameters related to the physical system, and calculating higher powers typically results in a higher amount of computational complexity. Such divergent expansions were handled using hypergeometric functions, continued functions, and Borel–Leroy transforms. Hypergeometric functions are expanded as series,",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns using hypergeometric functions for resummation of perturbative series in field theory (critical exponents in φ^4/φ^3 models), with no mention of Boolean formulas, resolution proof width, or minimal order of hypergeometric sequences associated with formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10.1158/1538-7445.am2026-7650",
+      "title": "Abstract 7650: High-resolution detection of post-translational modifications using single-molecule protein sequencing.",
+      "abstract_excerpt": "\n Post-translational modifications (PTMs) play a critical role in regulating protein function and cellular processes. However, due to the diversity and complexity of the proteome, detecting and quantifying PTMs remains challenging. While conventional mass spectrometry and antibody-based methods provide valuable information, they are limited in their capacity to resolve and quantify PTMs at the amino acid level, particularly for PTMs with minimal differences in mass. The Quantum-Si Platinum® and ",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns single-molecule protein sequencing for detecting post-translational modifications ('high-resolution detection of PTMs'), with no connection to hypergeometric sequences, Boolean formulas, or resolution proof complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 0
+  }
+}
