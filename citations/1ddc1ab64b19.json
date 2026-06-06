@@ -1,0 +1,31 @@
+{
+  "entry_id": "1ddc1ab64b19",
+  "ts": 1780780875.6239495,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:ARXIV:1109.2134",
+      "title": "Generalizing Boolean Satisfiability II: Theory",
+      "abstract_excerpt": "This is the second of three planned papers describing ZAP, a satisfiability engine that substantially generalizes existing tools while retaining the performance characteristics of modern high performance solvers. The fundamental idea underlying ZAP is that many problems passed to such engines contain rich internal structure that is obscured by the Boolean representation used; our goal is to define a representation in which this structure is apparent and can easily be exploited to improve computa",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes ZAP, a SAT solver leveraging permutation group structure on literals to exploit problem symmetries — it does not discuss Frobenius indices, vector spaces spanned by clauses, or any size/complexity scaling law like Θ(Σ|C|^(1/k)).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10.1109/HLDVT.2003.1252475",
+      "title": "Logic transformation and coding theory-based frameworks for Boolean satisfiability",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available for this paper, so I cannot determine whether it addresses the specific claim linking minimal Frobenius index to SAT clause subset complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}

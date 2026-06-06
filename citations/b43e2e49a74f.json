@@ -1,0 +1,40 @@
+{
+  "entry_id": "b43e2e49a74f",
+  "ts": 1780780237.8789868,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/1405.2700v1",
+      "title": "Zero Excess and Minimal Length in Finite Coxeter Groups",
+      "abstract_excerpt": "Let $\\mathcal{W}$ be the set of strongly real elements of $W$, a Coxeter group. Then for $w \\in \\mathcal{W}$, $e(w)$, the excess of $w$, is defined by $e(w) = \\min\\{\\ell(x) + \\ell(y) - \\ell(w) \\; | \\; w=xy, x^2 = y^2 = 1\\}$. When $W$ is finite we may also define $E(w)$, the reflection excess of $w$.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns excess and length functions in finite Coxeter groups, with no mention of monodromy groups, CNF formulas, or resolution proof width. It shares no specific claim with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1905.00250v2",
+      "title": "Lauricella's $F_C$ with finite irreducible monodromy group",
+      "abstract_excerpt": "We study the conditions under which the monodromy group for Lauricella's hypergeometric function $F_C (a,b,c;x)$ is finite irreducible. We give the conditions in terms of the parameters $a,b,c$. In addition, we discuss the structure of the finite irreducible monodromy group.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses finite irreducible monodromy groups for Lauricella's hypergeometric function $F_C$ in terms of parameters $a,b,c$, with no mention of CNF formulas, resolution proof width, or any connection to Boolean satisfiability.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/hep-ph/0610012v1",
+      "title": "Tevatron-for-LHC Report of the QCD Working Group",
+      "abstract_excerpt": "The experiments at Run 2 of the Tevatron have each accumulated over 1 inverse femtobarn of high-transverse momentum data. Such a dataset allows for the first precision (i.e. comparisons between theory and experiment at the few percent level) tests of QCD at a hadron collider. While the Large Hadron ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns QCD precision tests at the Tevatron and LHC, with no mention of monodromy groups, CNF formulas, or resolution proof complexity. It does not interact with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
