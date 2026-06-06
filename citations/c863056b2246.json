@@ -1,0 +1,40 @@
+{
+  "entry_id": "c863056b2246",
+  "ts": 1780761929.5680304,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/1210.2401v1",
+      "title": "Distributed Formal Concept Analysis Algorithms Based on an Iterative MapReduce Framework",
+      "abstract_excerpt": "While many existing formal concept analysis algorithms are efficient, they are typically unsuitable for distributed implementation. Taking the MapReduce (MR) framework as our inspiration we introduce a distributed approach for performing formal concept mining. Our method has its novelty in that we u",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a distributed MapReduce-based algorithm for formal concept mining ('we introduce a distributed approach for performing formal concept mining'), which shares FCA vocabulary but does not address Boolean formulas, Frege proof complexity, or any correlation between concept counts and proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1107.2822v1",
+      "title": "A Survey on how Description Logic Ontologies Benefit from Formal Concept Analysis",
+      "abstract_excerpt": "Although the notion of a concept as a collection of objects sharing certain properties, and the notion of a conceptual hierarchy are fundamental to both Formal Concept Analysis and Description Logics, the ways concepts are described and obtained differ significantly between these two research areas.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses how Description Logic ontologies benefit from Formal Concept Analysis, with no mention of Boolean formulas, Frege proof complexity, or proof width. It shares only the FCA vocabulary but does not engage with the specific claim linking concept lattice size to Frege proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1809.09702v1",
+      "title": "The Origins Space Telescope (OST) Mission Concept Study Interim Report",
+      "abstract_excerpt": "The Origins Space Telescope (OST) will transform our understanding of the Universe, from formation of the earliest galaxies to the creation of habitable worlds. OST's Mission Concept 1, the subject of this report, features a cold (4 K) large-aperture telescope (9.1 m) and five powerful instruments, ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes the Origins Space Telescope mission concept (astronomy/astrophysics), which has no relation to Formal Concept Analysis or Frege proof complexity despite the superficial word overlap with 'concept'.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
