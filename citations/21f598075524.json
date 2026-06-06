@@ -1,0 +1,40 @@
+{
+  "entry_id": "21f598075524",
+  "ts": 1780730962.0472918,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/9811088v1",
+      "title": "On the Complexity of Diophantine Geometry in Low Dimensions",
+      "abstract_excerpt": "We consider the average-case complexity of some otherwise undecidable or open Diophantine problems. More precisely, we show that the following two problems can be solved in the complexity class PSPACE:\n  (I) Given polynomials f_1,...,f_m in Z[x_1,...,x_n] defining a variety of dimension &lt;=0 in C^",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns average-case complexity (PSPACE) of solving Diophantine systems defining zero-dimensional varieties, not any relationship between communication complexity rank of Boolean functions and the minimal degree of representing polynomials. It shares the 'Diophantine' vocabulary but does not address the conjectured d(p_f) = Θ(r_f^2) bound.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1007.3804",
+      "title": "Symmetric Determinantal Representation of Formulas and Weakly Skew Circuits",
+      "abstract_excerpt": "We deploy algebraic complexity theoretic techniques for constructing symmetric determinantal representations of for00504925mulas and weakly skew circuits. Our representations produce matrices of much smaller dimensions than those given in the convex geometry literature when applied to polynomials having a concise representation (as a sum of monomials, or more generally as an arithmetic formula or a weakly skew circuit). These representations are valid in any field of characteristic different fro",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses symmetric determinantal representations of formulas and weakly skew circuits in algebraic complexity, with no mention of Boolean function communication complexity rank or diophantine dimension. It shares the broad 'polynomial representation' framework but does not interact with the specific claim relating r_f to d(p_f).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1609.06986",
+      "title": "More on Diophantine sextuples",
+      "abstract_excerpt": "A rational Diophantine m-tuple is a set of m nonzero rationals such that the product of any two of them increased by 1 is a perfect square. The first rational Diophantine quadruple was found by Diophantus, while Euler proved that there are infinitely many rational Diophantine quintuples. In 1999, Gibbs found the first example of a rational Diophantine sextuple, and Dujella, Kazalicki, Mikic and Szikszai recently proved that there exist infinitely many rational Diophantine sextuples.\n  In this pa",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns rational Diophantine m-tuples (sets where pairwise products plus one are perfect squares) and parametric formulas for sextuples — it shares the word 'Diophantine' but says nothing about Boolean functions, communication complexity, polynomial degree, or representation rank.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

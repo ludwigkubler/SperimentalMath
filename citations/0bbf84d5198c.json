@@ -1,0 +1,40 @@
+{
+  "entry_id": "0bbf84d5198c",
+  "ts": 1780729887.500486,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1403.8106",
+      "title": "Recent advances on the log-rank conjecture in communication complexity",
+      "abstract_excerpt": "The log-rank conjecture is one of the fundamental open problems in communication complexity. It speculates that the deterministic communication complexity of any two-party function is equal to the log of the rank of its associated matrix, up to polynomial factors. Despite much research, we still know very little about this conjecture. Recently, there has been renewed interest in this conjecture and its relations to other fundamental problems in complexity theory. This survey describes some of th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a survey on the log-rank conjecture relating communication complexity to matrix rank, but does not address Brauer groups, hyperplane class groups, CNF formula bounds of O(n^2 log n), or a rank variance inequality between distinct circuits.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2509.25737",
+      "title": "Involutive Brauer groups and Poincaré rings",
+      "abstract_excerpt": "We use the formalism of Poincaré $ \\infty $-categories, as developed by Calmès-Dotto-Harpaz-Hebestreit-Land-Moi-Nardin-Nikolaus-Steimle, to define and study moduli stacks of line bundles with $ λ$-hermitian pairings and of Morita equivalence classes of Azumaya algebras equipped with an involution. Our moduli spaces give rise to enhancements of the ordinary Picard and Brauer groups which incorporate the data of an involution on the base; we will refer to these new invariants as the Poincaré Picar",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Poincaré ∞-categories, moduli stacks of Azumaya algebras with involution, and enhancements of Brauer groups via ring spectra — it makes no claim about CNF formulas, hyperplane class groups H(φ), or communication complexity rank, as evidenced by phrases like 'moduli stacks of line bundles with λ-hermitian pairings' and 'highly structured ring spectra.' Shared vocabulary ('Brauer group') does not engage the specific O(n² log n) bound on Br(H(φ)).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0408006v2",
+      "title": "Some remarks on Brauer groups of K3 surfaces",
+      "abstract_excerpt": "We discuss the geometry of the genus one fibrations associated to an elliptic fibration on a K3 surface. We show that the two-torsion subgroup of the Brauer group of a general elliptic fibration is naturally isomorphic to the two-torsion of the Jacobian of a curve associated to the fibration. We rem",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Brauer groups of K3 surfaces and elliptic fibrations ('two-torsion subgroup of the Brauer group of a general elliptic fibration'), which shares the vocabulary 'Brauer group' but has no connection to CNF formulas, hyperplane class groups, or communication complexity rank.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
