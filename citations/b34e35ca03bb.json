@@ -1,0 +1,40 @@
+{
+  "entry_id": "b34e35ca03bb",
+  "ts": 1780778214.7207348,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1210.5855",
+      "title": "A Lie-algebraic approach to the local index theorem on compact homogeneous spaces",
+      "abstract_excerpt": "Using a K-theory point of view, Bott related the Atiyah-Singer index theorem for elliptic operators on compact homogeneous spaces to the Weyl character formula. This article explains how to prove the local index theorem for compact homogenous spaces using Lie algebra methods. The method follows in outline the proof of the local index theorem due to Berline and Vergne. But the use of Kostant's cubic Dirac operator in place of the Riemannian Dirac operator leads to substantial simplifications. An ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the Atiyah-Singer local index theorem on compact homogeneous spaces via Lie algebra methods (Kostant's cubic Dirac operator, quantum Weil algebra), which shares no interaction with boolean circuit symmetry groups or monotone width bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1401.0225",
+      "title": "Local index theory for certain Fourier integral operators on Lie groupoids",
+      "abstract_excerpt": "We develop a local index theory for Fourier-integral operators associated to non-proper and non-isometric actions of Lie groupoids on smooth submersions. To such action is associated a short exact sequence of algebras, relating genuine Fourier-integral operators to their non-commutative symbol. We then compute the connecting map induced by this extension on periodic cyclic cohomology. When cyclic cohomology is localized at appropriate isotropic submanifolds of the groupoid in question, we find t",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'local index theory for Fourier-integral operators on Lie groupoids' via cyclic cohomology and Wodzicki-type residues, which shares only superficial vocabulary ('local index', 'Lie') with the conjecture and has no bearing on symmetry groups of boolean circuits or monotone width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2311.07890",
+      "title": "Index theorem for homogenous spaces of Lie groups",
+      "abstract_excerpt": "We study index theory on homogeneous spaces associated to an almost connected Lie group in terms of the topological aspect and the analytic aspect. On the topological aspect, we obtain a topological formula as a result of the Riemann-Roch formula for proper cocompact actions of the Lie group, inspired by the work of Paradan and Vergne. On the analytic aspect, we apply heat kernel methods to obtain a local index formula representing the higher indices of equivariant elliptic operators with respec",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns index theory on homogeneous spaces of Lie groups via Riemann-Roch and heat kernel methods, with no mention of boolean circuits, symmetry groups of circuits, or monotone width. It shares only the vague term 'index' with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

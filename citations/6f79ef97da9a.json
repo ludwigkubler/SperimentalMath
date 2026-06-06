@@ -1,0 +1,40 @@
+{
+  "entry_id": "6f79ef97da9a",
+  "ts": 1780777302.1562386,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math-ph/0512018v2",
+      "title": "On Phase Transitions for $P$-Adic Potts Model with Competing Interactions on a Cayley Tree",
+      "abstract_excerpt": "In the paper we considere three state $p$-adic Potts model with competing interactions on a Cayley tree of order two. We reduce a problem of describing of the $p$-adic Gibbs measures to the solution of certain recursive equation, and using it we will prove that a phase transition occurs if and only ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses p-adic Potts models and Gibbs measures on a Cayley tree, sharing only the 'p-adic' vocabulary with the conjecture; it makes no claim about Hensel lifting steps or communication complexity rank.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/0910.4839v2",
+      "title": "A $p$-adic RanSaC algorithm for stereo vision using Hensel lifting",
+      "abstract_excerpt": "A $p$-adic variation of the Ran(dom) Sa(mple) C(onsensus) method for solving the relative pose problem in stereo vision is developped. From two 2-adically encoded images a random sample of five pairs of corresponding points is taken, and the equations for the essential matrix are solved by lifting s",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes applying Hensel lifting to a stereo vision RANSAC algorithm for solving the essential matrix problem, with no mention of communication complexity, rank of communication matrices, or polynomial bounds on lifting steps relative to system size.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2001.06455v3",
+      "title": "A new class of $p$-adic Lipschitz functions and multidimensional Hensel's Lemma",
+      "abstract_excerpt": "In this work we study $p$-adic continuous functions in several variables taking values on $\\mathbb{Z}_p$. We describe the orthonormal van der Put base of these functions and study various Lipschitz conditions in several variables, generalizing previous work of Anashin. In particular, we introduce a ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses p-adic Lipschitz functions and a multidimensional Hensel's Lemma generalization, with no mention of communication complexity, matrix rank, or algorithmic step counts for solving linear systems.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,22 +1,22 @@
 {
-  "last_update_utc": "2026-06-06T19:47:07Z",
-  "total_cycles": 5503,
+  "last_update_utc": "2026-06-06T20:47:06Z",
+  "total_cycles": 5514,
   "verdict_counts": {
-    "INCONCLUSIVE": 3583,
+    "INCONCLUSIVE": 3591,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 1814,
+    "BARRIER_HIT": 1817,
     "SCOOPED": 86
   },
-  "unique_field_A": 2295,
+  "unique_field_A": 2297,
   "top_fields_A": [
     [
       "Algebraic Geometry (Hodge Theory)",
-      165
+      166
     ],
     [
       "Tropical Geometry",
-      131
+      133
     ],
     [
       "Resolution proof complexity",
@@ -51,15 +51,15 @@
       39
     ],
     [
+      "p-adic Analysis",
+      38
+    ],
+    [
       "Matroid Theory",
       37
     ],
     [
       "Noncommutative Geometry",
-      37
-    ],
-    [
-      "p-adic Analysis",
       37
     ],
     [
