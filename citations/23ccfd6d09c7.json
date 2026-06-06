@@ -1,0 +1,40 @@
+{
+  "entry_id": "23ccfd6d09c7",
+  "ts": 1780747150.1719792,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2312.10962",
+      "title": "Observation of significant flavor-SU(3) breaking in the kaon wave function at $12~{\\rm GeV}^2&lt;Q^2&lt;25~{\\rm GeV}^2$ and discovery of the charmless decay $ψ(3770)\\to K_S^0K_L^0$",
+      "abstract_excerpt": "We present cross sections for the reaction $e^+e^-\\to K_S^0K_L^0$ at center-of-mass energies ranging from 3.51 GeV to 4.95 GeV using data samples collected in the BESIII experiment, corresponding to a total integrated luminosity of 26.5 fb$^{-1}$. The ratio of neutral-to-charged kaon form factors at large momentum transfers ($12~{\\rm GeV}^2&lt;Q^2&lt;25~{\\rm GeV}^2$) is determined to be $0.21\\pm 0.01$, which indicates a small but significant effect of flavor-SU(3) breaking in the kaon wave funct",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns experimental particle physics (kaon form factors and ψ(3770) decay at BESIII), with no connection to modular forms over Q(√-19) or Boolean circuit monotone width as described in the phrase 'cross sections for the reaction e+e-→K_S^0K_L^0'.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2509.07685",
+      "title": "Measurement of the space-like $π^0$ transition form factor",
+      "abstract_excerpt": "Based on $2.93\\,\\text{fb}^{-1}$ of $e^+e^-$ collision data taken with the BESIII detector at a center-of-mass energy of $3.773\\,\\text{GeV}$, the two-photon fusion process $e^+e^-\\to e^+e^-π^0$ is investigated using a single-tag approach. The differential Born cross section $\\text{d}σ/\\text{d}Q^2$ and the space-like transition form factor $|F(Q^2)|$ of the $π^0$ are measured as functions of the squared momentum transfer $Q^2$ of the tagged, scattered lepton. The measurement covers the range $0.2 ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns an experimental particle physics measurement of the π^0 transition form factor at BESIII, with no connection to modular forms over Q(√-19) or Boolean circuit monotone width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2504.10867",
+      "title": "Precise measurement of the form factors in $D^0\\rightarrow K^*(892)^-μ^+ν_μ$ and test of lepton universality with $D^0\\rightarrow K^*(892)^-\\ell^+ν_{\\ell}$ decays",
+      "abstract_excerpt": "We report a study of the semileptonic decay $D^0 \\rightarrow \\bar{K}^0π^-μ^+ν_μ$ based on a sample of $7.9~\\mathrm{fb}^{-1}$ of $e^+e^-$ annihilation data collected at a center-of-mass energy of 3.773~GeV with the BESIII detector at the BEPCII collider. The branching fraction of the decay is measured for the first time to be $\\mathcal{B}(D^0\\rightarrow \\bar{K}^0π^-μ^+ν_μ) = (1.373 \\pm 0.020_{\\rm stat} \\pm 0.023_{\\rm syst})\\%$, where the first uncertainty is statistical and the second is systemat",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a particle physics measurement of hadronic form factors in semileptonic D meson decays at BESIII, which is entirely unrelated to modular forms over Q(√-19) or Boolean circuit complexity. The term 'form factor' here is a physics quantity, not a mathematical modular form.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

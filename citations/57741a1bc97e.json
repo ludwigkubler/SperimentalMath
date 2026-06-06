@@ -1,0 +1,40 @@
+{
+  "entry_id": "57741a1bc97e",
+  "ts": 1780746748.2326226,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2604.08095",
+      "title": "The Boolean surface area of polynomial threshold functions",
+      "abstract_excerpt": "Polynomial threshold functions (PTFs) are an important low-complexity class of Boolean functions, with strong connections to learning theory and approximation theory. Recent work on learning and testing PTFs has exploited structural and isoperimetric properties of the class, especially bounds on average sensitivity, one of the central themes in the study of PTFs since the Gotsman--Linial conjecture.\n  In this work we study PTFs through the lens of the Boolean surface area (or Talagrand boundary)",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'Boolean surface area (or Talagrand boundary)' of polynomial threshold functions and proves polylogarithmic bounds — it shares the 'surface area' vocabulary but does not address quadratic forms of SAT instances, Frege proof width, or any linear correlation between geometric area and proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/cond-mat/9604012v1",
+      "title": "Incomplete melting of the Si(100) surface from molecular-dynamics simulations using the Effective-Medium Tight-Binding model",
+      "abstract_excerpt": "We present molecular-dynamics simulations of the Si(100) surface in the temperature range 1100-1750K. To describe the total energy and forces we use the Effective-Medium Tight-Binding model. The defect-free surface is found to melt at the bulk melting point, which we determine to be 1650 K, but for ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes molecular-dynamics simulations of Si(100) surface melting, which shares no conceptual overlap with quadratic surface area of Boolean formulas or Frege proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/cond-mat/0110236v1",
+      "title": "Applicability of the Broken-Bond Rule to the Surface Energy of the fcc Metals",
+      "abstract_excerpt": "We apply the Green's function based full-potential screened Korringa-Kohn-Rostoker method in conjunction with the local density approximation to study the surface energies of the noble and the fcc transition and $sp$ metals. The orientation dependence of the transition metal surface energies can be ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns surface energies of fcc metals computed via the Korringa-Kohn-Rostoker method, which has no relation to quadratic forms from SAT instances or Frege proof width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
