@@ -1,0 +1,40 @@
+{
+  "entry_id": "d7cf4659c191",
+  "ts": 1780756414.2469769,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1403.8106",
+      "title": "Recent advances on the log-rank conjecture in communication complexity",
+      "abstract_excerpt": "The log-rank conjecture is one of the fundamental open problems in communication complexity. It speculates that the deterministic communication complexity of any two-party function is equal to the log of the rank of its associated matrix, up to polynomial factors. Despite much research, we still know very little about this conjecture. Recently, there has been renewed interest in this conjecture and its relations to other fundamental problems in complexity theory. This survey describes some of th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the log-rank conjecture relating communication complexity to log of matrix rank, but makes no mention of Brauer groups or their order. It shares the 'communication complexity rank' vocabulary but does not interact with the specific claim about Brauer group order bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1908.06409",
+      "title": "Schur multipliers of special p-groups of rank 2",
+      "abstract_excerpt": "A group G is called special p-group of rank k if the commutator subgroup [G,G] and centre Z(G) are equal, which is elementary abelian p-group of rank k and G/[G,G] is also elementary abelian p-group. In this article we determine the Schur multiplier of special p-groups of rank 2 explicitly.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Schur multipliers of special p-groups of rank 2, a pure group theory topic, with no mention of Brauer groups, Boolean functions, or communication complexity rank as in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1102.2932",
+      "title": "Applications of Monotone Rank to Complexity Theory",
+      "abstract_excerpt": "Raz's recent result \\cite{Raz2010} has rekindled people's interest in the study of \\emph{tensor rank}, the generalization of matrix rank to high dimensions, by showing its connections to arithmetic formulas. In this paper, we follow Raz's work and show that \\emph{monotone rank}, the monotone variant of tensor rank and matrix rank, has applications in algebraic complexity, quantum computing and communication complexity. This paper differs from Raz's paper in that it leverages existing results to ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses monotone rank, tensor rank, and a multiparty generalization of the log-rank conjecture, but says nothing about Brauer groups or their orders. It shares the 'communication complexity / rank' vocabulary with the conjecture but does not address the specific Brauer group bound claimed.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "4f2cdbb607c4",
+  "ts": 1780753939.3553584,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1510.02682",
+      "title": "Classical and Quantum Algorithms for the Boolean Satisfiability Problem",
+      "abstract_excerpt": "This paper presents a complete algorithmic study of the decision Boolean Satisfiability Problem under the classical computation and quantum computation theories. The paper depicts deterministic and probabilistic algorithms, propositions of their properties and the main result is that the problem has not an efficient algorithm (NP is not P). Novel quantum algorithms and propositions depict that the complexity by quantum computation approach for solving the Boolean Satisfiability Problem or any NP",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses classical and quantum algorithms for SAT decision complexity (claiming NP≠P and linear-time quantum solutions), with no mention of resolution proof width, Hodge theory, or any norm associated with CNF vector spaces.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1602.06867",
+      "title": "Lower bound for the Complexity of the Boolean Satisfiability Problem",
+      "abstract_excerpt": "This paper depicts algorithms for solving the decision Boolean Satisfiability Problem. An extreme problem is formulated to analyze the complexity of algorithms and the complexity for solving it. A novel and easy reformulation as a lottery for an extreme case is presented to determine a stable complexity around $2^n$. The reformulation point out that the decision Boolean Satisfiability Problem can only be solved in exponential time. This implies there is not an efficient algorithm for the NP Clas",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses SAT decision complexity and a claimed exponential lower bound (`stable complexity around $2^n$`), with no mention of resolution proof width, Hodge theory, or any vector-space norm associated with CNF formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1605.07503",
+      "title": "A novel algorithm for solving the Decision Boolean Satisfiability Problem without algebra",
+      "abstract_excerpt": "This paper depicts an algorithm for solving the Decision Boolean Satisfiability Problem using the binary numerical properties of a Special Decision Satisfiability Problem, parallel execution, object oriented, and short termination. The two operations: expansion and simplification are used to explains why using algebra grows the resolution steps. It is proved that its complexity has an upper bound of $2^{n-1}$ where $n$ is the number of logical variables of the given problem.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a SAT-solving algorithm with a 2^(n-1) complexity bound using expansion/simplification operations, with no mention of Hodge theory, vector space norms, or resolution proof width. It shares only the SAT vocabulary but does not interact with the specific Hodge-theoretic norm claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

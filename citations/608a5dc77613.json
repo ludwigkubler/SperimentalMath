@@ -1,0 +1,40 @@
+{
+  "entry_id": "608a5dc77613",
+  "ts": 1780756626.8706732,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1710.03960",
+      "title": "Grid peeling and the affine curve-shortening flow",
+      "abstract_excerpt": "In this paper we study an experimentally-observed connection between two seemingly unrelated processes, one from computational geometry and the other from differential geometry. The first one (which we call \"grid peeling\") is the convex-layer decomposition of subsets $G\\subset \\mathbb Z^2$ of the integer grid, previously studied for the particular case $G=\\{1,\\ldots,m\\}^2$ by Har-Peled and Lidický (2013). The second one is the affine curve-shortening flow (ACSF), first studied by Alvarez et al. ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns grid peeling and affine curve-shortening flow in computational/differential geometry, with no mention of Kähler manifolds or SAT clause subset complexity. The Θ(n^{3/2}log n) bound is about grid points removed in peeling iterations, unrelated to the conjecture's claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2509.01376",
+      "title": "On the chromatic number of random triangle-free graphs",
+      "abstract_excerpt": "We study the chromatic number of typical triangle-free graphs with $Θ\\left( n^{3/2} (\\log n)^{1/2} \\right)$ edges and establish the width of the scaling window for the transitions from $χ= 3$ to $χ= 4$ and from $χ= 4$ to $χ= 5$.\n  The transition from $3$- to $4$-colorability has scaling window of width $Θ(n^{4/3} (\\log n)^{-1/3})$. To prove this, we show a high probability equivalence of the $3$-colorability of a random triangle-free graph at this density and the satisfiability of an instance of",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns chromatic number transitions in random triangle-free graphs and bipartite random 2-SAT scaling windows, with no mention of Kähler manifolds or clause subset complexity representation. The shared n^{3/2} scaling is coincidental vocabulary, not an interaction with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2412.16952",
+      "title": "Mixing Phases and Metastability for the Glauber Dynamics on the p-Spin Curie-Weiss Model",
+      "abstract_excerpt": "The Glauber dynamics for the classical $2$-spin Curie-Weiss model on $N$ nodes with inverse temperature $β$ and zero external field is known to mix in time $Θ(N\\log N)$ for $β&lt; \\frac{1}{2}$, in time $Θ(N^{3/2})$ at $β= \\frac{1}{2}$, and in time $\\exp(Ω(N))$ for $β&gt;\\frac{1}{2}$. In this paper, we consider the $p$-spin generalization of the Curie-Weiss model with an external field $h$, and identify three disjoint regions almost exhausting the parameter space, with the corresponding Glauber d",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Glauber dynamics mixing times on the p-spin Curie-Weiss model, sharing only the superficial Θ(N^{3/2}) scaling with the conjecture; it makes no claim about Kähler manifolds or SAT clause subset complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
