@@ -1,0 +1,40 @@
+{
+  "entry_id": "a1ec83f4b6e5",
+  "ts": 1780705323.8678875,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1908.03540",
+      "title": "Enriching MRI mean flow data of inclined jets in crossflow with Large Eddy Simulations",
+      "abstract_excerpt": "Measurement techniques such as Magnetic Resonance Velocimety (MRV) and Magnetic Resonance Concentration (MRC) are useful for obtaining 3D time-averaged flow quantities in complex turbulent flows, but cannot measure turbulent correlations or near-wall data. In this work, we use highly resolved Large Eddy Simulations (LES) to complement the experiments and bypass those limitations. Coupling LES and magnetic resonance experimental techniques is especially advantageous in complex non-homogeneous flo",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns fluid dynamics (MRI velocimetry and LES of jets in crossflow), with no connection to CNF formulas, communication complexity matrices, or geometric flow indices in the conjecture's sense. The shared word 'flow' is purely lexical.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1909.12897",
+      "title": "Distance Estimation Methods for a Practical Macroscale Molecular Communication System",
+      "abstract_excerpt": "Accurate estimation of the distance between the transmitter (TX) and the receiver (RX) in molecular communication (MC) systems can provide faster and more reliable communication. Existing theoretical models in the literature are not suitable for distance estimation in a practical scenario. Furthermore, deriving an analytical model is not easy due to effects such as boundary conditions in the diffusion process, the initial velocity of the molecules and unsteady flows. Therefore, five different pr",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns distance estimation in macroscale molecular communication systems using fluid dynamics and machine learning, with no mention of CNF formulas, communication complexity matrices, geometric flow indices, or rank variance.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1406.1253",
+      "title": "Model Reduction for DAEs with an Application to Flow Control",
+      "abstract_excerpt": "Direct numerical simulation of dynamical systems is of fundamental importance in studying a wide range of complex physical phenomena. However, the ever-increasing need for accuracy leads to extremely large-scale dynamical systems whose simulations impose huge computational demands. Model reduction offers one remedy to this problem by producing simpler reduced models that are both easier to analyze and faster to simulate while accurately replicating the original behavior. Interpolatory model redu",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns interpolatory model reduction for differential algebraic equations applied to flow control, with no mention of CNF formulas, communication complexity matrices, or geometric flow indices/variance — it shares only the loose word 'flow' with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

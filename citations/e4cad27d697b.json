@@ -1,0 +1,31 @@
+{
+  "entry_id": "e4cad27d697b",
+  "ts": 1780703257.3299696,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.1145/3583668.3594596",
+      "title": "On the Amortized Communication Complexity of Byzantine Broadcast",
+      "abstract_excerpt": "Designing an efficient solution for Byzantine broadcast is an important problem for many distributed computing and cryptographic tasks. There have been many attempts to achieve sub-quadratic communication complexity in several directions, both in theory and practice, all with pros and cons. This paper initiates the study of another attempt: improving the amortized communication complexity of multi-shot Byzantine broadcast. Namely, we try to improve the average cost when we have sequential multip",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Byzantine broadcast protocols and their amortized communication cost in distributed computing, with no mention of quadratic forms, k-CNF formulas, monotone duals, or matrix rank variance. It shares only the generic term 'communication complexity' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10.1109/SFCS.1995.492457",
+      "title": "Spectral methods for matrix rigidity with applications to size-depth tradeoffs and communication complexity",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available, so I cannot evaluate whether the paper's content supports, refutes, or is orthogonal to the conjecture about minimal order of quadratic forms and variance of communication complexity rank.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}
