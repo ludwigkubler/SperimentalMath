@@ -1,0 +1,208 @@
+{
+  "ts": 1780716787.3640285,
+  "window_h": 24.0,
+  "n_conjectures": 257,
+  "n_papers": 230,
+  "n_scoops": 17,
+  "scoops": [
+    {
+      "paper_id": "2606.05512v1",
+      "paper_title": "Polynomial-time satisfiability for a special case of Positive$\\wedge$Negative",
+      "matched_eid": "3a2555ed4bc1",
+      "similarity": 0.7346727406355906
+    },
+    {
+      "paper_id": "2606.05099v1",
+      "paper_title": "Quantum Time Lower Bounds by Permutation Invariance",
+      "matched_eid": "b7d5995a72bd",
+      "similarity": 0.7288866352034848
+    },
+    {
+      "paper_id": "2606.04406v1",
+      "paper_title": "Bit-counting complexity classes",
+      "matched_eid": "3113d14c1200",
+      "similarity": 0.7357352428966859
+    },
+    {
+      "paper_id": "2606.03862v1",
+      "paper_title": "APX-Hardness of Computing Lipschitz Constants for Multi-Parametric Quadratic Programs",
+      "matched_eid": "146afffa99fc",
+      "similarity": 0.728278440342849
+    },
+    {
+      "paper_id": "2606.03249v1",
+      "paper_title": "Quantum-Classical Equivalence for AND-Functions",
+      "matched_eid": "45eb0dd79407",
+      "similarity": 0.7880123493165342
+    },
+    {
+      "paper_id": "2606.03194v1",
+      "paper_title": "Lean 4 Machine-Verified Proof of P = NP via the Pedigree Polytope Membership Problem",
+      "matched_eid": "c75cdb88051f",
+      "similarity": 0.7518032241023802
+    },
+    {
+      "paper_id": "2606.05245v1",
+      "paper_title": "Worst-Case Update Complexity of the Preisach Extremum Stack",
+      "matched_eid": "f0a77ba75234",
+      "similarity": 0.7347102235519932
+    },
+    {
+      "paper_id": "2606.04227v1",
+      "paper_title": "Incremental Sheaf Cohomology on Cellular Complexes: O(1)-in-n Lazy Edit Processing under Bounded Local Geometry",
+      "matched_eid": "9cde66aeb5ac",
+      "similarity": 0.7242681858328974
+    },
+    {
+      "paper_id": "2606.02805v1",
+      "paper_title": "On the gap of quiver representations",
+      "matched_eid": "00a760aaddc9",
+      "similarity": 0.7667827186735963
+    },
+    {
+      "paper_id": "2606.05727v1",
+      "paper_title": "Planar higher-rank trees have rank at most four",
+      "matched_eid": "7eeb38edb185",
+      "similarity": 0.7237155400699278
+    },
+    {
+      "paper_id": "2606.05117v1",
+      "paper_title": "A problem of Andrews and Dhar on partitions",
+      "matched_eid": "5c64baa1cd8c",
+      "similarity": 0.7303616544114991
+    },
+    {
+      "paper_id": "2606.04824v1",
+      "paper_title": "The minimum degree question for the Maker Breaker Domination Game",
+      "matched_eid": "5176ee0eb621",
+      "similarity": 0.7502935669088429
+    },
+    {
+      "paper_id": "2606.04470v1",
+      "paper_title": "Multi-entropy in random tensor networks",
+      "matched_eid": "7d181ceca4cb",
+      "similarity": 0.7468980014376118
+    },
+    {
+      "paper_id": "2606.04439v2",
+      "paper_title": "Size Ramsey minimal graphs for star forests",
+      "matched_eid": "5176ee0eb621",
+      "similarity": 0.7357211201748491
+    },
+    {
+      "paper_id": "2606.04400v1",
+      "paper_title": "On linear $k$-graphs with codegree Turán density arbitrarily close to zero",
+      "matched_eid": "55804d8e7a27",
+      "similarity": 0.7215636150388943
+    },
+    {
+      "paper_id": "2606.06246v1",
+      "paper_title": "Multiple Quantum Hypothesis Testing: One-Shot Pairwise Bounds and Sharp Asymptotics",
+      "matched_eid": "25be3fd35867",
+      "similarity": 0.7327141999863281
+    },
+    {
+      "paper_id": "2606.03856v1",
+      "paper_title": "Variational Loop Vertex Expansion for Cumulants",
+      "matched_eid": "d09a3ae7ba3e",
+      "similarity": 0.7288495880682823
+    }
+  ],
+  "top_overlap": [
+    {
+      "score": 0.788,
+      "paper_id": "2606.03249v1",
+      "paper_title": "Quantum-Classical Equivalence for AND-Functions",
+      "paper_category": "cs.CC",
+      "matched_conjecture_eid": "45eb0dd79407",
+      "matched_conjecture_title": "Minimal Rank of Quantum Affine Algebras and Communication Complexity Rank Variance"
+    },
+    {
+      "score": 0.767,
+      "paper_id": "2606.02805v1",
+      "paper_title": "On the gap of quiver representations",
+      "paper_category": "math.OC",
+      "matched_conjecture_eid": "00a760aaddc9",
+      "matched_conjecture_title": "Minimal Representation Rank of Quivers and SAT Clause Subset Entropy"
+    },
+    {
+      "score": 0.752,
+      "paper_id": "2606.03194v1",
+      "paper_title": "Lean 4 Machine-Verified Proof of P = NP via the Pedigree Polytope Membership Problem",
+      "paper_category": "cs.CC",
+      "matched_conjecture_eid": "c75cdb88051f",
+      "matched_conjecture_title": "Minimal Diophantine Root Count and Frege Proof Depth Inequality"
+    },
+    {
+      "score": 0.75,
+      "paper_id": "2606.04824v1",
+      "paper_title": "The minimum degree question for the Maker Breaker Domination Game",
+      "paper_category": "math.CO",
+      "matched_conjecture_eid": "5176ee0eb621",
+      "matched_conjecture_title": "Minimal Tropical Rank of Graph Automorphism Groups and Circuit Size Inequality"
+    },
+    {
+      "score": 0.747,
+      "paper_id": "2606.04470v1",
+      "paper_title": "Multi-entropy in random tensor networks",
+      "paper_category": "hep-th",
+      "matched_conjecture_eid": "7d181ceca4cb",
+      "matched_conjecture_title": "Minimal Galois Group Order and Circuit Entanglement Inequality"
+    },
+    {
+      "score": 0.736,
+      "paper_id": "2606.04406v1",
+      "paper_title": "Bit-counting complexity classes",
+      "paper_category": "cs.CC",
+      "matched_conjecture_eid": "3113d14c1200",
+      "matched_conjecture_title": "Minimal Order of Cyclic Codes and Communication Complexity Rank"
+    },
+    {
+      "score": 0.736,
+      "paper_id": "2606.04439v2",
+      "paper_title": "Size Ramsey minimal graphs for star forests",
+      "paper_category": "math.CO",
+      "matched_conjecture_eid": "5176ee0eb621",
+      "matched_conjecture_title": "Minimal Tropical Rank of Graph Automorphism Groups and Circuit Size Inequality"
+    },
+    {
+      "score": 0.735,
+      "paper_id": "2606.05245v1",
+      "paper_title": "Worst-Case Update Complexity of the Preisach Extremum Stack",
+      "paper_category": "cs.DS",
+      "matched_conjecture_eid": "f0a77ba75234",
+      "matched_conjecture_title": "Minimal Order of Formal Language Grammar Complexity and Circuit Satisfiability Threshold"
+    },
+    {
+      "score": 0.735,
+      "paper_id": "2606.05512v1",
+      "paper_title": "Polynomial-time satisfiability for a special case of Positive$\\wedge$Negative",
+      "paper_category": "cs.CC",
+      "matched_conjecture_eid": "3a2555ed4bc1",
+      "matched_conjecture_title": "Minimal Alexander-Brandt Index and Circuit Monotone Width Inequality"
+    },
+    {
+      "score": 0.733,
+      "paper_id": "2606.06246v1",
+      "paper_title": "Multiple Quantum Hypothesis Testing: One-Shot Pairwise Bounds and Sharp Asymptotics",
+      "paper_category": "quant-ph",
+      "matched_conjecture_eid": "25be3fd35867",
+      "matched_conjecture_title": "Minimal Order of Quantum Entanglement and SAT Clause Entropy Inequality"
+    }
+  ],
+  "stats": {
+    "n_cycles": 257,
+    "verdicts": {
+      "INCONCLUSIVE": 157,
+      "BARRIER_HIT": 100
+    },
+    "focus_distribution": {},
+    "top_fields_A": {
+      "Algebraic Geometry (Hodge Theory)": 10,
+      "Algebra (Local Induction Dimension in Boolean Alge": 8,
+      "Tropical Geometry": 7,
+      "Formal Logic (Entailment Theory)": 7,
+      "Algebraic Geometry (Sheaf Theory)": 5
+    }
+  }
+}

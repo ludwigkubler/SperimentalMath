@@ -1,0 +1,31 @@
+{
+  "entry_id": "e774441291f5",
+  "ts": 1780717977.4789789,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:8364ff5de07adbecb8c60ddcbb27a62adec3103b",
+      "title": "Discrete Mathematics with Combinatorics",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available for the cited paper, so I cannot determine whether its contents support, refute, or are orthogonal to the conjecture connecting formal group order with Boolean circuit width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:91a121a8f7abb7033e78eef01a5fe17b072ef6be",
+      "title": "The Simplest Query Language That Could Possibly Work",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available for the cited paper, and the title 'The Simplest Query Language That Could Possibly Work' suggests a topic (query languages) unrelated to formal groups or circuit complexity, but without the abstract I cannot confirm relevance.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 2
+  }
+}
