@@ -1,0 +1,40 @@
+{
+  "entry_id": "45eb0dd79407",
+  "ts": 1780713776.5690053,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1605.08711",
+      "title": "The isomorphism problem for quantum affine spaces, homogenized quantized Weyl algebras, and quantum matrix algebras",
+      "abstract_excerpt": "Bell and Zhang have shown that if $A$ and $B$ are two connected graded algebras finitely generated in degree one that are isomorphic as ungraded algebras, then they are isomorphic as graded algebras. We exploit this result to solve the isomorphism problem in the cases of quantum affine spaces, quantum matrix algebras, and homogenized multiparameter quantized Weyl algebras. Our result involves determining the degree one normal elements, factoring out, and then repeating. This creates an iterative",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses the isomorphism problem for quantum affine spaces and related algebras via graded structure and normal elements, with no mention of communication complexity, boolean functions, matrix rank variance, or minimal rank of quantum affine algebras.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1911.03496",
+      "title": "Isomorphism between the $R$-Matrix and Drinfeld Presentations of Quantum Affine Algebra: Types $B$ and $D$",
+      "abstract_excerpt": "Following the approach of Ding and Frenkel [Comm. Math. Phys. 156 (1993), 277-300] for type $A$, we showed in our previous work [J. Math. Phys. 61 (2020), 031701, 41 pages] that the Gauss decomposition of the generator matrix in the $R$-matrix presentation of the quantum affine algebra yields the Drinfeld generators in all classical types. Complete details for type $C$ were given therein, while the present paper deals with types $B$ and $D$. The arguments for all classical types are quite simila",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the isomorphism between R-matrix and Drinfeld presentations of quantum affine algebras of types B and D, with no mention of boolean functions, communication complexity, or matrix rank variance. It shares only the vocabulary 'quantum affine algebra' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2210.01601",
+      "title": "Quantum communication complexity of linear regression",
+      "abstract_excerpt": "Quantum computers may achieve speedups over their classical counterparts for solving linear algebra problems. However, in some cases -- such as for low-rank matrices -- dequantized algorithms demonstrate that there cannot be an exponential quantum speedup. In this work, we show that quantum computers have provable polynomial and exponential speedups in terms of communication complexity for some fundamental linear algebra problems \\update{if there is no restriction on the rank}. We mainly focus o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quantum communication complexity of linear algebra problems like linear regression and Hamiltonian simulation, with mentions of rank only in the context of 'low-rank matrices' and dequantization — it makes no claim about quantum affine algebras or any 'communication complexity rank variance' of boolean functions.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
