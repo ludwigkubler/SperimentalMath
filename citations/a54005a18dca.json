@@ -1,0 +1,40 @@
+{
+  "entry_id": "a54005a18dca",
+  "ts": 1780716796.6905327,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0201057v2",
+      "title": "Generalised Thurston-Bennequin invariants for real algebraic surface singularities",
+      "abstract_excerpt": "A generalised Thurston-Bennequin invariant for a Q-singularity of a real algebraic variety is defined as a linking form on the homologies of the real link of the singularity. The main goal of this paper is to present a method to calculate the linking form in terms of the very good resolution graph o",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Thurston-Bennequin invariants defined as linking forms on homologies of real algebraic singularities, computed via resolution graphs — it makes no mention of Hodge decomposition rank, monotone circuit width, or any inequality relating them.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2510.04025v1",
+      "title": "On the non-existence of certain real algebraic surfaces",
+      "abstract_excerpt": "In this note is given an algebraic solution to the problem 1997-6 proposed by D. A. Panov in the list of Arnold's problems \\cite{Arnld2b}. In particular, it is shown that there does not exist a real polynomial function $f$ on the real euclidean plane, whose Hessian is positive in an open set bordere",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses non-existence of a real polynomial function with a positive Hessian on a bordered open set (Arnold's problem 1997-6), which shares only the vague 'real algebraic surfaces' vocabulary with the conjecture but says nothing about Hodge decomposition rank, graphs, or monotone circuit width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1609.07446v2",
+      "title": "On the geometric structure of certain real algebraic surfaces",
+      "abstract_excerpt": "In this paper we study the affine geometric structure of the graph of a polynomial $f \\in \\mathbb{R} [x,y]$. We provide certain criteria to determine when the parabolic curve is compact and when the unbounded component of its complement is hyperbolic or elliptic. We analyse the extension to the real",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes affine geometric structure of polynomial graphs (parabolic curves, hyperbolic/elliptic components), with no mention of Hodge decomposition, graph regularity, or circuit complexity. It shares only the loose 'real algebraic surface' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

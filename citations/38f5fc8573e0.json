@@ -1,0 +1,31 @@
+{
+  "entry_id": "38f5fc8573e0",
+  "ts": 1780714324.6905394,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1703.04456",
+      "title": "P?=NP as minimization of degree 4 polynomial, integration or Grassmann number problem, and new graph isomorphism problem approaches",
+      "abstract_excerpt": "While the P vs NP problem is mainly approached form the point of view of discrete mathematics, this paper proposes reformulations into the field of abstract algebra, geometry, fourier analysis and of continuous global optimization - which advanced tools might bring new perspectives and approaches for this question. The first one is equivalence of satisfaction of 3-SAT problem with the question of reaching zero of a nonnegative degree 4 multivariate polynomial (sum of squares), what could be test",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract reformulates SAT via polynomial/algebraic/geometric optimization (degree-4 polynomials, Grassmann numbers, Fourier integrals) but makes no mention of Hodge structures, their minimal order, or any clause subset complexity measure c(φ) tied logarithmically to such an order.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2201.00545",
+      "title": "Parametric Root Finding for Supporting Proving and Discovering Geometric Inequalities in GeoGebra",
+      "abstract_excerpt": "We introduced the package/subsystem GeoGebra Discovery to GeoGebra which supports the automated proving or discovering of elementary geometry inequalities. In this case study, for inequality exploration problems related to isosceles and right angle triangle subclasses, we demonstrate how our general real quantifier elimination (RQE) approach could be replaced by a parametric root finding (PRF) algorithm. The general RQE requires the full cell decomposition of a high dimensional space, while the ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes using NRA-SAT solvers and Groebner bases for geometric inequality discovery in GeoGebra, which shares only superficial vocabulary ('SAT', 'inequalities') with the conjecture and does not address Hodge structures or clause subset complexity at all.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 0
+  }
+}
