@@ -1,0 +1,40 @@
+{
+  "entry_id": "0746fcb728e3",
+  "ts": 1780727470.8503964,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/9904032v1",
+      "title": "Recent Trends in Algebraic Geometry -- EuroConference on Algebraic Geometry (Warwick, July 1996)",
+      "abstract_excerpt": "This file, provided as bibliographical information, contains the table of contents and editors' foreword from the proceedings of the July 1996 Warwick EuroConference on Algebraic Geometry.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract only states that the file contains a table of contents and foreword from a 1996 algebraic geometry conference proceedings, with no substantive claims about Hodge modules or resolution proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/9806006v1",
+      "title": "Special Langrangian geometry and slightly deformed algebraic geometry (spLag and sdAG)",
+      "abstract_excerpt": "The special geometry of calibrated cycles, closely related to mirror symmetry among Calabi--Yau 3-folds, is itself a real form of a new subject, which we call slightly deformed algebraic geometry. On the other hand, both of these geometries are parallel to classical gauge theories and their complexi",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses special Lagrangian geometry, calibrated cycles, mirror symmetry, and Calabi-Yau 3-folds, with no mention of Hodge modules, resolution proof complexity, clauses, or variance bounds. It shares only the broad 'algebraic geometry' framework but does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2112.12010",
+      "title": "Algebraic geometry in mixed characteristic",
+      "abstract_excerpt": "Fix a prime number $p$. We report on some recent developments in algebraic geometry (broadly construed) over $p$-adically complete commutative rings. These developments include foundational advances within the subject as well as external applications.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses algebraic geometry over p-adically complete commutative rings, with no mention of Hodge modules, resolution proof complexity, clauses, or variance bounds. It shares only the broad 'algebraic geometry' framework but does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

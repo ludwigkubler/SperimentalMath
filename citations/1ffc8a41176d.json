@@ -1,0 +1,40 @@
+{
+  "entry_id": "1ffc8a41176d",
+  "ts": 1780725522.2854455,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1203.4007",
+      "title": "Positivity, entanglement entropy, and minimal surfaces",
+      "abstract_excerpt": "The path integral representation for the Renyi entanglement entropies of integer index n implies these information measures define operator correlation functions in QFT. We analyze whether the limit $n\\rightarrow 1$, corresponding to the entanglement entropy, can also be represented in terms of a path integral with insertions on the region's boundary, at first order in $n-1$. This conjecture has been used in the literature in several occasions, and specially in an attempt to prove the Ryu-Takaya",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses Renyi entanglement entropy in QFT and minimal surfaces in AdS-CFT (Ryu-Takayanagi), with no connection to CNF formulas, polynomial ring ranks, DPLL search trees, or Boolean circuit complexity. The shared word 'entropy/entanglement' is purely terminological overlap.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1409.5370",
+      "title": "On the physical and circuit-theoretic significance of the Memristor",
+      "abstract_excerpt": "It is noticed that the inductive and capacitive features of the memristor reflect (and are a quintessence of) such features of any resistor. The very presence in the resistive characteristic v = f(i) of the voltage and current state variables, associated by their electrodynamics sense with electrical and magnetic fields, forces any resister to cause to accumulate some magnetic and electrostatic fields and energies around itself. The present version is strongly extended in the sense of the circui",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses memristors and electromagnetic fields in circuit theory ('inductive and capacitive features of the memristor'), which has no bearing on Boolean circuit complexity, DPLL search trees, or ring rank in the algebraic sense.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/quant-ph/0308033v3",
+      "title": "Minimal Universal Two-qubit Quantum Circuits",
+      "abstract_excerpt": "We give quantum circuits that simulate an arbitrary two-qubit unitary operator up to global phase. For several quantum gate libraries we prove that gate counts are optimal in worst and average cases. Our lower and upper bounds compare favorably to previously published results. Temporary storage is n",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns optimal gate counts for two-qubit quantum circuits simulating unitary operators, which shares no interaction with CNF polynomial ring ranks or DPLL entanglement variance. The phrase 'quantum circuits that simulate an arbitrary two-qubit unitary operator' indicates a quantum gate synthesis topic unrelated to the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
