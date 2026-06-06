@@ -1,0 +1,40 @@
+{
+  "entry_id": "54d4b50dbd3a",
+  "ts": 1780787660.915886,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1612.04764",
+      "title": "Cohomological aspects on complex and symplectic manifolds",
+      "abstract_excerpt": "We discuss how quantitative cohomological informations could provide qualitative properties on complex and symplectic manifolds. In particular we focus on the Bott-Chern and the Aeppli cohomology groups in both cases, since they represent useful tools in studying non Kähler geometry. We give an overview on the comparisons among the dimensions of the cohomology groups that can be defined and we show how we reach the $\\partial\\overline\\partial$-lemma in complex geometry and the Hard-Lefschetz cond",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Bott-Chern and Aeppli cohomology, the ∂∂̄-lemma, and Hard-Lefschetz conditions on complex/symplectic manifolds — it makes no mention of symplectic leaves, moduli of curves, Boolean formulas, or Frege proof depth, so it shares only the broad 'symplectic' vocabulary without interacting with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1811.09984",
+      "title": "Translated points for contactomorphisms of prequantization spaces over monotone symplectic toric manifolds",
+      "abstract_excerpt": "We prove a version of Sandon's conjecture on the number of translated points of contactomorphisms for the case of prequantization bundles over certain closed monotone symplectic toric manifolds. Namely we show that any contactomorphism of such a prequantization bundle lying in the identity component of the contactomorphism group possesses at least $N$ translated points, where $N$ is the minimal Chern number of the symplectic toric manifold. The proof relies on the theory of generating functions ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns translated points of contactomorphisms on prequantization bundles and Sandon's conjecture, with no mention of Boolean formulas, Frege proof depth, or symplectic leaves of moduli spaces of curves. It shares only the broad 'symplectic' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1002.3099",
+      "title": "Tamed Symplectic forms and SKT metrics",
+      "abstract_excerpt": "Symplectic forms taming complex structures on compact manifolds are strictly related to Hermitian metrics having the fundamental form $\\partial \\bar \\partial $-closed, i.e. to strong Kähler with torsion (${\\rm SKT}$) metrics. It is still an open problem to exhibit a compact example of a complex manifold having a tamed symplectic structure but non-admitting Kähler structures. We show some negative results for the existence of symplectic forms taming complex structures on compact quotients of Lie ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns tamed symplectic forms, SKT metrics, and nilmanifolds with invariant complex structures, with no mention of symplectic leaves, Boolean formulas, or Frege proof complexity. It shares only the word 'symplectic' with the conjecture and does not address the claimed correlation.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
