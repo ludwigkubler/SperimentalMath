@@ -1,0 +1,40 @@
+{
+  "entry_id": "b7d5995a72bd",
+  "ts": 1780709807.3953948,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1911.01973",
+      "title": "On the Quantum Complexity of Closest Pair and Related Problems",
+      "abstract_excerpt": "The closest pair problem is a fundamental problem of computational geometry: given a set of $n$ points in a $d$-dimensional space, find a pair with the smallest distance. A classical algorithm taught in introductory courses solves this problem in $O(n\\log n)$ time in constant dimensions (i.e., when $d=O(1)$). This paper asks and answers the question of the problem's quantum time complexity. Specifically, we give an $\\tilde{O}(n^{2/3})$ algorithm in constant dimensions, which is optimal up to a p",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quantum fine-grained complexity (closest pair, QSETH, Grover optimality for CNF-SAT), not symmetric bilinear forms or communication complexity rank variance. It shares the CNF/quantum-query vocabulary but does not address the specific min_SBF = Θ(CCR_var) claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2412.13345",
+      "title": "A note on quantum lower bounds for local search via congestion and expansion",
+      "abstract_excerpt": "We consider the quantum query complexity of local search as a function of graph geometry. Given a graph $G = (V,E)$ with $n$ vertices and black box access to a function $f : V \\to \\mathbb{R}$, the goal is find a vertex $v$ that is a local minimum, i.e. with $f(v) \\leq f(u)$ for all $(u,v) \\in E$, using as few oracle queries as possible.\n  We show that the quantum query complexity of local search on $G$ is $Ω\\bigl( \\frac{n^{\\frac{3}{4}}}{\\sqrt{g}} \\bigr)$, where $g$ is the vertex congestion of th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quantum query complexity lower bounds for local search on graphs via vertex congestion and expansion, with no mention of CNF formulas, symmetric bilinear forms, or communication complexity rank variance. It shares only the general vocabulary of 'quantum query complexity' but does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2503.02207",
+      "title": "How to compute the volume in low dimension?",
+      "abstract_excerpt": "Estimating the volume of a convex body is a canonical problem in theoretical computer science. Its study has led to major advances in randomized algorithms, Markov chain theory, and computational geometry. In particular, determining the query complexity of volume estimation to a membership oracle has been a longstanding open question. Most of the previous work focuses on the high-dimensional limit. In this work, we tightly characterize the deterministic, randomized and quantum query complexity o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns query complexity of volume estimation for convex bodies via a membership oracle, not CNF formulas, symmetric bilinear forms, or communication complexity rank variance. It shares only the broad notion of 'quantum query complexity' but does not interact with the specific min_SBF/CCR_var claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "4546cb48e41d",
+  "ts": 1780706844.7676768,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1306.0753",
+      "title": "Automorphisms of cluster algebras of rank 2",
+      "abstract_excerpt": "We compute the automorphism group of the affine surfaces with the coordinate ring isomorphic to a cluster algebra of rank 2.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns automorphism groups of affine surfaces tied to rank-2 cluster algebras, with no mention of Boolean functions, communication complexity, or rank variance bounds. It shares only the vague vocabulary of 'automorphism' and 'rank' without interacting with the conjecture's claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2403.16671",
+      "title": "Twisted conjugacy in dihedral Artin groups I: Torus Knot groups",
+      "abstract_excerpt": "In this paper we provide an alternative solution to a result by Juhász that the twisted conjugacy problem for odd dihedral Artin groups is solvable, that is, groups with presentation $G(m) = \\langle a,b \\; | \\; _{m}(a,b) = {}_{m}(b,a) \\rangle$, where $m\\geq 3$ is odd, and $_{m}(a,b)$ is the word $abab \\dots$ of length $m$, is solvable. Our solution provides an implementable linear time algorithm, by considering an alternative group presentation to that of a torus knot group, and working with geo",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns twisted conjugacy problems in odd dihedral Artin groups (torus knot groups), addressing algorithmic solvability via geodesic normal forms. It does not discuss automorphism groups of Boolean functions, communication complexity, or matrix rank variance bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1508.01080",
+      "title": "Automorphism group of a Bott-Samelson-Demazure-Hansen variety",
+      "abstract_excerpt": "Let $G$ be a simple, adjoint, algebraic group over the field of complex numbers, $B$ be a Borel subgroup of $G$ containing a maximal torus $T$ of $G$, $w$ be an element of the Weyl group $W$ and $X(w)$ be the Schubert variety in $G/B$ corresponding to $w$. Let $Z(w,\\underline i)$ be the Bott-Samelson-Demazure-Hansen variety (the desingularization of the Schubert variety $X(w)$) corresponding to a reduced expression $\\underline i$ of $w$.\n  In this article, we compute the connected component $Aut",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns automorphism groups of Bott-Samelson-Demazure-Hansen varieties in algebraic geometry/Lie theory, with no mention of Boolean functions, communication complexity, or matrix rank — it shares only the vague vocabulary 'automorphism group' with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
