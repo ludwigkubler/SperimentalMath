@@ -1,0 +1,40 @@
+{
+  "entry_id": "c3a93f0dc63d",
+  "ts": 1780734963.863526,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2206.07946",
+      "title": "Hermitian structures on a class of quaternionic Kähler manifolds",
+      "abstract_excerpt": "Any quaternionic Kähler manifold $(\\bar N,g_{\\bar N},\\mathcal Q)$ equipped with a Killing vector field $X$ with nowhere vanishing quaternionic moment map carries an integrable almost complex structure $J_1$ that is a section of the quaternionic structure $\\mathcal Q$. Using the HK/QK correspondence, we study properties of the almost Hermitian structure $(g_{\\bar N},\\tilde J_1)$ obtained by changing the sign of $J_1$ on the distribution spanned by $X$ and $J_1X$. In particular, we derive necessar",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Hermitian structures and integrability of almost complex structures on quaternionic Kähler manifolds via the HK/QK correspondence, with no mention of boolean circuits, complexity, or any dimensional bound relating to circuit width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1607.07232",
+      "title": "Completeness of projective special Kähler and quaternionic Kähler manifolds",
+      "abstract_excerpt": "We prove that every projective special Kähler manifold with \\emph{regular boundary behaviour} is complete and defines a family of complete quaternionic Kähler manifolds depending on a parameter $c\\ge 0$. We also show that, irrespective of its boundary behaviour, every complete projective special Kähler manifold with \\emph{cubic prepotential} gives rise to such a family. Examples include non-trivial deformations of non-compact symmetric quaternionic Kähler manifolds.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses completeness of projective special Kähler and quaternionic Kähler manifolds with cubic prepotentials, with no mention of boolean circuits, circuit complexity, or any dimension bounds relating manifolds to computational objects.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1904.05483",
+      "title": "Parallels Between Phase Transitions and Circuit Complexity?",
+      "abstract_excerpt": "In many natural average-case problems, there are or there are believed to be critical values in the parameter space where the structure of the space of solutions changes in a fundamental way. These phase transitions are often believed to coincide with drastic changes in the computational complexity of the associated problem.\n  In this work, we study the circuit complexity of inference in the broadcast tree model, which has important applications in phylogenetic reconstruction and close connectio",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns circuit complexity (TC^0, NC^1) of belief propagation in broadcast tree models and phase transitions, with no mention of quaternionic Kähler manifolds, monotone circuit width, or dimension bounds of the form O(n^(2/3))/Ω(n^(1/3)).",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "1216f0e17849",
+  "ts": 1780734647.1981375,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0911.3482",
+      "title": "Complexity of Networks (reprise)",
+      "abstract_excerpt": "Network or graph structures are ubiquitous in the study of complex systems. Often, we are interested in complexity trends of these system as it evolves under some dynamic. An example might be looking at the complexity of a food web as species enter an ecosystem via migration or speciation, and leave via extinction.\n  In a previous paper, a complexity measure of networks was proposed based on the {\\em complexity is information content} paradigm. To apply this paradigm to any object, one must fix ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a network complexity measure based on representation-language information content for graph structures, with no mention of Frobenius representations, communication complexity, or matrix rank variance. It shares only the loose vocabulary of 'representation' and 'complexity' without engaging the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1709.04262",
+      "title": "Lower Bounds for Approximating Graph Parameters via Communication Complexity",
+      "abstract_excerpt": "In a celebrated work, Blais, Brody, and Matulef developed a technique for proving property testing lower bounds via reductions from communication complexity. Their work focused on testing properties of functions, and yielded new lower bounds as well as simplified analyses of known lower bounds. Here, we take a further step in generalizing the methodology of Blais et al. to analyze the query complexity of graph parameter estimation problems. In particular, our technique decouples the lower bound ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns property testing lower bounds for graph parameter estimation via reductions from communication complexity, with no mention of Frobenius representations or any 'communication complexity rank variance' measure. It shares only the general vocabulary of 'communication complexity' and 'graph' without addressing the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1608.08324",
+      "title": "Topological Drawings of Complete Bipartite Graphs",
+      "abstract_excerpt": "Topological drawings are natural representations of graphs in the plane, where vertices are represented by points, and edges by curves connecting the points. Topological drawings of complete graphs and of complete bipartite graphs have been studied extensively in the context of crossing number problems. We consider a natural class of simple topological drawings of complete bipartite graphs, in which we require that one side of the vertex set bipartition lies on the outer boundary of the drawing.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns topological drawings and crossing-number combinatorics of complete bipartite graphs ('Topological drawings are natural representations of graphs in the plane'), with no mention of Frobenius representations, communication complexity, or matrix rank.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
