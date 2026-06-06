@@ -1,0 +1,40 @@
+{
+  "entry_id": "4792defc9e57",
+  "ts": 1780774145.3981926,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2503.17274",
+      "title": "Composable Uncertainty in Symmetric Monoidal Categories for Design Problems (Extended Version)",
+      "abstract_excerpt": "Applied category theory often studies symmetric monoidal categories (SMCs) whose morphisms represent open systems. These structures naturally accommodate complex wiring patterns, leveraging (co)monoidal structures for splitting and merging wires, or compact closed structures for feedback. A key example is the compact closed SMC of design problems (DP), which enables a compositional approach to co-design in engineering. However, in practice, the systems of interest may not be fully known. Recentl",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns symmetric monoidal categories, Markov categories, and design problems with uncertainty — it never mentions Boolean formulas, Frege proof depth, monoid orders in endofunctor categories of posets [φ], or any proof-complexity bound.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1912.10642",
+      "title": "Notes on Category Theory with examples from basic mathematics",
+      "abstract_excerpt": "These notes were originally developed as lecture notes for a category theory course. They should be well-suited to anyone that wants to learn category theory from scratch and has a scientific mind. There is no need to know advanced mathematics, nor any of the disciplines where category theory is traditionally applied, such as algebraic geometry or theoretical computer science. The only knowledge that is assumed from the reader is linear algebra. All concepts are explained by giving concrete exam",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes introductory category theory lecture notes covering Yoneda lemma, monads/comonads, and monoidal categories with no mention of Boolean formulas, Frege proof complexity, or bounds relating monoid order to proof depth.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1802.09555",
+      "title": "Involutive categories, colored $\\ast$-operads and quantum field theory",
+      "abstract_excerpt": "Involutive category theory provides a flexible framework to describe involutive structures on algebraic objects, such as anti-linear involutions on complex vector spaces. Motivated by the prominent role of involutions in quantum (field) theory, we develop the involutive analogs of colored operads and their algebras, named colored $\\ast$-operads and $\\ast$-algebras. Central to the definition of colored $\\ast$-operads is the involutive monoidal category of symmetric sequences, which we obtain from",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses involutive monoidal categories, colored *-operads, and applications to quantum field theory, with no mention of Boolean formulas, Frege proof depth, or monoid order bounds related to proof complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "08ac25205de2",
+  "ts": 1780773678.460961,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2403.13102",
+      "title": "Geometric methods in quantum information and entanglement variational principle",
+      "abstract_excerpt": "Geometrical methods in quantum information are very promising for both providing technical tools and intuition into difficult control or optimization problems. Moreover, they are of fundamental importance in connecting pure geometrical theories, like GR, to quantum mechanics, like in the AdS/CFT correspondence. In this paper, we first make a survey of the most important settings in which geometrical methods have proven useful to quantum information theory. Then, we lay down a general framework f",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses geometric methods for quantum information, entanglement, and an action principle for quantum resources, with no mention of CNF formulas, resolution proof width, or total variation over satisfying assignments. It shares only the loose vocabulary of 'geometric methods' but does not interact with the specific SAT/proof-complexity claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2301.01582",
+      "title": "Study on the Resolution of Large-Eddy Simulations for Supersonic Jet Flows",
+      "abstract_excerpt": "The present study is concerned with large-eddy simulations (LES) of supersonic jet flows. The work addresses, in particular, the simulation of a perfectly expanded free jet flow with an exit Mach number of 1.4 and an exit temperature equal to the ambient temperature. Calculations are performed using a nodal discontinuous Galerkin method. The present effort studies the effects of mesh and polynomial refinement on the solution. The present calculations consider computational meshes and polynomial ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns large-eddy simulations of supersonic jet flows and mesh/polynomial 'resolution' refinement, sharing only superficial vocabulary ('resolution', 'fluctuations') with the conjecture about resolution proof width and geometric fluctuation in CNF formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2005.11899",
+      "title": "Geometric triangulations and highly twisted links",
+      "abstract_excerpt": "It is conjectured that every cusped hyperbolic 3-manifold admits a geometric triangulation, i.e. it is decomposed into positive volume ideal hyperbolic tetrahedra. Here, we show that sufficiently highly twisted knots admit a geometric triangulation. In addition, by extending work of Gueritaud and Schleimer, we also give quantified versions of this result for infinite families of examples.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns geometric triangulations of cusped hyperbolic 3-manifolds and highly twisted knots, with no mention of CNF formulas, resolution proof width, or total variation over satisfying assignments. It shares no substantive content with the conjecture beyond the loose word 'geometric'.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "c48cc28fb7a5",
+  "ts": 1780771694.7455974,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2101.11436",
+      "title": "Challenges Encountered in Turkish Natural Language Processing Studies",
+      "abstract_excerpt": "Natural language processing is a branch of computer science that combines artificial intelligence with linguistics. It aims to analyze a language element such as writing or speaking with software and convert it into information. Considering that each language has its own grammatical rules and vocabulary diversity, the complexity of the studies in this field is somewhat understandable. For instance, Turkish is a very interesting language in many ways. Examples of this are agglutinative word struc",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Turkish natural language processing challenges (agglutinative morphology, phonological rules), which has no interaction with arithmetic hierarchy depth or DPLL proof complexity for CNF formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:cs/0701184",
+      "title": "Structure and Problem Hardness: Goal Asymmetry and DPLL Proofs in&lt;br&gt; SAT-Based Planning",
+      "abstract_excerpt": "In Verification and in (optimal) AI Planning, a successful method is to formulate the application as boolean satisfiability (SAT), and solve it with state-of-the-art DPLL-based procedures. There is a lack of understanding of why this works so well. Focussing on the Planning context, we identify a form of problem structure concerned with the symmetrical or asymmetrical nature of the cost of achieving the individual planning goals. We quantify this sort of structure with a simple numeric parameter",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses DPLL refutation size bounds as a function of a structural parameter (AsymRatio) in SAT-based planning, with no mention of the arithmetic hierarchy or any linear correlation A(φ) = Θ(L(φ)). It shares DPLL vocabulary but does not address the conjecture's specific claim linking arithmetic hierarchy depth to DPLL proof path length.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2402.19127",
+      "title": "Hankel Determinants of convoluted Catalan numbers and nonintersecting lattice paths: A bijective proof of Cigler's Conjecture",
+      "abstract_excerpt": "In recent preprints, Cigler considered certain Hankel determinants of convoluted Catalan numbers and conjectured identities for these determinants. In this note, we shall give a bijective proof of Cigler's Conjecture by interpreting determinants as generating functions of nonintersecting lattice paths: this proof employs the reflection principle, the Lindström-Gessel-Viennot-method and a certain construction involving reflections and overlays of nonintersecting lattice paths. Shortly after this ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Hankel determinants of convoluted Catalan numbers and bijective proofs via nonintersecting lattice paths (Cigler's Conjecture), which has no interaction with arithmetic hierarchy depth or DPLL proof complexity for CNF formulas.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

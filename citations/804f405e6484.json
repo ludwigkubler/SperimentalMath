@@ -1,0 +1,22 @@
+{
+  "entry_id": "804f405e6484",
+  "ts": 1780775143.8061664,
+  "hits_evaluated": 1,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2206.14549",
+      "title": "Algebraic Groups over Finite Fields: Connections Between Subgroups and Isogenies",
+      "abstract_excerpt": "Let G be a linear algebraic group defined over a finite field F_q. We present several connections between the isogenies of G and the finite groups of rational points G(F_q^n). We show that an isogeny from G' to G over F_q gives rise to a subgroup of fixed index in G(F_q^n) for infinitely many n. Conversely, we show that if G is reductive the existence of a subgroup of fixed index k for infinitely many n implies the existence of an isogeny of order k. In particular, we show that every infinite se",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns isogenies and subgroup indices of linear algebraic groups over finite fields (e.g., 'minimal indexes of proper subgroups of G(F_q^n) diverge to infinity'), with no reference to CNF formulas, Frege proof depth, or any complexity-theoretic claim linking group index to proof depth.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 0
+  }
+}
