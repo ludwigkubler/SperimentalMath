@@ -1,0 +1,40 @@
+{
+  "entry_id": "917619ef757d",
+  "ts": 1780724699.305641,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1403.8106",
+      "title": "Recent advances on the log-rank conjecture in communication complexity",
+      "abstract_excerpt": "The log-rank conjecture is one of the fundamental open problems in communication complexity. It speculates that the deterministic communication complexity of any two-party function is equal to the log of the rank of its associated matrix, up to polynomial factors. Despite much research, we still know very little about this conjecture. Recently, there has been renewed interest in this conjecture and its relations to other fundamental problems in complexity theory. This survey describes some of th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract surveys the log-rank conjecture relating deterministic communication complexity to matrix rank, with no mention of tropical geometry, motivic rank, Tseitin formulas, or graph girth. It shares the 'communication complexity / rank' vocabulary but does not interact with the specific mtr(G) = Θ(CCR(φ_G)) claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1605.01539",
+      "title": "Rank and select: Another lesson learned",
+      "abstract_excerpt": "Rank and select queries on bitmaps are essential building bricks of many compressed data structures, including text indexes, membership and range supporting spatial data structures, compressed graphs, and more. Theoretically considered yet in 1980s, these primitives have also been a subject of vivid research concerning their practical incarnations in the last decade. We present a few novel rank/select variants, focusing mostly on speed, obtaining competitive space-time results in the compressed ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns practical rank/select query data structures on bitmaps for compressed indexes, with no mention of tropical geometry, Tseitin formulas, communication complexity, or graph girth. It shares only the word 'rank' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1806.02734",
+      "title": "Spectral lower bounds for the orthogonal and projective ranks of a graph",
+      "abstract_excerpt": "The orthogonal rank of a graph $G=(V,E)$ is the smallest dimension $ξ$ such that there exist non-zero column vectors $x_v\\in\\mathbb{C}^ξ$ for $v\\in V$ satisfying the orthogonality condition $x_v^\\dagger x_w=0$ for all $vw\\in E$. We prove that many spectral lower bounds for the chromatic number, $χ$, are also lower bounds for $ξ$. This result complements a previous result by the authors, in which they showed that spectral lower bounds for $χ$ are also lower bounds for the quantum chromatic number",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses spectral lower bounds for orthogonal and projective ranks of graphs in relation to chromatic numbers, with no mention of tropical motivic rank, Tseitin formulas, or communication complexity rank. It shares only general graph-theoretic vocabulary without interacting with the specific mtr/CCR correlation claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

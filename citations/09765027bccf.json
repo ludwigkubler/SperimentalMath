@@ -1,0 +1,40 @@
+{
+  "entry_id": "09765027bccf",
+  "ts": 1780721728.1993449,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0902.1663",
+      "title": "A Combinatorial Enumeration Approach for Measuring Anonymity",
+      "abstract_excerpt": "A recent paper of Edman et al. has taken a combinatorial approach to measuring the anonymity of a threshold mix anonymous communications system. Their paper looks at ways of matching individual messages sent to individual messages received, irrespective of user, and determines a measure of the anonymity provided by the system. Here we extend this approach to include in the calculation information about how many messages were sent or received by a user and we define a new metric that can be compu",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns combinatorial enumeration applied to measuring anonymity in mix communication systems, not noncrossing partitions or communication complexity matrix rank. It shares only the broad 'combinatorial enumeration' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2308.11540",
+      "title": "Central limit theorem for linear eigenvalue statistics of the adjacency matrices of random simplicial complexes",
+      "abstract_excerpt": "We study the adjacency matrix of the Linial-Meshulam complex model, which is a higher-dimensional generalization of the Erdős-Rényi graph model. Recently, Knowles and Rosenthal proved that the empirical spectral distribution of the adjacency matrix is asymptotically given by Wigner's semicircle law in a diluted regime. In this article, we prove a central limit theorem for the linear eigenvalue statistics for test functions of polynomial growth that is of class $C^{2}$ on a closed interval. The p",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a central limit theorem for eigenvalue statistics of adjacency matrices of random simplicial complexes (Linial-Meshulam model), with no mention of noncrossing partitions, Boolean functions, or communication complexity rank bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2112.13087",
+      "title": "A semi-bijective algorithm for saturated extended 2-regular simple stacks",
+      "abstract_excerpt": "Combinatorics of biopolymer structures, especially enumeration of various RNA secondary structures and protein contact maps, is of significant interest for communities of both combinatorics and computational biology. However, most of the previous combinatorial enumeration results for these structures are presented in terms of generating functions, and few are explicit formulas. This paper is mainly concerned with finding explicit enumeration formulas for a particular class of biologically releva",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns enumeration of saturated 2-regular simple stacks for RNA/protein structures via a semi-bijective algorithm, with no mention of noncrossing partitions' minimal order, Boolean functions, or communication complexity matrix rank.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

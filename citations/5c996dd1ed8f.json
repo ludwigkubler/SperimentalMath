@@ -1,0 +1,40 @@
+{
+  "entry_id": "5c996dd1ed8f",
+  "ts": 1780723695.483617,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/hep-ph/0610012v1",
+      "title": "Tevatron-for-LHC Report of the QCD Working Group",
+      "abstract_excerpt": "The experiments at Run 2 of the Tevatron have each accumulated over 1 inverse femtobarn of high-transverse momentum data. Such a dataset allows for the first precision (i.e. comparisons between theory and experiment at the few percent level) tests of QCD at a hadron collider. While the Large Hadron ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns precision QCD tests at the Tevatron and LHC hadron colliders, which has no bearing on affine group conjugacy classes or communication complexity rank variance.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2309.16111",
+      "title": "The relational complexity of linear groups acting on subspaces",
+      "abstract_excerpt": "The relational complexity of a subgroup $G$ of $\\mathrm{Sym}(Ω)$ is a measure of the way in which the orbits of $G$ on $Ω^k$ for various $k$ determine the original action of $G$. Very few precise values of relational complexity are known. This paper determines the exact relational complexity of all groups lying between $\\mathrm{PSL}_{n}(\\mathbb{F})$ and $\\mathrm{PGL}_{n}(\\mathbb{F})$, for an arbitrary field $\\mathbb{F}$, acting on the set of $1$-dimensional subspaces of $\\mathbb{F}^n$. We also b",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'relational complexity' of linear groups acting on subspaces, not minimal order of conjugacy classes in affine groups nor communication complexity rank variance. It shares the broad 'group theory' framework but does not interact with the specific claim about |O(f)| = Θ(CommRankVar(f)).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2106.13260",
+      "title": "Property $R_\\infty$ for some spherical and affine Artin-Tits groups",
+      "abstract_excerpt": "Let $n\\ge2$. In this note we give a short uniform proof of property $R_\\infty$ for the Artin-Tits groups of spherical types $A_n$, $B_n$, $D_4$, $I_2(m)$ ($m\\ge3$), their pure subgroups, and for the Artin-Tits groups of affine types $\\widetilde A_{n-1}$ and $\\widetilde C_n$. In particular, we provide an alternative proof of a recent result of Dekimpe, Gonçalves and Ocampo, who established property $R_{\\infty}$ for pure Artin braid groups.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns property $R_\\infty$ (twisted conjugacy classes) for Artin-Tits groups of spherical and affine types, which shares the word 'affine' but does not address conjugacy class orders in affine groups associated to Boolean functions or any link to communication complexity rank.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
