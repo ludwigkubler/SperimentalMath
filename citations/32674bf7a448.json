@@ -1,0 +1,40 @@
+{
+  "entry_id": "32674bf7a448",
+  "ts": 1780745145.8925142,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1212.5380",
+      "title": "On properties of principal elements of Frobenius Lie algebras",
+      "abstract_excerpt": "We investigate the properties of principal elements of Frobenius Lie algebras, following the work of M. Gerstenhaber and A. Giaquinto. We prove that any Lie algebra with a left symmetric algebra structure can be embedded, in a natural way, as a subalgebra of some sl(m,K), for K= R or C. Hence, the work of Belavin and Drinfeld on solutions of the Classical Yang-Baxter Equation on simple Lie algebras, applied to the particular case of sl(m, K) alone, paves the way to the complete classification of",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses principal elements of Frobenius Lie algebras and embeddings into sl(m,K), with no mention of Lie algebroids, CNF formulas, or circuit complexity bounds relevant to the k^(2/3) dimension claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1311.2475",
+      "title": "On almost complex Lie algebroids",
+      "abstract_excerpt": "The almost complex Lie algebroids over smooth manifolds are introduced in the paper. In the first part we give some examples and we obtain a Newlander-Nirenberg type theorem on almost complex Lie algebroids. Next the almost Hermitian Lie algebroids and some related structures on the associated complex Lie algebroid are studied. For instance, we obtain that the $E$-Chern form of $E^{1,0}$ associated to an almost complex connection $\\nabla$ on $E$ can be expressed in terms of the matrix $J_ER$, wh",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses almost complex and Hermitian structures on Lie algebroids over smooth manifolds (Newlander-Nirenberg theorem, Chern forms, curvature), with no mention of CNF formulas, circuit complexity, or dimension bounds for algebroids associated to Boolean formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1401.3795",
+      "title": "Relationship between Nichols braided Lie algebras and Nichols algebras",
+      "abstract_excerpt": "We establish the relationship among Nichols algebras, Nichols braided Lie algebras and Nichols Lie algebras. We prove two results: (i) Nichols algebra $\\mathfrak B(V)$ is finite-dimensional if and only if Nichols braided Lie algebra $\\mathfrak L(V)$ is finite-dimensional if there does not exist any $m$-infinity element in $\\mathfrak B(V)$; (ii) Nichols Lie algebra $\\mathfrak L^-(V)$ is infinite dimensional if $ D^-$ is infinite. We give the sufficient conditions for Nichols braided Lie algebra $",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Nichols algebras and braided Lie algebras' finite-dimensionality conditions, with no mention of Lie algebroids, CNF formulas, k-CLIQUE, or circuit complexity. It shares only loose algebraic vocabulary and does not interact with the specific dimension bound claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

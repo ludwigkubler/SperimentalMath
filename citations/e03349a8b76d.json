@@ -1,0 +1,40 @@
+{
+  "entry_id": "e03349a8b76d",
+  "ts": 1780744844.9324667,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1207.2443",
+      "title": "Tropical Teichmuller and Siegel spaces",
+      "abstract_excerpt": "In this paper, we present a unified study of the moduli space of tropical curves and Outer space which we link via period maps to the moduli space of tropical abelian varieties and the space of positive definite quadratic forms. Our work is a first step towards exhibiting Outer space and the space of positive definite quadratic forms as analogues of Teichmüller space and Siegel space, respectively, in tropical geometry. All these spaces and the maps among them are described within the category o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses moduli spaces of tropical curves, Outer space, and tropical abelian varieties via period maps — it makes no mention of hermitian rank, CNF/SAT encodings, or DPLL proof complexity. Shared 'tropical' vocabulary only; no interaction with the specific conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1204.3875",
+      "title": "Tropicalizing vs Compactifying the Torelli morphism",
+      "abstract_excerpt": "In this paper, we compare the compactified Torelli morphism (as defined by V. Alexeev) and the tropical Torelli map (as defined by the author in a joint work with S. Brannetti and M. Melo, and furthered studied by M. Chan). Our aim is twofold: on one hand, we will review the construction and main properties of the above mentioned two Torelli maps, focusing in particular on the description of their fibers achieved by the author in joint works with L. Caporaso; on the other hand, we will clarify t",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the tropical and compactified Torelli morphisms in algebraic/tropical geometry, with no mention of CNF, SAT, DPLL proof complexity, or hermitian rank — it shares only the broad 'tropical' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1102.2932",
+      "title": "Applications of Monotone Rank to Complexity Theory",
+      "abstract_excerpt": "Raz's recent result \\cite{Raz2010} has rekindled people's interest in the study of \\emph{tensor rank}, the generalization of matrix rank to high dimensions, by showing its connections to arithmetic formulas. In this paper, we follow Raz's work and show that \\emph{monotone rank}, the monotone variant of tensor rank and matrix rank, has applications in algebraic complexity, quantum computing and communication complexity. This paper differs from Raz's paper in that it leverages existing results to ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses monotone rank applications to algebraic complexity, quantum computing, and communication complexity, with no mention of tropical hermitian rank, CNF/SAT encodings, or DPLL proof length. It shares the general 'rank in complexity' framework but does not interact with the specific conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

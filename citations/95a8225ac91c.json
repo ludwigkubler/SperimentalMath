@@ -1,0 +1,40 @@
+{
+  "entry_id": "95a8225ac91c",
+  "ts": 1780745608.9168313,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1207.2443",
+      "title": "Tropical Teichmuller and Siegel spaces",
+      "abstract_excerpt": "In this paper, we present a unified study of the moduli space of tropical curves and Outer space which we link via period maps to the moduli space of tropical abelian varieties and the space of positive definite quadratic forms. Our work is a first step towards exhibiting Outer space and the space of positive definite quadratic forms as analogues of Teichmüller space and Siegel space, respectively, in tropical geometry. All these spaces and the maps among them are described within the category o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses moduli spaces of tropical curves, tropical abelian varieties, and Outer space via period maps in tropical geometry, with no mention of Boolean satisfiability, DPLL proofs, or indicator polynomials. It shares only the 'tropical' vocabulary with the conjecture but does not address the specific claim linking tropical abelianizations to SAT proof length.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0403015v1",
+      "title": "Amoebas of algebraic varieties and tropical geometry",
+      "abstract_excerpt": "This survey consists of two parts. Part 1 is devoted to amoebas. These are images of algebraic subvarieties in the complex torus under the logarithmic moment map. The amoebas have essentially piecewise-linear shape if viewed at large. Furthermore, they degenerate to certain piecewise-linear objects ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a survey on amoebas and tropical geometry as piecewise-linear images of algebraic varieties, with no mention of Boolean satisfiability, DPLL proofs, or abelianizations of indicator polynomials. It shares only the 'tropical geometry' vocabulary without engaging the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1611.00827",
+      "title": "Geometric complexity theory and matrix powering",
+      "abstract_excerpt": "Valiant's famous determinant versus permanent problem is the flagship problem in algebraic complexity theory. Mulmuley and Sohoni (Siam J Comput 2001, 2008) introduced geometric complexity theory, an approach to study this and related problems via algebraic geometry and representation theory. Their approach works by multiplying the permanent polynomial with a high power of a linear form (a process called padding) and then comparing the orbit closures of the determinant and the padded permanent. ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns geometric complexity theory, matrix powering, and orbit closures for the determinant vs. permanent problem — it makes no claim about tropical abelianizations, Boolean SAT instances, or DPLL proof length, as in 'no orbit occurrence obstructions that prove even superlinear lower bounds on the complexity of the permanent.'",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

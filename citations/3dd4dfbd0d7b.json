@@ -1,0 +1,22 @@
+{
+  "entry_id": "3dd4dfbd0d7b",
+  "ts": 1780745374.4967444,
+  "hits_evaluated": 1,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.1007/978-0-387-78901-9_12",
+      "title": "Fixed-point theorems",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available for the cited paper, so I cannot assess whether it relates to the conjecture. The title 'Fixed-point theorems' does not on its own indicate any connection to quotient space manifolds or circuit monotone width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 1
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "2b1a310eb864",
+  "ts": 1780745822.1813748,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/cmp-lg/9701001v1",
+      "title": "Exploiting Context to Identify Lexical Atoms -- A Statistical View of Linguistic Context",
+      "abstract_excerpt": "Interpretation of natural language is inherently context-sensitive. Most words in natural language are ambiguous and their meanings are heavily dependent on the linguistic context in which they are used. The study of lexical semantics can not be separated from the notion of context. This paper takes",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns lexical semantics and statistical analysis of linguistic context, with no mention of quaternionic Kähler manifolds or Boolean satisfiability. It does not interact with the conjecture's claim in any way.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1805.09012",
+      "title": "An Ontology-Based Reasoning Framework for Context-Aware Applications",
+      "abstract_excerpt": "Context-aware applications process context information to support users in their daily tasks and routines. These applications can adapt their functionalities by aggregating context information through machine-learning and data processing algorithms, supporting users with recommendations or services based on their current needs. In the last years, smartphones have been used in the field of context-awareness due to their embedded sensors and various communication interfaces such as Bluetooth, WiFi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes an ontology-based reasoning framework for context-aware smartphone applications, with no mention of quaternionic Kähler manifolds, SAT instances, or clause indicator vectors. It does not interact with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1710.05833",
+      "title": "Multi-messenger Observations of a Binary Neutron Star Merger",
+      "abstract_excerpt": "On 2017 August 17 a binary neutron star coalescence candidate (later designated GW170817) with merger time 12:41:04 UTC was observed through gravitational waves by the Advanced LIGO and Advanced Virgo detectors. The Fermi Gamma-ray Burst Monitor independently detected a gamma-ray burst (GRB 170817A) with a time delay of $\\sim$1.7 s with respect to the merger time. From the gravitational-wave signal, the source was initially localized to a sky region of 31 deg$^2$ at a luminosity distance of $40^",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes multi-messenger astronomical observations of a binary neutron star merger (GW170817), with no mention of quaternionic Kähler manifolds, Boolean satisfiability, or clause complexity bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
