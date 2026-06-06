@@ -1,0 +1,40 @@
+{
+  "entry_id": "59b7022cf20c",
+  "ts": 1780782968.055252,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1207.2443",
+      "title": "Tropical Teichmuller and Siegel spaces",
+      "abstract_excerpt": "In this paper, we present a unified study of the moduli space of tropical curves and Outer space which we link via period maps to the moduli space of tropical abelian varieties and the space of positive definite quadratic forms. Our work is a first step towards exhibiting Outer space and the space of positive definite quadratic forms as analogues of Teichmüller space and Siegel space, respectively, in tropical geometry. All these spaces and the maps among them are described within the category o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses moduli spaces of tropical curves, abelian varieties, and Teichmüller/Siegel space analogues — it shares the 'tropical' vocabulary but says nothing about Hodge structure rank, Tseitin formulas, DPLL proof complexity, or any inequality relating tropical invariants to proof length.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1001.1554",
+      "title": "Tropical geometry and correspondence theorems via toric stacks",
+      "abstract_excerpt": "In this paper we generalize correspondence theorems of Mikhalkin and Nishinou-Siebert providing a correspondence between algebraic and parameterized tropical curves. We also give a description of a canonical tropicalization procedure for algebraic curves motivated by Berkovich's construction of skeletons of analytic curves. Under certain assumptions, we construct a one-to-one correspondence between algebraic curves satisfying toric constraints and certain combinatorially defined objects, called ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns correspondence theorems between algebraic and tropical curves via toric stacks, with no mention of Hodge structures, CNF/Tseitin formulas, or DPLL proof complexity. It shares only the broad 'tropical geometry' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1204.6154",
+      "title": "Local Tropicalization",
+      "abstract_excerpt": "In this paper we propose a general functorial definition of the operation of \\emph{local tropicalization} in commutative algebra. Let $R$ be a commutative ring, $Γ$ a finitely generated subsemigroup of a lattice, $γ: Γ\\rightarrow R/ R^*$ a morphism of semigroups, and $\\V(R)$ the topological space of valuations on $R$ taking values in $\\R \\cup \\infty$. Then we may \\emph{tropicalize} with respect to $γ$ any subset $\\W$ of the space of valuations $\\V(R)$. By definition, we get a subset of a rationa",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a functorial definition of local tropicalization in commutative algebra, producing rational polyhedral fans from valuations — it makes no mention of Hodge structures, CNF/Tseitin formulas, or DPLL proof complexity, so it shares only the broad 'tropical' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

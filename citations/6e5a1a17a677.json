@@ -1,0 +1,40 @@
+{
+  "entry_id": "6e5a1a17a677",
+  "ts": 1780782593.1665952,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2105.05461",
+      "title": "An overview of generalised Kac-Moody algebras on compact real manifolds",
+      "abstract_excerpt": "A generalised notion of Kac-Moody algebra is defined using smooth maps from a compact real manifold $\\mathcal{M}$ to a finite-dimensional Lie group, by means of complete orthonormal bases for a Hermitian inner product on the manifold and a Fourier expansion. The Peter--Weyl theorem for the case of manifolds related to compact Lie groups and coset spaces is discussed, and appropriate Hilbert bases for the space $L^{2}(\\mathcal{M})$ of square-integrable functions are constructed. It is shown that ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes generalized Kac-Moody algebras constructed from smooth maps on compact real manifolds, Peter-Weyl bases, and central extensions for physics applications — it makes no mention of Boolean satisfiability, resolution proof width, or any complexity-theoretic rank correspondence.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1102.1242",
+      "title": "A refinement of Stone duality to skew Boolean algebras",
+      "abstract_excerpt": "We establish two duality theorems which refine the classical Stone duality between generalized Boolean algebras and locally compact Boolean spaces. In the first theorem we prove that the category of left-handed skew Boolean algebras whose morphisms are proper skew Boolean algebra homomorphisms is equivalent to the category of étale spaces over locally compact Boolean spaces whose morphisms are étale space cohomomorphisms over continuous proper maps. In the second theorem we prove that the catego",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Stone duality refinements for skew Boolean algebras and étale spaces, with no mention of resolution proof width, SAT instances, or Kac-Moody Lie algebra rank. It shares only the word 'Boolean' with the conjecture's framework.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0806.1976",
+      "title": "Projections of Singular Vectors of Verma Modules over Rank 2 Kac-Moody Lie Algebras",
+      "abstract_excerpt": "We prove an explicit formula for a projection of singular vectors in the Verma module over a rank 2 Kac-Moody Lie algebra onto the universal enveloping algebra of the Heisenberg Lie algebra and of $sl_{2}$ (Theorem 3). The formula is derived from a more general but less explicit formula due to Feigin, Fuchs and Malikov [Funct. Anal. Appl. 20 (1986), no. 2, 103-113]. In the simpler case of $A_{1}^{1}$ the formula was obtained in [Fuchs D., Funct. Anal. Appl. 23 (1989), no. 2, 154-156].",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns explicit formulas for projections of singular vectors in Verma modules over rank 2 Kac-Moody Lie algebras, with no mention of Boolean satisfiability, resolution proof width, or minimal rank bounds. It shares only the 'Kac-Moody' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

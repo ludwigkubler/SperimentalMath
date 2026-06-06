@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-06-06T21:47:06Z",
-  "total_cycles": 5520,
+  "last_update_utc": "2026-06-06T22:47:35Z",
+  "total_cycles": 5530,
   "verdict_counts": {
-    "INCONCLUSIVE": 3596,
+    "INCONCLUSIVE": 3602,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 1818,
+    "BARRIER_HIT": 1822,
     "SCOOPED": 86
   },
-  "unique_field_A": 2302,
+  "unique_field_A": 2303,
   "top_fields_A": [
     [
       "Algebraic Geometry (Hodge Theory)",
@@ -16,7 +16,7 @@
     ],
     [
       "Tropical Geometry",
-      133
+      134
     ],
     [
       "Resolution proof complexity",
@@ -43,12 +43,16 @@
       43
     ],
     [
+      "Algebraic K-Theory",
+      40
+    ],
+    [
       "Schur-Weyl Duality",
       39
     ],
     [
-      "Algebraic K-Theory",
-      39
+      "Noncommutative Geometry",
+      38
     ],
     [
       "p-adic Analysis",
@@ -59,12 +63,8 @@
       37
     ],
     [
-      "Noncommutative Geometry",
-      37
-    ],
-    [
       "Affine Geometry",
-      36
+      37
     ],
     [
       "Modular Form Theory",

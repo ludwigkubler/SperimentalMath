@@ -1,0 +1,31 @@
+{
+  "entry_id": "849bbcc90cef",
+  "ts": 1780783959.4233098,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:80088936d1fbb171777e5a2fb73bb8f3c78e7725",
+      "title": "Computer-aided verification : 2nd International Conference, CAV '90, New Brunswick, NJ, USA, June 18-21, 1990 : proceedings",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available for the cited paper, so it is impossible to determine from the provided text whether it supports, refutes, or is orthogonal to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10227042be21868b9335544c53b390ec45ddb79a",
+      "title": "Automated Deduction - CADE-16: 16th International Conference on Automated Deduction, Trento, Italy, July 7-10, 1999, Proceedings",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available for this conference proceedings volume, so it is impossible to determine whether any contained work supports, refutes, or is orthogonal to the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 2
+  }
+}

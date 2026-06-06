@@ -1,0 +1,22 @@
+{
+  "entry_id": "30492d1e2f0a",
+  "ts": 1780784505.845658,
+  "hits_evaluated": 1,
+  "verdicts": [
+    {
+      "paper_id": "s2:f00d943cea727962981a17afc4650e9510d2008f",
+      "title": "How a Math Class Can Be Two Places at Once: A Proposed Mathematical/Philosophical Collaboration",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available, and the title concerns a mathematical/philosophical collaboration about a math class, giving no information about monomial representations or Frege proof complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 1
+  }
+}
