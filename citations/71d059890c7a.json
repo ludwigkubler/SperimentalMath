@@ -1,0 +1,40 @@
+{
+  "entry_id": "71d059890c7a",
+  "ts": 1780760740.1037679,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1909.00857",
+      "title": "Singular tuples of matrices is not a null cone (and, the symmetries of algebraic varieties)",
+      "abstract_excerpt": "The following multi-determinantal algebraic variety plays a central role in algebra, algebraic geometry and computational complexity theory: ${\\rm SING}_{n,m}$, consisting of all $m$-tuples of $n\\times n$ complex matrices which span only singular matrices. In particular, an efficient deterministic algorithm testing membership in ${\\rm SING}_{n,m}$ will imply super-polynomial circuit lower bounds, a holy grail of the theory of computation.\n  A sequence of recent works suggests such efficient algo",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns symmetries and null-cone structure of the SING_{n,m} variety with implications for circuit lower bounds, but says nothing about Hodge-theoretic indices, planar circuits, or monotone width bounds of the form O(n^{2/3}). It shares the broad algebraic-geometry/complexity framework but does not interact with the specific conjectured inequality.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1806.05827",
+      "title": "Computing projective equivalences of special algebraic varieties",
+      "abstract_excerpt": "This paper is devoted to the investigation of selected situations when the computation of projective (and other) equivalences of algebraic varieties can be efficiently solved with the help of finding projective equivalences of finite sets on the projective line. In particular, we design a unifying approach that finds for two algebraic varieties $X,Y$ from special classes an associated set of automorphisms of the projective line (the so called good candidate set) consisting of candidates for the ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns computing projective equivalences between algebraic varieties via the projective line, with no mention of Hodge theory, circuit complexity, or monotone width. It shares only the broad 'algebraic varieties' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1402.0462",
+      "title": "Amoebas, Nonnegative Polynomials and Sums of Squares Supported on Circuits",
+      "abstract_excerpt": "We completely characterize sections of the cones of nonnegative polynomials, convex polynomials and sums of squares with polynomials supported on circuits, a genuine class of sparse polynomials. In particular, nonnegativity is characterized by an invariant, which can be immediately derived from the initial polynomial. Furthermore, nonnegativity of such polynomials $f$ coincides with solidness of the amoeba of $f$, i.e., the Log-absolute-value image of the algebraic variety $\\mathcal{V}(f) \\subse",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns nonnegativity of sparse polynomials 'supported on circuits' (a polynomial-support structure) and amoeba theory, not Boolean circuits, monotone width, or Hodge-theoretic indices. The shared word 'circuits' is a false cognate; the paper does not interact with the conjecture's claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

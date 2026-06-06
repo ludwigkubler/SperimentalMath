@@ -1,18 +1,18 @@
 {
-  "last_update_utc": "2026-06-06T14:47:06Z",
-  "total_cycles": 5457,
+  "last_update_utc": "2026-06-06T15:47:06Z",
+  "total_cycles": 5467,
   "verdict_counts": {
-    "INCONCLUSIVE": 3555,
+    "INCONCLUSIVE": 3561,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 1796,
+    "BARRIER_HIT": 1800,
     "SCOOPED": 86
   },
-  "unique_field_A": 2285,
+  "unique_field_A": 2288,
   "top_fields_A": [
     [
       "Algebraic Geometry (Hodge Theory)",
-      162
+      164
     ],
     [
       "Tropical Geometry",
@@ -59,12 +59,12 @@
       37
     ],
     [
-      "Affine Geometry",
+      "p-adic Analysis",
       36
     ],
     [
-      "p-adic Analysis",
-      34
+      "Affine Geometry",
+      36
     ],
     [
       "Modular Form Theory",

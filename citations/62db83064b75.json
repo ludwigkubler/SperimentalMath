@@ -1,0 +1,40 @@
+{
+  "entry_id": "62db83064b75",
+  "ts": 1780760147.4607873,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1310.0503",
+      "title": "Second cohomology of Lie rings and the Schur multiplier",
+      "abstract_excerpt": "We exhibit an explicit construction for the second cohomology group $H^2(L, A)$ for a Lie ring $L$ and a trivial $L$-module $A$. We show how the elements of $H^2(L, A)$ correspond one-to-one to the equivalence classes of central extensions of $L$ by $A$, where $A$ now is considered as an abelian Lie ring. For a finite Lie ring $L$ we also show that $H^2(L, \\C^*) \\cong M(L)$, where $M(L)$ denotes the Schur multiplier of $L$. These results match precisely the analogue situation in group theory.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes an explicit construction of H^2(L,A) for Lie rings and its correspondence to central extensions and the Schur multiplier, with no mention of Lie algebroids, Boolean formulas, or communication complexity rank. It shares only the general 'Lie cohomology' vocabulary without addressing the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0811.4470",
+      "title": "AV-Courant algebroids and generalized CR structures",
+      "abstract_excerpt": "We construct a generalization of Courant algebroids which are classified by the third cohomology group $H^3(A,V)$, where $A$ is a Lie Algebroid, and $V$ is an $A$-module. We see that both Courant algebroids and $\\mathcal{E}^1(M)$ structures are examples of them. Finally we introduce generalized CR structures on a manifold, which are a generalization of generalized complex structures, and show that every CR structure and contact structure is an example of a generalized CR structure.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses a generalization of Courant algebroids classified by H^3(A,V) and introduces generalized CR structures, with no mention of Boolean formulas, communication complexity, or matrix rank. It shares only the vocabulary of Lie algebroid cohomology but does not engage with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0402303v1",
+      "title": "Abelian extensions of infinite-dimensional Lie groups",
+      "abstract_excerpt": "In the present paper we study abelian extensions of connected Lie groups $G$ modeled on locally convex spaces by smooth $G$-modules $A$. We parametrize the extension classes by a suitable cohomology group $H^2_s(G,A)$ defined by locally smooth cochains and construct an exact sequence that describes ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes abelian extensions of infinite-dimensional Lie groups via a smooth cohomology group H^2_s(G,A), with no mention of Lie algebroids, Boolean formulas, or communication complexity rank. It shares only the general vocabulary of Lie-theoretic cohomology and does not interact with the specific conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
