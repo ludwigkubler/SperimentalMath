@@ -1,0 +1,40 @@
+{
+  "entry_id": "7dbdb07b5da5",
+  "ts": 1780804501.456786,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2009.01996",
+      "title": "Approaches Which Output Infinitely Many Graphs With Small Local Antimagic Chromatic Number",
+      "abstract_excerpt": "An edge labeling of a connected graph $G = (V, E)$ is said to be local antimagic if it is a bijection $f:E \\to\\{1,\\ldots ,|E|\\}$ such that for any pair of adjacent vertices $x$ and $y$, $f^+(x)\\not= f^+(y)$, where the induced vertex label $f^+(x)= \\sum f(e)$, with $e$ ranging over all the edges incident to $x$. The local antimagic chromatic number of $G$, denoted by $χ_{la}(G)$, is the minimum number of distinct induced vertex labels over all local antimagic labelings of $G$. In this paper, we (",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the 'local antimagic chromatic number' from edge labelings, not the local chromatic number, and makes no mention of resolution proof width, Tseitin formulas, or SAT — it shares only superficial vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1805.12181",
+      "title": "Computing Small Unit-Distance Graphs with Chromatic Number 5",
+      "abstract_excerpt": "We present a new method for reducing the size of graphs with a given property. Our method, which is based on clausal proof minimization, allowed us to compute several 553-vertex unit-distance graphs with chromatic number 5, while the smallest published unit-distance graph with chromatic number 5 has 1581 vertices. The latter graph was constructed by Aubrey de Grey to show that the chromatic number of the plane is at least 5. The lack of a 4-coloring of our graphs is due to a clear pattern enforc",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses reducing the size of unit-distance graphs with chromatic number 5 via clausal proof minimization, not local chromatic number, Tseitin formulas, or resolution proof width. It shares the broad vocabulary of graph coloring and SAT proofs but does not address any correlation between local chromatic number and resolution width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2504.01295",
+      "title": "A Spectral Lower Bound on Chromatic Numbers using $p$-Energy",
+      "abstract_excerpt": "Let $A_G $ be the adjacency matrix of a simple graph $ G $, and let $ χ(G) $, $ χ_f(G) $, $ χ_q(G) $, $ ξ(G) $ and $ ξ_f(G) $ denote its chromatic number, fractional chromatic number, quantum chromatic number, orthogonal rank and projective rank, respectively. For $ p \\geq 0 $, we define the positive and negative $ p $-energies of $ G $ by $$ \\mathcal{E}_p^+(G) = \\sum_{λ_i &gt; 0} λ_i^p, \\quad \\mathcal{E}_p^-(G) = \\sum_{λ_i &lt; 0} |λ_i|^p, $$ where $ λ_1 \\geq \\cdots \\geq λ_n $ are the eigenvalu",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns spectral lower bounds on chromatic numbers (and fractional/quantum variants) via p-energy of the adjacency matrix, with no mention of local chromatic number, resolution proof width, Tseitin formulas, or SAT instances. It shares only the general 'chromatic number' vocabulary and does not interact with the specific conjectured correlation.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
