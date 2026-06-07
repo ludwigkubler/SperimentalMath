@@ -1,0 +1,40 @@
+{
+  "entry_id": "0d4444bf2442",
+  "ts": 1780825463.1225052,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1603.09409",
+      "title": "Minkowski dimension and explicit tube formulas for $p$-adic fractal strings",
+      "abstract_excerpt": "The local theory of complex dimensions describes the oscillations in the geometry (spectra and dynamics) of fractal strings. Such geometric oscillations can be seen most clearly in the explicit volume formula for the tubular neighborhoods of a $p$-adic fractal string $\\mathcal{L}_p$, expressed in terms of the underlying complex dimensions. The general fractal tube formula obtained in this paper is illustrated by several examples, including the nonarchimedean Cantor and Euler strings. Moreover, w",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Minkowski dimension and tube formulas for p-adic fractal strings via complex dimensions and geometric zeta functions, with no mention of CNF formulas, resolution proof width, or Boolean satisfiability. It shares only the general vocabulary of fractal dimension and does not interact with the specific conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1501.04911",
+      "title": "Fractal dimension and turbulence in Giant HII Regions",
+      "abstract_excerpt": "We have measured the fractal dimensions of the Giant HII Regions Hubble X and Hubble V in NGC6822 using images obtained with the Hubble's Wide Field Planetary Camera 2 (WFPC2). These measures are associated with the turbulence observed in these regions, which is quantified through the velocity dispersion of emission lines in the visible. Our results suggest low turbulence behaviour.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns fractal dimensions of astrophysical HII regions and their relation to turbulence ('measured the fractal dimensions of the Giant HII Regions... associated with the turbulence'), which shares only the term 'fractal dimension' and has no interaction with CNF formulas or resolution proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1604.08014",
+      "title": "Fractal Tube Formulas for Compact Sets and Relative Fractal Drums: Oscillations, Complex Dimensions and Fractality",
+      "abstract_excerpt": "We establish pointwise and distributional fractal tube formulas for a large class of relative fractal drums in Euclidean spaces of arbitrary dimensions. A relative fractal drum (or RFD, in short) is an ordered pair $(A,Ω)$ of subsets of the Euclidean space (under some mild assumptions) which generalizes the notion of a (compact) subset and that of a fractal string. By a fractal tube formula for an RFD $(A,Ω)$, we mean an explicit expression for the volume of the $t$-neighborhood of $A$ intersect",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns fractal tube formulas, complex dimensions, and zeta functions for relative fractal drums in Euclidean spaces, with no mention of CNF formulas, resolution proof complexity, or any connection to Boolean satisfiability. It shares only the general 'fractal dimension' vocabulary but does not address the specific claim about CNF clause geometry or proof width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

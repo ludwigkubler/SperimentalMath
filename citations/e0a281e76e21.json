@@ -1,0 +1,40 @@
+{
+  "entry_id": "e0a281e76e21",
+  "ts": 1780822454.8794405,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0110077v1",
+      "title": "Frobenius-Schur functions",
+      "abstract_excerpt": "The present paper is a detailed version of math/0003031. We introduce and study a new basis in the algebra of symmetric functions. The elements of this basis are called the Frobenius-Schur functions (FS-functions, for short).\n  Our main motivation for studying the FS-functions is the fact that they ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract introduces 'Frobenius-Schur functions' as a new basis in the algebra of symmetric functions, with no mention of boolean circuits, CNF formulas, entropy, or any complexity-theoretic correlation. It shares only the 'Frobenius-Schur' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0003031v1",
+      "title": "Frobenius-Schur functions: summary of results",
+      "abstract_excerpt": "We introduce and study a family of inhomogeneous symmetric functions which we call the Frobenius-Schur functions. These functions are indexed by partitions and differ from the conventional Schur functions in lower terms only.\n  Our interest in these new functions comes from the fact that they provid",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes 'Frobenius-Schur functions' as a family of inhomogeneous symmetric functions indexed by partitions, with no mention of Boolean circuits, CNF formulas, entropy, or circuit complexity. It shares only the 'Frobenius-Schur' vocabulary without engaging the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0503167v2",
+      "title": "Higher Frobenius-Schur Indicators for Pivotal Categories",
+      "abstract_excerpt": "We define higher Frobenius-Schur indicators for objects in linear pivotal monoidal categories. We prove that they are category invariants, and take values in the cyclotomic integers. We also define a family of natural endomorphisms of the identity endofunctor on a $k$-linear semisimple rigid monoida",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns higher Frobenius-Schur indicators as category invariants in pivotal monoidal categories taking values in cyclotomic integers, with no mention of CNF formulas, boolean circuits, or entropy. It shares only the 'Frobenius-Schur indicator' vocabulary without addressing the conjectured correlation with circuit complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

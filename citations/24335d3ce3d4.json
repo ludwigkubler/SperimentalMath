@@ -1,0 +1,40 @@
+{
+  "entry_id": "24335d3ce3d4",
+  "ts": 1780823087.9761634,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2504.03637",
+      "title": "An Algebraic Geometry Approach to Viewing Graph Solvability",
+      "abstract_excerpt": "The concept of viewing graph solvability has gained significant interest in the context of structure-from-motion. A viewing graph is a mathematical structure where nodes are associated to cameras and edges represent the epipolar geometry connecting overlapping views. Solvability studies under which conditions the cameras are uniquely determined by the graph. In this paper we propose a novel framework for analyzing solvability problems based on Algebraic Geometry, demonstrating its potential in u",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'viewing graph solvability' in structure-from-motion via algebraic geometry — it does not mention Hodge index, Tseitin formulas, resolution proof width, or planar graphs in the SAT sense. It shares the 'algebraic geometry + graphs' vocabulary but does not interact with the specific conjectured correspondence.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2503.14715",
+      "title": "Some NP Complete Problems Based on Algebra and Algebraic Geometry",
+      "abstract_excerpt": "This paper describes several new problems and ideas concerning algebraic geometry and complexity theory. It first uses the idea of coloring graphs with elements of finite fields. This procedure then shows that graph coloring problems can be converted into membership problems for a new family of algebraic varieties, coloring varieties, which are closely related to determinantal varieties. This in turn shows that the problem of NP vs P can be converted into questions of if certain polynomials of l",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses converting graph coloring into membership problems for 'coloring varieties' related to determinantal varieties and links NP vs P to multiplicative complexity of polynomials, with no mention of Hodge index, Tseitin formulas, resolution proof width, or planar graphs.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2103.07436",
+      "title": "The Devinatz-Hopkins Theorem via Algebraic Geometry",
+      "abstract_excerpt": "In this note, we show how a continuous action of the Morava stabilizer group $\\mathbb G_n$ on the Lubin-Tate spectrum $E_n$, satisfying the conclusion $E_n^{h\\mathbb G_n}\\simeq L_{K(n)} S$ of the Devinatz-Hopkins Theorem, may be obtained by monodromy on the stack of oriented deformations of formal groups in the context of formal spectral algebraic geometry.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the Devinatz-Hopkins theorem, Morava stabilizer groups, and Lubin-Tate spectra in formal spectral algebraic geometry — it makes no mention of Hodge index, Tseitin formulas, resolution proof width, or planar graphs.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
