@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-06-06T23:47:07Z",
-  "total_cycles": 5546,
+  "last_update_utc": "2026-06-07T00:47:07Z",
+  "total_cycles": 5554,
   "verdict_counts": {
-    "INCONCLUSIVE": 3606,
+    "INCONCLUSIVE": 3612,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 1834,
+    "BARRIER_HIT": 1836,
     "SCOOPED": 86
   },
-  "unique_field_A": 2306,
+  "unique_field_A": 2310,
   "top_fields_A": [
     [
       "Algebraic Geometry (Hodge Theory)",
@@ -43,15 +43,15 @@
       43
     ],
     [
+      "p-adic Analysis",
+      40
+    ],
+    [
       "Algebraic K-Theory",
       40
     ],
     [
       "Schur-Weyl Duality",
-      39
-    ],
-    [
-      "p-adic Analysis",
       39
     ],
     [

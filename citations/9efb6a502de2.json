@@ -1,0 +1,40 @@
+{
+  "entry_id": "9efb6a502de2",
+  "ts": 1780791190.7653446,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1810.09408",
+      "title": "Constructions of vector-valued modular forms of rank four and level one",
+      "abstract_excerpt": "This paper studies modular forms of rank four and level one. There are two possiblities for the isomorphism type of the space of modular forms that can arise from an irreducible representation of the modular group of rank four, and we describe when each case occurs for general choices of exponents for the T -matrix. In the remaining sections we describe how to write down corresponding differential equations satisfied by minimal weight forms, and how to use these minimal weight forms to describe ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses vector-valued modular forms of rank four and level one, with no mention of CNF formulas, SAT, or clause subset complexity. It shares the 'modular form' vocabulary but does not interact with the conjecture's claim about correlation with SAT complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1910.06502",
+      "title": "Modular forms on indefinite orthogonal groups of rank three",
+      "abstract_excerpt": "We develop a theory of modular forms on the groups $\\mathrm{SO}(3,n+1)$, $n \\geq 3$. This is very similar to, but simpler, than the notion of modular forms on quaternionic exceptional groups, which was initiated by Gross-Wallach and Gan-Gross-Savin. We prove the results analogous to those of earlier papers of the author on modular forms on exceptional groups, except now in the familiar setting of classical groups. Moreover, in the setting of $\\mathrm{SO}(3,n+1)$, there is a family of absolutely ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract develops a theory of modular forms on indefinite orthogonal groups SO(3,n+1) and discusses Eisenstein series and Fourier coefficients, with no mention of CNF formulas, SAT, or clause subset complexity. It shares only the term 'modular form' with the conjecture but does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2008.13322",
+      "title": "Graded rings of modular forms (1)",
+      "abstract_excerpt": "We study modular forms of some congruence subgroups. In this paper, we treat the cases level is 2-power, 3-power or 5. Structures of graded rings and many identities of infinite sum or infinite product are given. Theory of rational (1/3, 1/4, 1/5 etc) weight or more formally weight modular form are introduced.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses graded rings of modular forms for congruence subgroups and weight structures, with no mention of CNF formulas, SAT, or any correspondence between modular forms and Boolean satisfiability complexity measures.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

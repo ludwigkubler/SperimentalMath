@@ -1,0 +1,40 @@
+{
+  "entry_id": "cce8e036c2e7",
+  "ts": 1780790877.0073895,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1103.5740",
+      "title": "Generating and Searching Families of FFT Algorithms",
+      "abstract_excerpt": "A fundamental question of longstanding theoretical interest is to prove the lowest exact count of real additions and multiplications required to compute a power-of-two discrete Fourier transform (DFT). For 35 years the split-radix algorithm held the record by requiring just 4n log n - 6n + 8 arithmetic operations on real numbers for a size-n DFT, and was widely believed to be the best possible. Recent work by Van Buskirk et al. demonstrated improvements to the split-radix operation count by usin",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns using Boolean Satisfiability to minimize arithmetic operation counts in FFT algorithms, with no mention of monoid order, Frege proof depth, or any connection between them. It shares only the surface vocabulary of 'Boolean Satisfiability' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2312.01243",
+      "title": "Boolean inverse semigroups and their type monoids",
+      "abstract_excerpt": "This is an expository paper which provides a quick introduction to Boolean inverse semigroups and their type monoids, with the emphasis on techniques and insights of the theory, and also treats the connection of the type monoid ${\\mathrm{Typ}}(S)$ of a Boolean inverse semigroup $S$ with the monoid $V(K\\langle S\\rangle)$ of the ring $K\\langle S\\rangle$ assigned to $S$. We give original direct and simple proofs of some known results, such as the structure of semisimple Boolean inverse semigroups, ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns expository theory of Boolean inverse semigroups and their type monoids (e.g., 'presentation of the type monoid by generalized rook matrices'), with no mention of Boolean formulas, Frege proof depth, or any complexity-theoretic claim relating monoid order to proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2204.10033",
+      "title": "Characterizations of classes of countable Boolean inverse monoids",
+      "abstract_excerpt": "A countably infinite Boolean inverse monoid that can be written as an increasing union of finite Boolean inverse monoids (suitably embedded) is said to be of finite type. Borrowing terminology from $C^{\\ast}$-algebra theory, we say that such a Boolean inverse monoid is AF (approximately finite) if the finite Boolean inverse monoids above are isomorphic to finite direct products of finite symmetric inverse monoids, and we say that it is UHF (uniformly hyperfinite) if the finite Boolean inverse mo",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns characterizations of countable Boolean inverse monoids (AF/UHF types) via embeddings and MV-algebras, with no mention of Boolean formulas, Frege proof depth, or homomorphic images of free monoids. It shares only the vocabulary 'Boolean' and 'monoid' without interacting with the specific min_order vs. proof-depth claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
