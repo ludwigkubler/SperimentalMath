@@ -1,0 +1,40 @@
+{
+  "entry_id": "98d5c23f6e46",
+  "ts": 1780803571.461209,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0707.3937",
+      "title": "Cohomology theories for homotopy algebras and noncommutative geometry",
+      "abstract_excerpt": "This paper builds a general framework in which to study cohomology theories of strongly homotopy algebras, namely $A_\\infty, C_\\infty$ and $L_\\infty$-algebras. This framework is based on noncommutative geometry as expounded by Connes and Kontsevich. The developed machinery is then used to establish a general form of Hodge decomposition of Hochschild and cyclic cohomology of $C_\\infty$-algebras. This generalizes and puts in a conceptual framework previous work by Loday and Gerstenhaber-Schack.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns cohomology theories for homotopy algebras ($A_\\infty, C_\\infty, L_\\infty$) and Hodge decomposition of Hochschild/cyclic cohomology, which has no interaction with Boolean satisfiability resolution proof width or local cohomology rank of varieties associated with SAT formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1209.3595",
+      "title": "Noncommutative complex differential geometry",
+      "abstract_excerpt": "This paper defines and examines the basic properties of noncommutative analogues of almost complex structures, integrable almost complex structures, holomorphic curvature, cohomology, and holomorphic sheaves. The starting point is a differential structure on a noncommutative algebra defined in terms of a differential graded algebra. This is compared to current ideas on noncommutative algebraic geometry.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns noncommutative analogues of complex differential geometry (almost complex structures, holomorphic curvature, cohomology) and makes no mention of resolution proof width, Boolean satisfiability, or local cohomology rank bounds tied to SAT formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1206.1925",
+      "title": "Counting Algebraic Curves with Tropical Geometry",
+      "abstract_excerpt": "Tropical geometry is a piecewise linear \"shadow\" of algebraic geometry. It allows for the computation of several cohomological invariants of an algebraic variety. In particular, its application to enumerative algebraic geometry led to significant progress.\n  In this survey, we give an introduction to tropical geometry techniques for algebraic curve counting problems. We also survey some recent developments, with a particular emphasis on the computation of the degree of the Severi varieties of th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes tropical geometry techniques for algebraic curve counting and Severi variety degree computation, with no mention of Boolean satisfiability, resolution proof width, or local cohomology rank of varieties associated to formulas. It shares only the general 'algebraic geometry/cohomological invariants' vocabulary without engaging the specific conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

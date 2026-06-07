@@ -1,0 +1,40 @@
+{
+  "entry_id": "810ed6b5f08e",
+  "ts": 1780801657.7378402,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1104.0560",
+      "title": "On restriction of roots on affine T-varieties",
+      "abstract_excerpt": "Let X be a normal affine algebraic variety with regular action of a torus \\TT and T\\subset\\TT be a subtorus. We prove that each root of X with respect to T can be obtained by restriction of some root of X with respect to \\TT. This allows to get an elementary proof of the description of roots of the affine Cremona group. Several results on restriction of roots in the case of subtorus action on an affine toric variety are obtained.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'restriction of roots' on affine T-varieties and the affine Cremona group — purely algebraic geometry — with no mention of CNF formulas, resolution proof width, or any connection to Boolean satisfiability.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0802.4323",
+      "title": "Non-singular affine surfaces with self-maps",
+      "abstract_excerpt": "We classify surjective self-maps (of degree at least two) of affine surfaces according to the log Kodaira dimension.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns classification of surjective self-maps of affine surfaces by log Kodaira dimension, which shares only the loose term 'affine' with the conjecture and has no bearing on root systems or resolution proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2001.09848",
+      "title": "Reduced expression of minimal infinite reduced words of affine Weyl groups",
+      "abstract_excerpt": "For an infinite Coxeter system, one can extend the weak right order to the set of infinite reduced words. This is called limit weak order. In [Transformation Groups 18(1), 2013, 179-231], Lam and Pylyavskyy showed that for affine Weyl groups of type $\\widetilde{A}_n$ minimal infinite reduced words under the limit weak order are precisely those infinite Coxeter elements and asked the question of characterization, in terms of infinite reduced words, of the minimal elements of the limit weak order ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns characterizing minimal infinite reduced words in limit weak order of affine Weyl groups, with no mention of CNF formulas, resolution proof width, or any connection to SAT/proof complexity. It shares only the 'affine' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

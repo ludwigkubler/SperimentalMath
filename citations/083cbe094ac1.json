@@ -1,0 +1,22 @@
+{
+  "entry_id": "083cbe094ac1",
+  "ts": 1780802936.6144626,
+  "hits_evaluated": 1,
+  "verdicts": [
+    {
+      "paper_id": "s2:f861e08f5a76206f0f878d393fdfb40bdb53127e",
+      "title": "Automata, languages and programming : 31st International Colloquium, ICALP 2004, Turku, Finland, July 12-16, 2004 : proceedings",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available for this conference proceedings volume, so it is impossible to determine whether any contained paper addresses the conjectured correlation between local class groups and DPLL proof tree path length.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 1
+  }
+}

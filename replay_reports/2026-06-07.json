@@ -1,0 +1,92 @@
+{
+  "ts": 1780801203.1712515,
+  "picked": 10,
+  "since_days": 7,
+  "image": "sec-pvsnp-replay",
+  "summary_counts": {
+    "crash": 9,
+    "drift": 1
+  },
+  "results": [
+    {
+      "tarball": "e80d60e179ec.tar.gz",
+      "rc": 1,
+      "elapsed_s": 0.4,
+      "result": "crash",
+      "first_line": "",
+      "stderr_tail": "RUNTIME_CRASH rc=1\nTraceback (most recent call last):\n  File \"/tmp/sec_replay.pP0Cvv/replay_e80d60e179ec/run.py\", line 53, in <module>\n    trial_result = run_trial(seed)\n                   ^^^^^^^^^^^^^^^\n  File \"/tmp/sec_replay.pP0Cvv/replay_e80d60e179ec/run.py\", line 28, in run_trial\n    circuit = generate_boolean_circuit(n)\n                                       ^\nNameError: name 'n' is not defined\n"
+    },
+    {
+      "tarball": "449e66006013.tar.gz",
+      "rc": 2,
+      "elapsed_s": 0.0,
+      "result": "drift",
+      "first_line": "",
+      "stderr_tail": "ue': 0.4083333333333334, 'instances_tested': 180, 'n_max': 40, 'conjecture_holds': True, 'counterexample': ''}\nTRIAL: {'metric_name': 'mean_ratio', 'metric_value': 0.4083333333333334, 'instances_tested': 180, 'n_max': 40, 'conjecture_holds': True, 'counterexample': ''}\nTRIAL: {'metric_name': 'mean_ratio', 'metric_value': 0.4083333333333334, 'instances_tested': 180, 'n_max': 40, 'conjecture_holds': True, 'counterexample': ''}\nRESULT: SUPPORTED mean=0.4083333333333334 std=0.0 support_fraction=1.0\n"
+    },
+    {
+      "tarball": "ec62039c046b.tar.gz",
+      "rc": 1,
+      "elapsed_s": 0.1,
+      "result": "crash",
+      "first_line": "",
+      "stderr_tail": "RUNTIME_CRASH rc=1\nTraceback (most recent call last):\n  File \"/tmp/sec_replay.rqija4/replay_ec62039c046b/run.py\", line 128, in <module>\n    seeds = [int(arg) for arg in sys.argv[1:]] or [random.getrandbits(32) for _ in range(30)]\n                                 ^^^\nNameError: name 'sys' is not defined. Did you forget to import 'sys'?\n"
+    },
+    {
+      "tarball": "f20e7e15ea6a.tar.gz",
+      "rc": 1,
+      "elapsed_s": 0.1,
+      "result": "crash",
+      "first_line": "",
+      "stderr_tail": " = [generate_circuit(n-1, d//2)]\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/sec_replay.Y1OJ6I/replay_f20e7e15ea6a/run.py\", line 11, in generate_circuit\n    circuits = [generate_circuit(n-1, d//2)]\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/sec_replay.Y1OJ6I/replay_f20e7e15ea6a/run.py\", line 13, in generate_circuit\n    circuits.append([f'({circuits[0][i]} {random.choice([\"&\", \"|\"])} x{i+1})'])\n                         ~~~~~~~~~~~^^^\nIndexError: list index out of range\n"
+    },
+    {
+      "tarball": "ff6e70f26d3c.tar.gz",
+      "rc": 1,
+      "elapsed_s": 0.1,
+      "result": "crash",
+      "first_line": "",
+      "stderr_tail": "RUNTIME_CRASH rc=1\nTraceback (most recent call last):\n  File \"/tmp/sec_replay.kBjmjO/replay_ff6e70f26d3c/run.py\", line 59, in <module>\n    seeds = [int(x) for x in sys.argv[1:]] or [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113]\n                             ^^^\nNameError: name 'sys' is not defined. Did you forget to import 'sys'?\n"
+    },
+    {
+      "tarball": "4da98be81a60.tar.gz",
+      "rc": 1,
+      "elapsed_s": 0.1,
+      "result": "crash",
+      "first_line": "",
+      "stderr_tail": "RUNTIME_CRASH rc=1\nTraceback (most recent call last):\n  File \"/tmp/sec_replay.OExdbC/replay_4da98be81a60/run.py\", line 60, in <module>\n    seeds = [int(s) for s in sys.argv[1:]] or [2, 3, 5, 7, 11, 13, 17, 19, 23, 29]\n                             ^^^\nNameError: name 'sys' is not defined. Did you forget to import 'sys'?\n"
+    },
+    {
+      "tarball": "9cde66aeb5ac.tar.gz",
+      "rc": 1,
+      "elapsed_s": 0.1,
+      "result": "crash",
+      "first_line": "",
+      "stderr_tail": "RUNTIME_CRASH rc=1\nTraceback (most recent call last):\n  File \"/tmp/sec_replay.ltpqAa/replay_9cde66aeb5ac/run.py\", line 150, in <module>\n    seeds = [int(s) for s in sys.argv[1:]] or [2, 3, 5, 7, 11, 13, 17, 19, 23, 29] * 3\n                             ^^^\nNameError: name 'sys' is not defined. Did you forget to import 'sys'?\n"
+    },
+    {
+      "tarball": "676dd25bf4f2.tar.gz",
+      "rc": 1,
+      "elapsed_s": 0.1,
+      "result": "crash",
+      "first_line": "",
+      "stderr_tail": "6dd25bf4f2/run.py\", line 76, in <module>\n    trial_result = run_trial(seed)\n                   ^^^^^^^^^^^^^^^\n  File \"/tmp/sec_replay.vppl5e/replay_676dd25bf4f2/run.py\", line 56, in run_trial\n    min_order = minimal_order_of_quadratic_residues(poly)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/sec_replay.vppl5e/replay_676dd25bf4f2/run.py\", line 31, in minimal_order_of_quadratic_residues\n    n = len(poly)\n        ^^^^^^^^^\nTypeError: object of type 'float' has no len()\n"
+    },
+    {
+      "tarball": "f5e2637983f8.tar.gz",
+      "rc": 1,
+      "elapsed_s": 0.1,
+      "result": "crash",
+      "first_line": "",
+      "stderr_tail": "RUNTIME_CRASH rc=1\nTraceback (most recent call last):\n  File \"/tmp/sec_replay.42OVwJ/replay_f5e2637983f8/run.py\", line 74, in <module>\n    seeds = [int(x) for x in sys.argv[1:]] or [2**i + 1 for i in range(5, 35)]\n                             ^^^\nNameError: name 'sys' is not defined. Did you forget to import 'sys'?\n"
+    },
+    {
+      "tarball": "55152203cbbd.tar.gz",
+      "rc": 1,
+      "elapsed_s": 0.1,
+      "result": "crash",
+      "first_line": "",
+      "stderr_tail": "recent call last):\n  File \"/tmp/sec_replay.hSj8FN/replay_55152203cbbd/run.py\", line 72, in <module>\n    first_failing_seed = next(r[\"seed\"] for r in results if not r[\"conjecture_holds\"])\n                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/sec_replay.hSj8FN/replay_55152203cbbd/run.py\", line 72, in <genexpr>\n    first_failing_seed = next(r[\"seed\"] for r in results if not r[\"conjecture_holds\"])\n                              ~^^^^^^^^\nKeyError: 'seed'\n"
+    }
+  ]
+}

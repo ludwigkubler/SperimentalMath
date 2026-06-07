@@ -1,0 +1,40 @@
+{
+  "entry_id": "19ecc5c1c156",
+  "ts": 1780803939.7572377,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2512.13850",
+      "title": "Characterization of projective varieties beyond varieties of minimal degree and del Pezzo varieties",
+      "abstract_excerpt": "Varieties of minimal degree and del Pezzo varieties are basic objects in projective algebraic geometry. Those varieties have been characterized and classified for a long time in many aspects. Motivated by the question \"which varieties are the most basic and simplest except the above two kinds of varieties in view of geometry and syzygies?\", we give an upper bound of the graded Betti numbers in the quadratic strand and characterize the extremal cases.\n  The extremal varieties of dimension $n$, co",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns characterization of projective varieties via graded Betti numbers, depth, and Green-Lazarsfeld index — it never mentions local cohomology rank, communication complexity, or graphs, so it shares only the broad algebraic-geometry framework with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0910.5301",
+      "title": "Using Elimination Theory to construct Rigid Matrices",
+      "abstract_excerpt": "The rigidity of a matrix A for target rank r is the minimum number of entries of A that must be changed to ensure that the rank of the altered matrix is at most r. Since its introduction by Valiant (1977), rigidity and similar rank-robustness functions of matrices have found numerous applications in circuit complexity, communication complexity, and learning complexity. Almost all nxn matrices over an infinite field have a rigidity of (n-r)^2. It is a long-standing open question to construct infi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns matrix rigidity (minimum entries to change to lower rank) constructed via elimination theory, not a ratio between communication complexity rank variance and minimal local cohomology rank on graphs. It shares vocabulary (algebraic geometry, communication complexity, rank) but does not address the specific conjectured inequality.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2601.16103",
+      "title": "The Eisenbud-Goto conjecture for projectively normal varieties with mild singularities",
+      "abstract_excerpt": "For a nondegenerate projective variety $X$, the Eisenbud-Goto conjecture asserts that $\\operatorname{reg}X\\leq\\operatorname{deg}X-\\operatorname{codim}X+1$. Despite the existence of counterexamples, identifying the classes of varieties for which the conjecture holds remains a major open problem. In this paper, we prove that the Eisenbud-Goto conjecture holds for $2$-very ample projectively normal varieties with factorial, rational, hypersurface singularities and isolated Gorenstein singularities.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the Eisenbud-Goto regularity conjecture for projective varieties with specific singularity conditions, with no mention of graphs, communication complexity, or rank variance ratios relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
