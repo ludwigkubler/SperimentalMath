@@ -1,0 +1,40 @@
+{
+  "entry_id": "b614f6c8254f",
+  "ts": 1780833302.783673,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0705.1213",
+      "title": "Schémas en groupes et poids de Diamond-Serre",
+      "abstract_excerpt": "This note is a correction of (statement and proof of) proposition 3.3.1 of Toby Gee's preprint intitled *On the weights of mod p Hilbert modular forms*. The aim is to compare Galois representations arising from extensions of some group schemes (over the ring of integers of a p-adic field) endowed with a descent data, and extensions of some crystalline representations with given Hodge-Tate weights. The main tool of the proof is the theory of Breuil.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Galois representations, group schemes with descent data, and crystalline representations via Breuil's theory — wholly unrelated to tropical geometry, motivic ranks, or DPLL proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1001.1554",
+      "title": "Tropical geometry and correspondence theorems via toric stacks",
+      "abstract_excerpt": "In this paper we generalize correspondence theorems of Mikhalkin and Nishinou-Siebert providing a correspondence between algebraic and parameterized tropical curves. We also give a description of a canonical tropicalization procedure for algebraic curves motivated by Berkovich's construction of skeletons of analytic curves. Under certain assumptions, we construct a one-to-one correspondence between algebraic curves satisfying toric constraints and certain combinatorially defined objects, called ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns correspondence theorems between algebraic and tropical curves via toric stacks, with no mention of boolean satisfiability, DPLL proof complexity, or any notion of 'minimal tropical motivic rank' relevant to SAT instances.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1409.6366",
+      "title": "A direct proof for Lovett's bound on the communication complexity of low rank matrices",
+      "abstract_excerpt": "The log-rank conjecture in communication complexity suggests that the deterministic communication complexity of any Boolean rank-r function is bounded by polylog(r). Recently, major progress was made by Lovett who proved that the communication complexity is bounded by O(r^1/2 * log r). Lovett's proof is based on known estimates on the discrepancy of low-rank matrices. We give a simple, direct proof based on a hyperplane rounding argument that in our opinion sheds more light on the reason why a r",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the log-rank conjecture in communication complexity (Boolean rank vs. communication complexity), with no mention of tropical motivic rank, DPLL proof trees, or SAT instance proof width. It shares only the generic notion of 'rank' with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

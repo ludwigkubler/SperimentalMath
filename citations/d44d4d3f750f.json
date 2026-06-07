@@ -1,0 +1,40 @@
+{
+  "entry_id": "d44d4d3f750f",
+  "ts": 1780836095.5426877,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1905.12226",
+      "title": "Address Instance-level Label Prediction in Multiple Instance Learning",
+      "abstract_excerpt": "\\textit{Multiple Instance Learning} (MIL) is concerned with learning from bags of instances, where only bag labels are given and instance labels are unknown. Existent approaches in this field were mainly designed for the bag-level label prediction (predict labels for bags) but not the instance-level (predict labels for instances), with the task loss being only defined at the bag level. This restricts their application in many tasks, where the instance-level labels are more interested. In this pa",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Multiple Instance Learning for instance-level label prediction in machine learning, which has no relation to local field theory or SAT instance diameter. The shared word 'instance' is purely coincidental terminology.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2212.09277",
+      "title": "Building Height Prediction with Instance Segmentation",
+      "abstract_excerpt": "Extracting building heights from satellite images is an active research area used in many fields such as telecommunications, city planning, etc. Many studies utilize DSM (Digital Surface Models) generated with lidars or stereo images for this purpose. Predicting the height of the buildings using only RGB images is challenging due to the insufficient amount of data, low data quality, variations of building types, different angles of light and shadow, etc. In this study, we present an instance seg",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes building height prediction from satellite images using instance segmentation, which has no relation to local field theory or Boolean satisfiability diameter. The shared term 'instance' is purely coincidental vocabulary overlap.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2301.03281",
+      "title": "The state-of-the-art 3D anisotropic intracranial hemorrhage segmentation on non-contrast head CT: The INSTANCE challenge",
+      "abstract_excerpt": "Automatic intracranial hemorrhage segmentation in 3D non-contrast head CT (NCCT) scans is significant in clinical practice. Existing hemorrhage segmentation methods usually ignores the anisotropic nature of the NCCT, and are evaluated on different in-house datasets with distinct metrics, making it highly challenging to improve segmentation performance and perform objective comparisons among different methods. The INSTANCE 2022 was a grand challenge held in conjunction with the 2022 International",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns medical image segmentation of intracranial hemorrhage on CT scans (the 'INSTANCE 2022' challenge), which has no connection to local field theory or Boolean SAT instance diameter despite the shared word 'instance'.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

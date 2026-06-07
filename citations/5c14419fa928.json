@@ -1,0 +1,40 @@
+{
+  "entry_id": "5c14419fa928",
+  "ts": 1780832985.150669,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2011.10103",
+      "title": "On curves with high multiplicity on $\\mathbb{P}(a,b,c)$ for $\\min(a,b,c)\\leq4$",
+      "abstract_excerpt": "On a weighted projective surface $\\mathbb{P}(a,b,c)$ with $\\min(a,b,c)\\leq 4$, we compute lower bounds for the {\\em effective threshold} of an ample divisor, in other words, the highest multiplicity a section of the divisor can have at a specified point. We expect that these bounds are close to being sharp. This translates into finding divisor classes on the blowup of $\\mathbb{P}(a,b,c)$ that generate a cone contained in, and probably close to, the effective cone.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns effective thresholds of ample divisors on weighted projective surfaces P(a,b,c), with no mention of Del Pezzo degree, regular graphs, or circuit complexity. It shares only generic algebraic-geometry vocabulary and does not interact with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2307.08972",
+      "title": "Projective Rigidity of Circle Packings",
+      "abstract_excerpt": "We prove that the space of circle packings consistent with a given triangulation on a surface of genus at least two is projectively rigid, so that a packing on a complex projective surface is not deformable within that complex projective structure. More broadly, we show that the space of circle packings is a submanifold within the space of complex projective structures on that surface.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses projective rigidity of circle packings on complex projective surfaces of genus ≥ 2, with no mention of Del Pezzo surfaces, d-regular graphs, or circuit complexity. It shares only loose vocabulary ('projective surface') and does not interact with the conjectured D(G)=Θ(E(G)) correlation.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2412.07458",
+      "title": "On the structure of open del Pezzo surfaces",
+      "abstract_excerpt": "Let $(X,D)$ be an open log del Pezzo surface of rank one, that is, $X$ is a normal projective surface of Picard rank one, the boundary $D$ is a reduced nonzero divisor on $X$, and the anti-log canonical divisor $-(K_X+D)$ is ample. We show that, up to well described exceptions in characteristics 2, 3 and 5, the smooth part of $X\\setminus D$ admits an $\\mathbb{A}^1$- or an $\\mathbb{A}^{1}_{*}$-fibration, which extends to a $\\mathbb{P}^1$-fibration of the minimal log resolution of $(X,D)$. In char",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns structure theorems for open log del Pezzo surfaces of rank one (A^1-fibrations, classification of anti-canonical curves), with no mention of d-regular graphs, circuit complexity, or any correlation between Del Pezzo degree and circuit entanglement. It shares only the 'del Pezzo' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

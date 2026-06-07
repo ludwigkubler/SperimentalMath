@@ -1,0 +1,40 @@
+{
+  "entry_id": "1e58a1dd5504",
+  "ts": 1780834813.9715872,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1501.04911",
+      "title": "Fractal dimension and turbulence in Giant HII Regions",
+      "abstract_excerpt": "We have measured the fractal dimensions of the Giant HII Regions Hubble X and Hubble V in NGC6822 using images obtained with the Hubble's Wide Field Planetary Camera 2 (WFPC2). These measures are associated with the turbulence observed in these regions, which is quantified through the velocity dispersion of emission lines in the visible. Our results suggest low turbulence behaviour.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns fractal dimensions of astrophysical HII regions linked to turbulence via emission-line velocity dispersion, with no mention of Boolean functions, CNF formulas, or DPLL proof complexity. It shares only the loose vocabulary of 'fractal dimension' and does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1412.7844",
+      "title": "Texture analysis using volume-radius fractal dimension",
+      "abstract_excerpt": "Texture plays an important role in computer vision. It is one of the most important visual attributes used in image analysis, once it provides information about pixel organization at different regions of the image. This paper presents a novel approach for texture characterization, based on complexity analysis. The proposed approach expands the idea of the Mass-radius fractal dimension, a method originally developed for shape analysis, to a set of coordinates in 3D-space that represents the textu",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns fractal dimension applied to texture analysis of images ('texture characterization, based on complexity analysis'), which shares only the vague vocabulary of 'fractal/complexity' with the conjecture and does not address Boolean functions or DPLL proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1703.09324",
+      "title": "Algorithmic interpretations of fractal dimension",
+      "abstract_excerpt": "We study algorithmic problems on subsets of Euclidean space of low fractal dimension. These spaces are the subject of intensive study in various branches of mathematics, including geometry, topology, and measure theory. There are several well-studied notions of fractal dimension for sets and measures in Euclidean space. We consider a definition of fractal dimension for finite metric spaces which agrees with standard notions used to empirically estimate the fractal dimension of various sets. We d",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses algorithmic problems on Euclidean subsets of low fractal dimension ('faster algorithms for a plethora of classical problems on sets of low fractal dimension in Euclidean space'), with no mention of Boolean functions, CNF formulas, SAT, or DPLL proof complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
