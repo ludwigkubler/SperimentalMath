@@ -1,0 +1,40 @@
+{
+  "entry_id": "e4a667958de4",
+  "ts": 1780807756.6746762,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1409.0184",
+      "title": "Prenilpotent pairs in the E10 root system",
+      "abstract_excerpt": "Tits has defined Kac-Moody groups for all root systems, over all commutative rings with unit. A central concept is the idea of a prenilpotent pair of (real) roots. In particular, writing down his group presentation explicitly would require knowing all the Weyl-group orbits of such pairs. We show that for the hyperbolic root system E10 there are so many orbits that any attempt at direct enumeration is impractical. Namely, the number of orbits of prenilpotent pairs having inner product k grows at ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses prenilpotent pairs of roots in the E10 hyperbolic root system and orbit-counting growth rates, with no mention of CNF formulas, communication complexity, or matrix rank variance. It shares only the vague vocabulary of 'root systems' but does not interact with the specific claim relating L(φ) to w(φ)^2.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1601.01857",
+      "title": "Cohomology of Complements of Toric Arrangements Associated to Root Systems",
+      "abstract_excerpt": "We compute the cohomology of the complement of toric arrangements associated to root systems as representations of the corresponding Weyl groups. Specifically, we develop an algorithm for computing the cohomology of the complement of toric arrangements associated to general root systems and we carry out this computation for the exceptional root systems $G_2$, $F_4$, $E_6$ and $E_7$. We also compute the total cohomology of the complement of the toric arrangement associated to $A_n$ as a represent",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses cohomology of toric arrangement complements as Weyl group representations for specific root systems (G_2, F_4, E_6, E_7, A_n), with no mention of CNF formulas, communication complexity, or rank variance. It shares only the 'root system' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2504.02827",
+      "title": "On Vanishing Variance in Transformer Length Generalization",
+      "abstract_excerpt": "It is a widely known issue that Transformers, when trained on shorter sequences, fail to generalize robustly to longer ones at test time. This raises the question of whether Transformer models are real reasoning engines, despite their impressive abilities in mathematical problem solving and code synthesis. In this paper, we offer a vanishing variance perspective on this issue. To the best of our knowledge, we are the first to demonstrate that even for today's frontier models, a longer sequence l",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses 'vanishing variance' in Transformer attention modules for length generalization, with no mention of root systems, CNF formulas, or communication complexity rank. It shares only the superficial word 'variance' with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

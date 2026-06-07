@@ -1,0 +1,40 @@
+{
+  "entry_id": "df0da9a97a3d",
+  "ts": 1780808971.286983,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:cs/0406024",
+      "title": "Layout of Graphs with Bounded Tree-Width",
+      "abstract_excerpt": "A \\emph{queue layout} of a graph consists of a total order of the vertices, and a partition of the edges into \\emph{queues}, such that no two edges in the same queue are nested. The minimum number of queues in a queue layout of a graph is its \\emph{queue-number}. A \\emph{three-dimensional (straight-line grid) drawing} of a graph represents the vertices by points in $\\mathbb{Z}^3$ and the edges by non-crossing line-segments. This paper contributes three main results:\n  (1) It is proved that the m",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns queue layouts, tree-width, and three-dimensional graph drawings, with no mention of Diophantine equations, Boolean satisfiability, or DPLL proof complexity. It shares no specific claim with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0804.4584",
+      "title": "Feature Unification in TAG Derivation Trees",
+      "abstract_excerpt": "The derivation trees of a tree adjoining grammar provide a first insight into the sentence semantics, and are thus prime targets for generation systems. We define a formalism, feature-based regular tree grammars, and a translation from feature based tree adjoining grammars into this new formalism. The translation preserves the derivation structures of the original grammar, and accounts for feature unification.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns tree adjoining grammars and feature unification in computational linguistics, with no mention of Diophantine equations, Boolean satisfiability, or DPLL proof complexity. It does not interact with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1502.02753",
+      "title": "Ideal Tree-drawings of Approximately Optimal Width (And Small Height)",
+      "abstract_excerpt": "For rooted trees, an ideal drawing is one that is planar, straight-line, strictly-upward, and order-preserving. This paper considers ideal drawings of rooted trees with the objective of keeping the width of such drawings small. It is not known whether finding the minimum-possible width is NP-hard or polynomial. This paper gives a 2-approximation for this problem, and a $2Δ$-approximation (for $Δ$-ary trees) where additionally the height is $O(n)$. For trees with $Δ\\leq 3$, the former algorithm f",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns ideal planar drawings of rooted trees and width approximation algorithms, with no mention of Diophantine equations, Boolean satisfiability, or DPLL proof complexity. It shares only the generic word 'width' with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

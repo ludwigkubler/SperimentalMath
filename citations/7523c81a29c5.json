@@ -1,0 +1,40 @@
+{
+  "entry_id": "7523c81a29c5",
+  "ts": 1780808528.5222242,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1607.01685",
+      "title": "Exterior power operations on higher $K$-groups via binary complexes",
+      "abstract_excerpt": "We use Grayson's binary multicomplex presentation of algebraic $K$-theory to give a new construction of exterior power operations on the higher $K$-groups of a (quasi-compact) scheme. We show that these operations satisfy the axioms of a $λ$-ring, including the product and composition laws. To prove the composition law we show that the Grothendieck group of the exact category of integral polynomial functors is the universal $λ$-ring on one generator.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns exterior power operations and λ-ring structure on higher K-groups of schemes via Grayson's binary multicomplex presentation, with no mention of Boolean satisfiability, resolution proofs, or proof width. It shares only the 'algebraic K-theory' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1808.05559",
+      "title": "On the K-theory of pullbacks",
+      "abstract_excerpt": "To any pullback square of ring spectra we associate a new ring spectrum and use it to describe the failure of excision in algebraic $K$-theory. The construction of this new ring spectrum is categorical and hence allows to determine the failure of excision for any localizing invariant in place of $K$-theory.\n  As immediate consequences we obtain an improved version of Suslin's excision result in $K$-theory, generalizations of results of Geisser and Hesselholt on torsion in (bi)relative $K$-groups",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns excision properties of algebraic K-theory for pullback squares of ring spectra, with no mention of Boolean satisfiability, resolution proof complexity, or any association between SAT instances and K-groups. It shares only the 'algebraic K-theory' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2011.11755",
+      "title": "Boolean algebras, Morita invariance, and the algebraic K-theory of Lawvere theories",
+      "abstract_excerpt": "The algebraic K-theory of Lawvere theories is a conceptual device to elucidate the stable homology of the symmetry groups of algebraic structures such as the permutation groups and the automorphism groups of free groups. In this paper, we fully address the question of how Morita equivalence classes of Lawvere theories interact with algebraic K-theory. On the one hand, we show that the higher algebraic K-theory is invariant under passage to matrix theories. On the other hand, we show that the hig",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses Morita invariance of algebraic K-theory of Lawvere theories and computes K-theory for theories Morita equivalent to Boolean algebras — it shares vocabulary ('Boolean algebras', 'algebraic K-theory') but says nothing about SAT instances, resolution proof width, or any inequality relating K-group rank to proof complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

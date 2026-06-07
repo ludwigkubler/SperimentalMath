@@ -1,0 +1,40 @@
+{
+  "entry_id": "859b399fd4b6",
+  "ts": 1780810720.3312168,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0511486v1",
+      "title": "Local Tropical Variety",
+      "abstract_excerpt": "The tropical variety of an ideal was introduced by D.Speyer and B.Sturmfels. In this paper, we will give an analogous definition of local tropical varieties and prove analogous theorems in the formal power series ring. We will also discuss about relations between the local Groebner fan and local tro",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes defining local tropical varieties in formal power series rings and relating them to local Groebner fans, with no mention of CNF formulas, resolution proof width, or Hodge rank. It shares only the 'tropical variety' vocabulary but does not interact with the specific claim linking tropical Hodge rank to resolution proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0705.2441",
+      "title": "An algorithm for lifting points in a tropical variety",
+      "abstract_excerpt": "The aim of this paper is to give a constructive proof of one of the basic theorems of tropical geometry: given a point on a tropical variety (defined using initial ideals), there exists a Puiseux-valued ``lift'' of this point in the algebraic variety. This theorem is so fundamental because it justifies why a tropical variety (defined combinatorially using initial ideals) carries information about algebraic varieties: it is the image of an algebraic variety over the Puiseux series under the valua",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a constructive lifting algorithm from tropical varieties to Puiseux-valued points in algebraic varieties, with no mention of CNF formulas, resolution proof width, or Hodge rank. It shares only the 'tropical variety' vocabulary with the conjecture and does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0507563v1",
+      "title": "Computing Tropical Varieties",
+      "abstract_excerpt": "The tropical variety of a $d$-dimensional prime ideal in a polynomial ring with complex coefficients is a pure $d$-dimensional polyhedral fan. This fan is shown to be connected in codimension one. We present algorithmic tools for computing the tropical variety, and we discuss our implementation of t",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes algorithms for computing tropical varieties and a connectedness-in-codimension-one result, with no mention of CNF formulas, resolution proof width, or any Hodge rank notion linking tropical geometry to proof complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
