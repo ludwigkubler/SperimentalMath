@@ -1,0 +1,40 @@
+{
+  "entry_id": "3b16f00f529a",
+  "ts": 1780874749.3897016,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1806.05902",
+      "title": "Commutator Subgroups of Singular Braid Groups",
+      "abstract_excerpt": "The singular braids with $n$ strands, $n \\geq 3$, were introduced independently by Baez and Birman. It is known that the monoid formed by the singular braids is embedded in a group that is known as singular braid group, denoted by $SG_n$. There has been another generalization of braid groups, denoted by $GVB_n$, $n \\geq 3$, which was introduced by Fang as a group of symmetries behind quantum quasi-shuffle structures. The group $GVB_n$ simultaneously generalizes the classical braid group, as well",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns commutator subgroups of singular and generalized virtual braid groups (finite generation, perfectness), with no mention of Boolean satisfiability, resolution proof width, or polynomial bounds on normal subgroup orders relative to SAT instances.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2209.03860",
+      "title": "Graph of groups decompositions of graph braid groups",
+      "abstract_excerpt": "We provide an explicit construction that allows one to easily decompose a graph braid group as a graph of groups. This allows us to compute the braid groups of a wide range of graphs, as well as providing two general criteria for a graph braid group to split as a non-trivial free product, answering two questions of Genevois. We also use this to distinguish certain right-angled Artin groups and graph braid groups. Additionally, we provide an explicit example of a graph braid group that is relativ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses decomposing graph braid groups as graphs of groups and applications to right-angled Artin groups, with no mention of Boolean satisfiability, resolution proof width, or normal subgroup orders bounded by SAT complexity measures. It shares only the 'braid group' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2001.09098",
+      "title": "Secondary Braid Groups",
+      "abstract_excerpt": "We generalize presentations of the fundamental group of discriminant complements and arrive at a class of presentations associated naturally with words in the free monoid of the alphabet $σ_1,\\dots,σ_{n-1}$. Our study addresses invariance properties of these presentations and the presented groups under various operations on the words. In particular we prove that the group does only depend on the corresponding element in the positive braid monoid, and under mild hypotheses only on its conjugacy c",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses generalized presentations of braid-group-like structures from words in a free monoid and their invariance properties, with no mention of Boolean satisfiability, resolution proof width, or normal subgroup order bounds. It shares only the 'braid group' vocabulary without touching the specific claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

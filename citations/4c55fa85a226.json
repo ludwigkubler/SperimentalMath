@@ -1,0 +1,40 @@
+{
+  "entry_id": "4c55fa85a226",
+  "ts": 1780873368.8640275,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2603.09104",
+      "title": "Training-free Motion Factorization for Compositional Video Generation",
+      "abstract_excerpt": "Compositional video generation aims to synthesize multiple instances with diverse appearance and motion. However, current approaches mainly focus on binding semantics, neglecting to understand diverse motion categories specified in prompts. In this paper, we propose a motion factorization framework that decomposes complex motion into three primary categories: motionlessness, rigid motion, and non-rigid motion. Specifically, our framework follows a planning before generation paradigm. (1) During ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a video generation framework that categorizes motion into motionless, rigid, and non-rigid types for diffusion models, sharing only the vocabulary 'non-rigid motion' with the conjecture. It makes no claim about rigidity theory, communication complexity rank, or bounds on transforming graph embeddings to grids.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1804.06023",
+      "title": "DoubleFusion: Real-time Capture of Human Performances with Inner Body Shapes from a Single Depth Sensor",
+      "abstract_excerpt": "We propose DoubleFusion, a new real-time system that combines volumetric dynamic reconstruction with data-driven template fitting to simultaneously reconstruct detailed geometry, non-rigid motion and the inner human body shape from a single depth camera. One of the key contributions of this method is a double layer representation consisting of a complete parametric body shape inside, and a gradually fused outer surface layer. A pre-defined node graph on the body surface parameterizes the non-rig",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a real-time computer vision system for human body reconstruction using 'non-rigid motion' tracking from depth sensors, which shares only surface vocabulary with the conjecture's rigidity-theoretic claim. It makes no statement about graph rigidity, communication complexity rank, or any bound relating them.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1910.11414",
+      "title": "Reconstruction of Undersampled 3D Non-Cartesian Image-Based Navigators for Coronary MRA Using an Unrolled Deep Learning Model",
+      "abstract_excerpt": "Purpose: To rapidly reconstruct undersampled 3D non-Cartesian image-based navigators (iNAVs) using an unrolled deep learning (DL) model for non-rigid motion correction in coronary magnetic resonance angiography (CMRA).\n  Methods: An unrolled network is trained to reconstruct beat-to-beat 3D iNAVs acquired as part of a CMRA sequence. The unrolled model incorporates a non-uniform FFT operator to perform the data consistency operation, and the regularization term is learned by a convolutional neura",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns deep-learning reconstruction of MRI navigators for 'non-rigid motion correction' in coronary imaging, sharing only the phrase 'non-rigid motion' with the conjecture; it has no bearing on rigidity theory, graph embeddings, or communication complexity rank.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
