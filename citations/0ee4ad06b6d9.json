@@ -1,0 +1,31 @@
+{
+  "entry_id": "0ee4ad06b6d9",
+  "ts": 1780841501.4070356,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:2403.07989",
+      "title": "Boolean intervals in the weak Bruhat order of a finite Coxeter group",
+      "abstract_excerpt": "Given a Coxeter group $W$ with Coxeter system $(W,S)$, where $S$ is finite. We provide a complete characterization of Boolean intervals in the weak order of $W$ uniformly for all Coxeter groups in terms of independent sets of the Coxeter graph. Moreover, we establish that the number of Boolean inter",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract characterizes 'Boolean intervals in the weak Bruhat order' of Coxeter groups via independent sets of the Coxeter graph — a structural lattice result that shares the word 'Boolean' but does not address circuit complexity, DNF size, or generating outputs of boolean functions f: {0,1}^n → {0,1}.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:2507.07654",
+      "title": "Testing Isomorphism of Boolean Functions over Finite Abelian Groups",
+      "abstract_excerpt": "Let $f$ and $g$ be Boolean functions over a finite Abelian group $\\mathcal{G}$, where $g$ is fully known, and we have {\\em query access} to $f$, that is, given any $x \\in \\mathcal{G}$ we can get the value $f(x)$. We study the tolerant isomorphism testing problem: given $\\epsilon \\geq 0$ and $\\tau>0$",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses tolerant isomorphism testing of Boolean functions over finite Abelian groups via query access, which shares the 'Boolean functions' and 'group' vocabulary but does not interact with Coxeter group complexity or DNF circuit size bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 0
+  }
+}

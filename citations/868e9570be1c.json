@@ -1,0 +1,40 @@
+{
+  "entry_id": "868e9570be1c",
+  "ts": 1780841785.7016869,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1204.1444",
+      "title": "Computing the minimum rank of a loop directed tree",
+      "abstract_excerpt": "The minimum rank of a graph is the minimum possible rank of a real matrix whose zero-nonzero pattern is described by the graph. The current algorithms can compute efficiently the minimum rank of undirected trees. This paper provides an algorithm to compute in polynomial time the minimum rank of directed trees allowing loops.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a polynomial-time algorithm for the minimum rank of loop-directed trees, with no mention of Deligne-Lusztig theory, CNF formulas, or communication complexity rank variance. It shares only the generic vocabulary of 'trees' and 'rank' without engaging the specific conjectured correlation.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2105.01963",
+      "title": "One-way communication complexity and non-adaptive decision trees",
+      "abstract_excerpt": "We study the relationship between various one-way communication complexity measures of a composed function with the analogous decision tree complexity of the outer function. We consider two gadgets: the AND function on 2 inputs, and the Inner Product on a constant number of inputs. Let $IP$ denote Inner Product on $2b$ bits.\n  - If $f$ is a total Boolean function that depends on all of its inputs, the bounded-error one-way quantum communication complexity of $f \\circ IP$ equals $Ω(n(b-1))$.\n  - ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses one-way communication complexity of composed functions (f∘IP, f∘AND_2) and their relation to non-adaptive decision tree complexity and matrix rank, with no mention of Deligne-Lusztig trees, CNF formulas, incidence algebras, or rank variance correlations.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2409.16853",
+      "title": "Periods of Deligne-Lusztig Characters associated to Spherical Varieties",
+      "abstract_excerpt": "In this paper, we calculate the periods of Deligne-Lusztig characters $R_{T,χ}^G$ associated to $X^F$, where $X=G/H$ for a connected spherical subgroup $H$ of $G$. As an application, we deduce a formula that partially generalizes Lusztig's work on symmetric spaces and extends Reeder's formula in the complexity $0$ case.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'periods of Deligne-Lusztig characters' for spherical varieties and generalizing 'Lusztig's work on symmetric spaces' — it shares the Deligne-Lusztig vocabulary but says nothing about CNF formulas, tree depth, or communication complexity rank variance.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
