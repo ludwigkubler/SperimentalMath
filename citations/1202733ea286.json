@@ -1,0 +1,40 @@
+{
+  "entry_id": "1202733ea286",
+  "ts": 1780827445.5770159,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1803.01936",
+      "title": "Variations of Hodge Structures of Rank Three k-Higgs Bundles and Moduli Spaces of Holomorphic Triples",
+      "abstract_excerpt": "There is an isomorphism between the moduli spaces of $σ$-stable holomorphic triples and some of the critical submanifolds of the moduli space of $k$-Higgs bundles of rank three, whose elements $(E,\\varphi^k)$ correspond to variations of Hodge structure, VHS. There are special embeddings on the moduli spaces of $k$-Higgs bundles of rank three. The main objective here is to study the cohomology of the critical submanifolds of such moduli spaces, extending those embeddings to moduli spaces of holom",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses variations of Hodge structures on moduli spaces of k-Higgs bundles and holomorphic triples, which shares the 'Hodge' vocabulary but has no interaction with configuration spaces of k-cliques or communication complexity rank variance.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1906.03766",
+      "title": "Variance Reduction in Gradient Exploration for Online Learning to Rank",
+      "abstract_excerpt": "Online Learning to Rank (OL2R) algorithms learn from implicit user feedback on the fly. The key of such algorithms is an unbiased estimation of gradients, which is often (trivially) achieved by uniformly sampling from the entire parameter space. This unfortunately introduces high-variance in gradient estimation, and leads to a worse regret of model estimation, especially when the dimension of parameter space is large.\n  In this paper, we aim at reducing the variance of gradient estimation in OL2",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns variance reduction in gradient estimation for online learning-to-rank algorithms ('reducing the variance of gradient estimation in OL2R algorithms'), which has no bearing on Hodge indices of configuration spaces or communication complexity rank.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1811.03413",
+      "title": "Optical communication on CubeSats - Enabling the next era in space science",
+      "abstract_excerpt": "CubeSats are excellent platforms to rapidly perform simple space experiments. Several hundreds of CubeSats have already been successfully launched in the past few years and the number of announced launches grows every year. These platforms provide an easy access to space for universities and organizations which otherwise could not afford it. However, these spacecraft still rely on RF communications, where the spectrum is already crowded and cannot support the growing demand for data transmission",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns optical (laser) communication for CubeSats in space science contexts, with no mention of Hodge indices, configuration spaces, k-cliques, or matrix rank in communication complexity. It shares only the surface word 'communication' with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

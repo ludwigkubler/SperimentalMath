@@ -1,0 +1,40 @@
+{
+  "entry_id": "1f0c74c7c7a2",
+  "ts": 1780828294.1653547,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1807.02622",
+      "title": "Rényi Entropy Power Inequalities via Normal Transport and Rotation",
+      "abstract_excerpt": "Following a recent proof of Shannon's entropy power inequality (EPI), a comprehensive framework for deriving various EPIs for the Rényi entropy is presented that uses transport arguments from normal densities and a change of variable by rotation. Simple arguments are given to recover the previously known Rényi EPIs and derive new ones, by unifying a multiplicative form with constant c and a modification with exponent α of previous works. In particular, for log-concave densities, we obtain a simp",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Rényi entropy power inequalities for probability densities via transport arguments, with no connection to topological entropy of orbit spaces or resolution proof width of CNF formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2112.13763",
+      "title": "Yet Another Proof of the Joint Convexity of Relative Entropy",
+      "abstract_excerpt": "The joint convexity of the map $(X,A) \\mapsto X^* A^{-1} X$, an integral representation of operator convex functions, and an observation of Ando are used to obtain a simple proof of both the joint convexity of relative entropy and a trace convexity result of Lieb. The latter was the key ingredient in the original proof of the strong subadditivity of quantum entropy.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns joint convexity of relative entropy in quantum information/operator theory ('joint convexity of relative entropy and a trace convexity result of Lieb'), which has no interaction with topological entropy of orbit spaces or resolution proof width in SAT.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2403.07054",
+      "title": "Minimal Fractional Topological Insulator in half-filled conjugate moiré Chern bands",
+      "abstract_excerpt": "We propose a \"minimal\" fractional topological insulator (mFTI), motivated by the recent experimental report on the signatures of FTI at total filling factor $ν_{\\rm tot} = 3$ in a transition metal dichalcogenide moiré system. The observed FTI at $ν_{\\rm tot} = 3$ is likely given by a topological state living in a pair of half-filled conjugate Chern bands with Chern numbers $C=\\pm 1$ on top of another pair of fully-filled conjugate Chern bands. We propose the mFTI as a strong candidate topologica",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses a 'minimal fractional topological insulator' in condensed matter physics (moiré Chern bands, anyons, quantum Hall), which shares only the word 'minimal' with the conjecture and has no connection to topological entropy, orbit spaces, SAT, or resolution proof width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
