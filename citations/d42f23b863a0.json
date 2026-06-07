@@ -1,0 +1,40 @@
+{
+  "entry_id": "d42f23b863a0",
+  "ts": 1780860554.4914808,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2011.11054",
+      "title": "Consecutive Quadratic Residues And Quadratic Nonresidue Modulo $p$",
+      "abstract_excerpt": "Let $p$ be a large prime, and let $k\\ll \\log p$. A new proof of the existence of any pattern of $k$ consecutive quadratic residues and quadratic nonresidues is introduced in this note. Further, an application to the least quadratic nonresidues $n_p$ modulo $p$ shows that $n_p\\ll (\\log p)(\\log \\log p)$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses patterns of consecutive quadratic residues/nonresidues and bounds on the least quadratic nonresidue (n_p ≪ (log p)(log log p)), with no mention of resolution proof width, CNF formulas, or any connection to proof complexity. It shares the 'quadratic residues' vocabulary but does not interact with the conjecture's claimed correlation.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1012.5410",
+      "title": "Factorizations and Reductions of Order in Quadratic and other Non-recursive Higher Order Difference Equations",
+      "abstract_excerpt": "A higher order difference equation may be generally defined in an arbitrary nonempty set S as: \\[ f_{n}(x_{n},x_{n-1},...,x_{n-k})=g_{n}(x_{n},x_{n-1},...,x_{n-k}) \\] where $f_{n},g_{n} :S^{k+1}\\rightarrow S$ are given functions for $n=1,2,... $ and $k$ is a positive integer. We present conditions that imply the above equation can be factored into an equivalent pair of lower order difference equations using possible form symmetries (order-reducing changes of variables). These results extend and ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses factorizations of higher-order difference equations and quadratic difference equations on algebraic fields — it does not address quadratic residues modulo primes, their minimal order, or resolution proof width in any way.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1410.4915",
+      "title": "Rankin-Selberg L-functions in cyclotomic towers, III",
+      "abstract_excerpt": "Let $π$ be a cuspidal automorphic representation of $\\operatorname{GL}_2$ over a totally real number field $F$. Let $K$ be a totally imaginary quadratic extension of $F$. We estimate central values of the $\\operatorname{GL}_2 \\times \\operatorname{GL}_2$ Rankin-Selberg $L$-functions associated to $π$ times representations induced from Hecke characters of $K$ which are ramified only at a given prime ideal $\\mathfrak{p}$ of $F$. More specifically, we use spectral decompositions of shifted convoluti",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Rankin-Selberg L-functions, Hecke characters, and Mordell-Weil ranks — it shares no interaction with generalized quadratic residue orders or resolution proof width. The only loose vocabulary overlap is 'quadratic extension,' which is unrelated to the conjecture's claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

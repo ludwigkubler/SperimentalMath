@@ -1,0 +1,40 @@
+{
+  "entry_id": "f6d3282eca3f",
+  "ts": 1780859868.8068926,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1204.3878",
+      "title": "Analytic constructions of p-adic L-functions and Eisenstein series",
+      "abstract_excerpt": "The Fourier coefficients of the Siegel-Eisenstein series are p-adically continued for all primes p, as meromorphic functions, using the reciprocal of a product of L-functions. A construction of p-adic meromorphic families of such series is given in relation to the geometry of homogeneous spaces. Applications are given to p-adic L-functions, to Siegel's Mass Formula, to p-adic analytic families of automorphic representations. Based on author's talk for the Conference Automorphic Forms and Related",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses p-adic continuation of Fourier coefficients of Siegel-Eisenstein series and p-adic L-functions, with no mention of Boolean satisfiability, DPLL proof complexity, or any link between p-adic order of formal power series and proof path length.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2207.11806",
+      "title": "P-adic incomplete gamma functions and Artin-Hasse-type series",
+      "abstract_excerpt": "We define and study a $p$-adic analogue of the incomplete gamma function related to Morita's $p$-adic gamma function. We also discuss a combinatorial identity related to the Artin-Hasse series, which is a special case of the exponential principle in combinatorics. From this we deduce a curious $p$-adic property of $|\\mathrm{Hom} (G,S_n)|$ for a topologically finitely generated group $G$, using a characterization of $p$-adic continuity for certain functions $f \\colon \\mathbb Z_{&gt;0} \\to \\mathbb",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns p-adic gamma functions and Artin-Hasse series in combinatorics/number theory ('p-adic analogue of the incomplete gamma function', 'combinatorial identity related to the Artin-Hasse series'), with no mention of Boolean satisfiability, DPLL proof complexity, or formal power series representations of Boolean formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/hep-th/9410058v3",
+      "title": "p-Adic description of Higgs mechanism I: p-Adic square root and p-adic light cone",
+      "abstract_excerpt": "This paper is the first one in the series devoted to the calculation of particle mass spectrum in Topological GeometroDynamics. TGD Universe is critical at quantum level and an attractive idea to realize criticality is via conformal invariance. Ordinary real numbers do not allow this but if one assu",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns p-adic methods applied to Higgs mechanism and particle mass spectra in Topological GeometroDynamics ('calculation of particle mass spectrum'), with no mention of formal power series orders, Boolean formulas, or DPLL proof complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
