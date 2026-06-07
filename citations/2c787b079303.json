@@ -1,0 +1,40 @@
+{
+  "entry_id": "2c787b079303",
+  "ts": 1780797414.0158758,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math-ph/0512018v2",
+      "title": "On Phase Transitions for $P$-Adic Potts Model with Competing Interactions on a Cayley Tree",
+      "abstract_excerpt": "In the paper we considere three state $p$-adic Potts model with competing interactions on a Cayley tree of order two. We reduce a problem of describing of the $p$-adic Gibbs measures to the solution of certain recursive equation, and using it we will prove that a phase transition occurs if and only ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns p-adic Gibbs measures and phase transitions for a Potts model on a Cayley tree, which shares only the 'p-adic' vocabulary but does not address local cohomology ranks, Boolean satisfiability, or resolution proof length.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2408.00810",
+      "title": "p-adic Equiangular Lines and p-adic van Lint-Seidel Relative Bound",
+      "abstract_excerpt": "We introduce the notion of p-adic equiangular lines and derive the first fundamental relation between common angle, dimension of the space and the number of lines. More precisely, we show that if $\\{τ_j\\}_{j=1}^n$ is p-adic $γ$-equiangular lines in $\\mathbb{Q}^d_p$, then \\begin{align*} (1) \\quad\\quad \\quad \\quad |n|^2\\leq |d|\\max\\{|n|, γ^2 \\}. \\end{align*} We call Inequality (1) as the p-adic van Lint-Seidel relative bound. We believe that this complements fundamental van Lint-Seidel \\textit{[In",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns p-adic equiangular lines and a van Lint-Seidel-type inequality bounding the number of lines by dimension and angle, with no mention of local cohomology, Boolean formulas, or resolution proof complexity. It shares only the 'p-adic' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2201.08874",
+      "title": "Note on $p$-adic Local Functional Equation",
+      "abstract_excerpt": "Given primes $\\ell\\ne p$, we record here a $p$-adic valued Fourier theory on a local field over $\\mathbf{Q}_\\ell$, which is developed under the perspective of group schemes. As an application, by substituting rigid analysis for complex analysis, it leads naturally to the $p$-adic local functional equation at $\\ell$, which strongly resembles the complex one in Tate's thesis.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses p-adic Fourier theory and a p-adic local functional equation à la Tate's thesis, with no mention of Boolean formulas, resolution proof complexity, or local cohomology ranks. It shares only the 'p-adic' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

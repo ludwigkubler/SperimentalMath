@@ -1,0 +1,40 @@
+{
+  "entry_id": "2d82f60eed65",
+  "ts": 1780798750.4518592,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/1210.0290v1",
+      "title": "Brauer groups and étale cohomology in derived algebraic geometry",
+      "abstract_excerpt": "In this paper, we study Azumaya algebras and Brauer groups in derived algebraic geometry. We establish various fundamental facts about Brauer groups in this setting, and we provide a computational tool, which we use to compute the Brauer group in several examples. In particular, we show that the Bra",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Brauer groups in derived algebraic geometry and Azumaya algebras, with no mention of boolean circuits, communication complexity, or matrix rank — it shares only the 'Brauer group' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2210.01396v4",
+      "title": "Class field theory, Hasse principles and Picard-Brauer duality for two-dimensional local rings",
+      "abstract_excerpt": "We draw concrete consequences from our arithmetic duality for two-dimensional local rings with perfect residue field. These consequences include class field theory, Hasse principles for coverings and $K_{2}$ and a duality between divisor class groups and Brauer groups. To obtain these, we analyze th",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns arithmetic duality, class field theory, and Picard-Brauer duality for two-dimensional local rings, with no mention of boolean circuits, communication complexity, or matrix rank. It shares only the term 'Brauer group' with the conjecture and does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2509.25737v2",
+      "title": "Involutive Brauer groups and Poincaré rings",
+      "abstract_excerpt": "We use the formalism of Poincaré $ \\infty $-categories, as developed by Calmès-Dotto-Harpaz-Hebestreit-Land-Moi-Nardin-Nikolaus-Steimle, to define and study moduli stacks of line bundles with $ λ$-hermitian pairings and of Morita equivalence classes of Azumaya algebras equipped with an involution. O",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses involutive Brauer groups via Poincaré ∞-categories and Azumaya algebras with involutions, which shares the 'Brauer group' vocabulary but has no connection to boolean circuits, communication complexity, or rank variance ratios.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
