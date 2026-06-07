@@ -1,0 +1,40 @@
+{
+  "entry_id": "e895b1ba0efb",
+  "ts": 1780817934.519771,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1409.1534",
+      "title": "Algorithms in Real Algebraic Geometry: A Survey",
+      "abstract_excerpt": "We survey both old and new developments in the theory of algorithms in real algebraic geometry -- starting from effective quantifier elimination in the first order theory of reals due to Tarski and Seidenberg, to more recent algorithms for computing topological invariants of semi-algebraic sets. We emphasize throughout the complexity aspects of these algorithms and also discuss the computational hardness of the underlying problems. We also describe some recent results linking the computational h",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract surveys algorithms in real algebraic geometry (quantifier elimination, topological invariants of semi-algebraic sets) and their complexity, with no mention of boolean function communication complexity or a 'quadratic defect' bound. It shares no specific claim with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1008.0601",
+      "title": "A note on the cotangent complex in derived algebraic geometry",
+      "abstract_excerpt": "This note is supposed to answer some questions on deformation theory in derived algebraic geometry. We show that derived algebraic geometry allows for a geometrical interpretation of the full cotangent complex and gives a natural setting for deformation and obstruction theories.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the cotangent complex and deformation theory in derived algebraic geometry, with no mention of quadratic forms, boolean functions, or communication complexity. It does not interact with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0504259v1",
+      "title": "Multiplier ideal sheaves in complex and algebraic geometry",
+      "abstract_excerpt": "This article discusses the geometric application of the method of multiplier ideal sheaves. It first briefly describes its application to effective problems in algebraic geometry and then presents and explains its application to the deformational invariance of plurigenera for general compact algebra",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'multiplier ideal sheaves' applied to 'effective problems in algebraic geometry' and 'deformational invariance of plurigenera,' which has no interaction with boolean function communication complexity or quadratic defects.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
