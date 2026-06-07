@@ -1,0 +1,40 @@
+{
+  "entry_id": "2d49fb085af2",
+  "ts": 1780854754.988513,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2211.17129",
+      "title": "Ehrhart Limits",
+      "abstract_excerpt": "We introduce the definition of an Ehrhart limit, that is, a formal power series with integer coefficients that is the limit in the ring of formal power series of a sequence of Ehrhart $h^*$-polynomials. We identify a variety of examples of sequences of polytopes that yield Ehrhart limits, with a focus on reflexive polytopes and simplices.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'Ehrhart limits' as formal power series limits of h*-polynomials for sequences of polytopes (notably reflexive polytopes and simplices), with no mention of Boolean satisfiability, clause depth, or generator counts of Ehrhart semigroups. It shares only the Ehrhart vocabulary without interacting with the specific mtr(φ) vs. clause-depth inequality.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0904.3035",
+      "title": "Additive number theory and inequalities in Ehrhart theory",
+      "abstract_excerpt": "We introduce a powerful connection between Ehrhart theory and additive number theory, and use it to produce infinitely many new classes of inequalities between the coefficients of the $h^*$-polynomial of a lattice polytope. This greatly improves upon the three known classes of inequalities, which were proved using techniques from commutative algebra and combinatorics. As an application, we deduce all possible `balanced' inequalities between the coefficients of the $h^*$-polynomial of a lattice p",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns inequalities between coefficients of the h*-polynomial of lattice polytopes via additive number theory, with no mention of Boolean satisfiability, clause depth, or Ehrhart semigroup generators bounded by SAT parameters.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2005.03259",
+      "title": "On the Gorenstein property of the Ehrhart ring of the stable set polytope of an h-perfect graph",
+      "abstract_excerpt": "In this paper, we give a criterion of the Gorenstein property of the Ehrhart ring of the stable set polytope of an h-perfect graph: the Ehrhart ring of the stable set polytope of an h-perfect graph $G$ is Gorenstein if and only if (1) sizes of maximal cliques are constant (say $n$) and (2) (a) $n=1$, (b) $n=2$ and there is no odd cycle without chord and length at least 7 or (c) $n\\geq 3$ and there is no odd cycle without chord and length at least 5.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses a Gorenstein criterion for the Ehrhart ring of stable set polytopes of h-perfect graphs, which shares the 'Ehrhart' vocabulary but does not interact with SAT clause depth or any bound on minimal generators of an 'Ehrhart semigroup' tied to Boolean formulas.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

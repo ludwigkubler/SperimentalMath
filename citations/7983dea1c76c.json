@@ -1,0 +1,40 @@
+{
+  "entry_id": "7983dea1c76c",
+  "ts": 1780855963.6971343,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1903.03401",
+      "title": "Planar Black holes and Entanglement Entropy in Analog Gravity Models",
+      "abstract_excerpt": "Via constructing an explicit Lagrangian for which the perturbation equations are analogues of a scalar field propagating in a planar black hole space-time, it is found that all planar black holes conformal to a Painlevé--Gullstrand type line element can be realized as analogue metrics. We also introduce the concept of holographic entanglement entropy for planar black-hole space-times. This is valid for an arbitrary choice of conformal and blackening factor, thereby vastly extending the number of",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'holographic entanglement entropy for planar black-hole space-times' in analog gravity models, which shares only the vocabulary of 'entanglement entropy' with the conjecture but has no interaction with Boolean circuits or circuit entanglement complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1511.02288",
+      "title": "Thermodynamic law from the entanglement entropy bound",
+      "abstract_excerpt": "From black hole thermodynamics, the Bekenstein bound has been proposed as a universal thermal entropy bound. It has been further generalized to an entanglement entropy bound which is valid even in a quantum system. In a quantumly entangled system, the non-negativity of the relative entropy leads to the entanglement entropy bound. When the entanglement entropy bound is saturated, a quantum system satisfies the thermodynamics-like law with an appropriately defined entanglement temperature. We show",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the Bekenstein-style entanglement entropy bound, entanglement temperature, and modular Hamiltonians in quantum thermodynamics — it makes no claim about Boolean circuits, circuit complexity, or a geometric entropy vs. entanglement complexity inequality like H(ρ_C) ≤ 1.5·E(C).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1511.02028",
+      "title": "Hagedorn transition and topological entanglement entropy",
+      "abstract_excerpt": "Induced by the Hagedorn instability, weakly-coupled $U(N)$ gauge theories on a compact manifold exhibit a confinement/deconfinement phase transition in the large-$N$ limit. Recently we discover that the thermal entropy of a free theory on $\\mathbb{S}^3$ gets reduced by a universal constant term, $-N^2/4$, compared to that from completely deconfined colored states. This entropy deficit is due to the persistence of Gauss's law, and actually independent of the shape of the manifold. In this paper w",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses geometric/topological entanglement entropy in U(N) gauge theories and Hagedorn transitions, sharing only the vocabulary 'geometric entropy' with the conjecture; it makes no statement about Boolean circuits or any bound relating entropy to circuit entanglement complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

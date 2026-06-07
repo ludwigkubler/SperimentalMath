@@ -1,0 +1,40 @@
+{
+  "entry_id": "4f20cd3e07b3",
+  "ts": 1780857263.6924942,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1103.5740",
+      "title": "Generating and Searching Families of FFT Algorithms",
+      "abstract_excerpt": "A fundamental question of longstanding theoretical interest is to prove the lowest exact count of real additions and multiplications required to compute a power-of-two discrete Fourier transform (DFT). For 35 years the split-radix algorithm held the record by requiring just 4n log n - 6n + 8 arithmetic operations on real numbers for a size-n DFT, and was widely believed to be the best possible. Recent work by Van Buskirk et al. demonstrated improvements to the split-radix operation count by usin",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns using SAT/SMT solvers to search for FFT algorithms with minimal arithmetic operation counts; it makes no mention of quandles, resolution proof width, or any relation between them.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2012.15478",
+      "title": "N-quandles of links",
+      "abstract_excerpt": "The fundamental quandle is a powerful invariant of knots and links, but it is difficult to describe in detail. It is often useful to look at quotients of the quandle, especially finite quotients. One natural quotient introduced by Joyce is the $n$-quandle. Hoste and Shanahan gave a complete list of the knots and links which have finite $n$-quandles for some $n$. We introduce a generalization of $n$-quandles, denoted $N$-quandles (for a quandle with $k$ algebraic components, $N$ is a $k$-tuple of",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses N-quandles as quotients of fundamental quandles of knots and links, with no mention of CNF formulas, resolution proof complexity, or proof width. It shares the 'quandle' vocabulary but does not interact with the conjecture's claim about Boolean satisfiability.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0905.3374",
+      "title": "Symmetric Extensions of Dihedral Quandles and Triple Points of Non-orientable Surfaces",
+      "abstract_excerpt": "Quandles with involutions that satisfy certain conditions, called good involutions, can be used to color non-orientable surface-knots. We use subgroups of signed permutation matrices to construct non-trivial good involutions on extensions of odd order dihedral quandles.\n  For the smallest example of order 6 that is an extension of the three-element dihedral quandle, various symmetric quandle homology groups are computed, and applications to the minimal triple point number of surface-knots are gi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses good involutions on dihedral quandle extensions and applications to minimal triple point numbers of surface-knots, with no mention of CNF formulas, resolution proof width, or any connection to Boolean satisfiability complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
