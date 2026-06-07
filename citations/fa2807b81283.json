@@ -1,0 +1,40 @@
+{
+  "entry_id": "fa2807b81283",
+  "ts": 1780819231.463283,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1412.6019",
+      "title": "The Hodge Theory of maps (Lectures 4 and 5)",
+      "abstract_excerpt": "Lecture notes of lectures delivered at the Hodge Theory Summer School in ICTP Trieste, June 2010.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract merely describes lecture notes on 'The Hodge Theory of maps' from a summer school, with no mention of Boolean satisfiability, resolution proof width, or any complexity-theoretic connection to Hodge decomposition rank.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2005.07919",
+      "title": "Hodge Theory of $p$-adic varieties: a survey",
+      "abstract_excerpt": "$p$-adic Hodge Theory is one of the most powerful tools in modern Arithmetic Geometry. In this survey, we will review $p$-adic Hodge Theory for algebraic varieties, present current developments in $p$-adic Hodge Theory for analytic varieties, and discuss some of its applications to problems in Number Theory. This is an extended version of a talk at the Jubilee Congress for the 100th anniversary of the Polish Mathematical Society, Kraków, 2019.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a survey of p-adic Hodge Theory for algebraic and analytic varieties with applications to Number Theory, with no mention of Boolean satisfiability, resolution proof width, or rank bounds of Hodge decompositions in that context.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1610.06246",
+      "title": "The Hodge theory of the Hecke category",
+      "abstract_excerpt": "Ideas from Hodge theory have found important applications in representation theory. We give a survey of joint work with Ben Elias which uncovers Hodge theoretic structure in the Hecke category (\"Soergel bimodules\"). We also outline similarities and differences to other combinatorial Hodge theories.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Hodge theory applied to the Hecke category and Soergel bimodules in representation theory, with no mention of Boolean satisfiability, resolution proof complexity, or any width-rank bound. It shares only the 'Hodge theory' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

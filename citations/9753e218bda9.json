@@ -1,0 +1,40 @@
+{
+  "entry_id": "9753e218bda9",
+  "ts": 1780820077.9089472,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1304.3539",
+      "title": "The arithmetic Hodge index theorem for adelic line bundles II",
+      "abstract_excerpt": "This is the second paper of a series. It extends the results of the first paper from number fields to finitely generated fields, based on the recent theory of adelic line bundles of the same authors. We prove an arithmetic Hodge index theorem for these adelic line bundles, and apply the theorem to obtain a rigidity property of the sets of preperiodic points of polarizable algebraic dynamical systems over any field.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns an arithmetic Hodge index theorem for adelic line bundles over finitely generated fields and its application to preperiodic points of algebraic dynamical systems, with no mention of Boolean functions, communication complexity, or matrix rank variance. It shares only the 'Hodge index' vocabulary with the conjecture but does not interact with its specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1901.05780",
+      "title": "Hodge filtration, minimal exponent, and local vanishing",
+      "abstract_excerpt": "We bound the generation level of the Hodge filtration on the localization along a hypersurface in terms of its minimal exponent. As a consequence, we obtain a local vanishing theorem for sheaves of forms with log poles. These results are extended to Q-divisors, and are derived from a result of independent interest on the generation level of the Hodge filtration on nearby and vanishing cycles.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the Hodge filtration's generation level and local vanishing theorems for hypersurfaces, with no mention of Boolean functions, communication complexity, or matrix rank variance. It shares only the 'Hodge' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1801.10489",
+      "title": "Hodge level for weighted complete intersections",
+      "abstract_excerpt": "We give lower bounds for Hodge numbers of smooth well formed Fano weighted complete intersections. In particular, we compute their Hodge level, that is, the maximal distance between non-trivial Hodge numbers in the same row of the Hodge diamond. This allows us to classify varieties whose Hodge numbers are like that of a projective space, of a curve, or of a Calabi--Yau variety of low dimension.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Hodge numbers and Hodge level of weighted complete intersections in pure algebraic geometry, with no mention of Boolean functions, communication complexity, or matrix rank variance. It shares only the 'Hodge' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "a91e5e193aa5",
+  "ts": 1780821946.3701265,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1709.08318",
+      "title": "Hodge decomposition and the Shapley value of a cooperative game",
+      "abstract_excerpt": "We show that a cooperative game may be decomposed into a sum of component games, one for each player, using the combinatorial Hodge decomposition on a graph. This decomposition is shown to satisfy certain efficiency, null-player, symmetry, and linearity properties. Consequently, we obtain a new characterization of the classical Shapley value as the value of the grand coalition in each player's component game. We also relate this decomposition to a least-squares problem involving inessential game",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Hodge decomposition applied to cooperative game theory and Shapley values, with no mention of CNF formulas, DPLL proof complexity, or polynomial rank measures related to SAT solving. It shares only the 'Hodge decomposition' vocabulary but does not interact with the specific claim about proof tree width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1403.8106",
+      "title": "Recent advances on the log-rank conjecture in communication complexity",
+      "abstract_excerpt": "The log-rank conjecture is one of the fundamental open problems in communication complexity. It speculates that the deterministic communication complexity of any two-party function is equal to the log of the rank of its associated matrix, up to polynomial factors. Despite much research, we still know very little about this conjecture. Recently, there has been renewed interest in this conjecture and its relations to other fundamental problems in complexity theory. This survey describes some of th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the log-rank conjecture in communication complexity, which concerns matrix rank versus deterministic communication complexity—it shares the vocabulary of 'rank' but does not address Hodge decomposition of CNF polynomials or DPLL proof tree width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1102.2932",
+      "title": "Applications of Monotone Rank to Complexity Theory",
+      "abstract_excerpt": "Raz's recent result \\cite{Raz2010} has rekindled people's interest in the study of \\emph{tensor rank}, the generalization of matrix rank to high dimensions, by showing its connections to arithmetic formulas. In this paper, we follow Raz's work and show that \\emph{monotone rank}, the monotone variant of tensor rank and matrix rank, has applications in algebraic complexity, quantum computing and communication complexity. This paper differs from Raz's paper in that it leverages existing results to ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses monotone rank applications to algebraic complexity, quantum computing, and communication complexity, with no mention of Hodge decomposition, CNF formulas, or DPLL proof tree width. It shares only general 'rank/complexity' vocabulary but does not interact with the specific conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
