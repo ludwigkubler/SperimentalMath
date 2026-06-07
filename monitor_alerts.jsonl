@@ -3702,3 +3702,4 @@
 {"ts": 1780812008.852806, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 42}}
 {"ts": 1780813805.2322927, "kind": "NOTEBOOK_LARGE", "auto_fixed": false, "detail": {"size_mb": 106.285249}}
 {"ts": 1780813806.6674511, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 42}}
+{"ts": 1780815071.907438, "ts_iso": "2026-06-07T06:51:11.907438+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "DEGRADED", "to_status": "CRITICAL", "failing_checks": ["sec_entity_service", "gpu", "ram_above_1g", "mirror_git_fresh", "mirror_git_pushed"], "auto_fixed": false}
