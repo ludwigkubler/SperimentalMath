@@ -1,0 +1,22 @@
+{
+  "entry_id": "78145cdcebd8",
+  "ts": 1780812036.718882,
+  "hits_evaluated": 1,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1310.2252",
+      "title": "Kramers-Wannier Duality of Statistical Mechanics Applied to the Boolean Satisfiability Problem of Computer Science",
+      "abstract_excerpt": "We present a novel application of the Kramers-Wannier duality on one of the most important problems of computer science, the Boolean satisfiability problem (SAT). More specifically, we focus on sharp-SAT or equivalently #SAT - the problem of counting the number of solutions to a Boolean satisfaction formula. #SAT can be cast into a statistical-mechanical language, where it reduces to calculating the partition function of an Ising spin Hamiltonian with multi-spin interactions. We show that Kramer",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Kramers-Wannier duality mapping #SAT to a dual partition function and Diophantine enumeration problem, with no mention of integer partition minimal order bounds, resolution proof width, or any O(n^(1/4+ε)) complexity claim. It shares the SAT vocabulary but does not interact with the specific conjecture about |p(φ)|.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 0
+  }
+}

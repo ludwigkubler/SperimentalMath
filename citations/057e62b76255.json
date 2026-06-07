@@ -1,0 +1,40 @@
+{
+  "entry_id": "057e62b76255",
+  "ts": 1780814086.1299918,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2502.14813",
+      "title": "On universal-homogeneous hyperbolic graphs and spaces and their isometry groups",
+      "abstract_excerpt": "The Urysohn space is the unique separable metric space that is universal and homogeneous for finite metric spaces, i.e., it embeds any finite metric space any isometry between finite subspaces extends to an isometry of the whole space. We here consider the existence of a universal-homogeneous hyperbolic space. We show that for $δ&gt;0$ there is no $δ$-hyperbolic space which is universal and homogeneous in the above sense for all finite $δ$-hpyerbolic spaces.\n  We then show that for any $δ\\geq 0$",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses universal-homogeneous δ-hyperbolic spaces and their isometry groups, with no mention of communication complexity, bipartite graphs in that sense, or Gromov-Hausdorff distance to isometries. It shares vocabulary ('hyperbolic', 'isometry') but does not interact with the specific C(G) = Θ(d(G)) claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2202.03965",
+      "title": "Classifying the globally rigid edge-transitive graphs and distance-regular graphs in the plane",
+      "abstract_excerpt": "A graph is said to be globally rigid if almost all embeddings of the graph's vertices in the Euclidean plane will define a system of edge-length equations with a unique (up to isometry) solution. In 2007, Jackson, Servatius and Servatius characterised exactly which vertex-transitive graphs are globally rigid solely by their degree and maximal clique number, two easily computable parameters for vertex-transitive graphs. In this short note we will extend this characterisation to all graphs that ar",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns global rigidity of edge-transitive and distance-regular graphs via Euclidean embeddings and degree parameters, not hyperbolic Gromov-Hausdorff distance or communication complexity. It shares only the loose vocabulary of 'isometry' but does not interact with the specific C(G) = Θ(d(G)) claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2212.06928",
+      "title": "A graph-state based synthesis framework for Clifford isometries",
+      "abstract_excerpt": "We tackle the problem of Clifford isometry compilation, i.e, how to synthesize a Clifford isometry into an executable quantum circuit. We propose a simple framework for synthesis that only exploits the elementary properties of the Clifford group and one equation of the symplectic group. We highlight the versatility of our framework by showing that several normal forms of the literature are natural corollaries. We recover the state of the art two-qubit gate depth necessary for the execution of a ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns synthesis of Clifford isometries into quantum circuits ('how to synthesize a Clifford isometry into an executable quantum circuit'), which shares only the word 'isometry' with the conjecture and has no bearing on hyperbolic distance or communication complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

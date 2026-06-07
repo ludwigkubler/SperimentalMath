@@ -1,0 +1,40 @@
+{
+  "entry_id": "5afb10a4dcba",
+  "ts": 1780813760.1558828,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1207.2443",
+      "title": "Tropical Teichmuller and Siegel spaces",
+      "abstract_excerpt": "In this paper, we present a unified study of the moduli space of tropical curves and Outer space which we link via period maps to the moduli space of tropical abelian varieties and the space of positive definite quadratic forms. Our work is a first step towards exhibiting Outer space and the space of positive definite quadratic forms as analogues of Teichmüller space and Siegel space, respectively, in tropical geometry. All these spaces and the maps among them are described within the category o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses moduli spaces of tropical curves, Outer space, and tropical abelian varieties via period maps, with no mention of Hodge indices, CNF formulas, or resolution proof width. It shares only the broad 'tropical geometry' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1001.1554",
+      "title": "Tropical geometry and correspondence theorems via toric stacks",
+      "abstract_excerpt": "In this paper we generalize correspondence theorems of Mikhalkin and Nishinou-Siebert providing a correspondence between algebraic and parameterized tropical curves. We also give a description of a canonical tropicalization procedure for algebraic curves motivated by Berkovich's construction of skeletons of analytic curves. Under certain assumptions, we construct a one-to-one correspondence between algebraic curves satisfying toric constraints and certain combinatorially defined objects, called ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses correspondence theorems between algebraic and tropical curves via toric stacks, with no mention of Hodge index, CNF formulas, or resolution proof complexity. It shares only the general 'tropical geometry' vocabulary but does not address the specific claim linking tropical Hodge index to proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1204.3875",
+      "title": "Tropicalizing vs Compactifying the Torelli morphism",
+      "abstract_excerpt": "In this paper, we compare the compactified Torelli morphism (as defined by V. Alexeev) and the tropical Torelli map (as defined by the author in a joint work with S. Brannetti and M. Melo, and furthered studied by M. Chan). Our aim is twofold: on one hand, we will review the construction and main properties of the above mentioned two Torelli maps, focusing in particular on the description of their fibers achieved by the author in joint works with L. Caporaso; on the other hand, we will clarify t",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the Torelli morphism and its tropicalization/compactification, with no mention of Hodge index, CNF formulas, or resolution proof width. It shares only the broad 'tropical' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

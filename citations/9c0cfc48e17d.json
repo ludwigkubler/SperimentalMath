@@ -1,0 +1,40 @@
+{
+  "entry_id": "9c0cfc48e17d",
+  "ts": 1780813551.9745998,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/dg-ga/9603011v2",
+      "title": "Minimal Geodesics and Nilpotent Fundamental Groups",
+      "abstract_excerpt": "Hedlund constructed Riemannian metrics on n-tori, $n \\geq 3$ for which minimal geodesics are very rare. In this paper we construct similar examples for every nilpotent fundamental group. These examples show that Bangert's existence results of minimal geodesics are optimal for nilpotent fundamental g",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns minimal geodesics on Riemannian manifolds with nilpotent fundamental groups (Hedlund-type constructions), with no mention of communication complexity, matrix rank, or vertex-covering ratios. It shares only the vocabulary 'minimal geodesics' but does not address the conjecture's claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0707.0673",
+      "title": "Minimal geodesics and topological entropy on T^2",
+      "abstract_excerpt": "Let (T^2, g) be a two-dimensional Riemannian torus. In this paper we prove that the topological entropy of the geodesic flow restricted to the set of initial conditions of minimal geodesics vanishes, independent of the choice of the Riemannian metric.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns topological entropy of geodesic flow on a 2D Riemannian torus, not hyperbolic embeddings of communication complexity problems; the shared word 'minimal geodesics' does not interact with the conjecture's claim about communication rank ratios.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1601.06691",
+      "title": "Minimal geodesics and integrable behavior in geodesic flows",
+      "abstract_excerpt": "In this survey article we gather classical as well as recent results on minimal geodesics of Riemannian or Finsler metrics, giving special attention to the two-dimensional case. Moreover, we present open problems together with some first ideas as to the solutions.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a survey on minimal geodesics in Riemannian/Finsler metrics and geodesic flows, with no mention of communication complexity, matrix rank, or hyperbolic embeddings of communication problems. It shares only the vocabulary 'minimal geodesics' but does not interact with the specific ratio claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
