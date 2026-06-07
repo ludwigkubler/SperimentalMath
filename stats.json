@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-06-07T14:47:06Z",
-  "total_cycles": 5692,
+  "last_update_utc": "2026-06-07T15:47:07Z",
+  "total_cycles": 5697,
   "verdict_counts": {
-    "INCONCLUSIVE": 3685,
+    "INCONCLUSIVE": 3689,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 1901,
+    "BARRIER_HIT": 1902,
     "SCOOPED": 86
   },
-  "unique_field_A": 2353,
+  "unique_field_A": 2355,
   "top_fields_A": [
     [
       "Algebraic Geometry (Hodge Theory)",
@@ -67,8 +67,8 @@
       37
     ],
     [
-      "Modular Form Theory",
-      34
+      "Combinatorial Geometry (Coxeter Groups)",
+      35
     ]
   ]
 }
