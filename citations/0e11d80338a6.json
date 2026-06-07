@@ -1,0 +1,40 @@
+{
+  "entry_id": "0e11d80338a6",
+  "ts": 1780852971.9373844,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1004.0653",
+      "title": "Exact Ramsey Theory: Green-Tao numbers and SAT",
+      "abstract_excerpt": "We consider the links between Ramsey theory in the integers, based on van der Waerden's theorem, and (boolean, CNF) SAT solving. We aim at using the problems from exact Ramsey theory, concerned with computing Ramsey-type numbers, as a rich source of test problems, where especially methods for solving hard problems can be developed. In order to control the growth of the problem instances, we introduce \"transversal extensions\" as a natural way of constructing mixed parameter tuples (k_1, ..., k_m)",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Ramsey-type number computation via SAT solvers and translation encodings (e.g., 'generic translation scheme', 'nested translation'), with no mention of Ehrhart theory, binary polytopes, d-regular graphs, or any correlation between polytope rank and SAT clause depth.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2211.17129",
+      "title": "Ehrhart Limits",
+      "abstract_excerpt": "We introduce the definition of an Ehrhart limit, that is, a formal power series with integer coefficients that is the limit in the ring of formal power series of a sequence of Ehrhart $h^*$-polynomials. We identify a variety of examples of sequences of polytopes that yield Ehrhart limits, with a focus on reflexive polytopes and simplices.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'Ehrhart limits' as formal power series limits of h*-polynomial sequences for reflexive polytopes and simplices, with no mention of d-regular graphs, SAT clause depth, or minimal Ehrhart rank correlations.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2605.09347v1",
+      "title": "Dsat: A Native SAT Solver for Discrete Logic",
+      "abstract_excerpt": "Discrete variables are common in many applications, such as probabilistic reasoning, planning and explainable AI. When symbolic reasoning techniques are brought in to bear on these applications, a standard technique for handling discrete variables is to binarize them into Boolean variables to allow the use of Boolean computational machinery such as SAT solvers. This technique can face both computational and semantical challenges though. In this work, we develop a native SAT solver for discrete l",
+      "abstract_source": "arxiv_local_mirror",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a native SAT solver for discrete logic ('a direct extension of Boolean logic in which variables can take arbitrary values'), with no mention of Ehrhart theory, polytopes, regular graphs, or clause depth complexity measures.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

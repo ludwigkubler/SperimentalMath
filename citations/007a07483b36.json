@@ -1,0 +1,40 @@
+{
+  "entry_id": "007a07483b36",
+  "ts": 1780852315.034754,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2111.08018",
+      "title": "Entanglement dynamics in hybrid quantum circuits",
+      "abstract_excerpt": "The central philosophy of statistical mechanics (stat-mech) and random-matrix theory of complex systems is that while individual instances are essentially intractable to simulate, the statistical properties of random ensembles obey simple universal \"laws\". This same philosophy promises powerful methods for studying the dynamics of quantum information in ideal and noisy quantum circuits -- for which classical description of individual circuits is expected to be generically intractable. Here, we r",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns entanglement dynamics in random quantum circuits via statistical mechanics, with no mention of Boolean functions, Galois representations, or circuit complexity measures relevant to the conjecture's bound deg(G_f) = O(Ent(f)).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0711.0795",
+      "title": "Finite-Dimensional Representations of Hyper Loop Algebras Over Non-Algebraically Closed Fields",
+      "abstract_excerpt": "We study finite-dimensional representations of hyper loop algebras over non-algebraically closed fields. The main results concern the classification of the irreducible representations, the construction of the Weyl modules, base change, tensor products of irreducible and Weyl modules, and the block decomposition of the underlying abelian category. Several results are interestingly related to the study of irreducible representations of polynomial algebras and Galois theory.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns finite-dimensional representations of hyper loop algebras and their connection to polynomial algebras and Galois theory, with no mention of boolean functions, circuit entanglement, or complexity bounds relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1101.2456",
+      "title": "Polynomial representations and categorifications of Fock Space",
+      "abstract_excerpt": "The rings of symmetric polynomials form an inverse system whose limit, the ring of symmetric functions, is the model for the bosonic Fock space representation of the affine Lie algebra. We categorify this construction by considering an inverse limit of categories of polynomial representation of general linear groups. We show that this limit naturally carries an action of the affine Lie algebra (in the sense of Rouquier), thereby obtaining a famiy of categorifications of the bosonic Fock space re",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns categorification of bosonic Fock space via polynomial representations of general linear groups and affine Lie algebra actions, with no mention of Galois representations, Boolean functions, circuit complexity, or entanglement measures relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

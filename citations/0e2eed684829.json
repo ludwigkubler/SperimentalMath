@@ -1,0 +1,40 @@
+{
+  "entry_id": "0e2eed684829",
+  "ts": 1780850912.0687501,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1506.01945",
+      "title": "On the error term in a Parseval type formula in the theory of Ramanujan expansions",
+      "abstract_excerpt": "Given two arithmetical functions $f,g$ we derive, under suitable conditions, asymptotic formulas with error term, for the convolution sums $\\sum_{n \\le N} f(n) g(n+h)$, building on an earlier work of Gadiyar, Murty and Padma. A key role in our method is played by the theory of Ramanujan expansions for arithmetical functions.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns asymptotic formulas for convolution sums of arithmetical functions via Ramanujan expansions, which has no interaction with resolution proof width of Tseitin formulas or geometric entropy of graphs.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1203.4027",
+      "title": "Invariant measures and the soliton resolution conjecture",
+      "abstract_excerpt": "The soliton resolution conjecture for the focusing nonlinear Schrodinger equation (NLS) is the vaguely worded claim that a global solution of the NLS, for generic initial data, will eventually resolve into a radiation component that disperses like a linear solution, plus a localized component that behaves like a soliton or multi-soliton solution. Considered to be one of the fundamental open problems in the area of nonlinear dispersive equations, this conjecture has eluded a proof or even a preci",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the soliton resolution conjecture for the nonlinear Schrödinger equation and invariant measures on function spaces, sharing only the word 'resolution' with the conjecture; it says nothing about Tseitin formulas, proof width, or graph entropy.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1809.04266",
+      "title": "A Singular Integral Measure for $C^{1,1}$ and $C^1$ Boundaries",
+      "abstract_excerpt": "The art of analysis involves the subtle combination of approximation, inequalities, and geometric intuition as well as being able to work at different scales. With this subtlety in mind, we present this paper in a manner designed for wide accessibility for both advanced undergraduate students and graduate students. The main results include a singular integral for measuring the level sets of a $C^{1,1}$ function mapping from $\\mathbb{R}^n$ to $\\mathbb{R}$, that is, one whose derivative is Lipschi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'a singular integral for measuring the level sets of a $C^{1,1}$ function' and embedded submanifolds in $\\mathbb{R}^2$, with no mention of resolution proof complexity, Tseitin formulas, or graph entropy. It shares no substantive content with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

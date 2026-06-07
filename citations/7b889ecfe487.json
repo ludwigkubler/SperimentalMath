@@ -1,0 +1,40 @@
+{
+  "entry_id": "7b889ecfe487",
+  "ts": 1780854286.6333058,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2406.18700",
+      "title": "Structure of sparse Boolean functions over Abelian groups, and its application to testing",
+      "abstract_excerpt": "We study Fourier-sparse Boolean functions over general finite Abelian groups. A Boolean function $f : G \\to \\{-1,+1\\}$ is $s$-sparse if it has at most $s$ non-zero Fourier coefficients. We introduce a general notion of granularity of Fourier coefficients and prove that every non-zero coefficient of an $s$-sparse Boolean function has magnitude at least \\begin{equation*} \\frac{1}{2^{\\varphi(Δ)/2} \\, s^{\\varphi(Δ)/2}}, \\end{equation*} where $Δ$ denotes the exponent of the group $G$ (that is, the ma",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Fourier-sparsity of Boolean functions over Abelian groups and a sparsity-testing algorithm, not the dimension of irreducible representations as a measure of circuit complexity. It shares the 'group theory + Boolean functions' framing but does not address the dim(Irr(f)) = Θ(s(f)^2) claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1911.04516",
+      "title": "Boolean lattices in finite alternating and symmetric groups",
+      "abstract_excerpt": "Given a group $G$ and a subgroup $H$, we let $\\mathcal{O}_G(H)$ denote the lattice of subgroups of $G$ containing $H$. This paper provides a classification of the subgroups $H$ of $G$ such that $\\mathcal{O}_{G}(H)$ is Boolean of rank at least $3$, when $G$ is a finite alternating or symmetric group. Besides some sporadic examples and some twisted versions, there are two different types of such lattices. One type arises by taking stabilizers of chains of regular partitions, and the other type ari",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'lattice of subgroups' that are 'Boolean of rank at least 3' in alternating/symmetric groups — a purely group-theoretic structural classification. It shares the word 'Boolean' but has no connection to boolean functions, circuit size, or irreducible representation dimensions.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1303.1290",
+      "title": "Symmetry groups of Boolean Functions",
+      "abstract_excerpt": "We prove that every abelian permutation group, but known exceptions, is the symmetry group of a boolean function. This solves the problem posed in the book by Clote and Kranakis. In fact, our result is proved for a larger class of groups, namely, for all groups contained in direct sums of regular groups.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses which abelian permutation groups arise as symmetry groups of boolean functions, citing 'every abelian permutation group, but known exceptions, is the symmetry group of a boolean function.' It does not discuss irreducible representation dimensions or circuit size, so it does not interact with the specific Θ(s(f)^2) claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
