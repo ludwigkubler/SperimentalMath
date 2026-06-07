@@ -1,0 +1,40 @@
+{
+  "entry_id": "27d3e7bb049d",
+  "ts": 1780838248.1961753,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1608.04025",
+      "title": "Quasi-matroidal classes of ordered simplicial complexes",
+      "abstract_excerpt": "We introduce the notion of a quasi-matroidal class of ordered simplicial complexes: an approximation to the idea of a matroid cryptomorphism in the landscape of ordered simplicial complexes. A quasi-matroidal class contains pure shifted simplicial complexes and ordered matroid independence complexes. The essential property is that if a fixed simplicial complex belongs to this class for every ordering of its vertex set, then it is a matroid independence complex. Some examples of such classes appe",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses quasi-matroidal classes of ordered simplicial complexes and Stanley's conjecture on h-vectors of matroids, with no mention of Hodge theory, Boolean formulas, communication complexity, or rank variance of communication matrices. It shares only the general matroid vocabulary but does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1801.10489",
+      "title": "Hodge level for weighted complete intersections",
+      "abstract_excerpt": "We give lower bounds for Hodge numbers of smooth well formed Fano weighted complete intersections. In particular, we compute their Hodge level, that is, the maximal distance between non-trivial Hodge numbers in the same row of the Hodge diamond. This allows us to classify varieties whose Hodge numbers are like that of a projective space, of a curve, or of a Calabi--Yau variety of low dimension.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Hodge numbers and Hodge level of weighted complete intersections in algebraic geometry, with no mention of Boolean formulas, matroids, or communication complexity rank variance. It shares only the 'Hodge' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2102.03481",
+      "title": "Noncommutative Hodge conjecture",
+      "abstract_excerpt": "The paper provides a version of the rational Hodge conjecture for $\\3\\dg$ categories. The noncommutative Hodge conjecture is equivalent to the version proposed in \\cite{perry2020integral} for admissible subcategories. We obtain examples of evidence of the Hodge conjecture by techniques of noncommutative geometry. Finally, we show that the noncommutative Hodge conjecture for smooth proper connective $\\3\\dg$ algebras is true.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses a noncommutative version of the rational Hodge conjecture for dg categories, with no mention of matroids, Boolean formulas, communication complexity, or matrix rank variance. It shares only the 'Hodge' vocabulary without engaging the specific cross-field claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

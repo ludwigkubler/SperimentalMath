@@ -1,0 +1,40 @@
+{
+  "entry_id": "2affb08050a2",
+  "ts": 1780839983.222984,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2501.14363",
+      "title": "Incremental SAT-Based Enumeration of Solutions to the Yang-Baxter Equation",
+      "abstract_excerpt": "We tackle the problem of enumerating set-theoretic solutions to the Yang-Baxter equation. This equation originates from statistical and quantum mechanics, but also has applications in knot theory, cryptography, quantum computation and group theory. Non-degenerate, involutive solutions have been enumerated for sets up to size 10 using constraint programming with partial static symmetry breaking; for general non-involutive solutions, a similar approach was used to enumerate solutions for sets up t",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a SAT-based framework with symmetry breaking for enumerating Yang-Baxter equation solutions, sharing vocabulary (SAT, symmetry) but making no claim about bounds on the minimum number of generators of symmetry groups in terms of m and n.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2107.12908",
+      "title": "Digital Collections of Examples in Mathematical Sciences",
+      "abstract_excerpt": "Some aspects of Computer Algebra (notably Computation Group Theory and Computational Number Theory) have some good databases of examples, typically of the form \"all the X up to size n\". But most of the others, especially on the polynomial side, are lacking such, despite the utility they have demonstrated in the related fields of SAT and SMT solving. We claim that the field would be enhanced by such community-maintained databases, rather than each author hand-selecting a few, which are often too ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the need for community-maintained databases of examples in computer algebra and SAT/SMT solving ('the field would be enhanced by such community-maintained databases'), and does not make any claim about generator counts of symmetry groups or bounds related to clauses and variables.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1401.7092",
+      "title": "On systems of equations in free abelian groups",
+      "abstract_excerpt": "In this paper we study the asymptotic probability that a random system of equations in free abelian group $\\mathbb{Z}^m$ of rank $m$ is solvable. Denote $SAT(\\mathbb{Z}^m, k, n)$ and $SAT_{\\mathbb{Q}^m}(\\mathbb{Z}^m, k, n)$ the sets of all systems of $n$ equations in $k$ variables in the group $\\mathbb{Z}^m$ solvable in $\\mathbb{Z}^m$ and $\\mathbb{Q}^m$ respectively. We show that asymptotic density of the set $SAT_{\\mathbb{Q}^m}(\\mathbb{Z}^m, k, n)$ is equal to $1$ for $n \\leq k$, and is equal t",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses asymptotic probability of solvability of systems of equations in free abelian groups Z^m, not symmetry groups of Boolean satisfiability assignments or generator counts bounded by Θ(m^(1/3) n^(2/3)). The shared 'SAT' notation is incidental and refers to solvable systems, not Boolean SAT clauses.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

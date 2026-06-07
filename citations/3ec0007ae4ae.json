@@ -1,0 +1,40 @@
+{
+  "entry_id": "3ec0007ae4ae",
+  "ts": 1780837666.338518,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:cs/0403008",
+      "title": "Polynomial-time computing over quadratic maps I: sampling in real algebraic sets",
+      "abstract_excerpt": "Given a quadratic map Q : K^n -&gt; K^k defined over a computable subring D of a real closed field K, and a polynomial p(Y_1,...,Y_k) of degree d, we consider the zero set Z=Z(p(Q(X)),K^n) of the polynomial p(Q(X_1,...,X_n)). We present a procedure that computes, in (dn)^O(k) arithmetic operations in D, a set S of (real univariate representations of) sampling points in K^n that intersects nontrivially each connected component of Z. As soon as k=o(n), this is faster than the standard methods that",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns polynomial-time sampling in real algebraic sets defined by quadratic maps, with no mention of barycentric coordinates, Boolean circuits, or entanglement complexity. It shares no specific claim with the conjecture about |BC(C)| = Θ(EC(C)).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1712.04281",
+      "title": "Computational Complexity of the Interleaving Distance",
+      "abstract_excerpt": "The interleaving distance is arguably the most prominent distance measure in topological data analysis. In this paper, we provide bounds on the computational complexity of determining the interleaving distance in several settings. We show that the interleaving distance is NP-hard to compute for persistence modules valued in the category of vector spaces. In the specific setting of multidimensional persistent homology we show that the problem is at least as hard as a matrix invertibility problem.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the computational complexity of the interleaving distance in topological data analysis (persistence modules, Reeb graphs), with no mention of barycentric coordinates, Boolean circuits, or entanglement complexity. It neither supports nor refutes the conjectured linear relationship |BC(C)| = Θ(EC(C)).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2111.12700",
+      "title": "Universality in long-distance geometry and quantum complexity",
+      "abstract_excerpt": "In physics, two systems that radically differ at short scales can exhibit strikingly similar macroscopic behaviour: they are part of the same long-distance universality class. Here we apply this viewpoint to geometry and initiate a program of classifying homogeneous metrics on group manifolds by their long-distance properties. We show that many metrics on low-dimensional Lie groups have markedly different short-distance properties but nearly identical distance functions at long distances, and pr",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns long-distance universality of Riemannian metrics on Lie groups applied to quantum complexity geometry, not barycentric coordinate representations of Boolean circuits or any 'entanglement complexity' measure of classical circuits. The shared word 'complexity' does not engage the specific |BC(C)| = Θ(EC(C)) claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

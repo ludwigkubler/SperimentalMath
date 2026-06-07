@@ -1,0 +1,40 @@
+{
+  "entry_id": "b1bab1bcd5a7",
+  "ts": 1780839763.0722976,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2407.04826",
+      "title": "Multi-strategy Based Quantum Cost Reduction of Quantum Boolean Circuits",
+      "abstract_excerpt": "The construction of quantum computers is based on the synthesis of low-cost quantum circuits. The quantum circuit of any Boolean function expressed in a Positive Polarity Reed-Muller $PPRM$ expansion can be synthesized using Multiple-Control Toffoli ($MCT$) gates. This paper proposes two algorithms to construct a quantum circuit for any Boolean function expressed in a Positive Polarity Reed-Muller $PPRM$ expansion. The Boolean function can be expressed with various algebraic forms, so there are ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns synthesizing low-cost quantum circuits from Positive Polarity Reed-Muller expansions using MCT/NCV gate decompositions, with no mention of Reeds-Shepp flows, minimal index, or entanglement complexity correlations. It shares only superficial vocabulary (Boolean circuits) without addressing the specific geometric-flow/complexity correspondence claimed.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2504.05921",
+      "title": "Accelerated Reeds-Shepp and Under-Specified Reeds-Shepp Algorithms for Mobile Robot Path Planning",
+      "abstract_excerpt": "In this study, we present a simple and intuitive method for accelerating optimal Reeds-Shepp path computation. Our approach uses geometrical reasoning to analyze the behavior of optimal paths, resulting in a new partitioning of the state space and a further reduction in the minimal set of viable paths. We revisit and reimplement classic methodologies from the literature, which lack contemporary open-source implementations, to serve as benchmarks for evaluating our method. Additionally, we addres",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract is about accelerating Reeds-Shepp path computation for mobile robot path planning via geometric partitioning of state space, with no mention of boolean circuits, circuit complexity, entanglement, or minimal index of a flow. It shares only the 'Reeds-Shepp' vocabulary without addressing the conjecture's claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1912.07482",
+      "title": "Left-right crossings in the Miller-Abrahams random resistor network and in generalized Boolean models",
+      "abstract_excerpt": "We consider random graphs $\\mathcal{G}$ built on a homogeneous Poisson point process on $\\mathbb{R}^d$, $d\\geq 2$, with points $x$ marked by i.i.d. random variables $E_x$. Fixed a symmetric function $h(\\cdot, \\cdot)$, the vertexes of $\\mathcal{G}$ are given by points of the Poisson point process, while the edges are given by pairs $\\{x,y\\}$ with $x\\not =y$ and $|x-y|\\leq h(E_x,E_y)$. We call $\\mathcal{G}$ Poisson $h$-generalized Boolean model, as one recovers the standard Poisson Boolean model b",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns left-right crossings in random graphs built on Poisson point processes and generalized Boolean models in percolation theory, which shares the word 'Boolean' but has no connection to boolean circuits, Reeds-Shepp flows, or circuit entanglement complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

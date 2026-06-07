@@ -1,7 +1,7 @@
 {
   "node_id": "TARGET_PHI_LOWER_BOUND",
   "instance_class": "tseitin",
-  "ts": 1780791781.2326205,
+  "ts": 1780834981.8883066,
   "result": {
     "instance_class": "tseitin",
     "n_range": [
@@ -22,7 +22,7 @@
         "n": 8,
         "seed": 0,
         "sat": false,
-        "runtime_s": 0.0015,
+        "runtime_s": 0.0016,
         "conflicts": 27,
         "decisions": 25,
         "propagations": 236,
@@ -35,7 +35,7 @@
         "n": 8,
         "seed": 1,
         "sat": false,
-        "runtime_s": 0.0015,
+        "runtime_s": 0.0016,
         "conflicts": 35,
         "decisions": 25,
         "propagations": 268,
@@ -126,7 +126,7 @@
         "n": 16,
         "seed": 0,
         "sat": false,
-        "runtime_s": 0.0019,
+        "runtime_s": 0.002,
         "conflicts": 222,
         "decisions": 174,
         "propagations": 1382,
@@ -139,7 +139,7 @@
         "n": 16,
         "seed": 1,
         "sat": false,
-        "runtime_s": 0.002,
+        "runtime_s": 0.0019,
         "conflicts": 215,
         "decisions": 148,
         "propagations": 1371,
@@ -165,7 +165,7 @@
         "n": 18,
         "seed": 1,
         "sat": false,
-        "runtime_s": 0.002,
+        "runtime_s": 0.0018,
         "conflicts": 210,
         "decisions": 166,
         "propagations": 1226,
@@ -178,7 +178,7 @@
         "n": 20,
         "seed": 0,
         "sat": false,
-        "runtime_s": 0.0023,
+        "runtime_s": 0.0022,
         "conflicts": 344,
         "decisions": 333,
         "propagations": 2502,
@@ -204,7 +204,7 @@
         "n": 22,
         "seed": 0,
         "sat": false,
-        "runtime_s": 0.0022,
+        "runtime_s": 0.0021,
         "conflicts": 365,
         "decisions": 255,
         "propagations": 1877,
@@ -217,7 +217,7 @@
         "n": 22,
         "seed": 1,
         "sat": false,
-        "runtime_s": 0.0021,
+        "runtime_s": 0.002,
         "conflicts": 301,
         "decisions": 265,
         "propagations": 1715,
@@ -255,7 +255,7 @@
     ],
     "summary": {
       "n=8": {
-        "median_runtime_s": 0.0015,
+        "median_runtime_s": 0.0016,
         "median_conflicts": 31,
         "n_timeout": 0,
         "n_total": 2
@@ -279,37 +279,37 @@
         "n_total": 2
       },
       "n=16": {
-        "median_runtime_s": 0.0019,
+        "median_runtime_s": 0.002,
         "median_conflicts": 218,
         "n_timeout": 0,
         "n_total": 2
       },
       "n=18": {
-        "median_runtime_s": 0.0021,
+        "median_runtime_s": 0.002,
         "median_conflicts": 283,
         "n_timeout": 0,
         "n_total": 2
       },
       "n=20": {
-        "median_runtime_s": 0.0021,
+        "median_runtime_s": 0.002,
         "median_conflicts": 236,
         "n_timeout": 0,
         "n_total": 2
       },
       "n=22": {
-        "median_runtime_s": 0.0022,
+        "median_runtime_s": 0.0021,
         "median_conflicts": 333,
         "n_timeout": 0,
         "n_total": 2
       },
       "n=24": {
-        "median_runtime_s": 0.0034,
+        "median_runtime_s": 0.0033,
         "median_conflicts": 1063,
         "n_timeout": 0,
         "n_total": 2
       },
       "fit": {
-        "runtime_loglog_slope": 0.5493844933602882,
+        "runtime_loglog_slope": 0.504625255560849,
         "conflicts_loglog_slope": 2.8276112281628936
       }
     }

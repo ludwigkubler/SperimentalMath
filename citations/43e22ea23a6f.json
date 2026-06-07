@@ -1,0 +1,40 @@
+{
+  "entry_id": "43e22ea23a6f",
+  "ts": 1780836575.9286358,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1911.03412",
+      "title": "On loop Deligne--Lusztig varieties of Coxeter-type for inner forms of ${\\rm GL}_n$",
+      "abstract_excerpt": "For a reductive group $G$ over a local non-archimedean field $K$ one can mimic the construction from the classical Deligne--Lusztig theory by using the loop space functor. We study this construction in special the case that $G$ is an inner form of ${\\rm GL}_n$ and the loop Deligne--Lusztig variety is of Coxeter type. After simplifying the proof of its representability, our main result is that its $\\ell$-adic cohomology realizes many irreducible supercuspidal representations of $G$, notably almos",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns loop Deligne-Lusztig varieties for inner forms of GL_n and their role in realizing supercuspidal representations via ℓ-adic cohomology, with no mention of CNF formulas, resolution proof width, tree depth, or any connection to Boolean satisfiability.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0807.2786",
+      "title": "On the connectedness of Deligne-Lusztig varieties",
+      "abstract_excerpt": "We give a criterion which determines when a union of one-dimensional Deligne-Lusztig varieties has a connected closure. We also obtain a new, short proof of the connectedness criterion for Deligne-Lusztig varieties due to Lusztig.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses connectedness criteria for Deligne-Lusztig varieties ('a criterion which determines when a union of one-dimensional Deligne-Lusztig varieties has a connected closure'), which shares vocabulary with the conjecture but does not interact with tree depth, CNF formulas, or resolution proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2406.06430",
+      "title": "Decomposition of higher Deligne-Lusztig representations",
+      "abstract_excerpt": "Higher Deligne-Lusztig representations are virtual smooth representations of parahoric subgroups in a $p$-adic group. They are natural analogs of classical Deligne-Lusztig representations of reductive groups over finite fields. The most interesting higher Deligne-Lusztig representations are those attached to elliptic maximal tori, whose compact inductions are expected to realize supercuspidal representations of $p$-adic groups. Under a mild condition on $p$, in this paper we establish an explici",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns decomposition of higher Deligne-Lusztig representations of p-adic groups into irreducible summands à la Yu's construction, with no mention of CNF formulas, resolution proof width, tree depth, or any connection to Boolean satisfiability.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

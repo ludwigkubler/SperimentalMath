@@ -1,0 +1,40 @@
+{
+  "entry_id": "d08b98fde951",
+  "ts": 1780839419.3653147,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2001.04131",
+      "title": "Observation of a resonant structure in $e^{+}e^{-} \\to K^{+}K^{-}π^{0}π^{0}$",
+      "abstract_excerpt": "Using $e^{+}e^{-}$ collision data samples with center-of-mass energies ranging from 2.000 to 2.644 GeV, collected by the BESIII detector at the BEPCII collider, and with a total integrated luminosity of 300 pb^{-1}, a partial-wave analysis is performed for the process $e^{+}e^{-} \\to K^{+}K^{-}π^{0}π^{0}$. The total Born cross sections for the process $e^{+}e^{-} \\to K^{+}K^{-}π^{0}π^{0}$, as well as the Born cross sections f or the subprocesses $e^{+}e^{-} \\to φπ^{0}π^{0}$, $K^{+}(1460)K^{-}$, ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a particle physics experiment at BESIII observing a resonant structure in e+e- collisions, with no connection to Boolean functions, descriptive set theory, or communication complexity. As stated: 'a partial-wave analysis is performed for the process e+e- → K+K-π0π0'.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:cs/0604022",
+      "title": "Locked and Unlocked Chains of Planar Shapes",
+      "abstract_excerpt": "We extend linkage unfolding results from the well-studied case of polygonal linkages to the more general case of linkages of polygons. More precisely, we consider chains of nonoverlapping rigid planar shapes (Jordan regions) that are hinged together sequentially at rotatable joints. Our goal is to characterize the families of planar shapes that admit locked chains, where some configurations cannot be reached by continuous reconfiguration without self-intersection, and which families of planar sh",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns linkage unfolding of planar shape chains and locked/universal foldability, with no mention of Boolean functions, induction dimension, or communication complexity rank. It shares no substantive content with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1007.4650",
+      "title": "Orbital Selective Pressure-Driven Metal-Insulator Transition in FeO from Dynamical Mean-Field Theory",
+      "abstract_excerpt": "In this Letter we report the first LDA+DMFT (method combining Local Density Approximation with Dynamical Mean-Field Theory) results of magnetic and spectral properties calculation for paramagnetic phases of FeO at ambient and high pressures (HP). At ambient pressure (AP) calculation gave FeO as a Mott insulator with Fe 3$d$-shell in high-spin state. Calculated spectral functions are in a good agreement with experimental PES and IPES data. Experimentally observed metal-insulator transition at hig",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns LDA+DMFT calculations of metal-insulator transitions in FeO, a condensed matter physics topic with no connection to Boolean functions, induction dimension, or communication complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
