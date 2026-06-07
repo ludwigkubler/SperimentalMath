@@ -1,0 +1,31 @@
+{
+  "entry_id": "af50c556b5f0",
+  "ts": 1780867680.9320452,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.1109/ACCESS.2023.3301571",
+      "title": "3-D Beamforming Training Using Mutually Unbiased Bases for Cell Discovery in mm-Wave Systems",
+      "abstract_excerpt": "Beamforming training or cell discovery (CD) is a fundamental procedure in millimeter wave communication systems in which the user detects the presence of a base station, acquires the identity of that base station, and finds suitable beamforming directions to establish the wireless link for the subsequent data transmission phase. We consider uniform planar array-based beamforming under both separable and non-separable configurations as it allows confined antenna placements and 3-D steering of bea",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns mm-wave beamforming training and cell discovery using mutually unbiased bases and compressive sensing, with no mention of Hodge theory, matroids, or communication complexity rank. Despite the word 'communication,' it addresses wireless signal processing, not the conjecture's claim about hdim(G) = Θ(ccr(G)).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:d0d995160a399bb372267bc86b388a9b87d40696",
+      "title": "THE RANKS OF m x n x ( mn2 ) TENSORS *",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available to assess; the title concerns ranks of specific tensor shapes, which has no clear connection to the conjecture's claim relating Hodge-theoretic dimension of matroids to communication complexity rank, but without abstract content I cannot make a definitive determination.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "88c3870b1bd8",
+  "ts": 1780865762.1416125,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1606.05050",
+      "title": "Proof Complexity Lower Bounds from Algebraic Circuit Complexity",
+      "abstract_excerpt": "We give upper and lower bounds on the power of subsystems of the Ideal Proof System (IPS), the algebraic proof system recently proposed by Grochow and Pitassi, where the circuits comprising the proof come from various restricted algebraic circuit classes. This mimics an established research direction in the boolean setting for subsystems of Extended Frege proofs, where proof-lines are circuits from restricted boolean circuit classes. Except one, all of the subsystems considered in this paper can",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses algebraic proof systems (IPS subsystems) and lower bounds via algebraic circuit complexity, with no mention of hypergeometric sums, resolution proof width, or Tseitin formulas relevant to the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1904.03812",
+      "title": "A new approach to hypergeometric transformation formulas",
+      "abstract_excerpt": "We give a new method to prove in a uniform and easy way various transformation formulas for Gauss hypergeometric functions. The key is Jacobi's canonical form of the hypergeometric differential equation. Analogy for $q$-hypergeometric functions is also studied.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'transformation formulas for Gauss hypergeometric functions' via Jacobi's canonical form of the hypergeometric differential equation, which shares only the term 'hypergeometric' with the conjecture and does not address CNF clause indicators or resolution proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0603646v2",
+      "title": "Uniform convergence of hypergeometric series",
+      "abstract_excerpt": "The considered problem is uniform convergence of sequences of hypergeometric series. We give necessary and sufficient conditions for uniformly dominated convergence of infinite sums of proper bivariate hypergeometric terms. These conditions can be checked algorithmically. Hence the results can be ap",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses 'uniform convergence of sequences of hypergeometric series' and conditions for 'uniformly dominated convergence of infinite sums of proper bivariate hypergeometric terms,' with no mention of CNF instances, resolution proof width, or Tseitin formulas. It shares only the term 'hypergeometric' with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "2f35b4372a33",
+  "ts": 1780866536.5404546,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1102.2932",
+      "title": "Applications of Monotone Rank to Complexity Theory",
+      "abstract_excerpt": "Raz's recent result \\cite{Raz2010} has rekindled people's interest in the study of \\emph{tensor rank}, the generalization of matrix rank to high dimensions, by showing its connections to arithmetic formulas. In this paper, we follow Raz's work and show that \\emph{monotone rank}, the monotone variant of tensor rank and matrix rank, has applications in algebraic complexity, quantum computing and communication complexity. This paper differs from Raz's paper in that it leverages existing results to ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses monotone/tensor rank applications to algebraic complexity, quantum correlations, and a multiparty log-rank conjecture, but makes no claim about Hodge diamonds or algebraic varieties of Boolean functions. It shares the 'communication complexity rank' vocabulary but does not interact with the conjecture's specific Hodge-diameter bound.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2211.07055",
+      "title": "Geometric complexity theory for product-plus-power",
+      "abstract_excerpt": "According to Kumar's recent surprising result (ToCT'20), a small border Waring rank implies that the polynomial can be approximated as a sum of a constant and a small product of linear polynomials. We prove the converse of Kumar's result and establish a tight connection between border Waring rank and the model of computation in Kumar's result. In this way, we obtain a new formulation of border Waring rank, up to a factor of the degree. We connect this new formulation to the orbit closure problem",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses border Waring rank, orbit closures, and geometric complexity theory obstructions for product-plus-power polynomials — it does not mention Hodge diamonds, Boolean function varieties, or communication complexity rank, so it neither supports nor refutes the specific claim d(X_f) = O(r(f)).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2401.14623",
+      "title": "Structure in Communication Complexity and Constant-Cost Complexity Classes",
+      "abstract_excerpt": "Several theorems and conjectures in communication complexity state or speculate that the complexity of a matrix in a given communication model is controlled by a related analytic or algebraic matrix parameter, e.g., rank, sign-rank, discrepancy, etc. The forward direction is typically easy as the structural implications of small complexity often imply a bound on some matrix parameter. The challenge lies in establishing the reverse direction, which requires understanding the structure of Boolean ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses matrix parameters like rank, sign-rank, and discrepancy in communication complexity, but makes no mention of Hodge theory, algebraic varieties, or Hodge diamond diameters—it shares the 'communication complexity rank' vocabulary but does not interact with the specific algebraic-geometric claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
