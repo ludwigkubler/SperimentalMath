@@ -1,0 +1,40 @@
+{
+  "entry_id": "c11fc32ae00a",
+  "ts": 1780794392.1683786,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2305.08251",
+      "title": "The modular representation theory of monoids",
+      "abstract_excerpt": "This paper develops the fundamentals of modular representation theory for finite monoids, introducing the decomposition matrix and exploring its connection to Brauer characters. We define modular characteristic and explain how the representation theory in nonmodular positive characteristic behaves like the characteristic zero theory by showing that one can lift from nonmodular characteristic $p$ all simple and projective indecomposable modules, as well as a quiver presentation of the basic algeb",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract develops modular representation theory for finite monoids (decomposition matrices, Brauer characters, Cartan matrix nonsingularity) and says nothing about Boolean satisfiability, incidence matrices, or resolution proof width. It shares the 'modular representation' vocabulary but does not interact with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1510.02682",
+      "title": "Classical and Quantum Algorithms for the Boolean Satisfiability Problem",
+      "abstract_excerpt": "This paper presents a complete algorithmic study of the decision Boolean Satisfiability Problem under the classical computation and quantum computation theories. The paper depicts deterministic and probabilistic algorithms, propositions of their properties and the main result is that the problem has not an efficient algorithm (NP is not P). Novel quantum algorithms and propositions depict that the complexity by quantum computation approach for solving the Boolean Satisfiability Problem or any NP",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses classical and quantum algorithms for SAT decidability and complexity claims (P vs NP, linear-time quantum), with no mention of modular representations, conjugacy classes, incidence matrices, or resolution proof width. It shares the SAT vocabulary but does not interact with the specific conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1602.06867",
+      "title": "Lower bound for the Complexity of the Boolean Satisfiability Problem",
+      "abstract_excerpt": "This paper depicts algorithms for solving the decision Boolean Satisfiability Problem. An extreme problem is formulated to analyze the complexity of algorithms and the complexity for solving it. A novel and easy reformulation as a lottery for an extreme case is presented to determine a stable complexity around $2^n$. The reformulation point out that the decision Boolean Satisfiability Problem can only be solved in exponential time. This implies there is not an efficient algorithm for the NP Clas",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses the time complexity of deciding SAT (claiming a 2^n lower bound) and does not discuss resolution proof width, modular representations, or conjugacy classes of incidence matrices. It shares only the SAT framework with the conjecture but does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

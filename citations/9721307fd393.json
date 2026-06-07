@@ -1,0 +1,40 @@
+{
+  "entry_id": "9721307fd393",
+  "ts": 1780793667.6984184,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1806.02943",
+      "title": "Boolean product polynomials and Schur-positivity",
+      "abstract_excerpt": "We study a family of symmetric polynomials that we refer to as the Boolean product polynomials. The motivation for studying these polynomials stems from the computation of the characteristic polynomial of the real matroid spanned by the nonzero vectors in $\\mathbb{R}^n$ all of whose coordinates are either $0$ or $1$. To this end, one approach is to compute the zeros of the Boolean product polynomials over finite fields. The zero loci of these polynomials cut out hyperplane arrangements known as ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Schur-positivity of Boolean product polynomials and their zero loci as hyperplane arrangements, with no mention of local cohomology groups, communication matrices, or rank variance. It shares only superficial vocabulary ('Boolean', 'zero loci over finite fields') with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1111.4405",
+      "title": "Integrability of oscillatory functions on local fields: transfer principles",
+      "abstract_excerpt": "For oscillatory functions on local fields coming from motivic exponential functions, we show that integrability over $Q_p^n$ implies integrability over $F_p ((t))^n$ for large $p$, and vice versa. More generally, the integrability only depends on the isomorphism class of the residue field of the local field, once the characteristic of the residue field is large enough. This principle yields general local integrability results for Harish-Chandra characters in positive characteristic as we show in",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns transfer principles for integrability of motivic oscillatory functions on local fields, relating loci of integrability to zero loci — it shares vocabulary ('zero loci', 'local fields') with the conjecture but says nothing about local cohomology, Boolean functions, communication matrices, or rank variance.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1907.04010",
+      "title": "Zero loci of Bernstein-Sato ideals",
+      "abstract_excerpt": "We prove a conjecture of the first author relating the Bernstein-Sato ideal of a finite collection of multivariate polynomials with cohomology support loci of rank one complex local systems. This generalizes a classical theorem of Malgrange and Kashiwara relating the b-function of a multivariate polynomial with the monodromy eigenvalues on the Milnor fibers cohomology.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Bernstein-Sato ideals and cohomology support loci of rank one complex local systems for multivariate polynomials, with no mention of Boolean functions, finite fields F_q, communication matrices, or rank variance. It shares only the loose vocabulary of 'zero loci' and 'cohomology' but does not interact with the specific claim linking local cohomology to communication complexity rank variance.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
