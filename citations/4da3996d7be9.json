@@ -1,0 +1,40 @@
+{
+  "entry_id": "4da3996d7be9",
+  "ts": 1780861917.2205136,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2506.22687",
+      "title": "Compositional Control-Driven Boolean Circuits",
+      "abstract_excerpt": "Boolean circuits abstract away from physical details to focus on the logical structure and computational behaviour of digital components. Although such circuits have been studied for many decades, compositionality has been widely ignored or examined in an informal manner, which is a property for combining circuits without delving into their internal structure, while supporting modularity and formal reasoning. In this paper, we address this longstanding theoretical gap by proposing colimit-based ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'colimit-based operators for compositional circuit construction' and a control-driven model of computation, with no mention of geometric flows, geodesic energy, entanglement complexity, or Θ(√n) bounds. It shares only the broad 'Boolean circuits' vocabulary and does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2403.13102",
+      "title": "Geometric methods in quantum information and entanglement variational principle",
+      "abstract_excerpt": "Geometrical methods in quantum information are very promising for both providing technical tools and intuition into difficult control or optimization problems. Moreover, they are of fundamental importance in connecting pure geometrical theories, like GR, to quantum mechanics, like in the AdS/CFT correspondence. In this paper, we first make a survey of the most important settings in which geometrical methods have proven useful to quantum information theory. Then, we lay down a general framework f",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a 'general framework for an action principle for quantum resources like entanglement' in a two-qubit quantum information setting, which shares vocabulary (geometry, entanglement, action/energy) but does not address Boolean circuit complexity, n-variable functions, or any Θ(√n) scaling claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2005.11899",
+      "title": "Geometric triangulations and highly twisted links",
+      "abstract_excerpt": "It is conjectured that every cusped hyperbolic 3-manifold admits a geometric triangulation, i.e. it is decomposed into positive volume ideal hyperbolic tetrahedra. Here, we show that sufficiently highly twisted knots admit a geometric triangulation. In addition, by extending work of Gueritaud and Schleimer, we also give quantified versions of this result for infinite families of examples.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns geometric triangulations of cusped hyperbolic 3-manifolds and highly twisted knots, with no mention of Boolean functions, circuit complexity, geodesic flow energy on metric spaces of functions, or Θ(√n) bounds. It shares no substantive interaction with the conjecture's claims.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
