@@ -1,0 +1,40 @@
+{
+  "entry_id": "9f377a5314c3",
+  "ts": 1780850563.7953863,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1612.04764",
+      "title": "Cohomological aspects on complex and symplectic manifolds",
+      "abstract_excerpt": "We discuss how quantitative cohomological informations could provide qualitative properties on complex and symplectic manifolds. In particular we focus on the Bott-Chern and the Aeppli cohomology groups in both cases, since they represent useful tools in studying non Kähler geometry. We give an overview on the comparisons among the dimensions of the cohomology groups that can be defined and we show how we reach the $\\partial\\overline\\partial$-lemma in complex geometry and the Hard-Lefschetz cond",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Bott-Chern and Aeppli cohomology on complex/symplectic manifolds and the Hard-Lefschetz condition, with no mention of tropicalization, symplectic leaves, DPLL, resolution proof width, or any connection to Boolean satisfiability.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1206.1925",
+      "title": "Counting Algebraic Curves with Tropical Geometry",
+      "abstract_excerpt": "Tropical geometry is a piecewise linear \"shadow\" of algebraic geometry. It allows for the computation of several cohomological invariants of an algebraic variety. In particular, its application to enumerative algebraic geometry led to significant progress.\n  In this survey, we give an introduction to tropical geometry techniques for algebraic curve counting problems. We also survey some recent developments, with a particular emphasis on the computation of the degree of the Severi varieties of th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes tropical geometry techniques for algebraic curve counting (Severi varieties, Hurwitz numbers, enumerative geometry), with no mention of symplectic leaves, Boolean satisfiability, or proof complexity. It shares only the 'tropical geometry' vocabulary with the conjecture but does not interact with the specific claim about DPLL proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0403015v1",
+      "title": "Amoebas of algebraic varieties and tropical geometry",
+      "abstract_excerpt": "This survey consists of two parts. Part 1 is devoted to amoebas. These are images of algebraic subvarieties in the complex torus under the logarithmic moment map. The amoebas have essentially piecewise-linear shape if viewed at large. Furthermore, they degenerate to certain piecewise-linear objects ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a survey on amoebas and their piecewise-linear (tropical) shapes in algebraic geometry, with no mention of symplectic leaves, Boolean satisfiability, or DPLL/resolution proof width. It shares only the broad 'tropical geometry' vocabulary without addressing the specific claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
