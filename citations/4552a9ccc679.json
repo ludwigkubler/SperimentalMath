@@ -1,0 +1,40 @@
+{
+  "entry_id": "4552a9ccc679",
+  "ts": 1780925980.340238,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1801.10489",
+      "title": "Hodge level for weighted complete intersections",
+      "abstract_excerpt": "We give lower bounds for Hodge numbers of smooth well formed Fano weighted complete intersections. In particular, we compute their Hodge level, that is, the maximal distance between non-trivial Hodge numbers in the same row of the Hodge diamond. This allows us to classify varieties whose Hodge numbers are like that of a projective space, of a curve, or of a Calabi--Yau variety of low dimension.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses Hodge numbers and Hodge level of weighted complete intersections in algebraic geometry, with no mention of Boolean circuits, CNF formulas, or circuit depth. It shares the 'Hodge' vocabulary but does not interact with the conjecture's claim about circuit complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2102.03481",
+      "title": "Noncommutative Hodge conjecture",
+      "abstract_excerpt": "The paper provides a version of the rational Hodge conjecture for $\\3\\dg$ categories. The noncommutative Hodge conjecture is equivalent to the version proposed in \\cite{perry2020integral} for admissible subcategories. We obtain examples of evidence of the Hodge conjecture by techniques of noncommutative geometry. Finally, we show that the noncommutative Hodge conjecture for smooth proper connective $\\3\\dg$ algebras is true.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses a noncommutative version of the rational Hodge conjecture for dg categories, with no mention of Boolean circuits, CNF formulas, circuit depth, or any computational complexity notion. It shares only the 'Hodge' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2211.11405",
+      "title": "On a Hodge locus",
+      "abstract_excerpt": "There are many instances such that deformation space of the homology class of an algebraic cycle as a Hodge cycle is larger than its deformation space as algebraic cycle. This phenomena can occur for algebraic cycles inside hypersurfaces, however, we are only able to gather evidences for it by computer experiments. In this article we describe one example of this for cubic hypersurfaces. The verification of the mentioned phenomena in this case is proposed as the first GADEPs problem. The main goa",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses deformation spaces of Hodge cycles in cubic hypersurfaces and the Hodge conjecture, with no mention of CNF formulas, Boolean circuits, circuit depth, or any 'minimal Hodge weight' invariant tied to logical complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

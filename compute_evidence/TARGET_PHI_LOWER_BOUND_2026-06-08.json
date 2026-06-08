@@ -1,7 +1,7 @@
 {
   "node_id": "TARGET_PHI_LOWER_BOUND",
   "instance_class": "tseitin",
-  "ts": 1780878181.874493,
+  "ts": 1780921381.5112484,
   "result": {
     "instance_class": "tseitin",
     "n_range": [
@@ -22,7 +22,7 @@
         "n": 8,
         "seed": 0,
         "sat": false,
-        "runtime_s": 0.0054,
+        "runtime_s": 0.0018,
         "conflicts": 27,
         "decisions": 25,
         "propagations": 236,
@@ -35,7 +35,7 @@
         "n": 8,
         "seed": 1,
         "sat": false,
-        "runtime_s": 0.0055,
+        "runtime_s": 0.0017,
         "conflicts": 35,
         "decisions": 25,
         "propagations": 268,
@@ -48,7 +48,7 @@
         "n": 10,
         "seed": 0,
         "sat": false,
-        "runtime_s": 0.0054,
+        "runtime_s": 0.0017,
         "conflicts": 43,
         "decisions": 35,
         "propagations": 335,
@@ -61,7 +61,7 @@
         "n": 10,
         "seed": 1,
         "sat": false,
-        "runtime_s": 0.0017,
+        "runtime_s": 0.0018,
         "conflicts": 43,
         "decisions": 37,
         "propagations": 375,
@@ -87,7 +87,7 @@
         "n": 12,
         "seed": 1,
         "sat": false,
-        "runtime_s": 0.0017,
+        "runtime_s": 0.0018,
         "conflicts": 99,
         "decisions": 75,
         "propagations": 645,
@@ -113,7 +113,7 @@
         "n": 14,
         "seed": 1,
         "sat": false,
-        "runtime_s": 0.0017,
+        "runtime_s": 0.0018,
         "conflicts": 72,
         "decisions": 64,
         "propagations": 688,
@@ -126,7 +126,7 @@
         "n": 16,
         "seed": 0,
         "sat": false,
-        "runtime_s": 0.0019,
+        "runtime_s": 0.002,
         "conflicts": 222,
         "decisions": 174,
         "propagations": 1382,
@@ -139,7 +139,7 @@
         "n": 16,
         "seed": 1,
         "sat": false,
-        "runtime_s": 0.0021,
+        "runtime_s": 0.0019,
         "conflicts": 215,
         "decisions": 148,
         "propagations": 1371,
@@ -152,7 +152,7 @@
         "n": 18,
         "seed": 0,
         "sat": false,
-        "runtime_s": 0.0022,
+        "runtime_s": 0.0023,
         "conflicts": 357,
         "decisions": 309,
         "propagations": 2269,
@@ -165,7 +165,7 @@
         "n": 18,
         "seed": 1,
         "sat": false,
-        "runtime_s": 0.002,
+        "runtime_s": 0.0021,
         "conflicts": 210,
         "decisions": 166,
         "propagations": 1226,
@@ -191,7 +191,7 @@
         "n": 20,
         "seed": 1,
         "sat": false,
-        "runtime_s": 0.0018,
+        "runtime_s": 0.0019,
         "conflicts": 128,
         "decisions": 116,
         "propagations": 836,
@@ -204,7 +204,7 @@
         "n": 22,
         "seed": 0,
         "sat": false,
-        "runtime_s": 0.0023,
+        "runtime_s": 0.0022,
         "conflicts": 365,
         "decisions": 255,
         "propagations": 1877,
@@ -217,7 +217,7 @@
         "n": 22,
         "seed": 1,
         "sat": false,
-        "runtime_s": 0.0021,
+        "runtime_s": 0.0024,
         "conflicts": 301,
         "decisions": 265,
         "propagations": 1715,
@@ -230,7 +230,7 @@
         "n": 24,
         "seed": 0,
         "sat": false,
-        "runtime_s": 0.0039,
+        "runtime_s": 0.004,
         "conflicts": 1338,
         "decisions": 881,
         "propagations": 6414,
@@ -255,19 +255,19 @@
     ],
     "summary": {
       "n=8": {
-        "median_runtime_s": 0.0054,
+        "median_runtime_s": 0.0017,
         "median_conflicts": 31,
         "n_timeout": 0,
         "n_total": 2
       },
       "n=10": {
-        "median_runtime_s": 0.0036,
+        "median_runtime_s": 0.0017,
         "median_conflicts": 43,
         "n_timeout": 0,
         "n_total": 2
       },
       "n=12": {
-        "median_runtime_s": 0.0017,
+        "median_runtime_s": 0.0018,
         "median_conflicts": 99,
         "n_timeout": 0,
         "n_total": 2
@@ -285,7 +285,7 @@
         "n_total": 2
       },
       "n=18": {
-        "median_runtime_s": 0.0021,
+        "median_runtime_s": 0.0022,
         "median_conflicts": 283,
         "n_timeout": 0,
         "n_total": 2
@@ -297,7 +297,7 @@
         "n_total": 2
       },
       "n=22": {
-        "median_runtime_s": 0.0022,
+        "median_runtime_s": 0.0023,
         "median_conflicts": 333,
         "n_timeout": 0,
         "n_total": 2
@@ -309,7 +309,7 @@
         "n_total": 2
       },
       "fit": {
-        "runtime_loglog_slope": -0.46870078797789455,
+        "runtime_loglog_slope": 0.48390475919184395,
         "conflicts_loglog_slope": 2.8276112281628936
       }
     }

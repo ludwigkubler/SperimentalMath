@@ -1,0 +1,40 @@
+{
+  "entry_id": "d3e01901cb9f",
+  "ts": 1780925762.8591993,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2112.02974",
+      "title": "Randomness in the choice of neighbours promotes cohesion in mobile animal groups",
+      "abstract_excerpt": "Classic computational models of collective motion suggest that simple local averaging rules can promote many observed group level patterns. Recent studies, however, suggest that rules simpler than local averaging may be at play in real organisms; for example, fish stochastically align towards only one randomly chosen neighbour and yet the schools are highly polarised. Here, we ask -- how do organisms maintain group cohesion? Using a spatially-explicit model, inspired from empirical investigation",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'cohesion' in mobile animal groups via random neighbour interactions and graph-theoretic networks, not quandles, algebraic cohesion indices, or SAT clause complexity. The shared word 'cohesion' is purely terminological coincidence.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/cond-mat/9903006v2",
+      "title": "Cohesion and conductance of disordered metallic point contacts",
+      "abstract_excerpt": "The cohesion and conductance of a point contact in a two-dimensional metallic nanowire are investigated in an independent-electron model with hard-wall boundary conditions. All properties of the nanowire are related to the Green's function of the electronic scattering problem, which is solved exactl",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'cohesion and conductance of a point contact in a two-dimensional metallic nanowire' in condensed matter physics, which shares only the word 'cohesion' with the conjecture and has no bearing on quandles or SAT clause complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2603.27220",
+      "title": "Cohesion-Sensitive Power Indices: Representation Results for Banzhaf and Shapley Values",
+      "abstract_excerpt": "In many applications of cooperative game theory -- from corporate governance and cartel formation to parliamentary voting -- not all winning coalitions are feasible. Ideological distances, institutional constraints, or pre-electoral agreements may render certain coalitions implausible. Classical power indices ignore this and weight all winning coalitions equally. We introduce cohesion structures to quantify coalition feasibility and axiomatically characterize two families of cohesion-sensitive p",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes 'cohesion structures' for cooperative game theory power indices (Banzhaf/Shapley), not quandle algebra or SAT clause complexity; it shares only the word 'cohesion' with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
