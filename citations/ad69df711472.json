@@ -1,0 +1,40 @@
+{
+  "entry_id": "ad69df711472",
+  "ts": 1780957316.6163507,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/astro-ph/0208243v7",
+      "title": "Measurement of the Flux of Ultrahigh Energy Cosmic Rays from Monocular Observations by the High Resolution Fly's Eye Experiment",
+      "abstract_excerpt": "We have measured the cosmic ray spectrum above 10^17.2 eV using the two air fluorescence detectors of the High Resolution Fly's Eye observatory operating in monocular mode. We describe the detector, photo-tube and atmospheric calibrations, as well as the analysis techniques for the two detectors. We",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a cosmic ray flux measurement by the High Resolution Fly's Eye experiment, which has no connection to Galois coverings, algebraic varieties over finite fields, or resolution proof complexity. The word 'resolution' here refers to the detector name, not proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/astro-ph/0407622v3",
+      "title": "A Study of the Composition of Ultra High Energy Cosmic Rays Using the High Resolution Fly's Eye",
+      "abstract_excerpt": "The composition of Ultra High Energy Cosmic Rays (UHECR) is measured with the High Resolution Fly's Eye cosmic ray observatory (HiRes) data using the Xmax technique. Data were collected in stereo between 1999 November and 2001 September. The data are reconstructed with well-determined geometry. Meas",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns measurements of ultra high energy cosmic ray composition using the High Resolution Fly's Eye observatory, which has no connection to Galois coverings, algebraic varieties over finite fields, or resolution proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1511.06778",
+      "title": "The 1st Fermi Lat Supernova Remnant Catalog",
+      "abstract_excerpt": "To uniformly determine the properties of supernova remnants (SNRs) at high energies, we have developed the first systematic survey at energies from 1 to 100 GeV using data from the Fermi Large Area Telescope. Based on the spatial overlap of sources detected at GeV energies with SNRs known from radio surveys, we classify 30 sources as likely GeV SNRs. We also report 14 marginal associations and 245 flux upper limits. A mock catalog in which the positions of known remnants are scrambled in Galacti",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a Fermi LAT catalog of supernova remnants at GeV energies, which has no connection to resolution proof complexity, Galois coverings, or algebraic geometry over finite fields.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

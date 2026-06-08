@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-06-08T21:47:06Z",
-  "total_cycles": 5999,
+  "last_update_utc": "2026-06-08T22:47:06Z",
+  "total_cycles": 6012,
   "verdict_counts": {
-    "INCONCLUSIVE": 3881,
+    "INCONCLUSIVE": 3887,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 2012,
+    "BARRIER_HIT": 2019,
     "SCOOPED": 86
   },
-  "unique_field_A": 2419,
+  "unique_field_A": 2422,
   "top_fields_A": [
     [
       "Resolution proof complexity",
@@ -20,7 +20,7 @@
     ],
     [
       "Tropical Geometry",
-      140
+      141
     ],
     [
       "Symplectic Geometry",
@@ -40,7 +40,7 @@
     ],
     [
       "Algebraic Combinatorics",
-      43
+      44
     ],
     [
       "p-adic Analysis",

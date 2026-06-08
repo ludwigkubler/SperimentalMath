@@ -1,0 +1,40 @@
+{
+  "entry_id": "7d3879fe7875",
+  "ts": 1780956585.0475376,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2501.18019",
+      "title": "An exact closed walks series formula for the complexity of regular graphs and some related bounds",
+      "abstract_excerpt": "The complexity of a graph is the number of its labeled spanning trees. In this work complexity is studied in settings that admit regular graphs. An exact formula is established linking complexity of the complement of a regular graph to numbers of closed walks in the graph by way of an infinite alternating series. Some consequences of this result yield infinite classes of lower and upper bounds on the complexity of such graphs. Applications of these mathematical results to biological problems on ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns graph complexity defined as the number of labeled spanning trees and its relation to closed walks in regular graphs, with no mention of Euler characteristic, Tseitin formulas, or resolution proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0911.3482",
+      "title": "Complexity of Networks (reprise)",
+      "abstract_excerpt": "Network or graph structures are ubiquitous in the study of complex systems. Often, we are interested in complexity trends of these system as it evolves under some dynamic. An example might be looking at the complexity of a food web as species enter an ecosystem via migration or speciation, and leave via extinction.\n  In a previous paper, a complexity measure of networks was proposed based on the {\\em complexity is information content} paradigm. To apply this paradigm to any object, one must fix ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses an information-content complexity measure for networks based on representation languages, with no mention of Euler characteristic, Tseitin formulas, or resolution proof width. It shares only the loose vocabulary of 'complexity' and 'graphs' but does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2202.08739",
+      "title": "Computing Euler characteristics using quantum field theory",
+      "abstract_excerpt": "This paper explains how to use quantum field theory techniques to find formal power series that encode the virtual Euler characteristics of $\\mathrm{Out}(F_n)$ and related graph complexes. Finding such power series was a necessary step in the asymptotic analysis of $χ(\\mathrm{Out}(F_n))$ carried out in the authors' previous paper.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Euler characteristics of Out(F_n) and graph complexes via quantum field theory techniques, which shares the 'Euler characteristic' vocabulary but does not address Tseitin formulas, resolution proof width, or any connection to proof complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

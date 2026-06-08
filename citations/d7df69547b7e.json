@@ -1,0 +1,40 @@
+{
+  "entry_id": "d7df69547b7e",
+  "ts": 1780957929.187709,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2303.14697",
+      "title": "The central tree property and algorithmic problems on subgroups of free groups",
+      "abstract_excerpt": "We study the average case complexity of the uniform membership problem for subgroups of free groups, and we show that it is orders of magnitude smaller than the worst case complexity of the best known algorithms. This applies to subgroups given by a fixed number of generators as well as to subgroups given by an exponential number of generators. The main idea behind this result is to exploit a generic property of tuples of words, called the central tree property. An application is given to the av",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns average-case complexity of the uniform membership problem for subgroups of free groups via the 'central tree property,' with no mention of Coxeter groups, normalizing sets, SAT instances, clause graphs, or DPLL search trees.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1308.5122",
+      "title": "Quotients and subgroups of Baumslag-Solitar groups",
+      "abstract_excerpt": "We determine all generalized Baumslag-Solitar groups (finitely generated groups acting on a tree with all stabilizers infinite cyclic) which are quotients of a given Baumslag-Solitar group BS(m,n), and (when BS(m,n) is not Hopfian) which of them also admit BS(m,n) as a quotient. We determine for which values of r,s one may embed BS(r,s) into a given BS(m,n), and we characterize finitely generated groups which embed into some BS(n,n).",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quotients and embeddings of Baumslag-Solitar groups acting on trees, with no mention of Coxeter groups, SAT instances, DPLL search trees, or clause graphs. It shares no specific claim with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1505.03340",
+      "title": "HordeSat: A Massively Parallel Portfolio SAT Solver",
+      "abstract_excerpt": "A simple yet successful approach to parallel satisfiability (SAT) solving is to run several different (a portfolio of) SAT solvers on the input problem at the same time until one solver finds a solution. The SAT solvers in the portfolio can be instances of a single solver with different configuration settings. Additionally the solvers can exchange information usually in the form of clauses. In this paper we investigate whether this approach is applicable in the case of massively parallel SAT sol",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a parallel portfolio SAT solver (HordeSat) focused on distributed solving and clause exchange, with no mention of DPLL tree height, Coxeter groups, or normalizing sets relevant to the conjecture's bound.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

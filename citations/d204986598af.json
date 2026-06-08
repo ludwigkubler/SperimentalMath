@@ -1,0 +1,40 @@
+{
+  "entry_id": "d204986598af",
+  "ts": 1780955515.1297674,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1405.3051",
+      "title": "Involution Products in Coxeter Groups",
+      "abstract_excerpt": "For $W$ a Coxeter group, let $\\mathcal{W} = \\{ w \\in W \\;| \\; w = xy \\; \\mbox{where} \\; x, y \\in W \\; \\mbox{and} \\; x^2 = 1 = y^2 \\}$. If $W$ is finite, then it is well known that $W = \\mathcal{W}$. Suppose that $w \\in \\mathcal{W}$. Then the minimum value of $\\ell(x) + \\ell(y) - \\ell(w)$, where $x, y \\in W$ with $w = xy$ and $x^2 = 1 = y^2$, is called the \\textit{excess} of $w$ ($\\ell$ is the length function of $W$). The main result established here is that $w$ is always $W$-conjugate to an elem",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns involution products and 'excess' of elements in Coxeter groups, with no mention of CNF formulas, DPLL, resolution proofs, or normal-form enumeration bounds relevant to proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1405.2700",
+      "title": "Zero Excess and Minimal Length in Finite Coxeter Groups",
+      "abstract_excerpt": "Let $\\mathcal{W}$ be the set of strongly real elements of $W$, a Coxeter group. Then for $w \\in \\mathcal{W}$, $e(w)$, the excess of $w$, is defined by $e(w) = \\min\\{\\ell(x) + \\ell(y) - \\ell(w) \\; | \\; w=xy, x^2 = y^2 = 1\\}$. When $W$ is finite we may also define $E(w)$, the reflection excess of $w$. The main result established here is that if $W$ is finite and $X$ is a $W$-conjugacy class, then there exists $w \\in X$ such that $w$ has minimal length in $X$ and $e(w) = 0 = E(w)$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns excess and minimal length of elements in finite Coxeter groups ('there exists w in X such that w has minimal length in X and e(w) = 0 = E(w)'), with no mention of CNF formulas, DPLL, resolution proofs, or normal-form enumeration bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0804.0947",
+      "title": "The Dynkin diagram cohomology of finite Coxeter groups",
+      "abstract_excerpt": "Let D be a connected graph. The Dynkin complex CD(A) of a D-algebra A was introduced by the second author in [TL2] to control the deformations of quasi-Coxeter algebra structures on A. In the present paper, we study the cohomology of this complex when A is the group algebra of a Coxeter group W and D is the Dynkin diagram of W. We compute this cohomology when W is finite and prove in particular the rigidity of quasi-Coxeter algebra structures on kW. For an arbitrary W, we compute the top cohomol",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Dynkin diagram cohomology and quasi-Coxeter algebra deformations on group algebras of Coxeter groups, with no mention of CNF formulas, DPLL, resolution proofs, or proof width. It shares only the 'Coxeter group' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

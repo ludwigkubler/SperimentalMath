@@ -1,0 +1,40 @@
+{
+  "entry_id": "3f86202c4120",
+  "ts": 1780957670.6406176,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1207.2443",
+      "title": "Tropical Teichmuller and Siegel spaces",
+      "abstract_excerpt": "In this paper, we present a unified study of the moduli space of tropical curves and Outer space which we link via period maps to the moduli space of tropical abelian varieties and the space of positive definite quadratic forms. Our work is a first step towards exhibiting Outer space and the space of positive definite quadratic forms as analogues of Teichmüller space and Siegel space, respectively, in tropical geometry. All these spaces and the maps among them are described within the category o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns tropical moduli spaces (tropical curves, Outer space, tropical abelian varieties) and period maps, with no mention of Tseitin formulas, resolution proof complexity, width lower bounds, or motivic rank invariants on graphs.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1204.3875",
+      "title": "Tropicalizing vs Compactifying the Torelli morphism",
+      "abstract_excerpt": "In this paper, we compare the compactified Torelli morphism (as defined by V. Alexeev) and the tropical Torelli map (as defined by the author in a joint work with S. Brannetti and M. Melo, and furthered studied by M. Chan). Our aim is twofold: on one hand, we will review the construction and main properties of the above mentioned two Torelli maps, focusing in particular on the description of their fibers achieved by the author in joint works with L. Caporaso; on the other hand, we will clarify t",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the Torelli morphism, its compactification, and tropicalization in algebraic/tropical geometry, with no mention of Tseitin formulas, resolution proof width, or any proof complexity notion relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1204.6154",
+      "title": "Local Tropicalization",
+      "abstract_excerpt": "In this paper we propose a general functorial definition of the operation of \\emph{local tropicalization} in commutative algebra. Let $R$ be a commutative ring, $Γ$ a finitely generated subsemigroup of a lattice, $γ: Γ\\rightarrow R/ R^*$ a morphism of semigroups, and $\\V(R)$ the topological space of valuations on $R$ taking values in $\\R \\cup \\infty$. Then we may \\emph{tropicalize} with respect to $γ$ any subset $\\W$ of the space of valuations $\\V(R)$. By definition, we get a subset of a rationa",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a functorial definition of 'local tropicalization' in commutative algebra over valuation spaces and toroidal embeddings, with no mention of Tseitin formulas, resolution proof width, graph invariants, or motivic rank. It shares only the broad 'tropical' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
