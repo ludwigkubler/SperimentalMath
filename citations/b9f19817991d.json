@@ -1,0 +1,40 @@
+{
+  "entry_id": "b9f19817991d",
+  "ts": 1780880896.6281927,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1609.06986",
+      "title": "More on Diophantine sextuples",
+      "abstract_excerpt": "A rational Diophantine m-tuple is a set of m nonzero rationals such that the product of any two of them increased by 1 is a perfect square. The first rational Diophantine quadruple was found by Diophantus, while Euler proved that there are infinitely many rational Diophantine quintuples. In 1999, Gibbs found the first example of a rational Diophantine sextuple, and Dujella, Kazalicki, Mikic and Szikszai recently proved that there exist infinitely many rational Diophantine sextuples.\n  In this pa",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns rational Diophantine sextuples (sets of rationals whose pairwise products plus 1 are perfect squares), which shares only the word 'Diophantine' with the conjecture and says nothing about minimal Diophantine exponents, Boolean functions, Tseitin formulas, or communication complexity rank.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1709.09951",
+      "title": "Asymptotically tight worst case complexity bounds for initial-value problems with nonadaptive information",
+      "abstract_excerpt": "It is known that, for systems of initial-value problems, algorithms using adaptive information perform much better in the worst case setting than the algorithms using nonadaptive information. In the latter case, lower and upper complexity bounds significantly depend on the number of equations. However, in contrast with adaptive information, existing lower and upper complexity bounds for nonadaptive information are not asymptotically tight. In this paper, we close the gap in the complexity expone",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns worst-case complexity bounds for initial-value problems using nonadaptive information, with no mention of Diophantine exponents, Boolean functions, Tseitin formulas, or communication complexity rank.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/quant-ph/0405018v2",
+      "title": "Improved Bounds on the Randomized and Quantum Complexity of Initial-Value Problems",
+      "abstract_excerpt": "We deal with the problem, initiated in [8], of finding randomized and quantum complexity of initial-value problems. We showed in [8] that a speed-up in both settings over the worst-case deterministic complexity is possible. In the present paper we prove, by defining new algorithms, that further impr",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns randomized/quantum complexity of initial-value problems for differential equations, which has no bearing on the claimed link between Diophantine exponents and communication complexity rank of Tseitin formulas.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

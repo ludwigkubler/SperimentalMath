@@ -1,0 +1,40 @@
+{
+  "entry_id": "5b4276146432",
+  "ts": 1780881441.427395,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1110.6618",
+      "title": "Brauer relations in finite groups II - quasi-elementary groups of order p^aq",
+      "abstract_excerpt": "This is the second in a series of papers investigating the space of Brauer relations of a finite group, the kernel of the natural map from its Burnside ring to the rational representation ring. The first paper classified all primitive Brauer relations, that is those that do not come from proper subquotients. In the case of quasi-elementary groups the description is intricate, and it does not specify groups that have primitive relations in terms of generators and relations. In this paper we do th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Brauer relations in the Burnside ring of quasi-elementary groups of order p^aq, with no mention of Boolean formulas, Frege proof depth, or character orders over GF(2). It shares only the term 'Brauer' with the conjecture and does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1405.2700",
+      "title": "Zero Excess and Minimal Length in Finite Coxeter Groups",
+      "abstract_excerpt": "Let $\\mathcal{W}$ be the set of strongly real elements of $W$, a Coxeter group. Then for $w \\in \\mathcal{W}$, $e(w)$, the excess of $w$, is defined by $e(w) = \\min\\{\\ell(x) + \\ell(y) - \\ell(w) \\; | \\; w=xy, x^2 = y^2 = 1\\}$. When $W$ is finite we may also define $E(w)$, the reflection excess of $w$. The main result established here is that if $W$ is finite and $X$ is a $W$-conjugacy class, then there exists $w \\in X$ such that $w$ has minimal length in $X$ and $e(w) = 0 = E(w)$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns excess and minimal length in finite Coxeter groups, with no mention of Brauer groups, Boolean formulas, or Frege proof depth, so it does not interact with the specific correlation claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1007.3011",
+      "title": "Counting lifts of Brauer characters",
+      "abstract_excerpt": "In this paper we examine the behavior of lifts of Brauer characters in p-solvable groups where p is an odd prime. In the main result, we show that if φ\\in IBrp(G) is a Brauer character of a solvable group such that φhas an abelian vertex subgroup Q, then the number of lifts of φin Irr(G) is at most |Q|. In order to accomplish this, we develop several results about lifts of Brauer characters in p-solvable groups that were previously only known to be true in the case of groups of odd order.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns counting lifts of Brauer characters in p-solvable groups for odd primes, with bounds via abelian vertex subgroups — it shares only the term 'Brauer character' with the conjecture and says nothing about Boolean formulas, Frege proof depth, or minimal character order over GF(2).",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

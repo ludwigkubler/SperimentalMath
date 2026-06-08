@@ -1,0 +1,40 @@
+{
+  "entry_id": "c083b6ec138c",
+  "ts": 1780881170.021539,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1606.05050",
+      "title": "Proof Complexity Lower Bounds from Algebraic Circuit Complexity",
+      "abstract_excerpt": "We give upper and lower bounds on the power of subsystems of the Ideal Proof System (IPS), the algebraic proof system recently proposed by Grochow and Pitassi, where the circuits comprising the proof come from various restricted algebraic circuit classes. This mimics an established research direction in the boolean setting for subsystems of Extended Frege proofs, where proof-lines are circuits from restricted boolean circuit classes. Except one, all of the subsystems considered in this paper can",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns lower bounds for the Ideal Proof System via algebraic circuit complexity classes (sparse polynomials, depth-3 powering, ROABPs, multilinear formulas), with no mention of resolution proof width, 3-colorable graphs, simplicial complexes, or local systems/local index.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1607.00443",
+      "title": "Algebraic Proof Complexity: Progress, Frontiers and Challenges",
+      "abstract_excerpt": "We survey recent progress in the proof complexity of strong proof systems and its connection to algebraic circuit complexity, showing how the synergy between the two gives rise to new approaches to fundamental open questions, solutions to old problems, and new directions of research. In particular, we focus on tight connections between proof complexity lower bounds (namely, lower bounds on the size of proofs of certain tautologies), algebraic circuit lower bounds, and the Polynomial Identity Tes",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract surveys algebraic proof complexity and its links to algebraic circuit lower bounds and Polynomial Identity Testing, with no mention of resolution proof width, local systems, simplicial complexes, or 3-colorable graphs. It shares the broad 'proof complexity' vocabulary but does not address the specific min_local_index/width correlation claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2602.24164",
+      "title": "Complexity of Satisfiability in Kochen-Specker Partial Boolean Algebras",
+      "abstract_excerpt": "The Kochen-Specker no-go theorem established that hidden-variable theories in quantum mechanics necessarily admit contextuality. This theorem is formally stated in terms of the partial Boolean algebra structure of projectors on a Hilbert space. Each partial Boolean algebra provides a semantics for interpreting propositional logic. In this paper, we examine the complexity of propositional satisfiablity for various classes of partial Boolean algebras. We first show that the satisfiability problem ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses complexity of satisfiability over partial Boolean algebras (NP-complete, ∃R-complete, undecidable) using Kochen-Specker sets, with no mention of local indices of simplicial complexes, 3-colorable graphs, or resolution proof width. It shares no interaction with the specific min_local_index = Θ(w(G)) claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
