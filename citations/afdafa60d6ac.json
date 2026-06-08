@@ -1,0 +1,40 @@
+{
+  "entry_id": "afdafa60d6ac",
+  "ts": 1780920615.2071962,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:cs/0209032",
+      "title": "Complexity Results on DPLL and Resolution",
+      "abstract_excerpt": "DPLL and resolution are two popular methods for solving the problem of propositional satisfiability. Rather than algorithms, they are families of algorithms, as their behavior depend on some choices they face during execution: DPLL depends on the choice of the literal to branch on; resolution depends on the choice of the pair of clauses to resolve at each step. The complexity of making the optimal choice is analyzed in this paper. Extending previous results, we prove that choosing the optimal li",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses complexity of optimal literal/clause choice and proof-size determination in DPLL and resolution, with no mention of quandles or algebraic rank structures. It does not interact with the specific claim that minimal quandle rank is linearly correlated with DPLL proof length.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1502.02131",
+      "title": "Extracting verified decision procedures: DPLL and Resolution",
+      "abstract_excerpt": "This article is concerned with the application of the program extraction technique to a new class of problems: the synthesis of decision procedures for the classical satisfiability problem that are correct by construction. To this end, we formalize a completeness proof for the DPLL proof system and extract a SAT solver from it. When applied to a propositional formula in conjunctive normal form the program produces either a satisfying assignment or a DPLL derivation showing its unsatisfiability. ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns program extraction of a verified DPLL SAT solver and the equivalence between DPLL and resolution proofs, with no mention of quandles or any algebraic rank measure correlated with DPLL proof length.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:cs/0701184",
+      "title": "Structure and Problem Hardness: Goal Asymmetry and DPLL Proofs in&lt;br&gt; SAT-Based Planning",
+      "abstract_excerpt": "In Verification and in (optimal) AI Planning, a successful method is to formulate the application as boolean satisfiability (SAT), and solve it with state-of-the-art DPLL-based procedures. There is a lack of understanding of why this works so well. Focussing on the Planning context, we identify a form of problem structure concerned with the symmetrical or asymmetrical nature of the cost of achieving the individual planning goals. We quantify this sort of structure with a simple numeric parameter",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract analyzes DPLL proof length as a function of 'AsymRatio' structural parameter in planning domains, with no mention of quandles or any algebraic rank structure. It shares the DPLL vocabulary but does not interact with the quandle-rank conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

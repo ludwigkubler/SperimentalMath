@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-06-08T11:47:06Z",
-  "total_cycles": 5884,
+  "last_update_utc": "2026-06-08T12:47:14Z",
+  "total_cycles": 5893,
   "verdict_counts": {
-    "INCONCLUSIVE": 3796,
+    "INCONCLUSIVE": 3802,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 1982,
+    "BARRIER_HIT": 1985,
     "SCOOPED": 86
   },
-  "unique_field_A": 2403,
+  "unique_field_A": 2404,
   "top_fields_A": [
     [
       "Algebraic Geometry (Hodge Theory)",
@@ -24,7 +24,7 @@
     ],
     [
       "Symplectic Geometry",
-      120
+      122
     ],
     [
       "Real Algebraic Geometry",

@@ -1,0 +1,40 @@
+{
+  "entry_id": "5c0d10878f2f",
+  "ts": 1780921468.684413,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1112.4250",
+      "title": "The Rank and Hanna Neumann Property of Some Submonoids of a Free Monoid",
+      "abstract_excerpt": "This work aims at further investigations on the work of Giambruno and Restivo to find the rank of the intersection of two finitely generated submonoids of a free monoid. In this connection, we obtain the rank of a finitely generated submonoid of a free monoid that is accepted by semi-flower automaton with two bpi's. Further, when the product automaton of two deterministic semi-flower automata with a unique bpi is semi-flower with two bpi's, we obtain a sufficient condition on the product automat",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the rank of submonoids of free monoids via semi-flower automata and the Hanna Neumann property, with no mention of braided monoid automorphisms, CNF formulas, or communication complexity rank variance.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2107.13442",
+      "title": "Koszulity of dual braid monoid algebras via cluster complexes",
+      "abstract_excerpt": "The dual braid monoid was introduced by Bessis in his work on complex reflection arrangements. The goal of this work is to show that Koszul duality provides a nice interplay between the dual braid monoid and the cluster complex introduced by Fomin and Zelevinsky. Firstly, we prove koszulity of the dual braid monoid algebra, by building explicitly the minimal free resolution of the ground field. This is done explicitly using some chains complexes defined in terms of the positive part of the clust",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Koszul duality of dual braid monoid algebras and cluster complexes, with no mention of automorphism group indices, CNF formulas, or communication complexity rank variance. It shares only the 'braid monoid' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2410.11047",
+      "title": "Principal ideals in a plactic monoid always intersect",
+      "abstract_excerpt": "This note presents a proof that two principal ideals in a plactic monoid always intersect. Namely, this means that the plactic monoids are both left and right reversible. To the author's knowledge, this result has not yet appeared in the literature studying this monoid. This result holds for both finite rank plactic monoids and the infinite rank plactic monoid.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns intersection of principal ideals in plactic monoids (a reversibility result), which shares only the broad 'monoid' vocabulary with the conjecture and does not address braided monoid automorphisms, CNF formulas, or communication complexity rank variance.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

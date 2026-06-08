@@ -1,0 +1,40 @@
+{
+  "entry_id": "6ac430ab0e6d",
+  "ts": 1780921254.6826444,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1503.07648",
+      "title": "Sign rank versus VC dimension",
+      "abstract_excerpt": "This work studies the maximum possible sign rank of $N \\times N$ sign matrices with a given VC dimension $d$. For $d=1$, this maximum is {three}. For $d=2$, this maximum is $\\tildeΘ(N^{1/2})$. For $d &gt;2$, similar but slightly less accurate statements hold. {The lower bounds improve over previous ones by Ben-David et al., and the upper bounds are novel.}\n  The lower bounds are obtained by probabilistic constructions, using a theorem of Warren in real algebraic topology. The upper bounds are ob",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns sign rank vs VC dimension and mentions general 'connections to communication complexity, geometry, learning theory,' but it does not address a 'minimal local coherence index' or any ratio of median-to-average rank tied to rank variance, so it neither supports nor refutes the specific Θ(V/R) claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0503746v2",
+      "title": "Qd(p)-free rank two finite groups act freely on a homotopy product of two spheres",
+      "abstract_excerpt": "In this paper we show that most rank two groups act freely on a finite homotopy product of two spheres. This makes new progress on a conjecture by Benson and Carlson which states that a finite group G acts freely on a finite complex with the homotopy type of n spheres if the rank of G is less than o",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns finite groups acting freely on homotopy products of spheres and the Benson-Carlson conjecture about rank and free actions, which shares no substantive content with the conjecture's claim about communication-protocol rank variance or local coherence indices.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2111.02125",
+      "title": "Expected Complexity of Persistence Barcode Computation via Matrix Reduction",
+      "abstract_excerpt": "We study the algorithmic complexity of computing the persistence barcode of a randomly generated filtration. We provide a general technique to bound the expected complexity of reducing the boundary matrix in terms of the density of its reduced form. We apply this technique finding upper bounds for the average fill-in (number of non-zero entries) of the boundary matrix on Čech, Vietoris--Rips and Erdős--Rényi filtrations after matrix reduction, thus obtaining bounds on the expected complexity of ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns expected complexity and fill-in bounds for persistence barcode computation via matrix reduction on random filtrations, with no mention of local coherence indices, communication protocol rank variance, or any ratio I = Θ(V/R). It shares only loose vocabulary (matrix, complexity) but does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
