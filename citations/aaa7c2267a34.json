@@ -1,0 +1,40 @@
+{
+  "entry_id": "aaa7c2267a34",
+  "ts": 1780914033.265009,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0801.3124",
+      "title": "Coherence length of cosmic background radiation enlarges the attenuation length of the ultra-high energy proton",
+      "abstract_excerpt": "It is pointed out that an agreement of the one particle energy spectrum of the cosmic background radiation (CMBR) with  Plank distribution of 2.725 [K] does not give a strong constraint on the coherence length of CMBR if the mean free path of CMBR is very long. The coherence length in this situation is estimated as a few times of $k_BT$.     Due to this  finite coherence length,  the attenuation length of ultra-high energy cosmic rays (UHECR) is reduced in the  $Δ$ resonance region,i.e.,  around",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the coherence length of cosmic microwave background radiation and its effect on ultra-high energy cosmic ray attenuation — a physics topic that shares only the term 'coherence length' with the conjecture about braided categories and communication complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2305.01926",
+      "title": "Superconducting Stiffness and Coherence Length of FeSe$_{0.5}$Te$_{0.5}$ Measured in Zero-Applied Field",
+      "abstract_excerpt": "Superconducting stiffness $ρ_s$ and coherence length $ξ$ are usually determined by measuring the penetration depth $λ$ of a magnetic field and the upper critical field $H_{c2}$ of a superconductor (SC), respectively. However, in magnetic SC, e.g. some of the iron-based, this could lead to erroneous results since the internal field could be very different from the applied one. To overcome this problem in Fe$_{1+y}$Se$_x$Te$_{1-x}$ with $x \\sim 0.5$ and $y \\sim 0$ (FST), we measure both quantities",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns superconducting stiffness and coherence length in FeSe/Te superconductors measured via the Stiffnessometer technique, which shares only the term 'coherence length' with the conjecture but has no connection to braided categories or communication complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1501.04984",
+      "title": "Pairing versus quarteting coherence length",
+      "abstract_excerpt": "We systematically analyse the coherence length in even-even nuclei. The pairing coherence length in the spin-singlet channel for the effective density dependent delta (DDD) and Gaussian interaction is estimated. We consider in our calculations bound states as well as narrow resonances. It turns out that the pairing gaps given by the DDD interaction are similar to those of the Gaussian potential if one renormalizes the radial width to the nuclear radius. The correlations induced by the pairing in",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'coherence length' in the context of nuclear physics (pairing and quarteting correlations in even-even nuclei), not braided categories or communication complexity. It shares only the term 'coherence length' but does not interact with the conjecture's claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

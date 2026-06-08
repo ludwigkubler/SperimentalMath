@@ -1,0 +1,40 @@
+{
+  "entry_id": "d5923b669272",
+  "ts": 1780913666.4498048,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1111.0731",
+      "title": "On Hawaiian Groups of Some Topological Spaces",
+      "abstract_excerpt": "The paper is devoted to study the structure of Hawaiian groups of some topological spaces. We present some behaviors of Hawaiian groups with respect to product spaces, weak join spaces, cone spaces, covering spaces and locally trivial bundles. In particular, we determine the structure of the $n$-dimensional Hawaiian group of the $m$-dimensional Hawaiian earring space, for all $1\\leq m\\leq n$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Hawaiian groups of topological spaces (products, cones, covering spaces, Hawaiian earrings) and makes no mention of boolean circuits, circuit depth, Tseitin formulas, or local index — it shares no specific claim with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1907.00871",
+      "title": "Cardinal-indexed classifying spaces for families of subgroups of any topological group",
+      "abstract_excerpt": "For $G$ a topological group, existence theorems by Milnor (1956), Gelfand-Fuks (1968), and Segal (1975) of classifying spaces for principal $G$-bundles are generalized to $G$-spaces with torsion. Namely, any $G$-space approximately covered by tubes (a generalization of local trivialization) is the pullback of a universal space indexed by the orbit types of tubes and cardinality of the cover. For $G$ a Lie group, via a metric model we generalize the corresponding uniqueness theorem by Palais (196",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns classifying spaces for G-bundles, equivariant ANR theory, and the Baum-Connes conjecture — it shares no vocabulary or claim with boolean circuit depth, Tseitin formulas, or 'minimal local index' of cell complexes associated to circuits.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1511.03526",
+      "title": "Local duality in algebra and topology",
+      "abstract_excerpt": "The first goal of this paper is to provide an abstract framework in which to formulate and study local duality in various algebraic and topological contexts. For any stable $\\infty$-category $\\mathcal{C}$ together with a collection of compact objects $\\mathcal{K} \\subset \\mathcal{C}$ we construct local cohomology and local homology functors satisfying an abstract version of local duality. When specialized to the derived category of a commutative ring $A$ and a suitable ideal in $A$, we recover t",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns local duality in stable infinity-categories, derived categories of rings, and quasi-coherent sheaves on stacks — it makes no claims about boolean circuits, Tseitin formulas, circuit depth, or 'minimal local index' of cell complexes. Shared vocabulary ('local') only; no interaction with the specific conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

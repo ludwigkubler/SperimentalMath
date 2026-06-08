@@ -1,0 +1,40 @@
+{
+  "entry_id": "bed1075d7871",
+  "ts": 1780914386.3336728,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1510.02682",
+      "title": "Classical and Quantum Algorithms for the Boolean Satisfiability Problem",
+      "abstract_excerpt": "This paper presents a complete algorithmic study of the decision Boolean Satisfiability Problem under the classical computation and quantum computation theories. The paper depicts deterministic and probabilistic algorithms, propositions of their properties and the main result is that the problem has not an efficient algorithm (NP is not P). Novel quantum algorithms and propositions depict that the complexity by quantum computation approach for solving the Boolean Satisfiability Problem or any NP",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses classical and quantum algorithms for SAT decision complexity (claiming NP≠P and linear-time quantum SAT), with no mention of formal contexts, lattice rank, or resolution proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1910.10708",
+      "title": "Necessary and sufficient conditions for Boolean satisfiability",
+      "abstract_excerpt": "This is the second in a series of articles aimed at exploring the relationship between the complexity classes of P and NP.\n  The research in this article aims to find conditions of an algorithmic nature that are necessary and sufficient to transform any Boolean function in conjunctive normal form into a specific form that guarantees the satisfiability of this function.\n  To find such conditions, we use the concept of a special covering of a set introduced in [13], and investigate the connection ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'special coverings' as necessary and sufficient conditions for Boolean satisfiability, with no mention of formal contexts, lattice rank, or resolution proof width. It shares the SAT domain but does not interact with the specific claim relating formal context rank to resolution width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2011.06551",
+      "title": "Efficient Solution of Boolean Satisfiability Problems with Digital MemComputing",
+      "abstract_excerpt": "Boolean satisfiability is a propositional logic problem of interest in multiple fields, e.g., physics, mathematics, and computer science. Beyond a field of research, instances of the SAT problem, as it is known, require efficient solution methods in a variety of applications. It is the decision problem of determining whether a Boolean formula has a satisfying assignment, believed to require exponentially growing time for an algorithm to solve for the worst-case instances. Yet, the efficient solu",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a memcomputing physical system solving SAT via numerical integration of ODEs, with no mention of formal contexts, lattice rank, or resolution proof width. It shares only the broad SAT vocabulary and does not interact with the specific claim about minimal rank bounding resolution width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
