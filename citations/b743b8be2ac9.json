@@ -1,0 +1,40 @@
+{
+  "entry_id": "b743b8be2ac9",
+  "ts": 1780905044.370017,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1606.01722",
+      "title": "A Constructive Proof of Coherence for Symmetric Monoidal Categories Using Rewriting",
+      "abstract_excerpt": "A symmetric monoidal category is a category equipped with an associative and commutative (binary) product and an object which is the unit for the product. In fact, those properties only hold up to natural isomorphisms which satisfy some coherence conditions. The coherence theorem asserts the commutativity of all linear diagrams involving the left and right unitors, the associator and the braiding.\n  We prove the coherence for symmetric monoidal categories using a homotopical method based on rewr",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a constructive coherence theorem for symmetric monoidal categories via string-diagram rewriting, with no mention of Boolean satisfiability, DPLL proof paths, or any n^(2/3) bound on 'local coherence'. It shares only the word 'coherence' with the conjecture and does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2410.21524",
+      "title": "Locally rigid $\\infty$-categories",
+      "abstract_excerpt": "We develop the theory of locally rigid and rigid symmetric monoidal $\\infty$-categories over an arbitrary base $\\mathcal{V}\\in\\mathrm{CAlg}(\\mathbf{Pr}^\\mathrm{L})$. Among other things, we prove that every locally rigid commutative $\\mathcal{V}$-algebra arises as a ``completion'' of a rigid commutative $\\mathcal{V}$-algebra.\n  Along the way, we introduce and study ``$\\mathcal{V}$-atomic morphisms'', which are analogues of compact morphisms over an arbitrary base $\\mathcal{V}$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'locally rigid' symmetric monoidal ∞-categories and V-atomic morphisms, sharing no interaction with DPLL proof complexity or 'local coherence' bounds on categories of clauses. The shared vocabulary ('locally') is superficial.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1005.0209",
+      "title": "Approximations and adjoints in homotopy categories",
+      "abstract_excerpt": "We provide a criterion for the existence of right approximations in cocomplete additive categories; it is a straightforward generalisation of a result due to El Bashir. This criterion is used to construct adjoint functors in homotopy categories. Applications include the study of (pure) derived categories. For instance, it is shown that the pure derived category of any module category is compactly generated.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns right approximations and adjoint functors in homotopy categories with applications to pure derived categories — it makes no statement about local coherence bounds or DPLL proof path lengths in Boolean satisfiability.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

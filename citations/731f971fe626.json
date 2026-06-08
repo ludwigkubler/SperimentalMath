@@ -1,0 +1,40 @@
+{
+  "entry_id": "731f971fe626",
+  "ts": 1780908035.7383847,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1607.01412",
+      "title": "Pink's theory of Hodge structures and the Hodge conjecture over function fields",
+      "abstract_excerpt": "In 1997 Richard Pink has clarified the concept of Hodge structures over function fields in positive characteristic, which today are called Hodge-Pink structures. They form a neutral Tannakian category over the underlying function field. He has defined Hodge realization functors from the uniformizable abelian $t$-modules and $t$-motives of Greg Anderson to Hodge-Pink structures. This allows one to associate with each uniformizable $t$-motive a Hodge-Pink group, analogous to the Mumford-Tate group",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Hodge-Pink structures, t-motives, and a function-field analog of the Hodge conjecture—pure algebraic geometry with no mention of Boolean functions, resolution proof width, or monomial representations. It shares only the word 'Hodge' with the conjecture and does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1008.4299",
+      "title": "Characteristic classes of symmetric products of complex quasi-projective varieties",
+      "abstract_excerpt": "We prove generating series formulae for suitable twisted characteristic classes of symmetric products of a singular complex quasi-projective variety. More concretely, we study homology Hirzebruch classes for motivic coefficients, as well as for complexes of mixed Hodge modules. As a special case, we obtain a generating series formula for the (intersection) homology Hirzebruch classes of symmetric products. In some cases, the latter yields a similar formula for twisted homology L-classes generali",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns characteristic classes (Hirzebruch, Todd, Chern) of symmetric products of quasi-projective varieties, with no mention of Hodge index, Boolean functions, monomial representations, or resolution proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1104.1409",
+      "title": "Real non-abelian mixed Hodge structures for quasi-projective varieties: formality and splitting",
+      "abstract_excerpt": "We define and construct mixed Hodge structures on real schematic homotopy types of complex quasi-projective varieties, giving mixed Hodge structures on their homotopy groups and pro-algebraic fundamental groups. We also show that these split on tensoring with the ring R[x] equipped with the Hodge filtration given by powers of (x-i), giving new results even for simply connected varieties. The mixed Hodge structures can thus be recovered from the Gysin spectral sequence of cohomology groups of loc",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns mixed Hodge structures on schematic homotopy types of quasi-projective varieties and their splitting/formality, with no mention of Boolean functions, resolution proof width, monomial representations, or Hodge index bounds. It shares only general Hodge-theoretic vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

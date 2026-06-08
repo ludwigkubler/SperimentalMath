@@ -1,0 +1,40 @@
+{
+  "entry_id": "9b1bf713078f",
+  "ts": 1780905412.017655,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0808.1395",
+      "title": "Algebraic topology from geometric viewpoint",
+      "abstract_excerpt": "This book is expository and is in Russian. It is shown how in the course of solution of interesting geometric problems (close to applications) naturally appear main notions of algebraic topology (homology groups, obstructions and invariants, characteristic classes). Thus main ideas of algebraic topology are presented with minimal technicalities. Familiarity of a reader with basic notions of topology (such as 2-dimensional manifolds and vector fields) is desirable, although definitions are given ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes an expository Russian-language book introducing basic algebraic topology notions ('homology groups, obstructions and invariants, characteristic classes') and makes no claim about communication complexity matrices, local indices, or rank variance.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1601.00254",
+      "title": "Euler characteristic reciprocity for chromatic, flow and order polynomials",
+      "abstract_excerpt": "The Euler characteristic of a semialgebraic set can be considered as a generalization of the cardinality of a finite set. An advantage of semialgebraic sets is that we can define \"negative sets\" to be the sets with negative Euler characteristics. Applying this idea to posets, we introduce the notion of semialgebraic posets. Using \"negative posets\", we establish Stanley's reciprocity theorems for order polynomials at the level of Euler characteristics. We also formulate the Euler characteristic r",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Euler characteristic reciprocity for chromatic, flow, and order polynomials on semialgebraic posets, with no mention of communication complexity matrices, local indices, or rank variance. It shares no specific claim with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/9912085v1",
+      "title": "TQFT - a new direction in algebraic topology",
+      "abstract_excerpt": "We give an introduction for the non-expert to TQFT (Topological Quantum Field Theory), focussing especially on its role in algebraic topology. We compare the Atiyah axioms for TQFT with the Eilenberg Steenrod axioms for homology, give a few simple examples of TQFTs, and discuss some other approaches",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract introduces TQFT and compares Atiyah axioms to Eilenberg-Steenrod axioms for homology, with no mention of local indices, characteristic polynomials, communication complexity matrices, or rank variance. It shares only the broad 'algebraic topology' framework but does not interact with the specific conjectured relationship.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
