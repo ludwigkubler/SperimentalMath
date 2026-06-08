@@ -1,0 +1,40 @@
+{
+  "entry_id": "843dea5d1c58",
+  "ts": 1780876989.0880969,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2103.07344",
+      "title": "Search of fractal space-filling curves with minimal dilation",
+      "abstract_excerpt": "We introduce an algorithm for a search of extremal fractal curves in large curve classes. It heavily uses SAT-solvers~ -- heuristic algorithms that find models for CNF boolean formulas. Our algorithm was implemented and applied to the search of fractal surjective curves $γ\\colon[0,1]\\to[0,1]^d$ with minimal dilation $$ \\sup_{t_1&lt;t_2}\\frac{\\|γ(t_2)-γ(t_1)\\|^d}{t_2-t_1}. $$\n  We report new results of that search in the case of Euclidean norm. We have found a new curve that we call \"YE\", a self-",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns SAT-solvers as a tool to search for fractal space-filling curves with minimal dilation, sharing only the vocabulary of 'CNF boolean formulas' with the conjecture; it makes no claim about non-crossing partitions or Frege proof depth.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2603.10944",
+      "title": "Simple minimally unsatisfiable subsets of 2-CNFs",
+      "abstract_excerpt": "We present a study of minimal unsatisfiable subsets (MUSs) of 2-CNF Boolean formulas, building on the Abbasizanjani-Kullmann classification of minimally unsatisfiable 2-CNFs (2-MUs). We start by giving a linear-time procedure for recognising 2-MUs. Then we study the problem of finding one simple MUS. On the one hand we extend the results by Kleine Buening et al, which showed NP-completeness of the decision, whether a deficiency-1 MUS exists. On the other hand we show that deciding/finding an MUS",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns minimal unsatisfiable subsets of 2-CNFs and recognition/finding algorithms, with no mention of non-crossing partitions or Frege proof depth. It shares the SAT vocabulary but does not address the conjectured linear correlation.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2603.07606",
+      "title": "TT-Sparse: Learning Sparse Rule Models with Differentiable Truth Tables",
+      "abstract_excerpt": "Interpretable machine learning is essential in high-stakes domains where decision-making requires accountability, transparency, and trust. While rule-based models offer global and exact interpretability, learning rule sets that simultaneously achieve high predictive performance and low, human-understandable complexity remains challenging. To address this, we introduce TT-Sparse, a flexible neural building block that leverages differentiable truth tables as nodes to learn sparse, effective connec",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a neural method for learning sparse rule models with differentiable truth tables that extract DNF/CNF formulas via Quine-McCluskey minimization, with no mention of non-crossing partitions or Frege proof depth/complexity. It shares only the vague vocabulary of Boolean formulas but does not interact with the specific conjectured relationship.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -3770,5 +3770,7 @@
 {"ts": 1780873207.9413419, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 42}}
 {"ts": 1780875005.4076507, "kind": "NOTEBOOK_LARGE", "auto_fixed": false, "detail": {"size_mb": 109.056222}}
 {"ts": 1780875006.871145, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 42}}
-{"ts": 1780877101.931971, "ts_iso": "2026-06-08T00:05:01.931971+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "OK", "to_status": "DEGRADED", "failing_checks": ["cron_logs_no_trace"], "auto_fixed": false}
-{"ts": 1780877401.604255, "ts_iso": "2026-06-08T00:10:01.604255+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "DEGRADED", "to_status": "OK", "failing_checks": [], "auto_fixed": false}
+{"ts": 1780876804.8951547, "kind": "NOTEBOOK_LARGE", "auto_fixed": false, "detail": {"size_mb": 109.153513}}
+{"ts": 1780876806.4049478, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 42}}
+{"ts": 1780878605.4310124, "kind": "NOTEBOOK_LARGE", "auto_fixed": false, "detail": {"size_mb": 109.290764}}
+{"ts": 1780878606.9569256, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 42}}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "d4f8f8d578d5",
+  "ts": 1780876287.377522,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0806.1148",
+      "title": "Unsatisfiable CNF Formulas need many Conflicts",
+      "abstract_excerpt": "A pair of clauses in a CNF formula constitutes a conflict if there is a variable that occurs positively in one clause and negatively in the other. A CNF formula without any conflicts is satisfiable. The Lovasz Local Lemma implies that a k-CNF formula is satisfiable if each clause conflicts with at most 2^k/e-1 clauses. It does not, however, give any good bound on how many conflicts an unsatisfiable formula has globally. We show here that every unsatisfiable k-CNF formula requires 2.69^k conflict",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns lower/upper bounds on the number of conflicts in unsatisfiable k-CNF formulas, not Frege proof depth or any algebraic-topological local index. It shares the CNF vocabulary but does not interact with the specific claim about local_index(φ) versus d(φ).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2201.08895",
+      "title": "On the Satisfaction Probabilities of $k$-CNF Formulas",
+      "abstract_excerpt": "The satisfaction probability Pr[$φ$] := Pr$_{β:vars(φ) \\to \\{0,1\\}}[β\\models φ]$ of a propositional formula $φ$ is the likelihood that a random assignment $β$ makes the formula true. We study the complexity of the problem $k$SAT-Pr$_{&gt;p}$ = {$φ$ is a $k$CNF formula | Pr[$φ$] &gt; p} for fixed $k$ and $p$. While 3SAT-Pr$_{&gt;0}$ = 3SAT is NP-complete and SAT-Pr$_{&gt;1/2}$ is PP-complete, Akmal and Williams recently showed that 3SAT-Pr$_{&gt;1/2}$ lies in P and 4SAT-Pr$_{&gt;1/2}$ is NP-compl",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the complexity of deciding satisfaction probability thresholds for k-CNF formulas (a trichotomy in AC^0/NL/NP), with no mention of Frege proof depth, fundamental groups, or local indices from algebraic topology. The 'locality properties' discussed refer to bounded-size subsets of clauses determined by k and p, not to topological local indices.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1006.3030",
+      "title": "Satisfiability Thresholds for k-CNF Formula with Bounded Variable Intersections",
+      "abstract_excerpt": "We determine the thresholds for the number of variables, number of clauses, number of clause intersection pairs and the maximum clause degree of a k-CNF formula that guarantees satisfiability under the assumption that every two clauses share at most $α$ variables. More formally, we call these formulas $α$-intersecting and define, for example, a threshold $μ_i(k,α)$ for the number of clause intersection pairs $i$, such that every $α$-intersecting k-CNF formula in which at most $μ_i(k,α)$ pairs of",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses satisfiability thresholds for α-intersecting k-CNF formulas via the Lovász Local Lemma, with no mention of Frege proof depth, fundamental groups, or local indices in algebraic topology. It shares the CNF vocabulary but does not interact with the specific proof-complexity/topology correlation claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
