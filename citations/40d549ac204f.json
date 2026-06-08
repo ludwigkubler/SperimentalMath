@@ -1,0 +1,40 @@
+{
+  "entry_id": "40d549ac204f",
+  "ts": 1780888575.118281,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:cs/0008001",
+      "title": "Boolean Satisfiability with Transitivity Constraints",
+      "abstract_excerpt": "We consider a variant of the Boolean satisfiability problem where a subset E of the propositional variables appearing in formula Fsat encode a symmetric, transitive, binary relation over N elements. Each of these relational variables, e[i,j], for 1 &lt;= i &lt; j &lt;= N, expresses whether or not the relation holds between elements i and j. The task is to either find a satisfying assignment to Fsat that also satisfies all transitivity constraints over the relational variables (e.g., e[1,2] &amp;",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Boolean satisfiability with transitivity constraints and OBDD representations for microprocessor verification, with no mention of Galois groups, normal subgroups, or Frege proof depth. It shares only the general SAT vocabulary but does not interact with the specific group-order bound claimed.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1904.02629",
+      "title": "The Boolean SATisfiability Problem and the orthogonal group $O(n)$",
+      "abstract_excerpt": "We explore the relations between the Boolean Satisfiability Problem with $n$ Boolean variables and the orthogonal group $\\mbox{O}(n)$. We show that all $2^n$ possible solutions induce involutions of $\\mathbb{R}^n$ that lie in the compact, disconnected real manifold of dimension $n (n-1)/2$ of $\\mbox{O}(n)$. This result in turn gives a new unsatisfiability test within group $\\mbox{O}(n)$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses embedding SAT solutions as involutions in the orthogonal group O(n) and deriving an unsatisfiability test, with no mention of Galois groups, normal subgroups, Frege proof depth, or logarithmic bounds on subgroup order.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2103.03623",
+      "title": "The Clifford algebra of $R^{n,n}$ and the Boolean Satisfiability Problem",
+      "abstract_excerpt": "We formulate a Boolean algebra in the set of idempotents of Clifford algebra Cl($R^{n,n}$) and within this frame we examine different formulations of the Boolean Satisfiability Problem in Clifford algebra. Exploiting the isomorphism between null subspaces of $R^{n,n}$ associated to simple spinors and the orthogonal group O(n) we ultimately give a continuous formulation of the Boolean Satisfiability Problem within this group that opens unexplored perspectives.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses formulating SAT in Clifford algebra and the orthogonal group O(n), with no mention of Galois groups, normal subgroups, Frege proof depth, or any logarithmic bounds related to the conjecture's claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

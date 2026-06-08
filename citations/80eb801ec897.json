@@ -1,0 +1,40 @@
+{
+  "entry_id": "80eb801ec897",
+  "ts": 1780890337.5405626,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1103.5740",
+      "title": "Generating and Searching Families of FFT Algorithms",
+      "abstract_excerpt": "A fundamental question of longstanding theoretical interest is to prove the lowest exact count of real additions and multiplications required to compute a power-of-two discrete Fourier transform (DFT). For 35 years the split-radix algorithm held the record by requiring just 4n log n - 6n + 8 arithmetic operations on real numbers for a size-n DFT, and was widely believed to be the best possible. Recent work by Van Buskirk et al. demonstrated improvements to the split-radix operation count by usin",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns using Boolean Satisfiability to search for FFT algorithms with minimal arithmetic operation counts, sharing only the SAT vocabulary with the conjecture. It says nothing about resolution proof width or quasi-plurality order of clauses.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2206.00903",
+      "title": "Satisfiability of Quantified Boolean Announcements",
+      "abstract_excerpt": "Dynamic epistemic logics consider formal representations of agents' knowledge, and how the knowledge of agents changes in response to informative events, such as public announcements. Quantifying over informative events allows us to ask whether it is possible to achieve some state of knowledge, and has important applications in synthesising secure communication protocols. However, quantifying over quite simple informative events, public announcements, is not computable: such an arbitrary public ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns satisfiability of Boolean arbitrary public announcement logic (BAPAL) in dynamic epistemic logic, with no discussion of resolution proof width or any notion of 'quasi-plurality order' of clauses.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0903.3848",
+      "title": "Join-irreducible Boolean functions",
+      "abstract_excerpt": "This paper is a contribution to the study of a quasi-order on the set $Ω$ of Boolean functions, the \\emph{simple minor} quasi-order. We look at the join-irreducible members of the resulting poset $\\tildeΩ$. Using a two-way correspondence between Boolean functions and hypergraphs, join-irreducibility translates into a combinatorial property of hypergraphs. We observe that among Steiner systems, those which yield join-irreducible members of $\\tildeΩ$ are the -2-monomorphic Steiner systems. We also",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the 'simple minor' quasi-order on Boolean functions and join-irreducible elements via hypergraph correspondence, with no mention of resolution proof width, SAT instances, or quasi-plurality order bounds. It shares the 'Boolean functions' vocabulary but does not interact with the specific claim relating clause quasi-plurality to resolution width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

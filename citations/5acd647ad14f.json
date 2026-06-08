@@ -1,0 +1,40 @@
+{
+  "entry_id": "5acd647ad14f",
+  "ts": 1780887538.7277684,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2603.07873",
+      "title": "Graded Ehrhart Theory of Unimodular Zonotopes",
+      "abstract_excerpt": "Graded Ehrhart theory is a new $q$-analogue of Ehrhart theory based on the orbit harmonics method. We study the graded Ehrhart theory of unimodular zonotopes from a matroid-theoretic perspective. Generalizing a result of Stanley (1991), we prove that the graded lattice point count of a unimodular zonotope is a $q$-evaluation of its Tutte polynomial. We conclude that the graded Ehrhart series of a unimodular zonotope is rational and obeys graded Ehrhart--Macdonald reciprocity. In an algebraic dir",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns graded Ehrhart theory of unimodular zonotopes, Tutte polynomials, and harmonic algebras — it never mentions SAT, CNF clauses, or clause depth, so it shares only the Ehrhart vocabulary without addressing the conjectured bound.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1704.00652",
+      "title": "Transfer-Matrix Methods meet Ehrhart Theory",
+      "abstract_excerpt": "Transfer-Matrix Methods originated in physics where they were used to count the number of allowed particle states on a structure whose width $n$ is a parameter. Typically, the number of states is exponential in $n.$ One more mathematical instance of this methodology is to enumerate the proper vertex colorings of a graph of growing size by a fixed number of colors.\n  In Ehrhart theory, lattice points in the dilation of a fixed polytope by a factor $k$ are enumerated. By inclusion-exclusion, relev",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses joint enumeration combining Transfer-Matrix Methods and Ehrhart theory for graph colorings and combinatorial polytopes, with no mention of SAT, CNF formulas, or clause depth. It shares only the Ehrhart theory framework but does not address the specific claim linking Ehrhart polynomial degree to SAT clause depth.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2512.13850",
+      "title": "Characterization of projective varieties beyond varieties of minimal degree and del Pezzo varieties",
+      "abstract_excerpt": "Varieties of minimal degree and del Pezzo varieties are basic objects in projective algebraic geometry. Those varieties have been characterized and classified for a long time in many aspects. Motivated by the question \"which varieties are the most basic and simplest except the above two kinds of varieties in view of geometry and syzygies?\", we give an upper bound of the graded Betti numbers in the quadratic strand and characterize the extremal cases.\n  The extremal varieties of dimension $n$, co",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns projective algebraic geometry (Betti numbers, del Pezzo varieties, rational normal scrolls) with no mention of Ehrhart polynomials, CNF formulas, or SAT clause depth. Despite the shared term 'minimal degree,' it does not interact with the specific claim linking Ehrhart polynomial degree to SAT clause depth.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
