@@ -1,11 +1,11 @@
 {
-  "last_update_utc": "2026-06-08T18:47:06Z",
-  "total_cycles": 5948,
+  "last_update_utc": "2026-06-08T19:47:06Z",
+  "total_cycles": 5973,
   "verdict_counts": {
-    "INCONCLUSIVE": 3842,
+    "INCONCLUSIVE": 3861,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 2000,
+    "BARRIER_HIT": 2006,
     "SCOOPED": 86
   },
   "unique_field_A": 2417,
@@ -16,7 +16,7 @@
     ],
     [
       "Resolution proof complexity",
-      142
+      167
     ],
     [
       "Tropical Geometry",

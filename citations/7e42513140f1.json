@@ -1,0 +1,40 @@
+{
+  "entry_id": "7e42513140f1",
+  "ts": 1780944540.8579042,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2103.09609",
+      "title": "Characterizing Tseitin-formulas with short regular resolution refutations",
+      "abstract_excerpt": "Tseitin-formulas are systems of parity constraints whose structure is described by a graph. These formulas have been studied extensively in proof complexity as hard instances in many proof systems. In this paper, we prove that a class of unsatisfiable Tseitin-formulas of bounded degree has regular resolution refutations of polynomial length if and only if the treewidth of all underlying graphs $G$ for that class is in $O(\\log|V(G)|)$. To do so, we show that any regular resolution refutation of a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract characterizes regular resolution refutation length of Tseitin formulas via treewidth and DNNF representations, but says nothing about cumulative entropy Φ or comparing max-occurrence vs min-occurrence elimination orders.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1812.06955",
+      "title": "Flexible Variable Star Extractor: new software for detection of variable stars",
+      "abstract_excerpt": "We developed software for detection of variable stars using CCD photometry. It works with \"varfind data\" that could be exported after processing CCD frames using C-Munipack. Our goals were maximum automation and support of large fields of view with thousands of stars. The program chooses the comparison stars automatically, processes all time series using multiple comparison stars to get final light curves. Different filtering algorithms are used to reduce the impact of outlying points, imaging a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes astronomy software for detecting variable stars via CCD photometry, which has no connection to resolution proof complexity, Tseitin formulas, or cumulative entropy under elimination orders.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/astro-ph/0407622v3",
+      "title": "A Study of the Composition of Ultra High Energy Cosmic Rays Using the High Resolution Fly's Eye",
+      "abstract_excerpt": "The composition of Ultra High Energy Cosmic Rays (UHECR) is measured with the High Resolution Fly's Eye cosmic ray observatory (HiRes) data using the Xmax technique. Data were collected in stereo between 1999 November and 2001 September. The data are reconstructed with well-determined geometry. Meas",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns measurement of ultra-high-energy cosmic ray composition with the HiRes observatory, which has no bearing on resolution proof complexity, Tseitin formulas, or cumulative entropy elimination orders.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

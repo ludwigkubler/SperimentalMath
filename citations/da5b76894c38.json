@@ -1,0 +1,40 @@
+{
+  "entry_id": "da5b76894c38",
+  "ts": 1780947994.665979,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1306.2484",
+      "title": "Generalization of Boole-Shannon expansion, consistency of Boolean equations and elimination by orthonormal expansion",
+      "abstract_excerpt": "The well known Boole-Shannon expansion of Boolean functions in several variables (with co-efficients in a Boolean algebra $B$) is also known in more general form in terms of expansion in a set $Φ$ of orthonormal functions. However, unlike the one variable step of this expansion an analogous elimination theorem and consistency is not well known. This article proves such an elimination theorem for a special class of Boolean functions denoted $B(Φ)$. When the orthonormal set $Φ$ is of polynomial si",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses the Boole-Shannon expansion, consistency of Boolean equations, and an elimination theorem for a special class of Boolean functions. It does not mention or refer to the specific concept of order-sensitivity of cumulative entropy or the comparison between Φ under max-occurrence and min-occurrence elimination orders.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2104.02998",
+      "title": "Parameterized Complexity of Elimination Distance to First-Order Logic Properties",
+      "abstract_excerpt": "The elimination distance to some target graph property P is a general graph modification parameter introduced by Bulian and Dawar. We initiate the study of elimination distances to graph properties expressible in first-order logic. We delimit the problem's fixed-parameter tractability by identifying sufficient and necessary conditions on the structure of prefixes of first-order logic formulas. Our main result is the following meta-theorem: for every graph property P expressible by a first order-",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract of the cited paper discusses the fixed-parameter tractability of elimination distances to graph properties expressible in first-order logic, but does not provide any direct information about the order-sensitivity of cumulative entropy or the comparison between max-occurrence and min-occurrence orders.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2003.07772",
+      "title": "On maps which preserve semipositivity and quantifier elimination theory for real numbers",
+      "abstract_excerpt": "Assume that $Φ:\\mathbb{M}_{n}(\\mathbb{C})\\rightarrow\\mathbb{M}_{n}(\\mathbb{C})$ is a superoperator which preserves hermiticity. We give an algorithm determining whether $Φ$ preserves semipositivity (we call $Φ$ positive in this case). Our approach to the problem has a model-theoretic nature, namely, we apply techniques of quantifier elimination theory for real numbers. An approach based on these techniques seems to be the only one that allows to decide whether an arbitrary hermiticity-preserving",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract discusses algorithms and techniques related to the preservation of semipositivity and quantifier elimination for real numbers, but it does not mention anything about order-sensitivity of cumulative entropy or the comparison between Φ under max-occurrence and min-occurrence. Therefore, it is insufficient to determine whether the paper supports, refutes, or is orthogonal to the conjecture.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}
