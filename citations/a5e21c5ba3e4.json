@@ -1,0 +1,40 @@
+{
+  "entry_id": "a5e21c5ba3e4",
+  "ts": 1780918421.54272,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0901.0512",
+      "title": "Expected Performance of the ATLAS Experiment - Detector, Trigger and Physics",
+      "abstract_excerpt": "A detailed study is presented of the expected performance of the ATLAS detector. The reconstruction of tracks, leptons, photons, missing energy and jets is investigated, together with the performance of b-tagging and the trigger. The physics potential for a variety of interesting physics processes, within the Standard Model and beyond, is examined. The study comprises a series of notes based on simulations of the detector and physics processes, with particular emphasis given to the data expected",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes the ATLAS detector's expected performance at the LHC for particle physics measurements, with no connection to Boolean circuits, information geometry, or Fisher-Rao metrics.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2303.17007",
+      "title": "Impact of cross-section uncertainties on supernova neutrino spectral parameter fitting in the Deep Underground Neutrino Experiment",
+      "abstract_excerpt": "A primary goal of the upcoming Deep Underground Neutrino Experiment (DUNE) is to measure the $\\mathcal{O}(10)$ MeV neutrinos produced by a Galactic core-collapse supernova if one should occur during the lifetime of the experiment. The liquid-argon-based detectors planned for DUNE are expected to be uniquely sensitive to the $ν_e$ component of the supernova flux, enabling a wide variety of physics and astrophysics measurements. A key requirement for a correct interpretation of these measurements ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns neutrino cross-section uncertainties and supernova spectral parameter fitting in the DUNE experiment, with no connection to Boolean circuits, Fisher-Rao geometry, or geometric entropy bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1411.4413",
+      "title": "Observation of the rare $B^0_s\\toμ^+μ^-$ decay from the combined analysis of CMS and LHCb data",
+      "abstract_excerpt": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence f",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a particle physics measurement of rare B meson decays at the LHC, which has no connection to information geometry, Boolean circuits, or geometric entropy bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

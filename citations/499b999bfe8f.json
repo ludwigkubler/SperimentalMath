@@ -1,0 +1,40 @@
+{
+  "entry_id": "499b999bfe8f",
+  "ts": 1780917778.3297572,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1807.11061",
+      "title": "Clause Vivification by Unit Propagation in CDCL SAT Solvers",
+      "abstract_excerpt": "Original and learnt clauses in Conflict-Driven Clause Learning (CDCL) SAT solvers often contain redundant literals. This may have a negative impact on performance because redundant literals may deteriorate both the effectiveness of Boolean constraint propagation and the quality of subsequent learnt clauses. To overcome this drawback, we propose a clause vivification approach that eliminates redundant literals by applying unit propagation. The proposed clause vivification is activated before the ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a clause vivification technique for CDCL SAT solvers using unit propagation to eliminate redundant literals, with no mention of braided categories, coherence length, or any category-theoretic framework relevant to the conjecture's claim of c(φ) = Θ(κ(φ)).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1805.01774",
+      "title": "A Tangent Category Alternative to the Faà di Bruno Construction",
+      "abstract_excerpt": "The Faà di Bruno construction, introduced by Cockett and Seely, constructs a comonad $\\mathsf{Fa{\\grave{a}}}$ whose coalgebras are precisely Cartesian differential categories. In other words, for a Cartesian left additive category $\\mathbb{X}$, $\\mathsf{Fa{\\grave{a}}}(\\mathbb{X})$ is the cofree Cartesian differential category over $\\mathbb{X}$. Composition in these cofree Cartesian differential categories is based on the Faà di Bruno formula, and corresponds to composition of differential forms.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Cartesian differential categories and the Faà di Bruno construction via tangent categories, with no mention of braided categories, coherence length, or Boolean satisfiability/clause complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0601386v2",
+      "title": "Thin fillers in the cubical nerves of omega-categories",
+      "abstract_excerpt": "It is shown that the cubical nerve of a strict omega-category is a sequence of sets with cubical face operations and distinguished subclasses of thin elements satisfying certain thin filler conditions. It is also shown that a sequence of this type is the cubical nerve of a strict omega-category uniq",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns cubical nerves of strict omega-categories and thin filler conditions, with no mention of braided categories, coherence length, or Boolean satisfiability/clause complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

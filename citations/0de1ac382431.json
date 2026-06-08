@@ -1,0 +1,40 @@
+{
+  "entry_id": "0de1ac382431",
+  "ts": 1780917555.5931525,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1111.0731",
+      "title": "On Hawaiian Groups of Some Topological Spaces",
+      "abstract_excerpt": "The paper is devoted to study the structure of Hawaiian groups of some topological spaces. We present some behaviors of Hawaiian groups with respect to product spaces, weak join spaces, cone spaces, covering spaces and locally trivial bundles. In particular, we determine the structure of the $n$-dimensional Hawaiian group of the $m$-dimensional Hawaiian earring space, for all $1\\leq m\\leq n$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Hawaiian groups of topological spaces (product spaces, cones, covering spaces, Hawaiian earrings) and makes no mention of simplicial complexes from boolean formulas, local coherence, or Frege proof depth. It shares only the general 'algebraic topology' framework but does not interact with the specific conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1907.00871",
+      "title": "Cardinal-indexed classifying spaces for families of subgroups of any topological group",
+      "abstract_excerpt": "For $G$ a topological group, existence theorems by Milnor (1956), Gelfand-Fuks (1968), and Segal (1975) of classifying spaces for principal $G$-bundles are generalized to $G$-spaces with torsion. Namely, any $G$-space approximately covered by tubes (a generalization of local trivialization) is the pullback of a universal space indexed by the orbit types of tubes and cardinality of the cover. For $G$ a Lie group, via a metric model we generalize the corresponding uniqueness theorem by Palais (196",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns classifying spaces for families of subgroups of topological groups and equivariant bundle theory ('classifying spaces for principal $G$-bundles', 'Baum-Connes conjecture'), with no mention of simplicial complexes from boolean formulas, local coherence, or Frege proof depth.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1706.09157",
+      "title": "Topological complexity of the work map",
+      "abstract_excerpt": "We introduce the topological complexity of the work map associated to a robot system. In broad terms, this measures the complexity of any algorithm controlling, not just the motion of the configuration space of the given system, but the task for which the system has been designed. From a purely topological point of view, this is a homotopy invariant of a map which generalizes the classical topological complexity of a space.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'topological complexity of the work map' for robot motion planning, a homotopy invariant of a map — it shares no connection with Frege proof depth, boolean formulas, or local coherence of simplicial complexes from SAT.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
