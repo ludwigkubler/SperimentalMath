@@ -1,0 +1,31 @@
+{
+  "entry_id": "d164440bf8cc",
+  "ts": 1780892042.4406931,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.4230/LIPIcs.ITCS.2024.74",
+      "title": "Intersection Classes in TFNP and Proof Complexity",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available to evaluate; the title alone (about TFNP intersection classes and proof complexity) does not reveal whether the paper addresses Ehrhart polynomials or Tseitin resolution width bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:2201.00913",
+      "title": "Proof complexity of CSP",
+      "abstract_excerpt": "The CSP (constraint satisfaction problems) is a class of problems deciding whether there exists a homomorphism from an instance relational structure to a target one. The CSP dichotomy is a profound result recently proved by Zhuk [19] and Bulatov [6]. It establishes that for any fixed target structur",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The truncated abstract only introduces CSP dichotomy results by Zhuk and Bulatov, without mentioning Tseitin formulas, resolution width lower bounds, or Ehrhart polynomials. Cannot determine relevance to the specific conjecture from this excerpt alone.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 2
+  }
+}

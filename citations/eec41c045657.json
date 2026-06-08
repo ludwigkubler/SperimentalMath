@@ -1,0 +1,40 @@
+{
+  "entry_id": "eec41c045657",
+  "ts": 1780890587.6846194,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0304173v3",
+      "title": "Quantum Groups, the loop Grassmannian, and the Springer resolution",
+      "abstract_excerpt": "We establish equivalences of derived categories of the following 3 categories:\n  (1) Principal block of representations of the quantum at a root of 1;\n  (2) G-equivariant coherent sheaves on the Springer resolution;\n  (3) Perverse sheaves on the loop Grassmannian for the Langlands dual group.\n  The ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns equivalences of derived categories among quantum group representations, equivariant sheaves on the Springer resolution, and perverse sheaves on the loop Grassmannian — it has no connection to p-adic orders of polynomials representing CNFs or Frege proof depth.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:2110.15734",
+      "title": "The extended Smale's 9th problem -- On computational barriers and paradoxes in estimation, regularisation, computer-assisted proofs and learning",
+      "abstract_excerpt": "Linear and semidefinite programming (LP, SDP), regularisation through basis pursuit (BP) and Lasso have seen great success in mathematics, statistics, data science, computer-assisted proofs and learning. The success of LP is traditionally attributed to the fact that it is\"in P\"for rational inputs. O",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns computational barriers in LP, SDP, basis pursuit, and Lasso for estimation and learning, with no mention of p-adic orders, polynomial representations of CNFs, or Frege proof depth.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:d0d995160a399bb372267bc86b388a9b87d40696",
+      "title": "THE RANKS OF m x n x ( mn2 ) TENSORS *",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available for this paper on tensor ranks, so I cannot determine whether it interacts with the conjectured p-adic/Frege depth inequality.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}
