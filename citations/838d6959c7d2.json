@@ -1,0 +1,40 @@
+{
+  "entry_id": "838d6959c7d2",
+  "ts": 1780952953.845865,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2008.06490",
+      "title": "A geometric proof of the flyping theorem",
+      "abstract_excerpt": "In 1898, Tait asserted several properties of alternating knot diagrams. These assertions became known as Tait's conjectures and remained open until the discovery of the Jones polynomial in 1985. The new polynomial invariants soon led to proofs of all of Tait's conjectures, culminating in 1993 with Menasco--Thistlethwaite's proof of Tait's flyping conjecture. In 2017, Greene (and independently Howie) answered a longstanding question of Fox by characterizing alternating links geometrically. Greene",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a geometric proof of Tait's flyping theorem for alternating knot diagrams, with no mention of geometric entropy, Frege proof complexity, or proof depth bounds. It shares no substantive content with the conjecture's claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/9810054v2",
+      "title": "Geometric Proofs of Some Results of Morita",
+      "abstract_excerpt": "In this note we give geometric formulations and proofs of three results of S. Morita. These results relate certain two dimensional cohomology classes of various moduli spaces of curves. We also give a geometric interpretation of a fourth result of Morita. One motivation of this work is to facilitate",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'geometric formulations and proofs of three results of S. Morita' relating cohomology classes of moduli spaces of curves, which shares no interaction with Frege proof depth or geometric entropy bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0910.3792",
+      "title": "An invitation to the theory of geometric functions",
+      "abstract_excerpt": "This note is an invitation to the theory of geometric functions. The foundation techniques and some of the developments in the field are explained with the mindset that the audience is principally young researchers wishing to understand some basics. It begins with the basic terminologies and concepts, then a mention of some subjects of inquiry in univalent functions theory. Some of the most basic subfamilies of the family of univalent functions are mentioned. Main emphasy is on the important cla",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes an introductory survey of univalent function theory and Caratheodory functions, with no mention of geometric entropy, Frege proof complexity, or graph-theoretic bounds. It shares no specific claim with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

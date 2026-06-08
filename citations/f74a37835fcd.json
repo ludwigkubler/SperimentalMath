@@ -1,0 +1,40 @@
+{
+  "entry_id": "f74a37835fcd",
+  "ts": 1780954938.9397545,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1705.02740",
+      "title": "Boundedness of $\\mathbb{Q}$-Fano varieties with degrees and alpha-invariants bounded from below",
+      "abstract_excerpt": "We show that $\\mathbb{Q}$-Fano varieties of fixed dimension with anti-canonical degrees and alpha-invariants bounded from below form a bounded family. As a corollary, K-semistable $\\mathbb{Q}$-Fano varieties of fixed dimension with anti-canonical degrees bounded from below form a bounded family.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns boundedness of Q-Fano varieties with alpha-invariants and anti-canonical degrees, which is algebraic geometry unrelated to communication complexity or hyperbolic metric distances to the Euclidean plane.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1304.0961",
+      "title": "Gauge invariant bound state equations for quark-antiquark systems in QCD",
+      "abstract_excerpt": "Using gauge invariant quark Green's functions, defined with path-ordered gluon field phase factors along polygonal lines, and functional relations among them, two compatible bound state equations of the Dirac type are established for quark-antiquark systems, each relative to the quark or to the antiquark of the system. The kernels of the bound state equations are defined through a series of Wilson loop averages along closed polygonal contours and their functional derivatives on them. A sufficien",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'gauge invariant bound state equations for quark-antiquark systems in QCD' using Wilson loops and Dirac-type equations, which shares no substantive content with hyperbolic geometry or communication complexity of boolean functions.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1602.08306",
+      "title": "On non-autonomous maximal regularity for elliptic operators in divergence form",
+      "abstract_excerpt": "We consider the Cauchy problem for non-autonomous forms inducing elliptic operators in divergence form with Dirichlet, Neumann, or mixed boundary conditions on an open subset $Ω$ $\\subseteq$ R n. We obtain maximal regularity in L 2 ($Ω$) if the coefficients are bounded, uniformly elliptic, and satisfy a scale invariant bound on their fractional time-derivative of order one-half. Previous results even for such forms required control on a time-derivative of order larger than one-half.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses maximal regularity for non-autonomous elliptic operators in divergence form on Euclidean domains, with no mention of communication complexity, boolean functions, or hyperbolic geometry. It shares no substantive connection to the conjecture's claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
