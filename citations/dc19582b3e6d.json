@@ -1,0 +1,40 @@
+{
+  "entry_id": "dc19582b3e6d",
+  "ts": 1780944236.6511312,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2209.05839",
+      "title": "On bounded depth proofs for Tseitin formulas on the grid; revisited",
+      "abstract_excerpt": "We study Frege proofs using depth-$d$ Boolean formulas for the Tseitin contradiction on $n \\times n$ grids. We prove that if each line in the proof is of size $M$ then the number of lines is exponential in $n/(\\log M)^{O(d)}$. This strengthens a recent result of Pitassi et al. [PRT22]. The key technical step is a multi-switching lemma extending the switching lemma of Håstad [Hås20] for a space of restrictions related to the Tseitin contradiction. The strengthened lemma also allows us to improve ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns bounded-depth Frege proof size lower bounds for Tseitin on grids via multi-switching lemmas, not cumulative entropy Φ(π) of resolution proofs or balanced separator size |S|. It shares the Tseitin framework but does not address the specific Φ(π) >= c·|S|² claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2103.09609",
+      "title": "Characterizing Tseitin-formulas with short regular resolution refutations",
+      "abstract_excerpt": "Tseitin-formulas are systems of parity constraints whose structure is described by a graph. These formulas have been studied extensively in proof complexity as hard instances in many proof systems. In this paper, we prove that a class of unsatisfiable Tseitin-formulas of bounded degree has regular resolution refutations of polynomial length if and only if the treewidth of all underlying graphs $G$ for that class is in $O(\\log|V(G)|)$. To do so, we show that any regular resolution refutation of a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract bounds regular resolution refutation length in terms of treewidth (2^Ω(tw(G))/|V(G)|), not cumulative entropy Φ(π) in terms of balanced separator size squared. It shares the Tseitin/resolution framework but does not address the cumulative-entropy measure or a |S|² lower bound.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0804.4433",
+      "title": "SPACE: the SPectroscopic All-sky Cosmic Explorer",
+      "abstract_excerpt": "We describe the scientific motivations, the mission concept and the instrumentation of SPACE, a class-M mission proposed for concept study at the first call of the ESA Cosmic-Vision 2015-2025 planning cycle. SPACE aims to produce the largest three-dimensional evolutionary map of the Universe over the past 10 billion years by taking near-IR spectra and measuring redshifts for more than half a billion galaxies at 0&lt;z&lt;2 down to AB~23 over 3πsr of the sky. In addition, SPACE will also target a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a space-based astronomical survey mission (SPACE/ESA Cosmic-Vision) for spectroscopic mapping of galaxies, which has no connection to resolution proof complexity, Tseitin formulas, or cumulative entropy bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

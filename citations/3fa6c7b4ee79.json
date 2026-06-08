@@ -1,0 +1,40 @@
+{
+  "entry_id": "3fa6c7b4ee79",
+  "ts": 1780943068.0631833,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2209.05839",
+      "title": "On bounded depth proofs for Tseitin formulas on the grid; revisited",
+      "abstract_excerpt": "We study Frege proofs using depth-$d$ Boolean formulas for the Tseitin contradiction on $n \\times n$ grids. We prove that if each line in the proof is of size $M$ then the number of lines is exponential in $n/(\\log M)^{O(d)}$. This strengthens a recent result of Pitassi et al. [PRT22]. The key technical step is a multi-switching lemma extending the switching lemma of Håstad [Hås20] for a space of restrictions related to the Tseitin contradiction. The strengthened lemma also allows us to improve ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns bounded-depth Frege size lower bounds for Tseitin on grids via switching lemmas, not the per-step active weight Φ(π)/proof_size of DP/resolution proofs. It shares the Tseitin framework but does not address the monotonicity of average weight per step.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1606.05050",
+      "title": "Proof Complexity Lower Bounds from Algebraic Circuit Complexity",
+      "abstract_excerpt": "We give upper and lower bounds on the power of subsystems of the Ideal Proof System (IPS), the algebraic proof system recently proposed by Grochow and Pitassi, where the circuits comprising the proof come from various restricted algebraic circuit classes. This mimics an established research direction in the boolean setting for subsystems of Extended Frege proofs, where proof-lines are circuits from restricted boolean circuit classes. Except one, all of the subsystems considered in this paper can",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns algebraic proof system (IPS) lower bounds via algebraic circuit complexity, not DP-step Resolution proofs of Tseitin formulas nor any Φ(π)/proof_size monotonicity quantity. It shares the broad 'proof complexity' framework but does not address per-step active weight growth.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:cs/9906008",
+      "title": "A Lower Bound on the Average-Case Complexity of Shellsort",
+      "abstract_excerpt": "We prove a general lower bound on the average-case complexity of Shellsort: the average number of data-movements (and comparisons) made by a $p$-pass Shellsort for any incremental sequence is $Ω(pn^{1 + 1/p})$ for every $p$. The proof method is an incompressibility argument based on Kolmogorov complexity. Using similar techniques, the average-case complexity of several other sorting algorithms is analyzed.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns average-case lower bounds for Shellsort via Kolmogorov complexity, which has no interaction with the monotonicity of Φ(π)/proof_size in DP-style resolution proofs of Tseitin formulas.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

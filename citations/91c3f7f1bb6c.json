@@ -1,0 +1,40 @@
+{
+  "entry_id": "91c3f7f1bb6c",
+  "ts": 1780943798.6305182,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2209.05839",
+      "title": "On bounded depth proofs for Tseitin formulas on the grid; revisited",
+      "abstract_excerpt": "We study Frege proofs using depth-$d$ Boolean formulas for the Tseitin contradiction on $n \\times n$ grids. We prove that if each line in the proof is of size $M$ then the number of lines is exponential in $n/(\\log M)^{O(d)}$. This strengthens a recent result of Pitassi et al. [PRT22]. The key technical step is a multi-switching lemma extending the switching lemma of Håstad [Hås20] for a space of restrictions related to the Tseitin contradiction. The strengthened lemma also allows us to improve ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns bounded-depth Frege lower bounds for Tseitin on grids via switching lemmas, not a quantity Φ(π) (entropy of a resolution refutation) nor a comparison between expanders and path/tree graphs. It shares the Tseitin framework but does not address the specific expansion-vs-entropy separation claimed.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2103.09609",
+      "title": "Characterizing Tseitin-formulas with short regular resolution refutations",
+      "abstract_excerpt": "Tseitin-formulas are systems of parity constraints whose structure is described by a graph. These formulas have been studied extensively in proof complexity as hard instances in many proof systems. In this paper, we prove that a class of unsatisfiable Tseitin-formulas of bounded degree has regular resolution refutations of polynomial length if and only if the treewidth of all underlying graphs $G$ for that class is in $O(\\log|V(G)|)$. To do so, we show that any regular resolution refutation of a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "SUPPORTS",
+      "judge_reasoning": "The abstract states regular resolution refutations of Tseitin formulas have length 2^Ω(tw(G))/|V(G)|, matching 2^O(tw(G))poly(|V(G)|) upper bound — giving exponential lower bounds on expanders (high treewidth) and polynomial upper bounds on path/tree graphs (low treewidth), which directly subsumes the conjecture's separation by graph expansion.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1912.00534",
+      "title": "Exponential Resolution Lower Bounds for Weak Pigeonhole Principle and Perfect Matching Formulas over Sparse Graphs",
+      "abstract_excerpt": "We show exponential lower bounds on resolution proof length for pigeonhole principle (PHP) formulas and perfect matching formulas over highly unbalanced, sparse expander graphs, thus answering the challenge to establish strong lower bounds in the regime between balanced constant-degree expanders as in [Ben-Sasson and Wigderson '01] and highly unbalanced, dense graphs as in [Raz '04] and [Razborov '03, '04]. We obtain our results by revisiting Razborov's pseudo-width method for PHP formulas over ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns resolution length lower bounds for pigeonhole and perfect matching formulas over sparse expander graphs, not Tseitin formulas or an entropy/Φ(π) measure separating expanders from path/tree graphs.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 1,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 0
+  }
+}

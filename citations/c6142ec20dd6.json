@@ -1,0 +1,40 @@
+{
+  "entry_id": "c6142ec20dd6",
+  "ts": 1780942310.2900903,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0607634v2",
+      "title": "A statistical approach to persistent homology",
+      "abstract_excerpt": "Assume that a finite set of points is randomly sampled from a subspace of a metric space. Recent advances in computational topology have provided several approaches to recovering the geometric and topological properties of the underlying space. In this paper we take a statistical approach to this pr",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a statistical approach to recovering geometric/topological properties of a sampled subspace via persistent homology, with no mention of resolution proof width, Tseitin formulas, or any connection to proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2512.07065",
+      "title": "Persistent Homology-Guided Frequency Filtering for Image Compression",
+      "abstract_excerpt": "Feature extraction in noisy image datasets presents many challenges in model reliability. In this paper, we use the discrete Fourier transform in conjunction with persistent homology analysis to extract specific frequencies that correspond with certain topological features of an image. This method allows the image to be compressed and reformed while ensuring that meaningful data can be differentiated. Our experimental results show a level of compression comparable to that of using JPEG using six",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns using persistent homology with Fourier transforms for image compression and CNN classification, with no mention of resolution proof width, Tseitin formulas, or Vietoris-Rips filtrations on clause-incidence point clouds. It shares only the 'persistent homology' vocabulary but does not interact with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1904.05081",
+      "title": "Relative-perfectness of discrete gradient vector fields and multi-parameter persistent homology",
+      "abstract_excerpt": "The combination of persistent homology and discrete Morse theory has proven very effective in visualizing and analyzing big and heterogeneous data. Indeed, topology provides computable and coarse summaries of data independently from specific coordinate systems and does so robustly to noise. Moreover, the geometric content of a discrete gradient vector field is very useful for visualization purposes. The specific case of multivariate data still demands for further investigations, on the one hand,",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses relative-perfectness of discrete gradient vector fields and Morse inequalities for multi-parameter persistent homology, with no mention of Tseitin formulas, resolution proof width, or SAT complexity. It shares only the general persistent-homology vocabulary without engaging the specific H1-lifespan-vs-resolution-width claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

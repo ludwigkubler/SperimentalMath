@@ -1,0 +1,40 @@
+{
+  "entry_id": "fb05558c4b06",
+  "ts": 1780941666.0567038,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2106.15012",
+      "title": "Level-rank duality of knot and link invariants",
+      "abstract_excerpt": "A number of results for the level-rank duality of $G(N)_K$ $\\leftrightarrow$ $G(K)_N$ Chern-Simons theory are summarized, with emphasis on the applications to knot and link invariants. Explicit examples for $SU(2)_K$ $\\leftrightarrow$ $SU(K)_2$ illustrate general results. A criterion to distinguish torus knots and links from hyperbolic knots and links, based on tables constructed by Kaul for one and two strand invariants, is presented. Possible symmetries of hyperbolic knot and link invariants a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses level-rank duality in Chern-Simons theory and knot/link invariants ('results for the level-rank duality of $G(N)_K$ $\\leftrightarrow$ $G(K)_N$'), which shares no interaction with finite metric spaces, hypercube embeddings, or communication complexity rank.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2105.12016",
+      "title": "Waring ranks of sextic binary forms via geometric invariant theory",
+      "abstract_excerpt": "We determine the Waring ranks of all sextic binary forms with complex coefficients using a Geometric Invariant Theory approach. Using the five basic invariants for sextic binary forms, our results give a rapid method to determine the Waring rank of any given sextic binary form. In particular, we shed new light on a claim by E. B. Elliott at the end of the 19th century concerning the binary sextics with Waring rank 3. We show that for binary forms of arbitrary degree the cactus rank, a.k.a. schem",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Waring ranks of sextic binary forms via Geometric Invariant Theory, which shares the term 'geometric invariant' but does not address finite metric spaces, hypercube embeddings, or communication complexity rank.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0610498v4",
+      "title": "Bounds on changes in Ritz values for a perturbed invariant subspace of a Hermitian matrix",
+      "abstract_excerpt": "The Rayleigh-Ritz method is widely used for eigenvalue approximation. Given a matrix $X$ with columns that form an orthonormal basis for a subspace $\\X$, and a Hermitian matrix $A$, the eigenvalues of $X^HAX$ are called Ritz values of $A$ with respect to $\\X$. If the subspace $\\X$ is $A$-invariant t",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Ritz value perturbation bounds for invariant subspaces of Hermitian matrices, which has no interaction with geometric invariants of metric spaces or communication complexity rank of hypercube embeddings.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

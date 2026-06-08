@@ -1,0 +1,40 @@
+{
+  "entry_id": "d2d93dca06f5",
+  "ts": 1780944105.1790028,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2209.05839",
+      "title": "On bounded depth proofs for Tseitin formulas on the grid; revisited",
+      "abstract_excerpt": "We study Frege proofs using depth-$d$ Boolean formulas for the Tseitin contradiction on $n \\times n$ grids. We prove that if each line in the proof is of size $M$ then the number of lines is exponential in $n/(\\log M)^{O(d)}$. This strengthens a recent result of Pitassi et al. [PRT22]. The key technical step is a multi-switching lemma extending the switching lemma of Håstad [Hås20] for a space of restrictions related to the Tseitin contradiction. The strengthened lemma also allows us to improve ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns bounded-depth Frege proof size lower bounds for Tseitin on grids via switching lemmas, not min-occurrence DP elimination or the Φ(π) growth exponent on 3-regular Tseitin under resolution. Shared vocabulary (Tseitin) but no interaction with the specific DP-elimination conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2103.09609",
+      "title": "Characterizing Tseitin-formulas with short regular resolution refutations",
+      "abstract_excerpt": "Tseitin-formulas are systems of parity constraints whose structure is described by a graph. These formulas have been studied extensively in proof complexity as hard instances in many proof systems. In this paper, we prove that a class of unsatisfiable Tseitin-formulas of bounded degree has regular resolution refutations of polynomial length if and only if the treewidth of all underlying graphs $G$ for that class is in $O(\\log|V(G)|)$. To do so, we show that any regular resolution refutation of a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract characterizes regular resolution refutation length of Tseitin formulas via treewidth (2^Ω(tw(G))), but says nothing about min-occurrence DP elimination, the Φ(π) measure, or 3-regular Tseitin specifically (which has bounded treewidth ~linear in n on expanders, not addressed here). It shares the Tseitin framework but does not interact with the specific super-linear-growth-exponent claim under DP elimination.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2601.13117",
+      "title": "The Case for Cardinality Lower Bounds",
+      "abstract_excerpt": "Despite decades of research, cardinality estimation remains the optimizer's Achilles heel, with industrial-strength systems exhibiting a systemic tendency toward underestimation. At cloud scale, this is a severe production vulnerability: in Microsoft's Fabric Data Warehouse (DW), a mere 0.05% of extreme underestimates account for 95% of all CPU under-allocation, causing preventable slowdowns for thousands of queries daily. Yet recent theoretical work on provable upper bounds only corrects overes",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns database cardinality estimation lower bounds (xBound on Microsoft Fabric DW), with no connection to DP elimination, Tseitin formulas, or resolution proof complexity scaling exponents.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
