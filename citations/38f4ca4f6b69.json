@@ -1,0 +1,40 @@
+{
+  "entry_id": "38f4ca4f6b69",
+  "ts": 1780895620.2353423,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1407.6169",
+      "title": "Multiplicative Complexity of Vector Valued Boolean Functions",
+      "abstract_excerpt": "We consider the multiplicative complexity of Boolean functions with multiple bits of output, studying how large a multiplicative complexity is necessary and sufficient to provide a desired nonlinearity. For so-called $ΣΠΣ$ circuits, we show that there is a tight connection between error correcting codes and circuits computing functions with high nonlinearity. Combining this with known coding theory results, we show that functions with $n$ inputs and $n$ outputs with the highest possible nonlinea",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns multiplicative complexity (AND gate count) of vector-valued Boolean functions and its connection to error correcting codes, with no mention of Alexander-Orlik-Solomon complexity, matroids, or clause depth. It shares the Boolean-function framework but does not interact with the specific AOS vs. CD inequality.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1810.08668",
+      "title": "Parity Decision Tree Complexity is Greater Than Granularity",
+      "abstract_excerpt": "We prove a new lower bound on the parity decision tree complexity $\\mathsf{D}_{\\oplus}(f)$ of a Boolean function $f$. Namely, granularity of the Boolean function $f$ is the smallest $k$ such that all Fourier coefficients of $f$ are integer multiples of $1/2^k$. We show that $\\mathsf{D}_{\\oplus}(f)\\geq k+1$.\n  This lower bound is an improvement of lower bounds through the sparsity of $f$ and through the degree of $f$ over $\\mathbb{F}_2$. Using our lower bound we determine the exact parity decisio",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns parity decision tree complexity and Fourier-granularity lower bounds for Boolean functions, with no mention of Alexander-Orlik-Solomon complexity, matroid invariants, or clause depth. It shares the broad 'Boolean function complexity' vocabulary but does not interact with the specific AOS vs CD inequality.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2401.14623",
+      "title": "Structure in Communication Complexity and Constant-Cost Complexity Classes",
+      "abstract_excerpt": "Several theorems and conjectures in communication complexity state or speculate that the complexity of a matrix in a given communication model is controlled by a related analytic or algebraic matrix parameter, e.g., rank, sign-rank, discrepancy, etc. The forward direction is typically easy as the structural implications of small complexity often imply a bound on some matrix parameter. The challenge lies in establishing the reverse direction, which requires understanding the structure of Boolean ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses communication complexity and matrix parameters like rank and sign-rank, with no mention of Alexander-Orlik-Solomon complexity, matroids of Boolean formulas, or clause depth. It shares no specific interaction with the conjectured AOS(φ) = Ω(CD(φ)) inequality.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
