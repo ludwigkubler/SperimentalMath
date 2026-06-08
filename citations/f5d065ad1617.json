@@ -1,0 +1,40 @@
+{
+  "entry_id": "f5d065ad1617",
+  "ts": 1780950792.542616,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2103.09609",
+      "title": "Characterizing Tseitin-formulas with short regular resolution refutations",
+      "abstract_excerpt": "Tseitin-formulas are systems of parity constraints whose structure is described by a graph. These formulas have been studied extensively in proof complexity as hard instances in many proof systems. In this paper, we prove that a class of unsatisfiable Tseitin-formulas of bounded degree has regular resolution refutations of polynomial length if and only if the treewidth of all underlying graphs $G$ for that class is in $O(\\log|V(G)|)$. To do so, we show that any regular resolution refutation of a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract characterizes regular resolution refutation length in terms of treewidth (2^Ω(tw(G))/|V(G)|), but says nothing about min-occurrence DP elimination heuristics or measuring a log-log exponent on 3-regular Tseitin instances specifically. The vocabulary overlaps (Tseitin, proof complexity) but the specific claim about Φ(π) scaling under a particular DP heuristic is not addressed.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2209.05839",
+      "title": "On bounded depth proofs for Tseitin formulas on the grid; revisited",
+      "abstract_excerpt": "We study Frege proofs using depth-$d$ Boolean formulas for the Tseitin contradiction on $n \\times n$ grids. We prove that if each line in the proof is of size $M$ then the number of lines is exponential in $n/(\\log M)^{O(d)}$. This strengthens a recent result of Pitassi et al. [PRT22]. The key technical step is a multi-switching lemma extending the switching lemma of Håstad [Hås20] for a space of restrictions related to the Tseitin contradiction. The strengthened lemma also allows us to improve ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns bounded-depth Frege proof size lower bounds for Tseitin on grids via switching lemmas, not DP (Davis-Putnam) elimination with min-occurrence heuristic on 3-regular Tseitin, nor the cumulative entropy measure Φ(π) or its scaling exponent.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0708.1529",
+      "title": "Resolution over Linear Equations and Multilinear Proofs",
+      "abstract_excerpt": "We develop and study the complexity of propositional proof systems of varying strength extending resolution by allowing it to operate with disjunctions of linear equations instead of clauses. We demonstrate polynomial-size refutations for hard tautologies like the pigeonhole principle, Tseitin graph tautologies and the clique-coloring tautologies in these proof systems. Using the (monotone) interpolation by a communication game technique we establish an exponential-size lower bound on refutation",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns polynomial-size refutations of Tseitin tautologies in extended proof systems (resolution over linear equations, depth-3 multilinear proofs), not the growth rate of Φ(π) under min-occurrence DP elimination on 3-regular Tseitin formulas. It shares the 'Tseitin' vocabulary but does not address the specific DP-elimination measure or its exponent.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
