@@ -1,0 +1,40 @@
+{
+  "entry_id": "f1ccfad2bac3",
+  "ts": 1780930672.0153368,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1003.2698",
+      "title": "The Pseudo-Hyperbolic Functions and the Matrix Representation of Eisenstein Complex Numbers",
+      "abstract_excerpt": "We consider the matrix representation of the Eisenstein numbers and in this context we discuss the theory of the Pseudo Hyperbolic Functions. We develop a geometrical interpretation and show the usefulness of the method in Physical problems related to the anomalous scattering of light by crystals",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns matrix representations of Eisenstein numbers and pseudo-hyperbolic functions applied to light scattering, with no mention of Frobenius-Schur indicators, Boolean functions, or communication complexity. It shares only the generic term 'matrix representation' but does not interact with the conjectured FSI/CC relationship.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1210.7842",
+      "title": "Boolean Differential Operators",
+      "abstract_excerpt": "We consider four combinatorial interpretations for the algebra of Boolean differential operators. We show that each interpretation yields an explicit matrix representation for Boolean differential operators.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses matrix representations for Boolean differential operators via combinatorial interpretations, with no mention of Frobenius-Schur indicators or communication complexity lower bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2510.05045",
+      "title": "A new Boolean matrix representation for Catalan semirings",
+      "abstract_excerpt": "We construct a faithful representation of the semiring of all order-preserving decreasing transformations of a chain with $n+1$ elements by Boolean upper triangular $n\\times n$-matrices.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a faithful Boolean matrix representation of a semiring of order-preserving transformations, with no mention of Frobenius-Schur indicators or communication complexity. It shares only loose vocabulary ('matrix representation') with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "552fe11bad4a",
+  "ts": 1780932132.511487,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1607.03608",
+      "title": "On the tensor product of linear sites and Grothendieck categories",
+      "abstract_excerpt": "We define a tensor product of linear sites, and a resulting tensor product of Grothendieck categories based upon their representations as categories of linear sheaves. We show that our tensor product is a special case of the tensor product of locally presentable linear categories, and that the tensor product of locally coherent Grothendieck categories is locally coherent if and only if the Deligne tensor product of their abelian categories of finitely presented objects exists. We describe the te",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns tensor products of linear sites and Grothendieck categories in algebraic/categorical settings, with no mention of braided categories, Boolean functions, or communication complexity. It shares only the general 'tensor product' vocabulary but does not engage with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1808.10521",
+      "title": "Efficient quantum tensor product expanders and unitary t-designs via the zigzag product",
+      "abstract_excerpt": "A classical t-tensor product expander is a natural way of formalising correlated walks of t particles on a regular expander graph. A quantum t-tensor product expander is a completely positive trace preserving map that is a straightforward analogue of a classical t-tensor product expander. Interest in these maps arises from the fact that iterating a quantum t-tensor product expander gives us a unitary t-design, which has many applications to quantum computation and information. We show that the z",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quantum t-tensor product expanders and zigzag-product constructions for unitary t-designs, with no mention of braided tensor categories, Boolean function computation, communication complexity, or rank variance ratios. It shares only the word 'tensor product' with the conjecture and does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2207.05809",
+      "title": "On the stability of tensor product of representations of classical groups",
+      "abstract_excerpt": "From an irreducible representation of GL(n, C) there is a natural way to construct an irreducible representations of GL(n + 1, C) by adding a zero at the end of the highest weight of the irreducible representation of GL(n, C). The paper considers the decomposition of tensor products of irreducible representation of GL(n, C) and of the corresponding irreducible representations of GL(n + 1, C) and proves a stability result about such tensor products. We go on to discuss similar questions for class",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses stability of tensor product decompositions of irreducible representations of classical groups like GL(n,C), which shares the 'tensor product' vocabulary but does not address braided categories, Boolean functions, or communication complexity rank variance.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
