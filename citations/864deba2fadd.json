@@ -1,0 +1,40 @@
+{
+  "entry_id": "864deba2fadd",
+  "ts": 1780901466.1584468,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2501.16039",
+      "title": "Complexity of Constructing Minimal Faithful Permutation Representations for Fitting-free Groups",
+      "abstract_excerpt": "In this paper, we investigate the complexity of computing minimal faithful permutation representations for groups without abelian normal subgroups (a.k.a. Fitting-free groups). When our groups are given as quotients of permutation groups, we exhibit a polynomial-time algorithm for constructing such representations. Furthermore, in the setting of permutation groups, we obtain an $\\textsf{NC}$ procedure for computing the minimal faithful permutation degree, and a randomized $\\textsf{NC}$ ($\\textsf",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses the computational complexity of constructing minimal faithful permutation representations for Fitting-free groups, with no mention of braided groups, CNF formulas, or resolution proof width. It shares only loose vocabulary ('minimal' and 'representation') with the conjecture but does not interact with the specific claim linking braided group rank to resolution proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1405.2700",
+      "title": "Zero Excess and Minimal Length in Finite Coxeter Groups",
+      "abstract_excerpt": "Let $\\mathcal{W}$ be the set of strongly real elements of $W$, a Coxeter group. Then for $w \\in \\mathcal{W}$, $e(w)$, the excess of $w$, is defined by $e(w) = \\min\\{\\ell(x) + \\ell(y) - \\ell(w) \\; | \\; w=xy, x^2 = y^2 = 1\\}$. When $W$ is finite we may also define $E(w)$, the reflection excess of $w$. The main result established here is that if $W$ is finite and $X$ is a $W$-conjugacy class, then there exists $w \\in X$ such that $w$ has minimal length in $X$ and $e(w) = 0 = E(w)$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns excess and minimal length of elements in finite Coxeter groups (a result about conjugacy class representatives with e(w)=0=E(w)), with no mention of braided group representation rank, CNF formulas, or resolution proof width. It shares only loose vocabulary (length/minimality in a Coxeter-related setting) but does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1908.06409",
+      "title": "Schur multipliers of special p-groups of rank 2",
+      "abstract_excerpt": "A group G is called special p-group of rank k if the commutator subgroup [G,G] and centre Z(G) are equal, which is elementary abelian p-group of rank k and G/[G,G] is also elementary abelian p-group. In this article we determine the Schur multiplier of special p-groups of rank 2 explicitly.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Schur multipliers of special p-groups of rank 2, a purely group-theoretic computation with no mention of braided representations, CNF formulas, or resolution proof width. It shares only the loose vocabulary of 'rank' and 'groups' with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

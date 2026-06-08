@@ -1,0 +1,40 @@
+{
+  "entry_id": "e27d63309b42",
+  "ts": 1780902838.4726727,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math-ph/0512018v2",
+      "title": "On Phase Transitions for $P$-Adic Potts Model with Competing Interactions on a Cayley Tree",
+      "abstract_excerpt": "In the paper we considere three state $p$-adic Potts model with competing interactions on a Cayley tree of order two. We reduce a problem of describing of the $p$-adic Gibbs measures to the solution of certain recursive equation, and using it we will prove that a phase transition occurs if and only ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns p-adic Gibbs measures and phase transitions in a p-adic Potts model on a Cayley tree, which shares only the 'p-adic' vocabulary with the conjecture and does not address divergence between indicator functions or communication complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2408.00810",
+      "title": "p-adic Equiangular Lines and p-adic van Lint-Seidel Relative Bound",
+      "abstract_excerpt": "We introduce the notion of p-adic equiangular lines and derive the first fundamental relation between common angle, dimension of the space and the number of lines. More precisely, we show that if $\\{τ_j\\}_{j=1}^n$ is p-adic $γ$-equiangular lines in $\\mathbb{Q}^d_p$, then \\begin{align*} (1) \\quad\\quad \\quad \\quad |n|^2\\leq |d|\\max\\{|n|, γ^2 \\}. \\end{align*} We call Inequality (1) as the p-adic van Lint-Seidel relative bound. We believe that this complements fundamental van Lint-Seidel \\textit{[In",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'p-adic equiangular lines' and a 'p-adic van Lint-Seidel relative bound' in Q_p^d, which shares only the p-adic vocabulary with the conjecture but does not address p-adic divergence of indicator functions or communication complexity bits.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/hep-th/9410058v3",
+      "title": "p-Adic description of Higgs mechanism I: p-Adic square root and p-adic light cone",
+      "abstract_excerpt": "This paper is the first one in the series devoted to the calculation of particle mass spectrum in Topological GeometroDynamics. TGD Universe is critical at quantum level and an attractive idea to realize criticality is via conformal invariance. Ordinary real numbers do not allow this but if one assu",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns p-adic methods applied to particle physics (Higgs mechanism, mass spectrum in Topological GeometroDynamics), which shares only the 'p-adic' vocabulary with the conjecture but does not address communication complexity, divergences between indicator functions, or O(log n) bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
