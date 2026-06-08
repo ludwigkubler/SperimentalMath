@@ -1,0 +1,40 @@
+{
+  "entry_id": "9d3b5f3f6b3b",
+  "ts": 1780899937.5041957,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/quant-ph/0405018v2",
+      "title": "Improved Bounds on the Randomized and Quantum Complexity of Initial-Value Problems",
+      "abstract_excerpt": "We deal with the problem, initiated in [8], of finding randomized and quantum complexity of initial-value problems. We showed in [8] that a speed-up in both settings over the worst-case deterministic complexity is possible. In the present paper we prove, by defining new algorithms, that further impr",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses randomized and quantum complexity of initial-value problems, which has no interaction with cyclic group orders, Tseitin formulas, or resolution proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2503.11238",
+      "title": "Computational Complexity of Finding Subgroups of a Given Order",
+      "abstract_excerpt": "We study the problem of finding a subgroup of a given order in a finite group, where the group is represented by its Cayley table. We analyze the complexity of the problem in the special case of abelian groups and present an optimal algorithm for finding a subgroup of a given order when the input is given in the form of a Cayley table. To the best of our knowledge, no prior work has addressed the complexity of this problem under the Cayley table representation.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses the computational complexity of finding subgroups of a given order in finite groups via Cayley table representation, with no mention of d-regular graphs, Tseitin formulas, or resolution proof width. It shares only the vague vocabulary of 'subgroup order' but does not interact with the conjecture's specific inequality.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1606.01763",
+      "title": "A Constructive Proof of Cut Elimination for a System of Full Second Order Logic",
+      "abstract_excerpt": "In this paper we present a constructive proof of cut elimination for a system of full second order logic with the structural rules absorbed and using sets instead of sequences. The standard problem of the cutrank growth is avoided by using a new parameter for the induction, the cutweight. This technique can also be applied to first order logic.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns cut elimination in second-order logic via a new 'cutweight' induction parameter, with no reference to cyclic groups, regular graphs, Tseitin formulas, or resolution proof width. It shares no substantive content with the conjecture's claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "entry_id": "82d57e0eb431",
+  "ts": 1780900162.8452973,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.3389/frai.2021.659037",
+      "title": "Applications of Topological Data Analysis in Oncology",
+      "abstract_excerpt": "The emergence of the information age in the last few decades brought with it an explosion of biomedical data. But with great power comes great responsibility: there is now a pressing need for new data analysis algorithms to be developed to make sense of the data and transform this information into knowledge which can be directly translated into the clinic. Topological data analysis (TDA) provides a promising path forward: using tools from the mathematical field of algebraic topology, TDA provide",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes applications of topological data analysis (persistent homology) in oncology for tasks like tumor segmentation and disease classification; it shares the vocabulary of algebraic topology but has no interaction with Tseitin polynomials, local cohomology bounds, or DPLL proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:1209.1905",
+      "title": "Computing persistent homology within Coq/SSReflect",
+      "abstract_excerpt": "Persistent homology is one of the most active branches of computational algebraic topology with applications in several contexts such as optical character recognition or analysis of point cloud data. In this article, we report on the formal development of certified programs to compute persistent Bet",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes certified programs for computing persistent Betti numbers in Coq/SSReflect, which shares the algebraic topology vocabulary but does not address local cohomology of Tseitin polynomials or DPLL proof complexity bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 0
+  }
+}

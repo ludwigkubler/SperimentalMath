@@ -1,0 +1,40 @@
+{
+  "entry_id": "be7b7e974a78",
+  "ts": 1780898177.1718035,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1002.3702",
+      "title": "Algebraic K-theory over the infinite dihedral group: a controlled topology approach",
+      "abstract_excerpt": "We use controlled topology applied to the action of the infinite dihedral group on a partially compactified plane and deduce two consequences for algebraic K-theory. The first is that the family in the K-theoretic Farrell-Jones conjecture can be reduced to only those virtually cyclic groups which admit a surjection with finite kernel onto a cyclic group. The second is that the Waldhausen Nil groups for a group which maps epimorphically onto the infinite dihedral group can be computed in terms of",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns algebraic K-theory, the Farrell-Jones conjecture, and Waldhausen Nil groups via controlled topology of the infinite dihedral group action — it makes no mention of simplicial complexes of CNF formulas, local indices, or Frege proof depth.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1108.4976",
+      "title": "Cyclic A_\\infty Structures and Deligne's Conjecture",
+      "abstract_excerpt": "First we describe a class of homotopy Frobenius algebras via cyclic operads which we call cyclic $A_\\infty$ algebras. We then define a suitable new combinatorial operad which acts on the Hochschild cochains of such an algebra in a manner which encodes the homotopy BV structure. Moreover we show that this operad is equivalent to the cellular chains of a certain topological (quasi)-operad of CW complexes whose constituent spaces form a homotopy associative version of the Cacti operad of Voronov. T",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns cyclic A_infinity algebras, Hochschild cochains, and Deligne's conjecture about chain models for the framed little disks operad—it makes no mention of k-CNF formulas, Frege proof depth, or local indices of simplicial complexes from Boolean formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1609.07316",
+      "title": "Equivariant cohomology of cohomogeneity one actions: the topological case",
+      "abstract_excerpt": "We show that for any cohomogeneity one continuous action of a compact connected Lie group $G$ on a closed topological manifold the equivariant cohomology equipped with its canonical $H^*(BG)$-module structure is Cohen-Macaulay. The proof relies on the structure theorem for these actions recently obtained by Galaz-Garcia and Zarei. We generalize in this way our previous result concerning smooth actions.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns equivariant cohomology of cohomogeneity one Lie group actions being Cohen-Macaulay, with no mention of simplicial complexes from k-CNF formulas, local indices, or Frege proof depth.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

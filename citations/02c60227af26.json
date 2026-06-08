@@ -1,0 +1,40 @@
+{
+  "entry_id": "02c60227af26",
+  "ts": 1780898879.8942995,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0406355v1",
+      "title": "p-torsion elements in local cohomology modules. II",
+      "abstract_excerpt": "Lyubeznik conjectured that local cohomology modules of regular rings have finitely many associated primes. We examine this conjecture for polynomial rings over the integers, and record some equational identities that arise from studying special cases.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses Lyubeznik's conjecture on associated primes of local cohomology modules over polynomial rings over the integers, with no mention of CNF formulas, SAT, or clause depth. It shares the 'local cohomology' vocabulary but does not interact with the specific bound claimed.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2102.04369",
+      "title": "Mixed Hodge structure on local cohomology with support in determinantal varieties",
+      "abstract_excerpt": "We employ the inductive structure of determinantal varieties to calculate the mixed Hodge module structure of local cohomology modules with determinantal support. We show that the weight of a simple composition factor is uniquely determined by its support and cohomological degree. As a consequence, we obtain the equivariant structure of the Hodge filtration on each local cohomology module. Finally, as an application, we provide a formula for the generation level of the Hodge filtration on these ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns mixed Hodge module structure of local cohomology with determinantal support and Hodge filtration generation levels, with no mention of CNF formulas, SAT, or clause depth. It shares only the 'local cohomology' vocabulary but does not interact with the conjecture's bound.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1410.4915",
+      "title": "Rankin-Selberg L-functions in cyclotomic towers, III",
+      "abstract_excerpt": "Let $π$ be a cuspidal automorphic representation of $\\operatorname{GL}_2$ over a totally real number field $F$. Let $K$ be a totally imaginary quadratic extension of $F$. We estimate central values of the $\\operatorname{GL}_2 \\times \\operatorname{GL}_2$ Rankin-Selberg $L$-functions associated to $π$ times representations induced from Hecke characters of $K$ which are ramified only at a given prime ideal $\\mathfrak{p}$ of $F$. More specifically, we use spectral decompositions of shifted convoluti",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Rankin-Selberg L-functions, automorphic representations, and Mordell-Weil ranks in number theory — it shares no interaction with local cohomology of CNF formulas or SAT clause depth bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

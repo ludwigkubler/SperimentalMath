@@ -1,0 +1,40 @@
+{
+  "entry_id": "dfb4cbe5e81a",
+  "ts": 1780900992.6144626,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1603.04558",
+      "title": "An algebro-geometric study of special values of hypergeometric functions ${}_3F_2$",
+      "abstract_excerpt": "For certain class of hypergeometric functions ${}_3F_2$ with rational parameters, we give a sufficient condition for the special value at $1$ to be expressed in terms of logarithms of algebraic numbers. We give two proofs, both of which are algebro-geometric and related to higher regulators.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns special values of hypergeometric functions ${}_3F_2$ expressed via logarithms of algebraic numbers, with no mention of CNF formulas, Frege proof depth, or invariant rank — it only shares the loose 'algebro-geometric' vocabulary.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1409.1534",
+      "title": "Algorithms in Real Algebraic Geometry: A Survey",
+      "abstract_excerpt": "We survey both old and new developments in the theory of algorithms in real algebraic geometry -- starting from effective quantifier elimination in the first order theory of reals due to Tarski and Seidenberg, to more recent algorithms for computing topological invariants of semi-algebraic sets. We emphasize throughout the complexity aspects of these algorithms and also discuss the computational hardness of the underlying problems. We also describe some recent results linking the computational h",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract surveys algorithms and complexity for computing topological invariants of semi-algebraic sets and quantifier elimination over the reals, with no mention of CNF formulas, Frege proof depth, or a rank invariant linked to propositional proof complexity. It shares the general 'algebraic geometry + complexity' framework but does not engage with the specific conjectured Θ(d(φ)) relationship.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2601.13127",
+      "title": "An algebro-geometric perspective on the topology of moduli spaces of differentials",
+      "abstract_excerpt": "Differentials on Riemann surfaces correspond to translation surfaces with conical singularities, and affine transformations acting on them preserve the orders of these singularities. This viewpoint allows the moduli spaces of differentials to appear in various guises across many areas, including algebraic geometry, dynamical systems, combinatorial enumeration, and mathematical physics. Over the past few decades, remarkable progress has been made in computing invariants of these moduli spaces, cl",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'topology of moduli spaces of differentials' and translation surfaces — it shares the vague phrase 'algebro-geometric' but does not mention CNF formulas, Frege proof depth, or any invariant rank tied to Boolean satisfiability.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
