@@ -1,0 +1,31 @@
+{
+  "entry_id": "cdf933912297",
+  "ts": 1780961018.8848557,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:cs/0506069",
+      "title": "A generating function method for the average-case analysis of DPLL",
+      "abstract_excerpt": "A method to calculate the average size of Davis-Putnam-Loveland-Logemann (DPLL) search trees for random computational problems is introduced, and applied to the satisfiability of random CNF formulas (SAT) and the coloring of random graph (COL) problems. We establish recursion relations for the generating functions of the average numbers of (variable or color) assignments at a given height in the search tree, which allow us to derive the asymptotics of the expected DPLL tree size, 2^{N w + o(N)},",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract analyzes the average size of DPLL search trees via generating functions yielding an asymptotic 2^{Nw+o(N)} bound, with no mention of Coxeter-Dynkin diagrams or a height bound tied to maximal tree node counts in such diagrams.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2603.16156",
+      "title": "An Exponential Separation between Deterministic CDCL and DPLL Solvers",
+      "abstract_excerpt": "We prove that there exists a deterministic configuration of Conflict Driven Clause Learning (CDCL) SAT solvers using a variant of the VSIDS branching heuristic that solves instances of the Ordering Principle (OP) CNF formulas in time polynomial in n, where n is the number of variables in such formulas. Since tree-like resolution is known to have an exponential lower bound for proof size for OP formulas, it follows that CDCL under this configuration has an exponential separation with any solver t",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns an exponential separation between CDCL and DPLL via Ordering Principle formulas and tree-like resolution lower bounds, with no mention of Coxeter-Dynkin diagrams or bounds on DPLL search tree height by diagram node counts.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 0
+  }
+}

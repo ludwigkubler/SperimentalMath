@@ -1,0 +1,40 @@
+{
+  "entry_id": "b96444061084",
+  "ts": 1780960821.6932716,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1311.1421",
+      "title": "Multiplicative differential algebraic K-theory and applications",
+      "abstract_excerpt": "We construct a version of Beilinson's regulator as a map of sheaves of commutative ring spectra and use it to define a multiplicative variant of differential algebraic K-theory. We use this theory to give an interpretation of Bloch's construction of K_3-classes and the relation with dilogarithms. Furthermore, we provide a relation to Arakelov theory via the arithmetic degree of metrized line bundles, and we give a proof of the formality of the algebraic K-theory of number rings.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'multiplicative differential algebraic K-theory,' Beilinson's regulator, dilogarithms, and Arakelov theory of number rings — it shares the 'algebraic K-theory' vocabulary but says nothing about SAT, Boolean formulas, or clause complexity bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2104.04021",
+      "title": "A universal characterization of noncommutative motives and secondary algebraic K-theory",
+      "abstract_excerpt": "We provide a universal characterization of the construction taking a scheme $X$ to its stable $\\infty$-category $\\text{Mot}(X)$ of noncommutative motives, patterned after the universal characterization of algebraic K-theory due to Blumberg--Gepner--Tabuada. As a consequence, we obtain a corepresentability theorem for secondary K-theory. We envision this as a fundamental tool for the construction of trace maps from secondary K-theory.\n  Towards these main goals, we introduce a preliminary formali",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses a universal characterization of noncommutative motives and secondary algebraic K-theory in the context of stable ∞-categories and schemes, with no mention of Boolean formulas, SAT, or clause complexity. It shares the 'algebraic K-theory' vocabulary but does not interact with the specific claim about SAT clause complexity bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1811.09564",
+      "title": "Dévissage for Waldhausen K-theory",
+      "abstract_excerpt": "A dévissage-type theorem in algebraic $K$-theory is a statement that identifies the $K$-theory of a Waldhausen category $\\mathscr{C}$ in terms of the $K$-theories of a collection of Waldhausen subcategories of $\\mathscr{C}$ when a dévissage condition about the existence of appropriate finite filtrations is satisfied. We distinguish between dévissage theorems of single type and of multiple type, depending on the number of Waldhausen subcategories and their properties. The main representative exam",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns dévissage theorems for Waldhausen K-theory of abelian/Waldhausen categories, with no mention of SAT, Boolean formulas, clause sets, or combinatorial complexity bounds. It shares only the general 'algebraic K-theory' framework but does not interact with the specific conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

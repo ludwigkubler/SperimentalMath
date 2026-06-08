@@ -1,0 +1,40 @@
+{
+  "entry_id": "e32024908fff",
+  "ts": 1780958845.6820755,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1607.04244",
+      "title": "Sigma-Adequate Link Diagrams and the Tutte Polynomial",
+      "abstract_excerpt": "In this paper, we characterize the sigma-adequacy of a link diagram in two ways: in terms of a certain edge subset of its Tait graph and in terms of a certain product of Tutte polynomials. Furthermore, we show that the symmetrized Tutte polynomial of the Tait graph of a link diagram can be written as a sum of these products of Tutte polynomials, where the sum is over the sigma-adequate states of the given link diagram. Using this state sum, we show that the number of sigma-adequate states of a l",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns sigma-adequacy of link diagrams via Tait graphs and Tutte polynomials, bounding sigma-adequate states by spanning trees — it makes no mention of Tseitin formulas, resolution proof width, or d-regular graph crossing patterns. Shared vocabulary (link diagrams, graphs) does not interact with the specific resolution-complexity claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1106.4197",
+      "title": "On the Seifert graphs of a link diagram and its parallels",
+      "abstract_excerpt": "Recently, Dasbach, Futer, Kalfagianni, Lin, and Stoltzfus extended the notion of a Tait graph by associating a set of ribbon graphs (or equivalently, embedded graphs) to a link diagram. Here we focus on Seifert graphs, which are the ribbon graphs of a knot or link diagram that arise from Seifert states. We provide a characterization of Seifert graphs in terms of Eulerian subgraphs. This characterization can be viewed as a refinement of the fact that Seifert graphs are bipartite. We go on to exam",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Seifert graphs, ribbon graphs, and genus of parallels of link diagrams — it shares the 'graph associated to link diagram' framework but never mentions Tseitin formulas, resolution proof width, or any bound between crossing patterns and proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1606.00667",
+      "title": "Converting virtual link diagrams to normal ones",
+      "abstract_excerpt": "A virtual link diagram is called normal if the associated abstract link diagram is checkerboard colorable, and a virtual link is normal if it has a normal diagram as a representative.In this paper, we introduce a method of converting a virtual link diagram to a normal virtual link diagram by use of the double covering technique. We show that the normal virtual link diagrams obtained from two equivalent virtual link diagrams are related by generalized Reidemeister moves and Kauffman flypes.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns converting virtual link diagrams to 'normal' (checkerboard colorable) ones via double covering and Reidemeister/Kauffman flype moves, with no mention of crossing pattern counts, Tseitin formulas, or resolution proof width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

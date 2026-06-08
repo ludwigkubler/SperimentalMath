@@ -1,0 +1,40 @@
+{
+  "entry_id": "2bf8cdafe33c",
+  "ts": 1780961992.0126536,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2501.16039",
+      "title": "Complexity of Constructing Minimal Faithful Permutation Representations for Fitting-free Groups",
+      "abstract_excerpt": "In this paper, we investigate the complexity of computing minimal faithful permutation representations for groups without abelian normal subgroups (a.k.a. Fitting-free groups). When our groups are given as quotients of permutation groups, we exhibit a polynomial-time algorithm for constructing such representations. Furthermore, in the setting of permutation groups, we obtain an $\\textsf{NC}$ procedure for computing the minimal faithful permutation degree, and a randomized $\\textsf{NC}$ ($\\textsf",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the computational complexity of constructing minimal faithful permutation representations for Fitting-free groups, with no mention of Brauer groups, Boolean functions, Tseitin formulas, or resolution proof width. It shares only the loose vocabulary of 'minimal representation' but does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1206.4576",
+      "title": "Representations of the Rook-Brauer Algebra",
+      "abstract_excerpt": "We study the representation theory of the rook-Brauer algebra RB_k(x), also called the partial Brauer algebra. This algebra has a basis of \"rook-Brauer\" diagrams, which are Brauer diagrams that allow for the possibility of missing edges. The Brauer, Temperley-Lieb, Motzkin, rook monoid, and symmetric group algebras are all subalgebras of the rook-Brauer algebra. We prove that RB_k(n) is the centralizer algebra of the complex orthogonal group O(n) acting on the k-fold tensor power of the sum of i",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns representation theory of the rook-Brauer algebra and Schur-Weyl duality with the orthogonal group, with no mention of Boolean functions, Tseitin formulas, or resolution proof width. It shares only the word 'Brauer' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1404.5460",
+      "title": "Brauer groups on K3 surfaces and arithmetic applications",
+      "abstract_excerpt": "For a prime $p$, we study subgroups of order p of the Brauer group Br(S) of a general complex polarized K3 surface of degree 2d, generalizing earlier work of van Geemen. These groups correspond to sublattices of index p of the transcendental lattice T_S of S; we classify these lattices up to isomorphism using Nikulin's discriminant form technique. We then study geometric realizations of p-torsion Brauer elements as Brauer-Severi varieties in a few cases via projective duality. We use one of thes",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Brauer groups of K3 surfaces, transcendental lattices, and weak approximation — algebraic geometry/arithmetic topics with no mention of Boolean functions, Tseitin formulas, or resolution proof width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
