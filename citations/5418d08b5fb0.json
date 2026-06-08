@@ -1,0 +1,40 @@
+{
+  "entry_id": "5418d08b5fb0",
+  "ts": 1780929244.7449794,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/quant-ph/0301144v2",
+      "title": "The Lie Algebra Rank Condition for Non-Bilinear Quantum System",
+      "abstract_excerpt": "The controllability condition for finite dimensional quantum systems, the\n Lie Algebra Rank Condition, has been stated assuming that the right invariant differential system under consideration is bilinear. We remark that this assumption is not necessary and discuss the extension to the general case.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the Lie Algebra Rank Condition as a controllability criterion for quantum systems, which shares the 'Lie algebra rank' vocabulary but has no connection to CNF formulas or resolution proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0810.4836",
+      "title": "Simplicial complexes and minimal free resolution of monomial algebras",
+      "abstract_excerpt": "This paper is concerned with the combinatorial description of the graded minimal free resolution of certain monomial algebras which includes toric rings. Concretely, we explicitly describe how the graded minimal free resolution of those algebras is related to the combinatorics of some simplicial complexes. Our description may be interpreted as an algorithmic procedure to partially compute this resolution.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'graded minimal free resolution of monomial algebras' and simplicial complexes in commutative algebra, which shares the word 'resolution' but has no connection to free Lie algebra rank, CNF formulas, or resolution proof width in SAT.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2001.07570",
+      "title": "Hom 3-Lie-Rinehart Algebras",
+      "abstract_excerpt": "After endowing with a 3-Lie-Rinehart structure on Hom 3-Lie algebras, we obtain a class of special\n  Hom 3-Lie algebras, which have close relationships with representations of commutative associative algebras. We provide a special class of Hom 3-Lie-Rinehart algebras, called split regular Hom 3-Lie-Rinehart algebras, and we then characterize their structures by means of root systems and weight systems associated to a splitting Cartan subalgebra.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Hom 3-Lie-Rinehart algebras, root systems, and Cartan subalgebras, with no mention of free Lie algebras, CNF formulas, resolution proof width, or any connection to proof complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
