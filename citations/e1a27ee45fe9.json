@@ -1,0 +1,40 @@
+{
+  "entry_id": "e1a27ee45fe9",
+  "ts": 1780886309.3663769,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1904.05630",
+      "title": "Arakelov geometry, heights, equidistribution, and the Bogomolov conjecture",
+      "abstract_excerpt": "This is an introduction to the topics of the title, from the 2017 Grenoble Summer school on Arakelov geometry and arithmetic applications. We review Arithmetic intersection numbers, explain the definition of the height of a variety and its properties, both in the framework of classical Arakelov geometry and of Zhang's adelic formalism. We then discuss arithmetic ampleness and its application to the equidistribution theorem of Szpiro-Ullmo-Zhang-Yuan, both at complex and nonarchimedean places. We",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes an introductory survey of Arakelov geometry, heights, equidistribution, and the Bogomolov conjecture, with no mention of Boolean formulas, Frege proof depth, or any connection to proof complexity. It shares only the 'Arakelov geometry' vocabulary with the conjecture but does not engage with its specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2012.07985",
+      "title": "Hodge-Arakelov inequalities for family of surfaces fibered by curves",
+      "abstract_excerpt": "The Hodge numerical invariants of a variation of Hodge structure over a smooth quas--projective variety are a measure of complexity for the global twisting of the limit mixed Hodge structure when it degenerates. These invariants appear in inequalities which they may have correction terms, called Arakelov inequalities. One may investigate the correction term to make them into equalities, also called Arakelov equalities. We investigate numerical Arakelov type (in)equilities for a family of surface",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Hodge-Arakelov inequalities for Hodge bundles in families of fibered surfaces, with no mention of Boolean formulas, Frege proof complexity, or any connection to satisfiability. It shares the 'Arakelov' vocabulary but does not address the specific correlation claimed in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0007102v1",
+      "title": "Arakelov-type inequalities for Hodge bundles",
+      "abstract_excerpt": "We give a proof of generalizations of the classical Arakelov inequality valid for the degree $d$ of the relative canoincal bundle of a family of curves of genus $g$ over a complete curve of genus $p$ under the assumption that the monodromy around the singular fibers is unipotent. This relative canon",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Arakelov-type inequalities for Hodge bundles of families of curves, with no mention of Boolean formulas, Frege proof depth, or any connection to proof complexity. It shares only the 'Arakelov' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "55a39304130f",
+  "ts": 1780884414.8954284,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0610043v5",
+      "title": "Lecture Notes on Noncommutative Algebraic Geometry and Noncommutative Tori",
+      "abstract_excerpt": "The first part of these notes gives an introduction to noncommutative projective geometry after Artin--Zhang. The second part provides an overview of the work of Polishchuk that reconciles noncommutative two-tori having real multiplication with the Artin--Zhang setting.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes noncommutative projective geometry and noncommutative two-tori with real multiplication (Artin-Zhang, Polishchuk), with no mention of CNF formulas, resolution proof width, Hopf algebras associated with SAT instances, or minimal rank bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1410.5374v2",
+      "title": "Cluster algebras of infinite rank as colimits",
+      "abstract_excerpt": "We formalize the way in which one can think about cluster algebras of infinite rank by showing that every rooted cluster algebra of infinite rank can be written as a colimit of rooted cluster algebras of finite rank. Relying on the proof of the posivity conjecture for skew-symmetric cluster algebras",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns cluster algebras of infinite rank expressed as colimits of finite-rank cluster algebras, with no mention of Hopf algebras, CNF formulas, or resolution proof width. It shares only the generic word 'rank' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1607.00443",
+      "title": "Algebraic Proof Complexity: Progress, Frontiers and Challenges",
+      "abstract_excerpt": "We survey recent progress in the proof complexity of strong proof systems and its connection to algebraic circuit complexity, showing how the synergy between the two gives rise to new approaches to fundamental open questions, solutions to old problems, and new directions of research. In particular, we focus on tight connections between proof complexity lower bounds (namely, lower bounds on the size of proofs of certain tautologies), algebraic circuit lower bounds, and the Polynomial Identity Tes",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses connections between algebraic circuit complexity, proof complexity lower bounds, and Polynomial Identity Testing, but makes no mention of Hopf algebras, noncommutative algebra rank, or resolution proof width specifically. It shares the general 'algebra meets proof complexity' framework but does not address the specific min_rank = Θ(w(φ)) claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
