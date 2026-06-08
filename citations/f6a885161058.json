@@ -1,0 +1,40 @@
+{
+  "entry_id": "f6a885161058",
+  "ts": 1780933766.2220724,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1609.00027",
+      "title": "The Riemann zeta function and Gaussian multiplicative chaos: statistics on the critical line",
+      "abstract_excerpt": "We prove that if $ω$ is uniformly distributed on $[0,1]$, then as $T\\to\\infty$, $t\\mapsto ζ(iωT+it+1/2)$ converges to a non-trivial random generalized function, which in turn is identified as a product of a very well behaved random smooth function and a random generalized function known as a complex Gaussian multiplicative chaos distribution. This demonstrates a novel rigorous connection between number theory and the theory of multiplicative chaos -- the latter is known to be connected to many o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the Riemann zeta function, Gaussian multiplicative chaos, and characteristic polynomials of random unitary matrices on the critical line — it says nothing about boolean functions, root multiplicity indices, or communication complexity rank variance. The shared term 'characteristic polynomial' is the only overlap and is used in an unrelated probabilistic/number-theoretic context.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2411.07356",
+      "title": "Dualities for characteristic polynomial averages of complex symmetric and self dual non-Hermitian random matrices",
+      "abstract_excerpt": "Ensembles of complex symmetric, and complex self dual random matrices are known to exhibit local statistical properties distinct from those of the non-Hermitian Ginibre ensembles. On the other hand, in distinction to the latter, the joint eigenvalue probability density function of these two ensembles are not known. Nonetheless, as carried out in the recent works of Liu and Zhang, Akemann et al.~and Kulkarni et al., by considering averages of products of characteristic polynomials, analytic progr",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns averages of characteristic polynomials of random matrix ensembles via zonal polynomials, with no mention of boolean functions, root multiplicity indices, or communication complexity rank variance. It shares only the surface vocabulary of 'characteristic polynomial' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/nlin/0209056v3",
+      "title": "Saddle points in the chaotic analytic function and Ginibre characteristic polynomial",
+      "abstract_excerpt": "Comparison is made between the distribution of saddle points in the chaotic analytic function and in the characteristic polynomials of the Ginibre ensemble. Realising the logarithmic derivative of these infinite polynomials as the electric field of a distribution of coulombic charges at the zeros, a",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses saddle points and zeros of characteristic polynomials in random matrix theory (Ginibre ensemble) and chaotic analytic functions, with no mention of boolean functions, root multiplicity indices, or communication complexity rank variance.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
