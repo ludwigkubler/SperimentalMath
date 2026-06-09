@@ -1,0 +1,40 @@
+{
+  "entry_id": "bfd76b54dbd5",
+  "ts": 1780996446.2303646,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1001.4448",
+      "title": "Rényi Divergence and Majorization",
+      "abstract_excerpt": "Rényi divergence is related to Rényi entropy much like information divergence (also called Kullback-Leibler divergence or relative entropy) is related to Shannon's entropy, and comes up in many settings. It was introduced by Rényi as a measure of information that satisfies almost the same axioms as information divergence. We review the most important properties of Rényi divergence, including its relation to some other distances. We show how Rényi divergence appears when the theory of majorizatio",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract reviews general properties of Rényi divergence and its connection to majorization and guessing sequences of random variables, with no mention of CNF formulas, satisfying assignments, or resolution proof width. It shares vocabulary (Rényi divergence) but does not interact with the specific bound claimed.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1901.06278",
+      "title": "Gambling and Rényi Divergence",
+      "abstract_excerpt": "For gambling on horses, a one-parameter family of utility functions is proposed, which contains Kelly's logarithmic criterion and the expected-return criterion as special cases. The strategies that maximize the utility function are derived, and the connection to the Rényi divergence is shown. Optimal strategies are also derived when the gambler has some side information; this setting leads to a novel conditional Rényi divergence.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Rényi divergence in the context of gambling utility functions and horse betting strategies, with no mention of Boolean functions, CNF formulas, or resolution proof complexity. It shares only the 'Rényi divergence' vocabulary but does not interact with the specific claim about bounding it by resolution proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2106.01645",
+      "title": "Rényi Divergence in General Hidden Markov Models",
+      "abstract_excerpt": "In this paper, we examine the existence of the Rényi divergence between two time invariant general hidden Markov models with arbitrary positive initial distributions. By making use of a Markov chain representation of the probability distribution for the general hidden Markov model and eigenvalue for the associated Markovian operator, we obtain, under some regularity conditions, convergence of the Rényi divergence. By using this device, we also characterize the Rényi divergence, and obtain the Ku",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Rényi divergence between hidden Markov models and its convergence properties, with no connection to Boolean functions, CNF formulas, or resolution proof width. It shares only the 'Rényi divergence' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "75d7e4709451",
+  "ts": 1780995635.2264771,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1206.1925",
+      "title": "Counting Algebraic Curves with Tropical Geometry",
+      "abstract_excerpt": "Tropical geometry is a piecewise linear \"shadow\" of algebraic geometry. It allows for the computation of several cohomological invariants of an algebraic variety. In particular, its application to enumerative algebraic geometry led to significant progress.\n  In this survey, we give an introduction to tropical geometry techniques for algebraic curve counting problems. We also survey some recent developments, with a particular emphasis on the computation of the degree of the Severi varieties of th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes tropical geometry applied to algebraic curve counting (Severi varieties, Hurwitz numbers, enumerative geometry), with no mention of communication protocols, complexity, or any rank notion connecting to communication complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2309.17302",
+      "title": "Geometry of tropical extensions of hyperfields",
+      "abstract_excerpt": "We study the geometry of tropical extensions of hyperfields, including the ordinary, signed and complex tropical hyperfields. We introduce the framework of 'enriched valuations' as hyperfield homomorphisms to tropical extensions, and show that a notable family of them are relatively algebraically closed. Our main results are hyperfield analogues of Kapranov's theorem and the Fundamental theorem of tropical geometry. Utilising these theorems, we introduce fine tropical varieties and prove a struc",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract focuses on 'tropical extensions of hyperfields,' 'enriched valuations,' and analogues of 'Kapranov's theorem and the Fundamental theorem of tropical geometry' — it makes no mention of communication complexity, protocols, or rank variance, so it does not interact with the specific conjectured Θ(rcv(P)) bound.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1308.3813",
+      "title": "Tropical complexes",
+      "abstract_excerpt": "We introduce tropical complexes, as an enrichment of the dual complex of a degeneration with additional data from non-transverse intersection numbers. We define cycles, divisors, and linear equivalence on tropical complexes, analogous both to the corresponding theories on algebraic varieties and to previous work on graphs and abstract tropical curves. In addition, we establish conditions for the divisor-curve intersection numbers on a tropical complex to agree with the generic fiber of a degener",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns tropical complexes as enrichments of dual complexes of degenerations with divisors and intersection theory, with no mention of communication protocols, complexity, motivic rank, or rank variance — it shares only the 'tropical' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

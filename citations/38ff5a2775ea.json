@@ -1,0 +1,31 @@
+{
+  "entry_id": "38ff5a2775ea",
+  "ts": 1780996106.1634326,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.1177/09670106241284172",
+      "title": "Organizing for future war and warfare: Complexity as ‘folk theory’ in NATO policy",
+      "abstract_excerpt": "Geopolitical and societal changes are increasingly narrated using the concept of complexity. In a range of policy contexts, from climate to finance and peacekeeping to defence and security, complexity is often prominent. This article explores the contemporary expressions of complexity in defence and security scholarship and policy. To understand the expressions of complexity, we view it as a ‘folk theory’ – what others have called a category of practice. We illustrate how this folk theory has ga",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'complexity' as a folk theory in NATO defense policy and multi-domain operations, with no connection to monoidal categories, Frege proofs, or proof complexity. It shares no technical content with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:31f1623e48d4eff7fe214fb7eebdbd579780b9e5",
+      "title": "A Nonreductionist View of Knowledge Œ Emergence: Complexity and Organization",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available, so it is impossible to assess whether the paper supports, refutes, or is orthogonal to the conjecture about Frege proof width and monoidal factor representation.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}
