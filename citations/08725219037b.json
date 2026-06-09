@@ -1,0 +1,40 @@
+{
+  "entry_id": "08725219037b",
+  "ts": 1780976237.1316679,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/1603.02493v4",
+      "title": "Clifford theory for glider representations",
+      "abstract_excerpt": "Classical Clifford theory studies the decomposition of simple $G$-modules into simple $H$-modules for some normal subgroup $H \\triangleleft G$. In this paper we deal with chains of normal subgroups $1 \\triangleleft G_1 \\triangleleft \\cdots \\triangleleft G_d =G$, which allow to consider fragments and",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Clifford theory for glider representations and decomposition of simple G-modules along chains of normal subgroups, which shares only generic representation-theory vocabulary and does not address communication complexity, NP languages, or variance bounds on any rank measure.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1611.00827",
+      "title": "Geometric complexity theory and matrix powering",
+      "abstract_excerpt": "Valiant's famous determinant versus permanent problem is the flagship problem in algebraic complexity theory. Mulmuley and Sohoni (Siam J Comput 2001, 2008) introduced geometric complexity theory, an approach to study this and related problems via algebraic geometry and representation theory. Their approach works by multiplying the permanent polynomial with a high power of a linear form (a process called padding) and then comparing the orbit closures of the determinant and the padded permanent. ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns geometric complexity theory, orbit closures, and lower bounds for the permanent vs. matrix powering — it never addresses communication complexity, variance over inputs of length n, or NP languages as framed in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1001.0462",
+      "title": "Representation Theory of Finite Groups",
+      "abstract_excerpt": "The point of view of these notes on the topic is to bring out the flavour that Representation Theory is an extension of the first course on Group Theory. We also emphasize the importance of the base field. These notes cover completely the theory over complex numbers which is Character Theory. A large number of worked-out examples are the main feature of these notes. The prerequisite for this note is basic group theory and linear algebra.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes introductory notes on representation theory of finite groups over complex numbers (character theory), with no mention of communication complexity, NP languages, or variance bounds. It shares only the general vocabulary of 'representation' but does not address the specific claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

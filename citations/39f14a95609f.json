@@ -1,0 +1,40 @@
+{
+  "entry_id": "39f14a95609f",
+  "ts": 1780974801.4336753,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0811.0157",
+      "title": "Ab-initio simulation and experimental validation of beta-titanium alloys",
+      "abstract_excerpt": "In this progress report we present a new approach to the ab-initio guided bottom up design of beta-Ti alloys for biomedical applications using a quantum mechanical simulation method in conjunction with experiments. Parameter-free density functional theory calculations are used to provide theoretical guidance in selecting and optimizing Ti-based alloys with respect to three constraints: (i) the use of non-toxic alloy elements; (ii) the stabilization of the body centered cubic beta phase at room t",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns ab-initio simulation of beta-titanium alloys for biomedical applications, with no mention of tropical geometry, CNF formulas, or DPLL search trees, as evidenced by phrases like 'ab-initio guided bottom up design of beta-Ti alloys'.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/cond-mat/9611098v1",
+      "title": "Estimates of electronic interaction parameters for La$M$O$_3$ compounds ($M$=Ti-Ni) from ab-initio approaches",
+      "abstract_excerpt": "We have analyzed the ab-initio local density approximation band structure calculations for the family of perovskite oxides, La$M$O$_3$ with $M$=Ti-Ni within a parametrized nearest neighbor tight-binding model and extracted various interaction strengths. We study the systematics in these interaction ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns ab-initio band structure calculations for perovskite oxides (LaMO3 compounds), which has no relation to tropical geometry, CNF formulas, or DPLL search trees.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1506.06530",
+      "title": "Structure of the glass-forming metallic liquids by ab-initio and classical molecular dynamics, a case study: quenching the Cu60Ti20Zr20 alloy",
+      "abstract_excerpt": "We consider the question of the amorphization of metallic alloys by melt quenching, as predicted by molecular dynamics simulations with semi-empirical potentials. The parametrization of the potentials is discussed on the example of the ternary Cu-Ti-Zr transition metals alloy, using as reference the ab-initio simulation. The pair structure in the amorphous state is computed from a potential of the Stillinger Weber form. The transferability of the parameters during the quench is investigated usin",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns molecular dynamics simulations of metallic glass formation in a Cu-Ti-Zr alloy, with no mention of tropical geometry, CNF formulas, or DPLL search trees. It shares no vocabulary or subject matter with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

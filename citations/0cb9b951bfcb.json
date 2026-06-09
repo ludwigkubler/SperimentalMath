@@ -1,0 +1,40 @@
+{
+  "entry_id": "0cb9b951bfcb",
+  "ts": 1780974368.5219846,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0502387v3",
+      "title": "Multiplier ideals in algebraic geometry",
+      "abstract_excerpt": "In this expository introductory text we discuss the multiplier ideals in algebraic geometry. We state Kawamata-Viehweg's and Nadel's vanishing theorems, give a proof (following Ein and Lazarsfeld) of Kollár's bound on the maximal multiplicity of the theta divisor, and explain the asymptotic construc",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses multiplier ideals, vanishing theorems, and Kollár's bound on theta divisor multiplicity — purely algebraic geometry topics with no mention of Grothendieck folds, Tseitin varieties, CNF formulas, or Frege proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2009.02774",
+      "title": "Representation theory of finite groups through (basic) algebraic geometry",
+      "abstract_excerpt": "We introduce a new approach to representation theory of finite groups that uses some basic algebraic geometry and allows to do all the theory without using characters. With this approach, to any finite group $G$ we associate a finite number of points and show that any field containing the coordinates of those points works fine as the ground field for the representations of $G$. We apply this point of view to the symmetric group $S_d$, finding easy equations for the different symmetries of functi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses representation theory of finite groups via basic algebraic geometry and applications to symmetric groups and hyperdeterminants, with no mention of Grothendieck folds, Tseitin varieties, CNF formulas, or Frege proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0410224v1",
+      "title": "Formalized proof, computation, and the construction problem in algebraic geometry",
+      "abstract_excerpt": "An informal discussion of how the construction problem in algebraic geometry motivates the search for formal proof methods. Also includes a brief discussion of my own progress up to now, which concerns the formalization of category theory within a ZFC-like environment.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses formalization of category theory within a ZFC-like environment motivated by the 'construction problem in algebraic geometry,' with no mention of Grothendieck folds, Tseitin varieties, CNF formulas, or Frege proof depth bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

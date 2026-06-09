@@ -1,0 +1,40 @@
+{
+  "entry_id": "3b67575e7334",
+  "ts": 1780973739.5160253,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2501.16039",
+      "title": "Complexity of Constructing Minimal Faithful Permutation Representations for Fitting-free Groups",
+      "abstract_excerpt": "In this paper, we investigate the complexity of computing minimal faithful permutation representations for groups without abelian normal subgroups (a.k.a. Fitting-free groups). When our groups are given as quotients of permutation groups, we exhibit a polynomial-time algorithm for constructing such representations. Furthermore, in the setting of permutation groups, we obtain an $\\textsf{NC}$ procedure for computing the minimal faithful permutation degree, and a randomized $\\textsf{NC}$ ($\\textsf",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns complexity of minimal faithful permutation representations for Fitting-free groups, with no mention of Grothendieck groups of matroids, boolean formulas, or Frege proof depth. It shares only the loose vocabulary of 'minimal representation' but does not interact with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1001.0462",
+      "title": "Representation Theory of Finite Groups",
+      "abstract_excerpt": "The point of view of these notes on the topic is to bring out the flavour that Representation Theory is an extension of the first course on Group Theory. We also emphasize the importance of the base field. These notes cover completely the theory over complex numbers which is Character Theory. A large number of worked-out examples are the main feature of these notes. The prerequisite for this note is basic group theory and linear algebra.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes introductory notes on representation theory of finite groups over complex numbers (character theory), which shares no specific interaction with Grothendieck groups of matroids, boolean formulas, or Frege proof depth.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1505.00626",
+      "title": "Minimal dimension of faithful representations for $p$-groups",
+      "abstract_excerpt": "For a group $G$, we denote by $m_{faithful}(G)$, the smallest dimension of a faithful complex representation of $G$. Let $F$ be a non-Archimedean local field with the ring of integers $\\mathcal{O}$ and the maximal ideal $\\mathfrak{p}$.\n  In this paper, we compute the precise value of $m_{faithful}(G)$ when $G$ is the Heisenberg group over $\\mathcal{O}/\\mathfrak{p}^n$. We then use the Weil representation to compute the minimal dimension of faithful representations of the group of unitriangular ma",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns minimal dimensions of faithful complex representations of p-groups (Heisenberg, unitriangular matrices over local rings) and essential dimension — it does not address Grothendieck groups of matroids, boolean formulas, or Frege proof depth.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
