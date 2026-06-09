@@ -1,0 +1,40 @@
+{
+  "entry_id": "b3cf1aef9960",
+  "ts": 1780981679.2473495,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0804.0947",
+      "title": "The Dynkin diagram cohomology of finite Coxeter groups",
+      "abstract_excerpt": "Let D be a connected graph. The Dynkin complex CD(A) of a D-algebra A was introduced by the second author in [TL2] to control the deformations of quasi-Coxeter algebra structures on A. In the present paper, we study the cohomology of this complex when A is the group algebra of a Coxeter group W and D is the Dynkin diagram of W. We compute this cohomology when W is finite and prove in particular the rigidity of quasi-Coxeter algebra structures on kW. For an arbitrary W, we compute the top cohomol",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Dynkin diagram cohomology and rigidity of quasi-Coxeter algebra structures on group algebras of Coxeter groups, with no mention of communication complexity, rank variance, or bounds on numbers of generators in that context.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1305.0052",
+      "title": "On the Limit Set of Root Systems of Coxeter Groups acting on Lorentzian spaces",
+      "abstract_excerpt": "The notion of limit roots of a Coxeter group W was recently introduced (see arXiv:1112.5415 and arXiv:1303.6710): they are the accumulation points of directions of roots of a root system for W. In the case where the root system lives in a Lorentzian space W admits a faithful representation as a discrete reflection group of isometries on a hyperbolic space; the accumulation set of any of its orbits is then classically called the limit set of W. In this article we show that the limit roots of a Co",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns limit roots of Coxeter groups acting on Lorentzian spaces and their identification with limit sets of hyperbolic reflection groups, with no mention of communication complexity, rank variance, or generator counts. It shares only the 'Coxeter group' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2312.07939",
+      "title": "A Functorial Generalization of Coxeter Groups",
+      "abstract_excerpt": "In the present work we describe the category $\\mathsf{WC}_2$ of weighted 2-complexes and its subcategory $\\mathsf{WC}_1$ of weighted graphs. Since a Coxeter group is defined by its Coxeter graph, the construction of Coxeter groups defines a functor from $\\mathsf{WC}_1$ to the category of groups. We generalize the notion of a Coxeter group by extending the domain of the functor to the category $\\mathsf{WC}_2$. It appears that the resulting functor generalizes the construction of Coxeter groups, G",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a categorical/functorial generalization of Coxeter groups via weighted 2-complexes, with no mention of communication complexity, rank variance, or generator bounds. It shares only the 'Coxeter group' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

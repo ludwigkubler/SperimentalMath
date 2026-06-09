@@ -1,0 +1,40 @@
+{
+  "entry_id": "c44e843ee9b4",
+  "ts": 1780983789.3690348,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2501.16039",
+      "title": "Complexity of Constructing Minimal Faithful Permutation Representations for Fitting-free Groups",
+      "abstract_excerpt": "In this paper, we investigate the complexity of computing minimal faithful permutation representations for groups without abelian normal subgroups (a.k.a. Fitting-free groups). When our groups are given as quotients of permutation groups, we exhibit a polynomial-time algorithm for constructing such representations. Furthermore, in the setting of permutation groups, we obtain an $\\textsf{NC}$ procedure for computing the minimal faithful permutation degree, and a randomized $\\textsf{NC}$ ($\\textsf",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns minimal faithful permutation representations for Fitting-free groups, with no mention of Grothendieck groups, Brauer groups, SAT, or clause indicator polynomials. It shares only the generic phrase 'minimal representation' but does not engage with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1502.02484",
+      "title": "Incrementally Computing Minimal Unsatisfiable Cores of QBFs via a Clause Group Solver API",
+      "abstract_excerpt": "We consider the incremental computation of minimal unsatisfiable cores (MUCs) of QBFs. To this end, we equipped our incremental QBF solver DepQBF with a novel API to allow for incremental solving based on clause groups. A clause group is a set of clauses which is incrementally added to or removed from a previously solved QBF. Our implementation of the novel API is related to incremental SAT solving based on selector variables and assumptions. However, the API entirely hides selector variables an",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns incremental computation of minimal unsatisfiable cores via a 'clause group' API in a QBF solver, where 'clause group' means a set of clauses added/removed incrementally—not Grothendieck or Brauer groups. It shares no substantive content with the conjecture's algebraic claims about representation length and Brauer groups.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2403.16671",
+      "title": "Twisted conjugacy in dihedral Artin groups I: Torus Knot groups",
+      "abstract_excerpt": "In this paper we provide an alternative solution to a result by Juhász that the twisted conjugacy problem for odd dihedral Artin groups is solvable, that is, groups with presentation $G(m) = \\langle a,b \\; | \\; _{m}(a,b) = {}_{m}(b,a) \\rangle$, where $m\\geq 3$ is odd, and $_{m}(a,b)$ is the word $abab \\dots$ of length $m$, is solvable. Our solution provides an implementable linear time algorithm, by considering an alternative group presentation to that of a torus knot group, and working with geo",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the twisted conjugacy problem in dihedral Artin groups (torus knot groups), with no mention of Grothendieck groups, Brauer groups, SAT instances, or clause complexity. It shares no substantive content with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

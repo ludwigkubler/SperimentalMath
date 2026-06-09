@@ -1,0 +1,40 @@
+{
+  "entry_id": "55b714201a36",
+  "ts": 1780980599.6588187,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1603.03800",
+      "title": "Diophantine approximation on matrices and Lie groups",
+      "abstract_excerpt": "We study the general problem of extremality for metric Diophantine approximation on submanifolds of matrices. We formulate a criterion for extremality in terms of a certain family of algebraic obstructions and show that it is sharp. In general, the almost sure diophantine exponent of a submanifold is shown to depend only on its Zariski closure, and when the latter is defined over the rational numbers, we prove that the exponent is rational and give a method to effectively compute it. This method",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'metric Diophantine approximation on submanifolds of matrices' and Lie group representation theory, with no mention of Boolean formulas, Frege proof systems, or proof complexity depth bounds. It shares only the loose term 'Diophantine exponent' but does not interact with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1310.8140",
+      "title": "Primes Solutions Of Linear Diophantine Equations",
+      "abstract_excerpt": "Let k =&gt; 1, m =&gt; 1 be small fixed integers, gcd(k, m) = 1. This note develops some techniques for proving the existence of infinitely many primes solutions x = p, and y = q of the linear Diophantine equation y = mx + k.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns prime solutions to linear Diophantine equations y = mx + k, with no mention of Boolean formulas, Frege proof systems, or proof depth bounds. It shares only the broad 'Diophantine' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2006.16453",
+      "title": "Frege's theory of types",
+      "abstract_excerpt": "It is often claimed that the theory of function levels proposed by Frege in Grundgesetze der Arithmetik anticipates the hierarchy of types that underlies Church's simple theory of types. This claim roughly states that Frege presupposes a type of functions in the sense of simple type theory in the expository language of Grundgesetze. However, this view makes it hard to accommodate function names of two arguments and view functions as incomplete entities. I propose and defend an alternative interp",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Frege's theory of function levels/types in Grundgesetze and its relation to simple type theory, not Frege proof systems in propositional proof complexity nor Diophantine exponent bounds. It shares only the name 'Frege' with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

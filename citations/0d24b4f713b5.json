@@ -1,0 +1,40 @@
+{
+  "entry_id": "0d24b4f713b5",
+  "ts": 1780982176.2301207,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2503.14756",
+      "title": "SceneEval: Evaluating Semantic Coherence in Text-Conditioned 3D Indoor Scene Synthesis",
+      "abstract_excerpt": "Despite recent advances in text-conditioned 3D indoor scene generation, there remain gaps in the evaluation of these methods. Existing metrics often measure realism by comparing generated scenes to a set of ground-truth scenes, but they overlook how well scenes follow the input text and capture implicit expectations of plausibility. We present SceneEval, an evaluation framework designed to address these limitations. SceneEval introduces fine-grained metrics for explicit user requirements-includi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns evaluation of text-conditioned 3D indoor scene synthesis ('SceneEval, an evaluation framework') and has no connection to homological algebra, Koszul complexes, or SAT clause complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2408.02211",
+      "title": "SceneMotifCoder: Example-driven Visual Program Learning for Generating 3D Object Arrangements",
+      "abstract_excerpt": "Despite advances in text-to-3D generation methods, generation of multi-object arrangements remains challenging. Current methods exhibit failures in generating physically plausible arrangements that respect the provided text description. We present SceneMotifCoder (SMC), an example-driven framework for generating 3D object arrangements through visual program learning. SMC leverages large language models (LLMs) and program synthesis to overcome these challenges by learning visual programs from exa",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns '3D object arrangements' via 'visual program learning' and LLMs, with no mention of Koszul complexes, SAT clauses, or homological algebra. It shares no substantive content with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1902.03870",
+      "title": "Halász's theorem for Beurling generalized numbers",
+      "abstract_excerpt": "We show that Halász's theorem holds for Beurling numbers under the following two mild hypotheses on the generalized number system: existence of a positive density for the generalized integers and a Chebyshev upper bound for the generalized primes.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Halász's theorem for Beurling generalized numbers, involving density of generalized integers and Chebyshev bounds for generalized primes—a topic in analytic number theory with no connection to Koszul complexes, SAT clauses, or homological generator bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
