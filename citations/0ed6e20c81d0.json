@@ -1,0 +1,40 @@
+{
+  "entry_id": "0ed6e20c81d0",
+  "ts": 1780985509.77249,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1204.6522",
+      "title": "Formal Groups, Witt vectors and Free Probability",
+      "abstract_excerpt": "We establish a link between free probability theory and Witt vectors, via the theory of formal groups. We derive an exponential isomorphism which expresses Voiculescu's free multiplicative convolution $\\boxtimes$ as a function of the free additive convolution $\\boxplus$. Subsequently we continue our previous discussion of the relation between complex cobordism and free probability. We show that the generic $n$th free cumulant corresponds to the cobordism class of the $(n-1)$-dimensional complex ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses connections between free probability, Witt vectors, formal groups, and cobordism — it shares the 'free probability' vocabulary but says nothing about communication complexity, protocols, or dynamical entropy bounds on channels.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2504.04416",
+      "title": "Meta-Mathematics of Computational Complexity Theory",
+      "abstract_excerpt": "We survey results on the formalization and independence of mathematical statements related to major open problems in computational complexity theory. Our primary focus is on recent findings concerning the (un)provability of complexity bounds within theories of bounded arithmetic. This includes the techniques employed and related open problems, such as the (non)existence of a feasible proof that P = NP.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns formalization and (un)provability of complexity bounds in bounded arithmetic, with no mention of free probability, non-commutative dynamical entropy, or communication protocols—it shares only the broad 'computational complexity' framework with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1611.00827",
+      "title": "Geometric complexity theory and matrix powering",
+      "abstract_excerpt": "Valiant's famous determinant versus permanent problem is the flagship problem in algebraic complexity theory. Mulmuley and Sohoni (Siam J Comput 2001, 2008) introduced geometric complexity theory, an approach to study this and related problems via algebraic geometry and representation theory. Their approach works by multiplying the permanent polynomial with a high power of a linear form (a process called padding) and then comparing the orbit closures of the determinant and the padded permanent. ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns geometric complexity theory, matrix powering, and algebraic complexity lower bounds (determinant vs permanent), with no mention of free probability, non-commutative dynamical entropy, or communication complexity protocols.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

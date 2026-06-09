@@ -1,0 +1,40 @@
+{
+  "entry_id": "c98a5e7df083",
+  "ts": 1780987209.172975,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2203.10025",
+      "title": "Sharp estimates for the hypergeometric functions related to root systems of type $A$ and of rank 1",
+      "abstract_excerpt": "In this article, we conjecture exact estimates for the Weyl-invariant Opdam-Cherednik hypergeometric functions. We prove the conjecture for the root system $A_n$ and for all rank 1 cases. We provide other evidence that the conjecture might be true in general.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses estimates for Opdam-Cherednik hypergeometric functions related to root systems, with no mention of boolean functions, communication complexity, or representation degree bounds. It shares only the 'hypergeometric' vocabulary without interacting with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2105.15031",
+      "title": "Complex hypergeometric functions and integrable many-body problems",
+      "abstract_excerpt": "General reduction of the elliptic hypergeometric equation to the level of complex hypergeometric functions is described. The derived equation is generalized to the Hamiltonian eigenvalue problem for new rational integrable $N$-body systems emerging from particular degenerations of the elliptic Ruijsenaars and van Diejen models.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns reductions of elliptic hypergeometric equations to integrable many-body Hamiltonian systems, with no mention of boolean functions, communication complexity, or representation degree bounds. It shares only the 'hypergeometric' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1505.02900",
+      "title": "Finite hypergeometric functions",
+      "abstract_excerpt": "Finite hypergeometric functions are complex valued functions on finite fields which are the analogue of the classical analytic hypergeometric functions. From the work of N.M.Katz it follows that their values are traces of Frobenius on certain l-adic sheafs. More concretely, in many instances their values can be used to give formulas for pointcounts of F_q-rational points on certain varieties. In this paper we work out the case of one-variable functions whose monodromy in the analytic case can be",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns finite hypergeometric functions over finite fields and their connection to Frobenius traces and point counts on varieties, with no mention of boolean functions, communication complexity, or representation degree bounds. It shares only the 'hypergeometric' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

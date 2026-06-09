@@ -1,0 +1,40 @@
+{
+  "entry_id": "77563e86cfb1",
+  "ts": 1780984344.132493,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/nucl-th/0406024v1",
+      "title": "Field theory Lagrangian approach to nuclear structure",
+      "abstract_excerpt": "We show that in the search of a unified mean field description of finite nuclei and of nuclear and neutron matter even at high densities, the relativistic nuclear model derived from effective field theory and density functional theory methods constitutes a competitive framework. The model predicts a",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses a relativistic nuclear mean field model from effective field theory and density functional theory for nuclear structure, with no mention of conformal anomaly indices, DPLL search trees, or CNF satisfiability.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1409.5893",
+      "title": "Fast evaluation of far-field signals for time-domain wave propagation",
+      "abstract_excerpt": "Time-domain simulation of wave phenomena on a finite computational domain often requires a fictitious outer boundary. An important practical issue is the specification of appropriate boundary conditions on this boundary, often conditions of complete transparency. Attention to this issue has been paid elsewhere, and here we consider a different, although related, issue: far-field signal recovery. Namely, from smooth data recorded on the outer boundary we wish to recover the far-field signal which",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns far-field signal recovery for time-domain wave propagation via sum-of-exponentials kernel compression, with no mention of conformal anomaly indices, CNF formulas, or DPLL search trees.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:cs/0604089",
+      "title": "Evolutionary Socioeconomics: a Schumpeterian Computer Simulation",
+      "abstract_excerpt": "The following note contains a computer simulation concerning the struggle between two companies: the first one is \"the biggest zaibatsu of all\", while the second one is \"small, fast, ruthless\". The model is based on a neo-Schumpeterian framework operating in a Darwinian evolutionary environment. After running the program a large number of times, two characteristics stand out: -- There is always a winner which takes it all, while the loser disappears. -- The key to success is the ability to emplo",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a Schumpeterian/Darwinian computer simulation of competition between two companies, with no mention of conformal field theory, DPLL search trees, CNF formulas, or anomaly indices.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

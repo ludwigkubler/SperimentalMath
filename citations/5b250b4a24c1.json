@@ -1,0 +1,31 @@
+{
+  "entry_id": "5b250b4a24c1",
+  "ts": 1780985957.8738472,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:477b1ed4879f6116fcf7f9193903c6339c546c52",
+      "title": "Generators and relations for as a monoidal 2-category.",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available for this paper, so I cannot assess whether it addresses the relationship between Frege proof depth and monoidal category generators. The title only mentions generators and relations for a monoidal 2-category, with no indication of any connection to proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10.1016/s0140-6736(22)00532-3",
+      "title": "Measuring the availability of human resources for health and its relationship to universal health coverage for 204 countries and territories from 1990 to 2019: a systematic analysis for the Global Burden of Disease Study 2019",
+      "abstract_excerpt": "Summary Background Human resources for health (HRH) include a range of occupations that aim to promote or improve human health. The UN Sustainable Development Goals (SDGs) and the WHO Health Workforce 2030 strategy have drawn attention to the importance of HRH for achieving policy priorities such as universal health coverage (UHC). Although previous research has found substantial global disparities in HRH, the absence of comparable cross-national estimates of existing workforces has hindered eff",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns global estimation of human resources for health and universal health coverage, with no relation to category theory or Frege proof complexity. The phrase 'Measuring the availability of human resources for health' confirms this is a public health paper unrelated to the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "842889a65160",
+  "ts": 1780984123.5047836,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1705.03037",
+      "title": "Syllogistic Logic with Cardinality Comparisons, On Infinite Sets",
+      "abstract_excerpt": "This paper enlarges classical syllogistic logic with assertions having to do with comparisons between the sizes of sets. So it concerns a logical system whose sentences are of the following forms: {\\sf All $x$ are $y$} and {\\sf Some $x$ are $y$}, {\\sf There are at least as many $x$ as $y$}, and {\\sf There are more $x$ than $y$}. Here $x$ and $y$ range over subsets (not elements) of a given \\emph{infinite} set. Moreover, $x$ and $y$ may appear complemented (i.e., as $\\overset{-}{x}$ and $\\overset",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns syllogistic logic with cardinality comparisons on infinite sets and its soundness/completeness, with no mention of categorical logic representations, SAT instances, or DPLL search tree height. It shares no substantive interaction with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1309.6883",
+      "title": "Predicate Logic as a Modeling Language: Modeling and Solving some Machine Learning and Data Mining Problems with IDP3",
+      "abstract_excerpt": "This paper provides a gentle introduction to problem solving with the IDP3 system. The core of IDP3 is a finite model generator that supports first order logic enriched with types, inductive definitions, aggregates and partial functions. It offers its users a modeling language that is a slight extension of predicate logic and allows them to solve a wide range of search problems. Apart from a small introductory example, applications are selected from problems that arose within machine learning an",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes the IDP3 system for modeling machine learning and data mining problems using predicate logic with a finite model generator, with no mention of categorical logic, DPLL search trees, or any bounds relating representation size to search tree height.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0905.3108",
+      "title": "A Note on the Complexity of the Satisfiability Problem for Graded Modal Logics",
+      "abstract_excerpt": "Graded modal logic is the formal language obtained from ordinary (propositional) modal logic by endowing its modal operators with cardinality constraints. Under the familiar possible-worlds semantics, these augmented modal operators receive interpretations such as \"It is true at no fewer than 15 accessible worlds that...\", or \"It is true at no more than 2 accessible worlds that...\". We investigate the complexity of satisfiability for this language over some familiar classes of frames. This probl",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses complexity bounds for satisfiability in graded modal logics over various frame classes, with no mention of categorical logic representations, DPLL search trees, or any morphism-count vs. tree-height relationship.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
