@@ -1,0 +1,40 @@
+{
+  "entry_id": "cf1cdacfb2f6",
+  "ts": 1780980250.661703,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2210.11938",
+      "title": "On the Goncharov Depth Conjecture and polylogarithms of depth two",
+      "abstract_excerpt": "We prove the surjectivity part of Goncharov's depth conjecture. We also show that the depth conjecture implies that multiple polylogarithms of depth $d$ and weight $n$ can be expressed via a single function $\\mathrm{Li}_{n-d+1,1,\\dots,1}(a_1,a_2,\\dots,a_d)$, and we prove this latter statement for $d=2$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Goncharov's depth conjecture about multiple polylogarithms in algebraic geometry/number theory, with no mention of Coxeter groups, Frege proofs, CNF formulas, or proof complexity. The shared word 'depth' refers to a completely different mathematical concept.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1306.0725",
+      "title": "Algebraic quotient modules and subgroup depth",
+      "abstract_excerpt": "In arXiv:1210.3178 it was shown that subgroup depth may be computed from the permutation module of the left or right cosets: this holds more generally for a Hopf subalgebra, from which we note in this paper that finite depth of a Hopf subalgebra R &lt; H is equivalent to the H-module coalgebra Q = H/R^+H representing an algebraic element in the Green ring of H or R. This approach shows that subgroup depth and the subgroup depth of the corefree quotient lie in the same closed interval of length o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'subgroup depth' of Hopf subalgebras and group algebras in Drinfeld doubles, with no mention of Coxeter groups, CNF formulas, or Frege proof complexity. It shares no substantive claim with the conjecture beyond the unrelated word 'depth'.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1108.5557",
+      "title": "On the weak order of Coxeter groups",
+      "abstract_excerpt": "This paper provides some evidence for conjectural relations between extensions of (right) weak order on Coxeter groups, closure operators on root systems, and Bruhat order. The conjecture focused upon here refines an earlier question as to whether the set of initial sections of reflection orders, ordered by inclusion, forms a complete lattice. Meet and join in weak order are described in terms of a suitable closure operator. Galois connections are defined from the power set of W to itself, under",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract focuses on weak order, closure operators on root systems, and Bruhat order in Coxeter groups, with no mention of Frege proof complexity, CNF formulas, or proof depth bounds. It shares the Coxeter group vocabulary but does not interact with the specific claim about proof tree depth.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

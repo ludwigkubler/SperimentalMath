@@ -1,0 +1,40 @@
+{
+  "entry_id": "bc03cdc6947c",
+  "ts": 1780977696.321564,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2110.06573",
+      "title": "A Parametric and Feasibility Study for Data Sampling of the Dynamic Mode Decomposition--Range, Resolution, and Universal Convergence States",
+      "abstract_excerpt": "Scientific research and engineering practice often require the modeling and decomposition of nonlinear systems. The Dynamic Mode Decomposition (DMD) is a novel Koopman-based technique that effectively dissects high-dimensional nonlinear systems into periodically distinct constituents on reduced-order subspaces. As a novel mathematical hatchling, the DMD bears vast potentials yet an equal degree of unknown. This serial effort investigates the nuances of DMD sampling with an engineering-oriented e",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Dynamic Mode Decomposition sampling for turbulent fluid flow, with no mention of topological entropy, Tseitin graphs, CNF formulas, or resolution proof complexity. The shared word 'resolution' refers to sampling resolution, not proof resolution.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0911.3482",
+      "title": "Complexity of Networks (reprise)",
+      "abstract_excerpt": "Network or graph structures are ubiquitous in the study of complex systems. Often, we are interested in complexity trends of these system as it evolves under some dynamic. An example might be looking at the complexity of a food web as species enter an ecosystem via migration or speciation, and leave via extinction.\n  In a previous paper, a complexity measure of networks was proposed based on the {\\em complexity is information content} paradigm. To apply this paradigm to any object, one must fix ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses an information-content-based complexity measure for networks/graphs, with no mention of topological entropy, Tseitin formulas, resolution proof width, or CNF satisfiability. It shares only the loose vocabulary of 'complexity' and 'networks' but does not engage with the specific O(n^1.5) entropy bound conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1401.1557",
+      "title": "Dynamics of hyperbolic iwips",
+      "abstract_excerpt": "We present two proofs of the fact, originally due to Reiner Martin, that any fully irreducible hyperbolic element of $Out(F_N)$ acts on the projectivized space of geodesic currents $\\mathbb{P}Curr(F_N)$ with uniform north-south dynamics. The first proof, using purely train-track methods, provides an elaborated and corrected version of Reiner Martin's original approach. The second proof uses the geometric intersection form of Kapovich and Lustig and relies on unique ergodicity results from symbol",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns north-south dynamics of fully irreducible hyperbolic elements of Out(F_N) on projectivized geodesic currents, with no mention of CNF formulas, Tseitin graphs, topological entropy bounds, or resolution proof complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

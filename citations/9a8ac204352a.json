@@ -1,0 +1,40 @@
+{
+  "entry_id": "9a8ac204352a",
+  "ts": 1780978747.8934023,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1503.07648",
+      "title": "Sign rank versus VC dimension",
+      "abstract_excerpt": "This work studies the maximum possible sign rank of $N \\times N$ sign matrices with a given VC dimension $d$. For $d=1$, this maximum is {three}. For $d=2$, this maximum is $\\tildeΘ(N^{1/2})$. For $d &gt;2$, similar but slightly less accurate statements hold. {The lower bounds improve over previous ones by Ben-David et al., and the upper bounds are novel.}\n  The lower bounds are obtained by probabilistic constructions, using a theorem of Warren in real algebraic topology. The upper bounds are ob",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract studies sign rank versus VC dimension with connections to communication complexity, geometry, and learning theory, but says nothing about 'rank variance' or any 'noncommutative geometric invariant' of a data space, so it neither supports nor refutes the specific Θ(R) claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:cs/0608054",
+      "title": "Dispersion of Mass and the Complexity of Randomized Geometric Algorithms",
+      "abstract_excerpt": "How much can randomness help computation? Motivated by this general question and by volume computation, one of the few instances where randomness provably helps, we analyze a notion of dispersion and connect it to asymptotic convex geometry. We obtain a nearly quadratic lower bound on the complexity of randomized volume algorithms for convex bodies in R^n (the current best algorithm has complexity roughly n^4, conjectured to be n^3). Our main tools, dispersion of random determinants and dispersi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns dispersion in convex geometry and lower bounds for randomized volume algorithms, with no mention of noncommutative geometric invariants or communication complexity rank variance. The shared vocabulary ('dispersion', 'variance', 'complexity') does not engage with the specific mgi(data_space) = Θ(R) claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2211.07055",
+      "title": "Geometric complexity theory for product-plus-power",
+      "abstract_excerpt": "According to Kumar's recent surprising result (ToCT'20), a small border Waring rank implies that the polynomial can be approximated as a sum of a constant and a small product of linear polynomials. We prove the converse of Kumar's result and establish a tight connection between border Waring rank and the model of computation in Kumar's result. In this way, we obtain a new formulation of border Waring rank, up to a factor of the degree. We connect this new formulation to the orbit closure problem",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns geometric complexity theory, border Waring rank, and orbit closures of polynomials — it makes no claim about noncommutative geometric invariants or communication complexity rank variance, so it neither supports nor refutes the conjecture despite sharing 'geometric' and 'rank' vocabulary.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

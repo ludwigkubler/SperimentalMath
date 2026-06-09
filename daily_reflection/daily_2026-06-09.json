@@ -1,0 +1,124 @@
+{
+  "ts": 1780975984.2593067,
+  "window_h": 24.0,
+  "n_conjectures": 223,
+  "n_papers": 84,
+  "n_scoops": 3,
+  "scoops": [
+    {
+      "paper_id": "2606.06686v1",
+      "paper_title": "On the Hardness of Optimal Motion on Trees",
+      "matched_eid": "0bb338e75b8b",
+      "similarity": 0.7286498938225097
+    },
+    {
+      "paper_id": "2606.07471v1",
+      "paper_title": "Dirac subgraphs of powers of cycles are Hamiltonian",
+      "matched_eid": "9d3b5f3f6b3b",
+      "similarity": 0.7241390400948401
+    },
+    {
+      "paper_id": "2606.06905v1",
+      "paper_title": "An Explicit $O(r\\log r)$ Threshold for Attaining the Semple--Steel Bound with $r$-State Characters",
+      "matched_eid": "d7df69547b7e",
+      "similarity": 0.7546370029628949
+    }
+  ],
+  "top_overlap": [
+    {
+      "score": 0.755,
+      "paper_id": "2606.06905v1",
+      "paper_title": "An Explicit $O(r\\log r)$ Threshold for Attaining the Semple--Steel Bound with $r$-State Characters",
+      "paper_category": "math.CO",
+      "matched_conjecture_eid": "d7df69547b7e",
+      "matched_conjecture_title": "Coxeter Group Enumeration Bound on DPLL Search Tree Height"
+    },
+    {
+      "score": 0.729,
+      "paper_id": "2606.06686v1",
+      "paper_title": "On the Hardness of Optimal Motion on Trees",
+      "paper_category": "cs.RO",
+      "matched_conjecture_eid": "0bb338e75b8b",
+      "matched_conjecture_title": "Arithmetic Hierarchy Invariant Bound on Resolution Proof Width via Diophantine Approximation"
+    },
+    {
+      "score": 0.724,
+      "paper_id": "2606.07471v1",
+      "paper_title": "Dirac subgraphs of powers of cycles are Hamiltonian",
+      "paper_category": "math.CO",
+      "matched_conjecture_eid": "9d3b5f3f6b3b",
+      "matched_conjecture_title": "Minimal Cyclic Order and Resolution Proof Width Lower Bound"
+    },
+    {
+      "score": 0.718,
+      "paper_id": "2606.07261v1",
+      "paper_title": "Universal Fourier-inertia bounds for prescribed even distances",
+      "paper_category": "math.CO",
+      "matched_conjecture_eid": "e550dda25cf5",
+      "matched_conjecture_title": "Minimal Quadratic Residues in Arithmetic Progression Bound on Resolution Proof Width"
+    },
+    {
+      "score": 0.717,
+      "paper_id": "2606.06807v1",
+      "paper_title": "Halving the original Kalton--Roberts upper bound for nearly additive set functions",
+      "paper_category": "math.CO",
+      "matched_conjecture_eid": "b96444061084",
+      "matched_conjecture_title": "Algebraic K-Theory Invariant Bound on SAT Clause Complexity"
+    },
+    {
+      "score": 0.716,
+      "paper_id": "2606.06987v1",
+      "paper_title": "Tight Bound for Nikiforov's Spectral Even-Cycle Conjecture",
+      "paper_category": "math.CO",
+      "matched_conjecture_eid": "81779fb5b2cd",
+      "matched_conjecture_title": "Dyadic Spectral Radius and Resolution Proof Width"
+    },
+    {
+      "score": 0.713,
+      "paper_id": "2605.31071v2",
+      "paper_title": "Tree Containment Parameterized by Scanwidth",
+      "paper_category": "cs.DS",
+      "matched_conjecture_eid": "a4047dc8e46e",
+      "matched_conjecture_title": "Algebraic Topology Invariant Bound on Resolution Proof Width"
+    },
+    {
+      "score": 0.712,
+      "paper_id": "2606.07478v1",
+      "paper_title": "Minimal Posets Realizing \\texorpdfstring{$\\mathbb{Z}_2 \\times \\mathbb{Z}_4$} as Automorphism Group",
+      "paper_category": "math.CO",
+      "matched_conjecture_eid": "8128405b5c01",
+      "matched_conjecture_title": "Coxeter-Dynkin Diagram Complexity Bound for SAT Clause Complexity"
+    },
+    {
+      "score": 0.711,
+      "paper_id": "2606.07310v1",
+      "paper_title": "On growth rates of infinite and finite sumsets",
+      "paper_category": "math.CO",
+      "matched_conjecture_eid": "c6142ec20dd6",
+      "matched_conjecture_title": "Persistent H1 Lifespan Bounds Resolution Width on Tseitin Formulas"
+    },
+    {
+      "score": 0.71,
+      "paper_id": "2606.06643v1",
+      "paper_title": "New relations for the Penrose polynomial",
+      "paper_category": "math.CO",
+      "matched_conjecture_eid": "4837265cf68d",
+      "matched_conjecture_title": "Algebraic Hodge Theory Invariant Bound on Communication Complexity"
+    }
+  ],
+  "stats": {
+    "n_cycles": 223,
+    "verdicts": {
+      "INCONCLUSIVE": 122,
+      "BARRIER_HIT": 101
+    },
+    "focus_distribution": {},
+    "top_fields_A": {
+      "Algebraic Topology (Local Systems)": 10,
+      "p-Adic Number Theory": 8,
+      "Symplectic Geometry": 8,
+      "Coxeter Group Theory": 8,
+      "Tropical Geometry": 6
+    }
+  }
+}

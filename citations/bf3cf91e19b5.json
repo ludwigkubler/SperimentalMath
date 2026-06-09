@@ -1,0 +1,40 @@
+{
+  "entry_id": "bf3cf91e19b5",
+  "ts": 1780979514.1142478,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1305.0052",
+      "title": "On the Limit Set of Root Systems of Coxeter Groups acting on Lorentzian spaces",
+      "abstract_excerpt": "The notion of limit roots of a Coxeter group W was recently introduced (see arXiv:1112.5415 and arXiv:1303.6710): they are the accumulation points of directions of roots of a root system for W. In the case where the root system lives in a Lorentzian space W admits a faithful representation as a discrete reflection group of isometries on a hyperbolic space; the accumulation set of any of its orbits is then classically called the limit set of W. In this article we show that the limit roots of a Co",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns limit roots and limit sets of Coxeter groups acting on Lorentzian spaces in hyperbolic geometry, with no mention of Frege proofs, proof depth, or any connection to proof complexity. It shares only the 'Coxeter group' vocabulary but does not address rank bounds tied to proof-theoretic objects.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2110.04204",
+      "title": "Development of an Extractive Title Generation System Using Titles of Papers of Top Conferences for Intermediate English Students",
+      "abstract_excerpt": "The formulation of good academic paper titles in English is challenging for intermediate English authors (particularly students). This is because such authors are not aware of the type of titles that are generally in use. We aim to realize a support system for formulating more effective English titles for intermediate English and beginner authors. This study develops an extractive title generation system that formulates titles from keywords extracted from an abstract. Moreover, we realize a titl",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes an extractive title generation system using BERT trained on top-conference paper titles, which has no relation to Coxeter groups or Frege proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1905.00470",
+      "title": "Semi-automatic System for Title Construction",
+      "abstract_excerpt": "In this paper, we propose a semi-automatic system for title construction from scientific abstracts. The system extracts and recommends impactful words from the text, which the author can creatively use to construct an appropriate title for the manuscript. The work is based on the hypothesis that keywords are good candidates for title construction. We extract important words from the document by inducing a supervised keyword extraction model. The model is trained on novel features extracted from ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a 'semi-automatic system for title construction from scientific abstracts' using keyword extraction, which has no interaction with Coxeter groups or Frege proof depth.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
