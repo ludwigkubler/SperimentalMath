@@ -1,9 +1,9 @@
-# SEC P-vs-NP — System Status: **🟡 DEGRADED**
+# SEC P-vs-NP — System Status: **🟢 OK**
 
-_Updated: 2026-06-09T03:10:01.881432+00:00 (auto-refresh every 5 min)_
+_Updated: 2026-06-09T03:15:01.804256+00:00 (auto-refresh every 5 min)_
 
 - CRITICAL failures: **0**
-- DEGRADED failures: **1**
+- DEGRADED failures: **0**
 
 ## Checks
 
@@ -11,17 +11,17 @@ _Updated: 2026-06-09T03:10:01.881432+00:00 (auto-refresh every 5 min)_
 |:------|:-------|:-------|
 | `explorer_process` | ✅ | pid 628958 |
 | `explorer_singleton` | ✅ | 1 explorer process(es) |
-| `explorer_cycle_fresh` | ✅ | last activity 0.01h ago |
+| `explorer_cycle_fresh` | ✅ | last activity 0.00h ago |
 | `sec_entity_service` | ✅ | active |
 | `cron_service` | ✅ | active |
 | `gpu` | ✅ | NVIDIA GeForce RTX 3070 Ti |
 | `disk_under_90pct` | ✅ | 17% used |
-| `ram_above_1g` | ✅ | 12701 MB available |
-| `mirror_git_fresh` | ✅ | last commit 0.38h ago |
+| `ram_above_1g` | ✅ | 12597 MB available |
+| `mirror_git_fresh` | ✅ | last commit 0.08h ago |
 | `mirror_git_pushed` | ✅ | 0 unpushed (within tolerance) |
-| `notebook_growing` | ✅ | newest entry 0.46h ago |
+| `notebook_growing` | ✅ | newest entry 0.54h ago |
 | `entity_audit_log` | ✅ | dir ok, no entries today (chat-idle) |
-| `cron_logs_no_trace` | 🟡 | pvsnp_explorer.log |
+| `cron_logs_no_trace` | ✅ | all clean |
 | `watchdog_self_heartbeat` | ✅ | 5.0 min ago |
 
 ---
