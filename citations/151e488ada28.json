@@ -1,0 +1,40 @@
+{
+  "entry_id": "151e488ada28",
+  "ts": 1781032459.8322186,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/cond-mat/0703156v1",
+      "title": "Vortex Quasi-Crystals",
+      "abstract_excerpt": "There seems to be a one to one correspondence between the phases of atomic and molecular matter (AMOM) and vortex matter (VM) in superconductors. Crystals, liquids and glasses have been experimentally observed in both AMOM and VM. However, quasi-crystals also exist in AMOM, thus a new phase of vorte",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns vortex quasi-crystals in superconductors as a physical analogue to atomic/molecular matter phases, with no mention of CNF formulas, DPLL search trees, or combinatorial complexity bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1702.02998",
+      "title": "Crystals and trees: quasi-Kashiwara operators, monoids of binary trees, and Robinson--Schensted-type correspondences",
+      "abstract_excerpt": "Kashiwara's crystal graphs have a natural monoid structure that arises by identifying words labelling vertices that appear in the same position of isomorphic components. The celebrated plactic monoid (the monoid of Young tableaux), arises in this way from the crystal graph for the $q$-analogue of the general linear Lie algebra $\\mathfrak{gl}_{n}$, and the so-called Kashiwara operators interact beautifully with the combinatorics of Young tableaux and with the Robinson--Schensted--Knuth correspond",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'quasi-crystal' structures in the algebraic/combinatorial sense of Kashiwara crystals applied to monoids of binary trees, with no mention of CNF formulas, DPLL search, or SAT-solving complexity bounds. The shared vocabulary ('quasi-crystal', 'trees') is coincidental and does not engage with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2309.14898",
+      "title": "A local characterization of quasi-crystal graphs",
+      "abstract_excerpt": "It is provided a local characterization of quasi-crystal graphs, by presenting a set of local axioms, similar to the ones introduced by Stembridge for crystal graphs of simply-laced root systems. It is also shown that quasi-crystal graphs satisfying these axioms are closed under the tensor product recently introduced by Cain, Guilherme and Malheiro. It is deduced that each connected component of such a graph has a unique highest weight element, whose weight is a composition, and it is isomorphic",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns local axiomatic characterization of quasi-crystal graphs and their tensor product closure in algebraic combinatorics, with no mention of CNF formulas, DPLL search trees, or complexity bounds like O(n^(1/2)).",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

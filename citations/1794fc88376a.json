@@ -1,0 +1,40 @@
+{
+  "entry_id": "1794fc88376a",
+  "ts": 1781032928.2439954,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1801.02665",
+      "title": "Symbolic relative entropy in quantifying nonlinear dynamics of equalities-involved heartbeats",
+      "abstract_excerpt": "Symbolic relative entropy, an efficient nonlinear complexity parameter measuring probabilistic divergences of symbolic sequences, is proposed in our nonlinear dynamics analysis of heart rates considering equal states. Equalities are not rare in discrete heartbeats because of the limits of resolution of signals collection, and more importantly equal states contain underlying important cardiac regulation information which is neglected by some chaotic deterministic parameters and temporal asymmetri",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'symbolic relative entropy' applied to 'nonlinear dynamics analysis of heart rates,' which shares only the vocabulary of symbolic dynamics/entropy but does not address DPLL search trees or topological entropy bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/cond-mat/0207407v2",
+      "title": "Symbolic Dynamics for Discrete Adaptive Games",
+      "abstract_excerpt": "We use symbolic dynamics to study discrete adaptive games, such as the minority game and the El Farol Bar problem. We show that no such game can have deterministic chaos. We put upper bounds on the statistical complexity and period of these games; the former is at most linear in the number agents an",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns symbolic dynamics applied to adaptive games (minority game, El Farol Bar) and bounds on statistical complexity/period of those games, not the topological entropy of DPLL search tree transition maps. Shared vocabulary ('symbolic dynamics', 'upper bounds') but no interaction with the specific DPLL claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2501.00023",
+      "title": "Dynamics of Pendulum Forced by a Magnetic Excitation with Position-Dependent Phase",
+      "abstract_excerpt": "This study investigates the dynamics of a magnetic pendulum under time-varying magnetic excitation with a position-dependent phase. The system exhibits complex chaotic and regular dynamics, validated through simulations and experiments. The mathematical model, based on a physical setup, includes a magnetic excitation torque with phase dependence on the dynamic variable. Bifurcation analyses confirm the rich multistability of the system, showcasing periodic attractors, period-doubling bifurcation",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns chaotic dynamics of a physical magnetic pendulum system ('magnetic pendulum under time-varying magnetic excitation'), with no connection to topological entropy bounds, symbolic dynamics, or DPLL search tree complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

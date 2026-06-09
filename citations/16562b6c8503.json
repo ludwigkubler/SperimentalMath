@@ -1,0 +1,40 @@
+{
+  "entry_id": "16562b6c8503",
+  "ts": 1781032065.4588575,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0610043v5",
+      "title": "Lecture Notes on Noncommutative Algebraic Geometry and Noncommutative Tori",
+      "abstract_excerpt": "The first part of these notes gives an introduction to noncommutative projective geometry after Artin--Zhang. The second part provides an overview of the work of Polishchuk that reconciles noncommutative two-tori having real multiplication with the Artin--Zhang setting.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes 'noncommutative projective geometry after Artin--Zhang' and 'noncommutative two-tori having real multiplication,' with no mention of Boolean circuits, circuit depth, or any complexity-theoretic claim. It shares the noncommutative geometry vocabulary but does not interact with the conjecture's specific claim about circuit depth.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0705.1265",
+      "title": "A noncommutative Bohnenblust-Spitzer identity for Rota-Baxter algebras solves Bogoliubov's recursion",
+      "abstract_excerpt": "The Bogoliubov recursion is a particular procedure appearing in the process of renormalization in perturbative quantum field theory. It provides convergent expressions for otherwise divergent integrals. We develop here a theory of functional identities for noncommutative Rota-Baxter algebras which is shown to encode, among others, this process in the context of Connes-Kreimer's Hopf algebra of renormalization. Our results generalize the seminal Cartier-Rota theory of classical Spitzer-type ident",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns noncommutative Rota-Baxter algebras and Bogoliubov's recursion in perturbative renormalization, with no mention of Boolean circuits, circuit depth, or K-theory bounds. It shares only the broad 'noncommutative' vocabulary without engaging the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2102.01659",
+      "title": "Capacity and quantum geometry of parametrized quantum circuits",
+      "abstract_excerpt": "To harness the potential of noisy intermediate-scale quantum devices, it is paramount to find the best type of circuits to run hybrid quantum-classical algorithms. Key candidates are parametrized quantum circuits that can be effectively implemented on current devices. Here, we evaluate the capacity and trainability of these circuits using the geometric structure of the parameter space via the effective quantum dimension, which reveals the expressive power of circuits in general as well as of par",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns parametrized quantum circuits and their expressive capacity via 'effective quantum dimension' and parameter-space geometry, not noncommutative geometric variables representing Boolean circuits or any linear relation to Boolean circuit depth. It shares 'geometry' and 'circuit depth' vocabulary but does not address the specific n(G) = Θ(d(G)) claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

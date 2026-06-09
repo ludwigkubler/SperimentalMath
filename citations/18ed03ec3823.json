@@ -1,0 +1,40 @@
+{
+  "entry_id": "18ed03ec3823",
+  "ts": 1781031017.0096312,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1611.05956",
+      "title": "Galois and Cartan Cohomology of Real Groups",
+      "abstract_excerpt": "Real forms of a complex reductive group are classified by Galois cohomology H^1(Gamma,G_ad) where G_ad is the adjoint group. Cartan's classification of real forms in terms of maximal compact subgroups can be stated in terms of H^(Z/2Z,G_ad) where the action is by a (holomorphic) Cartan involution. The main result is that for any complex reductive group, possibly disconnected, there is a canonical isomorphism between H^1(Gamma,G) and H^1(Z/2Z,G). As applications we give short proofs of some well ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Galois and Cartan cohomology of real reductive groups and classification of real forms, with no mention of Tseitin formulas, Frege proof width, or graph-theoretic cohomological dimension. It shares only the broad term 'cohomology' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/hep-ph/0610012v1",
+      "title": "Tevatron-for-LHC Report of the QCD Working Group",
+      "abstract_excerpt": "The experiments at Run 2 of the Tevatron have each accumulated over 1 inverse femtobarn of high-transverse momentum data. Such a dataset allows for the first precision (i.e. comparisons between theory and experiment at the few percent level) tests of QCD at a hadron collider. While the Large Hadron ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns QCD measurements at the Tevatron hadron collider, which has no connection to group cohomology, Tseitin formulas, or Frege proof width as claimed in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1310.7917",
+      "title": "Galois Cohomology of Real Groups",
+      "abstract_excerpt": "Real forms of a complex reductive group are classified in terms of Galois cohomology $H^1(Γ,G_{ad})$ where $G_{ad}$ is the adjoint group. Alternatively, the theory of the Cartan involution gives a description in terms of cohomology with respect to a holomorphic involution: $H^1(\\mathbb Z/2\\mathbb Z,G_{ad})$ where the non trivial element acts by a holomorphic involution $θ$.\n  The main theorem is that in general, if $θ$ is the Cartan involution of a real form $σ$, there is a canonical isomorphism",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Galois cohomology classifying real forms of complex reductive groups via H^1(Γ,G_ad), with applications to representation theory of real groups—it makes no mention of Tseitin formulas, Frege proof width, or proof complexity. It shares only the broad vocabulary of 'cohomology' with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
