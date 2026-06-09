@@ -1,0 +1,40 @@
+{
+  "entry_id": "530f15aa3d0f",
+  "ts": 1781004466.7121277,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1411.3703",
+      "title": "Noncommutative Geometry and Conformal Geometry. II. Connes-Chern character and the local equivariant index theorem",
+      "abstract_excerpt": "This paper is the second part of a series of papers on noncommutative geometry and conformal geometry. In this paper, we compute explicitly the Connes-Chern character of an equivariant Dirac spectral triple. The formula that we obtain for which was used in the first paper of the series. The computation has two main steps. The first step is the justification that the CM cocycle represents the Connes-Chern character. The second step is the computation of the CM cocycle as a byproduct of a new proo",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the Connes-Chern character and equivariant index theorem in noncommutative/conformal geometry, with no mention of CNF formulas, Frege proof complexity, or representation dimensions of Boolean formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1501.00156",
+      "title": "The Standard Model in Noncommutative Geometry and Morita equivalence",
+      "abstract_excerpt": "We discuss some properties of the spectral triple $(A_F,H_F,D_F,J_F,γ_F)$ describing the internal space in the noncommutative geometry approach to the Standard Model, with $A_F=\\mathbb{C}\\oplus\\mathbb{H}\\oplus M_3(\\mathbb{C})$. We show that, if we want $H_F$ to be a Morita equivalence bimodule between $A_F$ and the associated Clifford algebra, two terms must be added to the Dirac operator; we then study its relation with the orientability condition for a spectral triple. We also illustrate what ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses spectral triples and Morita equivalence for the Standard Model's internal space ('spectral triple describing the internal space in the noncommutative geometry approach to the Standard Model'), with no connection to CNF representations or Frege proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0409179v2",
+      "title": "$\\mathbf Z_2$-graded Cech Cohomology in Noncommutative Geometry",
+      "abstract_excerpt": "The Z_2-graded Cech cohomology theory is considered in the framework of noncommutative geometry over complex number field and in particular the homotopy invariance and Morita invariance are proven.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Z_2-graded Cech cohomology, homotopy invariance, and Morita invariance in noncommutative geometry, which shares the noncommutative geometry framework vocabulary but does not address CNF representation dimensions or Frege proof complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

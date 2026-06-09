@@ -1,0 +1,40 @@
+{
+  "entry_id": "cf0bbadfb37c",
+  "ts": 1781002830.1489718,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1908.01624",
+      "title": "Learned Clause Minimization in Parallel SAT Solvers",
+      "abstract_excerpt": "Learned clauses minimization (LCM) let to performance improvements of modern SAT solvers especially in solving hard SAT instances. Despite the success of LCM approaches in sequential solvers, they are not widely incorporated in parallel SAT solvers. In this paper we explore the potential of LCM for parallel SAT solvers by defining multiple LCM approaches based on clause vivification, comparing their runtime in different SAT solvers and discussing reasons for performance gains and losses. Results",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'Learned clauses minimization (LCM)' as a runtime heuristic in parallel SAT solvers, which shares only the SAT vocabulary with the conjecture but does not address twistor geometry or any minimal representation degree bound like O(m^(1/2)).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2207.13577",
+      "title": "Scalable Proof Producing Multi-Threaded SAT Solving with Gimsatul through Sharing instead of Copying Clauses",
+      "abstract_excerpt": "We give a first account of our new parallel SAT solver Gimsatul. Its key feature is to share clauses physically in memory instead of copying them, which is the method of other state-of-the-art multi-threaded SAT solvers to exchange clauses logically. Our approach keeps information about which literals are watched in a clause local to a solving thread but shares the actual immutable literals of a clause globally among all solving threads. This design gives quite remarkable parallel scalability, a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a parallel SAT solver implementation focused on memory-sharing of clauses ('share clauses physically in memory instead of copying them'); it makes no claim about twistor geometry or any representation-degree bound.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1212.4138",
+      "title": "Integrable Complex Structures on Twistor Spaces",
+      "abstract_excerpt": "We introduce integrable complex structures on twistor spaces fibered over complex manifolds. We then show, in particular, that the twistor spaces associated with generalized Kahler, SKT and strong HKT manifolds all naturally admit complex structures. Moreover, in the strong HKT case we construct a metric and three compatible complex structures on the twistor space that have equal torsions.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses integrable complex structures on twistor spaces over complex manifolds (generalized Kahler, SKT, HKT), with no mention of Boolean formulas, SAT clauses, or representation-degree bounds. It shares only the 'twistor space' vocabulary and does not interact with the MRep(φ) = O(m^{1/2}) claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

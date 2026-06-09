@@ -1,0 +1,40 @@
+{
+  "entry_id": "27672ea6c3c7",
+  "ts": 1781003557.5199304,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1405.2700",
+      "title": "Zero Excess and Minimal Length in Finite Coxeter Groups",
+      "abstract_excerpt": "Let $\\mathcal{W}$ be the set of strongly real elements of $W$, a Coxeter group. Then for $w \\in \\mathcal{W}$, $e(w)$, the excess of $w$, is defined by $e(w) = \\min\\{\\ell(x) + \\ell(y) - \\ell(w) \\; | \\; w=xy, x^2 = y^2 = 1\\}$. When $W$ is finite we may also define $E(w)$, the reflection excess of $w$. The main result established here is that if $W$ is finite and $X$ is a $W$-conjugacy class, then there exists $w \\in X$ such that $w$ has minimal length in $X$ and $e(w) = 0 = E(w)$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns excess and minimal length in finite Coxeter groups (a result about conjugacy classes and reflection length), with no mention of hyperbolic embeddings, distortion bounds, CNF formulas, or DPLL search trees. It shares only loose vocabulary with geometric group theory but does not interact with the specific claim about logarithmic distortion or DPLL tree height.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2311.03041",
+      "title": "On the unitary representation theory of locally compact contraction groups",
+      "abstract_excerpt": "The unitary representation theory of locally compact contraction groups and their semi-direct products with $\\mathbb{Z}$ is studied. We put forward the problem of completely characterising such groups which are type I or CCR and this article provides a stepping stone towards a solution to this problem. In particular, we determine new examples of type I and non-type-I groups in this class, and we completely classify the irreducible unitary representations of the torsion-free groups, which are sho",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns unitary representation theory of locally compact contraction groups and their automorphism actions on regular trees, with no mention of CNF formulas, DPLL search trees, hyperbolic embedding distortion, or incidence complexes relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2303.14697",
+      "title": "The central tree property and algorithmic problems on subgroups of free groups",
+      "abstract_excerpt": "We study the average case complexity of the uniform membership problem for subgroups of free groups, and we show that it is orders of magnitude smaller than the worst case complexity of the best known algorithms. This applies to subgroups given by a fixed number of generators as well as to subgroups given by an exponential number of generators. The main idea behind this result is to exploit a generic property of tuples of words, called the central tree property. An application is given to the av",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns average-case complexity of the membership problem for subgroups of free groups via the 'central tree property,' with no mention of CNF formulas, DPLL search trees, hyperbolic embeddings, or distortion bounds. It shares only loose vocabulary (trees, group theory) with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "6311682009d0",
+  "ts": 1781002394.351671,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1611.00827",
+      "title": "Geometric complexity theory and matrix powering",
+      "abstract_excerpt": "Valiant's famous determinant versus permanent problem is the flagship problem in algebraic complexity theory. Mulmuley and Sohoni (Siam J Comput 2001, 2008) introduced geometric complexity theory, an approach to study this and related problems via algebraic geometry and representation theory. Their approach works by multiplying the permanent polynomial with a high power of a linear form (a process called padding) and then comparing the orbit closures of the determinant and the padded permanent. ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns geometric complexity theory, orbit closures, and algebraic complexity (determinant vs permanent), with no mention of resolution proof width, Cayley graph diameter, or geometric group theory in the sense of the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2309.16111",
+      "title": "The relational complexity of linear groups acting on subspaces",
+      "abstract_excerpt": "The relational complexity of a subgroup $G$ of $\\mathrm{Sym}(Ω)$ is a measure of the way in which the orbits of $G$ on $Ω^k$ for various $k$ determine the original action of $G$. Very few precise values of relational complexity are known. This paper determines the exact relational complexity of all groups lying between $\\mathrm{PSL}_{n}(\\mathbb{F})$ and $\\mathrm{PGL}_{n}(\\mathbb{F})$, for an arbitrary field $\\mathbb{F}$, acting on the set of $1$-dimensional subspaces of $\\mathbb{F}^n$. We also b",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses 'relational complexity' of linear groups acting on subspaces, with no mention of Cayley graph diameter, resolution proof width, or any bound relating the two. It shares only the broad 'group theory' framework with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2510.10838",
+      "title": "Survey on Cremona groups from a median geometric point of view",
+      "abstract_excerpt": "This expository article builds on lecture notes from a minicourse entitled \"Cremona groups and CAT(0) cube complexes\" and given by the author as part of the 2023 Riverside Workshop on Geometric Group Theory. It presents recent constructions of actions of Cremona groups on median graphs aimed at both geometric group theorists and algebraic geometers.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a survey on Cremona groups and their actions on median graphs/CAT(0) cube complexes, which shares the broad geometric group theory framework but makes no claim about resolution proof width or Cayley graph diameter bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
