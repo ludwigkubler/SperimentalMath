@@ -1,0 +1,40 @@
+{
+  "entry_id": "2510f9b25cc9",
+  "ts": 1780988743.9633691,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0908.4453",
+      "title": "Depth-Independent Lower bounds on the Communication Complexity of Read-Once Boolean Formulas",
+      "abstract_excerpt": "We show lower bounds of $Ω(\\sqrt{n})$ and $Ω(n^{1/4})$ on the randomized and quantum communication complexity, respectively, of all $n$-variable read-once Boolean formulas. Our results complement the recent lower bound of $Ω(n/8^d)$ by Leonardos and Saks and $Ω(n/2^{Ω(d\\log d)})$ by Jayram, Kopparty and Raghavendra for randomized communication complexity of read-once Boolean formulas with depth $d$. We obtain our result by \"embedding\" either the Disjointness problem or its complement in any give",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses lower bounds on randomized and quantum communication complexity of read-once Boolean formulas via embedding Disjointness, with no mention of Grothendieck-Teichmüller groups or any rank bound connecting them to communication complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/quant-ph/0607173v1",
+      "title": "The one-way communication complexity of the Boolean Hidden Matching Problem",
+      "abstract_excerpt": "We give a tight lower bound of Omega(\\sqrt{n}) for the randomized one-way communication complexity of the Boolean Hidden Matching Problem [BJK04]. Since there is a quantum one-way communication complexity protocol of O(\\log n) qubits for this problem, we obtain an exponential separation of quantum a",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses randomized vs. quantum one-way communication complexity of the Boolean Hidden Matching Problem, with no mention of Grothendieck-Teichmüller groups or rank bounds tied to boolean functions.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/quant-ph/0607174v1",
+      "title": "Exponential Separation of Quantum and Classical One-Way Communication Complexity for a Boolean Function",
+      "abstract_excerpt": "We give an exponential separation between one-way quantum and classical communication complexity for a Boolean function. Earlier such a separation was known only for a relation. A very similar result was obtained earlier but independently by Kerenidis and Raz [KR06]. Our version of the result gives ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses an exponential separation between quantum and classical one-way communication complexity for a Boolean function, with no mention of Grothendieck-Teichmüller groups or rank bounds related to them.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

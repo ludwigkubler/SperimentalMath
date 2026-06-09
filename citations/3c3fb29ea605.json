@@ -1,0 +1,40 @@
+{
+  "entry_id": "3c3fb29ea605",
+  "ts": 1780990748.8978941,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2501.16039",
+      "title": "Complexity of Constructing Minimal Faithful Permutation Representations for Fitting-free Groups",
+      "abstract_excerpt": "In this paper, we investigate the complexity of computing minimal faithful permutation representations for groups without abelian normal subgroups (a.k.a. Fitting-free groups). When our groups are given as quotients of permutation groups, we exhibit a polynomial-time algorithm for constructing such representations. Furthermore, in the setting of permutation groups, we obtain an $\\textsf{NC}$ procedure for computing the minimal faithful permutation degree, and a randomized $\\textsf{NC}$ ($\\textsf",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns complexity of constructing minimal faithful permutation representations for Fitting-free groups, with no mention of word-hyperbolic groups, communication complexity, or rank variance. It shares only the loose term 'minimal representation' but does not interact with the specific Θ(v^(1/3)) claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1001.0462",
+      "title": "Representation Theory of Finite Groups",
+      "abstract_excerpt": "The point of view of these notes on the topic is to bring out the flavour that Representation Theory is an extension of the first course on Group Theory. We also emphasize the importance of the base field. These notes cover completely the theory over complex numbers which is Character Theory. A large number of worked-out examples are the main feature of these notes. The prerequisite for this note is basic group theory and linear algebra.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes introductory notes on character theory of finite groups over the complex numbers, with no mention of geometric group theory, communication complexity, rank variance, or word-hyperbolic groups. It shares only the generic term 'representation' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1405.2700",
+      "title": "Zero Excess and Minimal Length in Finite Coxeter Groups",
+      "abstract_excerpt": "Let $\\mathcal{W}$ be the set of strongly real elements of $W$, a Coxeter group. Then for $w \\in \\mathcal{W}$, $e(w)$, the excess of $w$, is defined by $e(w) = \\min\\{\\ell(x) + \\ell(y) - \\ell(w) \\; | \\; w=xy, x^2 = y^2 = 1\\}$. When $W$ is finite we may also define $E(w)$, the reflection excess of $w$. The main result established here is that if $W$ is finite and $X$ is a $W$-conjugacy class, then there exists $w \\in X$ such that $w$ has minimal length in $X$ and $e(w) = 0 = E(w)$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns excess and minimal length in finite Coxeter groups (a result about conjugacy classes having a minimal-length element with zero excess), which shares no interaction with communication complexity rank variance or word-hyperbolic group representation bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

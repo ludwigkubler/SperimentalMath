@@ -1,0 +1,40 @@
+{
+  "entry_id": "aee9c0315e6a",
+  "ts": 1780987671.772369,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1004.0653",
+      "title": "Exact Ramsey Theory: Green-Tao numbers and SAT",
+      "abstract_excerpt": "We consider the links between Ramsey theory in the integers, based on van der Waerden's theorem, and (boolean, CNF) SAT solving. We aim at using the problems from exact Ramsey theory, concerned with computing Ramsey-type numbers, as a rich source of test problems, where especially methods for solving hard problems can be developed. In order to control the growth of the problem instances, we introduce \"transversal extensions\" as a natural way of constructing mixed parameter tuples (k_1, ..., k_m)",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns SAT encodings of Ramsey-type number problems and benchmarking standard SAT solvers, with no mention of DPLL search tree dynamics, topological conjugacy, or entropy bounds as claimed by Ruelle's theorem.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2604.23037v2",
+      "title": "Approaching the Conway-99 problem using SAT solvers",
+      "abstract_excerpt": "The Conway-99 problem questions the existence of a strongly regular graph with 99 vertices and specific parameters. A \\textit{strongly} regular graph is a regular graph that exhibits two additional properties: vertices must share a fixed number of neighbours, depending on whether they are adjacent or not, given by two parameters. Despite the search space for this graph being finite, the computational power needed to traverse it is substantial. Therefore, better strategies are required in order t",
+      "abstract_source": "arxiv_local_mirror",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses using SAT solvers to attack the Conway-99 strongly regular graph problem and notes SAT solvers' 'incapability... in a reasonable time,' but says nothing about DPLL search tree entropy, topological conjugacy, or Ruelle's theorem. It shares only the SAT-solving vocabulary without addressing the specific Θ(log n) entropy claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1907.04408",
+      "title": "SAT Solvers and Computer Algebra Systems: A Powerful Combination for Mathematics",
+      "abstract_excerpt": "Over the last few decades, many distinct lines of research aimed at automating mathematics have been developed, including computer algebra systems (CASs) for mathematical modelling, automated theorem provers for first-order logic, SAT/SMT solvers aimed at program verification, and higher-order proof assistants for checking mathematical proofs. More recently, some of these lines of research have started to converge in complementary ways. One success story is the combination of SAT solvers and CAS",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes combining SAT solvers with computer algebra systems to resolve mathematical conjectures via MathCheck, with no mention of DPLL search tree entropy, topological dynamics, or Ruelle's theorem.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

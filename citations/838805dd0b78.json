@@ -1,0 +1,40 @@
+{
+  "entry_id": "838805dd0b78",
+  "ts": 1780989726.3444417,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1403.8106",
+      "title": "Recent advances on the log-rank conjecture in communication complexity",
+      "abstract_excerpt": "The log-rank conjecture is one of the fundamental open problems in communication complexity. It speculates that the deterministic communication complexity of any two-party function is equal to the log of the rank of its associated matrix, up to polynomial factors. Despite much research, we still know very little about this conjecture. Recently, there has been renewed interest in this conjecture and its relations to other fundamental problems in complexity theory. This survey describes some of th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the log-rank conjecture in communication complexity, relating deterministic communication complexity to matrix rank, which shares the vocabulary of 'rank' but does not address K-theoretic rank of characteristic varieties or resolution proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1102.2932",
+      "title": "Applications of Monotone Rank to Complexity Theory",
+      "abstract_excerpt": "Raz's recent result \\cite{Raz2010} has rekindled people's interest in the study of \\emph{tensor rank}, the generalization of matrix rank to high dimensions, by showing its connections to arithmetic formulas. In this paper, we follow Raz's work and show that \\emph{monotone rank}, the monotone variant of tensor rank and matrix rank, has applications in algebraic complexity, quantum computing and communication complexity. This paper differs from Raz's paper in that it leverages existing results to ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns monotone/tensor rank applied to algebraic complexity, quantum correlations, and communication complexity — it never mentions K-theory, characteristic varieties, CNF formulas, or resolution proof width, so it does not interact with the specific conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1409.6366",
+      "title": "A direct proof for Lovett's bound on the communication complexity of low rank matrices",
+      "abstract_excerpt": "The log-rank conjecture in communication complexity suggests that the deterministic communication complexity of any Boolean rank-r function is bounded by polylog(r). Recently, major progress was made by Lovett who proved that the communication complexity is bounded by O(r^1/2 * log r). Lovett's proof is based on known estimates on the discrepancy of low-rank matrices. We give a simple, direct proof based on a hyperplane rounding argument that in our opinion sheds more light on the reason why a r",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses communication complexity of low-rank Boolean matrices (log-rank conjecture, Lovett's O(r^{1/2} log r) bound), not K-theoretic rank of characteristic varieties of CNFs or resolution proof width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "89abea2544b0",
+  "ts": 1780989195.1916542,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1311.7326",
+      "title": "Influencing elections with statistics: Targeting voters with logistic regression trees",
+      "abstract_excerpt": "In political campaigning substantial resources are spent on voter mobilization, that is, on identifying and influencing as many people as possible to vote. Campaigns use statistical tools for deciding whom to target (\"microtargeting\"). In this paper we describe a nonpartisan campaign that aims at increasing overall turnout using the example of the 2004 US presidential election. Based on a real data set of 19,634 eligible voters from Ohio, we introduce a modern statistical framework well suited f",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns logistic regression trees for voter targeting in election campaigns ('LOgistic REgression Trees... voter segmentation'), with no connection to CNF representations, algebraic statistics model complexity, or DPLL search tree width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0603378v5",
+      "title": "Testing statistical hypothesis on random trees and applications to the protein classification problem",
+      "abstract_excerpt": "Efficient automatic protein classification is of central importance in genomic annotation. As an independent way to check the reliability of the classification, we propose a statistical approach to test if two sets of protein domain sequences coming from two families of the Pfam database are signifi",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns statistical hypothesis testing on random trees for protein classification ('test if two sets of protein domain sequences...are significantly different'), with no engagement with CNF formulas, DPLL search trees, or algebraic statistics representation length bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0912.2255",
+      "title": "Test ideals via algebras of $p^{-e}$-linear maps",
+      "abstract_excerpt": "Continuing ideas of a recent preprint of Schwede arXiv:0906.4313 we study test ideals by viewing them as minimal objects in a certain class of $F$-pure modules over algebras of p^{-e}-linear operators. This shift in the viewpoint leads to a simplified and generalized treatment, also allowing us to define test ideals in non-reduced settings.\n  In combining this with an observation of Anderson on the contracting property of p^{-e}-linear operators we obtain an elementary approach to test ideals in",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns test ideals via algebras of p^{-e}-linear maps in commutative algebra/F-singularities, with no mention of CNF formulas, DPLL search, algebraic statistics models, or representation length bounds. It shares no substantive content with the conjecture beyond the generic word 'minimal'.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

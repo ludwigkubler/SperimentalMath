@@ -1,0 +1,40 @@
+{
+  "entry_id": "649a76204c16",
+  "ts": 1780990270.8586886,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2207.02841",
+      "title": "From algorithms to connectivity and back: finding a giant component in random k-SAT",
+      "abstract_excerpt": "We take an algorithmic approach to studying the solution space geometry of relatively sparse random and bounded degree $k$-CNFs for large $k$. In the course of doing so, we establish that with high probability, a random $k$-CNF $Φ$ with $n$ variables and clause density $α= m/n \\lesssim 2^{k/6}$ has a giant component of solutions that are connected in a graph where solutions are adjacent if they have Hamming distance $O_k(\\log n)$ and that a similar result holds for bounded degree $k$-CNFs at sim",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns solution-space geometry and sampling algorithms for random k-CNFs ('giant component of solutions...connected in a graph where solutions are adjacent if they have Hamming distance'), with no mention of local cohomological defect, Frege proof width, or proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1503.01613",
+      "title": "Space proof complexity for random 3-CNFs",
+      "abstract_excerpt": "We investigate the space complexity of refuting $3$-CNFs in Resolution and algebraic systems. We prove that every Polynomial Calculus with Resolution refutation of a random $3$-CNF $φ$ in $n$ variables requires, with high probability, $Ω(n)$ distinct monomials to be kept simultaneously in memory. The same construction also proves that every Resolution refutation $φ$ requires, with high probability, $Ω(n)$ clauses each of width $Ω(n)$ to be kept at the same time in memory. This gives a $Ω(n^2)$ l",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses space complexity in Resolution and Polynomial Calculus for random 3-CNFs, with no mention of Frege proof width or local cohomological defect. While it shares the proof-complexity framework, it does not interact with the specific mld-vs-Frege-width claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1411.1619",
+      "title": "Space proof complexity for random $3$-CNFs via a $(2-ε)$-Hall's Theorem",
+      "abstract_excerpt": "We investigate the space complexity of refuting $3$-CNFs in Resolution and algebraic systems. No lower bound for refuting any family of $3$-CNFs was previously known for the total space in resolution or for the monomial space in algebraic systems. We prove that every Polynomial Calculus with Resolution refutation of a random $3$-CNF $φ$ in $n$ variables requires, with high probability, $Ω(n/\\log n)$ distinct monomials to be kept simultaneously in memory. The same construction also proves that ev",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses space complexity lower bounds for Resolution and Polynomial Calculus refutations of random 3-CNFs via a Hall's theorem variant, with no mention of Frege proof width or any cohomological/algebraic-geometric defect invariant. It shares the proof-complexity framework but does not interact with the specific mld(φ) = Θ(w(φ)) claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
