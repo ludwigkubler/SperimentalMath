@@ -1,0 +1,40 @@
+{
+  "entry_id": "41d068e0d98c",
+  "ts": 1780965098.0627065,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2503.17274",
+      "title": "Composable Uncertainty in Symmetric Monoidal Categories for Design Problems (Extended Version)",
+      "abstract_excerpt": "Applied category theory often studies symmetric monoidal categories (SMCs) whose morphisms represent open systems. These structures naturally accommodate complex wiring patterns, leveraging (co)monoidal structures for splitting and merging wires, or compact closed structures for feedback. A key example is the compact closed SMC of design problems (DP), which enables a compositional approach to co-design in engineering. However, in practice, the systems of interest may not be fully known. Recentl",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses symmetric monoidal categories for modeling uncertainty in design problems via enriched categories and Markov categories, with no mention of Boolean circuits, CNF representations, or resolution proof complexity. It shares only the 'monoidal category' vocabulary without addressing minimal representation size or proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1606.01722",
+      "title": "A Constructive Proof of Coherence for Symmetric Monoidal Categories Using Rewriting",
+      "abstract_excerpt": "A symmetric monoidal category is a category equipped with an associative and commutative (binary) product and an object which is the unit for the product. In fact, those properties only hold up to natural isomorphisms which satisfy some coherence conditions. The coherence theorem asserts the commutativity of all linear diagrams involving the left and right unitors, the associator and the braiding.\n  We prove the coherence for symmetric monoidal categories using a homotopical method based on rewr",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses coherence of symmetric monoidal categories via rewriting on Lafont's string diagrams; it makes no claim about minimal representation size, Boolean circuits, CNFs, or resolution proof width. It shares the 'symmetric monoidal category' vocabulary but does not interact with the conjectured Θ-equivalence to resolution width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2202.02493",
+      "title": "A perfect pairing for monoidal adjunctions",
+      "abstract_excerpt": "We give another proof of the fact that there is a dual equivalence between the $\\infty$-category of monoidal $\\infty$-categories with left adjoint oplax monoidal functors and that with right adjoint lax monoidal functors by constructing a perfect pairing between them.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a duality between ∞-categories of monoidal ∞-categories via oplax/lax monoidal adjoints, with no mention of Boolean circuits, CNF representations, or resolution proof width. It shares only the 'monoidal' vocabulary and does not interact with the conjecture's complexity-theoretic claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

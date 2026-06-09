@@ -1,0 +1,40 @@
+{
+  "entry_id": "4e2cafadaae7",
+  "ts": 1780965336.438175,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0511717v2",
+      "title": "The Face Semigroup Algebra of a Hyperplane Arrangement",
+      "abstract_excerpt": "This article presents a study of an algebra spanned by the faces of a hyperplane arrangement. The quiver with relations of the algebra is computed and the algebra is shown to be a Koszul algebra. It is shown that the algebra depends only on the intersection lattice of the hyperplane arrangement. A c",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a Koszul algebra structure on the face semigroup of a hyperplane arrangement depending only on the intersection lattice; it does not address geometric entropy, CNF encodings, or Frege proof depth.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0802.0878",
+      "title": "Jumping numbers of hyperplane arrangements",
+      "abstract_excerpt": "M. Saito recently proved that the jumping numbers of a hyperplane arrangement depend only on the combinatorics of the arrangement. However, a formula in terms of the combinatorial data was still missing. In this note, we give a formula and a different proof of the fact that the jumping numbers of a hyperplane arrangement depend only on the combinatorics. We also give a combinatorial formula for part of the Hodge spectrum and for the inner jumping multiplicities.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'jumping numbers' and Hodge spectrum invariants of hyperplane arrangements determined by combinatorics, with no mention of geometric entropy, CNF formulas, or Frege proof depth/complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0605643v2",
+      "title": "Generic section of a hyperplane arrangement and twisted Hurewicz maps",
+      "abstract_excerpt": "We consider a twisted version of the Hurewicz map on the complement of a hyperplane arrangement. The purpose of this paper is to prove surjectivity of the twisted Hurewicz map under some genericity conditions. As a corollary, we also prove that a generic section of the complement of a hyperplane arr",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'twisted Hurewicz map' surjectivity on hyperplane arrangement complements under genericity conditions, which shares the 'hyperplane arrangement' vocabulary but does not address geometric entropy, CNF formulas, or Frege proof depth.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

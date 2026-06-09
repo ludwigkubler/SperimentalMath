@@ -1,0 +1,31 @@
+{
+  "entry_id": "603ab748aac8",
+  "ts": 1780965576.678036,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.1007/s11424-024-3168-2",
+      "title": "CNF Characterization of Sets over ℤ2n and Its Applications in Cryptography",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available, so I cannot determine whether the paper addresses Coxeter matrix rank in relation to CNF clause complexity. The title suggests a cryptographic application of CNF characterization, which does not obviously interact with the conjecture, but a full read would be required to confirm.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10.1515/COGL.2008.018",
+      "title": "Iconicity of sequence: A corpus-based analysis of the positioning of temporal adverbial clauses in English",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper concerns linguistic analysis of temporal adverbial clause positioning in English, which has no connection to Coxeter matrices or SAT clause complexity. No abstract is available, but the title alone clearly indicates an unrelated domain.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}
