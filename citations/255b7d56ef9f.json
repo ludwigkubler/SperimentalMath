@@ -1,0 +1,40 @@
+{
+  "entry_id": "255b7d56ef9f",
+  "ts": 1781026778.0019019,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1801.01568",
+      "title": "Computational Higher Type Theory IV: Inductive Types",
+      "abstract_excerpt": "This is the fourth in a series of papers extending Martin-Löf's meaning explanation of dependent type theory to higher-dimensional types. In this installment, we show how to define cubical type systems supporting a general schema of indexed cubical inductive types whose constructors may take dimension parameters and have a specified boundary. Using this schema, we are able to specify and implement many of the higher inductive types which have been postulated in homotopy type theory, including ho",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns cubical type systems and higher inductive types in homotopy type theory, with no mention of resolution proof width, CNF formulas, or local inductive dimension of pseudo-manifolds. The shared word 'inductive' refers to type-theoretic constructors, not the discrete-geometric dimension invariant in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2301.07061",
+      "title": "A Topological Proof for a Version of Artin's Induction Theorem",
+      "abstract_excerpt": "We define a Euler characteristic $χ(X,G)$ for a finite cell complex $X$ with a finite group $G$ acting cellularly on it. Then, each $K_{i}(X)$ (a complex vector space with basis the $i$-cells of $X$) is a representation of $G$, and we define $χ(X,G)$ to be the alternating sum of the representations $K_{i}(X)$, as elements of the representation ring $R(G)$ of $G$. By adapting the ordinary proof that the alternating sum of the dimensions of the chain complexes is equal to the alternating sum of th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns an equivariant Euler characteristic and a topological proof of Artin's induction theorem about characters of finite groups, with no mention of CNF formulas, resolution proof width, or inductive dimension of pseudo-manifolds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1701.09060",
+      "title": "Automatic Kolmogorov complexity, normality and finite state dimension revisited",
+      "abstract_excerpt": "It is well known that normality can be described as incompressibility via finite automata. Still the statement and the proof of this result as given by Becher and Heiber (2013) in terms of \"lossless finite-state compressors\" do not follow the standard scheme of Kolmogorov complexity definition (an automaton is used for compression, not decompression). We modify this approach to make it more similar to the traditional Kolmogorov complexity theory (and simpler) by explicitly defining the notion of",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns automatic Kolmogorov complexity, normality of sequences, and finite-state dimension — a notion of dimension in automata theory and information theory. It does not address resolution proof width, CNF formulas, or local inductive dimension of pseudo-manifolds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

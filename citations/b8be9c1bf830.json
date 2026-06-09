@@ -1,0 +1,40 @@
+{
+  "entry_id": "b8be9c1bf830",
+  "ts": 1781027054.9564486,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2005.04577",
+      "title": "New conformal map for the trapezoidal formula for infinite integrals of unilateral rapidly decreasing functions",
+      "abstract_excerpt": "While the trapezoidal formula can attain exponential convergence when applied to infinite integrals of bilateral rapidly decreasing functions, it is not capable of this in the case of unilateral rapidly decreasing functions. To address this issue, Stenger proposed the application of a conformal map to the integrand such that it transforms into bilateral rapidly decreasing functions. Okayama and Hanada modified the conformal map and provided a rigorous error bound for the modified formula. This p",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns conformal maps applied to integrands for numerical trapezoidal integration of rapidly decreasing functions, with no mention of Riemann surface genus, communication protocols, or rank variance. It shares only the term 'conformal map' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1203.6317",
+      "title": "A remark on the field of moduli of Riemann surfaces",
+      "abstract_excerpt": "Let $S$ be a closed Riemann surface of genus $g\\geq 2$ and let ${\\rm Aut}(S)$ be its group of conformal automorphisms. It is well known that if either: (i) ${\\rm Aut}(S)$ is trivial or (ii) $S/{\\rm Aut}(S)$ is an orbifold of genus zero with exactly three cone points, then $S$ is definable over its field of moduli ${\\mathcal M}(S)$. In the complementary situation, explicit examples for which ${\\mathcal M}(S)$ is not a field of definition are known. We provide upper bounds for the minimal degree e",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns fields of moduli and definition for Riemann surfaces with conformal automorphisms, not conformal maps from the unit disk or any connection to communication protocol rank variance. It shares only the vocabulary of Riemann surfaces.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1705.00090",
+      "title": "Pluricanonical Periods over Compact Riemann Surfaces of Genus at least 2",
+      "abstract_excerpt": "This article is an attempt to generalize Riemann's bilinear relations on compact Riemann surface of genus at least 2, which may lead to new structures in the theory of hyperbolic Riemann surfaces. No significant result is obtained, the article serves to bring the readers' attention to the observation made by [Bol-1949], and some easy consequences.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes an attempt to generalize Riemann's bilinear relations on compact Riemann surfaces of genus at least 2, with no mention of communication complexity, rank variance, or conformal maps from the unit disk bounding genus. It shares only the 'compact Riemann surface' vocabulary and does not interact with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

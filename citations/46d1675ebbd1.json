@@ -1,0 +1,40 @@
+{
+  "entry_id": "46d1675ebbd1",
+  "ts": 1781026161.6584888,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2504.04416",
+      "title": "Meta-Mathematics of Computational Complexity Theory",
+      "abstract_excerpt": "We survey results on the formalization and independence of mathematical statements related to major open problems in computational complexity theory. Our primary focus is on recent findings concerning the (un)provability of complexity bounds within theories of bounded arithmetic. This includes the techniques employed and related open problems, such as the (non)existence of a feasible proof that P = NP.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract surveys formalization and independence results in bounded arithmetic for complexity theory open problems, with no mention of quasi-crystals, resolution proof width, or d-regular graph circuit representations. It shares the broad area of proof/complexity theory but does not interact with the specific qcr(G) = Θ(w(φ_G)) claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1407.6169",
+      "title": "Multiplicative Complexity of Vector Valued Boolean Functions",
+      "abstract_excerpt": "We consider the multiplicative complexity of Boolean functions with multiple bits of output, studying how large a multiplicative complexity is necessary and sufficient to provide a desired nonlinearity. For so-called $ΣΠΣ$ circuits, we show that there is a tight connection between error correcting codes and circuits computing functions with high nonlinearity. Combining this with known coding theory results, we show that functions with $n$ inputs and $n$ outputs with the highest possible nonlinea",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses multiplicative complexity (AND gate counts) of vector-valued Boolean functions and their connection to error-correcting codes, with no mention of quasi-crystals, d-regular graphs, or resolution proof width. It shares only the general Boolean-circuit vocabulary but does not interact with the specific qcr(G) vs. w(φ_G) claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2202.08909",
+      "title": "Proofs, Circuits, and Communication",
+      "abstract_excerpt": "We survey lower-bound results in complexity theory that have been obtained via newfound interconnections between propositional proof complexity, boolean circuit complexity, and query/communication complexity. We advocate for the theory of total search problems (TFNP) as a unifying language for these connections and discuss how this perspective suggests a whole programme for further research.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract surveys connections between proof complexity, boolean circuits, and communication complexity via TFNP, but makes no mention of quasi-crystals, quasi-crystalline symmetry, or any linear/Θ relationship between such a representation and resolution proof width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

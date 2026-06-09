@@ -1,0 +1,40 @@
+{
+  "entry_id": "b18c5499af92",
+  "ts": 1781025468.291542,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0610043v5",
+      "title": "Lecture Notes on Noncommutative Algebraic Geometry and Noncommutative Tori",
+      "abstract_excerpt": "The first part of these notes gives an introduction to noncommutative projective geometry after Artin--Zhang. The second part provides an overview of the work of Polishchuk that reconciles noncommutative two-tori having real multiplication with the Artin--Zhang setting.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes noncommutative projective geometry and noncommutative two-tori with real multiplication, with no mention of SAT, resolution proof width, or geometric entropy bounds. It shares only the 'noncommutative geometry' vocabulary without engaging the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1209.3595",
+      "title": "Noncommutative complex differential geometry",
+      "abstract_excerpt": "This paper defines and examines the basic properties of noncommutative analogues of almost complex structures, integrable almost complex structures, holomorphic curvature, cohomology, and holomorphic sheaves. The starting point is a differential structure on a noncommutative algebra defined in terms of a differential graded algebra. This is compared to current ideas on noncommutative algebraic geometry.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes 'noncommutative analogues of almost complex structures, integrable almost complex structures, holomorphic curvature, cohomology, and holomorphic sheaves' — pure differential geometry on noncommutative algebras, with no mention of SAT, resolution proof width, or entropy bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1612.06688",
+      "title": "The Ricci Curvature in Noncommutative Geometry",
+      "abstract_excerpt": "Motivated by the local formulae for asymptotic expansion of heat kernels in spectral geometry, we propose a definition of Ricci curvature in noncommutative settings. The Ricci operator of an oriented closed Riemannian manifold can be realized as a spectral functional, namely the functional defined by the zeta function of the full Laplacian of the de Rham complex, localized by smooth endomorphisms of the cotangent bundle and their trace. We use this formulation to introduce the Ricci functional i",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns defining Ricci curvature and computing a Ricci density on noncommutative tori via spectral triples, with no mention of SAT, resolution proof width, or entropy bounds. It shares only the 'noncommutative geometry' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
