@@ -1,0 +1,40 @@
+{
+  "entry_id": "6472bf98f101",
+  "ts": 1781019712.335566,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2601.23259",
+      "title": "Geometric Quantization by Paths, Part III: The Metaplectic Anomaly",
+      "abstract_excerpt": "In the previous parts of this work, we established the Prequantum Groupoid $\\mathbf{T}_ω$ as the universal geometric container for quantum mechanics. This approach, which we call the \"Geometric Quantization by Paths\" (GQbP) framework, replaces the traditional construction of principal bundles with the distillation of the space of histories. In this third part, we cross the \"Threshold of Analysis\" by constructing the intrinsic observable algebra of the system. The harmonic oscillator is treated h",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses geometric quantization via the Prequantum Groupoid framework, harmonic oscillator quantization, and the metaplectic anomaly producing zero-point energy — it makes no mention of Frege proofs, proof width, or any proof-complexity bound. It shares the 'geometric quantization' vocabulary but does not interact with the specific claim about mq(φ) = O(log(w(φ))).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2403.13102",
+      "title": "Geometric methods in quantum information and entanglement variational principle",
+      "abstract_excerpt": "Geometrical methods in quantum information are very promising for both providing technical tools and intuition into difficult control or optimization problems. Moreover, they are of fundamental importance in connecting pure geometrical theories, like GR, to quantum mechanics, like in the AdS/CFT correspondence. In this paper, we first make a survey of the most important settings in which geometrical methods have proven useful to quantum information theory. Then, we lay down a general framework f",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses geometric methods in quantum information and an action principle for quantum resources like entanglement, with no mention of Frege proof complexity, proof width, or any bound relating geometric quantization order to proof-theoretic measures.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0503400v2",
+      "title": "Classification of deformation quantization algebroids on complex symplectic manifolds",
+      "abstract_excerpt": "Deformation quantization algebroids over a complex symplectic manifold X are locally given by rings of WKB operators, that is, microdifferential operators with an extra central parameter τ. In this paper, we will show that such algebroids are classified by H^2(X;k^*), where k^* is a subgroup of the ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns classification of deformation quantization algebroids on complex symplectic manifolds via H^2(X;k^*), with no mention of Frege proofs, proof width, or any complexity-theoretic bound. It shares only the loose 'quantization' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

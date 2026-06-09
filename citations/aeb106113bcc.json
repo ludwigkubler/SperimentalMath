@@ -1,0 +1,40 @@
+{
+  "entry_id": "aeb106113bcc",
+  "ts": 1781018214.0365167,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1302.6946",
+      "title": "Category theory for scientists (Old version)",
+      "abstract_excerpt": "There are many books designed to introduce category theory to either a mathematical audience or a computer science audience. In this book, our audience is the broader scientific community. We attempt to show that category theory can be applied throughout the sciences as a framework for modeling phenomena and communicating results. In order to target the scientific audience, this book is example-based rather than proof-based. For example, monoids are framed in terms of agents acting on objects, s",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a general example-based introduction to category theory for scientists, mentioning monoids only as 'agents acting on objects'—it makes no claim about communication complexity rank or bounds via monoid representation depth.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1504.02694",
+      "title": "Syntactic Monoids in a Category",
+      "abstract_excerpt": "The syntactic monoid of a language is generalized to the level of a symmetric monoidal closed category D. This allows for a uniform treatment of several notions of syntactic algebras known in the literature, including the syntactic monoids of Rabin and Scott (D = sets), the syntactic semirings of Polak (D = semilattices), and the syntactic associative algebras of Reutenauer (D = vector spaces). Assuming that D is an entropic variety of algebras, we prove that the syntactic D-monoid of a language",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns generalizing syntactic monoids to symmetric monoidal closed categories and characterizing regular languages, with no mention of communication complexity, rank bounds, or representation depth. It shares the 'syntactic monoid' and category-theory vocabulary but does not interact with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2604.22370",
+      "title": "Presheaves and cocompletions in formal category theory",
+      "abstract_excerpt": "We study the relationship between presheaf constructions and free cocompletions in the context of formal category theory, elucidating the coincidence between the two concepts in familiar settings. We show that, in a virtual equipment satisfying mild assumptions, free cocompletions under classes of weights are exhibited by presheaf constructions. We furthermore extend the theory of weighted colimits from enriched category theory to this setting, developing the concepts of atomicity and rank, and ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns presheaf constructions, free cocompletions, and weighted colimits in formal/enriched category theory, with no mention of communication complexity, syntactic monoids, or function rank bounds. The shared use of 'rank' in category-theoretic sense does not interact with communication complexity rank.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

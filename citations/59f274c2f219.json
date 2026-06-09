@@ -1,0 +1,40 @@
+{
+  "entry_id": "59f274c2f219",
+  "ts": 1781019131.2563682,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0605294v3",
+      "title": "Graphs with Given Degree Sequence and Maximal Spectral Radius",
+      "abstract_excerpt": "We describe the structure of those graphs that have largest spectral radius in the class of all connected graphs with a given degree sequence. We show that in such a graph the degree sequence is non-increasing with respect to an ordering of the vertices induced by breadth-first search. For trees the",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the structural characterization of graphs maximizing spectral radius given a degree sequence ('largest spectral radius in the class of all connected graphs with a given degree sequence'), with no mention of DPLL, CNF, resolution proof complexity, or hypercube graphs.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2601.18223",
+      "title": "Minimal spectral radius of graphs with given matching number",
+      "abstract_excerpt": "The Brualdi-Solheid problem asks which graph achieves the extremal (maximum or minimum) spectral radius for a given class of graphs. This paper addresses the Brualdi-Solheid problem for \\( \\mathcal{G}_{n,β} \\), the family of graphs with order \\( n \\) and matching number \\( β\\), aiming to identify its spectrally minimal graphs i.e., those that minimize the spectral radius \\(ρ(G)\\).\n  We introduce the novel concept of ``quasi-adjacency'' relation, developing a unified structural classification fra",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses the Brualdi-Solheid problem of finding graphs with minimal spectral radius given a matching number, with no mention of DPLL search trees, CNF formulas, hypercube graphs, or resolution proof complexity. It shares only the general vocabulary of 'spectral radius' but does not interact with the conjecture's claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2603.29127",
+      "title": "New Lower Bounds for C4-Free Subgraphs of the Hypercubes Q6, Q7, and Q8: Constructions, Structure, and Computational Method",
+      "abstract_excerpt": "We establish new lower bounds ex(Q_7,C_4)&gt;=304 and ex(Q_8,C_4)&gt;=680 for the maximum number of edges in a C_4-free subgraph of the 7- and 8-dimensional hypercubes, and give a modern computational reproduction of ex(Q_6,C_4)=132. All bounds are witnessed by explicit constructions certified by exhaustive enumeration of all four-cycles (240 for Q_6, 672 for Q_7, 1792 for Q_8). For Q_7 we identify 19866 distinct C_4-free subgraphs on 304 edges; their dimension profiles fall into exactly 20 type",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns extremal C4-free subgraphs of hypercubes Q_n and their spectral radii (lambda_1 ≈ 4.787), with no mention of DPLL search trees, CNF formulas, or resolution proof complexity. It shares the hypercube/spectral vocabulary but does not interact with the conjecture's claim about bounding DPLL tree height.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
