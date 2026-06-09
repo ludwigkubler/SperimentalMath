@@ -1,0 +1,40 @@
+{
+  "entry_id": "f029f6301b77",
+  "ts": 1781030325.553335,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1208.2766",
+      "title": "Topological properties of cellular automata on trees",
+      "abstract_excerpt": "We prove that there do not exist positively expansive cellular automata defined on the full k-ary tree shift (for k&gt;=2). Moreover, we investigate some topological properties of these automata and their relationships, namely permutivity, surjectivity, preinjectivity, right-closingness and openness.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns topological properties (expansivity, permutivity, surjectivity) of cellular automata on tree shifts, which shares no interaction with the specific claim relating minimal automaton state count for SAT solutions to DPLL search tree height.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1306.5577",
+      "title": "A Note on Elementary Cellular Automata Classification",
+      "abstract_excerpt": "We overview and compare classifications of elementary cellular automata, including Wolfram's, Wuensche's, Li and Packard, communication complexity, power spectral, topological, surface, compression, lattices, and morphological diversity classifications. This paper summarises several classifications of elementary cellular automata (ECA) and compares them with a newly proposed one, that induced by endowing rules with memory.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns classifications of elementary cellular automata (Wolfram, Wuensche, etc.) and a memory-based classification, which shares no interaction with DPLL search tree height or minimal automaton state counts for SAT formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1208.2764",
+      "title": "Linear functional classes over cellular automata",
+      "abstract_excerpt": "Cellular automata are a discrete dynamical system which models  massively parallel computation. Much attention is devoted to  computations with small time complexity for which the parallelism  may provide further possibilities. In this paper, we investigate the  ability of cellular automata related to functional computation. We  introduce several functional classes of low time complexity which  contain \"natural\" problems. We examine their inclusion  relationships and emphasize that several quest",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses functional classes over cellular automata and parallel computation complexity, with no mention of Boolean satisfiability, DPLL search trees, or minimal automaton state counts for satisfying assignments. It shares only the broad 'automata' vocabulary without addressing the specific linear correlation claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

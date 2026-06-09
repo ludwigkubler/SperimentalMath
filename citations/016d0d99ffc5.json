@@ -1,0 +1,40 @@
+{
+  "entry_id": "016d0d99ffc5",
+  "ts": 1781029383.5125625,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/hep-ph/0610012v1",
+      "title": "Tevatron-for-LHC Report of the QCD Working Group",
+      "abstract_excerpt": "The experiments at Run 2 of the Tevatron have each accumulated over 1 inverse femtobarn of high-transverse momentum data. Such a dataset allows for the first precision (i.e. comparisons between theory and experiment at the few percent level) tests of QCD at a hadron collider. While the Large Hadron ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes QCD precision tests at the Tevatron and LHC ('first precision...tests of QCD at a hadron collider'), which has no connection to geometric group theory, Cayley graphs, or communication complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1611.00827",
+      "title": "Geometric complexity theory and matrix powering",
+      "abstract_excerpt": "Valiant's famous determinant versus permanent problem is the flagship problem in algebraic complexity theory. Mulmuley and Sohoni (Siam J Comput 2001, 2008) introduced geometric complexity theory, an approach to study this and related problems via algebraic geometry and representation theory. Their approach works by multiplying the permanent polynomial with a high power of a linear form (a process called padding) and then comparing the orbit closures of the determinant and the padded permanent. ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns geometric complexity theory, orbit closures, and matrix powering for the determinant vs. permanent problem—it never addresses Cayley graph generators, communication complexity rank, or any linear correlation g(L) = Θ(r(L)). It shares no substantive interaction with the specific claim about generators and communication complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2309.16111",
+      "title": "The relational complexity of linear groups acting on subspaces",
+      "abstract_excerpt": "The relational complexity of a subgroup $G$ of $\\mathrm{Sym}(Ω)$ is a measure of the way in which the orbits of $G$ on $Ω^k$ for various $k$ determine the original action of $G$. Very few precise values of relational complexity are known. This paper determines the exact relational complexity of all groups lying between $\\mathrm{PSL}_{n}(\\mathbb{F})$ and $\\mathrm{PGL}_{n}(\\mathbb{F})$, for an arbitrary field $\\mathbb{F}$, acting on the set of $1$-dimensional subspaces of $\\mathbb{F}^n$. We also b",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses 'relational complexity' of linear groups acting on subspaces, a permutation-group invariant unrelated to Cayley graph generator counts or communication complexity rank. It shares the word 'complexity' but does not interact with the conjecture's claim that g(L) = Θ(r(L)).",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

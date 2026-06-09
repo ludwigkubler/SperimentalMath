@@ -1,0 +1,40 @@
+{
+  "entry_id": "dd32dda08765",
+  "ts": 1781030562.4301567,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1210.6465",
+      "title": "Black-Box Complexity: Breaking the $O(n \\log n)$ Barrier of LeadingOnes",
+      "abstract_excerpt": "We show that the unrestricted black-box complexity of the $n$-dimensional XOR- and permutation-invariant LeadingOnes function class is $O(n \\log (n) / \\log \\log n)$. This shows that the recent natural looking $O(n\\log n)$ bound is not tight.\n  The black-box optimization algorithm leading to this bound can be implemented in a way that only 3-ary unbiased variation operators are used. Hence our bound is also valid for the unbiased black-box complexity recently introduced by Lehre and Witt (GECCO 2",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns black-box complexity of the LeadingOnes function in evolutionary algorithm analysis, breaking an O(n log n) bound in that specific setting. It shares only the numerical expression 'O(n log n)' with the conjecture and has no connection to groupoid representations of CNF formulas or resolution proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2407.04618",
+      "title": "Encoding of algebraic geometry codes with quasi-linear complexity $O(N\\log N)$",
+      "abstract_excerpt": "Fast encoding and decoding of codes have been always an important topic in code theory as well as complexity theory. Although encoding is easier than decoding in general, designing an encoding algorithm of codes of length $N$ with quasi-linear complexity $O(N\\log N)$ is not an easy task. Despite the fact that algebraic geometry codes were discovered in the early of 1980s, encoding algorithms of algebraic geometry codes with quasi-linear complexity $O(N\\log N)$ have not been found except for the ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns encoding algorithms for algebraic geometry codes with O(N log N) complexity, which shares only the O(N log N) bound vocabulary but has no connection to groupoid representations of CNF formulas or resolution proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:cs/0305005",
+      "title": "An In-Place Sorting with O(n log n) Comparisons and O(n) Moves",
+      "abstract_excerpt": "We present the first in-place algorithm for sorting an array of size n that performs, in the worst case, at most O(n log n) element comparisons and O(n) element transports.\n  This solves a long-standing open problem, stated explicitly, e.g., in [J.I. Munro and V. Raman, Sorting with minimum data movement, J. Algorithms, 13, 374-93, 1992], of whether there exists a sorting algorithm that matches the asymptotic lower bounds on all computational resources simultaneously.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns an in-place sorting algorithm achieving O(n log n) comparisons and O(n) moves, sharing only the 'O(n log n)' bound vocabulary with the conjecture but having no interaction with groupoid representations or resolution proof complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

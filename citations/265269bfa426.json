@@ -1,0 +1,40 @@
+{
+  "entry_id": "265269bfa426",
+  "ts": 1781027525.3080142,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2208.01392",
+      "title": "The Analytic Minimal Rank Sard Conjecture",
+      "abstract_excerpt": "We obtain, under an additional assumption on the subanalytic abnormal distribution constructed in [4], a proof of the minimal rank Sard conjecture in the analytic category. It establishes that from a given point the set of points accessible through singular horizontal curves of minimal rank, which corresponds to the rank of the distribution, has Lebesgue measure zero. The minimal rank Sard Conjecture is equivalent to the Sard Conjecture for co-rank 1 distributions.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the 'minimal rank Sard conjecture' for subanalytic abnormal distributions and singular horizontal curves in sub-Riemannian geometry, sharing only the phrase 'minimal rank' with the conjecture but having no connection to braided tensor categories or DPLL search complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2104.14187",
+      "title": "On the multiplicity spaces for branching to a spherical subgroup of minimal rank",
+      "abstract_excerpt": "Let g be a complex semi-simple Lie algebra and g be a semisimple subalgebra of g. Consider the branching problem of decomposing the simple g-representations V as a sum of simple grepresentations V. When g = g x g, it is the tensor product decomposition. The multiplicity space Mult(V, V) satisfies V = $\\oplus$ V Mult(V, V) $\\otimes$ V, where the sum runs over the isomorphism classes of simple g-representations. In the case when g is spherical of minimal rank, we describe Mult(V, V) as the interse",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns multiplicity spaces in branching problems for Lie algebras with 'spherical subgroup of minimal rank,' a representation-theoretic notion unrelated to ranks of braided tensor categories or DPLL search trees. The shared phrase 'minimal rank' is purely terminological coincidence.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1703.01175",
+      "title": "$O(N)$ Iterative and $O(NlogN)$ Fast Direct Volume Integral Equation Solvers with a Minimal-Rank ${\\cal H}^2$-Representation for Large-Scale $3$-D Electrodynamic Analysis",
+      "abstract_excerpt": "Linear complexity iterative and log-linear complexity direct solvers are developed for the volume integral equation (VIE) based general large-scale electrodynamic analysis. The dense VIE system matrix is first represented by a new cluster-based multilevel low-rank representation. In this representation, all the admissible blocks associated with a single cluster are grouped together and represented by a single low-rank block, whose rank is minimized based on prescribed accuracy. From such an init",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'minimal-rank H^2-matrix representation' for volume integral equation solvers in 3-D electrodynamic analysis, which shares only the keyword 'minimal rank' with the conjecture and has no connection to braided tensor categories or DPLL search trees.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

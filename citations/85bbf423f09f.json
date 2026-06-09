@@ -1,0 +1,40 @@
+{
+  "entry_id": "85bbf423f09f",
+  "ts": 1781029117.8800259,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1501.01331",
+      "title": "DNF complexity of complete boolean functions",
+      "abstract_excerpt": "In this paper we analyse the complexity of boolean functions takes value 0 on a sufficiently small number of points. For many functions this leads to the analysis of a single function attains 0 only on unsigned representation of numbers from 1 to d for various d. Here we obtain a tight bounds on the DNF complexity of complete functions in terms of the number of literals and conjunctions. The method is based on a certain efficient approximation of the hypercube covering problem related to DNF com",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract focuses on 'DNF complexity of complete boolean functions' via 'hypercube covering' bounds, with no mention of Lie algebras, representations, or communication complexity rank variance. It shares only the broad Boolean-function setting and does not interact with the specific conjectured bound.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1810.08668",
+      "title": "Parity Decision Tree Complexity is Greater Than Granularity",
+      "abstract_excerpt": "We prove a new lower bound on the parity decision tree complexity $\\mathsf{D}_{\\oplus}(f)$ of a Boolean function $f$. Namely, granularity of the Boolean function $f$ is the smallest $k$ such that all Fourier coefficients of $f$ are integer multiples of $1/2^k$. We show that $\\mathsf{D}_{\\oplus}(f)\\geq k+1$.\n  This lower bound is an improvement of lower bounds through the sparsity of $f$ and through the degree of $f$ over $\\mathbb{F}_2$. Using our lower bound we determine the exact parity decisio",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns parity decision tree complexity lower bounds via Fourier granularity, with no mention of Lie algebras, representation dimensions, or 'communication complexity rank variance.' It shares the Boolean function framework but does not interact with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2004.01741",
+      "title": "Nearest neighbor representations of Boolean functions",
+      "abstract_excerpt": "A nearest neighbor representation of a Boolean function is a set of positive and negative prototypes in $R^n$ such that the function has value 1 on an input iff the closest prototype is positive. For $k$-nearest neighbor representation the majority classification of the $k$ closest prototypes is considered. The nearest neighbor complexity of a Boolean function is the minimal number of prototypes needed to represent the function. We give several bounds for this measure. Separations are given betw",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'nearest neighbor representations of Boolean functions' and prototype complexity, with no mention of Lie algebras, communication complexity, or rank variance — it shares only the general 'Boolean function complexity' framework.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
