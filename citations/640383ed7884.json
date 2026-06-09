@@ -1,0 +1,40 @@
+{
+  "entry_id": "640383ed7884",
+  "ts": 1781036929.511921,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2311.16881",
+      "title": "(Non-)vanishing results for extensions between simple outer functors on free groups",
+      "abstract_excerpt": "In this article we study cohomological properties of the category of polynomial outer functors on free groups, which are the functors from the category of finitely generated free groups to the category of rational vector spaces which send all inner automorphisms to the identity morphism, and which satisfy a certain polynomiality property. More precisely, we prove vanishing and non-vanishing results for the Ext groups between simple polynomial outer functors. This work is inspired by an earlier r",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Ext groups between simple polynomial outer functors on free groups to rational vector spaces — a cohomological algebra result with no mention of communication complexity, Boolean functions, rank variance, or monoidal functor counting bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0912.0679",
+      "title": "The braided monoidal structures on the category of vector spaces graded by the Klein group",
+      "abstract_excerpt": "Let $k$ be a field, $k^*=k\\setminus\\{0\\}$ and $C_2$ the cyclic group of order 2. In this note we compute all the braided monoidal structures on the category of $k$-vector spaces graded by the Klein group $C_2\\times C_2$. Actually, for the monoidal structures we will compute the explicit form of the 3-cocycles on $C_2\\times C_2$ with coefficients in $k^*$, while for the braided monoidal structures we will compute the explicit form of the abelian 3-cocycles on $C_2\\times C_2$ with coefficients in ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns computing 3-cocycles for braided monoidal structures on vector spaces graded by the Klein group, with no mention of communication complexity, Boolean functions, or rank variance. It shares only the vocabulary 'monoidal' and 'vector spaces' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1110.5542",
+      "title": "Graphical Methods for Tannaka Duality of Weak Bialgebras and Weak Hopf Algebras in Arbitrary Braided Monoidal Categories",
+      "abstract_excerpt": "Tannaka Duality describes the relationship between algebraic objects in a given category and their representations; an important case is that of Hopf algebras and their categories of representations; these have strong monoidal forgetful \"fibre functors\" to the category of vector spaces. We simultaneously generalize the theory of Tannaka duality in two ways: first, we replace Hopf algebras with weak Hopf algebras and strong monoidal functors with separable Frobenius monoidal functors; second, we ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Tannaka duality for weak Hopf algebras via Frobenius monoidal functors in braided monoidal categories, with no mention of Boolean functions, communication complexity, or rank variance bounds. It shares only the general 'monoidal functor' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

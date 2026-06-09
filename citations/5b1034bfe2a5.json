@@ -1,0 +1,40 @@
+{
+  "entry_id": "5b1034bfe2a5",
+  "ts": 1781037309.319758,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1511.06778",
+      "title": "The 1st Fermi Lat Supernova Remnant Catalog",
+      "abstract_excerpt": "To uniformly determine the properties of supernova remnants (SNRs) at high energies, we have developed the first systematic survey at energies from 1 to 100 GeV using data from the Fermi Large Area Telescope. Based on the spatial overlap of sources detected at GeV energies with SNRs known from radio surveys, we classify 30 sources as likely GeV SNRs. We also report 14 marginal associations and 245 flux upper limits. A mock catalog in which the positions of known remnants are scrambled in Galacti",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a Fermi LAT survey of supernova remnants at GeV energies, which has no connection to geometric group theory, Frege proof complexity, or inductive dimension bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2111.07483",
+      "title": "Tradeoffs for small-depth Frege proofs",
+      "abstract_excerpt": "We study the complexity of small-depth Frege proofs and give the first tradeoffs between the size of each line and the number of lines. Existing lower bounds apply to the overall proof size -- the sum of sizes of all lines -- and do not distinguish between these notions of complexity.\n  For depth-$d$ Frege proofs of the Tseitin principle on the $n \\times n$ grid where each line is a size-$s$ formula, we prove that $\\exp(n/2^{Ω(d\\sqrt{\\log s})})$ many lines are necessary. This yields new lower bo",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses size/line tradeoffs for small-depth Frege proofs of the Tseitin principle using circuit-complexity correlation bounds, with no mention of proof width, local inductive dimension, or geometric group actions. It shares the Frege proof complexity framework but does not interact with the specific claim relating width to a geometric dimension.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2401.15683",
+      "title": "On Small-depth Frege Proofs for PHP",
+      "abstract_excerpt": "We study Frege proofs for the one-to-one graph Pigeon Hole Principle defined on the $n\\times n$ grid where $n$ is odd. We are interested in the case where each formula in the proof is a depth $d$ formula in the basis given by $\\land$, $\\lor$, and $\\neg$. We prove that in this situation the proof needs to be of size exponential in $n^{Ω(1/d)}$. If we restrict the size of each line in the proof to be of size $M$ then the number of lines needed is exponential in $n/(\\log M)^{O(d)}$. The main techni",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns size/depth lower bounds for Frege proofs of PHP using switching lemmas, with no mention of proof width, geometric group actions, or inductive dimension. It shares the 'Frege proof' vocabulary but does not interact with the specific width-to-dimension bound conjectured.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

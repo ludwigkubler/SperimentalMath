@@ -1,0 +1,40 @@
+{
+  "entry_id": "e8cd324592ca",
+  "ts": 1781035924.807397,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2211.17129",
+      "title": "Ehrhart Limits",
+      "abstract_excerpt": "We introduce the definition of an Ehrhart limit, that is, a formal power series with integer coefficients that is the limit in the ring of formal power series of a sequence of Ehrhart $h^*$-polynomials. We identify a variety of examples of sequences of polytopes that yield Ehrhart limits, with a focus on reflexive polytopes and simplices.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'Ehrhart limits' as formal power series limits of h*-polynomials for sequences of polytopes (especially reflexive ones), which shares the Ehrhart-theory vocabulary but does not address minimal generators of Ehrhart semigroups, binary hypercubes, or communication complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2401.14623",
+      "title": "Structure in Communication Complexity and Constant-Cost Complexity Classes",
+      "abstract_excerpt": "Several theorems and conjectures in communication complexity state or speculate that the complexity of a matrix in a given communication model is controlled by a related analytic or algebraic matrix parameter, e.g., rank, sign-rank, discrepancy, etc. The forward direction is typically easy as the structural implications of small complexity often imply a bound on some matrix parameter. The challenge lies in establishing the reverse direction, which requires understanding the structure of Boolean ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses general structural relationships between communication complexity and matrix parameters like rank, sign-rank, and discrepancy, but does not mention Ehrhart semigroups, generators of semigroups, or the specific 'rank variance' parameter tied to a logarithmic lower bound.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2210.01601",
+      "title": "Quantum communication complexity of linear regression",
+      "abstract_excerpt": "Quantum computers may achieve speedups over their classical counterparts for solving linear algebra problems. However, in some cases -- such as for low-rank matrices -- dequantized algorithms demonstrate that there cannot be an exponential quantum speedup. In this work, we show that quantum computers have provable polynomial and exponential speedups in terms of communication complexity for some fundamental linear algebra problems \\update{if there is no restriction on the rank}. We mainly focus o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses quantum vs classical communication complexity for linear regression and Hamiltonian simulation, with no mention of Ehrhart semigroups, minimal generators, or 'rank variance' as defined in the conjecture. It shares only the broad 'communication complexity' vocabulary without engaging the specific claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
