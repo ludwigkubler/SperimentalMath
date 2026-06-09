@@ -1,0 +1,40 @@
+{
+  "entry_id": "8cfb79b79455",
+  "ts": 1780969771.0274088,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2211.17129",
+      "title": "Ehrhart Limits",
+      "abstract_excerpt": "We introduce the definition of an Ehrhart limit, that is, a formal power series with integer coefficients that is the limit in the ring of formal power series of a sequence of Ehrhart $h^*$-polynomials. We identify a variety of examples of sequences of polytopes that yield Ehrhart limits, with a focus on reflexive polytopes and simplices.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Ehrhart h*-polynomials and their limits as formal power series, focusing on reflexive polytopes and simplices — it makes no mention of CNF formulas, resolution proof complexity, or proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0801.4432",
+      "title": "A bijective proof for a theorem of Ehrhart",
+      "abstract_excerpt": "We give a new proof for a theorem of Ehrhart regarding the quasi-polynomiality of the function that counts the number of integer points in the integral dilates of a rational polytope. The proof involves a geometric bijection, inclusion-exclusion, and recurrence relations, and we also prove Ehrhart reciprocity using these methods.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a bijective proof of Ehrhart's quasi-polynomiality theorem and Ehrhart reciprocity for rational polytopes, with no mention of CNF formulas, resolution proofs, or proof width. It shares only the Ehrhart vocabulary and does not interact with the conjectured link to resolution proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2504.06695",
+      "title": "A Convex-Analytical Proof of the Fundamental Theorem of Algebra",
+      "abstract_excerpt": "A weak version of Birkhoff's generalization of the Perron-Frobenius theorem states that every endomorphism of a finite-dimensional real vector that leaves invariant a non-degenerate closed convex cone has an eigenvector in that cone.\n  Here, we show that this theorem, whose proof relies only upon basic convex analysis, yields very short proofs of both the spectral theorem for selfadjoint operators of Euclidean spaces and the Fundamental Theorem of Algebra.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses a convex-analytical proof of the Fundamental Theorem of Algebra via Birkhoff/Perron-Frobenius, with no mention of Ehrhart polynomials, CNF formulas, or resolution proof width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

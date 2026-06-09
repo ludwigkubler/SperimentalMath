@@ -1,0 +1,31 @@
+{
+  "entry_id": "af5db3ee8e7d",
+  "ts": 1780970958.1976454,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:2510.00936",
+      "title": "Resolution as a Direction: Vector-Panning Feature Alignment for Cross-Resolution Re-Identification",
+      "abstract_excerpt": "Cross-resolution person re-identification (CR-ReID) remains challenging in practical surveillance, where camera quality and capture distance lead to substantial resolution gaps between low-resolution (LR) queries and high-resolution (HR) gallery images. Prior approaches commonly rely on super-resolu",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns cross-resolution person re-identification in computer vision surveillance ('Cross-resolution person re-identification (CR-ReID)'), which shares no substantive connection to CNF resolution proof width or representation theory dimensions.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10.1109/ICTC61510.2024.10602141",
+      "title": "A High-Efficiency Framework Combining Sparse Feature Representation and Sparse Interpretation of High Spatial Resolution Remote Sensing Imagery",
+      "abstract_excerpt": "For desirable interpretation of high-resolution remote imagery, special attention has been given to the extraction of spatial information, related to textural, structural, and morphological features. However, in most cases, spatial features, subject to different parameters such as sizes, scales, and directions, always lead to high-dimensional feature space. Under this circumstance, some state-of-the-art classification methods, e.g., tree bagger (TB), support vector machine (SVM), generalized com",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns sparse feature representation for remote sensing image classification ('sparse feature representation and sparse interpretation (SRSI) framework... for the classification of high-resolution imagery'), with no connection to CNF formulas, resolution proof width, or vector space representations in the algebraic sense.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 0
+  }
+}
