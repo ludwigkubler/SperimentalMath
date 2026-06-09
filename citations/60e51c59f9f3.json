@@ -1,0 +1,40 @@
+{
+  "entry_id": "60e51c59f9f3",
+  "ts": 1781000481.5916822,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1004.0653",
+      "title": "Exact Ramsey Theory: Green-Tao numbers and SAT",
+      "abstract_excerpt": "We consider the links between Ramsey theory in the integers, based on van der Waerden's theorem, and (boolean, CNF) SAT solving. We aim at using the problems from exact Ramsey theory, concerned with computing Ramsey-type numbers, as a rich source of test problems, where especially methods for solving hard problems can be developed. In order to control the growth of the problem instances, we introduce \"transversal extensions\" as a natural way of constructing mixed parameter tuples (k_1, ..., k_m)",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Ramsey theory, Green-Tao numbers, and SAT solver benchmarking via van der Waerden-type problems — it shares the 'SAT' vocabulary but says nothing about geometric probability bounds on clause sets or O(n^(3/2)) bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2605.09347v1",
+      "title": "Dsat: A Native SAT Solver for Discrete Logic",
+      "abstract_excerpt": "Discrete variables are common in many applications, such as probabilistic reasoning, planning and explainable AI. When symbolic reasoning techniques are brought in to bear on these applications, a standard technique for handling discrete variables is to binarize them into Boolean variables to allow the use of Boolean computational machinery such as SAT solvers. This technique can face both computational and semantical challenges though. In this work, we develop a native SAT solver for discrete l",
+      "abstract_source": "arxiv_local_mirror",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a native SAT solver for discrete logic with unit resolution and clause learning, making no claims about geometric probability bounds or O(n^(3/2)) bounds on clause selection probabilities.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2504.04416",
+      "title": "Meta-Mathematics of Computational Complexity Theory",
+      "abstract_excerpt": "We survey results on the formalization and independence of mathematical statements related to major open problems in computational complexity theory. Our primary focus is on recent findings concerning the (un)provability of complexity bounds within theories of bounded arithmetic. This includes the techniques employed and related open problems, such as the (non)existence of a feasible proof that P = NP.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract surveys formalization and independence results about complexity bounds in bounded arithmetic, with no mention of geometric probability or per-clause selection probability bounds. It shares the broad 'complexity theory' framework but does not interact with the specific O(n^(3/2)) claim about CNF clause-set probabilities.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

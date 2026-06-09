@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-06-09T09:47:06Z",
-  "total_cycles": 6174,
+  "last_update_utc": "2026-06-09T10:47:07Z",
+  "total_cycles": 6184,
   "verdict_counts": {
-    "INCONCLUSIVE": 3965,
+    "INCONCLUSIVE": 3972,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 2103,
+    "BARRIER_HIT": 2106,
     "SCOOPED": 86
   },
-  "unique_field_A": 2463,
+  "unique_field_A": 2465,
   "top_fields_A": [
     [
       "Resolution proof complexity",
@@ -20,7 +20,7 @@
     ],
     [
       "Tropical Geometry",
-      144
+      145
     ],
     [
       "Symplectic Geometry",
@@ -67,8 +67,8 @@
       37
     ],
     [
-      "Modular Form Theory",
-      36
+      "Algebraic Topology",
+      37
     ]
   ]
 }

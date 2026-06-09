@@ -1,0 +1,40 @@
+{
+  "entry_id": "f02a1d2dfefb",
+  "ts": 1780999970.3640113,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1005.5431",
+      "title": "Topological classification of quasitoric manifolds with the second Betti number 2",
+      "abstract_excerpt": "A quasitoric manifold is a $2n$-dimensional compact smooth manifold with a locally standard action of an $n$-dimensional torus whose orbit space is a simple polytope. In this article, we classify quasitoric manifolds with the second Betti number $β_2=2$ topologically. Interestingly, they are distinguished by their cohomology rings up to homeomorphism.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns topological classification of quasitoric manifolds with second Betti number 2, with no mention of d-regular graphs, communication complexity, or rank variance bounds. It shares only the vocabulary 'second Betti number' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1511.09105",
+      "title": "A bound on the second Betti number of hyperkähler manifolds of complex dimension six",
+      "abstract_excerpt": "Let M be an irreducible compact hyperkähler manifold of complex dimension six. Under an assumption on the Looijenga-Lunts-Verbitsky decomposition of the cohomology of M, we prove that the second Betti number of M is at most 23.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract bounds the second Betti number of hyperkähler manifolds of complex dimension six (≤23), which shares the term 'second Betti number' but concerns differential geometry of hyperkähler manifolds, not graphs, communication complexity, or rank variance.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1909.06924",
+      "title": "A conjectural bound on the second Betti number for hyper-Kähler manifolds",
+      "abstract_excerpt": "In previous work, we noted that the known cases of hyper-Kähler manifolds satisfy a natural condition on the LLV decomposition of the cohomology; informally, the Verbitsky component is the dominant representation in the LLV decomposition. Assuming this condition holds for all hyper-Kähler manifolds, we obtain an upper bound for the second Betti number in terms of the dimension.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns bounds on the second Betti number for hyper-Kähler manifolds via LLV decomposition, sharing only the term 'second Betti number' with the conjecture but having no interaction with d-regular graphs or communication complexity rank variance.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

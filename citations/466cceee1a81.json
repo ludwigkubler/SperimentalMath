@@ -1,0 +1,40 @@
+{
+  "entry_id": "466cceee1a81",
+  "ts": 1781000240.7572446,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1307.8353",
+      "title": "Some Quantitative Results in Real Algebraic Geometry",
+      "abstract_excerpt": "Real algebraic geometry is the study of semi-algebraic sets, subsets of $\\R^k$ defined by Boolean combinations of polynomial equalities and inequalities. The focus of this thesis is to study quantitative results in real algebraic geometry, primarily upper bounds on the topological complexity of semi-algebraic sets as measured, for example, by their Betti numbers. Another quantitative measure of topological complexity which we study is the number of homotopy types of semi-algebraic sets of bounde",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quantitative bounds on topological complexity (Betti numbers, homotopy types) of semi-algebraic sets, with no mention of eta-quotients, Grothendieck groups, CNF formulas, or SAT clause complexity. It shares only the broad 'algebraic geometry' framework but does not address the specific conjectured bound.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1810.07716",
+      "title": "The loss surface of deep linear networks viewed through the algebraic geometry lens",
+      "abstract_excerpt": "By using the viewpoint of modern computational algebraic geometry, we explore properties of the optimization landscapes of the deep linear neural network models. After clarifying on the various definitions of \"flat\" minima, we show that the geometrically flat minima, which are merely artifacts of residual continuous symmetries of the deep linear networks, can be straightforwardly removed by a generalized $L_2$ regularization. Then, we establish upper bounds on the number of isolated stationary p",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns algebraic geometry applied to stationary points of deep linear neural network loss surfaces, with no mention of SAT formulas, clause complexity, Grothendieck groups, or eta-quotients. It shares only the broad 'algebraic geometry' framework but does not address the specific conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2402.10707",
+      "title": "Semi-algebraic Geometry and generic Hamiltonian stability",
+      "abstract_excerpt": "The steepness property is a local geometric transversality condition on the gradient of a $C^2$-function which is fundamental in order to ensure the stability of sufficiently-regular nearly-integrable Hamiltonian systems over long timespans. Steep functions were originally introduced by Nekhoroshev, who also proved their genericity. Namely, given a pair of positive integers $r,n$, with $r$ high enough, and a point $I_0\\in \\mathbb{R}^n$, the Taylor polynomials of those $C^{2r-1}$ functions which ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns steepness genericity for Hamiltonian stability via real semi-algebraic geometry, with no mention of Grothendieck groups, eta-quotients, SAT, or CNF clause complexity. It shares no claim with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

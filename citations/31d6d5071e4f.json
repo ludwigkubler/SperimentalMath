@@ -1,0 +1,22 @@
+{
+  "entry_id": "31d6d5071e4f",
+  "ts": 1781001808.497302,
+  "hits_evaluated": 1,
+  "verdicts": [
+    {
+      "paper_id": "s2:15e22281da6ba7a1ff48ffe4ea6b35475e7bc076",
+      "title": "InformatIon In DynamIcal SyStemS anD complex SyStemS Summer 2013 WorkShop",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available for this paper, so it is impossible to determine whether it supports, refutes, or is orthogonal to the conjecture about geometric entropy variance and communication complexity rank.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 1
+  }
+}
