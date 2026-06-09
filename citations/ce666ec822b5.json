@@ -1,0 +1,40 @@
+{
+  "entry_id": "ce666ec822b5",
+  "ts": 1781008424.0028522,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0710.2959",
+      "title": "Galois Group of Elliptic Curves and Flavor Symmetry",
+      "abstract_excerpt": "Putting emphasis on the relation between rational conformal field theory (RCFT) and algebraic number theory, we consider a brane configuration in which the D-brane intersection is an elliptic curve corresponding to RCFT. A new approach to the generation structure of fermions is proposed in which the flavor symmetry including the R-parity has its origin in the Galois group on elliptic curves with complex multiplication (CM). We study the possible types of the Galois group derived from the torsion",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Galois groups of elliptic curves with complex multiplication applied to flavor symmetry in physics ('flavor symmetry including the R-parity has its origin in the Galois group on elliptic curves with complex multiplication'), with no engagement with cohomology orders, communication complexity, or variance bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1412.7685",
+      "title": "Cohomology of absolute Galois groups",
+      "abstract_excerpt": "The main problem this thesis deals with is the characterization of profinite groups which are realizable as absolute Galois groups of fields: this is currently one of the major problems in Galois theory. Usually one reduces the problem to the pro-$p$ case, i.e., one would like to know which pro-$p$ groups occur as maximal pro-$p$ Galois groups, i.e., maximal pro-$p$ quotients of absolute Galois groups. Indeed, pro-$p$ groups are easier to deal with than general profinite groups, yet they carry a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns characterizing profinite/pro-$p$ groups as absolute Galois groups via Bloch-Kato cohomology and Koszul duality; it makes no statement about communication complexity or variance bounds, sharing only the 'Galois cohomology' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2003.11324",
+      "title": "Symmetric Galois Groups Under Specialization",
+      "abstract_excerpt": "Given an irreducible bivariate polynomial $f(t,x)\\in \\mathbb{Q}[t,x]$, what groups $H$ appear as the Galois group of $f(t_0,x)$ for infinitely many $t_0\\in \\mathbb{Q}$? How often does a group $H$ as above appear as the Galois group of $f(t_0,x)$, $t_0\\in \\mathbb{Q}$? We give an answer for $f$ of large $x$-degree with alternating or symmetric Galois group over $\\mathbb{Q}(t)$. This is done by determining the low genus subcovers of coverings $\\tilde{X}\\rightarrow \\mathbb{P}^1_{\\mathbb{C}}$ with al",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Galois groups of specializations of bivariate polynomials and low-genus subcovers with alternating/symmetric monodromy, which shares only the term 'Galois group' with the conjecture and says nothing about cohomology orders or communication complexity variance.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

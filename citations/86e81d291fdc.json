@@ -1,0 +1,40 @@
+{
+  "entry_id": "86e81d291fdc",
+  "ts": 1781007874.2559452,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1712.05384",
+      "title": "Simulation of low-depth quantum circuits as complex undirected graphical models",
+      "abstract_excerpt": "Near term quantum computers with a high quantity (around 50) and quality (around 0.995 fidelity for two-qubit gates) of qubits will approximately sample from certain probability distributions beyond the capabilities of known classical algorithms on state-of-the-art computers, achieving the first milestone of so-called quantum supremacy. This has stimulated recent progress in classical algorithms to simulate quantum circuits. Classical simulations are also necessary to approximate the fidelity of",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns classical simulation of low-depth quantum circuits via graphical models and treewidth scaling, with no mention of integer partitions or communication complexity rank. It shares the 'circuit' vocabulary but does not interact with the Partition(C) = Θ(r(C)) claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1809.09732",
+      "title": "Quantum Circuit Designs of Integer Division Optimizing T-count and T-depth",
+      "abstract_excerpt": "Quantum circuits for mathematical functions such as division are necessary to use quantum computers for scientific computing. Quantum circuits based on Clifford+T gates can easily be made fault-tolerant but the T gate is very costly to implement. The small number of qubits available in existing quantum computers adds another constraint on quantum circuits. As a result, reducing T-count and qubit cost have become important optimization goals. The design of quantum circuits for integer division ha",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quantum circuit designs for integer division optimizing T-count and T-depth in Clifford+T gates, with no mention of integer partitions, communication complexity, or rank measures relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2109.09902",
+      "title": "Reduction of circuit depth by mapping qubit-based quantum gates to a qudit basis",
+      "abstract_excerpt": "We present a scalable set of universal gates and multiply controlled gates in a qudit basis through a bijective mapping from N qubits to qudits with D = 2^N levels via rotations in U(2). For each of the universal gates (H, CNOT, and T), as well as the NOT gate and multiply-controlled-Z gates, we describe a systematic approach to identifying the set of U(2) rotations required to implement each gate for any qudit of size N and with minimal use of an ancilla level. The qudit gates are analyzed in t",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns mapping qubit gates to a qudit basis to reduce quantum circuit depth ('reduction in circuit depth as the size of the system increases for the qudit circuit'), with no mention of integer partitions or communication complexity rank.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

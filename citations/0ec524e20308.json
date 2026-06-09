@@ -1,0 +1,40 @@
+{
+  "entry_id": "0ec524e20308",
+  "ts": 1781006111.084777,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2103.10009",
+      "title": "Categorification of DAHA and Macdonald polynomials",
+      "abstract_excerpt": "We describe a categorification of the Double Affine Hecke Algebra (${\\mathcal{H}\\kern -.4em\\mathcal{H}}$) associated with an affine Lie algebra $\\widehat{\\mathfrak{g}}$, including a categorification of the polynomial representation and Macdonald polynomials.\n  Our categorification results are presented in the derived setting, focusing on the derived category of graded modules over the Lie superalgebra ${\\mathfrak I}[ξ]$, where ${\\mathfrak I} \\subset \\widehat{\\mathfrak{g}}$ is the Iwahori subalge",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes categorification of the Double Affine Hecke Algebra and Macdonald polynomials via derived categories of Lie superalgebra modules, with no mention of CNF formulas, DPLL search trees, k-colorability, or complexity bounds relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2203.09007",
+      "title": "A categorification of the Lusztig--Vogan module",
+      "abstract_excerpt": "We construct two categorifications of the Lusztig--Vogan module associated to a real reductive algebraic group. The first categorification is given by semisimple complexes in an equivariant derived category, and the second is constructed as a module category over Soergel bimodules. Our categorifications are related by taking equivariant hypercohomology.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes categorifications of the Lusztig-Vogan module via equivariant derived categories and Soergel bimodules, which shares only the vague vocabulary of 'categorification' with the conjecture and does not address CNF formulas, DPLL search trees, or representation height bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2405.11220",
+      "title": "Categorification of based modules over the complex representation ring of $S_4$",
+      "abstract_excerpt": "The complex representation rings of finite groups are the fundamental class of fusion rings, categorified by the corresponding fusion categories of complex representations. The category of $\\mathbb{Z}_+$-modules of finite rank over such a representation ring is also semisimple.\n  In this paper, we classify the irreducible based modules of rank up to 5 over the complex representation ring $r(S_4)$ of the symmetric group $S_4$. Totally 16 inequivalent irreducible based modules are obtained. Based ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns classification of based modules over the representation ring of S_4 and their categorification via Rep(S_4), with no mention of CNF formulas, DPLL search trees, or height bounds related to k-colorability.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
