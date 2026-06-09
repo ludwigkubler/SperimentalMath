@@ -1,0 +1,40 @@
+{
+  "entry_id": "72cd47f78417",
+  "ts": 1781048198.6612449,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math-ph/0512018v2",
+      "title": "On Phase Transitions for $P$-Adic Potts Model with Competing Interactions on a Cayley Tree",
+      "abstract_excerpt": "In the paper we considere three state $p$-adic Potts model with competing interactions on a Cayley tree of order two. We reduce a problem of describing of the $p$-adic Gibbs measures to the solution of certain recursive equation, and using it we will prove that a phase transition occurs if and only ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns p-adic Gibbs measures and phase transitions for a Potts model on a Cayley tree, with no mention of CNF formulas, resolution proof width, or ranks of p-adic valuation systems associated to logical formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2408.00810",
+      "title": "p-adic Equiangular Lines and p-adic van Lint-Seidel Relative Bound",
+      "abstract_excerpt": "We introduce the notion of p-adic equiangular lines and derive the first fundamental relation between common angle, dimension of the space and the number of lines. More precisely, we show that if $\\{τ_j\\}_{j=1}^n$ is p-adic $γ$-equiangular lines in $\\mathbb{Q}^d_p$, then \\begin{align*} (1) \\quad\\quad \\quad \\quad |n|^2\\leq |d|\\max\\{|n|, γ^2 \\}. \\end{align*} We call Inequality (1) as the p-adic van Lint-Seidel relative bound. We believe that this complements fundamental van Lint-Seidel \\textit{[In",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns p-adic equiangular lines and a van Lint-Seidel-type bound relating dimension, angle, and number of lines — it makes no mention of CNF formulas, resolution proof width, or valuation rank of Boolean formulas. The shared vocabulary ('p-adic', 'dimension') does not engage with the specific conjecture linking rank to resolution width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1211.0398",
+      "title": "Extending valuations to formal completions",
+      "abstract_excerpt": "This paper is an extended version of the talk given by Miguel Olalla at the International Conference on Valuation Theory in El Escorial in July 2011. Its purpose is to provide an introduction to our joint paper \"Extending a valuation centered in a local domain to the formal completion\" (Proc. London Math. Soc. (2012) 105 (3), 571-621) without grinding through all of its technical details.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes extending valuations centered in a local domain to formal completions, with no mention of CNF formulas, resolution proof complexity, or any connection to proof width. It shares only the general vocabulary of 'valuations' with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

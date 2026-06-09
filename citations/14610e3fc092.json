@@ -1,0 +1,40 @@
+{
+  "entry_id": "14610e3fc092",
+  "ts": 1781046514.6802912,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1607.01412",
+      "title": "Pink's theory of Hodge structures and the Hodge conjecture over function fields",
+      "abstract_excerpt": "In 1997 Richard Pink has clarified the concept of Hodge structures over function fields in positive characteristic, which today are called Hodge-Pink structures. They form a neutral Tannakian category over the underlying function field. He has defined Hodge realization functors from the uniformizable abelian $t$-modules and $t$-motives of Greg Anderson to Hodge-Pink structures. This allows one to associate with each uniformizable $t$-motive a Hodge-Pink group, analogous to the Mumford-Tate group",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Pink's Hodge structures over function fields and the function-field analog of the Hodge conjecture for t-motives, with no mention of CNF formulas, Frege proof width, or any connection between Hodge structure dimension and proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1707.05973",
+      "title": "Hitchin and Calabi-Yau integrable systems via variations of Hodge structures",
+      "abstract_excerpt": "A complex integrable system determines a family of complex tori over a Zariski-open and dense subset in its base. This family in turn yields an integral variation of Hodge structures of weight $\\pm 1$. In this paper, we study the converse of this procedure. Starting from an integral variation of Hodge structures of weight $\\pm 1$, we give a criterion for when its associated family of complex tori carries a Lagrangian structure, i.e. for when it can be given the structure of an integrable system.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses variations of Hodge structures in the context of complex integrable systems and Hitchin/Calabi-Yau systems, with no mention of CNF formulas, Frege proof complexity, or dimension bounds related to proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2302.04014",
+      "title": "Extension of Hodge norms at infinity",
+      "abstract_excerpt": "It is a long-standing problem in Hodge theory to generalize the Satake--Baily--Borel (SBB) compactification of a locally Hermitian symmetric space to arbitrary period maps. A proper topological SBB-type completion has been constructed, and the problem of showing that the construction is algebraic has been reduced to showing that the compact fibres A of the completion admit neighborhoods X satisfying certain properties. All but one of those properties has been established; the outstanding problem",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns extending Hodge norms to construct plurisubharmonic exhaustion functions for SBB-type compactifications of period maps, with no mention of CNF formulas, Frege proof complexity, or dimensional bounds tied to Boolean variables. It shares the 'Hodge' vocabulary but does not interact with the conjecture's claim relating Hodge structure dimension to proof width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
