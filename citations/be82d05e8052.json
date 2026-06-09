@@ -1,0 +1,40 @@
+{
+  "entry_id": "be82d05e8052",
+  "ts": 1780994083.2882977,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1004.0653",
+      "title": "Exact Ramsey Theory: Green-Tao numbers and SAT",
+      "abstract_excerpt": "We consider the links between Ramsey theory in the integers, based on van der Waerden's theorem, and (boolean, CNF) SAT solving. We aim at using the problems from exact Ramsey theory, concerned with computing Ramsey-type numbers, as a rich source of test problems, where especially methods for solving hard problems can be developed. In order to control the growth of the problem instances, we introduce \"transversal extensions\" as a natural way of constructing mixed parameter tuples (k_1, ..., k_m)",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Ramsey-theoretic numbers (van der Waerden, Green-Tao) encoded as SAT instances and solver performance, with no mention of tropical graph theory, vertex counts of tropical graphs T(φ), or representation complexity τ. It shares only the general 'SAT' vocabulary and does not interact with the specific O(m^2) vertex bound or τ(T(φ)) = Θ(n) claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1207.2443",
+      "title": "Tropical Teichmuller and Siegel spaces",
+      "abstract_excerpt": "In this paper, we present a unified study of the moduli space of tropical curves and Outer space which we link via period maps to the moduli space of tropical abelian varieties and the space of positive definite quadratic forms. Our work is a first step towards exhibiting Outer space and the space of positive definite quadratic forms as analogues of Teichmüller space and Siegel space, respectively, in tropical geometry. All these spaces and the maps among them are described within the category o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns moduli spaces of tropical curves, Outer space, and tropical abelian varieties via period maps — purely tropical geometry with no mention of SAT, 3CNF formulas, clause complexity, or representation bounds on graphs derived from logical formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1204.3875",
+      "title": "Tropicalizing vs Compactifying the Torelli morphism",
+      "abstract_excerpt": "In this paper, we compare the compactified Torelli morphism (as defined by V. Alexeev) and the tropical Torelli map (as defined by the author in a joint work with S. Brannetti and M. Melo, and furthered studied by M. Chan). Our aim is twofold: on one hand, we will review the construction and main properties of the above mentioned two Torelli maps, focusing in particular on the description of their fibers achieved by the author in joint works with L. Caporaso; on the other hand, we will clarify t",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the compactified and tropical Torelli maps in algebraic/tropical geometry, with no mention of SAT, 3CNF formulas, clause complexity, or graph representation bounds. It shares only the word 'tropical' with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

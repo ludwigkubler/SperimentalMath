@@ -1,0 +1,40 @@
+{
+  "entry_id": "e2406067c9fb",
+  "ts": 1780993207.4065351,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0502195v2",
+      "title": "Hopf algebra structure on topological Hochschild homology",
+      "abstract_excerpt": "The topological Hochschild homology THH(R) of a commutative S-algebra (E_infty ring spectrum) R naturally has the structure of a commutative R-algebra in the strict sense, and of a Hopf algebra over R in the homotopy category. We show, under a flatness assumption, that this makes the Boekstedt spect",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Hopf algebra structure on topological Hochschild homology of commutative S-algebras, which has no interaction with resolution proof width or fundamental groups of proof tree vertices.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1612.03133",
+      "title": "Topological Complexity of the Klein bottle",
+      "abstract_excerpt": "We show that the (normalized) topological complexity of the Klein bottle is $4$. We also show that, for any $g\\geq 2$, $TC(N_g)=4$. This completes the recent work by Dranishnikov on the topological complexity of non-orientable surfaces.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns topological complexity (a Schwarz-genus-type invariant) of non-orientable surfaces, with no mention of resolution proofs, proof width, or counting vertices with non-trivial fundamental groups. It shares only the broad 'topology' vocabulary and does not interact with the specific bound claimed.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0307092v2",
+      "title": "Extended Bloch group and the Cheeger-Chern-Simons class",
+      "abstract_excerpt": "We define an extended Bloch group and show it is naturally isomorphic to H_3(PSL(2,C)^δ;Z). Using the Rogers dilogarithm function this leads to an exact simplicial formula for the universal Cheeger-Chern-Simons class on this homology group. It also leads to an independent proof of the analytic relat",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the extended Bloch group, H_3(PSL(2,C)), and the Cheeger-Chern-Simons class — pure algebraic topology/K-theory with no mention of resolution proofs, proof width, or fundamental groups of proof tree vertices.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

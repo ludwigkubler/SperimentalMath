@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-06-09T07:47:07Z",
-  "total_cycles": 6145,
+  "last_update_utc": "2026-06-09T08:47:07Z",
+  "total_cycles": 6155,
   "verdict_counts": {
-    "INCONCLUSIVE": 3950,
+    "INCONCLUSIVE": 3955,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 2089,
+    "BARRIER_HIT": 2094,
     "SCOOPED": 86
   },
-  "unique_field_A": 2454,
+  "unique_field_A": 2457,
   "top_fields_A": [
     [
       "Resolution proof complexity",
@@ -40,7 +40,7 @@
     ],
     [
       "p-adic Analysis",
-      46
+      48
     ],
     [
       "Algebraic Combinatorics",

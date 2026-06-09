@@ -1,0 +1,40 @@
+{
+  "entry_id": "0be46e500f1a",
+  "ts": 1780994377.6087916,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1603.02493",
+      "title": "Clifford theory for glider representations",
+      "abstract_excerpt": "Classical Clifford theory studies the decomposition of simple $G$-modules into simple $H$-modules for some normal subgroup $H \\triangleleft G$. In this paper we deal with chains of normal subgroups $1 \\triangleleft G_1 \\triangleleft \\cdots \\triangleleft G_d =G$, which allow to consider fragments and in particular glider representations. These are given by a descending chain of vector spaces over some field $K$ and relate different representations of the groups appearing in the chain. Picking som",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Clifford theory for glider representations over chains of normal subgroups, with no mention of communication complexity, rank variance, or bounds on representation dimension. It shares only the broad 'representation theory' vocabulary without engaging the specific conjectured bound.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1403.8106",
+      "title": "Recent advances on the log-rank conjecture in communication complexity",
+      "abstract_excerpt": "The log-rank conjecture is one of the fundamental open problems in communication complexity. It speculates that the deterministic communication complexity of any two-party function is equal to the log of the rank of its associated matrix, up to polynomial factors. Despite much research, we still know very little about this conjecture. Recently, there has been renewed interest in this conjecture and its relations to other fundamental problems in complexity theory. This survey describes some of th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a survey of the log-rank conjecture relating communication complexity to log of matrix rank, but does not address 'rank variance' or 'minimal representation length' of an associated vector space over a finite field as bounded by O(r log n). The shared vocabulary of rank and communication complexity does not establish interaction with the specific conjectured bound.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0711.0795",
+      "title": "Finite-Dimensional Representations of Hyper Loop Algebras Over Non-Algebraically Closed Fields",
+      "abstract_excerpt": "We study finite-dimensional representations of hyper loop algebras over non-algebraically closed fields. The main results concern the classification of the irreducible representations, the construction of the Weyl modules, base change, tensor products of irreducible and Weyl modules, and the block decomposition of the underlying abelian category. Several results are interestingly related to the study of irreducible representations of polynomial algebras and Galois theory.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns finite-dimensional representations of hyper loop algebras, Weyl modules, and Galois theory — it shares the vocabulary of 'representations' but does not address communication complexity, rank variance, or bounds on minimal representation length.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

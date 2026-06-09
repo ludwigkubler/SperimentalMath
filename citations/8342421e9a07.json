@@ -1,0 +1,40 @@
+{
+  "entry_id": "8342421e9a07",
+  "ts": 1780992164.9917397,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/astro-ph/0208243v7",
+      "title": "Measurement of the Flux of Ultrahigh Energy Cosmic Rays from Monocular Observations by the High Resolution Fly's Eye Experiment",
+      "abstract_excerpt": "We have measured the cosmic ray spectrum above 10^17.2 eV using the two air fluorescence detectors of the High Resolution Fly's Eye observatory operating in monocular mode. We describe the detector, photo-tube and atmospheric calibrations, as well as the analysis techniques for the two detectors. We",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns measurement of ultrahigh energy cosmic ray flux via air fluorescence detectors ('measured the cosmic ray spectrum above 10^17.2 eV'), which has no connection to resolution proof complexity or categorical semantics.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2302.09031",
+      "title": "Categorical Proof-Theoretic Semantics",
+      "abstract_excerpt": "In proof-theoretic semantics, model-theoretic validity is replaced by proof-theoretic validity. Validity of formulae is defined inductively from a base giving the validity of atoms using inductive clauses derived from proof-theoretic rules. A key aim is to show completeness of the proof rules without any requirement for formal models. Establishing this for propositional intuitionistic logic (IPL) raises some technical and conceptual issues. We relate Sandqvist's (complete) base-extension semanti",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses categorical proof-theoretic semantics for intuitionistic propositional logic via presheaves/sheaves and Sandqvist's base-extension semantics, with no mention of resolution proofs, proof width, or bounds relating semantic types to width. It shares only the broad 'categorical semantics of proofs' vocabulary without interacting with the specific width-bound claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/astro-ph/0407622v3",
+      "title": "A Study of the Composition of Ultra High Energy Cosmic Rays Using the High Resolution Fly's Eye",
+      "abstract_excerpt": "The composition of Ultra High Energy Cosmic Rays (UHECR) is measured with the High Resolution Fly's Eye cosmic ray observatory (HiRes) data using the Xmax technique. Data were collected in stereo between 1999 November and 2001 September. The data are reconstructed with well-determined geometry. Meas",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes measurement of ultra-high energy cosmic ray composition with the HiRes observatory using the Xmax technique, which has no relation to resolution proof complexity or categorical semantics. The shared word 'resolution' refers to the telescope's name, not proof resolution.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
