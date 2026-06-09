@@ -1,0 +1,40 @@
+{
+  "entry_id": "a81381a16d47",
+  "ts": 1781011478.1863708,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2011.11054",
+      "title": "Consecutive Quadratic Residues And Quadratic Nonresidue Modulo $p$",
+      "abstract_excerpt": "Let $p$ be a large prime, and let $k\\ll \\log p$. A new proof of the existence of any pattern of $k$ consecutive quadratic residues and quadratic nonresidues is introduced in this note. Further, an application to the least quadratic nonresidues $n_p$ modulo $p$ shows that $n_p\\ll (\\log p)(\\log \\log p)$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns patterns of consecutive quadratic residues/nonresidues and bounds on the least quadratic nonresidue n_p ≪ (log p)(log log p), with no mention of communication complexity, rank variance, or counting residues representing protocol outcomes.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2508.06380",
+      "title": "Design and analysis of a set of discrete variable protocols for secure quantum communication",
+      "abstract_excerpt": "The advent of quantum key distribution (QKD) has revolutionized secure communication by providing unconditional security, unlike classical cryptographic methods. However, its effectiveness relies on robust identity authentication, as vulnerabilities in the authentication process can cause a compromise with the security of the entire communication system. Over the past three decades, numerous quantum identity authentication (QIA) protocols have been proposed. This thesis first presents a chronolo",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quantum key distribution and quantum identity authentication protocols (Bell states, intercept-resend attacks, key rate bounds), with no mention of quadratic residues, rank variance, or classical communication complexity bounds relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1605.07948",
+      "title": "Clean quantum and classical communication protocols",
+      "abstract_excerpt": "By how much must the communication complexity of a function increase if we demand that the parties not only correctly compute the function but also return all registers (other than the one containing the answer) to their initial states at the end of the communication protocol? Protocols that achieve this are referred to as clean and the associated cost as the clean communication complexity. Here we present clean protocols for calculating the Inner Product of two $n$-bit strings, showing that (in",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'clean' communication complexity for Inner Product and general Boolean functions, with no mention of quadratic residues, rank variance, or modular representation bounds. It shares only the general 'communication complexity' framework with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

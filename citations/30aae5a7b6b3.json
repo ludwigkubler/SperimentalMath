@@ -1,0 +1,40 @@
+{
+  "entry_id": "30aae5a7b6b3",
+  "ts": 1781010109.5169477,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/hep-ph/0610012v1",
+      "title": "Tevatron-for-LHC Report of the QCD Working Group",
+      "abstract_excerpt": "The experiments at Run 2 of the Tevatron have each accumulated over 1 inverse femtobarn of high-transverse momentum data. Such a dataset allows for the first precision (i.e. comparisons between theory and experiment at the few percent level) tests of QCD at a hadron collider. While the Large Hadron ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns QCD measurements at the Tevatron and LHC hadron colliders, which has no interaction with SAT clause complexity, matroidal cohomology, or resolution proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2309.16111",
+      "title": "The relational complexity of linear groups acting on subspaces",
+      "abstract_excerpt": "The relational complexity of a subgroup $G$ of $\\mathrm{Sym}(Ω)$ is a measure of the way in which the orbits of $G$ on $Ω^k$ for various $k$ determine the original action of $G$. Very few precise values of relational complexity are known. This paper determines the exact relational complexity of all groups lying between $\\mathrm{PSL}_{n}(\\mathbb{F})$ and $\\mathrm{PGL}_{n}(\\mathbb{F})$, for an arbitrary field $\\mathbb{F}$, acting on the set of $1$-dimensional subspaces of $\\mathbb{F}^n$. We also b",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'relational complexity' of linear groups acting on subspaces, an entirely different invariant from local cohomological defect, matroidal structures of CNF formulas, or resolution proof width. It shares no substantive interaction with the SAT/Grothendieck-group conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1004.0653",
+      "title": "Exact Ramsey Theory: Green-Tao numbers and SAT",
+      "abstract_excerpt": "We consider the links between Ramsey theory in the integers, based on van der Waerden's theorem, and (boolean, CNF) SAT solving. We aim at using the problems from exact Ramsey theory, concerned with computing Ramsey-type numbers, as a rich source of test problems, where especially methods for solving hard problems can be developed. In order to control the growth of the problem instances, we introduce \"transversal extensions\" as a natural way of constructing mixed parameter tuples (k_1, ..., k_m)",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Ramsey-theoretic SAT benchmarks and translation encodings for SAT solvers, with no mention of resolution proof width, matroidal structures, or cohomological invariants. It shares only the broad 'SAT' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
