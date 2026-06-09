@@ -1,0 +1,40 @@
+{
+  "entry_id": "5d6f6beb1d3c",
+  "ts": 1781045185.6182997,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.1038/s41592-024-02554-6",
+      "title": "Moculus: an immersive virtual reality system for mice incorporating stereo vision",
+      "abstract_excerpt": "Due to technical roadblocks, it is unclear how visual circuits represent multiple features or how behaviorally relevant representations are selected for long-term memory. Here we developed Moculus, a head-mounted virtual reality platform for mice that covers the entire visual field, and allows binocular depth perception and full visual immersion. This controllable environment, with three-dimensional (3D) corridors and 3D objects, in combination with 3D acousto-optical imaging, affords rapid visu",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a virtual reality system for mice studying neural visual circuits ('Moculus, a head-mounted virtual reality platform for mice'), which has no interaction with modular forms, Boolean circuits, or polynomial representations over finite fields.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:2406.04733",
+      "title": "Unsupervised representation learning with Hebbian synaptic and structural plasticity in brain-like feedforward neural networks",
+      "abstract_excerpt": "Neural networks that can capture key principles underlying brain computation offer exciting new opportunities for developing artificial intelligence and brain-like computing algorithms. Such networks remain biologically plausible while leveraging localized forms of synaptic learning rules and modula",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Hebbian learning in brain-like neural networks ('biologically plausible while leveraging localized forms of synaptic learning rules'), which has no interaction with modular forms, Boolean circuit depth, or polynomial representations over finite fields.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:ARXIV:2512.01974",
+      "title": "The Equivalence of Fast Algorithms for Convolution, Parallel FIR Filters, Polynomial Modular Multiplication, and Pointwise Multiplication in DFT/NTT Domain",
+      "abstract_excerpt": "Fast time-domain algorithms have been developed in signal processing applications to reduce the multiplication complexity. For example, fast convolution structures using Cook-Toom and Winograd algorithms are well understood. Short length fast convolutions can be iterated to obtain fast convolution structures for long lengths. In this paper, we show that well known fast convolution structures form the basis for design of fast algorithms in four other problem domains: fast parallel filters, fast p",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns equivalences among fast convolution, FIR filters, polynomial modular multiplication, and DFT/NTT pointwise multiplication for signal processing and cryptosystems — it says nothing about modular forms (in the number-theoretic sense) or Boolean circuit depth bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
