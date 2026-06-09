@@ -1,0 +1,40 @@
+{
+  "entry_id": "0674e0417f20",
+  "ts": 1781041074.6961641,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1612.05917",
+      "title": "Linear Quantum Entropy and Non-Hermitian Hamiltonians",
+      "abstract_excerpt": "We consider the description of open quantum systems with probability sinks (or sources) in terms of general non-Hermitian Hamiltonians.~Within such a framework, we study novel possible definitions of the quantum linear entropy as an indicator of the flow of information during the dynamics. Such linear entropy functionals are necessary in the case of a partially Wigner-transformed non-Hermitian Hamiltonian (which is typically useful within a mixed quantum-classical representation). Both the case ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'quantum linear entropy' for open quantum systems with non-Hermitian Hamiltonians, sharing only loose vocabulary (entropy, Hamiltonian) with the conjecture; it makes no claim about Frege proof width, Tseitin formulas, or geometric entropy bounds on proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/nlin/0101006v1",
+      "title": "On Complexity and Emergence",
+      "abstract_excerpt": "Numerous definitions for complexity have been proposed over the last half century, with little consensus achieved on how to use the term. A definition of complexity is supplied here that is closely related to the Kolmogorov Complexity and Shannon Entropy measures widely used as complexity measures, ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses general definitions of complexity related to Kolmogorov Complexity and Shannon Entropy, with no mention of Frege proof width, Tseitin formulas, Hamiltonian systems, or geometric entropy. It shares only the broad vocabulary of 'complexity' without engaging the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2507.14194",
+      "title": "Boosted Enhanced Quantile Regression Neural Networks with Spatiotemporal Permutation Entropy for Complex System Prognostics",
+      "abstract_excerpt": "This paper presents a novel framework for pattern prediction and system prognostics centered on Spatiotemporal Permutation Entropy analysis integrated with Boosted Enhanced Quantile Regression Neural Networks (BEQRNNs). We address the challenge of understanding complex dynamical patterns in multidimensional systems through an approach that combines entropy-based complexity measures with advanced neural architectures. The system leverages dual computational stages: first implementing spatiotempor",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'Spatiotemporal Permutation Entropy' combined with neural networks for 'pattern prediction and system prognostics,' which shares only the vague vocabulary of 'entropy' but does not address Frege proof width, Tseitin formulas, or Hamiltonian geometric entropy bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

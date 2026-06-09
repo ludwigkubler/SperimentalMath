@@ -1,0 +1,40 @@
+{
+  "entry_id": "6b9415213cc7",
+  "ts": 1781038873.5237343,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1101.4803",
+      "title": "Lifting defects for nonstable K_0-theory of exchange rings and C*-algebras",
+      "abstract_excerpt": "The assignment (nonstable K_0-theory), that to a ring R associates the monoid V(R) of Murray-von Neumann equivalence classes of idempotent infinite matrices with only finitely nonzero entries over R, extends naturally to a functor. We prove the following lifting properties of that functor: (1) There is no functor F, from simplicial monoids with order-unit with normalized positive homomorphisms to exchange rings, such that VF is equivalent to the identity. (2) There is no functor F, from simplici",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns nonstable K_0-theory, exchange rings, and C*-algebras—specifically lifting properties of the V(R) functor—with no mention of quaternionic polynomial representations of Boolean circuits or communication complexity rank variance.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1102.2932",
+      "title": "Applications of Monotone Rank to Complexity Theory",
+      "abstract_excerpt": "Raz's recent result \\cite{Raz2010} has rekindled people's interest in the study of \\emph{tensor rank}, the generalization of matrix rank to high dimensions, by showing its connections to arithmetic formulas. In this paper, we follow Raz's work and show that \\emph{monotone rank}, the monotone variant of tensor rank and matrix rank, has applications in algebraic complexity, quantum computing and communication complexity. This paper differs from Raz's paper in that it leverages existing results to ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses monotone rank, tensor rank, and a multiparty generalization of the log-rank conjecture, but says nothing about quaternionic polynomial representations of Boolean circuits or 'communication complexity rank variance.' The shared vocabulary of 'rank' and 'communication complexity' does not engage the specific Θ(log^2(n)) claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2401.14623",
+      "title": "Structure in Communication Complexity and Constant-Cost Complexity Classes",
+      "abstract_excerpt": "Several theorems and conjectures in communication complexity state or speculate that the complexity of a matrix in a given communication model is controlled by a related analytic or algebraic matrix parameter, e.g., rank, sign-rank, discrepancy, etc. The forward direction is typically easy as the structural implications of small complexity often imply a bound on some matrix parameter. The challenge lies in establishing the reverse direction, which requires understanding the structure of Boolean ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses general structural relationships between communication complexity and matrix parameters like rank and sign-rank, but makes no mention of quaternionic polynomial representations, Boolean circuits, or the specific Θ(log²(n)) bound claimed in the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
