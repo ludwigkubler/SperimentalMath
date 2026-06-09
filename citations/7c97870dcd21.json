@@ -1,0 +1,40 @@
+{
+  "entry_id": "7c97870dcd21",
+  "ts": 1780967176.0894272,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1706.06407",
+      "title": "Distributed PCP Theorems for Hardness of Approximation in P",
+      "abstract_excerpt": "We present a new distributed model of probabilistically checkable proofs (PCP). A satisfying assignment $x \\in \\{0,1\\}^n$ to a CNF formula $\\varphi$ is shared between two parties, where Alice knows $x_1, \\dots, x_{n/2}$, Bob knows $x_{n/2+1},\\dots,x_n$, and both parties know $\\varphi$. The goal is to have Alice and Bob jointly write a PCP that $x$ satisfies $\\varphi$, while exchanging little or no information. Unfortunately, this model as-is does not allow for nontrivial query complexity. Instea",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns distributed PCP reductions from SETH to approximation problems (including 'Approximate Regular Expression Matching'), not the minimal regular-expression representation size of CNFs or Frege proof depth. It shares vocabulary (CNF, regular expressions) but does not address the claimed Θ(d(φ)) relationship.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1907.13577",
+      "title": "Regular languages, derivatives and finite automata",
+      "abstract_excerpt": "This report is mostly written for educational purposes. It is meant as a self contained introduction to regular languages, regular expressions, and regular expression matching by using Brzozowski derivatives. As such it is mostly based on the work by Brzozowski[4] and Owens et al.[12] The language basics material have been inspired by books[2] and web material[16].\n  Chapter 1 introduces the fundamental concepts of formal languages, as well as the idea of string derivatives. In chapter 2 we defi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes an educational introduction to regular languages, Brzozowski derivatives, and regex matching — it makes no claims about CNF formulas, Frege proof depth, or minimal regex representation size of Boolean formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1711.07474",
+      "title": "XSAT of Linear CNF Formulas",
+      "abstract_excerpt": "Open questions with respect to the computational complexity of linear CNF formulas in connection with regularity and uniformity are addressed. In particular it is proven that any l-regular monotone CNF formula is XSAT-unsatisfiable if its number of clauses m is not a multiple of l. For exact linear formulas one finds surprisingly that l-regularity implies k-uniformity, with m = 1 + k(l-1)) and allowed k-values obey k(k-1) = 0 (mod l). Then the computational complexity of the class of monotone ex",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses XSAT-satisfiability complexity for linear/regular/uniform CNF formulas, with no mention of regular expression representation size or Frege proof depth. It shares the 'CNF' vocabulary but does not interact with the specific claim about |R(φ)| = Θ(d(φ)).",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

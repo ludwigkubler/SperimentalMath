@@ -1,0 +1,40 @@
+{
+  "entry_id": "a20d64ac2989",
+  "ts": 1780969243.2669675,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2506.16956",
+      "title": "The Proof Analysis Problem",
+      "abstract_excerpt": "Atserias and Müller (JACM, 2020) proved that for every unsatisfiable CNF formula $\\varphi$, the formula $\\operatorname{Ref}(\\varphi)$, stating \"$\\varphi$ has small Resolution refutations\", does not have subexponential-size Resolution refutations. Conversely, when $\\varphi$ is satisfiable, Pudlák (TCS, 2003) showed how to construct a polynomial-size Resolution refutation of $\\operatorname{Ref}(\\varphi)$ given a satisfying assignment of $\\varphi$. A question that remained open is: do all short Res",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Resolution/Frege proof complexity, the Proof Analysis Problem, and lower bounds via Ref formulas, but makes no mention of Deligne-Lusztig theory or any minimal representation length m(φ) relating to Frege proof depth.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2605.04544v1",
+      "title": "Hard CNF Instances for Ideal Proof Systems",
+      "abstract_excerpt": "Since the introduction of the Ideal Proof System (IPS) by Grochow and Pitassi (J. ACM 2018), a substantial body of work has established size lower bounds for IPS and its fragments. In particular, Forbes, Shpilka, Tzameret, and Wigderson (Theory Comput. 2021) developed the main lower-bound frameworks for restricted IPS fragments, namely functional lower bounds and the hard multiples method, while Alekseev, Grigoriev, Hirsch, and Tzameret (SIAM J. Comput. 2024) gave a general template for conditio",
+      "abstract_source": "arxiv_local_mirror",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns IPS lower bounds for CNF refutations over roABPs using rank-based feasible interpolation, with no mention of Deligne-Lusztig theory or Frege proof depth. It shares the broader proof-complexity vocabulary but does not interact with the specific m(φ) = Θ(d(φ)) claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1409.2978",
+      "title": "From Small Space to Small Width in Resolution",
+      "abstract_excerpt": "In 2003, Atserias and Dalmau resolved a major open question about the resolution proof system by establishing that the space complexity of CNF formulas is always an upper bound on the width needed to refute them. Their proof is beautiful but somewhat mysterious in that it relies heavily on tools from finite model theory. We give an alternative, completely elementary proof that works by simple syntactic manipulations of resolution refutations. As a by-product, we develop a \"black-box\" technique f",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses resolution proof system space and width complexity, not Frege proof depth or Deligne-Lusztig theory representations. It shares the broader proof complexity framework but does not interact with the specific claim about m(φ) = Θ(d(φ)).",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

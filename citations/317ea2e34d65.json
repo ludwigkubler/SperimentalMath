@@ -1,0 +1,40 @@
+{
+  "entry_id": "317ea2e34d65",
+  "ts": 1780968881.0853841,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2003.05213",
+      "title": "The Sequent Calculus of Skew Monoidal Categories",
+      "abstract_excerpt": "Szlachányi's skew monoidal categories are a well-motivated variation of monoidal categories in which the unitors and associator are not required to be natural isomorphisms, but merely natural transformations in a particular direction. We present a sequent calculus for skew monoidal categories, building on the recent formulation by one of the authors of a sequent calculus for the Tamari order (skew semigroup categories). In this calculus, antecedents consist of a stoup (an optional formula) follo",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a sequent calculus and coherence theorem for skew monoidal categories, with no mention of Tseitin formulas, resolution proof width, or minimal representation size bounds. It shares the 'monoidal categories' vocabulary but does not interact with the specific claim about min_rep(C(φ_G)) = Θ(w(φ_G)).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0801.1133",
+      "title": "Monoidal categories of comodules for coquasi Hopf algebras and Radford's formula",
+      "abstract_excerpt": "We study the basic monoidal properties of the category of Hopf modules for a coquasi Hopf algebra. In particular we discuss the so called fundamental theorem that establishes a monoidal equivalence between the category of comodules and the category of Hopf modules. We present a categorical proof of Radford's $S^4$ formula for the case of a finite dimensional coquasi Hopf algebra, by establishing a monoidal isomorphism between certain double dual functors.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns monoidal properties of Hopf module categories and a categorical proof of Radford's S^4 formula, with no mention of Tseitin formulas, resolution proof width, or representation-size bounds. It shares only the 'monoidal categories' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1503.00886",
+      "title": "On Geometry of Interaction for Polarized Linear Logic",
+      "abstract_excerpt": "We present Geometry of Interaction (GoI) models for Multiplicative Polarized Linear Logic, MLLP, which is the multiplicative fragment of Olivier Laurent's Polarized Linear Logic. This is done by uniformly adding multipoints to various categorical models of GoI. Multipoints are shown to play an essential role in semantically characterizing the dynamics of proof networks in polarized proof theory. For example, they permit us to characterize the key feature of polarization, focusing, as well as bei",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Geometry of Interaction models for Polarized Linear Logic using traced/monoidal categories, with no mention of Tseitin formulas, resolution proof width, or minimal representation size bounds. It shares the 'monoidal categories' vocabulary but does not interact with the specific claim about C(φ_G) and w(φ_G).",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
