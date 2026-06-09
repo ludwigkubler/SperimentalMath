@@ -1,0 +1,40 @@
+{
+  "entry_id": "87058d4a8ecb",
+  "ts": 1781023467.8254104,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1006.3030",
+      "title": "Satisfiability Thresholds for k-CNF Formula with Bounded Variable Intersections",
+      "abstract_excerpt": "We determine the thresholds for the number of variables, number of clauses, number of clause intersection pairs and the maximum clause degree of a k-CNF formula that guarantees satisfiability under the assumption that every two clauses share at most $α$ variables. More formally, we call these formulas $α$-intersecting and define, for example, a threshold $μ_i(k,α)$ for the number of clause intersection pairs $i$, such that every $α$-intersecting k-CNF formula in which at most $μ_i(k,α)$ pairs of",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses satisfiability thresholds for k-CNF formulas based on clause intersection parameters via the Lovász Local Lemma, with no mention of Diophantine representations or variable bounds for encoding circuits as linear Diophantine systems. It shares the k-CNF vocabulary but does not interact with the conjecture's claim about O(k log n) Diophantine representation size.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0902.2012",
+      "title": "On the diameter of the set of satisfying assignments in random satisfiable k-CNF formulas",
+      "abstract_excerpt": "It is known that random k-CNF formulas have a so-called satisfiability threshold at a density (namely, clause-variable ratio) of roughly 2^k\\ln 2: at densities slightly below this threshold almost all k-CNF formulas are satisfiable whereas slightly above this threshold almost no k-CNF formula is satisfiable. In the current work we consider satisfiable random formulas, and inspect another parameter -- the diameter of the solution space (that is the maximal Hamming distance between a pair of satis",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the diameter (maximal Hamming distance between satisfying assignments) of random satisfiable k-CNF formulas near the satisfiability threshold, with no mention of Diophantine equations or minimal representation size. It shares only the k-CNF vocabulary but does not interact with the conjecture's claim about Diophantine representation bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0810.1904",
+      "title": "Unsatisfiable (k,(4*2^k/k))-CNF formulas",
+      "abstract_excerpt": "A boolean formula in a conjuctive normal form is called a (k,s)-formula if every clause contains exactly k variables and every variable occurs in at most s clauses. We prove the existence of a (k, 4 * (2^k/k))-CNF formula which is unsatisfiable.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses the existence of unsatisfiable (k,s)-CNF formulas with bounded variable occurrences, which shares the k-CNF vocabulary but says nothing about Diophantine representations or minimal variable counts for encoding circuits as linear Diophantine systems.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

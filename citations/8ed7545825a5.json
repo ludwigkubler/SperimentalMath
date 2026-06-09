@@ -1,0 +1,40 @@
+{
+  "entry_id": "8ed7545825a5",
+  "ts": 1781021330.9227347,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1607.00443",
+      "title": "Algebraic Proof Complexity: Progress, Frontiers and Challenges",
+      "abstract_excerpt": "We survey recent progress in the proof complexity of strong proof systems and its connection to algebraic circuit complexity, showing how the synergy between the two gives rise to new approaches to fundamental open questions, solutions to old problems, and new directions of research. In particular, we focus on tight connections between proof complexity lower bounds (namely, lower bounds on the size of proofs of certain tautologies), algebraic circuit lower bounds, and the Polynomial Identity Tes",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract surveys connections between algebraic proof complexity, algebraic circuit lower bounds, and Polynomial Identity Testing — it makes no mention of Hausdorff dimension, geometric measure theory, or Frege proof width specifically, so it neither supports nor refutes the conjectured w(φ)=Θ(D_H(φ)^2) relation.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2208.11642",
+      "title": "On the existence of strong proof complexity generators",
+      "abstract_excerpt": "Cook and Reckhow 1979 pointed out that NP is not closed under complementation iff there is no propositional proof system that admits polynomial size proofs of all tautologies. Theory of proof complexity generators aims at constructing sets of tautologies hard for strong and possibly for all proof systems. We focus at a conjecture from K.2004 in foundations of the theory that there is a proof complexity generator hard for all proof systems. This can be equivalently formulated (for p-time generato",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns proof complexity generators, p-time functions stretching inputs, and hardness against proof systems—it makes no mention of Frege proof width, Hausdorff dimension, or any geometric measure-theoretic quantity relating to w(φ).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1402.4338",
+      "title": "Proof Complexity and the Kneser-Lovász Theorem",
+      "abstract_excerpt": "We investigate the proof complexity of a class of propositional formulas expressing a combinatorial principle known as the Kneser-Lovász Theorem. This is a family of propositional tautologies, indexed by an nonnegative integer parameter $k$ that generalizes the Pigeonhole Principle (obtained for $k=1$).\n  We show, for all fixed $k$, $2^{Ω(n)}$ lower bounds on resolution complexity and exponential lower bounds for bounded depth Frege proofs. These results hold even for the more restricted class o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses proof complexity of Kneser-Lovász formulas via resolution and bounded-depth Frege lower bounds, with no mention of Hausdorff dimension, geometric measure theory, or any width-vs-dimension relationship for general CNFs.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "946fac593571",
+  "ts": 1781023241.1560278,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2201.07527",
+      "title": "The free compact closure of a symmetric monoidal category",
+      "abstract_excerpt": "We construct a compact closed category out of any symmetric monoidal category by freely adding adjoints to its objects. The morphisms of the completion are defined as string diagrams annotated by objects and morphisms from the original category. The symmetric monoidal category embeds via a faithful monoidal functor into its completion, but in contrast to the non-symmetric case, this embedding is not full. Our construction factors through the Int construction, which yields another free constructi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a categorical construction (freely adding adjoints to a symmetric monoidal category via string diagrams and the Int construction) and says nothing about graphs, DPLL search trees, or any notion of 'minimal categorical dimension' tied to graph complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1712.08276",
+      "title": "Braided skew monoidal categories",
+      "abstract_excerpt": "We introduce the notion of a braiding on a skew monoidal category, whose curious feature is that the defining isomorphisms involve three objects rather than two. These braidings are shown to arise from, and classify, cobraidings (also known as coquasitriangular structures) on bialgebras. Using a multicategorical approach we also describe examples of braidings on skew monoidal categories arising from 2-category theory.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses braidings on skew monoidal categories and their relation to cobraidings on bialgebras, with no mention of graphs, categorical dimension, or DPLL search trees. It shares only the 'monoidal category' vocabulary but does not interact with the specific claim about graph dimension and DPLL height.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1912.10642",
+      "title": "Notes on Category Theory with examples from basic mathematics",
+      "abstract_excerpt": "These notes were originally developed as lecture notes for a category theory course. They should be well-suited to anyone that wants to learn category theory from scratch and has a scientific mind. There is no need to know advanced mathematics, nor any of the disciplines where category theory is traditionally applied, such as algebraic geometry or theoretical computer science. The only knowledge that is assumed from the reader is linear algebra. All concepts are explained by giving concrete exam",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes introductory lecture notes on category theory with examples from graph theory and a section on monoidal categories, but makes no claim relating any 'categorical dimension' of graphs to DPLL search tree height.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
