@@ -1,0 +1,40 @@
+{
+  "entry_id": "15091434bec8",
+  "ts": 1781014933.3828564,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2112.09874",
+      "title": "A note on Grothendieck groups of periodic derived categories",
+      "abstract_excerpt": "We determine Grothendieck groups of periodic derived categories. In particular, we prove that the Grothendieck group of the $m$-periodic derived category of finitely generated modules over an Artin algebra is a free $\\mathbb{Z}$-module if $m$ is even but an $\\mathbb{F}_2$-vector space if $m$ is odd. Its rank is equal to the number of isomorphism classes of simple modules in both cases. As an application, we prove that the number of non-isomorphic summands of a strict periodic tilting object $T$,",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Grothendieck groups of periodic derived categories over Artin algebras, with no mention of Tseitin formulas, resolution proof width, or any connection to proof complexity. It shares only the 'Grothendieck group' vocabulary without interacting with the specific conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0808.1395",
+      "title": "Algebraic topology from geometric viewpoint",
+      "abstract_excerpt": "This book is expository and is in Russian. It is shown how in the course of solution of interesting geometric problems (close to applications) naturally appear main notions of algebraic topology (homology groups, obstructions and invariants, characteristic classes). Thus main ideas of algebraic topology are presented with minimal technicalities. Familiarity of a reader with basic notions of topology (such as 2-dimensional manifolds and vector fields) is desirable, although definitions are given ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes an expository book introducing basic notions of algebraic topology (homology groups, obstructions, characteristic classes) from a geometric viewpoint, with no mention of K-theory, Grothendieck groups, resolution proof complexity, or Tseitin formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1304.7846",
+      "title": "Algebraic Topology",
+      "abstract_excerpt": "The chapter provides an introduction to the basic concepts of Algebraic Topology with an emphasis on motivation from applications in the physical sciences. It finishes with a brief review of computational work in algebraic topology, including persistent homology.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a general introduction to algebraic topology with emphasis on physical science applications and persistent homology, with no mention of Grothendieck groups, resolution proof complexity, Tseitin formulas, or proof width bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

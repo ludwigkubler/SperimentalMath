@@ -1,0 +1,40 @@
+{
+  "entry_id": "2bbaecb89371",
+  "ts": 1781013576.4468217,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/astro-ph/0405128v1",
+      "title": "Probing the Evolution of the Galaxy Interaction/Merger Rate Using Collisional Ring Galaxies",
+      "abstract_excerpt": "We present the results from our program to determine the evolution of the galaxy interaction/merger rate with redshift using the unique star-forming characteristics of collisional ring galaxies. We have identified 25 distant collisional ring galaxy candidates (CRGCs) in a total of 162 deep Hubble Sp",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns astronomical observations of collisional ring galaxies and galaxy merger rates, with no connection to resolution proof complexity, Frobenius elements, or polynomial ring algebra.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1910.01251",
+      "title": "Search problems in algebraic complexity, GCT, and hardness of generator for invariant rings",
+      "abstract_excerpt": "We consider the problem of computing succinct encodings of lists of generators for invariant rings for group actions. Mulmuley conjectured that there are always polynomial sized such encodings for invariant rings of $\\SL_n(\\C)$-representations. We provide simple examples that disprove this conjecture (under standard complexity assumptions).\n  We develop a general framework, denoted \\emph{algebraic circuit search problems}, that captures many important problems in algebraic complexity and computa",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses succinct encodings of generators for invariant rings and a general 'algebraic circuit search problems' framework, but makes no claim about Frobenius element degrees or resolution proof width bounds. The shared vocabulary of 'proof systems' and algebraic structures does not interact with the specific O(w(φ)) / Θ(log w(φ)) claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2412.03769",
+      "title": "The Herzog-Takayama resolution over a skew polynomial ring",
+      "abstract_excerpt": "Let $\\Bbbk$ be a field, and let $I$ be a monomial ideal in the polynomial ring $R=\\Bbbk[x_1,\\ldots,x_n]$. In her thesis, Taylor introduced a complex that provides a finite free resolution of $R/I$ as an $R$-module. Building on this, Ferraro, Martin and Moore extended this construction to monomial ideals in skew polynomial rings. Since the Taylor resolution is generally not minimal, significant effort has been devoted to identifying classes of ideals with minimal free resolutions that are relativ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns minimal free resolutions of monomial ideals in skew polynomial rings (Herzog-Takayama construction), not resolution proof complexity widths or Frobenius element degrees. The shared word 'resolution' refers to homological resolutions of modules, not proof-theoretic resolution.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

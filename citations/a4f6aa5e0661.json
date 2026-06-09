@@ -1,0 +1,40 @@
+{
+  "entry_id": "a4f6aa5e0661",
+  "ts": 1781015714.5503826,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0405176v4",
+      "title": "Quantized symplectic oscillator algebras of rank one",
+      "abstract_excerpt": "A quantized symplectic oscillator algebra of rank 1 is a PBW deformation of the smash product of the quantum plane with U_q(sl_2). We study its representation theory, and in particular, its category O.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'PBW deformation of the smash product of the quantum plane with U_q(sl_2)' and its category O — a representation theory topic with no connection to Ext groups bounding communication complexity rank of CNF formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1306.5684",
+      "title": "New Large-Rank Nichols Algebras Over Nonabelian Groups With Commutator Subgroup Z_2",
+      "abstract_excerpt": "In this article, we explicitly construct new finite-dimensional, link-indecomposable Nichols algebras with Dynkin diagrams of type An,Cn,Dn,E6,E7,E8,F4 over any group G with commutator subgroup isomorphic to Z_2.The construction is generic in the sense that the type just depends on the rank and center of G, and thus positively answers for all groups of this class a question raised by Susan Montgomory in 1995 [Mont95][AS02].\n  Our construction uses the new notion of a covering Nichols algebra as ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns constructing finite-dimensional Nichols algebras over nonabelian groups with commutator subgroup Z_2, which shares only the vocabulary 'Z_2' with the conjecture but has no interaction with Ext groups, CNF formulas, or communication complexity rank.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1102.2932",
+      "title": "Applications of Monotone Rank to Complexity Theory",
+      "abstract_excerpt": "Raz's recent result \\cite{Raz2010} has rekindled people's interest in the study of \\emph{tensor rank}, the generalization of matrix rank to high dimensions, by showing its connections to arithmetic formulas. In this paper, we follow Raz's work and show that \\emph{monotone rank}, the monotone variant of tensor rank and matrix rank, has applications in algebraic complexity, quantum computing and communication complexity. This paper differs from Raz's paper in that it leverages existing results to ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses monotone rank, tensor rank, and the log-rank conjecture in communication complexity, but makes no mention of homological algebra, Ext groups, or CNF formulas — it does not interact with the specific bound relating Ext^(n-2) to communication complexity rank.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

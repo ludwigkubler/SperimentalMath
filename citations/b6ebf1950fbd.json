@@ -1,0 +1,40 @@
+{
+  "entry_id": "b6ebf1950fbd",
+  "ts": 1781013370.1138809,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1802.09555",
+      "title": "Involutive categories, colored $\\ast$-operads and quantum field theory",
+      "abstract_excerpt": "Involutive category theory provides a flexible framework to describe involutive structures on algebraic objects, such as anti-linear involutions on complex vector spaces. Motivated by the prominent role of involutions in quantum (field) theory, we develop the involutive analogs of colored operads and their algebras, named colored $\\ast$-operads and $\\ast$-algebras. Central to the definition of colored $\\ast$-operads is the involutive monoidal category of symmetric sequences, which we obtain from",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns involutive categories, colored *-operads, and quantum field theory applications; it makes no claim about braid relations, boolean circuits, or complexity bounds like Θ(log(n) log(m)).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0512165v3",
+      "title": "Classification of braids which give rise to interchange",
+      "abstract_excerpt": "It is well known that the existence of a braiding in a monoidal category V allows many structures to be built upon that foundation. These include a monoidal 2-category V-Cat of enriched categories and functors over V, a monoidal bicategory V-Mod of enriched categories and modules, a category of oper",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses how braidings in monoidal categories give rise to enriched categorical structures (V-Cat, V-Mod), with no mention of boolean circuits, circuit complexity, or counting minimal braid relations. It shares the vocabulary of braided categories but does not address the specific Θ(log(n) log(m)) bound claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1705.04238",
+      "title": "Braided module categories via quantum symmetric pairs",
+      "abstract_excerpt": "Let ${\\mathfrak g}$ be a finite dimensional complex semisimple Lie algebra. The finite dimensional representations of the quantized enveloping algebra $U_q({\\mathfrak g})$ form a braided monoidal category $O_{int}$. We show that the category of finite dimensional representations of a quantum symmetric pair coideal subalgebra $B_{c,s}$ of $U_q({\\mathfrak g})$ is a braided module category over an equivariantization of $O_{int}$. The braiding for $B_{c,s}$ is realized by a universal K-matrix which ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns braided module categories over quantum symmetric pairs and a universal K-matrix, with no reference to boolean circuits, circuit complexity, or counting braid relations needed to represent computational circuits.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
