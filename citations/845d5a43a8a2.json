@@ -1,0 +1,40 @@
+{
+  "entry_id": "845d5a43a8a2",
+  "ts": 1781103774.0593536,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0910.5301",
+      "title": "Using Elimination Theory to construct Rigid Matrices",
+      "abstract_excerpt": "The rigidity of a matrix A for target rank r is the minimum number of entries of A that must be changed to ensure that the rank of the altered matrix is at most r. Since its introduction by Valiant (1977), rigidity and similar rank-robustness functions of matrices have found numerous applications in circuit complexity, communication complexity, and learning complexity. Almost all nxn matrices over an infinite field have a rigidity of (n-r)^2. It is a long-standing open question to construct infi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns matrix rigidity constructed via elimination theory and its applications to circuit/communication/learning complexity, with no mention of Grothendieck-Riemann-Roch classes or a rank-vs-log(communication-complexity) bound. It shares the broad 'algebraic geometry meets communication complexity' framing but does not interact with the specific GRR-rank conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1801.01412",
+      "title": "Operator scaling with specified marginals",
+      "abstract_excerpt": "The completely positive maps, a generalization of the nonnegative matrices, are a well-studied class of maps from $n\\times n$ matrices to $m\\times m$ matrices. The existence of the operator analogues of doubly stochastic scalings of matrices is equivalent to a multitude of problems in computer science and mathematics, such rational identity testing in non-commuting variables, noncommutative rank of symbolic matrices, and a basic problem in invariant theory (Garg, Gurvits, Oliveira and Wigderson,",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns operator scaling with specified marginals and its applications (Brascamp-Lieb, communication complexity, Forster's theorem), but makes no claim about Grothendieck-Riemann-Roch classes or a logarithmic bound on any rank invariant by communication complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2004.10219",
+      "title": "Approximate tensor decompositions: disappearance of many separations",
+      "abstract_excerpt": "It is well-known that tensor decompositions show separations, that is, that constraints on local terms (such as positivity) may entail an arbitrarily high cost in their representation. Here we show that many of these separations disappear in the approximate case. Specifically, for every approximation error $\\varepsilon$ and norm, we define the approximate rank as the minimum rank of an element in the $\\varepsilon$-ball with respect to that norm. For positive semidefinite matrices, we show that t",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses approximate tensor decomposition ranks (purification rank, psd rank, nonnegative rank) and mentions implications for communication complexity, but says nothing about Grothendieck-Riemann-Roch classes or the specific logarithmic bound r_GRR(φ) = O(log(D_φ)).",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

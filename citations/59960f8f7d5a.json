@@ -1,0 +1,40 @@
+{
+  "entry_id": "59960f8f7d5a",
+  "ts": 1781106347.4817562,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2310.19569",
+      "title": "Ehrhart theory on periodic graphs II: Stratified Ehrhart ring theory",
+      "abstract_excerpt": "We investigate the \"stratified Ehrhart ring theory\" for periodic graphs, which gives an algorithm for determining the growth sequences of periodic graphs. The growth sequence $(s_{Γ, x_0, i})_{i \\ge 0}$ is defined for a graph $Γ$ and its fixed vertex $x_0$, where $s_{Γ, x_0, i}$ is defined as the number of vertices of $Γ$ at distance $i$ from $x_0$. Although the sequences $(s_{Γ, x_0, i})_{i \\ge 0}$ for periodic graphs are known to be of quasi-polynomial type, their determination had not been es",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns growth sequences of periodic graphs via stratified Ehrhart ring theory, with no mention of Boolean functions, communication complexity, or rank variance. It shares only the 'Ehrhart' vocabulary with the conjecture but does not address the specific claimed bound.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1805.01504",
+      "title": "Weighted lattice point sums in lattice polytopes, unifying Dehn--Sommerville and Ehrhart--Macdonald",
+      "abstract_excerpt": "Let $V$ be a real vector space of dimension $n$ and let $M\\subset V$ be a lattice. Let $P\\subset V$ be an $n$-dimensional polytope with vertices in $M$, and let $\\varphi\\colon V\\rightarrow \\CC $ be a homogeneous polynomial function of degree $d$ (i.e., an element of $\\Sym^{d} (V^{*})$). For $q\\in \\ZZ_{&gt;0}$ and any face $F$ of $P$, let $D_{\\varphi ,F} (q)$ be the sum of $\\varphi$ over the lattice points in the dilate $qF$. We define a generating function $G_{\\varphi}(q,y) \\in \\QQ [q] [y]$ pack",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns weighted lattice point sums, Ehrhart–Macdonald reciprocity, and Dehn–Sommerville relations for lattice polytopes, with no mention of communication complexity, Boolean functions, or rank variance. It shares Ehrhart vocabulary but does not interact with the specific bound conjectured.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/hep-th/0312027v1",
+      "title": "Is a quantum theory of resonances really time asymmetric?",
+      "abstract_excerpt": "The title \"Time Asymmetric Quantum Theory: the Theory of Resonances\" (without questionmark) of the CFIF workshop (23.-26.7.2003, Lisbon, Portugal) implies that the theoretical description of resonances is uniquely described by the formalism of A. Bohm et al. reflecting the title of the workshop. Our",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quantum theory of resonances and time asymmetry, with no relation to Ehrhart theory, semigroups, or communication complexity rank variance mentioned in the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

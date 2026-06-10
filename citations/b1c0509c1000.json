@@ -1,0 +1,40 @@
+{
+  "entry_id": "b1c0509c1000",
+  "ts": 1781105177.0162666,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2103.05143",
+      "title": "Capacities from the Chiu-Tamarkin complex",
+      "abstract_excerpt": "In this paper, we construct a sequence $(c_k)_{k\\in\\mathbb{N}}$ of symplectic capacities based on the Chiu-Tamarkin complex $C_{T,\\ell}$, a $\\mathbb{Z}/\\ell$-equivariant invariant coming from the microlocal theory of sheaves. We compute $(c_k)_{k\\in\\mathbb{N}}$ for convex toric domains, which are the same as the Gutt-Hutchings capacities. Our method also works for the prequantized contact manifold $T^*X\\times S^1$. We define a sequence of \"contact capacities\" $([c]_k)_{k\\in\\mathbb{N}}$ on the pr",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns constructing symplectic capacities from the Chiu-Tamarkin complex and computing them for convex toric domains, with no mention of boolean formulas, resolution proofs, or proof complexity — it shares only the 'symplectic capacity' vocabulary.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1002.3099",
+      "title": "Tamed Symplectic forms and SKT metrics",
+      "abstract_excerpt": "Symplectic forms taming complex structures on compact manifolds are strictly related to Hermitian metrics having the fundamental form $\\partial \\bar \\partial $-closed, i.e. to strong Kähler with torsion (${\\rm SKT}$) metrics. It is still an open problem to exhibit a compact example of a complex manifold having a tamed symplectic structure but non-admitting Kähler structures. We show some negative results for the existence of symplectic forms taming complex structures on compact quotients of Lie ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns symplectic forms taming complex structures and SKT metrics on nilmanifolds, with no mention of symplectic capacities, boolean formulas, or resolution proof complexity. It shares only the word 'symplectic' with the conjecture and does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1612.04764",
+      "title": "Cohomological aspects on complex and symplectic manifolds",
+      "abstract_excerpt": "We discuss how quantitative cohomological informations could provide qualitative properties on complex and symplectic manifolds. In particular we focus on the Bott-Chern and the Aeppli cohomology groups in both cases, since they represent useful tools in studying non Kähler geometry. We give an overview on the comparisons among the dimensions of the cohomology groups that can be defined and we show how we reach the $\\partial\\overline\\partial$-lemma in complex geometry and the Hard-Lefschetz cond",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Bott-Chern and Aeppli cohomology groups on complex and symplectic manifolds, focusing on the ∂∂̄-lemma and Hard-Lefschetz condition—it has no interaction with symplectic capacity, boolean formulas, or resolution proof width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

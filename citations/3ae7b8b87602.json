@@ -1,0 +1,40 @@
+{
+  "entry_id": "3ae7b8b87602",
+  "ts": 1781104622.8803658,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2201.00728",
+      "title": "Grothendieck--Witt Groups of Henselian Valuation Rings",
+      "abstract_excerpt": "We show that functors like algebraic $K$-theory (such as unitary or symplectic $K$-functors), as well as the higher Grothendieck--Witt groups, possess the local constancy condition for Henselian valuation rings. Namely, taken with finite coefficients, these functors send canonical residue maps into isomorphisms. This statement holds in cases of both equal and mixed characteristics. The proof is based on a slight modification of Suslin's methods. In particular, we use his notion of universal homo",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns local constancy of higher Grothendieck-Witt groups for Henselian valuation rings via Suslin's methods, with no mention of communication complexity, rank variance, or Boolean rings. It shares only the 'Grothendieck-Witt' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1403.8106",
+      "title": "Recent advances on the log-rank conjecture in communication complexity",
+      "abstract_excerpt": "The log-rank conjecture is one of the fundamental open problems in communication complexity. It speculates that the deterministic communication complexity of any two-party function is equal to the log of the rank of its associated matrix, up to polynomial factors. Despite much research, we still know very little about this conjecture. Recently, there has been renewed interest in this conjecture and its relations to other fundamental problems in complexity theory. This survey describes some of th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the log-rank conjecture relating deterministic communication complexity to matrix rank, with no mention of Grothendieck-Witt classes, defining polynomials over the Boolean ring, or 'rank variance'. It shares the broader framework of communication complexity but does not address the specific GW bound claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1102.2932",
+      "title": "Applications of Monotone Rank to Complexity Theory",
+      "abstract_excerpt": "Raz's recent result \\cite{Raz2010} has rekindled people's interest in the study of \\emph{tensor rank}, the generalization of matrix rank to high dimensions, by showing its connections to arithmetic formulas. In this paper, we follow Raz's work and show that \\emph{monotone rank}, the monotone variant of tensor rank and matrix rank, has applications in algebraic complexity, quantum computing and communication complexity. This paper differs from Raz's paper in that it leverages existing results to ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns monotone/tensor rank and the log-rank conjecture in communication complexity, with no mention of Grothendieck-Witt classes, quadratic forms, or 'rank variance' over the Boolean ring. It shares the communication-complexity setting but does not interact with the specific GW-class bound claimed.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
