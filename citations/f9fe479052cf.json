@@ -1,0 +1,40 @@
+{
+  "entry_id": "f9fe479052cf",
+  "ts": 1781121958.9393747,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1802.00886",
+      "title": "Lattices with exponentially large kissing numbers",
+      "abstract_excerpt": "We construct a sequence of lattices $\\{L_{n_i}\\subset \\mathbb R^{n_i}\\}$ for $n_i\\longrightarrow\\infty$, with exponentially large kissing numbers, namely, $\\log_2τ(L_{n_i})&gt; 0.0338\\cdot n_i -o(n_i)$. We also show that the maximum lattice kissing number $ τ^l_{n}$ in $n$ dimensions verifies $\\log_2τ^l_{n}&gt; 0.0219\\cdot n -o(n)$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns lower bounds on kissing numbers of lattices in R^n ('exponentially large kissing numbers', 'log_2 τ(L_{n_i}) > 0.0338·n_i'), with no reference to Boolean circuits, circuit depth, or vertex sets of circuits. It shares only the term 'kissing number' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2003.05547",
+      "title": "Kissing number in non-Euclidean spaces of constant sectional curvature",
+      "abstract_excerpt": "This paper provides upper and lower bounds on the kissing number of congruent radius $r &gt; 0$ spheres in hyperbolic $\\mathbb{H}^n$ and spherical $\\mathbb{S}^n$ spaces, for $n\\geq 2$. For that purpose, the kissing number is replaced by the kissing function $κ_H(n, r)$, resp. $κ_S(n, r)$, which depends on the dimension $n$ and the radius $r$. After we obtain some theoretical upper and lower bounds for $κ_H(n, r)$, we study their asymptotic behaviour and show, in particular, that $κ_H(n,r) \\sim (",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses kissing numbers of spheres in hyperbolic and spherical spaces of constant curvature, with no mention of Boolean circuits, circuit depth, or vertex sets of circuits. It shares only the 'kissing number' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2002.12139",
+      "title": "Some Modular Considerations Regarding Odd Perfect Numbers",
+      "abstract_excerpt": "Let $p^k m^2$ be an odd perfect number with special prime $p$. In this article, we provide an alternative proof for the biconditional that $σ(m^2) \\equiv 1 \\pmod 4$ holds if and only if $p \\equiv k \\pmod 8$. We then give an application of this result to the case when $σ(m^2)/p^k$ is a square.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns odd perfect numbers and modular arithmetic of σ(m²), with no connection to kissing numbers, boolean circuits, or circuit depth.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

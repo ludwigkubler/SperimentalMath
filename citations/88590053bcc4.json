@@ -1,0 +1,40 @@
+{
+  "entry_id": "88590053bcc4",
+  "ts": 1781123328.0302668,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2512.15901",
+      "title": "Closed-Form Optimal Quantum Circuits for Single-Query Identification of Boolean Functions",
+      "abstract_excerpt": "We study minimum-error identification of an unknown single-bit Boolean function given black-box (oracle) access with one allowed query. Rather than stopping at an abstract optimal measurement, we give a fully constructive solution: an explicit state preparation and an explicit measurement unitary whose computational-basis readout achieves the Helstrom-optimal success probability 3/4 for distinguishing the four possible functions. The resulting circuit is low depth, uses a fixed gate set, and (in",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns optimal quantum circuits for single-query identification of Boolean functions via Helstrom-optimal measurements, with no mention of algebraic K-theory, quasi-cohomology, or bounds on K-theoretic dimension in terms of circuit depth. It shares only the loose 'Boolean circuits' vocabulary but does not interact with the specific k_theo(c) ≤ O(d^2) claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2011.11755",
+      "title": "Boolean algebras, Morita invariance, and the algebraic K-theory of Lawvere theories",
+      "abstract_excerpt": "The algebraic K-theory of Lawvere theories is a conceptual device to elucidate the stable homology of the symmetry groups of algebraic structures such as the permutation groups and the automorphism groups of free groups. In this paper, we fully address the question of how Morita equivalence classes of Lawvere theories interact with algebraic K-theory. On the one hand, we show that the higher algebraic K-theory is invariant under passage to matrix theories. On the other hand, we show that the hig",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses Morita invariance of algebraic K-theory of Lawvere theories (including Boolean algebras as algebraic structures), not boolean circuits or circuit depth. It shares the vocabulary 'Boolean' and 'K-theory' but does not interact with the conjecture's bound k_theo(c) ≤ O(d^2).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0912.2255",
+      "title": "Test ideals via algebras of $p^{-e}$-linear maps",
+      "abstract_excerpt": "Continuing ideas of a recent preprint of Schwede arXiv:0906.4313 we study test ideals by viewing them as minimal objects in a certain class of $F$-pure modules over algebras of p^{-e}-linear operators. This shift in the viewpoint leads to a simplified and generalized treatment, also allowing us to define test ideals in non-reduced settings.\n  In combining this with an observation of Anderson on the contracting property of p^{-e}-linear operators we obtain an elementary approach to test ideals in",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns test ideals in commutative algebra via p^{-e}-linear operators in positive characteristic, with no mention of algebraic K-theory, boolean circuits, or circuit depth bounds — sharing none of the conjecture's specific claims.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
