@@ -1,0 +1,40 @@
+{
+  "entry_id": "abcd2cad3669",
+  "ts": 1781111738.9079955,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2407.18001",
+      "title": "Measurement of $D^0-\\overline{D}^0$ mixing and search for $CP$ violation with $D^0\\rightarrow K^+π^-$ decays",
+      "abstract_excerpt": "A measurement of the time-dependent ratio of the $D^0\\rightarrow K^+π^-$ to $\\overline{D}^0\\rightarrow K^+π^-$ decay rates is reported. The analysis uses a sample of proton-proton collisions corresponding to an integrated luminosity of 6 fb$^{-1}$ recorded by the LHCb experiment from 2015 through 2018 at a center-of-mass energy of 13 TeV. The $D^0$ meson is required to originate from a $D^{*+}\\rightarrow D^0π^+$ decay, such that its flavor at production is inferred from the charge of the accompa",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a particle physics measurement of D^0 meson mixing and CP violation at LHCb, with no connection to algebraic K-theory, communication complexity, or Tseitin formulas mentioned in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1405.1053",
+      "title": "Methods and results of a search for gravitational waves associated with gamma-ray bursts using the GEO600, LIGO, and Virgo detectors",
+      "abstract_excerpt": "In this paper we report on a search for short-duration gravitational wave bursts in the frequency range 64 Hz-1792 Hz associated with gamma-ray bursts (GRBs), using data from GEO600 and one of the LIGO or Virgo detectors. We introduce the method of a linear search grid to analyse GRB events with large sky localisation uncertainties such as the localisations provided by the Fermi Gamma-ray Burst Monitor (GBM). Coherent searches for gravitational waves (GWs) can be computationally intensive when t",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a search for gravitational wave bursts associated with gamma-ray bursts using LIGO/Virgo/GEO600 detectors, which has no connection to algebraic K-theory, communication complexity, or Tseitin formulas mentioned in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2103.06810",
+      "title": "Precise measurement of the $f_s/f_d$ ratio of fragmentation fractions and of $B^0_s$ decay branching fractions",
+      "abstract_excerpt": "The ratio of the $B^0_s$ and $B^0$ fragmentation fractions, $f_s/f_d$, in proton-proton collisions at the LHC, is obtained as a function of $B$-meson transverse momentum and collision centre-of-mass energy from the combined analysis of different $B$-decay channels measured by the LHCb experiment. The results are described by a linear function of the meson transverse momentum, or with a function inspired by Tsallis statistics. Precise measurements of the branching fractions of the $B^0_s \\to J/ψφ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns LHCb measurements of B-meson fragmentation fractions and branching fractions in particle physics, with no connection to algebraic K-theory, Tseitin formulas, or communication complexity rank.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

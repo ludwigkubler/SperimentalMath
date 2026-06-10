@@ -1,0 +1,40 @@
+{
+  "entry_id": "ed3168beeebd",
+  "ts": 1781111279.5363376,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1005.0209",
+      "title": "Approximations and adjoints in homotopy categories",
+      "abstract_excerpt": "We provide a criterion for the existence of right approximations in cocomplete additive categories; it is a straightforward generalisation of a result due to El Bashir. This criterion is used to construct adjoint functors in homotopy categories. Applications include the study of (pure) derived categories. For instance, it is shown that the pure derived category of any module category is compactly generated.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns right approximations and adjoint functors in homotopy/derived categories of module categories, with no mention of Boolean circuits, CNF formulas, or circuit complexity. It shares only the broad 'category' vocabulary but does not interact with the conjecture's claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1309.2835",
+      "title": "On Limits and Colimits Of Comodules over a Coalgebra in a Tensor Category",
+      "abstract_excerpt": "We show that the category of comodules over a coassociative coalgebra in a complete, cocomplete and well-powered category has limits and colimits under additional assumptions.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns limits and colimits of comodules over a coalgebra in a tensor category, which shares the broad 'category theory' vocabulary but does not address CNF formulas, Boolean circuits, or morphism-count complexity bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2505.17432",
+      "title": "Hilbert $*$-categories: Where limits in analysis and category theory meet",
+      "abstract_excerpt": "This article introduces Hilbert $*$-categories: an abstraction of categories with similar algebraic and analytic properties to the categories of real, complex, and quaternionic Hilbert spaces and bounded linear maps. Other examples include categories of Hilbert W*-modules and of unitary group-representations. Hilbert $*$-categories are \"analytically\" complete in two ways: every bounded increasing sequence of Hermitian endomorphisms has a supremum, and every suitably bounded orthogonal family of ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Hilbert *-categories, analytic completeness, and universal constructions like ℓ²-limits—pure functional-analytic category theory with no mention of CNF formulas, Boolean circuits, or morphism-count complexity bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

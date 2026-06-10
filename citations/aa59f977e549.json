@@ -1,0 +1,40 @@
+{
+  "entry_id": "aa59f977e549",
+  "ts": 1781112069.3946497,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0707.3682",
+      "title": "On the p-adic Beilinson conjecture for number fields",
+      "abstract_excerpt": "We formulate a conjectural p-adic analogue of Borel's theorem relating regulators for higher K-groups of number fields to special values of the corresponding zeta-functions, using syntomic regulators and p-adic L-functions. We also formulate a corresponding conjecture for Artin motives, and state a conjecture about the precise relation between the p-adic and classical situations. Parts of he conjectures are proved when the number field (or Artin motive) is Abelian over the rationals, and all con",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a p-adic analogue of Borel's theorem relating regulators of K-groups to p-adic L-functions, with no mention of matroids, communication complexity, or rank variance. It shares only the loose vocabulary of 'p-adic' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1403.8106",
+      "title": "Recent advances on the log-rank conjecture in communication complexity",
+      "abstract_excerpt": "The log-rank conjecture is one of the fundamental open problems in communication complexity. It speculates that the deterministic communication complexity of any two-party function is equal to the log of the rank of its associated matrix, up to polynomial factors. Despite much research, we still know very little about this conjecture. Recently, there has been renewed interest in this conjecture and its relations to other fundamental problems in complexity theory. This survey describes some of th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the log-rank conjecture relating deterministic communication complexity to the log of matrix rank, with no mention of p-adic valuations, matroids, or 'rank variance.' It shares the communication-complexity/rank vocabulary but does not address the specific claimed linear correlation.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math-ph/0512018v2",
+      "title": "On Phase Transitions for $P$-Adic Potts Model with Competing Interactions on a Cayley Tree",
+      "abstract_excerpt": "In the paper we considere three state $p$-adic Potts model with competing interactions on a Cayley tree of order two. We reduce a problem of describing of the $p$-adic Gibbs measures to the solution of certain recursive equation, and using it we will prove that a phase transition occurs if and only ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses p-adic Potts models and Gibbs measures on a Cayley tree, sharing only the 'p-adic' vocabulary with the conjecture; it makes no claim about p-adic valuation rank or communication complexity rank variance.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

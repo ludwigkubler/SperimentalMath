@@ -1,0 +1,40 @@
+{
+  "entry_id": "7da21b340c65",
+  "ts": 1781112961.1702044,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1904.05483",
+      "title": "Parallels Between Phase Transitions and Circuit Complexity?",
+      "abstract_excerpt": "In many natural average-case problems, there are or there are believed to be critical values in the parameter space where the structure of the space of solutions changes in a fundamental way. These phase transitions are often believed to coincide with drastic changes in the computational complexity of the associated problem.\n  In this work, we study the circuit complexity of inference in the broadcast tree model, which has important applications in phylogenetic reconstruction and close connectio",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses circuit complexity classes (TC^0, NC^1) in the context of belief propagation and phase transitions in broadcast tree models, with no mention of matroids, local induction degree bounds, or entanglement complexity as defined in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2004.12063",
+      "title": "Hardness of Random Optimization Problems for Boolean Circuits, Low-Degree Polynomials, and Langevin Dynamics",
+      "abstract_excerpt": "We consider the problem of finding nearly optimal solutions of optimization problems with random objective functions. Two concrete problems we consider are (a) optimizing the Hamiltonian of a spherical or Ising $p$-spin glass model, and (b) finding a large independent set in a sparse Erdős-Rényi graph. The following families of algorithms are considered: (a) low-degree polynomials of the input; (b) low-depth Boolean circuits; (c) the Langevin dynamics algorithm. We show that these families of al",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns hardness of random optimization via overlap gap property and stability of low-depth Boolean circuits, with no mention of matroids, local induction degree bounds, or entanglement complexity. It shares the 'Boolean circuits' vocabulary but does not interact with the specific LIDB = Θ(√D) claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0907.2663",
+      "title": "The Complexity of Approximating Bounded-Degree Boolean \\sharp CSP",
+      "abstract_excerpt": "The degree of a CSP instance is the maximum number of times that any variable appears in the scopes of constraints. We consider the approximate counting problem for Boolean CSP with bounded-degree instances, for constraint languages containing the two unary constant relations {0} and {1}. When the maximum allowed degree is large enough (at least 6) we obtain a complete classification of the complexity of this problem. It is exactly solvable in polynomial-time if every relation in the constraint ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns approximate counting complexity for bounded-degree Boolean CSPs and classifications based on constraint languages ('complete classification of the complexity of this problem'), not matroid local induction degree bounds or circuit entanglement complexity. It shares no specific claim about LIDB(C) = Θ(√D) or related matroid-entanglement correlations.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

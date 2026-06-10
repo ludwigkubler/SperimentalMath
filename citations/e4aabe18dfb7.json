@@ -1,0 +1,40 @@
+{
+  "entry_id": "e4aabe18dfb7",
+  "ts": 1781110264.2085812,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1403.8106",
+      "title": "Recent advances on the log-rank conjecture in communication complexity",
+      "abstract_excerpt": "The log-rank conjecture is one of the fundamental open problems in communication complexity. It speculates that the deterministic communication complexity of any two-party function is equal to the log of the rank of its associated matrix, up to polynomial factors. Despite much research, we still know very little about this conjecture. Recently, there has been renewed interest in this conjecture and its relations to other fundamental problems in complexity theory. This survey describes some of th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the log-rank conjecture relating deterministic communication complexity to matrix rank, with no mention of braid groups or generator-based bounds. It shares the 'communication complexity' vocabulary but does not interact with the specific claim about braid group cardinality bounding communication rank.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1806.05902",
+      "title": "Commutator Subgroups of Singular Braid Groups",
+      "abstract_excerpt": "The singular braids with $n$ strands, $n \\geq 3$, were introduced independently by Baez and Birman. It is known that the monoid formed by the singular braids is embedded in a group that is known as singular braid group, denoted by $SG_n$. There has been another generalization of braid groups, denoted by $GVB_n$, $n \\geq 3$, which was introduced by Fang as a group of symmetries behind quantum quasi-shuffle structures. The group $GVB_n$ simultaneously generalizes the classical braid group, as well",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns commutator subgroups of generalized braid groups (SG_n and GVB_n) and their finite generation/perfection properties, with no mention of communication complexity or protocol rank bounds. It shares only the 'braid group' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2209.03860",
+      "title": "Graph of groups decompositions of graph braid groups",
+      "abstract_excerpt": "We provide an explicit construction that allows one to easily decompose a graph braid group as a graph of groups. This allows us to compute the braid groups of a wide range of graphs, as well as providing two general criteria for a graph braid group to split as a non-trivial free product, answering two questions of Genevois. We also use this to distinguish certain right-angled Artin groups and graph braid groups. Additionally, we provide an explicit example of a graph braid group that is relativ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'graph of groups decompositions of graph braid groups' and questions about hyperbolicity and free products, with no mention of communication complexity or protocol bounds. It shares the 'braid group' vocabulary but does not interact with the conjecture's claim about bounding communication complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
