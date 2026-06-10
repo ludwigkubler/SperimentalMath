@@ -4034,5 +4034,9 @@
 {"ts": 1781055008.0314844, "kind": "NOTEBOOK_LARGE", "auto_fixed": false, "detail": {"size_mb": 120.408636}}
 {"ts": 1781055009.7086906, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 44}}
 {"ts": 1781055010.171926, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1601, "cap": 2000, "fraction": 0.8, "weekly_budget": 2500}}
-{"ts": 1781058901.193906, "ts_iso": "2026-06-10T02:35:01.193906+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "OK", "to_status": "DEGRADED", "failing_checks": ["cron_logs_no_trace"], "auto_fixed": false}
-{"ts": 1781059501.231912, "ts_iso": "2026-06-10T02:45:01.231912+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "DEGRADED", "to_status": "OK", "failing_checks": [], "auto_fixed": false}
+{"ts": 1781056806.406972, "kind": "NOTEBOOK_LARGE", "auto_fixed": false, "detail": {"size_mb": 120.489626}}
+{"ts": 1781056808.116104, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 44}}
+{"ts": 1781056808.2300684, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1610, "cap": 2000, "fraction": 0.805, "weekly_budget": 2500}}
+{"ts": 1781058607.165337, "kind": "NOTEBOOK_LARGE", "auto_fixed": false, "detail": {"size_mb": 120.581678}}
+{"ts": 1781058608.8233116, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 44}}
+{"ts": 1781058609.117193, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1610, "cap": 2000, "fraction": 0.805, "weekly_budget": 2500}}

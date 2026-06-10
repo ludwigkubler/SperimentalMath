@@ -1,0 +1,40 @@
+{
+  "entry_id": "589453ab93ca",
+  "ts": 1781056663.1188507,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1406.3065",
+      "title": "Lower Bounds for Tropical Circuits and Dynamic Programs",
+      "abstract_excerpt": "Tropical circuits are circuits with Min and Plus, or Max and Plus operations as gates. Their importance stems from their intimate relation to dynamic programming algorithms. The power of tropical circuits lies somewhere between that of monotone boolean circuits and monotone arithmetic circuits. In this paper we present some lower bounds arguments for tropical circuits, and hence, for dynamic programs.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns lower bounds for tropical (Min/Plus, Max/Plus) circuits and dynamic programming, with no mention of local systems, complement graphs, or rank bounds for Boolean circuit satisfiability. It shares only the generic 'circuits' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2004.04932",
+      "title": "A Novel Application of Boolean Functions with High Algebraic Immunity in Minimal Codes",
+      "abstract_excerpt": "Boolean functions with high algebraic immunity are important cryptographic primitives in some stream ciphers. In this paper, two methodologies for constructing binary minimal codes from sets, Boolean functions and vectorial Boolean functions with high algebraic immunity are proposed. More precisely, a general construction of new minimal codes using minimal codes contained in Reed-Muller codes and sets without nonzero low degree annihilators is presented. The other construction allows us to yield",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns constructing minimal binary linear codes from Boolean functions with high algebraic immunity, not local systems on complement graphs of Boolean circuits or rank bounds for circuit satisfiability. The shared 'Boolean function' vocabulary does not engage with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1806.06097",
+      "title": "Arithmetic Circuits with Locally Low Algebraic Rank",
+      "abstract_excerpt": "In recent years, there has been a flurry of activity towards proving lower bounds for homogeneous depth-4 arithmetic circuits, which has brought us very close to statements that are known to imply $\\textsf{VP} \\neq \\textsf{VNP}$. It is open if these techniques can go beyond homogeneity, and in this paper we make some progress in this direction by considering depth-4 circuits of low algebraic rank, which are a natural extension of homogeneous depth-4 circuits. A depth-4 circuit is a representatio",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns lower bounds and hitting sets for depth-4 arithmetic circuits with low algebraic rank, using 'algebraic rank' in the sense of transcendence degree of polynomial sets — not local systems on complement graphs of Boolean circuits. Despite shared vocabulary ('rank', 'circuits'), it does not address the conjectured O(d^(2/3)n^(1/3)) bound for Boolean SAT circuits.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
