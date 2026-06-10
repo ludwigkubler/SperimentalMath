@@ -1,0 +1,40 @@
+{
+  "entry_id": "ad49dbc072e8",
+  "ts": 1781094921.3605113,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1004.0653",
+      "title": "Exact Ramsey Theory: Green-Tao numbers and SAT",
+      "abstract_excerpt": "We consider the links between Ramsey theory in the integers, based on van der Waerden's theorem, and (boolean, CNF) SAT solving. We aim at using the problems from exact Ramsey theory, concerned with computing Ramsey-type numbers, as a rich source of test problems, where especially methods for solving hard problems can be developed. In order to control the growth of the problem instances, we introduce \"transversal extensions\" as a natural way of constructing mixed parameter tuples (k_1, ..., k_m)",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Ramsey theory, van der Waerden/Green-Tao numbers, and SAT solver benchmarking — it makes no claim about circuit satisfiability complexity bounds (Θ(log^2 n)) or topological quantum field theory entanglement. It shares only the SAT/CNF vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1610.07628",
+      "title": "Higher Categories and Topological Quantum Field Theories",
+      "abstract_excerpt": "We construct a state-sum type invariant of smooth closed oriented $4$-manifolds out of a $G$-crossed braided spherical fusion category ($G$-BSFC) for $G$ a finite group. The construction can be extended to obtain a $(3+1)$-dimensional topological quantum field theory (TQFT). The invariant of $4$-manifolds generalizes several known invariants in literature such as the Crane-Yetter invariant from a ribbon fusion category and Yetter's invariant from homotopy $2$-types. If the $G$-BSFC is concentrat",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns state-sum invariants of 4-manifolds from G-crossed braided spherical fusion categories and (3+1)-TQFT constructions, with no mention of CNF/SAT complexity, circuit satisfiability bounds, or minimal quantum entanglement. It shares the TQFT framework vocabulary but does not interact with the specific Θ(log^2 n) claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2605.09347v1",
+      "title": "Dsat: A Native SAT Solver for Discrete Logic",
+      "abstract_excerpt": "Discrete variables are common in many applications, such as probabilistic reasoning, planning and explainable AI. When symbolic reasoning techniques are brought in to bear on these applications, a standard technique for handling discrete variables is to binarize them into Boolean variables to allow the use of Boolean computational machinery such as SAT solvers. This technique can face both computational and semantical challenges though. In this work, we develop a native SAT solver for discrete l",
+      "abstract_source": "arxiv_local_mirror",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a 'native SAT solver for discrete logic' extending Boolean SAT solving to discrete variables, with no mention of topological quantum field theory, quantum entanglement, or Θ(log^2 n) complexity bounds. It shares only the SAT/CNF vocabulary with the conjecture but does not interact with its specific claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

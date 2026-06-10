@@ -1,0 +1,40 @@
+{
+  "entry_id": "07b20bc94131",
+  "ts": 1781093619.8473387,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1908.01624",
+      "title": "Learned Clause Minimization in Parallel SAT Solvers",
+      "abstract_excerpt": "Learned clauses minimization (LCM) let to performance improvements of modern SAT solvers especially in solving hard SAT instances. Despite the success of LCM approaches in sequential solvers, they are not widely incorporated in parallel SAT solvers. In this paper we explore the potential of LCM for parallel SAT solvers by defining multiple LCM approaches based on clause vivification, comparing their runtime in different SAT solvers and discussing reasons for performance gains and losses. Results",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'Learned Clause Minimization' for parallel SAT solver performance, an empirical solver-engineering topic, with no mention of tropical geometry, motivic rank, or any lower bound relating clause degree and satisfying assignment counts.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1807.11061",
+      "title": "Clause Vivification by Unit Propagation in CDCL SAT Solvers",
+      "abstract_excerpt": "Original and learnt clauses in Conflict-Driven Clause Learning (CDCL) SAT solvers often contain redundant literals. This may have a negative impact on performance because redundant literals may deteriorate both the effectiveness of Boolean constraint propagation and the quality of subsequent learnt clauses. To overcome this drawback, we propose a clause vivification approach that eliminates redundant literals by applying unit propagation. The proposed clause vivification is activated before the ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a CDCL SAT solver engineering technique ('clause vivification approach that eliminates redundant literals by applying unit propagation'), which shares the SAT vocabulary but does not address tropical motivic rank or any lower bound on a polynomial invariant.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1502.02484",
+      "title": "Incrementally Computing Minimal Unsatisfiable Cores of QBFs via a Clause Group Solver API",
+      "abstract_excerpt": "We consider the incremental computation of minimal unsatisfiable cores (MUCs) of QBFs. To this end, we equipped our incremental QBF solver DepQBF with a novel API to allow for incremental solving based on clause groups. A clause group is a set of clauses which is incrementally added to or removed from a previously solved QBF. Our implementation of the novel API is related to incremental SAT solving based on selector variables and assumptions. However, the API entirely hides selector variables an",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns an incremental QBF solver API for computing minimal unsatisfiable cores via clause groups, with no mention of tropical geometry, motivic rank, or polynomial degree bounds. It shares only the SAT/clause vocabulary but does not address the conjectured rank inequality.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

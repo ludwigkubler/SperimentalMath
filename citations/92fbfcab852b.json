@@ -1,0 +1,40 @@
+{
+  "entry_id": "92fbfcab852b",
+  "ts": 1781094236.1490195,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2407.04826",
+      "title": "Multi-strategy Based Quantum Cost Reduction of Quantum Boolean Circuits",
+      "abstract_excerpt": "The construction of quantum computers is based on the synthesis of low-cost quantum circuits. The quantum circuit of any Boolean function expressed in a Positive Polarity Reed-Muller $PPRM$ expansion can be synthesized using Multiple-Control Toffoli ($MCT$) gates. This paper proposes two algorithms to construct a quantum circuit for any Boolean function expressed in a Positive Polarity Reed-Muller $PPRM$ expansion. The Boolean function can be expressed with various algebraic forms, so there are ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quantum circuit synthesis for Boolean functions in Positive Polarity Reed-Muller form using MCT/NCV gates, with no mention of geometric zeta functions, SAT satisfiability complexity bounds, or O(n^2) results relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0903.3848",
+      "title": "Join-irreducible Boolean functions",
+      "abstract_excerpt": "This paper is a contribution to the study of a quasi-order on the set $Ω$ of Boolean functions, the \\emph{simple minor} quasi-order. We look at the join-irreducible members of the resulting poset $\\tildeΩ$. Using a two-way correspondence between Boolean functions and hypergraphs, join-irreducibility translates into a combinatorial property of hypergraphs. We observe that among Steiner systems, those which yield join-irreducible members of $\\tildeΩ$ are the -2-monomorphic Steiner systems. We also",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses a 'simple minor quasi-order' on Boolean functions and join-irreducibility via hypergraph correspondences, with no mention of SAT satisfiability, geometric zeta functions, or complexity bounds in n. It shares only the broad 'Boolean functions' vocabulary.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1712.05169",
+      "title": "Zeros and the functional equation of the quadrilateral zeta function",
+      "abstract_excerpt": "In this paper, we show that all real zeros of the bilateral Hurwitz zeta function $Z(s,a):=ζ(s,a) + ζ(s,1-a)$ with $1/4 \\le a \\le 1/2$ are on only the non-positive even integers exactly same as in the case of $(2^s-1) ζ(s)$. We also prove that all real zeros of the bilateral periodic zeta function $P(s,a):={\\rm{Li}}_s (e^{2πia}) + {\\rm{Li}}_s (e^{2πi(1-a)})$ with $1/4 \\le a \\le 1/2$ are on only the negative even integers just like $ζ(s)$. Moreover, we show that all real zeros of the quadrilatera",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns zeros and functional equations of bilateral Hurwitz and quadrilateral zeta functions, with no mention of SAT, Boolean circuits, complexity bounds, or geometric zeta function complexity associated with computational problems.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
