@@ -1,0 +1,40 @@
+{
+  "entry_id": "63e167638217",
+  "ts": 1781127595.7773926,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1410.5374",
+      "title": "Cluster algebras of infinite rank as colimits",
+      "abstract_excerpt": "We formalize the way in which one can think about cluster algebras of infinite rank by showing that every rooted cluster algebra of infinite rank can be written as a colimit of rooted cluster algebras of finite rank. Relying on the proof of the posivity conjecture for skew-symmetric cluster algebras (of finite rank) by Lee and Schiffler, it follows as a direct consequence that the positivity conjecture holds for cluster algebras of infinite rank. Furthermore, we give a sufficient and necessary c",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses cluster algebras of infinite rank as colimits, the positivity conjecture, and rooted cluster morphisms — it makes no mention of CNF formulas, communication complexity, or any correlation with rank variance, so it does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1510.04109",
+      "title": "Graded quantum cluster algebras of infinite rank as colimits",
+      "abstract_excerpt": "We provide a graded and quantum version of the category of rooted cluster algebras introduced by Assem, Dupont and Schiffler and show that every graded quantum cluster algebra of infinite rank can be written as a colimit of graded quantum cluster algebras of finite rank.\n  As an application, for each k we construct a graded quantum infinite Grassmannian admitting a cluster algebra structure, extending an earlier construction of the authors for k=2.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses graded quantum cluster algebras of infinite rank as colimits and a quantum infinite Grassmannian construction, with no mention of CNF formulas, communication complexity, or any rank-variance correlation relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1306.0753",
+      "title": "Automorphisms of cluster algebras of rank 2",
+      "abstract_excerpt": "We compute the automorphism group of the affine surfaces with the coordinate ring isomorphic to a cluster algebra of rank 2.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns computing 'the automorphism group of the affine surfaces' whose coordinate ring is a rank-2 cluster algebra, which shares only the 'cluster algebra' vocabulary and does not address CNF formulas, minimal rank, or communication complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
