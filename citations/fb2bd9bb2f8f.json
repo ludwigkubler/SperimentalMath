@@ -1,0 +1,40 @@
+{
+  "entry_id": "fb2bd9bb2f8f",
+  "ts": 1781071700.4393067,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0706.3841",
+      "title": "Arithmetic lattices and weak spectral geometry",
+      "abstract_excerpt": "This note is an expansion of three lectures given at the workshop \"Topology, Complex Analysis and Arithmetic of Hyperbolic Spaces\" held at Kyoto University in December of 2006 and will appear in the proceedings for this workshop.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract merely states the note expands three lectures on 'Topology, Complex Analysis and Arithmetic of Hyperbolic Spaces' without describing any specific results, so it is impossible to assess whether it bears on local system orders or Boolean circuit depth.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1207.0276",
+      "title": "Zariski cohomology in second order arithmetic",
+      "abstract_excerpt": "The cohomology of coherent sheaves and sheaves of Abelian groups on Noetherian schemes are interpreted in second order arithmetic by means of a finiteness theorem. This finiteness theorem provably fails for the etale topology even on Noetherian schemes.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses interpreting Zariski cohomology of coherent sheaves in second-order arithmetic via a finiteness theorem, with no mention of local systems, Boolean circuits, SAT, or circuit depth bounds. It shares the broader arithmetic geometry vocabulary but does not interact with the specific claim relating local system order to circuit depth.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1710.07476",
+      "title": "Planar 3-SAT with a Clause/Variable Cycle",
+      "abstract_excerpt": "In the Planar 3-SAT problem, we are given a 3-SAT formula together with its incidence graph, which is planar, and are asked whether this formula is satisfiable. Since Lichtenstein's proof that this problem is NP-complete, it has been used as a starting point for a large number of reductions. In the course of this research, different restrictions on the incidence graph of the formula have been devised, for which the problem also remains hard.\n  In this paper, we investigate the restriction in whi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns NP-completeness of a restricted Planar 3-SAT variant with a Hamiltonian cycle on the incidence graph, making no mention of arithmetic geometry, local systems, or circuit depth bounds. It shares only the broad SAT vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}

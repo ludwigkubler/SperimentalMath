@@ -1,0 +1,40 @@
+{
+  "entry_id": "d97d06b47fdb",
+  "ts": 1781071229.9406855,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1308.2043",
+      "title": "The Kähler rank of compact complex manifolds",
+      "abstract_excerpt": "The Kähler rank was introduced by Harvey and Lawson in their 1983 paper as a measure of the {\\it kählerianity} of a compact complex surface. In this work we generalize this notion to the case of compact complex manifolds and we prove several results related to this notion. We show that on class $VII$ surfaces, there is a correspondence between the closed positive forms on a surface and those on a blow-up in a point. We also show that a manifold of maximal Kähler rank which satisfies an additiona",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Kähler rank of compact complex manifolds and its relation to kählerianity, blow-ups, and class VII surfaces, with no mention of Boolean functions, communication complexity, or any connection to rank bounds for moduli spaces associated with such functions.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0608743v3",
+      "title": "Number variance of random zeros on complex manifolds",
+      "abstract_excerpt": "We show that the variance of the number of simultaneous zeros of $m$ i.i.d. Gaussian random polynomials of degree $N$ in an open set $U \\subset C^m$ with smooth boundary is asymptotic to $N^{m-1/2} ν_{mm} Vol(\\partial U)$, where $ν_{mm}$ is a universal constant depending only on the dimension $m$. W",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns variance of zero counts of Gaussian random polynomials on complex manifolds, which shares only superficial vocabulary (complex manifolds, variance) with the conjecture about Kähler class rank bounds and Boolean function communication complexity. It does not address Kähler class representatives, moduli of Riemann surfaces, or communication complexity rank.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1209.3373",
+      "title": "On the structure of co-Kähler manifolds",
+      "abstract_excerpt": "By the work of Li, a compact co-Kähler manifold $M$ is a mapping torus $K_\\varphi$, where $K$ is a Kähler manifold and $\\varphi$ is a Hermitian isometry. We show here that there is always a finite cyclic cover $\\bar M$ of the form $\\bar M \\cong K \\times S^1$, where $\\cong$ is equivariant diffeomorphism with respect to an action of $S^1$ on $M$ and the action of $S^1$ on $K \\times S^1$ by translation on the second factor. Furthermore, the covering transformations act diagonally on $S^1$, $K$ and ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the structural decomposition of compact co-Kähler manifolds as mapping tori/products with S^1, with no mention of Boolean functions, communication complexity, or Kähler class rank bounds. It shares only the 'Kähler' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

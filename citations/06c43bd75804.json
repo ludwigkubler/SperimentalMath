@@ -1,0 +1,40 @@
+{
+  "entry_id": "06c43bd75804",
+  "ts": 1781071936.0434122,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1807.03761",
+      "title": "The second moment of the number of integral points on elliptic curves is bounded",
+      "abstract_excerpt": "Let $K$ be a number field and $S$ a finite set of places of $K$ containing all archimedean places. In this paper, we show that the second moment of the number of $S$-integral points on elliptic curves over $K$ is bounded. In particular, we prove that, for any positive real number $r\\leq \\log_2 5 = 2.3219 \\ldots$, the $r$-th moment of the number of $S$-integral points is bounded for the family of all integral short Weierstrass curves ordered by height, or for any positive density subfamily thereo",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract bounds moments of S-integral point counts on elliptic curves in arithmetic families ordered by height, with bounds depending on rank, class group, and discriminant primes—not on any quantity derived from a CNF formula's characteristic polynomial. It shares vocabulary ('integral points on elliptic curves') but does not address SAT clause satisfiability or any m^(1/4)n^(3/2)-type bound.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1905.05705",
+      "title": "Semistable models of elliptic curves over residue characteristic 2",
+      "abstract_excerpt": "Given an elliptic curve $E$ in Legendre form $y^2 = x(x - 1)(x - λ)$ over the fraction field of a Henselian ring $R$ of mixed characteristic $(0, 2)$, we present an algorithm for determining a semistable model of $E$ over $R$ which depends only on the valuation of $λ$. We provide several examples along with an easy corollary concerning $2$-torsion.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns semistable models of elliptic curves in Legendre form over Henselian rings of mixed characteristic (0,2), with no mention of integral point counts, CNF formulas, or SAT — it shares only the 'elliptic curve' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1410.3020",
+      "title": "Rational points of universal curves in positive characteristics",
+      "abstract_excerpt": "For the moduli stack $\\mathcal{M}_{g,n/\\mathbb{F}_p}$ of smooth curves over $\\text{Spec}~\\mathbb{F}_p$ with the function field $K$, we show that if $g\\geq3$, then the only $K$-rational points of the generic curve over $K$ are its $n$ tautological points. Furthermore, we show that if $g\\geq4$ and $n=0$, then Grothendieck's Section Conjecture holds for the generic curve over $K$. This is an extension of Hain's work in characteristic $0$ to positive characteristics.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns rational points of generic curves on moduli stacks in positive characteristic and Grothendieck's Section Conjecture, with no mention of elliptic curves' integral points, CNF formulas, or SAT clause satisfiability bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

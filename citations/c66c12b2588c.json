@@ -1,0 +1,40 @@
+{
+  "entry_id": "c66c12b2588c",
+  "ts": 1781073937.1647823,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2112.06776",
+      "title": "Keyphrase Generation Beyond the Boundaries of Title and Abstract",
+      "abstract_excerpt": "Keyphrase generation aims at generating important phrases (keyphrases) that best describe a given document. In scholarly domains, current approaches have largely used only the title and abstract of the articles to generate keyphrases. In this paper, we comprehensively explore whether the integration of additional information from the full text of a given article or from semantically similar articles can be helpful for a neural keyphrase generation model or not. We discover that adding sentences ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract is about keyphrase generation from scholarly articles using NLP models, which has no interaction with automorphism groups, representation theory, or communication complexity as stated in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1810.12657",
+      "title": "The effect of a country's name in the title of a publication on its visibility and citability",
+      "abstract_excerpt": "The objective of this research is to determine if the reference to a country in the title, keywords or abstract of a publication can influence its visibility (measured by the impact factor of the publishing journal) and citability (measured by the citations received). The study is based on Italian scientific production indexed in the Web of Science over the period 2004-2011. The analysis is conducted by comparing the values of four impact indicators for two subsets: i) the indexed publications w",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns bibliometric analysis of country names in publication titles affecting visibility and citations, which has no relation to automorphism groups, representation theory, or communication complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2604.08602",
+      "title": "TiAb Review Plugin: A Browser-Based Tool for AI-Assisted Title and Abstract Screening",
+      "abstract_excerpt": "Background: Server-based screening tools impose subscription costs, while open-source alternatives require coding skills. Objectives: We developed a browser extension that provides no-code, serverless artificial intelligence (AI)-assisted title and abstract screening and examined its functionality. Methods: TiAb Review Plugin is an open-source Chrome browser extension (available at https://chromewebstore.google.com/detail/tiab-review-plugin/alejlnlfflogpnabpbplmnojgoeeabij). It uses Google Sheet",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a browser extension for AI-assisted title/abstract screening in systematic reviews, with no mention of representation theory, automorphism groups, or communication complexity. It shares no substantive content with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
