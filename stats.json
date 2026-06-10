@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-06-10T18:47:07Z",
-  "total_cycles": 6540,
+  "last_update_utc": "2026-06-10T19:47:06Z",
+  "total_cycles": 6550,
   "verdict_counts": {
-    "INCONCLUSIVE": 4190,
+    "INCONCLUSIVE": 4195,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 2244,
+    "BARRIER_HIT": 2249,
     "SCOOPED": 86
   },
-  "unique_field_A": 2589,
+  "unique_field_A": 2592,
   "top_fields_A": [
     [
       "Resolution proof complexity",
@@ -36,7 +36,7 @@
     ],
     [
       "Quandle Theory",
-      52
+      53
     ],
     [
       "p-adic Analysis",
@@ -63,12 +63,12 @@
       38
     ],
     [
-      "Affine Geometry",
+      "Algebraic Topology",
       38
     ],
     [
-      "Matroid Theory",
-      37
+      "Affine Geometry",
+      38
     ]
   ]
 }

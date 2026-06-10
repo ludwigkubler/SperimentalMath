@@ -1,0 +1,40 @@
+{
+  "entry_id": "a674c167ad0a",
+  "ts": 1781117787.703696,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1503.07648",
+      "title": "Sign rank versus VC dimension",
+      "abstract_excerpt": "This work studies the maximum possible sign rank of $N \\times N$ sign matrices with a given VC dimension $d$. For $d=1$, this maximum is {three}. For $d=2$, this maximum is $\\tildeΘ(N^{1/2})$. For $d &gt;2$, similar but slightly less accurate statements hold. {The lower bounds improve over previous ones by Ben-David et al., and the upper bounds are novel.}\n  The lower bounds are obtained by probabilistic constructions, using a theorem of Warren in real algebraic topology. The upper bounds are ob",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses sign rank vs VC dimension, with a tangential connection between sign rank and spectral gaps of regular graphs ('sign rank of the signed version of this matrix is at least Δ/λ'), but does not address the number of simple loops in π_1(G) or any 'rank variance' quantity tied to homotopy generators.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/hep-th/9508105v2",
+      "title": "WZW models of general simple groups",
+      "abstract_excerpt": "It is shown that a WZW model corresponding to a general simple group possesses in general different quantisations which are parametrised by $Hom(π_1(G),Hom(π_1(G),U(1)))$. The quantum theories are generically neither monodromy nor modular invariant, but all the modular invariant theories of Felder e",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quantisations of WZW models parametrised by Hom(π_1(G), Hom(π_1(G), U(1))) for Lie groups G, which shares only the symbol π_1(G) with the conjecture and does not address graph homotopy loops or communication complexity rank variance.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1709.05247",
+      "title": "Nontrivial bundles of coadjoint orbits over $S^2$",
+      "abstract_excerpt": "Let $G$ be a compact connected semisimple Lie group with Lie algebra $\\mathfrak{g}$. Let $\\mathcal{O}\\subset\\mathfrak{g}^*$ be a coadjoint orbit. The action of $G$ on $\\mathcal{O}$ induces a morphism $ρ:G\\to \\mathrm{Homeo}(\\mathcal{O})$. We prove that the induced map $π_1(ρ):π_1(G)\\toπ_1(\\mathrm{Homeo}(\\mathcal{O}))$ is injective. This strengthens a theorem of McDuff and Tolman (conjectured by Weinstein in 1989) according to which the analogous map $G\\to\\mathrm{Ham}(\\mathcal{O})$ is injective on",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns injectivity of induced maps on fundamental groups for coadjoint orbit bundles of Lie groups over S^2, with no mention of k-regular graphs, communication complexity, or rank variance. It shares only the generic vocabulary of π_1 with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "9adfcd56655a",
+  "ts": 1781119605.929764,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1605.04459",
+      "title": "Vector bundles on genus 2 curves and trivectors",
+      "abstract_excerpt": "Given a complex curve C of genus 2, there is a well-known relationship between the moduli space of rank 3 semistable bundles on C and a cubic hypersurface known as the Coble cubic. Some of the aspects of this is known to be related to the geometric invariant theory of the third exterior power of a 9-dimensional complex vector space. We extend this relationship to arbitrary fields and study some of the connections to invariant theory, which will be studied more in-depth in a followup paper.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns moduli of vector bundles on genus 2 curves and the Coble cubic via geometric invariant theory of trivectors, with no mention of Boolean circuits, SAT, hyperbolic volume, or circuit depth complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1904.02629",
+      "title": "The Boolean SATisfiability Problem and the orthogonal group $O(n)$",
+      "abstract_excerpt": "We explore the relations between the Boolean Satisfiability Problem with $n$ Boolean variables and the orthogonal group $\\mbox{O}(n)$. We show that all $2^n$ possible solutions induce involutions of $\\mathbb{R}^n$ that lie in the compact, disconnected real manifold of dimension $n (n-1)/2$ of $\\mbox{O}(n)$. This result in turn gives a new unsatisfiability test within group $\\mbox{O}(n)$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract relates SAT solutions to involutions in the orthogonal group O(n) and derives an unsatisfiability test, with no mention of hyperbolic volume, affine varieties of circuits, or any Θ(n^(2/3)) bound on circuit depth invariants.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1304.2412",
+      "title": "On the satisfiability problem for a 3-level quantified syllogistic",
+      "abstract_excerpt": "We show that a collection of three-sorted set-theoretic formulae, denoted TLQSR and which admits a restricted form of quantification over individual and set variables, has a solvable satisfiability problem by proving that it enjoys a small model property, i.e., any satisfiable TLQSR-formula psi has a finite model whose size depends solely on the size of psi itself. We also introduce the sublanguages (TLQSR)^h of TLQSR, whose formulae are characterized by having quantifier prefixes of length boun",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses satisfiability of a three-sorted set-theoretic syllogistic logic (TLQSR) and its small model property, with no mention of hyperbolic volume, affine varieties, or circuit depth bounds. It shares only the vague vocabulary of 'satisfiability' but does not interact with the Θ(n^(2/3)) HV claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
