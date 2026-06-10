@@ -1,0 +1,40 @@
+{
+  "entry_id": "be29a07fe29d",
+  "ts": 1781132350.4009297,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2111.11468",
+      "title": "Causality Constraint on Circuit Complexity from $COSMOEFT$",
+      "abstract_excerpt": "In this article, we investigate the physical implications of the causality constraint via effective sound speed $c_s(\\leq 1)$ on Quantum Circuit Complexity(QCC) in the framework of Cosmological Effective Field Theory (COSMOEFT) using the two-mode squeezed quantum states. This COSMOEFT setup is constructed using the St$\\ddot{\\text{u}}$ckelberg trick with the help of the lowest dimensional operators, which are broken under time diffeomorphism. In this setup, we consider only the contribution from ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses circuit complexity and entanglement entropy in the context of Cosmological Effective Field Theory with two-mode squeezed states, not boolean circuits or symplectic volume. While it 'establishes an underlying connecting relationship between the entanglement entropy and circuit complexity,' this is in a cosmological/QFT setting unrelated to the specific SV(C)=Θ(H(C)) claim for boolean circuits.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2502.02784",
+      "title": "Quantum State Preparation via Nested Entanglement",
+      "abstract_excerpt": "We develop a representation of an n-qubit register that parameterizes its statevector as a series of nested entanglements. We show that the recursive substructure of this representation provides a natural framework for automating the construction of quantum circuits for state preparation. It also allows for a straightforward treatment of pure state separability. We discuss a novel derivation of uniformly controlled rotations and the quantum Fourier transform within this representation, and consi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses nested entanglement representations and circuit complexity for state preparation, but makes no mention of symplectic volume or a Θ(H(C)) correlation. It shares the vocabulary of entanglement and circuit complexity but does not address the specific symplectic-volume claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2303.08938",
+      "title": "Learning marginals suffices!",
+      "abstract_excerpt": "Beyond computer science, quantum complexity theory can potentially revolutionize multiple branches of physics, ranging from quantum many-body systems to quantum field theory. In this paper, we investigate the relationship between the sample complexity of learning a quantum state and the circuit complexity of the state. The circuit complexity of a quantum state refers to the minimum depth of the quantum circuit necessary to implement it. We show that learning its marginals for the quantum state w",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns sample complexity of state tomography and circuit depth complexity via learning marginals, with no mention of symplectic volume or a Θ-relationship between symplectic volume and entanglement entropy. It shares the general vocabulary of quantum circuit complexity but does not interact with the specific SV(C) = Θ(H(C)) claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
