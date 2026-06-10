@@ -1,0 +1,31 @@
+{
+  "entry_id": "fe7cc3598141",
+  "ts": 1781077579.5373845,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2307.10973",
+      "title": "Studentising Kendall's Tau: U-Statistic Estimators and Bias Correction for a Generalised Rank Variance-Covariance framework",
+      "abstract_excerpt": "Kemeny (1959) introduced a topologically complete metric space to study ordinal random variables, particularly in the context of Condorcet's paradox and the measurability of ties. Building on this, Emond &amp; Mason (2002) reformulated Kemeny's framework into a rank correlation coefficient by embedding the metric space into a Hilbert structure. This transformation enables the analysis of data under weak order-preserving transformations (monotonically non-decreasing) within a linear probabilistic",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns U-statistic estimators for Kemeny's rank correlation coefficient and bias correction for tied ranks ('a complete U-statistic estimator in the presence of ties for Kemeny's τ_κ'), which shares no interaction with geometric invariant theory or communication complexity tensor representations.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2512.07224",
+      "title": "Clinical Interpretability of Deep Learning Segmentation Through Shapley-Derived Agreement and Uncertainty Metrics",
+      "abstract_excerpt": "Segmentation is the identification of anatomical regions of interest, such as organs, tissue, and lesions, serving as a fundamental task in computer-aided diagnosis in medical imaging. Although deep learning models have achieved remarkable performance in medical image segmentation, the need for explainability remains critical for ensuring their acceptance and integration in clinical practice, despite the growing research attention in this area. Our approach explored the use of contrast-level Sha",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Shapley value rankings and variance for interpreting medical image segmentation models, with no connection to geometric invariant theory or communication complexity. The shared word 'variance' is incidental and does not interact with the conjecture's claim about gir(φ_π) = Θ(rank_variance(φ_π)).",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 0
+  }
+}

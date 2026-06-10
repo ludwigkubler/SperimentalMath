@@ -1,0 +1,40 @@
+{
+  "entry_id": "b1a4835833be",
+  "ts": 1781075545.241767,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1610.05741",
+      "title": "Gerstenhaber bracket on the Hochschild cohomology via an arbitrary resolution",
+      "abstract_excerpt": "We prove formulas of different types that allow to calculate the Gerstenhaber bracket on the Hochschild cohomology of an algebra using some arbitrary projective bimodule resolution for it. Using one of these formulas, we give a new short proof of the derived invariance of the Gerstenhaber algebra structure on Hochschild cohomology. Also we give some new formulas for the Connes' differential on the Hochschild homology that lead to formulas for BV differential on the Hochschild cohomology in the c",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Gerstenhaber brackets and BV structures on Hochschild cohomology of algebras via projective bimodule resolutions, with no mention of local cohomology rank, CNF formulas, or resolution proof width. It shares only the generic word 'resolution' (in the homological-algebra sense) with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0406355v1",
+      "title": "p-torsion elements in local cohomology modules. II",
+      "abstract_excerpt": "Lyubeznik conjectured that local cohomology modules of regular rings have finitely many associated primes. We examine this conjecture for polynomial rings over the integers, and record some equational identities that arise from studying special cases.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Lyubeznik's conjecture on finiteness of associated primes of local cohomology modules over polynomial rings, with no mention of CNF formulas, resolution proof width, or rank bounds tied to proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2102.04369",
+      "title": "Mixed Hodge structure on local cohomology with support in determinantal varieties",
+      "abstract_excerpt": "We employ the inductive structure of determinantal varieties to calculate the mixed Hodge module structure of local cohomology modules with determinantal support. We show that the weight of a simple composition factor is uniquely determined by its support and cohomological degree. As a consequence, we obtain the equivariant structure of the Hodge filtration on each local cohomology module. Finally, as an application, we provide a formula for the generation level of the Hodge filtration on these ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns mixed Hodge structures on local cohomology with determinantal support and the Hodge filtration's generation level, with no connection to CNF formulas, resolution proof width, or rank bounds in proof complexity. It shares only the 'local cohomology' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

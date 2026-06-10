@@ -1,0 +1,40 @@
+{
+  "entry_id": "8693a6a90fa4",
+  "ts": 1781074386.9023488,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0402188v5",
+      "title": "Structures and Representations of Generalized Path Algebras",
+      "abstract_excerpt": "It is shown that an algebra $Λ$ can be lifted with nilpotent Jacobson radical $r = r(Λ)$ and has a generalized matrix unit $\\{e_{ii}\\}_I$ with each $\\bar e_{ii} $ in the center of $\\bar Λ= Λ/r$ iff $Λ$ is isomorphic to a generalized path algebra with weak relations. Representations of the generalize",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses generalized path algebras, Jacobson radicals, and matrix units — it makes no mention of Kac-Moody algebras, Boolean circuits, circuit depth, or rank bounds of the form O(D^2 log n). It shares no specific claim with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2105.05461",
+      "title": "An overview of generalised Kac-Moody algebras on compact real manifolds",
+      "abstract_excerpt": "A generalised notion of Kac-Moody algebra is defined using smooth maps from a compact real manifold $\\mathcal{M}$ to a finite-dimensional Lie group, by means of complete orthonormal bases for a Hermitian inner product on the manifold and a Fourier expansion. The Peter--Weyl theorem for the case of manifolds related to compact Lie groups and coset spaces is discussed, and appropriate Hilbert bases for the space $L^{2}(\\mathcal{M})$ of square-integrable functions are constructed. It is shown that ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns generalised Kac-Moody algebras built from smooth maps on compact real manifolds, central extensions, and Peter-Weyl bases — it makes no reference to Boolean circuits, circuit depth, or any complexity-theoretic rank bound like r(A) = O(D^2 log n).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2011.08180",
+      "title": "Brownian motion and affine Kac-Moody algebras",
+      "abstract_excerpt": "This is a summary (in French) of my work about brownian motion and Kac-Moody algebras during the last seven years, presented towards the Habilitation degree.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a habilitation summary on Brownian motion and affine Kac-Moody algebras, with no mention of Boolean circuits, circuit depth, or complexity bounds relating algebra rank to circuit parameters.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
