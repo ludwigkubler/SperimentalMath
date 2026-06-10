@@ -1,0 +1,40 @@
+{
+  "entry_id": "23fdfce05652",
+  "ts": 1781086879.8655965,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2504.04416",
+      "title": "Meta-Mathematics of Computational Complexity Theory",
+      "abstract_excerpt": "We survey results on the formalization and independence of mathematical statements related to major open problems in computational complexity theory. Our primary focus is on recent findings concerning the (un)provability of complexity bounds within theories of bounded arithmetic. This includes the techniques employed and related open problems, such as the (non)existence of a feasible proof that P = NP.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract surveys formalization and independence of complexity statements in bounded arithmetic, with no mention of Tseitin formulas, resolution width, or local induction degree bounds. It shares the broad 'proof complexity' framework but does not interact with the specific conjectured bound lind(φ_G) = O(w(φ_G)).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2301.07061",
+      "title": "A Topological Proof for a Version of Artin's Induction Theorem",
+      "abstract_excerpt": "We define a Euler characteristic $χ(X,G)$ for a finite cell complex $X$ with a finite group $G$ acting cellularly on it. Then, each $K_{i}(X)$ (a complex vector space with basis the $i$-cells of $X$) is a representation of $G$, and we define $χ(X,G)$ to be the alternating sum of the representations $K_{i}(X)$, as elements of the representation ring $R(G)$ of $G$. By adapting the ordinary proof that the alternating sum of the dimensions of the chain complexes is equal to the alternating sum of th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Artin's induction theorem in representation theory via Euler characteristics of G-cell complexes, with no mention of Tseitin formulas, resolution proofs, or proof width. It shares no technical content with the conjecture beyond the unrelated word 'induction'.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1611.00827",
+      "title": "Geometric complexity theory and matrix powering",
+      "abstract_excerpt": "Valiant's famous determinant versus permanent problem is the flagship problem in algebraic complexity theory. Mulmuley and Sohoni (Siam J Comput 2001, 2008) introduced geometric complexity theory, an approach to study this and related problems via algebraic geometry and representation theory. Their approach works by multiplying the permanent polynomial with a high power of a linear form (a process called padding) and then comparing the orbit closures of the determinant and the padded permanent. ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns geometric complexity theory, matrix powering, and the determinant vs. permanent problem — it makes no mention of Tseitin formulas, resolution proof width, or local induction degree, despite sharing the broad 'algebraic geometry / complexity' vocabulary.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

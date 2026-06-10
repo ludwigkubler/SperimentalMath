@@ -1,0 +1,40 @@
+{
+  "entry_id": "05f4d37eed66",
+  "ts": 1781087409.2065732,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1401.1642",
+      "title": "Singular del Pezzo fibrations and birational rigidity",
+      "abstract_excerpt": "A known conjecture of Grinenko in birational geometry asserts that a Mori fibre space with the structure of del Pezzo fibration of low degree is birationally rigid if and only if its anticanonical class is an interior point in the cone of mobile divisors. The conjecture is proved to be true for smooth models (with a generality assumption for degree 3). It is speculated that the conjecture holds for, at least, Gorenstein models in degree 1 and 2. In this article, I present a (Gorenstein) countere",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Grinenko's conjecture on birational rigidity of del Pezzo fibrations and presents a Gorenstein counterexample in degree 2; it makes no mention of CNF formulas, resolution proof width, or Boolean circuit complexity, so it does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1904.05483",
+      "title": "Parallels Between Phase Transitions and Circuit Complexity?",
+      "abstract_excerpt": "In many natural average-case problems, there are or there are believed to be critical values in the parameter space where the structure of the space of solutions changes in a fundamental way. These phase transitions are often believed to coincide with drastic changes in the computational complexity of the associated problem.\n  In this work, we study the circuit complexity of inference in the broadcast tree model, which has important applications in phylogenetic reconstruction and close connectio",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns phase transitions and circuit complexity (TC^0/NC^1) in broadcast tree inference models, with no mention of resolution proof width, CNF formulas, or birational geometry. It shares no interaction with the specific claim relating w(φ) to rational functions of a birational variety.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1307.5490",
+      "title": "Birational automorphism groups of projective varieties of Picard number two",
+      "abstract_excerpt": "We slightly extend a result of Oguiso on birational or automorphism groups (resp. of Lazić - Peternell on Morrison-Kawamata cone conjecture) from Calabi-Yau manifolds of Picard number two to arbitrary singular varieties X (resp. to klt Calabi-Yau pairs in broad sense) of Picard number two. When X has only klt singularities and is not a complex torus, we show that either Aut(X) is almost cyclic, or it has only finitely many connected components.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses birational automorphism groups and Picard number two varieties, with no mention of CNF formulas, resolution proof width, or rational function counts—phrases like 'almost cyclic' automorphism groups don't interact with the conjecture's specific complexity claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

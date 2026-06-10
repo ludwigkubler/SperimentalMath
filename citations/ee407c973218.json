@@ -1,0 +1,40 @@
+{
+  "entry_id": "ee407c973218",
+  "ts": 1781085682.8461337,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1409.1534",
+      "title": "Algorithms in Real Algebraic Geometry: A Survey",
+      "abstract_excerpt": "We survey both old and new developments in the theory of algorithms in real algebraic geometry -- starting from effective quantifier elimination in the first order theory of reals due to Tarski and Seidenberg, to more recent algorithms for computing topological invariants of semi-algebraic sets. We emphasize throughout the complexity aspects of these algorithms and also discuss the computational hardness of the underlying problems. We also describe some recent results linking the computational h",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract surveys 'algorithms in real algebraic geometry' covering quantifier elimination and topological invariants of semi-algebraic sets, with no mention of braided algebras, communication protocols, or rank variance. It shares only the broad 'algebraic geometry' umbrella with the conjecture and does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1209.3595",
+      "title": "Noncommutative complex differential geometry",
+      "abstract_excerpt": "This paper defines and examines the basic properties of noncommutative analogues of almost complex structures, integrable almost complex structures, holomorphic curvature, cohomology, and holomorphic sheaves. The starting point is a differential structure on a noncommutative algebra defined in terms of a differential graded algebra. This is compared to current ideas on noncommutative algebraic geometry.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns noncommutative complex differential geometry (almost complex structures, holomorphic curvature, cohomology), which shares no specific interaction with braided-algebra minimal rank or communication-complexity rank variance.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0403015v1",
+      "title": "Amoebas of algebraic varieties and tropical geometry",
+      "abstract_excerpt": "This survey consists of two parts. Part 1 is devoted to amoebas. These are images of algebraic subvarieties in the complex torus under the logarithmic moment map. The amoebas have essentially piecewise-linear shape if viewed at large. Furthermore, they degenerate to certain piecewise-linear objects ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses amoebas of algebraic varieties and tropical geometry, which has no connection to braided algebras, communication protocols, or rank variance. The phrase 'images of algebraic subvarieties in the complex torus under the logarithmic moment map' shows the paper is in an entirely different subfield.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
