@@ -1,0 +1,40 @@
+{
+  "entry_id": "7f36d3ec9615",
+  "ts": 1781069582.6633728,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1301.0300",
+      "title": "Topological Galois Theory",
+      "abstract_excerpt": "We introduce an abstract topos-theoretic framework for building Galois-type theories in a variety of different mathematical contexts; such theories are obtained from representations of certain atomic two-valued toposes as toposes of continuous actions of a topological group. Our framework subsumes in particular Grothendieck's Galois theory and allows to build Galois-type equivalences in new contexts, such as for example graph theory and finite group theory.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a topos-theoretic framework for Galois-type theories in contexts like graph theory and finite group theory, with no mention of Boolean circuits, circuit depth, or degree bounds on splitting fields. It shares only the broad 'Galois theory' vocabulary without engaging the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2411.10481",
+      "title": "Boolean-aware Boolean Circuit Classification: A Comprehensive Study on Graph Neural Network",
+      "abstract_excerpt": "Boolean circuit is a computational graph that consists of the dynamic directed graph structure and static functionality. The commonly used logic optimization and Boolean matching-based transformation can change the behavior of the Boolean circuit for its graph structure and functionality in logic synthesis. The graph structure-based Boolean circuit classification can be grouped into the graph classification task, however, the functionality-based Boolean circuit classification remains an open pro",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns GNN-based classification of Boolean circuits by functionality equivalence ('Boolean-aware Boolean circuit classification'), with no mention of Galois theory, splitting fields, or circuit depth bounds related to algebraic degree.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2112.06776",
+      "title": "Keyphrase Generation Beyond the Boundaries of Title and Abstract",
+      "abstract_excerpt": "Keyphrase generation aims at generating important phrases (keyphrases) that best describe a given document. In scholarly domains, current approaches have largely used only the title and abstract of the articles to generate keyphrases. In this paper, we comprehensively explore whether the integration of additional information from the full text of a given article or from semantically similar articles can be helpful for a neural keyphrase generation model or not. We discover that adding sentences ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns keyphrase generation from scholarly articles using NLP models like Longformer, with no relation to Galois theory, splitting fields, or Boolean circuit depth bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

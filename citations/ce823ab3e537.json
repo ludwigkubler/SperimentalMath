@@ -1,0 +1,40 @@
+{
+  "entry_id": "ce823ab3e537",
+  "ts": 1781067467.982586,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1208.1981",
+      "title": "General notions of depth for functional data",
+      "abstract_excerpt": "A data depth measures the centrality of a point with respect to an empirical distribution. Postulates are formulated, which a depth for functional data should satisfy, and a general approach is proposed to construct multivariate data depths in Banach spaces. The new approach, mentioned as Phi-depth, is based on depth infima over a proper set Phi of R^d-valued linear functions. Several desirable properties are established for the Phi-depth and a generalized version of it. The general notions incl",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'data depth' as a measure of centrality for functional data in Banach spaces, not DPLL search tree depth or cocomplexity functions on the unit disk. The shared word 'depth' is the only connection; the paper does not address CNF formulas, SAT solving, or complex analysis of cocomplexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2402.01478",
+      "title": "On the Hilbert depth of quadratic and cubic functions",
+      "abstract_excerpt": "Given a numerical function $h:\\mathbb Z_{\\geq 0}\\to\\mathbb Z_{\\geq 0}$ with $h(0)&gt;0$, the Hilbert depth of $h$ is $\\operatorname{hdepth}(h)=\\max\\{d\\;:\\;\\sum\\limits_{j=0}^k (-1)^{k-j}\\binom{d-j}{k-j}h(j)\\geq 0\\text{ for all }k\\leq d\\}$; see arXiv:2309.10521 . In this note, we study the Hilbert depth of the functions $h_2(j)=aj^2+bj+e$, $j\\geq 0$, and $h_3(j)=aj^3+bj^2+cj+e$, $j\\geq 0$, where $a,b,c,e$ are some integers with $a,e&gt;0$. We prove that if $b&lt;0$ and $b^2\\leq 4ae$ then $\\operato",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Hilbert depth of quadratic and cubic numerical functions in combinatorial commutative algebra, with no mention of DPLL search, CNF formulas, or cocomplexity functions on the unit disk.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2210.11938",
+      "title": "On the Goncharov Depth Conjecture and polylogarithms of depth two",
+      "abstract_excerpt": "We prove the surjectivity part of Goncharov's depth conjecture. We also show that the depth conjecture implies that multiple polylogarithms of depth $d$ and weight $n$ can be expressed via a single function $\\mathrm{Li}_{n-d+1,1,\\dots,1}(a_1,a_2,\\dots,a_d)$, and we prove this latter statement for $d=2$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Goncharov's depth conjecture for multiple polylogarithms, which is a number-theoretic/motivic result unrelated to DPLL search tree depth or any 'cocomplexity function' on CNF formulas. The shared word 'depth' is purely incidental.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

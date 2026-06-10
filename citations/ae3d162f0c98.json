@@ -1,0 +1,40 @@
+{
+  "entry_id": "ae3d162f0c98",
+  "ts": 1781067949.7856042,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2111.06855",
+      "title": "Response of a CMS HGCAL silicon-pad electromagnetic calorimeter prototype to 20-300 GeV positrons",
+      "abstract_excerpt": "The Compact Muon Solenoid Collaboration is designing a new high-granularity endcap calorimeter, HGCAL, to be installed later this decade. As part of this development work, a prototype system was built, with an electromagnetic section consisting of 14 double-sided structures, providing 28 sampling layers. Each sampling layer has an hexagonal module, where a multipad large-area silicon sensor is glued between an electronics circuit board and a metal baseplate. The sensor pads of approximately 1 cm",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a CMS HGCAL silicon-pad electromagnetic calorimeter prototype and its response to positron beams, which has no relation to noncommutative algebra rank or Boolean circuit satisfiability.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0705.1265",
+      "title": "A noncommutative Bohnenblust-Spitzer identity for Rota-Baxter algebras solves Bogoliubov's recursion",
+      "abstract_excerpt": "The Bogoliubov recursion is a particular procedure appearing in the process of renormalization in perturbative quantum field theory. It provides convergent expressions for otherwise divergent integrals. We develop here a theory of functional identities for noncommutative Rota-Baxter algebras which is shown to encode, among others, this process in the context of Connes-Kreimer's Hopf algebra of renormalization. Our results generalize the seminal Cartier-Rota theory of classical Spitzer-type ident",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Rota-Baxter algebras, Bogoliubov's recursion in renormalization, and noncommutative symmetric functions — it shares the word 'noncommutative' but does not address minimal rank of algebras associated with Boolean circuits or circuit satisfiability bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0610043v5",
+      "title": "Lecture Notes on Noncommutative Algebraic Geometry and Noncommutative Tori",
+      "abstract_excerpt": "The first part of these notes gives an introduction to noncommutative projective geometry after Artin--Zhang. The second part provides an overview of the work of Polishchuk that reconciles noncommutative two-tori having real multiplication with the Artin--Zhang setting.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes noncommutative projective geometry and noncommutative tori with real multiplication, which shares the 'noncommutative algebra' vocabulary but has no connection to Boolean circuits, circuit satisfiability, or rank bounds for circuit representations.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
