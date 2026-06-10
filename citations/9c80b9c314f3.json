@@ -1,0 +1,40 @@
+{
+  "entry_id": "9c80b9c314f3",
+  "ts": 1781129565.0292974,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2012.15478",
+      "title": "N-quandles of links",
+      "abstract_excerpt": "The fundamental quandle is a powerful invariant of knots and links, but it is difficult to describe in detail. It is often useful to look at quotients of the quandle, especially finite quotients. One natural quotient introduced by Joyce is the $n$-quandle. Hoste and Shanahan gave a complete list of the knots and links which have finite $n$-quandles for some $n$. We introduce a generalization of $n$-quandles, denoted $N$-quandles (for a quandle with $k$ algebraic components, $N$ is a $k$-tuple of",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses N-quandles as quotients of fundamental quandles of knots and links, with no mention of Boolean circuits, clause sets, or entanglement complexity. It shares only the 'quandle' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2111.08018",
+      "title": "Entanglement dynamics in hybrid quantum circuits",
+      "abstract_excerpt": "The central philosophy of statistical mechanics (stat-mech) and random-matrix theory of complex systems is that while individual instances are essentially intractable to simulate, the statistical properties of random ensembles obey simple universal \"laws\". This same philosophy promises powerful methods for studying the dynamics of quantum information in ideal and noisy quantum circuits -- for which classical description of individual circuits is expected to be generically intractable. Here, we r",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses entanglement dynamics in random quantum circuits via statistical mechanics, with no mention of quandle theory, Boolean circuits, clause sets, or any correlation between quandle action orders and circuit complexity measures. It shares only the loose vocabulary of 'entanglement' and 'circuits' but addresses a fundamentally different (quantum, not Boolean) domain.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0905.3374",
+      "title": "Symmetric Extensions of Dihedral Quandles and Triple Points of Non-orientable Surfaces",
+      "abstract_excerpt": "Quandles with involutions that satisfy certain conditions, called good involutions, can be used to color non-orientable surface-knots. We use subgroups of signed permutation matrices to construct non-trivial good involutions on extensions of odd order dihedral quandles.\n  For the smallest example of order 6 that is an extension of the three-element dihedral quandle, various symmetric quandle homology groups are computed, and applications to the minimal triple point number of surface-knots are gi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns good involutions on dihedral quandle extensions and applications to triple point numbers of non-orientable surface-knots, with no mention of Boolean circuits, clause sets, or entanglement complexity. It shares only the 'quandle' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

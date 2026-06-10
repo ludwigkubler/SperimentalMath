@@ -1,0 +1,40 @@
+{
+  "entry_id": "8f2bf9c2f87f",
+  "ts": 1781130591.046476,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0706.3841",
+      "title": "Arithmetic lattices and weak spectral geometry",
+      "abstract_excerpt": "This note is an expansion of three lectures given at the workshop \"Topology, Complex Analysis and Arithmetic of Hyperbolic Spaces\" held at Kyoto University in December of 2006 and will appear in the proceedings for this workshop.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes lecture notes on arithmetic lattices and weak spectral geometry of hyperbolic spaces, with no mention of Boolean functions, induction degree bounds, or communication complexity. It shares no substantive overlap with the conjecture's claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1710.06598",
+      "title": "A Bounded Degree Lasserre Hierarchy with SOCP Relaxations for Global Polynomial Optimization and Applications",
+      "abstract_excerpt": "In this paper, we propose a new convergent conic programming hierarchy of relaxations involving both semi-definite cone and second-order cone constraints for solving nonconvex polynomial optimization problems to global optimality. The significance of this hierarchy is that the size and number of the semi-definite and second-order cone constraints of the relaxations are fixed and independent of the step or level of the approximation in the hierarchy. Using the Krivine-Stengle's certificate of pos",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns conic programming hierarchies (Lasserre/SOCP) for polynomial optimization in real algebraic geometry, with no mention of Boolean functions, local induction degree, or communication complexity rank variance.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2410.15580",
+      "title": "Language Models are Symbolic Learners in Arithmetic",
+      "abstract_excerpt": "The prevailing question in LM performing arithmetic is whether these models learn to truly compute or if they simply master superficial pattern matching. In this paper, we argues for the latter, presenting evidence that LMs act as greedy symbolic learners, prioritizing the simplest possible shortcuts to fit the stats of dataset to solve arithmetic tasks. To investigate this, we introduce subgroup induction, a practical framework adapted from Solomonoff Induction (SI), one of the most powerful un",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns language models learning arithmetic via symbolic shortcuts and 'subgroup induction' adapted from Solomonoff Induction, with no mention of Boolean functions, local induction degree bounds, or communication complexity rank variance. The shared word 'induction' is vocabulary overlap only and does not engage with the conjectured LIDB-CommRankVar relationship.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

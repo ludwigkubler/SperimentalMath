@@ -1,0 +1,40 @@
+{
+  "entry_id": "0dede5221167",
+  "ts": 1781130836.8688083,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/hep-ph/0610012v1",
+      "title": "Tevatron-for-LHC Report of the QCD Working Group",
+      "abstract_excerpt": "The experiments at Run 2 of the Tevatron have each accumulated over 1 inverse femtobarn of high-transverse momentum data. Such a dataset allows for the first precision (i.e. comparisons between theory and experiment at the few percent level) tests of QCD at a hadron collider. While the Large Hadron ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns QCD precision tests at the Tevatron and LHC hadron colliders, which has no interaction with geometric group theory or Boolean circuit complexity as claimed in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1911.04516",
+      "title": "Boolean lattices in finite alternating and symmetric groups",
+      "abstract_excerpt": "Given a group $G$ and a subgroup $H$, we let $\\mathcal{O}_G(H)$ denote the lattice of subgroups of $G$ containing $H$. This paper provides a classification of the subgroups $H$ of $G$ such that $\\mathcal{O}_{G}(H)$ is Boolean of rank at least $3$, when $G$ is a finite alternating or symmetric group. Besides some sporadic examples and some twisted versions, there are two different types of such lattices. One type arises by taking stabilizers of chains of regular partitions, and the other type ari",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns classification of Boolean subgroup lattices in alternating/symmetric groups ('classification of the subgroups H of G such that O_G(H) is Boolean'), which shares only the word 'Boolean' with the conjecture and has no bearing on geometric complexity of group actions or boolean circuit size.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2510.10838",
+      "title": "Survey on Cremona groups from a median geometric point of view",
+      "abstract_excerpt": "This expository article builds on lecture notes from a minicourse entitled \"Cremona groups and CAT(0) cube complexes\" and given by the author as part of the 2023 Riverside Workshop on Geometric Group Theory. It presents recent constructions of actions of Cremona groups on median graphs aimed at both geometric group theorists and algebraic geometers.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes actions of Cremona groups on median graphs/CAT(0) cube complexes, an expository survey in geometric group theory. It says nothing about boolean circuit size, d-regular graphs, or any complexity-theoretic correlation.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
