@@ -1,0 +1,40 @@
+{
+  "entry_id": "73467002b72d",
+  "ts": 1781115827.8707721,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/physics/9611010v1",
+      "title": "Quasi-Monte Carlo, Discrepancies and Error Estimates",
+      "abstract_excerpt": "We discuss the problem of defining an estimate for the error in quasi-Monte Carlo integration. The key issue is the definition of an ensemble of quasi-random point sets that, on the one hand, includes a sufficiency of equivalent point sets, and on the other hand uses information on the degree of uni",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses error estimates and discrepancy ensembles in quasi-Monte Carlo integration ('defining an estimate for the error in quasi-Monte Carlo integration'), with no mention of Boolean formulas, resolution proof width, or SAT — so it does not interact with the specific claim linking QMC covering numbers to resolution width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1412.0783",
+      "title": "The Mean Square Quasi-Monte Carlo Error for Digitally Shifted Digital Nets",
+      "abstract_excerpt": "In this paper, we study randomized quasi-Monte Carlo (QMC) integration using digitally shifted digital nets. We express the mean square QMC error of the $n$-th discrete approximation $f_n$ of a function $f\\colon[0,1)^s\\to \\mathbb{R}$ for digitally shifted digital nets in terms of the Walsh coefficients of $f$. We then apply a bound on the Walsh coefficients for sufficiently smooth integrands to obtain a quality measure called Walsh figure of merit for root mean square error, which satisfies a Ko",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns mean square QMC error bounds via Walsh coefficients and a 'Walsh figure of merit' for digital nets on smooth integrands, with no mention of Boolean formulas, resolution proof width, or SAT. It shares the QMC framework but does not interact with the conjectured link between covering numbers and proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0612074v1",
+      "title": "Convergence of sequential Markov Chain Monte Carlo methods: I. Nonlinear flow of probability measures",
+      "abstract_excerpt": "Sequential Monte Carlo Samplers are a class of stochastic algorithms for Monte Carlo integral estimation w.r.t. probability distributions, which combine elements of Markov chain Monte Carlo methods and importance sampling/resampling schemes. We develop a stability analysis by functional inequalities",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Sequential Monte Carlo Samplers and stability analysis via functional inequalities, with no mention of quasi-Monte Carlo covering numbers, Boolean formulas, or resolution proof width. It shares only the broad 'Monte Carlo' framework vocabulary but does not interact with the specific conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

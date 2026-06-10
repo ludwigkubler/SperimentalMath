@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-06-10T17:47:07Z",
-  "total_cycles": 6529,
+  "last_update_utc": "2026-06-10T18:47:07Z",
+  "total_cycles": 6540,
   "verdict_counts": {
-    "INCONCLUSIVE": 4186,
+    "INCONCLUSIVE": 4190,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 2237,
+    "BARRIER_HIT": 2244,
     "SCOOPED": 86
   },
-  "unique_field_A": 2585,
+  "unique_field_A": 2589,
   "top_fields_A": [
     [
       "Resolution proof complexity",
@@ -20,7 +20,7 @@
     ],
     [
       "Tropical Geometry",
-      157
+      158
     ],
     [
       "Symplectic Geometry",
@@ -59,15 +59,15 @@
       39
     ],
     [
+      "Algebraic K-theory",
+      38
+    ],
+    [
       "Affine Geometry",
       38
     ],
     [
       "Matroid Theory",
-      37
-    ],
-    [
-      "Algebraic Topology",
       37
     ]
   ]

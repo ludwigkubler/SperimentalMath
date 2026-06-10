@@ -1,0 +1,40 @@
+{
+  "entry_id": "f00eeb8cfb77",
+  "ts": 1781114336.7782972,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1307.8353",
+      "title": "Some Quantitative Results in Real Algebraic Geometry",
+      "abstract_excerpt": "Real algebraic geometry is the study of semi-algebraic sets, subsets of $\\R^k$ defined by Boolean combinations of polynomial equalities and inequalities. The focus of this thesis is to study quantitative results in real algebraic geometry, primarily upper bounds on the topological complexity of semi-algebraic sets as measured, for example, by their Betti numbers. Another quantitative measure of topological complexity which we study is the number of homotopy types of semi-algebraic sets of bounde",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quantitative bounds on topological complexity (Betti numbers, homotopy types) of semi-algebraic sets and a cylindrical-style decomposition theorem, with no mention of Tseitin formulas, Frege proof depth, or algebraic quotient space rank.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2405.05527",
+      "title": "Boolean Schubert Structure Coefficients",
+      "abstract_excerpt": "The Schubert problem asks for combinatorial models to compute structure constants of the cohomology ring with respect to Schubert classes and has been an important open problem in algebraic geometry and combinatorics that guided fruitful research for decades. In this paper, we provide an explicit formula for the (equivariant) Schubert structure constants $c_{uv}^w$ across all Lie types when the elements $u,v,w$ are boolean. In particular, in type $A$, all Schubert structure constants on boolean ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Schubert structure constants in cohomology rings for boolean Lie-type elements, sharing only the word 'boolean' with the conjecture; it makes no mention of Tseitin formulas, Frege proof depth, or quotient-space rank.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1111.0582",
+      "title": "Jacobian hits circuits: Hitting-sets, lower bounds for depth-D occur-k formulas &amp; depth-3 transcendence degree-k circuits",
+      "abstract_excerpt": "We present a single, common tool to strictly subsume all known cases of polynomial time blackbox polynomial identity testing (PIT) that have been hitherto solved using diverse tools and techniques. In particular, we show that polynomial time hitting-set generators for identity testing of the two seemingly different and well studied models - depth-3 circuits with bounded top fanin, and constant-depth constant-read multilinear formulas - can be constructed using one common algebraic-geometry theme",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns polynomial identity testing and lower bounds for depth-3/depth-4 arithmetic circuits via the Jacobian, with no mention of Tseitin formulas, Frege proof depth, or algebraic quotient space rank. It shares the broad 'algebraic-geometry meets circuits' framing but does not interact with the specific mrank(G) vs. Frege depth claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

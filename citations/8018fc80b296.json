@@ -1,0 +1,40 @@
+{
+  "entry_id": "8018fc80b296",
+  "ts": 1781113717.5145257,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1806.05207",
+      "title": "Interpolated sequences and critical $L$-values of modular forms",
+      "abstract_excerpt": "Recently, Zagier expressed an interpolated version of the Apéry numbers for $ζ(3)$ in terms of a critical $L$-value of a modular form of weight 4. We extend this evaluation in two directions. We first prove that interpolations of Zagier's six sporadic sequences are essentially critical $L$-values of modular forms of weight 3. We then establish an infinite family of evaluations between interpolations of leading coefficients of Brown's cellular integrals and critical $L$-values of modular forms of",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses interpolated sequences and critical L-values of modular forms (Apéry numbers, Zagier, Brown's cellular integrals) with no mention of SAT, DPLL search trees, or computational complexity. It shares only the 'modular forms' vocabulary with the conjecture but does not interact with the specific claim about DPLL tree height.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2605.05991",
+      "title": "A Case-Driven Multi-Agent Framework for E-Commerce Search Relevance",
+      "abstract_excerpt": "Relevance is a foundation of user experience in e-commerce search. We view relevance optimization as a closed-loop ecosystem involving multiple human roles: users who provide feedback, product managers who define standards, annotators who label data, algorithm engineers who optimize models, and evaluators who assess performance. Because improving relevance in practice means systematically resolving user-perceived bad cases, we ask a system-level question: can this ecosystem be reimagined by repl",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a multi-agent framework for e-commerce search relevance optimization, with no mention of modular forms, SAT, or DPLL search trees. It does not interact with the conjecture's specific claim in any way.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1410.4915",
+      "title": "Rankin-Selberg L-functions in cyclotomic towers, III",
+      "abstract_excerpt": "Let $π$ be a cuspidal automorphic representation of $\\operatorname{GL}_2$ over a totally real number field $F$. Let $K$ be a totally imaginary quadratic extension of $F$. We estimate central values of the $\\operatorname{GL}_2 \\times \\operatorname{GL}_2$ Rankin-Selberg $L$-functions associated to $π$ times representations induced from Hecke characters of $K$ which are ramified only at a given prime ideal $\\mathfrak{p}$ of $F$. More specifically, we use spectral decompositions of shifted convoluti",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Rankin-Selberg L-functions, Hecke characters, and Mordell-Weil ranks of abelian varieties — pure number theory with no mention of SAT, DPLL, or computational complexity. It shares only the vocabulary of 'modular forms' with the conjecture but does not address any correlation with DPLL search tree height.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
