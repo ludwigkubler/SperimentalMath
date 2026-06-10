@@ -1,0 +1,40 @@
+{
+  "entry_id": "62c90f2942c5",
+  "ts": 1781052553.295571,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0909.0653",
+      "title": "Spherical homogeneous spaces of minimal rank",
+      "abstract_excerpt": "Let $G$ be a complex connected reductive algebraic group and $G/B$ denote the flag variety of $G$. A $G$-homogeneous space $G/H$ is said to be {\\it spherical} if $H$ acts on $G/B$ with finitely many orbits. A class of spherical homogeneous spaces containing the tori, the complete homogeneous spaces and the group $G$ (viewed as a $G\\times G$-homogeneous space) has particularly nice proterties. Namely, the pair $(G,H)$ is called a {\\it spherical pair of minimal rank} if there exists $x$ in $G/B$ s",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns spherical homogeneous spaces of minimal rank in reductive algebraic group theory ('spherical pair of minimal rank'), with no reference to CNF formulas, circuit satisfiability, or automorphism groups of Boolean formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2208.06635",
+      "title": "Equivariant Grothendieck ring of a complete symmetric variety of minimal rank",
+      "abstract_excerpt": "We describe the $G$-equivariant Grothendieck ring of a regular compactification $X$ of an adjoint symmetric space $G/H$ of minimal rank. This extends the results of Brion and Joshua for the equivariant Chow ring of wonderful symmetric varieties of minimal rank and generalizes the results by the author on the regular compactification of an adjoint semisimple group.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the G-equivariant Grothendieck ring of regular compactifications of adjoint symmetric spaces of 'minimal rank' in algebraic geometry, which shares only the phrase 'minimal rank' with the conjecture and has no bearing on CNF formulas, automorphism groups of Boolean circuits, or SAT complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1501.02540",
+      "title": "Equivariant vector bundles on complete symmetric varieties of minimal rank",
+      "abstract_excerpt": "Let $X$ be the wonderful compactification of a complex symmetric space $G/H$ of minimal rank. For a point $x\\,\\in\\, G$, denote by $Z$ be the closure of $BxH/H$ in $X$, where $B$ is a Borel subgroup of $G$. The universal cover of $G$ is denoted by $\\widetilde{G}$. Given a $\\widetilde{G}$ equivariant vector bundle $E$ on $X,$ we prove that $E$ is nef (respectively, ample) if and only if its restriction to $Z$ is nef (respectively, ample). Similarly, $E$ is trivial if and only if its restriction to",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns equivariant vector bundles on wonderful compactifications of symmetric spaces of minimal rank — an algebraic geometry result about nef/ample/trivial bundles. It shares the phrase 'minimal rank' with the conjecture but does not address automorphism groups of CNF formulas or circuit satisfiability complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

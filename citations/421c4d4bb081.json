@@ -1,0 +1,40 @@
+{
+  "entry_id": "421c4d4bb081",
+  "ts": 1781055838.8087406,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0806.3771",
+      "title": "Survey on geometric group theory",
+      "abstract_excerpt": "This article is a survey article on geometric group theory from the point of view of a non-expert who likes geometric group theory and uses it in his own research. The sections are: classical examples, basics about quasiisometry,properties and invariants of groups invariant under quasiisometry, rigidity, hyperbolic spaces and CAT(k)-spaces, the boundary of a hyperbolic space, hyperbolic groups, CAT(0)-groups, classifying spaces for proper actions, measurable group theory, some open problems.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a general survey of geometric group theory topics (quasiisometry, hyperbolic spaces, CAT(0)-groups, etc.) with no mention of Boolean circuits, SAT, or dimension bounds for group actions on satisfying assignments.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2409.17797",
+      "title": "An Introduction to Geometric Group Theory",
+      "abstract_excerpt": "This book provides a self-contained introduction to geometric group theory. The topics range from an introduction of Cayley and Schreier graphs to Gromov's theorem on groups of polynomial growth and amenability. We discuss the ping-pong lemma, quasi-isometries, growth of groups, hyperbolicity, and other related notions. The book is based on graduate courses and can be used for such a course or for independent study.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a general introductory textbook on geometric group theory topics (Cayley graphs, quasi-isometries, growth, hyperbolicity) with no mention of Boolean circuits, SAT, or dimension bounds on group actions on satisfying assignments. It shares vocabulary (geometric group theory) but does not address the specific conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1904.12947",
+      "title": "An introduction to semistability in geometric group theory",
+      "abstract_excerpt": "A finitely presented group is semistable at infinity if all proper rays in the Cayley 2-complex are properly homotopic. A long standing open question asks whether all finitely presented groups are semistable at infinity. This article provides a brief introduction to the notion of semistability at infinity in geometric group theory. We discuss techniques for proving semistability at infinity that involve either the topology of the boundary or the existence of certain hierarchies of splittings of ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses semistability at infinity in finitely presented groups via Cayley 2-complex homotopy and splitting hierarchies, with no mention of Boolean circuits, satisfying assignments, or dimension bounds tied to circuit inputs. It shares the 'geometric group theory' framework but does not interact with the specific O(n log n) claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

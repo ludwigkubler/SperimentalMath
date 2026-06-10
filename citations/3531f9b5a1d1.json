@@ -1,0 +1,40 @@
+{
+  "entry_id": "3531f9b5a1d1",
+  "ts": 1781055259.27902,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1410.0939",
+      "title": "The characteristic polynomial of a random unitary matrix and Gaussian multiplicative chaos - The $L^2$-phase",
+      "abstract_excerpt": "We study the characteristic polynomial of Haar distributed random unitary matrices. We show that after a suitable normalization, as one increases the size of the matrix, powers of the absolute value of the characteristic polynomial as well as powers of the exponential of its argument converge in law to a Gaussian multiplicative chaos measure for small enough real powers. This establishes a connection between random matrix theory and the theory of Gaussian multiplicative chaos.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns convergence in law of powers of the characteristic polynomial of random unitary matrices to Gaussian multiplicative chaos, which shares only the vocabulary 'characteristic polynomial' with the conjecture and does not address p-adic derivative rank or communication complexity rank variance.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2009.05003",
+      "title": "Strong approximation of Gaussian $β$-ensemble characteristic polynomials: the edge regime and the stochastic Airy function",
+      "abstract_excerpt": "We investigate the characteristic polynomials of the Gaussian $β$-ensemble for general $β&gt;0$ through its transfer matrix recurrence. We show that the rescaled characteristic polynomial converges to a random entire function in a neighborhood of the edge of the limiting spectrum. This random entire function, called the stochastic Airy function, is the unique (up to scaling) $L^2$ solution to the stochastic Airy equation, a family of second order stochastic differential equations. Moreover, we o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns convergence of Gaussian β-ensemble characteristic polynomials to the stochastic Airy function in random matrix theory, with no mention of p-adic derivatives, communication complexity, or rank variance of boolean functions.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2203.03880",
+      "title": "Integer matrices with a given characteristic polynomial and multiplicative dependence of matrices",
+      "abstract_excerpt": "We consider the set $\\mathcal{M}_n(\\mathbb Z; H)$ of $n\\times n$-matrices with integer elements of size at most $H$ and obtain a new upper bound on the number of matrices from $\\mathcal{M}_n(\\mathbb Z; H)$ with a given characteristic polynomial $f \\in \\mathbb Z[X]$, which is uniform with respect to $f$. This complements the asymptotic formula of A. Eskin, S. Mozes and N. Shah (1996) in which $f$ has to be fixed and irreducible.\n  Using this result, among others, we obtain upper and lower bounds ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns counting integer matrices with a given characteristic polynomial and multiplicative relations in GL_n(Q), with no mention of p-adic derivative rank, communication complexity, or rank variance of boolean functions.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
