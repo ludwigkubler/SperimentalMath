@@ -1,54 +1,54 @@
 {
-  "total": 3490,
+  "total": 3587,
   "by_category": {
-    "math.CO": 686,
-    "hep-th": 520,
-    "cs.DS": 285,
-    "cs.LO": 229,
-    "math-ph": 186,
-    "quant-ph": 175,
-    "math.LO": 161,
-    "gr-qc": 142,
-    "hep-ph": 97,
-    "cs.CC": 82,
-    "cs.LG": 64,
-    "math.PR": 61,
-    "cs.AI": 57,
-    "math.AP": 42,
-    "math.NT": 41,
-    "math.AG": 40,
+    "math.CO": 710,
+    "hep-th": 538,
+    "cs.DS": 288,
+    "cs.LO": 233,
+    "math-ph": 191,
+    "quant-ph": 182,
+    "math.LO": 162,
+    "gr-qc": 148,
+    "hep-ph": 100,
+    "cs.CC": 83,
+    "cs.LG": 66,
+    "math.PR": 64,
+    "cs.AI": 58,
+    "math.AP": 44,
+    "math.NT": 42,
+    "math.AG": 41,
     "cond-mat.stat-mech": 34,
     "astro-ph.CO": 32,
     "cond-mat.str-el": 31,
+    "math.DG": 26,
     "math.GR": 25,
-    "math.DG": 24,
     "cs.CR": 20,
     "cs.IT": 20,
     "math.QA": 20,
     "math.RT": 19,
     "math.AC": 18,
+    "cs.PL": 17,
     "cs.FL": 16,
-    "cs.PL": 16,
-    "math.CT": 15,
-    "cs.DC": 14,
+    "math.CT": 16,
+    "cs.DC": 15,
+    "cs.DM": 14,
     "math.SP": 14,
+    "nlin.SI": 14,
     "cs.CG": 13,
-    "cs.DM": 13,
     "math.FA": 13,
     "math.RA": 13,
-    "nlin.SI": 13,
     "hep-lat": 12,
     "math.DS": 12,
+    "math.OC": 12,
+    "nucl-th": 12,
+    "cs.GT": 11,
     "math.NA": 11,
-    "math.OC": 11,
-    "nucl-th": 11,
     "math.AT": 10,
-    "cs.GT": 9,
+    "cs.DB": 9,
     "cs.SE": 9,
     "math.OA": 9,
     "cond-mat.mes-hall": 8,
-    "cs.DB": 8,
-    "math.MG": 7,
+    "math.MG": 8,
     "math.ST": 7,
     "cond-mat.dis-nn": 6,
     "cs.CL": 6,
@@ -71,8 +71,10 @@
     "cond-mat.quant-gas": 2,
     "cs.AR": 2,
     "cs.RO": 2,
+    "nlin.CD": 2,
     "nlin.PS": 2,
     "physics.app-ph": 2,
+    "physics.chem-ph": 2,
     "physics.plasm-ph": 2,
     "q-bio.MN": 2,
     "q-bio.PE": 2,
@@ -86,10 +88,8 @@
     "eess.SP": 1,
     "math.CV": 1,
     "nlin.AO": 1,
-    "nlin.CD": 1,
     "physics.ao-ph": 1,
     "physics.atom-ph": 1,
-    "physics.chem-ph": 1,
     "physics.class-ph": 1,
     "physics.ed-ph": 1,
     "physics.geo-ph": 1,
@@ -101,45 +101,45 @@
     "physics.space-ph": 1,
     "q-bio.CB": 1
   },
-  "embedded": 3485,
-  "fetched_span_h": 937.6120857101016,
+  "embedded": 3582,
+  "fetched_span_h": 953.6116543221474,
   "last_update": {
-    "last_update_ts": 1781028685.8070889,
+    "last_update_ts": 1781057488.6464064,
     "by_category": {
       "cs.CC": {
         "fetched": 50,
-        "new": 0,
-        "skipped": 50
+        "new": 6,
+        "skipped": 44
       },
       "cs.DS": {
         "fetched": 50,
-        "new": 0,
-        "skipped": 50
+        "new": 5,
+        "skipped": 45
       },
       "cs.LO": {
         "fetched": 50,
-        "new": 0,
-        "skipped": 50
+        "new": 7,
+        "skipped": 43
       },
       "math.CO": {
         "fetched": 50,
-        "new": 0,
-        "skipped": 50
+        "new": 29,
+        "skipped": 21
       },
       "math.LO": {
         "fetched": 50,
-        "new": 0,
-        "skipped": 50
+        "new": 2,
+        "skipped": 48
       },
       "math-ph": {
         "fetched": 50,
-        "new": 0,
-        "skipped": 50
+        "new": 23,
+        "skipped": 27
       },
       "hep-th": {
         "fetched": 50,
-        "new": 0,
-        "skipped": 50
+        "new": 25,
+        "skipped": 25
       }
     }
   }
