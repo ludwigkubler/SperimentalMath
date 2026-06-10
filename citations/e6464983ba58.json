@@ -1,0 +1,40 @@
+{
+  "entry_id": "e6464983ba58",
+  "ts": 1781108619.3112798,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1310.5598",
+      "title": "The projective dimension of sequentially Cohen-Macaulay monomial ideals",
+      "abstract_excerpt": "In this short note we prove that the projective dimension of a sequentially Cohen-Macaulay square-free monomial ideal is equal to the maximal height of its minimal primes (also known as the big height), or equivalently, the maximal cardinality of a minimal vertex cover of its facet complex. This in particular gives a formula for the projective dimension of facet ideals of these classes of ideals, which are known to be sequentially Cohen-Macaulay: graph trees and simplicial trees, chordal graphs ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns projective dimension of sequentially Cohen-Macaulay monomial ideals via big height/vertex covers, with no mention of communication complexity, Boolean functions, rank variance, or bounds on the number of minimal generators.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2503.21466",
+      "title": "Minimal generating sets of large powers of bivariate monomial ideals",
+      "abstract_excerpt": "It is known that for a monomial ideal $I$, the number of minimal generators, $μ(I^n)$, eventually follows a polynomial pattern for increasing $n$. In general, little is known about the power at which this pattern emerges. Even less is known about the exact form of the minimal generators after this power. Let $s\\ge μ(I)(d^2-1)+1$, where $d$ is a constant bounded above by the maximal $x$- or $y$-degree appearing in the set $\\mathsf{G}(I)$ of minimal generators of $I$. We show that every higher pow",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the polynomial growth of μ(I^n) for powers of bivariate monomial ideals, with no mention of Boolean functions, communication complexity, or rank variance. It shares the 'minimal generators of monomial ideals' vocabulary but does not interact with the specific conjectured link to R(f).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2009.08125",
+      "title": "Support posets of some monomial ideals",
+      "abstract_excerpt": "The support poset of a monomial ideal $I\\subseteq\\mathbf{k}[x_1,\\dots,x_n]$ encodes the relation between the variables $x_1,\\dots,x_n$ and the minimal monomial generators of $I$. It is known that not every poset is realizable as the support poset of some monomial ideal. We describe some posets $P$ for which we can explicitly find at least one monomial ideal $I_P$ such that $P$ is the support poset of $I_P$. Also, for some families of monomial ideals we describe their support posets and study the",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses support posets of monomial ideals and their realizability, with no mention of communication complexity, Boolean functions, or rank variance. It shares the 'monomial ideal' and 'minimal generators' vocabulary but does not address the conjectured quadratic bound m_G = O(R(f)^2).",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

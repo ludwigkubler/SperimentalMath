@@ -1,0 +1,40 @@
+{
+  "entry_id": "ec714a8039a8",
+  "ts": 1781107433.405204,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1002.1290",
+      "title": "Bounds on Threshold of Regular Random $k$-SAT",
+      "abstract_excerpt": "We consider the regular model of formula generation in conjunctive normal form (CNF) introduced by Boufkhad et. al. We derive an upper bound on the satisfiability threshold and NAE-satisfiability threshold for regular random $k$-SAT for any $k \\geq 3$. We show that these bounds matches with the corresponding bound for the uniform model of formula generation.\n  We derive lower bound on the threshold by applying the second moment method to the number of satisfying assignments. For large $k$, we no",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses satisfiability thresholds for regular random k-SAT using the second moment method, with no mention of geometric flows, circuit depth reduction, or geometric flow complexity. It shares only the SAT vocabulary but does not interact with the conjecture's Θ(n^2) GFC bound claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1407.6169",
+      "title": "Multiplicative Complexity of Vector Valued Boolean Functions",
+      "abstract_excerpt": "We consider the multiplicative complexity of Boolean functions with multiple bits of output, studying how large a multiplicative complexity is necessary and sufficient to provide a desired nonlinearity. For so-called $ΣΠΣ$ circuits, we show that there is a tight connection between error correcting codes and circuits computing functions with high nonlinearity. Combining this with known coding theory results, we show that functions with $n$ inputs and $n$ outputs with the highest possible nonlinea",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns multiplicative complexity (AND gate counts) of vector-valued Boolean functions and connections to error-correcting codes, with no mention of geometric flows, circuit depth reduction, or CNF/SAT-specific bounds. It shares the general framework of Boolean circuit complexity but does not interact with the specific Θ(n^2) geometric flow complexity claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1304.5479",
+      "title": "Local Backbones",
+      "abstract_excerpt": "A backbone of a propositional CNF formula is a variable whose truth value is the same in every truth assignment that satisfies the formula. The notion of backbones for CNF formulas has been studied in various contexts. In this paper, we introduce local variants of backbones, and study the computational complexity of detecting them. In particular, we consider k-backbones, which are backbones for sub-formulas consisting of at most k clauses, and iterative k-backbones, which are backbones that resu",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'local backbones' of CNF formulas and the parameterized complexity of detecting them, with no mention of geometric flows, circuit depth reduction, or any Θ(n^2) complexity bound related to the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

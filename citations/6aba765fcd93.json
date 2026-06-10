@@ -1,0 +1,40 @@
+{
+  "entry_id": "6aba765fcd93",
+  "ts": 1781108011.3373926,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0707.3682",
+      "title": "On the p-adic Beilinson conjecture for number fields",
+      "abstract_excerpt": "We formulate a conjectural p-adic analogue of Borel's theorem relating regulators for higher K-groups of number fields to special values of the corresponding zeta-functions, using syntomic regulators and p-adic L-functions. We also formulate a corresponding conjecture for Artin motives, and state a conjecture about the precise relation between the p-adic and classical situations. Parts of he conjectures are proved when the number field (or Artin motive) is Abelian over the rationals, and all con",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns p-adic L-functions, syntomic regulators, and Borel's theorem for K-groups of number fields, with no mention of resolution proof complexity, Tseitin formulas, or proof width. It shares only the 'p-adic' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1701.06857",
+      "title": "The p-adic Kummer-Leopoldt constant - Normalized p-adic regulator",
+      "abstract_excerpt": "The p-adic Kummer--Leopoldt constant kappa\\_K of a number field K is (assuming the Leopoldt conjecture) the least integer c such that for all n \\textgreater{}\\textgreater{} 0, any global unit of K, which is locally a p^(n+c)th power at the p-places, is necessarily the p^nth power of a global unit of K. This constant has been computed by Assim \\&amp; Nguyen Quang Do using Iwasawa's techniques,after intricate studies and calculations by many authors. We give an elementary p-adic proof and an impro",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the p-adic Kummer-Leopoldt constant, units in number fields, and class field theory ('any global unit of K, which is locally a p^(n+c)th power'), with no connection to Tseitin formulas, resolution proof width, or propositional proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math-ph/0512018v2",
+      "title": "On Phase Transitions for $P$-Adic Potts Model with Competing Interactions on a Cayley Tree",
+      "abstract_excerpt": "In the paper we considere three state $p$-adic Potts model with competing interactions on a Cayley tree of order two. We reduce a problem of describing of the $p$-adic Gibbs measures to the solution of certain recursive equation, and using it we will prove that a phase transition occurs if and only ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns p-adic Gibbs measures and phase transitions for a p-adic Potts model on a Cayley tree, which shares only the 'p-adic' vocabulary with the conjecture and does not address Tseitin formulas, resolution proof width, or clause-count bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
