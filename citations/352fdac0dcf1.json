@@ -1,0 +1,40 @@
+{
+  "entry_id": "352fdac0dcf1",
+  "ts": 1781102717.6650352,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1403.8106",
+      "title": "Recent advances on the log-rank conjecture in communication complexity",
+      "abstract_excerpt": "The log-rank conjecture is one of the fundamental open problems in communication complexity. It speculates that the deterministic communication complexity of any two-party function is equal to the log of the rank of its associated matrix, up to polynomial factors. Despite much research, we still know very little about this conjecture. Recently, there has been renewed interest in this conjecture and its relations to other fundamental problems in complexity theory. This survey describes some of th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the log-rank conjecture relating communication complexity to the log of matrix rank, but makes no mention of Ehrhart theory or any 'Ehrhart semigroup rank' construction, so it neither supports nor refutes the specific conjectured linear correlation.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2210.01601",
+      "title": "Quantum communication complexity of linear regression",
+      "abstract_excerpt": "Quantum computers may achieve speedups over their classical counterparts for solving linear algebra problems. However, in some cases -- such as for low-rank matrices -- dequantized algorithms demonstrate that there cannot be an exponential quantum speedup. In this work, we show that quantum computers have provable polynomial and exponential speedups in terms of communication complexity for some fundamental linear algebra problems \\update{if there is no restriction on the rank}. We mainly focus o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract focuses on quantum vs classical communication complexity for linear algebra problems like linear regression and Hamiltonian simulation, with no mention of Ehrhart theory, semigroup rank, or Boolean function communication rank. It shares only the broad 'communication complexity' vocabulary without addressing the specific conjectured relationship.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2405.16881",
+      "title": "Half-duplex communication complexity with adversary can be less than the classical communication complexity",
+      "abstract_excerpt": "Half-duplex communication complexity with adversary was defined in [Hoover, K., Impagliazzo, R., Mihajlin, I., Smal, A. V. Half-Duplex Communication Complexity, ISAAC 2018.] Half-duplex communication protocols generalize classical protocols defined by Andrew Yao in [Yao, A. C.-C. Some Complexity Questions Related to Distributive Computing (Preliminary Report), STOC 1979]. It has been unknown so far whether the communication complexities defined by these models are different or not. In the presen",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns separating half-duplex communication complexity with adversary from classical communication complexity, with no mention of Ehrhart theory, semigroup rank, or rank-based bounds. It shares only the broad 'communication complexity' framework with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

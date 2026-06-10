@@ -1,0 +1,40 @@
+{
+  "entry_id": "f064660bfb18",
+  "ts": 1781099644.8574004,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2412.03601",
+      "title": "Relations between average shortest path length and another centralities in graphs",
+      "abstract_excerpt": "Relations between average shortest path length and average clustering coefficient, radiality, closeness and stress centralities were obtained for simple graphs.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns relations between average shortest path length and various graph centralities in simple graphs, with no mention of DPLL search trees, SAT instances, Riemannian manifolds, or energy flows. It shares only the generic notion of 'shortest path' but does not interact with the specific conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1409.4714",
+      "title": "Modeling the average shortest path length in growth of word-adjacency networks",
+      "abstract_excerpt": "We investigate properties of evolving linguistic networks defined by the word-adjacency relation. Such networks belong to the category of networks with accelerated growth but their shortest path length appears to reveal the network size dependence of different functional form than the ones known so far. We thus compare the networks created from literary texts with their artificial substitutes based on different variants of the Dorogovtsev-Mendes model and observe that none of them is able to pro",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses shortest path length asymptotics in evolving word-adjacency linguistic networks and the Dorogovtsev-Mendes model, with no reference to DPLL search trees, SAT instances, or Riemannian manifold energy flows. It shares only the generic vocabulary of 'shortest path length' but does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2411.16441",
+      "title": "Shortest Path Lengths in Poisson Line Cox Processes: Approximations and Applications",
+      "abstract_excerpt": "We derive exact expressions for the shortest path length to a point of a Poisson line Cox process (PLCP) from the typical point of the PLCP and from the typical intersection of the underlying Poisson line process (PLP), restricted to a single turn. For the two turns case, we derive a bound on the shortest path length from the typical point and demonstrate conditions under which the bound is tight. We also highlight the line process and point process densities for which the shortest path from the",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns shortest path lengths in Poisson line Cox processes with applications to wireless communications and EV charging, sharing only the generic 'shortest path' vocabulary but not interacting with DPLL search trees, SAT, or Riemannian energy flows.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

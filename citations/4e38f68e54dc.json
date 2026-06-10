@@ -1,0 +1,40 @@
+{
+  "entry_id": "4e38f68e54dc",
+  "ts": 1781099415.9900053,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0903.3848",
+      "title": "Join-irreducible Boolean functions",
+      "abstract_excerpt": "This paper is a contribution to the study of a quasi-order on the set $Ω$ of Boolean functions, the \\emph{simple minor} quasi-order. We look at the join-irreducible members of the resulting poset $\\tildeΩ$. Using a two-way correspondence between Boolean functions and hypergraphs, join-irreducibility translates into a combinatorial property of hypergraphs. We observe that among Steiner systems, those which yield join-irreducible members of $\\tildeΩ$ are the -2-monomorphic Steiner systems. We also",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses a 'simple minor quasi-order' on Boolean functions and join-irreducibility via hypergraph correspondence, with no mention of hypergeometric functions, CNF satisfiability, DPLL search trees, or representation degrees relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0808.0684",
+      "title": "9-variable Boolean Functions with Nonlinearity 242 in the Generalized Rotation Class",
+      "abstract_excerpt": "In 2006, 9-variable Boolean functions having nonlinearity 241, which is strictly greater than the bent concatenation bound of 240, have been discovered in the class of Rotation Symmetric Boolean Functions (RSBFs) by Kavut, Maitra and Yucel. To improve this nonlinearity result, we have firstly defined some subsets of the n-variable Boolean functions as the \"generalized classes of k-RSBFs and k-DSBFs (k-Dihedral Symmetric Boolean Functions)\", where k is a positive integer dividing n and k-RSBFs is",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract is about constructing 9-variable Boolean functions with nonlinearity 242 in rotation/dihedral symmetric classes, with no mention of hypergeometric functions, CNF satisfiability, or DPLL search trees. It shares only the broad 'Boolean functions' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2407.04826",
+      "title": "Multi-strategy Based Quantum Cost Reduction of Quantum Boolean Circuits",
+      "abstract_excerpt": "The construction of quantum computers is based on the synthesis of low-cost quantum circuits. The quantum circuit of any Boolean function expressed in a Positive Polarity Reed-Muller $PPRM$ expansion can be synthesized using Multiple-Control Toffoli ($MCT$) gates. This paper proposes two algorithms to construct a quantum circuit for any Boolean function expressed in a Positive Polarity Reed-Muller $PPRM$ expansion. The Boolean function can be expressed with various algebraic forms, so there are ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quantum circuit synthesis from Positive Polarity Reed-Muller expansions using MCT/NCV gates, with no mention of hypergeometric functions, CNF satisfiability, DPLL search trees, or minimal representation degree in the conjecture's sense.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
