@@ -1,0 +1,40 @@
+{
+  "entry_id": "f33ad01b8f80",
+  "ts": 1781050219.269854,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1607.01685",
+      "title": "Exterior power operations on higher $K$-groups via binary complexes",
+      "abstract_excerpt": "We use Grayson's binary multicomplex presentation of algebraic $K$-theory to give a new construction of exterior power operations on the higher $K$-groups of a (quasi-compact) scheme. We show that these operations satisfy the axioms of a $λ$-ring, including the product and composition laws. To prove the composition law we show that the Grothendieck group of the exact category of integral polynomial functors is the universal $λ$-ring on one generator.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns exterior power operations and λ-ring structures on higher K-groups of schemes via binary complexes; it makes no mention of graphs, Frege/resolution proof width, or any proof-complexity bound.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1311.1421",
+      "title": "Multiplicative differential algebraic K-theory and applications",
+      "abstract_excerpt": "We construct a version of Beilinson's regulator as a map of sheaves of commutative ring spectra and use it to define a multiplicative variant of differential algebraic K-theory. We use this theory to give an interpretation of Bloch's construction of K_3-classes and the relation with dilogarithms. Furthermore, we provide a relation to Arakelov theory via the arithmetic degree of metrized line bundles, and we give a proof of the formality of the algebraic K-theory of number rings.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses multiplicative differential algebraic K-theory, Beilinson's regulator, and Arakelov theory — it makes no mention of graphs, Frege proofs, or resolution proof width, so it does not interact with the specific claim relating w(φ_G) to rk(K(G)).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1109.0046",
+      "title": "Milnor K-theory and the graded representation ring",
+      "abstract_excerpt": "Let F be a field, let G be its absolute Galois group, and let R(G, k) be the representation ring of G over a suitable field k. In this preprint we construct a ring homomorphism from the mod 2 Milnor K-theory k_*(F) to the graded ring gr R(G, k) associated to Grothendieck's γ-filtration. We study this map in particular cases, as well as a related map involving the W-group of F rather than G. The latter is an isomorphism in all cases considered.\n  Naturally this echoes the Milnor conjecture (now a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Milnor K-theory, Galois representation rings, and Stiefel-Whitney classes in algebraic topology, with no mention of graphs, Frege/resolution proof complexity, or proof width bounds. It shares the term 'K-theory' but does not interact with the specific conjecture relating K-group rank to resolution proof width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

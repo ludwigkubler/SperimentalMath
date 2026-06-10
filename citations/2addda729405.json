@@ -1,0 +1,40 @@
+{
+  "entry_id": "2addda729405",
+  "ts": 1781049135.2865877,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math-ph/9805020v2",
+      "title": "Chern--Simons Terms as an Example of the Relations Between Mathematics and Physics",
+      "abstract_excerpt": "The inevitability of Chern--Simons terms in constructing a variety of physical models, and the mathematical advances they in turn generate, illustrates the unexpected but profound interactions between the two disciplines.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Chern-Simons terms and the interplay between mathematics and physics, with no mention of Grothendieck groups, Frege proofs, or proof complexity. As stated, 'Chern--Simons terms... in constructing a variety of physical models' is unrelated to the conjecture's claim about Frege proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0801.2027",
+      "title": "Strong Linear Correlation Between Eigenvalues and Diagonal Matrix Elements",
+      "abstract_excerpt": "We investigate eigenvalues of many-body systems interacting by two-body forces as well as those of random matrices. We find a strong linear correlation between eigenvalues and diagonal matrix elements if both of them are sorted from the smaller values to larger ones. By using this linear correlation we are able to predict reasonably all eigenvalues of given shell model Hamiltonian without complicated iterations.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses linear correlation between eigenvalues and diagonal matrix elements in many-body physics and random matrices, which has no interaction with Grothendieck group rank or Frege proof width despite sharing the phrase 'linear correlation'.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2303.03958",
+      "title": "The Linear Correlation of $P$ and $NP$",
+      "abstract_excerpt": "$P \\overset{\\text{?}}{=} NP$ or $P\\ vs\\ NP$ is the core problem in computational complexity theory. In this paper, we proposed a definition of linear correlation of derived matrix and system, and discussed the linear correlation of $P$ and $NP$. We draw a conclusion that $P$ is linearly dependent and there exists $NP$ which is is linearly independent and take a 3SAT instance which belongs to $NP$ as the example , that is, $P \\neq NP$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses linear correlation/dependence in the context of P vs NP via derived matrices, with no mention of Grothendieck groups, Frege proof systems, or proof width. Despite sharing the vague vocabulary of 'linear correlation,' it does not interact with the specific claim about Grothendieck group rank bounding Frege proof width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

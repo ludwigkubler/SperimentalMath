@@ -1,0 +1,31 @@
+{
+  "entry_id": "7d3173e96dce",
+  "ts": 1781050932.4294968,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:1811.04085",
+      "title": "Binding complexity and multiparty entanglement",
+      "abstract_excerpt": "We introduce “binding complexity”, a new notion of circuit complexity which quantifies the difficulty of distributing entanglement among multiple parties, each consisting of many local degrees of freedom. We define binding complexity of a given state as the minimal number of quantum gates that must ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract introduces 'binding complexity' as gates needed to distribute multiparty entanglement, which shares the entanglement-vs-circuit-complexity framework but does not address CNF formulas, circuit depth bounds, or quaternionic entanglement entropy as in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:2101.02513",
+      "title": "Holography and quantum information exchange between systems",
+      "abstract_excerpt": "We estimate the net information exchange between adjacent quantum subsystems holographically living on the boundary of $AdS$ spacetime. The information exchange is a real time phenomenon and only after long time interval it may get saturated. Normally we prepare systems for small time intervals and ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns holographic information exchange between quantum subsystems on the AdS boundary, with no mention of CNF formulas, circuit depth, quaternionic entanglement, or Boolean circuit complexity bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 0
+  }
+}

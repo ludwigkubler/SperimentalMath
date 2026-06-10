@@ -1,0 +1,31 @@
+{
+  "entry_id": "126fb4e73a5a",
+  "ts": 1781048930.065984,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:ARXIV:2207.01808",
+      "title": "Complexity Analysis of the SAT Attack on Logic Locking",
+      "abstract_excerpt": "Due to the adoption of horizontal business models following the globalization of semiconductor manufacturing, the overproduction of integrated circuits (ICs) and the piracy of intellectual properties (IPs) can lead to significant damage to the integrity of the semiconductor supply chain. Logic locking emerges as a primary design-for-security measure to counter these threats, where ICs become fully functional only when unlocked with a secret key. However, Boolean satisfiability (SAT)-based attack",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract analyzes SAT attack iteration complexity on logic locking schemes via CNF clauses, with no mention of hypergeometric functions or any 'minimal hypergeometric function rank' measure. It shares the SAT/Boolean circuit vocabulary but does not interact with the specific mrf(C) vs s(C) claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10.4230/LIPIcs.ISAAC.2024.51",
+      "title": "Easier Ways to Prove Counting Hard: A Dichotomy for Generalized #SAT, Applied to Constraint Graphs",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available, so I cannot determine from the provided text whether the paper addresses hypergeometric function rank or its relationship to SAT circuit size.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}
