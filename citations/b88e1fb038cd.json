@@ -1,0 +1,40 @@
+{
+  "entry_id": "b88e1fb038cd",
+  "ts": 1781079379.1556542,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1808.07807",
+      "title": "Ample groupoids: equivalence, homology, and Matui's HK conjecture",
+      "abstract_excerpt": "We investigate the homology of ample Hausdorff groupoids. We establish that a number of notions of equivalence of groupoids appearing in the literature coincide for ample Hausdorff groupoids, and deduce that they all preserve groupoid homology. We compute the homology of a Deaconu{Renault groupoid associated to k pairwisecommuting local homeomorphisms of a zero-dimensional space, and show that Matui's HK conjecture holds for such a groupoid when k is one or two. We specialise to k-graph groupoid",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns homology of ample Hausdorff groupoids and Matui's HK conjecture for Deaconu-Renault/k-graph groupoids, with no mention of SAT, CNF formulas, or clause satisfiability complexity. It shares only the vocabulary of 'groupoid homology' without engaging the specific claim about SAT complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1712.05094",
+      "title": "The groupoid structure of groupoid morphisms",
+      "abstract_excerpt": "In this paper we construct two groupoids from morphisms of groupoids, with one from a categorical viewpoint and the other from a geometric viewpoint. We show that for each pair of groupoids, the two kinds of groupoids of morphisms are equivalent. Then we study the automorphism groupoid of a groupoid.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns constructing groupoids from groupoid morphisms and studying automorphism groupoids, with no mention of homology, SAT, CNF formulas, or computational complexity. It shares only the 'groupoid' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2011.02554",
+      "title": "The homology of the groupoid of the self-similar dihedral group",
+      "abstract_excerpt": "We give an example of a locally compact effective Hausdorff, minimal ample groupoid such that its rational homology differs from the $K$-theory of its reduced groupoid $C^*$-algebra. Moreover, we prove that such example satisfies Matui's AH-conjecture.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns rational homology of a specific self-similar dihedral groupoid versus K-theory of its C*-algebra and Matui's AH-conjecture; it says nothing about CNF formulas, SAT complexity, or minimal groupoid homology rank bounds for Boolean satisfiability.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "607b25cdf41e",
+  "ts": 1781078889.0543253,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2103.09609",
+      "title": "Characterizing Tseitin-formulas with short regular resolution refutations",
+      "abstract_excerpt": "Tseitin-formulas are systems of parity constraints whose structure is described by a graph. These formulas have been studied extensively in proof complexity as hard instances in many proof systems. In this paper, we prove that a class of unsatisfiable Tseitin-formulas of bounded degree has regular resolution refutations of polynomial length if and only if the treewidth of all underlying graphs $G$ for that class is in $O(\\log|V(G)|)$. To do so, we show that any regular resolution refutation of a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns regular resolution refutation length of Tseitin formulas tied to graph treewidth and DNNF representation size, with no mention of Kac-Moody Lie algebras or Frege proof length. It shares the Tseitin-formula vocabulary but does not address the specific dim(V) ≤ c·f(φ) claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2402.00542",
+      "title": "Hardness of Random Reordered Encodings of Parity for Resolution and CDCL",
+      "abstract_excerpt": "Parity reasoning is challenging for Conflict-Driven Clause Learning (CDCL) SAT solvers. This has been observed even for simple formulas encoding two contradictory parity constraints with different variable orders (Chew and Heule 2020). We provide an analytical explanation for their hardness by showing that they require exponential resolution refutations with high probability when the variable order is chosen at random. We obtain this result by proving that these formulas, which are known to be T",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses resolution/CDCL hardness of Tseitin formulas via treewidth arguments, with no mention of Kac-Moody Lie algebras, representation dimensions, or Frege proof length bounds. It shares only the 'Tseitin formula' vocabulary with the conjecture but does not address the claimed dim(V) ≤ c·f(φ) relationship.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2105.06744",
+      "title": "A Separator Theorem for Hypergraphs and a CSP-SAT Algorithm",
+      "abstract_excerpt": "We show that for every $r \\ge 2$ there exists $ε_r &gt; 0$ such that any $r$-uniform hypergraph with $m$ edges and maximum vertex degree $o(\\sqrt{m})$ contains a set of at most $(\\frac{1}{2} - ε_r)m$ edges the removal of which breaks the hypergraph into connected components with at most $m/2$ edges. We use this to give an algorithm running in time $d^{(1 - ε_r)m}$ that decides satisfiability of $m$-variable $(d, k)$-CSPs in which every variable appears in at most $r$ constraints, where $ε_r$ dep",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a hypergraph separator theorem, CSP-SAT algorithms, and tree-like resolution refutation sizes for Tseitin formulas — it makes no claim about Kac-Moody Lie algebra representations or Frege proof length bounds, so it neither supports nor refutes the specific dimension-vs-Frege-length correlation conjectured.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

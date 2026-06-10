@@ -1,0 +1,40 @@
+{
+  "entry_id": "b79da733162f",
+  "ts": 1781078065.5658352,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1609.06986",
+      "title": "More on Diophantine sextuples",
+      "abstract_excerpt": "A rational Diophantine m-tuple is a set of m nonzero rationals such that the product of any two of them increased by 1 is a perfect square. The first rational Diophantine quadruple was found by Diophantus, while Euler proved that there are infinitely many rational Diophantine quintuples. In 1999, Gibbs found the first example of a rational Diophantine sextuple, and Dujella, Kazalicki, Mikic and Szikszai recently proved that there exist infinitely many rational Diophantine sextuples.\n  In this pa",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns rational Diophantine m-tuples (sets of rationals where pairwise products plus one are perfect squares), which shares only the word 'Diophantine' with the conjecture about polynomial degree bounds for Frege proof complexity of Tseitin formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1606.05050",
+      "title": "Proof Complexity Lower Bounds from Algebraic Circuit Complexity",
+      "abstract_excerpt": "We give upper and lower bounds on the power of subsystems of the Ideal Proof System (IPS), the algebraic proof system recently proposed by Grochow and Pitassi, where the circuits comprising the proof come from various restricted algebraic circuit classes. This mimics an established research direction in the boolean setting for subsystems of Extended Frege proofs, where proof-lines are circuits from restricted boolean circuit classes. Except one, all of the subsystems considered in this paper can",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns lower bounds for subsystems of the Ideal Proof System via algebraic circuit complexity, and explicitly notes prior work measured proof size 'with respect to degree' — but it does not assert any Θ-equivalence between a diophantine degree measure and Frege proof length for Tseitin formulas. It shares the algebraic-proof-complexity vocabulary but does not address the specific dd(φ) = Θ(f(φ)) claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2103.09609",
+      "title": "Characterizing Tseitin-formulas with short regular resolution refutations",
+      "abstract_excerpt": "Tseitin-formulas are systems of parity constraints whose structure is described by a graph. These formulas have been studied extensively in proof complexity as hard instances in many proof systems. In this paper, we prove that a class of unsatisfiable Tseitin-formulas of bounded degree has regular resolution refutations of polynomial length if and only if the treewidth of all underlying graphs $G$ for that class is in $O(\\log|V(G)|)$. To do so, we show that any regular resolution refutation of a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract characterizes regular resolution refutation length of Tseitin formulas via treewidth of the underlying graph, with no mention of Frege proof length or diophantine degree of an associated polynomial system. It shares the Tseitin-formula framework but does not address the specific dd(φ) = Θ(f(φ)) claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
