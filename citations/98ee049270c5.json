@@ -1,0 +1,40 @@
+{
+  "entry_id": "98ee049270c5",
+  "ts": 1781063263.9757051,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1511.09051",
+      "title": "On automorphism groups of affine surfaces",
+      "abstract_excerpt": "This is a survey on the automorphism groups in various classes of affine algebraic surfaces and the algebraic group actions on such surfaces. Being infinite-dimensional, these automorphism groups share some important features of algebraic groups. At the same time, they can be studied from the viewpoint of the combinatorial group theory, so we put a special accent on group-theoretical aspects (ind-groups, amalgams, etc.). We provide different approaches to classification, prove certain new result",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns automorphism groups of affine algebraic surfaces and ind-group/amalgam structures, with no mention of graphs, Tseitin formulas, or resolution proof width. It shares only the generic term 'automorphism groups' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2104.14760",
+      "title": "Automorphism and outer automorphism groups of Right-angled Artin groups are not relatively hyperbolic",
+      "abstract_excerpt": "We show that the automorphism groups of right-angled Artin groups whose defining graphs have at least 3 vertices are not relatively hyperbolic. We then show that the outer automorphism groups are not relatively hyperbolic, if they are not virtually isomorphic to a right-angled Artin group whose defining graph is either a single vertex or disconnected.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns relative hyperbolicity of automorphism groups of right-angled Artin groups, with no mention of Tseitin formulas, resolution proof width, or any quantitative correlation between |Aut(G)| and proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1010.3612v2",
+      "title": "Explicit examples of equivalence relations and factors with prescribed fundamental group and outer automorphism group",
+      "abstract_excerpt": "In this paper we give a number of explicit constructions for II$_1$ factors and II$_1$ equivalence relations that have prescribed fundamental group and outer automorphism group. We construct factors and relations that have uncountable fundamental group different from $\\IRpos$. In fact, given any II$",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses II_1 factors and equivalence relations with prescribed fundamental and outer automorphism groups in operator algebra/ergodic theory, which is unrelated to graph automorphism groups, Tseitin formulas, or resolution proof width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

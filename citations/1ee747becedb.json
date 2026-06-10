@@ -1,0 +1,40 @@
+{
+  "entry_id": "1ee747becedb",
+  "ts": 1781066616.3973434,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0808.2307",
+      "title": "Boolean complexes for Ferrers graphs",
+      "abstract_excerpt": "In this paper we provide an explicit formula for calculating the boolean number of a Ferrers graph. By previous work of the last two authors, this determines the homotopy type of the boolean complex of the graph. Specializing to staircase shapes, we show that the boolean numbers of the associated Ferrers graphs are the Genocchi numbers of the second kind, and obtain a relation between the Legendre-Stirling numbers and the Genocchi numbers of the second kind. In another application, we compute th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns boolean complexes and boolean numbers of Ferrers graphs (combinatorial/topological invariants like Genocchi and Stirling numbers), not 'graphical regularity' of boolean circuits or rank variance in communication complexity. It shares no claim about the conjectured Θ(ρ_n) relationship.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1005.4411",
+      "title": "Homology of the Boolean Complex",
+      "abstract_excerpt": "We construct and analyze an explicit basis for the homology of the boolean complex of a Coxeter system. This gives combinatorial meaning to the spheres in the wedge sum describing the homotopy type of the complex. We assign a set of derangements to any finite simple graph. For each derangement, we construct a corresponding element in the homology of the complex, and the collection of these elements forms a basis for the homology of the boolean complex. In this manner, the spheres in the wedge su",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the homology of the boolean complex of a Coxeter system and derangement-based bases for it, with no mention of boolean circuits, graphical regularity, communication complexity, or rank variance. It shares only superficial vocabulary ('boolean', 'graph') with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1510.05113",
+      "title": "On the topology of a boolean representable simplicial complex",
+      "abstract_excerpt": "It is proved that fundamental groups of boolean representable simplicial complexes are free and the rank is determined by the number and nature of the connected components of their graph of flats for dimension $\\geq 2$. In the case of dimension 2, it is shown that boolean representable simplicial complexes have the homotopy type of a wedge of spheres of dimensions 1 and 2. Also in the case of dimension 2, necessary and sufficient conditions for shellability and being sequentially Cohen-Macaulay ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses fundamental groups, homotopy type, and shellability of boolean representable simplicial complexes — it does not mention graphical regularity, boolean circuits, communication complexity, or rank variance, so it shares only loose vocabulary ('boolean') with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

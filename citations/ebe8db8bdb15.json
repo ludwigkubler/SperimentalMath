@@ -1,0 +1,40 @@
+{
+  "entry_id": "ebe8db8bdb15",
+  "ts": 1781065248.4775393,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2510.04248",
+      "title": "Trisected Rainbows and Braids",
+      "abstract_excerpt": "New explicit procedures for passing among triplane diagrams, braid movies, and braid charts for knotted surfaces in $\\mathbb{R}^4$ are presented. To this end, rainbow diagrams, which lie between braid charts and triplanes, are introduced. Inequalities relating the braid index and the bridge index of 2-knots are obtained via these procedures. Another consequence is a 4-dimensional version of the classical result that ``the minimal number of Seifert circles equals the braid index of a link'' due t",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns triplane diagrams, braid charts, and braid/bridge indices for knotted surfaces in R^4, with no mention of CNF formulas, circuit satisfiability, or monoid generator complexity bounds. It shares only the word 'braid' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2209.03860",
+      "title": "Graph of groups decompositions of graph braid groups",
+      "abstract_excerpt": "We provide an explicit construction that allows one to easily decompose a graph braid group as a graph of groups. This allows us to compute the braid groups of a wide range of graphs, as well as providing two general criteria for a graph braid group to split as a non-trivial free product, answering two questions of Genevois. We also use this to distinguish certain right-angled Artin groups and graph braid groups. Additionally, we provide an explicit example of a graph braid group that is relativ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns graph-of-groups decompositions of graph braid groups and questions about free product splittings and relative hyperbolicity, with no mention of CNF formulas, circuit satisfiability, or generator-count bounds for representing Boolean formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1806.05902",
+      "title": "Commutator Subgroups of Singular Braid Groups",
+      "abstract_excerpt": "The singular braids with $n$ strands, $n \\geq 3$, were introduced independently by Baez and Birman. It is known that the monoid formed by the singular braids is embedded in a group that is known as singular braid group, denoted by $SG_n$. There has been another generalization of braid groups, denoted by $GVB_n$, $n \\geq 3$, which was introduced by Fang as a group of symmetries behind quantum quasi-shuffle structures. The group $GVB_n$ simultaneously generalizes the classical braid group, as well",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns commutator subgroups and finite generation of singular and generalized braid groups (SG_n', GVB_n'), with no mention of CNF formulas, circuit satisfiability, or complexity bounds on braid monoid representations of Boolean formulas.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

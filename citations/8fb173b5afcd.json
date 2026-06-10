@@ -1,0 +1,40 @@
+{
+  "entry_id": "8fb173b5afcd",
+  "ts": 1781064972.9795046,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2108.10182",
+      "title": "Configurable sublinear circuits for quantum state preparation",
+      "abstract_excerpt": "The theory of quantum algorithms promises unprecedented benefits of harnessing the laws of quantum mechanics for solving certain computational problems. A persistent obstacle to using such algorithms for solving a wide range of real-world problems is the cost of loading classical data to a quantum state. Several quantum circuit-based methods have been proposed for encoding classical data as probability amplitudes of a quantum state. However, they require either quantum circuit depth or width to ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses trade-offs between quantum circuit width and depth for classical data loading (O(√N) width and depth), with no mention of 'holographic entanglement rank' or any linear relationship between circuit depth and an entanglement-rank measure of Boolean circuits.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2503.05698",
+      "title": "Quantum State Designs from Minimally Random Quantum Circuits",
+      "abstract_excerpt": "Random many-body states are both a useful tool to model certain physical systems and an important asset for quantum computation. Realising them, however, generally requires an exponential (in system size) amount of resources. Recent research has presented a way out by showing that one can generate random states, or more precisely a controlled approximation of them, by applying a quantum circuit built in terms of few-body unitary gates. Most of this research, however, has been focussed on the cas",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses how minimally random quantum circuits approximate Haar-random state distributions in depth proportional to system size, but says nothing about 'holographic entanglement rank' of Boolean circuits or a Θ(D) relationship between circuit depth and any such rank measure.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2511.00454",
+      "title": "Quantum Qomrades: Catalysts in Resource Theories and Memories in Dynamic Programming",
+      "abstract_excerpt": "Quantum information theory explores the limits of manipulating quantum states. While auxiliary systems often enhance information processing, a systematic explanation for their power has been lacking. This thesis addresses this gap by investigating the underlying sources of strength in using auxiliary systems. We then apply these insights to practical problems in quantum computing and devise an algorithmic paradigm leveraging auxiliary systems. The first part examines catalysts -- auxiliary syste",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses catalysts and auxiliary memory states achieving 'exponential reduction in circuit depth at the cost of increased width,' which concerns quantum algorithm design rather than any holographic entanglement rank bound on Boolean circuit depth. It shares the vocabulary of 'circuit depth' but does not address HER(C) = Θ(D).",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
