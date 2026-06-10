@@ -1,0 +1,40 @@
+{
+  "entry_id": "492a4a4b699a",
+  "ts": 1781096701.3252647,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1803.02524",
+      "title": "The automorphism group of the bipartite Kneser graph",
+      "abstract_excerpt": "Let $n$ and $k$ be integers with $n&gt;2k, k\\geq1$. We denote by $H(n, k)$ the $bipartite\\ Kneser\\ graph$, that is, a graph with the family of $k$-subsets and ($n-k$)-subsets of $[n] = \\{1, 2, ... , n\\}$ as vertices, in which\n  any two vertices are adjacent if and only if one of them is a subset of the other. In this paper, we determine the automorphism group of $H(n, k)$. We show that $Aut(H(n, k))\\cong Sym([n]) \\times \\mathbb{Z}_2$ where $\\mathbb{Z}_2$ is the cyclic group of order $2$. Then, a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "REFUTES",
+      "judge_reasoning": "The abstract shows Aut(K(n,k)) ≅ Sym([n]) × Z_2, which has order 2·n!, far exceeding O(n^2 log n); since the conjecture claims the automorphism group of the associated Kneser graph is bounded by O(n^2 log n), this known result contradicts the bound for general Kneser graphs.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1509.09185",
+      "title": "The automorphism group of the $s$-stable Kneser graphs",
+      "abstract_excerpt": "For $k,s\\geq2$, the $s$-stable Kneser graphs are the graphs with vertex set the $k$-subsets $S$ of $\\{1,\\ldots,n\\}$ such that the circular distance between any two elements in $S$ is at least $s$ and two vertices are adjacent if and only if the corresponding $k$-subset are disjoint. Braun showed that for $n\\geq 2k+1$ the automorphism group of the $2$-stable Kneser graphs (Schrijver graphs) is isomorphic to the dihedral group of order $2n$. In this paper we generalize this result by proving that ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract establishes that the automorphism group of s-stable Kneser graphs is isomorphic to the dihedral group of order 2n, which concerns a specific combinatorial Kneser graph family — not Kneser graphs associated with CNF formulas, nor the O(n^2 log n) bound or minimum-degree/SAT-counting claim in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2008.09051",
+      "title": "Graphs whose Kronecker covers are bipartite Kneser graphs",
+      "abstract_excerpt": "We show that there are $k$ simple graphs whose Kronecker covers are isomorphic to the bipartite Kneser graph $H(n,k)$, and that their chromatic numbers coincide with $χ(K(n,k)) = n - 2k + 2$. We also determine the automorphism groups of these graphs.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Kronecker covers of bipartite Kneser graphs H(n,k), their chromatic numbers, and automorphism groups — it does not address CNF formulas, SAT satisfying assignments, or any O(n^2 log n) automorphism bound for SAT-associated Kneser graphs.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 1,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 0
+  }
+}

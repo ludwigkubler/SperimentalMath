@@ -1,0 +1,40 @@
+{
+  "entry_id": "1337ae5fb3dc",
+  "ts": 1781098980.846648,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1107.3746",
+      "title": "A Computational Complexity-Theoretic Elaboration of Weak Truth-Table Reducibility",
+      "abstract_excerpt": "The notion of weak truth-table reducibility plays an important role in recursion theory. In this paper, we introduce an elaboration of this notion, where a computable bound on the use function is explicitly specified. This elaboration enables us to deal with the notion of asymptotic behavior in a manner like in computational complexity theory, while staying in computability theory. We apply the elaboration to sets which appear in the statistical mechanical interpretation of algorithmic informati",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'weak truth-table reducibility' in recursion/computability theory and statistical mechanical interpretations of algorithmic information theory, with no mention of matroids, noncrossing partitions, or communication complexity rank bounds. It shares no substantive claim with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1306.3766",
+      "title": "Truth Table Minimization of Computational Models",
+      "abstract_excerpt": "Complexity theory offers a variety of concise computational models for computing boolean functions - branching programs, circuits, decision trees and ordered binary decision diagrams to name a few. A natural question that arises in this context with respect to any such model is this:\n  Given a function f:{0,1}^n \\to {0,1}, can we compute the optimal complexity of computing f in the computational model in question? (according to some desirable measure).\n  A critical issue regarding this question ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses computational complexity of minimizing truth-table representations across models like decision trees, formulas, and branching programs, with no mention of noncrossing partition matroids, matroid rank, or communication complexity bounds of the form Θ(log(n + log(w(f)))).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1401.0645",
+      "title": "Truth Table Invariant Cylindrical Algebraic Decomposition",
+      "abstract_excerpt": "When using cylindrical algebraic decomposition (CAD) to solve a problem with respect to a set of polynomials, it is likely not the signs of those polynomials that are of paramount importance but rather the truth values of certain quantifier free formulae involving them. This observation motivates our article and definition of a Truth Table Invariant CAD (TTICAD).\n  In ISSAC 2013 the current authors presented an algorithm that can efficiently and directly construct a TTICAD for a list of formulae",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Cylindrical Algebraic Decomposition for polynomial systems and 'truth table invariant' refers to quantifier-free formula truth values, with no mention of matroids, noncrossing partitions, or communication complexity rank bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
