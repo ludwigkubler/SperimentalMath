@@ -1,0 +1,40 @@
+{
+  "entry_id": "66151c3fffe8",
+  "ts": 1781084253.9716954,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0604506v1",
+      "title": "The fundamental weighted category of a weighted space (From directed to weighted algebraic topology)",
+      "abstract_excerpt": "We want to investigate 'spaces' where paths have a 'weight', or 'cost', expressing length, duration, price, energy, etc. The weight function is not assumed to be invariant up to path-reversion. Thus, 'weighted algebraic topology' can be developed as an enriched version of directed algebraic topology",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes 'weighted algebraic topology' concerning paths with weights/costs in spaces, with no mention of local homology, CNF formulas, or Frege proof complexity. It shares only the broad 'algebraic topology' framework but does not interact with the specific claim about local homology rank bounding Frege proof length.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1904.04356",
+      "title": "Algebraic Topology of Special Lagrangian Manifolds",
+      "abstract_excerpt": "In this paper, we prove various results on the topology of the Grassmannian of oriented 3-planes in Euclidean 6-space and compute its cohomology ring. We give self-contained proofs. These spaces come up when studying submanifolds of manifolds with calibrated geometries. We collect these results here for the sake of completeness. As applications of our algebraic topological study we present some results on special Lagrangian-free embeddings of surfaces and 3-manifolds into the Euclidean 4 and 6-s",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'cohomology ring' of 'the Grassmannian of oriented 3-planes in Euclidean 6-space' and special Lagrangian embeddings, with no mention of CNF formulas, Frege proofs, or local homology rank bounds on clause sets.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0012219v6",
+      "title": "Affine stacks (Champs affines)",
+      "abstract_excerpt": "This is an expended and revised version of the preprint \"Schematization of homotopy types\".\n  The purpose of this work is to introduce a notion of \\emph{affine stacks}, which is a homotopy version of the notion of affine schemes, and to give several applications in the context of algebraic topology ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes 'affine stacks' as a homotopy version of affine schemes with applications in algebraic topology, with no mention of CNF formulas, Frege proof complexity, or local homology rank bounds. It shares no specific interaction with the conjecture's claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "bf4b6a99c509",
+  "ts": 1781081442.9264812,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/hep-th/9707234v2",
+      "title": "Variational Approach to Quantum Field Theory: Gaussian Approximation and the Perturbative Expansion around It",
+      "abstract_excerpt": "The functional Schrodinger picture formulation of quantum field theory and the variational Gaussian approximation method based on the formulation are briefly reviewed. After presenting recent attempts to improve the variational approximation, we introduce a new systematic method based on the backgro",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the variational Gaussian approximation in quantum field theory via the functional Schrodinger picture, with no mention of communication complexity, geometric invariant rank, or metric embeddings.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/chao-dyn/9311011v2",
+      "title": "The Great Inequality In A Hamiltonian Planetary Theory",
+      "abstract_excerpt": "The Jupiter-Saturn 2:5 near-commensurability is analyzed in a fully analytic Hamiltonian planetary theory. Computations for the Sun-Jupiter-Saturn system, extending to the third order of the masses and to the 8th degree in the eccentricities and inclinations, reveal an unexpectedly sensitive depende",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a Hamiltonian planetary theory of the Jupiter-Saturn 2:5 near-commensurability, with no relation to geometric invariant theory, communication complexity, or rank bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/hep-th/9201009v1",
+      "title": "Large-Small Equivalence in String Theory",
+      "abstract_excerpt": "The simplest toroidally compactified string theories exhibit a duality between large and small radii: compactification on a circle, for example, is invariant under R goes to 1/R. Compactification on more general Lorentzian lattices (i.e. toroidal compactification in the presence of background metric",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses large-small radius duality in toroidally compactified string theory ('compactification on a circle... is invariant under R goes to 1/R'), which has no interaction with geometric invariant rank bounds in communication complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

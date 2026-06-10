@@ -1,0 +1,40 @@
+{
+  "entry_id": "a5ece75134b0",
+  "ts": 1781081667.441815,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2107.08728",
+      "title": "Cobordisms and commutative categorial grammars",
+      "abstract_excerpt": "We propose a concrete surface representation of abstract categorial grammars in the category of word cobordisms or cowordisms for short, which are certain bipartite graphs decorated with words in a given alphabet, generalizing linear logic proof-nets. We also introduce and study linear logic grammars, directly based on cobordisms and using classical multiplicative linear logic as a typing system.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'word cobordisms' as a surface representation of categorial grammars typed by linear logic, with no mention of torsors, CNF formulas, or circuit depth. It shares only loose categorical vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2405.16662",
+      "title": "Conjunctive categorial grammars and Lambek grammars with additives",
+      "abstract_excerpt": "A new family of categorial grammars is proposed, defined by enriching basic categorial grammars with a conjunction operation. It is proved that the formalism obtained in this way has the same expressive power as conjunctive grammars, that is, context-free grammars enhanced with conjunction. It is also shown that categorial grammars with conjunction can be naturally embedded into the Lambek calculus with conjunction and disjunction operations. This further implies that a certain NP-complete set c",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns categorial grammars enriched with conjunction/disjunction and their expressive power relative to conjunctive grammars and the Lambek calculus; it makes no claim about torsors, CNF formulas, or circuit depth. Shared vocabulary ('categorial', 'conjunction') does not engage the specific |T| = Θ(d(φ)) claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1911.03962",
+      "title": "Classical linear logic, cobordisms and categorial grammars",
+      "abstract_excerpt": "We propose a categorial grammar based on classical multiplicative linear logic.\n  This can be seen as an extension of abstract categorial grammars (ACG) and is at least as expressive. However, constituents of {\\it linear logic grammars (LLG)} are not abstract $λ$-terms, but simply tuples of words with labeled endpoints and supplied with specific {\\it plugging instructions}: the sets of endpoints are subdivided into the {\\it incoming} and the {\\it outgoing} parts. We call such objects {\\it word c",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns categorial grammars based on linear logic and word cobordisms for linguistic typing systems, with no mention of torsors, CNF formulas, or Boolean circuit depth. It shares the word 'categorial' but does not interact with the conjecture's claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
