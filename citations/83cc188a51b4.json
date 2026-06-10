@@ -1,0 +1,40 @@
+{
+  "entry_id": "83cc188a51b4",
+  "ts": 1781090412.4645875,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2602.22803",
+      "title": "Rejoinder to the discussants of the two JASA articles `Frequentist Model Averaging' and `The Focused Information Criterion', by Nils Lid Hjort and Gerda Claeskens",
+      "abstract_excerpt": "We are honoured to have our work read and discussed at such a thorough level by several experts. Words of appreciation and encouragement are gratefully received, while the many supplementary comments, thoughtful reminders, new perspectives and additional themes raised are warmly welcomed and deeply appreciated. Our thanks go also to JASA Editor Francisco Samaniego and his editorial helpers for organising this discussion.\n  Space does not allow us answering all of the many worthwhile points raise",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract is a statistics rejoinder discussing 'Frequentist Model Averaging' and 'Focused Information Criterion' papers, with no connection to SAT, Tseitin formulas, resolution width, or local induction degree.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2602.09643",
+      "title": "A simple proof of the discreteness of Dirichlet processes",
+      "abstract_excerpt": "That Dirichlet processes are discrete with probability 1 is demonstrated once more. And yes, these two pages spent fifty years in Norwegian.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the discreteness of Dirichlet processes in probability theory ('Dirichlet processes are discrete with probability 1'), which has no interaction with Tseitin formulas, local induction degree, or resolution proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2010.14133",
+      "title": "Extended abstract: Type oriented programming for task based parallelism",
+      "abstract_excerpt": "Writing parallel codes is difficult and exhibits a fundamental trade-off between abstraction and performance. The high level language abstractions designed to simplify the complexities of parallelism make certain assumptions that impacts performance and scalability. On the other hand lower level languages, providing many opportunities for optimisation, require in-depth knowledge and the programmer to consider tricky details of parallelism. An approach is required which can bridge the gap and pro",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses type-oriented programming for task-based parallelism, which has no connection to Tseitin formulas, local induction degree, or resolution proof width as claimed in the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

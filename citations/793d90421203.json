@@ -1,0 +1,40 @@
+{
+  "entry_id": "793d90421203",
+  "ts": 1781089820.529719,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:cs/0602040",
+      "title": "PLTL Partitioned Model Checking for Reactive Systems under Fairness Assumptions",
+      "abstract_excerpt": "We are interested in verifying dynamic properties of finite state reactive systems under fairness assumptions by model checking. The systems we want to verify are specified through a top-down refinement process. In order to deal with the state explosion problem, we have proposed in previous works to partition the reachability graph, and to perform the verification on each part separately. Moreover, we have defined a class, called Bmod, of dynamic properties that are verifiable by parts, whatever",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns PLTL model checking of reactive systems under fairness assumptions, with no mention of modular forms, communication complexity, or rank variance. It shares no substantive claim with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2308.08874",
+      "title": "Distribution-Free Proofs of Proximity",
+      "abstract_excerpt": "Motivated by the fact that input distributions are often unknown in advance, distribution-free property testing considers a setting where the algorithmic task is to accept functions $f : [n] \\to \\{0,1\\}$ with a certain property P and reject functions that are $η$-far from P, where the distance is measured according to an arbitrary and unknown input distribution $D \\sim [n]$. As usual in property testing, the tester can only make a sublinear number of input queries, but as the distribution is unk",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns distribution-free interactive proofs of proximity with query/sample/communication complexity trade-offs, with no mention of modular forms, minimal modular degree, or rank variance of communication protocols.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2105.06319",
+      "title": "The Inductive Approach to Verifying Cryptographic Protocols",
+      "abstract_excerpt": "Informal arguments that cryptographic protocols are secure can be made rigorous using inductive definitions. The approach is based on ordinary predicate calculus and copes with infinite-state systems. Proofs are generated using Isabelle/HOL. The human effort required to analyze a protocol can be as little as a week or two, yielding a proof script that takes a few minutes to run.\n  Protocols are inductively defined as sets of traces. A trace is a list of communication events, perhaps comprising m",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes inductive verification of cryptographic protocols (Otway-Rees, Needham-Schroeder) using Isabelle/HOL, with no mention of modular forms, communication complexity, or rank variance bounds. It shares only the loose term 'protocol' with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

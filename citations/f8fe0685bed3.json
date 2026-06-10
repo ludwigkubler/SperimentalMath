@@ -1,0 +1,40 @@
+{
+  "entry_id": "f8fe0685bed3",
+  "ts": 1781089158.8993115,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0807.1107",
+      "title": "Five-Branes in M-Theory and a Two-Dimensional Geometric Langlands Duality",
+      "abstract_excerpt": "A recent attempt to extend the geometric Langlands duality to affine Kac-Moody groups, has led Braverman and Finkelberg [arXiv:0711.2083] to conjecture a mathematical relation between the intersection cohomology of the moduli space of G-bundles on certain singular complex surfaces, and the integrable representations of the Langlands dual of an associated affine G-algebra, where G is any simply-connected semisimple group. For the A-type groups, where the conjecture has been mathematically verifie",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses a string-theoretic interpretation of geometric Langlands duality via M-theory five-branes and moduli spaces of G-bundles, with no mention of Boolean functions, communication complexity, or rank variance. It shares the 'geometric Langlands' vocabulary but does not interact with the specific dimensional claim about communication complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1607.08330",
+      "title": "Higher AGT Correspondences, W-algebras, and Higher Quantum Geometric Langlands Duality from M-Theory",
+      "abstract_excerpt": "We further explore the implications of our framework in [arXiv:1301.1977, arXiv:1309.4775], and physically derive, from the principle that the spacetime BPS spectra of string-dual M-theory compactifications ought to be equivalent, (i) a 5d AGT correspondence for any compact Lie group, (ii) a 5d and 6d AGT correspondence on ALE space of type ADE, and (iii) identities between the ordinary, q-deformed and elliptic affine W-algebras associated with the 4d, 5d and 6d AGT correspondence, respectively,",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses geometric Langlands duality in the context of M-theory, AGT correspondence, and W-algebras, but makes no mention of Boolean functions, communication complexity, or rank variance. It shares the 'geometric Langlands' vocabulary but does not address the specific dimensional bound claimed in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1301.1977",
+      "title": "M-Theoretic Derivations of 4d-2d Dualities: From a Geometric Langlands Duality for Surfaces, to the AGT Correspondence, to Integrable Systems",
+      "abstract_excerpt": "In Part I, we extend our analysis in [arXiv:0807.1107], and show that a mathematically conjectured geometric Langlands duality for complex surfaces in [1], and its generalizations -- which relate some cohomology of the moduli space of certain (\"ramified\") G-instantons to the integrable representations of the Langlands dual of certain affine (sub) G-algebras, where G is any compact Lie group -- can be derived, purely physically, from the principle that the spacetime BPS spectra of string-dual M-t",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns physical derivations of geometric Langlands duality, AGT correspondence, and integrable systems via M-theory, with no mention of Boolean functions, communication complexity, or rank variance. It shares the 'geometric Langlands' vocabulary but does not engage with the conjecture's specific claim linking communication complexity to conformal block dimension.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
