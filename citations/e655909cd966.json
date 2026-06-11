@@ -1,0 +1,40 @@
+{
+  "entry_id": "e655909cd966",
+  "ts": 1781140893.3208795,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/1405.3051v1",
+      "title": "Involution Products in Coxeter Groups",
+      "abstract_excerpt": "For $W$ a Coxeter group, let $\\mathcal{W} = \\{ w \\in W \\;| \\; w = xy \\; \\mbox{where} \\; x, y \\in W \\; \\mbox{and} \\; x^2 = 1 = y^2 \\}$. If $W$ is finite, then it is well known that $W = \\mathcal{W}$. Suppose that $w \\in \\mathcal{W}$. Then the minimum value of $\\ell(x) + \\ell(y) - \\ell(w)$, where $x, ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns involution products and length functions in Coxeter groups ('the minimum value of ℓ(x) + ℓ(y) - ℓ(w)'), with no mention of Boolean functions, communication complexity, or rank variance. It shares only the 'Coxeter group' vocabulary without engaging the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/hep-ph/0610012v1",
+      "title": "Tevatron-for-LHC Report of the QCD Working Group",
+      "abstract_excerpt": "The experiments at Run 2 of the Tevatron have each accumulated over 1 inverse femtobarn of high-transverse momentum data. Such a dataset allows for the first precision (i.e. comparisons between theory and experiment at the few percent level) tests of QCD at a hadron collider. While the Large Hadron ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes QCD precision tests at the Tevatron and LHC, which has no connection to Coxeter groups, communication complexity, or rank variance of Boolean functions.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2406.18700",
+      "title": "Structure of sparse Boolean functions over Abelian groups, and its application to testing",
+      "abstract_excerpt": "We study Fourier-sparse Boolean functions over general finite Abelian groups. A Boolean function $f : G \\to \\{-1,+1\\}$ is $s$-sparse if it has at most $s$ non-zero Fourier coefficients. We introduce a general notion of granularity of Fourier coefficients and prove that every non-zero coefficient of an $s$-sparse Boolean function has magnitude at least \\begin{equation*} \\frac{1}{2^{\\varphi(Δ)/2} \\, s^{\\varphi(Δ)/2}}, \\end{equation*} where $Δ$ denotes the exponent of the group $G$ (that is, the ma",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Fourier-sparse Boolean functions over Abelian groups and sparsity testing, with no mention of Coxeter groups, reflection generators, or communication complexity rank variance. It shares only the general vocabulary of 'Boolean functions' but does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

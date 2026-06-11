@@ -1,0 +1,40 @@
+{
+  "entry_id": "11f483c84a9d",
+  "ts": 1781139429.9629827,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1110.6618",
+      "title": "Brauer relations in finite groups II - quasi-elementary groups of order p^aq",
+      "abstract_excerpt": "This is the second in a series of papers investigating the space of Brauer relations of a finite group, the kernel of the natural map from its Burnside ring to the rational representation ring. The first paper classified all primitive Brauer relations, that is those that do not come from proper subquotients. In the case of quasi-elementary groups the description is intricate, and it does not specify groups that have primitive relations in terms of generators and relations. In this paper we do th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Brauer relations in the Burnside ring of finite groups for quasi-elementary groups of order p^aq, which is unrelated to bounding the order of Brauer groups of function fields by Boolean circuit entanglement complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/hep-ph/0610012v1",
+      "title": "Tevatron-for-LHC Report of the QCD Working Group",
+      "abstract_excerpt": "The experiments at Run 2 of the Tevatron have each accumulated over 1 inverse femtobarn of high-transverse momentum data. Such a dataset allows for the first precision (i.e. comparisons between theory and experiment at the few percent level) tests of QCD at a hadron collider. While the Large Hadron ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses QCD measurements at the Tevatron and LHC ('precision tests of QCD at a hadron collider'), which has no interaction with Brauer groups or Boolean circuit entanglement complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2108.04557",
+      "title": "Brauer diagrams, modular operads, and a graphical nerve theorem for circuit algebras",
+      "abstract_excerpt": "Circuit algebras, used in the study of finite-type knot invariants, are a symmetric analogue of Jones's planar algebras. They are very closely related to circuit operads, which are a variation of modular operads admitting an extra monoidal product. This paper gives a description of circuit algebras in terms categories of Brauer diagrams. An abstract nerve theorem for circuit operads -- and hence circuit algebras -- is proved using an iterated distributive law, and an existing nerve theorem for m",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'circuit algebras' and 'Brauer diagrams' in the context of knot invariants and modular operads — sharing vocabulary ('circuit', 'Brauer') but not addressing Boolean circuits, entanglement complexity, or the order of Brauer groups of function fields.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

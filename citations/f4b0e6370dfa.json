@@ -1,0 +1,40 @@
+{
+  "entry_id": "f4b0e6370dfa",
+  "ts": 1781140435.3229213,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2501.18019",
+      "title": "An exact closed walks series formula for the complexity of regular graphs and some related bounds",
+      "abstract_excerpt": "The complexity of a graph is the number of its labeled spanning trees. In this work complexity is studied in settings that admit regular graphs. An exact formula is established linking complexity of the complement of a regular graph to numbers of closed walks in the graph by way of an infinite alternating series. Some consequences of this result yield infinite classes of lower and upper bounds on the complexity of such graphs. Applications of these mathematical results to biological problems on ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses counting labeled spanning trees of regular graphs via closed walks series, with applications to neuronal activity — it does not discuss Tseitin graphs, CNF formulas, or Boolean circuit entanglement complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0911.3482",
+      "title": "Complexity of Networks (reprise)",
+      "abstract_excerpt": "Network or graph structures are ubiquitous in the study of complex systems. Often, we are interested in complexity trends of these system as it evolves under some dynamic. An example might be looking at the complexity of a food web as species enter an ecosystem via migration or speciation, and leave via extinction.\n  In a previous paper, a complexity measure of networks was proposed based on the {\\em complexity is information content} paradigm. To apply this paradigm to any object, one must fix ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a general information-theoretic complexity measure for networks based on representation languages, with no mention of Tseitin graphs, CNF formulas, spanning trees, or Boolean circuit entanglement complexity. It shares only the broad vocabulary of 'network complexity' but does not interact with the specific claim about a logarithmic relationship between geometric and entanglement complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1703.01691",
+      "title": "Drawing Planar Graphs with Few Geometric Primitives",
+      "abstract_excerpt": "We define the \\emph{visual complexity} of a plane graph drawing to be the number of basic geometric objects needed to represent all its edges. In particular, one object may represent multiple edges (e.g., one needs only one line segment to draw a path with an arbitrary number of edges). Let $n$ denote the number of vertices of a graph. We show that trees can be drawn with $3n/4$ straight-line segments on a polynomial grid, and with $n/2$ straight-line segments on a quasi-polynomial grid. Further",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'visual complexity' of plane graph drawings using geometric primitives (line segments, arcs) for trees and planar graphs, which shares graph-drawing vocabulary but does not address Tseitin graphs, CNF formulas, or Boolean circuit entanglement complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

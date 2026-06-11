@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-06-11T00:47:06Z",
-  "total_cycles": 6587,
+  "last_update_utc": "2026-06-11T01:47:07Z",
+  "total_cycles": 6597,
   "verdict_counts": {
-    "INCONCLUSIVE": 4222,
+    "INCONCLUSIVE": 4227,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 2259,
+    "BARRIER_HIT": 2264,
     "SCOOPED": 86
   },
-  "unique_field_A": 2598,
+  "unique_field_A": 2600,
   "top_fields_A": [
     [
       "Resolution proof complexity",
@@ -24,7 +24,7 @@
     ],
     [
       "Symplectic Geometry",
-      139
+      140
     ],
     [
       "Real Algebraic Geometry",
@@ -63,11 +63,11 @@
       39
     ],
     [
-      "Algebraic Topology",
-      38
+      "Geometric Group Theory",
+      39
     ],
     [
-      "Geometric Group Theory",
+      "Algebraic Topology",
       38
     ]
   ]
