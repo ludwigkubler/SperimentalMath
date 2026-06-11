@@ -1,0 +1,40 @@
+{
+  "entry_id": "5f08b09925a1",
+  "ts": 1781168819.823467,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2505.08722",
+      "title": "Properties of LCM Lattices of Monomial Ideals",
+      "abstract_excerpt": "LCM lattices were introduced by Gasharov, Peeva, and Welker as a way to study minimal free resolutions of monomial ideals. All LCM lattices are atomic and all atomic lattices arise as the LCM lattice of some monomial ideal. We systematically study other lattice properties of LCM lattices. For lattices associated to the edge ideal of a graph, we completely characterize the many standard lattice properties in terms of the associated graphs: Boolean, modular, upper semimodular, lower semimodular, s",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract focuses on LCM lattice properties of monomial ideals (Boolean, modular, Cohen-Macaulayness, projective dimension) without addressing SAT instances, DPLL search trees, or any correlation between monomial basis dimension and search tree width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2310.18370",
+      "title": "New Boolean satisfiability problem heuristic strategy: Minimal Positive Negative Product Strategy",
+      "abstract_excerpt": "This study presents a novel heuristic algorithm called the \"Minimal Positive Negative Product Strategy\" to guide the CDCL algorithm in solving the Boolean satisfiability problem. It provides a mathematical explanation for the superiority of this algorithm over widely used heuristics such as the Dynamic Largest Individual Sum (DLIS) and the Variable State Independent Decaying Sum (VSIDS). Experimental results further confirm the effectiveness of this heuristic strategy in problem-solving.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a heuristic strategy for guiding CDCL in SAT solving and compares it to DLIS/VSIDS; it makes no mention of monomial bases, algebraic varieties, clause-induced ideals, or DPLL search tree width, so it does not interact with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2505.10246",
+      "title": "An Algorithm for Computing the Leading Monomials of a Minimal Groebner Basis of Generic Sequences",
+      "abstract_excerpt": "We present an efficient algorithm for computing the leading monomials of a minimal Groebner basis of a generic sequence of homogeneous polynomials. Our approach bypasses costly polynomial reductions by exploiting structural properties conjectured to hold for generic sequences-specifically, that their leading monomial ideals are weakly reverse lexicographic and that their Hilbert series follow a known closed-form expression. The algorithm incrementally constructs the set of leading monomials degr",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes an algorithm for computing leading monomials of a minimal Groebner basis for generic homogeneous polynomial sequences, with no mention of SAT, DPLL search trees, or any correlation between monomial basis dimension and search tree width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "03c73e0b0c6f",
+  "ts": 1781169398.7549772,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1911.08792",
+      "title": "The Tutte Polynomial of Complex Reflection Groups",
+      "abstract_excerpt": "This article computes the Tutte polynomial of the hyperplane arrangements associated to the complex reflection groups. The calculations are based on both formulas of De Concini and Procesi for Tutte polynomial and the normaliser of parabolic subgroups in complex reflection groups determined by Krishnasamy and Taylor.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract only computes Tutte polynomials of hyperplane arrangements for complex reflection groups; it makes no mention of Brauer groups, resolution proof width, or d-regular graphs, so it shares only the 'Tutte polynomial' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1010.2902",
+      "title": "The Tutte Polynomial of the Schreier graphs of the Grigorchuk group and the Basilica group",
+      "abstract_excerpt": "We study the Tutte polynomial of two infinite families of finite graphs. These are the Schreier graphs associated with the action of two well-known self-similar groups acting on the binary rooted tree by automorphisms: the first Grigorchuk group of intermediate growth, and the iterated monodromy group of the complex polynomial $z^2-1$ known as the Basilica group. For both of them, we describe the Tutte polynomial and we compute several special evaluations of it, giving further information about ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes computing Tutte polynomials of Schreier graphs of specific self-similar groups and 'several special evaluations,' with no mention of Brauer groups, resolution proof width, d-regular graph asymptotics, or any Θ-bound relating these quantities.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1707.04551",
+      "title": "$G$-Tutte polynomials and abelian Lie group arrangements",
+      "abstract_excerpt": "We introduce and study the notion of the $G$-Tutte polynomial for a list $\\mathcal{A}$ of elements in a finitely generated abelian group $Γ$ and an abelian group $G$, which is defined by counting the number of homomorphisms from associated finite abelian groups to $G$.\n  The $G$-Tutte polynomial is a common generalization of the (arithmetic) Tutte polynomial for realizable (arithmetic) matroids, the characteristic quasi-polynomial for integral arrangements, Brändén-Moci's arithmetic version of t",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract introduces G-Tutte polynomials for abelian group arrangements and discusses enumerative/topological information, but makes no mention of Brauer groups of graphs, resolution proof width, or any complexity-theoretic correlation as claimed in the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

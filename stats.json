@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-06-11T08:47:07Z",
-  "total_cycles": 6665,
+  "last_update_utc": "2026-06-11T09:47:09Z",
+  "total_cycles": 6675,
   "verdict_counts": {
-    "INCONCLUSIVE": 4267,
+    "INCONCLUSIVE": 4272,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 2292,
+    "BARRIER_HIT": 2297,
     "SCOOPED": 86
   },
-  "unique_field_A": 2617,
+  "unique_field_A": 2620,
   "top_fields_A": [
     [
       "Resolution proof complexity",
@@ -20,7 +20,7 @@
     ],
     [
       "Tropical Geometry",
-      161
+      162
     ],
     [
       "Symplectic Geometry",
@@ -47,11 +47,11 @@
       47
     ],
     [
-      "Algebraic Combinatorics",
-      45
+      "Algebraic K-Theory",
+      46
     ],
     [
-      "Algebraic K-Theory",
+      "Algebraic Combinatorics",
       45
     ],
     [
