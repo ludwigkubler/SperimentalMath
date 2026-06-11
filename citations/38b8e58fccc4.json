@@ -1,0 +1,40 @@
+{
+  "entry_id": "38b8e58fccc4",
+  "ts": 1781173038.806626,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2504.04416",
+      "title": "Meta-Mathematics of Computational Complexity Theory",
+      "abstract_excerpt": "We survey results on the formalization and independence of mathematical statements related to major open problems in computational complexity theory. Our primary focus is on recent findings concerning the (un)provability of complexity bounds within theories of bounded arithmetic. This includes the techniques employed and related open problems, such as the (non)existence of a feasible proof that P = NP.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract surveys formalization and (un)provability of complexity bounds in bounded arithmetic, with no mention of Hodge theory, clause indicator polynomials, or resolution proof width. It shares the broad complexity-theory framework but does not engage with the specific Hodge-dimension/width correlation claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1101.3647",
+      "title": "Notes on absolute Hodge classes",
+      "abstract_excerpt": "We survey the theory of absolute Hodge classes. The notes include a full proof of Deligne's theorem on absolute Hodge classes on abelian varieties as well as a discussion of other topics, such as the field of definition of Hodge loci and the Kuga-Satake construction.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a survey of absolute Hodge classes, Deligne's theorem on abelian varieties, and the Kuga-Satake construction, with no mention of CNF formulas, resolution proof width, or clause indicator polynomials. It shares only the general 'Hodge' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0312156v1",
+      "title": "Some Hodge theory from Lie algebras",
+      "abstract_excerpt": "We discuss Hodge-theoretic aspects, related to the loop Grassmannian, of the strong Macdonald conjecture (whose proof is joint work with Fishel and Grojnowski).",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Hodge theory in the context of loop Grassmannians and the strong Macdonald conjecture, with no mention of CNF formulas, resolution proof complexity, or clause indicator polynomials. It shares only the 'Hodge theory' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

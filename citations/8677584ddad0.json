@@ -1,0 +1,40 @@
+{
+  "entry_id": "8677584ddad0",
+  "ts": 1781171745.3131695,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1611.05956",
+      "title": "Galois and Cartan Cohomology of Real Groups",
+      "abstract_excerpt": "Real forms of a complex reductive group are classified by Galois cohomology H^1(Gamma,G_ad) where G_ad is the adjoint group. Cartan's classification of real forms in terms of maximal compact subgroups can be stated in terms of H^(Z/2Z,G_ad) where the action is by a (holomorphic) Cartan involution. The main result is that for any complex reductive group, possibly disconnected, there is a canonical isomorphism between H^1(Gamma,G) and H^1(Z/2Z,G). As applications we give short proofs of some well ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Galois cohomology of complex reductive groups and real forms ('canonical isomorphism between H^1(Gamma,G) and H^1(Z/2Z,G)'), with no mention of CNF formulas, resolution proof width, or polynomial Galois group orders.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1202.5725",
+      "title": "Galois actions on complex braid groups",
+      "abstract_excerpt": "We establish the faithfulness of a geometric action of the absolute Galois group of the rationals that can be defined on the discriminantal variety associated to a finite complex reflection group, and review some possible connections with the profinite Grothendieck-Teichmüller group.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'a geometric action of the absolute Galois group' on discriminantal varieties of complex reflection groups, with no mention of CNF formulas, resolution proof width, or bounds on Galois group order. It shares only the vocabulary 'Galois' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2403.16671",
+      "title": "Twisted conjugacy in dihedral Artin groups I: Torus Knot groups",
+      "abstract_excerpt": "In this paper we provide an alternative solution to a result by Juhász that the twisted conjugacy problem for odd dihedral Artin groups is solvable, that is, groups with presentation $G(m) = \\langle a,b \\; | \\; _{m}(a,b) = {}_{m}(b,a) \\rangle$, where $m\\geq 3$ is odd, and $_{m}(a,b)$ is the word $abab \\dots$ of length $m$, is solvable. Our solution provides an implementable linear time algorithm, by considering an alternative group presentation to that of a torus knot group, and working with geo",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the twisted conjugacy problem in dihedral Artin groups (torus knot groups), with no mention of Galois groups, CNF formulas, or resolution proof width. It shares no specific claim with the conjecture linking Galois group order to resolution width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

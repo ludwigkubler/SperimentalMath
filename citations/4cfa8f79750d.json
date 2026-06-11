@@ -1,0 +1,40 @@
+{
+  "entry_id": "4cfa8f79750d",
+  "ts": 1781172504.4567802,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2003.13004",
+      "title": "Information geometry for phylogenetic trees",
+      "abstract_excerpt": "We propose a new space of phylogenetic trees which we call wald space. The motivation is to develop a space suitable for statistical analysis of phylogenies, but with a geometry based on more biologically principled assumptions than existing spaces: in wald space, trees are close if they induce similar distributions on genetic sequence data. As a point set, wald space contains the previously developed Billera-Holmes-Vogtmann (BHV) tree space; it also contains disconnected forests, like the edge-",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns information geometry on a 'wald space' of phylogenetic trees with Fisher information and KL-divergence metrics, with no mention of Boolean satisfiability, DPLL search trees, or assignment-vector entropy bounds of the form Θ(1.5^w / w^2). The shared vocabulary ('information geometry', 'trees') is purely superficial.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1502.02753",
+      "title": "Ideal Tree-drawings of Approximately Optimal Width (And Small Height)",
+      "abstract_excerpt": "For rooted trees, an ideal drawing is one that is planar, straight-line, strictly-upward, and order-preserving. This paper considers ideal drawings of rooted trees with the objective of keeping the width of such drawings small. It is not known whether finding the minimum-possible width is NP-hard or polynomial. This paper gives a 2-approximation for this problem, and a $2Δ$-approximation (for $Δ$-ary trees) where additionally the height is $O(n)$. For trees with $Δ\\leq 3$, the former algorithm f",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses ideal planar drawings of rooted trees and approximation algorithms for minimum drawing width, with no mention of geometric entropy, Boolean satisfiability, DPLL search trees, or assignment vector distributions. It shares only the generic word 'width' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1702.00066",
+      "title": "Combinatorial distance geometry in normed spaces",
+      "abstract_excerpt": "We survey problems and results from combinatorial geometry in normed spaces, concentrating on problems that involve distances. These include various properties of unit-distance graphs, minimum-distance graphs, diameter graphs, as well as minimum spanning trees and Steiner minimum trees. In particular, we discuss translative kissing (or Hadwiger) numbers, equilateral sets, and the Borsuk problem in normed spaces. We show how to use the angular measure of Peter Brass to prove various statements ab",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract surveys combinatorial distance geometry in normed spaces (unit-distance graphs, Hadwiger numbers, Borsuk problem), which shares no interaction with minimal geometric entropy of assignment-vector distributions or DPLL search tree width for Boolean formulas.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

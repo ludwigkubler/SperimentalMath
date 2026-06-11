@@ -4226,9 +4226,9 @@
 {"ts": 1781170206.2043269, "kind": "NOTEBOOK_LARGE", "auto_fixed": false, "detail": {"size_mb": 126.492258}}
 {"ts": 1781170208.511718, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 46}}
 {"ts": 1781170209.318786, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1892, "cap": 2000, "fraction": 0.946, "weekly_budget": 2500}}
-{"ts": 1781172601.373572, "ts_iso": "2026-06-11T10:10:01.373572+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "OK", "to_status": "DEGRADED", "failing_checks": ["cron_logs_no_trace"], "auto_fixed": false}
-{"ts": 1781172901.978501, "ts_iso": "2026-06-11T10:15:01.978501+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "DEGRADED", "to_status": "OK", "failing_checks": [], "auto_fixed": false}
-{"ts": 1781173201.712713, "ts_iso": "2026-06-11T10:20:01.712713+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "OK", "to_status": "DEGRADED", "failing_checks": ["cron_logs_no_trace"], "auto_fixed": false}
-{"ts": 1781173501.255037, "ts_iso": "2026-06-11T10:25:01.255037+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "DEGRADED", "to_status": "OK", "failing_checks": [], "auto_fixed": false}
-{"ts": 1781174401.70109, "ts_iso": "2026-06-11T10:40:01.701090+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "OK", "to_status": "DEGRADED", "failing_checks": ["cron_logs_no_trace"], "auto_fixed": false}
-{"ts": 1781174701.489676, "ts_iso": "2026-06-11T10:45:01.489676+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "DEGRADED", "to_status": "OK", "failing_checks": [], "auto_fixed": false}
+{"ts": 1781172006.625026, "kind": "NOTEBOOK_LARGE", "auto_fixed": false, "detail": {"size_mb": 126.564792}}
+{"ts": 1781172008.4245257, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 46}}
+{"ts": 1781172008.5393283, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1895, "cap": 2000, "fraction": 0.948, "weekly_budget": 2500}}
+{"ts": 1781173806.119201, "kind": "NOTEBOOK_LARGE", "auto_fixed": false, "detail": {"size_mb": 126.66446}}
+{"ts": 1781173807.8682604, "kind": "NO_SUPPORTED_STREAK", "auto_fixed": false, "detail": {"days": 46}}
+{"ts": 1781173807.9846475, "kind": "CLAUDE_BUDGET_HIGH", "auto_fixed": false, "detail": {"calls_in_window": 1901, "cap": 2000, "fraction": 0.951, "weekly_budget": 2500}}

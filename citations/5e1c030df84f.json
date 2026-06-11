@@ -1,0 +1,40 @@
+{
+  "entry_id": "5e1c030df84f",
+  "ts": 1781173960.8765216,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2603.03199",
+      "title": "Search for a massless particle beyond the Standard Model in the $Ξ^0\\toΛ+ \\text{invisible}$ decay",
+      "abstract_excerpt": "A search for a massless beyond-standard-model particle is performed in the decay $Ξ^{0}\\toΛ+\\text{invisible}$ using $(1.0087 \\pm 0.0044)\\times 10^{10}$ $J/ψ$ events collected with the BESIII detector at the BEPCII collider. No significant signal is observed and the upper limit on the branching fraction $\\mathcal{B}(Ξ^{0}\\toΛ+\\text{invisible})$ is set to be $2.3 \\times 10^{-4}$ at the $90\\%$ confidence level. This is the first search for a flavor-changing neutral current process with missing ener",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a particle physics search for a massless BSM particle in Ξ⁰ decays at BESIII, with no connection to modular forms, Hecke eigenforms, or DPLL/SAT search trees.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2605.17015",
+      "title": "Observation of $η_c(1S)\\to Σ^0\\bar Σ^0$ and search for $h_c(1P)\\to Σ^0\\bar Σ^0$ via $ψ(3686)$ transitions",
+      "abstract_excerpt": "Using $(2712.4 \\pm 14.3) \\times 10^6~ψ(3686)$ events collected by the BESIII detector operating at the BEPCII collider, the hadronic decay $η_{c}\\toΣ^{0}\\bar{Σ^{0}}$ is observed for the first time via the radiative transition from $ψ(3686)$. It is found that the branching fraction has a significant dependence on the interference pattern between $η_c(1S)$ and non-$η_c(1S)$ processes. They are determined to be $\\displaystyle\\mathcal{B}(η_c(1S) \\to Σ^{0}\\bar{Σ^{0}}) = (2.59 \\pm 0.14(stat) \\pm 0.44(",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a particle physics measurement of branching fractions for η_c and h_c decays at BESIII, with no connection to modular forms, Hecke eigenforms, SAT, or DPLL search trees.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2603.01777",
+      "title": "Search for the charmonium weak decay $ψ(2S)\\to D_s^-π^+ + c.c.$ and $ψ(2S)\\to D_s^-ρ^+ + c.c.$",
+      "abstract_excerpt": "We search for the weak decays $ψ(2S)\\to D_s^-π^+ + c.c.$ and $ψ(2S)\\to D_s^-ρ^+ + c.c.$ for the first time. The search is based on $(2712.4\\pm14.3)\\times 10^6$ events containing the charmonium state $ψ(2S)$ collected at the center-of-mass energy $\\sqrt{s}=3.686\\ \\rm{GeV}$ with the BESIII detector. This search offers a unique opportunity to test the Standard Model and search for new physics. Since no signal excess above the background is observed, the upper limits on the branching fractions at th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a particle physics search for charmonium weak decays at BESIII, with no connection to modular forms, Hecke eigenforms, or DPLL/SAT search trees.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
