@@ -1,0 +1,40 @@
+{
+  "entry_id": "181d410b2abd",
+  "ts": 1781155260.3112679,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1409.0184",
+      "title": "Prenilpotent pairs in the E10 root system",
+      "abstract_excerpt": "Tits has defined Kac-Moody groups for all root systems, over all commutative rings with unit. A central concept is the idea of a prenilpotent pair of (real) roots. In particular, writing down his group presentation explicitly would require knowing all the Weyl-group orbits of such pairs. We show that for the hyperbolic root system E10 there are so many orbits that any attempt at direct enumeration is impractical. Namely, the number of orbits of prenilpotent pairs having inner product k grows at ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns counting Weyl-group orbits of prenilpotent pairs in the E10 hyperbolic root system to motivate alternatives to Tits' Kac-Moody group presentation, with no mention of Tseitin formulas, resolution proof width, or any SAT/proof-complexity connection.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/astro-ph/0407622v3",
+      "title": "A Study of the Composition of Ultra High Energy Cosmic Rays Using the High Resolution Fly's Eye",
+      "abstract_excerpt": "The composition of Ultra High Energy Cosmic Rays (UHECR) is measured with the High Resolution Fly's Eye cosmic ray observatory (HiRes) data using the Xmax technique. Data were collected in stereo between 1999 November and 2001 September. The data are reconstructed with well-determined geometry. Meas",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns measuring the composition of ultra high energy cosmic rays via the HiRes observatory's Xmax technique, which has no interaction with Lie algebra root systems or resolution proof width of Tseitin formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1601.01857",
+      "title": "Cohomology of Complements of Toric Arrangements Associated to Root Systems",
+      "abstract_excerpt": "We compute the cohomology of the complement of toric arrangements associated to root systems as representations of the corresponding Weyl groups. Specifically, we develop an algorithm for computing the cohomology of the complement of toric arrangements associated to general root systems and we carry out this computation for the exceptional root systems $G_2$, $F_4$, $E_6$ and $E_7$. We also compute the total cohomology of the complement of the toric arrangement associated to $A_n$ as a represent",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses cohomology of toric arrangement complements associated to root systems as Weyl group representations, with no mention of Tseitin formulas, resolution proof width, or any connection to SAT/proof complexity. It shares only the 'root system' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

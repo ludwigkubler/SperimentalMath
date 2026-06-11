@@ -1,0 +1,40 @@
+{
+  "entry_id": "a710e1c01ebd",
+  "ts": 1781154424.9853258,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0506576v2",
+      "title": "Differential equations satisfied by modular forms and K3 surfaces",
+      "abstract_excerpt": "We study differential equations satisfied by modular forms associated to $Γ_1\\timesΓ_2$, where $Γ_i (i=1,2)$ are genus zero subgroups of $SL_2(\\mathbf R)$ commensurable with $SL_2(\\mathbf Z)$, e.g., $Γ_0(N)$ or $Γ_0(N)^*$. In some examples, these differential equations are realized as the Picard--Fu",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns differential equations satisfied by modular forms on genus-zero subgroups and Picard-Fuchs equations of K3 surfaces, with no mention of Eichler orders, characteristic polynomials of Boolean formulas, or SAT satisfying assignments.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1807.01007",
+      "title": "On a class of Feynman integrals evaluating to iterated integrals of modular forms",
+      "abstract_excerpt": "In this talk we discuss a class of Feynman integrals, which can be expressed to all orders in the dimensional regularisation parameter as iterated integrals of modular forms. We review the mathematical prerequisites related to elliptic curves and modular forms. Feynman integrals, which evaluate to iterated integrals of modular forms go beyond the class of multiple polylogarithms. Nevertheless, we may bring for all examples considered the associated system of differential equations by a non-algeb",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Feynman integrals expressed as iterated integrals of modular forms in the context of dimensional regularization, with no mention of Eichler orders, Boolean formulas, SAT, or counting satisfying assignments. It shares only the broad 'modular forms' vocabulary without interacting with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1908.04248",
+      "title": "Concomitants of Ternary Quartics and Vector-valued Siegel and Teichmüller Modular Forms of Genus Three",
+      "abstract_excerpt": "We show how one can use the representation theory of ternary quartics to construct all vector-valued Siegel modular forms and Teichmüller modular forms of degree 3. The relation between the order of vanishing of a concomitant on the locus of double conics and the order of vanishing of the corresponding modular form on the hyperelliptic locus plays an important role. We also determine the connection between Teichmüller cusp forms on \\overline{M}_g and the middle cohomology of symplectic local sys",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns vector-valued Siegel and Teichmüller modular forms via ternary quartics and cohomology of local systems, with no mention of Eichler orders, characteristic polynomials of Boolean formulas, or SAT satisfying assignments. It shares only the broad 'modular forms' vocabulary and does not interact with the specific conjectured correlation.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
