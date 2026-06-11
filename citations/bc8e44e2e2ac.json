@@ -1,0 +1,40 @@
+{
+  "entry_id": "bc8e44e2e2ac",
+  "ts": 1781161931.8872585,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1311.1421",
+      "title": "Multiplicative differential algebraic K-theory and applications",
+      "abstract_excerpt": "We construct a version of Beilinson's regulator as a map of sheaves of commutative ring spectra and use it to define a multiplicative variant of differential algebraic K-theory. We use this theory to give an interpretation of Bloch's construction of K_3-classes and the relation with dilogarithms. Furthermore, we provide a relation to Arakelov theory via the arithmetic degree of metrized line bundles, and we give a proof of the formality of the algebraic K-theory of number rings.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns multiplicative differential algebraic K-theory, Beilinson's regulator, dilogarithms, and Arakelov theory of number rings — it makes no mention of CNF formulas, resolution proof width, or any connection to proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1510.06118",
+      "title": "G-theory of root stacks and equivariant K-theory",
+      "abstract_excerpt": "Using the description of the category of quasi-coherent sheaves on a root stack given in the paper of N. Borne and A. Vistoli, we study the G-theory of root stacks via localisation methods. We apply our results to the study of equivariant K-theory of algebraic varieties under certain conditions.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses G-theory of root stacks and equivariant K-theory of algebraic varieties, with no mention of CNF formulas, resolution proof width, or proof complexity. It shares only the broad 'K-theory' vocabulary but does not interact with the specific conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1208.1599",
+      "title": "Algebraic K-theory of endomorphism rings",
+      "abstract_excerpt": "We establish formulas for computation of the higher algebraic $K$-groups of the endomorphism rings of objects linked by a morphism in an additive category. Let ${\\mathcal C}$ be an additive category, and let $Y\\ra X$ be a covariant morphism of objects in ${\\mathcal C}$. Then $K_n\\big(_{\\mathcal C}(X\\oplus Y)\\big)\\simeq K_n\\big(_{{\\mathcal C},Y}(X)\\big)\\oplus K_n\\big(_{\\mathcal C}(Y)\\big)$ for all $1\\le n\\in \\mathbb{N}$, where $_{{\\mathcal C},Y}(X)$ is the quotient ring of the endomorphism ring $",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract provides formulas for computing higher algebraic K-groups of endomorphism rings via decompositions like 'K_n(R) ≃ K_n(R/J) ⊕ K_n(eRe)', with no reference to CNF formulas, resolution proof width, or any connection to proof complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

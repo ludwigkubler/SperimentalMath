@@ -1,0 +1,40 @@
+{
+  "entry_id": "fdb187a0ac86",
+  "ts": 1781162497.2661939,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1804.03587",
+      "title": "Symmetries on plabic graphs and associated polytopes",
+      "abstract_excerpt": "For Grassmann varieties, we explain how the duality between the Gelfand-Tsetlin polytopes and the Feigin-Fourier-Littelmann-Vinberg polytopes arises from different positive structures.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Grassmann varieties, plabic graphs, and polytope dualities (Gelfand-Tsetlin vs Feigin-Fourier-Littelmann-Vinberg), which has no interaction with Fourier multiplier norms or boolean circuit entanglement complexity despite the superficial appearance of 'Fourier' in a proper name.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1010.5964",
+      "title": "Quadratic discrete Fourier transform and mutually unbiased bases",
+      "abstract_excerpt": "The present chapter [submitted for publication in \"Fourier Transforms, Theory and Applications\", G. Nikolic (Ed.), InTech (Open Access Publisher), Vienna, 2011] is concerned with the introduction and study of a quadratic discrete Fourier transform. This Fourier transform can be considered as a two-parameter extension, with a quadratic term, of the usual discrete Fourier transform. In the case where the two parameters are taken to be equal to zero, the quadratic discrete Fourier transform is noth",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a quadratic discrete Fourier transform and its use in constructing mutually unbiased bases for quantum information, with no mention of Fourier multiplier norms, boolean circuits, or entanglement complexity bounds. It shares the 'Fourier' vocabulary but does not interact with the specific O(E(C)^2) multiplier-norm claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2509.25500",
+      "title": "A High-Frequency Uncertainty Principle for the Fourier-Bessel Transform",
+      "abstract_excerpt": "Motivated by problems in control theory concerning decay rates for the damped wave equation $$w_{tt}(x,t) + γ(x) w_t(x,t) + (-Δ+ 1)^{s/2} w(x,t) = 0,$$ we consider an analogue of the classical Paneah-Logvinenko-Sereda theorem for the Fourier Bessel transform. In particular, if $E \\subset \\mathbb{R}^+$ is $μ_α$-relatively dense (where $dμ_α(x) \\approx x^{2α+1}\\, dx$) for $α&gt; -1/2$, and $\\operatorname{supp} \\mathcal{F}_α(f) \\subset [R,R+1]$, then we show $$\\|f\\|_{L^2_α(\\mathbb{R}^+)} \\lesssim \\",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a Paneah-Logvinenko-Sereda-type uncertainty principle for the Fourier-Bessel transform applied to damped wave equation decay, with no mention of boolean circuits, entanglement complexity, or Fourier multiplier norms on the Boolean cube.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
