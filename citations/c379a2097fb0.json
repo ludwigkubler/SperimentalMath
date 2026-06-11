@@ -1,0 +1,40 @@
+{
+  "entry_id": "c379a2097fb0",
+  "ts": 1781146195.7558696,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1611.00152",
+      "title": "New problems in universal algebraic geometry illustrated by boolean equations",
+      "abstract_excerpt": "We discuss new problems in universal algebraic geometry and explain them by boolean equations.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract mentions 'universal algebraic geometry' and 'boolean equations' but says nothing about D-modules, their order, or boolean circuit size complexity. The shared vocabulary (algebraic geometry, boolean) does not interact with the specific claim about M(φ) order versus circuit size.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1307.8353",
+      "title": "Some Quantitative Results in Real Algebraic Geometry",
+      "abstract_excerpt": "Real algebraic geometry is the study of semi-algebraic sets, subsets of $\\R^k$ defined by Boolean combinations of polynomial equalities and inequalities. The focus of this thesis is to study quantitative results in real algebraic geometry, primarily upper bounds on the topological complexity of semi-algebraic sets as measured, for example, by their Betti numbers. Another quantitative measure of topological complexity which we study is the number of homotopy types of semi-algebraic sets of bounde",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quantitative bounds on topological complexity (Betti numbers, homotopy types) of semi-algebraic sets and o-minimal decompositions, with no mention of D-modules, CNF formulas, or boolean circuit size. It shares only the broad 'algebraic geometry' framework but does not address the specific correspondence claimed.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2405.16070",
+      "title": "Exact Spin Correlators of Integrable Quantum Circuits from Algebraic Geometry",
+      "abstract_excerpt": "We calculate the correlation functions of strings of spin operators for integrable quantum circuits exactly. These observables can be used for calibration of quantum simulation platforms. We use algebraic Bethe Ansatz, in combination with computational algebraic geometry to obtain analytic results for medium-size (around 10-20 qubits) quantum circuits. The results are rational functions of the quantum circuit parameters. We obtain analytic results for such correlation functions both in the real ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns correlation functions of integrable quantum circuits computed via Bethe Ansatz and computational algebraic geometry, with no mention of D-modules, CNF formulas, or Boolean circuit size. It shares only the loose vocabulary of 'algebraic geometry' and 'circuits' but does not address the specific claim relating D-module order to Boolean circuit complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

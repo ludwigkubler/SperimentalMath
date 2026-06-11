@@ -1,0 +1,40 @@
+{
+  "entry_id": "8ccde52969d9",
+  "ts": 1781147117.3281682,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2304.00579",
+      "title": "Hamiltonian mechanics and Lie algebroid connections",
+      "abstract_excerpt": "We develop a new, coordinate-free formulation of Hamiltonian mechanics on the dual of a Lie algebroid. Our approach uses a connection, rather than coordinates in a local trivialization, to obtain global expressions for the horizontal and vertical dynamics. We show that these dynamics can be obtained in two equivalent ways: (1) using the canonical Lie-Poisson structure, expressed in terms of the connection; or (2) using a novel variational principle that generalizes Hamilton's phase space princip",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a coordinate-free Hamiltonian mechanics formulation on the dual of a Lie algebroid using connections, with no mention of communication complexity, adjacency matrices, or rank variance bounds. It shares only the 'Lie algebroid' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1311.1147",
+      "title": "Intersection between the geometry of generalized Lie algebroids and some aspects of interior and exterior differential systems",
+      "abstract_excerpt": "An exterior differential calculus in the general framework of generalized Lie algebroids is presented. A theorem of Maurer-Cartan type is obtained. All results with details proofs are presented and a new point of view over exterior differential calculus for Lie algebroids is obtained. Using the theory of linear connections of Ehresmann type presented in the firstt reference, the identities of Cartan and Bianchi type are presented. Supposing that any vector subbundle of the pull-back Lie algebroi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses exterior differential calculus, Maurer-Cartan, Cartan/Bianchi identities, and Frobenius-type involutivity for generalized Lie algebroids, with no mention of communication complexity, rank variance, adjacency matrices, or minimal order of actions. It shares only the 'Lie algebroid' vocabulary without engaging the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1603.04490",
+      "title": "Lie algebroids, gauge theories, and compatible geometrical structures",
+      "abstract_excerpt": "The construction of gauge theories beyond the realm of Lie groups and algebras leads one to consider Lie groupoids and algebroids equipped with additional geometrical structures which, for gauge invariance of the construction, need to satisfy particular compatibility conditions. This paper analyzes these compatibilities from a mathematical perspective.\n  In particular, we show that the compatibility of a connection with a Lie algebroid that one finds is the Cartan condition, introduced previousl",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses compatibility of Lie algebroids with geometric structures (connections, Riemannian/symplectic metrics) in gauge theory, with no mention of communication complexity, rank variance, adjacency matrices, or minimal order bounds of algebroid actions.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
