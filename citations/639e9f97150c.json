@@ -1,0 +1,40 @@
+{
+  "entry_id": "639e9f97150c",
+  "ts": 1781192068.8394854,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1911.04516",
+      "title": "Boolean lattices in finite alternating and symmetric groups",
+      "abstract_excerpt": "Given a group $G$ and a subgroup $H$, we let $\\mathcal{O}_G(H)$ denote the lattice of subgroups of $G$ containing $H$. This paper provides a classification of the subgroups $H$ of $G$ such that $\\mathcal{O}_{G}(H)$ is Boolean of rank at least $3$, when $G$ is a finite alternating or symmetric group. Besides some sporadic examples and some twisted versions, there are two different types of such lattices. One type arises by taking stabilizers of chains of regular partitions, and the other type ari",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns classifying subgroups H of finite alternating/symmetric groups whose overgroup lattice is Boolean of rank ≥3, with no mention of CNF formulas, satisfying assignments, quotient group orders, or Frege proof depth. It shares only the symmetric-group vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1308.5122",
+      "title": "Quotients and subgroups of Baumslag-Solitar groups",
+      "abstract_excerpt": "We determine all generalized Baumslag-Solitar groups (finitely generated groups acting on a tree with all stabilizers infinite cyclic) which are quotients of a given Baumslag-Solitar group BS(m,n), and (when BS(m,n) is not Hopfian) which of them also admit BS(m,n) as a quotient. We determine for which values of r,s one may embed BS(r,s) into a given BS(m,n), and we characterize finitely generated groups which embed into some BS(n,n).",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quotients and embeddings of Baumslag-Solitar groups acting on trees, with no mention of symmetric groups, CNF formulas, satisfying assignments, or Frege proof depth. It shares only the generic vocabulary of 'quotient' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2406.18700",
+      "title": "Structure of sparse Boolean functions over Abelian groups, and its application to testing",
+      "abstract_excerpt": "We study Fourier-sparse Boolean functions over general finite Abelian groups. A Boolean function $f : G \\to \\{-1,+1\\}$ is $s$-sparse if it has at most $s$ non-zero Fourier coefficients. We introduce a general notion of granularity of Fourier coefficients and prove that every non-zero coefficient of an $s$-sparse Boolean function has magnitude at least \\begin{equation*} \\frac{1}{2^{\\varphi(Δ)/2} \\, s^{\\varphi(Δ)/2}}, \\end{equation*} where $Δ$ denotes the exponent of the group $G$ (that is, the ma",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Fourier-sparse Boolean functions over Abelian groups and sparsity testing algorithms, with no mention of quotient group orders from S_n actions on satisfying assignments or Frege proof depth. It shares only the broad 'group theory + Boolean functions' framing without engaging the specific claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

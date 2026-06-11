@@ -1,0 +1,40 @@
+{
+  "entry_id": "ae3c80096b39",
+  "ts": 1781189295.8412251,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0010079v1",
+      "title": "A theory of quaternionic algebra, with applications to hypercomplex geometry",
+      "abstract_excerpt": "In this paper we introduce a new algebraic device, which enables us to treat the quaternions as though they were a commutative field. This is of interest both for its own sake, and because it can be applied to develop an \"algebraic geometry\" of noncompact hypercomplex manifolds.\n  The basic building",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes an algebraic device for treating quaternions as a commutative field with applications to hypercomplex geometry, with no mention of Boolean formulas, SAT, complexity, or representation orders tied to clause satisfiability.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2412.13827",
+      "title": "Bounds for the Zeros of Quaternionic Polynomials and Regular Functions Using Matrix Techniques",
+      "abstract_excerpt": "We investigate the problem of determining the zeros of quaternionic polynomials using matrix method. In a recent paper, Dar et al. \\cite{RD} proved that the zeros of a quaternionic polynomial and the left eigenvalues of the corresponding companion matrix are identical. Building on this, we employ various newly developed matrix techniques to establish several results concerning the location of the zeros of regular polynomials of a quaternionic variable with quaternionic coefficients. These findin",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses bounds on zeros of quaternionic polynomials via matrix/companion-matrix techniques, with no mention of CNF formulas, SAT, or representation complexity. It shares only the 'quaternionic' vocabulary with the conjecture and does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0208005v4",
+      "title": "Quaternionic Monge-Ampere equations",
+      "abstract_excerpt": "The main result of this paper is the existence and uniqueness of solution of the Dirichlet problem for quaternionic Monge-Ampere equations in quaternionic strictly pseudoconvex bounded domains in H^n. We continue the study of the theory of plurisubharmonic functions of quaternionic variables started",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses existence and uniqueness of solutions to quaternionic Monge-Ampere equations and plurisubharmonic functions in H^n, which shares only the 'quaternionic' vocabulary but does not address representations of CNF formulas or SAT complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

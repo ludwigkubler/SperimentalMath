@@ -1,0 +1,40 @@
+{
+  "entry_id": "e75b450cf262",
+  "ts": 1781191549.1820364,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2111.08018",
+      "title": "Entanglement dynamics in hybrid quantum circuits",
+      "abstract_excerpt": "The central philosophy of statistical mechanics (stat-mech) and random-matrix theory of complex systems is that while individual instances are essentially intractable to simulate, the statistical properties of random ensembles obey simple universal \"laws\". This same philosophy promises powerful methods for studying the dynamics of quantum information in ideal and noisy quantum circuits -- for which classical description of individual circuits is expected to be generically intractable. Here, we r",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract reviews statistical-mechanics methods for entanglement dynamics in random quantum circuits, with no mention of Boolean functions, local induction dimension, or any LID-vs-E(f) complexity bound. It shares the word 'entanglement' but does not address the specific conjectured linear correlation.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1407.6169",
+      "title": "Multiplicative Complexity of Vector Valued Boolean Functions",
+      "abstract_excerpt": "We consider the multiplicative complexity of Boolean functions with multiple bits of output, studying how large a multiplicative complexity is necessary and sufficient to provide a desired nonlinearity. For so-called $ΣΠΣ$ circuits, we show that there is a tight connection between error correcting codes and circuits computing functions with high nonlinearity. Combining this with known coding theory results, we show that functions with $n$ inputs and $n$ outputs with the highest possible nonlinea",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns multiplicative complexity (AND-gate counts) and nonlinearity of Boolean functions, with no mention of local induction dimension, varieties, or entanglement complexity. It shares the Boolean-function framework but does not address the LID(f) = Θ(E(f)) claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2202.09350",
+      "title": "Complexity of warped conformal field theory",
+      "abstract_excerpt": "Warped conformal field theories in two dimensions are exotic nonlocal, Lorentz violating field theories characterized by Virasoro-Kac-Moody symmetries and have attracted a lot of attention as candidate boundary duals to warped AdS$_3$ spacetimes, thereby expanding the scope of holography beyond asymptotically AdS spacetimes. Here we investigate WCFT$_2$\\,s using \\emph{circuit complexity} as a tool. First we compute the holographic volume complexity (CV) which displays a linear UV divergence stru",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses circuit complexity of warped conformal field theories using Virasoro-Kac-Moody symmetry gates and holographic volume complexity, which shares the word 'complexity' but has no connection to Boolean function entanglement complexity or local induction dimension of varieties.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "9932b112e3bb",
+  "ts": 1781191291.8426626,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2603.27466",
+      "title": "English translation of Frobenius' and Stickelberger's \"On the theory of elliptic functions\"",
+      "abstract_excerpt": "This is an English translation and digitisation of Frobenius' and Stickelberger's \"On the theory of elliptic functions\" first published in Journal fur die reine und angewandte Mathematik (Crelle's journal), 83, 175-179 (1877) with the title \"Zur Theorie der elliptischen Functionen\". The paper derives what is now known as the Frobenius and Stickelberger determinant formula for elliptic functions and generalises determinants derived by Hermite and Kiepert.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes an English translation of an 1877 paper on the Frobenius-Stickelberger determinant formula for elliptic functions, which shares only the name 'Frobenius' with the conjecture and has no connection to Boolean functions, CNF formulas, or Frege proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2406.12176",
+      "title": "Assembly Theory and its Relationship with Computational Complexity",
+      "abstract_excerpt": "Assembly theory (AT) quantifies selection using the assembly equation and identifies complex objects that occur in abundance based on two measurements, assembly index and copy number, where the assembly index is the minimum number of joining operations necessary to construct an object from basic parts, and the copy number is how many instances of the given object(s) are observed. Together these define a quantity, called Assembly, which captures the amount of causation required to produce objects",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Assembly Theory's assembly index versus compression-based complexity measures (Shannon entropy, Huffman, LZW), with no mention of Frobenius theory, CNF formulas, or Frege proof length. It shares only the vague notion of 'complexity' but does not interact with the specific MFCI-Frege correlation claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2412.13909",
+      "title": "Graded Frobenius Algebras",
+      "abstract_excerpt": "We construct a PROP which encodes 2D-TQFTs with a grading. This defines a graded Frobenius algebra as algebras over this PROP. We also give a description of graded Frobenius algebras in terms of maps and relations. This structure naturally arises as the cohomology of manifolds, loop homology and Hochschild homology of Frobenius algebras. In addition, we give a comprehensive description of the signs that arise in suspending algebras over PROPs.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes graded Frobenius algebras as algebras over a PROP encoding graded 2D-TQFTs, with applications to cohomology and Hochschild homology — it makes no mention of Boolean functions, CNF formulas, Frege proof complexity, or any 'coincidence index' relating to proof length.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

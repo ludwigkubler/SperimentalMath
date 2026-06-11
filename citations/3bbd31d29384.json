@@ -1,0 +1,40 @@
+{
+  "entry_id": "3bbd31d29384",
+  "ts": 1781192419.0474586,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2502.02569",
+      "title": "Quadratically Enriched Plane Curve Counting via Tropical Geometry",
+      "abstract_excerpt": "We prove that the quadratically enriched count of rational curves in a smooth toric del Pezzo surface passing through $k$-rational points and pairs of conjugate points in quadratic field extensions $k\\subset k(\\sqrt{d_i})$ can be determined by counting certain tropical stable maps through vertically stretched point conditions with a suitable multiplicity. Building on the floor diagram technique in tropical geometry, we provide an algorithm to compute these numbers.\n  Our tropical algorithm compu",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quadratically enriched counts of rational curves in toric del Pezzo surfaces via tropical floor diagrams, with no mention of Tseitin formulas, local induction dimension, or resolution proofs. It shares only the broad 'tropical geometry' framework but does not interact with the specific MID/tqr correlation claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2505.10504v2",
+      "title": "Tropicalizations of locally symmetric varieties",
+      "abstract_excerpt": "This paper provides a rigorous study of tropicalizations of locally symmetric varieties. We give applications beyond tropical geometry, to the cohomology of moduli spaces as well as to the cohomology of arithmetic groups. We study two cases in detail: the special unitary case, and the case of level ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses tropicalizations of locally symmetric varieties with applications to cohomology of moduli spaces and arithmetic groups, sharing only the 'tropical' vocabulary but not engaging with Tseitin formulas, local induction dimension, or resolution proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1105.5808",
+      "title": "Tropicalisation for Topologists",
+      "abstract_excerpt": "This is an attempt to look at the tropical geometry from topological point of view.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract only states it is 'an attempt to look at the tropical geometry from topological point of view,' giving no specifics about Tseitin formulas, induction dimension, or motivic rank, so its bearing on the conjecture cannot be determined.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}
