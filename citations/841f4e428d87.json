@@ -1,0 +1,40 @@
+{
+  "entry_id": "841f4e428d87",
+  "ts": 1781166309.8767848,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1407.1593",
+      "title": "A Constructive Algorithm for Decomposing a Tensor into a Finite Sum of Orthonormal Rank-1 Terms",
+      "abstract_excerpt": "We propose a constructive algorithm that decomposes an arbitrary real tensor into a finite sum of orthonormal rank-1 outer products. The algorithm, named TTr1SVD, works by converting the tensor into a tensor-train rank-1 (TTr1) series via the singular value decomposition (SVD). TTr1SVD naturally generalizes the SVD to the tensor regime with properties such as uniqueness for a fixed order of indices, orthogonal rank-1 outer product terms, and easy truncation error quantification. Using an outer p",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a generic tensor decomposition algorithm (TTr1SVD) and a result about real 2x2x2 tensor rank, with no reference to symmetric tensor rank of Tseitin clause polynomials or resolution proof width. It shares only the broad 'tensor rank' vocabulary and does not interact with the specific conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1606.04200",
+      "title": "The Chasm at Depth Four, and Tensor Rank : Old results, new insights",
+      "abstract_excerpt": "Agrawal and Vinay [AV08] showed how any polynomial size arithmetic circuit can be thought of as a depth four arithmetic circuit of subexponential size. The resulting circuit size in this simulation was more carefully analyzed by Korian [Koiran] and subsequently by Tavenas [Tav13]. We provide a simple proof of this chain of results. We then abstract the main ingredient to apply it to formulas and constant depth circuits, and show more structured depth reductions for them.\n  In an apriori surprisi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses tensor rank in the context of arithmetic circuit/formula lower bounds and depth-four chasm reductions, with no mention of Tseitin formulas, resolution proof width, or symmetric tensor rank of clause-indicator polynomials. It shares the 'tensor rank' vocabulary but does not address the specific STR-vs-resolution-width correlation claimed.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2006.02374",
+      "title": "On tensor rank and commuting matrices",
+      "abstract_excerpt": "Obtaining superlinear lower bounds on tensor rank is a major open problem in complexity theory. In this paper we propose a generalization of the approach used by Strassen in the proof of his 3n/2 border rank lower bound. Our approach revolves around a problem on commuting matrices:\n  Given matrices Z_1,...,Z_p of size n and an integer r&gt;n, are there commuting matrices Z'_1,...,Z'_p of size r such that every Z_k is embedded as a submatrix in the top-left corner of Z'_k?\n  As one of our main re",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses tensor rank lower bound techniques via commuting matrices and Strassen's approach, with no mention of Tseitin formulas, resolution proof width, or any connection between symmetric tensor rank and proof complexity measures.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

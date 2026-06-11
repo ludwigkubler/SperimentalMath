@@ -1,0 +1,40 @@
+{
+  "entry_id": "f450c5d424f1",
+  "ts": 1781165622.4386768,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1112.2009",
+      "title": "A Gross-Zagier formula for quaternion algebras over totally real fields",
+      "abstract_excerpt": "We prove a higher dimensional generalization of Gross and Zagier's theorem on the factorization of differences of singular moduli. Their result is proved by giving a counting formula for the number of isomorphisms between elliptic curves with complex multiplication by two different imaginary quadratic fields $K$ and $K^\\prime$, when the curves are reduced modulo a supersingular prime and its powers. Equivalently, the Gross-Zagier formula counts optimal embeddings of the ring of integers of an im",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a Gross-Zagier-style counting formula for embeddings into quaternion orders over totally real fields, with applications to CM points and Igusa invariants — it never mentions Tseitin formulas, resolution proof width, or proof complexity, so it shares only the 'quaternion algebra' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1308.5500v1",
+      "title": "On the arithmetic of crossratios and generalised Mertens' formulas",
+      "abstract_excerpt": "We develop the relation between hyperbolic geometry and arithmetic equidistribution problems that arises from the action of arithmetic groups on real hyperbolic spaces, especially in dimension up to 5. We prove generalisations of Mertens' formula for quadratic imaginary number fields and definite qu",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns hyperbolic geometry, arithmetic equidistribution, and Mertens' formula generalizations for quadratic imaginary fields and definite quaternion algebras — it makes no claim about Tseitin formulas, resolution proof width, or representation orders of quaternion algebras associated with graphs.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2005.01664",
+      "title": "Cancellation for $(G,n)$-complexes and the Swan finiteness obstruction",
+      "abstract_excerpt": "In previous work, we related homotopy types of finite $(G,n)$-complexes when $G$ has periodic cohomology to projective $\\mathbb{Z} G$-modules representing the Swan finiteness obstruction. We use this to determine when $X \\vee S^n \\simeq Y \\vee S^n$ implies $X \\simeq Y$ for finite $(G,n)$-complexes $X$ and $Y$, and give lower bounds on the number of homotopically distinct pairs when this fails. The proof involves constructing projective $\\mathbb{Z} G$-modules as lifts of locally free modules over",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns homotopy types of (G,n)-complexes, Swan finiteness obstructions, and projective ZG-modules over orders in quaternion algebras—it shares the 'quaternion algebra' vocabulary but says nothing about Tseitin formulas, resolution proof width, or proof complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

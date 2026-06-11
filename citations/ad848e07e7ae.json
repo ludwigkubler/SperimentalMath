@@ -1,0 +1,40 @@
+{
+  "entry_id": "ad848e07e7ae",
+  "ts": 1781164901.1146717,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1406.7392",
+      "title": "On Hochster's formula for a class of quotient spaces of moment-angle complexes",
+      "abstract_excerpt": "Any finite simplicial complex K and a partition of the vertex set of K determines a canonical quotient space of the moment-angle complex of K. We prove that the cohomology groups of such a space can be computed via some Hochster's type formula, which generalizes the usual Hochster's formula for the cohomology groups of moment-angle complexes. In addition, we show that the stable decomposition of moment-angle complexes can also be extended to such spaces. This type of spaces include all the quasi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Hochster's formula for cohomology of quotient spaces of moment-angle complexes from simplicial complexes — a topic in toric topology with no mention of communication complexity, rank variance, or any dimension-vs-rank scaling relation. It shares only the generic vocabulary 'quotient space' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0811.2152",
+      "title": "On the existence of star products on quotient spaces of linear Hamiltonian torus actions",
+      "abstract_excerpt": "We discuss BFV deformation quantization of singular symplectic quotient spaces in the special case of linear Hamiltonian torus actions. In particular, we show that the Koszul complex on the moment map of an effective linear Hamiltonian torus action is acyclic. We rephrase the nonpositivity condition of Arms, Gotay and Jennings for linear Hamiltonian torus actions. It follows that reduced spaces of such actions admit continuous star products.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses BFV deformation quantization and star products on symplectic quotient spaces of Hamiltonian torus actions, which shares only the vocabulary 'quotient spaces' with the conjecture but has no connection to communication complexity graphs, rank variance, or dimension scaling claims.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0409133v1",
+      "title": "Invariant chains and the homology of quotient spaces",
+      "abstract_excerpt": "For a finite group G and a finite G-CW-complex X, we construct groups H_\\bullet(G,X) as the homology groups of the G-invariants of the cellular chain complex C_\\bullet(X). These groups are related to the homology of the quotient space X/G via a norm map, and therefore provide a mechanism for calcula",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns equivariant homology and the homology of quotient spaces X/G for finite G-CW-complexes via a norm map, with no mention of communication complexity graphs, rank variance, or dimension scaling like Θ(n^(1/2)). It shares only the 'quotient space' vocabulary without addressing the specific claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

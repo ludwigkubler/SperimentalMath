@@ -1,0 +1,40 @@
+{
+  "entry_id": "38776ae16dbe",
+  "ts": 1781165828.7324078,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1304.7603",
+      "title": "Cylindrical Algebraic Decompositions for Boolean Combinations",
+      "abstract_excerpt": "This article makes the key observation that when using cylindrical algebraic decomposition (CAD) to solve a problem with respect to a set of polynomials, it is not always the signs of those polynomials that are of paramount importance but rather the truth values of certain quantifier free formulae involving them. This motivates our definition of a Truth Table Invariant CAD (TTICAD). We generalise the theory of equational constraints to design an algorithm which will efficiently construct a TTICA",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Cylindrical Algebraic Decomposition for Boolean combinations of polynomial constraints — it shares vocabulary (Boolean, algebraic) but says nothing about minimal orders of algebraic integers or CNF clause complexity bounds like O(m^(1/3) * n^(2/3)).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1711.10347",
+      "title": "Stuttering blocks of Ariki-Koike algebras",
+      "abstract_excerpt": "We study a shift action defined on multipartitions and on residue multisets of their Young diagrams. We prove that the minimal orbit cardinality among all multipartitions associated to a given multiset depends only on the orbit cardinality of the multiset. Using abaci, this problem reduces to a convex optimisation problem over the integers with linear constraints. We solve it by proving an existence theorem for binary matrices with prescribed row, column and block sums. Finally, we give some app",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns shift actions on multipartitions and Hecke algebra representations of G(r,p,n), with no mention of algebraic integer orders in number fields or Boolean CNF formulas. The phrase 'convex optimisation problem over the integers with linear constraints' is unrelated to the conjecture's specific claim about SAT clause complexity bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1005.2692",
+      "title": "An Extreme Family of Generalized Frobenius Numbers",
+      "abstract_excerpt": "We study a generalization of the \\emph{Frobenius problem}: given $k$ positive relatively prime integers, what is the largest integer $g_0$ that cannot be represented as a nonnegative integral linear combination of these parameters? More generally, what is the largest integer $g_s$ that has exactly $s$ such representations? We illustrate a family of parameters, based on a recent paper by Tripathi, whose generalized Frobenius numbers $g_0, \\ g_1, \\ g_2, ...$ exhibit unnatural jumps; namely, $g_0, ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns generalized Frobenius numbers (largest integers not representable as nonnegative integer combinations of k coprime integers), which neither addresses algebraic integers in number fields nor SAT/CNF complexity bounds. There is no interaction with the specific O(m^(1/3) * n^(2/3)) claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

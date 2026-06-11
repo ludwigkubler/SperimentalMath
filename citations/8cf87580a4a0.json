@@ -1,0 +1,40 @@
+{
+  "entry_id": "8cf87580a4a0",
+  "ts": 1781164122.0887601,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1912.10642",
+      "title": "Notes on Category Theory with examples from basic mathematics",
+      "abstract_excerpt": "These notes were originally developed as lecture notes for a category theory course. They should be well-suited to anyone that wants to learn category theory from scratch and has a scientific mind. There is no need to know advanced mathematics, nor any of the disciplines where category theory is traditionally applied, such as algebraic geometry or theoretical computer science. The only knowledge that is assumed from the reader is linear algebra. All concepts are explained by giving concrete exam",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes introductory lecture notes on category theory covering Yoneda lemma, monads/comonads, and categories-as-directed-multigraphs, with no mention of groupoid action orders, Tseitin formulas, or resolution proof complexity. It shares only general category-theoretic vocabulary and does not interact with the specific quantitative claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1302.6946",
+      "title": "Category theory for scientists (Old version)",
+      "abstract_excerpt": "There are many books designed to introduce category theory to either a mathematical audience or a computer science audience. In this book, our audience is the broader scientific community. We attempt to show that category theory can be applied throughout the sciences as a framework for modeling phenomena and communicating results. In order to target the scientific audience, this book is example-based rather than proof-based. For example, monoids are framed in terms of agents acting on objects, s",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a general introductory book on applying category theory across sciences (monoids, sheaves, operads), with no mention of groupoid actions, Tseitin graphs, or resolution proof complexity. It shares only broad categorical vocabulary and does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2512.01325",
+      "title": "Ample groupoids that are neither almost finite nor purely infinite",
+      "abstract_excerpt": "We study a question of Matui and varations of it on minimal ample groupoids that are neither almost finite nor purely infinite. We first observe that there are already effective minimal ample transformation groupoids that are neither almost finite nor purely infinite. These groupoids can even be chosen to be amenable. Then we construct essentially principle ample groupoids that are neither almost finite nor purely infinite. These are based on the recent twisted topological groupoid construction ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns ample groupoids being 'neither almost finite nor purely infinite' in the context of Matui's question, with no mention of CNF formulas, Tseitin graphs, or resolution proof complexity. It shares only the word 'groupoid' with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
