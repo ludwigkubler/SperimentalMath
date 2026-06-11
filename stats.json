@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-06-11T13:47:07Z",
-  "total_cycles": 6715,
+  "last_update_utc": "2026-06-11T14:47:08Z",
+  "total_cycles": 6724,
   "verdict_counts": {
-    "INCONCLUSIVE": 4304,
+    "INCONCLUSIVE": 4310,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 2305,
+    "BARRIER_HIT": 2308,
     "SCOOPED": 86
   },
-  "unique_field_A": 2629,
+  "unique_field_A": 2633,
   "top_fields_A": [
     [
       "Resolution proof complexity",
@@ -20,7 +20,7 @@
     ],
     [
       "Tropical Geometry",
-      162
+      163
     ],
     [
       "Symplectic Geometry",
@@ -43,11 +43,11 @@
       49
     ],
     [
-      "Noncommutative Geometry",
-      47
+      "Algebraic K-Theory",
+      48
     ],
     [
-      "Algebraic K-Theory",
+      "Noncommutative Geometry",
       47
     ],
     [
