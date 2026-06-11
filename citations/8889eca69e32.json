@@ -1,0 +1,40 @@
+{
+  "entry_id": "8889eca69e32",
+  "ts": 1781213210.5954592,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1510.02682",
+      "title": "Classical and Quantum Algorithms for the Boolean Satisfiability Problem",
+      "abstract_excerpt": "This paper presents a complete algorithmic study of the decision Boolean Satisfiability Problem under the classical computation and quantum computation theories. The paper depicts deterministic and probabilistic algorithms, propositions of their properties and the main result is that the problem has not an efficient algorithm (NP is not P). Novel quantum algorithms and propositions depict that the complexity by quantum computation approach for solving the Boolean Satisfiability Problem or any NP",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses classical and quantum algorithms for SAT and complexity claims (NP vs P, linear-time quantum), with no mention of Hodge structures, moduli of curves, or DPLL search tree height. It shares the SAT framework vocabulary but does not interact with the specific dim(H(φ)) = Θ(h(φ)) claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1602.06867",
+      "title": "Lower bound for the Complexity of the Boolean Satisfiability Problem",
+      "abstract_excerpt": "This paper depicts algorithms for solving the decision Boolean Satisfiability Problem. An extreme problem is formulated to analyze the complexity of algorithms and the complexity for solving it. A novel and easy reformulation as a lottery for an extreme case is presented to determine a stable complexity around $2^n$. The reformulation point out that the decision Boolean Satisfiability Problem can only be solved in exponential time. This implies there is not an efficient algorithm for the NP Clas",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses a lower bound of ~2^n on the complexity of Boolean SAT and claims P≠NP, but says nothing about DPLL search tree height or any connection to Hodge structures or moduli of curves.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1704.02942",
+      "title": "The Boolean SATisfiability Problem in Clifford algebra",
+      "abstract_excerpt": "We present a formulation of the Boolean Satisfiability Problem in spinor language that allows to give a necessary and sufficient condition for unsatisfiability. With this result we outline an algorithm to test for unsatisfiability with possibly interesting theoretical properties.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a Clifford algebra/spinor formulation of SAT for testing unsatisfiability, with no mention of Hodge structures, moduli of curves, or DPLL search tree height. It shares the SAT framework but does not interact with the specific dimensional correlation claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

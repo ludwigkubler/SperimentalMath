@@ -1,0 +1,40 @@
+{
+  "entry_id": "60ce111435e9",
+  "ts": 1781212024.9588165,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1302.6946",
+      "title": "Category theory for scientists (Old version)",
+      "abstract_excerpt": "There are many books designed to introduce category theory to either a mathematical audience or a computer science audience. In this book, our audience is the broader scientific community. We attempt to show that category theory can be applied throughout the sciences as a framework for modeling phenomena and communicating results. In order to target the scientific audience, this book is example-based rather than proof-based. For example, monoids are framed in terms of agents acting on objects, s",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a general introductory book on category theory for scientists (\"example-based rather than proof-based\"), with no mention of groupoid generating sets, communication complexity, or rank variance bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1712.05094",
+      "title": "The groupoid structure of groupoid morphisms",
+      "abstract_excerpt": "In this paper we construct two groupoids from morphisms of groupoids, with one from a categorical viewpoint and the other from a geometric viewpoint. We show that for each pair of groupoids, the two kinds of groupoids of morphisms are equivalent. Then we study the automorphism groupoid of a groupoid.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract focuses on constructing groupoids of morphisms and studying automorphism groupoids ('we construct two groupoids from morphisms of groupoids'), with no mention of generating sets, group/groupoid actions on finite sets, or communication complexity rank. It shares only the term 'groupoid' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1401.3280",
+      "title": "Groupoid Semantics for Thermal Computing",
+      "abstract_excerpt": "A groupoid semantics is presented for systems with both logical and thermal degrees of freedom. We apply this to a syntactic model for encryption, and obtain an algebraic characterization of the heat produced by the encryption function, as predicted by Landauer's principle. Our model has a linear representation theory that reveals an underlying quantum semantics, giving for the first time a functorial classical model for quantum teleportation and other quantum phenomena.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns groupoid semantics for thermal/encryption computing and Landauer's principle, with no mention of minimal generating sets, communication complexity, or rank variance. It shares only the 'groupoid' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

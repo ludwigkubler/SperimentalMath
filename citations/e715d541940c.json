@@ -1,0 +1,40 @@
+{
+  "entry_id": "e715d541940c",
+  "ts": 1781212398.4808586,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1210.2401",
+      "title": "Distributed Formal Concept Analysis Algorithms Based on an Iterative MapReduce Framework",
+      "abstract_excerpt": "While many existing formal concept analysis algorithms are efficient, they are typically unsuitable for distributed implementation. Taking the MapReduce (MR) framework as our inspiration we introduce a distributed approach for performing formal concept mining. Our method has its novelty in that we use a light-weight MapReduce runtime called Twister which is better suited to iterative algorithms than recent distributed approaches. First, we describe the theoretical foundations underpinning our di",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a distributed MapReduce-based algorithm for formal concept mining (MRGanter/MRGanter+), with no mention of formal context width, DPLL search trees, or CNF satisfiability. It shares only the FCA framework vocabulary but does not address the specific mfw/w(φ) relationship.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1107.2822",
+      "title": "A Survey on how Description Logic Ontologies Benefit from Formal Concept Analysis",
+      "abstract_excerpt": "Although the notion of a concept as a collection of objects sharing certain properties, and the notion of a conceptual hierarchy are fundamental to both Formal Concept Analysis and Description Logics, the ways concepts are described and obtained differ significantly between these two research areas. Despite these differences, there have been several attempts to bridge the gap between these two formalisms, and attempts to apply methods from one field in the other. The present work aims to give an",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a survey on combining Description Logics with Formal Concept Analysis, with no mention of CNF satisfiability, DPLL search trees, or context width measures relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1809.09702",
+      "title": "The Origins Space Telescope (OST) Mission Concept Study Interim Report",
+      "abstract_excerpt": "The Origins Space Telescope (OST) will transform our understanding of the Universe, from formation of the earliest galaxies to the creation of habitable worlds. OST's Mission Concept 1, the subject of this report, features a cold (4 K) large-aperture telescope (9.1 m) and five powerful instruments, providing imaging and spectroscopy over a wavelength range from 5 to 660 microns. OST's dramatic increase in sensitivity over previous missions ensures breakthrough discoveries in a broad range of ast",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a space telescope mission concept ('Origins Space Telescope... cold (4 K) large-aperture telescope') and has no connection to formal concept analysis, CNF, or DPLL search trees.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

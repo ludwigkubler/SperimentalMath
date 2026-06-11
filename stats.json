@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-06-11T20:47:07Z",
-  "total_cycles": 6790,
+  "last_update_utc": "2026-06-11T21:47:07Z",
+  "total_cycles": 6802,
   "verdict_counts": {
-    "INCONCLUSIVE": 4354,
+    "INCONCLUSIVE": 4361,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 2330,
+    "BARRIER_HIT": 2335,
     "SCOOPED": 86
   },
-  "unique_field_A": 2655,
+  "unique_field_A": 2659,
   "top_fields_A": [
     [
       "Resolution proof complexity",
@@ -39,11 +39,11 @@
       61
     ],
     [
-      "p-adic Analysis",
-      50
+      "Algebraic K-Theory",
+      51
     ],
     [
-      "Algebraic K-Theory",
+      "p-adic Analysis",
       50
     ],
     [
