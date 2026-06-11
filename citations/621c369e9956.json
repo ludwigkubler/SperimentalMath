@@ -1,0 +1,40 @@
+{
+  "entry_id": "621c369e9956",
+  "ts": 1781201121.2987258,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0804.4584",
+      "title": "Feature Unification in TAG Derivation Trees",
+      "abstract_excerpt": "The derivation trees of a tree adjoining grammar provide a first insight into the sentence semantics, and are thus prime targets for generation systems. We define a formalism, feature-based regular tree grammars, and a translation from feature based tree adjoining grammars into this new formalism. The translation preserves the derivation structures of the original grammar, and accounts for feature unification.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses tree adjoining grammars and feature unification in derivation trees for natural language generation, which has no interaction with geometric arithmetical rank or DPLL search tree width for CNF formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2406.11183",
+      "title": "Arithmetical Structures on Coconut Trees",
+      "abstract_excerpt": "If G is a finite connected graph, then an arithmetical structure on $G$ is a pair of vectors $(\\mathbf{d}, \\mathbf{r})$ with positive integer entries such that $(\\diag(\\mathbf{d}) - A)\\cdot \\mathbf{r} = \\mathbf{0}$, where $A$ is the adjacency matrix of $G$ and the entries of $\\mathbf{r}$ have no common factor other than $1$. In this paper, we generalize the result of Archer, Bishop, Diaz-Lopez, García Puente, Glass, and Louwsma on enumerating arithmetical structures on bidents (also called cocon",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns enumerating arithmetical structures on a specific family of graphs (coconut trees) defined via adjacency matrices, with no mention of CNF formulas, DPLL search trees, or any SAT-solving complexity measure. It shares the 'arithmetical structures' vocabulary but does not interact with the conjecture's claim about g_ar(φ) and w_DPLL(φ).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2505.05392",
+      "title": "Generalized chip firing and critical groups of arithmetical structures on trees",
+      "abstract_excerpt": "Chip firing provides a way to study the sandpile group (also known as the Jacobian) of a graph. We use a generalized version of chip firing to bound the number of invariant factors of the critical group of an arithmetical structure on a graph. We also show that, under suitable hypotheses, critical groups are additive under wedge sums of graphs with arithmetical structures. These results allow us to relate the number of invariant factors of critical groups associated to any given tree to decompos",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses chip firing, critical groups, and arithmetical structures on trees/graphs, with no mention of CNF formulas, DPLL search trees, SAT, or any complexity-theoretic rank/width relationship. It shares only the 'arithmetical structure' vocabulary without addressing the specific conjectured correlation.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
