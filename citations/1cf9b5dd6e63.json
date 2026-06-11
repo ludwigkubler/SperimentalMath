@@ -1,0 +1,40 @@
+{
+  "entry_id": "1cf9b5dd6e63",
+  "ts": 1781205159.2695982,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1103.5740",
+      "title": "Generating and Searching Families of FFT Algorithms",
+      "abstract_excerpt": "A fundamental question of longstanding theoretical interest is to prove the lowest exact count of real additions and multiplications required to compute a power-of-two discrete Fourier transform (DFT). For 35 years the split-radix algorithm held the record by requiring just 4n log n - 6n + 8 arithmetic operations on real numbers for a size-n DFT, and was widely believed to be the best possible. Recent work by Van Buskirk et al. demonstrated improvements to the split-radix operation count by usin",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns using SAT/SMT solvers to search for FFT algorithms with minimal arithmetic operation counts ('Boolean Satisfiability-based proof of the lowest operation count'), with no mention of integral quotient lattices, incidence matrices, or resolution proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1908.01979",
+      "title": "Non-Invasive Reverse Engineering of Finite State Machines Using Power Analysis and Boolean Satisfiability",
+      "abstract_excerpt": "In this paper, we present a non-invasive reverse engineering attack based on a novel approach that combines functional and power analysis to recover finite state machines from their synchronous sequential circuit implementations. The proposed technique formulates the machine exploration and state identification problem as a Boolean constraint satisfaction problem and solves it using a SMT (Satisfiability Modulo Theories) solver. It uses power measurements to achieve fast convergence. Experimenta",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes using SAT/SMT solvers for reverse engineering finite state machines via power analysis, with no mention of resolution proof width, lattice theory, or incidence matrix structure. It shares only the vague vocabulary of 'Boolean satisfiability' without engaging the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1510.02682",
+      "title": "Classical and Quantum Algorithms for the Boolean Satisfiability Problem",
+      "abstract_excerpt": "This paper presents a complete algorithmic study of the decision Boolean Satisfiability Problem under the classical computation and quantum computation theories. The paper depicts deterministic and probabilistic algorithms, propositions of their properties and the main result is that the problem has not an efficient algorithm (NP is not P). Novel quantum algorithms and propositions depict that the complexity by quantum computation approach for solving the Boolean Satisfiability Problem or any NP",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses classical and quantum algorithms for SAT decision complexity ('NP is not P', 'lineal time' quantum solving), with no mention of resolution proof width, incidence matrices, or lattice theory connections to the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "94a4c9135e98",
+  "ts": 1781204284.0778372,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1004.0653",
+      "title": "Exact Ramsey Theory: Green-Tao numbers and SAT",
+      "abstract_excerpt": "We consider the links between Ramsey theory in the integers, based on van der Waerden's theorem, and (boolean, CNF) SAT solving. We aim at using the problems from exact Ramsey theory, concerned with computing Ramsey-type numbers, as a rich source of test problems, where especially methods for solving hard problems can be developed. In order to control the growth of the problem instances, we introduce \"transversal extensions\" as a natural way of constructing mixed parameter tuples (k_1, ..., k_m)",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Ramsey theory, Green-Tao numbers, and SAT solver benchmarking ('rich source of test problems'), with no mention of affine schemes, local induction dimension, or any algebraic-geometric complexity correspondence with SAT.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1304.5479",
+      "title": "Local Backbones",
+      "abstract_excerpt": "A backbone of a propositional CNF formula is a variable whose truth value is the same in every truth assignment that satisfies the formula. The notion of backbones for CNF formulas has been studied in various contexts. In this paper, we introduce local variants of backbones, and study the computational complexity of detecting them. In particular, we consider k-backbones, which are backbones for sub-formulas consisting of at most k clauses, and iterative k-backbones, which are backbones that resu",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'local backbones' of CNF formulas and their parameterized complexity, with no mention of affine schemes, algebraic geometry, or any 'local induction dimension' invariant. It shares the SAT/CNF vocabulary but does not interact with the specific Θ-correlation claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2105.11390",
+      "title": "GraphSAT -- a decision problem connecting satisfiability and graph theory",
+      "abstract_excerpt": "Satisfiability of boolean formulae (SAT) has been a topic of research in logic and computer science for a long time. In this paper we are interested in understanding the structure of satisfiable and unsatisfiable sentences. In previous work we initiated a new approach to SAT by formulating a mapping from propositional logic sentences to graphs, allowing us to find structural obstructions to 2SAT (clauses with exactly 2 literals) in terms of graphs. Here we generalize these ideas to multi-hypergr",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a mapping from SAT formulas to multi-hypergraphs and structural graph-theoretic obstructions to satisfiability, with no mention of affine schemes, local induction dimension, or any linear correlation Θ(SAT_complexity(f)). It shares the SAT vocabulary but does not interact with the specific algebraic-geometry claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

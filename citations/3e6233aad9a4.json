@@ -1,0 +1,40 @@
+{
+  "entry_id": "3e6233aad9a4",
+  "ts": 1781206803.2152119,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1511.09051",
+      "title": "On automorphism groups of affine surfaces",
+      "abstract_excerpt": "This is a survey on the automorphism groups in various classes of affine algebraic surfaces and the algebraic group actions on such surfaces. Being infinite-dimensional, these automorphism groups share some important features of algebraic groups. At the same time, they can be studied from the viewpoint of the combinatorial group theory, so we put a special accent on group-theoretical aspects (ind-groups, amalgams, etc.). We provide different approaches to classification, prove certain new result",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses automorphism groups of affine algebraic surfaces in algebraic geometry, sharing only the term 'automorphism groups' with the conjecture but having no interaction with graphical matroids or resolution proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2308.14351",
+      "title": "An axiomatization for the universal theory of the Heisenberg group",
+      "abstract_excerpt": "The Heisenberg group, here denoted $H$, is the group of all $3\\times 3$ upper unitriangular matrices with entries in the ring $\\mathbb{Z}$ of integers. A.G. Myasnikov posed the question of whether or not the universal theory of $H$, in the language of $H$, is axiomatized, when the models are restricted to $H$-groups, by the quasi-identities true in $H$ together with the assertion that the centralizers of noncentral elements be abelian. Based on earlier published partial results we here give a co",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the universal theory of the Heisenberg group and its axiomatization via quasi-identities, with no mention of matroids, automorphism groups of matroids, or resolution proof width. It does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2403.16671",
+      "title": "Twisted conjugacy in dihedral Artin groups I: Torus Knot groups",
+      "abstract_excerpt": "In this paper we provide an alternative solution to a result by Juhász that the twisted conjugacy problem for odd dihedral Artin groups is solvable, that is, groups with presentation $G(m) = \\langle a,b \\; | \\; _{m}(a,b) = {}_{m}(b,a) \\rangle$, where $m\\geq 3$ is odd, and $_{m}(a,b)$ is the word $abab \\dots$ of length $m$, is solvable. Our solution provides an implementable linear time algorithm, by considering an alternative group presentation to that of a torus knot group, and working with geo",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the twisted conjugacy problem in dihedral Artin groups and torus knot groups, with no mention of matroids, automorphism groups of matroids, or resolution proof width. It shares no substantive content with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

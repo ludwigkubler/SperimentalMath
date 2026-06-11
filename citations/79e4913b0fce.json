@@ -1,0 +1,40 @@
+{
+  "entry_id": "79e4913b0fce",
+  "ts": 1781206249.0579832,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2406.09757",
+      "title": "Evaluating LLM-driven User-Intent Formalization for Verification-Aware Languages",
+      "abstract_excerpt": "Verification-aware programming languages such as Dafny and F* provide means to formally specify and prove properties of a program. Although the problem of checking an implementation against a specification can be defined mechanically, there is no algorithmic way of ensuring the correctness of the {\\it user-intent formalization for programs}, expressed as a formal specification. This is because intent or requirement is expressed {\\it informally} in natural language and the specification is a form",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract is about evaluating LLM-driven user-intent formalization for verification-aware languages like Dafny and F*, with no mention of formal language entropy, DPLL search trees, or CNF satisfiability. It shares no substantive connection to the conjecture's claim about H(φ) = Θ(w_DPLL(φ)).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1901.05180",
+      "title": "Formal models of Structure Building in Music, Language and Animal Songs",
+      "abstract_excerpt": "Human language, music and a variety of animal vocalisations constitute ways of sonic communication that exhibit remarkable structural complexity. While the complexities of language and possible parallels in animal communication have been discussed intensively, reflections on the complexity of music and animal song, and their comparisons are underrepresented. In some ways, music and animal songs are more comparable to each other than to language, as propositional semantics cannot be used as as in",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses formal language theory applied to structure building in music, language, and animal songs via the Chomsky hierarchy, which shares only the vague 'formal language theory' framework but does not address entropy of CNF assignments or DPLL search tree width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2503.21676",
+      "title": "How do language models learn facts? Dynamics, curricula and hallucinations",
+      "abstract_excerpt": "Large language models accumulate vast knowledge during pre-training, yet the dynamics governing this acquisition remain poorly understood. This work investigates the learning dynamics of language models on a synthetic factual recall task, uncovering three key findings: First, language models learn in three phases, exhibiting a performance plateau before acquiring precise factual knowledge. Mechanistically, this plateau coincides with the formation of attention-based circuits that support recall.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns learning dynamics of language models on factual recall tasks ('three phases, exhibiting a performance plateau') and has no connection to formal language entropy, CNF satisfiability, or DPLL search tree width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

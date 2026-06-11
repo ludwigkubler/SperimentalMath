@@ -1,0 +1,40 @@
+{
+  "entry_id": "823e17365c27",
+  "ts": 1781205483.579625,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1510.02682",
+      "title": "Classical and Quantum Algorithms for the Boolean Satisfiability Problem",
+      "abstract_excerpt": "This paper presents a complete algorithmic study of the decision Boolean Satisfiability Problem under the classical computation and quantum computation theories. The paper depicts deterministic and probabilistic algorithms, propositions of their properties and the main result is that the problem has not an efficient algorithm (NP is not P). Novel quantum algorithms and propositions depict that the complexity by quantum computation approach for solving the Boolean Satisfiability Problem or any NP",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses classical and quantum algorithms for SAT decision complexity (claiming NP≠P and linear-time quantum solutions), with no mention of groupoid cospans, resolution proof width, or Tseitin formulas. It shares only the broad SAT vocabulary but does not interact with the specific index-width correlation claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2103.09609",
+      "title": "Characterizing Tseitin-formulas with short regular resolution refutations",
+      "abstract_excerpt": "Tseitin-formulas are systems of parity constraints whose structure is described by a graph. These formulas have been studied extensively in proof complexity as hard instances in many proof systems. In this paper, we prove that a class of unsatisfiable Tseitin-formulas of bounded degree has regular resolution refutations of polynomial length if and only if the treewidth of all underlying graphs $G$ for that class is in $O(\\log|V(G)|)$. To do so, we show that any regular resolution refutation of a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract characterizes regular resolution refutation length of Tseitin formulas via treewidth of the underlying graph ('length $2^{Ω(tw(G))}/|V(G)|$'), making no claim about resolution proof width nor about any groupoid cospan index, so it neither confirms nor refutes the linear Index(G)=Θ(w(φ)) relationship.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2503.14756",
+      "title": "SceneEval: Evaluating Semantic Coherence in Text-Conditioned 3D Indoor Scene Synthesis",
+      "abstract_excerpt": "Despite recent advances in text-conditioned 3D indoor scene generation, there remain gaps in the evaluation of these methods. Existing metrics often measure realism by comparing generated scenes to a set of ground-truth scenes, but they overlook how well scenes follow the input text and capture implicit expectations of plausibility. We present SceneEval, an evaluation framework designed to address these limitations. SceneEval introduces fine-grained metrics for explicit user requirements-includi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'text-conditioned 3D indoor scene generation' and an evaluation framework called SceneEval, with no mention of groupoids, cospans, SAT, or resolution proof width. It has no interaction with the conjecture's claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
