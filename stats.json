@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-06-11T03:47:06Z",
-  "total_cycles": 6617,
+  "last_update_utc": "2026-06-11T04:47:07Z",
+  "total_cycles": 6623,
   "verdict_counts": {
-    "INCONCLUSIVE": 4239,
+    "INCONCLUSIVE": 4244,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 2272,
+    "BARRIER_HIT": 2273,
     "SCOOPED": 86
   },
-  "unique_field_A": 2606,
+  "unique_field_A": 2609,
   "top_fields_A": [
     [
       "Resolution proof complexity",
@@ -55,15 +55,15 @@
       42
     ],
     [
+      "Geometric Group Theory",
+      41
+    ],
+    [
       "Algebraic K-theory",
       39
     ],
     [
       "Schur-Weyl Duality",
-      39
-    ],
-    [
-      "Geometric Group Theory",
       39
     ],
     [

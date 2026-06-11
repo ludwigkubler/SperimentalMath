@@ -1,0 +1,208 @@
+{
+  "ts": 1781148784.489254,
+  "window_h": 24.0,
+  "n_conjectures": 243,
+  "n_papers": 91,
+  "n_scoops": 17,
+  "scoops": [
+    {
+      "paper_id": "2606.12144v1",
+      "paper_title": "Output-sensitive Sparse Polynomial GCD over Finite Fields is NP-hard",
+      "matched_eid": "b79da733162f",
+      "similarity": 0.7264524026730464
+    },
+    {
+      "paper_id": "2606.12100v1",
+      "paper_title": "Quasi-linear Time Multiplication of Sparse Polynomials with Integer Coefficients",
+      "matched_eid": "0a49b9b6e7bd",
+      "similarity": 0.7362125200099197
+    },
+    {
+      "paper_id": "2606.11448v1",
+      "paper_title": "A Unified Lower Bound on the Noisy Query Complexity of Boolean Functions",
+      "matched_eid": "a54e38bbde7b",
+      "similarity": 0.739283000941232
+    },
+    {
+      "paper_id": "2606.11974v1",
+      "paper_title": "Near-Optimal Distributed 2-Ruling Sets on Graphs with Low Arboricity",
+      "matched_eid": "f9fe479052cf",
+      "similarity": 0.7294187640832608
+    },
+    {
+      "paper_id": "2606.11993v1",
+      "paper_title": "A Rank-Preserving Gaifman Normal Form",
+      "matched_eid": "538e4407e594",
+      "similarity": 0.7756022601258807
+    },
+    {
+      "paper_id": "2606.12359v1",
+      "paper_title": "Capparelli's partition theorem as part of an infinite hierarchy: Combinatorial and Weighted Words extensions of recent work",
+      "matched_eid": "f2258de476ca",
+      "similarity": 0.7577130663365085
+    },
+    {
+      "paper_id": "2606.12335v1",
+      "paper_title": "On a conjecture of Las Vergnas",
+      "matched_eid": "607b25cdf41e",
+      "similarity": 0.7464790153421894
+    },
+    {
+      "paper_id": "2606.12271v1",
+      "paper_title": "Average degrees of edge-$Δ$-critical multigraphs",
+      "matched_eid": "b4a65794585e",
+      "similarity": 0.7207161196625097
+    },
+    {
+      "paper_id": "2606.12197v1",
+      "paper_title": "On Brouwer's Laplacian conjecture",
+      "matched_eid": "5af32c68e8a2",
+      "similarity": 0.7268330070137382
+    },
+    {
+      "paper_id": "2606.12194v1",
+      "paper_title": "Beating Product Constructions for Linear Equations Over Finite Fields",
+      "matched_eid": "73467002b72d",
+      "similarity": 0.7353063175779212
+    },
+    {
+      "paper_id": "2606.12178v1",
+      "paper_title": "On the maximum number of vectors in $\\{0,\\pm1\\}^n$ with forbidden inner products",
+      "matched_eid": "73467002b72d",
+      "similarity": 0.721757131585702
+    },
+    {
+      "paper_id": "2606.12129v1",
+      "paper_title": "Middle orders: all distributive lattices between weak and Bruhat",
+      "matched_eid": "59da4f6fc956",
+      "similarity": 0.7380894183018263
+    },
+    {
+      "paper_id": "2606.11987v1",
+      "paper_title": "Graphical Analysis of Lifted Product Code Constructions",
+      "matched_eid": "d227ccb56513",
+      "similarity": 0.7335876614166325
+    },
+    {
+      "paper_id": "2606.11852v1",
+      "paper_title": "The relaxation complexity of the standard simplex is logarithmic",
+      "matched_eid": "607b25cdf41e",
+      "similarity": 0.7555090667910876
+    },
+    {
+      "paper_id": "2606.11658v1",
+      "paper_title": "Subtraction Nim with Continuous Parameters",
+      "matched_eid": "1ff1ecdead54",
+      "similarity": 0.7207641782570596
+    },
+    {
+      "paper_id": "2606.11527v1",
+      "paper_title": "Invariants of Sequential Circuits and Generalized Non-Abelian Statistics",
+      "matched_eid": "be29a07fe29d",
+      "similarity": 0.7259710469934176
+    },
+    {
+      "paper_id": "2606.11311v1",
+      "paper_title": "Exact Entanglement Dynamics Beyond Nearest-Neighbor Dual-Unitary Floquet Systems",
+      "matched_eid": "be29a07fe29d",
+      "similarity": 0.7345916984249415
+    }
+  ],
+  "top_overlap": [
+    {
+      "score": 0.776,
+      "paper_id": "2606.11993v1",
+      "paper_title": "A Rank-Preserving Gaifman Normal Form",
+      "paper_category": "cs.LO",
+      "matched_conjecture_eid": "538e4407e594",
+      "matched_conjecture_title": "Minimal Kashiwara-Vergne Structure Rank and Circuit Depth Complexity"
+    },
+    {
+      "score": 0.758,
+      "paper_id": "2606.12359v1",
+      "paper_title": "Capparelli's partition theorem as part of an infinite hierarchy: Combinatorial and Weighted Words extensions of recent work",
+      "paper_category": "math.NT",
+      "matched_conjecture_eid": "f2258de476ca",
+      "matched_conjecture_title": "Hypergeometric Function Order Bound for Resolution Proof Width"
+    },
+    {
+      "score": 0.756,
+      "paper_id": "2606.11852v1",
+      "paper_title": "The relaxation complexity of the standard simplex is logarithmic",
+      "paper_category": "cs.DM",
+      "matched_conjecture_eid": "607b25cdf41e",
+      "matched_conjecture_title": "Minimal Representation of Kac-Moody Lie Algebras in Frege Proof Length Bound"
+    },
+    {
+      "score": 0.746,
+      "paper_id": "2606.12335v1",
+      "paper_title": "On a conjecture of Las Vergnas",
+      "paper_category": "math.CO",
+      "matched_conjecture_eid": "607b25cdf41e",
+      "matched_conjecture_title": "Minimal Representation of Kac-Moody Lie Algebras in Frege Proof Length Bound"
+    },
+    {
+      "score": 0.739,
+      "paper_id": "2606.11448v1",
+      "paper_title": "A Unified Lower Bound on the Noisy Query Complexity of Boolean Functions",
+      "paper_category": "cs.DS",
+      "matched_conjecture_eid": "a54e38bbde7b",
+      "matched_conjecture_title": "Minimal Representation of Algebraic Cycles in Communication Complexity via Quasi-cohomology"
+    },
+    {
+      "score": 0.738,
+      "paper_id": "2606.12129v1",
+      "paper_title": "Middle orders: all distributive lattices between weak and Bruhat",
+      "paper_category": "math.CO",
+      "matched_conjecture_eid": "59da4f6fc956",
+      "matched_conjecture_title": "Minimal Representation of Brauer Groups and Resolution Proof Width"
+    },
+    {
+      "score": 0.736,
+      "paper_id": "2606.12100v1",
+      "paper_title": "Quasi-linear Time Multiplication of Sparse Polynomials with Integer Coefficients",
+      "paper_category": "cs.SC",
+      "matched_conjecture_eid": "0a49b9b6e7bd",
+      "matched_conjecture_title": "Minimal Diophantine Degree Bound for Boolean Circuit Satisfiability"
+    },
+    {
+      "score": 0.735,
+      "paper_id": "2606.12194v1",
+      "paper_title": "Beating Product Constructions for Linear Equations Over Finite Fields",
+      "paper_category": "math.CO",
+      "matched_conjecture_eid": "73467002b72d",
+      "matched_conjecture_title": "Minimal Order of Quasi-Monte Carlo Points and SAT Clause Satisfiability Complexity"
+    },
+    {
+      "score": 0.735,
+      "paper_id": "2606.11311v1",
+      "paper_title": "Exact Entanglement Dynamics Beyond Nearest-Neighbor Dual-Unitary Floquet Systems",
+      "paper_category": "quant-ph",
+      "matched_conjecture_eid": "be29a07fe29d",
+      "matched_conjecture_title": "Minimal Symplectic Volume and Boolean Circuit Entanglement Complexity"
+    },
+    {
+      "score": 0.734,
+      "paper_id": "2606.11987v1",
+      "paper_title": "Graphical Analysis of Lifted Product Code Constructions",
+      "paper_category": "cs.IT",
+      "matched_conjecture_eid": "d227ccb56513",
+      "matched_conjecture_title": "Minimal Frobenius-Schur Indicator and Boolean Circuit Entanglement Complexity"
+    }
+  ],
+  "stats": {
+    "n_cycles": 243,
+    "verdicts": {
+      "INCONCLUSIVE": 156,
+      "BARRIER_HIT": 87
+    },
+    "focus_distribution": {},
+    "top_fields_A": {
+      "Algebraic Geometry - Hodge Theory": 13,
+      "p-Adic Number Theory": 13,
+      "Tropical Geometry": 11,
+      "Algebraic K-theory": 10,
+      "Symplectic Geometry": 8
+    }
+  }
+}
