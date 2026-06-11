@@ -1,0 +1,40 @@
+{
+  "entry_id": "362eb7cbc38c",
+  "ts": 1781144518.258811,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2106.12710",
+      "title": "Certifying solution geometry in random CSPs: counts, clusters and balance",
+      "abstract_excerpt": "An active topic in the study of random constraint satisfaction problems (CSPs) is the geometry of the space of satisfying or almost satisfying assignments as the function of the density, for which a precise landscape of predictions has been made via statistical physics-based heuristics. In parallel, there has been a recent flurry of work on refuting random constraint satisfaction problems, via nailing refutation thresholds for spectral and semidefinite programming-based algorithms, and also on c",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses certifying solution counts, clusters, and balance for random CSPs via spectral/SDP methods, with no mention of Tseitin formulas, resolution proof width, or quaternionic symplectic leaves. It shares the CSP vocabulary but does not interact with the specific claim relating m_index(G) to w(φ_G).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1802.02002",
+      "title": "On the structure of random graphs with constant $r$-balls",
+      "abstract_excerpt": "We continue the study of the properties of graphs in which the ball of radius $r$ around each vertex induces a graph isomorphic to the ball of radius $r$ in some fixed vertex-transitive graph $F$, for various choices of $F$ and $r$. This is a natural extension of the study of regular graphs. More precisely, if $F$ is a vertex-transitive graph and $r \\in \\mathbb{N}$, we say a graph $G$ is {\\em $r$-locally $F$} if the ball of radius $r$ around each vertex of $G$ induces a graph isomorphic to the g",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns random graphs that are 'r-locally F' for vertex-transitive F, studying component sizes, automorphisms, and enumeration — it never mentions Tseitin formulas, resolution proof width, or quaternionic symplectic leaves. It shares only the loose vocabulary of regular graphs with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2007.12819",
+      "title": "Support of Closed Walks and Second Eigenvalue Multiplicity of the Normalized Adjacency Matrix",
+      "abstract_excerpt": "We show that the multiplicity of the second normalized adjacency matrix eigenvalue of any connected graph of maximum degree $Δ$ is bounded by $O(n Δ^{7/5}/\\log^{1/5-o(1)}n)$ for any $Δ$, and by $O(n\\log^{1/2}d/\\log^{1/4-o(1)}n)$ for simple $d$-regular graphs when $d\\ge \\log^{1/4}n$. In fact, the same bounds hold for the number of eigenvalues in any interval of width $λ_2/\\log_Δ^{1-o(1)}n$ containing the second eigenvalue $λ_2$. The main ingredient in the proof is a polynomial (in $k$) lower boun",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns bounds on second eigenvalue multiplicity and support of closed random walks in graphs, with no mention of quaternionic symplectic leaves, Tseitin formulas, or resolution proof width. It shares only the general 'd-regular graph' vocabulary without interacting with the specific claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

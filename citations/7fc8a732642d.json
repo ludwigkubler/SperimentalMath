@@ -1,0 +1,40 @@
+{
+  "entry_id": "7fc8a732642d",
+  "ts": 1781143473.744181,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1612.04764",
+      "title": "Cohomological aspects on complex and symplectic manifolds",
+      "abstract_excerpt": "We discuss how quantitative cohomological informations could provide qualitative properties on complex and symplectic manifolds. In particular we focus on the Bott-Chern and the Aeppli cohomology groups in both cases, since they represent useful tools in studying non Kähler geometry. We give an overview on the comparisons among the dimensions of the cohomology groups that can be defined and we show how we reach the $\\partial\\overline\\partial$-lemma in complex geometry and the Hard-Lefschetz cond",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Bott-Chern and Aeppli cohomology groups on complex and symplectic manifolds, focusing on the ∂∂̄-lemma and Hard-Lefschetz condition — it makes no claim about symplectic volume, binary trees, or circuit entanglement complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1009.2975",
+      "title": "2-plectic geometry, Courant algebroids, and categorified prequantization",
+      "abstract_excerpt": "A 2-plectic manifold is a manifold equipped with a closed nondegenerate 3-form, just as a symplectic manifold is equipped with a closed nondegenerate 2-form. In 2-plectic geometry we meet higher analogues of many structures familiar from symplectic geometry. For example, any 2-plectic manifold has a Lie 2-algebra consisting of smooth functions and Hamiltonian 1-forms. This is equipped with a Poisson-like bracket which only satisfies the Jacobi identity up to `coherent chain homotopy'. Over any 2",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 2-plectic geometry, Courant algebroids, and categorified prequantization, with no mention of symplectic volumes, binary trees, or circuit entanglement complexity. It shares only general symplectic-geometry vocabulary but does not interact with the specific quantitative claim of the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0711.1642",
+      "title": "The Symplectic Geometry of Penrose Rhombus Tilings",
+      "abstract_excerpt": "The purpose of this article is to view Penrose rhombus tilings from the perspective of symplectic geometry. We show that each thick rhombus in such a tiling can be naturally associated to a highly singular 4-dimensional compact symplectic space, while each thin rhombus can be associated to another such space; both spaces are invariant under the Hamiltonian action of a 2-dimensional quasitorus, and the images of the corresponding moment mappings give the rhombuses back. These two spaces are diffe",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns symplectic spaces associated to Penrose rhombus tilings via quasitorus Hamiltonian actions, with no mention of binary trees, Boolean circuits, or entanglement complexity. It shares only the 'symplectic geometry' vocabulary and does not address the conjectured volume/circuit-entanglement scaling.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

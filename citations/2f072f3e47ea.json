@@ -1,0 +1,40 @@
+{
+  "entry_id": "2f072f3e47ea",
+  "ts": 1781142443.6039207,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1007.3804",
+      "title": "Symmetric Determinantal Representation of Formulas and Weakly Skew Circuits",
+      "abstract_excerpt": "We deploy algebraic complexity theoretic techniques for constructing symmetric determinantal representations of for00504925mulas and weakly skew circuits. Our representations produce matrices of much smaller dimensions than those given in the convex geometry literature when applied to polynomials having a concise representation (as a sum of monomials, or more generally as an arithmetic formula or a weakly skew circuit). These representations are valid in any field of characteristic different fro",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns symmetric determinantal representations of formulas and weakly skew circuits and VNP-completeness of the partial permanent, with no mention of noncommutative polynomial representations of Boolean circuits or any 'entanglement complexity' measure e(C).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1606.05050",
+      "title": "Proof Complexity Lower Bounds from Algebraic Circuit Complexity",
+      "abstract_excerpt": "We give upper and lower bounds on the power of subsystems of the Ideal Proof System (IPS), the algebraic proof system recently proposed by Grochow and Pitassi, where the circuits comprising the proof come from various restricted algebraic circuit classes. This mimics an established research direction in the boolean setting for subsystems of Extended Frege proofs, where proof-lines are circuits from restricted boolean circuit classes. Except one, all of the subsystems considered in this paper can",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses algebraic proof complexity (Ideal Proof System) and lower bounds for algebraic circuit classes, with no mention of noncommutative polynomial representation order or Boolean circuit entanglement complexity e(C). It shares the broad 'algebraic circuit complexity' framework but does not address the specific claim ord(min_poly_rep(C)) = Θ(e(C)).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1310.5673",
+      "title": "The Bell states in noncommutative algebraic geometry",
+      "abstract_excerpt": "We introduce new mathematical aspects of the Bell states using matrix factorizations, nonnoetherian singularities, and noncommutative blowups. A matrix factorization of a polynomial $p$ consists of two matrices $φ_1,φ_2$ such that $φ_1φ_2 = φ_2φ_1 = p \\operatorname{id}$. Using this notion, we show how the Bell states emerge from the separable product of two mixtures, by defining pure states over complex matrices rather than just the complex numbers.\n  We then show in an idealized algebraic setti",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Bell states via matrix factorizations and noncommutative blowups in an algebraic-geometry setting, with no mention of Boolean circuits, polynomial representation order, or a quantitative entanglement-complexity measure e(C). It shares vocabulary ('noncommutative', 'entanglement') but does not address the specific Θ(e(C)) claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

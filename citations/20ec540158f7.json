@@ -1,0 +1,40 @@
+{
+  "entry_id": "20ec540158f7",
+  "ts": 1781145145.4979453,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/hep-ph/0610012v1",
+      "title": "Tevatron-for-LHC Report of the QCD Working Group",
+      "abstract_excerpt": "The experiments at Run 2 of the Tevatron have each accumulated over 1 inverse femtobarn of high-transverse momentum data. Such a dataset allows for the first precision (i.e. comparisons between theory and experiment at the few percent level) tests of QCD at a hadron collider. While the Large Hadron ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns QCD precision tests at the Tevatron/LHC hadron colliders, which has no relation to graph automorphism groups or communication complexity rank variance.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2312.00383",
+      "title": "On the automorphism group of a distance-regular graph",
+      "abstract_excerpt": "The motion of a graph is the minimal degree of its full automorphism group. Babai conjectured that the motion of a primitive distance-regular graph on $n$ vertices of diameter greater than two is at least $n/C$ for some universal constant $C &gt; 0$, unless the graph is a Johnson or Hamming graph. We prove that the motion of a distance-regular graph of diameter $d \\geq 3$ on $n$ vertices is at least $Cn/(\\log n)^6$ for some universal constant $C &gt; 0$, unless it is a Johnson, a Hamming or a cr",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses motion (minimal degree) and bounds on the automorphism group of distance-regular graphs, not the minimal order of |Aut(G)| relative to communication complexity rank variance for d-regular graphs. It shares the 'automorphism group' vocabulary but does not interact with the specific claim |Aut(G)| = Θ(r(G)).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2104.14760",
+      "title": "Automorphism and outer automorphism groups of Right-angled Artin groups are not relatively hyperbolic",
+      "abstract_excerpt": "We show that the automorphism groups of right-angled Artin groups whose defining graphs have at least 3 vertices are not relatively hyperbolic. We then show that the outer automorphism groups are not relatively hyperbolic, if they are not virtually isomorphic to a right-angled Artin group whose defining graph is either a single vertex or disconnected.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns relative hyperbolicity of automorphism groups of right-angled Artin groups, which shares only the vocabulary 'automorphism group' with the conjecture but says nothing about |Aut(G)| order or communication complexity rank variance for d-regular graphs.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

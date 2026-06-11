@@ -1,0 +1,31 @@
+{
+  "entry_id": "db70af57b32c",
+  "ts": 1781145540.7768118,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:83ab0f7b804d184f8af92fe4ba3b0f7217e64be2",
+      "title": "Computation and logic in the real world : Third Conference on Computability in Europe, CiE 2007 Siena, Italy, June 18-23, 2007 : proceedings",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available for this conference proceedings volume, so I cannot assess whether any contained work addresses the conjectured Θ(d² log n) relationship between geometric entropy of tautological ideals and Boolean circuit depth.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:62f6a2bb598023fa66600d12da9893d2acfee8a8",
+      "title": "Computation and logic in the real world : Third Conference on Computability in Europe, CiE 2007 Siena, Italy, June 18-23, 2007 : proceedings",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available for this conference proceedings volume, so it is impossible to determine whether any contained work addresses the specific Θ(d^2 log n) relationship between geometric entropy of tautological ideals and Boolean circuit depth.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 2
+  }
+}
