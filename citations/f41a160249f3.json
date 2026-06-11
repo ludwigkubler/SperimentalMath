@@ -1,0 +1,31 @@
+{
+  "entry_id": "f41a160249f3",
+  "ts": 1781184094.1804152,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:f7383478b281cc97e3fc6b3965ddf85356896dde",
+      "title": "Theory and applications of satisfiability testing - SAT 2009 : 12th international conference, SAT 2009 Swansea, UK, June 30 - July 3, 2009 : proceedings",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available for this conference proceedings volume, so I cannot assess whether any contained work supports, refutes, or is orthogonal to the conjectured link between quandle entanglements and DPLL tree size.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10.1007/S100510170101",
+      "title": "Statistical physics analysis of the computational complexity of solving random satisfiability problems using backtrack algorithms",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available to assess, so I cannot determine whether the paper supports, refutes, or is orthogonal to the conjecture linking quandle entanglements to DPLL search tree size.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 2
+  }
+}
