@@ -1,0 +1,40 @@
+{
+  "entry_id": "9e4705565790",
+  "ts": 1781159725.2330503,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2407.04826",
+      "title": "Multi-strategy Based Quantum Cost Reduction of Quantum Boolean Circuits",
+      "abstract_excerpt": "The construction of quantum computers is based on the synthesis of low-cost quantum circuits. The quantum circuit of any Boolean function expressed in a Positive Polarity Reed-Muller $PPRM$ expansion can be synthesized using Multiple-Control Toffoli ($MCT$) gates. This paper proposes two algorithms to construct a quantum circuit for any Boolean function expressed in a Positive Polarity Reed-Muller $PPRM$ expansion. The Boolean function can be expressed with various algebraic forms, so there are ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract focuses on synthesizing low-cost quantum circuits from Boolean functions via MCT/NCV gate decomposition ('reduction in the quantum cost of synthesized quantum circuits'), with no mention of Kähler manifolds, geometric entropy, or entanglement complexity as defined in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2111.08018",
+      "title": "Entanglement dynamics in hybrid quantum circuits",
+      "abstract_excerpt": "The central philosophy of statistical mechanics (stat-mech) and random-matrix theory of complex systems is that while individual instances are essentially intractable to simulate, the statistical properties of random ensembles obey simple universal \"laws\". This same philosophy promises powerful methods for studying the dynamics of quantum information in ideal and noisy quantum circuits -- for which classical description of individual circuits is expected to be generically intractable. Here, we r",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract reviews statistical-mechanics approaches to entanglement dynamics in random quantum circuits, with no mention of Kähler manifolds, geometric entropy, or boolean circuit complexity. It shares only loose vocabulary ('circuits', 'entanglement') with the conjecture and does not address the claimed mge(C) = Θ(ec(C)) relation.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1407.6169",
+      "title": "Multiplicative Complexity of Vector Valued Boolean Functions",
+      "abstract_excerpt": "We consider the multiplicative complexity of Boolean functions with multiple bits of output, studying how large a multiplicative complexity is necessary and sufficient to provide a desired nonlinearity. For so-called $ΣΠΣ$ circuits, we show that there is a tight connection between error correcting codes and circuits computing functions with high nonlinearity. Combining this with known coding theory results, we show that functions with $n$ inputs and $n$ outputs with the highest possible nonlinea",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses multiplicative complexity (AND gate counts) of Boolean functions and its connection to error-correcting codes and nonlinearity, with no mention of Kähler manifolds, geometric entropy, or entanglement complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

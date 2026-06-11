@@ -1,0 +1,40 @@
+{
+  "entry_id": "bfa78ade6e05",
+  "ts": 1781157194.0373518,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2408.12265",
+      "title": "Classifying Entanglement by Algebraic Geometry",
+      "abstract_excerpt": "Quantum Entanglement is one of the key manifestations of quantum mechanics that separate the quantum realm from the classical one. Characterization of entanglement as a physical resource for quantum technology became of uppermost importance. While the entanglement of bipartite systems is already well understood, the ultimate goal to cope with the properties of entanglement of multipartite systems is still far from being realized. This dissertation covers characterization of multipartite entangle",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses classifying multipartite quantum entanglement via secant varieties of Segre varieties and tensor ranks under SLOCC, with no mention of Hodge classes, their minimal order, Boolean circuits, or circuit entanglement complexity. It shares the algebraic-geometry framework but does not interact with the specific claim linking Hodge class order to Boolean circuit entanglement complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1910.09665",
+      "title": "Fine-Structure Classification of Multiqubit Entanglement by Algebraic Geometry",
+      "abstract_excerpt": "We present a fine-structure entanglement classification under stochastic local operation and classical communication (SLOCC) for multiqubit pure states. To this end, we employ specific algebraic-geometry tools that are SLOCC invariants, secant varieties, to show that for $n$-qubit systems there are $\\lceil\\frac{2^{n}}{n+1}\\rceil$ entanglement families. By using another invariant, $\\ell$-multilinear ranks, each family can be further split into a finite number of subfamilies. Not only does this me",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract uses algebraic geometry tools (secant varieties, multilinear ranks) to classify multiqubit entanglement under SLOCC, but says nothing about Hodge classes, their minimal order, or Boolean circuit entanglement complexity e(C). It shares vocabulary (algebraic geometry, entanglement) without addressing the specific h = O(e(C)) claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2504.11525",
+      "title": "Entangled Subspaces through Algebraic Geometry",
+      "abstract_excerpt": "We propose an algebraic geometry-inspired approach for constructing entangled subspaces within the Hilbert space of a multipartite quantum system. Specifically, our method employs a modified Veronese embedding, restricted to the conic, to define subspaces within the symmetric part of the Hilbert space. By utilizing this technique, we construct the minimal-dimensional, non-orthogonal yet Unextendible Product Basis (nUPB), enabling the decomposition of the multipartite Hilbert space into a two-dim",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes constructing entangled subspaces via a modified Veronese embedding restricted to the conic, addressing Hilbert space decompositions (GES/CES/nUPB) rather than Hodge classes in projective space or Boolean circuit entanglement complexity. It shares algebraic-geometry vocabulary but makes no claim about minimal order of Hodge classes scaling with circuit entanglement complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
