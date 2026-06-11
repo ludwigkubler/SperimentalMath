@@ -1,0 +1,40 @@
+{
+  "entry_id": "d227ccb56513",
+  "ts": 1781136356.9711046,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2501.16039",
+      "title": "Complexity of Constructing Minimal Faithful Permutation Representations for Fitting-free Groups",
+      "abstract_excerpt": "In this paper, we investigate the complexity of computing minimal faithful permutation representations for groups without abelian normal subgroups (a.k.a. Fitting-free groups). When our groups are given as quotients of permutation groups, we exhibit a polynomial-time algorithm for constructing such representations. Furthermore, in the setting of permutation groups, we obtain an $\\textsf{NC}$ procedure for computing the minimal faithful permutation degree, and a randomized $\\textsf{NC}$ ($\\textsf",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses computational complexity of constructing minimal faithful permutation representations for Fitting-free groups, with no mention of Frobenius-Schur indicators, CNF formulas, or boolean circuit entanglement complexity. It shares only the vague vocabulary of 'permutation representations' but does not interact with the specific FSI = Θ(EC) claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1411.6135",
+      "title": "Analogous Dynamics of Boolean Network",
+      "abstract_excerpt": "Different Boolean networks may reveal similar dynamics although their definition differs, then preventing their distinction from the observations. This raises the question about the sufficiency of a particular Boolean network for properly reproducing a modeled phenomenon to make realistic predictions. The question actually depends on the invariant properties of behaviorally similar Boolean networks. In this article, we address this issue by considering that the similarity is formalized by isomor",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses isomorphism-based similarity of Boolean network dynamics and invariant properties of interaction graphs under mode variation, with no mention of Frobenius-Schur indicators, CNF formulas, or circuit entanglement complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1304.5291",
+      "title": "Boolean and Non-Boolean Computation With Spin Devices",
+      "abstract_excerpt": "Recently several device and circuit design techniques have been explored for applying nano-magnets and spin torque devices like spin valves and domain wall magnets in computational hardware. However, most of them have been focused on digital logic, and, their benefits over robust and high performance CMOS remains debatable. Ultra-low voltage, current-switching operation of magneto-metallic spin torque devices can potentially be more suitable for non-Boolean computation schemes that can exploit c",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses spin-torque device circuits for Boolean and non-Boolean computation with energy benefits, with no mention of Frobenius-Schur indicators, permutation representations, or CNF entanglement complexity. It shares only the word 'Boolean' with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

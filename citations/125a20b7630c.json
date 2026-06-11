@@ -1,0 +1,40 @@
+{
+  "entry_id": "125a20b7630c",
+  "ts": 1781137542.6704001,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2505.15281",
+      "title": "A Unified Approach to Quantum Contraction and Correlation Coefficients",
+      "abstract_excerpt": "The maximal correlation coefficient measures the linear correlation in a bipartite distribution and contraction coefficients measure how much information is lost under a noisy channel. Remarkably, Raginsky established a close relation between these two concepts by showing that the $χ^2$ contraction coefficient equals the maximal correlation coefficient of the joint input/output distribution of the channel. In quantum theory, several generalizations of these concepts have been proposed, but none ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quantum correlation/contraction coefficients and noisy channels, with no mention of Grothendieck-Riemann-Roch, Tseitin formulas, or resolution proof width. It shares no substantive content with the conjecture beyond the generic word 'correlation'.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2209.13894",
+      "title": "The Isabelle Community Benchmark",
+      "abstract_excerpt": "Choosing hardware for theorem proving is no simple task: automated provers are highly complex and optimized programs, often utilizing a parallel computation model, and there is little prior research on the hardware impact on prover performance. To alleviate the problem for Isabelle, we initiated a community benchmark where the build time of HOL-Analysis is measured. On $54$ distinct CPUs, a total of $669$ runs with different Isabelle configurations were reported by Isabelle users. Results range ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a hardware benchmark for the Isabelle theorem prover measuring CPU performance on HOL-Analysis build times, with no connection to Grothendieck-Riemann-Roch, Tseitin formulas, or resolution proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2506.05749",
+      "title": "Investigating the Relationship between the Weighted Figure of Merit and Rosin's Measure",
+      "abstract_excerpt": "Many studies have been conducted to solve the problem of approximating a digital boundary by piece straight-line segments for the further processing required in computer vision applications. The authors of these studies compared their schemes to determine the best one. The initial measure used to assess the goodness of fit of a polygonal approximation was the figure of merit. Later,it was noted that this measure was not an appropriate metric for a valid reason which is why Rosin-through mathemat",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns polygonal approximation of digital boundaries in computer vision, comparing the weighted figure of merit and Rosin's measure — entirely unrelated to Grothendieck-Riemann-Roch rank, Tseitin formulas, or resolution proof width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

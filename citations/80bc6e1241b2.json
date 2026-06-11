@@ -1,0 +1,40 @@
+{
+  "entry_id": "80bc6e1241b2",
+  "ts": 1781136903.3586245,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2412.13827",
+      "title": "Bounds for the Zeros of Quaternionic Polynomials and Regular Functions Using Matrix Techniques",
+      "abstract_excerpt": "We investigate the problem of determining the zeros of quaternionic polynomials using matrix method. In a recent paper, Dar et al. \\cite{RD} proved that the zeros of a quaternionic polynomial and the left eigenvalues of the corresponding companion matrix are identical. Building on this, we employ various newly developed matrix techniques to establish several results concerning the location of the zeros of regular polynomials of a quaternionic variable with quaternionic coefficients. These findin",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'zeros of quaternionic polynomials' and 'left eigenvalues of the corresponding companion matrix' via matrix techniques, which shares only the word 'quaternionic' with the conjecture and does not address quaternionic Kähler metrics, graph indices, or SAT complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0208005v4",
+      "title": "Quaternionic Monge-Ampere equations",
+      "abstract_excerpt": "The main result of this paper is the existence and uniqueness of solution of the Dirichlet problem for quaternionic Monge-Ampere equations in quaternionic strictly pseudoconvex bounded domains in H^n. We continue the study of the theory of plurisubharmonic functions of quaternionic variables started",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns existence/uniqueness of solutions to quaternionic Monge-Ampère equations on pseudoconvex domains in H^n, which shares quaternionic vocabulary but does not address quaternionic Kähler metrics on graphs or SAT clause complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2504.19833",
+      "title": "Quantum Error Correction in Quaternionic Hilbert Spaces",
+      "abstract_excerpt": "We propose quaternion-based strategies for quantum error correction by extending quantum mechanics into quaternionic Hilbert spaces. Building on the properties of quaternionic quantum states, we define quaternionic analogues of Pauli operators and quantum gates, ensuring inner product preservation and Hilbert space conditions. A simple encoding scheme maps logical qubits into quaternionic systems, introducing natural redundancy and enhanced resilience against noise. We construct a quaternionic e",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'quaternion-based strategies for quantum error correction' in 'quaternionic Hilbert spaces,' which shares only the word 'quaternionic' with the conjecture but does not address quaternionic Kähler metrics, graph indices, or SAT complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
