@@ -1,0 +1,40 @@
+{
+  "entry_id": "60e21f347dbb",
+  "ts": 1781215793.3835845,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2106.10603",
+      "title": "Eichler-Shimura relations for local Shimura varieties",
+      "abstract_excerpt": "In this note, we discuss several forms of the Eichler-Shimura relation for the compactly supported cohomology of local Shimura varieties, using the work of Fargues-Scholze.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Eichler-Shimura relations for local Shimura varieties, but does not mention Hecke operators, modular forms, or Boolean satisfiability problem, which are key components of the conjecture, as seen in the phrase 'Eichler-Shimura relation for the compactly supported cohomology of local Shimura varieties'.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2203.09355",
+      "title": "Eichler-Shimura Relation on Intersection Cohomology",
+      "abstract_excerpt": "We prove the Eichler-Shimura relation on intersection cohomolgoy of minimal compactifications of Shimura Varieties of Hodge type.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the Eichler-Shimura relation on intersection cohomology, which shares vocabulary with the conjecture, but does not mention Hecke operators, CNF, or resolution proof width, and thus does not interact with the specific claim.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2102.13099",
+      "title": "p-adic Eichler-Shimura maps for the modular curve",
+      "abstract_excerpt": "We give a new proof of Faltings's p-adic Eichler-Shimura decomposition of the modular curves via BGG methods and the Hodge-Tate period map. The key property is the relation between the Tate module and the Faltings extension, which was already used in the original proof. Then, we construct overconvergent Eichler-Shimura (ES) maps for the modular curves providing ''the second half'' of the overconvergent ES map of Andreatta-Iovita-Stevens. We use higher Coleman theory on the modular curve develope",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses p-adic Eichler-Shimura maps and their properties, but does not mention Boolean Satisfiability Problem, resolution proof width, or any correlation with logarithmic terms, making it orthogonal to the conjecture.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

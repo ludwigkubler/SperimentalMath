@@ -1,0 +1,40 @@
+{
+  "entry_id": "d3df88d544f4",
+  "ts": 1781215552.4876602,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2012.10249",
+      "title": "Reduced-Rank Tensor-on-Tensor Regression and Tensor-variate Analysis of Variance",
+      "abstract_excerpt": "Fitting regression models with many multivariate responses and covariates can be challenging, but such responses and covariates sometimes have tensor-variate structure. We extend the classical multivariate regression model to exploit such structure in two ways: first, we impose four types of low-rank tensor formats on the regression coefficients. Second, we model the errors using the tensor-variate normal distribution that imposes a Kronecker separable format on the covariance matrix. We obtain ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses tensor-variate regression and analysis of variance, but does not mention graphical tensors, k-regular graphs, or communication complexity rank, which are central to the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1407.1593",
+      "title": "A Constructive Algorithm for Decomposing a Tensor into a Finite Sum of Orthonormal Rank-1 Terms",
+      "abstract_excerpt": "We propose a constructive algorithm that decomposes an arbitrary real tensor into a finite sum of orthonormal rank-1 outer products. The algorithm, named TTr1SVD, works by converting the tensor into a tensor-train rank-1 (TTr1) series via the singular value decomposition (SVD). TTr1SVD naturally generalizes the SVD to the tensor regime with properties such as uniqueness for a fixed order of indices, orthogonal rank-1 outer product terms, and easy truncation error quantification. Using an outer p",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses a constructive algorithm for decomposing tensors, but does not mention graphical tensors, k-regular graphs, or communication complexity rank, which are central to the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2401.06857",
+      "title": "Low-Rank Tensor Decomposition over Finite Fields",
+      "abstract_excerpt": "We show that finding rank-$R$ decompositions of a 3D tensor, for $R\\le 4$, over a fixed finite field can be done in polynomial time. However, if some cells in the tensor are allowed to have arbitrary values, then rank-2 is NP-hard over the integers modulo 2. We also explore rank-1 decomposition of a 3D tensor and of a matrix where some cells are allowed to have arbitrary values.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses low-rank tensor decomposition over finite fields, which shares vocabulary with the conjecture, but does not interact with the specific claim about the linear correlation between minimal index and communication complexity rank of graphical tensors, as driven by the phrase 'finding rank-$R$ decompositions of a 3D tensor'.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

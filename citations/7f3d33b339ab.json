@@ -1,0 +1,40 @@
+{
+  "entry_id": "7f3d33b339ab",
+  "ts": 1781215287.9896128,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2103.10009",
+      "title": "Categorification of DAHA and Macdonald polynomials",
+      "abstract_excerpt": "We describe a categorification of the Double Affine Hecke Algebra (${\\mathcal{H}\\kern -.4em\\mathcal{H}}$) associated with an affine Lie algebra $\\widehat{\\mathfrak{g}}$, including a categorification of the polynomial representation and Macdonald polynomials.\n  Our categorification results are presented in the derived setting, focusing on the derived category of graded modules over the Lie superalgebra ${\\mathfrak I}[ξ]$, where ${\\mathfrak I} \\subset \\widehat{\\mathfrak{g}}$ is the Iwahori subalge",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns categorification of the Double Affine Hecke Algebra and Macdonald polynomials via derived categories of Lie superalgebra modules, with no mention of Tseitin formulas, resolution proof width, or any proof-complexity notion. It shares only the broad term 'categorification' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1801.05145",
+      "title": "Monoidal categorification of cluster algebras (merged version)",
+      "abstract_excerpt": "We prove that the quantum cluster algebra structure of a unipotent quantum coordinate ring $A_q(\\mathfrak{n}(w))$, associated with a symmetric Kac-Moody algebra and its Weyl group element $w$, admits a monoidal categorification via the representations of symmetric Khovanov-Lauda- Rouquier algebras. In order to achieve this goal, we give a formulation of monoidal categorifications of quantum cluster algebras and provide a criterion for a monoidal category of finite-dimensional graded $R$-modules ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses monoidal categorification of cluster algebras and quantum cluster algebra structures, which shares vocabulary with the conjecture, but does not interact with the specific claim about the correlation between minimal order of categorification and resolution proof width.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1307.4073",
+      "title": "A Note On Heisenberg Categorification",
+      "abstract_excerpt": "A categorification of the Heisenberg algebra is constructed in by Khovanov using graphical calculus, and left with a conjecture on the isomorphism between the Heisenberg algebra and Grothendieck ring of the constructed category. We give a proof of Khovanov's conjectured statement in this paper from a categorification of some deformed Heisenberg algebra.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses a categorification of the Heisenberg algebra and a proof of a conjecture related to it, but does not mention Tseitin formulas, resolution proof width, or any correlation between categorification order and proof width, as stated in the conjecture under review.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

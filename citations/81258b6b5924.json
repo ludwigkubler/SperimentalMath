@@ -1,0 +1,40 @@
+{
+  "entry_id": "81258b6b5924",
+  "ts": 1781217808.3866956,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0706.3841",
+      "title": "Arithmetic lattices and weak spectral geometry",
+      "abstract_excerpt": "This note is an expansion of three lectures given at the workshop \"Topology, Complex Analysis and Arithmetic of Hyperbolic Spaces\" held at Kyoto University in December of 2006 and will appear in the proceedings for this workshop.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract only states this is an expansion of three lectures on 'Topology, Complex Analysis and Arithmetic of Hyperbolic Spaces' with no technical content disclosed, so it is impossible to determine whether it addresses arithmetic genus or communication complexity rank variance.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2111.12700",
+      "title": "Universality in long-distance geometry and quantum complexity",
+      "abstract_excerpt": "In physics, two systems that radically differ at short scales can exhibit strikingly similar macroscopic behaviour: they are part of the same long-distance universality class. Here we apply this viewpoint to geometry and initiate a program of classifying homogeneous metrics on group manifolds by their long-distance properties. We show that many metrics on low-dimensional Lie groups have markedly different short-distance properties but nearly identical distance functions at long distances, and pr",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses universality classes of homogeneous metrics on Lie groups and quantum complexity geometry, with no mention of arithmetic genus, configuration spaces, or communication complexity rank variance. It shares the loose vocabulary of 'complexity' and 'geometry' but does not interact with the specific claim that g = Θ(R(φ)).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1710.09502",
+      "title": "Barriers for Rank Methods in Arithmetic Complexity",
+      "abstract_excerpt": "Arithmetic complexity is considered simpler to understand than Boolean complexity, namely computing Boolean functions via logical gates. And indeed, we seem to have significantly more lower bound techniques and results in arithmetic complexity than in Boolean complexity. Despite many successes and rapid progress, however, challenges like proving super-polynomial lower bounds on circuit or formula size for explicit polynomials, or super-linear lower bounds on explicit 3-dimensional tensors, remai",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses barriers to rank methods for proving tensor/Waring rank lower bounds in arithmetic complexity, with no mention of arithmetic genus, configuration spaces, or communication complexity rank variance. It shares the vocabulary of 'rank' and 'arithmetic' but does not address the specific claim relating genus to rank variance.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}
