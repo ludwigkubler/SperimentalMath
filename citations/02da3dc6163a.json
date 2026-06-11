@@ -1,0 +1,40 @@
+{
+  "entry_id": "02da3dc6163a",
+  "ts": 1781196095.5675044,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2504.17098",
+      "title": "Insertion algorithms and pattern avoidance on trees arising in the Kapranov embedding of $\\overline{M}_{0,n+3}$",
+      "abstract_excerpt": "We resolve a question of Gillespie, Griffin, and Levinson that asks for a combinatorial bijection between two classes of trivalent trees, tournament trees and slide trees, that both naturally arise in the intersection theory of the moduli space $\\overline{M}_{0,n+3}$ of stable genus zero curves with $n+3$ marked points. Each set of trees enumerates the same intersection product of certain pullbacks of $ψ$ classes under forgetting maps.\n  We give an explicit combinatorial bijection between these ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns combinatorial bijections between trivalent trees in the intersection theory of $\\overline{M}_{0,n+3}$, with no mention of Tseitin formulas, resolution proof width, DPLL, or monomial representations of clauses.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1711.00469",
+      "title": "Scattering Amplitudes from Intersection Theory",
+      "abstract_excerpt": "We use Picard-Lefschetz theory to prove a new formula for intersection numbers of twisted cocycles associated to a given arrangement of hyperplanes. In a special case when this arrangement produces the moduli space of punctured Riemann spheres, intersection numbers become tree-level scattering amplitudes of quantum field theories in the Cachazo-He-Yuan formulation.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Picard-Lefschetz theory, twisted cocycles, hyperplane arrangements, and scattering amplitudes — it has no connection to Tseitin formulas, resolution proof width, or DPLL/SAT monomial representations referenced in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1606.09337",
+      "title": "Comptage des multiplicités dans une hypersurface sur un corps fini",
+      "abstract_excerpt": "In this paper, we consider a problem of counting multiplicities. We fix a counting function of multiplicity of rational points in a hypersurface of a projective space over a finite field, and we give an upper bound for the sum with respect to this counting function in terms of the degree of the hypersurface, the dimension and the cardinality of the finite field. This upper bound gives a description of the complexity of the singular locus of this hypersurface. In order to obtain this upper bound,",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns counting multiplicities of singular points on hypersurfaces over finite fields using an 'intersection tree' from intersection theory, with no mention of Tseitin formulas, resolution proof width, DPLL, or monomial representations of clauses. It shares no substantive claim with the conjecture about w(φ) = Θ(M(φ)).",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

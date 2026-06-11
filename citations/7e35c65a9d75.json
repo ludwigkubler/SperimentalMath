@@ -1,0 +1,31 @@
+{
+  "entry_id": "7e35c65a9d75",
+  "ts": 1781193653.8595777,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.1016/J.JALGEBRA.2005.12.027",
+      "title": "A characterization of the full wreath product",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available to assess; the title 'A characterization of the full wreath product' suggests pure algebraic content unrelated to resolution proof width, but without the abstract text I cannot make a confident determination.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10.1002/jcd.21995",
+      "title": "Classification of Minimal Blocking Sets in \nPG\n(\n2 , 11\n) With a Nontrivial Automorphism Group",
+      "abstract_excerpt": "We obtain, by computer, a full classification up to equivalence of all minimal blocking sets with a nontrivial automorphism group in the Desarguesian projective plane of order 11. We list the resulting numbers of sets according to their size and the order of their automorphism group. For the minimal blocking sets with the larger automorphism groups, explicit descriptions are given. We also give a list of all blocking semiovals among the results. In contrast to similar work on the planes of small",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns classification of minimal blocking sets in a Desarguesian projective plane PG(2,11) with nontrivial automorphism groups, with no mention of quasigroups associated to Boolean formulas or resolution proof width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}

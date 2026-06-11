@@ -1,0 +1,40 @@
+{
+  "entry_id": "55af98669a11",
+  "ts": 1781194719.0836866,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1110.6618",
+      "title": "Brauer relations in finite groups II - quasi-elementary groups of order p^aq",
+      "abstract_excerpt": "This is the second in a series of papers investigating the space of Brauer relations of a finite group, the kernel of the natural map from its Burnside ring to the rational representation ring. The first paper classified all primitive Brauer relations, that is those that do not come from proper subquotients. In the case of quasi-elementary groups the description is intricate, and it does not specify groups that have primitive relations in terms of generators and relations. In this paper we do th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract focuses on classifying primitive Brauer relations in quasi-elementary finite groups of order p^aq, with no mention of Boolean circuits, Frege proofs, or proof complexity. It shares only the term 'Brauer' with the conjecture and does not engage with the claimed correlation.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/hep-ph/0610012v1",
+      "title": "Tevatron-for-LHC Report of the QCD Working Group",
+      "abstract_excerpt": "The experiments at Run 2 of the Tevatron have each accumulated over 1 inverse femtobarn of high-transverse momentum data. Such a dataset allows for the first precision (i.e. comparisons between theory and experiment at the few percent level) tests of QCD at a hadron collider. While the Large Hadron ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns QCD precision tests at the Tevatron and LHC hadron colliders, which has no interaction with Brauer groups, Boolean circuits, or Frege proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0301180v6",
+      "title": "A generalization of the topological Brauer group",
+      "abstract_excerpt": "In the present paper we study some homotopy invariants which can be defined by means of bundles with fiber a matrix algebra. We also introduce some generalization of the Brauer group in the topological context and show that any its element can be represented as a locally trivial bundle with a group ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'homotopy invariants' and 'locally trivial bundles' in a topological generalization of the Brauer group, with no mention of Boolean circuits, Frege proofs, or proof complexity. It shares only the 'Brauer group' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
