@@ -1,0 +1,40 @@
+{
+  "entry_id": "6ff7dfc0982a",
+  "ts": 1781179026.7743466,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0603338v2",
+      "title": "Index formula for MacPherson cycles of affine algebraic varieties",
+      "abstract_excerpt": "We give explicit MacPherson cycles for the Chern-MacPherson class of a closed affine algebraic variety $X$ and for any constructible function $α$ with respect to a complex algebraic Whitney stratification of $X$.\n  We define generalized degrees of the global polar varieties and of the MacPherson cyc",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns MacPherson cycles and Chern-MacPherson classes of affine algebraic varieties, with no mention of Hodge structure generators, Tseitin formulas, or Frege proof depth. It shares only the broad framework of algebraic geometry but does not interact with the specific conjectured correlation.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0808.3970",
+      "title": "Generators and defining relations for ring of differential operators on smooth affine algebraic variety in prime characteristic",
+      "abstract_excerpt": "For ring of differential operators on smooth affine algebraic variety over perfect field of prime characteristic a set of algebra generators and a set of defining relations are found explicitly.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns generators and defining relations for rings of differential operators on smooth affine varieties in prime characteristic, with no mention of Hodge structures, Tseitin formulas, or Frege proof depth. It shares only loose vocabulary ('generators', 'algebraic variety') with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0606655v3",
+      "title": "Hodge genera of algebraic varieties, I",
+      "abstract_excerpt": "The aim of this paper is to study the behavior of Hodge-theoretic (intersection homology) genera and their associated characteristic classes under proper morphisms of complex algebraic varieties. We obtain formulae that relate (parametrized families of) global invariants of a complex algebraic varie",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Hodge-theoretic genera and characteristic classes under proper morphisms of algebraic varieties, with no mention of Tseitin formulas, Frege proof depth, or generators of Hodge structures tied to Boolean circuit complexity. It shares only the 'Hodge-theoretic' vocabulary without addressing the specific conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

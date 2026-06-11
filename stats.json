@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-06-11T11:47:13Z",
-  "total_cycles": 6695,
+  "last_update_utc": "2026-06-11T12:47:07Z",
+  "total_cycles": 6705,
   "verdict_counts": {
-    "INCONCLUSIVE": 4289,
+    "INCONCLUSIVE": 4296,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 2300,
+    "BARRIER_HIT": 2303,
     "SCOOPED": 86
   },
-  "unique_field_A": 2623,
+  "unique_field_A": 2625,
   "top_fields_A": [
     [
       "Resolution proof complexity",
@@ -36,7 +36,7 @@
     ],
     [
       "Quandle Theory",
-      58
+      59
     ],
     [
       "p-adic Analysis",
@@ -48,7 +48,7 @@
     ],
     [
       "Algebraic K-Theory",
-      46
+      47
     ],
     [
       "Algebraic Combinatorics",
