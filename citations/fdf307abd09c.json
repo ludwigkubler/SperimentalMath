@@ -1,0 +1,40 @@
+{
+  "entry_id": "fdf307abd09c",
+  "ts": 1781197569.5161657,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2408.14265",
+      "title": "ALMA Memo 628 -- High-cadence observations of the Sun",
+      "abstract_excerpt": "The Atacama Large Millimeter/submillimeter Array (ALMA) offers new diagnostic capabilities for studying the Sun, providing complementary insights through high spatial and temporal resolution at millimeter wavelengths. ALMA acts as a linear thermometer for atmospheric gas, aiding in understanding the solar atmosphere's structure, dynamics, and energy balance. Given the Sun's complex emission patterns and rapid evolution, high-cadence imaging is essential for solar observations. Snapshot imaging i",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns ALMA solar observations and millimeter-wavelength imaging cadence, with no connection to Boolean circuits, Frege proof complexity, or induction dimension.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1902.02856",
+      "title": "The ALMA Development Roadmap",
+      "abstract_excerpt": "The present document outlines a roadmap for future developments that will significantly expand ALMA's capabilities and enable it to produce even more exciting science in the coming decades. The proposed developments are motivated by the groundbreaking results achieved by ALMA during its first five years of operation. The roadmap described here is based on input on new scientific directions and technical feasibility of future developments from the ALMA Science Advisory Committee (ASAC), the commu",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract is about the ALMA radio telescope development roadmap (receiver bandwidth upgrades, astronomy), which has no relation to Boolean circuits, Frege proof complexity, or local induction dimension.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1905.09064",
+      "title": "Wide Bandwidth Considerations for ALMA Band 2",
+      "abstract_excerpt": "One of the main considerations in the ALMA Development Roadmap for the future of operations beyond 2030 is to at least double its on-sky instantaneous bandwidth capabilities. Thanks to the technological innovations of the past two decades, we can now produce wider bandwidth receivers than were foreseen at the time of the original ALMA specifications. In several cases, the band edges set by technology at that time are also no longer relevant. In this memo, we look into the scientific advantages o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns ALMA radio astronomy receiver bandwidth for Band 2 observations, with no relation to Boolean circuits, Frege proof complexity, or local induction dimension. It shares no vocabulary or framework with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

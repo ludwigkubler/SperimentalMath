@@ -1,0 +1,40 @@
+{
+  "entry_id": "1f4b1563edf7",
+  "ts": 1781199436.4393342,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/9906088v1",
+      "title": "Mixed Hodge Complexes on Algebraic Varieties",
+      "abstract_excerpt": "We introduce the notion of mixed Hodge complex on an algebraic variety, improving Du Bois' filtered complex, and relate Deligne's theory of mixed Hodge structure with the theory of mixed Hodge module. This was supposed to be true, but is quite nontrivial, because the theory of mixed Hodge module doe",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'mixed Hodge complex' and 'mixed Hodge module' on algebraic varieties, which shares vocabulary with Hodge theory but does not address minimal Hodge index, CNF formulas, or resolution proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0606655v3",
+      "title": "Hodge genera of algebraic varieties, I",
+      "abstract_excerpt": "The aim of this paper is to study the behavior of Hodge-theoretic (intersection homology) genera and their associated characteristic classes under proper morphisms of complex algebraic varieties. We obtain formulae that relate (parametrized families of) global invariants of a complex algebraic varie",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Hodge-theoretic genera and characteristic classes under proper morphisms of complex algebraic varieties, with no mention of CNF formulas, resolution proof width, or any connection to proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2002.01589",
+      "title": "Mixed Hodge Structures on Alexander Modules",
+      "abstract_excerpt": "Motivated by the limit mixed Hodge structure on the Milnor fiber of a hypersurface singularity germ, we construct a natural mixed Hodge structure on the torsion part of the Alexander modules of a smooth connected complex algebraic variety. More precisely, let $U$ be a smooth connected complex algebraic variety and let $f\\colon U\\to \\mathbb{C}^*$ be an algebraic map inducing an epimorphism in fundamental groups. The pullback of the universal cover of $\\mathbb{C}^*$ by $f$ gives rise to an infinit",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract constructs mixed Hodge structures on torsion parts of Alexander modules of smooth complex algebraic varieties, with no mention of CNF formulas, resolution proof width, or any complexity-theoretic notion. It shares only the broad 'Hodge' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

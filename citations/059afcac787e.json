@@ -1,0 +1,40 @@
+{
+  "entry_id": "059afcac787e",
+  "ts": 1781198750.3722284,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1011.5476",
+      "title": "Coxeter orbits and Brauer trees",
+      "abstract_excerpt": "We study the cohomology with modular coefficients of Deligne-Lusztig varieties associated to Coxeter elements. Under some torsion-free assumption on the cohomology we derive several results on the principal l-block of a finite reductive group G(F_q) when the order of q modulo l is assumed to be the Coxeter number. These results include the determination of the planar embedded Brauer tree of the block (as conjectured by Hiss, Lübeck and Malle) and the derived equivalence predicted by the geometri",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Brauer trees of principal l-blocks of finite reductive groups via Deligne-Lusztig variety cohomology, with no mention of Boolean satisfiability, DPLL search, or Tseitin formulas. It shares only the 'Brauer' vocabulary and does not interact with the conjectured correlation.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0810.2409",
+      "title": "Graded Brauer Tree Algebras",
+      "abstract_excerpt": "In this paper we construct non-negative gradings on a basic Brauer tree algebra $A_Γ$ corresponding to an arbitrary Brauer tree $Γ$ of type $(m,e)$. We do this by transferring gradings via derived equivalence from a basic Brauer tree algebra $A_S$, whose tree is a star with the exceptional vertex in the middle, to $A_Γ$. The grading on $A_S$ comes from the tight grading given by the radical filtration. To transfer gradings via derived equivalence we use tilting complexes constructed by taking Gr",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns gradings on Brauer tree algebras via derived equivalence and tilting complexes, with no mention of Boolean satisfiability, DPLL, Tseitin formulas, or search tree width. It shares only the 'Brauer' vocabulary and does not interact with the conjecture's claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2303.14697",
+      "title": "The central tree property and algorithmic problems on subgroups of free groups",
+      "abstract_excerpt": "We study the average case complexity of the uniform membership problem for subgroups of free groups, and we show that it is orders of magnitude smaller than the worst case complexity of the best known algorithms. This applies to subgroups given by a fixed number of generators as well as to subgroups given by an exponential number of generators. The main idea behind this result is to exploit a generic property of tuples of words, called the central tree property. An application is given to the av",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns average-case complexity of the uniform membership problem for subgroups of free groups via the 'central tree property,' with no mention of Brauer groups, Boolean satisfiability, DPLL search trees, or Tseitin formulas. It shares no substantive interaction with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
