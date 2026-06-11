@@ -1,0 +1,40 @@
+{
+  "entry_id": "ee59e3ce108f",
+  "ts": 1781177937.5192602,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0912.2255",
+      "title": "Test ideals via algebras of $p^{-e}$-linear maps",
+      "abstract_excerpt": "Continuing ideas of a recent preprint of Schwede arXiv:0906.4313 we study test ideals by viewing them as minimal objects in a certain class of $F$-pure modules over algebras of p^{-e}-linear operators. This shift in the viewpoint leads to a simplified and generalized treatment, also allowing us to define test ideals in non-reduced settings.\n  In combining this with an observation of Anderson on the contracting property of p^{-e}-linear operators we obtain an elementary approach to test ideals in",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns test ideals and F-pure modules over algebras of p^{-e}-linear operators in positive-characteristic commutative algebra, with no mention of integer points on curves, CNF formulas, or resolution proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1812.11710",
+      "title": "Geometric Satake correspondence for affine Kac-Moody Lie algebras of type $A$",
+      "abstract_excerpt": "This is an informal expository article on geometric Satake correspondence for affine Kac-Moody Lie algebras of type $A$ given in arXiv:1810.04293. We emphasize formal analogies between this result and the author's earlier results on geometric approaches to the representation via quiver varieties.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns geometric Satake correspondence for affine Kac-Moody Lie algebras and quiver varieties, which has no connection to integer points on algebraic curves or resolution proof complexity for CNFs.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1912.00347",
+      "title": "Equiresidual algebraic geometry I: The affine theory",
+      "abstract_excerpt": "In this first work dedicated to the generalisation of classic algebraic geometry to non algebraically closed fields and axiomatisable classes of fields, we develop the foundations for equiresidual algebraic geometry (EQAG), i.e. algebraic geometry over any commutative field $k$, algebraically closed or not. This is possible thanks to the existence in non algebraically closed fields of many normic forms, i.e. homogeneous polynomials with no non-trivial zero rational in $k$, and relies on an equir",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns foundational algebraic geometry over non-algebraically closed fields (equiresidual Nullstellensatz, normic forms, special radicals), with no mention of integer points on curves, CNF formulas, or resolution proof complexity. It shares no interaction with the specific claim linking integer point counts to resolution proof length.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

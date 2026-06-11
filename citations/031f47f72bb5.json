@@ -1,0 +1,40 @@
+{
+  "entry_id": "031f47f72bb5",
+  "ts": 1781176697.6831858,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/hep-th/9701099v2",
+      "title": "Geometric Entropy and Curvature Coupling in Conical Spaces: zeta Function Approach",
+      "abstract_excerpt": "The local $ζ-$function approach is implemented to regularize the natural path integral definition of the geometric entropy in the large mass black hole Euclidean manifold. The case of a massless field coupled with the (off-shell) singular curvature is considered. It is proved that the geometric entr",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns geometric entropy in the context of black hole Euclidean manifolds and zeta function regularization in conical spaces, which shares only the term 'geometric entropy' with the conjecture but has no bearing on boolean functions, max-plus semirings, or communication complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/hep-th/9408089v1",
+      "title": "Geometric Entropy, Wave Functionals, and Fermions",
+      "abstract_excerpt": "We develop techniques for calculating the ground state wave functional and the geometric entropy for some simple field theories. Special attention is devoted to fermions, which present special technical difficulties in this regard. Explicit calculations are carried through for free mass bosons and f",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses geometric entropy in the context of quantum field theory wave functionals for bosons and fermions, which shares only the term 'geometric entropy' with the conjecture about boolean functions and max-plus semirings in communication complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0810.4728",
+      "title": "Geometric entropy of geodesic currents on free groups",
+      "abstract_excerpt": "A \\emph{geodesic current} on a free group $F$ is an $F$-invariant measure on the set $\\partial^2 F$ of pairs of distinct points of $\\partial F$. The space of geodesic currents on $F$ is a natural companion of Culler-Vogtmann's Outer space $cv(F)$ and studying them together yields new information about both spaces as well as about the group $Out(F)$. The main aim of this paper is to introduce and study the notion of {\\it geometric entropy} $h_T(μ)$ of a geodesic current $μ$ with respect to a poin",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'geometric entropy' of geodesic currents on free groups in the context of Outer space and Culler-Vogtmann theory, which shares only the term 'geometric entropy' with the conjecture but has no connection to boolean functions, max-plus characteristic polynomials, or communication complexity rank variance.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

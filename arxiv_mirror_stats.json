@@ -1,5 +1,5 @@
 {
-  "total": 3678,
+  "total": 3680,
   "by_category": {
     "math.CO": 739,
     "hep-th": 549,
@@ -59,14 +59,14 @@
     "math.CA": 5,
     "physics.flu-dyn": 5,
     "astro-ph.HE": 4,
+    "cond-mat.soft": 4,
     "cs.NE": 4,
     "math.GN": 4,
+    "math.SG": 4,
     "physics.optics": 4,
-    "cond-mat.soft": 3,
     "cs.SI": 3,
     "eess.SY": 3,
     "math.HO": 3,
-    "math.SG": 3,
     "physics.comp-ph": 3,
     "cond-mat.quant-gas": 2,
     "cs.AR": 2,
@@ -102,45 +102,45 @@
     "physics.space-ph": 1,
     "q-bio.CB": 1
   },
-  "embedded": 3673,
-  "fetched_span_h": 977.6238232013915,
+  "embedded": 3675,
+  "fetched_span_h": 985.6102298633258,
   "last_update": {
-    "last_update_ts": 1781143932.4822598,
+    "last_update_ts": 1781172686.9225004,
     "by_category": {
       "cs.CC": {
         "fetched": 50,
-        "new": 7,
-        "skipped": 43
+        "new": 0,
+        "skipped": 50
       },
       "cs.DS": {
         "fetched": 50,
-        "new": 8,
-        "skipped": 42
+        "new": 0,
+        "skipped": 50
       },
       "cs.LO": {
         "fetched": 50,
-        "new": 3,
-        "skipped": 47
+        "new": 0,
+        "skipped": 50
       },
       "math.CO": {
         "fetched": 50,
-        "new": 38,
-        "skipped": 12
+        "new": 0,
+        "skipped": 50
       },
       "math.LO": {
         "fetched": 50,
-        "new": 3,
-        "skipped": 47
+        "new": 0,
+        "skipped": 50
       },
       "math-ph": {
         "fetched": 50,
-        "new": 12,
-        "skipped": 38
+        "new": 2,
+        "skipped": 48
       },
       "hep-th": {
         "fetched": 50,
-        "new": 20,
-        "skipped": 30
+        "new": 0,
+        "skipped": 50
       }
     }
   }

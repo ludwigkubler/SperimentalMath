@@ -1,0 +1,31 @@
+{
+  "entry_id": "345192bbb945",
+  "ts": 1781177498.7386289,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:1810.09408",
+      "title": "Constructions of vector-valued modular forms of rank four and level one",
+      "abstract_excerpt": "This paper studies modular forms of rank four and level one. There are two possibilities for the isomorphism type of the space of modular forms that can arise from an irreducible representation of the modular group of rank four, and we describe when each case occurs for general choices of exponents ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns vector-valued modular forms of rank four and level one, which shares only superficial vocabulary ('rank', 'modular') with the conjecture and does not address tensor rank, CNF formulas, or resolution proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:10.1007/978-3-642-15461-4",
+      "title": "Swarm Intelligence - 7th International Conference, ANTS 2010, Brussels, Belgium, September 8-10, 2010. Proceedings",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available, and the title refers to a Swarm Intelligence conference proceedings, which has no apparent connection to modular tensor rank or resolution proof width; without abstract content I cannot determine relevance.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}
