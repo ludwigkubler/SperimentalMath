@@ -1,0 +1,40 @@
+{
+  "entry_id": "f6b9f3df33fb",
+  "ts": 1781209674.3304732,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1402.6984",
+      "title": "Tilting theory for trees via stable homotopy theory",
+      "abstract_excerpt": "We show that variants of the classical reflection functors from quiver representation theory exist in any abstract stable homotopy theory, making them available for example over arbitrary ground rings, for quasi-coherent modules on schemes, in the differential-graded context, in stable homotopy theory as well as in the equivariant, motivic, and parametrized variant thereof. As an application of these equivalences we obtain abstract tilting results for trees valid in all these situations, hence g",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns reflection functors and tilting theory for trees in stable homotopy theory ('abstract tilting results for trees valid in all these situations'), with no mention of quasi-categories associated with CNF formulas, DPLL search, or any complexity-theoretic correlation.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2305.03629",
+      "title": "Searching for Quasi-Periodic Eruptions using Machine Learning",
+      "abstract_excerpt": "Quasi-Periodic Eruptions (QPEs) are a rare phenomenon in which the X-ray emission from the nuclei of galaxies shows a series of large amplitude flares. Only a handful of QPEs have been observed but the possibility remains that there are as yet undetected sources in archival data. Given the volume of data available a manual search is not feasible, and so we consider an application of machine learning to archival data to determine whether a set of time-domain features can be used to identify furth",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes machine learning classification of X-ray lightcurves for 'Quasi-Periodic Eruptions' in astrophysics, which shares only the word 'quasi' with quasi-categories and has no connection to CNF formulas or DPLL search trees.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/q-alg/9611028v1",
+      "title": "Quasi Hopf Deformations of Quantum Groups",
+      "abstract_excerpt": "The search for elliptic quantum groups leads to a modified quantum Yang-Baxter relation and to a special class of quasi-triangular quasi Hopf algebras. This paper calculates deformations of standard quantum groups (with or without spectral parameter) in the category of quasi-Hopf algebras. An earlie",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns quasi-Hopf algebra deformations of quantum groups and the Yang-Baxter relation, with no mention of quasi-categories, CNF formulas, DPLL, or search tree width. The shared 'quasi' vocabulary is coincidental.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

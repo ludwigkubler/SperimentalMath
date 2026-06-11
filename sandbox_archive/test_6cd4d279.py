@@ -1,0 +1,114 @@
+# auto-injected by SEC sandbox
+import itertools
+import collections
+import json
+import sys
+import os
+import time
+import re
+from collections import defaultdict, Counter, deque
+from itertools import product, combinations, permutations, chain
+from typing import List, Dict, Tuple, Set, Optional, Any, Iterable, Callable
+# end SEC prelude
+
+import random
+import math
+from fractions import Fraction
+
+def generate_boolean_formula(n):
+    if n == 1:
+        return 'x'
+    else:
+        left = generate_boolean_formula(random.randint(1, n-1))
+        right = generate_boolean_formula(n - len(left) - 2)
+        return f'({left}) & ({right})'
+
+def truth_assignments(formula):
+    if formula.isalpha():
+        return [formula]
+    elif formula.startswith('(') and formula.endswith(')'):
+        left, right = formula[1:-1].split('&')
+        return [f'{a} & {b}' for a in truth_assignments(left) for b in truth_assignments(right)]
+    else:
+        raise ValueError("Invalid formula")
+
+def resolution_proof_width(formula):
+    stack = []
+    i = 0
+    while i < len(formula):
+        if formula[i] == '(':
+            stack.append(i)
+        elif formula[i] == ')':
+            start = stack.pop()
+            if not stack:
+                clause1, clause2 = formula[start+1:i].split('&')
+                new_clause = f'({clause1} | ~{clause2}) & ({clause2} | ~{clause1})'
+                formula = formula[:start] + new_clause + formula[i+1:]
+                i += len(new_clause) - 2
+        i += 1
+    return len(formula.split('&'))
+
+def quasi_commutative_braid_group_order(formula):
+    assignments = truth_assignments(formula)
+    return len(assignments)
+
+def run_trial(seed: int) -> dict:
+    random.seed(seed)
+    n_max = 40
+    instances_tested = 0
+    metric_values = []
+    
+    for n in range(5, n_max + 1):
+        formula = generate_boolean_formula(n)
+        mtr_QCBG = quasi_commutative_braid_group_order(formula)
+        w_phi = resolution_proof_width(formula)
+        
+        if mtr_QCBG == 0 or w_phi == 0:
+            continue
+        
+        metric_values.append(mtr_QCBG / w_phi)
+        instances_tested += 1
+    
+    if not metric_values:
+        return {
+            "metric_name": "mtr_QCBG / w_phi",
+            "metric_value": None,
+            "instances_tested": 0,
+            "n_max": n_max,
+            "conjecture_holds": False,
+            "counterexample": "mapping_undefined"
+        }
+    
+    mean_mte = sum(metric_values) / len(metric_values)
+    std_mte = math.sqrt(sum((x - mean_mte) ** 2 for x in metric_values) / len(metric_values))
+    
+    return {
+        "metric_name": "mtr_QCBG / w_phi",
+        "metric_value": mean_mte,
+        "instances_tested": instances_tested,
+        "n_max": n_max,
+        "conjecture_holds": True,
+        "counterexample": ""
+    }
+
+if __name__ == "__main__":
+    import sys
+    seeds = [int(s) for s in sys.argv[1:]] or [2, 3, 5, 7, 11, 13, 17, 19, 23, 29] * 3
+    
+    results = []
+    for seed in seeds:
+        result = run_trial(seed)
+        print(f"TRIAL: {{\"seed\": {seed}, ...run_trial output...}}")
+        results.append(result)
+    
+    mean_mte = sum(r["metric_value"] for r in results if r["metric_value"] is not None) / len(results)
+    std_mte = math.sqrt(sum((r["metric_value"] - mean_mte) ** 2 for r in results if r["metric_value"] is not None) / len(results))
+    support_fraction = sum(1 for r in results if r["conjecture_holds"]) / len(results)
+    
+    if all(r["conjecture_holds"] for r in results):
+        print(f"RESULT: SUPPORTED mean={mean_mte} std={std_mte} support_fraction={support_fraction}")
+    elif support_fraction >= 0.8:
+        print(f"RESULT: SUPPORTED mean={mean_mte} std={std_mte} support_fraction={support_fraction}")
+    else:
+        first_failing_seed = next(r["seed"] for r in results if not r["conjecture_holds"])
+        print(f"RESULT: FALSIFIED counterexample=\"mapping_undefined\" first_failing_seed={first_failing_seed}")

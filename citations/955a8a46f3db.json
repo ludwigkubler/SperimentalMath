@@ -1,0 +1,40 @@
+{
+  "entry_id": "955a8a46f3db",
+  "ts": 1781209164.644828,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2401.15683",
+      "title": "On Small-depth Frege Proofs for PHP",
+      "abstract_excerpt": "We study Frege proofs for the one-to-one graph Pigeon Hole Principle defined on the $n\\times n$ grid where $n$ is odd. We are interested in the case where each formula in the proof is a depth $d$ formula in the basis given by $\\land$, $\\lor$, and $\\neg$. We prove that in this situation the proof needs to be of size exponential in $n^{Ω(1/d)}$. If we restrict the size of each line in the proof to be of size $M$ then the number of lines needed is exponential in $n/(\\log M)^{O(d)}$. The main techni",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses size lower bounds for depth-d Frege proofs of the Pigeonhole Principle via switching lemmas, with no mention of Hodge bundles, algebraic varieties, or metric orders. It shares the 'Frege proof depth' vocabulary but does not interact with any correlation to Hodge bundle metric orders.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2111.07483",
+      "title": "Tradeoffs for small-depth Frege proofs",
+      "abstract_excerpt": "We study the complexity of small-depth Frege proofs and give the first tradeoffs between the size of each line and the number of lines. Existing lower bounds apply to the overall proof size -- the sum of sizes of all lines -- and do not distinguish between these notions of complexity.\n  For depth-$d$ Frege proofs of the Tseitin principle on the $n \\times n$ grid where each line is a size-$s$ formula, we prove that $\\exp(n/2^{Ω(d\\sqrt{\\log s})})$ many lines are necessary. This yields new lower bo",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns size/line tradeoffs for small-depth Frege proofs of the Tseitin principle using circuit correlation bounds, with no mention of Hodge bundles, algebraic varieties, or metric orders. It shares the 'Frege proof depth' vocabulary but does not interact with the proposed correlation to Hodge bundle metric order.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1912.03013",
+      "title": "The canonical pairs of bounded depth Frege systems",
+      "abstract_excerpt": "The canonical pair of a proof system $P$ is the pair of disjoint NP sets where one set is the set of all satisfiable CNF formulas and the other is the set of CNF formulas that have $P$-proofs bounded by some polynomial. We give a combinatorial characterization of the canonical pairs of depth~$d$ Frege systems. Our characterization is based on certain games, introduced in this article, that are parametrized by a number~$k$, also called the depth. We show that the canonical pair of a depth~$d$ Fre",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses combinatorial game characterizations of canonical pairs of bounded depth Frege systems and feasible interpolation via monotone circuits, with no mention of Hodge bundle metrics, algebraic varieties, or any geometric order quantity. It shares the 'Frege depth' vocabulary but does not interact with the conjectured correlation to Hodge bundle metric order.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

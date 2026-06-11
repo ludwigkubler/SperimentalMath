@@ -1,0 +1,40 @@
+{
+  "entry_id": "51897111b51e",
+  "ts": 1781208849.0175357,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1006.5752",
+      "title": "Solomon's induction in quasi-elementary groups",
+      "abstract_excerpt": "Given a finite group G, we address the following question: which multiples of the trivial representation are linear combinations of inductions of trivial representations from proper subgroups of G? By Solomon's induction theorem, all multiples are if G is not quasi-elementary. We complement this by showing that all multiples of p are if G is p-quasi-elementary and not cyclic, and that this is best possible.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Solomon's induction theorem for representations of quasi-elementary finite groups, which shares no substantive connection to quasi-morphism entanglement order or CNF clause satisfiability complexity. The 'quasi-' vocabulary overlap is superficial.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1110.6618",
+      "title": "Brauer relations in finite groups II - quasi-elementary groups of order p^aq",
+      "abstract_excerpt": "This is the second in a series of papers investigating the space of Brauer relations of a finite group, the kernel of the natural map from its Burnside ring to the rational representation ring. The first paper classified all primitive Brauer relations, that is those that do not come from proper subquotients. In the case of quasi-elementary groups the description is intricate, and it does not specify groups that have primitive relations in terms of generators and relations. In this paper we do th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Brauer relations in quasi-elementary finite groups of order p^aq, a representation-theoretic topic, with no mention of CNF formulas, SAT, or quasi-morphism entanglement order. The shared term 'quasi-' is superficial and the paper does not interact with the conjecture's claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2501.02238",
+      "title": "Quasi-retracts of groups",
+      "abstract_excerpt": "In this paper, we study a special class of quasi-homomorphisms, i.e. quasi-retractions from a group to its subgroups. We first give some algebraic and geometric properties of quasi-retracts and then propose a theory of quasi-split short exact sequences of groups. Later, we establish a connection between quasi-homomorphisms and induced quasi-actions. Finally, we give some geometric applications of quasi-homomorphisms, including normal quasi-retracts inherit cobounded actions on hyperbolic spaces,",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses quasi-homomorphisms and quasi-retractions in group theory with geometric applications (hyperbolic spaces, group extensions), making no mention of CNF formulas, SAT, or any complexity-theoretic notion of clause satisfiability. It shares the 'quasi-' vocabulary but does not interact with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
