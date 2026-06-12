@@ -1,0 +1,40 @@
+{
+  "entry_id": "bdf4f490f988",
+  "ts": 1781258525.0591662,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1703.05377",
+      "title": "Smith Ideals of Operadic Algebras in Monoidal Model Categories",
+      "abstract_excerpt": "Building upon Hovey's work on Smith ideals for monoids, we develop a homotopy theory of Smith ideals for general operads in a symmetric monoidal category. For a sufficiently nice stable monoidal model category and an operad satisfying a cofibrancy condition, we show that there is a Quillen equivalence between a model structure on Smith ideals and a model structure on algebra maps induced by the cokernel and the kernel. For symmetric spectra, this applies to the commutative operad and all Sigma-c",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Smith ideals of operadic algebras in monoidal model categories, which shares vocabulary with algebraic monoid theory, but does not interact with the specific claim about the minimal index of algebraic monoids and DPLL search tree width, driven by the abstract phrase 'we develop a homotopy theory of Smith ideals for general operads'.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:0912.2255",
+      "title": "Test ideals via algebras of $p^{-e}$-linear maps",
+      "abstract_excerpt": "Continuing ideas of a recent preprint of Schwede arXiv:0906.4313 we study test ideals by viewing them as minimal objects in a certain class of $F$-pure modules over algebras of p^{-e}-linear operators. This shift in the viewpoint leads to a simplified and generalized treatment, also allowing us to define test ideals in non-reduced settings.\n  In combining this with an observation of Anderson on the contracting property of p^{-e}-linear operators we obtain an elementary approach to test ideals in",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses test ideals, $F$-pure modules, and $p^{-e}$-linear operators, which do not interact with the specific claim about the minimal index of algebraic monoids and DPLL search tree width.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2204.10033",
+      "title": "Characterizations of classes of countable Boolean inverse monoids",
+      "abstract_excerpt": "A countably infinite Boolean inverse monoid that can be written as an increasing union of finite Boolean inverse monoids (suitably embedded) is said to be of finite type. Borrowing terminology from $C^{\\ast}$-algebra theory, we say that such a Boolean inverse monoid is AF (approximately finite) if the finite Boolean inverse monoids above are isomorphic to finite direct products of finite symmetric inverse monoids, and we say that it is UHF (uniformly hyperfinite) if the finite Boolean inverse mo",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Boolean inverse monoids and their characterizations, but does not mention algebraic monoids, DPLL search trees, or their minimal index, which are the key concepts in the conjecture, driven by phrases such as 'Boolean inverse monoid' and 'finite type'.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

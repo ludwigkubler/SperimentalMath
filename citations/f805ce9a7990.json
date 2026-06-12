@@ -1,0 +1,40 @@
+{
+  "entry_id": "f805ce9a7990",
+  "ts": 1781259102.0377395,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1906.03960",
+      "title": "Distributive biracks and solutions of the Yang-Baxter equation",
+      "abstract_excerpt": "We investigate a class of non-involutive solutions of the Yang-Baxter equation which generalize self-distributive (derived) solutions. In particular, we study generalized multipermutation solutions in this class. We show that the Yang-Baxter (permutation) groups of such solutions are nilpotent. We formulate the results in the language of biracks.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses solutions of the Yang-Baxter equation in the context of biracks and nilpotent groups, but does not mention noncommutative geometry, communication complexity, or the specific correlation between NCYBE order and rank variance proposed in the conjecture, driven by the phrase 'We investigate a class of non-involutive solutions of the Yang-Baxter equation'.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2408.09714",
+      "title": "Auxiliary Field Sigma Models and Yang-Baxter Deformations",
+      "abstract_excerpt": "We combine the Yang-Baxter (YB) and bi-Yang-Baxter (bi-YB) deformations with higher-spin auxiliary field deformations to construct multi-parameter families of integrable deformations of the principal chiral model on a Lie group $G$ with semi-simple Lie algebra $\\mathfrak{g}$. In the YB case, our construction produces one integrable deformation for each pair $(\\mathcal{R}, E)$, where $\\mathcal{R}$ is an antisymmetric bilinear operator on $\\mathfrak{g}$ obeying the modified classical Yang-Baxter e",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "```json\n{\n  \"verdict\": \"ORTHOGONAL\",\n  \"reasoning\": \"The abstract discusses Yang-Baxter deformations and integrable deformations of the principal chiral model, but does not mention the minimal order o",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0206255v2",
+      "title": "Homology Theory for the Set-Theoretic Yang-Baxter Equation and Knot Invariants from Generalizations of Quandles",
+      "abstract_excerpt": "A homology theory is developed for set-theoretic Yang-Baxter equations, and knot invariants are constructed by generalized colorings by biquandles and Yang-Baxter cocycles.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses set-theoretic Yang-Baxter equations and knot invariants, which shares vocabulary with the conjecture, but does not interact with the specific claim about the minimal order of Noncommutative Yang-Baxter equation solutions and its correlation with communication complexity rank variance.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}

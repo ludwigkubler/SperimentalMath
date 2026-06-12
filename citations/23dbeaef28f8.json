@@ -1,0 +1,40 @@
+{
+  "entry_id": "23dbeaef28f8",
+  "ts": 1781257965.9798567,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1404.5460",
+      "title": "Brauer groups on K3 surfaces and arithmetic applications",
+      "abstract_excerpt": "For a prime $p$, we study subgroups of order p of the Brauer group Br(S) of a general complex polarized K3 surface of degree 2d, generalizing earlier work of van Geemen. These groups correspond to sublattices of index p of the transcendental lattice T_S of S; we classify these lattices up to isomorphism using Nikulin's discriminant form technique. We then study geometric realizations of p-torsion Brauer elements as Brauer-Severi varieties in a few cases via projective duality. We use one of thes",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Brauer groups of complex polarized K3 surfaces and arithmetic applications to weak approximation, with no mention of Boolean functions, communication complexity, or rank variance. It shares the term 'Brauer group' but does not interact with the specific claim about bounding |Br(K/B)| by R(f)^2.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2403.16671",
+      "title": "Twisted conjugacy in dihedral Artin groups I: Torus Knot groups",
+      "abstract_excerpt": "In this paper we provide an alternative solution to a result by Juhász that the twisted conjugacy problem for odd dihedral Artin groups is solvable, that is, groups with presentation $G(m) = \\langle a,b \\; | \\; _{m}(a,b) = {}_{m}(b,a) \\rangle$, where $m\\geq 3$ is odd, and $_{m}(a,b)$ is the word $abab \\dots$ of length $m$, is solvable. Our solution provides an implementable linear time algorithm, by considering an alternative group presentation to that of a torus knot group, and working with geo",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses the twisted conjugacy problem in odd dihedral Artin groups via geodesic normal forms, with no mention of Brauer groups, boolean rings, or communication complexity rank variance. It shares no substantive claim with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2405.07002",
+      "title": "Computing the unit group of a commutative finite $\\mathbb{Z}$-algebra",
+      "abstract_excerpt": "For a commutative finite $\\mathbb{Z}$-algebra, i.e., for a commutative ring $R$ whose additive group is finitely generated, it is known that the group of units of $R$ is finitely generated, as well. Our main results are algorithms to compute generators and the structure of this group. This is achieved by reducing the task first to the case of reduced rings, then to torsion-free reduced rings, and finally to an order in a reduced ring. The simplified cases are treated via a calculation of exponen",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "```json\n{\n  \"verdict\": \"ORTHOGONAL\",\n  \"reasoning\": \"The abstract discusses computing the unit group of a commutative finite $\\mathbb{Z}$-algebra, which shares vocabulary with the conjecture, but does",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}

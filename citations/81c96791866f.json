@@ -1,0 +1,40 @@
+{
+  "entry_id": "81c96791866f",
+  "ts": 1781257714.7069085,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2507.19027",
+      "title": "SESR-Eval: Dataset for Evaluating LLMs in the Title-Abstract Screening of Systematic Reviews",
+      "abstract_excerpt": "Background: The use of large language models (LLMs) in the title-abstract screening process of systematic reviews (SRs) has shown promising results, but suffers from limited performance evaluation. Aims: Create a benchmark dataset to evaluate the performance of LLMs in the title-abstract screening process of SRs. Provide evidence whether using LLMs in title-abstract screening in software engineering is advisable. Method: We start with 169 SR research artifacts and find 24 of those to be suitable",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the evaluation of large language models in title-abstract screening of systematic reviews, which does not interact with the specific claim about the relationship between minimal symplectic quotient rank and rank variance in communication complexity.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2510.06708",
+      "title": "AISysRev -- LLM-based Tool for Title-abstract Screening",
+      "abstract_excerpt": "Conducting systematic reviews is laborious. In the screening or study selection phase, the number of papers can be overwhelming. Recent research has demonstrated that large language models (LLMs) can perform title-abstract screening and support humans in the task. To this end, we developed AISysRev, an LLM-based screening tool implemented as a containerized web application. The tool accepts CSV files containing paper titles and abstracts. Users specify inclusion and exclusion criteria. Multiple ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses a tool for title-abstract screening using large language models, which does not interact with the specific claim about the relationship between minimal symplectic quotient rank and rank variance in communication complexity.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2604.08602",
+      "title": "TiAb Review Plugin: A Browser-Based Tool for AI-Assisted Title and Abstract Screening",
+      "abstract_excerpt": "Background: Server-based screening tools impose subscription costs, while open-source alternatives require coding skills. Objectives: We developed a browser extension that provides no-code, serverless artificial intelligence (AI)-assisted title and abstract screening and examined its functionality. Methods: TiAb Review Plugin is an open-source Chrome browser extension (available at https://chromewebstore.google.com/detail/tiab-review-plugin/alejlnlfflogpnabpbplmnojgoeeabij). It uses Google Sheet",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses a browser extension for AI-assisted title and abstract screening, which does not interact with the specific claim about the relationship between minimal symplectic quotient rank and rank variance in communication complexity.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

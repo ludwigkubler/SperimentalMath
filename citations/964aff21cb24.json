@@ -1,0 +1,40 @@
+{
+  "entry_id": "964aff21cb24",
+  "ts": 1781261160.4174252,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2603.27466",
+      "title": "English translation of Frobenius' and Stickelberger's \"On the theory of elliptic functions\"",
+      "abstract_excerpt": "This is an English translation and digitisation of Frobenius' and Stickelberger's \"On the theory of elliptic functions\" first published in Journal fur die reine und angewandte Mathematik (Crelle's journal), 83, 175-179 (1877) with the title \"Zur Theorie der elliptischen Functionen\". The paper derives what is now known as the Frobenius and Stickelberger determinant formula for elliptic functions and generalises determinants derived by Hermite and Kiepert.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the theory of elliptic functions and the derivation of the Frobenius and Stickelberger determinant formula, which does not interact with the specific claim about Boolean circuits and minimal Frobenius coincidence rank.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2412.13909",
+      "title": "Graded Frobenius Algebras",
+      "abstract_excerpt": "We construct a PROP which encodes 2D-TQFTs with a grading. This defines a graded Frobenius algebra as algebras over this PROP. We also give a description of graded Frobenius algebras in terms of maps and relations. This structure naturally arises as the cohomology of manifolds, loop homology and Hochschild homology of Frobenius algebras. In addition, we give a comprehensive description of the signs that arise in suspending algebras over PROPs.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses graded Frobenius algebras and their relation to 2D-TQFTs and cohomology, but does not mention Boolean circuits or communication complexity, which are central to the conjecture, as seen in phrases like 'Boolean circuit C with depth D' and 'minimal order of Frobenius coincidence'.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1911.04516",
+      "title": "Boolean lattices in finite alternating and symmetric groups",
+      "abstract_excerpt": "Given a group $G$ and a subgroup $H$, we let $\\mathcal{O}_G(H)$ denote the lattice of subgroups of $G$ containing $H$. This paper provides a classification of the subgroups $H$ of $G$ such that $\\mathcal{O}_{G}(H)$ is Boolean of rank at least $3$, when $G$ is a finite alternating or symmetric group. Besides some sporadic examples and some twisted versions, there are two different types of such lattices. One type arises by taking stabilizers of chains of regular partitions, and the other type ari",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Boolean lattices in finite alternating and symmetric groups, which shares vocabulary with Boolean circuits, but does not interact with the specific claim about Frobenius coincidence rank and circuit depth, as driven by phrases such as 'Boolean lattices' and 'subgroups of $G$ containing $H$'.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
