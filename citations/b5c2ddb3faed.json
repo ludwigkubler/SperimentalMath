@@ -1,0 +1,40 @@
+{
+  "entry_id": "b5c2ddb3faed",
+  "ts": 1781262966.652797,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2507.19571",
+      "title": "Minimal-order groups with an irreducible character of degree $p$ or $p^2$",
+      "abstract_excerpt": "We characterize the finite groups of minimal order that admit an irreducible complex character of degree $p$ or $p^2$, where $p$ is a prime.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'finite groups of minimal order that admit an irreducible complex character of degree p or p^2,' which is a representation theory result unrelated to L-functions, Boolean functions, or communication complexity rank variance.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1708.02221",
+      "title": "Towards a minimal order distributed observer for linear systems",
+      "abstract_excerpt": "In this paper we consider the distributed estimation problem for continuous-time linear time-invariant (LTI) systems. A single linear plant is observed by a network of local observers. Each local observer in the network has access to only part of the output of the observed system, but can also receive information on the state estimates of its neigbours. Each local observer should in this way generate an estimate of the plant state. In this paper we study the problem of existence of a reduced ord",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns distributed observer design for linear time-invariant control systems and 'minimal order' in the sense of state space dimension, which has no interaction with L-functions, number theory, or Boolean communication complexity rank variance.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2210.02700",
+      "title": "Minimal-order Appointed-time Unknown Input Observers: Design and Applications",
+      "abstract_excerpt": "This paper presents a framework on minimal-order appointed-time unknown input observers for linear systems based on the pairwise observer structure. A minimal-order appointed-time observer is first proposed for the linear system without the unknown input, which can estimate the state exactly at the preset time by seeking for the unique solution of a system of linear equations. To further release the computational burden, another form of the appointed-time observer is designed. For the general li",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'minimal-order appointed-time unknown input observers for linear systems' in control theory, which shares only the superficial phrase 'minimal-order' with the conjecture and has no bearing on L-functions or communication complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

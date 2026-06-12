@@ -1,0 +1,40 @@
+{
+  "entry_id": "f219db3f82fb",
+  "ts": 1781261596.2642314,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1207.2443",
+      "title": "Tropical Teichmuller and Siegel spaces",
+      "abstract_excerpt": "In this paper, we present a unified study of the moduli space of tropical curves and Outer space which we link via period maps to the moduli space of tropical abelian varieties and the space of positive definite quadratic forms. Our work is a first step towards exhibiting Outer space and the space of positive definite quadratic forms as analogues of Teichmüller space and Siegel space, respectively, in tropical geometry. All these spaces and the maps among them are described within the category o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns moduli spaces of tropical curves, Outer space, and tropical abelian varieties via period maps — it makes no mention of tropical Hessians, SAT, resolution proofs, or Tseitin formulas, so it shares only the broad 'tropical geometry' framework with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1306.3497",
+      "title": "The number of vertices of a tropical curve is bounded by its area",
+      "abstract_excerpt": "We introduce the notion of tropical area of a tropical curve defined in an open subset of $\\mathbb R^n$. We prove that the number of vertices of a tropical curve is bounded by the area of the curve. The approach is totally elementary yet tricky. Our proof employs ideas from intersection theory in algebraic geometry. The result can be interpreted as the fact that the moduli space of tropical curves with bounded area is of finite type.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract bounds the number of vertices of a tropical curve by its area, with no mention of Hessians, resolution proofs, SAT, or Tseitin formulas. It shares only the broad 'tropical' vocabulary and does not interact with the specific claim about tropical Hessian rank and SAT proof size.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1210.0304",
+      "title": "Diophantine Geometry and Analytic Spaces",
+      "abstract_excerpt": "This text is the write-up of a talk at the Bellairs Workshop in Number Theory on Tropical and Non-Archimedean Geometry that took place at the Bellairs Research Institute, Barbados, in May 2011. The goal of this text is to present recent work by in Diophantine Geometry over function fields due to Gubler and Yamaki, where analytic geometry in the sense of Berkovich plays a significant place. I also give an introduction to basic concepts and notions on Diophantine Geometry, such as heights, the Man",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes Diophantine geometry over function fields, heights, and the Manin-Mumford/Bogomolov conjectures via Berkovich analytic spaces — it makes no mention of tropical Hessians, Boolean satisfiability, resolution proofs, or Tseitin formulas, so it does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

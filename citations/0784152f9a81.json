@@ -1,0 +1,40 @@
+{
+  "entry_id": "0784152f9a81",
+  "ts": 1781263924.070333,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1609.06986",
+      "title": "More on Diophantine sextuples",
+      "abstract_excerpt": "A rational Diophantine m-tuple is a set of m nonzero rationals such that the product of any two of them increased by 1 is a perfect square. The first rational Diophantine quadruple was found by Diophantus, while Euler proved that there are infinitely many rational Diophantine quintuples. In 1999, Gibbs found the first example of a rational Diophantine sextuple, and Dujella, Kazalicki, Mikic and Szikszai recently proved that there exist infinitely many rational Diophantine sextuples.\n  In this pa",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns rational Diophantine sextuples (sets of rationals where pairwise products plus one are perfect squares), which shares only the word 'Diophantine' with the conjecture and does not address DPLL search trees, resolution proof width, or degree bounds for equations encoding SAT structures.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2302.06539",
+      "title": "On the minimal faithful degree of Rhodes semisimple semigroups",
+      "abstract_excerpt": "In this paper we compute the minimum degree of a faithful representation by partial transformations of a finite semigroup admitting a faithful completely reducible matrix representation over the field of complex numbers. This includes all inverse semigroups, and hence our results generalize earlier results of Easdown and Schein on the minimal faithful degree of an inverse semigroup. It also includes well-studied monoids like full matrix monoids over finite fields and the monoid of binary relatio",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'the minimum degree of a faithful representation by partial transformations of a finite semigroup,' which is a representation-theoretic notion unrelated to Diophantine equation degrees or DPLL/resolution proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1901.04274",
+      "title": "Ordinal Monte Carlo Tree Search",
+      "abstract_excerpt": "In many problem settings, most notably in game playing, an agent receives a possibly delayed reward for its actions. Often, those rewards are handcrafted and not naturally given. Even simple terminal-only rewards, like winning equals 1 and losing equals -1, can not be seen as an unbiased statement, since these values are chosen arbitrarily, and the behavior of the learner may change with different encodings, such as setting the value of a loss to -0:5, which is often done in practice to encourag",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Ordinal Monte Carlo Tree Search for MDP/game-playing reward design, with no mention of Diophantine equations, DPLL, resolution proof width, or CNF formulas. It shares no claim with the conjecture about degree bounds on DPLL search trees.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

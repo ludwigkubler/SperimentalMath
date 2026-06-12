@@ -1,0 +1,40 @@
+{
+  "entry_id": "8de59fc699b4",
+  "ts": 1781263392.7603052,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1907.00024",
+      "title": "Curve counting in genus one: elliptic singularities &amp; relative geometry",
+      "abstract_excerpt": "We construct and study the reduced, relative, genus one Gromov--Witten theory of very ample pairs. These invariants form the principal component contribution to relative Gromov--Witten theory in genus one and are relative versions of Zinger's reduced Gromov--Witten invariants. We relate the relative and absolute theories by degeneration of the tangency conditions, and the resulting formulas generalise a well-known recursive calculation scheme put forward by Gathmann in genus zero. The geometric ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses curve counting in genus one and relative geometry, which shares vocabulary with algebraic geometry, but does not interact with the specific claim about the minimal geometric complexity of Tseitin formulas in terms of resolution proof width, as driven by phrases such as 'reduced, relative, genus one Gromov--Witten theory' and 'elliptic singularities & relative geometry'.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1402.0144",
+      "title": "Strongly Homotopy Lie Algebras from Multisymplectic Geometry",
+      "abstract_excerpt": "This Master Thesis is devoted to the study of $n$-plectic manifolds and the Strongly Homotopy Lie algebras, also called $L_{\\infty}$-algebras, that can be associated to them. Since multisymplectic geometry and $L_{\\infty}$-algebras are relevant in Theoretical Physics, and in particular in String Theory, we introduce the relevant background material in order to make the exposition accessible to non-experts, perhaps interested physicists. The background material includes graded and homological alg",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "```json\n{\n  \"verdict\": \"ORTHOGONAL\",\n  \"reasoning\": \"The abstract discusses $n$-plectic manifolds, $L_{\\infty}$-algebras, and homotopy moment maps, which share some vocabulary with algebraic geometry,",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1401.1642",
+      "title": "Singular del Pezzo fibrations and birational rigidity",
+      "abstract_excerpt": "A known conjecture of Grinenko in birational geometry asserts that a Mori fibre space with the structure of del Pezzo fibration of low degree is birationally rigid if and only if its anticanonical class is an interior point in the cone of mobile divisors. The conjecture is proved to be true for smooth models (with a generality assumption for degree 3). It is speculated that the conjecture holds for, at least, Gorenstein models in degree 1 and 2. In this article, I present a (Gorenstein) countere",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses birational geometry and del Pezzo fibrations, but does not mention Tseitin formulas or resolution proof width, which are central to the conjecture, thus it does not interact with the specific claim.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}
