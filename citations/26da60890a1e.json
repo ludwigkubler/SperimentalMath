@@ -1,0 +1,40 @@
+{
+  "entry_id": "26da60890a1e",
+  "ts": 1781225106.1015718,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1611.00827",
+      "title": "Geometric complexity theory and matrix powering",
+      "abstract_excerpt": "Valiant's famous determinant versus permanent problem is the flagship problem in algebraic complexity theory. Mulmuley and Sohoni (Siam J Comput 2001, 2008) introduced geometric complexity theory, an approach to study this and related problems via algebraic geometry and representation theory. Their approach works by multiplying the permanent polynomial with a high power of a linear form (a process called padding) and then comparing the orbit closures of the determinant and the padded permanent. ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses geometric complexity theory and its application to the determinant versus permanent problem, but does not mention resolution proof width or the minimal order of a geometric complexity group, which are central to the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:0911.3482",
+      "title": "Complexity of Networks (reprise)",
+      "abstract_excerpt": "Network or graph structures are ubiquitous in the study of complex systems. Often, we are interested in complexity trends of these system as it evolves under some dynamic. An example might be looking at the complexity of a food web as species enter an ecosystem via migration or speciation, and leave via extinction.\n  In a previous paper, a complexity measure of networks was proposed based on the {\\em complexity is information content} paradigm. To apply this paradigm to any object, one must fix ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses complexity measures of networks, which shares vocabulary with the conjecture, but does not interact with the specific claim about geometric complexity groups and resolution proof width, driven by phrases such as 'complexity trends of these system' and 'information content of an object'.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2504.04416",
+      "title": "Meta-Mathematics of Computational Complexity Theory",
+      "abstract_excerpt": "We survey results on the formalization and independence of mathematical statements related to major open problems in computational complexity theory. Our primary focus is on recent findings concerning the (un)provability of complexity bounds within theories of bounded arithmetic. This includes the techniques employed and related open problems, such as the (non)existence of a feasible proof that P = NP.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the formalization and independence of mathematical statements in computational complexity theory, but does not mention geometric complexity groups or resolution proof width, making it orthogonal to the conjecture.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

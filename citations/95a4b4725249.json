@@ -1,0 +1,40 @@
+{
+  "entry_id": "95a4b4725249",
+  "ts": 1781224022.346781,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1809.09284",
+      "title": "Tree-Based Optimization: A Meta-Algorithm for Metaheuristic Optimization",
+      "abstract_excerpt": "Designing search algorithms for finding global optima is one of the most active research fields, recently. These algorithms consist of two main categories, i.e., classic mathematical and metaheuristic algorithms. This article proposes a meta-algorithm, Tree-Based Optimization (TBO), which uses other heuristic optimizers as its sub-algorithms in order to improve the performance of search. The proposed algorithm is based on mathematical tree subject and improves performance and speed of search by ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses a meta-algorithm for metaheuristic optimization, which does not directly interact with the specific claim about the correlation between motivic integration and DPLL search tree width, despite sharing vocabulary related to search algorithms.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2408.14698",
+      "title": "Smart Multi-Modal Search: Contextual Sparse and Dense Embedding Integration in Adobe Express",
+      "abstract_excerpt": "As user content and queries become increasingly multi-modal, the need for effective multi-modal search systems has grown. Traditional search systems often rely on textual and metadata annotations for indexed images, while multi-modal embeddings like CLIP enable direct search using text and image embeddings. However, embedding-based approaches face challenges in integrating contextual features such as user locale and recency. Building a scalable multi-modal search system requires fine-tuning seve",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses multi-modal search systems and embeddings, which does not interact with the specific claim about motivic integration and DPLL search tree width correlation, as stated in the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2601.18771",
+      "title": "Dep-Search: Learning Dependency-Aware Reasoning Traces with Persistent Memory",
+      "abstract_excerpt": "Large Language Models (LLMs) have demonstrated remarkable capabilities in complex reasoning tasks, particularly when augmented with search mechanisms that enable systematic exploration of external knowledge bases. The field has evolved from traditional retrieval-augmented generation (RAG) frameworks to more sophisticated search-based frameworks that orchestrate multi-step reasoning through explicit search strategies. However, existing search frameworks still rely heavily on implicit natural lang",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Large Language Models and search frameworks for complex reasoning tasks, which does not interact with the specific claim about the correlation between motivic integration and DPLL search tree width.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "entry_id": "2da05b8de2ef",
+  "ts": 1781222168.445297,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:2407.15548",
+      "title": "Correspondences on Riemann surfaces and non-uniform hyperbolicity",
+      "abstract_excerpt": "We consider certain correspondences on a Riemann surface, and show that they admit a weak form of hyperbolicity: sufficiently long loops get shorter under lifting at a fixed point and closing. In terms of their algebraic encoding by bisets, this translates to contraction of fundamental group element",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses correspondences on Riemann surfaces and a weak hyperbolicity property via contraction of fundamental group elements, with no mention of cyclic covers, graph theory, or communication complexity rank variance. It shares only loose vocabulary (Riemann surfaces) with the conjecture and does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:2502.16509",
+      "title": "Beyond-Diagonal RIS in Multiuser MIMO: Graph Theoretic Modeling and Optimal Architectures With Low Complexity",
+      "abstract_excerpt": "Reconfigurable intelligent surfaces (RIS) is regarded as a key enabler of wave/analog-domain beamforming, processing, and computing in future wireless communication systems. Recently, Beyond-Diagonal RIS (BD-RIS) has been proposed as a generalization of conventional RIS, offering enhanced design fle",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Reconfigurable Intelligent Surfaces (RIS) and their application in wireless communication systems, which does not interact with the specific claim about the correlation between the minimal order of cyclic covers and communication complexity rank variance in graphs.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 0
+  }
+}
