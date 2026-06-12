@@ -1,0 +1,40 @@
+{
+  "entry_id": "6d235d6c42b2",
+  "ts": 1781227597.4357781,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2211.17129",
+      "title": "Ehrhart Limits",
+      "abstract_excerpt": "We introduce the definition of an Ehrhart limit, that is, a formal power series with integer coefficients that is the limit in the ring of formal power series of a sequence of Ehrhart $h^*$-polynomials. We identify a variety of examples of sequences of polytopes that yield Ehrhart limits, with a focus on reflexive polytopes and simplices.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'Ehrhart limits' as formal power series limits of h*-polynomial sequences for reflexive polytopes and simplices, with no mention of CNF formulas, resolution proof width, or any notion of Ehrhart rank tied to proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2504.04416",
+      "title": "Meta-Mathematics of Computational Complexity Theory",
+      "abstract_excerpt": "We survey results on the formalization and independence of mathematical statements related to major open problems in computational complexity theory. Our primary focus is on recent findings concerning the (un)provability of complexity bounds within theories of bounded arithmetic. This includes the techniques employed and related open problems, such as the (non)existence of a feasible proof that P = NP.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a survey on formalization and independence of complexity-theoretic statements within bounded arithmetic, with no mention of Ehrhart theory, integer point configurations, or resolution proof width. It shares only the broad 'proof complexity' framework but does not interact with the specific ehrank-vs-width claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1611.00827",
+      "title": "Geometric complexity theory and matrix powering",
+      "abstract_excerpt": "Valiant's famous determinant versus permanent problem is the flagship problem in algebraic complexity theory. Mulmuley and Sohoni (Siam J Comput 2001, 2008) introduced geometric complexity theory, an approach to study this and related problems via algebraic geometry and representation theory. Their approach works by multiplying the permanent polynomial with a high power of a linear form (a process called padding) and then comparing the orbit closures of the determinant and the padded permanent. ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses geometric complexity theory and matrix powering, which shares vocabulary related to complexity theory, but does not interact with the specific claim about the correlation between minimal Ehrhart rank and resolution proof width.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

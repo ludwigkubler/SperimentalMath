@@ -1,0 +1,40 @@
+{
+  "entry_id": "32133aa88fb8",
+  "ts": 1781225353.1079123,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2212.13786",
+      "title": "Left Co-Köthe Rings and Their Characterizations",
+      "abstract_excerpt": "Köthe's classical problem posed by G. Köthe in 1935 asks to describe the rings $R$ such that every left $R$-module is a direct sum of cyclic modules (these rings are known as left Köthe rings). Köthe, Cohen and Kaplansky solved this problem for all commutative rings (that are Artinian principal ideal rings). During the years 1962 to 1965, Kawada solved Köthe's problem for basic fnite-dimensional algebras. But, so far, Köthe's problem was open in the non-commutative setting. Recently, in the pape",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses left co-Köthe rings and their characterizations, which does not interact with the specific claim about the minimal number of generators for affine quotients in polynomial rings and DPLL search tree width.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1408.5112",
+      "title": "On the Jacobson radical of skew polynomial extensions of rings satisfying a polynomial identity",
+      "abstract_excerpt": "Let $R$ be a ring satisfying a polynomial identity and let $D$ be a derivation of $R$. We consider the Jacobson radical of the skew polynomial ring $R[x;D]$ with coefficients in $R$ and with respect to $D$, and show that $J(R[x;D])\\cap R$ is a nil $D$-ideal. This extends a result of Ferrero, Kishimoto, and Motose, who proved this in the case when $R$ is commutative.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the Jacobson radical of skew polynomial rings, which does not interact with the specific claim about the minimal number of generators for affine quotients in polynomial rings and DPLL search tree width.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1403.2230",
+      "title": "Differential polynomial rings over rings satisfying a polynomial identity",
+      "abstract_excerpt": "Let $R$ be a ring satisfying a polynomial identity and let $δ$ be a derivation of $R$. We show that if $N$ is the nil radical of $R$ then $δ(N)\\subseteq N$ and the Jacobson radical of $R[x;δ]$ is equal to $N[x;δ]$. As a consequence, we have that if $R$ is locally nilpotent then $R[x;δ]$ is locally nilpotent. This affirmatively answers a question of Smoktunowicz and Ziembowski.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses differential polynomial rings and their properties, which does not interact with the specific claim about the correlation between the minimal number of generators for affine quotients and DPLL search tree width.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
