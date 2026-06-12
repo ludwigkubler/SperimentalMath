@@ -1,0 +1,40 @@
+{
+  "entry_id": "302f778c9ad8",
+  "ts": 1781240483.900532,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1401.6542",
+      "title": "Bergman Kernels and algebraic structure of limit space for a sequence of almost Kähler-Ricci solitons",
+      "abstract_excerpt": "In this paper, we give a lower bound of Bergman kernels for a sequence of almost Kähler-Einstein Fano manifolds, or more general, a sequence of Fano manifolds with almost Kähler-Ricci solitons. This generalizes a result by Donaldson-Sun, Tian for Kähler-Einstein manifolds sequence with positive scalar curvature. As an application of our result, we prove that the Gromov-Hausdorff limit of sequence is homomorphic to a log terminal $Q$-Fano variety which admits a Kähler-Ricci soliton on its smooth ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Bergman kernels and almost Kähler-Ricci solitons, but does not mention Boolean functions, communication complexity rank, or the specific relationship between minimal Kähler-Ricci form and communication complexity rank, as stated in the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1212.6227",
+      "title": "The Kähler-Ricci flow on Fano manifolds",
+      "abstract_excerpt": "In this lecture notes, we aim at giving an introduction to the Kähler-Ricci flow (KRF) on Fano manifolds. It covers some of the developments of the KRF in its first twenty years (1984-2003), especially an essentially self-contained exposition of Perelman's uniform estimates on the scalar curvature, the diameter, and the Ricci potential function for the normalized Kähler-Ricci flow (NKRF), including the monotonicity of Perelman's μ-entropy and κ-noncollapsing theorems for the Ricci flow on compac",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the Kähler-Ricci flow on Fano manifolds, but does not mention Boolean functions, tensor product manifolds, or communication complexity rank, which are central to the conjecture, as seen in phrases like 'Kähler-Ricci flow (KRF) on Fano manifolds' and 'Perelman's uniform estimates on the scalar curvature'.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1103.4706",
+      "title": "Toric Generalized Kähler-Ricci Solitons with Hamiltonian 2-form",
+      "abstract_excerpt": "We show that the generalized Kähler-Ricci soliton equation on 4-dimensional toric Kähler orbifolds reduces to ODEs assuming there is a Hamiltonian 2-form. This leads to an explicit resolution of this equation on labeled triangles and convex labeled quadrilaterals. In particular, we give the explicit expression of the Kähler-Ricci solitons of weighted projective planes as well as new examples.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses generalized Kähler-Ricci solitons on toric Kähler orbifolds, which shares vocabulary with the conjecture, but does not interact with the specific claim about the correlation between minimal Kähler-Ricci form and communication complexity rank, as driven by the phrase 'We show that the generalized Kähler-Ricci soliton equation on 4-dimensional toric Kähler orbifolds reduces to ODEs'.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

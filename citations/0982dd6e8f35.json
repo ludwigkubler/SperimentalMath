@@ -1,0 +1,40 @@
+{
+  "entry_id": "0982dd6e8f35",
+  "ts": 1781242815.478159,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1804.02478",
+      "title": "Complexity of the CNF-satisfiability problem",
+      "abstract_excerpt": "This paper is devoted to the complexity of the Boolean satisfiability problem. We consider a version of this problem, where the Boolean formula is specified in the conjunctive normal form. We prove an unexpected result that the CNF-satisfiability problem can be solved by a deterministic Turing machine in polynomial time.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the complexity of the CNF-satisfiability problem, but does not mention the relationship between the minimal number of states in a DFA and resolution proof width, which is the focus of the conjecture; the phrase 'We prove an unexpected result that the CNF-satisfiability problem can be solved by a deterministic Turing machine in polynomial time' implies a different research direction.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:cs/0110040",
+      "title": "A New Approach to Formal Language Theory by Kolmogorov Complexity",
+      "abstract_excerpt": "We present a new approach to formal language theory using Kolmogorov complexity. The main results presented here are an alternative for pumping lemma(s), a new characterization for regular languages, and a new method to separate deterministic context-free languages and nondeterministic context-free languages. The use of the new `incompressibility arguments' is illustrated by many examples. The approach is also successful at the high end of the Chomsky hierarchy since one can quantify nonrecursiv",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses a new approach to formal language theory using Kolmogorov complexity, but does not mention resolution proof width or the correlation between DFA states and proof width, driven by the phrase 'a new characterization for regular languages'.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:0911.3482",
+      "title": "Complexity of Networks (reprise)",
+      "abstract_excerpt": "Network or graph structures are ubiquitous in the study of complex systems. Often, we are interested in complexity trends of these system as it evolves under some dynamic. An example might be looking at the complexity of a food web as species enter an ecosystem via migration or speciation, and leave via extinction.\n  In a previous paper, a complexity measure of networks was proposed based on the {\\em complexity is information content} paradigm. To apply this paradigm to any object, one must fix ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses network complexity and representation languages, but does not mention formal language state complexity, resolution proof width, or deterministic finite automata, which are central to the conjecture.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
