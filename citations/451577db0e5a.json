@@ -1,0 +1,40 @@
+{
+  "entry_id": "451577db0e5a",
+  "ts": 1781302561.9502826,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2005.05490",
+      "title": "Monotone Boolean Functions, Feasibility/Infeasibility, LP-type problems and MaxCon",
+      "abstract_excerpt": "This paper outlines connections between Monotone Boolean Functions, LP-Type problems and the Maximum Consensus Problem. The latter refers to a particular type of robust fitting characterisation, popular in Computer Vision (MaxCon). Indeed, this is our main motivation but we believe the results of the study of these connections are more widely applicable to LP-type problems (at least 'thresholded versions', as we describe), and perhaps even more widely. We illustrate, with examples from Computer ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Monotone Boolean Functions, LP-type problems, and MaxCon for computer vision robust fitting, with no mention of Kähler geometry, Kähler class rank, or DPLL search tree height. It shares only the broad 'Boolean functions' vocabulary but does not interact with the specific conjectured correlation.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1009.2975",
+      "title": "2-plectic geometry, Courant algebroids, and categorified prequantization",
+      "abstract_excerpt": "A 2-plectic manifold is a manifold equipped with a closed nondegenerate 3-form, just as a symplectic manifold is equipped with a closed nondegenerate 2-form. In 2-plectic geometry we meet higher analogues of many structures familiar from symplectic geometry. For example, any 2-plectic manifold has a Lie 2-algebra consisting of smooth functions and Hamiltonian 1-forms. This is equipped with a Poisson-like bracket which only satisfies the Jacobi identity up to `coherent chain homotopy'. Over any 2",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract focuses on 2-plectic geometry, Courant algebroids, and categorified prequantization, with no mention of Kähler class rank, Boolean formulas, or DPLL search trees. It shares no specific claim with the conjecture relating kr(φ) and h(φ).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1605.01678",
+      "title": "The geometry of rank-one tensor completion",
+      "abstract_excerpt": "The geometry of the set of restrictions of rank-one tensors to some of their coordinates is studied. This gives insight into the problem of rank-one completion of partial tensors. Particular emphasis is put on the semialgebraic nature of the problem, which arises for real tensors with constraints on the parameters. The algebraic boundary of the completable region is described for tensors parametrized by probability distributions and where the number of observed entries equals the number of param",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns rank-one tensor completion and semialgebraic geometry of completable regions, with no mention of Kähler classes, Boolean formulas, or DPLL search trees. It shares no specific claim with the conjecture about kr(φ) = Θ(h(φ)).",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "b3f2e89278f1",
+  "ts": 1781302017.458701,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1401.1642",
+      "title": "Singular del Pezzo fibrations and birational rigidity",
+      "abstract_excerpt": "A known conjecture of Grinenko in birational geometry asserts that a Mori fibre space with the structure of del Pezzo fibration of low degree is birationally rigid if and only if its anticanonical class is an interior point in the cone of mobile divisors. The conjecture is proved to be true for smooth models (with a generality assumption for degree 3). It is speculated that the conjecture holds for, at least, Gorenstein models in degree 1 and 2. In this article, I present a (Gorenstein) countere",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Grinenko's conjecture on birational rigidity of del Pezzo fibrations and a Gorenstein counterexample, with no mention of CNF formulas, SAT, clause tree width, or minimal rank as defined in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1307.5490",
+      "title": "Birational automorphism groups of projective varieties of Picard number two",
+      "abstract_excerpt": "We slightly extend a result of Oguiso on birational or automorphism groups (resp. of Lazić - Peternell on Morrison-Kawamata cone conjecture) from Calabi-Yau manifolds of Picard number two to arbitrary singular varieties X (resp. to klt Calabi-Yau pairs in broad sense) of Picard number two. When X has only klt singularities and is not a complex torus, we show that either Aut(X) is almost cyclic, or it has only finitely many connected components.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses birational automorphism groups of projective varieties of Picard number two and Calabi-Yau pairs, with no mention of CNF formulas, SAT, clause tree width, or minimal rank correlations. It shares only the broad 'birational geometry' vocabulary without engaging the specific conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2005.05490",
+      "title": "Monotone Boolean Functions, Feasibility/Infeasibility, LP-type problems and MaxCon",
+      "abstract_excerpt": "This paper outlines connections between Monotone Boolean Functions, LP-Type problems and the Maximum Consensus Problem. The latter refers to a particular type of robust fitting characterisation, popular in Computer Vision (MaxCon). Indeed, this is our main motivation but we believe the results of the study of these connections are more widely applicable to LP-type problems (at least 'thresholded versions', as we describe), and perhaps even more widely. We illustrate, with examples from Computer ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Monotone Boolean Functions, LP-type problems, and Maximum Consensus in Computer Vision, with no mention of birational geometry, minimal rank, CNF clause tree width, or any Θ(log n) bound relevant to the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

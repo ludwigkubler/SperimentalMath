@@ -1,0 +1,40 @@
+{
+  "entry_id": "206ca70bef57",
+  "ts": 1781304095.1299968,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2208.14597",
+      "title": "A comparison of categorical and topological entropies on Weinstein manifolds",
+      "abstract_excerpt": "Let $W$ be a symplectic manifold, and let $φ:W \\to W$ be a symplectic automorphism. Then, $φ$ induces an auto-equivalence $Φ$ defined on the Fukaya category of $W$. In this paper, we prove that the categorical entropy of $Φ$ bounds the topological entropy of $φ$ from below where $W$ is a Weinstein manifold and $φ$ is compactly supported. Moreover, being motivated by the work of Cineli, Ginzburg, and Gurel, we propose a conjecture which generalizes a result in dynamical system.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns categorical vs. topological entropy of symplectic automorphisms on Weinstein manifolds, with no mention of symplectic leaves, Tseitin formulas, or resolution proof width. It shares only the vocabulary of 'entropy' and 'symplectic' but does not engage with the specific claim relating leaf entropy to proof width.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0601759v3",
+      "title": "Minimal entropy and geometric decompositions in dimension four",
+      "abstract_excerpt": "We show vanishing results about the infimum of the topological entropy of the geodesic flow of homogeneous smooth four manifolds. We prove that any closed oriented geometric four manifold has zero minimal entropy if and only if it has zero simplicial volume. We also show that if a four manifold M ad",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses minimal topological entropy of geodesic flows on four-manifolds and its relation to simplicial volume, with no mention of symplectic leaves, Tseitin formulas, or resolution proof width. It shares only the vocabulary 'minimal entropy' but does not interact with the specific cross-domain claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2605.25965",
+      "title": "Topics in Symplectic Dynamics: Barcode Entropy",
+      "abstract_excerpt": "Barcode entropy is an invariant of a Hamiltonian system -- a Hamiltonian diffeomorphism or a Reeb flow -- measuring its Morse or Floer theoretic complexity at a small scale. More specifically, it is the exponential growth rate of the number of not-too-short bars in the Floer or symplectic homology persistence module. Barcode entropy is closely related to topological entropy, even though they originate in different contexts, and in low dimensions they coincide. In these notes, we study barcode en",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses barcode entropy as an invariant of Hamiltonian systems related to Floer-theoretic complexity and topological entropy, with no mention of symplectic leaves, Tseitin formulas, or resolution proof width. It shares only the broad 'symplectic' vocabulary without engaging the specific claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

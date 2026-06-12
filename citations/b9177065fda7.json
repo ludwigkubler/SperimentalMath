@@ -1,0 +1,40 @@
+{
+  "entry_id": "b9177065fda7",
+  "ts": 1781301250.232563,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/9804021v1",
+      "title": "Finite dimensional quantum group covariant differential calculus on a complex matrix algebra",
+      "abstract_excerpt": "Using the fact that the algebra M(3,C) of 3 x 3 complex matrices can be taken as a reduced quantum plane, we build a differential calculus Omega(S) on the quantum space S defined by the algebra C^\\infty(M) \\otimes M(3,C), where M is a space-time manifold. This calculus is covariant under the action ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a differential calculus on a complex matrix algebra covariant under a quantum group action ('we build a differential calculus Omega(S) on the quantum space S'), with no mention of Boolean functions, communication complexity, or representation rank bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2306.14453",
+      "title": "Revisiting the Steinberg representation at arbitrary roots of 1",
+      "abstract_excerpt": "We consider quantum group representations for a semisimple algebraic group G at a complex root of unity q. Here q is allowed to be of any order. We revisit some fundamental results of Parshall-Wang and Andersen-Polo-Wen from the 90's. In particular, we show that the category Rep(G_q) of quantum group representations has enough projectives and injectives, and that a G_q-representation is projective (resp. injective) if and only if its restriction to the small quantum group is projective (resp. in",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns projective/injective objects in the category Rep(G_q) and the Steinberg representation at roots of unity, with no mention of Boolean functions, communication complexity, or rank bounds for simulating functions.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1611.04551",
+      "title": "Comparing Skein and Quantum Group Representations and Their Application to Asymptotic Faithfulness",
+      "abstract_excerpt": "We generalize the asymptotic faithfulness of the skein quantum $SU(2)$ representations of mapping class groups of orientable closed surfaces to skein $SU(3)$. Skein quantum representations of mapping class groups are different from the Reshetikin-Turaev ones from quantum groups or geometric quantization because they are given by different modular tensor categories. We conjecture asymptotic faithfulness holds for skein quantum $G$ representations when $G$ is a simply-connected simple Lie group. T",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns asymptotic faithfulness of skein quantum SU(2)/SU(3) representations of mapping class groups, with no mention of Boolean functions, communication complexity, or rank bounds relevant to simulating f.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

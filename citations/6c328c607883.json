@@ -1,0 +1,40 @@
+{
+  "entry_id": "6c328c607883",
+  "ts": 1781304326.0690994,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/9803048v1",
+      "title": "Motivic exponential integrals and a motivic Thom-Sebastiani Theorem",
+      "abstract_excerpt": "We introduce motivic analogues of p-adic exponential integrals. We prove a basic multiplicativity property from which we deduce a motivic analogue of the Thom-Sebastiani Theorem. In particular, we obtain a new proof of the Thom-Sebastiani Theorem for the Hodge spectrum of (non isolated) singularitie",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns motivic analogues of p-adic exponential integrals and a Thom-Sebastiani theorem for Hodge spectra of singularities, with no mention of Boolean formulas, Frege proof depth, or any complexity-theoretic claim relating the two.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2504.14413",
+      "title": "On the $p$-adic Skolem Problem",
+      "abstract_excerpt": "The Skolem Problem asks to determine whether a given linear recurrence sequence (LRS) has a zero term. Showing decidability of this problem is equivalent to giving an effective proof of the Skolem-Mahler-Lech Theorem, which asserts that a non-degenerate LRS has finitely many zeros. The latter result was proven over 90 years ago via an ineffective method showing that such an LRS has only finitely many $p$-adic zeros. In this paper we consider the problem of determining whether a given LRS has a $",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the p-adic Skolem Problem for linear recurrence sequences and algorithms for finding p-adic zeros subject to the p-adic Schanuel Conjecture, with no mention of Frege proof depth, Boolean formulas, or exponentiation complexity as defined in the conjecture. It shares only the broad 'p-adic' vocabulary without addressing the claimed linear correlation.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1403.0610",
+      "title": "Sur les π-exponentielles I : Vecteurs de Witt annulés par Frobenius et Algorithme de (leur rayon de convergence)",
+      "abstract_excerpt": "(Quoted from the article) Our object is the theory of \"π-exponentials\" Pulita developed in his thesis [...] We start with an abstract algebra statement about the structure of the kernel of iterations of the Frobenius endomorphism on the ring of Witt vectors with coordinates in the ring of integers of an ultrametric extension of $\\mathbf{Q}_p$. Provided sufficiently (ramified) roots of unity are available, it is, unexpectedly simply, a principal ideal with respect to an explicit generator essenti",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns p-adic π-exponentials, Witt vectors, and complexity bounds for an algorithm computing radii of convergence — it makes no claim about Boolean formulas or Frege proof depth, so it neither supports nor refutes the conjectured Θ-relation between d_F(φ) and E_p(φ).",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
