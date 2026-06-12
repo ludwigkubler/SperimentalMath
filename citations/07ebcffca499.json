@@ -1,0 +1,40 @@
+{
+  "entry_id": "07ebcffca499",
+  "ts": 1781244715.0094824,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1409.4826",
+      "title": "Efficient Uncertainty Quantification for the Periodic Steady State of Forced and Autonomous Circuits",
+      "abstract_excerpt": "This brief paper proposes an uncertainty quantification method for the periodic steady-state (PSS) analysis with both Gaussian and non-Gaussian variations. Our stochastic testing formulation for the PSS problem provides superior efficiency over both Monte Carlo methods and existing spectral methods. The numerical implementation of a stochastic shooting Newton solver is presented for both forced and autonomous circuits. Simulation results on some analog/RF circuits are reported to show the effect",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses uncertainty quantification for periodic steady-state analysis of circuits, which shares vocabulary with the conjecture, but does not interact with the specific claim about quasi-Monte Carlo points and Frege proof entanglement complexity, as evidenced by the lack of mention of 'quasi-Monte Carlo' or 'Frege proof' in the abstract.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1102.1242",
+      "title": "A refinement of Stone duality to skew Boolean algebras",
+      "abstract_excerpt": "We establish two duality theorems which refine the classical Stone duality between generalized Boolean algebras and locally compact Boolean spaces. In the first theorem we prove that the category of left-handed skew Boolean algebras whose morphisms are proper skew Boolean algebra homomorphisms is equivalent to the category of étale spaces over locally compact Boolean spaces whose morphisms are étale space cohomomorphisms over continuous proper maps. In the second theorem we prove that the catego",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Stone duality and skew Boolean algebras, which shares vocabulary related to Boolean circuits, but does not interact with the specific claim about quasi-Monte Carlo points and Frege proof entanglement complexity.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1409.4822",
+      "title": "Stochastic Testing Simulator for Integrated Circuits and MEMS: Hierarchical and Sparse Techniques",
+      "abstract_excerpt": "Process variations are a major concern in today's chip design since they can significantly degrade chip performance. To predict such degradation, existing circuit and MEMS simulators rely on Monte Carlo algorithms, which are typically too slow. Therefore, novel fast stochastic simulators are highly desired. This paper first reviews our recently developed stochastic testing simulator that can achieve speedup factors of hundreds to thousands over Monte Carlo. Then, we develop a fast hierarchical s",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses stochastic simulators for integrated circuits and MEMS, which shares vocabulary with the conjecture (Monte Carlo), but does not interact with the specific claim about quasi-Monte Carlo points and Frege proof entanglement complexity, as driven by phrases like 'stochastic testing simulator' and 'hierarchical stochastic spectral simulator'.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "entry_id": "530b518419a0",
+  "ts": 1781245870.222959,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1610.04317",
+      "title": "Approximate Counting, the Lovasz Local Lemma and Inference in Graphical Models",
+      "abstract_excerpt": "In this paper we introduce a new approach for approximately counting in bounded degree systems with higher-order constraints. Our main result is an algorithm to approximately count the number of solutions to a CNF formula $Φ$ when the width is logarithmic in the maximum degree. This closes an exponential gap between the known upper and lower bounds.\n  Moreover our algorithm extends straightforwardly to approximate sampling, which shows that under Lovász Local Lemma-like conditions it is not only",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns approximate counting and sampling of CNF satisfying assignments under Lovász Local Lemma conditions, with no mention of Hodge classes, cohomology, or resolution proof complexity. It shares only the 'CNF formula' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2201.08895",
+      "title": "On the Satisfaction Probabilities of $k$-CNF Formulas",
+      "abstract_excerpt": "The satisfaction probability Pr[$φ$] := Pr$_{β:vars(φ) \\to \\{0,1\\}}[β\\models φ]$ of a propositional formula $φ$ is the likelihood that a random assignment $β$ makes the formula true. We study the complexity of the problem $k$SAT-Pr$_{&gt;p}$ = {$φ$ is a $k$CNF formula | Pr[$φ$] &gt; p} for fixed $k$ and $p$. While 3SAT-Pr$_{&gt;0}$ = 3SAT is NP-complete and SAT-Pr$_{&gt;1/2}$ is PP-complete, Akmal and Williams recently showed that 3SAT-Pr$_{&gt;1/2}$ lies in P and 4SAT-Pr$_{&gt;1/2}$ is NP-compl",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the computational complexity of k-SAT satisfaction probability problems and order-theoretic properties of kCNF formulas, with no mention of Hodge classes, cohomology, or resolution proof width. It shares only the CNF vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 0
+  }
+}
