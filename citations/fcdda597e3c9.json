@@ -1,0 +1,40 @@
+{
+  "entry_id": "fcdda597e3c9",
+  "ts": 1781306021.3845,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1409.0951",
+      "title": "Arithmetic geometry of algebraic curves and their moduli space",
+      "abstract_excerpt": "We review the following subjects: 1. Basic theory on algebraic curves and their moduli space, 2. Schottky uniformization theory of Riemann surfaces, and its extension called arithmetic uniformization theory, 3. Application to these theories to the arithmetic of the moduli space of algebraic curves, especially to automorphic forms on this space.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract reviews algebraic curves, Schottky uniformization, and automorphic forms on moduli spaces of curves — it makes no mention of CNF formulas, resolution proof complexity, Euler characteristic bounds, or SAT, so it shares only the generic term 'moduli space' with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1701.02303",
+      "title": "A compactification of the moduli space of multiple-spin curves",
+      "abstract_excerpt": "We construct a smooth Deligne-Mumford compactification for the moduli space of curves with an m-tuple of spin structures using line bundles on quasi-stable curves as limiting objects, as opposed to line bundles on stacky curves. For all m, we give a combinatorial description of the local structure of the corresponding coarse moduli spaces. We also classify all irreducible and connected components of the resulting moduli spaces of multiple-spin curves.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses compactification of moduli spaces of curves with spin structures in algebraic geometry, with no mention of CNF formulas, resolution proof width, or Euler characteristic bounds relating to SAT. It shares only the generic 'moduli space' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1604.03176",
+      "title": "The tropicalization of the moduli space of curves II: Topology and applications",
+      "abstract_excerpt": "We study the topology of the tropical moduli space parametrizing stable tropical curves of genus g with n marked points in which the bounded edges have total length 1, and prove that it is highly connected. Using the identification of this space with the dual complex of the boundary in the moduli space of stable algebraic curves, we give a simple expression for the top weight cohomology of M_{1,n} as a representation of the symmetric group and describe an explicit dual basis in homology consisti",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns tropical moduli spaces of curves and top weight cohomology of M_{1,n}, with no mention of CNF formulas, resolution proof width, or Boolean satisfiability. It shares the term 'moduli space' but does not interact with the conjecture's specific claim relating Euler characteristic to resolution proof width.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
