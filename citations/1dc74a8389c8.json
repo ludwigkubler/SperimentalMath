@@ -1,0 +1,40 @@
+{
+  "entry_id": "1dc74a8389c8",
+  "ts": 1781255040.0026062,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1209.3373",
+      "title": "On the structure of co-Kähler manifolds",
+      "abstract_excerpt": "By the work of Li, a compact co-Kähler manifold $M$ is a mapping torus $K_\\varphi$, where $K$ is a Kähler manifold and $\\varphi$ is a Hermitian isometry. We show here that there is always a finite cyclic cover $\\bar M$ of the form $\\bar M \\cong K \\times S^1$, where $\\cong$ is equivariant diffeomorphism with respect to an action of $S^1$ on $M$ and the action of $S^1$ on $K \\times S^1$ by translation on the second factor. Furthermore, the covering transformations act diagonally on $S^1$, $K$ and ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the structure of co-Kähler manifolds, which shares vocabulary with the conjecture, but does not interact with the specific claim about the minimal order of Kähler manifolds and DPLL search tree width, driven by the phrase 'we show here that there is always a finite cyclic cover' which does not mention DPLL search tree or CNF formulas.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1808.07811",
+      "title": "Kähler metrics with constant weighted scalar curvature and weighted K-stability",
+      "abstract_excerpt": "We introduce a notion of a Kähler metric with constant weighted scalar curvature on a compact Kähler manifold $X$, depending on a fixed real torus $\\mathbb{T}$ in the reduced group of automorphisms of $X$, and two smooth (weight) functions $\\mathrm{v}&gt;0$ and $\\mathrm{w}$, defined on the momentum image (with respect to a given Kähler class $α$ on $X$) of $X$ in the dual Lie algebra of $\\mathbb{T}$. A number of natural problems in Kähler geometry, such as the existence of extremal Kähler metric",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Kähler metrics with constant weighted scalar curvature and weighted K-stability, but does not mention the minimal order of Kähler manifolds or DPLL search tree width, which are central to the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1510.00510",
+      "title": "Okounkov bodies and the Kähler geometry of projective manifolds",
+      "abstract_excerpt": "Given a projective manifold $X$ equipped with an ample line bundle $L$, we show how to embed certain torus-invariant domains $D \\subseteq\\mathbb{C}^n$ into $X$ so that the Euclidean Kähler form on $D$ extends to a Kähler form on X lying in the first Chern class of $L$. This is done using Okounkov bodies $Δ(L)$, and the image of $D$ under the standard moment map will approximate $Δ(L)$. This means that the volume of $D$ can be made to approximate the Kähler volume of $X$ arbitrarily well. As a sp",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the Kähler geometry of projective manifolds and Okounkov bodies, but does not mention CNF, DPLL search trees, or the minimal order of Kähler manifolds in relation to Boolean satisfiability problems, which are central to the conjecture.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

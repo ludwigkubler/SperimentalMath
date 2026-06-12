@@ -1,0 +1,40 @@
+{
+  "entry_id": "43224c701b86",
+  "ts": 1781257109.8012486,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2503.07951",
+      "title": "Symmetry and Minimal Hamiltonian of Nonsymmorphic Collinear Antiferromagnet MnTe",
+      "abstract_excerpt": "$α$-MnTe, an $A$-type collinear antiferromagnet, has recently attracted significant attention due to its pronounced spin splitting despite having net zero magnetization, a phenomenon unique for a new class of magnetism dubbed altermagnetism. In this work, we develop a minimal effective Hamiltonian for $α$-MnTe based on realistic orbitals near the Fermi level at both the $Γ$ and $A$ points. Our model is derived using group representation theory, first-principles calculations, and tight-binding mo",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the development of a minimal effective Hamiltonian for α-MnTe using group representation theory, but it does not mention boolean circuits, circuit depth, or Brauer groups, which are the key concepts in the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2312.05529",
+      "title": "Bipartite $q$-Kneser graphs and two-generated irreducible linear groups",
+      "abstract_excerpt": "Let $V:=(\\mathbb{F}_q)^d$ be a $d$-dimensional vector space over the field $\\mathbb{F}_q$ of order $q$. Fix positive integers $e_1,e_2$ satisfying $e_1+e_2=d$. Motivated by analysing a fundamental algorithm in computational group theory for recognising classical groups, we consider a certain quantity $P(e_1,e_2)$ which arises in both graph theory and group representation theory: $P(e_1,e_2)$ is the proportion of $3$-walks in the `bipartite $q$-Kneser graph' $Γ_{e_1,e_2}$ that are closed $3$-arcs",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses bipartite q-Kneser graphs and two-generated irreducible linear groups, which shares vocabulary with group representation theory, but does not interact with the specific claim about the minimal order of the Brauer group and its correlation with circuit depth.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2010.15224",
+      "title": "Projection on particle number and angular momentum: Example of triaxial Bogoliubov quasiparticle states",
+      "abstract_excerpt": "Many quantal many-body methods that aim at the description of self-bound nuclear or mesoscopic electronic systems make use of auxiliary wave functions that break one or several of the symmetries of the Hamiltonian in order to include correlations associated with the geometrical arrangement of the system's constituents. Such reference states have been used already for a long time within self-consistent methods that are either based on effective valence-space Hamiltonians or energy density functio",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses group representation theory in the context of many-body systems and projection methods, but does not mention boolean circuits, circuit depth, or Brauer groups, which are central to the conjecture.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

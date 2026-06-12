@@ -1,0 +1,40 @@
+{
+  "entry_id": "430289bc3f06",
+  "ts": 1781254669.7508357,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2106.13355",
+      "title": "Cohomology ring of tree braid groups and exterior face rings",
+      "abstract_excerpt": "For a tree $T$ and a positive integer $n$, let $B_nT$ denote the $n$-strand braid group on $T$. We use discrete Morse theory techniques to show that the cohomology ring $H^*(B_nT)$ is encoded by an explicit abstract simplicial complex $K_nT$ that measures $n$-local interactions among essential vertices of $T$. We show that, in many cases (for instance when $T$ is a binary tree), $H^*(B_nT)$ is the exterior face ring determined by $K_nT$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses cohomology ring of tree braid groups and exterior face rings, which shares vocabulary related to ring theory, but does not interact with the specific claim about the relationship between DPLL search tree width and minimal local ring rank in Boolean satisfiability problems.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/astro-ph/0405128v1",
+      "title": "Probing the Evolution of the Galaxy Interaction/Merger Rate Using Collisional Ring Galaxies",
+      "abstract_excerpt": "We present the results from our program to determine the evolution of the galaxy interaction/merger rate with redshift using the unique star-forming characteristics of collisional ring galaxies. We have identified 25 distant collisional ring galaxy candidates (CRGCs) in a total of 162 deep Hubble Sp",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses galaxy interaction/merger rate and collisional ring galaxies, which shares vocabulary with 'Local Ring' but does not interact with the specific claim about DPLL search tree width and minimal local ring rank.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1607.05594",
+      "title": "Poincaré series of compressed local Artinian rings with odd top socle degree",
+      "abstract_excerpt": "We define a notion of compressed local Artinian ring that does not require the ring to contain a field. Let $(R,\\mathfrak m)$ be a compressed local Artinian ring with odd top socle degree $s$, at least five, and $\\operatorname{socle}(R)\\cap \\mathfrak m^{s-1}=\\mathfrak m^s$. We prove that the Poincaré series of all finitely generated modules over $R$ are rational, sharing a common denominator, and that there is a Golod homomorphism from a complete intersection onto $R$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses compressed local Artinian rings and their Poincaré series, which shares vocabulary with local ring theory, but does not interact with the specific claim about the relationship between DPLL search tree width and minimal local ring rank.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
