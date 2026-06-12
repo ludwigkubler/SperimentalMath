@@ -1,14 +1,14 @@
 {
-  "last_update_utc": "2026-06-12T18:47:08Z",
-  "total_cycles": 7000,
+  "last_update_utc": "2026-06-12T19:47:10Z",
+  "total_cycles": 7008,
   "verdict_counts": {
-    "INCONCLUSIVE": 4480,
+    "INCONCLUSIVE": 4486,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 2414,
+    "BARRIER_HIT": 2416,
     "SCOOPED": 86
   },
-  "unique_field_A": 2714,
+  "unique_field_A": 2716,
   "top_fields_A": [
     [
       "Resolution proof complexity",
@@ -24,7 +24,7 @@
     ],
     [
       "Symplectic Geometry",
-      151
+      152
     ],
     [
       "Real Algebraic Geometry",
@@ -64,7 +64,7 @@
     ],
     [
       "Algebraic K-theory",
-      41
+      42
     ],
     [
       "Schur-Weyl Duality",

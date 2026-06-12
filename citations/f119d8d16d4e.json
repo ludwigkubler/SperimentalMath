@@ -1,0 +1,40 @@
+{
+  "entry_id": "f119d8d16d4e",
+  "ts": 1781292208.4031568,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1411.6135",
+      "title": "Analogous Dynamics of Boolean Network",
+      "abstract_excerpt": "Different Boolean networks may reveal similar dynamics although their definition differs, then preventing their distinction from the observations. This raises the question about the sufficiency of a particular Boolean network for properly reproducing a modeled phenomenon to make realistic predictions. The question actually depends on the invariant properties of behaviorally similar Boolean networks. In this article, we address this issue by considering that the similarity is formalized by isomor",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns isomorphism-based dynamical similarity of Boolean networks and their updating modes, with no mention of Diophantine complexity, Frege proof depth, or bounds linking linear-equation representations to proof depth.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1304.5291",
+      "title": "Boolean and Non-Boolean Computation With Spin Devices",
+      "abstract_excerpt": "Recently several device and circuit design techniques have been explored for applying nano-magnets and spin torque devices like spin valves and domain wall magnets in computational hardware. However, most of them have been focused on digital logic, and, their benefits over robust and high performance CMOS remains debatable. Ultra-low voltage, current-switching operation of magneto-metallic spin torque devices can potentially be more suitable for non-Boolean computation schemes that can exploit c",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns hardware-level spin-torque devices for Boolean and non-Boolean computation, with no mention of Diophantine equations, linear equation representations of formulas, or Frege proof depth. It shares only the generic 'Boolean' vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2106.15372",
+      "title": "Non-deterministic updates of Boolean networks",
+      "abstract_excerpt": "Boolean networks are discrete dynamical systems where each automaton has its own Boolean function for computing its state according to the configuration of the network. The updating mode then determines how the configuration of the network evolves over time. Many of updating modes from the literature, including synchronous and asynchronous modes, can be defined as the composition of elementary deterministic configuration updates, i.e., by functions mapping configurations of the network. Neverthe",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'non-deterministic updates of Boolean networks' as dynamical systems with updating modes, which shares only the 'Boolean' vocabulary but does not address Diophantine complexity, Frege proof depth, or linear-equation representations of Boolean formulas.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "7d994dab6246",
+  "ts": 1781290280.521407,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1902.01432",
+      "title": "Quantum affine algebras and cluster algebras",
+      "abstract_excerpt": "This article is an extended version of the minicourse given by the second author at the summer school of the conference \"Interactions of quantum affine algebras with cluster algebras, current algebras and categorification\", held in June 2018 in Washington. The aim of the minicourse, consisting of three lectures, was to present a number of results and conjectures on certain monoidal categories of finite-dimensional representations of quantum affine algebras, obtained by exploiting the fact that t",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes monoidal categories of finite-dimensional representations of quantum affine algebras and their connection to cluster algebras via Grothendieck rings, with no mention of generator counts for graph-associated algebras, regular graphs, or Frege proof depth.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2011.14253",
+      "title": "PBW theory for quantum affine algebras",
+      "abstract_excerpt": "Let $U_q'(\\mathfrak{g})$ be a quantum affine algebra of arbitrary type and let $\\mathcal{C}_{\\mathfrak{g}}$ be Hernandez-Leclerc's category. We can associate the quantum affine Schur-Weyl duality functor $F_D$ to a duality datum $D$ in $\\mathcal{C}_{\\mathfrak{g}}$. We introduce the notion of a strong (complete) duality datum $D$ and prove that, when $D$ is strong, the induced duality functor $F_D$ sends simple modules to simple modules and preserves the invariants $Λ$ and $Λ^\\infty$ introduced b",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract develops PBW/cuspidal module theory and duality functors for quantum affine algebras, with no mention of generators counts for graph-associated algebras, Frege proof depth, or any complexity-theoretic bound like Θ(d^(1/2)·n^(3/4)).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2303.05618",
+      "title": "Tropical Geometry, Quantum Affine Algebras, and Scattering Amplitudes",
+      "abstract_excerpt": "The goal of this paper is to make a connection between tropical geometry, representations of quantum affine algebras, and scattering amplitudes in physics. The connection allows us to study important and difficult questions in these areas:\n  (1) We give a systematic construction of prime modules (including prime non-real modules) of quantum affine algebras using tropical geometry. We also introduce new objects which generalize positive tropical Grassmannians.\n  (2) We propose a generalization of",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses constructing prime modules of quantum affine algebras via tropical geometry and scattering amplitudes, with no mention of generator counts for algebras associated to d-regular graphs or any connection to Frege proof depth or Boolean circuit complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
