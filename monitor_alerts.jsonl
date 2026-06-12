@@ -4409,3 +4409,4 @@
 {"ts": 1781279701.203619, "ts_iso": "2026-06-12T15:55:01.203619+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "OK", "to_status": "DEGRADED", "failing_checks": ["cron_logs_no_trace"], "auto_fixed": false}
 {"ts": 1781280001.929403, "ts_iso": "2026-06-12T16:00:01.929403+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "DEGRADED", "to_status": "OK", "failing_checks": [], "auto_fixed": false}
 {"ts": 1781281201.889222, "ts_iso": "2026-06-12T16:20:01.889222+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "OK", "to_status": "DEGRADED", "failing_checks": ["cron_logs_no_trace"], "auto_fixed": false}
+{"ts": 1781281501.149635, "ts_iso": "2026-06-12T16:25:01.149635+00:00", "kind": "WATCHDOG_TRANSITION", "from_status": "DEGRADED", "to_status": "OK", "failing_checks": [], "auto_fixed": false}
