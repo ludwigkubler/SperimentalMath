@@ -1,0 +1,40 @@
+{
+  "entry_id": "6eb3e85e95a2",
+  "ts": 1781282269.9886353,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0604334v3",
+      "title": "On a conjecture of Montgomery-Vaughan on extreme values of automorphic L-functions at 1",
+      "abstract_excerpt": "In this paper, we prove a weaker form of a conjecture of Montgomery-Vaughan on extreme values of automorphic L-functions at 1.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses extreme values of automorphic L-functions at s=1 (Montgomery-Vaughan conjecture), which shares only the vocabulary 'automorphic L-functions' with the conjecture and does not engage with Boolean circuits, Frege proofs, or basis constructions in symmetric function rings.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2407.06983",
+      "title": "On the $p$-adic $L$-function and Iwasawa Main Conjecture for an Artin motive over a CM field",
+      "abstract_excerpt": "For an algebraic Hecke character defined on a CM field $F$ of degree $2d$, Katz constructed a $p$-adic $L$-function of $d+1+δ_{F,p}$ variables in his innovative paper published in 1978, where $δ_{F,p}$ denotes the Leopoldt defect for $F$ and $p$. In the present article, we generalise the result of Katz under several technical conditions (containing the absolute unramifiedness of $F$ at $p$), and construct a $p$-adic Artin $L$-function of $d+1+δ_{F,p}$ variables, which interpolates critical value",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses $p$-adic $L$-functions and Artin motives over CM fields, which shares vocabulary with Field A, but does not interact with the specific claim about Boolean circuits and Frege proof width inequality, as seen in the lack of mention of Boolean circuits or symmetric functions in the abstract.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1203.2694",
+      "title": "Spectral Analysis of the Zeta and L-Functions",
+      "abstract_excerpt": "This is my talk delivered at the workshop 'Automorphic L-Functions and related prpblems' (March 10--13, 2012, Tokyo University). We showed an instance of applications of the theory of automorphic representations to a genuinely traditional problem in the theory of the zeta and allied functions. We restricted ourselves to very basic issues and results, because of the purpose of the workshop.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract mentions 'automorphic L-Functions' which shares vocabulary with the conjecture, but it does not discuss Boolean circuits or Frege proof depth, and thus does not interact with the specific claim.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

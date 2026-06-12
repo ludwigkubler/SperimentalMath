@@ -1,0 +1,40 @@
+{
+  "entry_id": "94177f59efab",
+  "ts": 1781282634.6427433,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2408.05573",
+      "title": "On bounds for ratios of contiguous hypergeometric functions",
+      "abstract_excerpt": "We review recent results on analytical properties (monotonicity and bounds) for ratios of contiguous functions of hypergeometric type. The cases of parabolic cylinder functions and modified Bessel functions have been discussed with considerable detail in the literature, and we give a brief account of these results, completing some aspects in the case of parabolic cylinder functions. Different techniques for obtaining these bounds are considered. They are all based on simple qualitative descripti",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses bounds for ratios of contiguous hypergeometric functions, which shares vocabulary with the conjecture, but does not interact with the specific claim about the correlation between minimal hypergeometric function rank and SAT proof size, as seen in the phrase 'We review recent results on analytical properties... of ratios of contiguous functions of hypergeometric type'.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:0706.3351",
+      "title": "Random Boolean Networks",
+      "abstract_excerpt": "This review explains in a self-contained way the properties of random Boolean networks and their attractors, with a special focus on critical networks. Using small example networks, analytical calculations, phenomenological arguments, and problems to solve, the basic concepts are introduced and important results concerning phase diagrams, numbers of relevant nodes and attractor properties are derived.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses random Boolean networks and their attractors, without mentioning hypergeometric functions or SAT proof size, indicating no direct interaction with the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1808.03083",
+      "title": "Hardware realization of residue number system algorithms by Boolean functions minimization",
+      "abstract_excerpt": "Residue number systems (RNS) represent numbers by their remainders modulo a set of relatively prime numbers. This paper pro- poses an efficient hardware implementation of modular multiplication and of the modulo function (X(mod P)), based on Boolean minimiza- tion. We report experiments showing a performance advantage up to 30 times for our approach vs. the results obtained by state-of-art industrial tools.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses residue number systems and Boolean minimization for hardware implementation, which does not interact with the specific claim about the relationship between minimal hypergeometric function rank and SAT proof size.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
