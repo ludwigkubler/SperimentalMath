@@ -1,0 +1,40 @@
+{
+  "entry_id": "8a575632ef4f",
+  "ts": 1781265010.2834544,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1103.5740",
+      "title": "Generating and Searching Families of FFT Algorithms",
+      "abstract_excerpt": "A fundamental question of longstanding theoretical interest is to prove the lowest exact count of real additions and multiplications required to compute a power-of-two discrete Fourier transform (DFT). For 35 years the split-radix algorithm held the record by requiring just 4n log n - 6n + 8 arithmetic operations on real numbers for a size-n DFT, and was widely believed to be the best possible. Recent work by Van Buskirk et al. demonstrated improvements to the split-radix operation count by usin",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns using SAT solvers to find FFT algorithms with minimal arithmetic operation counts ('search for FFTs requiring the fewest arithmetic operations'), which has no interaction with module theory, local indecomposable modules, or DPLL search tree width bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2509.11226",
+      "title": "Foundational theory for optimal decision tree problems. I. Algorithmic and geometric foundations",
+      "abstract_excerpt": "In the first paper (part I) of this series of two, we introduce four novel definitions of the ODT problems: three for size-constrained trees and one for depth-constrained trees. These definitions are stated unambiguously through executable recursive programs, satisfying all criteria we propose for a formal specification. In this sense, they resemble the \"standard form\" used in the study of general-purpose solvers.\n  Grounded in algebraic programming theory-a relational formalism for deriving cor",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns optimal decision tree algorithms via algebraic programming theory, with no mention of module theory, local indecomposable modules, Boolean satisfiability, or DPLL search trees. It shares no interaction with the conjecture's specific claim about exponential lower bounds on module order.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/cond-mat/0012191v1",
+      "title": "Analysis of the computational complexity of solving random satisfiability problems using branch and bound search algorithms",
+      "abstract_excerpt": "The computational complexity of solving random 3-Satisfiability (3-SAT) problems is investigated. 3-SAT is a representative example of hard computational tasks; it consists in knowing whether a set of alpha N randomly drawn logical constraints involving N Boolean variables can be satisfied altogethe",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses computational complexity of random 3-SAT under branch-and-bound search, with no mention of module theory, local indecomposable modules, or their minimal order. It shares the SAT/search-tree vocabulary but does not address the specific module-theoretic claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "937c617263e1",
+  "ts": 1781265582.4229505,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1811.09984",
+      "title": "Translated points for contactomorphisms of prequantization spaces over monotone symplectic toric manifolds",
+      "abstract_excerpt": "We prove a version of Sandon's conjecture on the number of translated points of contactomorphisms for the case of prequantization bundles over certain closed monotone symplectic toric manifolds. Namely we show that any contactomorphism of such a prequantization bundle lying in the identity component of the contactomorphism group possesses at least $N$ translated points, where $N$ is the minimal Chern number of the symplectic toric manifold. The proof relies on the theory of generating functions ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses contactomorphisms of prequantization spaces over monotone symplectic toric manifolds, which shares vocabulary with the conjecture's field of symplectic geometry, but does not interact with the specific claim about tropical symplectic forms and resolution proof width, driven by the phrase 'prequantization bundles over certain closed monotone symplectic toric manifolds'.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:0905.3237",
+      "title": "Hyperbolic geometry and non-Kahler manifolds with trivial canonical bundle",
+      "abstract_excerpt": "We use hyperbolic geometry to construct simply-connected symplectic or complex manifolds with trivial canonical bundle and with no compatible Kahler structure. We start with the desingularisations of the quadric cone in C^4: the smoothing is a natural S^3-bundle over H^3, its holomorphic geometry is determined by the hyperbolic metric; the small-resolution is a natural S^2-bundle over H^4 with symplectic geometry determined by the metric. Using hyperbolic geometry, we find orbifold quotients wit",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses symplectic manifolds and hyperbolic geometry, but does not mention Boolean satisfiability instances, resolution proof width, or tropical symplectic forms, which are central to the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1612.04764",
+      "title": "Cohomological aspects on complex and symplectic manifolds",
+      "abstract_excerpt": "We discuss how quantitative cohomological informations could provide qualitative properties on complex and symplectic manifolds. In particular we focus on the Bott-Chern and the Aeppli cohomology groups in both cases, since they represent useful tools in studying non Kähler geometry. We give an overview on the comparisons among the dimensions of the cohomology groups that can be defined and we show how we reach the $\\partial\\overline\\partial$-lemma in complex geometry and the Hard-Lefschetz cond",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses cohomological aspects on complex and symplectic manifolds, focusing on Bott-Chern and Aeppli cohomology groups, but does not mention tropical symplectic forms, Boolean satisfiability, or resolution proof complexity, indicating no direct interaction with the conjecture.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
