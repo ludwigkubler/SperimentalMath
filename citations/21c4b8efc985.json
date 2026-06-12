@@ -1,0 +1,31 @@
+{
+  "entry_id": "21c4b8efc985",
+  "ts": 1781279207.084953,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:2403.02275",
+      "title": "Bounded Depth Frege Lower Bounds for Random 3-CNFs via Deterministic Restrictions",
+      "abstract_excerpt": "A major open problem in proof complexity is to demonstrate that random 3-CNFs with a linear number of clauses require super-polynomial size refutations in bounded-depth Frege systems. We take the first step towards addressing this question by establishing a super-linear lower bound: for every $k$, t",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses bounded-depth Frege systems and lower bounds for random 3-CNFs, which shares vocabulary with the conjecture, but does not interact with the specific claim about the relationship between symplectic leaves and Frege proof depth.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "s2:10.1016/j.tcs.2006.03.011",
+      "title": "Polynomial-size Frege and resolution proofs of st-connectivity and Hex tautologies",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract is not available, making it impossible to determine the relationship between the cited paper and the conjecture.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "bdadecad022a",
+  "ts": 1781278690.5424068,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2106.13260",
+      "title": "Property $R_\\infty$ for some spherical and affine Artin-Tits groups",
+      "abstract_excerpt": "Let $n\\ge2$. In this note we give a short uniform proof of property $R_\\infty$ for the Artin-Tits groups of spherical types $A_n$, $B_n$, $D_4$, $I_2(m)$ ($m\\ge3$), their pure subgroups, and for the Artin-Tits groups of affine types $\\widetilde A_{n-1}$ and $\\widetilde C_n$. In particular, we provide an alternative proof of a recent result of Dekimpe, Gonçalves and Ocampo, who established property $R_{\\infty}$ for pure Artin braid groups.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "```json\n{\n  \"verdict\": \"ORTHOGONAL\",\n  \"reasoning\": \"The abstract discusses Artin-Tits groups and property $R_\\infty$, which does not directly interact with the specific claim about the minimal number",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1308.5122",
+      "title": "Quotients and subgroups of Baumslag-Solitar groups",
+      "abstract_excerpt": "We determine all generalized Baumslag-Solitar groups (finitely generated groups acting on a tree with all stabilizers infinite cyclic) which are quotients of a given Baumslag-Solitar group BS(m,n), and (when BS(m,n) is not Hopfian) which of them also admit BS(m,n) as a quotient. We determine for which values of r,s one may embed BS(r,s) into a given BS(m,n), and we characterize finitely generated groups which embed into some BS(n,n).",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Baumslag-Solitar groups and their quotients, which shares vocabulary with group theory, but does not interact with the specific claim about affine quotient groups and Frege proof depth in boolean circuits.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1609.01155",
+      "title": "The Transform of a line of Desargues Affine Plane in an additive Group of its Points",
+      "abstract_excerpt": "In this paper we present a set transformation of points in a line of the Desargues affine plane in a additive group. For this, the first stop on the meaning of the Desargues affine plane, formulating first axiom of his that show proposition D1. Afterwards we show that little Pappus theorem, which we use in the construction of group proofs in additions of points on a line on desargues plane, also applies in the Desargues affine plane.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the Desargues affine plane and its properties in relation to additive groups, but does not mention boolean circuits, Frege proof depth, or the minimal number of generators for affine quotient groups, which are central to the conjecture.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}

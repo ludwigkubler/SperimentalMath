@@ -1,0 +1,40 @@
+{
+  "entry_id": "a74977a9e2a1",
+  "ts": 1781277978.1057262,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1204.4991",
+      "title": "Knowledge revision in systems based on an informed tree search strategy : application to cartographic generalisation",
+      "abstract_excerpt": "Many real world problems can be expressed as optimisation problems. Solving this kind of problems means to find, among all possible solutions, the one that maximises an evaluation function. One approach to solve this kind of problem is to use an informed search strategy. The principle of this kind of strategy is to use problem-specific knowledge beyond the definition of the problem itself to find solutions more efficiently than with an uninformed strategy. This kind of strategy demands to define",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns automatic knowledge revision for informed tree search applied to cartographic generalisation, with no mention of DPLL, SAT, quasi-classical functions, or any width/order bound. It shares only the loose 'tree search' vocabulary and does not interact with the specific inequality claimed.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:cs/0506069",
+      "title": "A generating function method for the average-case analysis of DPLL",
+      "abstract_excerpt": "A method to calculate the average size of Davis-Putnam-Loveland-Logemann (DPLL) search trees for random computational problems is introduced, and applied to the satisfiability of random CNF formulas (SAT) and the coloring of random graph (COL) problems. We establish recursion relations for the generating functions of the average numbers of (variable or color) assignments at a given height in the search tree, which allow us to derive the asymptotics of the expected DPLL tree size, 2^{N w + o(N)},",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a generating-function method for computing the average DPLL search tree size (2^{Nw+o(N)}) for random SAT/COL instances, but says nothing about quasi-classical functions, their minimal order, or any linear correlation with a 'search tree width' in the sense of the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1806.01209",
+      "title": "Stability Analysis for Fast Settling Switched DPLL",
+      "abstract_excerpt": "In current generation digital phase locked loop (DPLL) architectures, techniques like adaptive loop bandwidth with loop order switching and switched phase-detection are employed to achieve better lock time and jitter performance. This work derives stability conditions for such DPLL architectures using Multiple Lyapunov Functions (MLFs) for switched systems. The loop-parameters chosen on the basis of these stability conditions ensure that chattering phenomenon does not occur during switching betw",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses stability analysis and implementation of DPLL architectures, which shares vocabulary with the conjecture, but does not interact with the specific claim about the minimal order of quasi-classical functions and DPLL search tree width inequality, as seen in phrases like 'stability conditions for such DPLL architectures' that do not relate to the conjecture's statement.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
