@@ -1,0 +1,40 @@
+{
+  "entry_id": "b9d2018f37f1",
+  "ts": 1781250274.533623,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1403.8106",
+      "title": "Recent advances on the log-rank conjecture in communication complexity",
+      "abstract_excerpt": "The log-rank conjecture is one of the fundamental open problems in communication complexity. It speculates that the deterministic communication complexity of any two-party function is equal to the log of the rank of its associated matrix, up to polynomial factors. Despite much research, we still know very little about this conjecture. Recently, there has been renewed interest in this conjecture and its relations to other fundamental problems in complexity theory. This survey describes some of th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the log-rank conjecture relating deterministic communication complexity to the log of the associated matrix rank, but says nothing about 'rank variance' or 'minimal local ring rank' from local ring theory. It shares the 'rank' vocabulary but does not address the specific mrr(f) = Θ(rcv(f)) claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2510.02583",
+      "title": "The Log-Rank Conjecture: New Equivalent Formulations",
+      "abstract_excerpt": "The log-rank conjecture is a longstanding open problem with multiple equivalent formulations in complexity theory and mathematics. In its linear-algebraic form, it asserts that the rank and partitioning number of a Boolean matrix are quasi-polynomially related.\n  We propose a relaxed but still equivalent version of the conjecture based on a new matrix parameter, signed rectangle rank: the minimum number of all-1 rectangles needed to express the Boolean matrix as a $\\pm 1$-sum. Signed rectangle r",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the log-rank conjecture, rank, and partition number of Boolean matrices, introducing 'signed rectangle rank' — it does not mention local ring rank, communication complexity rank variance (rcv), or any linear correlation of the form mrr(f) = Θ(rcv(f)). It shares the general communication-complexity/rank vocabulary but does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1102.2932v2",
+      "title": "Applications of Monotone Rank to Complexity Theory",
+      "abstract_excerpt": "Raz's recent result \\cite{Raz2010} has rekindled people's interest in the study of \\emph{tensor rank}, the generalization of matrix rank to high dimensions, by showing its connections to arithmetic formulas. In this paper, we follow Raz's work and show that \\emph{monotone rank}, the monotone variant",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses tensor rank and monotone rank in the context of arithmetic formulas and complexity theory, not local ring rank or communication complexity rank variance. It shares the general 'rank' vocabulary but does not interact with the specific mrr(f) = Θ(rcv(f)) claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

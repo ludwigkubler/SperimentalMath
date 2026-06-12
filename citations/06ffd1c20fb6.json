@@ -1,0 +1,40 @@
+{
+  "entry_id": "06ffd1c20fb6",
+  "ts": 1781249520.2857113,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1908.09164",
+      "title": "A homological approach to chromatic complexity of algebraic K-theory",
+      "abstract_excerpt": "The family of Thom spectra $y(n)$ interpolates between the sphere spectrum and the mod two Eilenberg--MacLane spectrum. Computations of Mahowald, Ravenel, Shick, and the authors show that the associative ring spectrum $y(n)$ has type $n$. Using trace methods, we give evidence that algebraic K-theory preserves this chromatic complexity. Our approach sheds light on the chromatic complexity of topological negative cyclic homology and topological periodic cyclic homology, which approximate algebraic",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns chromatic complexity of algebraic K-theory of Thom spectra y(n) via trace methods and homological approaches, with no mention of communication complexity, rank variance, or generator bounds of the form Ω(r^(2/3)).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1111.7022",
+      "title": "Finite decomposition complexity and the integral Novikov conjecture for higher algebraic K-theory",
+      "abstract_excerpt": "Decomposition complexity for metric spaces was recently introduced by Guentner, Tessera, and Yu as a natural generalization of asymptotic dimension. We prove a vanishing result for the continuously controlled algebraic K-theory of bounded geometry metric spaces with finite decomposition complexity. This leads to a proof of the integral K-theoretic Novikov conjecture, regarding split injectivity of the K-theoretic assembly map, for groups with finite decomposition complexity and finite CW models ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'continuously controlled algebraic K-theory' and the 'integral K-theoretic Novikov conjecture' for metric spaces with finite decomposition complexity, which shares the K-theory framework but does not address communication complexity rank variance or generator counts of K-theory groups bounded by Ω(r^(2/3)).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0902.2334",
+      "title": "On the algebraic K-theory of the complex K-theory spectrum",
+      "abstract_excerpt": "Let p&gt;3 be a prime, let ku be the connective complex K-theory spectrum, and let K(ku) be the algebraic K-theory spectrum of ku. We study the p-primary homotopy type of the spectrum K(ku) by computing its mod (p,v_1) homotopy groups. We show that up to a finite summand, these groups form a finitely generated free module over a polynomial algebra F_p[b], where b is a class of degree 2p+2 defined as a higher Bott element.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the p-primary homotopy type of K(ku) computed via mod (p,v_1) homotopy groups and a 'higher Bott element', with no mention of communication complexity, rank variance, or generator lower bounds of the form Ω(r^(2/3)).",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

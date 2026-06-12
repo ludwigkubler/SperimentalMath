@@ -1,0 +1,40 @@
+{
+  "entry_id": "74d16b6164b6",
+  "ts": 1781249888.294446,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/cond-mat/0410016v1",
+      "title": "An Effective Theory for the Four-Body System",
+      "abstract_excerpt": "We consider the non-relativistic four-body system with large scattering length and short-range interactions within an effective theory with contact interactions only. We compute the binding energies of the 4He tetramer and of alpha-particle. The well-known linear correlation between the three-body b",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns an effective field theory for non-relativistic four-body systems (4He tetramer, alpha-particle binding energies), which has no interaction with p-adic Hodge theory or SAT proof complexity. The mention of 'linear correlation' refers to three-body/four-body binding energies, not the conjecture's claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2202.12590",
+      "title": "Why does maximum Tc occur at the cross-over from weak to strong electron-phonon coupling in high temperature superconductors?",
+      "abstract_excerpt": "In cuprate superconductors, a pronounced maximum of superconducting Tc is observed in compounds that have an in-plane Cu-O distance close to ~1.92 Angstroms. On the other hand, direct measurements of the electron-phonon coupling lambda as a function of Cu-O distance show a clear linear correlation, implying that Tc is a strongly non-linear function of lambda. Conventional superconductivity theories based on the electron-phonon interaction predict a monotonic dependence of Tc on electron phonon c",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns superconducting Tc and electron-phonon coupling in cuprate superconductors, which has no interaction with p-adic Hodge theory rank or SAT proof length. There is no shared subject matter with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1604.00511",
+      "title": "Superhalogens as Building Blocks of Complex Hydrides for Hydrogen Storage",
+      "abstract_excerpt": "Superhalogens are species whose electron affinity (EA) or vertical detachment energy (VDE) exceed to those of halogen. These species typically consist of a central electropositive atom with electronegative ligands. The EA or VDE of species can be further increased by using superhalogen as ligands, which are termed as hyperhalogen. Having established BH4- as a superhalogen, we have studied BH4-x(BH4)x- (x = 1 to 4) hyperhalogen anions and their Li-complexes, LiBH4-x(BH4)x using density functional",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses superhalogens, hydrogen storage, and density functional theory, which does not interact with the specific claim about the relationship between p-adic Hodge theory and SAT proof length.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

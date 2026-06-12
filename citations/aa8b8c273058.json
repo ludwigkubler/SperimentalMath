@@ -1,0 +1,40 @@
+{
+  "entry_id": "aa8b8c273058",
+  "ts": 1781247473.5265174,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1511.09051",
+      "title": "On automorphism groups of affine surfaces",
+      "abstract_excerpt": "This is a survey on the automorphism groups in various classes of affine algebraic surfaces and the algebraic group actions on such surfaces. Being infinite-dimensional, these automorphism groups share some important features of algebraic groups. At the same time, they can be studied from the viewpoint of the combinatorial group theory, so we put a special accent on group-theoretical aspects (ind-groups, amalgams, etc.). We provide different approaches to classification, prove certain new result",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses automorphism groups of affine algebraic surfaces, which is unrelated to Boolean satisfiability problem and SAT proof length, driven by phrases such as 'affine algebraic surfaces' and 'algebraic group actions'.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2104.14760",
+      "title": "Automorphism and outer automorphism groups of Right-angled Artin groups are not relatively hyperbolic",
+      "abstract_excerpt": "We show that the automorphism groups of right-angled Artin groups whose defining graphs have at least 3 vertices are not relatively hyperbolic. We then show that the outer automorphism groups are not relatively hyperbolic, if they are not virtually isomorphic to a right-angled Artin group whose defining graph is either a single vertex or disconnected.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses automorphism groups of right-angled Artin groups and their relative hyperbolicity, which does not interact with the specific claim about the minimal index of automorphism groups of Boolean formulas and their correlation with SAT proof length.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1010.3612",
+      "title": "Explicit examples of equivalence relations and factors with prescribed fundamental group and outer automorphism group",
+      "abstract_excerpt": "In this paper we give a number of explicit constructions for II$_1$ factors and II$_1$ equivalence relations that have prescribed fundamental group and outer automorphism group. We construct factors and relations that have uncountable fundamental group different from $\\IRpos$. In fact, given any II$_1$ equivalence relation, we construct a II$_1$ factor with the same fundamental group. Given any locally compact unimodular second countable group $G$, our construction gives a II$_1$ equivalence rel",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses II$_1$ factors and equivalence relations with prescribed fundamental group and outer automorphism group, which shares vocabulary related to automorphism groups, but does not interact with the specific claim about the minimal index of automorphism groups of Boolean formulas and their proof length.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
