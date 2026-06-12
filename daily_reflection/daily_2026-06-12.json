@@ -1,0 +1,196 @@
+{
+  "ts": 1781235184.6702003,
+  "window_h": 24.0,
+  "n_conjectures": 231,
+  "n_papers": 125,
+  "n_scoops": 15,
+  "scoops": [
+    {
+      "paper_id": "2606.13628v1",
+      "paper_title": "A near-quadratic lower bound on the border determinantal complexity of $\\sum_i x_i^n$ via conormal specialization",
+      "matched_eid": "94a4c9135e98",
+      "similarity": 0.7316758248799541
+    },
+    {
+      "paper_id": "2606.13570v1",
+      "paper_title": "Approximability limits for bounded-degree max-LINSAT and implications for decoded quantum interferometry",
+      "matched_eid": "f534de634c0a",
+      "similarity": 0.7452405008305524
+    },
+    {
+      "paper_id": "2606.12631v1",
+      "paper_title": "The Switching Lemma shows what the Switching Lemma cannot prove: an unconditional natural-proofs barrier",
+      "matched_eid": "454a2321bff1",
+      "similarity": 0.7396729565111918
+    },
+    {
+      "paper_id": "2606.13619v1",
+      "paper_title": "Split primes and the Elekes-Rónyai problem",
+      "matched_eid": "934504de1f6c",
+      "similarity": 0.7227363828845809
+    },
+    {
+      "paper_id": "2606.13518v1",
+      "paper_title": "Weak order: Alternating sign matrices, monotone triangles, and bumpless pipe dreams",
+      "matched_eid": "10f48f7dac2c",
+      "similarity": 0.7250266225741051
+    },
+    {
+      "paper_id": "2606.13246v1",
+      "paper_title": "A $q$-analogue of the rational normal curve and linearized Reed-Solomon codes",
+      "matched_eid": "621c369e9956",
+      "similarity": 0.7703034241664581
+    },
+    {
+      "paper_id": "2606.13154v1",
+      "paper_title": "Computing Joins in the Weak Order of Type B Coxeter Groups: an Algorithmic Approach",
+      "matched_eid": "6d3380f7a7ea",
+      "similarity": 0.7367964938842902
+    },
+    {
+      "paper_id": "2606.12996v1",
+      "paper_title": "Critical Sets in Latin Squares and Associated Structures",
+      "matched_eid": "98de10aa860a",
+      "similarity": 0.7324595107456663
+    },
+    {
+      "paper_id": "2606.12934v1",
+      "paper_title": "On perfect flag-rank metric codes",
+      "matched_eid": "40295ca44993",
+      "similarity": 0.7284772080231046
+    },
+    {
+      "paper_id": "2606.12880v1",
+      "paper_title": "Monochromatic $k$ in a row",
+      "matched_eid": "b848110fb3d0",
+      "similarity": 0.7269792880557638
+    },
+    {
+      "paper_id": "2606.12796v1",
+      "paper_title": "Rank recursion for $q$-Whittaker and Macdonald operators",
+      "matched_eid": "51cd5fb15a58",
+      "similarity": 0.7360135365727114
+    },
+    {
+      "paper_id": "2606.12751v1",
+      "paper_title": "Nordhaus-Gaddum upper bounds for graph connectivity parameters",
+      "matched_eid": "7a26ef571393",
+      "similarity": 0.7398094350048037
+    },
+    {
+      "paper_id": "2606.12962v1",
+      "paper_title": "The reverse mathematics of the Ordered Variable Word theorem",
+      "matched_eid": "4a044e9d9a22",
+      "similarity": 0.7296873064040807
+    },
+    {
+      "paper_id": "2606.13521v1",
+      "paper_title": "Quantum Logic Codes: Complete Transversal Logical Clifford Instruction Sets for High-Rate Stabilizer Quantum Error Correcting Codes",
+      "matched_eid": "46f8d99198bb",
+      "similarity": 0.7370506604706316
+    },
+    {
+      "paper_id": "2606.12700v1",
+      "paper_title": "Measurement Geometry for Quantum Random Access Codes: Beyond Nayak Bound and Toward Optimality",
+      "matched_eid": "f534de634c0a",
+      "similarity": 0.7416832667151211
+    }
+  ],
+  "top_overlap": [
+    {
+      "score": 0.77,
+      "paper_id": "2606.13246v1",
+      "paper_title": "A $q$-analogue of the rational normal curve and linearized Reed-Solomon codes",
+      "paper_category": "cs.IT",
+      "matched_conjecture_eid": "621c369e9956",
+      "matched_conjecture_title": "Minimal Geometric Arithmetical Rank and DPLL Search Tree Width Relationship"
+    },
+    {
+      "score": 0.745,
+      "paper_id": "2606.13570v1",
+      "paper_title": "Approximability limits for bounded-degree max-LINSAT and implications for decoded quantum interferometry",
+      "paper_category": "quant-ph",
+      "matched_conjecture_eid": "f534de634c0a",
+      "matched_conjecture_title": "Minimal Frobenius-Schmidt Distance and Communication Complexity Rank Variance"
+    },
+    {
+      "score": 0.742,
+      "paper_id": "2606.12700v1",
+      "paper_title": "Measurement Geometry for Quantum Random Access Codes: Beyond Nayak Bound and Toward Optimality",
+      "paper_category": "quant-ph",
+      "matched_conjecture_eid": "f534de634c0a",
+      "matched_conjecture_title": "Minimal Frobenius-Schmidt Distance and Communication Complexity Rank Variance"
+    },
+    {
+      "score": 0.74,
+      "paper_id": "2606.12751v1",
+      "paper_title": "Nordhaus-Gaddum upper bounds for graph connectivity parameters",
+      "paper_category": "math.CO",
+      "matched_conjecture_eid": "7a26ef571393",
+      "matched_conjecture_title": "Minimal Local Induction Degree Bound and Communication Complexity Rank Variance Correlation"
+    },
+    {
+      "score": 0.74,
+      "paper_id": "2606.12631v1",
+      "paper_title": "The Switching Lemma shows what the Switching Lemma cannot prove: an unconditional natural-proofs barrier",
+      "paper_category": "cs.CC",
+      "matched_conjecture_eid": "454a2321bff1",
+      "matched_conjecture_title": "Minimal Geometric Defect and Circuit Entanglement Relationship"
+    },
+    {
+      "score": 0.737,
+      "paper_id": "2606.13521v1",
+      "paper_title": "Quantum Logic Codes: Complete Transversal Logical Clifford Instruction Sets for High-Rate Stabilizer Quantum Error Correcting Codes",
+      "paper_category": "quant-ph",
+      "matched_conjecture_eid": "46f8d99198bb",
+      "matched_conjecture_title": "Minimal Order of Tropicalized Quandle Entanglement and Resolution Proof Width"
+    },
+    {
+      "score": 0.737,
+      "paper_id": "2606.13154v1",
+      "paper_title": "Computing Joins in the Weak Order of Type B Coxeter Groups: an Algorithmic Approach",
+      "paper_category": "math.CO",
+      "matched_conjecture_eid": "6d3380f7a7ea",
+      "matched_conjecture_title": "Minimal Order of Quasi-Commutative Braid Groups and Resolution Proof Width"
+    },
+    {
+      "score": 0.736,
+      "paper_id": "2606.12796v1",
+      "paper_title": "Rank recursion for $q$-Whittaker and Macdonald operators",
+      "paper_category": "math.RT",
+      "matched_conjecture_eid": "51cd5fb15a58",
+      "matched_conjecture_title": "Minimal Order of Eichler-Shimura Hecke Operators and Resolution Proof Width Correlation"
+    },
+    {
+      "score": 0.732,
+      "paper_id": "2606.12996v1",
+      "paper_title": "Critical Sets in Latin Squares and Associated Structures",
+      "paper_category": "math.CO",
+      "matched_conjecture_eid": "98de10aa860a",
+      "matched_conjecture_title": "Minimal Hodge p-Structure and DPLL Search Tree Height Relationship"
+    },
+    {
+      "score": 0.732,
+      "paper_id": "2606.13628v1",
+      "paper_title": "A near-quadratic lower bound on the border determinantal complexity of $\\sum_i x_i^n$ via conormal specialization",
+      "paper_category": "cs.CC",
+      "matched_conjecture_eid": "94a4c9135e98",
+      "matched_conjecture_title": "Minimal Local Induction Dimension of Affine Schemes and SAT Clause Satisfiability Complexity"
+    }
+  ],
+  "stats": {
+    "n_cycles": 231,
+    "verdicts": {
+      "INCONCLUSIVE": 156,
+      "BARRIER_HIT": 75
+    },
+    "focus_distribution": {},
+    "top_fields_A": {
+      "Algebraic Geometry - Hodge Theory": 17,
+      "Algebraic K-Theory": 9,
+      "Quaternionic Geometry": 7,
+      "p-adic Number Theory": 7,
+      "Tropical Geometry": 6
+    }
+  }
+}
