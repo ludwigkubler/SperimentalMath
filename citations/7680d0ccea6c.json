@@ -1,0 +1,31 @@
+{
+  "entry_id": "7680d0ccea6c",
+  "ts": 1781300195.1681178,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:ARXIV:2502.10590",
+      "title": "Optimal Bounds for the Number of Pieces of Near-Circuit Hypersurfaces",
+      "abstract_excerpt": "Suppose $f$ is a polynomial in $n$ variables with real coefficients, exactly $n+k$ monomial terms, and Newton polytope of positive volume. Estimating the number of connected components of the positive zero set of $f$ is a fundamental problem in real algebraic geometry, with applications in computational complexity and topology. We prove that the number of connected components is at most $3$ when $k\\!=\\!3$, settling an open question from Fewnomial Theory. Our results also extend to exponential su",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses polynomial equations, Newton polytopes, and connected components, which shares vocabulary with algebraic geometry, but does not interact with the specific claim about K-theory sheaf rank and communication complexity circuit depth.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "s2:10.1145/3550496",
+      "title": "Theory research in India",
+      "abstract_excerpt": "THE DEEP CONNECTIONS between logic and automata theory have led to extensive applications in formal specification and verification of systems. In recent years, research has focused on extensibility of such techniques to infinite-state systems. This has led to developing theories of transformations, applications to verification of timed/recursive/concurrent/probabilistic systems, database theory, distributed algorithms, programs running under weak memory models and cryptographic protocols. Logic ",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses various research topics in theory and algorithms, including communication complexity, but does not mention K-theory or sheaf rank, making it orthogonal to the conjecture.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 0
+  }
+}

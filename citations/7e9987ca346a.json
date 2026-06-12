@@ -1,0 +1,40 @@
+{
+  "entry_id": "7e9987ca346a",
+  "ts": 1781300655.3287854,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0803.1825",
+      "title": "On the algebraic geometry of polynomial dynamical systems",
+      "abstract_excerpt": "This paper focuses on polynomial dynamical systems over finite fields. These systems appear in a variety of contexts, in computer science, engineering, and computational biology, for instance as models of intracellular biochemical networks. It is shown that several problems relating to their structure and dynamics, as well as control theory, can be formulated and solved in the language of algebraic geometry.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes formulating problems about polynomial dynamical systems over finite fields in algebraic geometry language, but says nothing about root multiplicity, communication complexity, circuit depth, or matrix rank bounds. It shares the 'polynomial systems + algebraic geometry' vocabulary without engaging the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1912.00347",
+      "title": "Equiresidual algebraic geometry I: The affine theory",
+      "abstract_excerpt": "In this first work dedicated to the generalisation of classic algebraic geometry to non algebraically closed fields and axiomatisable classes of fields, we develop the foundations for equiresidual algebraic geometry (EQAG), i.e. algebraic geometry over any commutative field $k$, algebraically closed or not. This is possible thanks to the existence in non algebraically closed fields of many normic forms, i.e. homogeneous polynomials with no non-trivial zero rational in $k$, and relies on an equir",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a generalization of algebraic geometry to non-algebraically closed fields via 'equiresidual' Nullstellensatz and normic forms, with no mention of root multiplicities, circuit depth, or communication complexity rank. It shares the broad framework of commutative algebra but does not interact with the specific claim relating min_roots_mult(P) to w_C(P).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1503.03032",
+      "title": "Deformations of the Exterior Algebra of Differential Forms",
+      "abstract_excerpt": "Let $D:Ω\\xrightarrow{}Ω$ be a differential operator defined in the exterior algebra $Ω$ of differential forms over the polynomial ring $S$ in $n$ variables. In this work we give conditions for deforming the module structure of $Ω$ over $S$ induced by the differential operator $D$, in order to make $D$ an $S$-linear morphism while leaving the $\\mathbb{C}$-vector space structure of $Ω$ unchanged. One can then apply the usual algebraic tools to study differential operators: finding generators of th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns deformations of module structures on the exterior algebra of differential forms to make a differential operator S-linear, with no mention of root multiplicities, circuit depth, communication complexity, or matrix rank bounds. It shares only the broad 'polynomial ring' vocabulary but does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

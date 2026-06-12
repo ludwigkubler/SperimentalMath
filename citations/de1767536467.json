@@ -1,0 +1,40 @@
+{
+  "entry_id": "de1767536467",
+  "ts": 1781298837.2743247,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1405.2700",
+      "title": "Zero Excess and Minimal Length in Finite Coxeter Groups",
+      "abstract_excerpt": "Let $\\mathcal{W}$ be the set of strongly real elements of $W$, a Coxeter group. Then for $w \\in \\mathcal{W}$, $e(w)$, the excess of $w$, is defined by $e(w) = \\min\\{\\ell(x) + \\ell(y) - \\ell(w) \\; | \\; w=xy, x^2 = y^2 = 1\\}$. When $W$ is finite we may also define $E(w)$, the reflection excess of $w$. The main result established here is that if $W$ is finite and $X$ is a $W$-conjugacy class, then there exists $w \\in X$ such that $w$ has minimal length in $X$ and $e(w) = 0 = E(w)$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns excess and minimal length of elements in finite Coxeter groups (a result about W-conjugacy classes having minimal-length representatives with zero excess), which shares no interaction with CNF formulas, Boolean circuit size, or rank bounds of classical groups over GF(q).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2406.18700",
+      "title": "Structure of sparse Boolean functions over Abelian groups, and its application to testing",
+      "abstract_excerpt": "We study Fourier-sparse Boolean functions over general finite Abelian groups. A Boolean function $f : G \\to \\{-1,+1\\}$ is $s$-sparse if it has at most $s$ non-zero Fourier coefficients. We introduce a general notion of granularity of Fourier coefficients and prove that every non-zero coefficient of an $s$-sparse Boolean function has magnitude at least \\begin{equation*} \\frac{1}{2^{\\varphi(Δ)/2} \\, s^{\\varphi(Δ)/2}}, \\end{equation*} where $Δ$ denotes the exponent of the group $G$ (that is, the ma",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Fourier-sparse Boolean functions over Abelian groups and sparsity testing algorithms, not classical groups over GF(q), CNF formulas, or rank bounds tied to representations of literals. It shares only the broad 'groups + Boolean functions' framework but does not address the specific rank/CNF claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0503746v2",
+      "title": "Qd(p)-free rank two finite groups act freely on a homotopy product of two spheres",
+      "abstract_excerpt": "In this paper we show that most rank two groups act freely on a finite homotopy product of two spheres. This makes new progress on a conjecture by Benson and Carlson which states that a finite group G acts freely on a finite complex with the homotopy type of n spheres if the rank of G is less than o",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns rank two finite groups acting freely on homotopy products of spheres (a topological/group-theoretic question), with no mention of CNF formulas, Boolean circuits, finite field representations, or rank bounds tied to SAT — it shares only the vocabulary 'rank' and 'finite groups' with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
