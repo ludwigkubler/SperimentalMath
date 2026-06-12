@@ -1,0 +1,40 @@
+{
+  "entry_id": "4a87f1aedc76",
+  "ts": 1781234673.3732152,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1707.01230",
+      "title": "A class of non-holomorphic modular forms I",
+      "abstract_excerpt": "This introductory paper studies a class of real analytic functions on the upper half plane satisfying a certain modular transformation property. They are not eigenfunctions of the Laplacian and are quite distinct from Maass forms. These functions are modular equivariant versions of real and imaginary parts of iterated integrals of holomorphic modular forms, and are modular analogues of single-valued polylogarithms. The coefficients of these functions in a suitable power series expansion are peri",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses non-holomorphic modular forms and their properties, but does not mention Boolean satisfiability problems or DPLL search tree width, making it orthogonal to the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0506576v2",
+      "title": "Differential equations satisfied by modular forms and K3 surfaces",
+      "abstract_excerpt": "We study differential equations satisfied by modular forms associated to $Γ_1\\timesΓ_2$, where $Γ_i (i=1,2)$ are genus zero subgroups of $SL_2(\\mathbf R)$ commensurable with $SL_2(\\mathbf Z)$, e.g., $Γ_0(N)$ or $Γ_0(N)^*$. In some examples, these differential equations are realized as the Picard--Fu",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses differential equations satisfied by modular forms, but does not mention Boolean satisfiability problems or DPLL search tree width, which are central to the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1807.00842",
+      "title": "From modular forms to differential equations for Feynman integrals",
+      "abstract_excerpt": "In these proceedings we discuss a representation for modular forms that is more suitable for their application to the calculation of Feynman integrals in the context of iterated integrals and the differential equation method. In particular, we show that for every modular form we can find a representation in terms of powers of complete elliptic integrals of the first kind multiplied by algebraic functions. We illustrate this result on several examples. In particular, we show how to explicitly rew",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the application of modular forms to Feynman integrals and iterated integrals, but does not mention Boolean satisfiability problems or DPLL search tree width, which are central to the conjecture, as seen in phrases like 'calculation of Feynman integrals' and 'differential equation method'.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

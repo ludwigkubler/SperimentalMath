@@ -1,0 +1,40 @@
+{
+  "entry_id": "cde89ba61dd8",
+  "ts": 1781235945.4961922,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/2501.14444v3",
+      "title": "$p$-adic symplectic geometry of integrable systems and Weierstrass-Williamson theory I",
+      "abstract_excerpt": "The local symplectic theory of integrable systems is fundamental to understand their global theory, as well as the behavior near singularities of fundamental models from classical and quantum mechanics which are known to be integrable, such as the Jaynes-Cummings model and the coupled angular moment",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses symplectic geometry in the context of integrable systems and classical/quantum mechanics, but does not mention Boolean functions, communication complexity, or rank variance, which are key components of the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1306.6055v3",
+      "title": "The Normal Form Theorem around Poisson Transversals",
+      "abstract_excerpt": "We prove a normal form theorem for Poisson structures around Poisson transversals (also called cosymplectic submanifolds), which simultaneously generalizes Weinstein's symplectic neighborhood theorem from symplectic geometry and Weinstein's splitting theorem. Our approach turns out to be essentially",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Poisson structures and symplectic geometry, but does not mention Boolean functions, communication complexity, or rank variance, which are central to the conjecture; the shared vocabulary is not sufficient to imply a direct relationship.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/0908.4241v2",
+      "title": "Lectures on curves on varieties -- Lisbon, 2009",
+      "abstract_excerpt": "These lectures give a short introduction to the study of curves on algebraic varieties. After an elementary proof of the dimension formula for the space of curves, we summarize the basic properties of uniruled and of rationally connected varieties. At the end, some connections with symplectic geomet",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract mentions 'symplectic geomet' but does not discuss Boolean functions, communication complexity, or rank variance, indicating no direct interaction with the conjecture's specific claim.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
