@@ -1,0 +1,40 @@
+{
+  "entry_id": "93e9fa09b726",
+  "ts": 1781274113.7614622,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1301.0379",
+      "title": "The Parameterized Complexity of some Permutation Group Problems",
+      "abstract_excerpt": "In this paper we study the parameterized complexity of two well-known permutation group problems which are NP-complete. 1. Given a permutation group G=&lt;S&gt;, subgroup of $S_n$, and a parameter $k$, find a permutation $π$ in G such that $|{i\\in [n]\\mid π(i)\\ne i}|$ is at least $k$. This generalizes the well-known NP-complete problem of finding a fixed-point free permutation in G. (this is the case when $k=n$). We show that this problem with parameter $k$ is fixed parameter tractable. In the p",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses parameterized complexity of permutation group problems, but does not mention Coxeter reflections or entanglement complexity, which are central to the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1810.12657",
+      "title": "The effect of a country's name in the title of a publication on its visibility and citability",
+      "abstract_excerpt": "The objective of this research is to determine if the reference to a country in the title, keywords or abstract of a publication can influence its visibility (measured by the impact factor of the publishing journal) and citability (measured by the citations received). The study is based on Italian scientific production indexed in the Web of Science over the period 2004-2011. The analysis is conducted by comparing the values of four impact indicators for two subsets: i) the indexed publications w",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the effect of a country's name on publication visibility and citability, which is unrelated to Coxeter reflections, permutation groups, and circuit entanglement complexity.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:cs/0207003",
+      "title": "Analysis of Titles and Readers For Title Generation Centered on the Readers",
+      "abstract_excerpt": "The title of a document has two roles, to give a compact summary and to lead the reader to read the document. Conventional title generation focuses on finding key expressions from the author's wording in the document to give a compact summary and pays little attention to the reader's interest. To make the title play its second role properly, it is indispensable to clarify the content (``what to say'') and wording (``how to say'') of titles that are effective to attract the target reader's intere",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses title generation and reader interest, which does not interact with the specific claim about Coxeter reflections and circuit entanglement complexity.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

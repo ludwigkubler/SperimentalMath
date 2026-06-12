@@ -1,0 +1,40 @@
+{
+  "entry_id": "85bed7515374",
+  "ts": 1781273577.7957118,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1908.09121",
+      "title": "Minimal index and dimension for inclusions of von Neumann algebras with finite-dimensional centers",
+      "abstract_excerpt": "The notion of index for inclusions of von Neumann algebras goes back to a seminal work of Jones on subfactors of type ${I\\!I}_1$. In the absence of a trace, one can still define the index of a conditional expectation associated to a subfactor and look for expectations that minimize the index. This value is called the minimal index of the subfactor. We report on our analysis, contained in [GL19], of the minimal index for inclusions of arbitrary von Neumann algebras (not necessarily finite, nor fa",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'minimal index' for inclusions of von Neumann algebras with finite-dimensional centers, generalizing Jones index theory — it shares the term 'minimal index' but does not address non-arithmetic quaternion algebras or communication complexity rank variance.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1805.09234",
+      "title": "Minimal index and dimension for 2-$C^*$-categories with finite-dimensional centers",
+      "abstract_excerpt": "In the first part of this paper, we give a new look at inclusions of von Neumann algebras with finite-dimensional centers and finite Jones' index. The minimal conditional expectation is characterized by means of a canonical state on the relative commutant, that we call the spherical state; the minimal index is neither additive nor multiplicative (it is submultiplicative), contrary to the subfactor case. So we introduce a matrix dimension with the good functorial properties: it is always additive",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses minimal index of inclusions of von Neumann algebras and 2-C*-categories, not quaternion algebras, boolean functions, or communication complexity rank variance. The shared term 'minimal index' is in a different mathematical context entirely.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1807.11773",
+      "title": "Subgroups of minimal index in polynomial time",
+      "abstract_excerpt": "Let $G$ be a finite group and let $H$ be a proper subgroup of $G$ of minimal index. By applying an old result of Y. Berkovich, we provide a polynomial algorithm for computing $|G : H|$ for a permutation group $G$. Moreover, we find $H$ explicitly if $G$ is given by a Cayley table. As a corollary, we get an algorithm for testing whether a finite permutation group acts on a tree or not.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns computing the minimal index of a subgroup in a finite permutation group, not the index of quaternion algebras or communication complexity rank variance. The shared term 'minimal index' is incidental vocabulary, not the same mathematical object.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
