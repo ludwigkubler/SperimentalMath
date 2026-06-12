@@ -1,0 +1,40 @@
+{
+  "entry_id": "df954696a92e",
+  "ts": 1781296316.0621936,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2502.15476",
+      "title": "Sheaf theory: from deep geometry to deep learning",
+      "abstract_excerpt": "This paper provides an overview of the applications of sheaf theory in deep learning, data science, and computer science in general. The primary text of this work serves as a friendly introduction to applied and computational sheaf theory accessible to those with modest mathematical familiarity. We describe intuitions and motivations underlying sheaf theory shared by both theoretical researchers and practitioners, bridging classical mathematical theory and its more recent implementations within ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses sheaf theory and its applications in deep learning and computer science, but does not mention DPLL search trees or the relationship between minimal local indecomposable sheaf rank and search tree height, as stated in the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2012.08669",
+      "title": "Sheaf Theory through Examples (Abridged Version)",
+      "abstract_excerpt": "This book provides an inviting tour through sheaf theory, from the perspective of applied category theory and pitched at a less specialized audience than is typical with introductions to sheaves. The book makes it as easy as possible for the reader new to sheaves, by motivating and developing the theory via a broad range of concrete examples and explicit constructions, including applications to n-colorings of graphs, satellite data, chess problems, Bayes nets, musical performance, complexes, and",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses sheaf theory through examples and applications, but does not mention DPLL search trees, CNF formulas, or the minimal local indecomposable sheaf rank, which are key components of the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2412.21057",
+      "title": "The rectifiable rectangular peg problem",
+      "abstract_excerpt": "We give an affirmative answer to the rectangular peg problem for a large class of continuous Jordan curves that contains all rectifiable curves and Stromquist's locally monotone curves. Our proof is based on microlocal sheaf theory and inspired by recent work of Greene and Lobb.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract mentions 'microlocal sheaf theory', which shares vocabulary with the conjecture's 'sheaf theory', but it does not interact with the specific claim about the correlation between minimal local indecomposable sheaf rank and DPLL search tree height.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

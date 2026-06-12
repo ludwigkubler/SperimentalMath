@@ -1,0 +1,40 @@
+{
+  "entry_id": "a7a2b9a42710",
+  "ts": 1781296542.2572095,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2412.04864",
+      "title": "Machine Checked Proofs and Programs in Algebraic Combinatorics",
+      "abstract_excerpt": "We present a library of formalized results around symmetric functions and the character theory of symmetric groups. Written in Coq/Rocq and based on the Mathematical Components library, it covers a large part of the contents of a graduate level textbook in the field. The flagship result is a proof of the Littlewood-Richardson rule, which computes the structure constants of the algebra of symmetric function in the schur basis which are integer numbers appearing in various fields of mathematics, a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a Coq/Rocq formalization of symmetric functions and the Littlewood-Richardson rule, with no mention of Boolean function representation rank or Frege proof depth/width. It shares only the broad 'algebraic combinatorics' framing and does not interact with the specific bound rrep(f) ≤ α · d_f.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1703.02583",
+      "title": "Newton Polytopes in Algebraic Combinatorics",
+      "abstract_excerpt": "A polynomial has saturated Newton polytope (SNP) if every lattice point of the convex hull of its exponent vectors corresponds to a monomial. We compile instances of SNP in algebraic combinatorics (some with proofs, others conjecturally): skew Schur polynomials; symmetric polynomials associated to reduced words, Redfield--Polya theory, Witt vectors, and totally nonnegative matrices; resultants; discriminants (up to quartics); Macdonald polynomials; key polynomials; Demazure atoms; Schubert polyn",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Newton polytopes of polynomials in algebraic combinatorics (Schubert, key, Macdonald polynomials, Schubitope) and says nothing about Boolean functions, representation rank over finite fields, or Frege proof depth. It shares only the broad 'algebraic combinatorics' framing with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2406.13902",
+      "title": "Signed combinatorial interpretations in algebraic combinatorics",
+      "abstract_excerpt": "We prove the existence of signed combinatorial interpretations for several large families of structure constants. These families include standard bases of symmetric and quasisymmetric polynomials, as well as various bases in Schubert theory. The results are stated in the language of computational complexity, while the proofs are based on the effective Möbius inversion.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns signed combinatorial interpretations of structure constants for symmetric/quasisymmetric polynomials and Schubert bases via effective Möbius inversion; it does not address minimal representation rank of Boolean functions or Frege proof depth.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

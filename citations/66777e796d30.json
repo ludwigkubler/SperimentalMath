@@ -1,0 +1,40 @@
+{
+  "entry_id": "66777e796d30",
+  "ts": 1781294937.2176423,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2012.15478",
+      "title": "N-quandles of links",
+      "abstract_excerpt": "The fundamental quandle is a powerful invariant of knots and links, but it is difficult to describe in detail. It is often useful to look at quotients of the quandle, especially finite quotients. One natural quotient introduced by Joyce is the $n$-quandle. Hoste and Shanahan gave a complete list of the knots and links which have finite $n$-quandles for some $n$. We introduce a generalization of $n$-quandles, denoted $N$-quandles (for a quandle with $k$ algebraic components, $N$ is a $k$-tuple of",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses N-quandles of links, which shares vocabulary with quandle theory, but does not interact with the specific claim about the correlation between quandle rank and communication complexity circuit depth, driven by the phrase 'The fundamental quandle is a powerful invariant of knots and links'.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1711.02729",
+      "title": "On f- and h- vectors of relative simplicial complexes",
+      "abstract_excerpt": "A relative simplicial complex is a collection of sets of the form $Δ\\setminus Γ$, where $Γ\\subset Δ$ are simplicial complexes. Relative complexes played key roles in recent advances in algebraic, geometric, and topological combinatorics but, in contrast to simplicial complexes, little is known about their general combinatorial structure. In this paper, we address a basic question in this direction and give a characterization of $f$-vectors of relative (multi)complexes on a ground set of fixed si",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses relative simplicial complexes and their combinatorial structure, which does not interact with the specific claim about quandle theory and communication complexity circuit depth in the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:0905.3374",
+      "title": "Symmetric Extensions of Dihedral Quandles and Triple Points of Non-orientable Surfaces",
+      "abstract_excerpt": "Quandles with involutions that satisfy certain conditions, called good involutions, can be used to color non-orientable surface-knots. We use subgroups of signed permutation matrices to construct non-trivial good involutions on extensions of odd order dihedral quandles.\n  For the smallest example of order 6 that is an extension of the three-element dihedral quandle, various symmetric quandle homology groups are computed, and applications to the minimal triple point number of surface-knots are gi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses quandles with involutions and their applications to non-orientable surface-knots, which does not interact with the specific claim about the correlation between quandle rank and communication complexity circuit depth.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

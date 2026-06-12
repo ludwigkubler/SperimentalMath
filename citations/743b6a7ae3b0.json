@@ -1,0 +1,40 @@
+{
+  "entry_id": "743b6a7ae3b0",
+  "ts": 1781293723.9733057,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2309.13516",
+      "title": "InSpaceType: Reconsider Space Type in Indoor Monocular Depth Estimation",
+      "abstract_excerpt": "Indoor monocular depth estimation has attracted increasing research interest. Most previous works have been focusing on methodology, primarily experimenting with NYU-Depth-V2 (NYUv2) Dataset, and only concentrated on the overall performance over the test set. However, little is known regarding robustness and generalization when it comes to applying monocular depth estimation methods to real-world scenarios where highly varying and diverse functional \\textit{space types} are present such as libra",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns indoor monocular depth estimation benchmarking across 'space types' like library or kitchen, which shares no substantive connection to configuration space rank in discrete geometry or Boolean circuit depth complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1208.1981",
+      "title": "General notions of depth for functional data",
+      "abstract_excerpt": "A data depth measures the centrality of a point with respect to an empirical distribution. Postulates are formulated, which a depth for functional data should satisfy, and a general approach is proposed to construct multivariate data depths in Banach spaces. The new approach, mentioned as Phi-depth, is based on depth infima over a proper set Phi of R^d-valued linear functions. Several desirable properties are established for the Phi-depth and a generalized version of it. The general notions incl",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns statistical 'data depth' for functional data in Banach spaces ('A data depth measures the centrality of a point with respect to an empirical distribution'), which is unrelated to circuit depth complexity or configuration-space rank in discrete geometry.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2211.03985",
+      "title": "Adaptive Data Depth via Multi-Armed Bandits",
+      "abstract_excerpt": "Data depth, introduced by Tukey (1975), is an important tool in data science, robust statistics, and computational geometry. One chief barrier to its broader practical utility is that many common measures of depth are computationally intensive, requiring on the order of $n^d$ operations to exactly compute the depth of a single point within a data set of $n$ points in $d$-dimensional space. Often however, we are not directly interested in the absolute depths of the points, but rather in their rel",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract is about adaptive algorithms for computing 'data depth' (a statistical/computational geometry concept from Tukey 1975) using multi-armed bandits, which has no connection to configuration space rank of graphs or Boolean circuit depth complexity. The only shared vocabulary is the word 'depth', used in an entirely different sense.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

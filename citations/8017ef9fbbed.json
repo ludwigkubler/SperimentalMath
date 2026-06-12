@@ -1,0 +1,22 @@
+{
+  "entry_id": "8017ef9fbbed",
+  "ts": 1781295468.2959285,
+  "hits_evaluated": 1,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1311.2355",
+      "title": "Communication Lower Bounds via Critical Block Sensitivity",
+      "abstract_excerpt": "We use critical block sensitivity, a new complexity measure introduced by Huynh and Nordström (STOC 2012), to study the communication complexity of search problems. To begin, we give a simple new proof of the following central result of Huynh and Nordström: if $S$ is a search problem with critical block sensitivity $b$, then every randomised two-party protocol solving a certain two-party lift of $S$ requires $Ω(b)$ bits of communication. Besides simplicity, our proof has the advantage of general",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses communication complexity, but it does not mention Ramanujan sums or minimal local indecomposable sheaf rank, which are central to the conjecture; it focuses on critical block sensitivity and its applications to monotone circuit depth and proof complexity.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 0
+  }
+}

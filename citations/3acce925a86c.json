@@ -1,0 +1,40 @@
+{
+  "entry_id": "3acce925a86c",
+  "ts": 1781296892.103334,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1810.10361",
+      "title": "Computational complexity, Newton polytopes, and Schubert polynomials",
+      "abstract_excerpt": "The nonvanishing problem asks if a coefficient of a polynomial is nonzero. Many families of polynomials in algebraic combinatorics admit combinatorial counting rules and simultaneously enjoy having saturated Newton polytopes (SNP). Thereby, in amenable cases, nonvanishing is in the complexity class $NP\\cap coNP$ of problems with \"good characterizations\". This suggests a new algebraic combinatorics viewpoint on complexity theory.\n  This report discusses the case of Schubert polynomials. These for",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Schubert polynomials, Newton polytopes, and complexity theory, but does not mention quadratic forms, SAT, or clause tree width, which are the core concepts of the conjecture, driven by phrases such as 'nonvanishing problem' and 'algebraic combinatorics viewpoint on complexity theory'.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0108106v3",
+      "title": "Derangements and tensor powers of adjoint modules for sl_n",
+      "abstract_excerpt": "We obtain the decomposition of the tensor space $\\mathfrak{sl}_n^{\\otimes k}$ as a module for $\\mathfrak{sl}_n$, find an explicit formula for the multiplicities of its irreducible summands, and (when $n \\ge 2k$) describe the centralizer algebra $C=End_{\\mathfrak{sl}_n}(\\mathfrak{sl}_n^{\\otimes k})$ ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses derangements and tensor powers of adjoint modules for sl_n, which does not interact with the specific claim about the relationship between minimal quadratic form rank and SAT clause tree width bound.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2503.14756",
+      "title": "SceneEval: Evaluating Semantic Coherence in Text-Conditioned 3D Indoor Scene Synthesis",
+      "abstract_excerpt": "Despite recent advances in text-conditioned 3D indoor scene generation, there remain gaps in the evaluation of these methods. Existing metrics often measure realism by comparing generated scenes to a set of ground-truth scenes, but they overlook how well scenes follow the input text and capture implicit expectations of plausibility. We present SceneEval, an evaluation framework designed to address these limitations. SceneEval introduces fine-grained metrics for explicit user requirements-includi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses scene generation and evaluation in 3D indoor scenes, which does not interact with the specific claim about quadratic form rank and SAT clause tree width bound in the conjecture.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
