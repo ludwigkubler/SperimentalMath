@@ -1,0 +1,40 @@
+{
+  "entry_id": "9e160659e0f7",
+  "ts": 1781229950.772241,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2001.07211",
+      "title": "Rank-2 attractors and Deligne's conjecture",
+      "abstract_excerpt": "In this paper, we will study the arithmetic geometry of rank-2 attractors, which are Calabi-Yau threefolds whose Hodge structures admit interesting splits. We will develop methods to analyze the algebraic de Rham cohomologies of rank-2 attractors, and we will illustrate how our methods work by focusing on an example in a recent paper by Candelas, de la Ossa, Elmi and van Straten. We will look at the interesting connections between rank-2 attractors in string theory and Deligne's conjecture on th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses rank-2 attractors and their connections to string theory and number theory, but does not mention Boolean functions, communication complexity, or Grothendieck-Witt classes, which are central to the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1504.00694",
+      "title": "Uniform bounds for the number of rational points on curves of small Mordell--Weil rank",
+      "abstract_excerpt": "Let $X$ be a curve of genus $g\\geq 2$ over a number field $F$ of degree $d = [F:Q]$. The conjectural existence of a uniform bound $N(g,d)$ on the number $\\#X(F)$ of $F$-rational points of $X$ is an outstanding open problem in arithmetic geometry, known by [CHM97] to follow from the Bombieri--Lang conjecture. A related conjecture posits the existence of a uniform bound $N_{{\\rm tors},\\dagger}(g,d)$ on the number of geometric torsion points of the Jacobian $J$ of $X$ which lie on the image of $X$ ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses uniform bounds on rational points of curves and torsion points of Jacobians, which shares vocabulary with arithmetic geometry, but does not interact with the specific claim about Grothendieck-Witt class and communication complexity rank variance.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2601.17202",
+      "title": "Rational points on modular curves via maps to elliptic curves with rank zero",
+      "abstract_excerpt": "A fundamental problem in arithmetic geometry is to determine the image of the mod $N$ Galois representation for all elliptic curves over $\\mathbb{Q}$ and integers $N \\geq 1$. For a given subgroup $G \\le \\mathrm{GL}_2(\\mathbb{Z}/N\\mathbb{Z})$, there is a modular curve $X_G$ whose rational points parametrize elliptic curves for which the image of the mod $N$ Galois representation is contained in $G$. If $X_G$ admits a map to an elliptic curve $E/\\mathbb{Q}$ for which $E(\\mathbb{Q})$ has rank $0$, ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses rational points on modular curves and elliptic curves, which shares vocabulary with arithmetic geometry, but does not interact with the specific claim about Grothendieck-Witt class and communication complexity rank variance.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

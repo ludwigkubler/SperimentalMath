@@ -1,0 +1,40 @@
+{
+  "entry_id": "cedcfe4fa03c",
+  "ts": 1781232277.752448,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1902.04347",
+      "title": "A Multilevel Monte Carlo Asymptotic-Preserving Particle Method for Kinetic Equations in the Diffusion Limit",
+      "abstract_excerpt": "We propose a multilevel Monte Carlo method for a particle-based asymptotic-preserving scheme for kinetic equations. Kinetic equations model transport and collision of particles in a position-velocity phase-space. With a diffusive scaling, the kinetic equation converges to an advection-diffusion equation in the limit of zero mean free path. Classical particle-based techniques suffer from a strict time-step restriction to maintain stability in this limit. Asymptotic-preserving schemes provide a so",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a multilevel Monte Carlo method for kinetic equations in the diffusion limit ('multilevel Monte Carlo method for a particle-based asymptotic-preserving scheme'), which has no interaction with resolution proof width or CNF complexity despite sharing Monte Carlo vocabulary.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1412.0783",
+      "title": "The Mean Square Quasi-Monte Carlo Error for Digitally Shifted Digital Nets",
+      "abstract_excerpt": "In this paper, we study randomized quasi-Monte Carlo (QMC) integration using digitally shifted digital nets. We express the mean square QMC error of the $n$-th discrete approximation $f_n$ of a function $f\\colon[0,1)^s\\to \\mathbb{R}$ for digitally shifted digital nets in terms of the Walsh coefficients of $f$. We then apply a bound on the Walsh coefficients for sufficiently smooth integrands to obtain a quality measure called Walsh figure of merit for root mean square error, which satisfies a Ko",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns mean square QMC error for digitally shifted digital nets via Walsh coefficients and Koksma-Hlawka type inequalities, with no mention of resolution proof width, CNF formulas, or ε-net covering of feasible regions. It shares only the QMC vocabulary with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/physics/9611010v1",
+      "title": "Quasi-Monte Carlo, Discrepancies and Error Estimates",
+      "abstract_excerpt": "We discuss the problem of defining an estimate for the error in quasi-Monte Carlo integration. The key issue is the definition of an ensemble of quasi-random point sets that, on the one hand, includes a sufficiency of equivalent point sets, and on the other hand uses information on the degree of uni",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses error estimates and discrepancies in quasi-Monte Carlo integration ('defining an estimate for the error in quasi-Monte Carlo integration'), with no mention of resolution proof width, CNF formulas, or ε-nets covering feasible regions of Boolean formulas.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

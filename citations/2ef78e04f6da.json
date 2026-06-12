@@ -1,0 +1,40 @@
+{
+  "entry_id": "2ef78e04f6da",
+  "ts": 1781230908.5279849,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2603.24621",
+      "title": "ARC-AGI-3: A New Challenge for Frontier Agentic Intelligence",
+      "abstract_excerpt": "We introduce ARC-AGI-3, an interactive benchmark for studying agentic intelligence through novel, abstract, turn-based environments in which agents must explore, infer goals, build internal models of environment dynamics, and plan effective action sequences without explicit instructions. Like its predecessors ARC-AGI-1 and 2, ARC-AGI-3 focuses entirely on evaluating fluid adaptive efficiency on novel tasks, while avoiding language and external knowledge. ARC-AGI-3 environments only leverage Core",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses an interactive benchmark for agentic intelligence, which does not interact with the specific claim about the correlation between Hodge arc length and communication complexity rank variance, despite sharing some general vocabulary related to abstract concepts.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2411.11206",
+      "title": "Capturing Sparks of Abstraction for the ARC Challenge",
+      "abstract_excerpt": "Excellent progress has been made recently in solving ARC Challenge problems. However, it seems that new techniques may be required to push beyond 60% accuracy. Even commercial Large Language Models (LLMs) struggle to 'understand' many of the problems (when given the input and output grids), which makes discovering solutions by LLM-lead program search somewhat futile.\n  In this work, LLM 'understanding' is attempted from a stronger starting position : An LLM is given complete solutions to tasks i",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Large Language Models and the ARC Challenge, which does not interact with the specific claim about the relationship between Hodge arc length and communication complexity rank variance.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2603.13372",
+      "title": "The ARC of Progress towards AGI: A Living Survey of Abstraction and Reasoning",
+      "abstract_excerpt": "The Abstraction and Reasoning Corpus (ARC-AGI) has become a key benchmark for fluid intelligence in AI. This survey presents the first cross-generation analysis of 82 approaches across three benchmark versions and the ARC Prize 2024-2025 competitions. Our central finding is that performance degradation across versions is consistent across all paradigms: program synthesis, neuro-symbolic, and neural approaches all exhibit 2-3x drops from ARC-AGI-1 to ARC-AGI-2, indicating fundamental limitations ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the Abstraction and Reasoning Corpus (ARC-AGI) and its relation to AI and fluid intelligence, which does not interact with the specific claim about the correlation between Hodge arc length and communication complexity rank variance.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
