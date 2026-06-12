@@ -1,0 +1,40 @@
+{
+  "entry_id": "7de31056e81a",
+  "ts": 1781271836.4336126,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1411.6135",
+      "title": "Analogous Dynamics of Boolean Network",
+      "abstract_excerpt": "Different Boolean networks may reveal similar dynamics although their definition differs, then preventing their distinction from the observations. This raises the question about the sufficiency of a particular Boolean network for properly reproducing a modeled phenomenon to make realistic predictions. The question actually depends on the invariant properties of behaviorally similar Boolean networks. In this article, we address this issue by considering that the similarity is formalized by isomor",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Boolean networks and their dynamics, but does not mention module theory, circuit depth, or local indecomposable modules, which are the core concepts of the conjecture, driven by phrases such as 'Boolean network' and 'invariant properties of behaviorally similar Boolean networks'.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1304.5291",
+      "title": "Boolean and Non-Boolean Computation With Spin Devices",
+      "abstract_excerpt": "Recently several device and circuit design techniques have been explored for applying nano-magnets and spin torque devices like spin valves and domain wall magnets in computational hardware. However, most of them have been focused on digital logic, and, their benefits over robust and high performance CMOS remains debatable. Ultra-low voltage, current-switching operation of magneto-metallic spin torque devices can potentially be more suitable for non-Boolean computation schemes that can exploit c",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses non-Boolean computation schemes and spin-torque devices, which does not interact with the specific claim about the order of minimal locally indecomposable modules and boolean circuit depth.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2106.15372",
+      "title": "Non-deterministic updates of Boolean networks",
+      "abstract_excerpt": "Boolean networks are discrete dynamical systems where each automaton has its own Boolean function for computing its state according to the configuration of the network. The updating mode then determines how the configuration of the network evolves over time. Many of updating modes from the literature, including synchronous and asynchronous modes, can be defined as the composition of elementary deterministic configuration updates, i.e., by functions mapping configurations of the network. Neverthe",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Boolean networks and non-deterministic updates, but does not mention module theory, syntactic monoids, or circuit depth, which are key concepts in the conjecture, driven by phrases such as 'Boolean networks' and 'non-deterministic updates'.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

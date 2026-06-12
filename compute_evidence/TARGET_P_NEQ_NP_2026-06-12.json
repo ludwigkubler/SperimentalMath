@@ -1,7 +1,7 @@
 {
   "node_id": "TARGET_P_NEQ_NP",
   "instance_class": "random_3sat",
-  "ts": 1781223781.5929897,
+  "ts": 1781266982.214387,
   "result": {
     "instance_class": "random_3sat",
     "n_range": [
@@ -18,7 +18,7 @@
         "n": 8,
         "seed": 0,
         "sat": true,
-        "runtime_s": 0.0104,
+        "runtime_s": 0.0221,
         "conflicts": 0,
         "decisions": 0,
         "propagations": 11,
@@ -44,7 +44,7 @@
         "n": 12,
         "seed": 0,
         "sat": true,
-        "runtime_s": 0.0013,
+        "runtime_s": 0.0012,
         "conflicts": 0,
         "decisions": 0,
         "propagations": 35,
@@ -57,7 +57,7 @@
         "n": 12,
         "seed": 1,
         "sat": true,
-        "runtime_s": 0.0014,
+        "runtime_s": 0.0012,
         "conflicts": 0,
         "decisions": 0,
         "propagations": 17,
@@ -109,7 +109,7 @@
         "n": 20,
         "seed": 1,
         "sat": true,
-        "runtime_s": 0.0012,
+        "runtime_s": 0.0013,
         "conflicts": 0,
         "decisions": 0,
         "propagations": 71,
@@ -135,7 +135,7 @@
         "n": 24,
         "seed": 1,
         "sat": true,
-        "runtime_s": 0.0015,
+        "runtime_s": 0.0016,
         "conflicts": 0,
         "decisions": 0,
         "propagations": 181,
@@ -147,13 +147,13 @@
     ],
     "summary": {
       "n=8": {
-        "median_runtime_s": 0.0059,
+        "median_runtime_s": 0.0117,
         "median_conflicts": 0,
         "n_timeout": 0,
         "n_total": 2
       },
       "n=12": {
-        "median_runtime_s": 0.0013,
+        "median_runtime_s": 0.0012,
         "median_conflicts": 0,
         "n_timeout": 0,
         "n_total": 2
@@ -165,7 +165,7 @@
         "n_total": 2
       },
       "n=20": {
-        "median_runtime_s": 0.0013,
+        "median_runtime_s": 0.0014,
         "median_conflicts": 0,
         "n_timeout": 0,
         "n_total": 2
@@ -177,7 +177,7 @@
         "n_total": 2
       },
       "fit": {
-        "runtime_loglog_slope": -1.1594758568344847,
+        "runtime_loglog_slope": -1.6765823525731745,
         "conflicts_loglog_slope": 0.0
       }
     }

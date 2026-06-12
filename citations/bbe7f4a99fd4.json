@@ -1,0 +1,40 @@
+{
+  "entry_id": "bbe7f4a99fd4",
+  "ts": 1781269745.4258988,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1206.1925",
+      "title": "Counting Algebraic Curves with Tropical Geometry",
+      "abstract_excerpt": "Tropical geometry is a piecewise linear \"shadow\" of algebraic geometry. It allows for the computation of several cohomological invariants of an algebraic variety. In particular, its application to enumerative algebraic geometry led to significant progress.\n  In this survey, we give an introduction to tropical geometry techniques for algebraic curve counting problems. We also survey some recent developments, with a particular emphasis on the computation of the degree of the Severi varieties of th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "```json\n{\n  \"verdict\": \"ORTHOGONAL\",\n  \"reasoning\": \"The abstract discusses tropical geometry in the context of algebraic curve counting, but does not mention Boolean satisfiability, DPLL search trees",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1009.2975",
+      "title": "2-plectic geometry, Courant algebroids, and categorified prequantization",
+      "abstract_excerpt": "A 2-plectic manifold is a manifold equipped with a closed nondegenerate 3-form, just as a symplectic manifold is equipped with a closed nondegenerate 2-form. In 2-plectic geometry we meet higher analogues of many structures familiar from symplectic geometry. For example, any 2-plectic manifold has a Lie 2-algebra consisting of smooth functions and Hamiltonian 1-forms. This is equipped with a Poisson-like bracket which only satisfies the Jacobi identity up to `coherent chain homotopy'. Over any 2",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 2-plectic geometry, Courant algebroids, and categorified prequantization, which shares vocabulary related to geometry, but does not interact with the specific claim about the correlation between minimal tropical Hermitian rank and DPLL search tree width in Boolean satisfiability problems.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1702.00066",
+      "title": "Combinatorial distance geometry in normed spaces",
+      "abstract_excerpt": "We survey problems and results from combinatorial geometry in normed spaces, concentrating on problems that involve distances. These include various properties of unit-distance graphs, minimum-distance graphs, diameter graphs, as well as minimum spanning trees and Steiner minimum trees. In particular, we discuss translative kissing (or Hadwiger) numbers, equilateral sets, and the Borsuk problem in normed spaces. We show how to use the angular measure of Peter Brass to prove various statements ab",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses combinatorial geometry in normed spaces, focusing on distance-related problems, which does not interact with the specific claim about the relationship between minimal tropical Hermitian rank and DPLL search tree width in Boolean satisfiability instances.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}

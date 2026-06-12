@@ -1,0 +1,40 @@
+{
+  "entry_id": "05165c749c80",
+  "ts": 1781271078.294541,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0405176v4",
+      "title": "Quantized symplectic oscillator algebras of rank one",
+      "abstract_excerpt": "A quantized symplectic oscillator algebra of rank 1 is a PBW deformation of the smash product of the quantum plane with U_q(sl_2). We study its representation theory, and in particular, its category O.",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses quantized symplectic oscillator algebras and their representation theory, which shares vocabulary with noncommutative algebra, but does not interact with the specific claim about the minimal index of noncommutative quotient algebras and communication complexity rank variance.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1608.08463",
+      "title": "Noncommutative reality-based algebras of rank 6",
+      "abstract_excerpt": "We classify the RBA-bases of $6$-dimensional noncommutative semisimple algebras for which the algebra has a positive degree map. We show that these RBAs are parametrized by seven real numbers, the first four of which are positive and the remaining three arbitrary. Our classification gives formulas for their standard bases and structure constants. Using these we give a list of all noncommutative integral table algebras of rank 6 with order up to 150. Four in the list are primitive, but we show th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses classification and properties of noncommutative semisimple algebras of rank 6, but does not mention CNF formulas, communication complexity, or rank variance, which are central to the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1306.5684",
+      "title": "New Large-Rank Nichols Algebras Over Nonabelian Groups With Commutator Subgroup Z_2",
+      "abstract_excerpt": "In this article, we explicitly construct new finite-dimensional, link-indecomposable Nichols algebras with Dynkin diagrams of type An,Cn,Dn,E6,E7,E8,F4 over any group G with commutator subgroup isomorphic to Z_2.The construction is generic in the sense that the type just depends on the rank and center of G, and thus positively answers for all groups of this class a question raised by Susan Montgomory in 1995 [Mont95][AS02].\n  Our construction uses the new notion of a covering Nichols algebra as ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Nichols algebras over nonabelian groups, which shares vocabulary with noncommutative algebra, but does not mention communication complexity rank variance or the minimal index of noncommutative quotient algebras, thus it does not interact with the specific claim.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
