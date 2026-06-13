@@ -1,0 +1,40 @@
+{
+  "entry_id": "de91d0f3d0bc",
+  "ts": 1781359033.8141706,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2604.21398",
+      "title": "A lower bound for polynomial volume growth of automorphisms of zero entropy",
+      "abstract_excerpt": "Let $X$ be a normal projective variety of dimension $d$, and let $f$ be a zero-entropy automorphism of $X$. Denote by $k$ the first-degree growth rate of $f$, so that $°_1(f^n) \\asymp n^{k}$. We prove the sharp lower bound for the polynomial volume growth $\\mathrm{plov}(f)$ of $f$: \\[ \\mathrm{plov}(f) \\ge d+\\frac{k(k+2)}{4}, \\] equivalently giving a sharp lower bound on the Gelfand--Kirillov dimension of the associated twisted homogeneous coordinate ring. This improves previous lower bounds of K",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns polynomial volume growth of zero-entropy automorphisms of projective varieties and Gelfand-Kirillov dimension, which shares only the word 'entropy' with the conjecture about cumulative-entropy lower bounds Φ(π) ≥ c·|S|² in resolution proof complexity for Tseitin formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2103.09609",
+      "title": "Characterizing Tseitin-formulas with short regular resolution refutations",
+      "abstract_excerpt": "Tseitin-formulas are systems of parity constraints whose structure is described by a graph. These formulas have been studied extensively in proof complexity as hard instances in many proof systems. In this paper, we prove that a class of unsatisfiable Tseitin-formulas of bounded degree has regular resolution refutations of polynomial length if and only if the treewidth of all underlying graphs $G$ for that class is in $O(\\log|V(G)|)$. To do so, we show that any regular resolution refutation of a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses regular resolution refutation *length* lower bounds parameterized by treewidth (2^Ω(tw(G))), not a cumulative-entropy measure Φ(π) bounded below by the square of the balanced separator size. It shares the Tseitin/resolution framework but does not interact with the specific quadratic-in-separator entropy claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1903.03401",
+      "title": "Planar Black holes and Entanglement Entropy in Analog Gravity Models",
+      "abstract_excerpt": "Via constructing an explicit Lagrangian for which the perturbation equations are analogues of a scalar field propagating in a planar black hole space-time, it is found that all planar black holes conformal to a Painlevé--Gullstrand type line element can be realized as analogue metrics. We also introduce the concept of holographic entanglement entropy for planar black-hole space-times. This is valid for an arbitrary choice of conformal and blackening factor, thereby vastly extending the number of",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns analogue gravity, planar black holes, and holographic entanglement entropy in physics, not resolution proof complexity, Tseitin formulas, or balanced separator bounds. Despite the shared word 'entropy,' it does not interact with the conjecture's claim about Φ(π) ≥ c·|S|².",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

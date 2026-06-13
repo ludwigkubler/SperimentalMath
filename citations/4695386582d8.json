@@ -1,0 +1,40 @@
+{
+  "entry_id": "4695386582d8",
+  "ts": 1781359848.731706,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1203.4027",
+      "title": "Invariant measures and the soliton resolution conjecture",
+      "abstract_excerpt": "The soliton resolution conjecture for the focusing nonlinear Schrodinger equation (NLS) is the vaguely worded claim that a global solution of the NLS, for generic initial data, will eventually resolve into a radiation component that disperses like a linear solution, plus a localized component that behaves like a soliton or multi-soliton solution. Considered to be one of the fundamental open problems in the area of nonlinear dispersive equations, this conjecture has eluded a proof or even a preci",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the soliton resolution conjecture for the focusing nonlinear Schrödinger equation and invariant measures in dispersive PDE, with no connection to resolution proof complexity, Tseitin formulas, or DP-step potential functions Φ(π).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2212.12150",
+      "title": "A Closer Look at Some Recent Proof Compression-Related Claims",
+      "abstract_excerpt": "Gordeev and Haeusler [GH19] claim that each tautology $ρ$ of minimal propositional logic can be proved with a natural deduction of size polynomial in $|ρ|$. This builds on work from Hudelmaier [Hud93] that found a similar result for intuitionistic propositional logic, but for which only the height of the proof was polynomially bounded, not the overall size. They arrive at this result by transforming a proof in Hudelmaier's sequent calculus into an equivalent tree-like proof in Prawitz's system o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses proof compression in minimal propositional/implicational logic and a flawed NP=PSPACE claim, not resolution proof complexity, Tseitin formulas, DP steps, or per-step weight growth (Φ(π)/proof_size).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/astro-ph/0507120v1",
+      "title": "Search for Cross-Correlations of Ultra--High-Energy Cosmic Rays with BL Lacertae Objects",
+      "abstract_excerpt": "Data taken in stereo mode by the High Resolution Fly's Eye (HiRes) air fluorescence experiment are analyzed to search for correlations between the arrival directions of ultra--high-energy cosmic rays with the positions of BL Lacertae objects. Several previous claims of significant correlations betwe",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes an astrophysics search for correlations between cosmic ray arrival directions and BL Lacertae objects, which has no interaction with resolution proof complexity or DP-step weight monotonicity in Tseitin formulas.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
