@@ -1,0 +1,40 @@
+{
+  "entry_id": "afeb9423c276",
+  "ts": 1781383118.7278674,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2102.10630",
+      "title": "Fractional generalized cumulative entropy and its dynamic version",
+      "abstract_excerpt": "Following the theory of information measures based on the cumulative distribution function, we propose the fractional generalized cumulative entropy, and its dynamic version. These entropies are particularly suitable to deal with distributions satisfying the proportional reversed hazard model. We study the connection with fractional integrals, and some bounds and comparisons based on stochastic orderings, that allow to show that the proposed measure is actually a variability measure. The investi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns fractional generalized cumulative entropy in information/reliability theory ('proportional reversed hazard model', 'mean inactivity time'), which shares no interaction with Tseitin resolution width or literal-weight scaling exponents in proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1501.03285",
+      "title": "Extension of the past lifetime and its connection to the cumulative entropy",
+      "abstract_excerpt": "Given two absolutely continuous nonnegative independent random variables, we define the reversed relevation transform as dual to the relevation transform. We first apply such transforms to the lifetimes of the components of parallel and series systems under suitably proportionality assumptions on the hazards rates. Furthermore, we prove that the (reversed) relevation transform is commutative if and only if the proportional (reversed) hazard rate model holds. By repeated application of the revers",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns probability theory (relevation transforms, hazard rates, cumulative entropy of random variables), with no connection to resolution proof complexity, Tseitin formulas, or clause-width scaling. Only the word 'cumulative' is shared vocabulary.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1507.07051",
+      "title": "Weighted cumulative entropies: An extension of CRE and CE",
+      "abstract_excerpt": "We generalize the weighted cumulative entropies (WCRE and WCE), introduced in [5], for a system or component lifetime. Representing properties of cumulative entropies, several bounds and inequalities for the WCRE is proposed",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns weighted cumulative residual entropies (WCRE/WCE) for system lifetimes in reliability theory, sharing only the surface vocabulary 'weighted cumulative' with the conjecture about resolution proof complexity scaling exponents for Tseitin formulas.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
