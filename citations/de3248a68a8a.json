@@ -1,0 +1,40 @@
+{
+  "entry_id": "de3248a68a8a",
+  "ts": 1781338757.8423092,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2209.05839",
+      "title": "On bounded depth proofs for Tseitin formulas on the grid; revisited",
+      "abstract_excerpt": "We study Frege proofs using depth-$d$ Boolean formulas for the Tseitin contradiction on $n \\times n$ grids. We prove that if each line in the proof is of size $M$ then the number of lines is exponential in $n/(\\log M)^{O(d)}$. This strengthens a recent result of Pitassi et al. [PRT22]. The key technical step is a multi-switching lemma extending the switching lemma of Håstad [Hås20] for a space of restrictions related to the Tseitin contradiction. The strengthened lemma also allows us to improve ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Frege proofs and bounded depth Boolean formulas for Tseitin contradictions on grids, which shares vocabulary with the conjecture, but does not interact with the specific claim about min-occurrence DP elimination and super-linear growth of Φ(π) on 3-regular Tseitin formulas.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:0709.1201",
+      "title": "On the Proof Complexity of Deep Inference",
+      "abstract_excerpt": "We obtain two results about the proof complexity of deep inference: 1) deep-inference proof systems are as powerful as Frege ones, even when both are extended with the Tseitin extension rule or with the substitution rule; 2) there are analytic deep-inference proof systems that exhibit an exponential speed-up over analytic Gentzen proof systems that they polynomially simulate.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract of the cited paper discusses the power and efficiency of deep-inference proof systems compared to Frege ones, but does not mention min-occurrence DP elimination, super-linear growth in Φ(π), or 3-regular Tseitin formulas. Therefore, it does not support or refute the conjecture.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:0708.1529",
+      "title": "Resolution over Linear Equations and Multilinear Proofs",
+      "abstract_excerpt": "We develop and study the complexity of propositional proof systems of varying strength extending resolution by allowing it to operate with disjunctions of linear equations instead of clauses. We demonstrate polynomial-size refutations for hard tautologies like the pigeonhole principle, Tseitin graph tautologies and the clique-coloring tautologies in these proof systems. Using the (monotone) interpolation by a communication game technique we establish an exponential-size lower bound on refutation",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the complexity of propositional proof systems and polynomial-size refutations for tautologies, including Tseitin graph tautologies. It does not mention DP elimination, Φ(π) growth, or the specific super-linear behavior on 3-regular Tseitin formulas as described in the conjecture.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

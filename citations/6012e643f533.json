@@ -1,0 +1,40 @@
+{
+  "entry_id": "6012e643f533",
+  "ts": 1781338107.8019524,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0705.1213",
+      "title": "Schémas en groupes et poids de Diamond-Serre",
+      "abstract_excerpt": "This note is a correction of (statement and proof of) proposition 3.3.1 of Toby Gee's preprint intitled *On the weights of mod p Hilbert modular forms*. The aim is to compare Galois representations arising from extensions of some group schemes (over the ring of integers of a p-adic field) endowed with a descent data, and extensions of some crystalline representations with given Hodge-Tate weights. The main tool of the proof is the theory of Breuil.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Galois representations, group schemes, and crystalline representations, which do not interact with the specific claim about width-aware totalLiteralWeight and count-based Φ in Resolution proof complexity and Tseitin formulas.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2411.10229",
+      "title": "Optimally Rewriting Formulas and Database Queries: A Confluence of Term Rewriting, Structural Decomposition, and Complexity",
+      "abstract_excerpt": "A central computational task in database theory, finite model theory, and computer science at large is the evaluation of a first-order sentence on a finite structure. In the context of this task, the \\emph{width} of a sentence, defined as the maximum number of free variables over all subformulas, has been established as a crucial measure, where minimizing width of a sentence (while retaining logical equivalence) is considered highly desirable. An undecidability result rules out the possibility o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited abstract discusses width minimization in the context of database theory and finite model theory, focusing on syntactic rewriting rules to achieve minimum-width sentences. It does not address the scaling of cumulative weight with respect to width or provide any comparison to count-based Φ, which is central to the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1905.01943",
+      "title": "Crediting multi-authored papers to single authors",
+      "abstract_excerpt": "A fair assignment of credit for multi-authored publications is a long-standing issue in scientometrics. In the calculation of the $h$-index, for instance, all co-authors receive equal credit for a given publication, independent of a given author's contribution to the work or of the total number of co-authors. Several attempts have been made to distribute the credit in a more appropriate manner. In a recent paper, Hirsch has suggested a new way of credit assignment that is fundamentally different",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the issue of credit assignment for multi-authored publications and proposes an alternative method for calculating an index, $h_α$, which is unrelated to the concept of width-aware totalLiteralWeight scaling in resolution proof complexity or Tseitin formulas.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
