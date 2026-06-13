@@ -1,0 +1,40 @@
+{
+  "entry_id": "a7c64e217fbe",
+  "ts": 1781378672.8003035,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2103.09609",
+      "title": "Characterizing Tseitin-formulas with short regular resolution refutations",
+      "abstract_excerpt": "Tseitin-formulas are systems of parity constraints whose structure is described by a graph. These formulas have been studied extensively in proof complexity as hard instances in many proof systems. In this paper, we prove that a class of unsatisfiable Tseitin-formulas of bounded degree has regular resolution refutations of polynomial length if and only if the treewidth of all underlying graphs $G$ for that class is in $O(\\log|V(G)|)$. To do so, we show that any regular resolution refutation of a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the relationship between treewidth and the length of regular resolution refutations in Tseitin-formulas, but it does not address the cumulative-entropy analogue of space lower bounds or provide any information about Φ(π) >= c·|S|².",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2209.05839",
+      "title": "On bounded depth proofs for Tseitin formulas on the grid; revisited",
+      "abstract_excerpt": "We study Frege proofs using depth-$d$ Boolean formulas for the Tseitin contradiction on $n \\times n$ grids. We prove that if each line in the proof is of size $M$ then the number of lines is exponential in $n/(\\log M)^{O(d)}$. This strengthens a recent result of Pitassi et al. [PRT22]. The key technical step is a multi-switching lemma extending the switching lemma of Håstad [Hås20] for a space of restrictions related to the Tseitin contradiction. The strengthened lemma also allows us to improve ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract does not provide enough information about cumulative entropy or balanced separator size to determine whether it supports, refutes, or is orthogonal to the conjecture. It focuses on the depth of Frege proofs for Tseitin formulas and their relation to proof size, which is unrelated to the cumulative-entropy lower bound stated in the conjecture.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2507.23008",
+      "title": "Exponential Lower Bounds on the Size of ResLin Proofs of Nearly Quadratic Depth",
+      "abstract_excerpt": "Itsykson and Sokolov [IS14] identified resolution over parities, denoted by $\\text{Res}(\\oplus)$, as a natural and simple fragment of $\\text{AC}^0[2]$-Frege for which no super-polynomial lower bounds on size of proofs are known. Building on a recent line of work ([EGI24], [BCD24], [AI25]), Efremenko and Itsykson [EI25] proved lower bounds of the form $\\text{exp}(N^{Ω(1)})$, on the size of $\\text{Res}(\\oplus)$ proofs whose depth is upper bounded by $O(N\\log N)$, where $N$ is the number of variabl",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper's abstract discusses exponential lower bounds on the size of ResLin proofs for Tseitin formulas with a specific gadget, but it does not directly address or compare to the conjecture about cumulative entropy Φ(π) and balanced separator size. The paper focuses on proof complexity rather than entropy measures.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}

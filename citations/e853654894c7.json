@@ -1,0 +1,40 @@
+{
+  "entry_id": "e853654894c7",
+  "ts": 1781377745.5777586,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2211.12954",
+      "title": "The NISQ Complexity of Collision Finding",
+      "abstract_excerpt": "Collision-resistant hashing, a fundamental primitive in modern cryptography, ensures that there is no efficient way to find distinct inputs that produce the same hash value. This property underpins the security of various cryptographic applications, making it crucial to understand its complexity. The complexity of this problem is well-understood in the classical setting and $Θ(N^{1/2})$ queries are needed to find a collision. However, the advent of quantum computing has introduced new challenges",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses the complexity of collision finding in quantum computing, particularly focusing on NISQ era algorithms. It does not mention width-aware totalLiteralWeight or the count-based Φ, which are central to the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:0804.1404",
+      "title": "Optimal Entanglement Formulas for Entanglement-Assisted Quantum Coding",
+      "abstract_excerpt": "We provide several formulas that determine the optimal number of entangled bits (ebits) that a general entanglement-assisted quantum code requires. Our first theorem gives a formula that applies to an arbitrary entanglement-assisted block code. Corollaries of this theorem give formulas that apply to a code imported from two classical binary block codes, to a code imported from a classical quaternary block code, and to a continuous-variable entanglement-assisted quantum block code. Finally, we co",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited abstract discusses optimal entanglement formulas for quantum coding and provides various formulas for different types of codes. It does not address the relationship between width-aware totalLiteralWeight and count-based Φ, which is the focus of the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2102.10630",
+      "title": "Fractional generalized cumulative entropy and its dynamic version",
+      "abstract_excerpt": "Following the theory of information measures based on the cumulative distribution function, we propose the fractional generalized cumulative entropy, and its dynamic version. These entropies are particularly suitable to deal with distributions satisfying the proportional reversed hazard model. We study the connection with fractional integrals, and some bounds and comparisons based on stochastic orderings, that allow to show that the proposed measure is actually a variability measure. The investi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited abstract discusses fractional generalized cumulative entropy and its dynamic version, stochastic orderings, reliability theory, and empirical estimation of this measure. There is no mention of width-aware totalLiteralWeight or the count-based Φ, which are central to the conjecture about scaling with a strictly larger exponent.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

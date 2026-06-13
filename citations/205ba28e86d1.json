@@ -1,0 +1,40 @@
+{
+  "entry_id": "205ba28e86d1",
+  "ts": 1781377231.6008174,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1905.07971",
+      "title": "$^{42}$Ca and $^{50}$Ca with the (Many- and Few-body) Unified Method",
+      "abstract_excerpt": "A new method unifying many and few-body aspects of nuclear structure has recently been introduced \\cite{hov18}. This method combines the many-body description of a core and the few-body structure of this core surrounded by two valence nucleons. For this reason this method is expected to work specially well when applied to nuclei close to the driplines, where the few-body halo structure with one or more nucleons outside the core is established. In this work we apply the new method to nuclei close",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns nuclear structure of Ca isotopes using a many/few-body unified method, with no connection to resolution proof complexity, Tseitin formulas, or DP step weights.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/hep-ph/0508269v3",
+      "title": "Generation Mixing of Sneutrinos in Heavier Chargino Decay",
+      "abstract_excerpt": "The heavier chargino decay could yield two charged leptons of different generations, owing to generation mixing of sneutrinos. We discuss the possibility of producing $e$ and $μ$ through this process in near future collider experiments. The analyses are made systematically in the supersymmetric exte",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns sneutrino generation mixing in chargino decay (particle physics), which has no connection to resolution proof complexity, Tseitin formulas, or DP step weights.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/nucl-th/9911003v1",
+      "title": "Few-Body States in Fermi-Systems and Condensation Phenomena",
+      "abstract_excerpt": "Residual interactions in many particle systems lead to strong correlations. A multitude of spectacular phenomenae in many particle systems are connected to correlation effects in such systems, e.g. pairing, superconductivity, superfluidity, Bose-Einstein condensation etc. Here we focus on few-body b",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns few-body correlations and condensation phenomena in Fermi systems (nuclear/many-body physics), which has no interaction with claims about DP step weights in resolution proofs of Tseitin formulas.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
