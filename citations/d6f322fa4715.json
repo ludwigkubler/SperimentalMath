@@ -1,0 +1,40 @@
+{
+  "entry_id": "d6f322fa4715",
+  "ts": 1781364882.6787152,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0911.3482",
+      "title": "Complexity of Networks (reprise)",
+      "abstract_excerpt": "Network or graph structures are ubiquitous in the study of complex systems. Often, we are interested in complexity trends of these system as it evolves under some dynamic. An example might be looking at the complexity of a food web as species enter an ecosystem via migration or speciation, and leave via extinction.\n  In a previous paper, a complexity measure of networks was proposed based on the {\\em complexity is information content} paradigm. To apply this paradigm to any object, one must fix ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract discusses a new representation language for measuring network complexity and its properties, but it does not mention min-occurrence DP elimination, Φ(π), or the growth of complexity in 3-regular Tseitin formulas. Therefore, there is no direct support or refutation of the conjecture.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/nlin/0101006v1",
+      "title": "On Complexity and Emergence",
+      "abstract_excerpt": "Numerous definitions for complexity have been proposed over the last half century, with little consensus achieved on how to use the term. A definition of complexity is supplied here that is closely related to the Kolmogorov Complexity and Shannon Entropy measures widely used as complexity measures, ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited abstract discusses various definitions of complexity and their relation to Kolmogorov Complexity and Shannon Entropy. It does not mention min-occurrence DP elimination, 3-regular Tseitin formulas, or the growth of Φ(π) in n, which are specific elements related to the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1607.00443",
+      "title": "Algebraic Proof Complexity: Progress, Frontiers and Challenges",
+      "abstract_excerpt": "We survey recent progress in the proof complexity of strong proof systems and its connection to algebraic circuit complexity, showing how the synergy between the two gives rise to new approaches to fundamental open questions, solutions to old problems, and new directions of research. In particular, we focus on tight connections between proof complexity lower bounds (namely, lower bounds on the size of proofs of certain tautologies), algebraic circuit lower bounds, and the Polynomial Identity Tes",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper's abstract discusses the connections between proof complexity, algebraic circuit complexity, and the Polynomial Identity Testing problem. It does not mention min-occurrence DP elimination on 3-regular Tseitin formulas or the growth of Φ(π) in n, which are specific aspects addressed by the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}
