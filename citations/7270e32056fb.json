@@ -1,0 +1,40 @@
+{
+  "entry_id": "7270e32056fb",
+  "ts": 1781319840.4393353,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1205.6145",
+      "title": "On the monotone properties of general affine surface areas under the Steiner symmetrization",
+      "abstract_excerpt": "In this paper, we prove that, if functions (concave) $φ$ and (convex) $ψ$ satisfy certain conditions, the $L_φ$ affine surface area is monotone increasing, while the $L_ψ$ affine surface area is monotone decreasing under the Steiner symmetrization. Consequently, we can prove related affine isoperimetric inequalities, under certain conditions on $φ$ and $ψ$, without assuming that the convex body involved has centroid (or the Santaló point) at the origin.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses monotone properties of affine surface areas under Steiner symmetrization, which shares some vocabulary like 'monotone increasing', but does not interact with the specific claim about Φ(π)/proof_size in resolution proof complexity.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1905.08852",
+      "title": "Potential envelope theory and the local energy theorem",
+      "abstract_excerpt": "We consider a one--particle bound quantum mechanical system governed by a Schrödinger operator $\\mathscr{H} = -Δ+ v\\,f(r)$, where $f(r)$ is an attractive central potential, and $v&gt;0$ is a coupling parameter. If $φ\\in \\mathcal{D}(\\mathscr{H})$ is a `trial function', the local energy theorem tells us that the discrete energies of $\\mathscr{H}$ are bounded by the extreme values of $(\\mathscr{H}φ)/φ,$ as a function of $r$. We suppose that $f(r)$ is a smooth transformation of the form $f = g(h)$, ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited abstract discusses a local energy theorem in quantum mechanics and provides bounds for eigenvalues of an operator. There is no direct mention or implication regarding the monotonicity of Φ(π)/proof_size (number of DP steps) in the context of resolution proof complexity, which is the subject of the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2302.01087",
+      "title": "A Cluster Expansion Proof That The Stochastic Exponential Of A Brownian Motion Is A Martingale",
+      "abstract_excerpt": "Let $ψ:\\mathbb{R}^{+}\\rightarrow\\mathbb{R}^{+}$ be a smooth and continuous real function and $ψ\\in\\mathrm{L}^{2}(\\mathbb{R}^{+})$. Let ${B}(t)$ be a standard Brownian motion defined with respect to a probability space $(Ω,\\mathscr{F},{\\mathsf{P}})$ and where $d{B}(t)=ξ(t)dt$ and $t\\in\\mathbb{R}^{+}$. The process $ξ(t)$ is a Gaussian white noise with expectation $\\mathbf{\\mathsf{E}}~ξ(t)=0$ and with covariance ${\\mathsf{E}}~ξ(t)ξ(s)=δ(t-s)$. The Dolean-Dades stochastic exponential ${Z}(t)$ is the",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper discusses the stochastic exponential of a Brownian motion and its properties as a martingale, which is orthogonal to the conjecture about Φ(π)/proof_size (number of DP steps) being monotone increasing in n. The abstract from the cited paper does not provide any information related to proof complexity or the growth of per-step active weight in resolution proof systems.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}

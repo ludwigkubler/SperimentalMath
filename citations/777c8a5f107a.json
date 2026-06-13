@@ -1,0 +1,40 @@
+{
+  "entry_id": "777c8a5f107a",
+  "ts": 1781321138.773826,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1808.05530",
+      "title": "Simulation of McKean Vlasov SDEs with super linear growth",
+      "abstract_excerpt": "We present two fully probabilistic Euler schemes, one explicit and one implicit, for the simulation of McKean-Vlasov Stochastic Differential Equations (MV-SDEs) with drifts of super-linear growth and random initial condition.\n  We provide a pathwise propagation of chaos result and show strong convergence for both schemes on the consequent particle system. The explicit scheme attains the standard $1/2$ rate in stepsize. From a technical point of view, we successfully use stopping times to prove t",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper discusses simulation of McKean-Vlasov Stochastic Differential Equations with super-linear growth, which is unrelated to the conjecture about the growth of Φ(π) in min-occurrence DP elimination on 3-regular Tseitin formulas.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1007.2388",
+      "title": "p-integrable solutions to multidimensional BSDEs and degenerate systems of PDEs with logarithmic nonlinearities",
+      "abstract_excerpt": "We study multidimensional backward stochastic differential equations (BSDEs) which cover the logarithmic nonlinearity u log u. More precisely, we establish the existence and uniqueness as well as the stability of p-integrable solutions (p &gt; 1) to multidimensional BSDEs with a p-integrable terminal condition and a super-linear growth generator in the both variables y and z. This is done with a generator f(y, z) which can be neither locally monotone in the variable y nor locally Lipschitz in th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses multidimensional backward stochastic differential equations and super-linear growth generators in the context of PDEs with logarithmic nonlinearities, which is unrelated to the conjecture about min-occurrence DP elimination and Φ(π) growth on 3-regular Tseitin formulas.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2003.03725",
+      "title": "Existence and regularity estimates for quasilinear equations with measure data: the case $1&lt;p\\leq \\frac{3n-2}{2n-1}$",
+      "abstract_excerpt": "We obtain existence and global regularity estimates for gradients of solutions to quasilinear elliptic equations with measure data whose prototypes are of the form $-{\\rm div} (|\\nabla u|^{p-2} \\nabla u)= δ\\, |\\nabla u|^q +μ$ in a bounded main $\\Om\\subset\\RR^n$ potentially with non-smooth boundary. Here either $δ=0$ or $δ=1$, $μ$ is a finite signed Radon measure in $Ω$, and $q$ is of linear or super-linear growth, i.e., $q\\geq 1$. Our main concern is to extend earlier results to the strongly sin",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper discusses existence and regularity estimates for quasilinear equations with measure data, which is unrelated to the conjecture about the growth of Φ(π) on 3-regular Tseitin formulas under min-occurrence DP elimination. The abstract does not provide any information regarding the growth properties or exponent of Φ(π).",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}

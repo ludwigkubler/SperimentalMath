@@ -1,0 +1,40 @@
+{
+  "entry_id": "2f73ca170a35",
+  "ts": 1781322401.6823318,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2503.14756",
+      "title": "SceneEval: Evaluating Semantic Coherence in Text-Conditioned 3D Indoor Scene Synthesis",
+      "abstract_excerpt": "Despite recent advances in text-conditioned 3D indoor scene generation, there remain gaps in the evaluation of these methods. Existing metrics often measure realism by comparing generated scenes to a set of ground-truth scenes, but they overlook how well scenes follow the input text and capture implicit expectations of plausibility. We present SceneEval, an evaluation framework designed to address these limitations. SceneEval introduces fine-grained metrics for explicit user requirements-includi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper's abstract discusses an evaluation framework for semantic coherence in text-conditioned 3D indoor scene generation, which is unrelated to the conjecture about the growth of Φ(π) in min-occurrence DP elimination on 3-regular Tseitin formulas.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2408.02211",
+      "title": "SceneMotifCoder: Example-driven Visual Program Learning for Generating 3D Object Arrangements",
+      "abstract_excerpt": "Despite advances in text-to-3D generation methods, generation of multi-object arrangements remains challenging. Current methods exhibit failures in generating physically plausible arrangements that respect the provided text description. We present SceneMotifCoder (SMC), an example-driven framework for generating 3D object arrangements through visual program learning. SMC leverages large language models (LLMs) and program synthesis to overcome these challenges by learning visual programs from exa",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses SceneMotifCoder, an example-driven framework for generating 3D object arrangements, while the conjecture is about the growth of Φ(π) in min-occurrence DP elimination on 3-regular Tseitin formulas. The abstracts do not share any specific claims or implications related to each other.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2508.00223",
+      "title": "Structural Causal Models for Extremes: an Approach Based on Exponent Measures",
+      "abstract_excerpt": "We introduce a new formulation of structural causal models for extremes, called the extremal structural causal model (eSCM). Unlike conventional structural causal models, where randomness is governed by a probability distribution, eSCMs use an exponent measure, an infinite-mass law that naturally arises in the analysis of multivariate extremes. Central to this framework are activation variables, which abstract the single-big-jump principle, along with additional randomization that enriches the c",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper's abstract discusses structural causal models for extremes using exponent measures, activation variables, and extremal conditional independence. It does not mention min-occurrence DP elimination, 3-regular Tseitin formulas, or the growth of Φ(π) in n. The topics do not overlap, making it impossible to determine from the abstract alone whether the paper supports, refutes, or is orthogonal to the conjecture.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}
