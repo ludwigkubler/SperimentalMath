@@ -1,0 +1,40 @@
+{
+  "entry_id": "8c8f58d4650f",
+  "ts": 1781375766.1253679,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2409.12802",
+      "title": "Minkowski difference weight formulas",
+      "abstract_excerpt": "Fix any complex Kac-Moody Lie algebra $\\mathfrak{g}$, and Cartan subalgebra $\\mathfrak{h}\\subset \\mathfrak{g}$. We study arbitrary highest weight $\\mathfrak{g}$-modules $V$ (with any highest weight $λ\\in \\mathfrak{h}^*$, and let $L(λ)$ be the corresponding simple highest weight $\\mathfrak{g}$-module), and write their weight-sets $\\mathrm{wt} V$. This is based on and generalizes the Minkowski decompositions for all $\\mathrm{wt} L(λ)$ and hulls $\\mathrm{conv}_{\\mathbb{R}}(\\mathrm{wt} V)$, of Khare",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses Minkowski difference weight formulas and their applications to various mathematical structures, which is unrelated to the conjecture about the monotonicity of Φ(π)/proof_size in n. The abstract does not mention anything about proof complexity or the number of DP steps.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2203.05515",
+      "title": "A weight-formula for all highest weight modules, and a higher order parabolic category $\\mathcal{O}$",
+      "abstract_excerpt": "Let $\\mathfrak{g}$ be a complex Kac-Moody algebra, with Cartan subalgebra $\\mathfrak{h}$. Also fix a weight $λ\\in\\mathfrak{h}^*$. For $M(λ)\\twoheadrightarrow V$ an arbitrary highest weight $\\mathfrak{g}$-module, we provide a cancellation-free, non-recursive formula for the weights of $V$. This is novel even in finite type, and is obtained from $λ$ and a collection $\\mathcal{H}=\\mathcal{H}_V$ of independent sets in the Dynkin diagram of $\\mathfrak{g}$ that are associated to $V$.\n  Our proofs use ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract of the cited paper discusses complex algebraic structures and modules related to Kac-Moody algebras, which is orthogonal to the conjecture about the monotonicity of Φ(π)/proof_size in resolution proof complexity. The abstract does not mention any concepts or results related to DP steps, active weight growth, or the 'shadow heavier than the body' claim.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2411.08847",
+      "title": "Proofs as Execution Trees for the π-Calculus",
+      "abstract_excerpt": "In this paper, we establish the foundations of a novel logical framework for the π-calculus, based on the deduction-as-computation paradigm. Following the standard proof-theoretic interpretation of logic programming, we represent processes as formulas, and we interpret proofs as computations.\n  For this purpose, we define a cut-free sequent calculus for an extension of first-order multiplicative and additive linear logic. This extension includes a non-commutative and non-associative connective t",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract does not provide any information about the monotonicity of Φ(π)/proof_size in n or the growth of per-step active weight, which are the key elements of the conjecture. The focus is on a novel logical framework for the π-calculus and its representation as formulas and computations.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}
