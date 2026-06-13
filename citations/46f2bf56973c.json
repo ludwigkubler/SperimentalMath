@@ -1,0 +1,40 @@
+{
+  "entry_id": "46f2bf56973c",
+  "ts": 1781311725.525269,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0705.1213",
+      "title": "Schémas en groupes et poids de Diamond-Serre",
+      "abstract_excerpt": "This note is a correction of (statement and proof of) proposition 3.3.1 of Toby Gee's preprint intitled *On the weights of mod p Hilbert modular forms*. The aim is to compare Galois representations arising from extensions of some group schemes (over the ring of integers of a p-adic field) endowed with a descent data, and extensions of some crystalline representations with given Hodge-Tate weights. The main tool of the proof is the theory of Breuil.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited abstract discusses Galois representations, mod p Hilbert modular forms, and crystalline representations with Hodge-Tate weights, which are unrelated to the conjecture about the width-aware totalLiteralWeight and its scaling compared to count-based Φ. The vocabulary does not overlap in a way that would allow for supporting or refuting the proposed conjecture.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2411.10229",
+      "title": "Optimally Rewriting Formulas and Database Queries: A Confluence of Term Rewriting, Structural Decomposition, and Complexity",
+      "abstract_excerpt": "A central computational task in database theory, finite model theory, and computer science at large is the evaluation of a first-order sentence on a finite structure. In the context of this task, the \\emph{width} of a sentence, defined as the maximum number of free variables over all subformulas, has been established as a crucial measure, where minimizing width of a sentence (while retaining logical equivalence) is considered highly desirable. An undecidability result rules out the possibility o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the importance of width in sentences and presents algorithms for minimizing width, but it does not address the scaling of width-aware totalLiteralWeight compared to count-based Φ, which is the focus of the conjecture.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2509.17367",
+      "title": "Scale-free Characteristics of Multilingual Legal Texts and the Limitations of LLMs",
+      "abstract_excerpt": "We present a comparative analysis of text complexity across domains using scale-free metrics. We quantify linguistic complexity via Heaps' exponent $β$ (vocabulary growth), Taylor's exponent $α$ (word-frequency fluctuation scaling), compression rate $r$ (redundancy), and entropy. Our corpora span three domains: legal documents (statutes, cases, deeds) as a specialized domain, general natural language texts (literature, Wikipedia), and AI-generated (GPT) text. We find that legal texts exhibit slo",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses scale-free metrics in text complexity analysis, comparing vocabulary growth, term consistency, compression rate, and entropy across different domains. It does not mention width-aware totalLiteralWeight or count-based Φ, which are specific to resolution proof complexity and Tseitin formulas as mentioned in the conjecture.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}

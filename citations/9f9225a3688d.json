@@ -1,0 +1,40 @@
+{
+  "entry_id": "9f9225a3688d",
+  "ts": 1781314749.53584,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2004.03654",
+      "title": "Flux growth of Sr(n+1)Ir(n)O(3n+1) [n=1, 2, infinity] crystals",
+      "abstract_excerpt": "Single crystals of iridates are usually grown by a flux method well above the boiling point of the SrCl2 solvent. This leads to non-equilibrium growth conditions and dramatically shortens the lifetime of expensive Pt crucibles. Here, we report the growth of Sr2IrO4, Sr3Ir2O7 and SrIrO3 single crystals in a reproducible way by using anhydrous SrCl2 flux well below its boiling point. We show that the yield of the different phases strongly depends on the nutrient/solvent ratio for fixed soak temper",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes flux growth of iridate single crystals (Sr2IrO4, Sr3Ir2O7, SrIrO3) using SrCl2 solvent, which has no relation to resolution proof complexity, DP elimination, or Tseitin formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2003.01308",
+      "title": "Dislocation pipe diffusion and solute segregation during the growth of metastable GeSn",
+      "abstract_excerpt": "Controlling the growth kinetics from the vapor phase has been a powerful paradigm enabling a variety of metastable epitaxial semiconductors such as Sn-containing group IV semiconductors (Si)GeSn. In addition to its importance for emerging photonic and optoelectronic applications, this class of materials is also a rich platform to highlight the interplay between kinetics and thermodynamic driving forces during growth of strained, nonequilibrium alloys. Indeed, these alloys are inherently strained",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns epitaxial growth of GeSn semiconductors and dislocation pipe diffusion in materials science, with no connection to resolution proof complexity, DP elimination, or Tseitin formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1709.05771",
+      "title": "Variational formulas, Busemann functions, and fluctuation exponents for the corner growth model with exponential weights",
+      "abstract_excerpt": "These lecture notes discuss several related features of the exactly solvable two-dimensional corner growth model with exponentially distributed weights. A key property of this model is the availability of a fairly explicit stationary version that possesses useful independence properties. With the help of couplings and estimates, we prove the existence of Busemann functions for this model, and the precise values of the longitudinal and transversal fluctuation exponents for the stationary corner g",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns fluctuation exponents in the two-dimensional corner growth model with exponential weights, a probabilistic last-passage percolation topic, which has no interaction with DP elimination complexity on Tseitin formulas despite both involving 'exponents'.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

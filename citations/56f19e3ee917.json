@@ -1,0 +1,40 @@
+{
+  "entry_id": "56f19e3ee917",
+  "ts": 1781314054.008236,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2102.10630",
+      "title": "Fractional generalized cumulative entropy and its dynamic version",
+      "abstract_excerpt": "Following the theory of information measures based on the cumulative distribution function, we propose the fractional generalized cumulative entropy, and its dynamic version. These entropies are particularly suitable to deal with distributions satisfying the proportional reversed hazard model. We study the connection with fractional integrals, and some bounds and comparisons based on stochastic orderings, that allow to show that the proposed measure is actually a variability measure. The investi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited abstract discusses fractional generalized cumulative entropy and its dynamic version, which are suitable for certain types of distributions and reliability theory. It does not mention width-aware totalLiteralWeight or the relationship between it and count-based Φ, which is the focus of the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1501.03285",
+      "title": "Extension of the past lifetime and its connection to the cumulative entropy",
+      "abstract_excerpt": "Given two absolutely continuous nonnegative independent random variables, we define the reversed relevation transform as dual to the relevation transform. We first apply such transforms to the lifetimes of the components of parallel and series systems under suitably proportionality assumptions on the hazards rates. Furthermore, we prove that the (reversed) relevation transform is commutative if and only if the proportional (reversed) hazard rate model holds. By repeated application of the revers",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract discusses the reversed relevation transform, cumulative entropy, and various relations involving ageing notions and stochastic orders. It does not provide any information regarding width-aware totalLiteralWeight or count-based Φ, which are central to the conjecture about scaling with a strictly larger exponent.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1507.07051",
+      "title": "Weighted cumulative entropies: An extension of CRE and CE",
+      "abstract_excerpt": "We generalize the weighted cumulative entropies (WCRE and WCE), introduced in [5], for a system or component lifetime. Representing properties of cumulative entropies, several bounds and inequalities for the WCRE is proposed",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract does not provide enough information regarding the relationship between width-aware totalLiteralWeight and count-based Φ. It only discusses generalizations of weighted cumulative entropies without directly addressing the scaling properties of the width-aware totalLiteralWeight compared to the count-based Φ.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}

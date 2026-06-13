@@ -1,0 +1,22 @@
+{
+  "entry_id": "f612b1f37499",
+  "ts": 1781312455.2183228,
+  "hits_evaluated": 1,
+  "verdicts": [
+    {
+      "paper_id": "s2:cca7f21ce1b4bdacf63c407ff5af966382dce866",
+      "title": "ScholarWorks@UMass Amherst ScholarWorks@UMass Amherst",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available to assess the relationship between the cited paper and the conjecture.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 1
+  }
+}

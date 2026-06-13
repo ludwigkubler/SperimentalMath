@@ -1,0 +1,40 @@
+{
+  "entry_id": "ff17683177ee",
+  "ts": 1781313305.1292036,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2411.08847",
+      "title": "Proofs as Execution Trees for the π-Calculus",
+      "abstract_excerpt": "In this paper, we establish the foundations of a novel logical framework for the π-calculus, based on the deduction-as-computation paradigm. Following the standard proof-theoretic interpretation of logic programming, we represent processes as formulas, and we interpret proofs as computations.\n  For this purpose, we define a cut-free sequent calculus for an extension of first-order multiplicative and additive linear logic. This extension includes a non-commutative and non-associative connective t",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses a logical framework for the π-calculus and proof nets, but does not mention expander-based Tseitin, Φ(π), or graph expansion, which are central to the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2104.02531",
+      "title": "Resolution-enhanced OCT and expanded framework of information capacity and resolution in coherent imaging",
+      "abstract_excerpt": "Spatial resolution in optical microscopy has traditionally been treated as a fixed parameter of the optical system. Here, we present an approach to enhance transverse resolution in beam-scanned optical coherence tomography (OCT) beyond its aberration-free resolution limit, without any modification to the optical system. Based on the theorem of invariance of information capacity, resolution-enhanced (RE)-OCT navigates the exchange of information between resolution and signal-to-noise ratio (SNR) ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper discusses resolution enhancement in optical coherence tomography (OCT) and information capacity in coherent imaging, which is unrelated to the conjecture about Tseitin formulas and graph expansion. The abstract does not provide any information regarding the entropy of Tseitin formulas on expander-based graphs or path/tree graphs.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1610.01843",
+      "title": "NNLO QCD corrections for Drell-Yan $p_T^Z$ and $φ^*$ observables at the LHC",
+      "abstract_excerpt": "Drell-Yan lepton pairs with finite transverse momentum are produced when the vector boson recoils against (multiple) parton emission(s), and is determined by QCD dynamics. At small transverse momentum, the fixed order predictions break down due to the emergence of large logarithmic contributions. This region can be studied via the $p_T^Z$ distribution constructed from the energies of the leptons, or through the $φ^*$ distribution that relies on the directions of the leptons. For sufficiently sma",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses NNLO QCD corrections for Drell-Yan lepton pairs at the LHC, focusing on transverse momentum distributions and the $φ^*$ observable. This topic is unrelated to the conjecture about Tseitin formulas and their entropy properties on expander-based graphs versus path/tree graphs.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}
