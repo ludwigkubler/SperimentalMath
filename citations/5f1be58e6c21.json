@@ -1,0 +1,40 @@
+{
+  "entry_id": "5f1be58e6c21",
+  "ts": 1781327997.8509524,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2508.12901",
+      "title": "Error exponents of quantum state discrimination with composite correlated hypotheses",
+      "abstract_excerpt": "We study the error exponents in quantum hypothesis testing between two sets of quantum states, extending the analysis beyond the independent and identically distributed case to encompass composite correlated hypotheses. In particular, we introduce and compare two natural extensions of the quantum Hoeffding divergence and anti-divergence to sets of quantum states, establishing their equivalence or quantitative relations. In the error exponent regime, we generalize the quantum Hoeffding bound to s",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses error exponents in quantum state discrimination with composite correlated hypotheses, which is unrelated to the conjecture about Φ(π) growing super-linearly in n on 3-regular Tseitin formulas under min-occurrence DP elimination.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1410.2016",
+      "title": "Invariance of Lyapunov exponents and Lyapunov dimension for regular and irregular linearizations",
+      "abstract_excerpt": "Nowadays the Lyapunov exponents and Lyapunov dimension have become so widespread and common that they are often used without references to the rigorous definitions or pioneering works. It may lead to a confusion since there are at least two well-known definitions, which are used in computations: the upper bounds of the exponential growth rate of the norms of linearized system solutions (Lyapunov characteristic exponents, LCEs) and the upper bounds of the exponential growth rate of the singular v",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper's abstract discusses Lyapunov exponents and their invariance, which is unrelated to the conjecture about the growth of Φ(π) in Tseitin formulas under min-occurrence DP elimination. The vocabulary and framework do not interact with the specific claim of super-linear growth on 3-regular Tseitin graphs.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2107.12643",
+      "title": "On $φ$-$w$-Flat modules and Their Homological Dimensions",
+      "abstract_excerpt": "In this paper, we introduce and study the class of $φ$-$w$-flat modules which are generalizations of both $φ$-flat modules and $w$-flat modules. The $φ$-$w$-weak global dimension $φ$-$w$-w.gl.dim$(R)$ of a strongly $φ$-ring $R$ is also introduced and studied. We show that, for a strongly $φ$-ring $R$, $φ$-$w$-w.gl.dim$(R)=0$ if and only if $w$-$dim(R)=0$ if and only if $R$ is a $φ$-von Neumann ring. It is also proved that, for a strongly $φ$-ring $R$, $φ$-$w$-w.gl.dim$(R)\\leq 1$ if and only if e",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper's abstract discusses the properties of $φ$-$w$-flat modules and their homological dimensions in the context of strongly $φ$-rings, which is unrelated to the conjecture about the growth of Φ(π) on 3-regular Tseitin formulas under min-occurrence DP elimination.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}
