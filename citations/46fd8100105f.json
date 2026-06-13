@@ -1,0 +1,40 @@
+{
+  "entry_id": "46fd8100105f",
+  "ts": 1781368991.1265774,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2209.05839",
+      "title": "On bounded depth proofs for Tseitin formulas on the grid; revisited",
+      "abstract_excerpt": "We study Frege proofs using depth-$d$ Boolean formulas for the Tseitin contradiction on $n \\times n$ grids. We prove that if each line in the proof is of size $M$ then the number of lines is exponential in $n/(\\log M)^{O(d)}$. This strengthens a recent result of Pitassi et al. [PRT22]. The key technical step is a multi-switching lemma extending the switching lemma of Håstad [Hås20] for a space of restrictions related to the Tseitin contradiction. The strengthened lemma also allows us to improve ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract discusses lower bounds for proof size and depth for Tseitin formulas, particularly on grids. However, it does not mention cumulative entropy or balanced separator size, which are key components of the conjecture under review. Therefore, we cannot determine from the abstract alone if it supports, refutes, or is orthogonal to the conjecture.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:0709.1201",
+      "title": "On the Proof Complexity of Deep Inference",
+      "abstract_excerpt": "We obtain two results about the proof complexity of deep inference: 1) deep-inference proof systems are as powerful as Frege ones, even when both are extended with the Tseitin extension rule or with the substitution rule; 2) there are analytic deep-inference proof systems that exhibit an exponential speed-up over analytic Gentzen proof systems that they polynomially simulate.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract of the cited paper discusses the power and efficiency of deep-inference proof systems relative to Frege and Gentzen proof systems, but it does not provide any information about cumulative entropy or balanced separator size. Therefore, it is insufficient to determine whether it supports, refutes, or is orthogonal to the conjecture regarding Φ(π) >= c·|S|².",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2103.09609",
+      "title": "Characterizing Tseitin-formulas with short regular resolution refutations",
+      "abstract_excerpt": "Tseitin-formulas are systems of parity constraints whose structure is described by a graph. These formulas have been studied extensively in proof complexity as hard instances in many proof systems. In this paper, we prove that a class of unsatisfiable Tseitin-formulas of bounded degree has regular resolution refutations of polynomial length if and only if the treewidth of all underlying graphs $G$ for that class is in $O(\\log|V(G)|)$. To do so, we show that any regular resolution refutation of a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract discusses the length of regular resolution refutations for unsatisfiable Tseitin-formulas and their relation to treewidth, but it does not provide any information regarding the cumulative-entropy analogue of space lower bounds or the specific conjecture Φ(π) >= c·|S|².",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 3
+  }
+}
