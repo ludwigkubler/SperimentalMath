@@ -1,0 +1,40 @@
+{
+  "entry_id": "c6ade7d86cf1",
+  "ts": 1781346308.8274822,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1710.05225",
+      "title": "Popularity of arXiv.org within Computer Science",
+      "abstract_excerpt": "It may seem surprising that, out of all areas of science, computer scientists have been slow to post electronic versions of papers on sites like arXiv.org. Instead, computer scientists have tended to place papers on our individual home pages, but this loses the benefits of aggregation, namely notification and browsing.\n  But this is changing. More and more computer scientists are now using the arXiv. At the same time, there is ongoing discussion and controversy about how prepublication affects p",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited abstract discusses the popularity of arXiv.org in computer science, specifically regarding prepublication and peer review. It does not mention anything about resolution proof complexity, Tseitin formulas, or cumulative entropy, which are central to the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1011.6590",
+      "title": "Extending ArXiv.org to Achieve Open Peer Review and Publishing",
+      "abstract_excerpt": "Today's peer review process for scientific articles is unnecessarily opaque and offers few incentives to referees. Likewise, the publishing process is unnecessarily inefficient and its results are only rarely made freely available to the public. Here we outline a comparatively simple extension of arXiv.org, an online preprint archive widely used in the mathematical and physical sciences, that addresses both of these problems. Under the proposal, editors invite referees to write public and signed",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract of the cited paper discusses an extension of arXiv.org for open peer review and publishing, which is unrelated to the conjecture about Φ(π) and cumulative-entropy. The two topics do not intersect in terms of content or implications.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1908.10993",
+      "title": "Scientific Statement Classification over arXiv.org",
+      "abstract_excerpt": "We introduce a new classification task for scientific statements and release a large-scale dataset for supervised learning. Our resource is derived from a machine-readable representation of the arXiv.org collection of preprint articles. We explore fifty author-annotated categories and empirically motivate a task design of grouping 10.5 million annotated paragraphs into thirteen classes. We demonstrate that the task setup aligns with known success rates from the state of the art, peaking at a 0.9",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses a new classification task for scientific statements and the creation of a dataset for supervised learning. It mentions a lexeme serialization for mathematical formulas but does not address any claims related to cumulative entropy or space lower bounds, which are the focus of the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
