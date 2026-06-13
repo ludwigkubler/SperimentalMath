@@ -1,0 +1,40 @@
+{
+  "entry_id": "3b021a82c32d",
+  "ts": 1781390835.0328598,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2601.16157",
+      "title": "Bounded cumulative observables from local linear relaxation",
+      "abstract_excerpt": "Cumulative observables often exhibit saturation in systems involving propagation or spreading with local dissipation. This work shows that bounded cumulative response follows directly from local linear relaxation. Linear cumulative observables accumulated over the lifetime of a relaxing signal are limited by a scale set by the relaxation time, independent of geometry, dimensionality, or microscopic transport dynamics. When relaxation is mapped to space through transport or spreading, this tempor",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses bounded cumulative observables and their saturation in systems with local dissipation, which is related to relaxation time. However, it does not mention the cumulative-entropy analogue of space lower bounds or the balanced separator size |S|² as stated in the conjecture.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2308.04371",
+      "title": "Cumulative Reasoning with Large Language Models",
+      "abstract_excerpt": "Recent advancements in large language models (LLMs) have shown remarkable progress, yet their ability to solve complex problems remains limited. In this work, we introduce Cumulative Reasoning (CR), a structured framework that enhances LLM problem-solving by emulating human-like iterative and cumulative thought processes. CR orchestrates LLMs in three distinct roles: Proposer, Verifier(s), and Reporter, to systematically decompose tasks, generate and validate intermediate reasoning steps, and co",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract does not provide any information regarding cumulative entropy or balanced separator size, which are key concepts in the conjecture under review. It focuses on the development of Cumulative Reasoning with large language models and their performance on various tasks.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2512.03876",
+      "title": "Generalized Beth--Uhlenbeck entropy formula from the $Φ-$derivable approach",
+      "abstract_excerpt": "We derive a generalized Beth-Uhlenbeck formula for the entropy of a dense fermion system with strong two-particle correlations, including scattering states and bound states. We work within the $Φ-$derivable approach to the thermodynamic potential. The formula takes the form of an energy-momentum integral over a statistical distribution function times a unique spectral density. In the near mass-shell limit, the spectral density reduces, contrary to naïve expectations, not to a Lorentzian but rath",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper discusses a generalized Beth-Uhlenbeck entropy formula for dense fermion systems and its relation to the Φ-derivable approach. However, it does not mention or relate to the cumulative entropy or balanced separator size in the context of resolution proof complexity or Tseitin formulas, which are central to the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}

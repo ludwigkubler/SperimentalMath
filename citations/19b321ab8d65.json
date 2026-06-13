@@ -1,0 +1,40 @@
+{
+  "entry_id": "19b321ab8d65",
+  "ts": 1781390989.3965747,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0705.1213",
+      "title": "Schémas en groupes et poids de Diamond-Serre",
+      "abstract_excerpt": "This note is a correction of (statement and proof of) proposition 3.3.1 of Toby Gee's preprint intitled *On the weights of mod p Hilbert modular forms*. The aim is to compare Galois representations arising from extensions of some group schemes (over the ring of integers of a p-adic field) endowed with a descent data, and extensions of some crystalline representations with given Hodge-Tate weights. The main tool of the proof is the theory of Breuil.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses Galois representations, mod p Hilbert modular forms, and crystalline representations with Hodge-Tate weights. The abstract does not mention width-aware totalLiteralWeight, count-based Φ, or the concept of width amplifying cumulative weight, which are central to the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2411.10229",
+      "title": "Optimally Rewriting Formulas and Database Queries: A Confluence of Term Rewriting, Structural Decomposition, and Complexity",
+      "abstract_excerpt": "A central computational task in database theory, finite model theory, and computer science at large is the evaluation of a first-order sentence on a finite structure. In the context of this task, the \\emph{width} of a sentence, defined as the maximum number of free variables over all subformulas, has been established as a crucial measure, where minimizing width of a sentence (while retaining logical equivalence) is considered highly desirable. An undecidability result rules out the possibility o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses width minimization and syntactic rewriting rules, but does not provide any information regarding the scaling of the width-aware totalLiteralWeight compared to the count-based Φ. The focus is on algorithmic understanding and the theory of term rewriting, which does not directly address the conjecture about the scaling of cumulative weight with respect to width.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2308.04371",
+      "title": "Cumulative Reasoning with Large Language Models",
+      "abstract_excerpt": "Recent advancements in large language models (LLMs) have shown remarkable progress, yet their ability to solve complex problems remains limited. In this work, we introduce Cumulative Reasoning (CR), a structured framework that enhances LLM problem-solving by emulating human-like iterative and cumulative thought processes. CR orchestrates LLMs in three distinct roles: Proposer, Verifier(s), and Reporter, to systematically decompose tasks, generate and validate intermediate reasoning steps, and co",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract discusses Cumulative Reasoning (CR), a structured framework for enhancing LLM problem-solving capabilities and does not provide any information about the width-aware totalLiteralWeight or its scaling compared to count-based Φ, which is central to the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}

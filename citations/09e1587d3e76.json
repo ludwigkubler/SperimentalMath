@@ -1,0 +1,40 @@
+{
+  "entry_id": "09e1587d3e76",
+  "ts": 1781393526.4652665,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2103.09609",
+      "title": "Characterizing Tseitin-formulas with short regular resolution refutations",
+      "abstract_excerpt": "Tseitin-formulas are systems of parity constraints whose structure is described by a graph. These formulas have been studied extensively in proof complexity as hard instances in many proof systems. In this paper, we prove that a class of unsatisfiable Tseitin-formulas of bounded degree has regular resolution refutations of polynomial length if and only if the treewidth of all underlying graphs $G$ for that class is in $O(\\log|V(G)|)$. To do so, we show that any regular resolution refutation of a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract characterizes regular resolution refutation length of Tseitin formulas via treewidth and DNNF size, but says nothing about cumulative entropy Φ or sensitivity to elimination orders (min- vs max-occurrence).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2209.05839",
+      "title": "On bounded depth proofs for Tseitin formulas on the grid; revisited",
+      "abstract_excerpt": "We study Frege proofs using depth-$d$ Boolean formulas for the Tseitin contradiction on $n \\times n$ grids. We prove that if each line in the proof is of size $M$ then the number of lines is exponential in $n/(\\log M)^{O(d)}$. This strengthens a recent result of Pitassi et al. [PRT22]. The key technical step is a multi-switching lemma extending the switching lemma of Håstad [Hås20] for a space of restrictions related to the Tseitin contradiction. The strengthened lemma also allows us to improve ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns bounded-depth Frege proof size lower bounds for Tseitin formulas on grids via switching lemmas, with no mention of resolution elimination orders or a cumulative entropy measure Φ. It shares the Tseitin vocabulary but does not address order-sensitivity of any entropy-like measure.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1809.06500",
+      "title": "Range entropy: A bridge between signal complexity and self-similarity",
+      "abstract_excerpt": "Approximate entropy (ApEn) and sample entropy (SampEn) are widely used for temporal complexity analysis of real-world phenomena. However, their relationship with the Hurst exponent as a measure of self-similarity is not widely studied. Additionally, ApEn and SampEn are susceptible to signal amplitude changes. A common practice for addressing this issue is to correct their input signal amplitude by its standard deviation. In this study, we first show, using simulations, that ApEn and SampEn are r",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns signal-processing entropy measures (ApEn, SampEn, RangeEn) and their relation to the Hurst exponent for EEG analysis, with no mention of resolution proof complexity, Tseitin formulas, or elimination orders. It shares only the generic word 'entropy' with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
