@@ -1,0 +1,31 @@
+{
+  "entry_id": "e24848d57982",
+  "ts": 1781371388.1647396,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:2203.13902",
+      "title": "Balanced Allocations in Batches: Simplified and Generalized",
+      "abstract_excerpt": "We consider the allocation of m balls (jobs) into n bins (servers). In the Two-Choice process, for each of m sequentially arriving balls, two randomly chosen bins are sampled and the ball is placed in the least loaded bin. It is well-known that the maximum load is m/n + log2 logn + O(1) with high pr",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract of the cited paper discusses balanced allocations in batches and the maximum load, which does not relate to the conjecture about cumulative-entropy bounds in resolution proof complexity or Tseitin formulas. The specific claim Φ(π) >= c·|S|² is not addressed.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "s2:10.1002/jgt.21870",
+      "title": "Perfect Graphs with No Balanced Skew‐Partition are 2‐Clique‐Colorable",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper does not provide an abstract, which is necessary to assess its relevance to the conjecture regarding Φ(π) and |S|.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 2
+  }
+}

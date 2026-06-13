@@ -1,0 +1,40 @@
+{
+  "entry_id": "74ad0d4a307f",
+  "ts": 1781370117.4724226,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1511.06778",
+      "title": "The 1st Fermi Lat Supernova Remnant Catalog",
+      "abstract_excerpt": "To uniformly determine the properties of supernova remnants (SNRs) at high energies, we have developed the first systematic survey at energies from 1 to 100 GeV using data from the Fermi Large Area Telescope. Based on the spatial overlap of sources detected at GeV energies with SNRs known from radio surveys, we classify 30 sources as likely GeV SNRs. We also report 14 marginal associations and 245 flux upper limits. A mock catalog in which the positions of known remnants are scrambled in Galacti",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses supernova remnants and their properties at high energies, which is unrelated to the conjecture about resolution proof complexity and Tseitian formulas, specifically the 'shadow heavier than the body' claim.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2209.05839",
+      "title": "On bounded depth proofs for Tseitin formulas on the grid; revisited",
+      "abstract_excerpt": "We study Frege proofs using depth-$d$ Boolean formulas for the Tseitin contradiction on $n \\times n$ grids. We prove that if each line in the proof is of size $M$ then the number of lines is exponential in $n/(\\log M)^{O(d)}$. This strengthens a recent result of Pitassi et al. [PRT22]. The key technical step is a multi-switching lemma extending the switching lemma of Håstad [Hås20] for a space of restrictions related to the Tseitin contradiction. The strengthened lemma also allows us to improve ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses bounded depth proofs for Tseitin formulas on grids and provides improved lower bounds for proof size, but it does not directly address the monotonicity of per-step active weight in terms of n as stated in the conjecture.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2112.13763",
+      "title": "Yet Another Proof of the Joint Convexity of Relative Entropy",
+      "abstract_excerpt": "The joint convexity of the map $(X,A) \\mapsto X^* A^{-1} X$, an integral representation of operator convex functions, and an observation of Ando are used to obtain a simple proof of both the joint convexity of relative entropy and a trace convexity result of Lieb. The latter was the key ingredient in the original proof of the strong subadditivity of quantum entropy.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract discusses joint convexity, relative entropy, and trace convexity but does not mention anything about Φ(π)/proof_size or the 'shadow heavier than the body' claim related to monotonicity in n. Therefore, it is insufficient to determine whether the paper supports, refutes, or is orthogonal to the conjecture based solely on the abstract.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}
