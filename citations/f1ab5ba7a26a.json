@@ -1,0 +1,40 @@
+{
+  "entry_id": "f1ab5ba7a26a",
+  "ts": 1781329800.5727525,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2103.09609",
+      "title": "Characterizing Tseitin-formulas with short regular resolution refutations",
+      "abstract_excerpt": "Tseitin-formulas are systems of parity constraints whose structure is described by a graph. These formulas have been studied extensively in proof complexity as hard instances in many proof systems. In this paper, we prove that a class of unsatisfiable Tseitin-formulas of bounded degree has regular resolution refutations of polynomial length if and only if the treewidth of all underlying graphs $G$ for that class is in $O(\\log|V(G)|)$. To do so, we show that any regular resolution refutation of a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "SUPPORTS",
+      "judge_reasoning": "The abstract states that regular resolution refutations of Tseitin formulas have length 2^Ω(tw(G))/|V(G)| and are polynomial iff treewidth is O(log|V(G)|); this directly implies exponential lower bounds on expanders (high treewidth) and polynomial upper bounds on path/tree graphs (treewidth 1), matching the conjectured separation.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2209.05839",
+      "title": "On bounded depth proofs for Tseitin formulas on the grid; revisited",
+      "abstract_excerpt": "We study Frege proofs using depth-$d$ Boolean formulas for the Tseitin contradiction on $n \\times n$ grids. We prove that if each line in the proof is of size $M$ then the number of lines is exponential in $n/(\\log M)^{O(d)}$. This strengthens a recent result of Pitassi et al. [PRT22]. The key technical step is a multi-switching lemma extending the switching lemma of Håstad [Hås20] for a space of restrictions related to the Tseitin contradiction. The strengthened lemma also allows us to improve ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns bounded-depth Frege proof-size lower bounds for Tseitin on grids via switching lemmas, not Resolution proof entropy Φ(π) or a separation between expander and path/tree graphs. It shares the Tseitin vocabulary but does not address the specific entropy-vs-expansion claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1004.2159",
+      "title": "Algebraic Proofs over Noncommutative Formulas",
+      "abstract_excerpt": "We study possible formulations of algebraic propositional proof systems operating with noncommutative formulas. We observe that a simple formulation gives rise to systems at least as strong as Frege---yielding a semantic way to define a Cook-Reckhow (i.e., polynomially verifiable) algebraic analog of Frege proofs, different from that given in [BIKPRS96,GH03]. We then turn to an apparently weaker system, namely, polynomial calculus (PC) where polynomials are written as ordered formulas (PC over o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses algebraic proof systems (PC over ordered noncommutative formulas) admitting polynomial-size refutations of Tseitin formulas, but says nothing about resolution proof entropy Φ(π) or expansion-based separations between expander and path/tree graphs.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 1,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 0
+  }
+}

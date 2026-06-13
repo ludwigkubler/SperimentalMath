@@ -1,0 +1,40 @@
+{
+  "entry_id": "1418f3b9167a",
+  "ts": 1781331633.063212,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1501.00747",
+      "title": "Programs as Actual Causes: A Building Block for Accountability",
+      "abstract_excerpt": "An updated version of this paper is available at http://arxiv.org/abs/1505.01131",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract does not provide any information about cumulative entropy, balanced separator size, or the relationship between them, which are key elements of the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1605.01713",
+      "title": "Not Just a Black Box: Learning Important Features Through Propagating Activation Differences",
+      "abstract_excerpt": "Note: This paper describes an older version of DeepLIFT. See https://arxiv.org/abs/1704.02685 for the newer version. Original abstract follows: The purported \"black box\" nature of neural networks is a barrier to adoption in applications where interpretability is essential. Here we present DeepLIFT (Learning Important FeaTures), an efficient and effective method for computing importance scores in a neural network. DeepLIFT compares the activation of each neuron to its 'reference activation' and a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses the method DeepLIFT for computing importance scores in neural networks and its application to natural images and genomic data. It does not mention any cumulative entropy or space lower bounds related to balanced separator sizes, which are the focus of the conjecture.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1610.09110",
+      "title": "$f$-Divergence Inequalities via Functional Domination",
+      "abstract_excerpt": "This paper considers derivation of $f$-divergence inequalities via the approach of functional domination. Bounds on an $f$-divergence based on one or several other $f$-divergences are introduced, dealing with pairs of probability measures defined on arbitrary alphabets. In addition, a variety of bounds are shown to hold under boundedness assumptions on the relative information. The journal paper, which includes more approaches for the derivation of f-divergence inequalities and proofs, is availa",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract of the cited paper focuses on $f$-divergence inequalities and functional domination, but it does not provide any information about cumulative entropy or balanced separator size. Therefore, it is insufficient to determine whether the abstract supports, refutes, or is orthogonal to the conjecture regarding Φ(π) >= c·|S|².",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}
