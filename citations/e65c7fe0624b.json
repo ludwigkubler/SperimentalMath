@@ -1,0 +1,40 @@
+{
+  "entry_id": "e65c7fe0624b",
+  "ts": 1781335806.9823852,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2511.12011",
+      "title": "A Logspace Constructive Proof of L=SL",
+      "abstract_excerpt": "We formalize the proof of Reingold's Theorem that SL=L [Rei05] in the theory of bounded arithmetic VL, which corresponds to ``logspace reasoning''. As a consequence, we get that VL=VSL, where VSL is the theory of bounded arithmetic for ``symmetric-logspace reasoning''. This resolves in the affirmative an old open question from Kolokolova [Kol05] (see also Cook-Nguyen [NC10]).\n  Our proof relies on the Rozenman-Vadhan alternative proof of Reingold's Theorem ([RV05]). To formalize this proof in VL",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns formalizing Reingold's SL=L theorem in bounded arithmetic VL and reasoning about graph expansion combinatorially; it makes no claim about resolution proof complexity, Tseitin formulas, or an entropy measure Φ(π) separating expanders from paths/trees.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2312.07521",
+      "title": "Modularity and Graph Expansion",
+      "abstract_excerpt": "We relate two important notions in graph theory: expanders which are highly connected graphs, and modularity a parameter of a graph that is primarily used in community detection. More precisely, we show that a graph having modularity bounded below 1 is equivalent to it having a large subgraph which is an expander.\n  We further show that a connected component $H$ will be split in an optimal partition of the host graph $G$ if and only if the relative size of $H$ in $G$ is greater than an expansion",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses graph modularity and its equivalence to having a large expander subgraph, with no mention of Tseitin formulas, resolution proof complexity, or any entropy measure Φ(π). It shares only the vocabulary of 'graph expansion' but does not interact with the specific claim about proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2304.07612",
+      "title": "A Cheeger Inequality for Small Set Expansion",
+      "abstract_excerpt": "The discrete Cheeger inequality, due to Alon and Milman (J. Comb. Theory Series B 1985), is an indispensable tool for converting the combinatorial condition of graph expansion to an algebraic condition on the eigenvalues of the graph adjacency matrix. We prove a generalization of Cheeger's inequality, giving an algebraic condition equivalent to small set expansion. This algebraic condition is the p-to-q hypercontractivity of the top eigenspace for the graph adjacency matrix. Our result generaliz",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a Cheeger-type inequality relating small set expansion to hypercontractivity of the graph adjacency matrix's top eigenspace, with no mention of Tseitin formulas, resolution proof complexity, or any entropy measure Φ(π). It shares only the general 'expansion' vocabulary.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

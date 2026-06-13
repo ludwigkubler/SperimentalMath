@@ -1,0 +1,40 @@
+{
+  "entry_id": "f869996bad38",
+  "ts": 1781334747.614024,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2103.09609",
+      "title": "Characterizing Tseitin-formulas with short regular resolution refutations",
+      "abstract_excerpt": "Tseitin-formulas are systems of parity constraints whose structure is described by a graph. These formulas have been studied extensively in proof complexity as hard instances in many proof systems. In this paper, we prove that a class of unsatisfiable Tseitin-formulas of bounded degree has regular resolution refutations of polynomial length if and only if the treewidth of all underlying graphs $G$ for that class is in $O(\\log|V(G)|)$. To do so, we show that any regular resolution refutation of a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "SUPPORTS",
+      "judge_reasoning": "The abstract states regular resolution refutations of Tseitin formulas have length 2^Ω(tw(G))/|V(G)| and polynomial length iff treewidth is O(log|V(G)|), which directly implies exponential lower bounds on expanders (high treewidth) and polynomial upper bounds on path/tree graphs (treewidth O(1)), matching the conjectured separation.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2501.18019",
+      "title": "An exact closed walks series formula for the complexity of regular graphs and some related bounds",
+      "abstract_excerpt": "The complexity of a graph is the number of its labeled spanning trees. In this work complexity is studied in settings that admit regular graphs. An exact formula is established linking complexity of the complement of a regular graph to numbers of closed walks in the graph by way of an infinite alternating series. Some consequences of this result yield infinite classes of lower and upper bounds on the complexity of such graphs. Applications of these mathematical results to biological problems on ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns graph complexity defined as the number of labeled spanning trees of regular graphs and closed-walk formulas, not Resolution proof complexity of Tseitin formulas or any entropy measure Φ(π). It shares no interaction with the conjecture's claim about expander vs. path/tree separation in proof complexity.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0708.1529",
+      "title": "Resolution over Linear Equations and Multilinear Proofs",
+      "abstract_excerpt": "We develop and study the complexity of propositional proof systems of varying strength extending resolution by allowing it to operate with disjunctions of linear equations instead of clauses. We demonstrate polynomial-size refutations for hard tautologies like the pigeonhole principle, Tseitin graph tautologies and the clique-coloring tautologies in these proof systems. Using the (monotone) interpolation by a communication game technique we establish an exponential-size lower bound on refutation",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Tseitin tautologies in extended proof systems (resolution over linear equations, multilinear proofs), not standard resolution width/entropy on expander vs. tree graphs. It says nothing about an entropy measure Φ(π) or a separation based on graph expansion.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 1,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 0
+  }
+}
