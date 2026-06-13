@@ -1,0 +1,40 @@
+{
+  "entry_id": "56324a399f64",
+  "ts": 1781385757.0748029,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2103.09609",
+      "title": "Characterizing Tseitin-formulas with short regular resolution refutations",
+      "abstract_excerpt": "Tseitin-formulas are systems of parity constraints whose structure is described by a graph. These formulas have been studied extensively in proof complexity as hard instances in many proof systems. In this paper, we prove that a class of unsatisfiable Tseitin-formulas of bounded degree has regular resolution refutations of polynomial length if and only if the treewidth of all underlying graphs $G$ for that class is in $O(\\log|V(G)|)$. To do so, we show that any regular resolution refutation of a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract characterizes regular resolution refutation length of Tseitin formulas via treewidth (2^Ω(tw(G))), but does not address min-occurrence DP elimination or measure a log-log slope exponent Φ(π) on 3-regular Tseitin instances. It shares the Tseitin framework but does not interact with the specific conjecture about DP elimination's super-linear growth exponent.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2209.05839",
+      "title": "On bounded depth proofs for Tseitin formulas on the grid; revisited",
+      "abstract_excerpt": "We study Frege proofs using depth-$d$ Boolean formulas for the Tseitin contradiction on $n \\times n$ grids. We prove that if each line in the proof is of size $M$ then the number of lines is exponential in $n/(\\log M)^{O(d)}$. This strengthens a recent result of Pitassi et al. [PRT22]. The key technical step is a multi-switching lemma extending the switching lemma of Håstad [Hås20] for a space of restrictions related to the Tseitin contradiction. The strengthened lemma also allows us to improve ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns bounded-depth Frege proof size lower bounds for Tseitin on grids via switching lemmas, not DP (Davis-Putnam) elimination with min-occurrence heuristic on 3-regular Tseitin nor any cumulative-entropy measure Φ(π). It shares the Tseitin vocabulary but does not address the specific super-linear growth claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/astro-ph/0208243v7",
+      "title": "Measurement of the Flux of Ultrahigh Energy Cosmic Rays from Monocular Observations by the High Resolution Fly's Eye Experiment",
+      "abstract_excerpt": "We have measured the cosmic ray spectrum above 10^17.2 eV using the two air fluorescence detectors of the High Resolution Fly's Eye observatory operating in monocular mode. We describe the detector, photo-tube and atmospheric calibrations, as well as the analysis techniques for the two detectors. We",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses cosmic ray spectrum measurement and does not mention resolution proof complexity, Tseitin formulas, or DP elimination, indicating no interaction with the conjecture.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
