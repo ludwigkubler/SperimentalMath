@@ -1,0 +1,40 @@
+{
+  "entry_id": "20a60f21402c",
+  "ts": 1781390666.4930358,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2209.05839",
+      "title": "On bounded depth proofs for Tseitin formulas on the grid; revisited",
+      "abstract_excerpt": "We study Frege proofs using depth-$d$ Boolean formulas for the Tseitin contradiction on $n \\times n$ grids. We prove that if each line in the proof is of size $M$ then the number of lines is exponential in $n/(\\log M)^{O(d)}$. This strengthens a recent result of Pitassi et al. [PRT22]. The key technical step is a multi-switching lemma extending the switching lemma of Håstad [Hås20] for a space of restrictions related to the Tseitin contradiction. The strengthened lemma also allows us to improve ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited abstract discusses bounded depth proofs for Tseitin formulas on grids and provides exponential lower bounds for proof size, but it does not directly address the growth rate of Φ(π) in n on 3-regular Tseitin or measure the exponent, which is the specific claim of the conjecture.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1801.07293",
+      "title": "A Proof of Symmetry of the Power Sum Polynomials using a Novel Bernoulli Numbers Identity",
+      "abstract_excerpt": "The problem of finding formulas for sums of powers of natural numbers has been of interest to mathematicians for many centuries. Among these is Faulhaber's well-known formula expressing the power sums as polynomials whose coefficients involve Bernoulli numbers. In this paper we give an elementary proof that the sum of $p$-th powers of the first $n$ natural numbers can be expressed as a polynomial in $n$ of degree $p+1$. We also prove a novel identity involving Bernoulli numbers and use it to sho",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses the sum of powers of natural numbers and Bernoulli numbers, which is unrelated to the conjecture about the growth rate of Φ(π) in 3-regular Tseitin formulas under min-occurrence DP elimination.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1712.03995",
+      "title": "A new proof of Harish-Chandra's integral formula",
+      "abstract_excerpt": "We present a new proof of Harish-Chandra's formula $$Π(h_1) Π(h_2) \\int_G e^{\\langle \\mathrm{Ad}_g h_1, h_2 \\rangle} dg = \\frac{ [ \\! [ Π, Π] \\!] }{|W|} \\sum_{w \\in W} ε(w) e^{\\langle w(h_1),h_2 \\rangle},$$ where $G$ is a compact, connected, semisimple Lie group, $dg$ is normalized Haar measure, $h_1$ and $h_2$ lie in a Cartan subalgebra of the complexified Lie algebra, $Π$ is the discriminant, $\\langle \\cdot, \\cdot \\rangle$ is the Killing form, $[ \\! [ \\cdot, \\cdot ] \\!]$ is an inner product th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper's abstract discusses a new proof of Harish-Chandra's integral formula involving Lie groups and heat flow, which is orthogonal to the conjecture about min-occurrence DP elimination and Tseitin formulas. The vocabulary and framework do not interact with the specific claim in the conjecture.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}
