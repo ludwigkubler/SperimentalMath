@@ -1,0 +1,40 @@
+{
+  "entry_id": "279987377770",
+  "ts": 1781354879.9168282,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2503.00774",
+      "title": "Shadow: Leveraging Segmentation Masks for Cross-Embodiment Policy Transfer",
+      "abstract_excerpt": "Data collection in robotics is spread across diverse hardware, and this variation will increase as new hardware is developed. Effective use of this growing body of data requires methods capable of learning from diverse robot embodiments. We consider the setting of training a policy using expert trajectories from a single robot arm (the source), and evaluating on a different robot arm for which no data was collected (the target). We present a data editing scheme termed Shadow, in which the robot ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses robotics and policy transfer, which does not interact with the specific claim about Φ(π)/proof_size being monotone increasing in n, as it pertains to resolution proof complexity and Tseitin formulas.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2411.09026",
+      "title": "On the Complexity of Hazard-Free Formulas",
+      "abstract_excerpt": "This paper studies the hazard-free formula complexity of Boolean functions.\n  Our first result shows that unate functions are the only Boolean functions for which the monotone formula complexity of the hazard-derivative equals the hazard-free formula complexity of the function itself. Consequently, they are the only functions for which the hazard-derivative approach of Ikenmeyer et al. (J. ACM, 2019) yields optimal bounds.\n  Our second result proves that the hazard-free formula complexity of ran",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract discusses the hazard-free formula complexity of Boolean functions and provides results on unate functions, upper bounds for random Boolean functions, and a weak converse to the hazard-derivative lower bound method. However, it does not directly address the monotonicity of Φ(π)/proof_size (number of DP steps) in n, which is the specific claim of the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2308.10896",
+      "title": "Differentiable Shadow Mapping for Efficient Inverse Graphics",
+      "abstract_excerpt": "We show how shadows can be efficiently generated in differentiable rendering of triangle meshes. Our central observation is that pre-filtered shadow mapping, a technique for approximating shadows based on rendering from the perspective of a light, can be combined with existing differentiable rasterizers to yield differentiable visibility information. We demonstrate at several inverse graphics problems that differentiable shadow maps are orders of magnitude faster than differentiable light transp",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses differentiable shadow mapping techniques in the context of inverse graphics and efficient rendering, which is unrelated to the 'shadow heavier than the body' claim about Φ(π)/proof_size monotonicity in resolution proof complexity.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}

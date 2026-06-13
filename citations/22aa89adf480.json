@@ -1,0 +1,40 @@
+{
+  "entry_id": "22aa89adf480",
+  "ts": 1781358364.2393584,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2111.15507",
+      "title": "All-sky search for gravitational wave emission from scalar boson clouds around spinning black holes in LIGO O3 data",
+      "abstract_excerpt": "This paper describes the first all-sky search for long-duration, quasi-monochromatic gravitational-wave signals emitted by ultralight scalar boson clouds around spinning black holes using data from the third observing run of Advanced LIGO. We analyze the frequency range from 20~Hz to 610~Hz, over a small frequency derivative range around zero, and use multiple frequency resolutions to be robust towards possible signal frequency wanderings. Outliers from this search are followed up using two diff",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses gravitational wave emission from scalar boson clouds around spinning black holes, which is unrelated to expander-based Tseitin, Φ(π), and graph expansion, as mentioned in the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2103.09609",
+      "title": "Characterizing Tseitin-formulas with short regular resolution refutations",
+      "abstract_excerpt": "Tseitin-formulas are systems of parity constraints whose structure is described by a graph. These formulas have been studied extensively in proof complexity as hard instances in many proof systems. In this paper, we prove that a class of unsatisfiable Tseitin-formulas of bounded degree has regular resolution refutations of polynomial length if and only if the treewidth of all underlying graphs $G$ for that class is in $O(\\log|V(G)|)$. To do so, we show that any regular resolution refutation of a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited abstract discusses the relationship between treewidth and the length of regular resolution refutations for Tseitin-formulas, while the conjecture focuses on the entropy Φ(π) in expander-based Tseitin versus path/tree graphs. There is no direct interaction or contradiction between these two topics.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2407.10339",
+      "title": "Supernova Pointing Capabilities of DUNE",
+      "abstract_excerpt": "The determination of the direction of a stellar core collapse via its neutrino emission is crucial for the identification of the progenitor for a multimessenger follow-up. A highly effective method of reconstructing supernova directions within the Deep Underground Neutrino Experiment (DUNE) is introduced. The supernova neutrino pointing resolution is studied by simulating and reconstructing electron-neutrino charged-current absorption on 40Ar and elastic scattering of neutrinos on electrons. Pro",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract of the cited paper does not contain any information related to Tseitin formulas, graph expansion, or entropy measures, which are central concepts in the conjecture under review. Therefore, it is insufficient to determine whether the abstract supports, refutes, or is orthogonal to the conjecture.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}
