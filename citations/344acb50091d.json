@@ -1,0 +1,40 @@
+{
+  "entry_id": "344acb50091d",
+  "ts": 1781309155.7626443,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1810.12657",
+      "title": "The effect of a country's name in the title of a publication on its visibility and citability",
+      "abstract_excerpt": "The objective of this research is to determine if the reference to a country in the title, keywords or abstract of a publication can influence its visibility (measured by the impact factor of the publishing journal) and citability (measured by the citations received). The study is based on Italian scientific production indexed in the Web of Science over the period 2004-2011. The analysis is conducted by comparing the values of four impact indicators for two subsets: i) the indexed publications w",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the effect of a country's name on publication visibility and citability, which is unrelated to the conjecture about cumulative entropy and resolution proof complexity.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:cs/0207003",
+      "title": "Analysis of Titles and Readers For Title Generation Centered on the Readers",
+      "abstract_excerpt": "The title of a document has two roles, to give a compact summary and to lead the reader to read the document. Conventional title generation focuses on finding key expressions from the author's wording in the document to give a compact summary and pays little attention to the reader's interest. To make the title play its second role properly, it is indispensable to clarify the content (``what to say'') and wording (``how to say'') of titles that are effective to attract the target reader's intere",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper's abstract discusses title generation for documents, focusing on content and wording to attract reader interest, which is unrelated to the conjecture about cumulative entropy and balanced separator size.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1004.2719",
+      "title": "Is This a Good Title?",
+      "abstract_excerpt": "Missing web pages, URIs that return the 404 \"Page Not Found\" error or the HTTP response code 200 but dereference unexpected content, are ubiquitous in today's browsing experience. We use Internet search engines to relocate such missing pages and provide means that help automate the rediscovery process. We propose querying web pages' titles against search engines. We investigate the retrieval performance of titles and compare them to lexical signatures which are derived from the pages' content. S",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper's abstract discusses web page titles, search engines, and the discovery performance of web pages, which is unrelated to the conjecture about cumulative entropy and balanced separator size in resolution proof complexity.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}
