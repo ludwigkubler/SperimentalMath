@@ -1,6 +1,6 @@
 # SEC P-vs-NP — System Status: **🟢 OK**
 
-_Updated: 2026-06-13T08:45:01.799540+00:00 (auto-refresh every 5 min)_
+_Updated: 2026-06-13T09:45:01.542172+00:00 (auto-refresh every 5 min)_
 
 - CRITICAL failures: **0**
 - DEGRADED failures: **0**
@@ -15,8 +15,8 @@ _Updated: 2026-06-13T08:45:01.799540+00:00 (auto-refresh every 5 min)_
 | `sec_entity_service` | ✅ | active |
 | `cron_service` | ✅ | active |
 | `gpu` | ✅ | NVIDIA GeForce RTX 3070 Ti |
-| `disk_under_90pct` | ✅ | 17% used |
-| `ram_above_1g` | ✅ | 13079 MB available |
+| `disk_under_90pct` | ✅ | 18% used |
+| `ram_above_1g` | ✅ | 8732 MB available |
 | `mirror_git_fresh` | ✅ | last commit 0.96h ago |
 | `mirror_git_pushed` | ✅ | 0 unpushed (within tolerance) |
 | `notebook_growing` | ✅ | newest entry 0.98h ago |
