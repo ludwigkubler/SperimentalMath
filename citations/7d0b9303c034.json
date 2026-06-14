@@ -1,0 +1,40 @@
+{
+  "entry_id": "7d0b9303c034",
+  "ts": 1781430289.6815524,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1109.0842",
+      "title": "Universal Property of Quantum Gravity implied by Uniqueness Theorem of Bekenstein-Hawking Entropy",
+      "abstract_excerpt": "This paper consists of three steps. In the first, we prove that the Bekenstein-Hawking entropy is the unique expression of black hole entropy. Our proof is constructed in the framework of thermodynamics without any statistical discussion. In the second, intrinsic properties of quantum mechanics are shown, which justify the Boltzmann formula to yield a unique entropy in statistical mechanics. These properties clarify three conditions, one of which is necessary and others are sufficient for the va",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses black hole entropy, quantum mechanics, and quantum gravity, which shares no direct relation with the conjecture's focus on resolution proof complexity and Tseitin formulas.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/hep-th/0606184v2",
+      "title": "Proof of the Holographic Formula for Entanglement Entropy",
+      "abstract_excerpt": "Entanglement entropy for a spatial partition of a quantum system is studied in theories which admit a dual description in terms of the anti-de Sitter (AdS) gravity one dimension higher. A general proof of the holographic formula which relates the entropy to the area of a codimension 2 minimal hypers",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper's abstract focuses on entanglement entropy in quantum systems and its relation to the area of a codimension 2 minimal hypersurface, which is unrelated to the width-aware totalLiteralWeight or the scaling properties mentioned in the conjecture. The abstract does not provide any information regarding the relationship between width amplification and cumulative weight.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1812.10833",
+      "title": "Predictability, topological entropy and invariant random orders",
+      "abstract_excerpt": "We prove that a topologically predictable action of a countable amenable group has zero topological entropy, as conjectured by Hochman. On route, we investigate invariant random orders and formulate a unified Kieffer-Pinsker formula for the Kolmogorov-Sinai entropy of measure preserving actions of amenable groups. We also present a proof due to Weiss for the fact that topologically prime actions of sofic groups have non-positive topological sofic entropy.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper discusses topological entropy, invariant random orders, and Kolmogorov-Sinai entropy for measure-preserving actions of amenable groups. There is no mention or interaction with the concept of width-aware totalLiteralWeight or count-based Φ as described in the conjecture regarding resolution proof complexity and Tseitin formulas.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "64f8cf72cf3f",
+  "ts": 1781429562.4541545,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0905.1587",
+      "title": "Unsatisfiable Linear CNF Formulas Are Large and Complex",
+      "abstract_excerpt": "We call a CNF formula linear if any two clauses have at most one variable in common. We show that there exist unsatisfiable linear k-CNF formulas with at most 4k^2 4^k clauses, and on the other hand, any linear k-CNF formula with at most 4^k/(8e^2k^2) clauses is satisfiable. The upper bound uses probabilistic means, and we have no explicit construction coming even close to it. One reason for this is that unsatisfiable linear formulas exhibit a more complex structure than general (non-linear) for",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper discusses unsatisfiable linear CNF formulas and their resolution refutation sizes but does not directly address the entropy Φ(π) for Tseitin formulas on expander-based graphs or path/tree graphs, which is the focus of the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1101.3970",
+      "title": "Short Propositional Refutations for Dense Random 3CNF Formulas",
+      "abstract_excerpt": "Random 3CNF formulas constitute an important distribution for measuring the average-case behavior of propositional proof systems. Lower bounds for random 3CNF refutations in many propositional proof systems are known. Most notably are the exponential-size resolution refutation lower bounds for random 3CNF formulas with $Ω(n^{1.5-ε}) $ clauses [Chvatal and Szemeredi (1988), Ben-Sasson and Wigderson (2001)]. On the other hand, the only known non-trivial upper bound on the size of random 3CNF refut",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper discusses lower and upper bounds for random 3CNF refutations in various proof systems, but it does not directly address the specific conjecture about the entropy Φ(π) for expander-based Tseitin and path/tree graphs. The focus of the abstract is on Frege proofs for random 3CNF formulas, which is orthogonal to the graph expansion-based entropy separation claimed in the conjecture.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0101008v1",
+      "title": "On the determinant formulas by Borodin, Okounkov, Baik, Deift, and Rains",
+      "abstract_excerpt": "We give alternative proofs to (block case versions of) some formulas for Toeplitz and Fredholm determinants established recently by the authors of the title. Our proof of the Borodin-Okounkov formula is very short and direct. The proof of the Baik-Deift-Rains formulas is based on standard manipulati",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper's abstract does not contain any information related to Tseitin formulas, graph expansion, or entropy. It focuses on alternative proofs for Toeplitz and Fredholm determinants, which are unrelated to the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 3
+  }
+}
