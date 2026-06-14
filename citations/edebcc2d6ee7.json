@@ -1,0 +1,40 @@
+{
+  "entry_id": "edebcc2d6ee7",
+  "ts": 1781401028.299091,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1401.4360",
+      "title": "3-regular matchstick graphs with given girth",
+      "abstract_excerpt": "We consider 3-regular planar matchstick graphs, i.e. those which have a planar embedding such that all edge lengths are equal, with given girth g. For girth 3 it is known that such graphs exist if and only if the number of vertices n is an even integer larger or equal to 8. Here we prove that such graphs exist for girth g=4 if and only if n is even and at least 20. We provide an example for girth g=5 consisting of 180 vertices.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns existence of 3-regular planar matchstick graphs with given girth, a geometric/combinatorial result unrelated to DP elimination, Tseitin formulas, or resolution proof complexity. Shared vocabulary ('3-regular') does not engage with the conjecture's claim about Φ(π) scaling.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1903.04304",
+      "title": "A 3-regular matchstick graph of girth 5 consisting of 54 vertices",
+      "abstract_excerpt": "In 2010 it was proved that a 3-regular matchstick graph of girth 5 must consist at least of 30 vertices. The smallest known example consisted of 180 vertices. In this article we construct an example consisting of 54 vertices and prove its geometrical correctness.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract is about constructing a 3-regular matchstick graph of girth 5 with 54 vertices, a geometric/combinatorial result. It has no connection to Tseitin formulas, DP elimination, or proof complexity measures Φ(π).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2402.12631",
+      "title": "Theoretical Approximation Ratios for Warm-Started QAOA on 3-Regular Max-Cut Instances at Depth $p=1$",
+      "abstract_excerpt": "We generalize Farhi et al.'s 0.6924-approximation result technique of the Max-Cut Quantum Approximate Optimization Algorithm (QAOA) on 3-regular graphs to obtain provable lower bounds on the approximation ratio for warm-started QAOA. Given an initialization angle $θ$, we consider warm-starts where the initial state is a product state where each qubit position is angle $θ$ away from either the north or south pole of the Bloch sphere; of the two possible qubit positions the position of each qubit ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns approximation ratios for warm-started QAOA on 3-regular Max-Cut graphs, not DP elimination, resolution proof complexity, or Tseitin formulas. Only the '3-regular' vocabulary is shared; nothing in the abstract addresses Φ(π) scaling under min-occurrence DP elimination.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

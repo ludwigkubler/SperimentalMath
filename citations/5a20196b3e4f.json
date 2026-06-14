@@ -1,0 +1,40 @@
+{
+  "entry_id": "5a20196b3e4f",
+  "ts": 1781398152.5765178,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1102.2932",
+      "title": "Applications of Monotone Rank to Complexity Theory",
+      "abstract_excerpt": "Raz's recent result \\cite{Raz2010} has rekindled people's interest in the study of \\emph{tensor rank}, the generalization of matrix rank to high dimensions, by showing its connections to arithmetic formulas. In this paper, we follow Raz's work and show that \\emph{monotone rank}, the monotone variant of tensor rank and matrix rank, has applications in algebraic complexity, quantum computing and communication complexity. This paper differs from Raz's paper in that it leverages existing results to ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract discusses monotone rank, its applications, and a super-exponential separation between monotone and non-monotone computation. However, it does not directly address the conjecture about the relationship between Φ(π)/proof_size and n in resolution proof complexity or Tseitin formulas.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2103.09609",
+      "title": "Characterizing Tseitin-formulas with short regular resolution refutations",
+      "abstract_excerpt": "Tseitin-formulas are systems of parity constraints whose structure is described by a graph. These formulas have been studied extensively in proof complexity as hard instances in many proof systems. In this paper, we prove that a class of unsatisfiable Tseitin-formulas of bounded degree has regular resolution refutations of polynomial length if and only if the treewidth of all underlying graphs $G$ for that class is in $O(\\log|V(G)|)$. To do so, we show that any regular resolution refutation of a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the length of regular resolution refutations and their connection to treewidth, but does not address the monotonicity of Φ(π)/proof_size in n or the 'shadow heavier than the body' claim.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:0708.1529",
+      "title": "Resolution over Linear Equations and Multilinear Proofs",
+      "abstract_excerpt": "We develop and study the complexity of propositional proof systems of varying strength extending resolution by allowing it to operate with disjunctions of linear equations instead of clauses. We demonstrate polynomial-size refutations for hard tautologies like the pigeonhole principle, Tseitin graph tautologies and the clique-coloring tautologies in these proof systems. Using the (monotone) interpolation by a communication game technique we establish an exponential-size lower bound on refutation",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract discusses polynomial-size refutations and upper bounds on refutations, but it does not explicitly address the monotonicity of Φ(π)/proof_size in n or the 'shadow heavier than the body' claim. Therefore, we cannot determine from the abstract alone if it supports, refutes, or is orthogonal to the conjecture.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}

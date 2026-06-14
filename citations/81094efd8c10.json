@@ -1,0 +1,40 @@
+{
+  "entry_id": "81094efd8c10",
+  "ts": 1781401349.6392097,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2406.03671",
+      "title": "PANDA: Expanded Width-Aware Message Passing Beyond Rewiring",
+      "abstract_excerpt": "Recent research in the field of graph neural network (GNN) has identified a critical issue known as \"over-squashing,\" resulting from the bottleneck phenomenon in graph structures, which impedes the propagation of long-range information. Prior works have proposed a variety of graph rewiring concepts that aim at optimizing the spatial or spectral properties of graphs to promote the signal propagation. However, such approaches inevitably deteriorate the original graph topology, which may lead to a ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns graph neural networks and 'width-aware message passing' for over-squashing, which shares only the vocabulary 'width' with the conjecture about resolution proof complexity and Tseitin formulas. It says nothing about literal weights, clause widths in resolution, or Φ scaling exponents.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2604.13978",
+      "title": "Resonance- and Width-aware Parton Shower Evolution and NLO Matching",
+      "abstract_excerpt": "We introduce a technique for the next-to-leading order accurate simulation of $e^+e^-\\to W^+W^-b\\bar{b}$ that respects the resonant nature of the process above and near the top-quark pair production threshold. The parton-shower evolution, infrared subtraction and NLO matching account in particular for finite width effects beyond the Breit-Wigner structure considered in resonance-aware approaches. We present first phenomenological results relevant to a potential future electron-positron collider ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns parton shower simulation for $e^+e^-\\to W^+W^-b\\bar{b}$ at NLO accuracy in particle physics, sharing only the superficial keyword 'width-aware' with the conjecture about resolution proof complexity and Tseitin formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2603.09952",
+      "title": "On the Width Scaling of Neural Optimizers Under Matrix Operator Norms I: Row/Column Normalization and Hyperparameter Transfer",
+      "abstract_excerpt": "A central question in modern deep learning is how to design optimizers whose behavior remains stable as the network width $w$ increases. We address this question by interpreting several widely used neural-network optimizers, including \\textrm{AdamW} and \\textrm{Muon}, as instances of steepest descent under matrix operator norms. This perspective links optimizer geometry with the Lipschitz structure of the network forward map, and enables width-independent control of both Lipschitz and smoothness",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns neural network optimizer design and width-scaling of operator norms in deep learning ('design optimizers whose behavior remains stable as the network width w increases'), which is entirely unrelated to resolution proof complexity or Tseitin formulas. The shared 'width' vocabulary is coincidental and does not interact with the conjecture's claim about literal-weight scaling in resolution proofs.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
