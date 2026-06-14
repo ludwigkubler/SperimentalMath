@@ -1,0 +1,40 @@
+{
+  "entry_id": "59aa8bd8bca4",
+  "ts": 1781420504.8925216,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2103.09609",
+      "title": "Characterizing Tseitin-formulas with short regular resolution refutations",
+      "abstract_excerpt": "Tseitin-formulas are systems of parity constraints whose structure is described by a graph. These formulas have been studied extensively in proof complexity as hard instances in many proof systems. In this paper, we prove that a class of unsatisfiable Tseitin-formulas of bounded degree has regular resolution refutations of polynomial length if and only if the treewidth of all underlying graphs $G$ for that class is in $O(\\log|V(G)|)$. To do so, we show that any regular resolution refutation of a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the length of regular resolution refutations of unsatisfiable Tseitin-formulas in relation to treewidth, but does not mention cumulative entropy or balanced separator size, which are key concepts in the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1506.04891",
+      "title": "Author Identification using Multi-headed Recurrent Neural Networks",
+      "abstract_excerpt": "Recurrent neural networks (RNNs) are very good at modelling the flow of text, but typically need to be trained on a far larger corpus than is available for the PAN 2015 Author Identification task. This paper describes a novel approach where the output layer of a character-level RNN language model is split into several independent predictive sub-models, each representing an author, while the recurrent layer is shared by all. This allows the recurrent layer to model the language as a whole without",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper focuses on recurrent neural networks and author identification using multi-headed RNNs, which is unrelated to the conjecture about cumulative entropy in resolution proof complexity and Tseitin formulas.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1808.00525",
+      "title": "The impact of imbalanced training data on machine learning for author name disambiguation",
+      "abstract_excerpt": "In supervised machine learning for author name disambiguation, negative training data are often dominantly larger than positive training data. This paper examines how the ratios of negative to positive training data can affect the performance of machine learning algorithms to disambiguate author names in bibliographic records. On multiple labeled datasets, three classifiers - Logistic Regression, Naïve Bayes, and Random Forest - are trained through representative features such as coauthor names,",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the impact of imbalanced training data on machine learning performance for author name disambiguation and examines classifier performance. It does not address the cumulative-entropy analogue of space lower bounds or any claim related to Φ(π) >= c·|S|², which is a topic in resolution proof complexity and Tseitin formulas.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

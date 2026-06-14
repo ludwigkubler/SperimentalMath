@@ -1,0 +1,40 @@
+{
+  "entry_id": "8c48c68b048d",
+  "ts": 1781422569.0404134,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2104.00079",
+      "title": "Super-Linear Growth Reveals the Allee Effect in Tumors",
+      "abstract_excerpt": "Integrating experimental data into ecological models plays a central role in understanding biological mechanisms that drive tumor progression where such knowledge can be used to develop new therapeutic strategies. While the current studies emphasize the role of competition among tumor cells, they fail to explain recently observed super-linear growth dynamics across human tumors. Here we study tumor growth dynamics by developing a model that incorporates evolutionary dynamics inside tumors with t",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses super-linear growth dynamics in tumor progression and its potential therapeutic implications. It does not mention min-occurrence DP elimination, 3-regular Tseitin formulas, or the specific conjecture about Φ(π) growing super-linearly. The vocabulary and framework are different, indicating no direct interaction with the proposed conjecture.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1407.5834",
+      "title": "Sobolev differentiable flows of SDEs with local Sobolev and super-linear growth coefficients",
+      "abstract_excerpt": "By establishing a characterization for Sobolev differentiability of random fields, we prove the weak differentiability of solutions to stochastic differential equations with local Sobolev and super-linear growth coefficients with respect to the starting point. Moreover, we also study the strong Feller property and the irreducibility of the associated diffusion semigroup.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses Sobolev differentiability of random fields and stochastic differential equations, which is unrelated to the conjecture about the growth of Φ(π) in Tseitin formulas under min-occurrence DP elimination.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1803.06947",
+      "title": "Differentiability of SDEs with drifts of super-linear growth",
+      "abstract_excerpt": "We close an unexpected gap in the literature of stochastic differential equations (SDEs) with drifts of super linear growth (and random coefficients), namely, we prove Malliavin and Parametric Differentiability of such SDEs. The former is shown by proving Ray Absolute Continuity and Stochastic Gâteaux Differentiability. This method enables one to take limits in probability rather than mean square which bypasses the potentially non-integrable error terms from the unbounded drift. This issue is st",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses the differentiability of stochastic differential equations with super-linear drifts, which is unrelated to the conjecture about the growth of Φ(π) in 3-regular Tseitin formulas under min-occurrence DP elimination. There is no mention of Tseitin formulas or DP elimination in the abstract.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

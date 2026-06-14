@@ -1,0 +1,40 @@
+{
+  "entry_id": "6ae187d46bc4",
+  "ts": 1781421926.7270694,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2206.12736",
+      "title": "On the second law of thermodynamics: An ideal-gas flow spontaneously induced by a locally nonchaotic energy barrier",
+      "abstract_excerpt": "People are well aware that, inherently, certain small-scale nonchaotic particle movements are not governed by thermodynamics. Usually, such phenomena are studied by kinetic theory and their energy properties are considered \"trivial\". In current research, we show that, beyond the boundary of the second law of thermodynamics where Boltzmann's H-theorem does not apply, there are also large-sized systems of nontrivial energy properties: when the system is isolated, entropy can decrease; from a singl",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper discusses ideal-gas flow and entropy decrease in systems governed by local nonchaotic energy barriers, which is unrelated to the width-aware totalLiteralWeight and its scaling properties as described in the conjecture. The abstract does not provide any information that supports or refutes the claim about the width amplifying cumulative weight.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/cond-mat/9307037v1",
+      "title": "Formula for the widths of quantum-Hall-effect plateaus",
+      "abstract_excerpt": "We derive an empirical formula for the width of quantum Hall effect plateaus which is free of adjustable parameters. It describes the integer, fractional and $ν= 0$ (Wigner insulator) quantum Hall effect in single heterojunctions. The temperature scale of the existence of these three phenomena is th",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses an empirical formula for the width of quantum Hall effect plateaus and its relation to single heterojunctions, which is unrelated to the conjecture about the scaling of width-aware totalLiteralWeight in resolution proof complexity.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1304.2285",
+      "title": "Cumulative Probability of Blast Fragmentation Effect",
+      "abstract_excerpt": "This paper presents formulae for calculation of cumulative probability of effect made by blast fragments. Analysis with Mott distribution, discrete fragment enumeration, spatial non-uniformity, numerical issues, and a generalisation for a set of effects are also discussed.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract focuses on the calculation of cumulative probability of blast fragmentation effect using Mott distribution and fragment enumeration. It does not mention width-aware totalLiteralWeight, count-based Φ, or any aspect related to scaling with a strictly larger exponent in the context of resolution proof complexity or Tseitin formulas.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}
