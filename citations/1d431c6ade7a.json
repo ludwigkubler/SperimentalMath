@@ -1,0 +1,31 @@
+{
+  "entry_id": "1d431c6ade7a",
+  "ts": 1781462681.8825994,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.1016/j.cmpb.2024.108374",
+      "title": "Ultrasound normalized cumulative residual entropy imaging: Theory, methodology, and application",
+      "abstract_excerpt": "BACKGROUND AND OBJECTIVE\nUltrasound information entropy imaging is an emerging quantitative ultrasound technique for characterizing local tissue scatterer concentrations and arrangements. However, the commonly used ultrasound Shannon entropy imaging based on histogram-derived discrete probability estimation suffers from the drawbacks of histogram settings dependence and unknown estimator performance. In this paper, we introduced the information-theoretic cumulative residual entropy (CRE) defined",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper discusses ultrasound information entropy imaging, cumulative residual entropy (CRE), and differential entropy in the context of ultrasound backscatter envelope signals. It does not mention Φ(π) or the cumulative-entropy analogue of space lower bounds related to balanced separator size as defined in the conjecture.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "s2:10.1007/978-3-031-15982-4_8",
+      "title": "Sustained Space and Cumulative Complexity Trade-offs for Data-Dependent Memory-Hard Functions",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract of the cited paper is not available, which makes it impossible to determine whether it supports, refutes, or is orthogonal to the conjecture.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 2
+  }
+}

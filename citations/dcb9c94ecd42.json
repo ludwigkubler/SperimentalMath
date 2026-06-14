@@ -1,0 +1,22 @@
+{
+  "entry_id": "dcb9c94ecd42",
+  "ts": 1781461440.8309388,
+  "hits_evaluated": 1,
+  "verdicts": [
+    {
+      "paper_id": "s2:56a3633e02faf86c5bc4615f535b846492227dfb",
+      "title": "Phase unbanding in bSSFP for Liver conductivity imaging at 3 . 0",
+      "abstract_excerpt": "",
+      "abstract_source": "cached",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The paper does not contain an abstract, which means there is no information to assess whether it supports, refutes, or is orthogonal to the proposed conjecture.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 1
+  }
+}
