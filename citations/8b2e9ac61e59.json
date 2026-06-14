@@ -1,0 +1,40 @@
+{
+  "entry_id": "8b2e9ac61e59",
+  "ts": 1781411465.633797,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2411.10229",
+      "title": "Optimally Rewriting Formulas and Database Queries: A Confluence of Term Rewriting, Structural Decomposition, and Complexity",
+      "abstract_excerpt": "A central computational task in database theory, finite model theory, and computer science at large is the evaluation of a first-order sentence on a finite structure. In the context of this task, the \\emph{width} of a sentence, defined as the maximum number of free variables over all subformulas, has been established as a crucial measure, where minimizing width of a sentence (while retaining logical equivalence) is considered highly desirable. An undecidability result rules out the possibility o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the importance of minimizing width in sentences and presents an algorithm for obtaining minimum-width sentences via syntactic rewriting rules. It does not mention anything about the scaling of the width-aware totalLiteralWeight compared to the count-based Φ, which is the specific claim of the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2505.22491",
+      "title": "On the Surprising Effectiveness of Large Learning Rates under Standard Width Scaling",
+      "abstract_excerpt": "Scaling limits, such as infinite-width limits, serve as promising theoretical tools to study large-scale models. However, it is widely believed that existing infinite-width theory does not faithfully explain the behavior of practical networks, especially those trained in standard parameterization (SP) meaning He initialization with a global learning rate. For instance, existing theory for SP predicts instability at large learning rates and vanishing feature learning at stable ones. In practice, ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the effectiveness of large learning rates under standard width scaling and the controlled divergence regime in neural networks, but it does not address the relationship between width-aware totalLiteralWeight and count-based Φ as described in the conjecture.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2403.03530",
+      "title": "Average-case deterministic query complexity of boolean functions with fixed weight",
+      "abstract_excerpt": "We study the $\\textit{average-case deterministic query complexity}$ of boolean functions under a $\\textit{uniform input distribution}$, denoted by $\\mathrm{D}_\\mathrm{ave}(f)$, the minimum average depth of zero-error decision trees that compute a boolean function $f$. This measure has found several applications across diverse fields, yet its understanding is limited. We study boolean functions with fixed weight, where weight is defined as the number of inputs on which the output is $1$. We prove",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract of the cited paper discusses average-case deterministic query complexity and upper bounds on this measure for boolean functions with fixed weight. It does not mention 'width-aware totalLiteralWeight' or the concept of width amplifying cumulative weight, which are specific to the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}

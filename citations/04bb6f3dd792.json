@@ -1,0 +1,40 @@
+{
+  "entry_id": "04bb6f3dd792",
+  "ts": 1781409133.687656,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1003.3047",
+      "title": "On the Relative Strength of Pebbling and Resolution",
+      "abstract_excerpt": "The last decade has seen a revival of interest in pebble games in the context of proof complexity. Pebbling has proven a useful tool for studying resolution-based proof systems when comparing the strength of different subsystems, showing bounds on proof space, and establishing size-space trade-offs. The typical approach has been to encode the pebble game played on a graph as a CNF formula and then argue that proofs of this formula must inherit (various aspects of) the pebbling properties of the ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns pebbling-based space lower bounds and time-space trade-offs for resolution on pebbling formulas, not cumulative entropy Φ(π) bounds in terms of balanced separator size |S| for Tseitin formulas. It shares the general 'resolution space' framework but does not address the specific Φ(π) ≥ c·|S|² claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:cs/0304041",
+      "title": "$P \\ne NP$, propositional proof complexity, and resolution lower bounds for the weak pigeonhole principle",
+      "abstract_excerpt": "Recent results established exponential lower bounds for the length of any Resolution proof for the weak pigeonhole principle. More formally, it was proved that any Resolution proof for the weak pigeonhole principle, with $n$ holes and any number of pigeons, is of length $Ω(2^{n^ε})$, (for a constant $ε= 1/3$). One corollary is that certain propositional formulations of the statement $P \\ne NP$ do not have short Resolution proofs. After a short introduction to the problem of $P \\ne NP$ and to the",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses exponential length lower bounds for Resolution proofs of the weak pigeonhole principle, not cumulative entropy Φ(π), balanced separator size, or Tseitin formulas. It shares the broad framework of resolution proof complexity but does not interact with the specific quadratic-in-separator-size claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1708.09775",
+      "title": "Resolution of singularities and geometric proofs of the Lojasiewicz inequalities",
+      "abstract_excerpt": "The Lojasiewicz inequalities for real analytic functions on Euclidean space were first proved by Stanislaw Lojasiewicz (1965) using methods of semianalytic and subanalytic sets, arguments later simplified by Bierstone and Milman (1988). In this article, we first give an elementary geometric, coordinate-based proof of the Lojasiewicz inequalities in the special case where the function is $C^1$ with simple normal crossings. We then prove, partly following Bierstone and Milman (1997) and using reso",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Lojasiewicz inequalities for real analytic functions via resolution of singularities, with no connection to resolution proof complexity, Tseitin formulas, cumulative entropy, or balanced separators.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

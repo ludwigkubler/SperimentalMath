@@ -1,0 +1,40 @@
+{
+  "entry_id": "1e87a8ed1958",
+  "ts": 1781409301.6803706,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2411.10229",
+      "title": "Optimally Rewriting Formulas and Database Queries: A Confluence of Term Rewriting, Structural Decomposition, and Complexity",
+      "abstract_excerpt": "A central computational task in database theory, finite model theory, and computer science at large is the evaluation of a first-order sentence on a finite structure. In the context of this task, the \\emph{width} of a sentence, defined as the maximum number of free variables over all subformulas, has been established as a crucial measure, where minimizing width of a sentence (while retaining logical equivalence) is considered highly desirable. An undecidability result rules out the possibility o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns width minimization of first-order sentences via syntactic rewriting in database/finite model theory, not Tseitin formulas or resolution proof complexity scaling exponents. The shared term 'width' refers to free variables in subformulas, unrelated to clause-width amplification of cumulative literal weight in resolution refutations.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1005.0644",
+      "title": "Improved Direct Product Theorems for Randomized Query Complexity",
+      "abstract_excerpt": "The direct product problem is a fundamental question in complexity theory which seeks to understand how the difficulty of computing a function on each of k independent inputs scales with k. We prove the following direct product theorem (DPT) for query complexity: if every T-query algorithm has success probability at most 1 - eps in computing the Boolean function f on input distribution Mu, then for alpha &lt;= 1, every (alpha eps Tk)-query algorithm has success probability at most (2^{alpha eps}",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns direct product theorems for randomized query complexity, with no mention of resolution proof complexity, Tseitin formulas, clause widths, or cumulative literal weight scaling — it shares no specific content with the conjecture's claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2010.08798",
+      "title": "Strict comparison for the Lyapunov exponents of the simple random walk in random potentials",
+      "abstract_excerpt": "We consider the simple random walk in i.i.d. nonnegative potentials on the $d$-dimensional cubic lattice $\\mathbb{Z}^d$ ($d \\geq 1$). In this model, the so-called Lyapunov exponent describes the cost of traveling for the simple random walk in the potential. The Lyapunov exponent depends on the distribution function of the potential, and the aim of this article is to prove that the Lyapunov exponent is strictly monotone in the distribution function of the potential with the order according to str",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Lyapunov exponents of random walks in random potentials on Z^d, with no connection to resolution proof complexity, Tseitin formulas, or clause-width scaling. The shared term 'exponent' is incidental vocabulary.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
