@@ -1,0 +1,40 @@
+{
+  "entry_id": "e3e7d6c110f5",
+  "ts": 1781404368.2971487,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2308.10896",
+      "title": "Differentiable Shadow Mapping for Efficient Inverse Graphics",
+      "abstract_excerpt": "We show how shadows can be efficiently generated in differentiable rendering of triangle meshes. Our central observation is that pre-filtered shadow mapping, a technique for approximating shadows based on rendering from the perspective of a light, can be combined with existing differentiable rasterizers to yield differentiable visibility information. We demonstrate at several inverse graphics problems that differentiable shadow maps are orders of magnitude faster than differentiable light transp",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited abstract discusses differentiable shadow mapping for efficient inverse graphics and does not address the monotonicity of Φ(π)/proof_size in n or the 'shadow heavier than the body' claim related to resolution proof complexity.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2407.08865",
+      "title": "Single-Image Shadow Removal Using Deep Learning: A Comprehensive Survey",
+      "abstract_excerpt": "Shadow removal aims at restoring the image content within shadow regions, pursuing a uniform distribution of illumination that is consistent between shadow and non-shadow regions. {Comparing to other image restoration tasks, there are two unique challenges in shadow removal:} 1) The patterns of shadows are arbitrary, varied, and often have highly complex trace structures, making ``trace-less'' image recovery difficult. 2) The degradation caused by shadows is spatially non-uniform, resulting in i",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses single-image shadow removal using deep learning, which is unrelated to the conjecture about Φ(π)/proof_size being monotone increasing in n. The abstract from the cited paper does not mention anything related to resolution proof complexity or Tseitin formulas.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2312.02156",
+      "title": "Latent Feature-Guided Diffusion Models for Shadow Removal",
+      "abstract_excerpt": "Recovering textures under shadows has remained a challenging problem due to the difficulty of inferring shadow-free scenes from shadow images. In this paper, we propose the use of diffusion models as they offer a promising approach to gradually refine the details of shadow regions during the diffusion process. Our method improves this process by conditioning on a learned latent feature space that inherits the characteristics of shadow-free images, thus avoiding the limitation of conventional met",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses methods for shadow removal using diffusion models and latent feature spaces, which is unrelated to the conjecture about the monotonicity of Φ(π)/proof_size in resolution proof complexity. The abstract does not mention or relate to the concept of per-step active weight growth.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}
