@@ -1,0 +1,40 @@
+{
+  "entry_id": "7a6251645b6a",
+  "ts": 1781470002.933158,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1807.02622",
+      "title": "Rényi Entropy Power Inequalities via Normal Transport and Rotation",
+      "abstract_excerpt": "Following a recent proof of Shannon's entropy power inequality (EPI), a comprehensive framework for deriving various EPIs for the Rényi entropy is presented that uses transport arguments from normal densities and a change of variable by rotation. Simple arguments are given to recover the previously known Rényi EPIs and derive new ones, by unifying a multiplicative form with constant c and a modification with exponent α of previous works. In particular, for log-concave densities, we obtain a simp",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper discusses Rényi entropy power inequalities and normal transport, which is orthogonal to the conjecture about the width-aware totalLiteralWeight scaling with a strictly larger exponent than the count-based Φ. The abstract does not mention width amplification of cumulative weight or any relation to Tseitin formulas.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2112.13763",
+      "title": "Yet Another Proof of the Joint Convexity of Relative Entropy",
+      "abstract_excerpt": "The joint convexity of the map $(X,A) \\mapsto X^* A^{-1} X$, an integral representation of operator convex functions, and an observation of Ando are used to obtain a simple proof of both the joint convexity of relative entropy and a trace convexity result of Lieb. The latter was the key ingredient in the original proof of the strong subadditivity of quantum entropy.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited abstract discusses joint convexity and trace convexity results related to operator convex functions and quantum entropy. It does not mention width-aware totalLiteralWeight, count-based Φ, or the relationship between them, which are central to the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1109.0842",
+      "title": "Universal Property of Quantum Gravity implied by Uniqueness Theorem of Bekenstein-Hawking Entropy",
+      "abstract_excerpt": "This paper consists of three steps. In the first, we prove that the Bekenstein-Hawking entropy is the unique expression of black hole entropy. Our proof is constructed in the framework of thermodynamics without any statistical discussion. In the second, intrinsic properties of quantum mechanics are shown, which justify the Boltzmann formula to yield a unique entropy in statistical mechanics. These properties clarify three conditions, one of which is necessary and others are sufficient for the va",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses the uniqueness theorem of Bekenstein-Hawking entropy and properties of quantum mechanics related to statistical mechanics, which is orthogonal to the conjecture regarding the scaling of width-aware totalLiteralWeight in resolution proof complexity and Tseitin formulas.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}
