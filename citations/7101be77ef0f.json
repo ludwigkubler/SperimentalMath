@@ -1,0 +1,40 @@
+{
+  "entry_id": "7101be77ef0f",
+  "ts": 1781465904.6383023,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2411.03398",
+      "title": "DP-HLS: A High-Level Synthesis Framework for Accelerating Dynamic Programming Algorithms in Bioinformatics",
+      "abstract_excerpt": "Dynamic programming (DP) based algorithms are essential yet compute-intensive parts of numerous bioinformatics pipelines, which typically involve populating a 2-D scoring matrix based on a recursive formula, optionally followed by a traceback step to get the optimal alignment path. DP algorithms are used in a wide spectrum of bioinformatics tasks, including read assembly, homology search, gene annotation, basecalling, and phylogenetic inference. So far, specialized hardware like ASICs and FPGAs ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses a high-level synthesis framework for accelerating dynamic programming algorithms in bioinformatics, focusing on hardware implementation and performance improvements. It does not mention or relate to the growth of Φ(π) in n on 3-regular Tseitin formulas under min-occurrence DP elimination, which is the specific conjecture being reviewed.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2101.07005",
+      "title": "Optical Flow Method for Measuring Deformation of Soil Specimen Subjected to Torsional Shearing",
+      "abstract_excerpt": "In this study optical flow method was used for soil small deformation measurement in laboratory tests. The main objective was to observe how the deformation distributes along the whole height of cylindrical soil specimen subjected to torsional shearing (TS test). The experiments were conducted on dry non-cohesive soil specimens under two values of isotropic pressure. Specimens were loaded with low-amplitude cyclic torque to analyze the deformation within the small strain range (0.001-0.01%). Opt",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper's abstract discusses optical flow methods for measuring soil deformation under torsional shearing, which is unrelated to the conjecture about the growth of Φ(π) in min-occurrence DP elimination on 3-regular Tseitin formulas. The vocabulary and framework do not interact with the specific claim of the conjecture.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1506.02689",
+      "title": "Identification of Error Sources in High Precision Weight Measurements of Gyroscopes",
+      "abstract_excerpt": "A number of weight anomalies have been reported in the past with respect to gyroscopes. Much attention was gained from a paper in Physical Review Letters, when Japanese scientists announced that a gyroscope loses weight up to $0.005\\%$ when spinning only in the clockwise rotation with the gyroscope's axis in the vertical direction. Immediately afterwards, a number of other teams tried to replicate the effect, obtaining a null result. It was suggested that the reported effect by the Japanese was ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses weight anomalies in gyroscopes and their measurement, which is unrelated to the conjecture about the growth of Φ(π) in 3-regular Tseitin formulas under min-occurrence DP elimination.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}

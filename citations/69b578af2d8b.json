@@ -1,0 +1,40 @@
+{
+  "entry_id": "69b578af2d8b",
+  "ts": 1781463849.4564655,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2510.02249",
+      "title": "Explore Briefly, Then Decide: Mitigating LLM Overthinking via Cumulative Entropy Regulation",
+      "abstract_excerpt": "Large Language Models (LLMs) have demonstrated remarkable reasoning abilities on complex problems using long Chain-of-Thought (CoT) reasoning. However, they often suffer from overthinking, meaning generating unnecessarily lengthy reasoning steps for simpler problems. This issue may degrade the efficiency of the models and make them difficult to adapt the reasoning depth to the complexity of problems. To address this, we introduce a novel metric Token Entropy Cumulative Average (TECA), which meas",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract discusses the mitigation of overthinking in large language models using cumulative entropy regulation, but it does not provide any information about the relationship between cumulative entropy and the balanced separator size |S| or a constant c as required by the conjecture. Therefore, no conclusion can be drawn regarding the support or refutation of the conjecture.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2603.12040",
+      "title": "Entropic signatures of market response under concentrated policy communication",
+      "abstract_excerpt": "The first 100 days of Donald Trump second presidential term (January 20th - April 30th, 2025) featured policy actions with potential market repercussions, constituting a well-suited case study of a concentrated policy scenario. Here, we provide a first look at this period, rooted in the information theory, by analyzing major stock indices across the Americas, Europe as well as Asia and Oceania. Our approach jointly examines dispersion (standard deviation) and information complexity (entropy), bu",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper's abstract discusses the application of cumulative entropy in analyzing market impacts and policy communication, but it does not provide any information regarding the relationship between cumulative entropy and balanced separator size, which is central to the conjecture. The two topics are orthogonal in this context.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2603.22248",
+      "title": "Confidence-Based Decoding is Provably Efficient for Diffusion Language Models",
+      "abstract_excerpt": "Diffusion language models (DLMs) have emerged as a promising alternative to autoregressive (AR) models for language modeling, allowing flexible generation order and parallel generation of multiple tokens. However, this flexibility introduces a challenge absent in AR models: the \\emph{decoding strategy} -- which determines the order and number of tokens generated at each iteration -- critically affects sampling efficiency. Among decoding strategies explored in practice, confidence-based methods, ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses confidence-based decoding in Diffusion Language Models and its efficiency, while the conjecture under review pertains to resolution proof complexity and Tseitin formulas. There is no direct interaction between the two topics; hence, they are orthogonal.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}
