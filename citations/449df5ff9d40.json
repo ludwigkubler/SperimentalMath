@@ -1,0 +1,40 @@
+{
+  "entry_id": "449df5ff9d40",
+  "ts": 1781452864.3710132,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2309.08714",
+      "title": "Generating Semantic Graph Corpora with Graph Expansion Grammar",
+      "abstract_excerpt": "We introduce Lovelace, a tool for creating corpora of semantic graphs. The system uses graph expansion grammar as  a representational language, thus allowing users to craft a grammar that describes a corpus with desired properties. When given such grammar as input, the system generates a set of output graphs that are well-formed according to the grammar, i.e., a graph bank. The generation process can be controlled via a number of configurable parameters that allow the user to, for example, speci",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses generating semantic graphs using graph expansion grammar, which shares vocabulary with the conjecture, but does not interact with the specific claim about expander-based Tseitin and entropy.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2601.16233",
+      "title": "Policy-Embedded Graph Expansion: Networked HIV Testing with Diffusion-Driven Network Samples",
+      "abstract_excerpt": "HIV is a retrovirus that attacks the human immune system and can lead to death without proper treatment. In collaboration with the WHO and Wits University, we study how to improve the efficiency of HIV testing with the goal of eventual deployment, directly supporting progress toward UN Sustainable Development Goal 3.3. While prior work has demonstrated the promise of intelligent algorithms for sequential, network-based HIV testing, existing approaches rely on assumptions that are impractical in ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper focuses on improving HIV testing efficiency using graph expansion models in networked environments, while the conjecture discusses the entropy of Tseitin formulas based on graph expansion. The abstract does not address the specific claim about the entropy Φ(π) for expander-based and path/tree graphs.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1209.2184",
+      "title": "Graph Expansion Analysis for Communication Costs of Fast Rectangular Matrix Multiplication",
+      "abstract_excerpt": "Graph expansion analysis of computational DAGs is useful for obtaining communication cost lower bounds where previous methods, such as geometric embedding, are not applicable. This has recently been demonstrated for Strassen's and Strassen-like fast square matrix multiplication algorithms. Here we extend the expansion analysis approach to fast algorithms for rectangular matrix multiplication, obtaining a new class of communication cost lower bounds. These apply, for example to the algorithms of ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited abstract discusses graph expansion analysis for communication costs in matrix multiplication algorithms, but does not provide any information about the entropy Φ(π) of Tseitin formulas or its behavior on expander-based graphs versus path/tree graphs.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "d67d36c60e95",
+  "ts": 1781453195.1876667,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2004.03654",
+      "title": "Flux growth of Sr(n+1)Ir(n)O(3n+1) [n=1, 2, infinity] crystals",
+      "abstract_excerpt": "Single crystals of iridates are usually grown by a flux method well above the boiling point of the SrCl2 solvent. This leads to non-equilibrium growth conditions and dramatically shortens the lifetime of expensive Pt crucibles. Here, we report the growth of Sr2IrO4, Sr3Ir2O7 and SrIrO3 single crystals in a reproducible way by using anhydrous SrCl2 flux well below its boiling point. We show that the yield of the different phases strongly depends on the nutrient/solvent ratio for fixed soak temper",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses the growth of crystals using a flux method and the impact on crucible lifetime and corrosion reduction. It does not pertain to DP elimination or Tseitin formulas, which are relevant to the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2003.01308",
+      "title": "Dislocation pipe diffusion and solute segregation during the growth of metastable GeSn",
+      "abstract_excerpt": "Controlling the growth kinetics from the vapor phase has been a powerful paradigm enabling a variety of metastable epitaxial semiconductors such as Sn-containing group IV semiconductors (Si)GeSn. In addition to its importance for emerging photonic and optoelectronic applications, this class of materials is also a rich platform to highlight the interplay between kinetics and thermodynamic driving forces during growth of strained, nonequilibrium alloys. Indeed, these alloys are inherently strained",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses dislocation pipe diffusion and solute segregation in the growth of metastable GeSn, which is completely unrelated to the conjecture about min-occurrence DP elimination on 3-regular Tseitin formulas. The abstract from the cited paper does not contain any information related to the growth of Φ(π) or its super-linear behavior.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1501.03770",
+      "title": "Flux growth utilizing the reaction between flux and crucible",
+      "abstract_excerpt": "Flux growth involves dissolving the components of the target compound in an appropriate flux at high temperatures and then crystallizing under supersaturation controlled by cooling or evaporating the flux. A refractory crucible is generally used to contain the high temperature melt. The reaction between the melt and crucible materials can modify the composition of the melt, which typically results in growth failure, or contaminates the crystals. Thus one principle in designing a flux growth is t",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper's abstract discusses flux growth and crucible reactions, which are unrelated to the conjecture about DP elimination on Tseitin formulas. There is no mention of super-linear growth or log-log slopes.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}

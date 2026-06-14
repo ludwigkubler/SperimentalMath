@@ -1,0 +1,31 @@
+{
+  "entry_id": "7a36dc58448c",
+  "ts": 1781454094.4814353,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.1145/3352155",
+      "title": "New Resolution-Based QBF Calculi and Their Proof Complexity",
+      "abstract_excerpt": "Modern QBF solvers typically use two different paradigms, conflict-driven clause learning (CDCL) solving or expansion solving. Proof systems for quantified Boolean formulas (QBFs) provide a theoretical underpinning for the performance of these solvers, with Q-Resolution and its extensions relating to CDCL solving and ∀Exp+Res relating to expansion solving. This article defines two novel calculi, which are resolution-based and enable unification of some of the principal existing resolution-based ",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses proof complexity in QBF resolution systems and introduces new calculi for resolution-based QBF solving, which does not directly address the conjecture about the entropy of Tseitin formulas on expander-based graphs versus path/tree graphs. The abstract focuses on proving lower bounds for specific classes of formulas and does not mention the entropy or complexity of Tseitin formulas.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "s2:10.4230/LIPIcs.STACS.2015.76",
+      "title": "Proof Complexity of Resolution-based QBF Calculi",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper does not provide an abstract, therefore it is impossible to assess whether the paper supports, refutes, or is orthogonal to the conjecture.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}
