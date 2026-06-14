@@ -1,0 +1,40 @@
+{
+  "entry_id": "aff059bcaef3",
+  "ts": 1781437748.2051485,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2505.23300",
+      "title": "Factorizations for variable exponent Muckenhoupt weights",
+      "abstract_excerpt": "Given two variable exponent Muckenhoupt weights $w\\in A_{p(\\cdot)}$ and $w_1\\in A_{p_1(\\cdot)}$, we prove that for all small enough $θ&gt;0,$ there holds that $w_0\\in A_{p_0(\\cdot)},$ where the weight is determined by $w = w_0^{1-θ}w_1^θ$ and exponent of the weight class by $1/p(\\cdot) = (1-θ)/p_0(\\cdot) + θ/p_1(\\cdot).$ The proof is based on a recent reverse Hölder's inequality for variable exponent Muckenhoupt weights by Cruz-Uribe and Penrod. We upgrade these factorizations to the restricted ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses factorizations for variable exponent Muckenhoupt weights and provides an alternative proof for extrapolation of compactness results. The abstract does not mention width-aware totalLiteralWeight, cumulative weight, or the relationship between width and count-based Φ, which are central to the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2603.29195",
+      "title": "The Lee--Yang Edge Exponent via Logarithmic Averaging",
+      "abstract_excerpt": "Let $F$ be the thermodynamic free energy of a ferromagnetic Ising model,analytic on $\\mathbb{C}^{*}\\setminus\\mathcal{Z}_β$. The Lee--Yang edge at $z_c\\in\\partial\\mathcal{Z}_β$ is characterised by $F(z)=F(z_c)+B(z-z_c)^{σ+1}+o(|z-z_c|^{σ+1})$ with $σ\\in(-1,0)$ and $B\\neq 0$.\n  We prove three results:\n  Theorem A (Jensen slope): defining the Jensen average $\\widetilde{N}(x)=\\frac{1}{2π}\\int_0^{2π}\\log|\\widetilde{F}(e^{x+iθ})|\\,dθ$ of $\\widetilde{F}=F-F(z_c)$, the edge exponent satisfies $\\widetild",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses the Lee--Yang edge exponent in the context of thermodynamic free energy and conformal field theory, which is unrelated to the width-aware totalLiteralWeight scaling discussed in the conjecture. The abstract does not provide any information that supports or refutes the claim about the scaling of cumulative weight with respect to width.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1401.0055",
+      "title": "The adjoint representation of a Lie algebra and the support of Kostant's weight multiplicity formula",
+      "abstract_excerpt": "Even though weight multiplicity formulas, such as Kostant's formula, exist their computational use is extremely cumbersome. In fact, even in cases when the multiplicity is well understood, the number of terms considered in Kostant's formula is factorial in the rank of the Lie algebra and the value of the partition function is unknown. In this paper we address the difficult question: What are the contributing terms to the multiplicity of the zero weight in the adjoint representation of a finite d",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper's abstract discusses computational aspects of weight multiplicity formulas, particularly Kostant's formula, for Lie algebras. It does not mention anything related to the width-aware totalLiteralWeight or its scaling with respect to the count-based Φ as described in the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}
