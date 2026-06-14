@@ -1,0 +1,40 @@
+{
+  "entry_id": "7be4177a9140",
+  "ts": 1781480453.8410907,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0705.1213",
+      "title": "Schémas en groupes et poids de Diamond-Serre",
+      "abstract_excerpt": "This note is a correction of (statement and proof of) proposition 3.3.1 of Toby Gee's preprint intitled *On the weights of mod p Hilbert modular forms*. The aim is to compare Galois representations arising from extensions of some group schemes (over the ring of integers of a p-adic field) endowed with a descent data, and extensions of some crystalline representations with given Hodge-Tate weights. The main tool of the proof is the theory of Breuil.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Galois representations, group schemes, and crystalline representations, which do not interact with the specific claim about width-aware totalLiteralWeight and count-based Φ in Resolution proof complexity and Tseitin formulas.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2411.10229",
+      "title": "Optimally Rewriting Formulas and Database Queries: A Confluence of Term Rewriting, Structural Decomposition, and Complexity",
+      "abstract_excerpt": "A central computational task in database theory, finite model theory, and computer science at large is the evaluation of a first-order sentence on a finite structure. In the context of this task, the \\emph{width} of a sentence, defined as the maximum number of free variables over all subformulas, has been established as a crucial measure, where minimizing width of a sentence (while retaining logical equivalence) is considered highly desirable. An undecidability result rules out the possibility o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the importance and undecidability of minimizing width in sentences while retaining logical equivalence, as well as presenting an algorithm for minimum-width sentence obtainable from a given sentence. It does not address the scaling of the width-aware totalLiteralWeight compared to the count-based Φ, which is the specific claim of the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1004.2159",
+      "title": "Algebraic Proofs over Noncommutative Formulas",
+      "abstract_excerpt": "We study possible formulations of algebraic propositional proof systems operating with noncommutative formulas. We observe that a simple formulation gives rise to systems at least as strong as Frege---yielding a semantic way to define a Cook-Reckhow (i.e., polynomially verifiable) algebraic analog of Frege proofs, different from that given in [BIKPRS96,GH03]. We then turn to an apparently weaker system, namely, polynomial calculus (PC) where polynomials are written as ordered formulas (PC over o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract of the cited paper discusses algebraic proof systems and their strength compared to resolution, polynomial calculus, and polynomial calculus with resolution. It does not provide any information about the width-aware totalLiteralWeight or the count-based Φ as described in the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "63b4d7eeccf7",
+  "ts": 1781479149.777788,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0905.1587",
+      "title": "Unsatisfiable Linear CNF Formulas Are Large and Complex",
+      "abstract_excerpt": "We call a CNF formula linear if any two clauses have at most one variable in common. We show that there exist unsatisfiable linear k-CNF formulas with at most 4k^2 4^k clauses, and on the other hand, any linear k-CNF formula with at most 4^k/(8e^2k^2) clauses is satisfiable. The upper bound uses probabilistic means, and we have no explicit construction coming even close to it. One reason for this is that unsatisfiable linear formulas exhibit a more complex structure than general (non-linear) for",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses size bounds and treelike resolution complexity of unsatisfiable linear k-CNF formulas, not Tseitin formulas or any comparison between width-aware literal weight and count-based Φ scaling exponents. It shares the resolution complexity framework but does not address the specific cumulative-weight vs count exponent claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1101.3970",
+      "title": "Short Propositional Refutations for Dense Random 3CNF Formulas",
+      "abstract_excerpt": "Random 3CNF formulas constitute an important distribution for measuring the average-case behavior of propositional proof systems. Lower bounds for random 3CNF refutations in many propositional proof systems are known. Most notably are the exponential-size resolution refutation lower bounds for random 3CNF formulas with $Ω(n^{1.5-ε}) $ clauses [Chvatal and Szemeredi (1988), Ben-Sasson and Wigderson (2001)]. On the other hand, the only known non-trivial upper bound on the size of random 3CNF refut",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns TC^0-Frege refutations for random 3CNF formulas via spectral witnesses, not Tseitin formulas or width-weighted cumulative entropy comparisons; it never addresses 'totalLiteralWeight' scaling vs count-based Φ.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0101008v1",
+      "title": "On the determinant formulas by Borodin, Okounkov, Baik, Deift, and Rains",
+      "abstract_excerpt": "We give alternative proofs to (block case versions of) some formulas for Toeplitz and Fredholm determinants established recently by the authors of the title. Our proof of the Borodin-Okounkov formula is very short and direct. The proof of the Baik-Deift-Rains formulas is based on standard manipulati",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns proofs of Toeplitz and Fredholm determinant formulas (Borodin-Okounkov, Baik-Deift-Rains), which has no interaction with resolution proof complexity, Tseitin formulas, or width-vs-count weight scaling.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

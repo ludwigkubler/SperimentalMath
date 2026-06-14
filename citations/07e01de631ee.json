@@ -1,0 +1,40 @@
+{
+  "entry_id": "07e01de631ee",
+  "ts": 1781479011.2572308,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1404.1499",
+      "title": "A Ballistic Monte Carlo Approximation of π",
+      "abstract_excerpt": "We compute a Monte Carlo approximation of π using importance sampling with shots coming out of a Mossberg 500 pump-action shotgun as the proposal distribution. An approximated value of 3.131 is obtained, corresponding to a 0.33% error on the exact value of π. To our knowledge, this represents the first attempt at estimating π using such method, thus opening up new perspectives towards computing mathematical constants using everyday tools.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses a Monte Carlo approximation of π, which does not interact with the specific claim about cumulative entropy and balanced separator size in resolution proof complexity.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1704.05788",
+      "title": "Tests for CPT sum rule and U-spin violation in Time-dependent CP violation of $B^0_s \\to K^+ K^-$ and $B^0_d \\to π^+ π^-$",
+      "abstract_excerpt": "Recent LHCb data for time-dependent CP violation in $B_d^0 \\to π^+π^-$ and $B^0_s\\to K^+K^-$ show deviations from theoretical predictions. Besides their central values for $\\mathcal C_{K^+K^-}$, $\\mathcal S_{K^+K^-}$ and $\\mathcal A^{ΔΓ}_{K^+K^-}$ violate quantum mechanic CPT invariant sum rule (CPT sum rule) prediction of $|\\mathcal C_{K^+K^-}|^2 + |\\mathcal S_{K^+K^-}| ^2 + |\\mathcal A^{ΔΓ}_{K^+K^-}|^2 = 1$ (LHCb data imply the sum to be $0.67\\pm 0.20$.), their values for $\\mathcal C_{K^+ K^-}",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper discusses time-dependent CP violation in particle physics and the CPT sum rule, which is orthogonal to the conjecture about cumulative entropy in resolution proof complexity. The abstract does not mention or relate to Φ(π) >= c·|S|².",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1410.7008",
+      "title": "An improved analytic Method for calculating $π(x)$",
+      "abstract_excerpt": "We present an improved version of the analytic method for calculating $π(x)$, the number of prime numbers not exceeding $x$. We implemented this method in cooperation with J. Franke, T. Kleinjung and A. Jost and calculated the value $π(10^{25})$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper's abstract is about calculating the number of prime numbers not exceeding a given value, which is unrelated to the conjecture regarding the cumulative-entropy analogue of space lower bounds in resolution proof complexity.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}
