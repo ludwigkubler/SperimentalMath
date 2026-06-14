@@ -1,0 +1,40 @@
+{
+  "entry_id": "0d0064f5e7dc",
+  "ts": 1781424862.0921216,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1606.01763",
+      "title": "A Constructive Proof of Cut Elimination for a System of Full Second Order Logic",
+      "abstract_excerpt": "In this paper we present a constructive proof of cut elimination for a system of full second order logic with the structural rules absorbed and using sets instead of sequences. The standard problem of the cutrank growth is avoided by using a new parameter for the induction, the cutweight. This technique can also be applied to first order logic.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses cut elimination for a system of full second order logic, which shares vocabulary related to proof complexity, but does not interact with the specific claim about Φ(π) growth under min-occurrence DP elimination on 3-regular Tseitin formulas.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2411.03398",
+      "title": "DP-HLS: A High-Level Synthesis Framework for Accelerating Dynamic Programming Algorithms in Bioinformatics",
+      "abstract_excerpt": "Dynamic programming (DP) based algorithms are essential yet compute-intensive parts of numerous bioinformatics pipelines, which typically involve populating a 2-D scoring matrix based on a recursive formula, optionally followed by a traceback step to get the optimal alignment path. DP algorithms are used in a wide spectrum of bioinformatics tasks, including read assembly, homology search, gene annotation, basecalling, and phylogenetic inference. So far, specialized hardware like ASICs and FPGAs ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses a high-level synthesis framework for accelerating dynamic programming algorithms in bioinformatics, focusing on hardware implementation. The abstract does not mention anything about the growth of Φ(π) in n on 3-regular Tseitin formulas or DP elimination, which is the specific claim of the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2605.30312",
+      "title": "DP-SAPF: Saliency-Aware Parameter Fine-tuning of Public Models for Differentially Private Image Synthesis",
+      "abstract_excerpt": "Differentially private (DP) image synthesis generates images that preserve the statistical characteristics of a sensitive dataset, enabling sensitive data analysis and usage while providing rigorous guarantees of privacy leakage. Existing methods fine-tune public models using DP Stochastic Gradient Descent (DP-SGD) on sensitive images to generate synthetic images. But full fine-tuning public models on sensitive images is computationally expensive, because current public models typically contain ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses differentially private image synthesis and the use of LoRA for parameter fine-tuning, which is unrelated to the conjecture about min-occurrence DP elimination on 3-regular Tseitin formulas. The abstract does not provide any information regarding the growth rate or exponent of Φ(π) in the context of 3-regular Tseitin formulas.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

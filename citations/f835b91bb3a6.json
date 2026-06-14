@@ -1,0 +1,40 @@
+{
+  "entry_id": "f835b91bb3a6",
+  "ts": 1781425763.88362,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2511.20023",
+      "title": "Lower Bounds for Bit Pigeonhole Principles in Bounded-Depth Resolution over Parities",
+      "abstract_excerpt": "We prove lower bounds for proofs of the bit pigeonhole principle (BPHP) and its generalizations in bounded-depth resolution over parities (Res$(\\oplus)$). For weak BPHP$_n^m$ with $m = cn$ pigeons (for any constant $c&gt;1$) and $n$ holes, for all $ε&gt;0$, we prove that any depth $N^{1.5 - ε}$ proof in Res$(\\oplus)$ must have exponential size, where $N = cn\\log n$ is the number of variables.\n  Inspired by recent work in TFNP on multicollision-finding, we consider a generalization of the bit pig",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper discusses lower bounds for proofs related to the bit pigeonhole principle and bounded-depth resolution over parities. It does not directly address the conjecture about the entropy Φ(π) in Tseitin formulas on expander-based graphs versus path/tree graphs, which is the focus of the proposed conjecture.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2311.15289",
+      "title": "Counting cliques without generalized theta graphs",
+      "abstract_excerpt": "The \\textit{generalized Turán number} $\\mathrm{ex}(n, T, F)$ is the maximum possible number of copies of $T$ in an $F$-free graph on $n$ vertices for any two graphs $T$ and $F$. For the book graph $B_t$, there is a close connection between $\\ex(n,K_3,B_t)$ and the Ruzsa-Szemerédi triangle removal lemma. Motivated by this, in this paper, we study the generalized Turán problem for generalized theta graphs, a natural extension of book graphs. Our main result provides a complete characterization of ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses the generalized Turán number and its connection to book graphs and Ruzsa-Szemerédi triangle removal lemma, while the conjecture under review focuses on the entropy of Tseitin formulas in expander-based graphs versus path/tree graphs. There is no direct interaction between these two topics as they deal with different concepts within graph theory.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1408.5939",
+      "title": "Planar Induced Subgraphs of Sparse Graphs",
+      "abstract_excerpt": "We show that every graph has an induced pseudoforest of at least $n-m/4.5$ vertices, an induced partial 2-tree of at least $n-m/5$ vertices, and an induced planar subgraph of at least $n-m/5.2174$ vertices. These results are constructive, implying linear-time algorithms to find the respective induced subgraphs. We also show that the size of the largest $K_h$-minor-free graph in a given graph can sometimes be at most $n-m/6+o(m)$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper discusses properties of induced subgraphs and the size of the largest $K_h$-minor-free graph, which does not directly address the entropy Φ(π) for Tseitin formulas on expander-based or path/tree graphs as specified in the conjecture. The topics are related to graph theory but do not provide a direct support or refutation of the conjecture regarding the entropy by graph expansion.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}
