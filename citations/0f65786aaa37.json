@@ -1,0 +1,40 @@
+{
+  "entry_id": "0f65786aaa37",
+  "ts": 1781405525.7867694,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1102.2932",
+      "title": "Applications of Monotone Rank to Complexity Theory",
+      "abstract_excerpt": "Raz's recent result \\cite{Raz2010} has rekindled people's interest in the study of \\emph{tensor rank}, the generalization of matrix rank to high dimensions, by showing its connections to arithmetic formulas. In this paper, we follow Raz's work and show that \\emph{monotone rank}, the monotone variant of tensor rank and matrix rank, has applications in algebraic complexity, quantum computing and communication complexity. This paper differs from Raz's paper in that it leverages existing results to ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses applications of monotone rank to complexity theory, including algebraic complexity, quantum computing, and communication complexity, but does not mention resolution proof complexity, Tseitin formulas, or the concept of Φ(π)/proof_size, which are central to the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2409.12802",
+      "title": "Minkowski difference weight formulas",
+      "abstract_excerpt": "Fix any complex Kac-Moody Lie algebra $\\mathfrak{g}$, and Cartan subalgebra $\\mathfrak{h}\\subset \\mathfrak{g}$. We study arbitrary highest weight $\\mathfrak{g}$-modules $V$ (with any highest weight $λ\\in \\mathfrak{h}^*$, and let $L(λ)$ be the corresponding simple highest weight $\\mathfrak{g}$-module), and write their weight-sets $\\mathrm{wt} V$. This is based on and generalizes the Minkowski decompositions for all $\\mathrm{wt} L(λ)$ and hulls $\\mathrm{conv}_{\\mathbb{R}}(\\mathrm{wt} V)$, of Khare",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper's abstract discusses Minkowski difference weight formulas and their applications to various mathematical structures, but it does not provide any information related to the monotonicity of Φ(π)/proof_size in terms of n or the 'shadow heavier than the body' claim. The topics are distinct and unrelated.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:0708.1529",
+      "title": "Resolution over Linear Equations and Multilinear Proofs",
+      "abstract_excerpt": "We develop and study the complexity of propositional proof systems of varying strength extending resolution by allowing it to operate with disjunctions of linear equations instead of clauses. We demonstrate polynomial-size refutations for hard tautologies like the pigeonhole principle, Tseitin graph tautologies and the clique-coloring tautologies in these proof systems. Using the (monotone) interpolation by a communication game technique we establish an exponential-size lower bound on refutation",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited abstract discusses the complexity of various proof systems, including polynomial-size refutations and lower bounds on refutations. However, it does not directly address or comment on the monotonicity of Φ(π)/proof_size in terms of the 'shadow heavier than the body' claim. Therefore, we cannot determine from the abstract alone whether it supports, refutes, or is orthogonal to the conjecture.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}
