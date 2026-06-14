@@ -1,0 +1,40 @@
+{
+  "entry_id": "10c4fbe10424",
+  "ts": 1781476654.7737703,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2103.09609",
+      "title": "Characterizing Tseitin-formulas with short regular resolution refutations",
+      "abstract_excerpt": "Tseitin-formulas are systems of parity constraints whose structure is described by a graph. These formulas have been studied extensively in proof complexity as hard instances in many proof systems. In this paper, we prove that a class of unsatisfiable Tseitin-formulas of bounded degree has regular resolution refutations of polynomial length if and only if the treewidth of all underlying graphs $G$ for that class is in $O(\\log|V(G)|)$. To do so, we show that any regular resolution refutation of a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses the length of regular resolution refutations for Tseitin-formulas, relating it to treewidth and DNNF representations. It does not address the order-sensitivity of cumulative entropy or compare Φ under different elimination orders.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2209.05839",
+      "title": "On bounded depth proofs for Tseitin formulas on the grid; revisited",
+      "abstract_excerpt": "We study Frege proofs using depth-$d$ Boolean formulas for the Tseitin contradiction on $n \\times n$ grids. We prove that if each line in the proof is of size $M$ then the number of lines is exponential in $n/(\\log M)^{O(d)}$. This strengthens a recent result of Pitassi et al. [PRT22]. The key technical step is a multi-switching lemma extending the switching lemma of Håstad [Hås20] for a space of restrictions related to the Tseitin contradiction. The strengthened lemma also allows us to improve ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited abstract discusses bounded depth proofs for Tseitin formulas on grids and provides improved lower bounds for proof size, but it does not directly address the order-sensitivity of cumulative entropy or compare Φ under a BAD elimination order (max-occurrence) to Φ under min-occurrence.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1511.06778",
+      "title": "The 1st Fermi Lat Supernova Remnant Catalog",
+      "abstract_excerpt": "To uniformly determine the properties of supernova remnants (SNRs) at high energies, we have developed the first systematic survey at energies from 1 to 100 GeV using data from the Fermi Large Area Telescope. Based on the spatial overlap of sources detected at GeV energies with SNRs known from radio surveys, we classify 30 sources as likely GeV SNRs. We also report 14 marginal associations and 245 flux upper limits. A mock catalog in which the positions of known remnants are scrambled in Galacti",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper's abstract discusses a systematic survey of supernova remnants using Fermi Large Area Telescope data, which is entirely unrelated to the order-sensitivity of cumulative entropy in resolution proof complexity or Tseitin formulas. The abstract does not contain any information that supports, refutes, or is orthogonal to the conjecture.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}

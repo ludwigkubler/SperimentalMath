@@ -1,0 +1,40 @@
+{
+  "entry_id": "04081a14666a",
+  "ts": 1781475343.3115084,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1807.02622",
+      "title": "Rényi Entropy Power Inequalities via Normal Transport and Rotation",
+      "abstract_excerpt": "Following a recent proof of Shannon's entropy power inequality (EPI), a comprehensive framework for deriving various EPIs for the Rényi entropy is presented that uses transport arguments from normal densities and a change of variable by rotation. Simple arguments are given to recover the previously known Rényi EPIs and derive new ones, by unifying a multiplicative form with constant c and a modification with exponent α of previous works. In particular, for log-concave densities, we obtain a simp",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Rényi entropy power inequalities for probability densities via transport arguments, with no mention of resolution proof complexity, Tseitin formulas, or elimination-order sensitivity of a cumulative entropy measure Φ.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2112.13763",
+      "title": "Yet Another Proof of the Joint Convexity of Relative Entropy",
+      "abstract_excerpt": "The joint convexity of the map $(X,A) \\mapsto X^* A^{-1} X$, an integral representation of operator convex functions, and an observation of Ando are used to obtain a simple proof of both the joint convexity of relative entropy and a trace convexity result of Lieb. The latter was the key ingredient in the original proof of the strong subadditivity of quantum entropy.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns joint convexity of quantum relative entropy and Lieb's trace convexity, with no connection to resolution proof complexity, Tseitin formulas, or elimination-order sensitivity of a cumulative entropy measure Φ.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1109.0842",
+      "title": "Universal Property of Quantum Gravity implied by Uniqueness Theorem of Bekenstein-Hawking Entropy",
+      "abstract_excerpt": "This paper consists of three steps. In the first, we prove that the Bekenstein-Hawking entropy is the unique expression of black hole entropy. Our proof is constructed in the framework of thermodynamics without any statistical discussion. In the second, intrinsic properties of quantum mechanics are shown, which justify the Boltzmann formula to yield a unique entropy in statistical mechanics. These properties clarify three conditions, one of which is necessary and others are sufficient for the va",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Bekenstein-Hawking entropy in quantum gravity and thermodynamics, with no relation to resolution proof complexity, Tseitin formulas, or elimination-order sensitivity of cumulative entropy Φ.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "31d150cc7ca9",
+  "ts": 1781476027.2086313,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2011.10528",
+      "title": "Space Lower Bounds for Graph Stream Problems",
+      "abstract_excerpt": "This work concerns with proving space lower bounds for graph problems in the streaming model. It is known that computing the length of shortest path between two nodes in the streaming model requires $Ω(n)$ space, where $n$ is the number of nodes in the graph. We study the problem of finding the depth of a given node in a rooted tree in the streaming model. For this problem we prove a tight single pass space lower bound and a multipass space lower bound. As this is a special case of computing sho",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper focuses on space lower bounds for various graph problems in the streaming model, including shortest paths, depth of a node in a tree, min s-t cut, detecting negative weight cycles, and whether two nodes are in the same strongly connected component. It does not mention cumulative entropy or balanced separator size, which are key concepts in the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1106.4412",
+      "title": "Space Lower Bounds for Online Pattern Matching",
+      "abstract_excerpt": "We present space lower bounds for online pattern matching under a number of different distance measures. Given a pattern of length m and a text that arrives one character at a time, the online pattern matching problem is to report the distance between the pattern and a sliding window of the text as soon as the new character arrives. We require that the correct answer is given at each position with constant probability. We give Omega(m) bit space lower bounds for L_1, L_2, L_\\infty, Hamming, edit",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper discusses space lower bounds for online pattern matching under various distance measures, but it does not provide any information regarding the cumulative-entropy analogue of the space lower bound or a relation to balanced separator size. The abstract does not directly support, refute, or offer orthogonal evidence to the conjecture about Φ(π) and c·|S|².",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2407.06872",
+      "title": "Quantum Query-Space Lower Bounds Using Branching Programs",
+      "abstract_excerpt": "Branching programs are quite popular for studying time-space lower bounds. Bera et al. recently introduced the model of generalized quantum branching program aka. GQBP that generalized two earlier models of quantum branching programs. In this work we study a restricted version of GQBP with the motivation of proving bounds on the query-space requirement of quantum-query circuits. We show the first explicit query-space lower bound for our restricted version. We prove that the well-studied OR$_n$ d",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses quantum query-space lower bounds using branching programs and provides explicit lower bounds for specific problems. The abstract does not mention the cumulative-entropy or balanced separator size, which are central to the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}
