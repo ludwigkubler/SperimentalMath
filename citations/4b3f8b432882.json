@@ -1,0 +1,40 @@
+{
+  "entry_id": "4b3f8b432882",
+  "ts": 1781443764.906694,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2411.03398",
+      "title": "DP-HLS: A High-Level Synthesis Framework for Accelerating Dynamic Programming Algorithms in Bioinformatics",
+      "abstract_excerpt": "Dynamic programming (DP) based algorithms are essential yet compute-intensive parts of numerous bioinformatics pipelines, which typically involve populating a 2-D scoring matrix based on a recursive formula, optionally followed by a traceback step to get the optimal alignment path. DP algorithms are used in a wide spectrum of bioinformatics tasks, including read assembly, homology search, gene annotation, basecalling, and phylogenetic inference. So far, specialized hardware like ASICs and FPGAs ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract of the cited paper discusses DP-HLS, a high-level synthesis framework for accelerating dynamic programming algorithms in bioinformatics. It does not mention anything about the growth rate of Φ(π) on 3-regular Tseitin formulas or min-occurrence DP elimination, which are specific aspects related to the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2605.30312",
+      "title": "DP-SAPF: Saliency-Aware Parameter Fine-tuning of Public Models for Differentially Private Image Synthesis",
+      "abstract_excerpt": "Differentially private (DP) image synthesis generates images that preserve the statistical characteristics of a sensitive dataset, enabling sensitive data analysis and usage while providing rigorous guarantees of privacy leakage. Existing methods fine-tune public models using DP Stochastic Gradient Descent (DP-SGD) on sensitive images to generate synthetic images. But full fine-tuning public models on sensitive images is computationally expensive, because current public models typically contain ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses differentially private image synthesis and proposes a method for selecting specific parameters for LoRA training. It does not mention anything about min-occurrence DP elimination, 3-regular Tseitin formulas, or the growth of Φ(π) in n. The topics are distinct and unrelated.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1210.4479",
+      "title": "Dp-minimality: invariant types and dp-rank",
+      "abstract_excerpt": "This paper has two parts. In the first one, we prove that an invariant dp-minimal type is either finitely satisfiable or definable. We also prove that a definable version of the (p,q)-theorem holds in dp-minimal theories of small or medium directionality. In the second part, we study dp-rank in dp-minimal theories and show that it enjoys many nice properties. It is continuous, definable in families and it can be characterised geometrically with no mention of indiscernible sequences. In particula",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract of the cited paper discusses dp-minimal types, invariant types, and dp-rank in dp-minimal theories, without any mention of min-occurrence DP elimination, super-linear growth in Φ(π), or 3-regular Tseitin formulas. Therefore, it does not support, refute, or provide orthogonal information to the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}
