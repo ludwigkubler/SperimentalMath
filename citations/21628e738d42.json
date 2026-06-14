@@ -1,0 +1,40 @@
+{
+  "entry_id": "21628e738d42",
+  "ts": 1781431079.631584,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2007.10970",
+      "title": "Recommendations for Planning Inclusive Astronomy Conferences",
+      "abstract_excerpt": "The Inclusive Astronomy (IA) conference series aims to create a safe space where community members can listen to the experiences of marginalized individuals in astronomy, discuss actions being taken to address inequities, and give recommendations to the community for how to improve diversity, equity, and inclusion in astronomy. The first IA was held in Nashville, TN, USA, 17-19 June, 2015. The Inclusive Astronomy 2 (IA2) conference was held in Baltimore, MD, USA, 14-15 October, 2019. The Inclusi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper's abstract discusses recommendations for planning inclusive astronomy conferences, which is unrelated to the conjecture about cumulative entropy and space lower bounds in resolution proof complexity.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2209.05839",
+      "title": "On bounded depth proofs for Tseitin formulas on the grid; revisited",
+      "abstract_excerpt": "We study Frege proofs using depth-$d$ Boolean formulas for the Tseitin contradiction on $n \\times n$ grids. We prove that if each line in the proof is of size $M$ then the number of lines is exponential in $n/(\\log M)^{O(d)}$. This strengthens a recent result of Pitassi et al. [PRT22]. The key technical step is a multi-switching lemma extending the switching lemma of Håstad [Hås20] for a space of restrictions related to the Tseitin contradiction. The strengthened lemma also allows us to improve ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract discusses lower bounds for proof size in Tseitin formulas using Frege proofs, but it does not directly address the conjecture regarding cumulative entropy or balanced separator size. The focus is on the number of lines and depth of proofs rather than the relationship between Φ(π) and |S|².",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1702.08048",
+      "title": "Observation of the decay $B_{s}^{0} \\to η_{c} φ$ and evidence for $B_{s}^{0} \\to η_{c} π^{+} π^{-} $",
+      "abstract_excerpt": "A study of $B^{0}_{s} \\to η_{c} φ$ and $B^{0}_{s} \\to η_{c} π^{+}π^{-}$ decays is performed using $pp$ collision data corresponding to an integrated luminosity of 3.0$\\,\\rm fb^{-1}$, collected with the LHCb detector in Run~1 of the LHC. The observation of the decay $B^{0}_{s} \\to η_{c} φ$ is reported, where the $η_{c}$ meson is reconstructed in the $p\\bar p$, $K^+K^-π^+π^-$, $π^+π^-π^+π^-$ and $K^+K^-K^+K^-$ decay modes and the $φ(1020)$ in the $K^+ K^-$ decay mode. The decay $B^{0}_{s} \\to J/ψφ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses experimental observations of particle decays and provides measured branching fractions. This information is unrelated to the conjecture about cumulative entropy in resolution proof complexity, as it does not address or comment on any aspects related to Φ(π) >= c·|S|².",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}
