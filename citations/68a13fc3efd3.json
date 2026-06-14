@@ -1,0 +1,40 @@
+{
+  "entry_id": "68a13fc3efd3",
+  "ts": 1781449290.1699855,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2411.14267",
+      "title": "Truly Supercritical Trade-offs for Resolution, Cutting Planes, Monotone Circuits, and Weisfeiler-Leman",
+      "abstract_excerpt": "We exhibit supercritical trade-off for monotone circuits, showing that there are functions computable by small circuits for which any circuit must have depth super-linear or even super-polynomial in the number of variables, far exceeding the linear worst-case upper bound. We obtain similar trade-offs in proof complexity, where we establish the first size-depth trade-offs for cutting planes and resolution that are truly supercritical, i.e., in terms of formula size rather than number of variables",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses supercritical size-depth and width-depth trade-offs for resolution, cutting planes, and monotone circuits, but says nothing about DP (Davis-Putnam) elimination with min-occurrence heuristic or the specific Φ(π) growth exponent on 3-regular Tseitin formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1608.06967",
+      "title": "An elementary proof of Bevan's theorem on the growth of grid classes of permutations",
+      "abstract_excerpt": "Bevan established that the growth rate of a monotone grid class of permutations is equal to the square of the spectral radius of a related bipartite graph. We give an elementary and self-contained proof of a generalization of this result using only Stirling's Formula, the method of Lagrange multipliers, and the singular value decomposition of matrices.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns growth rates of monotone grid classes of permutations via spectral radius of bipartite graphs, with no connection to DP elimination, Tseitin formulas, or resolution proof complexity. Shares no substantive claim with the conjecture about Φ(π) scaling on 3-regular Tseitin.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1606.08307",
+      "title": "Complexity Growth for AdS Black Holes",
+      "abstract_excerpt": "Recently a Complexity-Action (CA) duality conjecture has been proposed, which relates the quantum complexity of a holographic boundary state to the action of a Wheeler-DeWitt (WDW) patch in the anti-de Sitter (AdS) bulk. In this paper we further investigate the duality conjecture for stationary AdS black holes and derive some exact results for the growth rate of action within the Wheeler-DeWitt (WDW) patch at late time approximation, which is supposed to be dual to the growth rate of quantum com",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the Complexity-Action duality for AdS black holes and Wheeler-DeWitt patch action growth in holography, which shares only the word 'complexity' with the conjecture about resolution proof complexity on Tseitin formulas under DP elimination.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
