@@ -1,0 +1,40 @@
+{
+  "entry_id": "cfaa45d30055",
+  "ts": 1781396609.437197,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1404.1499",
+      "title": "A Ballistic Monte Carlo Approximation of π",
+      "abstract_excerpt": "We compute a Monte Carlo approximation of π using importance sampling with shots coming out of a Mossberg 500 pump-action shotgun as the proposal distribution. An approximated value of 3.131 is obtained, corresponding to a 0.33% error on the exact value of π. To our knowledge, this represents the first attempt at estimating π using such method, thus opening up new perspectives towards computing mathematical constants using everyday tools.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a Monte Carlo estimation of the mathematical constant π using shotgun pellets, which has no connection to resolution proof complexity, Tseitin formulas, or DP step weights. The shared symbol 'π' refers to the constant here versus a proof in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2502.09485",
+      "title": "A flow approach to the monotonicity of shape functionals",
+      "abstract_excerpt": "We develop a geometric flow framework to investigate two classical shape functionals: the torsional rigidity and the first Dirichlet eigenvalue of the Laplacian. First, by constructing novel deformation paths governed by height-stretching flows, leg-stretching flows, and angle-bisector flows, we prove new monotonicity properties for these functionals under deformations of triangles and rhombuses. These results also lead to new and simpler proofs of some known results, without using the Steiner s",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns geometric flows and monotonicity of shape functionals (torsional rigidity, Dirichlet eigenvalue) on triangles, rhombuses, and rectangles, which has no interaction with DP-step proof complexity or Tseitin formulas despite sharing the word 'monotonicity'.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2107.12643",
+      "title": "On $φ$-$w$-Flat modules and Their Homological Dimensions",
+      "abstract_excerpt": "In this paper, we introduce and study the class of $φ$-$w$-flat modules which are generalizations of both $φ$-flat modules and $w$-flat modules. The $φ$-$w$-weak global dimension $φ$-$w$-w.gl.dim$(R)$ of a strongly $φ$-ring $R$ is also introduced and studied. We show that, for a strongly $φ$-ring $R$, $φ$-$w$-w.gl.dim$(R)=0$ if and only if $w$-$dim(R)=0$ if and only if $R$ is a $φ$-von Neumann ring. It is also proved that, for a strongly $φ$-ring $R$, $φ$-$w$-w.gl.dim$(R)\\leq 1$ if and only if e",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns φ-w-flat modules and homological dimensions over strongly φ-rings, which is commutative/homological algebra with no connection to resolution proof complexity, Tseitin formulas, or DP-step potential functions Φ(π).",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
