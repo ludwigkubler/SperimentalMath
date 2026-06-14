@@ -1,0 +1,40 @@
+{
+  "entry_id": "15d23e1ea6d2",
+  "ts": 1781457975.7683065,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2411.10229",
+      "title": "Optimally Rewriting Formulas and Database Queries: A Confluence of Term Rewriting, Structural Decomposition, and Complexity",
+      "abstract_excerpt": "A central computational task in database theory, finite model theory, and computer science at large is the evaluation of a first-order sentence on a finite structure. In the context of this task, the \\emph{width} of a sentence, defined as the maximum number of free variables over all subformulas, has been established as a crucial measure, where minimizing width of a sentence (while retaining logical equivalence) is considered highly desirable. An undecidability result rules out the possibility o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract focuses on the importance of minimizing width in sentences and presents an algorithm for obtaining minimum-width sentences through syntactic rewriting rules. It does not address the scaling of the width-aware totalLiteralWeight with respect to the count-based Φ, which is the core aspect of the conjecture.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:0705.1213",
+      "title": "Schémas en groupes et poids de Diamond-Serre",
+      "abstract_excerpt": "This note is a correction of (statement and proof of) proposition 3.3.1 of Toby Gee's preprint intitled *On the weights of mod p Hilbert modular forms*. The aim is to compare Galois representations arising from extensions of some group schemes (over the ring of integers of a p-adic field) endowed with a descent data, and extensions of some crystalline representations with given Hodge-Tate weights. The main tool of the proof is the theory of Breuil.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses Galois representations and mod p Hilbert modular forms, which is unrelated to the width-aware totalLiteralWeight in Tseitin formulas as mentioned in the conjecture. The abstract of the cited paper does not interact with the specific claim about the scaling exponent of cumulative weight.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2010.14133",
+      "title": "Extended abstract: Type oriented programming for task based parallelism",
+      "abstract_excerpt": "Writing parallel codes is difficult and exhibits a fundamental trade-off between abstraction and performance. The high level language abstractions designed to simplify the complexities of parallelism make certain assumptions that impacts performance and scalability. On the other hand lower level languages, providing many opportunities for optimisation, require in-depth knowledge and the programmer to consider tricky details of parallelism. An approach is required which can bridge the gap and pro",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses parallel programming abstractions and performance trade-offs without mentioning width-aware totalLiteralWeight, count-based Φ, or any specific scaling of cumulative weight. The topic is distinct from the conjecture about resolution proof complexity and Tseitin formulas.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
