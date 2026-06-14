@@ -1,0 +1,31 @@
+{
+  "entry_id": "24770f1e1956",
+  "ts": 1781472766.856036,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2008.06901",
+      "title": "A diagrammatic approach towards the thermodynamics of integrable systems",
+      "abstract_excerpt": "We propose an exact summation method to compute thermodynamic observables in integrable quantum field theories. The key idea is to use the matrix-tree theorem to write the Gaudin determinants that appear in the cluster expansion as a sum over graphs. For theories with a diagonal S-matrix, this method is more powerful than the standard Thermodynamic Bethe Ansatz (TBA) technique as it is exact to all orders of powers in inverse volume. We have obtained using this method the TBA equation, the excit",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper's abstract discusses a diagrammatic approach for computing thermodynamic observables in integrable quantum field theories, which involves the matrix-tree theorem and graph expansions. However, it does not provide any direct information regarding the entropy of Tseitin formulas on expander-based graphs or path/tree graphs, as stated in the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2005.07525",
+      "title": "Matrix Field Theory",
+      "abstract_excerpt": "This thesis studies matrix field theories, which are a special type of matrix models. First, the different types of applications are pointed out, from (noncommutative) quantum field theory over 2-dimensional quantum gravity up to algebraic geometry with explicit computation of intersection numbers on the moduli space of complex curves.\n  The Kontsevich model, which has proved the Witten conjecture, is the simplest example of a matrix field theory. Generalisations of this model will be studied, w",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses matrix field theories and their applications in various areas of physics, including quantum field theory and algebraic geometry. It does not mention Tseitin formulas or the entropy Φ(π) on expander-based graphs or path/tree graphs.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}

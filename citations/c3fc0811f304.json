@@ -1,0 +1,22 @@
+{
+  "entry_id": "c3fc0811f304",
+  "ts": 1781473375.9039798,
+  "hits_evaluated": 1,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1501.03285",
+      "title": "Extension of the past lifetime and its connection to the cumulative entropy",
+      "abstract_excerpt": "Given two absolutely continuous nonnegative independent random variables, we define the reversed relevation transform as dual to the relevation transform. We first apply such transforms to the lifetimes of the components of parallel and series systems under suitably proportionality assumptions on the hazards rates. Furthermore, we prove that the (reversed) relevation transform is commutative if and only if the proportional (reversed) hazard rate model holds. By repeated application of the revers",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses cumulative entropy in the context of reliability theory, reversed relevation transforms, and lifetimes of system components — it has no bearing on resolution proof complexity, Tseitin formulas, or width/weight scaling exponents in clause sequences.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 0
+  }
+}
