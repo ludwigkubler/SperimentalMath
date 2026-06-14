@@ -1,0 +1,40 @@
+{
+  "entry_id": "6c428faf1ffe",
+  "ts": 1781415078.6688495,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1610.04744",
+      "title": "Hook formulas for skew shapes II. Combinatorial proofs and enumerative applications",
+      "abstract_excerpt": "The Naruse hook-length formula is a recent general formula for the number of standard Young tableaux of skew shapes, given as a positive sum over excited diagrams of products of hook-lengths. In 2015 we gave two different $q$-analogues of Naruse's formula: for the skew Schur functions, and for counting reverse plane partitions of skew shapes. In this paper we give an elementary proof of Naruse's formula based on the case of border strips. For special border strips, we obtain curious new formulas",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Young tableaux, hook-length formulas, and Euler numbers, which do not interact with the specific claim about width-aware totalLiteralWeight and count-based Φ in Resolution proof complexity and Tseitin formulas.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2102.06673",
+      "title": "Proof complexity of positive branching programs",
+      "abstract_excerpt": "We investigate the proof complexity of systems based on positive branching programs, i.e. non-deterministic branching programs (NBPs) where, for any 0-transition between two nodes, there is also a 1-transition. Positive NBPs compute monotone Boolean functions, just like negation-free circuits or formulas, but constitute a positive version of (non-uniform) NL, rather than P or NC1, respectively.\n\nThe proof complexity of NBPs was investigated in previous work by Buss, Das and Knop, using extension",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper discusses proof complexity of positive branching programs and their relationship to eLNDT+ systems. However, it does not provide any information about the width-aware totalLiteralWeight or its scaling with respect to the count-based Φ, which is central to the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2107.12643",
+      "title": "On $φ$-$w$-Flat modules and Their Homological Dimensions",
+      "abstract_excerpt": "In this paper, we introduce and study the class of $φ$-$w$-flat modules which are generalizations of both $φ$-flat modules and $w$-flat modules. The $φ$-$w$-weak global dimension $φ$-$w$-w.gl.dim$(R)$ of a strongly $φ$-ring $R$ is also introduced and studied. We show that, for a strongly $φ$-ring $R$, $φ$-$w$-w.gl.dim$(R)=0$ if and only if $w$-$dim(R)=0$ if and only if $R$ is a $φ$-von Neumann ring. It is also proved that, for a strongly $φ$-ring $R$, $φ$-$w$-w.gl.dim$(R)\\leq 1$ if and only if e",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited abstract discusses the properties of $φ$-$w$-flat modules and their homological dimensions in the context of strongly $φ$-rings, which is unrelated to the width-aware totalLiteralWeight and its scaling with a strictly larger exponent than count-based Φ as mentioned in the conjecture.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}

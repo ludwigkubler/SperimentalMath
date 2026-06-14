@@ -1,0 +1,40 @@
+{
+  "entry_id": "34754d5bc288",
+  "ts": 1781414819.6968338,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1101.3970",
+      "title": "Short Propositional Refutations for Dense Random 3CNF Formulas",
+      "abstract_excerpt": "Random 3CNF formulas constitute an important distribution for measuring the average-case behavior of propositional proof systems. Lower bounds for random 3CNF refutations in many propositional proof systems are known. Most notably are the exponential-size resolution refutation lower bounds for random 3CNF formulas with $Ω(n^{1.5-ε}) $ clauses [Chvatal and Szemeredi (1988), Ben-Sasson and Wigderson (2001)]. On the other hand, the only known non-trivial upper bound on the size of random 3CNF refut",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper discusses refutation lower bounds for random 3CNF formulas and the development of short refutations within Frege proof systems. However, it does not directly address the cumulative-entropy analogue of space lower bounds or provide a constant c>0 related to the balanced separator size |S|² as required by the conjecture.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1304.4499",
+      "title": "Abstraction and Acceleration in SMT-based Model-Checking for Array Programs",
+      "abstract_excerpt": "Abstraction (in its various forms) is a powerful established technique in model-checking; still, when unbounded data-structures are concerned, it cannot always cope with divergence phenomena in a satisfactory way. Acceleration is an approach which is widely used to avoid divergence, but it has been applied mostly to integer programs. This paper addresses the problem of accelerating transition relations for unbounded arrays with the ultimate goal of avoiding divergence during reachability analysi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses abstraction and acceleration techniques in SMT-based model-checking for array programs, focusing on handling complex formulas with nested quantifiers. This does not address the conjecture regarding Φ(π) >= c·|S|² for a constant c>0, which is related to resolution proof complexity and Tseitin formulas.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1902.10308",
+      "title": "On character formulas for simple and tilting modules",
+      "abstract_excerpt": "We show that the characters of tilting modules can be used, in a concrete and explicit way, to obtain the simple characters of a connected reductive algebraic group $G$ over an algebraically closed field $\\Bbbk$ of characteristic $p$, for all $p$. Thus, once a formula for the characters of the indecomposable tilting $G$-modules has been found, a formula for the simple modules has been also. An immediate implication is that the work of Achar, Makisumi, Riche, and Williamson in \\cite{AMRW} provide",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper's abstract discusses character formulas for tilting modules and simple characters of algebraic groups, which is unrelated to the conjecture about cumulative entropy in resolution proof complexity. The vocabulary and framework are orthogonal.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}
