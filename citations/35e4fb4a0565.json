@@ -1,0 +1,40 @@
+{
+  "entry_id": "35e4fb4a0565",
+  "ts": 1781496727.4977393,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2411.08847",
+      "title": "Proofs as Execution Trees for the π-Calculus",
+      "abstract_excerpt": "In this paper, we establish the foundations of a novel logical framework for the π-calculus, based on the deduction-as-computation paradigm. Following the standard proof-theoretic interpretation of logic programming, we represent processes as formulas, and we interpret proofs as computations.\n  For this purpose, we define a cut-free sequent calculus for an extension of first-order multiplicative and additive linear logic. This extension includes a non-commutative and non-associative connective t",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a logical framework for the π-calculus using linear logic and proof nets, with no mention of resolution proof complexity, Tseitin formulas, DP steps, or any measure Φ(π)/proof_size. The shared token 'π' refers to the π-calculus, not a resolution proof.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1208.4567",
+      "title": "A General Method for Constructing Ramanujan Formulas for $1/π^ν$",
+      "abstract_excerpt": "In this article we give the theoretical background for generating Ramanujan type $1/π^{2ν}$ formulas. As applications of our method we give a general construction of $1/π^4$ series and examples of $1/π^6$ series. We also study the elliptic alpha function whose values are useful for such evaluations.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Ramanujan-type series for $1/\\pi^{2\\nu}$ and the elliptic alpha function, which is purely a number-theoretic/analytic topic unrelated to resolution proof complexity, DP steps, or Tseitin formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1712.03995",
+      "title": "A new proof of Harish-Chandra's integral formula",
+      "abstract_excerpt": "We present a new proof of Harish-Chandra's formula $$Π(h_1) Π(h_2) \\int_G e^{\\langle \\mathrm{Ad}_g h_1, h_2 \\rangle} dg = \\frac{ [ \\! [ Π, Π] \\!] }{|W|} \\sum_{w \\in W} ε(w) e^{\\langle w(h_1),h_2 \\rangle},$$ where $G$ is a compact, connected, semisimple Lie group, $dg$ is normalized Haar measure, $h_1$ and $h_2$ lie in a Cartan subalgebra of the complexified Lie algebra, $Π$ is the discriminant, $\\langle \\cdot, \\cdot \\rangle$ is the Killing form, $[ \\! [ \\cdot, \\cdot ] \\!]$ is an inner product th",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Harish-Chandra's integral formula on semisimple Lie groups via heat flow methods, which has no interaction with resolution proof complexity, Tseitin formulas, or DP step counts.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
