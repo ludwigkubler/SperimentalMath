@@ -1,0 +1,40 @@
+{
+  "entry_id": "9bf94aa7bd52",
+  "ts": 1781553818.2943249,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2308.02443",
+      "title": "AI Literature Review Suite",
+      "abstract_excerpt": "The process of conducting literature reviews is often time-consuming and labor-intensive. To streamline this process, I present an AI Literature Review Suite that integrates several functionalities to provide a comprehensive literature review. This tool leverages the power of open access science, large language models (LLMs) and natural language processing to enable the searching, downloading, and organizing of PDF files, as well as extracting content from articles. Semantic search queries are u",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes an 'AI Literature Review Suite' for automating literature reviews via LLMs and PDF processing, with no connection to resolution proof complexity, Tseitin formulas, or width-vs-count scaling exponents.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2204.03741",
+      "title": "Drivers' attention detection: a systematic literature review",
+      "abstract_excerpt": "Countless traffic accidents often occur because of the inattention of the drivers. Many factors can contribute to distractions while driving, since objects or events to physiological conditions, as drowsiness and fatigue, do not allow the driver to stay attentive. The technological progress allowed the development and application of many solutions to detect the attention in real situations, promoting the interest of the scientific community in these last years. Commonly, these solutions identify",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a systematic literature review on image-based detection of drivers' attention in traffic safety, which has no interaction with resolution proof complexity, Tseitin formulas, or clause-width scaling. The phrase 'Systematic Literature Review (SLR) of the methods and criteria used to detect attention of drivers' confirms the topic is entirely unrelated.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2305.17474",
+      "title": "Macroeconomic Effects of Inflation Targeting: A Survey of the Empirical Literature",
+      "abstract_excerpt": "This paper surveys the empirical literature of inflation targeting. The main findings from our review are the following: there is robust empirical evidence that larger and more developed countries are more likely to adopt the IT regime; the introduction of this regime is conditional on previous disinflation, greater exchange rate flexibility, central bank independence, and higher level of financial development; the empirical evidence has failed to provide convincing evidence that IT itself may s",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a survey of inflation targeting in macroeconomics ('This paper surveys the empirical literature of inflation targeting'), which has no interaction with resolution proof complexity or Tseitin formulas.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

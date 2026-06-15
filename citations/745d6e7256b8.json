@@ -1,0 +1,40 @@
+{
+  "entry_id": "745d6e7256b8",
+  "ts": 1781553587.8997235,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1003.3047",
+      "title": "On the Relative Strength of Pebbling and Resolution",
+      "abstract_excerpt": "The last decade has seen a revival of interest in pebble games in the context of proof complexity. Pebbling has proven a useful tool for studying resolution-based proof systems when comparing the strength of different subsystems, showing bounds on proof space, and establishing size-space trade-offs. The typical approach has been to encode the pebble game played on a graph as a CNF formula and then argue that proofs of this formula must inherit (various aspects of) the pebbling properties of the ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses pebbling vs resolution simulations and space lower bounds on pebbling formulas, but says nothing about cumulative entropy Φ(π), Tseitin formulas, or balanced separator size |S|² bounds. The shared vocabulary is 'resolution' and 'space lower bounds,' but the specific claim about Φ(π) >= c·|S|² is not addressed.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1409.2978v1",
+      "title": "From Small Space to Small Width in Resolution",
+      "abstract_excerpt": "In 2003, Atserias and Dalmau resolved a major open question about the resolution proof system by establishing that the space complexity of CNF formulas is always an upper bound on the width needed to refute them. Their proof is beautiful but somewhat mysterious in that it relies heavily on tools fro",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the relationship between space complexity and width in resolution (Atserias-Dalmau), not cumulative entropy Φ(π) nor balanced separator size |S|² lower bounds for Tseitin formulas. It shares the resolution framework but does not address the specific cumulative-entropy claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2012.00330",
+      "title": "Time-Space Lower Bounds for Simulating Proof Systems with Quantum and Randomized Verifiers",
+      "abstract_excerpt": "A line of work initiated by Fortnow in 1997 has proven model-independent time-space lower bounds for the $\\mathsf{SAT}$ problem and related problems within the polynomial-time hierarchy. For example, for the $\\mathsf{SAT}$ problem, the state-of-the-art is that the problem cannot be solved by random-access machines in $n^c$ time and $n^{o(1)}$ space simultaneously for $c &lt; 2\\cos(\\fracπ{7}) \\approx 1.801$.\n  We extend this lower bound approach to the quantum and randomized domains. Combining Gr",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns time-space lower bounds for SAT and related problems under quantum/randomized Merlin-Arthur verifiers, citing phrases like 'time-space lower bounds for the SAT problem' and 'problems verifiable in O(n) time with quantum Merlin-Arthur protocols.' It does not address resolution proof complexity, Tseitin formulas, cumulative entropy Φ(π), or balanced separator bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

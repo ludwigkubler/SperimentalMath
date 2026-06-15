@@ -1,0 +1,40 @@
+{
+  "entry_id": "ae86e2034d86",
+  "ts": 1781556403.1694243,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1812.10833",
+      "title": "Predictability, topological entropy and invariant random orders",
+      "abstract_excerpt": "We prove that a topologically predictable action of a countable amenable group has zero topological entropy, as conjectured by Hochman. On route, we investigate invariant random orders and formulate a unified Kieffer-Pinsker formula for the Kolmogorov-Sinai entropy of measure preserving actions of amenable groups. We also present a proof due to Weiss for the fact that topologically prime actions of sofic groups have non-positive topological sofic entropy.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns topological/Kolmogorov-Sinai entropy of amenable group actions and invariant random orders, not cumulative entropy under variable elimination orders in resolution proof complexity for Tseitin formulas. Shared vocabulary ('entropy', 'order') only; no interaction with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2406.02108",
+      "title": "Description Complexity of Unary Structures in First-Order Logic with Links to Entropy",
+      "abstract_excerpt": "The description complexity of a model is the length of the shortest formula that defines the model. We study the description complexity of unary structures in first-order logic FO, also drawing links to semantic complexity in the form of entropy. The class of unary structures provides, e.g., a simple way to represent tabular Boolean data sets as relational structures. We define structures with FO-formulas that are strictly linear in the size of the model as opposed to using the naive quadratic o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns description complexity of unary structures in first-order logic and its links to Shannon/Boltzmann entropy, with no mention of resolution proof complexity, Tseitin formulas, elimination orders, or cumulative entropy Φ. It shares only the broad vocabulary of 'entropy' but does not address the order-sensitivity claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2012.14892",
+      "title": "The first law and Wald entropy formula of heterotic stringy black holes at first order in alpha prime",
+      "abstract_excerpt": "We derive the first law of black hole mechanics in the context of the Heterotic Superstring effective action to first order in alpha prime using Wald's formalism. We carefully take into account all the symmetries of the theory and, as a result, we obtain a manifestly gauge- and Lorentz-invariant entropy formula in which all the terms can be computed explicitly. An entropy formula with these properties allows unambiguous calculations of macroscopic black-hole entropies to first order in alpha pri",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Wald's entropy formula for heterotic string black holes at first order in alpha prime, which shares only the word 'entropy' with the conjecture about order-sensitivity of cumulative entropy in resolution proof complexity of Tseitin formulas.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
