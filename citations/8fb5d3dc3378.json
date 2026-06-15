@@ -1,0 +1,40 @@
+{
+  "entry_id": "8fb5d3dc3378",
+  "ts": 1781480929.1593618,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2411.08847",
+      "title": "Proofs as Execution Trees for the π-Calculus",
+      "abstract_excerpt": "In this paper, we establish the foundations of a novel logical framework for the π-calculus, based on the deduction-as-computation paradigm. Following the standard proof-theoretic interpretation of logic programming, we represent processes as formulas, and we interpret proofs as computations.\n  For this purpose, we define a cut-free sequent calculus for an extension of first-order multiplicative and additive linear logic. This extension includes a non-commutative and non-associative connective t",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses a novel logical framework for the π-calculus and introduces concepts such as sequent calculus, non-commutative connectives, and proof nets. It does not mention anything about Φ(π)/proof_size or the monotonicity of per-step active weight with respect to n, which is the focus of the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1806.06693",
+      "title": "Higher-order field theories: $φ^6$, $φ^8$ and beyond",
+      "abstract_excerpt": "The $φ^4$ model has been the \"workhorse\" of the classical Ginzburg--Landau phenomenological theory of phase transitions and, furthermore, the foundation for a large amount of the now-classical developments in nonlinear science. However, the $φ^4$ model, in its usual variant (symmetric double-well potential), can only possess two equilibria. Many complex physical systems possess more than two equilibria and, furthermore, the number of equilibria can change as a system parameter (e.g., the tempera",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper's abstract discusses higher-order field theories and their applications in physics, specifically focusing on phase transitions and equilibrium properties. It does not mention or relate to the concept of Φ(π)/proof_size (number of DP steps) being monotone increasing in n, which is a topic within resolution proof complexity. Therefore, it is insufficient to determine whether the abstract supports, refutes, or is orthogonal to the conjecture.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2411.15515",
+      "title": "Finding Bugs in Short Proofs: The Metamathematics of Resolution Lower Bounds",
+      "abstract_excerpt": "We study the *refuter* problems for proof complexity lower bounds. Suppose $\\varphi$ is a hard tautology that does not admit any length-$s$ proof in some proof system $P$. In the corresponding refuter problem, we are given (query access to) a purported length-$s$ proof $π$ in $P$ that claims to have proved $\\varphi$, and our goal is to find an invalid derivation step within $π$. As suggested by witnessing theorems in bounded arithmetic, the *computational complexity* of these refuter problems is",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract focuses on refuter problems for proof complexity lower bounds and introduces a new class for capturing the complexity of these problems. It does not provide any information about the monotonicity of Φ(π)/proof_size with respect to n or the 'shadow heavier than the body' claim.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}

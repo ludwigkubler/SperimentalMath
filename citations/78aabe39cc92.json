@@ -1,0 +1,40 @@
+{
+  "entry_id": "78aabe39cc92",
+  "ts": 1781483665.3519366,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/0907.0001v2",
+      "title": "On weight distributions of perfect colorings and completely regular codes",
+      "abstract_excerpt": "A vertex coloring of a graph is called \"perfect\" if for any two colors $a$ and $b$, the number of the color-$b$ neighbors of a color-$a$ vertex $x$ does not depend on the choice of $x$, that is, depends only on $a$ and $b$ (the corresponding partition of the vertex set is known as \"equitable\"). A se",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses perfect colorings and completely regular codes, which does not interact with the specific claim about the width-aware totalLiteralWeight and count-based Φ in Resolution proof complexity and Tseitin formulas.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2301.08933",
+      "title": "A combinatorial formula for LLT cumulants of melting lollipops in terms of spanning trees",
+      "abstract_excerpt": "We prove a combinatorial formula for LLT cumulants of melting lollipops as a positive combination of LLT polynomials indexed by spanning trees. The result gives an affirmative answer to a general positivity question for this class of unicellular LLT cumulants, and gives an independent proof of their Schur-positivity. In the special case of the complete graph, we also express the formula in terms of parking functions.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses a combinatorial formula for LLT cumulants and their positivity, which is unrelated to the width-aware totalLiteralWeight or its scaling with respect to the count-based Φ in the conjecture. The abstract does not mention any concepts related to resolution proof complexity, Tseitin formulas, or the width amplification of cumulative weight.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1612.04441",
+      "title": "Geometric formulas on Rumely's weight function and crucial measure in non-archimedean dynamics",
+      "abstract_excerpt": "We introduce the $f$-crucial function $\\operatorname{Crucial}_f$ associated to a rational function $f\\in K(z)$ of degree $&gt;1$ over an algebraically closed field $K$ of possibly positive characteristic that is complete with respect to a non-trivial and non-archimedean absolute value, and give a global and explicit expression of Rumely's (resultant) function $\\operatorname{ordRes}_f$ in terms of the hyperbolic metric $ρ$ on the Berkovich upper half space $\\mathsf{H}^1$ in the Berkovich projecti",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper discusses geometric formulas and a quantitative equidistribution of measures in non-archimedean dynamics, which is unrelated to the conjecture about width-aware totalLiteralWeight scaling with a strictly larger exponent than count-based Φ. There is no mention of Tseitin formulas or resolution proof complexity, making it impossible to determine from the abstract alone whether the paper supports, refutes, or is orthogonal to the proposed conjecture.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}

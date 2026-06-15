@@ -1,0 +1,31 @@
+{
+  "entry_id": "e7c742281e39",
+  "ts": 1781481213.5038924,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.1016/j.physletb.2020.135225",
+      "title": "Evidence of rescattering effect in Pb–Pb collisions at the LHC through production of K(892)0⁎ and ϕ(1020) mesons",
+      "abstract_excerpt": "Abstract Measurements of K ( 892 ) 0 ⁎ and ϕ ( 1020 ) resonance production in Pb–Pb and pp collisions at s NN = 5.02 TeV with the ALICE detector at the Large Hadron Collider are reported. The resonances are measured at midrapidity ( | y | p T ) distributions are obtained for various collision centrality classes up to p T = 20 GeV/c. The p T -integrated yield ratio K ( 892 ) 0 ⁎ /K in Pb–Pb collisions shows significant suppression relative to pp collisions and decreases towards more central colli",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes an ALICE heavy-ion physics experiment measuring K*(892) and φ(1020) meson production in Pb–Pb collisions, which has no interaction with resolution proof complexity, Tseitin formulas, or cumulative entropy bounds Φ(π) ≥ c·|S|².",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "s2:ac38afc8c78a67458fcfb979aa3c25294c653e08",
+      "title": "Measurement of long-range pseudorapidity correlations and azimuthal harmonics in √sNN = 5.02 TeV proton-lead collisions with the ATLAS detector",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "No abstract is available, and the title concerns ATLAS detector measurements of proton-lead collisions, which appears unrelated to resolution proof complexity, but without the abstract I cannot confirm relevance to the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}
