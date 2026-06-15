@@ -1,0 +1,40 @@
+{
+  "entry_id": "4e13ca755b84",
+  "ts": 1781513112.2715447,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2210.09047",
+      "title": "On cumulative Tsallis entropies",
+      "abstract_excerpt": "We investigate the cumulative Tsallis entropy, an information measure recently introduced as a cumulative version of the classical Tsallis differential entropy, which is itself a generalization of the Boltzmann-Gibbs statistics. This functional is here considered as a perturbation of the expected mean residual life via some power weight function. This point of view leads to the introduction of the dual cumulative Tsallis entropy and of two families of coherent risk measures generalizing those bu",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns cumulative Tsallis entropy as a probabilistic/statistical functional on distributions (mean residual life, risk measures, Logistic distribution), with no mention of resolution proof complexity, Tseitin formulas, or elimination-order sensitivity. It shares only the word 'cumulative entropy' with the conjecture and does not interact with the specific claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2502.05371",
+      "title": "Cumulant Structures of Entanglement Entropy",
+      "abstract_excerpt": "We present a new method to derive exact cumulant expressions of any order of von Neumann entropy over Hilbert-Schmidt ensemble. The new method uncovers hidden cumulant structures that decouple each cumulant in a summation-free manner into its lower-order joint cumulants involving families of ancillary statistics. Importantly, the new method is able to avoid the seemingly inevitable task of simplifying nested summations of increasing difficulty that prevents the existing method in the literature ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns cumulants of von Neumann entanglement entropy over the Hilbert-Schmidt ensemble, which shares the word 'entropy' but has no connection to elimination orders, Tseitin formulas, or resolution proof complexity. It neither supports nor refutes the order-sensitivity claim about cumulative entropy Φ.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1507.07051",
+      "title": "Weighted cumulative entropies: An extension of CRE and CE",
+      "abstract_excerpt": "We generalize the weighted cumulative entropies (WCRE and WCE), introduced in [5], for a system or component lifetime. Representing properties of cumulative entropies, several bounds and inequalities for the WCRE is proposed",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns weighted cumulative residual entropies (WCRE/WCE) for system/component lifetimes, with no mention of resolution proof complexity, Tseitin formulas, or elimination orders. It shares only the generic term 'cumulative entropy' but does not interact with the order-sensitivity claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

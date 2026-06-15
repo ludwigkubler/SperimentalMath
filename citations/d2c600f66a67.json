@@ -1,0 +1,40 @@
+{
+  "entry_id": "d2c600f66a67",
+  "ts": 1781511858.9743388,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2411.10229",
+      "title": "Optimally Rewriting Formulas and Database Queries: A Confluence of Term Rewriting, Structural Decomposition, and Complexity",
+      "abstract_excerpt": "A central computational task in database theory, finite model theory, and computer science at large is the evaluation of a first-order sentence on a finite structure. In the context of this task, the \\emph{width} of a sentence, defined as the maximum number of free variables over all subformulas, has been established as a crucial measure, where minimizing width of a sentence (while retaining logical equivalence) is considered highly desirable. An undecidability result rules out the possibility o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper focuses on width minimization via syntactic rewriting rules and does not address the scaling of cumulative weight with respect to width as described in the conjecture. It discusses the importance of width but does not provide any information about the relationship between width and the totalLiteralWeight.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2508.00346",
+      "title": "Entropy-driven physical amplification in multivalent biosensing",
+      "abstract_excerpt": "Sensitive detection of low-abundance molecular targets is widely assumed to require enzymatic amplification, such as PCR, to achieve low detection limits. In amplification-free platforms, sensitivity is traditionally constrained by equilibrium binding affinity. Here we show that multivalent linker entropy provides a distinct physical route to exponential sensitivity enhancement in purely equilibrium sensing architectures. Using a statistical-mechanical theory supported by grand canonical Monte C",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the role of entropy in enhancing sensitivity in biosensing without enzymatic amplification, which is not directly related to the scaling of width-aware totalLiteralWeight in resolution proof complexity or Tseitin formulas as proposed in the conjecture.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2603.24158",
+      "title": "Entanglement Entropy of Massive Scalar Fields: Mass Suppression, Violation of Universal mR Scaling, and Implications for Black Hole Thermodynamics",
+      "abstract_excerpt": "We investigate the entanglement entropy of a massive scalar field using the spherical shell lattice model introduced by Das and Shankaranarayanan. A systematic numerical analysis is performed to study the dependence of the entropy on the field mass and on the size of the entangling region for both ground and excited states.\n  For the ground state, we find that the entanglement entropy is exponentially suppressed by the field mass, reflecting the presence of a finite correlation length, while the",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited abstract discusses entanglement entropy in massive scalar fields, focusing on the effects of field mass and excitation structure. It mentions violation of simple scaling and the presence of multiple infrared scales, but it does not address the width-aware totalLiteralWeight or its comparison with count-based Φ, which are central to the proposed conjecture.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

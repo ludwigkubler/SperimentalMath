@@ -1,0 +1,40 @@
+{
+  "entry_id": "5a7d883748c5",
+  "ts": 1781512420.0434997,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1709.09951",
+      "title": "Asymptotically tight worst case complexity bounds for initial-value problems with nonadaptive information",
+      "abstract_excerpt": "It is known that, for systems of initial-value problems, algorithms using adaptive information perform much better in the worst case setting than the algorithms using nonadaptive information. In the latter case, lower and upper complexity bounds significantly depend on the number of equations. However, in contrast with adaptive information, existing lower and upper complexity bounds for nonadaptive information are not asymptotically tight. In this paper, we close the gap in the complexity expone",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the difference in complexity between adaptive and nonadaptive information for initial-value problems. It does not mention anything about the monotonicity of Φ(π)/proof_size or the 'shadow heavier than the body' claim related to per-step active weight growth.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2407.08865",
+      "title": "Single-Image Shadow Removal Using Deep Learning: A Comprehensive Survey",
+      "abstract_excerpt": "Shadow removal aims at restoring the image content within shadow regions, pursuing a uniform distribution of illumination that is consistent between shadow and non-shadow regions. {Comparing to other image restoration tasks, there are two unique challenges in shadow removal:} 1) The patterns of shadows are arbitrary, varied, and often have highly complex trace structures, making ``trace-less'' image recovery difficult. 2) The degradation caused by shadows is spatially non-uniform, resulting in i",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses single-image shadow removal using deep learning and does not relate to the 'shadow heavier than the body' claim regarding the monotone increase of Φ(π)/proof_size in n for resolution proof complexity. The abstract focuses on image restoration challenges and advancements in deep learning techniques, which are unrelated to the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1810.08668",
+      "title": "Parity Decision Tree Complexity is Greater Than Granularity",
+      "abstract_excerpt": "We prove a new lower bound on the parity decision tree complexity $\\mathsf{D}_{\\oplus}(f)$ of a Boolean function $f$. Namely, granularity of the Boolean function $f$ is the smallest $k$ such that all Fourier coefficients of $f$ are integer multiples of $1/2^k$. We show that $\\mathsf{D}_{\\oplus}(f)\\geq k+1$.\n  This lower bound is an improvement of lower bounds through the sparsity of $f$ and through the degree of $f$ over $\\mathbb{F}_2$. Using our lower bound we determine the exact parity decisio",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract focuses on parity decision tree complexity and lower bounds for Boolean functions, specifically mentioning granularity and Fourier coefficients. It does not address the monotonicity of Φ(π)/proof_size in n or the 'shadow heavier than the body' claim related to per-step active weight growth.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}
