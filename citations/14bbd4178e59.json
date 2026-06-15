@@ -1,0 +1,40 @@
+{
+  "entry_id": "14bbd4178e59",
+  "ts": 1781505953.1138525,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2010.14133",
+      "title": "Extended abstract: Type oriented programming for task based parallelism",
+      "abstract_excerpt": "Writing parallel codes is difficult and exhibits a fundamental trade-off between abstraction and performance. The high level language abstractions designed to simplify the complexities of parallelism make certain assumptions that impacts performance and scalability. On the other hand lower level languages, providing many opportunities for optimisation, require in-depth knowledge and the programmer to consider tricky details of parallelism. An approach is required which can bridge the gap and pro",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'type oriented programming for task based parallelism,' which has no connection to resolution proof complexity, Tseitin formulas, cumulative entropy, or balanced separators.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1610.08713",
+      "title": "The Probabilistic Model Checker Storm (Extended Abstract)",
+      "abstract_excerpt": "We present a new probabilistic model checker Storm. Using state-of-the-art libraries, we aim for both high performance and versatility. This extended abstract gives a brief overview of the features of Storm.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes a probabilistic model checker tool ('We present a new probabilistic model checker Storm'), which has no interaction with resolution proof complexity, Tseitin formulas, or cumulative entropy lower bounds.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:cs/0612120",
+      "title": "Generalizing the Paige-Tarjan Algorithm by Abstract Interpretation",
+      "abstract_excerpt": "The Paige and Tarjan algorithm (PT) for computing the coarsest refinement of a state partition which is a bisimulation on some Kripke structure is well known. It is also well known in model checking that bisimulation is equivalent to strong preservation of CTL, or, equivalently, of Hennessy-Milner logic. Drawing on these observations, we analyze the basic steps of the PT algorithm from an abstract interpretation perspective, which allows us to reason on strong preservation in the context of gene",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the Paige-Tarjan algorithm and abstract interpretation for bisimulation/model checking, with no mention of resolution proof complexity, Tseitin formulas, cumulative entropy, or separator-based lower bounds.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

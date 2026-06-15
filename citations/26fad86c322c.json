@@ -1,0 +1,40 @@
+{
+  "entry_id": "26fad86c322c",
+  "ts": 1781503196.4074085,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1004.2159",
+      "title": "Algebraic Proofs over Noncommutative Formulas",
+      "abstract_excerpt": "We study possible formulations of algebraic propositional proof systems operating with noncommutative formulas. We observe that a simple formulation gives rise to systems at least as strong as Frege---yielding a semantic way to define a Cook-Reckhow (i.e., polynomially verifiable) algebraic analog of Frege proofs, different from that given in [BIKPRS96,GH03]. We then turn to an apparently weaker system, namely, polynomial calculus (PC) where polynomials are written as ordered formulas (PC over o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns algebraic proof systems (PC over noncommutative/ordered formulas) and mentions polynomial-size refutations of Tseitin formulas in that setting, but says nothing about DP-step counts, the Φ potential, or per-step active weight in resolution proofs.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2409.12802",
+      "title": "Minkowski difference weight formulas",
+      "abstract_excerpt": "Fix any complex Kac-Moody Lie algebra $\\mathfrak{g}$, and Cartan subalgebra $\\mathfrak{h}\\subset \\mathfrak{g}$. We study arbitrary highest weight $\\mathfrak{g}$-modules $V$ (with any highest weight $λ\\in \\mathfrak{h}^*$, and let $L(λ)$ be the corresponding simple highest weight $\\mathfrak{g}$-module), and write their weight-sets $\\mathrm{wt} V$. This is based on and generalizes the Minkowski decompositions for all $\\mathrm{wt} L(λ)$ and hulls $\\mathrm{conv}_{\\mathbb{R}}(\\mathrm{wt} V)$, of Khare",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Minkowski decompositions of weight-sets for highest weight modules over Kac-Moody Lie algebras, with no mention of resolution proof complexity, Tseitin formulas, DP steps, or proof size monotonicity — it shares no technical content with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2203.05515",
+      "title": "A weight-formula for all highest weight modules, and a higher order parabolic category $\\mathcal{O}$",
+      "abstract_excerpt": "Let $\\mathfrak{g}$ be a complex Kac-Moody algebra, with Cartan subalgebra $\\mathfrak{h}$. Also fix a weight $λ\\in\\mathfrak{h}^*$. For $M(λ)\\twoheadrightarrow V$ an arbitrary highest weight $\\mathfrak{g}$-module, we provide a cancellation-free, non-recursive formula for the weights of $V$. This is novel even in finite type, and is obtained from $λ$ and a collection $\\mathcal{H}=\\mathcal{H}_V$ of independent sets in the Dynkin diagram of $\\mathfrak{g}$ that are associated to $V$.\n  Our proofs use ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns highest weight modules over Kac-Moody algebras and a parabolic category O, with no mention of resolution proof complexity, Tseitin formulas, DP steps, or any potential function Φ. It shares no subject matter with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entry_id": "4403916e2d94",
+  "ts": 1781505154.1452258,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2209.05839",
+      "title": "On bounded depth proofs for Tseitin formulas on the grid; revisited",
+      "abstract_excerpt": "We study Frege proofs using depth-$d$ Boolean formulas for the Tseitin contradiction on $n \\times n$ grids. We prove that if each line in the proof is of size $M$ then the number of lines is exponential in $n/(\\log M)^{O(d)}$. This strengthens a recent result of Pitassi et al. [PRT22]. The key technical step is a multi-switching lemma extending the switching lemma of Håstad [Hås20] for a space of restrictions related to the Tseitin contradiction. The strengthened lemma also allows us to improve ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract addresses bounded-depth Frege proof size lower bounds for Tseitin on grids via switching lemmas, with no mention of resolution elimination orders, variable occurrence heuristics, or cumulative entropy Φ. It shares the Tseitin vocabulary but does not interact with order-sensitivity claims.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1809.06500",
+      "title": "Range entropy: A bridge between signal complexity and self-similarity",
+      "abstract_excerpt": "Approximate entropy (ApEn) and sample entropy (SampEn) are widely used for temporal complexity analysis of real-world phenomena. However, their relationship with the Hurst exponent as a measure of self-similarity is not widely studied. Additionally, ApEn and SampEn are susceptible to signal amplitude changes. A common practice for addressing this issue is to correct their input signal amplitude by its standard deviation. In this study, we first show, using simulations, that ApEn and SampEn are r",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses 'range entropy' for signal complexity and self-similarity analysis (Hurst exponent, EEG data), which shares only the word 'entropy' with the conjecture about resolution proof complexity and Tseitin formulas under elimination orderings.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2506.09900",
+      "title": "Corrections to Friis noise factor formulas for cascade networks",
+      "abstract_excerpt": "The signal-to-noise ratio of a multistage cascade network is often estimated using the well-known Friis' formulas for noise factors (or the noise figures in decibels). However, this article addresses the major errors in Friis' noise factor formulas for higher stages. Additionally, we re-derive the correct formulas to calculate the stage-wise noise factors for cascade networks from the basic definition of noise factors. We then present a comparison of our derived formulas with Friis' noise factor",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses signal-to-noise ratio and noise factors in cascade networks, which does not interact with the specific claim about cumulative entropy and elimination orders in resolution proof complexity.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
