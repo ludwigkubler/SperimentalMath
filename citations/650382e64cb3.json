@@ -1,0 +1,31 @@
+{
+  "entry_id": "650382e64cb3",
+  "ts": 1781526790.1678133,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.32634/0869-8155-2024-388-11-55-61",
+      "title": "Weight growth and safety of calves against the background of the use of mineral feed additives",
+      "abstract_excerpt": "Relevance. Insufficient feeding has a negative effect on the metabolism and health of the cow, as well as on the condition of the offspring being born. Weak calves that have not accumulated reserve nutrients by birth are susceptible to various diseases.The purpose of the work is to study the effect of the use of mineral feed additives when feeding heifers on the growth and development, safety of newborn young.Methods. To conduct the study in a typical breeding plant for the region, 3 groups of h",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper's abstract discusses weight growth and safety of calves related to mineral feed additives, which is unrelated to the conjecture about Φ(π)/proof_size in resolution proof complexity for Tseitin formulas. The vocabulary and framework are orthogonal.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "s2:10.3945/AJCN.116.130633",
+      "title": "Growth of infants consuming whey-predominant term infant formulas with a protein content of 1.8 g/100 kcal: a multicenter pooled analysis of individual participant data.",
+      "abstract_excerpt": "",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper does not have an available abstract, which makes it impossible to assess whether the paper supports, refutes, or is orthogonal to the conjecture regarding the monotone increase of Φ(π)/proof_size in n.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 2
+  }
+}

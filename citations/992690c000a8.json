@@ -1,0 +1,40 @@
+{
+  "entry_id": "992690c000a8",
+  "ts": 1781525863.4951055,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1102.2932",
+      "title": "Applications of Monotone Rank to Complexity Theory",
+      "abstract_excerpt": "Raz's recent result \\cite{Raz2010} has rekindled people's interest in the study of \\emph{tensor rank}, the generalization of matrix rank to high dimensions, by showing its connections to arithmetic formulas. In this paper, we follow Raz's work and show that \\emph{monotone rank}, the monotone variant of tensor rank and matrix rank, has applications in algebraic complexity, quantum computing and communication complexity. This paper differs from Raz's paper in that it leverages existing results to ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract discusses monotone rank and its applications, including a super-exponential separation between monotone and non-monotone computation and the generalized log-rank conjecture in communication complexity. However, it does not directly address the specific claim of Φ(π)/proof_size being monotone increasing in n or the 'shadow heavier than the body' claim related to resolution proof complexity.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2103.09609",
+      "title": "Characterizing Tseitin-formulas with short regular resolution refutations",
+      "abstract_excerpt": "Tseitin-formulas are systems of parity constraints whose structure is described by a graph. These formulas have been studied extensively in proof complexity as hard instances in many proof systems. In this paper, we prove that a class of unsatisfiable Tseitin-formulas of bounded degree has regular resolution refutations of polynomial length if and only if the treewidth of all underlying graphs $G$ for that class is in $O(\\log|V(G)|)$. To do so, we show that any regular resolution refutation of a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the length of regular resolution refutations and their connection to the treewidth of graphs in Tseitin-formulas, but it does not address the monotonicity of Φ(π)/proof_size with respect to n or the 'shadow heavier than the body' claim.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2511.03388",
+      "title": "Monotone Bounded Depth Formula Complexity of Graph Homomorphism Polynomials",
+      "abstract_excerpt": "We characterize the monotone bounded depth formula complexity for graph homomorphism and colored isomorphism polynomials using a graph parameter called the cost of bounded product depth baggy elimination tree. Using this characterization, we show an almost optimal separation between monotone circuits and monotone formulas using constant-degree polynomials for all fixed product depths, and an almost optimal separation between monotone formulas of product depths $Δ$ and $Δ$ + 1 for all $Δ$ $\\ge$ 1",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses monotone bounded depth formula complexity for graph homomorphism polynomials, which does not directly address the 'shadow heavier than the body' claim about the monotonicity of Φ(π)/proof_size in n. The two topics are related to proof complexity but do not interact with each other's specific claims.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}
