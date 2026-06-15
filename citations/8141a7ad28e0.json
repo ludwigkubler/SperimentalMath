@@ -1,0 +1,40 @@
+{
+  "entry_id": "8141a7ad28e0",
+  "ts": 1781549308.4490802,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2208.08749",
+      "title": "Active PETs: Active Data Annotation Prioritisation for Few-Shot Claim Verification with Pattern Exploiting Training",
+      "abstract_excerpt": "To mitigate the impact of the scarcity of labelled data on fact-checking systems, we focus on few-shot claim verification. Despite recent work on few-shot classification by proposing advanced language models, there is a dearth of research in data annotation prioritisation that improves the selection of the few shots to be labelled for optimal model performance. We propose Active PETs, a novel weighted approach that utilises an ensemble of Pattern Exploiting Training (PET) models based on various",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'Active PETs' for few-shot claim verification data annotation in NLP, with no relation to resolution proof complexity, DP steps, or Tseitin formulas mentioned in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2208.08430",
+      "title": "Individual Claims Reserving using Activation Patterns",
+      "abstract_excerpt": "The occurrence of a claim often impacts not one but multiple insurance coverages provided in the contract. To account for this multivariate feature, we propose a new individual claims reserving model built around the activation of the different coverages to predict the reserve amounts. Using the framework of multinomial logistic regression, we model the activation of the different insurance coverages for each claim and their development in the following years, i.e. the activation of other covera",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns individual claims reserving in insurance using multinomial logistic regression on coverage activation patterns, which shares no substantive connection to resolution proof complexity, Tseitin formulas, or the Φ(π)/proof_size monotonicity claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2605.24259",
+      "title": "Resident KV Claims: A Conformance Contract for Future Reuse under Active KV Pressure",
+      "abstract_excerpt": "KV-cache reuse mechanisms increasingly expose priority, duration, offload, routing hints, scheduler modes, and event streams. These mechanisms help preserve reusable prefixes, but they do not by themselves define a portable contract for accepted future-reuse state when resident KV and active live KV cannot both fit. We introduce resident KV claims, a conformance contract that binds future-reuse intent to a materialization predicate, lifecycle state, active/resident feasibility outcome, and claim",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns KV-cache reuse contracts in vLLM runtime systems ('resident KV claims, a conformance contract'), which has no interaction with resolution proof complexity, Tseitin formulas, or DP-step potential functions.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

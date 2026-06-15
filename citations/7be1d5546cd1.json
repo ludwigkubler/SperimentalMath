@@ -1,0 +1,40 @@
+{
+  "entry_id": "7be1d5546cd1",
+  "ts": 1781551036.9294407,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1807.02622",
+      "title": "Rényi Entropy Power Inequalities via Normal Transport and Rotation",
+      "abstract_excerpt": "Following a recent proof of Shannon's entropy power inequality (EPI), a comprehensive framework for deriving various EPIs for the Rényi entropy is presented that uses transport arguments from normal densities and a change of variable by rotation. Simple arguments are given to recover the previously known Rényi EPIs and derive new ones, by unifying a multiplicative form with constant c and a modification with exponent α of previous works. In particular, for log-concave densities, we obtain a simp",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Rényi entropy power inequalities via transport arguments and normal densities, with no mention of resolution proof complexity, Tseitin formulas, elimination orders, or cumulative entropy Φ. It shares only the broad vocabulary of 'entropy' but does not interact with the order-sensitivity claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2112.13763",
+      "title": "Yet Another Proof of the Joint Convexity of Relative Entropy",
+      "abstract_excerpt": "The joint convexity of the map $(X,A) \\mapsto X^* A^{-1} X$, an integral representation of operator convex functions, and an observation of Ando are used to obtain a simple proof of both the joint convexity of relative entropy and a trace convexity result of Lieb. The latter was the key ingredient in the original proof of the strong subadditivity of quantum entropy.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns joint convexity of quantum relative entropy and Lieb's trace convexity, which is unrelated to the order-sensitivity of cumulative entropy in resolution proof complexity for Tseitin formulas. The shared word 'entropy' is the only connection.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2601.16157",
+      "title": "Bounded cumulative observables from local linear relaxation",
+      "abstract_excerpt": "Cumulative observables often exhibit saturation in systems involving propagation or spreading with local dissipation. This work shows that bounded cumulative response follows directly from local linear relaxation. Linear cumulative observables accumulated over the lifetime of a relaxing signal are limited by a scale set by the relaxation time, independent of geometry, dimensionality, or microscopic transport dynamics. When relaxation is mapped to space through transport or spreading, this tempor",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses cumulative observables in physical relaxation/transport systems, with no mention of resolution proof complexity, Tseitin formulas, elimination orders, or cumulative entropy Φ. The shared word 'cumulative' is vocabulary overlap only.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

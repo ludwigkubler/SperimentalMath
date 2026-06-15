@@ -1,0 +1,40 @@
+{
+  "entry_id": "fe9ae47f8c73",
+  "ts": 1781549465.9571643,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2101.07005",
+      "title": "Optical Flow Method for Measuring Deformation of Soil Specimen Subjected to Torsional Shearing",
+      "abstract_excerpt": "In this study optical flow method was used for soil small deformation measurement in laboratory tests. The main objective was to observe how the deformation distributes along the whole height of cylindrical soil specimen subjected to torsional shearing (TS test). The experiments were conducted on dry non-cohesive soil specimens under two values of isotropic pressure. Specimens were loaded with low-amplitude cyclic torque to analyze the deformation within the small strain range (0.001-0.01%). Opt",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes optical flow measurement of soil deformation in torsional shearing tests, which has no connection to resolution proof complexity, DP elimination, or Tseitin formulas despite the shared word 'measure'.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1506.02689",
+      "title": "Identification of Error Sources in High Precision Weight Measurements of Gyroscopes",
+      "abstract_excerpt": "A number of weight anomalies have been reported in the past with respect to gyroscopes. Much attention was gained from a paper in Physical Review Letters, when Japanese scientists announced that a gyroscope loses weight up to $0.005\\%$ when spinning only in the clockwise rotation with the gyroscope's axis in the vertical direction. Immediately afterwards, a number of other teams tried to replicate the effect, obtaining a null result. It was suggested that the reported effect by the Japanese was ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract is about high-precision weight measurements of spinning gyroscopes and error sources like vibration and precession, which has no relationship to resolution proof complexity, DP elimination, or Tseitin formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2305.11782",
+      "title": "Real-time and Robust Feature Detection of Continuous Marker Pattern for Dense 3-D Deformation Measurement",
+      "abstract_excerpt": "Visuotactile sensing technology has received much attention in recent years. This article proposes a feature detection method applicable to visuotactile sensors based on continuous marker patterns (CMP) to measure 3-d deformation. First, we construct the feature model of checkerboard-like corners under contact deformation, and design a novel double-layer circular sampler. Then, we propose the judging criteria and response function of corner features by analyzing sampling signals' amplitude-frequ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns visuotactile sensor feature detection for 3-D deformation measurement ('feature detection method applicable to visuotactile sensors based on continuous marker patterns'), which has no relation to DP elimination, Tseitin formulas, or proof complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

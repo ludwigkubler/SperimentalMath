@@ -1,0 +1,40 @@
+{
+  "entry_id": "7dc8cd61e8c0",
+  "ts": 1781551876.7602718,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2407.17951",
+      "title": "Pruning Boolean d-DNNF Circuits Through Tseitin-Awareness",
+      "abstract_excerpt": "Boolean circuits in d-DNNF form enable tractable probabilistic inference. However, as a key insight of this work, we show that commonly used d-DNNF compilation approaches introduce irrelevant subcircuits. We call these subcircuits Tseitin artifacts, as they are introduced due to the Tseitin transformation step -- a well-established procedure to transform any circuit into the CNF format required by several d-DNNF knowledge compilers. We discuss how to detect and remove both Tseitin variables and ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns pruning Tseitin artifacts in d-DNNF knowledge compilation for probabilistic inference, not the growth rate of Φ(π) under min-occurrence DP elimination on 3-regular Tseitin formulas. It shares only the 'Tseitin' vocabulary without addressing resolution proof complexity or DP elimination scaling.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1401.4360",
+      "title": "3-regular matchstick graphs with given girth",
+      "abstract_excerpt": "We consider 3-regular planar matchstick graphs, i.e. those which have a planar embedding such that all edge lengths are equal, with given girth g. For girth 3 it is known that such graphs exist if and only if the number of vertices n is an even integer larger or equal to 8. Here we prove that such graphs exist for girth g=4 if and only if n is even and at least 20. We provide an example for girth g=5 consisting of 180 vertices.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns existence of 3-regular planar matchstick graphs with given girth — a geometric graph theory result that shares only the '3-regular' vocabulary with the conjecture about DP elimination complexity on Tseitin formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2209.05839",
+      "title": "On bounded depth proofs for Tseitin formulas on the grid; revisited",
+      "abstract_excerpt": "We study Frege proofs using depth-$d$ Boolean formulas for the Tseitin contradiction on $n \\times n$ grids. We prove that if each line in the proof is of size $M$ then the number of lines is exponential in $n/(\\log M)^{O(d)}$. This strengthens a recent result of Pitassi et al. [PRT22]. The key technical step is a multi-switching lemma extending the switching lemma of Håstad [Hås20] for a space of restrictions related to the Tseitin contradiction. The strengthened lemma also allows us to improve ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns bounded-depth Frege proof size lower bounds for Tseitin on grids via switching lemmas, not min-occurrence DP elimination's Φ(π) growth on 3-regular Tseitin. It shares the Tseitin vocabulary but does not address the specific DP-elimination measure or its scaling exponent.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
