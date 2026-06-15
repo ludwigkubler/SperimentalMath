@@ -1,0 +1,40 @@
+{
+  "entry_id": "cc6c2735af04",
+  "ts": 1781561982.757728,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/math/0101208v3",
+      "title": "A Proof of Desingularization over fields of characteristic zero",
+      "abstract_excerpt": "We present a proof of embedded desingularization for closed subschemes which does not make use of Hilbert-Samuel function and avoids Hironaka's notion of normal flatness.\n  This proof, already sketched in [A course on constructive desingularization and equivariance. In {\\em Resolution of singulariti",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns embedded desingularization of closed subschemes in algebraic geometry ('embedded desingularization for closed subschemes'), which has no interaction with resolution proof complexity or Tseitin formulas on expander graphs.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1810.10111",
+      "title": "A Simple Constructive Proof of Wigner's Theorem",
+      "abstract_excerpt": "This expository note presents a constructive proof of Wigner's theorem using only a few basic facts about Hilbert spaces, such as the existence of orthonormal bases and the Fourier decomposition of a vector. Our proof is based on a proof by Steven Weinberg found in the first volume of his series of textbooks on quantum field theory, but differs in a few places for the sake of greater simplicity and rigor.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a constructive proof of Wigner's theorem in Hilbert spaces and quantum field theory, which has no interaction with Tseitin formulas, resolution proof complexity, or graph expansion.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2303.18140",
+      "title": "New proofs of two identities of Ramanujan",
+      "abstract_excerpt": "A proof of several identities of Ramanujan involving theta functions of level $7$ is given which uses a specific modular function for $Γ_1(7)$ and Klein's projective representation of $PSL(2,7)$ into $PSL(3, \\mathbb{C})$. Four identities of Berndt and Zhang are derived as algebraic corollaries of the main proof.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Ramanujan theta function identities and modular functions for Γ_1(7), with no connection to resolution proof complexity, Tseitin formulas, or expander graphs cited in phrases like 'identities of Ramanujan involving theta functions of level 7'.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

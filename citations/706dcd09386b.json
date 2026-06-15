@@ -1,0 +1,40 @@
+{
+  "entry_id": "706dcd09386b",
+  "ts": 1781560302.2506788,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1801.03881",
+      "title": "Relative functoriality and functional equations via trace formulas",
+      "abstract_excerpt": "Langlands' functoriality principle predicts deep relations between the local and automorphic spectra of different reductive groups. This has been generalized by the relative Langlands program to include spherical varieties, among which reductive groups are special cases. In the philosophy of Langlands' \"beyond endoscopy\" program, these relations should be expressed as comparisons between different trace formulas, with the insertion of appropriate $L$-functions. The insertion of $L$-functions cal",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Langlands' functoriality, trace formulas, and L-functions in representation theory, with no connection to resolution proof complexity, Tseitin formulas, cumulative entropy, or balanced separators.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2301.07803",
+      "title": "Relating Edge Computing and Microservices by means of Architecture Approaches and Features, Orchestration, Choreography, and Offloading: A Systematic Literature Review",
+      "abstract_excerpt": "Context: Microservices running and being powered by Edge Computing have been gaining much attention in the industry and academia. Since 2014, when Martin Fowler popularized the Microservice term, many studies have been published relating these subjects to explore how the Edge's low-latency feature could be combined with the high throughput of the distributed paradigm from Microservices. Objective: Identifying how Microservices work together with Edge Computing whereas they take advantage when ru",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns a systematic literature review on Microservices and Edge Computing architectures, with no relation to resolution proof complexity, Tseitin formulas, or cumulative entropy bounds. As stated, this is 'a Systematic Literature Review (SLR)' on 'Microservices on Edge Computing,' entirely unrelated to the conjecture's subject.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2008.13542",
+      "title": "COVID-19 Kaggle Literature Organization",
+      "abstract_excerpt": "The world has faced the devastating outbreak of Severe Acute Respiratory Syndrome Coronavirus-2 (SARS-CoV-2), or COVID-19, in 2020. Research in the subject matter was fast-tracked to such a point that scientists were struggling to keep up with new findings. With this increase in the scientific literature, there arose a need for organizing those documents. We describe an approach to organize and visualize the scientific literature on or related to COVID-19 using machine learning techniques so tha",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes organizing COVID-19 scientific literature using machine learning, with no connection to resolution proof complexity, Tseitin formulas, or cumulative entropy bounds. The cited paper shares no relevant content with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

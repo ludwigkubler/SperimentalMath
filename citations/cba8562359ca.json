@@ -1,0 +1,40 @@
+{
+  "entry_id": "cba8562359ca",
+  "ts": 1781563113.9928985,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1305.6313",
+      "title": "Gaps in Protoplanetary Disks as Signatures of Planets: II. Inclined Disks",
+      "abstract_excerpt": "We examine the observational appearance of partial gaps being opened by planets in protoplanetary disks, considering the effects of the inclination relative to the line of sight. The gap's trough is darkened by both shadowing and cooling, relative to the uninterrupted disk. The gap's outer wall is brightened by direct illumination and also by heating, which puffs it up so that it intercepts more starlight. In this paper, we examine the effects of inclination on resolved images of disks with and ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns protoplanetary disks, planetary gaps, and scattered light imaging — it has no connection to resolution proof complexity, Tseitin formulas, or clause width scaling. The phrase 'gaps' and 'width' here refer to astrophysical disk features, not proof-theoretic quantities.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1108.1057",
+      "title": "A dynamical mass estimator for high z galaxies based on spectroastrometry",
+      "abstract_excerpt": "Galaxy dynamical masses are important physical quantities to constrain galaxy evolutionary models, especially at high redshifts. However, at z~2 the limited signal to noise ratio and spatial resolution of the data usually do not allow spatially resolved kinematical modeling and very often only virial masses can be estimated from line widths. But even such estimates require a good knowledge of galaxy size, which may be smaller than the spatial resolution. Spectroastrometry is a technique which co",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns astrophysical dynamical mass estimation of high-z galaxies via spectroastrometry, with no connection to resolution proof complexity, Tseitin formulas, or clause-width scaling. It shares no relevant content with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/chao-dyn/9601009v1",
+      "title": "The semiclassical resonance spectrum of Hydrogen in a constant magnetic field",
+      "abstract_excerpt": "We present the first purely semiclassical calculation of the resonance spectrum in the Diamagnetic Kepler problem (DKP), a hydrogen atom in a constant magnetic field with $L_z =0$. The classical system is unbound and completely chaotic for a scaled energy $ε\\sim E B^{-2/3}$ larger than a critical va",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns semiclassical resonance spectra of hydrogen in a magnetic field (Diamagnetic Kepler problem), which has no connection to resolution proof complexity or Tseitin formulas referenced in the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
