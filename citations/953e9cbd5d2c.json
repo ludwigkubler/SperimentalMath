@@ -1,0 +1,40 @@
+{
+  "entry_id": "953e9cbd5d2c",
+  "ts": 1781491879.6075969,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2503.14756",
+      "title": "SceneEval: Evaluating Semantic Coherence in Text-Conditioned 3D Indoor Scene Synthesis",
+      "abstract_excerpt": "Despite recent advances in text-conditioned 3D indoor scene generation, there remain gaps in the evaluation of these methods. Existing metrics often measure realism by comparing generated scenes to a set of ground-truth scenes, but they overlook how well scenes follow the input text and capture implicit expectations of plausibility. We present SceneEval, an evaluation framework designed to address these limitations. SceneEval introduces fine-grained metrics for explicit user requirements-includi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses text-conditioned 3D indoor scene synthesis and evaluation, which does not interact with the specific claim about cumulative entropy and balanced separator size in resolution proof complexity.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2408.02211",
+      "title": "SceneMotifCoder: Example-driven Visual Program Learning for Generating 3D Object Arrangements",
+      "abstract_excerpt": "Despite advances in text-to-3D generation methods, generation of multi-object arrangements remains challenging. Current methods exhibit failures in generating physically plausible arrangements that respect the provided text description. We present SceneMotifCoder (SMC), an example-driven framework for generating 3D object arrangements through visual program learning. SMC leverages large language models (LLMs) and program synthesis to overcome these challenges by learning visual programs from exa",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract of the cited paper discusses SceneMotifCoder, a framework for generating 3D object arrangements using visual program learning and large language models. It does not mention anything about Φ(π), cumulative entropy, or the balanced separator size |S|, which are concepts related to resolution proof complexity and Tseitin formulas. The abstract is focused on computer graphics and program synthesis, rather than the mathematical conjecture under review.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2509.13291",
+      "title": "Towards an Embodied Composition Framework for Organizing Immersive Computational Notebooks",
+      "abstract_excerpt": "As immersive technologies evolve, immersive computational notebooks offer new opportunities for interacting with code, data, and outputs. However, scaling these environments remains a challenge, particularly when analysts manually arrange large numbers of cells to maintain both execution logic and visual coherence. To address this, we introduce an embodied composition framework, facilitating organizational processes in the context of immersive computational notebooks. To evaluate the effectivene",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract of the cited paper does not provide any information related to the conjecture about cumulative entropy or balanced separator size. It discusses the design and evaluation of immersive computational notebooks, which is orthogonal to the field of resolution proof complexity and Tseitin formulas addressed by the conjecture.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}

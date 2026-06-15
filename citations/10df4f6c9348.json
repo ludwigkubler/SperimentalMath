@@ -1,0 +1,40 @@
+{
+  "entry_id": "10df4f6c9348",
+  "ts": 1781494248.703176,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1004.2159",
+      "title": "Algebraic Proofs over Noncommutative Formulas",
+      "abstract_excerpt": "We study possible formulations of algebraic propositional proof systems operating with noncommutative formulas. We observe that a simple formulation gives rise to systems at least as strong as Frege---yielding a semantic way to define a Cook-Reckhow (i.e., polynomially verifiable) algebraic analog of Frege proofs, different from that given in [BIKPRS96,GH03]. We then turn to an apparently weaker system, namely, polynomial calculus (PC) where polynomials are written as ordered formulas (PC over o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses algebraic propositional proof systems and their strength compared to resolution and polynomial calculus, while the conjecture is about the scaling of width-aware totalLiteralWeight versus count-based Φ. There is no direct interaction between these two topics in the abstract.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1606.05050",
+      "title": "Proof Complexity Lower Bounds from Algebraic Circuit Complexity",
+      "abstract_excerpt": "We give upper and lower bounds on the power of subsystems of the Ideal Proof System (IPS), the algebraic proof system recently proposed by Grochow and Pitassi, where the circuits comprising the proof come from various restricted algebraic circuit classes. This mimics an established research direction in the boolean setting for subsystems of Extended Frege proofs, where proof-lines are circuits from restricted boolean circuit classes. Except one, all of the subsystems considered in this paper can",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses upper and lower bounds on the power of subsystems of the Ideal Proof System (IPS) and their relation to algebraic circuit complexity. It does not mention width-aware totalLiteralWeight or count-based Φ, which are specific concepts related to resolution proof complexity and Tseitin formulas. Therefore, there is no interaction with the conjecture.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:cs/0111062",
+      "title": "One-way communication complexity and the Neciporuk lower bound on formula size",
+      "abstract_excerpt": "In this paper the Neciporuk method for proving lower bounds on the size of Boolean formulae is reformulated in terms of one-way communication complexity. We investigate the scenarios of probabilistic formulae, nondeterministic formulae, and quantum formulae. In all cases we can use results about one-way communication complexity to prove lower bounds on formula size. In the latter two cases we newly develop the employed communication complexity bounds. The main results regarding formula size are ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses lower bounds on the size of Boolean formulae in terms of one-way communication complexity, focusing on probabilistic, nondeterministic, and quantum formulae. The abstract does not mention 'width-aware totalLiteralWeight', 'count-based Φ', or any concept related to the scaling of cumulative weight with respect to width, which are key elements of the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
