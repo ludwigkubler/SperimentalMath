@@ -1,0 +1,40 @@
+{
+  "entry_id": "27eb727cc5f0",
+  "ts": 1781507977.2290614,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2503.00774",
+      "title": "Shadow: Leveraging Segmentation Masks for Cross-Embodiment Policy Transfer",
+      "abstract_excerpt": "Data collection in robotics is spread across diverse hardware, and this variation will increase as new hardware is developed. Effective use of this growing body of data requires methods capable of learning from diverse robot embodiments. We consider the setting of training a policy using expert trajectories from a single robot arm (the source), and evaluating on a different robot arm for which no data was collected (the target). We present a data editing scheme termed Shadow, in which the robot ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract of the cited paper discusses a data editing scheme for policy transfer in robotics, focusing on segmentation masks and improving data efficiency. It does not mention anything about Φ(π)/proof_size or the monotonicity of per-step active weight in resolution proof complexity or Tseitin formulas.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2212.11963",
+      "title": "Operator relaxation and the optimal depth of classical shadows",
+      "abstract_excerpt": "Classical shadows are a powerful method for learning many properties of quantum states in a sample-efficient manner, by making use of randomized measurements. Here we study the sample complexity of learning the expectation value of Pauli operators via ``shallow shadows'', a recently-proposed version of classical shadows in which the randomization step is effected by a local unitary circuit of variable depth $t$. We show that the shadow norm (the quantity controlling the sample complexity) is exp",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract discusses the competition between operator spreading and operator relaxation in quantum many-body dynamics but does not provide a direct comparison or statement regarding the monotonicity of Φ(π)/proof_size with respect to n, which is central to the conjecture.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1409.6980",
+      "title": "Shadowing for differential equations with grow-up",
+      "abstract_excerpt": "We consider the problem of shadowing for differential equations with grow-up. We introduce so-called nonuniform shadowing properties (in which size of the error depends on the point of the phase space) and prove for them analogs of shadowing lemma. Besides, we prove a theorem about weighted shadowing for flows. We compactify the system (using Poincare compactification, for example), apply the results about nonuniform or weighted shadowing to the compactified system, and then transfer the results",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract discusses shadowing properties for differential equations with grow-up and introduces nonuniform shadowing properties. However, it does not mention any relation to Φ(π)/proof_size or the concept of 'shadow heavier than the body', which is central to the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}
