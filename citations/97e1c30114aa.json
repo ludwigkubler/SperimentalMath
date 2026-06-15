@@ -1,0 +1,40 @@
+{
+  "entry_id": "97e1c30114aa",
+  "ts": 1781515274.8134646,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2004.03654",
+      "title": "Flux growth of Sr(n+1)Ir(n)O(3n+1) [n=1, 2, infinity] crystals",
+      "abstract_excerpt": "Single crystals of iridates are usually grown by a flux method well above the boiling point of the SrCl2 solvent. This leads to non-equilibrium growth conditions and dramatically shortens the lifetime of expensive Pt crucibles. Here, we report the growth of Sr2IrO4, Sr3Ir2O7 and SrIrO3 single crystals in a reproducible way by using anhydrous SrCl2 flux well below its boiling point. We show that the yield of the different phases strongly depends on the nutrient/solvent ratio for fixed soak temper",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper's abstract discusses crystal growth conditions and magnetic susceptibility properties of iridates, which is unrelated to the conjecture about the growth of Φ(π) in Tseitin formulas under min-occurrence DP elimination. The topics are distinct and there is no interaction between them.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2003.01308",
+      "title": "Dislocation pipe diffusion and solute segregation during the growth of metastable GeSn",
+      "abstract_excerpt": "Controlling the growth kinetics from the vapor phase has been a powerful paradigm enabling a variety of metastable epitaxial semiconductors such as Sn-containing group IV semiconductors (Si)GeSn. In addition to its importance for emerging photonic and optoelectronic applications, this class of materials is also a rich platform to highlight the interplay between kinetics and thermodynamic driving forces during growth of strained, nonequilibrium alloys. Indeed, these alloys are inherently strained",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited abstract discusses atomic-scale microstructure in the growth of metastable GeSn, which is unrelated to the conjecture about the growth of Φ(π) on 3-regular Tseitin formulas under min-occurrence DP elimination. There is no information in the abstract that addresses the complexity or behavior of Φ(π).",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1709.05771",
+      "title": "Variational formulas, Busemann functions, and fluctuation exponents for the corner growth model with exponential weights",
+      "abstract_excerpt": "These lecture notes discuss several related features of the exactly solvable two-dimensional corner growth model with exponentially distributed weights. A key property of this model is the availability of a fairly explicit stationary version that possesses useful independence properties. With the help of couplings and estimates, we prove the existence of Busemann functions for this model, and the precise values of the longitudinal and transversal fluctuation exponents for the stationary corner g",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses features of a two-dimensional corner growth model with exponentially distributed weights, which is unrelated to the conjecture about min-occurrence DP elimination on 3-regular Tseitin formulas and their entropy growth.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}
