@@ -1,0 +1,40 @@
+{
+  "entry_id": "cd5a8e452776",
+  "ts": 1781520424.3886037,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2009.02029",
+      "title": "On cumulative entropies in terms of moments of order statistics",
+      "abstract_excerpt": "In this paper relations among some kinds of cumulative entropies and moments of order statistics are presented. By using some characterizations and the symmetry of a non negative and absolutely continuous random variable X, lower and upper bounds for entropies are obtained and examples are given.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract of the cited paper focuses on relations among cumulative entropies and moments of order statistics, with no direct mention of width-aware totalLiteralWeight or count-based Φ. The specific claim about the scaling exponents is not addressed, making it impossible to determine from the abstract alone whether the conjecture is supported, refuted, or orthogonal.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2511.11592",
+      "title": "Mind Your Entropy: From Maximum Entropy to Trajectory Entropy-Constrained RL",
+      "abstract_excerpt": "Maximum entropy has become a mainstream off-policy reinforcement learning (RL) framework for balancing exploitation and exploration. However, two bottlenecks still limit further performance improvement: (1) non-stationary Q-value estimation caused by jointly injecting entropy and updating its weighting parameter, i.e., temperature; and (2) short-sighted local entropy tuning that adjusts temperature only according to the current single-step entropy, without considering the effect of cumulative en",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses trajectory entropy-constrained reinforcement learning (TECRL) and introduces an algorithm, DSAC-E, which aims to improve the performance of off-policy reinforcement learning algorithms. The abstract does not mention 'width-aware totalLiteralWeight', 'count-based Φ', or any concepts related to the scaling of cumulative weight with respect to width. Instead, it focuses on entropy constraints in RL and the development of a new algorithm.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2504.19725",
+      "title": "Analyzing distortion riskmetrics and weighted entropy for unimodal and symmetric distributions under partial information constraints",
+      "abstract_excerpt": "In this paper, we develop the lower and upper bounds of worst-case distortion riskmetrics and weighted entropy for unimodal, and symmetric unimodal distributions when mean and variance information are available. We also consider the sharp upper bounds of distortion riskmetrics and weighted entropy for symmetric distribution under known mean and variance. These results are applied to (weighted) entropies, shortfalls and other risk measures. Specifically, entropies include cumulative Tsallis past ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited abstract discusses bounds for distortion riskmetrics and weighted entropy in unimodal and symmetric distributions under partial information constraints. It does not mention width-aware totalLiteralWeight, count-based Φ, or the scaling of cumulative weight with respect to width as described in the conjecture.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}
