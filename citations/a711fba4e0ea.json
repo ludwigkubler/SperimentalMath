@@ -1,0 +1,40 @@
+{
+  "entry_id": "a711fba4e0ea",
+  "ts": 1781542689.4598153,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2311.15289",
+      "title": "Counting cliques without generalized theta graphs",
+      "abstract_excerpt": "The \\textit{generalized Turán number} $\\mathrm{ex}(n, T, F)$ is the maximum possible number of copies of $T$ in an $F$-free graph on $n$ vertices for any two graphs $T$ and $F$. For the book graph $B_t$, there is a close connection between $\\ex(n,K_3,B_t)$ and the Ruzsa-Szemerédi triangle removal lemma. Motivated by this, in this paper, we study the generalized Turán problem for generalized theta graphs, a natural extension of book graphs. Our main result provides a complete characterization of ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper's abstract discusses the generalized Turán number for generalized theta graphs and their connection to the Ruzsa-Szemerédi triangle removal lemma, which is orthogonal to the conjecture about the entropy of Tseitin formulas on expander-based and path/tree graphs.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1408.5939",
+      "title": "Planar Induced Subgraphs of Sparse Graphs",
+      "abstract_excerpt": "We show that every graph has an induced pseudoforest of at least $n-m/4.5$ vertices, an induced partial 2-tree of at least $n-m/5$ vertices, and an induced planar subgraph of at least $n-m/5.2174$ vertices. These results are constructive, implying linear-time algorithms to find the respective induced subgraphs. We also show that the size of the largest $K_h$-minor-free graph in a given graph can sometimes be at most $n-m/6+o(m)$.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper discusses properties of induced subgraphs and the size of largest $K_h$-minor-free graphs, which is orthogonal to the conjecture that focuses on the entropy of Tseitin formulas for expander-based graphs versus path/tree graphs. The abstract does not provide any direct support or refutation of the conjecture regarding Φ(π).",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:1402.2589",
+      "title": "Partitioning Perfect Graphs into Stars",
+      "abstract_excerpt": "The partition of graphs into \"nice\" subgraphs is a central algorithmic problem with strong ties to matching theory. We study the partitioning of undirected graphs into same-size stars, a problem known to be NP-complete even for the case of stars on three vertices. We perform a thorough computational complexity study of the problem on subclasses of perfect graphs and identify several polynomial-time solvable cases, for example, on interval graphs and bipartite permutation graphs, and also NP-comp",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract of the cited paper discusses partitioning perfect graphs into stars and provides complexity results for specific graph classes. It does not address the entropy of Tseitin formulas or their relation to graph expansion, which is the focus of the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}
