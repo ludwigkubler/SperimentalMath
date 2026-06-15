@@ -1,0 +1,40 @@
+{
+  "entry_id": "bd73e7e44eac",
+  "ts": 1781533578.6805687,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1208.4567",
+      "title": "A General Method for Constructing Ramanujan Formulas for $1/π^ν$",
+      "abstract_excerpt": "In this article we give the theoretical background for generating Ramanujan type $1/π^{2ν}$ formulas. As applications of our method we give a general construction of $1/π^4$ series and examples of $1/π^6$ series. We also study the elliptic alpha function whose values are useful for such evaluations.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses Ramanujan formulas for $1/π^ν$, which does not interact with the specific claim about Φ(π)/proof_size being monotone increasing in n, as it pertains to a different mathematical context.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:1501.06413",
+      "title": "A family of Ramanujan-Orr formulas for $1/π$",
+      "abstract_excerpt": "We use a variant of Wan's method to prove two Ramanujan-Orr type formulas for $1/π$. This variant needs to know in advance the formulas for $1/π$ that we want to prove, but avoids the need of solving a system of equations.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract of the cited paper discusses Ramanujan-Orr type formulas for $1/π$ and does not mention anything related to resolution proof complexity, Tseitin formulas, or the monotonicity of Φ(π)/proof_size. Therefore, it does not support or refute the conjecture.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2205.08617",
+      "title": "Relations between $π$ and the golden ratio $φ$ in the form of Bailey-Borwein-Plouffe-type formulas",
+      "abstract_excerpt": "We provide a family of expressions of $π$ in terms of the golden ratio $φ$ in the same spirit of the formula obtained by Bailey, Borwein and Plouffe for $π$. Connection with cyclotomic polynomials is outlined.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited abstract discusses expressions of π in terms of the golden ratio φ and their connection to cyclotomic polynomials. This topic is unrelated to the conjecture about the monotonicity of Φ(π)/proof_size with respect to n, as it pertains to mathematical expressions rather than proof complexity.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}

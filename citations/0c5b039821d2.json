@@ -1,0 +1,31 @@
+{
+  "entry_id": "0c5b039821d2",
+  "ts": 1781531357.6456883,
+  "hits_evaluated": 2,
+  "verdicts": [
+    {
+      "paper_id": "s2:10.1049/cje.2019.06.024",
+      "title": "State Machine with Tracking Tree and Traffic Allocation Scheme Based on Cumulative Entropy for Satellite Network",
+      "abstract_excerpt": "Satellite network is regarded as an important component of 5th Generation (5G). New deployment scenarios have been designed in form of satellite network fused 5G terrestrial network. Service requests in Non terrestrial networks (NTN) are noncentralized in the time and space domain, which cause services modelling uncertain and lack of balance between latency and bandwidth. Targeted at those bottlenecks, a Satellite service model based on State machine with tracking tree (SM-SMTT) and traffic allo",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses a state machine with tracking tree and traffic allocation using cumulative entropy for satellite networks, focusing on improving performance in terms of delay and bandwidth utilization. It does not address the conjecture regarding the relationship between Φ(π) and |S|² in resolution proof complexity or Tseitin formulas.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "s2:10.22214/ijraset.2024.58917",
+      "title": "Towards Efficient Coordination in Multi-Agent Reinforcement Learning through Hybrid Information-Driven Approaches",
+      "abstract_excerpt": "Abstract: This paper introduces a novel framework to enhance coordination in multi-agent reinforcement learning (MARL) systems by integrating mutual information (MMI) principles with information-driven strategies. Firstly, we propose a variational approach leveraging MMI to promote coordinated behaviors among agents by regulating the cumulative return alongside the simultaneous mutual information between multi-agent actions. Through the introduction of a latent variable inducing nonzero mutual i",
+      "abstract_source": "semanticscholar",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper discusses multi-agent reinforcement learning and information-driven strategies, which are orthogonal to the conjecture about cumulative-entropy lower bounds in resolution proof complexity. The abstract does not mention anything about Φ(π) or balanced separator size, making it impossible to determine support or refutation of the conjecture from the provided information alone.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 1
+  }
+}

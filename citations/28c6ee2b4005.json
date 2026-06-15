@@ -1,0 +1,40 @@
+{
+  "entry_id": "28c6ee2b4005",
+  "ts": 1781533897.4452934,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2503.14756",
+      "title": "SceneEval: Evaluating Semantic Coherence in Text-Conditioned 3D Indoor Scene Synthesis",
+      "abstract_excerpt": "Despite recent advances in text-conditioned 3D indoor scene generation, there remain gaps in the evaluation of these methods. Existing metrics often measure realism by comparing generated scenes to a set of ground-truth scenes, but they overlook how well scenes follow the input text and capture implicit expectations of plausibility. We present SceneEval, an evaluation framework designed to address these limitations. SceneEval introduces fine-grained metrics for explicit user requirements-includi",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract of the cited paper discusses a framework for evaluating semantic coherence in text-conditioned 3D indoor scene generation, which is unrelated to the conjecture about cumulative entropy and space lower bounds in resolution proof complexity.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2408.02211",
+      "title": "SceneMotifCoder: Example-driven Visual Program Learning for Generating 3D Object Arrangements",
+      "abstract_excerpt": "Despite advances in text-to-3D generation methods, generation of multi-object arrangements remains challenging. Current methods exhibit failures in generating physically plausible arrangements that respect the provided text description. We present SceneMotifCoder (SMC), an example-driven framework for generating 3D object arrangements through visual program learning. SMC leverages large language models (LLMs) and program synthesis to overcome these challenges by learning visual programs from exa",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract of the cited paper discusses SceneMotifCoder, a framework for generating 3D object arrangements using visual program learning. This topic is unrelated to the conjecture about Φ(π) >= c·|S|² in resolution proof complexity and Tseitin formulas, as it focuses on visual program learning and 3D object arrangement generation.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2509.13291",
+      "title": "Towards an Embodied Composition Framework for Organizing Immersive Computational Notebooks",
+      "abstract_excerpt": "As immersive technologies evolve, immersive computational notebooks offer new opportunities for interacting with code, data, and outputs. However, scaling these environments remains a challenge, particularly when analysts manually arrange large numbers of cells to maintain both execution logic and visual coherence. To address this, we introduce an embodied composition framework, facilitating organizational processes in the context of immersive computational notebooks. To evaluate the effectivene",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract discusses an embodied composition framework for immersive computational notebooks and its effectiveness in reducing user effort. It does not mention anything about resolution proof complexity, Tseitin formulas, cumulative entropy, or the relationship between Φ(π) and |S|².",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}
