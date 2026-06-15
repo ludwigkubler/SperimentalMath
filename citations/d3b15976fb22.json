@@ -1,0 +1,40 @@
+{
+  "entry_id": "d3b15976fb22",
+  "ts": 1781489626.02336,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2103.09609",
+      "title": "Characterizing Tseitin-formulas with short regular resolution refutations",
+      "abstract_excerpt": "Tseitin-formulas are systems of parity constraints whose structure is described by a graph. These formulas have been studied extensively in proof complexity as hard instances in many proof systems. In this paper, we prove that a class of unsatisfiable Tseitin-formulas of bounded degree has regular resolution refutations of polynomial length if and only if the treewidth of all underlying graphs $G$ for that class is in $O(\\log|V(G)|)$. To do so, we show that any regular resolution refutation of a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited abstract discusses the length of regular resolution refutations for Tseitin-formulas and their connection to treewidth, while the conjecture is about the scaling of width-aware totalLiteralWeight compared to count-based Φ. The abstract does not address the scaling properties of cumulative weight or its relation to width.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2409.12802",
+      "title": "Minkowski difference weight formulas",
+      "abstract_excerpt": "Fix any complex Kac-Moody Lie algebra $\\mathfrak{g}$, and Cartan subalgebra $\\mathfrak{h}\\subset \\mathfrak{g}$. We study arbitrary highest weight $\\mathfrak{g}$-modules $V$ (with any highest weight $λ\\in \\mathfrak{h}^*$, and let $L(λ)$ be the corresponding simple highest weight $\\mathfrak{g}$-module), and write their weight-sets $\\mathrm{wt} V$. This is based on and generalizes the Minkowski decompositions for all $\\mathrm{wt} L(λ)$ and hulls $\\mathrm{conv}_{\\mathbb{R}}(\\mathrm{wt} V)$, of Khare",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses Minkowski difference weight formulas and their applications to Lie algebras and modules, which is unrelated to the conjecture about the scaling of width-aware totalLiteralWeight in resolution proof complexity or Tseitin formulas.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2203.05515",
+      "title": "A weight-formula for all highest weight modules, and a higher order parabolic category $\\mathcal{O}$",
+      "abstract_excerpt": "Let $\\mathfrak{g}$ be a complex Kac-Moody algebra, with Cartan subalgebra $\\mathfrak{h}$. Also fix a weight $λ\\in\\mathfrak{h}^*$. For $M(λ)\\twoheadrightarrow V$ an arbitrary highest weight $\\mathfrak{g}$-module, we provide a cancellation-free, non-recursive formula for the weights of $V$. This is novel even in finite type, and is obtained from $λ$ and a collection $\\mathcal{H}=\\mathcal{H}_V$ of independent sets in the Dynkin diagram of $\\mathfrak{g}$ that are associated to $V$.\n  Our proofs use ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The cited paper discusses complex Kac-Moody algebras and provides a formula for weights in highest weight modules, which is unrelated to the conjecture about the scaling of width-aware totalLiteralWeight compared to count-based Φ in resolution proof complexity and Tseitin formulas.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

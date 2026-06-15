@@ -1,0 +1,40 @@
+{
+  "entry_id": "8d7049629a4e",
+  "ts": 1781490738.8791366,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2411.10229",
+      "title": "Optimally Rewriting Formulas and Database Queries: A Confluence of Term Rewriting, Structural Decomposition, and Complexity",
+      "abstract_excerpt": "A central computational task in database theory, finite model theory, and computer science at large is the evaluation of a first-order sentence on a finite structure. In the context of this task, the \\emph{width} of a sentence, defined as the maximum number of free variables over all subformulas, has been established as a crucial measure, where minimizing width of a sentence (while retaining logical equivalence) is considered highly desirable. An undecidability result rules out the possibility o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract discusses width minimization and algorithms for sentence simplification but does not provide a direct comparison or statement regarding the scaling of the width-aware totalLiteralWeight with respect to the count-based Φ, which is central to the conjecture.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2010.13097",
+      "title": "The $λ$-point anomaly in view of the seven-loop Hypergeometric resummation for the critical exponent $ν$ of the $O(2)$ $φ^4$ model",
+      "abstract_excerpt": "In this work, we use a specific parameterization of the hypergeometric approximants ( the one by Mera et.al in Phys. Rev. Let. 115, 143001 (2015)) to approximate the seven-loop critical exponent $ν$ for the $O(2)$-symmetric $φ^4$ model. Our prediction gives the result $ν=0.6711(7)$ which is compatible with the value $ν=0.6709(1)$ from the famous experiment carried on the space shuttle Columbia. On the other hand, our result is also compatible with recent precise theoretical predictions that are ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses hypergeometric resummation for approximating critical exponents in a physical model, which is unrelated to the width-aware totalLiteralWeight and its scaling in resolution proof complexity or Tseitin formulas as mentioned in the conjecture.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2603.29195",
+      "title": "The Lee--Yang Edge Exponent via Logarithmic Averaging",
+      "abstract_excerpt": "Let $F$ be the thermodynamic free energy of a ferromagnetic Ising model,analytic on $\\mathbb{C}^{*}\\setminus\\mathcal{Z}_β$. The Lee--Yang edge at $z_c\\in\\partial\\mathcal{Z}_β$ is characterised by $F(z)=F(z_c)+B(z-z_c)^{σ+1}+o(|z-z_c|^{σ+1})$ with $σ\\in(-1,0)$ and $B\\neq 0$.\n  We prove three results:\n  Theorem A (Jensen slope): defining the Jensen average $\\widetilde{N}(x)=\\frac{1}{2π}\\int_0^{2π}\\log|\\widetilde{F}(e^{x+iθ})|\\,dθ$ of $\\widetilde{F}=F-F(z_c)$, the edge exponent satisfies $\\widetild",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited abstract discusses the Lee--Yang edge exponent in the context of thermodynamic free energy and conformal field theory, which is unrelated to the width-aware totalLiteralWeight scaling with respect to width amplification as described in the conjecture. The vocabulary and framework are distinct.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 2
+  }
+}
