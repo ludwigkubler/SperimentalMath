@@ -1,0 +1,40 @@
+{
+  "entry_id": "6fb1bdc28171",
+  "ts": 1781558959.2154877,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2411.15515",
+      "title": "Finding Bugs in Short Proofs: The Metamathematics of Resolution Lower Bounds",
+      "abstract_excerpt": "We study the *refuter* problems for proof complexity lower bounds. Suppose $\\varphi$ is a hard tautology that does not admit any length-$s$ proof in some proof system $P$. In the corresponding refuter problem, we are given (query access to) a purported length-$s$ proof $π$ in $P$ that claims to have proved $\\varphi$, and our goal is to find an invalid derivation step within $π$. As suggested by witnessing theorems in bounded arithmetic, the *computational complexity* of these refuter problems is",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses the metamathematics of resolution lower bounds and refuter problems (TFNP classes, bounded arithmetic), not the monotonicity of any per-step weight measure Φ(π)/proof_size in DP refutations of Tseitin formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2503.10945",
+      "title": "Gaussian DP for Reporting Differential Privacy Guarantees in Machine Learning",
+      "abstract_excerpt": "Current practices for reporting the level of differential privacy (DP) protection for machine learning (ML) algorithms such as DP-SGD provide an incomplete and potentially misleading picture of the privacy guarantees. For instance, if only a single $(\\varepsilon,δ)$ is known about a mechanism, standard analyses show that there exist highly accurate inference attacks against training data records, when, in fact, such accurate attacks might not exist. In this position paper, we argue that using no",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Gaussian Differential Privacy reporting for ML algorithms like DP-SGD, with no connection to resolution proof complexity, Tseitin formulas, or DP (Davis-Putnam) proof steps. The shared 'DP' acronym refers to differential privacy here, not Davis-Putnam.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2605.02718",
+      "title": "Private Speech Classification without Collapse: Stabilized DP Training and Offline Distillation",
+      "abstract_excerpt": "We study example-level private supervised speech classification under a practical release constraint: training may access privileged side information, but the released model must be audio-only. This setting is important because speech systems can often exploit richer side information during development, whereas deployment and release require a lightweight unimodal model with auditable privacy guarantees. Using DP-SGD on the private dataset $D_{\\text{priv}}$, we identify a strong-privacy failure ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns differentially-private speech classification with DP-SGD, distillation, and acoustic front-ends — entirely unrelated to resolution proof complexity, Tseitin formulas, or DP (Davis-Putnam) proof step weights. The shared 'DP' acronym is coincidental and does not engage with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

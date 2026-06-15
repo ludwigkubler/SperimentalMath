@@ -1,0 +1,40 @@
+{
+  "entry_id": "b879ecd05fc2",
+  "ts": 1781559113.192938,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2411.03398",
+      "title": "DP-HLS: A High-Level Synthesis Framework for Accelerating Dynamic Programming Algorithms in Bioinformatics",
+      "abstract_excerpt": "Dynamic programming (DP) based algorithms are essential yet compute-intensive parts of numerous bioinformatics pipelines, which typically involve populating a 2-D scoring matrix based on a recursive formula, optionally followed by a traceback step to get the optimal alignment path. DP algorithms are used in a wide spectrum of bioinformatics tasks, including read assembly, homology search, gene annotation, basecalling, and phylogenetic inference. So far, specialized hardware like ASICs and FPGAs ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes 'DP' as dynamic programming for bioinformatics algorithms accelerated via FPGAs, not the Davis-Putnam (DP) elimination procedure in resolution proof complexity referenced by the conjecture. There is no interaction with Tseitin formulas or Φ(π) scaling.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2605.30312",
+      "title": "DP-SAPF: Saliency-Aware Parameter Fine-tuning of Public Models for Differentially Private Image Synthesis",
+      "abstract_excerpt": "Differentially private (DP) image synthesis generates images that preserve the statistical characteristics of a sensitive dataset, enabling sensitive data analysis and usage while providing rigorous guarantees of privacy leakage. Existing methods fine-tune public models using DP Stochastic Gradient Descent (DP-SGD) on sensitive images to generate synthetic images. But full fine-tuning public models on sensitive images is computationally expensive, because current public models typically contain ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns differentially private image synthesis via saliency-aware LoRA fine-tuning ('DP-SAPF, which uses a saliency-aware strategy to identify specific target parameters for LoRA training under DP'), which has no connection to Davis-Putnam elimination, Tseitin formulas, or proof complexity despite sharing the 'DP' acronym.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1210.4479",
+      "title": "Dp-minimality: invariant types and dp-rank",
+      "abstract_excerpt": "This paper has two parts. In the first one, we prove that an invariant dp-minimal type is either finitely satisfiable or definable. We also prove that a definable version of the (p,q)-theorem holds in dp-minimal theories of small or medium directionality. In the second part, we study dp-rank in dp-minimal theories and show that it enjoys many nice properties. It is continuous, definable in families and it can be characterised geometrically with no mention of indiscernible sequences. In particula",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns dp-minimality and dp-rank in model theory (invariant types, (p,q)-theorem, ordered abelian groups), which shares only the 'DP' acronym with Davis-Putnam elimination in propositional proof complexity. It says nothing about Tseitin formulas, resolution, or proof size growth.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
