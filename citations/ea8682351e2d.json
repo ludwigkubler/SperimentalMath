@@ -1,0 +1,40 @@
+{
+  "entry_id": "ea8682351e2d",
+  "ts": 1781547526.2188416,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2605.20344",
+      "title": "Sensitivity of spectral lines to granulation: from the Sun to K-type stars",
+      "abstract_excerpt": "Stellar granulation produces radial-velocity (RV) jitter at the 1 m/s level in Sun-like stars, limiting Earth-analog detection. A route beyond this limit is to weight spectral lines according to their granulation sensitivity. We apply a line-by-line diagnostic from 3D magneto-convection simulations that measures how each line's Doppler shift and strength respond to convective velocity and thermodynamic fluctuations. Extending our solar study, which used spatial line-profile variability across on",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract is about stellar spectroscopy and radial-velocity jitter from granulation in Sun-like and K-type stars ('Stellar granulation produces radial-velocity (RV) jitter'), with no connection to resolution proof complexity, Tseitin formulas, or width-vs-count scaling exponents.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2209.12421",
+      "title": "Holographic Entanglement Entropy and Complexity for D-Wave Superconductors",
+      "abstract_excerpt": "By using the RT formula and the subregion CV conjecture respectively, we numerically investigate the holographic entanglement entropy (HEE) and holographic subregion complexity (HSC) for two holographic d-wave superconducting models with backreactions. We find that both the HEE and HSC can be used as good probes to these two d-wave superconducting phase transitions. The HEE of superconducting phase is always lower than that of the normal phase due to the condensation of degrees of freedom below ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns holographic entanglement entropy and subregion complexity for d-wave superconductors using RT/CV conjectures, with no connection to resolution proof complexity, Tseitin formulas, or clause-width scaling exponents.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0801.4790",
+      "title": "Information Width",
+      "abstract_excerpt": "Kolmogorov argued that the concept of information exists also in problems with no underlying stochastic model (as Shannon's information representation) for instance, the information contained in an algorithm or in the genome. He introduced a combinatorial notion of entropy and information $I(x:\\sy)$ conveyed by a binary string $x$ about the unknown value of a variable $\\sy$. The current paper poses the following questions: what is the relationship between the information conveyed by $x$ about $\\",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Kolmogorov-style 'information width' in approximation/description complexity theory, with no mention of resolution proof complexity, Tseitin formulas, clause-width exponents, or cumulative literal weight scaling. It shares only the loose word 'width' but does not engage with the specific scaling claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

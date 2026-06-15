@@ -1,0 +1,40 @@
+{
+  "entry_id": "3edc1781e0b8",
+  "ts": 1781547218.0011783,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2103.09609",
+      "title": "Characterizing Tseitin-formulas with short regular resolution refutations",
+      "abstract_excerpt": "Tseitin-formulas are systems of parity constraints whose structure is described by a graph. These formulas have been studied extensively in proof complexity as hard instances in many proof systems. In this paper, we prove that a class of unsatisfiable Tseitin-formulas of bounded degree has regular resolution refutations of polynomial length if and only if the treewidth of all underlying graphs $G$ for that class is in $O(\\log|V(G)|)$. To do so, we show that any regular resolution refutation of a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract characterizes regular resolution refutation length via treewidth (2^Ω(tw(G))), not DP elimination with min-occurrence heuristic or the specific Φ(π) growth exponent on 3-regular Tseitin. It shares the Tseitin/proof-complexity framework but does not address the conjectured log-log slope of min-occurrence DP.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0911.3482",
+      "title": "Complexity of Networks (reprise)",
+      "abstract_excerpt": "Network or graph structures are ubiquitous in the study of complex systems. Often, we are interested in complexity trends of these system as it evolves under some dynamic. An example might be looking at the complexity of a food web as species enter an ecosystem via migration or speciation, and leave via extinction.\n  In a previous paper, a complexity measure of networks was proposed based on the {\\em complexity is information content} paradigm. To apply this paradigm to any object, one must fix ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns information-theoretic complexity measures of network/graph structures (e.g., link-list encodings for food webs), not resolution proof complexity, DP elimination, or Tseitin formulas. It shares no specific claim about Φ(π) scaling on 3-regular Tseitin instances.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/nlin/0101006v1",
+      "title": "On Complexity and Emergence",
+      "abstract_excerpt": "Numerous definitions for complexity have been proposed over the last half century, with little consensus achieved on how to use the term. A definition of complexity is supplied here that is closely related to the Kolmogorov Complexity and Shannon Entropy measures widely used as complexity measures, ",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses general definitions of complexity related to Kolmogorov Complexity and Shannon Entropy, with no mention of DP elimination, Tseitin formulas, or resolution proof complexity scaling. It shares only the generic term 'complexity' with the conjecture.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
