@@ -1,0 +1,40 @@
+{
+  "entry_id": "2e454ca974f9",
+  "ts": 1781538251.8727844,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1812.10833",
+      "title": "Predictability, topological entropy and invariant random orders",
+      "abstract_excerpt": "We prove that a topologically predictable action of a countable amenable group has zero topological entropy, as conjectured by Hochman. On route, we investigate invariant random orders and formulate a unified Kieffer-Pinsker formula for the Kolmogorov-Sinai entropy of measure preserving actions of amenable groups. We also present a proof due to Weiss for the fact that topologically prime actions of sofic groups have non-positive topological sofic entropy.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper discusses topological entropy and invariant random orders in amenable groups, but does not mention the order-sensitivity of cumulative entropy or the comparison between max-occurrence and min-occurrence elimination orders as described in the conjecture.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2008.11280",
+      "title": "Synergies and Prospects for Early Resolution of the Neutrino Mass Ordering",
+      "abstract_excerpt": "The measurement of neutrino Mass Ordering (MO) is a fundamental element for the understanding of leptonic flavour sector of the Standard Model of Particle Physics. Its determination relies on the precise measurement of $Δm^2_{31}$ and $Δm^2_{32}$ using either neutrino vacuum oscillations, such as the ones studied by medium baseline reactor experiments, or matter effect modified oscillations such as those manifesting in long-baseline neutrino beams (LB$ν$B) or atmospheric neutrino experiments. De",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited paper's abstract discusses neutrino mass ordering measurements and experimental synergies, but it does not provide any information related to cumulative entropy or order-sensitivity of cumulative entropy as mentioned in the conjecture under review.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2211.00501",
+      "title": "Algebraical Entropy and Arrow of Time",
+      "abstract_excerpt": "Usually, it is supposed that irreversibility of time appears only in macrophysics. Here, we attempt to introduce the microphysical arrow of time assuming that at a fundamental level nature could be non-associative. Obtaining numerical results of a measurement, which requires at least three ingredients: object, device and observer, in the non-associative case depends on ordering of operations and is ambiguous. We show that use of octonions as a fundamental algebra, in any measurement, leads to ge",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The cited abstract discusses non-associative algebras and their relation to the arrow of time in measurements, which is orthogonal to the conjecture about order-sensitivity of cumulative entropy in resolution proof complexity. The abstract does not provide any information regarding the comparison between Φ under a BAD elimination order (max-occurrence) and Φ under min-occurrence.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 0,
+    "INSUFFICIENT": 3
+  }
+}

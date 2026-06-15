@@ -1,0 +1,40 @@
+{
+  "entry_id": "8c74b3a7da52",
+  "ts": 1781535284.9286027,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2411.03398",
+      "title": "DP-HLS: A High-Level Synthesis Framework for Accelerating Dynamic Programming Algorithms in Bioinformatics",
+      "abstract_excerpt": "Dynamic programming (DP) based algorithms are essential yet compute-intensive parts of numerous bioinformatics pipelines, which typically involve populating a 2-D scoring matrix based on a recursive formula, optionally followed by a traceback step to get the optimal alignment path. DP algorithms are used in a wide spectrum of bioinformatics tasks, including read assembly, homology search, gene annotation, basecalling, and phylogenetic inference. So far, specialized hardware like ASICs and FPGAs ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses a framework for accelerating dynamic programming algorithms in bioinformatics, but does not mention anything related to the monotonicity of Φ(π)/proof_size or the 'shadow heavier than the body' claim, which is specific to resolution proof complexity and Tseitin formulas.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2407.17951",
+      "title": "Pruning Boolean d-DNNF Circuits Through Tseitin-Awareness",
+      "abstract_excerpt": "Boolean circuits in d-DNNF form enable tractable probabilistic inference. However, as a key insight of this work, we show that commonly used d-DNNF compilation approaches introduce irrelevant subcircuits. We call these subcircuits Tseitin artifacts, as they are introduced due to the Tseitin transformation step -- a well-established procedure to transform any circuit into the CNF format required by several d-DNNF knowledge compilers. We discuss how to detect and remove both Tseitin variables and ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract of the cited paper discusses pruning Boolean d-DNNF circuits and the removal of Tseitin artifacts to improve circuit size. It does not provide any information regarding the monotonicity of Φ(π)/proof_size (number of DP steps) in n or the 'shadow heavier than the body' claim related to the per-step active weight growth.",
+      "judge_provider": "ollama_remote"
+    },
+    {
+      "paper_id": "arxiv:2209.05839",
+      "title": "On bounded depth proofs for Tseitin formulas on the grid; revisited",
+      "abstract_excerpt": "We study Frege proofs using depth-$d$ Boolean formulas for the Tseitin contradiction on $n \\times n$ grids. We prove that if each line in the proof is of size $M$ then the number of lines is exponential in $n/(\\log M)^{O(d)}$. This strengthens a recent result of Pitassi et al. [PRT22]. The key technical step is a multi-switching lemma extending the switching lemma of Håstad [Hås20] for a space of restrictions related to the Tseitin contradiction. The strengthened lemma also allows us to improve ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "INSUFFICIENT",
+      "judge_reasoning": "The abstract discusses bounded depth proofs for Tseitin formulas on grids and provides improved lower bounds for proof size, but it does not explicitly address the monotonicity of Φ(π)/proof_size in terms of per-step active weight growth, which is the specific claim of the conjecture.",
+      "judge_provider": "ollama_remote"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 2,
+    "INSUFFICIENT": 1
+  }
+}
