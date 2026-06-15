@@ -1,0 +1,40 @@
+{
+  "entry_id": "0c1cb2ea9af6",
+  "ts": 1781564839.1641586,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1310.1119",
+      "title": "Reanalysis of the $e^+ e^- \\to (D^* \\bar D^*)^{\\pm} π^{\\mp}$ reaction and the claim for the $Z_c (4025)$ resonance",
+      "abstract_excerpt": "In this paper we study the reaction $e^+ e^- \\to (D^* \\bar D^*)^{\\pm} π^{\\mp}$ in which the BESIII collaboration has claimed the existence of a $1^+$ resonance, named $Z_c(4025)$, in the $D^*\\bar D^*$ invariant mass spectrum with a mass around 4026 MeV and width close to 26 MeV. We determine the $D^*\\bar D^*$ invariant mass distribution and find that although the explanation considered by the BESIII collaboration is plausible, there are others which are equally possible, like a $2^+$ resonance o",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns particle physics (the $Z_c(4025)$ resonance in $e^+e^- \\to (D^*\\bar D^*)^\\pm \\pi^\\mp$ reactions), not resolution proof complexity, Tseitin formulas, or DP steps. There is no interaction with the conjecture beyond a superficial symbol overlap (π).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/math/0503550v1",
+      "title": "On the super replication price of unbounded claims",
+      "abstract_excerpt": "In an incomplete market the price of a claim f in general cannot be uniquely identified by no arbitrage arguments. However, the ``classical'' super replication price is a sensible indicator of the (maximum selling) value of the claim. When f satisfies certain pointwise conditions (e.g., f is bounded",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the super replication price of unbounded claims in incomplete financial markets, which has no interaction with resolution proof complexity, Tseitin formulas, or DP step weights.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2501.09422",
+      "title": "Role of $a_0( 1710)$ in the $D_s^+\\toρ^+φ,~~ρ^+ω$ decays",
+      "abstract_excerpt": "We look into the $D_s^+ \\to ρ^+ φ$ and $D_s^+ \\to ρ^+ ω$ weak decays recently measured by the BESIII collaboration, which proceed very differently in a first step of the weak decay. While the first reaction proceeds directly via external emission, the second one does not go via external nor internal emission, what prompted the experimental team to claim that it proceeds via $W-$annihilation. We show in this work that the unexpectedly large rate of the $D_s^+ \\to ρ^+ ω$, should it be due to $W-$a",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns particle physics weak decays of $D_s^+$ mesons and the $a_0(1710)$ resonance, which has no connection to resolution proof complexity or Tseitin formulas.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

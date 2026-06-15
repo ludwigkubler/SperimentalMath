@@ -1,0 +1,40 @@
+{
+  "entry_id": "bbbef54367d3",
+  "ts": 1781567062.3416848,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1806.06693",
+      "title": "Higher-order field theories: $φ^6$, $φ^8$ and beyond",
+      "abstract_excerpt": "The $φ^4$ model has been the \"workhorse\" of the classical Ginzburg--Landau phenomenological theory of phase transitions and, furthermore, the foundation for a large amount of the now-classical developments in nonlinear science. However, the $φ^4$ model, in its usual variant (symmetric double-well potential), can only possess two equilibria. Many complex physical systems possess more than two equilibria and, furthermore, the number of equilibria can change as a system parameter (e.g., the tempera",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns higher-order scalar field theories (φ^6, φ^8) in Ginzburg-Landau phase transition physics, with no connection to resolution proof complexity, Tseitin formulas, or DP step counts. The shared symbol 'Φ' is coincidental.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2411.15515",
+      "title": "Finding Bugs in Short Proofs: The Metamathematics of Resolution Lower Bounds",
+      "abstract_excerpt": "We study the *refuter* problems for proof complexity lower bounds. Suppose $\\varphi$ is a hard tautology that does not admit any length-$s$ proof in some proof system $P$. In the corresponding refuter problem, we are given (query access to) a purported length-$s$ proof $π$ in $P$ that claims to have proved $\\varphi$, and our goal is to find an invalid derivation step within $π$. As suggested by witnessing theorems in bounded arithmetic, the *computational complexity* of these refuter problems is",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns refuter problems and metamathematics of resolution size lower bounds in bounded arithmetic, not the per-step weight Φ(π)/proof_size of DP steps for Tseitin formulas. It shares the 'resolution lower bounds' vocabulary but does not address monotonicity of any per-step potential function.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2511.03434",
+      "title": "Inter-Agent Trust Models: A Comparative Study of Brief, Claim, Proof, Stake, Reputation and Constraint in Agentic Web Protocol Design-A2A, AP2, ERC-8004, and Beyond",
+      "abstract_excerpt": "As the \"agentic web\" takes shape-billions of AI agents (often LLM-powered) autonomously transacting and collaborating-trust shifts from human oversight to protocol design. In 2025, several inter-agent protocols crystallized this shift, including Google's Agent-to-Agent (A2A), Agent Payments Protocol (AP2), and Ethereum's ERC-8004 \"Trustless Agents,\" yet their underlying trust assumptions remain under-examined. This paper presents a comparative study of trust models in inter-agent protocol design",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns inter-agent trust models in agentic web protocols (A2A, AP2, ERC-8004), with no discussion of resolution proof complexity, Tseitin formulas, DP steps, or potential functions Φ(π). It shares no topical overlap with the conjecture beyond the generic word 'proof'.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

@@ -1,18 +1,18 @@
 {
-  "last_update_utc": "2026-06-15T22:47:09Z",
-  "total_cycles": 8865,
+  "last_update_utc": "2026-06-15T23:47:09Z",
+  "total_cycles": 8890,
   "verdict_counts": {
-    "INCONCLUSIVE": 5816,
+    "INCONCLUSIVE": 5836,
     "SUPPORTED": 4,
     "FALSIFIED": 16,
-    "BARRIER_HIT": 2943,
+    "BARRIER_HIT": 2948,
     "SCOOPED": 86
   },
   "unique_field_A": 2724,
   "top_fields_A": [
     [
       "Resolution proof complexity",
-      2003
+      2028
     ],
     [
       "Algebraic Geometry (Hodge Theory)",

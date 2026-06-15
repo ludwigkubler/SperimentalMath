@@ -1,0 +1,40 @@
+{
+  "entry_id": "04910fe28d80",
+  "ts": 1781563842.3776507,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1606.01763",
+      "title": "A Constructive Proof of Cut Elimination for a System of Full Second Order Logic",
+      "abstract_excerpt": "In this paper we present a constructive proof of cut elimination for a system of full second order logic with the structural rules absorbed and using sets instead of sequences. The standard problem of the cutrank growth is avoided by using a new parameter for the induction, the cutweight. This technique can also be applied to first order logic.",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns cut elimination in second-order logic using a 'cutweight' induction parameter, which shares no interaction with min-occurrence DP elimination on 3-regular Tseitin formulas. The 'cut elimination' vocabulary is from proof theory, not resolution proof complexity on Tseitin instances.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2506.14327",
+      "title": "A uniform cut-elimination theorem for linear logics with fixed points and super exponentials",
+      "abstract_excerpt": "In the realm of light logics deriving from linear logic, a number of variants of exponential rules have been investigated. The profusion of such proof systems induces the need for cut-elimination theorems for each logic, the proof of which may be redundant. A number of approaches in proof theory have been adopted to cope with this need. In the present paper, we consider this issue from the point of view of enhancing linear logic with least and greatest fixed-points and considering such a variety",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns cut-elimination for linear logics with fixed-points and super exponentials, which shares no substantive connection to DP elimination on Tseitin formulas or the growth of Φ(π); the only overlap is the word 'elimination.'",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:0910.3189",
+      "title": "Dp-minimality: basic facts and examples",
+      "abstract_excerpt": "We study the notion of dp-minimality, beginning by providing several essential facts, establishing several equivalent definitions, and comparing dp-minimality to other minimality notions. The rest of the paper is dedicated to examples. We establish via a simple proof that any weakly o-minimal theory is dp-minimal and then give an example of a weakly o-minimal group not obtained by adding traces of externally definable sets. Next we give an example of a divisible ordered Abelian group which is dp",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns 'dp-minimality' in model theory (weakly o-minimal theories, p-adic numbers), which is unrelated to Davis-Putnam (DP) elimination in resolution proof complexity on Tseitin formulas despite the shared 'DP' acronym.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
