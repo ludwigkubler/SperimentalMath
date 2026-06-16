@@ -1,0 +1,40 @@
+{
+  "entry_id": "5e28068c804b",
+  "ts": 1781568375.1412132,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2503.00774",
+      "title": "Shadow: Leveraging Segmentation Masks for Cross-Embodiment Policy Transfer",
+      "abstract_excerpt": "Data collection in robotics is spread across diverse hardware, and this variation will increase as new hardware is developed. Effective use of this growing body of data requires methods capable of learning from diverse robot embodiments. We consider the setting of training a policy using expert trajectories from a single robot arm (the source), and evaluating on a different robot arm for which no data was collected (the target). We present a data editing scheme termed Shadow, in which the robot ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes 'Shadow,' a robotics policy transfer method using segmentation masks, which is entirely unrelated to resolution proof complexity or Tseitin formulas. The shared word 'shadow' is purely coincidental vocabulary overlap.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2308.10896",
+      "title": "Differentiable Shadow Mapping for Efficient Inverse Graphics",
+      "abstract_excerpt": "We show how shadows can be efficiently generated in differentiable rendering of triangle meshes. Our central observation is that pre-filtered shadow mapping, a technique for approximating shadows based on rendering from the perspective of a light, can be combined with existing differentiable rasterizers to yield differentiable visibility information. We demonstrate at several inverse graphics problems that differentiable shadow maps are orders of magnitude faster than differentiable light transp",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns differentiable shadow mapping in inverse graphics ('pre-filtered shadow mapping... combined with existing differentiable rasterizers'), which has no interaction with resolution proof complexity or Tseitin formulas despite the metaphorical use of 'shadow'.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2407.08865",
+      "title": "Single-Image Shadow Removal Using Deep Learning: A Comprehensive Survey",
+      "abstract_excerpt": "Shadow removal aims at restoring the image content within shadow regions, pursuing a uniform distribution of illumination that is consistent between shadow and non-shadow regions. {Comparing to other image restoration tasks, there are two unique challenges in shadow removal:} 1) The patterns of shadows are arbitrary, varied, and often have highly complex trace structures, making ``trace-less'' image recovery difficult. 2) The degradation caused by shadows is spatially non-uniform, resulting in i",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract is about deep learning-based image shadow removal ('Shadow removal aims at restoring the image content within shadow regions'), which has no connection to resolution proof complexity, Tseitin formulas, or DP-step weight monotonicity. The shared vocabulary ('shadow') is purely coincidental.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
