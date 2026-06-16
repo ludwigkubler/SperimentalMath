@@ -1,0 +1,40 @@
+{
+  "entry_id": "6f60fb885321",
+  "ts": 1781593818.7723992,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:1908.04543",
+      "title": "Solution of the self-dual $Φ^4$ QFT-model on four-dimensional Moyal space",
+      "abstract_excerpt": "Previously the exact solution of the planar sector of the self-dual $Φ^4$-model on 4-dimensional Moyal space was established up to the solution of a Fredholm integral equation. This paper solves, for any coupling constant $λ&gt;-\\frac{1}π$, the Fredholm equation in terms of a hypergeometric function and thus completes the construction of the planar sector of the model. We prove that the interacting model has spectral dimension $4-2\\frac{\\arcsin(λπ)}π$ for $|λ|&lt;\\frac{1}π$. It is this dimension",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns the self-dual Φ^4 QFT model on 4-dimensional Moyal space and a Fredholm integral equation, with no mention of Tseitin formulas, resolution proof complexity, or graph expansion. It shares no substantive content with the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2406.00232",
+      "title": "Free-fermion models and the two-dimensional Ising models under the zero field and imaginary field $i(π/2){k_B}T$",
+      "abstract_excerpt": "Ising model is famous in condensed matter and statistical physics. In this work we present a free-fermion formulation of the two-dimensional classical Ising models on the honeycomb, triangular and Kagomé lattices. Each Ising model is studied in the cases of a zero field and of an imaginary field $i(π/2){k_B}T$. We employ the decorated lattice technique, star-triangle transformation and weak-graph expansion method to exactly map each Ising model in both cases into an eight-vertex model on the squ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns free-fermion formulations of 2D Ising models and residual entropy on lattices, with no mention of resolution proof complexity, Tseitin formulas, or expander graphs. The phrase 'non-zero residual entropy' is statistical-physics entropy, unrelated to the proof-complexity measure Φ(π) in the conjecture.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:1504.03294",
+      "title": "Testing Cluster Structure of Graphs",
+      "abstract_excerpt": "We study the problem of recognizing the cluster structure of a graph in the framework of property testing in the bounded degree model. Given a parameter $\\varepsilon$, a $d$-bounded degree graph is defined to be $(k, φ)$-clusterable, if it can be partitioned into no more than $k$ parts, such that the (inner) conductance of the induced subgraph on each part is at least $φ$ and the (outer) conductance of each part is at most $c_{d,k}\\varepsilon^4φ^2$, where $c_{d,k}$ depends only on $d,k$. Our mai",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns sublinear property testing of cluster/conductance structure in bounded-degree graphs, with no mention of Tseitin formulas, resolution proof complexity, or the entropy measure Φ(π). It shares only the loose vocabulary of 'expansion/conductance' but does not interact with the conjecture's specific claim.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
