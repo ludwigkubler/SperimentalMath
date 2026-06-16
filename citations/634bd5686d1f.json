@@ -1,0 +1,40 @@
+{
+  "entry_id": "634bd5686d1f",
+  "ts": 1781587721.215177,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2411.03398",
+      "title": "DP-HLS: A High-Level Synthesis Framework for Accelerating Dynamic Programming Algorithms in Bioinformatics",
+      "abstract_excerpt": "Dynamic programming (DP) based algorithms are essential yet compute-intensive parts of numerous bioinformatics pipelines, which typically involve populating a 2-D scoring matrix based on a recursive formula, optionally followed by a traceback step to get the optimal alignment path. DP algorithms are used in a wide spectrum of bioinformatics tasks, including read assembly, homology search, gene annotation, basecalling, and phylogenetic inference. So far, specialized hardware like ASICs and FPGAs ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses dynamic programming algorithms in bioinformatics and a framework for accelerating them in hardware, but does not mention Tseitin formulas, resolution proof complexity, or the growth rate of Φ(π) under min-occurrence DP elimination, which are the key concepts in the conjecture.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2605.30312",
+      "title": "DP-SAPF: Saliency-Aware Parameter Fine-tuning of Public Models for Differentially Private Image Synthesis",
+      "abstract_excerpt": "Differentially private (DP) image synthesis generates images that preserve the statistical characteristics of a sensitive dataset, enabling sensitive data analysis and usage while providing rigorous guarantees of privacy leakage. Existing methods fine-tune public models using DP Stochastic Gradient Descent (DP-SGD) on sensitive images to generate synthetic images. But full fine-tuning public models on sensitive images is computationally expensive, because current public models typically contain ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses differentially private image synthesis and parameter fine-tuning, which does not interact with the specific claim about the growth of Φ(π) in min-occurrence DP elimination on 3-regular Tseitin formulas.",
+      "judge_provider": "groq"
+    },
+    {
+      "paper_id": "arxiv:2101.07005",
+      "title": "Optical Flow Method for Measuring Deformation of Soil Specimen Subjected to Torsional Shearing",
+      "abstract_excerpt": "In this study optical flow method was used for soil small deformation measurement in laboratory tests. The main objective was to observe how the deformation distributes along the whole height of cylindrical soil specimen subjected to torsional shearing (TS test). The experiments were conducted on dry non-cohesive soil specimens under two values of isotropic pressure. Specimens were loaded with low-amplitude cyclic torque to analyze the deformation within the small strain range (0.001-0.01%). Opt",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses soil deformation measurement using optical flow method, which is unrelated to the conjecture about min-occurrence DP elimination and Φ(π) growth on 3-regular Tseitin formulas, as stated in the phrase 'In this study optical flow method was used for soil small deformation measurement'.",
+      "judge_provider": "groq"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
