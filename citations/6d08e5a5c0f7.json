@@ -1,0 +1,40 @@
+{
+  "entry_id": "6d08e5a5c0f7",
+  "ts": 1781591530.5839808,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:2411.03398",
+      "title": "DP-HLS: A High-Level Synthesis Framework for Accelerating Dynamic Programming Algorithms in Bioinformatics",
+      "abstract_excerpt": "Dynamic programming (DP) based algorithms are essential yet compute-intensive parts of numerous bioinformatics pipelines, which typically involve populating a 2-D scoring matrix based on a recursive formula, optionally followed by a traceback step to get the optimal alignment path. DP algorithms are used in a wide spectrum of bioinformatics tasks, including read assembly, homology search, gene annotation, basecalling, and phylogenetic inference. So far, specialized hardware like ASICs and FPGAs ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract describes 'DP-HLS', a hardware synthesis framework for dynamic programming algorithms in bioinformatics, which shares only the 'DP' acronym with Davis-Putnam elimination and has no bearing on resolution proof complexity or Tseitin formulas.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2209.05839",
+      "title": "On bounded depth proofs for Tseitin formulas on the grid; revisited",
+      "abstract_excerpt": "We study Frege proofs using depth-$d$ Boolean formulas for the Tseitin contradiction on $n \\times n$ grids. We prove that if each line in the proof is of size $M$ then the number of lines is exponential in $n/(\\log M)^{O(d)}$. This strengthens a recent result of Pitassi et al. [PRT22]. The key technical step is a multi-switching lemma extending the switching lemma of Håstad [Hås20] for a space of restrictions related to the Tseitin contradiction. The strengthened lemma also allows us to improve ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns bounded-depth Frege proof size lower bounds for Tseitin on grids via switching lemmas, not min-occurrence DP elimination on 3-regular Tseitin or the growth exponent of Φ(π). It shares the Tseitin vocabulary but does not address the specific DP-elimination measure or its scaling.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2605.30312",
+      "title": "DP-SAPF: Saliency-Aware Parameter Fine-tuning of Public Models for Differentially Private Image Synthesis",
+      "abstract_excerpt": "Differentially private (DP) image synthesis generates images that preserve the statistical characteristics of a sensitive dataset, enabling sensitive data analysis and usage while providing rigorous guarantees of privacy leakage. Existing methods fine-tune public models using DP Stochastic Gradient Descent (DP-SGD) on sensitive images to generate synthetic images. But full fine-tuning public models on sensitive images is computationally expensive, because current public models typically contain ",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns differentially private image synthesis via saliency-aware LoRA fine-tuning ('DP-SAPF, which uses a saliency-aware strategy to identify specific target parameters for LoRA training under DP'), with no connection to resolution proof complexity, DP elimination, or Tseitin formulas.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}

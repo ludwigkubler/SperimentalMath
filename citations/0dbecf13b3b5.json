@@ -1,0 +1,22 @@
+{
+  "entry_id": "0dbecf13b3b5",
+  "ts": 1781592149.1966927,
+  "hits_evaluated": 1,
+  "verdicts": [
+    {
+      "paper_id": "http://arxiv.org/abs/quant-ph/0602053v6",
+      "title": "Combinatorial approach to multipartite quantum systems:basic formulation",
+      "abstract_excerpt": "In this paper we give a method to associate a graph with an arbitrary density matrix referred to a standard orthonormal basis in the Hilbert space of a finite dimensional quantum system. We study the related issues like classification of pure and mixed states, Von-Neumann entropy, separability of mu",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns associating graphs with density matrices in quantum systems and Von-Neumann entropy of quantum states — it does not address Resolution proof complexity, Tseitin formulas, or proof entropy Φ(π) on expander vs. tree graphs.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 1,
+    "INSUFFICIENT": 0
+  }
+}
