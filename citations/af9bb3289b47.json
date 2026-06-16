@@ -1,0 +1,40 @@
+{
+  "entry_id": "af9bb3289b47",
+  "ts": 1781574135.090598,
+  "hits_evaluated": 3,
+  "verdicts": [
+    {
+      "paper_id": "arxiv:0707.3622",
+      "title": "Constant-degree graph expansions that preserve the treewidth",
+      "abstract_excerpt": "Many hard algorithmic problems dealing with graphs, circuits, formulas and constraints admit polynomial-time upper bounds if the underlying graph has small treewidth. The same problems often encourage reducing the maximal degree of vertices to simplify theoretical arguments or address practical concerns. Such degree reduction can be performed through a sequence of splittings of vertices, resulting in an _expansion_ of the original graph. We observe that the treewidth of a graph may increase dram",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract discusses degree-reducing graph expansions that preserve treewidth, with no mention of Tseitin formulas, resolution proof complexity, or any entropy measure Φ(π). It shares only the generic 'graph expansion' vocabulary and does not interact with the conjecture's separation claim.",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "arxiv:2605.25743",
+      "title": "Discriminants of derivatives and symmetric difference polynomials",
+      "abstract_excerpt": "Let $P$ be a monic polynomial of degree $n$ with roots $x_1,\\ldots,x_n$. We study the discriminants of the derivatives $P^{(k)}$ as symmetric translation-invariant polynomials in the original roots. The general ``square-graph cone'' positivity problem was formulated by Alexandersson and Shapiro. The main result of this note proves this conjecture for the terminal cubic family $k=n-3$: we give an explicit positive square-graph expansion for $\\disc(P^{(n-3)})$. We also record closed central-moment",
+      "abstract_source": "arxiv",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns discriminants of polynomial derivatives and 'square-graph cone' positivity (Alexandersson-Shapiro), with no mention of Tseitin formulas, resolution proof complexity, expanders, or entropy measures Φ(π).",
+      "judge_provider": "claude_max"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/cond-mat/0212500v3",
+      "title": "Moments of vicious walkers and Möbius graph expansions",
+      "abstract_excerpt": "A system of Brownian motions in one-dimension all started from the origin and conditioned never to collide with each other in a given finite time-interval $(0, T]$ is studied. The spatial distribution of such vicious walkers can be described by using the repulsive eigenvalue-statistics of random Her",
+      "abstract_source": "cached",
+      "judge_verdict": "ORTHOGONAL",
+      "judge_reasoning": "The abstract concerns Brownian motion vicious walkers and random matrix eigenvalue statistics, with no mention of Tseitin formulas, resolution proof complexity, or graph expanders. The shared term 'expansion' refers to Möbius graph expansions in combinatorics, not expander graphs in proof complexity.",
+      "judge_provider": "claude_max"
+    }
+  ],
+  "summary_counts": {
+    "SUPPORTS": 0,
+    "REFUTES": 0,
+    "ORTHOGONAL": 3,
+    "INSUFFICIENT": 0
+  }
+}
