@@ -1,9 +1,9 @@
-# SEC P-vs-NP — System Status: **🟢 OK**
+# SEC P-vs-NP — System Status: **🟡 DEGRADED**
 
-_Updated: 2026-06-16T03:45:02.114729+00:00 (auto-refresh every 5 min)_
+_Updated: 2026-06-16T04:20:01.534973+00:00 (auto-refresh every 5 min)_
 
 - CRITICAL failures: **0**
-- DEGRADED failures: **0**
+- DEGRADED failures: **1**
 
 ## Checks
 
@@ -11,15 +11,15 @@ _Updated: 2026-06-16T03:45:02.114729+00:00 (auto-refresh every 5 min)_
 |:------|:-------|:-------|
 | `explorer_process` | ✅ | pid 2050 |
 | `explorer_singleton` | ✅ | 1 explorer process(es) |
-| `explorer_cycle_fresh` | ✅ | last activity 0.01h ago |
+| `explorer_cycle_fresh` | ✅ | last activity 0.03h ago |
 | `sec_entity_service` | ✅ | active |
 | `cron_service` | ✅ | active |
 | `gpu` | ✅ | NVIDIA GeForce RTX 3070 Ti |
 | `disk_under_90pct` | ✅ | 18% used |
-| `ram_above_1g` | ✅ | 8177 MB available |
-| `mirror_git_fresh` | ✅ | last commit 0.96h ago |
-| `mirror_git_pushed` | ✅ | 0 unpushed (within tolerance) |
-| `notebook_growing` | ✅ | newest entry 0.97h ago |
+| `ram_above_1g` | ✅ | 8591 MB available |
+| `mirror_git_fresh` | ✅ | last commit 0.55h ago |
+| `mirror_git_pushed` | 🟡 | git fetch failed (network?) |
+| `notebook_growing` | ✅ | newest entry 0.60h ago |
 | `entity_audit_log` | ✅ | dir ok, no entries today (chat-idle) |
 | `cron_logs_no_trace` | ✅ | all clean |
 | `watchdog_self_heartbeat` | ✅ | 5.0 min ago |
